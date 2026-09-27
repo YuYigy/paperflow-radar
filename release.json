@@ -1,8 +1,8 @@
 {
-  "release_id": "7e61da9de04fee47a04e4ed4",
+  "release_id": "ca21f2ce8cd9b59251bc78a3",
   "mode": "public",
-  "built_at": "2026-09-21T15:22:01.530518+00:00",
-  "count": 23,
+  "built_at": "2026-09-27T00:22:53.189884+00:00",
+  "count": 28,
   "health": [
     {
       "source": "optica-news",
@@ -18,7 +18,7 @@
     },
     {
       "source": "arxiv",
-      "status": "ok"
+      "status": "failed"
     },
     {
       "source": "crossref",
@@ -26,14 +26,18 @@
     },
     {
       "source": "openalex",
-      "status": "ok"
+      "status": "failed"
     },
     {
       "source": "crossref-watch",
       "status": "ok"
+    },
+    {
+      "source": "paperflow-collector",
+      "status": "failed"
     }
   ],
-  "source_date": "2026-09-21",
+  "source_date": "2026-09-27",
   "base": "https://yuyigy.github.io/paperflow-radar/",
   "history": [
     {
@@ -75,9 +79,38 @@
       "release_id": "7e61da9de04fee47a04e4ed4",
       "built_at": "2026-09-21T15:22:01.530518+00:00",
       "count": 23
+    },
+    {
+      "release_id": "ca21f2ce8cd9b59251bc78a3",
+      "built_at": "2026-09-27T00:22:53.189884+00:00",
+      "count": 28
     }
   ],
   "records": [
+    {
+      "record_id": "ec909743-78d7-4be9-b1db-362c68ae51c8",
+      "revision": 2
+    },
+    {
+      "record_id": "f530c863-3292-4b60-b303-6a559790f8fc",
+      "revision": 2
+    },
+    {
+      "record_id": "30cc6cc5-b4d8-4cb4-938b-ac20bff2f1f2",
+      "revision": 2
+    },
+    {
+      "record_id": "02dd4062-0e82-4e05-a0ea-cead87b4e2df",
+      "revision": 2
+    },
+    {
+      "record_id": "d4849107-d38e-4410-99fa-cad25e0a1bca",
+      "revision": 3
+    },
+    {
+      "record_id": "4366c923-36b1-4537-96e9-234af822bf86",
+      "revision": 2
+    },
     {
       "record_id": "eb324717-17cd-487c-9be4-4b6a65fbce1b",
       "revision": 4
@@ -92,10 +125,6 @@
     },
     {
       "record_id": "02036ea0-d2f2-45ad-a1f5-0388f7fa51a3",
-      "revision": 3
-    },
-    {
-      "record_id": "d3387500-db63-4f02-9257-113e570bc51b",
       "revision": 3
     },
     {
@@ -173,39 +202,44 @@
   ],
   "files": {
     ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-    "about.html": "504cfab68b896ac0f40432a040aeb4480805ff05640fbe30dba2df9343ceaa67",
-    "archive.html": "579e00e7b68f3e5626f2b0f0ce1a19e6d2e8103c32ca4833c87e525c05b738d4",
+    "about.html": "46006028444a80110bb5511c901077015043b03bdd3765d06e27f0aae0e31bd2",
+    "archive.html": "bff3f95da08bf9920f70c9ae1be48396f4cb4f0dd5eea8ebf59cc130ed844b80",
     "email.html": "3bdc2c84d28d5cedb8777f28c111ce4d1035ed731200963988a92a70f7c10d68",
     "email.txt": "80a35ce58320463172e5f65c79ba3074befecdd5e93119d97d918015e2a1f211",
-    "feed.xml": "345c387c12da88de8cb09e77e2c396fe31eac852b802e904df81900e3e020741",
-    "index.html": "ea5a8ce9c587cbf35cbbc2e5823baaafab6472562eed1f895f8336427165f331",
-    "venues.html": "d19a357628e934e4754289013b3d2ba3b91d865ab172fab71912db18d1128dfb",
+    "feed.xml": "50296f84d410c62caa1eff08221b41ba39f5777f642ab5ca3ba597f7be6ba2e5",
+    "index.html": "ca022828a20d4fcb444b3f37cde123240bf0be75fe1bd8868f88faf5f6489430",
+    "venues.html": "22e19e8ecd9ecc535707d52e1aca9a97bfcb7e48127d9a21a70b280500dc0daf",
     "assets/filter.js": "45492fd8f0970841f4bb244c68334dc5989497506da1d6290bffa08ab379fbea",
     "assets/style.css": "86b9992cc0ab781528a0581e5bc0b52aee1cd3ae08a0e3d354abe4f6c132de48",
-    "data/items.json": "ea71f9ac66da3001c0125cdf4c3545812ad76500213b1a46da0b1590affad57a",
-    "data/releases.json": "569e8984d28cda1ef9e248f96c7bdd3056951f70ef2c836d55c1635108b26640",
-    "items/00cc52b0-1aa2-4187-b961-15d3f68d7b06.html": "665fd77560070589437b4f86a7576f40d17e9423d70329a930e72992592d7c02",
-    "items/02036ea0-d2f2-45ad-a1f5-0388f7fa51a3.html": "c4cd00e9cf538d5a140919f36e8f6def4154be0b847fb7c4c92e899de6a867b4",
-    "items/155d8add-54bc-4cec-bd46-d1aeb80ef1f3.html": "48211066bb53a3a08860de4a669e9ab62b06670f068b4d42a273529588de1f7d",
-    "items/212827d5-e6c7-4d56-a51b-a907108c312b.html": "1be7ec1b0c02896fa8916665b021aecdc1f27bbfbd43117728751aa0008d4a2b",
-    "items/2ec4f3a1-dfb2-42b9-a12f-53d7c89fee69.html": "a102b0ca71f2d545a3e3eb95cb0c85b79b015d7a2bde9f15a4e2cecc45b36d95",
-    "items/391dbdc4-7896-4b99-8b2f-16c93ca4b9e2.html": "e2ed3b7b15a3f1b57accd47199caf07e8278cc9957daa5d98d3b4ae04fd03cc2",
-    "items/39c68ffc-3e4b-4184-8546-6885d7e07e39.html": "536de5158905af28c0380858091b2c9626a4f2711f931078b7d522441c76b322",
-    "items/4b663a08-2047-4cad-a872-9d77a755ecc2.html": "01bb8a1b043fba3b63f75831bd816ab4f2a663d3ec3237b68aebe5537b4682b9",
-    "items/5757e43a-b98f-4f2c-909f-bba16e034c40.html": "21a6f9567c7f80244360ea104cd2ea2d4ef43a6fb6f4e1cfe0fbef0afb2fda5d",
-    "items/5a697ddf-5c81-4782-b0ac-2398ffb0c666.html": "57356cdfc1b864edee3bbbd1b9add2f700cf64e677fccae6762da589d1011bf5",
-    "items/5dd0a41b-a422-4ce5-b907-ba9d09c658ed.html": "a648d69c056454424356a3e3edae15c041c70fd28ea7f4ca0b205217e8a18c08",
-    "items/66db5c4b-002c-47a4-93f6-e852f8c9b807.html": "b5767a5bd3728937ededbe8ae46bf4b9fbe043fbe95ebb12661305aa143b49c8",
-    "items/6d3b8fee-556b-4463-8dbc-6149a905a2d6.html": "8935c3807993dc2a17aef99da75cd48d0bb6a6d452f2f9eaf2d3a9c37d8dfd57",
-    "items/8d60f728-c9e7-4cd8-b75c-2e94ce9c09da.html": "55f028e584a22e8450bcd9fb56e92b647cb57c8b9437515ab702b6729dc7fdba",
-    "items/994cbb17-5399-4f66-8f71-f55bd3220cb9.html": "a49c953460d53dcac9859f82aea7564a1aca4d98ea4052c9e7508a92a9ad0e20",
-    "items/a3a34738-e59f-4070-8bf3-9f71b4defb2c.html": "f5918dbd87f1235a9b4864a8ae0df4b9d24b63a5e11e2d49cff94253f1025fd0",
-    "items/c5af0ffc-ad8f-487f-ab71-44caa662b897.html": "496d54b942b745078366407d280d6e461f28c3888855f0c7ccc8d62c9d023e0f",
-    "items/c7445b5a-d082-4841-bfb1-486ef113bb6d.html": "7703049d2046f6e88d83cb2d428ffe18d54d1d7a25086b26c1e957984d47f74d",
-    "items/cf44ba21-0250-4d4b-ac58-b7bfa86278b6.html": "9a51ca9cb7497b14c76f00133efdbee8299a37288b6e1a1c746cfed9de6fec52",
-    "items/d3387500-db63-4f02-9257-113e570bc51b.html": "18f2aa47a4bcf5ded9f5d3bb5d373b0936e90fdb533d8158602df9113098d595",
-    "items/d522c895-4e15-4675-9b29-0bbf43c6738e.html": "7105554bbc6ca7d3f1a83024c0d5ddeea6efa2c08fb29cba98e9aeea43be4d07",
-    "items/e05b2616-f81d-49b6-b134-b88956180f58.html": "0d825af6cfdcc8ce9eeb09add4ef9ecc687c9d6996dcebf9524faef018f545ac",
-    "items/eb324717-17cd-487c-9be4-4b6a65fbce1b.html": "e40b70fe6c0de54bdafc0103eaf572522c24599e96129f460746175eb6f915ae"
+    "data/items.json": "e159731df6605d3b4bfd31e8ab169ce751415d60b41ad57537aba72f101eb748",
+    "data/releases.json": "3c6e940fc94e29357b67b690bc0ab2ec006693c408c9562750ef5676a062d137",
+    "items/00cc52b0-1aa2-4187-b961-15d3f68d7b06.html": "7c851b0087d743a275d031697ca23c4cefea175b204caff80e5cfa26f3b2efa0",
+    "items/02036ea0-d2f2-45ad-a1f5-0388f7fa51a3.html": "fe266d0c3fda5c64b7ef336fde1cdc5d336e589fc05b8fb07b7d6b009c3c70a8",
+    "items/02dd4062-0e82-4e05-a0ea-cead87b4e2df.html": "4d0cd112e375ba2196cf1fb92c91ba4f48a09f5cb177d7e5090ecb80940bfc56",
+    "items/155d8add-54bc-4cec-bd46-d1aeb80ef1f3.html": "13882e4a91d0bf4ee7c5a1dcaa04c79106518ba819bec4ddd394d74f5c447434",
+    "items/212827d5-e6c7-4d56-a51b-a907108c312b.html": "3535b783942968a1a5b28621ae9e0a8fd1fd6752ac53cad6947aef8a8d61d8ab",
+    "items/2ec4f3a1-dfb2-42b9-a12f-53d7c89fee69.html": "7cb031c6a774a6243dde38266674dd3aafd5a72e1086748ef8521598db27b117",
+    "items/30cc6cc5-b4d8-4cb4-938b-ac20bff2f1f2.html": "884d531b4ce1679ac27d7c7ccb6333a660258cea9f8de0390603acb4d62de1bd",
+    "items/391dbdc4-7896-4b99-8b2f-16c93ca4b9e2.html": "cf0a497ce15b2b46cb38a314c8429e7bb7bb1c487074957d997f9628c1982171",
+    "items/39c68ffc-3e4b-4184-8546-6885d7e07e39.html": "42a54e0f4ed8f285fd847640d5fcb19d3b18de836c1d34cbc6f07227eb418497",
+    "items/4366c923-36b1-4537-96e9-234af822bf86.html": "830beee018e2a6e9451070a1d96c61695b2887b286d7e8b539f49747628f0b50",
+    "items/4b663a08-2047-4cad-a872-9d77a755ecc2.html": "bd498009ea0508babf13c86b6d1afe7189710e15d4536c243e11484160c32f34",
+    "items/5757e43a-b98f-4f2c-909f-bba16e034c40.html": "eea49f9867ab288bc1335358c48f5f13dade63d40c758a08684101abfc570044",
+    "items/5a697ddf-5c81-4782-b0ac-2398ffb0c666.html": "e1277eff9d060fb9ee79e50a9cf0eefd609065ea442af5ba6c200c195d5aaea1",
+    "items/5dd0a41b-a422-4ce5-b907-ba9d09c658ed.html": "11af2c6bc9e2f262c99ccd079989c5da0aa24996792b326f7990a4cc8d0dc33b",
+    "items/66db5c4b-002c-47a4-93f6-e852f8c9b807.html": "a4c13af010a3634ad9c129eb17d1603c612611ec145c7dc58068fb810abe98ca",
+    "items/6d3b8fee-556b-4463-8dbc-6149a905a2d6.html": "582d475f3a40ac8acb2db800a35fe0c15f739c4a0d0e3a7fc5b5db7f1fee31dd",
+    "items/8d60f728-c9e7-4cd8-b75c-2e94ce9c09da.html": "b58f7200cf43e3169ad5ae7d6175690854fbe390d29af106db1deaf2403b3496",
+    "items/994cbb17-5399-4f66-8f71-f55bd3220cb9.html": "95b701f83ae3bd964d45bc645ce0460a69f0ed1b5547d52bf591b7d179aee786",
+    "items/a3a34738-e59f-4070-8bf3-9f71b4defb2c.html": "ca592c0ae9833c80454ea725a9d1efce3c65085cc19f6b812e87d621a49ac429",
+    "items/c5af0ffc-ad8f-487f-ab71-44caa662b897.html": "eb01ad591e0812475156132782ba9f4ce76564b99fa0d50fb586323899a86610",
+    "items/c7445b5a-d082-4841-bfb1-486ef113bb6d.html": "3c577048b89e4a6ee7defdedf4a5b408fea3dc9ec50acafd63d8e393afc75359",
+    "items/cf44ba21-0250-4d4b-ac58-b7bfa86278b6.html": "2344a2c29e1d4a33352516266978703e2afe448ffc1718e9249e333175931190",
+    "items/d4849107-d38e-4410-99fa-cad25e0a1bca.html": "0b5b7d136b006b41996388fa0256d0e84069e7501297cf42cfdd66ae66b40331",
+    "items/d522c895-4e15-4675-9b29-0bbf43c6738e.html": "110bb4b49fec3cfb9798e19732406fb921a899c900d90ba9d9c2c74819569fbe",
+    "items/e05b2616-f81d-49b6-b134-b88956180f58.html": "e309d061241e1182551c7bbf688d1ea93fb22b7dfc48f7312416d57106264f1d",
+    "items/eb324717-17cd-487c-9be4-4b6a65fbce1b.html": "627a89d58cbff83da72bff0fc86d2e40552ee64b4d8b309fe9cf8472db23097a",
+    "items/ec909743-78d7-4be9-b1db-362c68ae51c8.html": "9ca5f4c6745dcbaa6483622d6683d5fa1acd7352fe1a4ac6b7d5f31b63d1e8c7",
+    "items/f530c863-3292-4b60-b303-6a559790f8fc.html": "06e248c4636e6e290643590a2a54494a00e304a4595ecb425c8c46af342fbbc5"
   }
 }

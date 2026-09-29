@@ -1,0 +1,18 @@
+{
+  "schema": "paperflow.capabilities/v1",
+  "items": "items.json",
+  "research": "research-index.json",
+  "reading_export": "paperflow.reading-workspace/v1",
+  "features": {
+    "local_notes": true,
+    "reading_queue": true,
+    "ai_notes": false,
+    "cloud_sync": false,
+    "remote_search": false
+  },
+  "extension_slots": [
+    "paper.detail.tools",
+    "reading.workspace.tools"
+  ],
+  "private_handoff": "radar reading-import --file <workspace.json>"
+}

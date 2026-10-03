@@ -1092,3 +1092,18 @@ footer small {
 .rating-guide dd {
   margin:6px 0 0
 }
+
+/* Bibliographic coverage shares the same controls and reading surfaces. */
+.site-header nav { flex-wrap: wrap; }
+.coverage-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 16px; }
+.coverage-entry { padding: 18px; background: var(--canvas); border: 1px solid var(--line); border-radius: 8px; }
+.coverage-entry h3 { font-size: 17px; }
+.coverage-entry p { font-size: 13px; margin: 6px 0; }
+.catalog-pagination { justify-content: center; margin-bottom: 30px; }
+button:disabled { cursor: default; opacity: .5; }
+.catalog-card .byline { margin-bottom: 10px; }
+@media(max-width:760px) { .coverage-grid { grid-template-columns: 1fr; } .site-header nav a { font-size: 12px; padding: 8px; } }
+
+.detail .coverage-entry { padding: 18px; margin: 0; border: 1px solid var(--line); }
+.catalog-card .meta { flex-wrap: wrap; }
+.catalog-card { overflow-wrap: anywhere; }

@@ -158,9 +158,161 @@
       "title": "从器件到系统可用性",
       "description": "关注硅光、调制器、微环与集成平台。",
       "question": "器件性能能否在损耗、驱动和制造约束下转化为系统收益？",
-      "count": 10,
-      "latest": "2026-09-22",
+      "count": 13,
+      "latest": "2026-10-02",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "4751207b-029d-4680-a7b7-e5c52651727e",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Wideband photonic subsampling up to 110 GHz at a 1-GHz sampling rate using a thin-film lithium niobate modulator",
+          "authors": [
+            "Fujian Yu",
+            "Ke Yin",
+            "Wei Dong",
+            "Tao Zhang",
+            "Guoning Zhang",
+            "Ziyang Zhu",
+            "Xiangai Cheng",
+            "Tian Jiang"
+          ],
+          "doi": "10.1364/ol.608760",
+          "venue": "Optics Letters",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "f01bbddcb7738bfc",
+            "name": "Optics Letters",
+            "original_name": "Optics Letters",
+            "abbr": "OL",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Optics Letters",
+              "OL",
+              "Opt. Lett."
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-02",
+          "topics": [
+            "通信光子器件与集成"
+          ],
+          "summary_zh": "摘要报告结合约1 GHz重复频率的飞秒锁模激光器与110 GHz带宽薄膜铌酸锂调制器，将最高110 GHz载波下变频到0–500 MHz中频带，并使用低带宽商用ADC数字化。在109.99 GHz处有效位数为4.1，时序抖动为6.4 fs；整个测量频段的杂散抑制超过30 dB，无需硬件重配置。",
+          "title_zh": "薄膜铌酸锂实现110 GHz光子欠采样接收",
+          "missing_evidence": [
+            "调制信号接收质量、误码率、输入动态范围与系统功耗。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1364/ol.608760",
+              "text": "摘要报告结合约1 GHz重复频率的飞秒锁模激光器与110 GHz带宽薄膜铌酸锂调制器，将最高110 GHz载波下变频到0–500 MHz中频带，并使用低带宽商用ADC数字化。在109.99 GHz处有效位数为4.1，时序抖动为6.4 fs；整个测量频段的杂散抑制超过30 dB，无需硬件重配置。"
+            }
+          ],
+          "ai_inference": [
+            "光子欠采样可为毫米波通信接收前端及光电融合信号处理提供迁移思路。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/ol.608760",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-03T00:29:44.906076+00:00"
+        },
+        {
+          "schema_version": 1,
+          "record_id": "b6f1ece6-56fc-4fa5-acbb-fb840bc7560d",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Hybrid integration of quantum cascade lasers with germanium-on-silicon waveguides for mid-infrared sensing applications",
+          "authors": [
+            "Colin J. Mitchell",
+            "Longqi Zhou",
+            "Ke Li",
+            "Daniel Adeyemi",
+            "Ahmed Osman",
+            "Milos Nedeljkovic",
+            "Glenn Churchill",
+            "James C. Gates",
+            "Graham T. Reed",
+            "Kristian M. Groom",
+            "Jon Heffernan",
+            "Goran Z. Mashanovich"
+          ],
+          "doi": "10.1364/oe.600656",
+          "venue": "Optics Express",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "20fe917b3f1c57bc",
+            "name": "Optics Express",
+            "original_name": "Optics Express",
+            "abbr": "OE",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Optics Express",
+              "OE",
+              "Opt. Express"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-09-30",
+          "topics": [
+            "通信光子器件与集成"
+          ],
+          "summary_zh": "研究将量子级联激光器条倒装键合到锗硅波导芯片，无需主动对准，在脉冲运行下实现最高50%的端面耦合效率，对应3.03 dB损耗。光功率估算表明，耦入波导的功率超过50 mW。摘要将该方案的潜在应用列为中红外传感、自由空间通信和新型光源。",
+          "title_zh": "量子级联激光器与锗硅波导的无主动对准集成",
+          "missing_evidence": [
+            "仅有摘要，缺少通信调制、误码率、连续波运行、封装可靠性及实际通信链路验证。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1364/oe.600656",
+              "text": "研究将量子级联激光器条倒装键合到锗硅波导芯片，无需主动对准，在脉冲运行下实现最高50%的端面耦合效率，对应3.03 dB损耗。光功率估算表明，耦入波导的功率超过50 mW。摘要将该方案的潜在应用列为中红外传感、自由空间通信和新型光源。"
+            }
+          ],
+          "ai_inference": [
+            "被动对准的中红外光源集成可能迁移至自由空间光通信发射端，需验证调制能力与链路性能。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/oe.600656",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-02T00:29:11.104654+00:00"
+        },
         {
           "schema_version": 1,
           "record_id": "4366c923-36b1-4537-96e9-234af822bf86",
@@ -229,153 +381,6 @@
           "reading_level": "B",
           "news_priority": null,
           "review_note": "AI 审核通过 · 摘要范围 · 2026-09-27T00:22:51.279619+00:00"
-        },
-        {
-          "schema_version": 1,
-          "record_id": "66db5c4b-002c-47a4-93f6-e852f8c9b807",
-          "revision": 3,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Silicon-based silicon nitride micro- and nanofabrication technologies for electronic-photonic convergence: from ultra-low loss to CMOS-compatible integration",
-          "authors": [
-            "Xiaoqing Bao",
-            "Yimeng Zhang",
-            "Yongkang Liu",
-            "Kun Zhong",
-            "Jiahong Zhang",
-            "Zhiqun Cheng",
-            "Shuming Wang",
-            "Zhijun Yin"
-          ],
-          "doi": "10.1117/12.3120908",
-          "venue": "Ninth Global Intelligent Industry Conference (GIIC 2026)",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "2d924022a8d4c423",
-            "name": "Global Intelligent Industry Conference",
-            "original_name": "Ninth Global Intelligent Industry Conference (GIIC 2026)",
-            "abbr": "GIIC",
-            "kind": "conference",
-            "match_status": "matched",
-            "aliases": [
-              "Global Intelligent Industry Conference",
-              "GIIC",
-              "Ninth Global Intelligent Industry Conference (GIIC 2026)"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "不适用期刊等级",
-            "rank_order": 99,
-            "focus_tier": null,
-            "focus_label": "知流关注级未定",
-            "focus_order": 99,
-            "hust_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "华科光电等级待核实"
-          },
-          "published_at": "2026-09-19",
-          "topics": [
-            "通信光子器件与集成"
-          ],
-          "summary_zh": "这篇综述讨论氮化硅波导制造中的光损耗、机械应力和热预算冲突，比较不同集成路线及沉积、平坦化和退火工艺。",
-          "title_zh": "氮化硅光子工艺：低损耗与电子工艺兼容的取舍",
-          "missing_evidence": [
-            "这是工艺综述，不是同一芯片同时实现全部性能的实验；具体比较需回到引用文献。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1117/12.3120908",
-              "text": "这篇综述讨论氮化硅波导制造中的光损耗、机械应力和热预算冲突，比较不同集成路线及沉积、平坦化和退火工艺。"
-            }
-          ],
-          "ai_inference": [
-            "可作为数据中心光互连与相干光路器件选型的工艺背景阅读。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1117/12.3120908",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-09-20T05:45:18.856623+00:00"
-        },
-        {
-          "schema_version": 1,
-          "record_id": "391dbdc4-7896-4b99-8b2f-16c93ca4b9e2",
-          "revision": 4,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Compact Two‐Dimensional Focal‐Plane‐Array Beam Steering on Thin‐Film Lithium Tantalate Enabled by Binary Electrode Coding",
-          "authors": [
-            "Ziliang Ruan",
-            "Xijie Wang",
-            "Guowu Zhang",
-            "Kaixuan Chen",
-            "Liu Liu"
-          ],
-          "doi": "10.1002/lpor.71923",
-          "venue": "Laser & Photonics Reviews",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "4d348a50e2c95ba5",
-            "name": "Laser & Photonics Reviews",
-            "original_name": "Laser & Photonics Reviews",
-            "abbr": "LPR",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Laser & Photonics Reviews",
-              "LPR",
-              "Laser & Photonics Review",
-              "Laser Photonics Rev."
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": "P1",
-            "focus_label": "知流 P1 · 前沿重点",
-            "focus_order": 1,
-            "hust_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "华科光电等级待核实"
-          },
-          "published_at": "2026-09-19",
-          "topics": [
-            "通信光子器件与集成",
-            "自由空间、可见光与空间光通信"
-          ],
-          "summary_zh": "摘要报告通过二进制电极编码控制级联光开关，将输入路由到光栅发射阵列；焦平面切换与正交方向的波长调谐共同实现二维扫描。",
-          "title_zh": "薄膜钽酸锂焦平面阵列：减少光束扫描控制电极",
-          "missing_evidence": [
-            "开关响应不等于整个系统跟踪速度；还需核对波长调谐、封装和实际通信链路。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1002/lpor.71923",
-              "text": "摘要报告通过二进制电极编码控制级联光开关，将输入路由到光栅发射阵列；焦平面切换与正交方向的波长调谐共同实现二维扫描。"
-            }
-          ],
-          "ai_inference": [
-            "值得关注光无线终端中控制线数量与扫描规模的关系。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract+pdf-link",
-          "source_url": "https://doi.org/10.1002/lpor.71923",
-          "related_ids": [],
-          "relevance_class": "direct",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-09-20T05:45:18.856623+00:00"
         }
       ]
     },
@@ -473,9 +478,153 @@
       "title": "跨越自由空间的光链路",
       "description": "关注湍流、波束、捕获跟踪与空间传输。",
       "question": "结论在什么天气、距离与指向误差条件下成立？",
-      "count": 10,
-      "latest": "2026-09-29",
+      "count": 12,
+      "latest": "2026-10-02",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "427d8ddd-3497-4bd4-8026-a5181cbdf49f",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Signal detection in optical NOMA waveforms for VLC-based satellite systems using higher-order modulation",
+          "authors": [
+            "N.V. Uma Reddy",
+            "Muhannad Alshareef",
+            "Fateh Bahadur Kunwar",
+            "Abdennabi Morchid",
+            "K. Shashi Raj",
+            "Abdullah Alwabli",
+            "Arun Kumar"
+          ],
+          "doi": "10.1515/joc-2026-0421",
+          "venue": "Journal of Optical Communications",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "a11a7eb93fc7eae5",
+            "name": "Journal of Optical Communications",
+            "original_name": "Journal of Optical Communications",
+            "abbr": "J. Opt. Commun.",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Journal of Optical Communications",
+              "J. Opt. Commun."
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "未匹配 CIE 2023",
+            "rank_order": 99,
+            "focus_tier": "P3",
+            "focus_label": "知流 P3 · 扩展关注",
+            "focus_order": 3,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-02",
+          "topics": [
+            "自由空间、可见光与空间光通信"
+          ],
+          "summary_zh": "研究针对两用户卫星光无线NOMA波形，结合功率域叠加、自由空间路径损耗与对数正态湍流模型、直接探测和串行干扰消除，评估多种PAM阶数。摘要报告了调制阶数、功率分配和检测方法对误码率与可靠性的影响。",
+          "title_zh": "卫星光无线NOMA的高阶PAM检测分析",
+          "missing_evidence": [
+            "仅有摘要，未明确结果是否全部来自仿真，也未提供硬件实验、实际卫星链路或模型适用范围的证据。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1515/joc-2026-0421",
+              "text": "研究针对两用户卫星光无线NOMA波形，结合功率域叠加、自由空间路径损耗与对数正态湍流模型、直接探测和串行干扰消除，评估多种PAM阶数。摘要报告了调制阶数、功率分配和检测方法对误码率与可靠性的影响。"
+            }
+          ],
+          "ai_inference": [
+            "可研究高阶PAM、用户功率分配与检测复杂度之间的联合优化。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1515/joc-2026-0421",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-02T00:29:11.104654+00:00"
+        },
+        {
+          "schema_version": 1,
+          "record_id": "bbddd2c0-c87a-4cdb-8769-2f6ece7342de",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Reliable V2V networks via LED-based Li-Fi technology for road safety applications",
+          "authors": [
+            "Mohan P. Thakre",
+            "Krupali Devendra Kanekar",
+            "Badal Kumar",
+            "Alok Kumar",
+            "Supriya Nilesh Thakur",
+            "Pranali M. Thakre",
+            "Prashant Kedarnath Magadum"
+          ],
+          "doi": "10.11591/eei.v15i5.11398",
+          "venue": "Bulletin of Electrical Engineering and Informatics",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "39a14766522715b8",
+            "name": "Bulletin of Electrical Engineering and Informatics",
+            "original_name": "Bulletin of Electrical Engineering and Informatics",
+            "abbr": "Bulletin of Electrical Engineering and Informatics",
+            "kind": "journal",
+            "match_status": "unmatched",
+            "aliases": [
+              "Bulletin of Electrical Engineering and Informatics",
+              "Bulletin of Electrical Engineering and Informatics"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "未匹配 CIE 2023",
+            "rank_order": 99,
+            "focus_tier": null,
+            "focus_label": "知流关注级未定",
+            "focus_order": 99,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-01",
+          "topics": [
+            "自由空间、可见光与空间光通信"
+          ],
+          "summary_zh": "研究提出以车灯LED发送、光电二极管接收并采用曼彻斯特编码的车间可见光通信方案，开展仿真与硬件原型验证。摘要报告原型在15 cm距离实现可靠通信，性能受到收发距离、光强和探测器灵敏度影响。",
+          "title_zh": "LED车间可见光通信的15厘米原型验证",
+          "missing_evidence": [
+            "仅有摘要，缺少具体误码率、数据速率、时延、能耗及真实道路测试。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.11591/eei.v15i5.11398",
+              "text": "研究提出以车灯LED发送、光电二极管接收并采用曼彻斯特编码的车间可见光通信方案，开展仿真与硬件原型验证。摘要报告原型在15 cm距离实现可靠通信，性能受到收发距离、光强和探测器灵敏度影响。"
+            }
+          ],
+          "ai_inference": [
+            "可进一步研究环境光、车辆运动和更长距离下的链路可靠性。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.11591/eei.v15i5.11398",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-02T00:29:11.104654+00:00"
+        },
         {
           "schema_version": 1,
           "record_id": "ff40d9a4-3f5e-4193-92c7-240f8c47484a",
@@ -541,143 +690,6 @@
           "reading_level": "B",
           "news_priority": null,
           "review_note": "AI 审核通过 · 摘要范围 · 2026-09-30T00:25:57.918022+00:00"
-        },
-        {
-          "schema_version": 1,
-          "record_id": "d4849107-d38e-4410-99fa-cad25e0a1bca",
-          "revision": 3,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "A modeling framework for OAM integrity of super Lorentz–Gauss beams in turbulent free-space optical communications",
-          "authors": [
-            "H. Dehdashti Jahromi",
-            "O. R. Daneshmandi"
-          ],
-          "doi": "10.1038/s41598-026-72399-w",
-          "venue": "Scientific Reports",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "bef6dc2fba258ff6",
-            "name": "Scientific Reports",
-            "original_name": "Scientific Reports",
-            "abbr": "Sci. Rep.",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Scientific Reports",
-              "Sci. Rep."
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": "P3",
-            "focus_label": "知流 P3 · 扩展关注",
-            "focus_order": 3,
-            "hust_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "华科光电等级待核实"
-          },
-          "published_at": "2026-09-22",
-          "topics": [
-            "自由空间、可见光与空间光通信"
-          ],
-          "summary_zh": "研究为超洛伦兹–高斯涡旋光束建立半解析模型，计算湍流传播后的平均轨道角动量模态功率谱，并分析光束结构参数的影响。模型采用泰勒冻结湍流假设描述接收积分时间的作用，使用含空间串扰和接收噪声的开关键控误码率模型评估通信性能，并与解析极限及分步傅里叶波动光学仿真对照。",
-          "title_zh": "湍流自由空间链路的OAM完整性建模",
-          "missing_evidence": [
-            "实际提供内容仅为摘要，PDF链接状态不代表已取得全文。",
-            "缺少实验验证、具体湍流参数以及强湍流条件下的适用性证据。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1038/s41598-026-72399-w",
-              "text": "研究为超洛伦兹–高斯涡旋光束建立半解析模型，计算湍流传播后的平均轨道角动量模态功率谱，并分析光束结构参数的影响。模型采用泰勒冻结湍流假设描述接收积分时间的作用，使用含空间串扰和接收噪声的开关键控误码率模型评估通信性能，并与解析极限及分步傅里叶波动光学仿真对照。"
-            }
-          ],
-          "ai_inference": [
-            "结构光通信设计可联合考虑模态阶数、光束形状与接收积分窗口，避免仅依据发射端模态复杂度判断链路容量。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract+pdf-link",
-          "source_url": "https://doi.org/10.1038/s41598-026-72399-w",
-          "related_ids": [],
-          "relevance_class": "direct",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-09-27T00:22:51.279619+00:00"
-        },
-        {
-          "schema_version": 1,
-          "record_id": "eb324717-17cd-487c-9be4-4b6a65fbce1b",
-          "revision": 4,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Integrated optoelectronic system for laser wireless power and communication for unmanned platforms",
-          "authors": [
-            "Rui Li",
-            "Hancheng Cao",
-            "Yu Lei"
-          ],
-          "doi": "10.1117/12.3120951",
-          "venue": "Ninth Global Intelligent Industry Conference (GIIC 2026)",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "2d924022a8d4c423",
-            "name": "Global Intelligent Industry Conference",
-            "original_name": "Ninth Global Intelligent Industry Conference (GIIC 2026)",
-            "abbr": "GIIC",
-            "kind": "conference",
-            "match_status": "matched",
-            "aliases": [
-              "Global Intelligent Industry Conference",
-              "GIIC",
-              "Ninth Global Intelligent Industry Conference (GIIC 2026)"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "不适用期刊等级",
-            "rank_order": 99,
-            "focus_tier": null,
-            "focus_label": "知流关注级未定",
-            "focus_order": 99,
-            "hust_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "华科光电等级待核实"
-          },
-          "published_at": "2026-09-19",
-          "topics": [
-            "自由空间、可见光与空间光通信"
-          ],
-          "summary_zh": "文章综述无人平台激光无线供能与数据同步传输的应用和研究进展，讨论激光源、光电池、驱动电源、光学与散热系统，以及跟踪、传输效率和安全挑战。",
-          "title_zh": "无人平台激光供能与通信综述",
-          "missing_evidence": [
-            "仅有摘要，缺少全文中的通信架构、性能比较和文献覆盖范围。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1117/12.3120951",
-              "text": "文章综述无人平台激光无线供能与数据同步传输的应用和研究进展，讨论激光源、光电池、驱动电源、光学与散热系统，以及跟踪、传输效率和安全挑战。"
-            }
-          ],
-          "ai_inference": [
-            "可为供能与通信共用光链路的系统约束梳理提供参考。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1117/12.3120951",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "C",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-09-20T20:13:04.182751+00:00"
         }
       ]
     },
@@ -908,9 +920,80 @@
       "title": "从单链路到网络协同",
       "description": "关注资源分配、控制与业务可靠性。",
       "question": "仿真增益是否包含控制开销、故障与真实业务变化？",
-      "count": 1,
-      "latest": "2026-09-18",
+      "count": 2,
+      "latest": "2026-10-01",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "b1a5d51d-fd21-44b9-b98a-a3dd16f41044",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Realization of movable wireless TDM-PONs via low-latency dual-stage predictive beam tracking",
+          "authors": [
+            "Anzi Xu",
+            "Chao Zhang",
+            "Yujie Di",
+            "Yingjie Shao",
+            "Lian-Kuan Chen"
+          ],
+          "doi": "10.1364/oe.612737",
+          "venue": "Optics Express",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "20fe917b3f1c57bc",
+            "name": "Optics Express",
+            "original_name": "Optics Express",
+            "abbr": "OE",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Optics Express",
+              "OE",
+              "Opt. Express"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-01",
+          "topics": [
+            "光网络与控制"
+          ],
+          "summary_zh": "研究采用双阶段预测跟踪网络，改造商用1 Gbit/s EPON收发器，实验演示支持移动ONU的无线TDM-PON。在相同跟踪硬件下，跟踪时延较PID顺序跟踪降低38.5%。ONU速度为18 cm/s时，平均下行与上行吞吐分别为805和798 Mbit/s。",
+          "title_zh": "双阶段预测跟踪支持移动无线TDM-PON",
+          "missing_evidence": [
+            "仅有摘要，缺少链路距离、运动轨迹、遮挡条件、模型泛化与长时间稳定性数据。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1364/oe.612737",
+              "text": "研究采用双阶段预测跟踪网络，改造商用1 Gbit/s EPON收发器，实验演示支持移动ONU的无线TDM-PON。在相同跟踪硬件下，跟踪时延较PID顺序跟踪降低38.5%。ONU速度为18 cm/s时，平均下行与上行吞吐分别为805和798 Mbit/s。"
+            }
+          ],
+          "ai_inference": [
+            "预测与转向并行处理可用于研究移动光接入中的跟踪时延与吞吐协同优化。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/oe.612737",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-02T00:29:11.104654+00:00"
+        },
         {
           "schema_version": 1,
           "record_id": "5757e43a-b98f-4f2c-909f-bba16e034c40",
@@ -1154,10 +1237,10 @@
       ]
     }
   ],
-  "unclassified": 8,
+  "unclassified": 14,
   "evidence_counts": {
     "abstract+pdf-link": 15,
-    "abstract-only": 17,
+    "abstract-only": 31,
     "official-announcement": 1
   }
 }

@@ -158,7 +158,7 @@
       "title": "从器件到系统可用性",
       "description": "关注硅光、调制器、微环与集成平台。",
       "question": "器件性能能否在损耗、驱动和制造约束下转化为系统收益？",
-      "count": 13,
+      "count": 14,
       "latest": "2026-10-02",
       "items": [
         {
@@ -389,9 +389,80 @@
       "title": "从算法收益到实时实现",
       "description": "关注均衡、编码、非线性补偿与光子计算。",
       "question": "精度收益是否包含复杂度、训练开销和跨链路泛化代价？",
-      "count": 1,
-      "latest": "2026-08-28",
+      "count": 2,
+      "latest": "2026-09-30",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "610ff7db-8652-4f92-aa6f-c85d7e001a51",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Decoupled equalization of polarization and transmitter IQ skew in digital subcarrier multiplexing systems",
+          "authors": [
+            "Hong Lin",
+            "Jing Zhang",
+            "Shaohua Hu",
+            "Bo Xu",
+            "Kun Qiu"
+          ],
+          "doi": "10.1364/oe.609627",
+          "venue": "Optics Express",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "20fe917b3f1c57bc",
+            "name": "Optics Express",
+            "original_name": "Optics Express",
+            "abbr": "OE",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Optics Express",
+              "OE",
+              "Opt. Express"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-09-30",
+          "topics": [
+            "DSP、编码与智能算法"
+          ],
+          "summary_zh": "研究通过设计训练序列，以严格线性2×2 MIMO进行偏振解复用，再以嵌入锁相环的广义线性2×2 MIMO联合补偿激光相位噪声和发射端IQ偏斜。在由八个12.5-Gbaud子载波组成的100-GBaud偏振复用16-QAM相干光纤传输实验中，3 ps发射端IQ偏斜条件下，相较传统均衡配置获得0.53 dB的Q²因子增益。相较4×4广义线性滤波器，其性能相当，所需实数乘法数量减少26.9%。",
+          "title_zh": "数字子载波系统的偏振与IQ偏斜解耦均衡",
+          "missing_evidence": [
+            "传输距离、训练开销、滤波器配置及不同偏斜条件下的性能曲线。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1364/oe.609627",
+              "text": "研究通过设计训练序列，以严格线性2×2 MIMO进行偏振解复用，再以嵌入锁相环的广义线性2×2 MIMO联合补偿激光相位噪声和发射端IQ偏斜。在由八个12.5-Gbaud子载波组成的100-GBaud偏振复用16-QAM相干光纤传输实验中，3 ps发射端IQ偏斜条件下，相较传统均衡配置获得0.53 dB的Q²因子增益。相较4×4广义线性滤波器，其性能相当，所需实数乘法数量减少26.9%。"
+            }
+          ],
+          "ai_inference": [
+            "针对损伤耦合设计训练序列，可能为相干接收DSP提供精度与复杂度兼顾的实现路径。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/oe.609627",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "C",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-04T00:29:12.428793+00:00"
+        },
         {
           "schema_version": 1,
           "record_id": "cf44ba21-0250-4d4b-ac58-b7bfa86278b6",
@@ -478,7 +549,7 @@
       "title": "跨越自由空间的光链路",
       "description": "关注湍流、波束、捕获跟踪与空间传输。",
       "question": "结论在什么天气、距离与指向误差条件下成立？",
-      "count": 12,
+      "count": 13,
       "latest": "2026-10-02",
       "items": [
         {
@@ -627,69 +698,75 @@
         },
         {
           "schema_version": 1,
-          "record_id": "ff40d9a4-3f5e-4193-92c7-240f8c47484a",
+          "record_id": "95d5b806-bc3a-4fa1-b5ce-4af447952de6",
           "revision": 2,
           "is_demo": false,
           "kind": "paper",
-          "title": "Deep Learning-Based Channel Equalization for Visible Light Communication Systems",
+          "title": "Real-time air-to-water mobile visible light communication using a trend differential detection method",
           "authors": [
-            "Shixuan Kang"
+            "Jiehui Liu",
+            "Peng Guo",
+            "Wen Long Zuo",
+            "Yunfeng Bai",
+            "Suihu Dang",
+            "Lin Qin"
           ],
-          "doi": "10.54254/2755-2721/2027.melb37312",
-          "venue": "Applied and Computational Engineering",
+          "doi": "10.1364/ol.614003",
+          "venue": "Optics Letters",
           "venue_info": {
             "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "c1cc41422a579a97",
-            "name": "Applied and Computational Engineering",
-            "original_name": "Applied and Computational Engineering",
-            "abbr": "Applied and Computational Engineering",
+            "id": "f01bbddcb7738bfc",
+            "name": "Optics Letters",
+            "original_name": "Optics Letters",
+            "abbr": "OL",
             "kind": "journal",
-            "match_status": "unmatched",
+            "match_status": "matched",
             "aliases": [
-              "Applied and Computational Engineering",
-              "Applied and Computational Engineering"
+              "Optics Letters",
+              "OL",
+              "Opt. Lett."
             ],
             "rank_scheme": "cie-electronics-communications-2023",
             "rank_source": "中国电子学会 2023",
             "rank_version": "2023",
             "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": null,
-            "focus_label": "知流关注级未定",
-            "focus_order": 99,
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
             "hust_grade": null,
             "hust_status": "unverified",
             "hust_label": "华科光电等级待核实"
           },
-          "published_at": "2026-09-29",
+          "published_at": "2026-10-01",
           "topics": [
             "自由空间、可见光与空间光通信"
           ],
-          "summary_zh": "该综述讨论可见光通信中的LED带宽限制、符号间干扰、器件非线性和接收机噪声，比较人工神经网络、卷积神经网络、长短期记忆网络及混合或模型驱动结构，并强调轻量化设计。摘要指出，不同架构适用于不同信道条件，没有单一架构在所有场景下最优。",
-          "title_zh": "可见光通信深度学习均衡综述",
+          "summary_zh": "研究提出趋势差分检测方法，扩展空水可见光通信的接收极角动态范围。自来水实验实现2.0 Mb/s实时移动通信，极角动态范围达到32°，为传统符号差分检测的1.6倍。另在平均波高8 cm、极角动态范围20°条件下，接收器以1.0 m/s移动时误码率保持低于前向纠错阈值。",
+          "title_zh": "趋势差分检测支持空水移动光通信",
           "missing_evidence": [
-            "全文的文献覆盖范围、跨方法比较条件及计算复杂度依据。"
+            "链路距离、水体光学参数、前向纠错阈值及运动测试轨迹。"
           ],
           "facts": [
             {
               "locator": "abstract",
-              "source_url": "https://doi.org/10.54254/2755-2721/2027.melb37312",
-              "text": "该综述讨论可见光通信中的LED带宽限制、符号间干扰、器件非线性和接收机噪声，比较人工神经网络、卷积神经网络、长短期记忆网络及混合或模型驱动结构，并强调轻量化设计。摘要指出，不同架构适用于不同信道条件，没有单一架构在所有场景下最优。"
+              "source_url": "https://doi.org/10.1364/ol.614003",
+              "text": "研究提出趋势差分检测方法，扩展空水可见光通信的接收极角动态范围。自来水实验实现2.0 Mb/s实时移动通信，极角动态范围达到32°，为传统符号差分检测的1.6倍。另在平均波高8 cm、极角动态范围20°条件下，接收器以1.0 m/s移动时误码率保持低于前向纠错阈值。"
             }
           ],
           "ai_inference": [
-            "可按非线性程度、信道记忆长度和部署资源约束组织均衡器选型与对比实验。"
+            "该检测方法可作为水面扰动及接收器运动条件下的移动光链路设计候选。"
           ],
           "metrics": [],
           "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.54254/2755-2721/2027.melb37312",
+          "source_url": "https://doi.org/10.1364/ol.614003",
           "related_ids": [],
           "relevance_class": "direct",
           "reading_level": "B",
           "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-09-30T00:25:57.918022+00:00"
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-04T00:29:12.428793+00:00"
         }
       ]
     },
@@ -1237,10 +1314,10 @@
       ]
     }
   ],
-  "unclassified": 14,
+  "unclassified": 20,
   "evidence_counts": {
-    "abstract+pdf-link": 15,
-    "abstract-only": 31,
+    "abstract+pdf-link": 16,
+    "abstract-only": 39,
     "official-announcement": 1
   }
 }

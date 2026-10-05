@@ -4,7 +4,7 @@
 <meta name="description" content="知流光通信研究工作台：检索论文、探索研究方向、理解证据与刊会等级，整理个人阅读笔记。">
 <meta name="color-scheme" content="light"><title>阅读工作台 · 知流 PaperFlow</title>
 <link rel="stylesheet" href="assets/style.css"><link rel="alternate" type="application/rss+xml" title="知流研究动态" href="feed.xml">
-<script src="assets/workspace.js" defer></script></head>
+<script src="assets/workspace.js" defer></script><script src="assets/research.js" defer></script></head>
 <body data-prefix="" data-page="workspace"><a class="skip" href="#main">跳到内容</a>
 <header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="知流 PaperFlow 首页"><span class="mark" aria-hidden="true">知</span><span>知流 <small>PaperFlow</small></span></a><span class="brand-caption">光通信研究工作台</span>
 <nav aria-label="主导航"><a href="today.html">今日阅读</a><a href="index.html">精选解读</a><a href="catalog.html">刊会题录</a><a href="conferences.html">会议专题</a><a href="explore.html">方向探索</a><a href="workspace.html" aria-current="page">阅读工作台</a><a href="venues.html">刊会分级</a></nav></div></header>
@@ -12,9 +12,10 @@
 <main id="main">
 <section class="page-heading"><div><p class="kicker">阅读工作台</p><h1>让每次阅读留下可用的线索</h1><p class="intro">安排阅读，记录问题与证据，再把笔记带回自己的研究库。</p></div><a class="button secondary" href="index.html#research">继续找论文</a></section>
 <div class="notice subtle">阅读清单与笔记只保存在当前浏览器，不会上传或公开。换设备前请导出备份。</div>
+<section class="panel"><div class="section-title"><h2>个人研究空间</h2><a class="button secondary" href="research.html">打开研究空间</a></div><p>设置研究偏好、对比论文证据、关注作者，把新的研究问题记入选题本。</p></section>
 <section class="workspace-controls panel"><div class="workspace-filters" role="group" aria-label="阅读状态"><button type="button" data-workspace-filter="all" aria-pressed="true">全部</button><button type="button" data-workspace-filter="queued" aria-pressed="false">待读</button><button type="button" data-workspace-filter="reading" aria-pressed="false">在读</button><button type="button" data-workspace-filter="done" aria-pressed="false">已读</button></div><div class="actions"><button type="button" id="export-workspace">导出备份 / 精读任务</button><label class="file-button">导入备份<input id="import-workspace" type="file" accept=".json,application/json"></label></div><p class="fine">导入会合并记录，保留较新的修改；“已读”只表示个人进度，不改变论文的证据等级。</p></section>
 <p id="workspace-count" role="status"></p><div id="workspace-list" class="workspace-list"><p>正在读取本机阅读清单…</p></div><noscript><p>阅读工作台需要启用 JavaScript。论文库与论文详情仍可直接浏览。</p></noscript>
-<section class="panel"><h2>接下来，进入精读</h2><p>先记录研究问题、核心贡献、方法和比较条件，再补充原文定位。个人想法与论文结论分开书写。</p><p class="fine">AI 精读笔记尚未连接服务。导出的任务可接入本机 PaperFlow；当前不会自动上传全文或调用模型。</p><div data-extension-slot="reading.workspace.tools"></div></section>
+<section class="panel"><h2>接下来，进入精读</h2><p>先记录研究问题、核心贡献、方法和比较条件，再补充原文定位。个人想法与论文结论分开书写。</p><p class="fine">项目文件夹中的“read-pdf.cmd”已支持本机 PDF 精读：提供论文详情链接，选择你有权使用的 PDF，生成带页码的私有 AI 草稿，再将 browser-import.json 导入这里。调用模型前请先备份现有笔记；图表与结论仍需核查，网站不会自动上传全文。</p><div data-extension-slot="reading.workspace.tools"></div></section>
 </main>
-<footer><span>知流 PaperFlow · 沿着证据理解研究</span><nav aria-label="辅助导航"><a href="archive.html">归档</a><a href="about.html">方法与证据</a><a href="feed.xml">RSS 订阅</a></nav><small>页面生成 2026-10-04 · 北京时间</small></footer>
+<footer><span>知流 PaperFlow · 沿着证据理解研究</span><nav aria-label="辅助导航"><a href="archive.html">归档</a><a href="about.html">方法与证据</a><a href="feed.xml">RSS 订阅</a></nav><small>页面生成 2026-10-05 · 北京时间</small></footer>
 </div><p id="app-notice" class="toast" role="status" hidden></p></body></html>

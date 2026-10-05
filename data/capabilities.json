@@ -5,12 +5,18 @@
   "venue_index": "venue-index.json",
   "reading_export": "paperflow.reading-workspace/v1",
   "reading_dashboard": "reading-dashboard.json",
+  "research_export": "paperflow.research-workspace/v1",
   "features": {
     "local_notes": true,
     "reading_queue": true,
     "ai_notes": false,
     "cloud_sync": false,
-    "remote_search": false
+    "remote_search": false,
+    "research_profile": true,
+    "paper_comparison": true,
+    "author_follow": true,
+    "question_notebook": true,
+    "private_pdf_handoff": true
   },
   "extension_slots": [
     "paper.detail.tools",

@@ -1125,6 +1125,25 @@ button:disabled { cursor: default; opacity: .5; }
 .quick-brief p,.quick-brief li { font-size:14px; }
 .brief-proof { margin-top:8px; color:var(--muted); font-size:12px; }
 .brief-proof p { border-left:2px solid var(--line); padding-left:12px; }
+.research-tabs { display:flex; flex-wrap:wrap; gap:10px; margin:20px 0; }
+.research-tabs a { padding:10px 16px; border:1px solid var(--line); border-radius:10px; background:var(--surface,#fff); }
+.research-section { scroll-margin-top:100px; margin:24px 0; }
+.research-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; margin:18px 0; }
+.research-grid label { display:flex; flex-direction:column; gap:8px; min-width:0; }
+.research-grid input,.research-grid select,.research-grid textarea { width:100%; min-width:0; }
+.span-two { grid-column:1/-1; }
+.comparison-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; }
+.comparison-card,.question-card,.author-group { border:1px solid var(--line); border-radius:12px; padding:22px; min-width:0; overflow-wrap:anywhere; }
+.comparison-card h3 { margin:18px 0 10px; font-size:18px; }
+.comparison-card h4,.question-card h4 { font-size:14px; margin:20px 0 6px; color:var(--muted); }
+.comparison-card>a { display:block; margin-top:12px; }
+.question-list { display:grid; gap:16px; margin-top:24px; }
+.author-group { margin:18px 0; }
+.preserve-lines { white-space:pre-wrap; }
+.research-card-actions { margin-top:16px; font-size:13px; }
+.research-card-actions details { max-width:100%; }
+.research-card-actions details .actions { margin:12px 0; }
+@media(max-width:760px) { .research-grid,.comparison-grid { grid-template-columns:1fr; } .comparison-card,.question-card,.author-group { padding:16px; } .research-tabs a { padding:9px 12px; font-size:13px; } }
 .conference-launcher { display:grid; grid-template-columns:repeat(5,minmax(0,1fr)); gap:10px; margin:22px 0; }
 .conference-launcher button { flex-direction:column; align-items:flex-start; padding:14px 18px; }
 .conference-launcher strong { color:var(--accent); font-size:17px; }

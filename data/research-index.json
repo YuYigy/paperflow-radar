@@ -997,9 +997,79 @@
       "title": "从单链路到网络协同",
       "description": "关注资源分配、控制与业务可靠性。",
       "question": "仿真增益是否包含控制开销、故障与真实业务变化？",
-      "count": 2,
-      "latest": "2026-10-01",
+      "count": 3,
+      "latest": "2026-10-02",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "f4ebc50f-8596-419c-b880-913a2a4f6439",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "preprint",
+          "title": "Sparse Distributed Fiber Optic Sensor Placement in Metropolitan and Datacenter Elastic Optical Networks",
+          "authors": [
+            "Sleman Mouammar",
+            "Ítalo B. Brasileiro",
+            "André Drummond"
+          ],
+          "doi": null,
+          "venue": "arXiv",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "43ef3159143b717e",
+            "name": "arXiv",
+            "original_name": "arXiv",
+            "abbr": "arXiv",
+            "kind": "preprint",
+            "match_status": "platform",
+            "aliases": [
+              "arXiv",
+              "arXiv"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "不适用期刊等级",
+            "rank_order": 99,
+            "focus_tier": null,
+            "focus_label": "知流关注级未定",
+            "focus_order": 99,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-02",
+          "topics": [
+            "光网络与控制"
+          ],
+          "summary_zh": "该预印本通过仿真研究城域和数据中心弹性光网络中分布式光纤传感设备的数量、部署位置及预测时间对故障恢复的影响，评估带宽阻塞率、受故障影响的电路数量和业务停机时间。摘要报告，贪心最短路径覆盖（GSPC）启发式在传感覆盖5%链路时显著减少受影响电路，25%覆盖时的性能增益与全覆盖场景相当。在5%覆盖场景下，城域和数据中心网络分别采用15毫秒和7.5毫秒预测窗口即可支持即时（JIT）恢复。",
+          "title_zh": "稀疏光纤传感部署支持光网络故障预恢复",
+          "missing_evidence": [
+            "未提供正文，无法核对网络拓扑、故障模型、预测准确率、控制时延及统计分析。",
+            "未提供实际传感和网络恢复实验，也未提供成本量化证据。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://arxiv.org/abs/2610.03338v1",
+              "text": "该预印本通过仿真研究城域和数据中心弹性光网络中分布式光纤传感设备的数量、部署位置及预测时间对故障恢复的影响，评估带宽阻塞率、受故障影响的电路数量和业务停机时间。摘要报告，贪心最短路径覆盖（GSPC）启发式在传感覆盖5%链路时显著减少受影响电路，25%覆盖时的性能增益与全覆盖场景相当。在5%覆盖场景下，城域和数据中心网络分别采用15毫秒和7.5毫秒预测窗口即可支持即时（JIT）恢复。"
+            }
+          ],
+          "ai_inference": [
+            "可将传感设备部署位置与光网络恢复策略联合优化，探索有限传感覆盖下的恢复收益。",
+            "预测窗口可作为传感系统与网络控制协同设计的参数；实际部署效果仍需实验验证。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract+pdf-link",
+          "source_url": "https://arxiv.org/abs/2610.03338v1",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-06T00:42:35.592962+00:00"
+        },
         {
           "schema_version": 1,
           "record_id": "b1a5d51d-fd21-44b9-b98a-a3dd16f41044",
@@ -1314,10 +1384,10 @@
       ]
     }
   ],
-  "unclassified": 18,
+  "unclassified": 24,
   "evidence_counts": {
-    "abstract+pdf-link": 14,
-    "abstract-only": 39,
+    "abstract+pdf-link": 16,
+    "abstract-only": 44,
     "official-announcement": 1
   }
 }

@@ -1,6 +1,448 @@
 [
   {
     "schema_version": 1,
+    "record_id": "1f7a96d8-7538-4810-94c0-de7f09339133",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Explainable SHAP-based feature selection for accurate and computationally efficient network response time prediction in optical communication networks",
+    "authors": [
+      "Shayma Wail Nourildean",
+      "Thamer M. Jamel"
+    ],
+    "doi": "10.1515/joc-2026-0402",
+    "venue": "Journal of Optical Communications",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-09-21-v1",
+      "id": "a11a7eb93fc7eae5",
+      "name": "Journal of Optical Communications",
+      "original_name": "Journal of Optical Communications",
+      "abbr": "J. Opt. Commun.",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Journal of Optical Communications",
+        "J. Opt. Commun."
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "未匹配 CIE 2023",
+      "rank_order": 99,
+      "focus_tier": "P3",
+      "focus_label": "知流 P3 · 扩展关注",
+      "focus_order": 3,
+      "hust_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "华科光电等级待核实"
+    },
+    "published_at": "2026-10-07",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "论文提出以SHAP解释模型并筛选关键网络参数的机器学习框架，在相同条件下比较多种回归模型及堆叠集成模型筛选前后的表现。摘要报告，特征筛选效果因模型而异：随机森林在筛选后获得最佳总体预测表现，MAE和RMSE分别改善3.90%和4.85%，训练时间减少12.79%；梯度提升的训练时间减少51.44%。研究还评估了RAM使用、推理延迟和模型大小。",
+    "title_zh": "SHAP特征筛选用于光网络响应时间预测",
+    "missing_evidence": [
+      "仅提供摘要，缺少数据来源、网络配置、样本规模、响应时间单位及训练测试划分。",
+      "缺少全文，无法确认是否使用真实光网络测量数据，以及计算开销比较的硬件条件。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1515/joc-2026-0402",
+        "text": "论文提出以SHAP解释模型并筛选关键网络参数的机器学习框架，在相同条件下比较多种回归模型及堆叠集成模型筛选前后的表现。摘要报告，特征筛选效果因模型而异：随机森林在筛选后获得最佳总体预测表现，MAE和RMSE分别改善3.90%和4.85%，训练时间减少12.79%；梯度提升的训练时间减少51.44%。研究还评估了RAM使用、推理延迟和模型大小。"
+      }
+    ],
+    "ai_inference": [
+      "可考虑将解释性特征筛选用于光网络性能管理，但需验证其在不同网络配置和业务分布下的泛化能力。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1515/joc-2026-0402",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-07T00:29:04.409527+00:00"
+  },
+  {
+    "schema_version": 1,
+    "record_id": "ea50ad8b-02f6-408e-ac0f-4b524c023044",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Photonic integrated recurrent spectrum slicer enabling low complexity direct detection over 200 GBaud dispersive links",
+    "authors": [
+      "H. Liu",
+      "K. Sozos",
+      "I. Teofilovic",
+      "S. Wantee",
+      "K. R. H. Bottrill",
+      "S. Malhouitre",
+      "S. Garcia",
+      "G. Sarantoglou",
+      "P. Bienstman",
+      "B. Charbonnier",
+      "C. Mesaritakis",
+      "C. Vigliar",
+      "F. Da Ros",
+      "A. Bogris",
+      "P. Petropoulos"
+    ],
+    "doi": "10.1038/s44172-026-00801-6",
+    "venue": "Communications Engineering",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-09-21-v1",
+      "id": "d5ce570521f9e116",
+      "name": "Communications Engineering",
+      "original_name": "Communications Engineering",
+      "abbr": "Communications Engineering",
+      "kind": "journal",
+      "match_status": "unmatched",
+      "aliases": [
+        "Communications Engineering",
+        "Communications Engineering"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "未匹配 CIE 2023",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "华科光电等级待核实"
+    },
+    "published_at": "2026-10-06",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "论文报告循环光谱切片（ROSS）架构的集成光子接收机，通过光学预处理与频率分集检测提供互补的强度域观测，缓解色散引起的功率衰落。摘要报告实验实现：160 GBaud PAM-4传输50 km、175 GBaud PAM-4传输25 km，以及200 GBaud OOK传输75 km，均使用未补偿的标准单模光纤，并采用低带宽电光器件和简单前馈均衡。报告的色散容限最高为2.4×10^5 GBd·ps/nm。",
+    "title_zh": "集成光子频谱切片接收机实现200 GBaud直检传输",
+    "missing_evidence": [
+      "全文中的误码率、纠错门限、器件带宽、均衡配置及对照实验细节。",
+      "接收机功耗、插入损耗和系统复杂度的定量比较。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1038/s44172-026-00801-6",
+        "text": "论文报告循环光谱切片（ROSS）架构的集成光子接收机，通过光学预处理与频率分集检测提供互补的强度域观测，缓解色散引起的功率衰落。摘要报告实验实现：160 GBaud PAM-4传输50 km、175 GBaud PAM-4传输25 km，以及200 GBaud OOK传输75 km，均使用未补偿的标准单模光纤，并采用低带宽电光器件和简单前馈均衡。报告的色散容限最高为2.4×10^5 GBd·ps/nm。"
+      }
+    ],
+    "ai_inference": [
+      "互补频谱观测可为高符号率IM/DD链路的色散补偿提供研究思路；其在无源光网络和数据中心互连中的应用价值仍需结合系统代价验证。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1038/s44172-026-00801-6",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-07T00:33:20.042886+00:00"
+  },
+  {
+    "schema_version": 1,
+    "record_id": "9b15cb0f-da8f-4d4d-9a3a-53b0b7c86b71",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Application research of artificial neural network algorithm model in photonic crystal design",
+    "authors": [
+      "Miaoyou Liu"
+    ],
+    "doi": "10.1117/12.3131740",
+    "venue": "Sixth International Conference on Advanced Algorithms and Signal Image Processing (AASIP 2026)",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-09-21-v1",
+      "id": "8fd1d013c5629238",
+      "name": "Sixth International Conference on Advanced Algorithms and Signal Image Processing (AASIP 2026)",
+      "original_name": "Sixth International Conference on Advanced Algorithms and Signal Image Processing (AASIP 2026)",
+      "abbr": "Sixth International Conference on Advanced Algorithms and Signal Image Processing (AASIP 2026)",
+      "kind": "conference",
+      "match_status": "unmatched",
+      "aliases": [
+        "Sixth International Conference on Advanced Algorithms and Signal Image Processing (AASIP 2026)",
+        "Sixth International Conference on Advanced Algorithms and Signal Image Processing (AASIP 2026)"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "华科光电等级待核实"
+    },
+    "published_at": "2026-10-06",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "该研究结合文献回顾与数值仿真，构建前馈神经网络多任务预测模型，以波矢和结构几何参数为输入，同时预测归一化频率、带隙中心频率、带隙宽度及平均色散斜率。训练采用Levenberg–Marquardt算法，摘要报告测试集决定系数为0.98207、均方误差为3.96×10⁻⁵，并讨论向二维、三维光子晶体扩展时的泛化局限。",
+    "title_zh": "神经网络辅助光子晶体能带设计",
+    "missing_evidence": [
+      "全文及数据集规模、参数范围和测试集划分细节。",
+      "与经典数值方法的计算耗时及误差对比。",
+      "器件制备、实验测量及光通信系统性能验证。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1117/12.3131740",
+        "text": "该研究结合文献回顾与数值仿真，构建前馈神经网络多任务预测模型，以波矢和结构几何参数为输入，同时预测归一化频率、带隙中心频率、带隙宽度及平均色散斜率。训练采用Levenberg–Marquardt算法，摘要报告测试集决定系数为0.98207、均方误差为3.96×10⁻⁵，并讨论向二维、三维光子晶体扩展时的泛化局限。"
+      }
+    ],
+    "ai_inference": [
+      "能带、带隙和色散的联合预测可为光通信相关光子晶体器件的参数筛选提供设计启发；具体器件性能收益仍需验证。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1117/12.3131740",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-07T00:39:36.031066+00:00"
+  },
+  {
+    "schema_version": 1,
+    "record_id": "4e7f47f3-c92a-4989-afda-c0bfd2ec251f",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Mobile optical communication using a fiber-optic drone",
+    "authors": [
+      "Jiahao Gou",
+      "Mingxu Liu",
+      "Xinjie Mo",
+      "Linning Wang",
+      "Ziqian Qi",
+      "Pengyang Liu",
+      "Yingze Liang",
+      "Qunjie Liu",
+      "Shuqin Chen",
+      "Tianchen Fang",
+      "Yongjin Wang"
+    ],
+    "doi": "10.1364/oe.612858",
+    "venue": "Optics Express",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-09-21-v1",
+      "id": "20fe917b3f1c57bc",
+      "name": "Optics Express",
+      "original_name": "Optics Express",
+      "abbr": "OE",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Optics Express",
+        "OE",
+        "Opt. Express"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": "T2",
+      "rank_label": "CIE T2 · 2023",
+      "rank_order": 2,
+      "focus_tier": "P2",
+      "focus_label": "知流 P2 · 领域核心",
+      "focus_order": 2,
+      "hust_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "华科光电等级待核实"
+    },
+    "published_at": "2026-10-06",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "该研究结合光纤飞行控制与上行链路、可见光下行链路，实现无人机飞行控制与空地移动光通信。系统通过三轴云台动态维持光路对准，并以实时数据传输验证端到端中继路径。摘要报告，在接收光功率为−30 dBm时，未编码误码率达到10⁻⁴量级。",
+    "title_zh": "光纤系留无人机实现移动光通信中继",
+    "missing_evidence": [
+      "未提供全文，无法核查传输距离、数据速率、无人机运动条件、对准稳定性及误码率测量细节。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/oe.612858",
+        "text": "该研究结合光纤飞行控制与上行链路、可见光下行链路，实现无人机飞行控制与空地移动光通信。系统通过三轴云台动态维持光路对准，并以实时数据传输验证端到端中继路径。摘要报告，在接收光功率为−30 dBm时，未编码误码率达到10⁻⁴量级。"
+      }
+    ],
+    "ai_inference": [
+      "光纤系留与可见光下行的混合架构可为射频受限环境中的移动光中继设计提供参考。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/oe.612858",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-07T00:35:24.689188+00:00"
+  },
+  {
+    "schema_version": 1,
+    "record_id": "43e4f6f6-7d5b-4418-b101-8105bd92c112",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Mode switching through exceptional points induced by lasing–inversion coupling",
+    "authors": [
+      "Xingwei Gao",
+      "Cheng Guo",
+      "David Burghoff"
+    ],
+    "doi": "10.1364/optica.599010",
+    "venue": "Optica",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-09-21-v1",
+      "id": "847254fcf9a46c99",
+      "name": "Optica",
+      "original_name": "Optica",
+      "abbr": "Optica",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Optica"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": "T1",
+      "rank_label": "CIE T1 · 2023",
+      "rank_order": 1,
+      "focus_tier": "P1",
+      "focus_label": "知流 P1 · 前沿重点",
+      "focus_order": 1,
+      "hust_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "华科光电等级待核实"
+    },
+    "published_at": "2026-10-06",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "该理论研究基于麦克斯韦–布洛赫方程构建布洛赫耦合模理论，将第二激射阈值归因于粒子数反转、激光场与未激活光学模式之间的动态耦合。激光场与反转的耦合产生额外线性异常点，其谱结构支配单模激射与不同重复频率频率梳之间的切换。",
+    "title_zh": "激光场与反转耦合驱动异常点模式切换",
+    "missing_evidence": [
+      "全文及理论模型的参数、适用条件与验证细节。",
+      "实验验证和光通信链路中的性能证据。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/optica.599010",
+        "text": "该理论研究基于麦克斯韦–布洛赫方程构建布洛赫耦合模理论，将第二激射阈值归因于粒子数反转、激光场与未激活光学模式之间的动态耦合。激光场与反转的耦合产生额外线性异常点，其谱结构支配单模激射与不同重复频率频率梳之间的切换。"
+      }
+    ],
+    "ai_inference": [
+      "该机制可能为可重构频率梳光源提供设计思路，并具有向自适应光通信链路迁移的潜力；通信性能收益仍需验证。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/optica.599010",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-07T00:37:30.092568+00:00"
+  },
+  {
+    "schema_version": 1,
+    "record_id": "255262c8-4cc3-4228-a4f2-3cfb8d70b577",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Asymmetric laser gating for robust low power half-duplex optical link in camera-on-tip surgical endoscopes",
+    "authors": [
+      "Asif Khan",
+      "Valentina Rajkumari",
+      "Meena Baskaran",
+      "Owen Moynihan",
+      "Cleitus Antony",
+      "James O’Callaghan",
+      "Brendan Roycroft",
+      "Kevin Thomas",
+      "Emanuele Pelucchi",
+      "Sanathana Konugolu Venkata Sekar",
+      "Stefan Andersson-Engels",
+      "Paul Townsend",
+      "Brian Corbett"
+    ],
+    "doi": "10.1364/oe.611650",
+    "venue": "Optics Express",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-09-21-v1",
+      "id": "20fe917b3f1c57bc",
+      "name": "Optics Express",
+      "original_name": "Optics Express",
+      "abbr": "OE",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Optics Express",
+        "OE",
+        "Opt. Express"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": "T2",
+      "rank_label": "CIE T2 · 2023",
+      "rank_order": 2,
+      "focus_tier": "P2",
+      "focus_label": "知流 P2 · 领域核心",
+      "focus_order": 2,
+      "hust_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "华科光电等级待核实"
+    },
+    "published_at": "2026-10-06",
+    "topics": [
+      "系统与传输"
+    ],
+    "summary_zh": "该研究面向手术内窥镜末端的光通信链路，设计并制造了优化法布里–珀罗腔的表面法向电吸收调制器（SNEAM）。器件在3 V峰峰值驱动下实现约10 dB消光比，工作偏置低于3 V，末端器件功耗约1 mW。研究提出并实验验证非对称门控：仅对下行激光门控，上行激光持续工作。在下行至上行光隔离为0 dB时，实验验证下行误码率低于10⁻⁹。摘要报告该策略提升了链路对变化弯曲损耗的鲁棒性，下行时隙内额外静态功耗约0.2 mW。",
+    "title_zh": "非对称激光门控提升低功耗半双工光链路鲁棒性",
+    "missing_evidence": [
+      "仅提供摘要，无法核查全文实验条件、链路速率、误码测试时长及统计依据。",
+      "未提供弯曲损耗测试范围，也未提供上行误码性能和完整链路功耗。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/oe.611650",
+        "text": "该研究面向手术内窥镜末端的光通信链路，设计并制造了优化法布里–珀罗腔的表面法向电吸收调制器（SNEAM）。器件在3 V峰峰值驱动下实现约10 dB消光比，工作偏置低于3 V，末端器件功耗约1 mW。研究提出并实验验证非对称门控：仅对下行激光门控，上行激光持续工作。在下行至上行光隔离为0 dB时，实验验证下行误码率低于10⁻⁹。摘要报告该策略提升了链路对变化弯曲损耗的鲁棒性，下行时隙内额外静态功耗约0.2 mW。"
+      }
+    ],
+    "ai_inference": [
+      "该策略可为受功耗与尺寸约束的反射式半双工光链路提供参考；迁移到其他系统时需验证持续上行光对接收、时序及功耗的影响。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/oe.611650",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-07T00:31:15.208812+00:00"
+  },
+  {
+    "schema_version": 1,
     "record_id": "ebeb5fb2-94c0-4668-8196-4293b4c36c90",
     "revision": 2,
     "is_demo": false,
@@ -67,6 +509,149 @@
     "reading_level": "B",
     "news_priority": null,
     "review_note": "AI 审核通过 · 摘要范围 · 2026-10-06T00:29:58.891772+00:00"
+  },
+  {
+    "schema_version": 1,
+    "record_id": "d132ada2-116f-4a1b-95f5-8af888873d3e",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "preprint",
+    "title": "Experimental Demonstration of Autonomous Class Aware Optimization via Digital Twin Aided Optical Network Agent",
+    "authors": [
+      "Marc Lawson",
+      "Ambashri Purkayastha",
+      "Camille Delezoide",
+      "Andrea Sgambelluri",
+      "Nicola Sambo",
+      "Patricia Layec"
+    ],
+    "doi": null,
+    "venue": "arXiv",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-09-21-v1",
+      "id": "43ef3159143b717e",
+      "name": "arXiv",
+      "original_name": "arXiv",
+      "abbr": "arXiv",
+      "kind": "preprint",
+      "match_status": "platform",
+      "aliases": [
+        "arXiv",
+        "arXiv"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "华科光电等级待核实"
+    },
+    "published_at": "2026-10-05",
+    "topics": [
+      "光网络与控制"
+    ],
+    "summary_zh": "该预印本报告了网络测试床上的实验演示：利用数字孪生辅助的多智能体大语言模型进行面向业务类别的光网络管理，检测软故障，并依据各业务类别要求自主调整调制格式。摘要称系统可在较少人工干预下维持连续、无裕量的信道质量。",
+    "title_zh": "数字孪生辅助多智能体实现光网络分类自治优化",
+    "missing_evidence": [
+      "未提供正文，无法核对测试床配置、业务类别要求、软故障类型及调制调整过程。",
+      "缺少信道质量与“无裕量”的定义、量化结果、对照基线及人工干预记录。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://arxiv.org/abs/2610.06599v1",
+        "text": "该预印本报告了网络测试床上的实验演示：利用数字孪生辅助的多智能体大语言模型进行面向业务类别的光网络管理，检测软故障，并依据各业务类别要求自主调整调制格式。摘要称系统可在较少人工干预下维持连续、无裕量的信道质量。"
+      }
+    ],
+    "ai_inference": [
+      "该方案可为按业务类别约束进行软故障响应与调制格式调整提供研究思路；实际适用范围仍需全文实验支撑。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract+pdf-link",
+    "source_url": "https://arxiv.org/abs/2610.06599v1",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-07T00:41:40.598169+00:00"
+  },
+  {
+    "schema_version": 1,
+    "record_id": "9e76f926-76e6-4f88-9bca-6e2c72711035",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "preprint",
+    "title": "Reinforcement Learning-Based 3D Beam Adaptation for Underwater Wireless Optical Communication with AUVs",
+    "authors": [
+      "Viviana Centritto~Arrojo",
+      "Ama Bandara",
+      "Sergi Abadal",
+      "Evgenii Vinogradov"
+    ],
+    "doi": null,
+    "venue": "arXiv",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-09-21-v1",
+      "id": "43ef3159143b717e",
+      "name": "arXiv",
+      "original_name": "arXiv",
+      "abbr": "arXiv",
+      "kind": "preprint",
+      "match_status": "platform",
+      "aliases": [
+        "arXiv",
+        "arXiv"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "华科光电等级待核实"
+    },
+    "published_at": "2026-10-05",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "该预印本针对洋流影响下移动自主水下航行器的光通信对准问题，建立包含深度相关衰减、湍流及离散光线方法的三维信道模型，通过深度强化学习联合优化波束指向和发散角。摘要报告使用真实海洋学数据进行评估，以额外中断指标衡量仅由指向误差造成的中断；相对于节点完美对准，无洋流跟踪和洋流漂移条件下，该指标分别被限制在8.5%和16.2%。",
+    "title_zh": "强化学习联合调节水下光通信波束指向与发散角",
+    "missing_evidence": [
+      "未提供全文，无法核查额外中断指标的具体定义、评估条件及统计方法。",
+      "未提供水下光链路硬件实验或海试证据，真实海洋学数据评估不能据此认定为通信实测。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://arxiv.org/abs/2610.06407v1",
+        "text": "该预印本针对洋流影响下移动自主水下航行器的光通信对准问题，建立包含深度相关衰减、湍流及离散光线方法的三维信道模型，通过深度强化学习联合优化波束指向和发散角。摘要报告使用真实海洋学数据进行评估，以额外中断指标衡量仅由指向误差造成的中断；相对于节点完美对准，无洋流跟踪和洋流漂移条件下，该指标分别被限制在8.5%和16.2%。"
+      }
+    ],
+    "ai_inference": [
+      "联合控制波束指向与发散角可为移动水下光链路的自适应跟踪提供研究思路。",
+      "隔离指向误差导致的额外中断，可为评估跟踪算法对链路可靠性的贡献提供参考。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract+pdf-link",
+    "source_url": "https://arxiv.org/abs/2610.06407v1",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-07T00:43:58.232315+00:00"
   },
   {
     "schema_version": 1,
@@ -3966,6 +4551,76 @@
   },
   {
     "schema_version": 1,
+    "record_id": "f53c3932-42de-479b-9350-ee40a2b62f31",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "UniOpt: A Unified Foundation-Model Approach for Scalable and Autonomous Management of Optical Networks",
+    "authors": [
+      "Khouloud Abdelli"
+    ],
+    "doi": "10.1364/ofc.2026.th2a.25",
+    "venue": "Optical Fiber Communication Conference",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-09-21-v1",
+      "id": "edbc4e8daf0dc2fc",
+      "name": "Optical Fiber Communication Conference",
+      "original_name": "Optical Fiber Communication Conference",
+      "abbr": "OFC",
+      "kind": "conference",
+      "match_status": "matched",
+      "aliases": [
+        "Optical Fiber Communication Conference",
+        "OFC",
+        "Optical Fiber Communications Conference and Exhibition",
+        "Optical Fiber Communication Conference and Exhibition",
+        "Optical Fiber Communications Conference"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": "P1",
+      "focus_label": "知流 P1 · 前沿重点",
+      "focus_order": 1,
+      "hust_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "华科光电等级待核实"
+    },
+    "published_at": "2026",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "摘要提出受基础模型启发的 UniOpt 光网络自主管理框架，将多模态遥测与任务标记化结合，在统一系统中支持预测、定位、异常检测和寿命预测。作者称该系统可跨异构网络域扩展与泛化。",
+    "title_zh": "UniOpt：面向光网络自主管理的统一模型框架",
+    "missing_evidence": [
+      "全文及具体模型、数据集和验证方法。",
+      "实验或仿真结果、基线比较，以及跨域泛化与可扩展性的量化证据。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/ofc.2026.th2a.25",
+        "text": "摘要提出受基础模型启发的 UniOpt 光网络自主管理框架，将多模态遥测与任务标记化结合，在统一系统中支持预测、定位、异常检测和寿命预测。作者称该系统可跨异构网络域扩展与泛化。"
+      }
+    ],
+    "ai_inference": [
+      "可关注统一遥测表示与任务标记化能否支持光网络多任务管理；跨网络域迁移效果仍需验证。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/ofc.2026.th2a.25",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "C",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-07T00:24:47.352585+00:00"
+  },
+  {
+    "schema_version": 1,
     "record_id": "ac117ab7-6bb0-4c85-aa8c-8b2ee8319674",
     "revision": 2,
     "is_demo": false,
@@ -4430,5 +5085,84 @@
     "reading_level": "B",
     "news_priority": null,
     "review_note": "AI 审核通过 · 摘要范围 · 2026-10-03T00:29:44.906076+00:00"
+  },
+  {
+    "schema_version": 1,
+    "record_id": "51339648-9103-456f-960e-4a35d19b70c3",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "SiGe Photodetector Using a Tapered Ge Design for 400 Gbps Optical Links",
+    "authors": [
+      "Santiago Bernal",
+      "Deng Mao",
+      "Charles Lin",
+      "Charles St-Arnault",
+      "Aleksandar Nikic",
+      "Benton Qiu",
+      "Kaibo Zhang",
+      "Yannick D’Mello",
+      "Masaki Kato",
+      "David V. Plant"
+    ],
+    "doi": "10.1364/ofc.2026.th2a.15",
+    "venue": "Optical Fiber Communication Conference",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-09-21-v1",
+      "id": "edbc4e8daf0dc2fc",
+      "name": "Optical Fiber Communication Conference",
+      "original_name": "Optical Fiber Communication Conference",
+      "abbr": "OFC",
+      "kind": "conference",
+      "match_status": "matched",
+      "aliases": [
+        "Optical Fiber Communication Conference",
+        "OFC",
+        "Optical Fiber Communications Conference and Exhibition",
+        "Optical Fiber Communication Conference and Exhibition",
+        "Optical Fiber Communications Conference"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": "P1",
+      "focus_label": "知流 P1 · 前沿重点",
+      "focus_order": 1,
+      "hust_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "华科光电等级待核实"
+    },
+    "published_at": "2026",
+    "topics": [
+      "通信光子器件与集成"
+    ],
+    "summary_zh": "摘要报告了一种兼容CMOS的渐变锗光电探测器的直流、小信号与大信号性能，响应度为0.87 A/W，并报告最高400 Gbps的PAM-8运行，面向高速硅光互连。",
+    "title_zh": "面向400 Gbps光链路的渐变锗SiGe光电探测器",
+    "missing_evidence": [
+      "全文及实验方法，供核实实验与仿真的具体范围。",
+      "400 Gbps运行的误码率、接收功率、均衡及纠错条件，以及响应度的测量条件。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/ofc.2026.th2a.15",
+        "text": "摘要报告了一种兼容CMOS的渐变锗光电探测器的直流、小信号与大信号性能，响应度为0.87 A/W，并报告最高400 Gbps的PAM-8运行，面向高速硅光互连。"
+      }
+    ],
+    "ai_inference": [
+      "渐变锗结构可作为高速硅光接收端设计的研究参考；其性能取舍仍需结合全文中的带宽、噪声及链路测试条件评估。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/ofc.2026.th2a.15",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": "C",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-07T00:26:51.320362+00:00"
   }
 ]

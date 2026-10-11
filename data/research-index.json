@@ -158,7 +158,7 @@
       "title": "从器件到系统可用性",
       "description": "关注硅光、调制器、微环与集成平台。",
       "question": "器件性能能否在损耗、驱动和制造约束下转化为系统收益？",
-      "count": 16,
+      "count": 17,
       "latest": "2026-10-09",
       "items": [
         {
@@ -551,9 +551,151 @@
       "title": "跨越自由空间的光链路",
       "description": "关注湍流、波束、捕获跟踪与空间传输。",
       "question": "结论在什么天气、距离与指向误差条件下成立？",
-      "count": 13,
-      "latest": "2026-10-02",
+      "count": 15,
+      "latest": "2026-10-09",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "c2ce0181-9a3c-4ffc-adfe-6ffebb297c77",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "JPL deep space optical communication's uplink data analysis",
+          "authors": [
+            "Erandi Wijerathna",
+            "Abhijit Biswas",
+            "Sabino Piazzolla",
+            "Meera Srinivasan",
+            "Sean Meenahan",
+            "Malcolm Wright",
+            "Angel Velasco",
+            "Vachik Garkanian"
+          ],
+          "doi": "10.1117/12.3113516",
+          "venue": null,
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "3df1ab1fe891ff40",
+            "name": "刊会待核实",
+            "original_name": "",
+            "abbr": "待核实",
+            "kind": "unknown",
+            "match_status": "unmatched",
+            "aliases": [
+              "刊会待核实",
+              ""
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "等级待核实",
+            "rank_order": 99,
+            "focus_tier": null,
+            "focus_label": "知流关注级未定",
+            "focus_order": 99,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-09",
+          "topics": [
+            "自由空间、可见光与空间光通信"
+          ],
+          "summary_zh": "该研究分析JPL深空光通信（DSOC）技术演示的上行2-PPM数据，将不同湍流条件下的计数概率密度函数与解析结果比较，并将上行光强时间功率谱呈现的双斜率特征与所建立的理论比较。摘要介绍，上行激光组件包含10台1064 nm千瓦级激光发射器，飞行激光收发机搭载于Psyche航天器。",
+          "title_zh": "深空光通信上行数据与湍流统计分析",
+          "missing_evidence": [
+            "仅有摘要，缺少全文中的数据采集条件、样本规模、湍流表征方法及统计不确定性。",
+            "摘要未给出实测分布与解析模型的吻合程度，也未量化双斜率谱理论的验证结果。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1117/12.3113516",
+              "text": "该研究分析JPL深空光通信（DSOC）技术演示的上行2-PPM数据，将不同湍流条件下的计数概率密度函数与解析结果比较，并将上行光强时间功率谱呈现的双斜率特征与所建立的理论比较。摘要介绍，上行激光组件包含10台1064 nm千瓦级激光发射器，飞行激光收发机搭载于Psyche航天器。"
+            }
+          ],
+          "ai_inference": [
+            "实测上行计数分布与光强功率谱的分析方法，可为深空自由空间光通信的湍流信道建模和模型验证提供参考。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1117/12.3113516",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-11T00:32:08.886370+00:00"
+        },
+        {
+          "schema_version": 1,
+          "record_id": "0e0771fe-bb45-4be9-8b3c-4d00ccfdf116",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Improving detection performance of wireless optical communications receivers with shot noise modeling and measurements",
+          "authors": [
+            "Jacob W. Berry",
+            "Romero Ric"
+          ],
+          "doi": "10.1117/12.3115202",
+          "venue": null,
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "3df1ab1fe891ff40",
+            "name": "刊会待核实",
+            "original_name": "",
+            "abbr": "待核实",
+            "kind": "unknown",
+            "match_status": "unmatched",
+            "aliases": [
+              "刊会待核实",
+              ""
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "等级待核实",
+            "rank_order": 99,
+            "focus_tier": null,
+            "focus_label": "知流关注级未定",
+            "focus_order": 99,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-09",
+          "topics": [
+            "自由空间、可见光与空间光通信"
+          ],
+          "summary_zh": "该研究针对无线光通信接收机的散粒噪声开展建模与实验室噪声测量。摘要报告，接收机中的散粒噪声不一定满足白噪声或高斯分布假设；依据实测噪声调整匹配滤波器和检测门限，可降低达到给定误码率所需的信噪比。",
+          "title_zh": "无线光通信接收机的散粒噪声建模与检测优化",
+          "missing_evidence": [
+            "全文中的接收机结构、测量条件和噪声统计分析。",
+            "误码率改善幅度、对照方案，以及性能改善是通过仿真还是通信实验验证的证据。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1117/12.3115202",
+              "text": "该研究针对无线光通信接收机的散粒噪声开展建模与实验室噪声测量。摘要报告，接收机中的散粒噪声不一定满足白噪声或高斯分布假设；依据实测噪声调整匹配滤波器和检测门限，可降低达到给定误码率所需的信噪比。"
+            }
+          ],
+          "ai_inference": [
+            "可考虑依据接收机实测噪声统计特性设计滤波器和检测门限，并检验白高斯噪声假设的适用范围。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1117/12.3115202",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-11T00:36:17.343013+00:00"
+        },
         {
           "schema_version": 1,
           "record_id": "427d8ddd-3497-4bd4-8026-a5181cbdf49f",
@@ -625,150 +767,6 @@
           "reading_level": "B",
           "news_priority": null,
           "review_note": "AI 审核通过 · 摘要范围 · 2026-10-02T00:29:11.104654+00:00"
-        },
-        {
-          "schema_version": 1,
-          "record_id": "bbddd2c0-c87a-4cdb-8769-2f6ece7342de",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Reliable V2V networks via LED-based Li-Fi technology for road safety applications",
-          "authors": [
-            "Mohan P. Thakre",
-            "Krupali Devendra Kanekar",
-            "Badal Kumar",
-            "Alok Kumar",
-            "Supriya Nilesh Thakur",
-            "Pranali M. Thakre",
-            "Prashant Kedarnath Magadum"
-          ],
-          "doi": "10.11591/eei.v15i5.11398",
-          "venue": "Bulletin of Electrical Engineering and Informatics",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "39a14766522715b8",
-            "name": "Bulletin of Electrical Engineering and Informatics",
-            "original_name": "Bulletin of Electrical Engineering and Informatics",
-            "abbr": "Bulletin of Electrical Engineering and Informatics",
-            "kind": "journal",
-            "match_status": "unmatched",
-            "aliases": [
-              "Bulletin of Electrical Engineering and Informatics",
-              "Bulletin of Electrical Engineering and Informatics"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": null,
-            "focus_label": "知流关注级未定",
-            "focus_order": 99,
-            "hust_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "华科光电等级待核实"
-          },
-          "published_at": "2026-10-01",
-          "topics": [
-            "自由空间、可见光与空间光通信"
-          ],
-          "summary_zh": "研究提出以车灯LED发送、光电二极管接收并采用曼彻斯特编码的车间可见光通信方案，开展仿真与硬件原型验证。摘要报告原型在15 cm距离实现可靠通信，性能受到收发距离、光强和探测器灵敏度影响。",
-          "title_zh": "LED车间可见光通信的15厘米原型验证",
-          "missing_evidence": [
-            "仅有摘要，缺少具体误码率、数据速率、时延、能耗及真实道路测试。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.11591/eei.v15i5.11398",
-              "text": "研究提出以车灯LED发送、光电二极管接收并采用曼彻斯特编码的车间可见光通信方案，开展仿真与硬件原型验证。摘要报告原型在15 cm距离实现可靠通信，性能受到收发距离、光强和探测器灵敏度影响。"
-            }
-          ],
-          "ai_inference": [
-            "可进一步研究环境光、车辆运动和更长距离下的链路可靠性。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.11591/eei.v15i5.11398",
-          "related_ids": [],
-          "relevance_class": "direct",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-02T00:29:11.104654+00:00"
-        },
-        {
-          "schema_version": 1,
-          "record_id": "95d5b806-bc3a-4fa1-b5ce-4af447952de6",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Real-time air-to-water mobile visible light communication using a trend differential detection method",
-          "authors": [
-            "Jiehui Liu",
-            "Peng Guo",
-            "Wen Long Zuo",
-            "Yunfeng Bai",
-            "Suihu Dang",
-            "Lin Qin"
-          ],
-          "doi": "10.1364/ol.614003",
-          "venue": "Optics Letters",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "f01bbddcb7738bfc",
-            "name": "Optics Letters",
-            "original_name": "Optics Letters",
-            "abbr": "OL",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Optics Letters",
-              "OL",
-              "Opt. Lett."
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": "T2",
-            "rank_label": "CIE T2 · 2023",
-            "rank_order": 2,
-            "focus_tier": "P2",
-            "focus_label": "知流 P2 · 领域核心",
-            "focus_order": 2,
-            "hust_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "华科光电等级待核实"
-          },
-          "published_at": "2026-10-01",
-          "topics": [
-            "自由空间、可见光与空间光通信"
-          ],
-          "summary_zh": "研究提出趋势差分检测方法，扩展空水可见光通信的接收极角动态范围。自来水实验实现2.0 Mb/s实时移动通信，极角动态范围达到32°，为传统符号差分检测的1.6倍。另在平均波高8 cm、极角动态范围20°条件下，接收器以1.0 m/s移动时误码率保持低于前向纠错阈值。",
-          "title_zh": "趋势差分检测支持空水移动光通信",
-          "missing_evidence": [
-            "链路距离、水体光学参数、前向纠错阈值及运动测试轨迹。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/ol.614003",
-              "text": "研究提出趋势差分检测方法，扩展空水可见光通信的接收极角动态范围。自来水实验实现2.0 Mb/s实时移动通信，极角动态范围达到32°，为传统符号差分检测的1.6倍。另在平均波高8 cm、极角动态范围20°条件下，接收器以1.0 m/s移动时误码率保持低于前向纠错阈值。"
-            }
-          ],
-          "ai_inference": [
-            "该检测方法可作为水面扰动及接收器运动条件下的移动光链路设计候选。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1364/ol.614003",
-          "related_ids": [],
-          "relevance_class": "direct",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-04T00:29:12.428793+00:00"
         }
       ]
     },
@@ -1458,10 +1456,10 @@
       ]
     }
   ],
-  "unclassified": 35,
+  "unclassified": 37,
   "evidence_counts": {
-    "abstract+pdf-link": 18,
-    "abstract-only": 60,
+    "abstract+pdf-link": 19,
+    "abstract-only": 64,
     "official-announcement": 1
   }
 }

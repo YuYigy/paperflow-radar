@@ -6,6 +6,8 @@
   "reading_export": "paperflow.reading-workspace/v1",
   "reading_dashboard": "reading-dashboard.json",
   "research_export": "paperflow.research-workspace/v1",
+  "update_summary": "update-summary.json",
+  "discovery_export": "paperflow.discovery-workspace/v1",
   "features": {
     "local_notes": true,
     "reading_queue": true,
@@ -16,7 +18,10 @@
     "paper_comparison": true,
     "author_follow": true,
     "question_notebook": true,
-    "private_pdf_handoff": true
+    "private_pdf_handoff": true,
+    "saved_searches": true,
+    "personal_triage": true,
+    "update_dashboard": true
   },
   "extension_slots": [
     "paper.detail.tools",

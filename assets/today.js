@@ -9,7 +9,8 @@
     const ranked=model.ranked.filter(r=>!topic.value||cards.find(c=>c.dataset.id===r.record_id)?.dataset.topics.split('|').includes(topic.value));
     const active=r=>{const e=PaperFlow.getReadingEntry(r.record_id);return e&&e.status!=='done';};
     const preference=r=>{const card=cards.find(c=>c.dataset.id===r.record_id);return window.PaperFlowResearch?.preference({title:card?.dataset.search||'',topics:card?.dataset.topics.split('|')||[]})||{score:0,excluded:false,reason:''};};
-    const unread=ranked.filter(r=>{const e=PaperFlow.getReadingEntry(r.record_id);return !e||e.status!=='done'||e.revision!==r.revision;}).filter(r=>!preference(r).excluded).sort((a,b)=>preference(b).score-preference(a).score);
+    const triageScore=r=>({deep:2,skim:1}[window.PaperFlowDiscovery?.decision('item',r.record_id)]||0);
+    const unread=ranked.filter(r=>{const e=PaperFlow.getReadingEntry(r.record_id);return !e||e.status!=='done'||e.revision!==r.revision;}).filter(r=>!preference(r).excluded&&!['later','irrelevant'].includes(window.PaperFlowDiscovery?.decision('item',r.record_id))).sort((a,b)=>triageScore(b)-triageScore(a)||preference(b).score-preference(a).score);
     let recommended=unread.slice(0,6);const conference=unread.find(r=>r.kind==='conference');
     if(conference&&recommended.length&&!recommended.some(r=>r.kind==='conference'))recommended=[...unread.slice(0,5),conference];
     const changes=seen?ranked.filter(r=>seen.records[r.record_id]!==r.revision):[];
@@ -18,7 +19,7 @@
     const following=changes.filter(r=>preference(r).score>0||cards.find(c=>c.dataset.id===r.record_id)?.dataset.authors.split('|').some(a=>names.includes(a.trim().toLowerCase())));
     const group={recommended,changes,following,continue:ongoing,all:ranked}[view];const show=new Set(group.map(r=>r.record_id));
     for(const card of cards){const row=ranked.find(r=>r.record_id===card.dataset.id);card.hidden=!show.has(card.dataset.id);let hint=card.querySelector('.daily-reason');if(!hint){hint=document.createElement('p');hint.className='daily-reason fine';card.prepend(hint);}hint.textContent=row?row.reason+(seen&&seen.records[row.record_id]!==row.revision?(seen.records[row.record_id]?' · 解读已修订':' · 新增解读'):''):'';}
-    for(const r of group){const card=cards.find(c=>c.dataset.id===r.record_id);if(card){document.getElementById('today-list').append(card);const hint=card.querySelector('.daily-reason');if(view==='recommended'&&preference(r).reason)hint.textContent=preference(r).reason+' · '+hint.textContent;}}
+    for(const r of group){const card=cards.find(c=>c.dataset.id===r.record_id);if(card){document.getElementById('today-list').append(card);const hint=card.querySelector('.daily-reason');if(view==='recommended'){if(preference(r).reason)hint.textContent=preference(r).reason+' · '+hint.textContent;const decision=window.PaperFlowDiscovery?.decision('item',r.record_id);if(['deep','skim'].includes(decision))hint.textContent=(decision==='deep'?'已选为精读':'已选为略读')+' · '+hint.textContent;}}}
     const profile=window.PaperFlowResearch?.getState().profile;
     document.getElementById('today-profile-note').textContent=profile&&[profile.core,profile.explore,profile.include,profile.exclude].some(Boolean)?'已应用本机研究偏好；“全部阅读候选”保留完整列表。':'当前使用默认推荐，可设置核心方向与探索方向。';
     document.getElementById('daily-recommend-count').textContent=String(recommended.length);
@@ -33,6 +34,7 @@
   document.addEventListener('click',event=>{const button=event.target.closest('[data-today-view]');if(button){view=button.dataset.todayView;render();}const tag=event.target.closest('[data-filter-topic]');if(tag){topic.value=tag.dataset.filterTopic;render();}});
   topic.addEventListener('input',render);
   ack.addEventListener('click',()=>{if(blocked||!model)return;const snapshot={schema:'paperflow.visits/v1',records:Object.fromEntries(model.ranked.map(r=>[r.record_id,r.revision]))};try{localStorage.setItem(key,JSON.stringify(snapshot));seen=snapshot;render();}catch(_){blocked=true;ack.disabled=true;render();}});
+  window.addEventListener('paperflow:discovery-changed',render);
   window.addEventListener('paperflow:reading-changed',render);
   window.addEventListener('paperflow:research-changed',render);
   window.addEventListener('storage',event=>{if(event.key===key||event.key===null){seen=readSeen();render();}});

@@ -1126,6 +1126,23 @@ button:disabled { cursor: default; opacity: .5; }
 .brief-proof { margin-top:8px; color:var(--muted); font-size:12px; }
 .brief-proof p { border-left:2px solid var(--line); padding-left:12px; }
 .research-tabs { display:flex; flex-wrap:wrap; gap:10px; margin:20px 0; }
+.saved-search-controls { display:flex; align-items:end; flex-wrap:wrap; gap:12px; margin:18px 0; }
+.saved-search-controls label { display:flex; flex-direction:column; gap:6px; flex:1; min-width:180px; }
+.saved-search-controls input { width:100%; }
+.saved-search-context:empty { display:none; }
+.saved-new-filter { display:flex; gap:8px; align-items:center; font-size:13px; color:var(--muted); }
+.saved-new-filter input { width:auto; }
+.saved-search-context { padding:12px 16px; border-left:3px solid var(--accent); background:var(--canvas); margin:12px 0; }
+.saved-search-card,.triage-card { border:1px solid var(--line); border-radius:var(--radius); padding:20px; margin:12px 0; overflow-wrap:anywhere; }
+.saved-search-card h3,.triage-card h3 { font-size:18px; margin:0 0 10px; }
+.saved-search-count { color:var(--accent); font-weight:600; }
+.triage-control { display:flex; align-items:center; justify-content:space-between; gap:12px; margin:16px 0 0; padding-top:12px; border-top:1px solid var(--line); font-size:13px; color:var(--muted); }
+.triage-control select { width:auto; max-width:65%; min-width:130px; }
+.triage-card>button,.triage-card>a { display:inline-block; margin-top:14px; }
+.update-metrics { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:14px; }
+.update-metrics strong { display:block; font-size:28px; color:var(--accent); }
+.panel code { overflow-wrap:anywhere; }
+@media(max-width:760px) { .update-metrics { grid-template-columns:repeat(2,minmax(0,1fr)); } .saved-search-controls label { flex-basis:100%; } .saved-search-card,.triage-card { padding:16px; } }
 .research-tabs a { padding:10px 16px; border:1px solid var(--line); border-radius:10px; background:var(--surface,#fff); }
 .research-section { scroll-margin-top:100px; margin:24px 0; }
 .research-grid { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:20px; margin:18px 0; }

@@ -158,9 +158,156 @@
       "title": "从器件到系统可用性",
       "description": "关注硅光、调制器、微环与集成平台。",
       "question": "器件性能能否在损耗、驱动和制造约束下转化为系统收益？",
-      "count": 18,
-      "latest": "2026-10-14",
+      "count": 20,
+      "latest": "2026-10-16",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "972c013f-d24e-4f56-93b5-71610327dc15",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Thermo-optically tunable Bragg soliton-effect compression in on-chip silicon nitride gratings",
+          "authors": [
+            "Wang Xuchang",
+            "Amdad Chowdury",
+            "Choi Ju Won",
+            "Benjamin J. Eggleton",
+            "Dawn T. H. Tan"
+          ],
+          "doi": "10.1364/oe.614298",
+          "venue": "Optics Express",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "20fe917b3f1c57bc",
+            "name": "Optics Express",
+            "original_name": "Optics Express",
+            "abbr": "OE",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Optics Express",
+              "OE",
+              "Opt. Express"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-16",
+          "topics": [
+            "通信光子器件与集成"
+          ],
+          "summary_zh": "研究在长4.6 cm的片上级联氮化硅切趾布拉格光栅中，通过温度引起的阻带移动调节孤子效应脉冲压缩。摘要报告最高2.2倍压缩因子；对于5 ps输入脉冲，输出脉宽可在2.8–4.5 ps之间连续调节。研究包含不同孤子数下的数值仿真和实验测量，摘要称两者吻合良好。",
+          "title_zh": "片上氮化硅光栅实现热光可调孤子脉冲压缩",
+          "missing_evidence": [
+            "仅提供摘要，缺少全文中的输入功率、器件损耗、压缩后脉冲质量及热调谐速度等信息。",
+            "未提供通信链路或调制信号处理的系统级验证。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1364/oe.614298",
+              "text": "研究在长4.6 cm的片上级联氮化硅切趾布拉格光栅中，通过温度引起的阻带移动调节孤子效应脉冲压缩。摘要报告最高2.2倍压缩因子；对于5 ps输入脉冲，输出脉宽可在2.8–4.5 ps之间连续调节。研究包含不同孤子数下的数值仿真和实验测量，摘要称两者吻合良好。"
+            }
+          ],
+          "ai_inference": [
+            "该器件可为片上光通信脉冲整形和非线性信号处理提供可调压缩方案；其通信系统价值仍需系统级实验验证。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/oe.614298",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "D",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-17T00:34:52.988240+00:00"
+        },
+        {
+          "schema_version": 1,
+          "record_id": "734e865a-279e-4f87-a892-76c54c6caf45",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "On-Chip Optical Isolator Based on Periodically Poled Lithium Niobate",
+          "authors": [
+            "Najiao Zhang",
+            "Yijie Xia",
+            "Xiyao Song",
+            "Ya Jin",
+            "Huashun Wen",
+            "Kunpeng Zhai",
+            "Xiaowei Wang",
+            "Sha Zhu",
+            "Ninghua Zhu"
+          ],
+          "doi": "10.1088/1674-1056/aeb538",
+          "venue": "Chinese Physics B",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "633eff0bbd106bb8",
+            "name": "Chinese Physics B",
+            "original_name": "Chinese Physics B",
+            "abbr": "Chinese Physics B",
+            "kind": "journal",
+            "match_status": "unmatched",
+            "aliases": [
+              "Chinese Physics B",
+              "Chinese Physics B"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "未匹配 CIE 2023",
+            "rank_order": 99,
+            "focus_tier": null,
+            "focus_label": "知流关注级未定",
+            "focus_order": 99,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-16",
+          "topics": [
+            "通信光子器件与集成"
+          ],
+          "summary_zh": "该研究提出基于周期极化铌酸锂波导的非磁性片上光隔离器，利用正向差频产生与波长选择性滤波抑制反向传播信号。结构在同一薄膜铌酸锂芯片上集成交错滤波器、窄波导和非对称定向耦合器，仿真在若干波长实现超过40 dB的隔离比，无需磁性材料或连续电调制。",
+          "title_zh": "周期极化薄膜铌酸锂片上隔离器仿真方案",
+          "missing_evidence": [
+            "缺少全文及实验验证，无法核查仿真条件和实际器件性能。",
+            "摘要未说明差频过程的泵浦配置、插入损耗、工作带宽及同时双向入射条件下的隔离表现。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1088/1674-1056/aeb538",
+              "text": "该研究提出基于周期极化铌酸锂波导的非磁性片上光隔离器，利用正向差频产生与波长选择性滤波抑制反向传播信号。结构在同一薄膜铌酸锂芯片上集成交错滤波器、窄波导和非对称定向耦合器，仿真在若干波长实现超过40 dB的隔离比，无需磁性材料或连续电调制。"
+            }
+          ],
+          "ai_inference": [
+            "非线性频率转换与波长选择性路由的集成思路，可为薄膜铌酸锂光通信芯片的隔离功能设计提供参考。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract+pdf-link",
+          "source_url": "https://doi.org/10.1088/1674-1056/aeb538",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-17T00:28:39.968286+00:00"
+        },
         {
           "schema_version": 1,
           "record_id": "82abbff6-babb-4b6a-87e6-a5b3f96b0033",
@@ -238,151 +385,6 @@
           "reading_level": "B",
           "news_priority": null,
           "review_note": "AI 审核通过 · 摘要范围 · 2026-10-15T00:28:24.817966+00:00"
-        },
-        {
-          "schema_version": 1,
-          "record_id": "3d5f4125-7575-4331-af23-3a70276e0afb",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Photonic integrated circuit based free space optical mode division demultiplexer for atmospheric turbulence mitigation",
-          "authors": [
-            "Lawrence R. Trask",
-            "Douglass C. Evans",
-            "James R. Adleman",
-            "Sanja Zlatnovic"
-          ],
-          "doi": "10.1117/12.3113105",
-          "venue": "Laser Communication and Propagation through the Atmosphere and Oceans XV",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "af53e82e696f8308",
-            "name": "Laser Communication and Propagation through the Atmosphere and Oceans XV",
-            "original_name": "Laser Communication and Propagation through the Atmosphere and Oceans XV",
-            "abbr": "Laser Communication and Propagation through the Atmosphere and Oceans XV",
-            "kind": "conference",
-            "match_status": "unmatched",
-            "aliases": [
-              "Laser Communication and Propagation through the Atmosphere and Oceans XV",
-              "Laser Communication and Propagation through the Atmosphere and Oceans XV"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "不适用期刊等级",
-            "rank_order": 99,
-            "focus_tier": null,
-            "focus_label": "知流关注级未定",
-            "focus_order": 99,
-            "hust_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "华科光电等级待核实"
-          },
-          "published_at": "2026-10-09",
-          "topics": [
-            "通信光子器件与集成"
-          ],
-          "summary_zh": "该论文提出一种面向自由空间光通信的光子集成电路接收器，将受大气湍流影响的入射光束分解为一组波导模式，提取随机信道造成的模式权重分布。工作针对湍流补偿中模式分解环节的尺寸、重量、功耗和成本问题，采用单片集成方案。",
-          "title_zh": "用于大气湍流缓解的集成光子模分解接收器",
-          "missing_evidence": [
-            "仅有摘要，无法判断结果属于仿真、实验或概念方案。",
-            "缺少模式分解效率、串扰、支持模式数量及湍流条件等性能证据。",
-            "缺少通信链路性能改善及尺寸、重量、功耗和成本的定量验证。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1117/12.3113105",
-              "text": "该论文提出一种面向自由空间光通信的光子集成电路接收器，将受大气湍流影响的入射光束分解为一组波导模式，提取随机信道造成的模式权重分布。工作针对湍流补偿中模式分解环节的尺寸、重量、功耗和成本问题，采用单片集成方案。"
-            }
-          ],
-          "ai_inference": [
-            "该模式分解方案可能为紧凑型自由空间光通信接收端提供集成前端；其与后续模式合并及信号恢复环节的配合值得研究。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1117/12.3113105",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-10T00:28:38.044168+00:00"
-        },
-        {
-          "schema_version": 1,
-          "record_id": "4751207b-029d-4680-a7b7-e5c52651727e",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Wideband photonic subsampling up to 110 GHz at a 1-GHz sampling rate using a thin-film lithium niobate modulator",
-          "authors": [
-            "Fujian Yu",
-            "Ke Yin",
-            "Wei Dong",
-            "Tao Zhang",
-            "Guoning Zhang",
-            "Ziyang Zhu",
-            "Xiangai Cheng",
-            "Tian Jiang"
-          ],
-          "doi": "10.1364/ol.608760",
-          "venue": "Optics Letters",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "f01bbddcb7738bfc",
-            "name": "Optics Letters",
-            "original_name": "Optics Letters",
-            "abbr": "OL",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Optics Letters",
-              "OL",
-              "Opt. Lett."
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": "T2",
-            "rank_label": "CIE T2 · 2023",
-            "rank_order": 2,
-            "focus_tier": "P2",
-            "focus_label": "知流 P2 · 领域核心",
-            "focus_order": 2,
-            "hust_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "华科光电等级待核实"
-          },
-          "published_at": "2026-10-02",
-          "topics": [
-            "通信光子器件与集成"
-          ],
-          "summary_zh": "摘要报告结合约1 GHz重复频率的飞秒锁模激光器与110 GHz带宽薄膜铌酸锂调制器，将最高110 GHz载波下变频到0–500 MHz中频带，并使用低带宽商用ADC数字化。在109.99 GHz处有效位数为4.1，时序抖动为6.4 fs；整个测量频段的杂散抑制超过30 dB，无需硬件重配置。",
-          "title_zh": "薄膜铌酸锂实现110 GHz光子欠采样接收",
-          "missing_evidence": [
-            "调制信号接收质量、误码率、输入动态范围与系统功耗。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/ol.608760",
-              "text": "摘要报告结合约1 GHz重复频率的飞秒锁模激光器与110 GHz带宽薄膜铌酸锂调制器，将最高110 GHz载波下变频到0–500 MHz中频带，并使用低带宽商用ADC数字化。在109.99 GHz处有效位数为4.1，时序抖动为6.4 fs；整个测量频段的杂散抑制超过30 dB，无需硬件重配置。"
-            }
-          ],
-          "ai_inference": [
-            "光子欠采样可为毫米波通信接收前端及光电融合信号处理提供迁移思路。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1364/ol.608760",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-03T00:29:44.906076+00:00"
         }
       ]
     },
@@ -839,7 +841,7 @@
       "title": "连接光域与射频域",
       "description": "关注宽带处理、波束赋形与光生毫米波。",
       "question": "带宽、噪声和动态范围能否同时满足目标场景？",
-      "count": 4,
+      "count": 5,
       "latest": "2026-09-18",
       "items": [
         {
@@ -1061,9 +1063,85 @@
       "title": "从单链路到网络协同",
       "description": "关注资源分配、控制与业务可靠性。",
       "question": "仿真增益是否包含控制开销、故障与真实业务变化？",
-      "count": 6,
-      "latest": "2026-10-12",
+      "count": 7,
+      "latest": "2026-10-15",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "d848c3ad-8637-49a8-9ac3-9817254ed0ea",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Programmable filterless architectures for low-cost OTN-over-WDM metro networks",
+          "authors": [
+            "Aryanaz Attarpour",
+            "Ehsan Etezadi",
+            "Memedhe Ibrahimi",
+            "Francesco Musumeci",
+            "Andrea Castoldi",
+            "Andrea Bovio",
+            "Marija Furdek",
+            "Massimo Tornatore"
+          ],
+          "doi": "10.1364/jocn.596279",
+          "venue": "Journal of Optical Communications and Networking",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "53eaffdabf95cc1b",
+            "name": "Journal of Optical Communications and Networking",
+            "original_name": "Journal of Optical Communications and Networking",
+            "abbr": "JOCN",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Journal of Optical Communications and Networking",
+              "JOCN",
+              "IEEE/OSA Journal of Optical Communications and Networking",
+              "J. Opt. Commun. Netw."
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-15",
+          "topics": [
+            "光网络与控制"
+          ],
+          "summary_zh": "该研究通过数值分析，比较可编程无滤波光网络（PFON）、无滤波光网络（FON）和传统波长交换光网络（WSON）在多层OTN-over-WDM城域网络中的设备部署成本。PFON采用无源分路器、耦合器与可重配置光开关，并结合OTN层不同汇聚板卡及复用转发器的约束分析业务疏导。在三个网络实例及按小时变化的业务模型下，摘要报告PFON相对FON和WSON基线可实现最高31%的设备成本节省。",
+          "title_zh": "可编程无滤波架构降低城域光网络设备成本",
+          "missing_evidence": [
+            "仅提供摘要，缺少全文中的成本模型、设备价格假设、网络实例和基线配置细节。",
+            "未提供实验验证，也未提供传输性能及重配置开销的评估证据。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1364/jocn.596279",
+              "text": "该研究通过数值分析，比较可编程无滤波光网络（PFON）、无滤波光网络（FON）和传统波长交换光网络（WSON）在多层OTN-over-WDM城域网络中的设备部署成本。PFON采用无源分路器、耦合器与可重配置光开关，并结合OTN层不同汇聚板卡及复用转发器的约束分析业务疏导。在三个网络实例及按小时变化的业务模型下，摘要报告PFON相对FON和WSON基线可实现最高31%的设备成本节省。"
+            }
+          ],
+          "ai_inference": [
+            "可进一步研究光层可重配置能力与OTN业务疏导的联合优化，并评估重配置开销对成本收益的影响。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/jocn.596279",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-17T00:39:00.237286+00:00"
+        },
         {
           "schema_version": 1,
           "record_id": "028aeb53-a8dd-4dfd-b8f7-8e261edd7a3e",
@@ -1210,78 +1288,6 @@
           "reading_level": "B",
           "news_priority": null,
           "review_note": "AI 审核通过 · 摘要范围 · 2026-10-10T00:34:52.938664+00:00"
-        },
-        {
-          "schema_version": 1,
-          "record_id": "d132ada2-116f-4a1b-95f5-8af888873d3e",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "preprint",
-          "title": "Experimental Demonstration of Autonomous Class Aware Optimization via Digital Twin Aided Optical Network Agent",
-          "authors": [
-            "Marc Lawson",
-            "Ambashri Purkayastha",
-            "Camille Delezoide",
-            "Andrea Sgambelluri",
-            "Nicola Sambo",
-            "Patricia Layec"
-          ],
-          "doi": null,
-          "venue": "arXiv",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "43ef3159143b717e",
-            "name": "arXiv",
-            "original_name": "arXiv",
-            "abbr": "arXiv",
-            "kind": "preprint",
-            "match_status": "platform",
-            "aliases": [
-              "arXiv",
-              "arXiv"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "不适用期刊等级",
-            "rank_order": 99,
-            "focus_tier": null,
-            "focus_label": "知流关注级未定",
-            "focus_order": 99,
-            "hust_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "华科光电等级待核实"
-          },
-          "published_at": "2026-10-05",
-          "topics": [
-            "光网络与控制"
-          ],
-          "summary_zh": "该预印本报告了网络测试床上的实验演示：利用数字孪生辅助的多智能体大语言模型进行面向业务类别的光网络管理，检测软故障，并依据各业务类别要求自主调整调制格式。摘要称系统可在较少人工干预下维持连续、无裕量的信道质量。",
-          "title_zh": "数字孪生辅助多智能体实现光网络分类自治优化",
-          "missing_evidence": [
-            "未提供正文，无法核对测试床配置、业务类别要求、软故障类型及调制调整过程。",
-            "缺少信道质量与“无裕量”的定义、量化结果、对照基线及人工干预记录。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://arxiv.org/abs/2610.06599v1",
-              "text": "该预印本报告了网络测试床上的实验演示：利用数字孪生辅助的多智能体大语言模型进行面向业务类别的光网络管理，检测软故障，并依据各业务类别要求自主调整调制格式。摘要称系统可在较少人工干预下维持连续、无裕量的信道质量。"
-            }
-          ],
-          "ai_inference": [
-            "该方案可为按业务类别约束进行软故障响应与调制格式调整提供研究思路；实际适用范围仍需全文实验支撑。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract+pdf-link",
-          "source_url": "https://arxiv.org/abs/2610.06599v1",
-          "related_ids": [],
-          "relevance_class": "direct",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-07T00:41:40.598169+00:00"
         }
       ]
     },
@@ -1600,10 +1606,10 @@
       ]
     }
   ],
-  "unclassified": 57,
+  "unclassified": 61,
   "evidence_counts": {
-    "abstract+pdf-link": 20,
-    "abstract-only": 93,
+    "abstract+pdf-link": 23,
+    "abstract-only": 98,
     "official-announcement": 1
   }
 }

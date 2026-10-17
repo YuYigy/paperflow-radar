@@ -32,7 +32,6 @@
       if(p.date_basis==='publication-year')article.append(el('p','出版日期仅提供年份，不计作近30天新发表。','fine'));
       if(brief){const box=el('details',undefined,'quick-brief');box.append(el('summary','中文速览 · 已审核解读'));box.append(el('p',brief.summary));for(const s of brief.sections){box.append(el('h4',s.label),el('p',s.text));}box.append(el('h4','精读需要补齐'));for(const limit of brief.limits)box.append(el('p',limit));article.append(box);}
       if(p.reading_url){const reading=el('a','阅读中文解读 →','button secondary');reading.href=p.reading_url;article.append(reading);}
-      if(p.version_key){const v=el('a','查看版本关联 →','version-entry');v.href='versions.html?paper='+encodeURIComponent(p.version_key);article.append(v);}
       if(p.doi)article.append(el('p','DOI '+p.doi,'fine'));
       PaperFlowDiscovery.mount(article,p.reading_url?'item':'catalog',p.reading_url?p.reading_url.split('/').pop().replace('.html',''):p.index_id,brief?.title_zh||p.title,brief?.revision||1);
       list.append(article);

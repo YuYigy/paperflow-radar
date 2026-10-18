@@ -158,7 +158,7 @@
       "title": "从器件到系统可用性",
       "description": "关注硅光、调制器、微环与集成平台。",
       "question": "器件性能能否在损耗、驱动和制造约束下转化为系统收益？",
-      "count": 20,
+      "count": 21,
       "latest": "2026-10-16",
       "items": [
         {
@@ -393,9 +393,85 @@
       "title": "从算法收益到实时实现",
       "description": "关注均衡、编码、非线性补偿与光子计算。",
       "question": "精度收益是否包含复杂度、训练开销和跨链路泛化代价？",
-      "count": 4,
-      "latest": "2026-10-15",
+      "count": 6,
+      "latest": "2026-10-16",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "fd4cb024-46a1-40e3-9a39-b0fcc394b2f7",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Nonlinear pluggable optics: Digital signal processing-free Intensity Modulated Direct Detection links using analog photonic Next Generation Reservoir Computing",
+          "authors": [
+            "Nicholas Cox",
+            "Joseph Murray",
+            "Ross T. Schermer",
+            "Shuo S. Pang",
+            "Christopher Long",
+            "Gajadhar Joshi",
+            "Nicholas A. Nobile",
+            "Raktim Sarma",
+            "Brandon Redding"
+          ],
+          "doi": "10.1364/oe.608534",
+          "venue": "Optics Express",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "20fe917b3f1c57bc",
+            "name": "Optics Express",
+            "original_name": "Optics Express",
+            "abbr": "OE",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Optics Express",
+              "OE",
+              "Opt. Express"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-16",
+          "topics": [
+            "DSP、编码与智能算法"
+          ],
+          "summary_zh": "该研究提出非线性可插拔光收发器，采用面向光子集成电路的模拟光子下一代储备池计算架构，补偿电域失真、色散及克尔非线性。在50 GBd PAM-4链路仿真中，该方案扩展了线性可插拔光学方案的传输距离，并优于所比较的DSP方案。摘要指出，该架构可在无需本振的条件下利用光相位信息，并在无需高带宽电子器件的条件下实现高于符号率的光学采样。",
+          "title_zh": "模拟光子储备池计算用于无DSP直检链路",
+          "missing_evidence": [
+            "未提供全文，无法核查DSP基线配置、比较条件及性能指标。",
+            "未提供硬件实验及实测功耗、时延证据，不能据此认定已实现低功耗、低时延收发器。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1364/oe.608534",
+              "text": "该研究提出非线性可插拔光收发器，采用面向光子集成电路的模拟光子下一代储备池计算架构，补偿电域失真、色散及克尔非线性。在50 GBd PAM-4链路仿真中，该方案扩展了线性可插拔光学方案的传输距离，并优于所比较的DSP方案。摘要指出，该架构可在无需本振的条件下利用光相位信息，并在无需高带宽电子器件的条件下实现高于符号率的光学采样。"
+            }
+          ],
+          "ai_inference": [
+            "该架构值得作为IM/DD链路光域均衡的研究方向，后续可通过硬件实验评估其性能优势及功耗、时延代价。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/oe.608534",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-18T00:27:56.068813+00:00"
+        },
         {
           "schema_version": 1,
           "record_id": "6f3107f1-cd5a-4754-ba40-8ed1f357bdc9",
@@ -540,77 +616,6 @@
           "reading_level": "B",
           "news_priority": null,
           "review_note": "AI 审核通过 · 摘要范围 · 2026-10-13T02:04:49.504907+00:00"
-        },
-        {
-          "schema_version": 1,
-          "record_id": "610ff7db-8652-4f92-aa6f-c85d7e001a51",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Decoupled equalization of polarization and transmitter IQ skew in digital subcarrier multiplexing systems",
-          "authors": [
-            "Hong Lin",
-            "Jing Zhang",
-            "Shaohua Hu",
-            "Bo Xu",
-            "Kun Qiu"
-          ],
-          "doi": "10.1364/oe.609627",
-          "venue": "Optics Express",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "20fe917b3f1c57bc",
-            "name": "Optics Express",
-            "original_name": "Optics Express",
-            "abbr": "OE",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Optics Express",
-              "OE",
-              "Opt. Express"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": "T2",
-            "rank_label": "CIE T2 · 2023",
-            "rank_order": 2,
-            "focus_tier": "P2",
-            "focus_label": "知流 P2 · 领域核心",
-            "focus_order": 2,
-            "hust_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "华科光电等级待核实"
-          },
-          "published_at": "2026-09-30",
-          "topics": [
-            "DSP、编码与智能算法"
-          ],
-          "summary_zh": "研究通过设计训练序列，以严格线性2×2 MIMO进行偏振解复用，再以嵌入锁相环的广义线性2×2 MIMO联合补偿激光相位噪声和发射端IQ偏斜。在由八个12.5-Gbaud子载波组成的100-GBaud偏振复用16-QAM相干光纤传输实验中，3 ps发射端IQ偏斜条件下，相较传统均衡配置获得0.53 dB的Q²因子增益。相较4×4广义线性滤波器，其性能相当，所需实数乘法数量减少26.9%。",
-          "title_zh": "数字子载波系统的偏振与IQ偏斜解耦均衡",
-          "missing_evidence": [
-            "传输距离、训练开销、滤波器配置及不同偏斜条件下的性能曲线。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/oe.609627",
-              "text": "研究通过设计训练序列，以严格线性2×2 MIMO进行偏振解复用，再以嵌入锁相环的广义线性2×2 MIMO联合补偿激光相位噪声和发射端IQ偏斜。在由八个12.5-Gbaud子载波组成的100-GBaud偏振复用16-QAM相干光纤传输实验中，3 ps发射端IQ偏斜条件下，相较传统均衡配置获得0.53 dB的Q²因子增益。相较4×4广义线性滤波器，其性能相当，所需实数乘法数量减少26.9%。"
-            }
-          ],
-          "ai_inference": [
-            "针对损伤耦合设计训练序列，可能为相干接收DSP提供精度与复杂度兼顾的实现路径。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1364/oe.609627",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "C",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-04T00:29:12.428793+00:00"
         }
       ]
     },
@@ -841,9 +846,77 @@
       "title": "连接光域与射频域",
       "description": "关注宽带处理、波束赋形与光生毫米波。",
       "question": "带宽、噪声和动态范围能否同时满足目标场景？",
-      "count": 5,
-      "latest": "2026-09-18",
+      "count": 6,
+      "latest": "2026-10-16",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "1652cbbc-1e2e-46b7-a392-f8183d7a4551",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Broadband chirp signal recovery for microwave photonic radar based on spatial attention DnCNN",
+          "authors": [
+            "Li Wang",
+            "Shilin Chen"
+          ],
+          "doi": "10.1117/12.3135080",
+          "venue": "Fourth International Conference on Optical Communication and Optical Information Processing (OCOIP 2026)",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-09-21-v1",
+            "id": "f3eb0d0514210249",
+            "name": "Fourth International Conference on Optical Communication and Optical Information Processing (OCOIP 2026)",
+            "original_name": "Fourth International Conference on Optical Communication and Optical Information Processing (OCOIP 2026)",
+            "abbr": "Fourth International Conference on Optical Communication and Optical Information Processing (OCOIP 2026)",
+            "kind": "conference",
+            "match_status": "unmatched",
+            "aliases": [
+              "Fourth International Conference on Optical Communication and Optical Information Processing (OCOIP 2026)",
+              "Fourth International Conference on Optical Communication and Optical Information Processing (OCOIP 2026)"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "不适用期刊等级",
+            "rank_order": 99,
+            "focus_tier": null,
+            "focus_label": "知流关注级未定",
+            "focus_order": 99,
+            "hust_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "华科光电等级待核实"
+          },
+          "published_at": "2026-10-16",
+          "topics": [
+            "微波与太赫兹光子学"
+          ],
+          "summary_zh": "论文提出空间注意力 DnCNN，将信号经短时傅里叶变换转至时频域，抑制器件非线性及传输噪声引起的噪声与谐波。针对上啁啾、下啁啾和三角啁啾的仿真显示，自相关峰底比提升18.1至18.5 dB。",
+          "title_zh": "空间注意力去噪网络用于微波光子雷达啁啾信号恢复",
+          "missing_evidence": [
+            "未提供全文，无法核查仿真条件、基线设置及泛化能力。",
+            "所给摘要未提供硬件实验或光通信场景验证。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1117/12.3135080",
+              "text": "论文提出空间注意力 DnCNN，将信号经短时傅里叶变换转至时频域，抑制器件非线性及传输噪声引起的噪声与谐波。针对上啁啾、下啁啾和三角啁啾的仿真显示，自相关峰底比提升18.1至18.5 dB。"
+            }
+          ],
+          "ai_inference": [
+            "时频域注意力去噪方法可为光通信中的非线性失真与噪声补偿提供研究思路；其对通信波形及接收性能的适用性仍需验证。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1117/12.3135080",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "C",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-18T00:36:10.570080+00:00"
+        },
         {
           "schema_version": 1,
           "record_id": "155d8add-54bc-4cec-bd46-d1aeb80ef1f3",
@@ -980,79 +1053,6 @@
           "related_ids": [],
           "relevance_class": "enabling",
           "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-09-20T05:45:18.856623+00:00"
-        },
-        {
-          "schema_version": 1,
-          "record_id": "4b663a08-2047-4cad-a872-9d77a755ecc2",
-          "revision": 4,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "A Long-Range Distributed Antenna Method Based on Microwave-Photonics Frequency Synchronization",
-          "authors": [
-            "Haotian Teng",
-            "Mingtuan Lin",
-            "Hui Han",
-            "Hao Gao",
-            "Xinglin Qin",
-            "B.X. Chen",
-            "Yuanmei Xie",
-            "Juntao He",
-            "Bo Liu"
-          ],
-          "doi": "10.3390/e28091024",
-          "venue": "Entropy",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-09-21-v1",
-            "id": "bb846881f6a5075c",
-            "name": "Entropy",
-            "original_name": "Entropy",
-            "abbr": "Entropy",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Entropy"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": "P3",
-            "focus_label": "知流 P3 · 扩展关注",
-            "focus_order": 3,
-            "hust_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "华科光电等级待核实"
-          },
-          "published_at": "2026-09-14",
-          "topics": [
-            "微波与太赫兹光子学"
-          ],
-          "summary_zh": "摘要报告利用微波光子频率同步锁定远端信号源，并通过暗室波束形成和室外天线实验验证相干合成。光纤同步距离与天线空间间距属于不同条件。",
-          "title_zh": "光纤频率同步支撑分布式天线的相干合成",
-          "missing_evidence": [
-            "需核对长期稳定性、链路扰动、节点扩展及功率合成的比较基准。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.3390/e28091024",
-              "text": "摘要报告利用微波光子频率同步锁定远端信号源，并通过暗室波束形成和室外天线实验验证相干合成。光纤同步距离与天线空间间距属于不同条件。"
-            }
-          ],
-          "ai_inference": [
-            "可关注光纤频率分发与分布式无线阵列的协同设计。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.3390/e28091024",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "C",
           "news_priority": null,
           "review_note": "AI 审核通过 · 摘要范围 · 2026-09-20T05:45:18.856623+00:00"
         }
@@ -1606,10 +1606,10 @@
       ]
     }
   ],
-  "unclassified": 61,
+  "unclassified": 64,
   "evidence_counts": {
-    "abstract+pdf-link": 23,
-    "abstract-only": 98,
+    "abstract+pdf-link": 27,
+    "abstract-only": 101,
     "official-announcement": 1
   }
 }

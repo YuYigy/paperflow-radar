@@ -1,0 +1,1065 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "794a015e-9a4e-44cc-91dd-5fb4aede3d12",
+  "root": "W7221019317",
+  "status": "ok",
+  "checked_at": "2026-10-18T12:28:24.024518+00:00",
+  "coverage": {
+    "references_found": 18,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 18,
+    "displayed": 18
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7221019317",
+      "doi": "10.1364/oe.613485",
+      "title": "Advanced equalizer for 800-Gb/s DP-16QAM coherent transmission systems",
+      "authors": [
+        "Xuecheng Ren",
+        "Jing Zhang",
+        "Shen Wang",
+        "Rui Wang",
+        "Zhaopeng Xu",
+        "Shaohua Hu",
+        "Bo Xu",
+        "Kun Liang Qiu"
+      ],
+      "year": 2026,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "equalizer",
+        "DP-16QAM",
+        "coherent optical transmission",
+        "digital coherent receiver",
+        "chromatic dispersion compensation",
+        "fiber nonlinearity compensation"
+      ],
+      "url": "https://doi.org/10.1364/oe.613485",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/794a015e-9a4e-44cc-91dd-5fb4aede3d12.html",
+      "summary": "论文提出将基于FFE的2×2 MIMO与简化软输出最大似然序列估计（s-SMLSE）级联的均衡方案。FFE缓解带宽限制导致的符号间干扰，后级处理残余干扰并实现噪声白化；利用前级FFE计算的可靠LLR替换状态压缩产生的不确定LLR。作者通过100 Gbaud DP-16QAM信号在80 km标准单模光纤上的传输实验进行评估。摘要报告，相比传统多抽头MIMO与全状态SMLSE方案，该架构实现近乎相同的SD-FEC译码性能，总计算复杂度降低28.4%。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4386412373",
+      "doi": "10.1109/jlt.2023.3311716",
+      "title": "Modulation Format and Digital Signal Processing for IM-DD Optics at Post-200G Era",
+      "authors": [
+        "Di Che",
+        "Xi Chen"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "modulation schemes",
+        "digital signal processing",
+        "probabilistic shaping",
+        "PAM",
+        "faster-than-Nyquist signaling",
+        "nonlinear equalization",
+        "multicarrier modulation",
+        "fiber dispersion",
+        "peak power constraint",
+        "bandwidth constraints",
+        "data center interconnects"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3311716",
+      "cited_by_count": 120,
+      "importance": 0.4774,
+      "score_basis": {
+        "topic_overlap": 0.394,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2794710857",
+      "doi": "10.1364/oe.26.008890",
+      "title": "DSP-free ‘coherent-lite’ transceiver for next generation single wavelength optical intra-datacenter interconnects",
+      "authors": [
+        "Mohamed H. Morsy-Osman",
+        "Mohammed Y. S. Sowailem",
+        "Eslam A. El-Fiky",
+        "Tristan Goodwill",
+        "Thang M. Hoang",
+        "Stéphane Lessard",
+        "David V. Plant"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "distributed feedback lasers",
+        "laser linewidth",
+        "energy consumption reduction",
+        "chromatic dispersion compensation",
+        "polarization demultiplexing",
+        "carrier recovery"
+      ],
+      "url": "https://doi.org/10.1364/oe.26.008890",
+      "cited_by_count": 156,
+      "importance": 0.4291,
+      "score_basis": {
+        "topic_overlap": 0.42,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390613317",
+      "doi": "10.1364/oe.506994",
+      "title": "Collaborative FFE-assisted simplified soft-output MLSE with LDPC for high-speed IM-DD transmissions",
+      "authors": [
+        "Xue Zhao",
+        "Jing Zhang",
+        "Jiahao Zhou",
+        "Zhengyu Ma",
+        "Shaohua Hu",
+        "Bo Xu",
+        "Qianwu Zhang",
+        "Kun Qiu"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "feed-forward equalizer",
+        "maximum likelihood sequence estimation",
+        "LDPC decoding",
+        "soft-decision forward error correction",
+        "PAM-4",
+        "PAM-8",
+        "high-speed optical transmission",
+        "C-band",
+        "complexity reduction"
+      ],
+      "url": "https://doi.org/10.1364/oe.506994",
+      "cited_by_count": 9,
+      "importance": 0.4175,
+      "score_basis": {
+        "topic_overlap": 0.15,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405452135",
+      "doi": "10.3390/photonics11121179",
+      "title": "Design Considerations for 1.6 Tbit/s Data Center Interconnects: Evaluating IM/DD and Coherent Transmission over O-Band Transmission Window",
+      "authors": [
+        "Adrian A. Juarez",
+        "Yanjun Zhu",
+        "Xin Chen",
+        "Ming-Jun Li"
+      ],
+      "year": 2024,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "data center interconnects",
+        "intensity modulation and direct detection",
+        "coherent optical transmission",
+        "chromatic dispersion",
+        "fiber nonlinearity",
+        "four-wave mixing",
+        "PAM-4",
+        "wavelength division multiplexing",
+        "zero-dispersion wavelength",
+        "outage probability",
+        "standard single-mode fiber"
+      ],
+      "url": "https://doi.org/10.3390/photonics11121179",
+      "cited_by_count": 10,
+      "importance": 0.4003,
+      "score_basis": {
+        "topic_overlap": 0.445,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3096433834",
+      "doi": "10.1109/jlt.2020.3034535",
+      "title": "128 GSa/s SiGe DAC Implementation Enabling 1.52 Tb/s Single Carrier Transmission",
+      "authors": [
+        "Fred Buchali",
+        "Vahid Aref",
+        "Roman Dischler",
+        "Mathieu Chagnon",
+        "Karsten Schuh",
+        "Horst Hettrich",
+        "Anna Bielik",
+        "Lars Altenhain",
+        "Markus Guntermann",
+        "Rolf Schmid",
+        "Michael Möller"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical transmission",
+        "single-carrier transmission",
+        "probabilistic shaping",
+        "polarization multiplexing",
+        "data center interconnects",
+        "back-to-back transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.3034535",
+      "cited_by_count": 35,
+      "importance": 0.397,
+      "score_basis": {
+        "topic_overlap": 0.393,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4377971540",
+      "doi": "10.1109/jlt.2023.3277624",
+      "title": "On the Performance Limits of High-Speed Transmission Using a Single Wideband Coherent Receiver",
+      "authors": [
+        "Benedikt Geiger",
+        "Eric Sillekens",
+        "Filipe Marques Ferreira",
+        "Robert I. Killey",
+        "Lídia Galdino",
+        "Polina Bayvel"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical receivers",
+        "wideband receiver",
+        "high-speed optical transmission",
+        "digital predistortion",
+        "geometric constellation shaping",
+        "superchannels",
+        "achievable rate"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3277624",
+      "cited_by_count": 18,
+      "importance": 0.3968,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4295779941",
+      "doi": "10.1364/oe.468519",
+      "title": "Advanced nonlinearity equalizer with TC-NL-MLSE for transmitting beyond 200-Gb/s PAM-8 in IM/DD systems",
+      "authors": [
+        "Jiahao Zhou",
+        "Jing Zhang",
+        "Xue Song Zhao",
+        "Taowei Jin",
+        "Shaohua Hu",
+        "Hong Sheng Lin",
+        "Zhenming Yu",
+        "Qianwu Zhang",
+        "Bo Xu",
+        "Kun Liang Qiu"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "nonlinear equalization",
+        "PAM-8",
+        "intensity modulation and direct detection",
+        "fiber dispersion",
+        "nonlinear distortion compensation",
+        "high-order modulation",
+        "200 Gb/s transmission",
+        "standard single-mode fiber",
+        "forward error correction threshold",
+        "computational complexity reduction"
+      ],
+      "url": "https://doi.org/10.1364/oe.468519",
+      "cited_by_count": 31,
+      "importance": 0.3841,
+      "score_basis": {
+        "topic_overlap": 0.254,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2022691460",
+      "doi": "10.1364/oe.23.002157",
+      "title": "Experimental demonstration of iterative post-equalization algorithm for 375-Gbaud PM-16QAM quad-carrier Terabit superchannel",
+      "authors": [
+        "Zhensheng Jia",
+        "Hung‐Chang Chien",
+        "Yi Cai",
+        "Jianjun Yu",
+        "Chengliang Zhang",
+        "Junjie Li",
+        "Yiran Ma",
+        "Dongdong Shang",
+        "Qi Zhang",
+        "Sheping Shi",
+        "Huitao Wang"
+      ],
+      "year": 2015,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "post-equalization",
+        "PM-16QAM",
+        "terabit optical transmission",
+        "maximum likelihood sequence estimation",
+        "inter-channel interference",
+        "intersymbol interference",
+        "standard single-mode fiber"
+      ],
+      "url": "https://doi.org/10.1364/oe.23.002157",
+      "cited_by_count": 11,
+      "importance": 0.3812,
+      "score_basis": {
+        "topic_overlap": 0.403,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2294866131",
+      "doi": "10.1109/jlt.2016.2519260",
+      "title": "Design of a 1 Tb/s Superchannel Coherent Receiver",
+      "authors": [
+        "David S. Millar",
+        "Robert Maher",
+        "Domaniç Lavery",
+        "Toshiaki Koike–Akino",
+        "Milutin Pajovic",
+        "Alex Alvarado",
+        "Milen Paskov",
+        "Keisuke Kojima",
+        "Kieran Parsons",
+        "Benn Charles Thomsen",
+        "Seb J. Savory",
+        "Polina Bayvel"
+      ],
+      "year": 2016,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical receivers",
+        "superchannels",
+        "1 Tb/s transmission",
+        "digital coherent receiver",
+        "carrier phase estimation"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2016.2519260",
+      "cited_by_count": 122,
+      "importance": 0.3807,
+      "score_basis": {
+        "topic_overlap": 0.357,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7118186941",
+      "doi": "10.1109/jphot.2025.3650555",
+      "title": "Transmitter IQ Skew Estimation for Alamouti Coding-Based Simplified Coherent Systems",
+      "authors": [
+        "Hong Sheng Lin",
+        "Jing Zhang",
+        "Shaohua Hu",
+        "Zhaopeng Xu",
+        "Bo Xu",
+        "R. Wang",
+        "Kun Qiu"
+      ],
+      "year": 2026,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Alamouti code",
+        "space-time coding",
+        "training sequence design",
+        "frequency offset tolerance",
+        "polarization interference",
+        "polarization state",
+        "linewidth variation",
+        "PM-QPSK",
+        "short-reach optical transmission"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2025.3650555",
+      "cited_by_count": 2,
+      "importance": 0.3787,
+      "score_basis": {
+        "topic_overlap": 0.286,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2783323148",
+      "doi": "10.1109/jlt.2018.2793881",
+      "title": "Digital Signal Processing for Short-Reach Optical Communications: A Review of Current Technologies and Future Trends",
+      "authors": [
+        "Kangping Zhong",
+        "Xian Chong Zhou",
+        "Jiahao Huo",
+        "Changyuan Yu",
+        "Chao Lü",
+        "Alan Pak Tao Lau"
+      ],
+      "year": 2018,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "short-reach optical transmission",
+        "digital signal processing",
+        "direct detection receiver",
+        "transmission impairments",
+        "data center interconnects",
+        "cloud services",
+        "low-cost optical components",
+        "signaling schemes",
+        "optical fiber links"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2018.2793881",
+      "cited_by_count": 554,
+      "importance": 0.3558,
+      "score_basis": {
+        "topic_overlap": 0.302,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7133328883",
+      "doi": "10.1364/oe.589710",
+      "title": "Simultaneous monitoring of transmitter IQ impairments in digital subcarrier systems",
+      "authors": [
+        "Hong Lin (46089)",
+        "Jing Zhang (23775)",
+        "Shaohua Hu",
+        "Bo Xu",
+        "Kun Qiu"
+      ],
+      "year": 2026,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "digital subcarrier multiplexing",
+        "coherent optical transmission",
+        "timing skew",
+        "simultaneous estimation",
+        "training sequence design",
+        "PM-16QAM",
+        "laser phase noise",
+        "amplified spontaneous emission noise"
+      ],
+      "url": "https://doi.org/10.1364/oe.589710",
+      "cited_by_count": 1,
+      "importance": 0.3507,
+      "score_basis": {
+        "topic_overlap": 0.335,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402415695",
+      "doi": "10.1364/oe.537773",
+      "title": "Digital pre-equalization for performance improvement in coherent PON",
+      "authors": [
+        "Zepeng Gong",
+        "Fan Shi",
+        "Qingyu He",
+        "Jie Li",
+        "Ming Luo",
+        "Xu Zhang",
+        "Tianye Huang",
+        "Xiang Li"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent passive optical networks",
+        "digital predistortion",
+        "pre-emphasis",
+        "polarization multiplexing",
+        "PM-QPSK",
+        "PM-16QAM",
+        "Alamouti code",
+        "heterodyne detection",
+        "receiver sensitivity",
+        "power budget",
+        "optical network unit",
+        "computational complexity reduction"
+      ],
+      "url": "https://doi.org/10.1364/oe.537773",
+      "cited_by_count": 4,
+      "importance": 0.3358,
+      "score_basis": {
+        "topic_overlap": 0.302,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391087150",
+      "doi": "10.23919/ofc49934.2023.10116824",
+      "title": "Beyond 200-GBd QAM Signal Detection Based on Trellis-path-limited Sequence Estimation Supporting Soft-decision Forward Error Correction",
+      "authors": [
+        "Masanori Nakamura",
+        "Hiroki Taniguchi",
+        "Shuto Yamamoto",
+        "Fukutaro Hamaoka",
+        "Munehiko Nagatani",
+        "Teruo Jyo",
+        "Miwa Mutoh",
+        "Yuta Shiratori",
+        "Hitoshi Wakita",
+        "Takayuki Kobayashi",
+        "Hiroyuki Takahashi",
+        "Yutaka Miyamoto"
+      ],
+      "year": 2023,
+      "venue": "刊会待核实",
+      "venue_abbr": "待核实",
+      "rank_label": "等级待核实",
+      "keywords": [
+        "signal detection",
+        "soft-decision forward error correction",
+        "minimum mean square error equalizer",
+        "log-likelihood ratio",
+        "16-QAM",
+        "64-QAM",
+        "high-order QAM",
+        "bandwidth-limited transmission",
+        "optical fiber transmission"
+      ],
+      "url": "https://doi.org/10.23919/ofc49934.2023.10116824",
+      "cited_by_count": 2,
+      "importance": 0.3244,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1967620117",
+      "doi": "10.1109/jphot.2014.2317676",
+      "title": "Design and Analysis of a CO-OFDM Transmitter With Limited Modulator Extinction Ratio",
+      "authors": [
+        "Lingchen Huang",
+        "Changjian Guo",
+        "Sailing He"
+      ],
+      "year": 2014,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical OFDM",
+        "transmitter design",
+        "extinction ratio",
+        "IQ modulator",
+        "hard clipping",
+        "predistortion",
+        "clipping ratio",
+        "modulation schemes"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2014.2317676",
+      "cited_by_count": 3,
+      "importance": 0.3158,
+      "score_basis": {
+        "topic_overlap": 0.257,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2068329841",
+      "doi": "10.1109/jproc.2012.2233451",
+      "title": "Faster-Than-Nyquist Signaling",
+      "authors": [
+        "John B. Anderson",
+        "Fredrik Rusek",
+        "Viktor Öwall"
+      ],
+      "year": 2013,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "faster-than-Nyquist signaling",
+        "linear modulation",
+        "spectral efficiency",
+        "OFDM",
+        "quadrature amplitude modulation",
+        "Shannon capacity",
+        "bit rate enhancement"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2012.2233451",
+      "cited_by_count": 422,
+      "importance": 0.29,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2062260987",
+      "doi": "10.1109/tcomm.2012.070912.110296",
+      "title": "Reduced-Complexity Receivers for Strongly Narrowband Intersymbol Interference Introduced by Faster-than-Nyquist Signaling",
+      "authors": [
+        "Adnan Prlja",
+        "John B. Anderson"
+      ],
+      "year": 2012,
+      "venue": "IEEE Transactions on Communications",
+      "venue_abbr": "IEEE Trans. Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "faster-than-Nyquist signaling",
+        "intersymbol interference",
+        "turbo equalization",
+        "low-complexity receivers",
+        "log-likelihood ratio",
+        "iterative decoding",
+        "trellis search"
+      ],
+      "url": "https://doi.org/10.1109/tcomm.2012.070912.110296",
+      "cited_by_count": 197,
+      "importance": 0.26,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2789714353",
+      "doi": "10.1109/access.2018.2813325",
+      "title": "Spectral Efficiency Maximization for Deliberate Clipping-Based Multicarrier Faster-Than-Nyquist Signaling",
+      "authors": [
+        "Siming Peng",
+        "Aijun Liu",
+        "Song Li",
+        "Imran Memon",
+        "Heng Wang"
+      ],
+      "year": 2018,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "peak-to-average power ratio reduction",
+        "spectral efficiency maximization"
+      ],
+      "url": "https://doi.org/10.1109/access.2018.2813325",
+      "cited_by_count": 21,
+      "importance": 0.25,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W2068329841",
+      "to": "W2062260987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2068329841"
+        }
+      ]
+    },
+    {
+      "from": "W2789714353",
+      "to": "W2068329841",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2789714353"
+        }
+      ]
+    },
+    {
+      "from": "W4295779941",
+      "to": "W2794710857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4295779941"
+        }
+      ]
+    },
+    {
+      "from": "W4377971540",
+      "to": "W3096433834",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377971540"
+        }
+      ]
+    },
+    {
+      "from": "W4386412373",
+      "to": "W2062260987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386412373"
+        }
+      ]
+    },
+    {
+      "from": "W4386412373",
+      "to": "W2068329841",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386412373"
+        }
+      ]
+    },
+    {
+      "from": "W4390613317",
+      "to": "W2062260987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390613317"
+        }
+      ]
+    },
+    {
+      "from": "W4390613317",
+      "to": "W2783323148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390613317"
+        }
+      ]
+    },
+    {
+      "from": "W4390613317",
+      "to": "W4295779941",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390613317"
+        }
+      ]
+    },
+    {
+      "from": "W4391087150",
+      "to": "W2294866131",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391087150"
+        }
+      ]
+    },
+    {
+      "from": "W7118186941",
+      "to": "W2794710857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7118186941"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W1967620117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W2022691460",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W2062260987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W2068329841",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W2294866131",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W2783323148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W2789714353",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W2794710857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W3096433834",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W4295779941",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W4377971540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W4386412373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W4390613317",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W4391087150",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W4402415695",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W4405452135",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W7118186941",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    },
+    {
+      "from": "W7221019317",
+      "to": "W7133328883",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221019317"
+        }
+      ]
+    }
+  ]
+}

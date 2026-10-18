@@ -1,0 +1,154 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "6fa09e9b-b64e-4b5c-9648-35a688a50df9",
+  "root": "W7163194082",
+  "status": "ok",
+  "checked_at": "2026-10-18T12:28:01.409398+00:00",
+  "coverage": {
+    "references_found": 2,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 2,
+    "displayed": 2
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7163194082",
+      "doi": "10.1364/ofc.2026.th3h.3",
+      "title": "In-Network Analog ALLREDUCE for ML with Programmable Integrated Photonics",
+      "authors": [
+        "Arjun Devraj",
+        "Bill Owens",
+        "Daniel Pérez-López",
+        "Rachee Singh"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "in-network processing",
+        "silicon photonics",
+        "analog computing",
+        "circuit routing",
+        "machine learning training"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.th3h.3",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/6fa09e9b-b64e-4b5c-9648-35a688a50df9.html",
+      "summary": "研究在硅光子网格内结合模拟计算与电路路由，实现网络内模拟ALLREDUCE。摘要报告进行了硬件及端到端机器学习训练验证，通信速度提高至2倍。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4391971685",
+      "doi": "10.1038/s41467-024-45888-7",
+      "title": "General-purpose programmable photonic processor for advanced radiofrequency applications",
+      "authors": [
+        "Daniel Pérez",
+        "Ana Maria Gutierrez",
+        "David Sánchez-Jácome",
+        "Aitor López Hernández",
+        "Mikel Gutierrez",
+        "Erica Sánchez",
+        "Juan Fernández",
+        "Alejandro Cruz",
+        "Alberto Quirós",
+        "Zhenyun Xie",
+        "J. Benitez",
+        "Nándor Békési",
+        "Alejandro Santomé",
+        "Diego Pérez‐Galacho",
+        "Prometheus DasMahapatra",
+        "Andrés Macho",
+        "J. Capmany"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "microwave photonics",
+        "frequency conversion",
+        "arbitrary waveform generation",
+        "beamforming",
+        "photonic-electronic integration"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-45888-7",
+      "cited_by_count": 106,
+      "importance": 0.3343,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2059300917",
+      "doi": "10.1016/0167-8191(94)90095-7",
+      "title": "The communication challenge for MPP: Intel Paragon and Meiko CS-2",
+      "authors": [
+        "Roger W. Hockney"
+      ],
+      "year": 1994,
+      "venue": "Parallel Computing",
+      "venue_abbr": "Parallel Computing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "interprocessor communication",
+        "massively parallel computers",
+        "Intel Paragon",
+        "Cray C90",
+        "communication bandwidth",
+        "vector processing"
+      ],
+      "url": "https://doi.org/10.1016/0167-8191(94)90095-7",
+      "cited_by_count": 294,
+      "importance": 0.2629,
+      "score_basis": {
+        "topic_overlap": 0.14,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W7163194082",
+      "to": "W2059300917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163194082"
+        }
+      ]
+    },
+    {
+      "from": "W7163194082",
+      "to": "W4391971685",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163194082"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,156 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "82c5bedf-0346-4f0a-809b-8318a3c21671",
+  "root": "W7163173640",
+  "status": "ok",
+  "checked_at": "2026-10-18T12:28:05.250257+00:00",
+  "coverage": {
+    "references_found": 2,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 2,
+    "displayed": 2
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7163173640",
+      "doi": "10.1364/ofc.2026.th3c.4",
+      "title": "High Performing Photonics Systems – CPO, Towards Photonics Chiplets",
+      "authors": [
+        "Tolga Tekin",
+        "Bogdan Sirbu",
+        "Hermann H. Oppermann",
+        "Michail Symeonidis",
+        "David Antonio Hernandez Solarte",
+        "Michail Anastasiadis",
+        "Anil Palaci"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "co-packaged optics",
+        "interposer",
+        "photonic packaging",
+        "optical I/O",
+        "AI acceleration",
+        "5G/6G communication",
+        "energy-efficient photonics",
+        "photonic integration"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.th3c.4",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/82c5bedf-0346-4f0a-809b-8318a3c21671.html",
+      "summary": "这篇特邀论文介绍以集成和封装为核心的光子架构，包括共封装光学、中介层和光子芯粒，面向可扩展、节能的人工智能与B5G/6G系统光学输入输出。摘要将低时延、高带宽和高密度列为架构目标，并讨论超过100 Tb/s、迈向204.8 Tb/s级平台的方向。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W2156155548",
+      "doi": "10.1109/jstqe.2011.2113171",
+      "title": "Review of Packaging of Optoelectronic, Photonic, and MEMS Components",
+      "authors": [
+        "Tolga Tekin"
+      ],
+      "year": 2011,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optoelectronic packaging",
+        "photonic packaging",
+        "MEMS packaging",
+        "silicon photonics",
+        "3D integration",
+        "heterogeneous integration",
+        "silicon photonics packaging"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2011.2113171",
+      "cited_by_count": 116,
+      "importance": 0.3559,
+      "score_basis": {
+        "topic_overlap": 0.346,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2970982065",
+      "doi": "10.1109/ectc.2019.00165",
+      "title": "3D Silicon Photonics Interposer for Tb/s Optical Interconnects in Data Centers with Double-Side Assembled Active Components and Integrated Optical and Electrical Through Silicon Via on SOI",
+      "authors": [
+        "Bogdan Sirbu",
+        "Yann Eichhammer",
+        "Hermann H. Oppermann",
+        "Tolga Tekin",
+        "Jochen Kraft",
+        "Victor Sidorov",
+        "Xin Liang Yin",
+        "Johan Bauwelinck",
+        "Christian Neumeyr",
+        "Francisco M. Soares"
+      ],
+      "year": 2019,
+      "venue": "2022 IEEE 72nd Electronic Components and Technology Conference (ECTC)",
+      "venue_abbr": "2022 IEEE 72nd Electronic Components and Technology Conference (ECTC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "interposer",
+        "optical interconnects",
+        "data centers",
+        "through-silicon vias",
+        "flip-chip bonding",
+        "thermocompression bonding",
+        "optoelectronic components",
+        "silicon-on-insulator"
+      ],
+      "url": "https://doi.org/10.1109/ectc.2019.00165",
+      "cited_by_count": 21,
+      "importance": 0.3208,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W7163173640",
+      "to": "W2156155548",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163173640"
+        }
+      ]
+    },
+    {
+      "from": "W7163173640",
+      "to": "W2970982065",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163173640"
+        }
+      ]
+    }
+  ]
+}

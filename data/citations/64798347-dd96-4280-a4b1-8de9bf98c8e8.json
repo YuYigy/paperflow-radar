@@ -1,0 +1,108 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "64798347-dd96-4280-a4b1-8de9bf98c8e8",
+  "root": "W7163171519",
+  "status": "ok",
+  "checked_at": "2026-10-18T12:28:01.232536+00:00",
+  "coverage": {
+    "references_found": 1,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 1,
+    "displayed": 1
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7163171519",
+      "doi": "10.1364/ofc.2026.tu3h.2",
+      "title": "120° wide-FoV, 40-Gbps high-date-rate, short-range laser communication using avalanche PD array and spatial diversity signal processing",
+      "authors": [
+        "T Umezawa",
+        "Z-K. Weng",
+        "Y. Yoshida",
+        "A. Matsumoto",
+        "K. Akahane",
+        "N. Yamamoto"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "free-space optical communication",
+        "wide field of view",
+        "spatial diversity",
+        "digital signal processing",
+        "high-speed data transmission"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.tu3h.2",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/64798347-dd96-4280-a4b1-8de9bf98c8e8.html",
+      "summary": "摘要报告采用雪崩光电探测器阵列和数字信号处理中的空间分集，演示最高40 Gbps的宽视场激光通信，单侧视场达到60°。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W2282775880",
+      "doi": "10.1109/jlt.2016.2520503",
+      "title": "Wireless Visible Light Communications Employing Feed-Forward Pre-Equalization and PAM-4 Modulation",
+      "authors": [
+        "X. Li",
+        "N. Bamiedakis",
+        "Xuhan Guo",
+        "Jonathan J. D. McKendry",
+        "Enyuan Xie",
+        "R. Ferreira",
+        "Erdan Gu",
+        "Martin D. Dawson",
+        "Richard V. Penty",
+        "Ian H. White"
+      ],
+      "year": 2016,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "PAM4 modulation",
+        "intersymbol interference",
+        "avalanche photodiode receiver",
+        "free-space optical links",
+        "high-speed optical transmission",
+        "receiver sensitivity",
+        "spectral efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2016.2520503",
+      "cited_by_count": 84,
+      "importance": 0.344,
+      "score_basis": {
+        "topic_overlap": 0.32,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W7163171519",
+      "to": "W2282775880",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163171519"
+        }
+      ]
+    }
+  ]
+}

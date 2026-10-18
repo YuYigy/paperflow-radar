@@ -1,0 +1,115 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "5a697ddf-5c81-4782-b0ac-2398ffb0c666",
+  "root": "W7125804378",
+  "status": "ok",
+  "checked_at": "2026-10-18T12:27:20.568477+00:00",
+  "coverage": {
+    "references_found": 0,
+    "citing_found": 1,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "references_without_doi": 0,
+    "candidates_resolved": 1,
+    "displayed": 1
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7125804378",
+      "doi": "10.1038/s41467-026-77674-y",
+      "title": "Suspended thin-film lithium niobate modulator for broadband mid-infrared light modulation and frequency comb generation",
+      "authors": [
+        "Chun-Ho Lee",
+        "Xinyi Ren",
+        "Xinzhou Su",
+        "Wonho Lee",
+        "Zile Jiang",
+        "Yue Yu",
+        "Huibin Zhou",
+        "Yue Zuo",
+        "Shaoyuan Ou",
+        "Reshma Kopparapu",
+        "Adam T. Heiniger",
+        "Moshe Tur",
+        "Alan Eli Willner",
+        "Zaijun Chen",
+        "Mengjie Yu"
+      ],
+      "year": 2026,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "electro-optic modulator",
+        "frequency comb generation",
+        "free-space optical communication"
+      ],
+      "url": "https://doi.org/10.1038/s41467-026-77674-y",
+      "cited_by_count": 1,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/5a697ddf-5c81-4782-b0ac-2398ffb0c666.html",
+      "summary": "研究报告悬空薄膜铌酸锂电光平台与行波微波电极，在2.4—3.6 μm范围实现2.3—4.3 V直流半波电压。摘要给出40 GHz的2.3 dB电光带宽及提取的52 GHz三分贝带宽，并演示中红外电光频梳及自由空间光通信链路验证。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W7160842490",
+      "doi": "10.1364/ome.599389",
+      "title": "Deterministic wafer-scale thickness uniformity in low-loss thin-film lithium niobate via ion beam trimming",
+      "authors": [
+        "Reshma Kopparapu",
+        "Chun-Ho Lee",
+        "Clayton Cheung",
+        "Tushar Sanjay Karnik",
+        "Thoralf Dunger",
+        "Alexander Schweren",
+        "Mengjie Yu"
+      ],
+      "year": 2026,
+      "venue": "Optical Materials Express",
+      "venue_abbr": "Optical Materials Express",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "thickness uniformity",
+        "wafer-scale uniformity",
+        "post-processing",
+        "integrated photonics",
+        "optical resonators",
+        "quality factor",
+        "surface roughness",
+        "low-loss waveguides"
+      ],
+      "url": "https://doi.org/10.1364/ome.599389",
+      "cited_by_count": 1,
+      "importance": 0.2825,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "citing",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W7160842490",
+      "to": "W7125804378",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160842490"
+        }
+      ]
+    }
+  ]
+}

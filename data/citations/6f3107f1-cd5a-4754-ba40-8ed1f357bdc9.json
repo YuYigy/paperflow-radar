@@ -1,0 +1,978 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "6f3107f1-cd5a-4754-ba40-8ed1f357bdc9",
+  "root": "W7220947394",
+  "status": "ok",
+  "checked_at": "2026-10-18T12:28:41.571167+00:00",
+  "coverage": {
+    "references_found": 17,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 17,
+    "displayed": 17
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7220947394",
+      "doi": "10.1364/oe.611451",
+      "title": "Pipelined spiking neural network equalizer architecture designed for CMOS implementation in IM/DD optical transmission systems",
+      "authors": [
+        "Shuangxu Li",
+        "Vincent Scholl",
+        "Georg Böcherer",
+        "Stefano Calabrò"
+      ],
+      "year": 2026,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "spiking neural networks",
+        "neural network equalizer",
+        "pipelined architecture",
+        "CMOS implementation",
+        "intensity modulation and direct detection",
+        "optical communication systems",
+        "optical neural networks"
+      ],
+      "url": "https://doi.org/10.1364/oe.611451",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/6f3107f1-cd5a-4754-ba40-8ed1f357bdc9.html",
+      "summary": "研究提出面向未来CMOS实现的流水线LIDF脉冲神经网络均衡器，将积分与放电、发放分为两级。在模拟IM/DD链路中，预纠错误码率为2×10⁻³时，相比参考脉冲神经网络、非线性人工神经网络和线性均衡器，增益分别约为0.2、0.7和1.7 dB。正则化配置在仿真条件下使脉冲活动最多降低91%。新增突触电流与膜泄漏动态通过PyTorch/Norse行为模型评估。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4323338420",
+      "doi": "10.1109/jlt.2023.3252819",
+      "title": "Spiking Neural Network Nonlinear Demapping on Neuromorphic Hardware for IM/DD Optical Communication",
+      "authors": [
+        "Elias Arnold",
+        "Georg Böcherer",
+        "Florian Strasser",
+        "Eric Müller",
+        "Philipp Spilger",
+        "Sebastian Billaudelle",
+        "Johannes Weis",
+        "Johannes Schemmel",
+        "Stefano Calabrò",
+        "Maxim Kuschnerov"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "spiking neural networks",
+        "intensity modulation and direct detection",
+        "neuromorphic hardware",
+        "BrainScaleS-2",
+        "chromatic dispersion",
+        "optical transceivers",
+        "linear equalization",
+        "optical fiber communication"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3252819",
+      "cited_by_count": 18,
+      "importance": 0.489,
+      "score_basis": {
+        "topic_overlap": 0.442,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412127833",
+      "doi": "10.1109/nice65350.2025.11065780",
+      "title": "Short-reach Optical Communications: A Real-world Task for Neuromorphic Hardware",
+      "authors": [
+        "Elias Arnold",
+        "Eike-Manuel Edelmann",
+        "Alexander von Bank",
+        "Eric Müller",
+        "Laurent Schmalen",
+        "Johannes Schemmel"
+      ],
+      "year": 2025,
+      "venue": "刊会待核实",
+      "venue_abbr": "待核实",
+      "rank_label": "等级待核实",
+      "keywords": [
+        "short-reach optical transmission",
+        "intensity modulation and direct detection",
+        "spiking neural networks",
+        "neuromorphic hardware",
+        "neuromorphic accelerators",
+        "energy-efficient signal processing"
+      ],
+      "url": "https://doi.org/10.1109/nice65350.2025.11065780",
+      "cited_by_count": 3,
+      "importance": 0.4805,
+      "score_basis": {
+        "topic_overlap": 0.29,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400255802",
+      "doi": "10.1364/oe.529318",
+      "title": "Complex-valued recurrent neural network equalizer with low complexity for a 120-Gbps 50-km optical PAM-4 IM/DD system",
+      "authors": [
+        "Weijie Sheng",
+        "Caoyang Liu",
+        "Jiawang Xiao",
+        "Lin Sun",
+        "Yi Cai",
+        "H. Y. Fu",
+        "Qian Li",
+        "Gordon Ning Liu"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "complex-valued recurrent neural networks",
+        "neural network equalizer",
+        "PAM-4",
+        "intensity modulation and direct detection",
+        "optical fiber transmission",
+        "low-complexity equalization",
+        "forward error correction",
+        "long-haul optical communication"
+      ],
+      "url": "https://doi.org/10.1364/oe.529318",
+      "cited_by_count": 9,
+      "importance": 0.4436,
+      "score_basis": {
+        "topic_overlap": 0.43,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400409539",
+      "doi": "10.1109/lpt.2024.3424495",
+      "title": "Spiking Neural Network Equalizer With Fast and Low Power Decoding for IM/DD Optical Communication",
+      "authors": [
+        "Shuangxu Li",
+        "Georg Böcherer",
+        "Stefano Calabrò",
+        "Maximilian Schaedler"
+      ],
+      "year": 2024,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "spiking neural networks",
+        "intensity modulation and direct detection",
+        "optical communication",
+        "neuromorphic computing",
+        "low power consumption",
+        "throughput"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2024.3424495",
+      "cited_by_count": 4,
+      "importance": 0.4395,
+      "score_basis": {
+        "topic_overlap": 0.377,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2994592523",
+      "doi": "10.1364/oe.27.036953",
+      "title": "Computational complexity comparison of feedforward/radial basis function/recurrent neural network-based equalizer for a 50-Gb/s PAM4 direct-detection optical link",
+      "authors": [
+        "Zhaopeng Xu",
+        "Chuanbowen Sun",
+        "Tonghui Ji",
+        "Jonathan H. Manton",
+        "William Shieh"
+      ],
+      "year": 2019,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "nonlinear equalization",
+        "PAM-4",
+        "computational complexity",
+        "bit error rate",
+        "feedforward neural networks",
+        "radial basis function neural network",
+        "recurrent neural networks",
+        "long-haul optical transmission"
+      ],
+      "url": "https://doi.org/10.1364/oe.27.036953",
+      "cited_by_count": 52,
+      "importance": 0.4335,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407691167",
+      "doi": "10.1109/mecom61498.2024.10881220",
+      "title": "Efficient FPGA Implementation of an Optimized SNN-based DFE for Optical Communications",
+      "authors": [
+        "Mohamed Moursi",
+        "Jonas Ney",
+        "Bilal Hammoud",
+        "Norbert Wehn"
+      ],
+      "year": 2024,
+      "venue": "刊会待核实",
+      "venue_abbr": "待核实",
+      "rank_label": "等级待核实",
+      "keywords": [
+        "spiking neural networks",
+        "decision feedback equalizer",
+        "FPGA implementation",
+        "optical communication",
+        "nonlinear equalization",
+        "energy efficiency",
+        "computational complexity reduction",
+        "artificial neural networks comparison",
+        "optical signal processing"
+      ],
+      "url": "https://doi.org/10.1109/mecom61498.2024.10881220",
+      "cited_by_count": 6,
+      "importance": 0.4238,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2902105071",
+      "doi": "10.1364/oe.26.010631",
+      "title": "Nonlinear equalization based on pruned artificial neural networks for 112-Gb/s SSB-PAM4 transmission over 80-km SSMF",
+      "authors": [
+        "Zhiquan Wan",
+        "Jianqiang Li",
+        "Liang Shu",
+        "Ming Luo",
+        "Xiang Li",
+        "Songnian Fu",
+        "Kun Xu"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "nonlinear equalization",
+        "112 Gb/s transmission",
+        "optical fiber transmission",
+        "neural network pruning"
+      ],
+      "url": "https://doi.org/10.1364/oe.26.010631",
+      "cited_by_count": 78,
+      "importance": 0.3868,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2953413868",
+      "doi": "10.3390/app9112342",
+      "title": "Recent Advances in Equalization Technologies for Short-Reach Optical Links Based on PAM4 Modulation: A Review",
+      "authors": [
+        "Honghang Zhou",
+        "Yan Li",
+        "Yuyang Liu",
+        "Lei Yue",
+        "Chao Gao",
+        "Wei Li",
+        "Jifang Qiu",
+        "Hongxiang Guo",
+        "Xiaobin Hong",
+        "Yong Zuo",
+        "Jian Wu"
+      ],
+      "year": 2019,
+      "venue": "Applied Sciences",
+      "venue_abbr": "Appl. Sci.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "short-reach optical links",
+        "PAM4 modulation",
+        "equalizer",
+        "nonlinear distortion compensation",
+        "machine learning",
+        "data center optical interconnects",
+        "coherent optical transmission",
+        "chromatic dispersion",
+        "fiber nonlinearity"
+      ],
+      "url": "https://doi.org/10.3390/app9112342",
+      "cited_by_count": 68,
+      "importance": 0.3775,
+      "score_basis": {
+        "topic_overlap": 0.283,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414684478",
+      "doi": "10.48550/arxiv.2506.19684",
+      "title": "Beyond 200 Gb/s/lane: An Analytical Approach to Optimal Detection in Shaped IM-DD Optical Links with Relative Intensity Noise",
+      "authors": [
+        "Felipe I. Villenas",
+        "Kaiquan Wu",
+        "Yunus Can Gültekin",
+        "Jamal Riani",
+        "Alex Alvarado"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "relative intensity noise",
+        "intensity modulation",
+        "direct detection",
+        "optical interconnects",
+        "symbol error rate",
+        "optimal detection",
+        "probabilistically shaped modulation",
+        "data center interconnects",
+        "high-speed optical transmission",
+        "signal-dependent noise"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2506.19684",
+      "cited_by_count": 1,
+      "importance": 0.3435,
+      "score_basis": {
+        "topic_overlap": 0.319,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386412373",
+      "doi": "10.1109/jlt.2023.3311716",
+      "title": "Modulation Format and Digital Signal Processing for IM-DD Optics at Post-200G Era",
+      "authors": [
+        "Di Che",
+        "Xi Chen"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "modulation schemes",
+        "digital signal processing",
+        "probabilistic shaping",
+        "PAM",
+        "faster-than-Nyquist signaling",
+        "nonlinear equalization",
+        "multicarrier modulation",
+        "fiber dispersion",
+        "peak power constraint",
+        "bandwidth constraints",
+        "data center interconnects"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3311716",
+      "cited_by_count": 120,
+      "importance": 0.3304,
+      "score_basis": {
+        "topic_overlap": 0.29,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404186638",
+      "doi": "10.1016/j.optcom.2024.131288",
+      "title": "Impact of receiver bandwidth on the performance of nonlinear volterra equalizer in IM/DD systems",
+      "authors": [
+        "Jaeyoon Kim",
+        "Hoon Kim"
+      ],
+      "year": 2024,
+      "venue": "Optics Communications",
+      "venue_abbr": "Optics Communications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "receiver bandwidth",
+        "nonlinear distortion compensation",
+        "sampling frequency",
+        "aliasing",
+        "fractional sampling",
+        "PAM-4",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2024.131288",
+      "cited_by_count": 3,
+      "importance": 0.3057,
+      "score_basis": {
+        "topic_overlap": 0.235,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2984844508",
+      "doi": "10.1109/msp.2019.2931595",
+      "title": "Surrogate Gradient Learning in Spiking Neural Networks: Bringing the Power of Gradient-Based Optimization to Spiking Neural Networks",
+      "authors": [
+        "Emre Ozgur Neftci",
+        "Hesham Mostafa",
+        "Friedemann Zenke"
+      ],
+      "year": 2019,
+      "venue": "IEEE Signal Processing Magazine",
+      "venue_abbr": "IEEE Signal Processing Magazine",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "spiking neural networks",
+        "gradient-based optimization",
+        "synaptic plasticity",
+        "neuromorphic hardware",
+        "data-driven learning"
+      ],
+      "url": "https://doi.org/10.1109/msp.2019.2931595",
+      "cited_by_count": 1547,
+      "importance": 0.2903,
+      "score_basis": {
+        "topic_overlap": 0.067,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3201870057",
+      "doi": "10.1109/jproc.2023.3308088",
+      "title": "Training Spiking Neural Networks Using Lessons From Deep Learning",
+      "authors": [
+        "Jason K. Eshraghian",
+        "Max Ward",
+        "Emre Ozgur Neftci",
+        "Xinxin Wang",
+        "Gregor Lenz",
+        "Girish Dwivedi",
+        "Mohammed Bennamoun",
+        "Doo Seok Jeong",
+        "Wei Dong Lu"
+      ],
+      "year": 2023,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "spiking neural networks",
+        "biologically inspired learning",
+        "spike-timing-dependent plasticity",
+        "gradient-based learning",
+        "neuromorphic engineering",
+        "online learning",
+        "spike encoding"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2023.3308088",
+      "cited_by_count": 788,
+      "importance": 0.2774,
+      "score_basis": {
+        "topic_overlap": 0.061,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2795655975",
+      "doi": "10.1109/tcsi.2018.2840718",
+      "title": "An Accelerated LIF Neuronal Network Array for a Large-Scale Mixed-Signal Neuromorphic Architecture",
+      "authors": [
+        "Syed Ahmed Aamir",
+        "Yannik Stradmann",
+        "Paul Friedrich Müller",
+        "Christian Pehle",
+        "Andreas Hartel",
+        "Andreas Grübl",
+        "Johannes Schemmel",
+        "Karlheinz Meier"
+      ],
+      "year": 2018,
+      "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
+      "venue_abbr": "IEEE Transactions on Circuits and Systems I Regular Papers",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "leaky integrate-and-fire neurons",
+        "neuromorphic hardware",
+        "analog neural networks",
+        "mixed-signal CMOS",
+        "continuous-time circuits",
+        "refractory period",
+        "winner-take-all networks"
+      ],
+      "url": "https://doi.org/10.1109/tcsi.2018.2840718",
+      "cited_by_count": 123,
+      "importance": 0.2366,
+      "score_basis": {
+        "topic_overlap": 0.081,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2131397159",
+      "doi": "10.1098/rstb.2009.0292",
+      "title": "Phase-response curves and synchronized neural networks",
+      "authors": [
+        "Roy M. Smeal",
+        "Bard Ermentrout",
+        "John A. White"
+      ],
+      "year": 2010,
+      "venue": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "venue_abbr": "Philosophical Transactions of the Royal Society B Biological Sciences",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase response curve",
+        "neuronal synchronization",
+        "neural oscillators",
+        "spike timing",
+        "spike frequency adaptation",
+        "common drive",
+        "network heterogeneity",
+        "cortical oscillations"
+      ],
+      "url": "https://doi.org/10.1098/rstb.2009.0292",
+      "cited_by_count": 198,
+      "importance": 0.2258,
+      "score_basis": {
+        "topic_overlap": 0.057,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2982632705",
+      "doi": "10.1109/msp.2019.2933719",
+      "title": "Low-Power Neuromorphic Hardware for Signal Processing Applications: A Review of Architectural and System-Level Design Approaches",
+      "authors": [
+        "Bipin Rajendran",
+        "Abu Sebastian",
+        "Michael Schmuker",
+        "Narayan Srinivasa",
+        "Evangelos S. Eleftheriou"
+      ],
+      "year": 2019,
+      "venue": "IEEE Signal Processing Magazine",
+      "venue_abbr": "IEEE Signal Processing Magazine",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "neuromorphic hardware",
+        "energy-efficient computing",
+        "spiking neural networks",
+        "neuromorphic architectures",
+        "system-level design",
+        "energy efficiency",
+        "temporal coding"
+      ],
+      "url": "https://doi.org/10.1109/msp.2019.2933719",
+      "cited_by_count": 180,
+      "importance": 0.2237,
+      "score_basis": {
+        "topic_overlap": 0.053,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7212079781",
+      "doi": "10.1109/tbcas.2014.2379294",
+      "title": "A biological-realtime neuromorphic system in 28 nm CMOS using low-leakage switched capacitor circuits",
+      "authors": [
+        "Christian Mayr",
+        "Johannes Partzsch",
+        "Marko Noack",
+        "Stephan Hänzsche",
+        "Stefan Scholze",
+        "Sebastian Höppner",
+        "Georg Ellguth",
+        "René Schüffny"
+      ],
+      "year": 2016,
+      "venue": "Zurich Open Repository and Archive (University of Zurich)",
+      "venue_abbr": "Zurich Open Repository and Archive (University of Zurich)",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "neuromorphic circuits",
+        "switched-capacitor circuits",
+        "28nm CMOS",
+        "leakage current compensation",
+        "low-power neural hardware"
+      ],
+      "url": "https://doi.org/10.1109/tbcas.2014.2379294",
+      "cited_by_count": 6,
+      "importance": 0.2189,
+      "score_basis": {
+        "topic_overlap": 0.042,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W2953413868",
+      "to": "W2902105071",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2953413868"
+        }
+      ]
+    },
+    {
+      "from": "W2994592523",
+      "to": "W2902105071",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2994592523"
+        }
+      ]
+    },
+    {
+      "from": "W3201870057",
+      "to": "W2984844508",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3201870057"
+        }
+      ]
+    },
+    {
+      "from": "W4323338420",
+      "to": "W2984844508",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323338420"
+        }
+      ]
+    },
+    {
+      "from": "W4400255802",
+      "to": "W2994592523",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400255802"
+        }
+      ]
+    },
+    {
+      "from": "W4400409539",
+      "to": "W4323338420",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400409539"
+        }
+      ]
+    },
+    {
+      "from": "W4407691167",
+      "to": "W2984844508",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407691167"
+        }
+      ]
+    },
+    {
+      "from": "W4412127833",
+      "to": "W4323338420",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412127833"
+        }
+      ]
+    },
+    {
+      "from": "W4412127833",
+      "to": "W4400409539",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412127833"
+        }
+      ]
+    },
+    {
+      "from": "W4412127833",
+      "to": "W4407691167",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412127833"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W2131397159",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W2795655975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W2902105071",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W2953413868",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W2982632705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W2984844508",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W2994592523",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W3201870057",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W4323338420",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W4386412373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W4400255802",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W4400409539",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W4404186638",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W4407691167",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W4412127833",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W4414684478",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    },
+    {
+      "from": "W7220947394",
+      "to": "W7212079781",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220947394"
+        }
+      ]
+    }
+  ]
+}

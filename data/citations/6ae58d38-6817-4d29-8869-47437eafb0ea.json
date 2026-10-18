@@ -1,0 +1,160 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "6ae58d38-6817-4d29-8869-47437eafb0ea",
+  "root": "W7163194860",
+  "status": "ok",
+  "checked_at": "2026-10-18T12:27:59.568982+00:00",
+  "coverage": {
+    "references_found": 2,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 2,
+    "displayed": 2
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7163194860",
+      "doi": "10.1364/ofc.2026.m2e.5",
+      "title": "A 4×40 GBaud Femtojoule Kerr All-Optical Switch based on Silicon-Organic Hybrid Nanocavities",
+      "authors": [
+        "Y. J. Chen",
+        "Xiaoyan Gao",
+        "Haodong Yang",
+        "Jianhua Ning",
+        "Yilun Wang",
+        "Wenchan Dong",
+        "Lei Lei",
+        "Jing Xu",
+        "Xinliang Zhang"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "all-optical switching",
+        "Kerr effect",
+        "optical signal processing",
+        "silicon photonics",
+        "organic photonic materials"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.m2e.5",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/6ae58d38-6817-4d29-8869-47437eafb0ea.html",
+      "summary": "摘要报告演示了基于硅有机混合纳米腔的多通道光学克尔开关，实现4×40 GBaud运行，每通道最低开关能耗为52 fJ/bit，并报告无误码性能。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W3208281813",
+      "doi": "10.1364/prj.439251",
+      "title": "Enhanced optical nonlinearity in a silicon–organic hybrid slot waveguide for all-optical signal processing",
+      "authors": [
+        "Yonghua Wang",
+        "Su He",
+        "Xiaoyan Gao",
+        "Piaopiao Ye",
+        "Lei Lei",
+        "Wenchan Dong",
+        "Xinliang Zhang",
+        "Ping Xu"
+      ],
+      "year": 2021,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "nonlinear optical properties",
+        "nonlinear coefficient",
+        "degenerate four-wave mixing",
+        "all-optical logic gates",
+        "all-optical signal processing",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1364/prj.439251",
+      "cited_by_count": 37,
+      "importance": 0.3231,
+      "score_basis": {
+        "topic_overlap": 0.274,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2293461590",
+      "doi": "10.1002/lpor.201500197",
+      "title": "Integrated all‐optical switch with 10 ps time resolution enabled by ALD",
+      "authors": [
+        "Gregory T. Moille",
+        "Sylvain Combrié",
+        "Laurence Morgenroth",
+        "Gaëlle Lehoucq",
+        "F. Neuilly",
+        "Bowen Hu",
+        "Didier J. Decoster",
+        "Alfredo De Rossi"
+      ],
+      "year": 2016,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "all-optical switching",
+        "atomic layer deposition",
+        "alumina coatings",
+        "carrier lifetime",
+        "carrier relaxation",
+        "surface recombination",
+        "pump-probe spectroscopy",
+        "impulse response functions",
+        "carrier diffusion"
+      ],
+      "url": "https://doi.org/10.1002/lpor.201500197",
+      "cited_by_count": 33,
+      "importance": 0.2756,
+      "score_basis": {
+        "topic_overlap": 0.168,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W7163194860",
+      "to": "W2293461590",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163194860"
+        }
+      ]
+    },
+    {
+      "from": "W7163194860",
+      "to": "W3208281813",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163194860"
+        }
+      ]
+    }
+  ]
+}

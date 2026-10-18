@@ -1,0 +1,142 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "f53c3932-42de-479b-9350-ee40a2b62f31",
+  "root": "W7163204116",
+  "status": "ok",
+  "checked_at": "2026-10-18T12:27:59.937537+00:00",
+  "coverage": {
+    "references_found": 1,
+    "citing_found": 1,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 2,
+    "displayed": 2
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7163204116",
+      "doi": "10.1364/ofc.2026.th2a.25",
+      "title": "UniOpt: A Unified Foundation-Model Approach for Scalable and Autonomous Management of Optical Networks",
+      "authors": [
+        "Khouloud Abdelli"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical network management",
+        "foundation models",
+        "autonomous network management",
+        "anomaly detection",
+        "lifetime prediction",
+        "fault location",
+        "network forecasting"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.th2a.25",
+      "cited_by_count": 1,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/f53c3932-42de-479b-9350-ee40a2b62f31.html",
+      "summary": "摘要提出受基础模型启发的 UniOpt 光网络自主管理框架，将多模态遥测与任务标记化结合，在统一系统中支持预测、定位、异常检测和寿命预测。作者称该系统可跨异构网络域扩展与泛化。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W7215098735",
+      "doi": "10.1109/icton71309.2026.11705240",
+      "title": "Toward Unified, Interoperable, and Generalizable AI Frameworks for Cognitive and Autonomous Optical Networks",
+      "authors": [
+        "Khouloud Abdelli"
+      ],
+      "year": 2026,
+      "venue": "International Conference on Transparent Optical Networks",
+      "venue_abbr": "International Conference on Transparent Optical Networks",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "artificial intelligence framework",
+        "optical networks",
+        "cognitive networks",
+        "autonomous networks",
+        "interoperability",
+        "generalization",
+        "network intelligence"
+      ],
+      "url": "https://doi.org/10.1109/icton71309.2026.11705240",
+      "cited_by_count": 0,
+      "importance": 0.3468,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "citing",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388408755",
+      "doi": "10.1364/jocn.504549",
+      "title": "Open-source data for QoT estimation in optical networks from Alibaba",
+      "authors": [
+        "Zhiqun Zhai",
+        "Liang Dou",
+        "Yan Li He",
+        "Alan Pak Tao Lau",
+        "Chongjin Xie"
+      ],
+      "year": 2023,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "transmission quality",
+        "optical transport networks",
+        "network performance modeling",
+        "model validation",
+        "open-source data",
+        "Alibaba"
+      ],
+      "url": "https://doi.org/10.1364/jocn.504549",
+      "cited_by_count": 18,
+      "importance": 0.3343,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W7163204116",
+      "to": "W4388408755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163204116"
+        }
+      ]
+    },
+    {
+      "from": "W7215098735",
+      "to": "W7163204116",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7215098735"
+        }
+      ]
+    }
+  ]
+}

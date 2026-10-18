@@ -1,0 +1,110 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "81105729-057b-48f7-9d69-8bdec1913eba",
+  "root": "W7163169635",
+  "status": "ok",
+  "checked_at": "2026-10-18T12:28:30.872229+00:00",
+  "coverage": {
+    "references_found": 1,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 1,
+    "displayed": 1
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7163169635",
+      "doi": "10.1364/ofc.2026.th4b.6",
+      "title": "Multi-Vendor Interoperable 800G Optical Communications over 1602-km through 800G-OpenROADM, 800-ZR and 800GBASE-2xFR4 Fiber Links",
+      "authors": [
+        "Erwan Pincemin",
+        "Anna Gueutier",
+        "Olivier Renais",
+        "Fabrice Herviou",
+        "Yves Delisle",
+        "Martin Bluethner",
+        "Ian Riggs",
+        "Anuj Malik",
+        "Torben Nielsen",
+        "Tom Williams",
+        "Julia Larikova",
+        "Oriol Bertran Pardo",
+        "Rafal Kapuscinski",
+        "Aditya Kakkar",
+        "Mauro Zontini",
+        "Giorgio Mussi",
+        "Andrea Guglierame",
+        "Bachir Sleiman"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "multi-vendor interoperability",
+        "probabilistic shaping",
+        "long-haul optical links",
+        "single-mode fiber"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.th4b.6",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/81105729-057b-48f7-9d69-8bdec1913eba.html",
+      "summary": "论文摘要报告了多厂商800G光收发器的互通传输，分别采用符合800G-OpenROADM、800-ZR和800GBASE规范的模块，通过15×100公里、100公里和2公里的标准单模光纤链路。摘要称首次使用符合OpenROADM规范的概率星座整形。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W1680923748",
+      "doi": "10.1109/tit.2016.2610433",
+      "title": "Optimal Quantization for Distribution Synthesis",
+      "authors": [
+        "Georg Bocherer",
+        "Bernhard C. Geiger"
+      ],
+      "year": 2016,
+      "venue": "IEEE Transactions on Information Theory",
+      "venue_abbr": "IEEE Transactions on Information Theory",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optimal quantization",
+        "probabilistic shaping",
+        "discrete distributions",
+        "total variation distance",
+        "informational divergence",
+        "approximation error bounds"
+      ],
+      "url": "https://doi.org/10.1109/tit.2016.2610433",
+      "cited_by_count": 53,
+      "importance": 0.2167,
+      "score_basis": {
+        "topic_overlap": 0.037,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W7163169635",
+      "to": "W1680923748",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163169635"
+        }
+      ]
+    }
+  ]
+}

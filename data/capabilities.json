@@ -11,6 +11,8 @@
   "reader_import": "paperflow.reader-packet/v1",
   "metric_export": "paperflow.metric-notebook/v1",
   "versions": "version-index.json",
+  "citations": "citations/{record_id}.json",
+  "citation_requests": "paperflow.citation-requests/v1",
   "features": {
     "local_notes": true,
     "reading_queue": true,
@@ -27,7 +29,9 @@
     "update_dashboard": true,
     "private_evidence_reader": true,
     "personal_metric_comparison": true,
-    "explicit_version_relations": true
+    "explicit_version_relations": true,
+    "citation_graph": true,
+    "citation_request_queue": true
   },
   "extension_slots": [
     "paper.detail.tools",

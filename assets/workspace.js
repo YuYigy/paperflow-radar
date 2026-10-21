@@ -72,30 +72,80 @@
     document.body.append(link); link.click(); link.remove(); setTimeout(() => URL.revokeObjectURL(url), 1000);
   }
   let renderNumber = 0;
+  const workspaceSearch = document.getElementById('workspace-search');
+  const workspaceSort = document.getElementById('workspace-sort');
+  function resetFilters() {
+    activeStatus = 'all'; workspaceSearch.value = '';
+    renderWorkspace(); workspaceSearch.focus();
+  }
+  workspaceSearch?.addEventListener('input', renderWorkspace);
+  workspaceSort?.addEventListener('change', renderWorkspace);
+  document.getElementById('workspace-reset')?.addEventListener('click', resetFilters);
   async function renderWorkspace() {
     const list = document.getElementById('workspace-list'); if (!list) return;
     const thisRender = ++renderNumber;
     try {
       const items = new Map((await getItems()).map(i => [i.record_id, i]));
       if (thisRender !== renderNumber) return;
-      const entries = read().entries.sort((a,b) => b.updated_at.localeCompare(a.updated_at));
-      const filtered = entries.filter(e => activeStatus === 'all' || activeStatus === e.status);
+      const entries = read().entries;
+      const normalize = value => String(value || '').normalize('NFKC').toLocaleLowerCase();
+      const terms = normalize(workspaceSearch.value).trim().split(/\s+/).filter(Boolean);
+      const title = entry => { const item = items.get(entry.record_id); return item?.title_zh || item?.title || entry.record_id; };
+      const published = entry => Date.parse(items.get(entry.record_id)?.published_at) || 0;
+      const filtered = entries.filter(entry => {
+        if (activeStatus !== 'all' && activeStatus !== entry.status) return false;
+        const item = items.get(entry.record_id);
+        const text = normalize([entry.record_id, entry.note, item?.title, item?.title_zh, ...(item?.authors || []), item?.doi, item?.venue, item?.venue_info?.abbr, ...(item?.topics || [])].join(' '));
+        return terms.every(term => text.includes(term));
+      }).sort((a,b) => {
+        if (workspaceSort.value === 'published') { const delta = published(b) - published(a); if (delta) return delta; }
+        if (workspaceSort.value === 'title') { const delta = title(a).localeCompare(title(b), 'zh-CN'); if (delta) return delta; }
+        return Date.parse(b.updated_at) - Date.parse(a.updated_at) || a.record_id.localeCompare(b.record_id);
+      });
+      for (const button of document.querySelectorAll('[data-workspace-filter]')) {
+        const state = button.dataset.workspaceFilter;
+        button.setAttribute('aria-pressed', String(state === activeStatus));
+        const count = entries.filter(entry => state === 'all' || entry.status === state).length;
+        button.replaceChildren(document.createTextNode(state === 'all' ? '全部' : states[state]), el('span', String(count), 'workspace-filter-count'));
+      }
+      document.getElementById('workspace-reset').hidden = !terms.length && activeStatus === 'all';
       document.getElementById('workspace-count').textContent = `${filtered.length} / ${entries.length} 篇`;
       list.replaceChildren();
       if (!filtered.length) {
-        const box = el('section', undefined, 'empty-state'); box.append(el('h2', '给下一次阅读留一个位置'), el('p', '在论文库点击“加入阅读”，或切换阅读状态查看已有记录。'));
-        const a = el('a', '浏览论文库', 'button'); a.href = new URL('index.html#research', base); box.append(a); list.append(box);
+        const box = el('section', undefined, 'empty-state');
+        if (blocked) {
+          box.append(el('h2', '暂时无法读取本机清单'), el('p', '原始数据已保留。请检查浏览器存储权限；恢复备份前先保留原始存储。'));
+        } else if (entries.length) {
+          box.append(el('h2', '当前条件下没有论文'), el('p', '试试更短的关键词，或清除筛选查看已有的 ' + entries.length + ' 篇论文。'));
+          const reset = el('button', '查看全部阅读', 'button'); reset.type = 'button'; reset.addEventListener('click', resetFilters); box.append(reset);
+        } else {
+          box.append(el('h2', '给下一次阅读留一个位置'), el('p', '在论文库点击“加入阅读”，就能在这里安排进度、记录问题与证据。已有备份可在下方“备份与迁移”中导入。'));
+          const a = el('a', '浏览论文库', 'button'); a.href = new URL('index.html#research', base); box.append(a);
+        }
+        list.append(box);
       }
       for (const entry of filtered) {
         const item = items.get(entry.record_id), article = el('article', undefined, 'workspace-entry');
         const heading = el('h2');
         if (item) { const a = el('a', item.title_zh || item.title); a.href = new URL('items/' + encodeURIComponent(item.record_id) + '.html#personal-note', base); heading.append(a); }
         else heading.textContent = '原条目当前不可用 · ' + entry.record_id;
-        article.append(heading, el('p', states[entry.status] + ' · 本机修改 ' + new Date(entry.updated_at).toLocaleString('zh-CN'), 'fine'));
+        const meta = el('div', undefined, 'workspace-entry-meta');
+        const badge = el('span', states[entry.status], 'workspace-state'); badge.dataset.state = entry.status; meta.append(badge);
+        if (item) meta.append(el('span', [item.venue_info?.abbr || item.venue, item.published_at].filter(Boolean).join(' · ')));
+        meta.append(el('span', '本机修改 ' + new Date(entry.updated_at).toLocaleString('zh-CN')));
+        article.append(meta, heading);
+        if (item?.authors?.length) article.append(el('p', item.authors.slice(0,3).join(' · ') + (item.authors.length > 3 ? ' 等' : ''), 'fine workspace-authors'));
         if (item && entry.revision !== item.revision) article.append(el('p', '论文已更新；这份笔记基于较早版本，请重新核对证据。', 'notice'));
         if (!item) article.append(el('p', '保留原笔记；该条目可能已撤下或来自另一份公开库。', 'fine'));
-        if (entry.note) article.append(el('pre', entry.note));
+        if (entry.note) {
+          if (entry.note.length > 240 || entry.note.split('\n').length > 5) {
+            const preview = el('details', undefined, 'workspace-note-preview');
+            preview.append(el('summary', '展开阅读笔记 · ' + entry.note.length.toLocaleString('zh-CN') + ' 字符'), el('pre', entry.note));
+            article.append(preview);
+          } else article.append(el('pre', entry.note, 'workspace-note-preview'));
+        }
         const actions = el('div', undefined, 'actions'), select = el('select');
+        if (item) { const resume = el('a', entry.note ? '继续阅读与笔记 →' : '打开论文并记录 →', 'workspace-resume'); resume.href = new URL('items/' + encodeURIComponent(item.record_id) + '.html#personal-note', base); actions.append(resume); }
         select.setAttribute('aria-label', '修改阅读状态：' + (item?.title_zh || item?.title || entry.record_id));
         for (const [value,label] of Object.entries(states)) { const option = el('option',label); option.value = value; select.append(option); }
         select.value = entry.status;
@@ -132,24 +182,45 @@
   let dirty = false;
   if (editor) {
     const id = editor.dataset.noteEditor, note = document.getElementById('reading-note'), status = document.getElementById('reading-status');
-    let baseline;
+    const feedback = document.getElementById('note-feedback'), save = document.getElementById('save-note');
+    const versionFeedback = document.getElementById('note-version-feedback');
+    const counter = document.getElementById('note-length');
+    let baseline, baselineNote = '', baselineStatus = 'queued', externalChange = false;
+    function showFeedback(message, state) { feedback.textContent = message; feedback.dataset.state = state; }
+    function showLength() { counter.textContent = note.value.length.toLocaleString('zh-CN') + ' / 20,000 字符'; }
     function loadEditor() {
       const entry = getEntry(id); baseline = entry?.updated_at;
       note.value = entry?.note || ''; status.value = entry?.status || 'queued';
-      document.getElementById('note-feedback').textContent = entry && entry.revision !== Number(editor.dataset.revision) ? '笔记基于旧版论文，请核查变化。' : '';
+      baselineNote = note.value; baselineStatus = status.value; dirty = false; externalChange = false;
+      versionFeedback.textContent = entry && entry.revision !== Number(editor.dataset.revision) ? '笔记基于旧版论文，请核查变化。' : '';
+      versionFeedback.hidden = !versionFeedback.textContent;
+      showLength();
+      showFeedback(blocked ? '本机存储不可用，请先复制保留笔记。' : entry ? '已保存到当前浏览器' : '尚未保存；写好后点击保存笔记。', blocked ? 'error' : entry ? 'saved' : 'idle');
     }
     loadEditor();
-    note.addEventListener('input', () => { dirty = true; }); status.addEventListener('change', () => { dirty = true; });
-    document.getElementById('save-note').addEventListener('click', () => {
+    function changed() {
+      dirty = note.value !== baselineNote || status.value !== baselineStatus; showLength();
+      showFeedback(externalChange ? '其他标签页已修改此记录；保存时将核对冲突。' : dirty ? '有未保存的修改' : baseline ? '已保存到当前浏览器' : '尚未保存；写好后点击保存笔记。', externalChange ? 'conflict' : dirty ? 'dirty' : baseline ? 'saved' : 'idle');
+    }
+    note.addEventListener('input', changed); status.addEventListener('change', changed);
+    save.addEventListener('click', () => {
       const current = getEntry(id);
-      if (current?.updated_at !== baseline && current?.note !== note.value && !confirm('此笔记已在其他操作中更新。是否用当前编辑内容覆盖？')) return;
-      if (update(id, Number(editor.dataset.revision), {note:note.value, status:status.value})) {
-        dirty = false; baseline = getEntry(id)?.updated_at;
-        document.getElementById('note-feedback').textContent = '已保存到当前浏览器'; notify('笔记已保存到本机');
+      if (current?.updated_at !== baseline && (current?.note !== note.value || current?.status !== status.value) && !confirm('此记录已在其他操作中更新或移除。是否用当前编辑内容保存？')) {
+        externalChange = true; showFeedback('已保留当前草稿，尚未覆盖其他修改。', 'conflict'); return;
       }
+      if (update(id, Number(editor.dataset.revision), {note:note.value, status:status.value})) {
+        loadEditor(); notify('笔记已保存到本机');
+      } else showFeedback('保存失败，草稿仍在编辑框中。请先复制保留，再检查浏览器存储。', 'error');
+    });
+    editor.addEventListener('keydown', event => {
+      if ((event.ctrlKey || event.metaKey) && !event.altKey && !event.isComposing && event.key.toLowerCase() === 's') { event.preventDefault(); save.click(); }
     });
     window.addEventListener('beforeunload', event => { if (dirty) { event.preventDefault(); event.returnValue = ''; } });
-    window.addEventListener('storage', event => { if (event.key === key && !dirty) loadEditor(); });
+    window.addEventListener('storage', event => {
+      if (event.key !== key && event.key !== null) return;
+      if (!dirty) loadEditor();
+      else if (getEntry(id)?.updated_at !== baseline) { externalChange = true; changed(); }
+    });
   }
   document.getElementById('export-workspace')?.addEventListener('click', () => {
     const data = read(); if (!blocked) download(data);

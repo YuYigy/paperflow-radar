@@ -1,0 +1,67 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "89a960e2-5c4c-4210-8bf4-94f29938666e",
+  "root": "W7221590483",
+  "status": "unavailable",
+  "checked_at": "2026-10-21T16:09:51.183994+00:00",
+  "coverage": {
+    "references_found": 19,
+    "citing_found": null,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "failed",
+    "citing_status": "failed",
+    "candidates_resolved": 0,
+    "displayed": 0
+  },
+  "issues": [
+    "references_unavailable",
+    "citing_unavailable"
+  ],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7221590483",
+      "doi": "10.1364/oe.612855",
+      "title": "Real-time adaptive optics compensation for turbulence-impaired OAM-multiplexed optical communications",
+      "authors": [
+        "Yue Pan",
+        "Huan Chang",
+        "Jiaming Liang",
+        "Fei Wang",
+        "Ran Gao",
+        "Ting He",
+        "Jingran Wang",
+        "Linpeng Ma",
+        "QI XU",
+        "Xiaolong Pan",
+        "Dong Guo",
+        "Zhipei Li",
+        "Yinglong Wang",
+        "Xiangjun Xin"
+      ],
+      "year": 2026,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "adaptive optics",
+        "atmospheric turbulence",
+        "orbital angular momentum",
+        "OAM multiplexing",
+        "real-time compensation",
+        "free-space optical communication"
+      ],
+      "url": "https://doi.org/10.1364/oe.612855",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/89a960e2-5c4c-4210-8bf4-94f29938666e.html",
+      "summary": "论文提出ACA-SPGD算法，通过动态调整一阶动量衰减因子和余弦退火步长改善自适应光学优化，并在FPGA上实现双通道流式评估的并行流水架构，生成137单元变形镜的控制电压向量。摘要报告，数值仿真与实验均显示其收敛速度和稳定性优于传统SPGD及Adam-SPGD，并改善OAM自由空间光通信性能。当前实现的MATLAB与FPGA运行时间比约为1283倍，FPGA计算核相对MATLAB参考实现的计算误差为10⁻⁵量级。",
+      "summary_basis": "本站解读 · abstract-only"
+    }
+  ],
+  "edges": []
+}

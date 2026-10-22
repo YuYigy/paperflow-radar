@@ -1,6 +1,6 @@
 "use strict";
 (() => {
-  const controls = Object.fromEntries(["search", "topic", "venue", "grade", "focus", "kind", "period", "sort", "reading", "relevance", "evidence", "saved"].map(id => [id, document.getElementById(id)]));
+  const controls = Object.fromEntries(["search", "topic", "venue", "grade", "hust", "exchange", "focus", "kind", "period", "sort", "reading", "relevance", "evidence", "saved"].map(id => [id, document.getElementById(id)]));
   const cards = Array.from(document.querySelectorAll(".card"));
   const container = document.querySelector(".cards");
   const reset = document.getElementById("reset-filters");
@@ -24,7 +24,7 @@
     const extra = groups.filter(group => group.some(word => contains(text, word))).flat();
     return [card, text + " " + extra.join(" ")];
   }));
-  const labels = {search: "搜索", topic: "方向", venue: "刊会", grade: "学会等级", focus: "关注级", kind: "类型", period: "时间", sort: "排序", reading: "阅读等级", relevance: "相关性", evidence: "证据", saved: "阅读清单"};
+  const labels = {search: "搜索", topic: "方向", venue: "刊会", grade: "学会等级", hust: "院规参考级", exchange: "交流目录", focus: "关注级", kind: "类型", period: "时间", sort: "排序", reading: "阅读等级", relevance: "相关性", evidence: "证据", saved: "阅读清单"};
   function isActive(id) { return controls[id].value !== (id === "sort" ? "date" : ""); }
   function readUrl() {
     const params = new URLSearchParams(location.search);
@@ -33,7 +33,7 @@
       control.value = value;
       if (id !== "search" && control.selectedIndex < 0) control.value = id === "sort" ? "date" : "";
     }
-    if (['venue','grade','focus','kind','period','reading','relevance','evidence','saved'].some(isActive)) document.querySelector('.advanced-filters').open = true;
+    if (['venue','grade','hust','exchange','focus','kind','period','reading','relevance','evidence','saved'].some(isActive)) document.querySelector('.advanced-filters').open = true;
   }
   function filterCards(updateUrl = true) {
     const today = new Date().toLocaleDateString("sv-SE", {timeZone: "Asia/Shanghai"});
@@ -46,14 +46,14 @@
       const date = /^\d{4}-\d{2}-\d{2}/.test(d.date) ? Date.parse(d.date.slice(0, 10) + "T00:00:00Z") : NaN;
       return terms.every(term => contains(searchText.get(card), term)) &&
         (!controls.topic.value || d.topics.split("|").includes(controls.topic.value)) &&
-        ["venue", "grade", "focus", "kind", "reading", "relevance", "evidence"].every(id => !controls[id].value || d[id] === controls[id].value) &&
+        ["venue", "grade", "hust", "exchange", "focus", "kind", "reading", "relevance", "evidence"].every(id => !controls[id].value || d[id] === controls[id].value) &&
         (!controls.saved.value || Boolean(window.PaperFlow?.getReadingEntry(d.id))) &&
         (!controls.period.value || (date <= todayMs && date >= todayMs - (Number(controls.period.value) - 1) * 86400000));
     };
     for (const card of cards) { card.hidden = !matches(card); if (!card.hidden) visible++; }
     const order = controls.sort.value;
     const sorted = cards.slice().sort((a, b) => {
-      const rank = order === 'reading' ? ('ABCD'.indexOf(a.dataset.reading || '-') < 0 ? 99 : 'ABCD'.indexOf(a.dataset.reading)) - ('ABCD'.indexOf(b.dataset.reading || '-') < 0 ? 99 : 'ABCD'.indexOf(b.dataset.reading)) : order === "grade" ? Number(a.dataset.rankOrder) - Number(b.dataset.rankOrder) : order === "focus" ? Number(a.dataset.focusOrder) - Number(b.dataset.focusOrder) : 0;
+      const rank = order === 'reading' ? ('ABCD'.indexOf(a.dataset.reading || '-') < 0 ? 99 : 'ABCD'.indexOf(a.dataset.reading)) - ('ABCD'.indexOf(b.dataset.reading || '-') < 0 ? 99 : 'ABCD'.indexOf(b.dataset.reading)) : order === "hust" ? Number(a.dataset.hustOrder) - Number(b.dataset.hustOrder) : order === "grade" ? Number(a.dataset.rankOrder) - Number(b.dataset.rankOrder) : order === "focus" ? Number(a.dataset.focusOrder) - Number(b.dataset.focusOrder) : 0;
       return rank || b.dataset.date.localeCompare(a.dataset.date) || cards.indexOf(a) - cards.indexOf(b);
     });
     for (const card of sorted) container.append(card);

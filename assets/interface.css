@@ -47,3 +47,86 @@ input,select,textarea{border:1px solid #d5dfd3;border-radius:8px;background:#fbf
 /* Download tools stay folded until needed, without interrupting the reading path. */
 .export-tools{margin:20px 0;border:1px solid #dce5d5;border-radius:10px;background:#fbfcf8;overflow:hidden}.export-tools>summary{cursor:pointer;padding:14px 18px;font-size:13px;font-weight:550;color:#486344}.export-tools>summary .fine{margin-left:14px;font-size:11px;font-weight:400}.export-tools[open]>summary{border-bottom:1px solid #e0e8d9;background:#f1f6ec}.export-tool-body{padding:20px}.export-tool-fields{display:flex;gap:18px;flex-wrap:wrap}.export-tool-fields>label{display:flex;flex-direction:column;gap:7px;flex:1;min-width:180px;font-size:12px;color:var(--muted)}.export-tool-fields select{width:100%;min-width:0}.export-note-choice{display:flex;align-items:center;gap:10px;font-size:12px;margin:16px 0}.export-note-choice input{width:18px;height:18px;min-height:18px;margin:0;accent-color:var(--accent)}.export-note-choice[hidden]{display:none}.export-tool-body .actions{gap:14px}.export-tool-body [data-export-status]{flex:1;min-width:180px;line-height:1.8}.export-tool-body p{margin:14px 0}.workspace-controls>.export-tools{margin:20px 0 0}.paper-detail>.export-tools{max-width:900px}.export-tools>summary:hover{background:#f0f5eb}
 @media(max-width:760px){.export-tools>summary{padding:14px}.export-tools>summary .fine{display:block;margin:5px 0 0 16px}.export-tool-body{padding:16px}.export-tool-fields{gap:14px}.export-tool-fields>label{min-width:0;flex-basis:100%}.export-note-choice{align-items:flex-start}.export-note-choice input{flex-shrink:0;margin-top:3px}.export-tool-body [data-export-status]{min-width:0;flex-basis:100%}}
+
+/* Attributed venue references: distinguish rules, exchange tiers and CIE. */
+.institution-badge,.exchange-badge{display:inline-flex;align-items:center;max-width:100%;padding:.32rem .62rem;border:1px solid #cddbd5;border-radius:.55rem;background:#edf4ef;color:#285a4d;font-size:.76rem;line-height:1.5;overflow-wrap:anywhere;text-decoration:none}
+.exchange-badge{background:#f3f1fa;border-color:#ddd7ed;color:#5a4c80}
+a.institution-badge:hover,a.exchange-badge:hover{filter:brightness(.97);text-decoration:underline;text-underline-offset:3px}
+.grading-rules{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1rem;margin:1.5rem 0}
+.grading-rules>section{padding:1.3rem;border:1px solid var(--line,#dedfd8);border-radius:1rem;background:#f7f8f4}
+.grading-rules h3{margin-top:0}.grading-directory{margin:1.4rem 0}.grading-directory>summary{padding:1rem;border-radius:.7rem;background:#f4f5f0;cursor:pointer}
+.grading-directory .venue-directory>section{padding:1rem;min-width:0}.grading-directory p{overflow-wrap:anywhere}
+@media(max-width:768px){.grading-rules{grid-template-columns:1fr}}
+
+/* Refactoring UI §1.5 / §3.2: name the existing scale, retain the project palette. */
+:root{--space-2:8px;--space-3:12px;--space-4:16px;--space-6:24px;--space-8:32px;--space-12:48px;--type-small:12px;--type-meta:14px;--type-body:16px;--radius-control:8px}
+/* §2.1 / §2.4: content first; utility controls have less visual weight. */
+.page-heading{padding:var(--space-8) 0 var(--space-6)}
+.page-heading h1,.detail-heading h1,.card h3{font-weight:600}
+.catalog-status{display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-4);margin:0 0 var(--space-6);font-size:var(--type-meta);color:var(--muted)}
+.catalog-status>details{max-width:32rem}.catalog-status summary{color:var(--accent);font-size:var(--type-small)}
+.catalog-status p{padding:var(--space-4);background:var(--accent-soft);color:var(--accent);border-radius:var(--radius-control)}
+.filter-panel{padding:var(--space-6)}
+.filter-panel label{gap:var(--space-2);font-weight:500}
+.filter-panel .toolbar{gap:var(--space-6) var(--space-4)}
+.advanced-toggle{display:flex;width:100%;justify-content:space-between;border:0;border-top:1px solid var(--line);border-radius:0;padding:var(--space-4) 0;margin-top:var(--space-4);font-size:var(--type-meta);color:var(--accent)}
+.advanced-toggle::after{content:'+';font-size:20px;line-height:1}.advanced-toggle[aria-expanded=true]::after{content:'−'}
+.save-search-disclosure{margin-top:var(--space-3);font-size:var(--type-small)}
+.save-search-disclosure>summary{color:var(--muted);padding:var(--space-2) 0;min-height:44px;align-content:center}
+.save-search-disclosure[open]{padding-top:var(--space-3);border-top:1px solid var(--line)}
+.save-search-disclosure .saved-search-controls{margin-top:var(--space-3);padding-top:0;border:0}
+.saved-new-filter{margin-top:var(--space-4)}
+/* §3.6 / §4.3: grouped actions and a comfortable text measure. */
+.card{padding:var(--space-8);box-shadow:none}
+.card h3{font-size:20px;margin:var(--space-4) 0 var(--space-2);line-height:1.6}
+.card .summary{font-size:var(--type-body);line-height:1.85;max-width:34em;color:var(--ink);margin:var(--space-6) 0}
+.card .original-title{font-size:var(--type-meta);line-height:1.7;max-width:56em;color:var(--muted)}
+.paper-signals{margin:var(--space-4) 0 var(--space-2);gap:var(--space-3);font-size:var(--type-small)}
+.paper-venue-rules{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-2);margin:var(--space-2) 0 var(--space-4)}
+.institution-badge,.exchange-badge{font-size:var(--type-small);padding:4px var(--space-2);border:0;border-radius:var(--radius-control)}
+.institution-badge{color:var(--accent);background:var(--accent-soft)}
+.exchange-badge{color:var(--ink);background:var(--canvas)}
+.card-foot{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-3);padding-top:var(--space-4);margin-top:var(--space-4)}
+.card-foot>.tags{flex:1 1 220px}.card-foot>.save-button{margin-left:auto}
+.card-foot .research-card-actions{gap:var(--space-3);margin:0;padding:0;border:0;font-size:var(--type-small)}
+.card .triage-control{border:0;margin-top:var(--space-3);padding-top:0;color:var(--muted)}
+.card .triage-control select{font-size:var(--type-small);min-height:36px}
+.quick-brief{padding:var(--space-4);border:0;background:var(--canvas)}
+.quick-brief summary{font-weight:500;color:var(--accent)}
+.quick-brief[open]{padding:var(--space-6)}
+.spotlight{margin:var(--space-6) 0}.spotlight-label,.spotlight-items>a{padding:var(--space-6)}
+.compact-view .card{padding:var(--space-4)}.compact-view .card .summary{font-size:var(--type-meta);margin:var(--space-3) 0}
+/* §2.1 / §8.5: reference headings and in-page navigation follow the main UI. */
+.reference-nav{display:flex;flex-wrap:wrap;gap:var(--space-2);margin:0 0 var(--space-6)}
+.reference-nav a{padding:var(--space-3) var(--space-4);background:#fff;border:1px solid var(--line);border-radius:var(--radius-control);font-size:var(--type-meta)}
+.reference-nav a:hover{background:var(--accent-soft);text-decoration:none}
+.venue-reference{max-width:100%;padding:var(--space-8);box-shadow:none}
+.venue-reference>section{border-bottom:0}
+.venue-reference>section+section{margin-top:var(--space-12);padding-top:var(--space-8);border-top:1px solid var(--line)}
+.venue-reference>section>p{max-width:48em}
+.grading-rules{gap:var(--space-4)}.grading-rules>section{margin:0;padding:var(--space-6);background:var(--canvas);border:0;border-radius:var(--radius)}
+.grading-rules h3,.coverage-group{font-size:20px;line-height:1.5}
+.grading-rules p{font-size:var(--type-meta)}
+.coverage-entry{padding:var(--space-6);box-shadow:none;background:var(--canvas)}
+.coverage-entry h3{margin-top:0}.coverage-group{margin-top:var(--space-8)}
+.grading-directory .venue-directory>section{padding:var(--space-4)}
+@media(hover:hover) and (prefers-reduced-motion:no-preference){
+  /* §6.2: subtle response, no artificial elevation for every static card. */
+  .card:hover{transform:none;box-shadow:var(--surface-shadow)}
+  .card h3 a:hover{color:var(--accent)}
+}
+@media(max-width:760px){
+  .page-heading{padding:var(--space-6) 0}.page-heading h1{font-size:28px;line-height:1.45}
+  .filter-panel,.cards .card{padding:var(--space-4)}
+  .catalog-status{display:block;font-size:var(--type-small);margin-bottom:var(--space-4)}
+  .catalog-status>details{margin-top:var(--space-2)}
+  .card h3{font-size:20px}.card .summary{font-size:var(--type-body)}
+  .card-foot>.tags{flex-basis:100%}.card-foot>.save-button{margin-left:0}
+  .card-foot .research-card-actions{flex:1;justify-content:flex-end;gap:var(--space-2)}
+  .spotlight-label,.spotlight-items>a{padding:var(--space-4)}
+  .reference-nav{display:grid;grid-template-columns:1fr 1fr;gap:var(--space-2)}
+  .reference-nav a{padding:var(--space-3);font-size:var(--type-small)}
+  .venue-reference{padding:var(--space-4)}.grading-rules>section{padding:var(--space-4)}
+  .coverage-entry{padding:var(--space-4)}
+  .compact-view .card .summary{font-size:var(--type-meta)}
+}

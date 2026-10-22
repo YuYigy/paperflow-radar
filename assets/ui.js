@@ -9,7 +9,18 @@
   const search=document.getElementById('catalog-search')||document.getElementById('workspace-search')||document.getElementById('version-search')||document.getElementById('search');
   document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&!e.altKey&&!e.target.closest('input,textarea,select,[contenteditable=true]')&&search){e.preventDefault();search.focus();search.scrollIntoView({block:'center'});}});
   const toolbar=document.querySelector('body[data-page="catalog"] .filter-panel .toolbar, body[data-page="conferences"] .filter-panel .toolbar');
-  if(toolbar){toolbar.id='advanced-catalog-controls';const toggle=document.createElement('button');toggle.type='button';toggle.className='advanced-toggle';toggle.textContent='收起进阶筛选';toggle.setAttribute('aria-controls',toolbar.id);toggle.setAttribute('aria-expanded','true');toolbar.before(toggle);toggle.addEventListener('click',()=>{toolbar.hidden=!toolbar.hidden;toggle.textContent=toolbar.hidden?'展开进阶筛选':'收起进阶筛选';toggle.setAttribute('aria-expanded',String(!toolbar.hidden));});}
+  const savedDisclosure=document.querySelector('.save-search-disclosure');
+  if(savedDisclosure&&new URLSearchParams(location.search).has('saved'))savedDisclosure.open=true;
+  if(toolbar){
+    // §2.4: start with useful search controls, disclose secondary filters on demand.
+    toolbar.id='advanced-catalog-controls';
+    const toggle=document.createElement('button');toggle.type='button';toggle.className='advanced-toggle';toggle.setAttribute('aria-controls',toolbar.id);toolbar.before(toggle);
+    const advanced=['year','evidence','presentation','rank','hust','exchange','session','topic','review','period'];
+    const params=new URLSearchParams(location.search);toolbar.hidden=!advanced.some(k=>params.get(k));
+    const update=()=>{const count=advanced.filter(k=>document.getElementById('catalog-'+k)?.value).length;toggle.textContent=(toolbar.hidden?'更多筛选':'收起筛选')+(count?' · '+count+' 项已选':' · 等级、主题与时间');toggle.setAttribute('aria-expanded',String(!toolbar.hidden));};
+    toggle.addEventListener('click',()=>{toolbar.hidden=!toolbar.hidden;update();});
+    document.addEventListener('paperflow:catalog-filtered',update);update();
+  }
   const nav=document.querySelector('.site-header nav'),active=nav?.querySelector('[aria-current]');
   if(active&&nav.scrollWidth>nav.clientWidth)nav.scrollLeft+=active.getBoundingClientRect().left-nav.getBoundingClientRect().left-12;
   window.addEventListener('storage',e=>{if(e.key===key){compact=e.newValue==='compact';apply();}});

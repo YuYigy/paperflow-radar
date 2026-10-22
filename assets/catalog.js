@@ -1,7 +1,7 @@
 "use strict";
 (() => {
   const conferenceMode=document.body.dataset.page==='conferences';
-  const ids=['search','venue','kind','year','evidence','presentation','rank','session','topic','review','period'];
+  const ids=['search','venue','kind','year','evidence','presentation','rank','hust','exchange','session','topic','review','period'];
   const controls=Object.fromEntries(ids.map(k=>[k,document.getElementById('catalog-'+k)]));
   const list=document.getElementById('catalog-list');
   const norm=t=>String(t||'').normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim();
@@ -21,7 +21,10 @@
     for(const {paper:p} of found.slice((page-1)*30,page*30)){
       const article=el('article',undefined,'card catalog-card');
       const meta=el('div',undefined,'meta');meta.append(el('strong',p.abbr,'venue-badge'),el('span',String(p.year)),el('span',p.paper_code||p.date));
+      meta.append(el('span',p.hust_label,'institution-badge'));
+      if(p.exchange_label)meta.append(el('span',p.exchange_label,'exchange-badge'));
       meta.append(el('span',p.rank_label),el('span',p.focus_label));
+      meta.title=data.venues.find(v=>v.key===p.venue_key)?.hust_note||'';
       if(p.presentation_type)meta.append(el('span',p.presentation_type));
       if(PaperFlowDiscovery.isNew(p))meta.append(el('span','未确认新增','venue-badge'));
       const brief=p.reading_url?briefs[p.reading_url.split('/').pop().replace('.html','')]:null;
@@ -47,7 +50,7 @@
     const chips=document.getElementById('catalog-active-filters');
     if(chips){
       chips.replaceChildren();
-      const labels={search:'搜索',venue:'刊会',kind:'类型',year:'年份',evidence:'摘要',presentation:'报告',rank:'等级',session:'分会',topic:'主题',review:'解读',period:'日期'};
+      const labels={search:'搜索',venue:'刊会',kind:'类型',year:'年份',evidence:'摘要',presentation:'报告',rank:'学会等级',hust:'院规参考级',exchange:'交流目录',session:'分会',topic:'主题',review:'解读',period:'日期'};
       for(const [key,control] of Object.entries(controls)){
         if(!control.value||(conferenceMode&&key==='kind'))continue;
         const value=key==='search'?control.value:control.options[control.selectedIndex]?.textContent||control.value;
@@ -57,6 +60,7 @@
       const onlyNew=document.getElementById('catalog-new-only');
       if(onlyNew.checked){const chip=el('button','仅未确认新增 ×');chip.type='button';chip.setAttribute('aria-label','移除仅未确认新增筛选');chip.onclick=()=>{onlyNew.checked=false;page=1;render();};chips.append(chip);}
     }
+    document.dispatchEvent(new Event('paperflow:catalog-filtered'));
     if(update){const url=new URL(location.href);for(const [k,c] of Object.entries(controls)){const key=k==='search'?'q':k;if(c.value)url.searchParams.set(key,c.value);else url.searchParams.delete(key);}if(document.getElementById('catalog-new-only').checked)url.searchParams.set('new','1');else url.searchParams.delete('new');if(page>1)url.searchParams.set('page',String(page));else url.searchParams.delete('page');history.replaceState(null,'',url);}
   }
   async function load(){

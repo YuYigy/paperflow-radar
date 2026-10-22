@@ -4,7 +4,7 @@
   const base=new URL(document.body.dataset.prefix||'./',location.href);
   const key='paperflow:discovery:v1:'+base.pathname, schema='paperflow.discovery-workspace/v1';
   const labels={deep:'精读',skim:'略读',later:'暂缓',irrelevant:'不相关'};
-  const fields=['search','venue','kind','year','evidence','presentation','rank','session','topic','review','period'];
+  const fields=['search','venue','kind','year','evidence','presentation','rank','hust','exchange','session','topic','review','period'];
   const aliases=[['硅光','silicon photonic'],['相干','coherent'],['光互连','interconnect'],['共封装','co-packaged','cpo'],['空芯','hollow-core','hollow core'],['微波光子','microwave photonic'],['光网络','optical network'],['量子','quantum'],['自由空间','free-space','free space'],['调制器','modulator'],['光纤','fiber','fibre'],['均衡','equaliz'],['波束','beamform','beam steer']];
   const norm=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim();
   const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
@@ -31,9 +31,10 @@
   function read(){try{const raw=localStorage.getItem(key);state=raw?validate(JSON.parse(raw)):blank();blocked=false;}catch(_){blocked=true;state=blank();message('检索与筛选存储不可用，已停止写入并保留原始数据。请导出原始备份检查。');}}
   function save(next){if(blocked){message('存储不可用，未覆盖原始数据。');return false;}try{const clean=validate(next);localStorage.setItem(key,JSON.stringify(clean));state=clean;syncSelectors();renderPersonal();window.dispatchEvent(new Event('paperflow:discovery-changed'));return true;}catch(_){message('保存失败，请检查存储空间或备份格式；原记录未更改。');return false;}}
   function match(p,f,searchText){
-    const text=norm(searchText??[p.title,p.title_zh,p.search_summary,...(p.authors||[]),p.doi,p.paper_code,p.abbr,p.venue,p.session].join(' '));
+    const text=norm(searchText??[p.title,p.title_zh,p.search_summary,...(p.authors||[]),p.doi,p.paper_code,p.abbr,p.venue,...(p.venue_aliases||[]),p.hust_label,p.exchange_label,p.session].join(' '));
     const terms=norm(f.search).split(' ').filter(Boolean);
     if(!terms.every(t=>(aliases.find(g=>g.includes(t))||[t]).some(a=>text.includes(a))))return false;
+    if(f.hust&&(p.hust_rule_grade||(p.kind==='journal'||p.kind==='conference'?'unverified':'na'))!==f.hust||f.exchange&&(p.exchange_grade||'unlisted')!==f.exchange)return false;
     if(f.venue&&p.venue_key!==f.venue||f.kind&&p.kind!==f.kind||f.year&&String(p.year)!==f.year||f.evidence&&p.has_abstract!==(f.evidence==='yes')||f.presentation&&p.presentation_type!==f.presentation||f.rank&&p.rank_label!==f.rank||f.session&&p.session!==f.session||f.topic&&!p.theme_hints.includes(f.topic)||f.review&&Boolean(p.reading_url)!==(f.review==='yes'))return false;
     if(f.period){
       if(!/^\d{4}-\d\d-\d\d$/.test(p.date)||['publication-year','publication-month'].includes(p.date_basis))return false;

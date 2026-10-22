@@ -123,10 +123,11 @@
     button.addEventListener('click',async () => {
       if (downloading) return;
       downloading = true; ++generation; button.disabled = true;
+      let hasRecords = true;
       const controls = [format,scope,notes].filter(Boolean); controls.forEach(control => {control.disabled = true;});
       try {
         const records = await collect(), {actual,skipped} = count(records);
-        if (!actual) { status.textContent = '没有可导出的条目，请调整范围或格式。'; return; }
+        if (!actual) { hasRecords = false; status.textContent = '没有可导出的条目，请调整范围或格式。'; return; }
         const text = serialize(records,format.value,notes.checked);
         const mime = {md:'text/markdown;charset=utf-8',bib:'application/x-bibtex;charset=utf-8',ris:'application/x-research-info-systems;charset=utf-8'}[format.value];
         const url = URL.createObjectURL(new Blob([text],{type:mime})), anchor = document.createElement('a');
@@ -134,7 +135,11 @@
         document.body.append(anchor); anchor.click(); anchor.remove(); setTimeout(() => URL.revokeObjectURL(url),1000);
         status.textContent = '已生成 ' + actual + ' 条记录的下载文件' + (skipped ? '；跳过 ' + skipped + ' 条资讯或来源缺失记录' : '') + '。';
       } catch (_) { status.textContent = '导出失败，请重试；本机笔记未改变。'; }
-      finally { downloading = false; button.disabled = false; controls.forEach(control => {control.disabled = false;}); }
+      finally {
+        downloading = false; button.disabled = !hasRecords;
+        button.textContent = '下载 ' + ({ris:'RIS',bib:'BibTeX',md:'Markdown'}[format.value]);
+        controls.forEach(control => {control.disabled = false;});
+      }
     });
   }
 })();

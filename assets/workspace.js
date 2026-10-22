@@ -126,6 +126,7 @@
       }
       for (const entry of filtered) {
         const item = items.get(entry.record_id), article = el('article', undefined, 'workspace-entry');
+        article.dataset.recordId = entry.record_id;
         const heading = el('h2');
         if (item) { const a = el('a', item.title_zh || item.title); a.href = new URL('items/' + encodeURIComponent(item.record_id) + '.html#personal-note', base); heading.append(a); }
         else heading.textContent = '原条目当前不可用 · ' + entry.record_id;
@@ -159,6 +160,8 @@
         });
         actions.append(select, remove); article.append(actions); list.append(article);
       }
+      list.dataset.loaded = 'true';
+      window.dispatchEvent(new Event('paperflow:workspace-rendered'));
     } catch (_) {
       if (thisRender !== renderNumber) return;
       list.replaceChildren(el('p','论文目录加载失败，已有本机笔记未受影响。可导出备份，或重试加载。'));
@@ -245,6 +248,7 @@
   const extensionNames = new Set();
   window.PaperFlow = Object.freeze({
     version: 1, getItems, getReadingEntry: getEntry,
+    getReadingEntries() { const data = read(); if (blocked) throw Error('Reading storage unavailable'); return data.entries; },
     registerTool({id, slot, label, onActivate}) {
       if (!/^[a-z][a-z0-9-]{0,63}$/.test(id) || extensionNames.has(id) || !['paper.detail.tools','reading.workspace.tools'].includes(slot) || typeof label !== 'string' || !label.trim() || typeof onActivate !== 'function') throw Error('Invalid PaperFlow tool');
       extensionNames.add(id);

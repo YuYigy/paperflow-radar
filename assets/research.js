@@ -1,6 +1,6 @@
 "use strict";
 (() => {
-  const base=new URL(document.body.dataset.prefix||'./',location.href), key='paperflow:research:v1:'+base.pathname;
+  const base=new URL(document.body.dataset.prefix||'./',document.baseURI), key='paperflow:research:v1:'+base.pathname;
   const schema='paperflow.research-workspace/v1', $=id=>document.getElementById(id);
   const stamp=()=>new Date().toISOString(), empty=()=>({schema,profile:{core:'',explore:'',include:'',exclude:'',mode:'core',updated_at:'1970-01-01T00:00:00.000Z'},compare:[],authors:[],questions:[]});
   let state=empty(),blocked=false,items=[],catalog=[];

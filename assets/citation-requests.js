@@ -1,6 +1,6 @@
 (() => {
   'use strict';
-  const base=new URL(document.body.dataset.prefix||'./',location.href), key='paperflow:citations:v1:'+base.pathname;
+  const base=new URL(document.body.dataset.prefix||'./',document.baseURI), key='paperflow:citations:v1:'+base.pathname;
   const schema='paperflow.citation-requests/v1', el=(tag,text)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;return n;};
   let state={schema,requests:[]}, blocked=false;
   function valid(value){

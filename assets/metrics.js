@@ -1,6 +1,6 @@
 "use strict";
 (() => {
-  const $=id=>document.getElementById(id),base=new URL('./',location.href),key='paperflow:metrics:v1:'+base.pathname,schema='paperflow.metric-notebook/v1';
+  const $=id=>document.getElementById(id),base=new URL('./',document.baseURI),key='paperflow:metrics:v1:'+base.pathname,schema='paperflow.metric-notebook/v1';
   const definitions={net_rate:{label:'净速率',units:{'Gb/s':1,'Tb/s':1000,'Mb/s':0.001},standard:'Gb/s'},gross_rate:{label:'总速率',units:{'Gb/s':1,'Tb/s':1000,'Mb/s':0.001},standard:'Gb/s'},baud:{label:'符号率',units:{GBd:1,MBd:0.001},standard:'GBd'},distance:{label:'传输距离',units:{km:1,m:0.001},standard:'km'},bandwidth:{label:'带宽',units:{GHz:1,MHz:0.001,THz:1000},standard:'GHz'},ber:{label:'误码率 BER',units:{'无量纲':1},standard:'无量纲'},ngmi:{label:'NGMI',units:{'无量纲':1},standard:'无量纲'},osnr:{label:'OSNR',units:{dB:1},standard:'dB'},energy:{label:'每比特能耗',units:{'pJ/bit':1,'fJ/bit':0.001,'nJ/bit':1000},standard:'pJ/bit'},power:{label:'功耗',units:{W:1,mW:0.001},standard:'W'}};
   const basis={simulation:'仿真',offline:'离线实验',realtime:'实时实验',field:'现场试验',theory:'理论分析',unknown:'原文未明确'};
   let state={schema,entries:[]},blocked=false,items=[],loadFailed=false,editingRevision=null;

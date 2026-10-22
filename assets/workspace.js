@@ -1,7 +1,7 @@
 /* Local reading repository + versioned extension surface. No credentials or remote writes. */
 "use strict";
 (() => {
-  const base = new URL(document.body.dataset.prefix || './', location.href);
+  const base = new URL(document.body.dataset.prefix || './', document.baseURI);
   const key = 'paperflow:reading:v1:' + base.pathname;
   const schema = 'paperflow.reading-workspace/v1';
   const states = {queued: '待读', reading: '在读', done: '已读'};

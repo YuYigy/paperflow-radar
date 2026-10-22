@@ -1,7 +1,7 @@
 /* Local discovery preferences. Public papers and approval records are never edited. */
 "use strict";
 (() => {
-  const base=new URL(document.body.dataset.prefix||'./',location.href);
+  const base=new URL(document.body.dataset.prefix||'./',document.baseURI);
   const key='paperflow:discovery:v1:'+base.pathname, schema='paperflow.discovery-workspace/v1';
   const labels={deep:'精读',skim:'略读',later:'暂缓',irrelevant:'不相关'};
   const fields=['search','venue','kind','year','evidence','presentation','rank','hust','exchange','session','topic','review','period'];

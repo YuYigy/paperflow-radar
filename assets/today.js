@@ -1,6 +1,6 @@
 "use strict";
 (() => {
-  const base=new URL('./',location.href),key='paperflow:visits:v1:'+base.pathname;
+  const base=new URL('./',document.baseURI),key='paperflow:visits:v1:'+base.pathname;
   const cards=[...document.querySelectorAll('#today-list .card')], topic=document.getElementById('today-topic');
   const ack=document.getElementById('today-ack');let model,seen=null,blocked=false,view='recommended';
   function readSeen(){try{const raw=localStorage.getItem(key);if(!raw)return null;const value=JSON.parse(raw);if(value.schema!=='paperflow.visits/v1'||!value.records||typeof value.records!=='object'||Array.isArray(value.records)||Object.entries(value.records).some(([id,rev])=>!id||!Number.isInteger(rev)||rev<1))throw Error('invalid');return value;}catch(_){blocked=true;ack.disabled=true;return null;}}

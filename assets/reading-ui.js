@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const detail=document.querySelector('.paper-detail'),content=detail?.querySelector('.detail-content');if(!content)return;
-  const toc=[...detail.querySelectorAll('.toc a[href^="#"]')].map(link=>({link,section:document.getElementById(link.hash.slice(1))})).filter(x=>x.section);
+  const toc=[...detail.querySelectorAll('.toc a[href]')].map(link=>({link,section:document.getElementById(link.hash.slice(1))})).filter(x=>x.section);
   const bar=document.createElement('div');bar.className='reading-toolbar';bar.setAttribute('aria-label','正文阅读工具');
   const position=document.createElement('div');position.className='reading-position';const label=document.createElement('span');label.id='reading-position-label';label.textContent='正文浏览位置 0%';
   const progress=document.createElement('progress');progress.max=100;progress.value=0;progress.setAttribute('aria-labelledby',label.id);position.append(label,progress);
@@ -11,7 +11,7 @@
   bar.append(position,jumpLabel,focus);detail.querySelector('.detail-layout').before(bar);
   const motion=matchMedia('(prefers-reduced-motion: reduce)');
   function moveTo(target){target.scrollIntoView({behavior:motion.matches?'instant':'smooth',block:'start'});}
-  jump.addEventListener('change',()=>{const target=document.getElementById(jump.value);if(target){moveTo(target);history.replaceState(null,'','#'+encodeURIComponent(target.id));}});
+  jump.addEventListener('change',()=>{const target=document.getElementById(jump.value);if(target){moveTo(target);const url=new URL(location.href);url.hash=target.id;history.replaceState(null,'',url);}});
   focus.addEventListener('click',()=>{const active=document.body.classList.toggle('focus-reading');focus.textContent=active?'退出专注':'专注阅读';focus.setAttribute('aria-pressed',String(active));schedule();});
   document.addEventListener('keydown',e=>{if(e.key==='Escape'&&document.body.classList.contains('focus-reading')&&!document.querySelector('dialog[open]')){document.body.classList.remove('focus-reading');focus.textContent='专注阅读';focus.setAttribute('aria-pressed','false');focus.focus();schedule();}});
   let frame=0;

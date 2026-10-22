@@ -1,7 +1,7 @@
 /* Download-only research exports. Bibliography never contains private notes or AI summaries. */
 "use strict";
 (() => {
-  const base = new URL(document.body.dataset.prefix || './', location.href);
+  const base = new URL(document.body.dataset.prefix || './', document.baseURI);
   const singleLine = value => String(value ?? '').replace(/[\r\n\t\u0000-\u001f]+/g, ' ').trim();
   const tex = value => singleLine(value).replace(/[\\{}%&#_$~^]/g, ch => ({'\\':'\\textbackslash{}','{':'\\{','}':'\\}','%':'\\%','&':'\\&','#':'\\#','_':'\\_','$':'\\$','~':'\\textasciitilde{}','^':'\\textasciicircum{}'}[ch]));
   const md = value => String(value ?? '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/[\\`*_[\]{}#!|]/g,'\\$&');

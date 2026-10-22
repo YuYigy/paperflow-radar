@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   const host=document.querySelector('[data-citation-record]');if(!host)return;
-  const $=id=>document.getElementById('citation-'+id),base=new URL(document.body.dataset.prefix||'./',location.href);
+  const $=id=>document.getElementById('citation-'+id),base=new URL(document.body.dataset.prefix||'./',document.baseURI);
   const ns='http://www.w3.org/2000/svg', svg=$('svg'), reduced=matchMedia('(prefers-reduced-motion: reduce)');
   const roleLabels={root:'当前论文',reference:'它引用的论文',citing:'引用它的论文',both:'互相引用'};
   const s=(tag,attrs={})=>{const e=document.createElementNS(ns,tag);for(const [k,v]of Object.entries(attrs))e.setAttribute(k,v);return e;};

@@ -60,6 +60,24 @@ a.institution-badge:hover,a.exchange-badge:hover{filter:brightness(.97);text-dec
 
 /* Refactoring UI §1.5 / §3.2: name the existing scale, retain the project palette. */
 :root{--space-2:8px;--space-3:12px;--space-4:16px;--space-6:24px;--space-8:32px;--space-12:48px;--type-small:12px;--type-meta:14px;--type-body:16px;--radius-control:8px}
+/* Refactoring UI §6.2 / §8.1: style the opened picker as well as its trigger.
+   Native semantics and existing input/change listeners remain intact. */
+select{cursor:pointer;font:inherit;accent-color:var(--accent);padding:10px 14px;line-height:1.5}
+select:disabled{cursor:not-allowed;opacity:.65}
+@supports (appearance:base-select){
+  select:not([multiple]):not([size]),select:not([multiple]):not([size])::picker(select){appearance:base-select}
+  select:not([multiple]):not([size]){display:flex;align-items:center;justify-content:space-between;gap:12px;min-width:0;text-align:left}
+  select::picker-icon{color:var(--accent);font-size:14px;margin-left:auto;transition:rotate .16s ease}
+  select:open{border-color:var(--accent);background:#fff;box-shadow:0 0 0 3px var(--accent-soft)}
+  select:open::picker-icon{rotate:180deg}
+  select::picker(select){background:#fff;color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:6px;box-shadow:0 12px 32px #24332c24,0 2px 6px #24332c12;max-height:min(360px,60vh);max-width:calc(100vw - 32px);overflow:auto;margin-block:6px;font-family:var(--font);font-size:14px;scrollbar-width:thin;scrollbar-color:#b0c5ab transparent}
+  select option{display:flex;align-items:center;gap:12px;padding:10px 12px;min-height:44px;border-radius:7px;line-height:1.5;white-space:normal;overflow-wrap:anywhere;cursor:pointer}
+  select option:checked{color:var(--accent);background:var(--accent-soft);font-weight:600}
+  select option:hover,select option:focus-visible{background:var(--canvas);outline:2px solid var(--accent);outline-offset:-2px}
+  select option::checkmark{color:var(--accent);order:1;margin-left:auto;font-size:14px}
+  select option:disabled{opacity:.55;cursor:not-allowed}
+  select optgroup{font-size:12px;font-weight:600;color:var(--muted);padding:8px}
+}
 /* §2.1 / §2.4: content first; utility controls have less visual weight. */
 .page-heading{padding:var(--space-8) 0 var(--space-6)}
 .page-heading h1,.detail-heading h1,.card h3{font-weight:600}

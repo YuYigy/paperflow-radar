@@ -1,6 +1,6 @@
 "use strict";
 (() => {
-  const base=new URL(document.body.dataset.prefix||'./',location.href),key='paperflow:ui:v1:'+base.pathname;
+  const base=new URL(document.body.dataset.prefix||'./',document.baseURI),key='paperflow:ui:v1:'+base.pathname;
   const notice=t=>{const node=document.getElementById('app-notice');node.textContent=t;node.hidden=false;};
   let compact=false;try{compact=localStorage.getItem(key)==='compact';}catch(_){}
   const button=document.getElementById('view-density');

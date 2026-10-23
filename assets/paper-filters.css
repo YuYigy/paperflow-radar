@@ -15,11 +15,12 @@
 .filter-group{margin:0;border-bottom:1px solid var(--line);min-width:0}
 .filter-group>summary{display:flex;align-items:center;gap:var(--space-3);list-style:none;cursor:pointer;padding:var(--space-4) var(--space-2);color:var(--ink);font-size:var(--type-meta);font-weight:600;border-radius:var(--radius-control)}
 .filter-group>summary::-webkit-details-marker{display:none}
+.filter-group>summary>span:first-child{display:block;min-width:0;margin:0;font:inherit;color:inherit}
 .filter-group>summary::after{content:'+';margin-left:auto;font-size:20px;font-weight:400;color:var(--accent)}
 .filter-group[open]>summary::after{content:'−'}
 .filter-group>summary:hover{background:var(--accent-soft)}
 .filter-group summary small{font-size:12px;font-weight:400;color:var(--muted);margin-left:var(--space-4)}
-.filter-group [data-group-count]{white-space:nowrap;font-size:12px;font-weight:500;color:var(--accent)}
+.filter-group [data-group-count]{display:block;margin:0;white-space:nowrap;font-size:12px;font-weight:500;color:var(--accent)}
 .filter-group>.filter-grid{padding:var(--space-4) var(--space-2)}
 .filter-note{font-size:12px;line-height:1.7;color:var(--muted);padding:0 var(--space-2) var(--space-4);margin:0}
 .filter-footer{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);margin-top:var(--space-4)}
@@ -44,6 +45,14 @@
 .attribute-tags a:hover{text-decoration:underline}
 .catalog-card .triage-control{display:flex;align-items:center;justify-content:space-between;gap:var(--space-4);border-top:1px solid var(--line);padding-top:var(--space-4);margin-top:var(--space-4)}
 .catalog-card .triage-control select{width:auto;max-width:180px;min-height:44px;font-size:14px}
+/* §8.4: one primary recovery, visible consequences, no inactive pagination. */
+.catalog-empty{grid-column:1/-1;padding:var(--space-6);text-align:left}
+.catalog-empty>p{max-width:65ch;margin-inline:0;text-align:left}
+.recovery-actions{display:flex;flex-wrap:wrap;gap:var(--space-3);margin:var(--space-6) 0}
+.recovery-actions button{white-space:normal;text-align:left;justify-content:flex-start;overflow-wrap:anywhere}
+.filter-count-note{margin:var(--space-4) 0 0}
+.paper-properties>div{padding-bottom:var(--space-4)}
+.catalog-pagination[hidden]{display:none}
 @media(max-width:1000px){.filter-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:600px){
  .filter-groups{grid-template-columns:1fr}
@@ -55,4 +64,5 @@
  .filter-note{padding:0 0 var(--space-4)}.filter-footer{flex-wrap:wrap}.filter-footer .active-filters{flex-basis:100%}
  .results-toolbar{align-items:flex-start;flex-direction:column}.results-toolbar label{align-self:flex-end}
  .attribute-grid{grid-template-columns:1fr}.paper-authors{font-size:12px}.catalog-card .byline{font-size:12px}
+ .recovery-actions{flex-direction:column}.recovery-actions button{width:100%}
 }

@@ -31,7 +31,7 @@
   function read(){try{const raw=localStorage.getItem(key);state=raw?validate(JSON.parse(raw)):blank();blocked=false;}catch(_){blocked=true;state=blank();message('检索与筛选存储不可用，已停止写入并保留原始数据。请导出原始备份检查。');}}
   function save(next){if(blocked){message('存储不可用，未覆盖原始数据。');return false;}try{const clean=validate(next);localStorage.setItem(key,JSON.stringify(clean));state=clean;syncSelectors();renderPersonal();window.dispatchEvent(new Event('paperflow:discovery-changed'));return true;}catch(_){message('保存失败，请检查存储空间或备份格式；原记录未更改。');return false;}}
   function match(p,f,searchText){
-    const text=norm(searchText??[p.title,p.title_zh,p.search_summary,...(p.authors||[]),p.doi,p.paper_code,p.abbr,p.venue,...(p.venue_aliases||[]),p.hust_label,p.exchange_label,p.session,...(p.attributes?.content.topic_tags||[]),...(p.attributes?.content.author_keywords||[])].join(' '));
+    const text=f.search?norm(searchText??[p.title,p.title_zh,p.search_summary,...(p.authors||[]),p.doi,p.paper_code,p.abbr,p.venue,...(p.venue_aliases||[]),p.hust_label,p.exchange_label,p.session,...(p.attributes?.content.topic_tags||[]),...(p.attributes?.content.author_keywords||[])].join(' ')):'';
     if(!PaperAttributes.match(p.attributes,f))return false;
     if(f.focus&&(p.focus_tier||'unrated')!==f.focus)return false;
     const terms=norm(f.search).split(' ').filter(Boolean);
@@ -63,7 +63,7 @@
   function syncSelectors(){for(const select of document.querySelectorAll('[data-triage-select]'))select.value=state.triage.find(t=>t.id===select.dataset.triageSelect)?.decision||'';}
   function linkFor(s){const url=new URL(s.filters.kind==='conference'?'conferences.html':'catalog.html',base);for(const [k,v] of Object.entries(s.filters))if(v)url.searchParams.set(k==='search'?'q':k,v);url.searchParams.set('saved',s.id);return url;}
   async function loadData(){
-    if(!dataset){const r=await fetch(new URL('data/venue-index.json',base));if(!r.ok)throw Error();dataset=await r.json();if(dataset.schema!=='paperflow.venue-index/v1')throw Error();}
+    if(!dataset)dataset=await PaperCatalogData.load();
     if(!itemset){itemset=await PaperFlow.getItems();const byId=new Map(itemset.map(i=>[i.record_id,i]));for(const p of dataset.papers){const i=byId.get(p.reading_url?.split('/').pop().replace('.html',''));if(i){p.title_zh=i.title_zh;p.search_summary=i.summary_zh;}}}
   }
   async function renderPersonal(){

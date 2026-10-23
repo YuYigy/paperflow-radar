@@ -1,7 +1,7 @@
 "use strict";
 (() => {
   const conferenceMode=document.body.dataset.page==='conferences';
-  const ids=['search','venue','kind','year','evidence','presentation','rank','hust','exchange','session','topic','review','period'];
+  const ids=['author','keyword','keyword_source','metadata','focus','search','venue','kind','year','evidence','presentation','rank','hust','exchange','session','topic','review','period'];
   const controls=Object.fromEntries(ids.map(k=>[k,document.getElementById('catalog-'+k)]));
   const list=document.getElementById('catalog-list');
   const norm=t=>String(t||'').normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim();
@@ -9,8 +9,9 @@
   const el=(tag,value,cls)=>{const n=document.createElement(tag);if(value!==undefined)n.textContent=value;if(cls)n.className=cls;return n;};
   let data, papers=[],page=1,briefs={};
   function sessions(value=controls.session.value){const options=[...new Set(papers.filter(({paper:p})=>(!controls.venue.value||p.venue_key===controls.venue.value)&&(!controls.year.value||String(p.year)===controls.year.value)).map(({paper:p})=>p.session).filter(Boolean))].sort();controls.session.replaceChildren(new Option('全部分会',''));for(const name of options)controls.session.add(new Option(name,name));controls.session.value=options.includes(value)?value:'';}
-  function readUrl(){const params=new URLSearchParams(location.search);for(const [key,c] of Object.entries(controls)){if(key==='session')continue;c.value=params.get(key==='search'?'q':key)||'';if(key!=='search'&&c.selectedIndex<0)c.value='';}if(conferenceMode)controls.kind.value='conference';sessions(params.get('session')||'');page=Math.max(1,Number(params.get('page'))||1);document.getElementById('catalog-new-only').checked=params.get('new')==='1';}
+  function readUrl(){const params=new URLSearchParams(location.search);for(const [key,c] of Object.entries(controls)){if(key==='session')continue;c.value=params.get(key==='search'?'q':key)||'';if(key==='topic')PaperAttributes.restoreTopic(c,params.get('topic')||'');if(c.tagName==='SELECT'&&c.selectedIndex<0)c.value='';}if(conferenceMode)controls.kind.value='conference';sessions(params.get('session')||'');page=Math.max(1,Number(params.get('page'))||1);document.getElementById('catalog-new-only').checked=params.get('new')==='1';}
   function render(update=true){
+    PaperAttributes.constrainVenues(controls.venue,conferenceMode?'conference':controls.kind.value);
     if(conferenceMode)controls.kind.value='conference';sessions();
     const savedFilters=Object.fromEntries(Object.entries(controls).map(([k,c])=>[k,c.value]));
     const matching=papers.filter(({paper:p})=>PaperFlowDiscovery.match(p,savedFilters));
@@ -21,15 +22,34 @@
     for(const {paper:p} of found.slice((page-1)*30,page*30)){
       const article=el('article',undefined,'card catalog-card');
       const meta=el('div',undefined,'meta');meta.append(el('strong',p.abbr,'venue-badge'),el('span',String(p.year)),el('span',p.paper_code||p.date));
-      meta.append(el('span',p.hust_label,'institution-badge'));
-      if(p.exchange_label)meta.append(el('span',p.exchange_label,'exchange-badge'));
-      meta.append(el('span',p.rank_label),el('span',p.focus_label));
+      const ratings=el('div',undefined,'catalog-ratings');
+      ratings.append(el('span',p.hust_label,'institution-badge'));
+      if(p.exchange_label)ratings.append(el('span',p.exchange_label,'exchange-badge'));
+      if(p.attributes?.ratings.cie)ratings.append(el('span',p.rank_label));
+      if(p.focus_tier)ratings.append(el('span',p.focus_label));
       meta.title=data.venues.find(v=>v.key===p.venue_key)?.hust_note||'';
       if(p.presentation_type)meta.append(el('span',p.presentation_type));
       if(PaperFlowDiscovery.isNew(p))meta.append(el('span','未确认新增','venue-badge'));
       const brief=p.reading_url?briefs[p.reading_url.split('/').pop().replace('.html','')]:null;
       const h=el('h3'),a=el('a',brief?.title_zh||p.title);a.href=p.source_url;a.rel='noreferrer';h.append(a);
-      article.append(meta,h,el('p',p.authors.join(' · '),'byline'));
+      article.append(meta,h,el('p',p.authors.slice(0,4).join(' · ')+(p.authors.length>4?` 等 ${p.authors.length} 位作者`:'')||'作者信息待补充','byline'),ratings);
+      const attrs=p.attributes;
+      if(attrs){
+        const details=el('details',undefined,'paper-properties');details.append(el('summary','论文属性 · 作者、关键词与发表信息'));
+        const dl=el('dl',undefined,'attribute-grid');
+        for(const [label,value] of [['期刊 / 会议',attrs.bibliography.venue_name],['文献类型',p.kind==='conference'?'会议论文 / 报告':'期刊论文'],['作者',attrs.authors.join(' · ')],['发表日期',attrs.bibliography.date||String(attrs.bibliography.year||'')],['作者关键词',attrs.content.author_keywords.join(' · ')],['研究方向',attrs.content.directions.join(' · ')],['卷 / 期 / 页码',[attrs.bibliography.volume||'—',attrs.bibliography.issue||'—',attrs.bibliography.pages||'—'].join(' / ')],['出版商',attrs.bibliography.publisher],['语种',attrs.bibliography.language],['ISSN',attrs.identifiers.issn.join(' · ')]]){
+          const row=el('div');row.append(el('dt',label),el('dd',value||'来源未提供'));if(label==='作者')row.className='wide';dl.append(row);
+        }
+        details.append(dl,el('p','系统主题标签 · 题名 / 分会规则识别','fine'));
+        const tags=el('div',undefined,'attribute-tags');
+        for(const term of attrs.content.topic_tags){const a=el('a',term);const url=new URL(location.href);url.search='';url.searchParams.set('keyword',term);url.searchParams.set('keyword_source','derived');a.href=url;tags.append(a);}
+        if(!attrs.content.topic_tags.length)tags.append(el('span','尚无可识别的主题标签','fine'));
+        details.append(tags);article.append(details);
+        if(attrs.contributors.length){
+          const people=el('div',undefined,'attribute-contributors');people.append(el('p','作者机构与 ORCID · 来源登记','fine'));
+          for(const person of attrs.contributors){const row=el('p',person.name+(person.affiliations.length?' · '+person.affiliations.join('；'):''),'fine');if(person.orcid){const a=el('a',' ORCID');a.href=person.orcid;a.rel='noreferrer';row.append(a);}people.append(row);}details.append(people);
+        }
+      }
       if(p.session)article.append(el('p',p.session,'fine'));
       article.append(el('p',(p.reading_url?'已有经审核解读':p.has_abstract?'已取得摘要 · 尚待解读':'仅题录 · 尚待补充摘要')+' · '+p.provenance,'fine'));
       if(p.date_basis==='publication-year')article.append(el('p','出版日期仅提供年份，不计作近30天新发表。','fine'));
@@ -50,10 +70,10 @@
     const chips=document.getElementById('catalog-active-filters');
     if(chips){
       chips.replaceChildren();
-      const labels={search:'搜索',venue:'刊会',kind:'类型',year:'年份',evidence:'摘要',presentation:'报告',rank:'学会等级',hust:'院规参考级',exchange:'交流目录',session:'分会',topic:'主题',review:'解读',period:'日期'};
+      const labels={author:'作者',keyword:'关键词',keyword_source:'关键词来源',metadata:'资料',focus:'关注级',search:'搜索',venue:'刊会',kind:'类型',year:'年份',evidence:'摘要',presentation:'报告',rank:'学会等级',hust:'院规参考级',exchange:'交流目录',session:'分会',topic:'主题',review:'解读',period:'日期'};
       for(const [key,control] of Object.entries(controls)){
         if(!control.value||(conferenceMode&&key==='kind'))continue;
-        const value=key==='search'?control.value:control.options[control.selectedIndex]?.textContent||control.value;
+        const value=control.tagName!=='SELECT'?control.value:control.options[control.selectedIndex]?.textContent||control.value;
         const chip=el('button',`${labels[key]}：${value} ×`);chip.type='button';chip.setAttribute('aria-label',`移除${labels[key]}筛选：${value}`);
         chip.addEventListener('click',()=>{control.value='';page=1;render();controls.search.focus();});chips.append(chip);
       }
@@ -65,14 +85,15 @@
   }
   async function load(){
     list.setAttribute('aria-busy','true');list.replaceChildren(el('p','正在读取题录与解读索引…'));document.getElementById('catalog-count').textContent='正在加载…';
-    try{const response=await fetch('data/venue-index.json');if(!response.ok)throw Error('load');data=await response.json();if(data.schema!=='paperflow.venue-index/v1')throw Error('schema');try{const r=await fetch('data/reading-dashboard.json');if(r.ok)briefs=(await r.json()).briefs||{};}catch(_){}for(const p of data.papers){const b=briefs[p.reading_url?.split('/').pop().replace('.html','')];if(b){p.title_zh=b.title_zh;p.search_summary=b.summary;}}papers=data.papers.filter(p=>!conferenceMode||p.kind==='conference').map(p=>({paper:p,search:norm([p.title,...p.authors,p.doi,p.paper_code,p.abbr,p.venue,p.session,briefs[p.reading_url?.split('/').pop().replace('.html','')]?.summary||''].join(' '))}));readUrl();PaperFlowDiscovery.attachCatalog({papers:()=>papers.map(x=>x.paper),render});render(false);}
+    try{const response=await fetch('data/venue-index.json');if(!response.ok)throw Error('load');data=await response.json();if(data.schema!=='paperflow.venue-index/v1')throw Error('schema');try{const r=await fetch('data/reading-dashboard.json');if(r.ok)briefs=(await r.json()).briefs||{};}catch(_){}for(const p of data.papers){const b=briefs[p.reading_url?.split('/').pop().replace('.html','')];if(b){p.title_zh=b.title_zh;p.search_summary=b.summary;}}papers=data.papers.filter(p=>!conferenceMode||p.kind==='conference').map(p=>({paper:p,search:norm([p.title,...p.authors,p.doi,p.paper_code,p.abbr,p.venue,p.session,briefs[p.reading_url?.split('/').pop().replace('.html','')]?.summary||''].join(' '))}));readUrl();PaperFlowDiscovery.attachCatalog({papers:()=>papers.map(x=>x.paper),render});render(false);document.dispatchEvent(new Event('paperflow:filters-restored'));}
     catch(_){list.replaceChildren(el('p','题录加载失败，请重试。精选解读仍可从主导航打开。'));const retry=el('button','重新加载');retry.addEventListener('click',load);list.append(retry);document.getElementById('catalog-count').textContent='暂不可用';}
     finally{list.setAttribute('aria-busy','false');}
   }
+  controls.kind.addEventListener('input',()=>PaperAttributes.constrainVenues(controls.venue,controls.kind.value,true));
   for(const c of Object.values(controls))c.addEventListener('input',()=>{if(data){page=1;render();}});
   document.addEventListener('click',event=>{const b=event.target.closest('[data-catalog-venue]');if(b&&data){controls.venue.value=b.dataset.catalogVenue;page=1;render();}});
   document.getElementById('catalog-new-only').addEventListener('change',()=>{page=1;if(data)render();});
   document.getElementById('catalog-reset').addEventListener('click',()=>{for(const c of Object.values(controls))c.value='';document.getElementById('catalog-new-only').checked=false;page=1;if(data)render();});
   for(const [id,step] of [['prev',-1],['next',1]])document.getElementById('catalog-'+id).addEventListener('click',()=>{if(data){page+=step;render();document.getElementById('catalog-count').scrollIntoView({block:'center'});}});
-  window.addEventListener('popstate',()=>{if(data){readUrl();render(false);}});load();
+  window.addEventListener('popstate',()=>{if(data){readUrl();render(false);document.dispatchEvent(new Event('paperflow:filters-restored'));}});load();
 })();

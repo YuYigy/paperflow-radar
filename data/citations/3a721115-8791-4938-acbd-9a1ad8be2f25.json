@@ -2,23 +2,20 @@
   "schema": "paperflow.citation-graph/v1",
   "record_id": "3a721115-8791-4938-acbd-9a1ad8be2f25",
   "root": "W7163154790",
-  "status": "unavailable",
-  "checked_at": "2026-10-21T16:09:49.479692+00:00",
+  "status": "ok",
+  "checked_at": "2026-10-23T00:49:49.726759+00:00",
   "coverage": {
     "references_found": 2,
-    "citing_found": null,
+    "citing_found": 0,
     "reference_limit": 100,
     "citing_limit": 30,
     "display_limit": 41,
-    "references_status": "failed",
-    "citing_status": "failed",
-    "candidates_resolved": 0,
-    "displayed": 0
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 2,
+    "displayed": 2
   },
-  "issues": [
-    "references_unavailable",
-    "citing_unavailable"
-  ],
+  "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
@@ -56,7 +53,102 @@
       "reading_url": "items/3a721115-8791-4938-acbd-9a1ad8be2f25.html",
       "summary": "研究面向下一代移动承载中的单纤、单激光器双向链路，对点到多点相干收发系统的传输模型进行了实验验证。摘要报告，模型在90%的案例中达到0.3 dB的预测精度，用于性能预测和网络优化。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W2588545171",
+      "doi": "10.1364/oe.25.004564",
+      "title": "On the limits of digital back-propagation in the presence of transceiver noise",
+      "authors": [
+        "Lídia Galdino",
+        "Daniel Semrau",
+        "Domaniç Lavery",
+        "Gabriel Saavedra",
+        "Cristian B. Czegledi",
+        "Erik Agrell",
+        "Robert I. Killey",
+        "Polina Bayvel"
+      ],
+      "year": 2017,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "digital backpropagation",
+        "signal-to-noise ratio estimation",
+        "optical fiber transmission",
+        "polarization mode dispersion",
+        "chromatic dispersion compensation"
+      ],
+      "url": "https://doi.org/10.1364/oe.25.004564",
+      "cited_by_count": 69,
+      "importance": 0.3227,
+      "score_basis": {
+        "topic_overlap": 0.273,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2024991751",
+      "doi": "10.1137/s1052623496303470",
+      "title": "Convergence Properties of the Nelder--Mead Simplex Method in Low Dimensions",
+      "authors": [
+        "Jeffrey C. Lagarias",
+        "James A. Reeds",
+        "Margaret H. Wright",
+        "Paul E. Wright"
+      ],
+      "year": 1998,
+      "venue": "SIAM Journal on Optimization",
+      "venue_abbr": "SIAM Journal on Optimization",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Nelder-Mead algorithm",
+        "convergence analysis",
+        "direct search methods",
+        "unconstrained optimization",
+        "strictly convex functions",
+        "one-dimensional minimization",
+        "global optimization"
+      ],
+      "url": "https://doi.org/10.1137/s1052623496303470",
+      "cited_by_count": 7448,
+      "importance": 0.2077,
+      "score_basis": {
+        "topic_overlap": 0.017,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W7163154790",
+      "to": "W2024991751",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163154790"
+        }
+      ]
+    },
+    {
+      "from": "W7163154790",
+      "to": "W2588545171",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163154790"
+        }
+      ]
+    }
+  ]
 }

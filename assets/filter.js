@@ -1,7 +1,8 @@
 "use strict";
 (() => {
-  const controls = Object.fromEntries(["search", "topic", "venue", "grade", "hust", "exchange", "focus", "kind", "period", "sort", "reading", "relevance", "evidence", "saved"].map(id => [id, document.getElementById(id)]));
+  const controls = Object.fromEntries(["search", "author", "keyword", "keyword_source", "metadata", "year", "topic", "venue", "grade", "hust", "exchange", "focus", "kind", "period", "sort", "reading", "relevance", "evidence", "saved"].map(id => [id, document.getElementById(id)]));
   const cards = Array.from(document.querySelectorAll(".card"));
+  const attributes = new Map(cards.map(c=>[c,JSON.parse(c.dataset.attributes)]));
   const container = document.querySelector(".cards");
   const reset = document.getElementById("reset-filters");
   const active = document.getElementById("active-filters");
@@ -24,18 +25,20 @@
     const extra = groups.filter(group => group.some(word => contains(text, word))).flat();
     return [card, text + " " + extra.join(" ")];
   }));
-  const labels = {search: "搜索", topic: "方向", venue: "刊会", grade: "学会等级", hust: "院规参考级", exchange: "交流目录", focus: "关注级", kind: "类型", period: "时间", sort: "排序", reading: "阅读等级", relevance: "相关性", evidence: "证据", saved: "阅读清单"};
+  const labels = {search: "搜索", author:"作者",keyword:"关键词",keyword_source:"关键词来源",metadata:"资料",year:"年份",topic: "方向", venue: "刊会", grade: "CIE等级", hust: "院规参考级", exchange: "交流目录", focus: "关注级", kind: "类型", period: "时间", sort: "排序", reading: "阅读建议", relevance: "相关性", evidence: "证据", saved: "阅读清单"};
   function isActive(id) { return controls[id].value !== (id === "sort" ? "date" : ""); }
   function readUrl() {
     const params = new URLSearchParams(location.search);
     for (const [id, control] of Object.entries(controls)) {
       const value = params.get(id === "search" ? "q" : id) || (id === "sort" ? "date" : "");
       control.value = value;
-      if (id !== "search" && control.selectedIndex < 0) control.value = id === "sort" ? "date" : "";
+      if(id==='topic')PaperAttributes.restoreTopic(control,value);
+      if (control.tagName === 'SELECT' && control.selectedIndex < 0) control.value = id === "sort" ? "date" : "";
     }
-    if (['venue','grade','hust','exchange','focus','kind','period','reading','relevance','evidence','saved'].some(isActive)) document.querySelector('.advanced-filters').open = true;
+    document.dispatchEvent(new Event('paperflow:filters-restored'));
   }
   function filterCards(updateUrl = true) {
+    PaperAttributes.constrainVenues(controls.venue,controls.kind.value);
     const today = new Date().toLocaleDateString("sv-SE", {timeZone: "Asia/Shanghai"});
     const todayMs = Date.parse(today + "T00:00:00Z");
     const query = normalize(controls.search.value);
@@ -44,8 +47,11 @@
     const matches = card => {
       const d = card.dataset;
       const date = /^\d{4}-\d{2}-\d{2}/.test(d.date) ? Date.parse(d.date.slice(0, 10) + "T00:00:00Z") : NaN;
+      const attrs=attributes.get(card);
       return terms.every(term => contains(searchText.get(card), term)) &&
-        (!controls.topic.value || d.topics.split("|").includes(controls.topic.value)) &&
+        PaperAttributes.match(attrs,Object.fromEntries(Object.entries(controls).map(([k,c])=>[k,c.value]))) &&
+        (!controls.year.value || String(attrs.bibliography.year||'unknown')===controls.year.value) &&
+        (!controls.topic.value || PaperAttributes.topicMatch(d.topics.split("|"),controls.topic.value)) &&
         ["venue", "grade", "hust", "exchange", "focus", "kind", "reading", "relevance", "evidence"].every(id => !controls[id].value || d[id] === controls[id].value) &&
         (!controls.saved.value || Boolean(window.PaperFlow?.getReadingEntry(d.id))) &&
         (!controls.period.value || (date <= todayMs && date >= todayMs - (Number(controls.period.value) - 1) * 86400000));
@@ -63,13 +69,14 @@
     for (const [id, control] of Object.entries(controls)) {
       if (!isActive(id)) continue;
       const chip = document.createElement("button"); chip.type = "button";
-      const text = id === "search" ? control.value : control.options[control.selectedIndex].text;
+      const text = control.tagName !== 'SELECT' ? control.value : control.options[control.selectedIndex].text;
       chip.textContent = labels[id] + "：" + text + " ×";
       chip.setAttribute("aria-label", "移除" + labels[id] + "筛选：" + text);
       chip.addEventListener("click", () => { control.value = id === "sort" ? "date" : ""; filterCards(); });
       active.append(chip);
     }
     reset.hidden = !Object.keys(controls).some(isActive);
+    document.dispatchEvent(new Event('paperflow:library-filtered'));
     for (const button of document.querySelectorAll("[data-filter-topic]")) button.setAttribute("aria-pressed", String(button.dataset.filterTopic === controls.topic.value));
     for (const button of document.querySelectorAll('[data-quick]')) button.setAttribute('aria-pressed', String(controls[button.dataset.quick].value === button.dataset.value));
     if (updateUrl) {
@@ -81,6 +88,7 @@
       history.replaceState(null, "", url);
     }
   }
+  controls.kind.addEventListener('input',()=>PaperAttributes.constrainVenues(controls.venue,controls.kind.value,true));
   for (const control of Object.values(controls)) control.addEventListener("input", () => filterCards());
   reset.addEventListener("click", () => { for (const [id, control] of Object.entries(controls)) control.value = id === "sort" ? "date" : ""; filterCards(); controls.search.focus(); });
   document.addEventListener("click", event => {

@@ -8,19 +8,19 @@
   apply();button?.addEventListener('click',()=>{compact=!compact;apply();try{localStorage.setItem(key,compact?'compact':'comfortable');}catch(_){notice('已切换本页显示，浏览器未允许保存偏好。');}});
   const search=document.getElementById('catalog-search')||document.getElementById('workspace-search')||document.getElementById('version-search')||document.getElementById('search');
   document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&!e.altKey&&!e.target.closest('input,textarea,select,[contenteditable=true]')&&search){e.preventDefault();search.focus();search.scrollIntoView({block:'center'});}});
-  const toolbar=document.querySelector('body[data-page="catalog"] .filter-panel .toolbar, body[data-page="conferences"] .filter-panel .toolbar');
   const savedDisclosure=document.querySelector('.save-search-disclosure');
   if(savedDisclosure&&new URLSearchParams(location.search).has('saved'))savedDisclosure.open=true;
-  if(toolbar){
-    // §2.4: start with useful search controls, disclose secondary filters on demand.
-    toolbar.id='advanced-catalog-controls';
-    const toggle=document.createElement('button');toggle.type='button';toggle.className='advanced-toggle';toggle.setAttribute('aria-controls',toolbar.id);toolbar.before(toggle);
-    const advanced=['year','evidence','presentation','rank','hust','exchange','session','topic','review','period'];
-    const params=new URLSearchParams(location.search);toolbar.hidden=!advanced.some(k=>params.get(k));
-    const update=()=>{const count=advanced.filter(k=>document.getElementById('catalog-'+k)?.value).length;toggle.textContent=(toolbar.hidden?'更多筛选':'收起筛选')+(count?' · '+count+' 项已选':' · 等级、主题与时间');toggle.setAttribute('aria-expanded',String(!toolbar.hidden));};
-    toggle.addEventListener('click',()=>{toolbar.hidden=!toolbar.hidden;update();});
-    document.addEventListener('paperflow:catalog-filtered',update);update();
+  function updateFilterGroups(reveal=false){
+    for(const group of document.querySelectorAll('[data-filter-group]')){
+      const count=[...group.querySelectorAll('input,select')].filter(c=>c.value).length;
+      const badge=group.querySelector('[data-group-count]');if(badge)badge.textContent=count?count+' 项已选':'';
+      if(reveal&&count)group.open=true;
+    }
   }
+  document.addEventListener('paperflow:catalog-filtered',()=>updateFilterGroups());
+  document.addEventListener('paperflow:filters-restored',()=>updateFilterGroups(true));
+  document.addEventListener('input',()=>updateFilterGroups());
+  document.addEventListener('paperflow:library-filtered',()=>updateFilterGroups());
   const nav=document.querySelector('.site-header nav'),active=nav?.querySelector('[aria-current]');
   if(active&&nav.scrollWidth>nav.clientWidth)nav.scrollLeft+=active.getBoundingClientRect().left-nav.getBoundingClientRect().left-12;
   window.addEventListener('storage',e=>{if(e.key===key){compact=e.newValue==='compact';apply();}});

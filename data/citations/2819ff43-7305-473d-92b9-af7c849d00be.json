@@ -1,28 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "2819ff43-7305-473d-92b9-af7c849d00be",
-  "root": "doi:10.1002/lpor.72017",
-  "status": "partial",
-  "checked_at": "2026-10-20T00:53:55.394834+00:00",
+  "root": "W7222945152",
+  "status": "ok",
+  "checked_at": "2026-10-24T00:49:59.418875+00:00",
   "coverage": {
-    "references_found": 50,
-    "citing_found": null,
+    "references_found": 41,
+    "citing_found": 0,
     "reference_limit": 100,
     "citing_limit": 30,
     "display_limit": 41,
     "references_status": "ok",
-    "citing_status": "unavailable",
-    "references_without_doi": 0,
-    "candidates_resolved": 50,
+    "citing_status": "ok",
+    "candidates_resolved": 41,
     "displayed": 40
   },
-  "issues": [
-    "openalex_not_indexed"
-  ],
-  "refresh_failed": true,
+  "issues": [],
+  "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1002/lpor.72017",
+      "id": "W7222945152",
       "doi": "10.1002/lpor.72017",
       "title": "Wavelength‐Dependent Chiroptical Reversal in Resonant Metasurface Photothermoelectric Photodetector for Dual‐Mode Encrypted Communication",
       "authors": [
@@ -34,13 +31,19 @@
         "Bo Sun",
         "Tielin Shi"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Laser & Photonics Reviews",
       "venue_abbr": "LPR",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "chiral metasurfaces",
+        "photothermal heating",
+        "magnetic dipole resonance",
+        "optical encryption",
+        "multipole decomposition"
+      ],
       "url": "https://doi.org/10.1002/lpor.72017",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
@@ -49,85 +52,46 @@
       "summary_basis": "本站解读 · abstract+pdf-link"
     },
     {
-      "id": "W4413056215",
-      "doi": "10.1002/adfm.202512818",
-      "title": "High‐Performance Mid‐Wave Infrared Photothermoelectric Response in Magnetic Semiconductors MnTe and MnTe 2 Crystals",
+      "id": "W4408536333",
+      "doi": "10.1002/adma.202418405",
+      "title": "Gradient‐Metasurface‐Contact Photodetector for Visible‐to‐Near‐Infrared Spin Light",
       "authors": [
-        "Hongtao Jiang",
-        "Yi‐Fan Chen",
-        "Yi‐Fan Chen",
-        "Yang‐Yang Lv",
-        "Hao Ren",
-        "Yu‐Cheng Kan",
-        "Xin Chen",
-        "Guang‐Yi Wang",
-        "Xiang Yuan",
-        "Jian Zhou",
-        "X. J. Lv",
-        "Shu‐Hua Yao",
-        "Y. B. Chen",
-        "Y. B. Chen",
-        "Yan‐Feng Chen",
-        "Yan‐Feng Chen"
+        "Chenglin He",
+        "Zilan Tang",
+        "Chunhua Wang",
+        "Yufan Wang",
+        "Qingzhao Hua",
+        "Liang Liu",
+        "Xiao Wang",
+        "Xiao Wang",
+        "Oliver G. Schmidt",
+        "Stefan Alexander Maier",
+        "Haoran Ren",
+        "Xiaoxia Wang",
+        "Xiaoxia Wang",
+        "Anlian Pan"
       ],
       "year": 2025,
-      "venue": "Advanced Functional Materials",
-      "venue_abbr": "Adv. Funct. Mater.",
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "photothermoelectric effect",
-        "MnTe",
-        "MnTe2",
-        "magnetic semiconductors",
-        "thermoelectric properties",
-        "spin-orbit coupling",
-        "Zeeman effect"
+        "circularly polarized light detection",
+        "gradient metasurfaces",
+        "zero-bias photodetection",
+        "surface plasmon waves",
+        "polarization discrimination",
+        "many-valued logic",
+        "optical encryption",
+        "polarimetry"
       ],
-      "url": "https://doi.org/10.1002/adfm.202512818",
-      "cited_by_count": 7,
-      "importance": 0.3598,
+      "url": "https://doi.org/10.1002/adma.202418405",
+      "cited_by_count": 21,
+      "importance": 0.4516,
       "score_basis": {
-        "topic_overlap": 0.022,
-        "shared_references": 3,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W7124134923",
-      "doi": "10.1021/acs.chemrev.5c00693",
-      "title": "Polarization-Sensitive Photoelectric Conversion",
-      "authors": [
-        "Siwei Sun",
-        "Jingxuan Wei",
-        "Junyong Wang",
-        "H. M. Chen",
-        "Yuchao Yang",
-        "Goki Eda",
-        "Kian Ping Loh",
-        "Yong Liu",
-        "Cheng‐Wei Qiu"
-      ],
-      "year": 2026,
-      "venue": "Chemical Reviews",
-      "venue_abbr": "Chemical Reviews",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "degree of polarization",
-        "ellipticity",
-        "oblique incidence",
-        "crystal symmetry"
-      ],
-      "url": "https://doi.org/10.1021/acs.chemrev.5c00693",
-      "cited_by_count": 11,
-      "importance": 0.35,
-      "score_basis": {
-        "topic_overlap": 0.0,
-        "shared_references": 3,
-        "local_citations": 0
+        "topic_overlap": 0.292,
+        "shared_references": 2,
+        "local_citations": 1
       },
       "role": "reference",
       "reading_url": null,
@@ -161,12 +125,92 @@
         "optical properties"
       ],
       "url": "https://doi.org/10.1002/adfm.202312872",
-      "cited_by_count": 133,
-      "importance": 0.3494,
+      "cited_by_count": 134,
+      "importance": 0.4071,
       "score_basis": {
-        "topic_overlap": 0.021,
+        "topic_overlap": 0.149,
         "shared_references": 2,
         "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402934595",
+      "doi": "10.1038/s41377-024-01634-8",
+      "title": "High discrimination ratio, broadband circularly polarized light photodetector using dielectric achiral nanostructures",
+      "authors": [
+        "Guanyu Zhang",
+        "Xiaying Lyu",
+        "Yulu Qin",
+        "Yaolong Li",
+        "Zipu Fan",
+        "Xianghan Meng",
+        "Yuqing Cheng",
+        "Zini Cao",
+        "Yixuan Xu",
+        "Dong Sun",
+        "Yunan Gao",
+        "Qihuang Gong",
+        "Guowei Lyu"
+      ],
+      "year": 2024,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "photovoltage generation",
+        "broadband photodetection"
+      ],
+      "url": "https://doi.org/10.1038/s41377-024-01634-8",
+      "cited_by_count": 36,
+      "importance": 0.4034,
+      "score_basis": {
+        "topic_overlap": 0.252,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4286602867",
+      "doi": "10.1021/acs.nanolett.2c01051",
+      "title": "Anapole States in Gap-Surface Plasmon Resonators",
+      "authors": [
+        "Torgom S. Yezekyan",
+        "Vladimir A. Zenin",
+        "Jonas Beermann",
+        "Sergey I. Bozhevolnyi"
+      ],
+      "year": 2022,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "anapole states",
+        "metal-insulator-metal structures",
+        "toroidal moment",
+        "magnetic dipole moment",
+        "multipole decomposition",
+        "scattering suppression",
+        "electric field enhancement",
+        "two-photon luminescence",
+        "nonlinear harmonic generation",
+        "absorption enhancement",
+        "plasmonic sensing"
+      ],
+      "url": "https://doi.org/10.1021/acs.nanolett.2c01051",
+      "cited_by_count": 42,
+      "importance": 0.3999,
+      "score_basis": {
+        "topic_overlap": 0.289,
+        "shared_references": 1,
+        "local_citations": 1
       },
       "role": "reference",
       "reading_url": null,
@@ -204,10 +248,10 @@
         "anisotropic absorption"
       ],
       "url": "https://doi.org/10.1021/acsnano.1c06286",
-      "cited_by_count": 130,
-      "importance": 0.3379,
+      "cited_by_count": 131,
+      "importance": 0.3887,
       "score_basis": {
-        "topic_overlap": 0.018,
+        "topic_overlap": 0.13,
         "shared_references": 1,
         "local_citations": 4
       },
@@ -217,46 +261,34 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W4408536333",
-      "doi": "10.1002/adma.202418405",
-      "title": "Gradient‐Metasurface‐Contact Photodetector for Visible‐to‐Near‐Infrared Spin Light",
+      "id": "W4320492366",
+      "doi": "10.1021/acsanm.2c05225",
+      "title": "Finite-Element Method Simulations of the Tunable Magnetic Anapole State in an All-Graphene Metasurface: Implications for Near-Field Sensing, Nanoscale Optical Trapping, and Cloaking",
       "authors": [
-        "Chenglin He",
-        "Zilan Tang",
-        "Chunhua Wang",
-        "Yufan Wang",
-        "Qingzhao Hua",
-        "Liang Liu",
-        "Xiao Wang",
-        "Xiao Wang",
-        "Oliver G. Schmidt",
-        "Stefan Alexander Maier",
-        "Haoran Ren",
-        "Xiaoxia Wang",
-        "Xiaoxia Wang",
-        "Anlian Pan"
+        "Shuvajit Roy",
+        "Kapil Debnath"
       ],
-      "year": 2025,
-      "venue": "Advanced Materials",
-      "venue_abbr": "Advanced Materials",
+      "year": 2023,
+      "venue": "ACS Applied Nano Materials",
+      "venue_abbr": "ACS Applied Nano Materials",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "circularly polarized light detection",
-        "gradient metasurfaces",
-        "zero-bias photodetection",
-        "surface plasmon waves",
-        "polarization discrimination",
-        "many-valued logic",
-        "optical encryption",
-        "polarimetry"
+        "graphene metasurface",
+        "tunable metasurfaces",
+        "chemical potential tuning",
+        "multipole analysis",
+        "near-field sensing",
+        "optical trapping",
+        "cloaking",
+        "long-wave infrared"
       ],
-      "url": "https://doi.org/10.1002/adma.202418405",
-      "cited_by_count": 19,
-      "importance": 0.3363,
+      "url": "https://doi.org/10.1021/acsanm.2c05225",
+      "cited_by_count": 22,
+      "importance": 0.381,
       "score_basis": {
-        "topic_overlap": 0.036,
-        "shared_references": 2,
-        "local_citations": 1
+        "topic_overlap": 0.291,
+        "shared_references": 1,
+        "local_citations": 0
       },
       "role": "reference",
       "reading_url": null,
@@ -264,41 +296,75 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W4415574307",
-      "doi": "10.1021/acsphotonics.5c02217",
-      "title": "Linearly/Circularly Polarization-Sensitive Photodetector Enabled by Vertically Stacked P-Semimetal-N (PMN) Dual Schottky Junction for Information Transmission",
+      "id": "W3200482461",
+      "doi": "10.1021/acsnano.1c05658",
+      "title": "Chiral Optofluidics with a Plasmonic Metasurface Using the Photothermal Effect",
       "authors": [
-        "Xingyu Zhao",
-        "Nan Zhang",
-        "Zhilin Liu",
-        "Yaru Shi",
-        "Liujian Qi",
-        "Yuting Zou",
-        "Chunlu Chang",
-        "Fan Tan",
-        "Dabing Li",
-        "Shaojuan Li"
+        "Cuiping Ma",
+        "Peng Yu",
+        "Wenhao Wang",
+        "Yisong Zhu",
+        "Feng Lin",
+        "Jiaying Wang",
+        "Zhimin Jing",
+        "Xiang‐Tian Kong",
+        "Peihang Li",
+        "Alexander O. Govorov",
+        "Dong Liu",
+        "Hongxing Xu",
+        "Zhiming Wang"
+      ],
+      "year": 2021,
+      "venue": "ACS Nano",
+      "venue_abbr": "ACS Nano",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "plasmonic metasurfaces",
+        "photothermal effect",
+        "circular dichroism",
+        "circularly polarized light",
+        "chiral spectroscopy",
+        "multiphysics simulation"
+      ],
+      "url": "https://doi.org/10.1021/acsnano.1c05658",
+      "cited_by_count": 56,
+      "importance": 0.3805,
+      "score_basis": {
+        "topic_overlap": 0.312,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415027511",
+      "doi": "10.1002/adma.202508016",
+      "title": "Chiral Metal Halides toward Circularly Polarized Photodetectors",
+      "authors": [
+        "Yarong Gu",
+        "Xinyu Zhang",
+        "Ziqing Li",
+        "Xiaosheng Fang"
       ],
       "year": 2025,
-      "venue": "ACS Photonics",
-      "venue_abbr": "ACS Photonics",
-      "rank_label": "CIE T1 · 2023",
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "polarization-sensitive photodetectors",
-        "Weyl semimetals",
-        "MoS2",
-        "van der Waals heterostructures",
-        "dark current reduction",
-        "full-Stokes polarimetry",
-        "polarization imaging",
-        "image encryption",
-        "on-chip photodetection"
+        "circular dichroism",
+        "spin-orbit coupling",
+        "polarization discrimination",
+        "optical encryption",
+        "solution-processed photodetectors"
       ],
-      "url": "https://doi.org/10.1021/acsphotonics.5c02217",
-      "cited_by_count": 5,
-      "importance": 0.3133,
+      "url": "https://doi.org/10.1002/adma.202508016",
+      "cited_by_count": 15,
+      "importance": 0.3683,
       "score_basis": {
-        "topic_overlap": 0.03,
+        "topic_overlap": 0.152,
         "shared_references": 2,
         "local_citations": 0
       },
@@ -340,10 +406,10 @@
         "nanoplates"
       ],
       "url": "https://doi.org/10.1021/acs.nanolett.2c03574",
-      "cited_by_count": 20,
-      "importance": 0.3117,
+      "cited_by_count": 21,
+      "importance": 0.3669,
       "score_basis": {
-        "topic_overlap": 0.048,
+        "topic_overlap": 0.171,
         "shared_references": 1,
         "local_citations": 2
       },
@@ -353,39 +419,338 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W1764803000",
-      "doi": "10.1021/nl303321g",
-      "title": "Large and Tunable Photothermoelectric Effect in Single-Layer MoS2",
+      "id": "W4413056215",
+      "doi": "10.1002/adfm.202512818",
+      "title": "High‐Performance Mid‐Wave Infrared Photothermoelectric Response in Magnetic Semiconductors MnTe and MnTe 2 Crystals",
       "authors": [
-        "Michele Buscema",
-        "Maria Barkelid",
-        "Val Zwiller",
-        "Herre S. J. van der Zant",
-        "Gary Alexander Steele",
-        "Andrés Castellanos-Gómez"
+        "Hongtao Jiang",
+        "Yi‐Fan Chen",
+        "Yi‐Fan Chen",
+        "Yang‐Yang Lv",
+        "Hao Ren",
+        "Yu‐Cheng Kan",
+        "Xin Chen",
+        "Guang‐Yi Wang",
+        "Xiang Yuan",
+        "Jian Zhou",
+        "X. J. Lv",
+        "Shu‐Hua Yao",
+        "Y. B. Chen",
+        "Y. B. Chen",
+        "Yan‐Feng Chen",
+        "Yan‐Feng Chen"
       ],
-      "year": 2013,
-      "venue": "Nano Letters",
-      "venue_abbr": "Nano Letters",
+      "year": 2025,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "monolayer MoS2",
         "photothermoelectric effect",
-        "Seebeck coefficient",
-        "field-effect transistors",
-        "photocurrent generation",
-        "Schottky barrier",
-        "electric field tuning",
-        "waste heat harvesting",
-        "scanning photocurrent microscopy"
+        "MnTe",
+        "MnTe2",
+        "magnetic semiconductors",
+        "thermoelectric properties",
+        "spin-orbit coupling",
+        "Zeeman effect"
       ],
-      "url": "https://doi.org/10.1021/nl303321g",
-      "cited_by_count": 647,
-      "importance": 0.3086,
+      "url": "https://doi.org/10.1002/adfm.202512818",
+      "cited_by_count": 8,
+      "importance": 0.365,
       "score_basis": {
-        "topic_overlap": 0.019,
+        "topic_overlap": 0.033,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410462242",
+      "doi": "10.1021/acsnano.5c05694",
+      "title": "Engineering Circular Dichroism in the Nonlinear Optical Region with a Refractory Plasmonic Molybdenum Metasurface",
+      "authors": [
+        "Peng Yu",
+        "Tianji Liu",
+        "Yuxuan Zhu",
+        "Feng Lin",
+        "Shuai Yue",
+        "Junichi Takahara",
+        "Tao Ding",
+        "Hongxing Xu",
+        "Alexander O. Govorov",
+        "Zhiming M. Wang"
+      ],
+      "year": 2025,
+      "venue": "ACS Nano",
+      "venue_abbr": "ACS Nano",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "circular dichroism",
+        "chiroptics",
+        "nonlinear optics",
+        "saturable absorption",
+        "reverse saturable absorption",
+        "third harmonic generation"
+      ],
+      "url": "https://doi.org/10.1021/acsnano.5c05694",
+      "cited_by_count": 7,
+      "importance": 0.3627,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7124134923",
+      "doi": "10.1021/acs.chemrev.5c00693",
+      "title": "Polarization-Sensitive Photoelectric Conversion",
+      "authors": [
+        "Siwei Sun",
+        "Jingxuan Wei",
+        "Junyong Wang",
+        "H. M. Chen",
+        "Yuchao Yang",
+        "Goki Eda",
+        "Kian Ping Loh",
+        "Yong Liu",
+        "Cheng‐Wei Qiu"
+      ],
+      "year": 2026,
+      "venue": "Chemical Reviews",
+      "venue_abbr": "Chemical Reviews",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "degree of polarization",
+        "ellipticity",
+        "oblique incidence",
+        "crystal symmetry"
+      ],
+      "url": "https://doi.org/10.1021/acs.chemrev.5c00693",
+      "cited_by_count": 13,
+      "importance": 0.35,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396705220",
+      "doi": "10.1364/oe.525756",
+      "title": "Infrared phase-change chiral metasurfaces with tunable circular dichroism",
+      "authors": [
+        "Haotian Tang",
+        "Liliana Stan",
+        "David A. Czaplewski",
+        "Xiaodong Yang",
+        "Jie Gao"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "chiral metasurfaces",
+        "phase change materials",
+        "circular dichroism",
+        "infrared optics",
+        "amorphous-to-crystalline transition",
+        "temperature tuning",
+        "chiral sensing",
+        "encrypted communication",
+        "infrared thermography"
+      ],
+      "url": "https://doi.org/10.1364/oe.525756",
+      "cited_by_count": 19,
+      "importance": 0.3366,
+      "score_basis": {
+        "topic_overlap": 0.304,
         "shared_references": 0,
-        "local_citations": 5
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4288690421",
+      "doi": "10.1002/adma.202203956",
+      "title": "Ultrathin Suspended Chiral Metasurfaces for Enantiodiscrimination",
+      "authors": [
+        "Mengjia Cen",
+        "Jiawei Wang",
+        "Jianxun Liu",
+        "Huilin He",
+        "Ke Li",
+        "Wenfeng Cai",
+        "Tun Cao",
+        "Yan Jun Liu"
+      ],
+      "year": 2022,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chiral metasurfaces",
+        "circular dichroism",
+        "chiral recognition",
+        "chiral sensing",
+        "label-free detection",
+        "ultrathin metasurface",
+        "bilayer metasurface",
+        "electron beam lithography",
+        "chiroptical response",
+        "circular polarizer"
+      ],
+      "url": "https://doi.org/10.1002/adma.202203956",
+      "cited_by_count": 74,
+      "importance": 0.3358,
+      "score_basis": {
+        "topic_overlap": 0.302,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404224760",
+      "doi": "10.1038/s41928-024-01287-w",
+      "title": "An on-chip full-Stokes polarimeter based on optoelectronic polarization eigenvectors",
+      "authors": [
+        "Jie Deng",
+        "Mengdie Shi",
+        "Xingsi Liu",
+        "Jing Zhou",
+        "Xinyue Qin",
+        "Ruowen Wang",
+        "Yuran Zhen",
+        "Xu Dai",
+        "Yinzhu Chen",
+        "Jingxuan Wei",
+        "Zhenhua Ni",
+        "Weibo Gao",
+        "Cheng‐Wei Qiu",
+        "Xiaoshuang Chen"
+      ],
+      "year": 2024,
+      "venue": "Nature Electronics",
+      "venue_abbr": "Nat. Electron.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "full-Stokes polarimetry",
+        "MoS2",
+        "plasmonic metasurfaces",
+        "condition number minimization",
+        "machine learning",
+        "polarization state detection"
+      ],
+      "url": "https://doi.org/10.1038/s41928-024-01287-w",
+      "cited_by_count": 64,
+      "importance": 0.3325,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4384340370",
+      "doi": "10.1002/adom.202300645",
+      "title": "Chiral Opto‐Fluidics and Plasmonic Nanostructures as a Functional Nanosystem for Manipulating Surface Deformations",
+      "authors": [
+        "Cuiping Ma",
+        "Artur Movsesyan",
+        "Zhimin Jing",
+        "Yisong Zhu",
+        "Peihang Li",
+        "Wenhao Wang",
+        "Alina Muravitskaya",
+        "Alexander O. Govorov",
+        "Zhiming Wang"
+      ],
+      "year": 2023,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "plasmonic nanostructures",
+        "Marangoni convection",
+        "surface tension gradients",
+        "photothermal heating",
+        "thermal dewetting",
+        "polymer thin films",
+        "convection"
+      ],
+      "url": "https://doi.org/10.1002/adom.202300645",
+      "cited_by_count": 5,
+      "importance": 0.3244,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415574307",
+      "doi": "10.1021/acsphotonics.5c02217",
+      "title": "Linearly/Circularly Polarization-Sensitive Photodetector Enabled by Vertically Stacked P-Semimetal-N (PMN) Dual Schottky Junction for Information Transmission",
+      "authors": [
+        "Xingyu Zhao",
+        "Nan Zhang",
+        "Zhilin Liu",
+        "Yaru Shi",
+        "Liujian Qi",
+        "Yuting Zou",
+        "Chunlu Chang",
+        "Fan Tan",
+        "Dabing Li",
+        "Shaojuan Li"
+      ],
+      "year": 2025,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "polarization-sensitive photodetectors",
+        "Weyl semimetals",
+        "MoS2",
+        "van der Waals heterostructures",
+        "dark current reduction",
+        "full-Stokes polarimetry",
+        "polarization imaging",
+        "image encryption",
+        "on-chip photodetection"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.5c02217",
+      "cited_by_count": 6,
+      "importance": 0.3166,
+      "score_basis": {
+        "topic_overlap": 0.037,
+        "shared_references": 2,
+        "local_citations": 0
       },
       "role": "reference",
       "reading_url": null,
@@ -430,10 +795,10 @@
         "polyethylene naphthalate substrate"
       ],
       "url": "https://doi.org/10.1038/s41528-025-00443-2",
-      "cited_by_count": 12,
-      "importance": 0.3079,
+      "cited_by_count": 14,
+      "importance": 0.3127,
       "score_basis": {
-        "topic_overlap": 0.018,
+        "topic_overlap": 0.028,
         "shared_references": 2,
         "local_citations": 0
       },
@@ -443,39 +808,79 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W4402934595",
-      "doi": "10.1038/s41377-024-01634-8",
-      "title": "High discrimination ratio, broadband circularly polarized light photodetector using dielectric achiral nanostructures",
+      "id": "W4412487195",
+      "doi": "10.1021/jacs.5c07024",
+      "title": "Multilevel Chiral Semiconductor Metal-Peptide Framework Thin Film for Highly Circularly Polarized Visible Photodetection",
       "authors": [
-        "Guanyu Zhang",
-        "Xiaying Lyu",
-        "Yulu Qin",
-        "Yaolong Li",
-        "Zipu Fan",
-        "Xianghan Meng",
-        "Yuqing Cheng",
-        "Zini Cao",
-        "Yixuan Xu",
-        "Dong Sun",
-        "Yunan Gao",
-        "Qihuang Gong",
-        "Guowei Lyu"
+        "Jinbiao Zhang",
+        "Jin-Biao Zhang",
+        "Na Li",
+        "Zhi‐Gang Gu",
+        "Jian Zhang",
+        "Jian Zhang"
       ],
-      "year": 2024,
-      "venue": "Light: Science & Applications",
-      "venue_abbr": "LSA",
-      "rank_label": "CIE T1 · 2023",
+      "year": 2025,
+      "venue": "Journal of the American Chemical Society",
+      "venue_abbr": "Journal of the American Chemical Society",
+      "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "photovoltage generation",
-        "broadband photodetection"
+        "chiral metal-organic frameworks",
+        "MOF thin films",
+        "tripeptide ligands",
+        "layer-by-layer assembly",
+        "liquid phase epitaxy",
+        "anisotropy parameter",
+        "chiral recognition",
+        "machine vision",
+        "convolutional neural networks"
       ],
-      "url": "https://doi.org/10.1038/s41377-024-01634-8",
-      "cited_by_count": 35,
-      "importance": 0.3017,
+      "url": "https://doi.org/10.1021/jacs.5c07024",
+      "cited_by_count": 22,
+      "importance": 0.308,
       "score_basis": {
-        "topic_overlap": 0.026,
+        "topic_overlap": 0.129,
         "shared_references": 1,
-        "local_citations": 2
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1764803000",
+      "doi": "10.1021/nl303321g",
+      "title": "Large and Tunable Photothermoelectric Effect in Single-Layer MoS2",
+      "authors": [
+        "Michele Buscema",
+        "Maria Barkelid",
+        "Val Zwiller",
+        "Herre S. J. van der Zant",
+        "Gary Alexander Steele",
+        "Andrés Castellanos-Gómez"
+      ],
+      "year": 2013,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "monolayer MoS2",
+        "photothermoelectric effect",
+        "Seebeck coefficient",
+        "field-effect transistors",
+        "photocurrent generation",
+        "Schottky barrier",
+        "electric field tuning",
+        "waste heat harvesting",
+        "scanning photocurrent microscopy"
+      ],
+      "url": "https://doi.org/10.1021/nl303321g",
+      "cited_by_count": 649,
+      "importance": 0.3066,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 0,
+        "local_citations": 5
       },
       "role": "reference",
       "reading_url": null,
@@ -503,7 +908,7 @@
       ],
       "year": 2025,
       "venue": "Advanced Materials",
-      "venue_abbr": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
         "van der Waals materials",
@@ -516,7 +921,7 @@
         "two-dimensional transition metal dichalcogenides"
       ],
       "url": "https://doi.org/10.1002/adma.202508255",
-      "cited_by_count": 12,
+      "cited_by_count": 14,
       "importance": 0.3,
       "score_basis": {
         "topic_overlap": 0.0,
@@ -529,32 +934,111 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W4415027511",
-      "doi": "10.1002/adma.202508016",
-      "title": "Chiral Metal Halides toward Circularly Polarized Photodetectors",
+      "id": "W2972357716",
+      "doi": "10.1103/physrevb.100.125415",
+      "title": "Multipole decompositions for directional light scattering",
       "authors": [
-        "Yarong Gu",
-        "Xinyu Zhang",
-        "Ziqing Li",
-        "Xiaosheng Fang"
+        "Andrey B. Evlyukhin",
+        "Boris N. Chichkov"
       ],
-      "year": 2025,
-      "venue": "Advanced Materials",
-      "venue_abbr": "Advanced Materials",
+      "year": 2019,
+      "venue": "Physical review. B./Physical review. B",
+      "venue_abbr": "Physical review. B./Physical review. B",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "circular dichroism",
-        "spin-orbit coupling",
-        "polarization discrimination",
-        "optical encryption",
-        "solution-processed photodetectors"
+        "multipole decomposition",
+        "directional light scattering",
+        "nanoparticle scattering",
+        "long-wavelength limit",
+        "spherical harmonic expansion"
       ],
-      "url": "https://doi.org/10.1002/adma.202508016",
-      "cited_by_count": 14,
-      "importance": 0.3,
+      "url": "https://doi.org/10.1103/physrevb.100.125415",
+      "cited_by_count": 134,
+      "importance": 0.2999,
       "score_basis": {
-        "topic_overlap": 0.0,
-        "shared_references": 2,
+        "topic_overlap": 0.178,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407407392",
+      "doi": "10.1002/adfm.202421338",
+      "title": "Circularly Polarized Perovskite Photodetector with Photocurrent Dissymmetry Factors of up to 1.95 Enabled by Liquid Crystal",
+      "authors": [
+        "Yifan Feng",
+        "Guanfeng Gao",
+        "Xuebing Wen",
+        "Zekai Chen",
+        "Jia‐Qi Huang",
+        "Chao Yang",
+        "Xiaofang Jiang",
+        "Lakshminarayana Polavarapu",
+        "Guofu Zhou",
+        "Xiaowen Hu"
+      ],
+      "year": 2025,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "circularly polarized light detection",
+        "perovskite photodetectors",
+        "chiral perovskites",
+        "photonic bandgap tuning",
+        "free-standing liquid crystal films",
+        "photodetector arrays",
+        "image sensing"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202421338",
+      "cited_by_count": 30,
+      "importance": 0.2858,
+      "score_basis": {
+        "topic_overlap": 0.146,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4383302714",
+      "doi": "10.1002/adma.202304161",
+      "title": "Continuous‐Spectrum–Polarization Recombinant Optical Encryption with a Dielectric Metasurface",
+      "authors": [
+        "Jiuxu Wang",
+        "Feilong Yu",
+        "Jin Chen",
+        "Jie Wang",
+        "Rongsheng Chen",
+        "Zengyue Zhao",
+        "Jian Chen",
+        "Xiaoshuang Chen",
+        "Wei Lu",
+        "Guanhai Li"
+      ],
+      "year": 2023,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical encryption",
+        "dielectric metasurfaces",
+        "Jones matrix",
+        "polarization evolution"
+      ],
+      "url": "https://doi.org/10.1002/adma.202304161",
+      "cited_by_count": 51,
+      "importance": 0.2818,
+      "score_basis": {
+        "topic_overlap": 0.182,
+        "shared_references": 0,
         "local_citations": 0
       },
       "role": "reference",
@@ -585,10 +1069,10 @@
         "linear polarimetry"
       ],
       "url": "https://doi.org/10.26599/nr.2025.94907392",
-      "cited_by_count": 7,
-      "importance": 0.2798,
+      "cited_by_count": 8,
+      "importance": 0.2773,
       "score_basis": {
-        "topic_overlap": 0.022,
+        "topic_overlap": 0.016,
         "shared_references": 1,
         "local_citations": 1
       },
@@ -598,39 +1082,47 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W4286602867",
-      "doi": "10.1021/acs.nanolett.2c01051",
-      "title": "Anapole States in Gap-Surface Plasmon Resonators",
+      "id": "W4415219326",
+      "doi": "10.1002/adma.202513318",
+      "title": "Touch‐Driven Bi‐Chiral Superstructures for Nested Encryption of Multiplexed Optical Information",
       "authors": [
-        "Torgom S. Yezekyan",
-        "Vladimir A. Zenin",
-        "Jonas Beermann",
-        "Sergey I. Bozhevolnyi"
+        "Rui Sun",
+        "Si‐Jia Liu",
+        "Yi‐Heng Zhang",
+        "Pengcheng Xu",
+        "Lin Zhu",
+        "Dong Bi Zhu",
+        "Wen Chen",
+        "Yi‐Ming Wang",
+        "Shi‐Hui Ding",
+        "Shi‐Jun Ge",
+        "Peng Chen",
+        "Bingyan Wei",
+        "Jianlin Zhao",
+        "Yanqing Lu"
       ],
-      "year": 2022,
-      "venue": "Nano Letters",
-      "venue_abbr": "Nano Letters",
+      "year": 2025,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "anapole states",
-        "metal-insulator-metal structures",
-        "toroidal moment",
-        "magnetic dipole moment",
-        "multipole decomposition",
-        "scattering suppression",
-        "electric field enhancement",
-        "two-photon luminescence",
-        "nonlinear harmonic generation",
-        "absorption enhancement",
-        "plasmonic sensing"
+        "optical encryption",
+        "cholesteric liquid crystals",
+        "structural color",
+        "vectorial holography",
+        "Berry phase",
+        "circular polarization",
+        "photopatterning",
+        "chiral nanostructures",
+        "data security"
       ],
-      "url": "https://doi.org/10.1021/acs.nanolett.2c01051",
-      "cited_by_count": 41,
-      "importance": 0.27,
+      "url": "https://doi.org/10.1002/adma.202513318",
+      "cited_by_count": 11,
+      "importance": 0.2661,
       "score_basis": {
-        "topic_overlap": 0.0,
-        "shared_references": 1,
-        "local_citations": 1
+        "topic_overlap": 0.147,
+        "shared_references": 0,
+        "local_citations": 0
       },
       "role": "reference",
       "reading_url": null,
@@ -657,7 +1149,7 @@
       ],
       "year": 2024,
       "venue": "Advanced Materials",
-      "venue_abbr": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
         "circularly polarized light detection",
@@ -673,10 +1165,10 @@
         "device stability"
       ],
       "url": "https://doi.org/10.1002/adma.202312396",
-      "cited_by_count": 68,
-      "importance": 0.2692,
+      "cited_by_count": 70,
+      "importance": 0.2634,
       "score_basis": {
-        "topic_overlap": 0.065,
+        "topic_overlap": 0.052,
         "shared_references": 0,
         "local_citations": 2
       },
@@ -686,39 +1178,41 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W4410462242",
-      "doi": "10.1021/acsnano.5c05694",
-      "title": "Engineering Circular Dichroism in the Nonlinear Optical Region with a Refractory Plasmonic Molybdenum Metasurface",
+      "id": "W4415477891",
+      "doi": "10.1021/acsnano.5c12182",
+      "title": "Ultrasensitive Circularly Polarized Photon Detectors Based on Chiral Two-Dimensional MoS 2",
       "authors": [
-        "Peng Yu",
-        "Tianji Liu",
-        "Yuxuan Zhu",
-        "Feng Lin",
-        "Shuai Yue",
-        "Junichi Takahara",
-        "Tao Ding",
-        "Hongxing Xu",
-        "Alexander O. Govorov",
-        "Zhiming M. Wang"
+        "Ye Wang",
+        "Ye Wang",
+        "Yiru Zhu",
+        "Tieyuan Bian",
+        "Ziwei Jeffrey Yang",
+        "Yuanyuan Zhao",
+        "Han Yan",
+        "Yang Li",
+        "Yan Wang",
+        "Yan Wang",
+        "Feng Ding",
+        "Jun Li Yin",
+        "Manish Chhowalla"
       ],
       "year": 2025,
       "venue": "ACS Nano",
       "venue_abbr": "ACS Nano",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "circular dichroism",
-        "chiroptics",
-        "nonlinear optics",
-        "saturable absorption",
-        "reverse saturable absorption",
-        "third harmonic generation"
+        "two-dimensional materials",
+        "chirality transfer",
+        "D-penicillamine",
+        "molar ellipticity",
+        "phototransistor"
       ],
-      "url": "https://doi.org/10.1021/acsnano.5c05694",
-      "cited_by_count": 6,
+      "url": "https://doi.org/10.1021/acsnano.5c12182",
+      "cited_by_count": 4,
       "importance": 0.2604,
       "score_basis": {
-        "topic_overlap": 0.023,
-        "shared_references": 1,
+        "topic_overlap": 0.134,
+        "shared_references": 0,
         "local_citations": 0
       },
       "role": "reference",
@@ -742,7 +1236,7 @@
       ],
       "year": 2024,
       "venue": "ACS Applied Materials & Interfaces",
-      "venue_abbr": "ACS Applied Materials & Interfaces",
+      "venue_abbr": "ACS Appl. Mater. Interfaces",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
         "photothermoelectric effect",
@@ -758,45 +1252,10 @@
         "tellurium films"
       ],
       "url": "https://doi.org/10.1021/acsami.3c17933",
-      "cited_by_count": 42,
-      "importance": 0.2581,
+      "cited_by_count": 43,
+      "importance": 0.2564,
       "score_basis": {
-        "topic_overlap": 0.018,
-        "shared_references": 1,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4320492366",
-      "doi": "10.1021/acsanm.2c05225",
-      "title": "Finite-Element Method Simulations of the Tunable Magnetic Anapole State in an All-Graphene Metasurface: Implications for Near-Field Sensing, Nanoscale Optical Trapping, and Cloaking",
-      "authors": [
-        "Shuvajit Roy",
-        "Kapil Debnath"
-      ],
-      "year": 2023,
-      "venue": "ACS Applied Nano Materials",
-      "venue_abbr": "ACS Applied Nano Materials",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "graphene metasurface",
-        "tunable metasurfaces",
-        "chemical potential tuning",
-        "multipole analysis",
-        "near-field sensing",
-        "optical trapping",
-        "cloaking",
-        "long-wave infrared"
-      ],
-      "url": "https://doi.org/10.1021/acsanm.2c05225",
-      "cited_by_count": 21,
-      "importance": 0.2577,
-      "score_basis": {
-        "topic_overlap": 0.017,
+        "topic_overlap": 0.014,
         "shared_references": 1,
         "local_citations": 0
       },
@@ -837,56 +1296,12 @@
         "light-matter interaction"
       ],
       "url": "https://doi.org/10.1126/sciadv.adv7614",
-      "cited_by_count": 7,
-      "importance": 0.2577,
+      "cited_by_count": 9,
+      "importance": 0.2561,
       "score_basis": {
-        "topic_overlap": 0.017,
+        "topic_overlap": 0.014,
         "shared_references": 1,
         "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W3200482461",
-      "doi": "10.1021/acsnano.1c05658",
-      "title": "Chiral Optofluidics with a Plasmonic Metasurface Using the Photothermal Effect",
-      "authors": [
-        "Cuiping Ma",
-        "Peng Yu",
-        "Wenhao Wang",
-        "Yisong Zhu",
-        "Feng Lin",
-        "Jiaying Wang",
-        "Zhimin Jing",
-        "Xiang‐Tian Kong",
-        "Peihang Li",
-        "Alexander O. Govorov",
-        "Dong Liu",
-        "Hongxing Xu",
-        "Zhiming Wang"
-      ],
-      "year": 2021,
-      "venue": "ACS Nano",
-      "venue_abbr": "ACS Nano",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "plasmonic metasurfaces",
-        "photothermal effect",
-        "circular dichroism",
-        "circularly polarized light",
-        "chiral spectroscopy",
-        "multiphysics simulation"
-      ],
-      "url": "https://doi.org/10.1021/acsnano.1c05658",
-      "cited_by_count": 55,
-      "importance": 0.2513,
-      "score_basis": {
-        "topic_overlap": 0.025,
-        "shared_references": 0,
-        "local_citations": 2
       },
       "role": "reference",
       "reading_url": null,
@@ -929,48 +1344,7 @@
         "scanning thermal microscopy"
       ],
       "url": "https://doi.org/10.1038/s41699-023-00406-z",
-      "cited_by_count": 17,
-      "importance": 0.25,
-      "score_basis": {
-        "topic_overlap": 0.0,
-        "shared_references": 1,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4384340370",
-      "doi": "10.1002/adom.202300645",
-      "title": "Chiral Opto‐Fluidics and Plasmonic Nanostructures as a Functional Nanosystem for Manipulating Surface Deformations",
-      "authors": [
-        "Cuiping Ma",
-        "Artur Movsesyan",
-        "Zhimin Jing",
-        "Yisong Zhu",
-        "Peihang Li",
-        "Wenhao Wang",
-        "Alina Muravitskaya",
-        "Alexander O. Govorov",
-        "Zhiming Wang"
-      ],
-      "year": 2023,
-      "venue": "Advanced Optical Materials",
-      "venue_abbr": "Adv. Opt. Mater.",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "plasmonic nanostructures",
-        "Marangoni convection",
-        "surface tension gradients",
-        "photothermal heating",
-        "thermal dewetting",
-        "polymer thin films",
-        "convection"
-      ],
-      "url": "https://doi.org/10.1002/adom.202300645",
-      "cited_by_count": 4,
+      "cited_by_count": 18,
       "importance": 0.25,
       "score_basis": {
         "topic_overlap": 0.0,
@@ -1024,47 +1398,7 @@
         "symmetry analysis"
       ],
       "url": "https://doi.org/10.1103/physrevlett.134.086201",
-      "cited_by_count": 10,
-      "importance": 0.25,
-      "score_basis": {
-        "topic_overlap": 0.0,
-        "shared_references": 1,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4412487195",
-      "doi": "10.1021/jacs.5c07024",
-      "title": "Multilevel Chiral Semiconductor Metal-Peptide Framework Thin Film for Highly Circularly Polarized Visible Photodetection",
-      "authors": [
-        "Jinbiao Zhang",
-        "Jin-Biao Zhang",
-        "Na Li",
-        "Zhi‐Gang Gu",
-        "Jian Zhang",
-        "Jian Zhang"
-      ],
-      "year": 2025,
-      "venue": "Journal of the American Chemical Society",
-      "venue_abbr": "Journal of the American Chemical Society",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "chiral metal-organic frameworks",
-        "MOF thin films",
-        "tripeptide ligands",
-        "layer-by-layer assembly",
-        "liquid phase epitaxy",
-        "anisotropy parameter",
-        "chiral recognition",
-        "machine vision",
-        "convolutional neural networks"
-      ],
-      "url": "https://doi.org/10.1021/jacs.5c07024",
-      "cited_by_count": 21,
+      "cited_by_count": 12,
       "importance": 0.25,
       "score_basis": {
         "topic_overlap": 0.0,
@@ -1103,7 +1437,7 @@
         "circularly polarized light"
       ],
       "url": "https://doi.org/10.1021/acs.nanolett.3c00780",
-      "cited_by_count": 42,
+      "cited_by_count": 44,
       "importance": 0.24,
       "score_basis": {
         "topic_overlap": 0.0,
@@ -1116,29 +1450,34 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W2972357716",
-      "doi": "10.1103/physrevb.100.125415",
-      "title": "Multipole decompositions for directional light scattering",
+      "id": "W4327857157",
+      "doi": "10.1002/adma.202300968",
+      "title": "Circularly Polarized Light Responsive Materials: Design Strategies and Applications",
       "authors": [
-        "Andrey B. Evlyukhin",
-        "Boris N. Chichkov"
+        "Yiping Liu",
+        "Pengyao Xing"
       ],
-      "year": 2019,
-      "venue": "Physical review. B./Physical review. B",
-      "venue_abbr": "Physical review. B./Physical review. B",
+      "year": 2023,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "multipole decomposition",
-        "directional light scattering",
-        "nanoparticle scattering",
-        "long-wavelength limit",
-        "spherical harmonic expansion"
+        "circularly polarized light",
+        "circular dichroism",
+        "asymmetric synthesis",
+        "helical polymers",
+        "chiral plasmonic nanostructures",
+        "supramolecular self-assembly",
+        "liquid crystals",
+        "chiral amplification",
+        "light-matter interaction",
+        "biomedical applications"
       ],
-      "url": "https://doi.org/10.1103/physrevb.100.125415",
-      "cited_by_count": 133,
-      "importance": 0.2322,
+      "url": "https://doi.org/10.1002/adma.202300968",
+      "cited_by_count": 162,
+      "importance": 0.2262,
       "score_basis": {
-        "topic_overlap": 0.027,
+        "topic_overlap": 0.014,
         "shared_references": 0,
         "local_citations": 1
       },
@@ -1148,115 +1487,40 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W4407407392",
-      "doi": "10.1002/adfm.202421338",
-      "title": "Circularly Polarized Perovskite Photodetector with Photocurrent Dissymmetry Factors of up to 1.95 Enabled by Liquid Crystal",
+      "id": "W7138890685",
+      "doi": "10.1002/lpor.202503198",
+      "title": "Dynamically Hardware‐Level Encryption Based on PbSe Quantum Dots‐Modulated 2D Heterostructure Photodetector",
       "authors": [
-        "Yifan Feng",
-        "Guanfeng Gao",
-        "Xuebing Wen",
-        "Zekai Chen",
-        "Jia‐Qi Huang",
-        "Chao Yang",
-        "Xiaofang Jiang",
-        "Lakshminarayana Polavarapu",
-        "Guofu Zhou",
-        "Xiaowen Hu"
+        "Yaru Shi",
+        "Xingyu Zhao",
+        "Yu Du",
+        "Mingxiu Liu",
+        "Chunlu Chang",
+        "Huaiyu Xiang",
+        "Fan Tan",
+        "Zhilin Liu",
+        "Nan Zhang",
+        "Liujian Qi",
+        "Yuting Zou",
+        "Dabing Li",
+        "Shaojuan Li"
       ],
-      "year": 2025,
-      "venue": "Advanced Functional Materials",
-      "venue_abbr": "Adv. Funct. Mater.",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "circularly polarized light detection",
-        "perovskite photodetectors",
-        "chiral perovskites",
-        "photonic bandgap tuning",
-        "free-standing liquid crystal films",
-        "photodetector arrays",
-        "image sensing"
-      ],
-      "url": "https://doi.org/10.1002/adfm.202421338",
-      "cited_by_count": 29,
-      "importance": 0.2284,
-      "score_basis": {
-        "topic_overlap": 0.019,
-        "shared_references": 0,
-        "local_citations": 1
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4413816401",
-      "doi": "10.1002/lpor.202501202",
-      "title": "Yb 3+ Mediated Multi‐Band Responsive Full‐Color Upconversion for Encrypted Optical Communication",
-      "authors": [
-        "Jingyu Shang",
-        "Xinyao Dong",
-        "Yuhan Jing",
-        "Zewen Wang",
-        "Yanan Ji",
-        "Xueru Zhang",
-        "You Li",
-        "Xinyu Liu",
-        "Rong Xue",
-        "Yuxiao Wang",
-        "Wen Xu",
-        "Bin Dong"
-      ],
-      "year": 2025,
+      "year": 2026,
       "venue": "Laser & Photonics Reviews",
       "venue_abbr": "LPR",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "color-tunable emission",
-        "near-infrared excitation"
+        "PbSe quantum dots",
+        "interfacial energy barrier",
+        "band bending",
+        "broadband photodetection",
+        "secure optical communication",
+        "eavesdropping resistance",
+        "cryptographic key generation"
       ],
-      "url": "https://doi.org/10.1002/lpor.202501202",
-      "cited_by_count": 6,
-      "importance": 0.2244,
-      "score_basis": {
-        "topic_overlap": 0.054,
-        "shared_references": 0,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4396705220",
-      "doi": "10.1364/oe.525756",
-      "title": "Infrared phase-change chiral metasurfaces with tunable circular dichroism",
-      "authors": [
-        "Haotian Tang",
-        "Liliana Stan",
-        "David A. Czaplewski",
-        "Xiaodong Yang",
-        "Jie Gao"
-      ],
-      "year": 2024,
-      "venue": "Optics Express",
-      "venue_abbr": "OE",
-      "rank_label": "CIE T2 · 2023",
-      "keywords": [
-        "chiral metasurfaces",
-        "phase change materials",
-        "circular dichroism",
-        "infrared optics",
-        "amorphous-to-crystalline transition",
-        "temperature tuning",
-        "chiral sensing",
-        "encrypted communication",
-        "infrared thermography"
-      ],
-      "url": "https://doi.org/10.1364/oe.525756",
-      "cited_by_count": 18,
-      "importance": 0.2202,
+      "url": "https://doi.org/10.1002/lpor.202503198",
+      "cited_by_count": 4,
+      "importance": 0.2204,
       "score_basis": {
         "topic_overlap": 0.045,
         "shared_references": 0,
@@ -1300,7 +1564,7 @@
         "chirality"
       ],
       "url": "https://doi.org/10.1088/2053-1583/abd6b3",
-      "cited_by_count": 12,
+      "cited_by_count": 13,
       "importance": 0.22,
       "score_basis": {
         "topic_overlap": 0.0,
@@ -1358,89 +1622,7 @@
         "two-dimensional materials"
       ],
       "url": "https://doi.org/10.1038/s41928-021-00586-w",
-      "cited_by_count": 604,
-      "importance": 0.22,
-      "score_basis": {
-        "topic_overlap": 0.0,
-        "shared_references": 0,
-        "local_citations": 1
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4327857157",
-      "doi": "10.1002/adma.202300968",
-      "title": "Circularly Polarized Light Responsive Materials: Design Strategies and Applications",
-      "authors": [
-        "Yiping Liu",
-        "Pengyao Xing"
-      ],
-      "year": 2023,
-      "venue": "Advanced Materials",
-      "venue_abbr": "Advanced Materials",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "circularly polarized light",
-        "circular dichroism",
-        "asymmetric synthesis",
-        "helical polymers",
-        "chiral plasmonic nanostructures",
-        "supramolecular self-assembly",
-        "liquid crystals",
-        "chiral amplification",
-        "light-matter interaction",
-        "biomedical applications"
-      ],
-      "url": "https://doi.org/10.1002/adma.202300968",
-      "cited_by_count": 161,
-      "importance": 0.22,
-      "score_basis": {
-        "topic_overlap": 0.0,
-        "shared_references": 0,
-        "local_citations": 1
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4404224760",
-      "doi": "10.1038/s41928-024-01287-w",
-      "title": "An on-chip full-Stokes polarimeter based on optoelectronic polarization eigenvectors",
-      "authors": [
-        "Jie Deng",
-        "Mengdie Shi",
-        "Xingsi Liu",
-        "Jing Zhou",
-        "Xinyue Qin",
-        "Ruowen Wang",
-        "Yuran Zhen",
-        "Xu Dai",
-        "Yinzhu Chen",
-        "Jingxuan Wei",
-        "Zhenhua Ni",
-        "Weibo Gao",
-        "Cheng‐Wei Qiu",
-        "Xiaoshuang Chen"
-      ],
-      "year": 2024,
-      "venue": "Nature Electronics",
-      "venue_abbr": "Nat. Electron.",
-      "rank_label": "CIE T1 · 2023",
-      "keywords": [
-        "full-Stokes polarimetry",
-        "MoS2",
-        "plasmonic metasurfaces",
-        "condition number minimization",
-        "machine learning",
-        "polarization state detection"
-      ],
-      "url": "https://doi.org/10.1038/s41928-024-01287-w",
-      "cited_by_count": 63,
+      "cited_by_count": 606,
       "importance": 0.22,
       "score_basis": {
         "topic_overlap": 0.0,
@@ -1475,7 +1657,7 @@
         "polarized light detection"
       ],
       "url": "https://doi.org/10.1002/adfm.202423770",
-      "cited_by_count": 60,
+      "cited_by_count": 61,
       "importance": 0.22,
       "score_basis": {
         "topic_overlap": 0.0,
@@ -1488,124 +1670,36 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W4288690421",
-      "doi": "10.1002/adma.202203956",
-      "title": "Ultrathin Suspended Chiral Metasurfaces for Enantiodiscrimination",
+      "id": "W4413816401",
+      "doi": "10.1002/lpor.202501202",
+      "title": "Yb 3+ Mediated Multi‐Band Responsive Full‐Color Upconversion for Encrypted Optical Communication",
       "authors": [
-        "Mengjia Cen",
-        "Jiawei Wang",
-        "Jianxun Liu",
-        "Huilin He",
-        "Ke Li",
-        "Wenfeng Cai",
-        "Tun Cao",
-        "Yan Jun Liu"
+        "Jingyu Shang",
+        "Xinyao Dong",
+        "Yuhan Jing",
+        "Zewen Wang",
+        "Yanan Ji",
+        "Xueru Zhang",
+        "You Li",
+        "Xinyu Liu",
+        "Rong Xue",
+        "Yuxiao Wang",
+        "Wen Xu",
+        "Bin Dong"
       ],
-      "year": 2022,
-      "venue": "Advanced Materials",
-      "venue_abbr": "Advanced Materials",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "chiral metasurfaces",
-        "circular dichroism",
-        "chiral recognition",
-        "chiral sensing",
-        "label-free detection",
-        "ultrathin metasurface",
-        "bilayer metasurface",
-        "electron beam lithography",
-        "chiroptical response",
-        "circular polarizer"
-      ],
-      "url": "https://doi.org/10.1002/adma.202203956",
-      "cited_by_count": 73,
-      "importance": 0.2195,
-      "score_basis": {
-        "topic_overlap": 0.043,
-        "shared_references": 0,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W7138890685",
-      "doi": "10.1002/lpor.202503198",
-      "title": "Dynamically Hardware‐Level Encryption Based on PbSe Quantum Dots‐Modulated 2D Heterostructure Photodetector",
-      "authors": [
-        "Yaru Shi",
-        "Xingyu Zhao",
-        "Yu Du",
-        "Mingxiu Liu",
-        "Chunlu Chang",
-        "Huaiyu Xiang",
-        "Fan Tan",
-        "Zhilin Liu",
-        "Nan Zhang",
-        "Liujian Qi",
-        "Yuting Zou",
-        "Dabing Li",
-        "Shaojuan Li"
-      ],
-      "year": 2026,
+      "year": 2025,
       "venue": "Laser & Photonics Reviews",
       "venue_abbr": "LPR",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "PbSe quantum dots",
-        "interfacial energy barrier",
-        "band bending",
-        "broadband photodetection",
-        "secure optical communication",
-        "eavesdropping resistance",
-        "cryptographic key generation"
+        "color-tunable emission",
+        "near-infrared excitation"
       ],
-      "url": "https://doi.org/10.1002/lpor.202503198",
-      "cited_by_count": 3,
+      "url": "https://doi.org/10.1002/lpor.202501202",
+      "cited_by_count": 7,
       "importance": 0.2172,
       "score_basis": {
         "topic_overlap": 0.038,
-        "shared_references": 0,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4383302714",
-      "doi": "10.1002/adma.202304161",
-      "title": "Continuous‐Spectrum–Polarization Recombinant Optical Encryption with a Dielectric Metasurface",
-      "authors": [
-        "Jiuxu Wang",
-        "Feilong Yu",
-        "Jin Chen",
-        "Jie Wang",
-        "Rongsheng Chen",
-        "Zengyue Zhao",
-        "Jian Chen",
-        "Xiaoshuang Chen",
-        "Wei Lu",
-        "Guanhai Li"
-      ],
-      "year": 2023,
-      "venue": "Advanced Materials",
-      "venue_abbr": "Advanced Materials",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "optical encryption",
-        "dielectric metasurfaces",
-        "Jones matrix",
-        "polarization evolution"
-      ],
-      "url": "https://doi.org/10.1002/adma.202304161",
-      "cited_by_count": 50,
-      "importance": 0.2133,
-      "score_basis": {
-        "topic_overlap": 0.03,
         "shared_references": 0,
         "local_citations": 0
       },
@@ -1634,7 +1728,7 @@
       ],
       "year": 2018,
       "venue": "ACS Applied Materials & Interfaces",
-      "venue_abbr": "ACS Applied Materials & Interfaces",
+      "venue_abbr": "ACS Appl. Mater. Interfaces",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
         "wearable thermoelectric devices",
@@ -1651,98 +1745,7 @@
         "band bending"
       ],
       "url": "https://doi.org/10.1021/acsami.8b10720",
-      "cited_by_count": 80,
-      "importance": 0.2,
-      "score_basis": {
-        "topic_overlap": 0.0,
-        "shared_references": 0,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4415219326",
-      "doi": "10.1002/adma.202513318",
-      "title": "Touch‐Driven Bi‐Chiral Superstructures for Nested Encryption of Multiplexed Optical Information",
-      "authors": [
-        "Rui Sun",
-        "Si‐Jia Liu",
-        "Yi‐Heng Zhang",
-        "Pengcheng Xu",
-        "Lin Zhu",
-        "Dong Bi Zhu",
-        "Wen Chen",
-        "Yi‐Ming Wang",
-        "Shi‐Hui Ding",
-        "Shi‐Jun Ge",
-        "Peng Chen",
-        "Bingyan Wei",
-        "Jianlin Zhao",
-        "Yanqing Lu"
-      ],
-      "year": 2025,
-      "venue": "Advanced Materials",
-      "venue_abbr": "Advanced Materials",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "optical encryption",
-        "cholesteric liquid crystals",
-        "structural color",
-        "vectorial holography",
-        "Berry phase",
-        "circular polarization",
-        "photopatterning",
-        "chiral nanostructures",
-        "data security"
-      ],
-      "url": "https://doi.org/10.1002/adma.202513318",
-      "cited_by_count": 9,
-      "importance": 0.2,
-      "score_basis": {
-        "topic_overlap": 0.0,
-        "shared_references": 0,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4415477891",
-      "doi": "10.1021/acsnano.5c12182",
-      "title": "Ultrasensitive Circularly Polarized Photon Detectors Based on Chiral Two-Dimensional MoS 2",
-      "authors": [
-        "Ye Wang",
-        "Ye Wang",
-        "Yiru Zhu",
-        "Tieyuan Bian",
-        "Ziwei Jeffrey Yang",
-        "Yuanyuan Zhao",
-        "Han Yan",
-        "Yang Li",
-        "Yan Wang",
-        "Yan Wang",
-        "Feng Ding",
-        "Jun Li Yin",
-        "Manish Chhowalla"
-      ],
-      "year": 2025,
-      "venue": "ACS Nano",
-      "venue_abbr": "ACS Nano",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "two-dimensional materials",
-        "chirality transfer",
-        "D-penicillamine",
-        "molar ellipticity",
-        "phototransistor"
-      ],
-      "url": "https://doi.org/10.1021/acsnano.5c12182",
-      "cited_by_count": 3,
+      "cited_by_count": 81,
       "importance": 0.2,
       "score_basis": {
         "topic_overlap": 0.0,
@@ -2067,402 +2070,402 @@
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W1764803000",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W2889831231",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W2972357716",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W3117677104",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W3165092132",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W3200482461",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4205507417",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4286602867",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4288690421",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4307772214",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4320492366",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4327857157",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4365479405",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4378471299",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4383302714",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4384340370",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4390692491",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4391221532",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4391280723",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4396705220",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4402934595",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4404224760",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4406593974",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4407407392",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4407956822",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4408536333",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4408712055",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4410462242",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4412487195",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4412727686",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4412741586",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4413056215",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4413250481",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4413816401",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4415027511",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4415219326",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4415477891",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W4415574307",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W7124134923",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     },
     {
-      "from": "doi:10.1002/lpor.72017",
+      "from": "W7222945152",
       "to": "W7138890685",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.1002%2Flpor.72017"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222945152"
         }
       ]
     }

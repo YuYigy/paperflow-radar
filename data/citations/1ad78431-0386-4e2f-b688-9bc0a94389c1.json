@@ -1,45 +1,50 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "1ad78431-0386-4e2f-b688-9bc0a94389c1",
-  "root": "doi:10.3390/photonics13100983",
-  "status": "partial",
-  "checked_at": "2026-10-21T16:09:50.820109+00:00",
+  "root": "W7223110902",
+  "status": "ok",
+  "checked_at": "2026-10-24T00:49:56.989321+00:00",
   "coverage": {
     "references_found": 10,
-    "citing_found": null,
+    "citing_found": 0,
     "reference_limit": 100,
     "citing_limit": 30,
     "display_limit": 41,
     "references_status": "ok",
-    "citing_status": "unavailable",
-    "references_without_doi": 8,
+    "citing_status": "ok",
     "candidates_resolved": 10,
     "displayed": 10
   },
-  "issues": [
-    "openalex_not_indexed",
-    "reference_metadata_partial"
-  ],
+  "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.3390/photonics13100983",
+      "id": "W7223110902",
       "doi": "10.3390/photonics13100983",
       "title": "Research on Gamma–Gamma Turbulence Channel Modeling Algorithm Based on Atmospheric Coherence Length Correction",
       "authors": [
-        "Mingming Li",
+        "M. Li",
         "Tong Wang",
         "Yan An",
         "Hongtu Ge",
         "Guidong Wang"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Photonics",
       "venue_abbr": "Photonics",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "atmospheric turbulence",
+        "Gamma-Gamma turbulence model",
+        "atmospheric coherence length",
+        "free-space optical communication",
+        "scintillation index",
+        "stochastic differential equations",
+        "received power fluctuations",
+        "multimode fiber links"
+      ],
       "url": "https://doi.org/10.3390/photonics13100983",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
@@ -48,22 +53,31 @@
       "summary_basis": "本站解读 · abstract-only"
     },
     {
-      "id": "doi:10.3788/cjl201441.1208006",
-      "doi": "10.3788/cjl201441.1208006",
-      "title": "Real-Time Measurement of Atmospheric Coherence Length Based on Lateral Shearing Interferometry",
+      "id": "W2322113814",
+      "doi": "10.1109/jlt.2016.2525781",
+      "title": "Simple Generation of Gamma, Gamma–Gamma, and K Distributions With Exponential Autocorrelation Function",
       "authors": [
-        "Zhou"
+        "Dima Bykhovsky"
       ],
-      "year": "2014",
-      "venue": "Chin. J. Lasers",
-      "venue_abbr": "Chin. J. Lasers",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
-      "url": "https://doi.org/10.3788/cjl201441.1208006",
-      "cited_by_count": null,
-      "importance": 0.2548,
+      "year": 2016,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "K-distribution",
+        "gamma-gamma distribution",
+        "gamma distribution",
+        "exponential autocorrelation function",
+        "stochastic differential equations",
+        "correlation time"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2016.2525781",
+      "cited_by_count": 55,
+      "importance": 0.3824,
       "score_basis": {
-        "topic_overlap": 0.122,
+        "topic_overlap": 0.405,
         "shared_references": 0,
         "local_citations": 0
       },
@@ -73,22 +87,32 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "doi:10.3788/cjl202047.0906003",
+      "id": "W3106854970",
       "doi": "10.3788/cjl202047.0906003",
       "title": "Performance of Faster-than-Nyquist Optical Communication System under Gamma-Gamma Atmospheric Turbulence",
       "authors": [
-        "Cao"
+        "曹明华 Cao Minghua",
+        "武鑫 Wu Xin",
+        "王惠琴 Wang Huiqin",
+        "彭清斌 Peng Qingbin"
       ],
-      "year": "2020",
-      "venue": "Chin. J. Lasers",
-      "venue_abbr": "Chin. J. Lasers",
+      "year": 2020,
+      "venue": "中国激光",
+      "venue_abbr": "中国激光",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "faster-than-Nyquist signaling",
+        "optical communication",
+        "Gamma-Gamma turbulence",
+        "atmospheric turbulence",
+        "free-space optical links",
+        "system performance"
+      ],
       "url": "https://doi.org/10.3788/cjl202047.0906003",
-      "cited_by_count": null,
-      "importance": 0.2516,
+      "cited_by_count": 6,
+      "importance": 0.369,
       "score_basis": {
-        "topic_overlap": 0.115,
+        "topic_overlap": 0.376,
         "shared_references": 0,
         "local_citations": 0
       },
@@ -98,47 +122,29 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "doi:10.1016/j.measurement.2026.120657",
-      "doi": "10.1016/j.measurement.2026.120657",
-      "title": "Gamma-gamma turbulence-based performance modeling of underwater NOMA visible light communication systems with imperfect CSI and SIC",
-      "authors": [
-        "Shaik"
-      ],
-      "year": "2026",
-      "venue": "Measurement",
-      "venue_abbr": "Measurement",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
-      "url": "https://doi.org/10.1016/j.measurement.2026.120657",
-      "cited_by_count": null,
-      "importance": 0.2439,
-      "score_basis": {
-        "topic_overlap": 0.098,
-        "shared_references": 0,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "doi:10.3788/irla201645.0822009",
+      "id": "W2519719754",
       "doi": "10.3788/irla201645.0822009",
       "title": "Effect of atmospheric turbulence on the performance of laser communication system",
       "authors": [
-        "Chen"
+        "陈 牧 Chen Mu",
+        "柯熙政 Ke Xizheng"
       ],
-      "year": "2016",
-      "venue": "Infrared Laser Eng.",
-      "venue_abbr": "Infrared Laser Eng.",
+      "year": 2016,
+      "venue": "Infrared and Laser Engineering",
+      "venue_abbr": "Infrared and Laser Engineering",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "atmospheric turbulence",
+        "laser communication",
+        "free-space optical communication",
+        "link performance",
+        "beam propagation"
+      ],
       "url": "https://doi.org/10.3788/irla201645.0822009",
-      "cited_by_count": null,
-      "importance": 0.239,
+      "cited_by_count": 4,
+      "importance": 0.3507,
       "score_basis": {
-        "topic_overlap": 0.087,
+        "topic_overlap": 0.335,
         "shared_references": 0,
         "local_citations": 0
       },
@@ -148,45 +154,29 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "doi:10.3390/photonics11040334",
+      "id": "W4393901710",
       "doi": "10.3390/photonics11040334",
-      "title": "Li, L., Ji, N., Wu, Z., and Wu, J. (2024). Design and experimental demonstration of an atmospheric turbulence simulation system for free-space optical communication. Photonics, 11.",
-      "authors": [],
-      "year": null,
-      "venue": "刊会待核实",
-      "venue_abbr": "待核实",
-      "rank_label": "等级待核实",
-      "keywords": [],
-      "url": "https://doi.org/10.3390/photonics11040334",
-      "cited_by_count": null,
-      "importance": 0.2293,
-      "score_basis": {
-        "topic_overlap": 0.065,
-        "shared_references": 0,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "doi:10.1109/jlt.2016.2525781",
-      "doi": "10.1109/jlt.2016.2525781",
-      "title": "Simple generation of gamma, gamma–gamma, and k distributions with exponential autocorrelation function",
+      "title": "Design and Experimental Demonstration of an Atmospheric Turbulence Simulation System for Free-Space Optical Communication",
       "authors": [
-        "Bykhovsky"
+        "Lin Li",
+        "Ning Ji",
+        "Zhiyong Wu",
+        "Zhiyong Wu"
       ],
-      "year": "2016",
-      "venue": "J. Light. Technol.",
-      "venue_abbr": "J. Light. Technol.",
+      "year": 2024,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
-      "url": "https://doi.org/10.1109/jlt.2016.2525781",
-      "cited_by_count": null,
-      "importance": 0.2183,
+      "keywords": [
+        "atmospheric turbulence simulation",
+        "free-space optical communication",
+        "TCP/IP protocol"
+      ],
+      "url": "https://doi.org/10.3390/photonics11040334",
+      "cited_by_count": 11,
+      "importance": 0.3507,
       "score_basis": {
-        "topic_overlap": 0.041,
+        "topic_overlap": 0.335,
         "shared_references": 0,
         "local_citations": 0
       },
@@ -196,22 +186,38 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "doi:10.1364/ao.505697",
+      "id": "W4388698020",
       "doi": "10.1364/ao.505697",
       "title": "Liquid crystal wavefront correction based on improved machine learning for free-space optical communication",
       "authors": [
-        "Guo"
+        "Hongyang Guo",
+        "Wei Tang",
+        "Zihao Wang",
+        "Liangzhu Yuan",
+        "Yang Li",
+        "Dong He",
+        "Qiang Wang",
+        "Yongmei Huang"
       ],
-      "year": "2023",
-      "venue": "Appl. Opt.",
-      "venue_abbr": "Appl. Opt.",
+      "year": 2023,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "liquid crystal spatial light modulator",
+        "wavefront correction",
+        "atmospheric turbulence",
+        "free-space optical communication",
+        "space laser communication",
+        "phase aberration correction",
+        "deep learning",
+        "coupling efficiency"
+      ],
       "url": "https://doi.org/10.1364/ao.505697",
-      "cited_by_count": null,
-      "importance": 0.2154,
+      "cited_by_count": 9,
+      "importance": 0.3489,
       "score_basis": {
-        "topic_overlap": 0.034,
+        "topic_overlap": 0.331,
         "shared_references": 0,
         "local_citations": 0
       },
@@ -221,22 +227,31 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "doi:10.1016/j.eng.2024.02.004",
-      "doi": "10.1016/j.eng.2024.02.004",
-      "title": "NASA Satellite Sets Blistering Optical Communication Speed Record",
+      "id": "W2324324263",
+      "doi": "10.3788/cjl201441.1208006",
+      "title": "Real-Time Measurement of Atmospheric Coherence Length Based on Lateral Shearing Interferometry",
       "authors": [
-        "Palmer"
+        "周健 Zhou Jian",
+        "孙建锋 Sun Jianfeng",
+        "鲁伟 Lu Wei",
+        "马小平 Ma Xiaoping",
+        "刘立人 Liu Liren"
       ],
-      "year": "2024",
-      "venue": "Engineering",
-      "venue_abbr": "Engineering",
+      "year": 2014,
+      "venue": "中国激光",
+      "venue_abbr": "中国激光",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
-      "url": "https://doi.org/10.1016/j.eng.2024.02.004",
-      "cited_by_count": null,
-      "importance": 0.2,
+      "keywords": [
+        "atmospheric coherence length",
+        "lateral shearing interferometry",
+        "real-time measurement",
+        "atmospheric turbulence"
+      ],
+      "url": "https://doi.org/10.3788/cjl201441.1208006",
+      "cited_by_count": 2,
+      "importance": 0.3427,
       "score_basis": {
-        "topic_overlap": 0.0,
+        "topic_overlap": 0.317,
         "shared_references": 0,
         "local_citations": 0
       },
@@ -246,22 +261,36 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "doi:10.1080/00207217.2025.2501290",
+      "id": "W4410093045",
       "doi": "10.1080/00207217.2025.2501290",
       "title": "BER performance analysis in SISO and MIMO-FSO channels with pointing error and different models",
       "authors": [
-        "Akbari"
+        "Mahdi Akbari",
+        "Saeed Olyaee"
       ],
-      "year": "2026",
-      "venue": "Int. J. Electron.",
-      "venue_abbr": "Int. J. Electron.",
+      "year": 2025,
+      "venue": "International Journal of Electronics",
+      "venue_abbr": "International Journal of Electronics",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "free-space optical communication",
+        "bit error rate",
+        "SISO systems",
+        "pointing errors",
+        "atmospheric turbulence",
+        "pulse position modulation",
+        "pulse width modulation",
+        "NRZ",
+        "return-to-zero",
+        "BPSK",
+        "lognormal distribution",
+        "gamma-gamma distribution"
+      ],
       "url": "https://doi.org/10.1080/00207217.2025.2501290",
-      "cited_by_count": null,
-      "importance": 0.2,
+      "cited_by_count": 4,
+      "importance": 0.3401,
       "score_basis": {
-        "topic_overlap": 0.0,
+        "topic_overlap": 0.311,
         "shared_references": 0,
         "local_citations": 0
       },
@@ -271,22 +300,106 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "doi:10.1364/ol.495334",
+      "id": "W4392245318",
+      "doi": "10.1016/j.eng.2024.02.004",
+      "title": "NASA Satellite Sets Blistering Optical Communication Speed Record",
+      "authors": [
+        "Chris Palmer"
+      ],
+      "year": 2024,
+      "venue": "Engineering",
+      "venue_abbr": "Engineering",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical communication",
+        "laser communication",
+        "satellite communication",
+        "data rate",
+        "NASA"
+      ],
+      "url": "https://doi.org/10.1016/j.eng.2024.02.004",
+      "cited_by_count": 4,
+      "importance": 0.3136,
+      "score_basis": {
+        "topic_overlap": 0.252,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4380624918",
       "doi": "10.1364/ol.495334",
       "title": "Single-wavelength polarization- and mode-division multiplexing free-space optical communication at 689 Gbit/s in strong turbulent channels",
       "authors": [
-        "Li"
+        "Yiming Li",
+        "Zhaozhong Chen",
+        "David M. Benton",
+        "Mohammed Patel",
+        "Martin P. J. Lavery",
+        "Andrew D. Ellis"
       ],
-      "year": "2023",
+      "year": 2023,
       "venue": "Optics Letters",
       "venue_abbr": "OL",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "free-space optical communication",
+        "polarization multiplexing",
+        "mode-division multiplexing",
+        "atmospheric turbulence",
+        "single-wavelength transmission",
+        "spatial light modulator",
+        "multi-plane light conversion",
+        "successive interference cancellation",
+        "MIMO detection",
+        "high-capacity optical links",
+        "spectral efficiency"
+      ],
       "url": "https://doi.org/10.1364/ol.495334",
-      "cited_by_count": null,
-      "importance": 0.2,
+      "cited_by_count": 12,
+      "importance": 0.2863,
       "score_basis": {
-        "topic_overlap": 0.0,
+        "topic_overlap": 0.192,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7127054449",
+      "doi": "10.1016/j.measurement.2026.120657",
+      "title": "Gamma-gamma turbulence-based performance modeling of underwater NOMA visible light communication systems with imperfect CSI and SIC",
+      "authors": [
+        "Thaherbasha Shaik",
+        "Nageena Parveen Syed",
+        "Hareesh Ayanampudi"
+      ],
+      "year": 2026,
+      "venue": "Measurement",
+      "venue_abbr": "Measurement",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater visible light communication",
+        "non-orthogonal multiple access",
+        "Gamma-Gamma fading",
+        "imperfect channel state information",
+        "successive interference cancellation",
+        "outage probability",
+        "lognormal approximation",
+        "kappa distribution"
+      ],
+      "url": "https://doi.org/10.1016/j.measurement.2026.120657",
+      "cited_by_count": 1,
+      "importance": 0.2818,
+      "score_basis": {
+        "topic_overlap": 0.182,
         "shared_references": 0,
         "local_citations": 0
       },
@@ -298,102 +411,102 @@
   ],
   "edges": [
     {
-      "from": "doi:10.3390/photonics13100983",
-      "to": "doi:10.1016/j.eng.2024.02.004",
+      "from": "W7223110902",
+      "to": "W2322113814",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13100983"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223110902"
         }
       ]
     },
     {
-      "from": "doi:10.3390/photonics13100983",
-      "to": "doi:10.1016/j.measurement.2026.120657",
+      "from": "W7223110902",
+      "to": "W2324324263",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13100983"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223110902"
         }
       ]
     },
     {
-      "from": "doi:10.3390/photonics13100983",
-      "to": "doi:10.1080/00207217.2025.2501290",
+      "from": "W7223110902",
+      "to": "W2519719754",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13100983"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223110902"
         }
       ]
     },
     {
-      "from": "doi:10.3390/photonics13100983",
-      "to": "doi:10.1109/jlt.2016.2525781",
+      "from": "W7223110902",
+      "to": "W3106854970",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13100983"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223110902"
         }
       ]
     },
     {
-      "from": "doi:10.3390/photonics13100983",
-      "to": "doi:10.1364/ao.505697",
+      "from": "W7223110902",
+      "to": "W4380624918",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13100983"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223110902"
         }
       ]
     },
     {
-      "from": "doi:10.3390/photonics13100983",
-      "to": "doi:10.1364/ol.495334",
+      "from": "W7223110902",
+      "to": "W4388698020",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13100983"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223110902"
         }
       ]
     },
     {
-      "from": "doi:10.3390/photonics13100983",
-      "to": "doi:10.3390/photonics11040334",
+      "from": "W7223110902",
+      "to": "W4392245318",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13100983"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223110902"
         }
       ]
     },
     {
-      "from": "doi:10.3390/photonics13100983",
-      "to": "doi:10.3788/cjl201441.1208006",
+      "from": "W7223110902",
+      "to": "W4393901710",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13100983"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223110902"
         }
       ]
     },
     {
-      "from": "doi:10.3390/photonics13100983",
-      "to": "doi:10.3788/cjl202047.0906003",
+      "from": "W7223110902",
+      "to": "W4410093045",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13100983"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223110902"
         }
       ]
     },
     {
-      "from": "doi:10.3390/photonics13100983",
-      "to": "doi:10.3788/irla201645.0822009",
+      "from": "W7223110902",
+      "to": "W7127054449",
       "sources": [
         {
-          "provider": "Crossref",
-          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13100983"
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223110902"
         }
       ]
     }

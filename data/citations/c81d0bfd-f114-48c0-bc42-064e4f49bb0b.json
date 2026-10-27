@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "c81d0bfd-f114-48c0-bc42-064e4f49bb0b",
-  "root": "doi:10.1038/s41566-026-01997-x",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7214376636",
+  "status": "ok",
+  "checked_at": "2026-10-27T00:50:22.340198+00:00",
+  "coverage": {
+    "references_found": 53,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 53,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1038/s41566-026-01997-x",
+      "id": "W7214376636",
       "doi": "10.1038/s41566-026-01997-x",
       "title": "Programmable photonic unitary processor enables parameterized differentiable long-haul spatial division multiplexed transmission",
       "authors": [
@@ -21,20 +31,2750 @@
         "Yutaka Miyamoto",
         "Toshikazu Hashimoto"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Nature Photonics",
       "venue_abbr": "Nat. Photonics",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "spatial division multiplexing",
+        "gradient-based optimization",
+        "long-haul optical transmission",
+        "multicore fiber"
+      ],
       "url": "https://doi.org/10.1038/s41566-026-01997-x",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/c81d0bfd-f114-48c0-bc42-064e4f49bb0b.html",
       "summary": "摘要报告：针对长距SDM传输中模色散导致接收端DSP负担沉重的问题，提出在中间节点部署可编程光子幺正处理器、直接优化SDM信道本身的参数化传输方案，并给出基于可微SDM模型的梯度优化算法确定最优幺正变换。实验实现电信级处理器（C波段全覆盖、偏振无关、保真度R²>96%），并在三模光纤上完成1300 km传输实验；报告称光子处理器显著降低模色散与后处理复杂度。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W3126304295",
+      "doi": "10.1038/s42005-021-00519-1",
+      "title": "Scalable reservoir computing on coherent linear photonic processor",
+      "authors": [
+        "M. Nakajima",
+        "Kenji Tanaka",
+        "Toshikazu Hashimoto"
+      ],
+      "year": 2021,
+      "venue": "Communications Physics",
+      "venue_abbr": "Communications Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reservoir computing",
+        "photonic neuromorphic computing",
+        "integrated photonics",
+        "recurrent neural networks",
+        "spatiotemporal encoding",
+        "wavelength division multiplexing",
+        "chaotic time series prediction",
+        "image classification",
+        "petascale computing"
+      ],
+      "url": "https://doi.org/10.1038/s42005-021-00519-1",
+      "cited_by_count": 203,
+      "importance": 0.6125,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 9,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3182421448",
+      "doi": "10.1364/optica.427631",
+      "title": "Space-division multiplexing for optical fiber communications",
+      "authors": [
+        "Benjamin James Puttnam",
+        "Georg Rademacher",
+        "Ruben Soares Luis"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "space-division multiplexing",
+        "optical fiber communication",
+        "multicore fiber",
+        "multimode fiber",
+        "few-mode fiber",
+        "coupled-core fiber",
+        "digital signal processing",
+        "fiber amplifiers",
+        "optical transmission",
+        "optical networking",
+        "information capacity"
+      ],
+      "url": "https://doi.org/10.1364/optica.427631",
+      "cited_by_count": 754,
+      "importance": 0.5568,
+      "score_basis": {
+        "topic_overlap": 0.215,
+        "shared_references": 4,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402673497",
+      "doi": "10.1109/jlt.2024.3466009",
+      "title": "Modal Statistics in Mode-Division-Multiplexed Systems Using Mode Scramblers",
+      "authors": [
+        "Anirudh Vijay",
+        "Oleksiy Krutko",
+        "Rebecca Refaee",
+        "Joseph M. Kahn"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "mode-division multiplexing",
+        "multimode fiber",
+        "random mode coupling",
+        "group delay",
+        "mode-dependent loss",
+        "modal dispersion",
+        "long-haul fiber links"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3466009",
+      "cited_by_count": 7,
+      "importance": 0.5473,
+      "score_basis": {
+        "topic_overlap": 0.239,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402268885",
+      "doi": "10.1364/cleo_at.2024.jth2a.87",
+      "title": "High-Fidelity WDM-Compatible Photonic Processor for Matrix-Matrix Multiplication",
+      "authors": [
+        "Kohei Ikeda",
+        "M. Nakajima",
+        "Shota Kita",
+        "Akihiko Shinya",
+        "Masaya Notomi",
+        "Toshikazu Hashimoto"
+      ],
+      "year": 2024,
+      "venue": "刊会待核实",
+      "venue_abbr": "待核实",
+      "rank_label": "等级待核实",
+      "keywords": [
+        "photonic processors",
+        "matrix-matrix multiplication",
+        "silica waveguides",
+        "wavelength multiplexing",
+        "C-band"
+      ],
+      "url": "https://doi.org/10.1364/cleo_at.2024.jth2a.87",
+      "cited_by_count": 6,
+      "importance": 0.5353,
+      "score_basis": {
+        "topic_overlap": 0.301,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391971685",
+      "doi": "10.1038/s41467-024-45888-7",
+      "title": "General-purpose programmable photonic processor for advanced radiofrequency applications",
+      "authors": [
+        "Daniel Pérez",
+        "Ana Maria Gutierrez",
+        "David Sánchez-Jácome",
+        "Aitor López Hernández",
+        "Mikel Gutierrez",
+        "Erica Sánchez",
+        "Juan Fernández",
+        "Alejandro Cruz",
+        "Alberto Quirós",
+        "Zhenyun Xie",
+        "J. Benitez",
+        "Nándor Békési",
+        "Alejandro Santomé",
+        "Diego Pérez‐Galacho",
+        "Prometheus DasMahapatra",
+        "Andrés Macho",
+        "J. Capmany"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "microwave photonics",
+        "frequency conversion",
+        "arbitrary waveform generation",
+        "beamforming",
+        "photonic-electronic integration"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-45888-7",
+      "cited_by_count": 107,
+      "importance": 0.5308,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2905425616",
+      "doi": "10.1364/optica.5.001623",
+      "title": "Linear programmable nanophotonic processors",
+      "authors": [
+        "Nicholas C. Harris",
+        "Jacques Carolan",
+        "Darius Bunandar",
+        "Mihika Prabhu",
+        "Michael Hochberg",
+        "Tom W. Baehr-Jones",
+        "Michael L. Fanto",
+        "A. Matthew Smith",
+        "Christopher C. Tison",
+        "Paul M. Alsing",
+        "Dirk Englund"
+      ],
+      "year": 2018,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "reconfigurable photonic integrated circuits",
+        "linear optics",
+        "quantum information processing",
+        "machine learning"
+      ],
+      "url": "https://doi.org/10.1364/optica.5.001623",
+      "cited_by_count": 398,
+      "importance": 0.522,
+      "score_basis": {
+        "topic_overlap": 0.16,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4308826085",
+      "doi": "10.1109/jproc.2022.3207012",
+      "title": "Few-Mode Fiber Technology, Deployments, and Systems",
+      "authors": [
+        "Pierre Sillard",
+        "Kaoutar Benyahya",
+        "Daiki Soma",
+        "Guillaume Labroille",
+        "Pu Jian",
+        "Koji Igarashi",
+        "Roland R. Ryf",
+        "Nicolas K. Fontaine",
+        "Georg Rademacher",
+        "Kohki Shibahara"
+      ],
+      "year": 2022,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "few-mode fiber",
+        "mode-division multiplexing",
+        "optical fiber capacity",
+        "optical communication systems"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2022.3207012",
+      "cited_by_count": 75,
+      "importance": 0.5076,
+      "score_basis": {
+        "topic_overlap": 0.195,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4308917574",
+      "doi": "10.1109/jproc.2022.3207576",
+      "title": "Optical Switching in Future Fiber-Optic Networks Utilizing Spectral and Spatial Degrees of Freedom",
+      "authors": [
+        "Dan M. Marom",
+        "Yutaka Miyamoto",
+        "David T. Neilson",
+        "Ioannis Tomkos"
+      ],
+      "year": 2022,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical switching",
+        "space-division multiplexing",
+        "spatial degrees of freedom",
+        "fiber optic networks",
+        "data center networks",
+        "network capacity scaling",
+        "traffic management",
+        "optical multiplexer",
+        "optical amplifiers"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2022.3207576",
+      "cited_by_count": 53,
+      "importance": 0.4875,
+      "score_basis": {
+        "topic_overlap": 0.306,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404914895",
+      "doi": "10.1109/jlt.2024.3510274",
+      "title": "Ultra-Low-Loss Fiber Bragg Grating Mode Scrambler Design Exploiting Propagation Constant Engineering",
+      "authors": [
+        "Oleksiy Krutko",
+        "Rebecca Refaee",
+        "Anirudh Vijay",
+        "Joseph M. Kahn"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "long-period fiber Bragg grating",
+        "mode-division multiplexing",
+        "graded-index fiber",
+        "mode-dependent loss",
+        "cutoff modes",
+        "manufacturing errors",
+        "modulation depth",
+        "C-band"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3510274",
+      "cited_by_count": 2,
+      "importance": 0.481,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407508492",
+      "doi": "10.1515/nanoph-2024-0602",
+      "title": "Programmable photonic unitary circuits for light computing",
+      "authors": [
+        "Kyuho Kim",
+        "Kunwoo Park",
+        "Hyungchul Park",
+        "Sunkyu Yu",
+        "Namkyoo Park",
+        "Xianji Piao"
+      ],
+      "year": 2025,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "integrated photonics",
+        "optical computing",
+        "unitary operations",
+        "Fourier transform",
+        "time domain",
+        "frequency domain",
+        "wave manipulation"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2024-0602",
+      "cited_by_count": 8,
+      "importance": 0.4808,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3096230432",
+      "doi": "10.1038/s41566-020-00754-y",
+      "title": "Photonics for artificial intelligence and neuromorphic computing",
+      "authors": [
+        "Bhavin J. Shastri",
+        "Alexander N. Tait",
+        "T. Ferreira de Lima",
+        "Wolfram H. P. Pernice",
+        "Harish Bhaskaran",
+        "C. D. Wright",
+        "Paul R. Prucnal"
+      ],
+      "year": 2021,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "neuromorphic photonics",
+        "photonic integrated circuits",
+        "artificial neural networks",
+        "neuromorphic computing",
+        "artificial intelligence",
+        "optoelectronic components",
+        "on-chip integration",
+        "machine learning hardware"
+      ],
+      "url": "https://doi.org/10.1038/s41566-020-00754-y",
+      "cited_by_count": 1744,
+      "importance": 0.4711,
+      "score_basis": {
+        "topic_overlap": 0.136,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1548752158",
+      "doi": "10.1109/jlt.2015.2459070",
+      "title": "Long-Period Fiber Gratings for Mode Coupling in Mode-Division-Multiplexing Systems",
+      "authors": [
+        "Daulet Askarov",
+        "Joseph M. Kahn"
+      ],
+      "year": 2015,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "long-period fiber grating",
+        "mode-division multiplexing",
+        "modal dispersion",
+        "mode coupling",
+        "MIMO equalization",
+        "modal crosstalk",
+        "mode-dependent loss",
+        "long-haul optical transmission",
+        "C-band"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2015.2459070",
+      "cited_by_count": 36,
+      "importance": 0.4673,
+      "score_basis": {
+        "topic_overlap": 0.239,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4214515184",
+      "doi": "10.1103/physrevapplied.17.024071",
+      "title": "Scalable and Robust Photonic Integrated Unitary Converter Based on Multiplane Light Conversion",
+      "authors": [
+        "Ryota Tanomura",
+        "Rui Tang",
+        "Toshikazu Umezaki",
+        "Go Soma",
+        "Takuo Tanemura",
+        "Yoshiaki Nakano"
+      ],
+      "year": 2022,
+      "venue": "Physical Review Applied",
+      "venue_abbr": "Phys. Rev. Applied",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic integrated circuits",
+        "robustness",
+        "scalability",
+        "all-to-all coupling",
+        "Mach-Zehnder interferometer"
+      ],
+      "url": "https://doi.org/10.1103/physrevapplied.17.024071",
+      "cited_by_count": 40,
+      "importance": 0.4602,
+      "score_basis": {
+        "topic_overlap": 0.156,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4394727812",
+      "doi": "10.1126/science.adl1203",
+      "title": "Large-scale photonic chiplet Taichi empowers 160-TOPS/W artificial general intelligence",
+      "authors": [
+        "Zhihao Xu",
+        "Tiankuang Zhou",
+        "Muzhou Ma",
+        "Chenchen Deng",
+        "Qionghai Dai",
+        "Lu Fang"
+      ],
+      "year": 2024,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated photonics",
+        "artificial general intelligence",
+        "distributed architecture",
+        "energy-efficient computing",
+        "AI-generated content",
+        "Tai Chi"
+      ],
+      "url": "https://doi.org/10.1126/science.adl1203",
+      "cited_by_count": 312,
+      "importance": 0.46,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4312220016",
+      "doi": "10.1038/s41467-022-35216-2",
+      "title": "Physical deep learning with biologically inspired training method: gradient-free approach for physical hardware",
+      "authors": [
+        "M. Nakajima",
+        "Katsuma Inoue",
+        "Kenji Tanaka",
+        "Yasuo Kuniyoshi",
+        "Toshikazu Hashimoto",
+        "Kohei Nakajima"
+      ],
+      "year": 2022,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "direct feedback alignment",
+        "gradient-free training",
+        "neuromorphic hardware",
+        "optoelectronic neural networks",
+        "recurrent neural networks",
+        "random projections",
+        "nonlinear activation",
+        "neuromorphic computing",
+        "hardware acceleration"
+      ],
+      "url": "https://doi.org/10.1038/s41467-022-35216-2",
+      "cited_by_count": 104,
+      "importance": 0.4595,
+      "score_basis": {
+        "topic_overlap": 0.132,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2982929922",
+      "doi": "10.1109/jlt.2019.2950430",
+      "title": "Full C-Band 3060-km DMD-Unmanaged 3-Mode Transmission With 40.2-Tb/s Capacity Using Cyclic Mode Permutation",
+      "authors": [
+        "Kohki Shibahara",
+        "Takayuki Mizuno",
+        "Hiroto Kawakami",
+        "Takayuki Kobayashi",
+        "Masanori Nakamura",
+        "Kota Shikama",
+        "Kazuhide Nakajima",
+        "Yutaka Miyamoto"
+      ],
+      "year": 2019,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "few-mode fiber",
+        "differential mode delay",
+        "space-division multiplexing",
+        "long-haul optical transmission",
+        "C-band"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2019.2950430",
+      "cited_by_count": 42,
+      "importance": 0.4591,
+      "score_basis": {
+        "topic_overlap": 0.242,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3003967059",
+      "doi": "10.1038/s41586-020-03070-1",
+      "title": "Parallel convolutional processing using an integrated photonic tensor core",
+      "authors": [
+        "J. Feldmann",
+        "N. Youngblood",
+        "M. Karpov",
+        "Helge Gehring",
+        "X. Li",
+        "M. Stappers",
+        "M. Le Gallo",
+        "X. Fu",
+        "A. Lukashchuk",
+        "A. S. Raja",
+        "J. Liu",
+        "C. D. Wright",
+        "A. Sebastian",
+        "T. J. Kippenberg",
+        "W. H. P. Pernice",
+        "H. Bhaskaran"
+      ],
+      "year": 2021,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated photonics",
+        "photonic tensor core",
+        "in-memory computing",
+        "soliton microcombs",
+        "optical frequency combs",
+        "parallel computing",
+        "AI accelerators",
+        "silicon nitride waveguides"
+      ],
+      "url": "https://doi.org/10.1038/s41586-020-03070-1",
+      "cited_by_count": 1888,
+      "importance": 0.4434,
+      "score_basis": {
+        "topic_overlap": 0.252,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4322503713",
+      "doi": "10.1038/s41467-023-36814-4",
+      "title": "Broadband physical layer cognitive radio with an integrated photonic processor for blind source separation",
+      "authors": [
+        "Weipeng Zhang",
+        "Alexander N. Tait",
+        "Chaoran Huang",
+        "Thomas Ferreira de Lima",
+        "Simon Bilodeau",
+        "Eric C. Blow",
+        "Aashu Jha",
+        "Bhavin J. Shastri",
+        "Paul R. Prucnal"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "blind source separation",
+        "cognitive radio",
+        "photonic processors",
+        "microring resonators",
+        "wavelength division multiplexing",
+        "wideband signal processing",
+        "interference suppression",
+        "integrated photonics",
+        "signal-to-interference ratio"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-36814-4",
+      "cited_by_count": 69,
+      "importance": 0.4383,
+      "score_basis": {
+        "topic_overlap": 0.418,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2888918761",
+      "doi": "10.1364/oe.26.024190",
+      "title": "Fiber-optic transmission and networking: the previous 20 and the next 20 years [Invited]",
+      "authors": [
+        "Peter J. Winzer",
+        "David T. Neilson",
+        "ANDREW R. CHRAPLYVY"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical fiber communication",
+        "optical transport networks",
+        "optical switching",
+        "spatial multiplexing",
+        "integrated photonics",
+        "digital signal processing",
+        "optical node architecture",
+        "device scaling"
+      ],
+      "url": "https://doi.org/10.1364/oe.26.024190",
+      "cited_by_count": 968,
+      "importance": 0.4366,
+      "score_basis": {
+        "topic_overlap": 0.304,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409991411",
+      "doi": "10.1109/oecc54135.2024.10975380",
+      "title": "Long-haul three-mode-multiplexed transmission employing on-chip mode permutation technique based on programmable photonic unitary processor",
+      "authors": [
+        "Kohki Shibahara",
+        "Kohei Ikeda",
+        "M. Nakajima",
+        "Akira Kawai",
+        "Akihiko Shinya",
+        "Masaya Notomi",
+        "Toshikazu Hashimoto",
+        "Yutaka Miyamoto"
+      ],
+      "year": 2024,
+      "venue": "OptoElectronics and Communications Conference",
+      "venue_abbr": "OECC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "long-haul optical transmission",
+        "integrated photonics",
+        "machine learning",
+        "mode coupling",
+        "modal dispersion"
+      ],
+      "url": "https://doi.org/10.1109/oecc54135.2024.10975380",
+      "cited_by_count": 2,
+      "importance": 0.4305,
+      "score_basis": {
+        "topic_overlap": 0.401,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387917935",
+      "doi": "10.1109/jlt.2023.3327086",
+      "title": "10-Spatial-Mode 1300-Km Transmission Over 6-LP Graded Index Few-Mode Fiber With 36-Ns Modal Dispersion",
+      "authors": [
+        "Kohki Shibahara",
+        "Megumi Hoshi",
+        "Yutaka Miyamoto"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "few-mode fiber",
+        "mode-division multiplexing",
+        "long-haul optical transmission",
+        "graded-index fiber",
+        "differential mode delay",
+        "modal dispersion",
+        "mode mixing",
+        "1300 nm"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3327086",
+      "cited_by_count": 38,
+      "importance": 0.4231,
+      "score_basis": {
+        "topic_overlap": 0.274,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2133377006",
+      "doi": "10.1364/oe.19.016612",
+      "title": "Mode-dependent loss and gain: statistics and effect on mode-division multiplexing",
+      "authors": [
+        "Keang-Po Ho",
+        "Joseph M. Kahn"
+      ],
+      "year": 2011,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "multimode fiber",
+        "mode-division multiplexing",
+        "mode coupling",
+        "Gaussian unitary ensemble",
+        "eigenvalue statistics",
+        "channel capacity",
+        "outage capacity",
+        "channel state information",
+        "long-haul optical transmission"
+      ],
+      "url": "https://doi.org/10.1364/oe.19.016612",
+      "cited_by_count": 322,
+      "importance": 0.4127,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2116769255",
+      "doi": "10.1364/oe.19.00b173",
+      "title": "High performance planar lightwave circuit devices for large capacity transmission",
+      "authors": [
+        "Hiroshi Takahashi"
+      ],
+      "year": 2011,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "planar lightwave circuit",
+        "silica waveguides",
+        "optical multiplexing",
+        "optical interference filters",
+        "arrayed waveguide grating",
+        "coherent optical receivers",
+        "optical modulators",
+        "broadband networks"
+      ],
+      "url": "https://doi.org/10.1364/oe.19.00b173",
+      "cited_by_count": 30,
+      "importance": 0.4004,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4377001499",
+      "doi": "10.1109/jlt.2023.3276003",
+      "title": "All-Optical MIMO Demultiplexing Using Silicon-Photonic Dual-Polarization Optical Unitary Processor",
+      "authors": [
+        "Ryota Tanomura",
+        "Rui Tang",
+        "Go Soma",
+        "Shota Ishimura",
+        "Takuo Tanemura",
+        "Yoshiaki Nakano"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "dual polarization",
+        "silicon photonics",
+        "polarization splitter-rotator",
+        "multi-plane light conversion",
+        "mode-division multiplexing",
+        "QPSK",
+        "all-optical signal processing"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3276003",
+      "cited_by_count": 16,
+      "importance": 0.3943,
+      "score_basis": {
+        "topic_overlap": 0.21,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2898489132",
+      "doi": "10.1109/jlt.2018.2877213",
+      "title": "DMD-Unmanaged Long-Haul SDM Transmission Over 2500-km 12-Core × 3-Mode MC-FMF and 6300-km 3-Mode FMF Employing Intermodal Interference Canceling Technique",
+      "authors": [
+        "Kohki Shibahara",
+        "Takayuki Mizuno",
+        "Doohwan Lee",
+        "Yutaka Miyamoto",
+        "Hirotaka Ono",
+        "Kazuhide Nakajima",
+        "Yoshimichi Amma",
+        "Katsuhiro Takenaga",
+        "Kunimasa Saitoh"
+      ],
+      "year": 2018,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "differential mode delay",
+        "few-mode fiber",
+        "mode-division multiplexing",
+        "mode-dependent loss",
+        "MIMO signal processing",
+        "long-haul optical transmission",
+        "transoceanic transmission",
+        "pulse broadening"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2018.2877213",
+      "cited_by_count": 45,
+      "importance": 0.3933,
+      "score_basis": {
+        "topic_overlap": 0.207,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386175200",
+      "doi": "10.1109/jlt.2023.3308777",
+      "title": "On a Scalable Path for Multimode SDM Transmission",
+      "authors": [
+        "Fabio A. Barbosa",
+        "Filipe Marques Ferreira"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "spatial multiplexing",
+        "multimode fiber",
+        "principal modes",
+        "transceiver design",
+        "crosstalk reduction",
+        "modal dispersion",
+        "MIMO equalization",
+        "coherent optical transmission",
+        "data center interconnects",
+        "mode-dependent loss"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3308777",
+      "cited_by_count": 16,
+      "importance": 0.3825,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413321510",
+      "doi": "10.23919/oecc/psc62146.2025.11111415",
+      "title": "Comparative Analysis of Random Unitary Matrix Generators Using Programmable Photonic Circuits",
+      "authors": [
+        "Chun Ren",
+        "Ryota Tanomura",
+        "Takuo Tanemura"
+      ],
+      "year": 2025,
+      "venue": "OptoElectronics and Communications Conference and International Conference on Photonics in Switching and Computing (OECC/PSC)",
+      "venue_abbr": "OptoElectronics and Communications Conference and International Conference on Photonics in Switching and Computing (OECC/PSC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "photonic integrated circuits",
+        "Haar random unitaries",
+        "phase shifters",
+        "programmable photonic circuits",
+        "quantum random number generation"
+      ],
+      "url": "https://doi.org/10.23919/oecc/psc62146.2025.11111415",
+      "cited_by_count": 2,
+      "importance": 0.3799,
+      "score_basis": {
+        "topic_overlap": 0.178,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2102409945",
+      "doi": "10.1109/oecc.2009.5213198",
+      "title": "New generation optical infrastructure technologies: “EXAT initiative” towards 2020 and beyond",
+      "authors": [
+        "Toshio Morioka"
+      ],
+      "year": 2009,
+      "venue": "OptoElectronics and Communications Conference",
+      "venue_abbr": "OECC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical fiber links",
+        "high-capacity optical networks"
+      ],
+      "url": "https://doi.org/10.1109/oecc.2009.5213198",
+      "cited_by_count": 279,
+      "importance": 0.3744,
+      "score_basis": {
+        "topic_overlap": 0.254,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2791824433",
+      "doi": "10.1364/ofc.2018.th4c.6",
+      "title": "DMD-Unmanaged Long-Haul SDM Transmission Over 2500-km 12-core × 3-mode MC-FMF and 6300-km 3-mode FMF Employing Intermodal Interference Cancelling Technique",
+      "authors": [
+        "Kohki Shibahara",
+        "Takayuki Mizuno",
+        "Doowhan Lee",
+        "Y. Miyamoto",
+        "Hirotaka Ono",
+        "Kazuhide Nakajima",
+        "Shota Saitoh",
+        "Katsuhiro Takenaga",
+        "Kunimasa Saitoh"
+      ],
+      "year": 2018,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "mode-division multiplexing",
+        "multicore fiber",
+        "pulse broadening",
+        "long-haul optical transmission"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2018.th4c.6",
+      "cited_by_count": 31,
+      "importance": 0.3727,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4377082814",
+      "doi": "10.1364/ofc.2023.th4b.5",
+      "title": "273.6 Tb/s Transmission Over 1001 km of 15-Mode Fiber Using 16-QAM C-Band Signals",
+      "authors": [
+        "Menno van den Hout",
+        "Giammarco Di Sciullo",
+        "Georg Rademacher",
+        "Ruben Soares Luis",
+        "Benjamin James Puttnam",
+        "Nicolas K. Fontaine",
+        "Roland R. Ryf",
+        "Haoshuo Chen",
+        "Mikael Mazur",
+        "David T. Neilson",
+        "Pierre Sillard",
+        "Frank Achten",
+        "Jun Sakaguchi",
+        "Cristian Antonelli",
+        "Chigo M. Okonkwo",
+        "Hideaki Furukawa"
+      ],
+      "year": 2023,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "16-QAM",
+        "C-band",
+        "long-haul optical transmission"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2023.th4b.5",
+      "cited_by_count": 13,
+      "importance": 0.3718,
+      "score_basis": {
+        "topic_overlap": 0.337,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2752849906",
+      "doi": "10.1038/nphoton.2017.93",
+      "title": "Deep learning with coherent nanophotonic circuits",
+      "authors": [
+        "Yichen Shen",
+        "Nicholas C. Harris",
+        "Scott A. Skirlo",
+        "Mihika Prabhu",
+        "Tom W. Baehr-Jones",
+        "Michael J. Hochberg",
+        "Xin Sun",
+        "Shijie Zhao",
+        "Hugo Larochelle",
+        "Dirk Englund",
+        "Marin Soljacic A"
+      ],
+      "year": 2017,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical neural networks",
+        "silicon photonics",
+        "Mach-Zehnder interferometer",
+        "programmable photonic circuits",
+        "vowel recognition",
+        "neuromorphic computing",
+        "power efficiency",
+        "inference acceleration"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2017.93",
+      "cited_by_count": 3321,
+      "importance": 0.3679,
+      "score_basis": {
+        "topic_overlap": 0.151,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2003410554",
+      "doi": "10.1109/jlt.2011.2174336",
+      "title": "Mode-Division Multiplexing Over 96 km of Few-Mode Fiber Using Coherent 6$\\,\\times\\,$6 MIMO Processing",
+      "authors": [
+        "Roland R. Ryf",
+        "Sebastian Randel",
+        "Alan H. Gnauck",
+        "Cristian Bolle",
+        "Alberto Sierra",
+        "Sami Mumtaz",
+        "Mina Esmaeelpour",
+        "Ellsworth Burrows",
+        "René-Jean Essiambre",
+        "Peter J. Winzer",
+        "D. W. Peckham",
+        "A.H. McCurdy",
+        "R. Lingle"
+      ],
+      "year": 2011,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "mode-division multiplexing",
+        "few-mode fiber",
+        "QPSK",
+        "feed-forward equalization",
+        "impulse response matrix",
+        "mode coupling",
+        "long-haul optical transmission",
+        "differential group delay"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2011.2174336",
+      "cited_by_count": 1027,
+      "importance": 0.3613,
+      "score_basis": {
+        "topic_overlap": 0.225,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388939295",
+      "doi": "10.1038/s41566-023-01330-w",
+      "title": "Determining the optimal communication channels of arbitrary optical systems using integrated photonic processors",
+      "authors": [
+        "SeyedMohammad SeyedinNavadeh",
+        "Maziyar Milanizadeh",
+        "Francesco Zanetto",
+        "Giorgio Ferrari",
+        "Marco Sampietro",
+        "Marc Sorel",
+        "David A. B. Miller",
+        "Andrea Ivano Melloni",
+        "Francesco Morichetti"
+      ],
+      "year": 2023,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical communication channels",
+        "orthogonal modes",
+        "turbid media",
+        "photonic processors",
+        "Mach-Zehnder interferometer",
+        "silicon photonics",
+        "singular value decomposition",
+        "crosstalk",
+        "power maximization"
+      ],
+      "url": "https://doi.org/10.1038/s41566-023-01330-w",
+      "cited_by_count": 98,
+      "importance": 0.3596,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2097100165",
+      "doi": "10.1126/science.aab3642",
+      "title": "Universal linear optics",
+      "authors": [
+        "Jacques Carolan",
+        "Christopher Harrold",
+        "Chris Sparrow",
+        "Enrique Martín-López",
+        "Nicholas J. Russell",
+        "Joshua W. Silverstone",
+        "Peter Shadbolt",
+        "Nobuyuki Matsuda",
+        "Manabu Oguma",
+        "Mikitaka Itoh",
+        "Graham D. Marshall",
+        "Mark G. Thompson",
+        "Jonathan C. F. Matthews",
+        "Toshikazu Hashimoto",
+        "Jeremy L. O’Brien",
+        "Anthony Laing"
+      ],
+      "year": 2015,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Mach-Zehnder interferometer",
+        "thermo-optic phase shifters",
+        "photonic integrated circuits",
+        "entangling gates",
+        "boson sampling",
+        "Haar random unitaries",
+        "single-photon detection",
+        "quantum computing"
+      ],
+      "url": "https://doi.org/10.1126/science.aab3642",
+      "cited_by_count": 1088,
+      "importance": 0.357,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2320440260",
+      "doi": "10.1364/optica.3.001460",
+      "title": "Optimal design for universal multiport interferometers",
+      "authors": [
+        "William R. Clements",
+        "Peter C. Humphreys",
+        "Benjamin J. Metcalf",
+        "W. Steven Kolthammer",
+        "Ian A. Walmsley"
+      ],
+      "year": 2016,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "beam splitter",
+        "phase shifters",
+        "integrated photonics",
+        "quantum photonics"
+      ],
+      "url": "https://doi.org/10.1364/optica.3.001460",
+      "cited_by_count": 1211,
+      "importance": 0.35,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2100914873",
+      "doi": "10.1109/jlt.2011.2165316",
+      "title": "Statistics of Group Delays in Multimode Fiber With Strong Mode Coupling",
+      "authors": [
+        "Keang-Po Ho",
+        "Joseph M. Kahn"
+      ],
+      "year": 2011,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "group delay",
+        "multimode fiber",
+        "Gaussian unitary ensemble",
+        "eigenvalue distribution",
+        "delay spread",
+        "modal dispersion",
+        "probability density function"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2011.2165316",
+      "cited_by_count": 259,
+      "importance": 0.3488,
+      "score_basis": {
+        "topic_overlap": 0.153,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2313073378",
+      "doi": "10.1109/jlt.2015.2466472",
+      "title": "High Reliability of Silica-Based 1 × 8 Optical Splitter Modules for Outside Plant",
+      "authors": [
+        "Atsushi Aratake"
+      ],
+      "year": 2015,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "planar lightwave circuit",
+        "passive optical networks",
+        "fiber to the home",
+        "device reliability"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2015.2466472",
+      "cited_by_count": 19,
+      "importance": 0.3341,
+      "score_basis": {
+        "topic_overlap": 0.254,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403115144",
+      "doi": "10.1117/12.3034711",
+      "title": "16×16 MZI-based photonic accelerator toward space and wavelength division multiplexing",
+      "authors": [
+        "Kohei Ikeda",
+        "Shota Kita",
+        "M. Nakajima",
+        "Kenta Takata",
+        "Kazuo Aoyama",
+        "Keijiro Suzuki",
+        "Yuriko Maegami",
+        "Morifumi Ohno",
+        "Guangwei Cong",
+        "Noritsugu Yamamoto",
+        "Koji Yamada",
+        "Akihiko Shinya",
+        "Hiroshi Sawada",
+        "Toshikazu Hashimoto",
+        "Masaya Notomi"
+      ],
+      "year": 2024,
+      "venue": "Emerging Topics in Artificial Intelligence (ETAI)",
+      "venue_abbr": "Emerging Topics in Artificial Intelligence (ETAI)",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "photonic accelerators",
+        "crosstalk compensation",
+        "planar lightwave circuit",
+        "matrix-matrix multiplication",
+        "MNIST classification",
+        "wavelength independence"
+      ],
+      "url": "https://doi.org/10.1117/12.3034711",
+      "cited_by_count": 2,
+      "importance": 0.3294,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4367182663",
+      "doi": "10.1038/s41534-023-00708-6",
+      "title": "Programmable photonic integrated meshes for modular generation of optical entanglement links",
+      "authors": [
+        "Mark Dong",
+        "Matthew Zimmermann",
+        "David Heim",
+        "Hyeongrak Choi",
+        "Genevieve Clark",
+        "Andrew Jay Leenheer",
+        "Kevin J. Palm",
+        "Alex Witte",
+        "Daniel Dominguez",
+        "Gerald N. Gilbert",
+        "Matt Eichenfield",
+        "Dirk Englund"
+      ],
+      "year": 2023,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic integrated circuits",
+        "reconfigurable optical networks",
+        "silicon nitride photonics",
+        "resource states",
+        "quantum networks",
+        "CMOS-compatible photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41534-023-00708-6",
+      "cited_by_count": 30,
+      "importance": 0.3167,
+      "score_basis": {
+        "topic_overlap": 0.037,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391920817",
+      "doi": "10.1038/s41467-024-45743-9",
+      "title": "Ultrabroadband high-resolution silicon RF-photonic beamformer",
+      "authors": [
+        "Pablo Martínez-Carrasco Romero",
+        "Tan Huy Ho",
+        "David Wessel",
+        "J. Capmany"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic beamforming",
+        "silicon photonics",
+        "microwave photonics",
+        "beam steering",
+        "broadband operation",
+        "high-resolution beamforming",
+        "5G/6G networks",
+        "Internet of Things"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-45743-9",
+      "cited_by_count": 52,
+      "importance": 0.3139,
+      "score_basis": {
+        "topic_overlap": 0.253,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1548752158",
+      "to": "W2100914873",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1548752158"
+        }
+      ]
+    },
+    {
+      "from": "W1548752158",
+      "to": "W2133377006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1548752158"
+        }
+      ]
+    },
+    {
+      "from": "W2097100165",
+      "to": "W2116769255",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2097100165"
+        }
+      ]
+    },
+    {
+      "from": "W2320440260",
+      "to": "W2097100165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2320440260"
+        }
+      ]
+    },
+    {
+      "from": "W2888918761",
+      "to": "W2003410554",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2888918761"
+        }
+      ]
+    },
+    {
+      "from": "W2888918761",
+      "to": "W2100914873",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2888918761"
+        }
+      ]
+    },
+    {
+      "from": "W2898489132",
+      "to": "W2102409945",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2898489132"
+        }
+      ]
+    },
+    {
+      "from": "W2898489132",
+      "to": "W2791824433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2898489132"
+        }
+      ]
+    },
+    {
+      "from": "W2905425616",
+      "to": "W2097100165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2905425616"
+        }
+      ]
+    },
+    {
+      "from": "W2905425616",
+      "to": "W2320440260",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2905425616"
+        }
+      ]
+    },
+    {
+      "from": "W2905425616",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2905425616"
+        }
+      ]
+    },
+    {
+      "from": "W2982929922",
+      "to": "W2102409945",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2982929922"
+        }
+      ]
+    },
+    {
+      "from": "W2982929922",
+      "to": "W2133377006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2982929922"
+        }
+      ]
+    },
+    {
+      "from": "W2982929922",
+      "to": "W2791824433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2982929922"
+        }
+      ]
+    },
+    {
+      "from": "W3003967059",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3003967059"
+        }
+      ]
+    },
+    {
+      "from": "W3096230432",
+      "to": "W2097100165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3096230432"
+        }
+      ]
+    },
+    {
+      "from": "W3096230432",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3096230432"
+        }
+      ]
+    },
+    {
+      "from": "W3096230432",
+      "to": "W2905425616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3096230432"
+        }
+      ]
+    },
+    {
+      "from": "W3126304295",
+      "to": "W2097100165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126304295"
+        }
+      ]
+    },
+    {
+      "from": "W3126304295",
+      "to": "W2116769255",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126304295"
+        }
+      ]
+    },
+    {
+      "from": "W3126304295",
+      "to": "W2313073378",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126304295"
+        }
+      ]
+    },
+    {
+      "from": "W3126304295",
+      "to": "W2320440260",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126304295"
+        }
+      ]
+    },
+    {
+      "from": "W3126304295",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126304295"
+        }
+      ]
+    },
+    {
+      "from": "W3126304295",
+      "to": "W2905425616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126304295"
+        }
+      ]
+    },
+    {
+      "from": "W3126304295",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126304295"
+        }
+      ]
+    },
+    {
+      "from": "W3182421448",
+      "to": "W2003410554",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3182421448"
+        }
+      ]
+    },
+    {
+      "from": "W3182421448",
+      "to": "W2100914873",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3182421448"
+        }
+      ]
+    },
+    {
+      "from": "W3182421448",
+      "to": "W2133377006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3182421448"
+        }
+      ]
+    },
+    {
+      "from": "W4214515184",
+      "to": "W2097100165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4214515184"
+        }
+      ]
+    },
+    {
+      "from": "W4214515184",
+      "to": "W2320440260",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4214515184"
+        }
+      ]
+    },
+    {
+      "from": "W4214515184",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4214515184"
+        }
+      ]
+    },
+    {
+      "from": "W4308826085",
+      "to": "W2003410554",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4308826085"
+        }
+      ]
+    },
+    {
+      "from": "W4308826085",
+      "to": "W2100914873",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4308826085"
+        }
+      ]
+    },
+    {
+      "from": "W4308826085",
+      "to": "W2791824433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4308826085"
+        }
+      ]
+    },
+    {
+      "from": "W4308917574",
+      "to": "W2102409945",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4308917574"
+        }
+      ]
+    },
+    {
+      "from": "W4308917574",
+      "to": "W3182421448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4308917574"
+        }
+      ]
+    },
+    {
+      "from": "W4312220016",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312220016"
+        }
+      ]
+    },
+    {
+      "from": "W4312220016",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312220016"
+        }
+      ]
+    },
+    {
+      "from": "W4312220016",
+      "to": "W3096230432",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312220016"
+        }
+      ]
+    },
+    {
+      "from": "W4312220016",
+      "to": "W3126304295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312220016"
+        }
+      ]
+    },
+    {
+      "from": "W4322503713",
+      "to": "W3096230432",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322503713"
+        }
+      ]
+    },
+    {
+      "from": "W4367182663",
+      "to": "W2097100165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367182663"
+        }
+      ]
+    },
+    {
+      "from": "W4367182663",
+      "to": "W2320440260",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367182663"
+        }
+      ]
+    },
+    {
+      "from": "W4377001499",
+      "to": "W3182421448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377001499"
+        }
+      ]
+    },
+    {
+      "from": "W4377001499",
+      "to": "W4214515184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377001499"
+        }
+      ]
+    },
+    {
+      "from": "W4386175200",
+      "to": "W1548752158",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386175200"
+        }
+      ]
+    },
+    {
+      "from": "W4386175200",
+      "to": "W2905425616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386175200"
+        }
+      ]
+    },
+    {
+      "from": "W4387917935",
+      "to": "W2133377006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387917935"
+        }
+      ]
+    },
+    {
+      "from": "W4387917935",
+      "to": "W4377082814",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387917935"
+        }
+      ]
+    },
+    {
+      "from": "W4388939295",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388939295"
+        }
+      ]
+    },
+    {
+      "from": "W4388939295",
+      "to": "W2905425616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388939295"
+        }
+      ]
+    },
+    {
+      "from": "W4391971685",
+      "to": "W2097100165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391971685"
+        }
+      ]
+    },
+    {
+      "from": "W4391971685",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391971685"
+        }
+      ]
+    },
+    {
+      "from": "W4391971685",
+      "to": "W2905425616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391971685"
+        }
+      ]
+    },
+    {
+      "from": "W4391971685",
+      "to": "W3096230432",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391971685"
+        }
+      ]
+    },
+    {
+      "from": "W4394727812",
+      "to": "W2320440260",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394727812"
+        }
+      ]
+    },
+    {
+      "from": "W4394727812",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394727812"
+        }
+      ]
+    },
+    {
+      "from": "W4394727812",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394727812"
+        }
+      ]
+    },
+    {
+      "from": "W4394727812",
+      "to": "W3126304295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394727812"
+        }
+      ]
+    },
+    {
+      "from": "W4402268885",
+      "to": "W2116769255",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402268885"
+        }
+      ]
+    },
+    {
+      "from": "W4402268885",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402268885"
+        }
+      ]
+    },
+    {
+      "from": "W4402268885",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402268885"
+        }
+      ]
+    },
+    {
+      "from": "W4402268885",
+      "to": "W3126304295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402268885"
+        }
+      ]
+    },
+    {
+      "from": "W4402673497",
+      "to": "W1548752158",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402673497"
+        }
+      ]
+    },
+    {
+      "from": "W4402673497",
+      "to": "W2133377006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402673497"
+        }
+      ]
+    },
+    {
+      "from": "W4402673497",
+      "to": "W3182421448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402673497"
+        }
+      ]
+    },
+    {
+      "from": "W4404914895",
+      "to": "W1548752158",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404914895"
+        }
+      ]
+    },
+    {
+      "from": "W4404914895",
+      "to": "W2133377006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404914895"
+        }
+      ]
+    },
+    {
+      "from": "W4404914895",
+      "to": "W4308826085",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404914895"
+        }
+      ]
+    },
+    {
+      "from": "W4404914895",
+      "to": "W4402673497",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404914895"
+        }
+      ]
+    },
+    {
+      "from": "W4407508492",
+      "to": "W2097100165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407508492"
+        }
+      ]
+    },
+    {
+      "from": "W4407508492",
+      "to": "W2320440260",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407508492"
+        }
+      ]
+    },
+    {
+      "from": "W4407508492",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407508492"
+        }
+      ]
+    },
+    {
+      "from": "W4407508492",
+      "to": "W2905425616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407508492"
+        }
+      ]
+    },
+    {
+      "from": "W4409991411",
+      "to": "W3126304295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409991411"
+        }
+      ]
+    },
+    {
+      "from": "W4413321510",
+      "to": "W2320440260",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413321510"
+        }
+      ]
+    },
+    {
+      "from": "W4413321510",
+      "to": "W4214515184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413321510"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W1548752158",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2003410554",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2097100165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2100914873",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2102409945",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2116769255",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2133377006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2313073378",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2320440260",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2752849906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2791824433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2888918761",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2898489132",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2905425616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W2982929922",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W3096230432",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W3126304295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W3182421448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4214515184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4308826085",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4308917574",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4312220016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4322503713",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4367182663",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4377001499",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4377082814",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4386175200",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4387917935",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4388939295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4391920817",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4391971685",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4394727812",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4402268885",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4402673497",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4403115144",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4404914895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4407508492",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4409991411",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    },
+    {
+      "from": "W7214376636",
+      "to": "W4413321510",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214376636"
+        }
+      ]
+    }
+  ]
 }

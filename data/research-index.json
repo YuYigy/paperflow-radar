@@ -6,7 +6,7 @@
       "title": "从链路到算力互连",
       "description": "关注传输容量、链路预算与互连代价。",
       "question": "容量与距离是否在相同功率和带宽条件下比较？",
-      "count": 30,
+      "count": 40,
       "latest": "2026-10-20",
       "items": [
         {
@@ -629,13 +629,361 @@
       "title": "从器件到系统可用性",
       "description": "关注硅光、调制器、微环与集成平台。",
       "question": "器件性能能否在损耗、驱动和制造约束下转化为系统收益？",
-      "count": 59,
-      "latest": "2026-10-24",
+      "count": 80,
+      "latest": "2026-10-26",
       "items": [
         {
           "schema_version": 1,
-          "record_id": "bec89cc7-94b6-40b0-a0d4-22ff26bbe7e3",
+          "record_id": "d24a90d6-4011-4693-8be5-cd5f0c03d5a0",
           "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Symmetric mode multiplexing waveguide switch based on optical phase change material",
+          "authors": [
+            "张桂菊",
+            "chenggen wang"
+          ],
+          "doi": "10.1117/1.oe.65.10.107104",
+          "venue": "Optical Engineering",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "9d9aae91a2171e1e",
+            "name": "Optical Engineering",
+            "original_name": "Optical Engineering",
+            "abbr": "Opt. Eng.",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Optical Engineering",
+              "Opt. Eng."
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "未匹配 CIE 2023",
+            "rank_order": 99,
+            "focus_tier": "P3",
+            "focus_label": "知流 P3 · 扩展关注",
+            "focus_order": 3,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-10-26",
+          "topics": [
+            "通信光子器件与集成"
+          ],
+          "summary_zh": "该研究提出采用相变材料Ge2Sb2Se4Te1的2×6硅波导模式复用开关，由一个2×2对称开关与两个1×3可重构模式开关级联组成。研究使用耦合模与超模理论分析，并通过三维有限差分时域仿真验证传播特性。摘要报告，在1550 nm处，2×2单元的消光比为37 dB、插入损耗为0.03 dB；集成开关全部12个工作通道的消光比大于12.5 dB、插入损耗小于1.8 dB，并支持时分和可重构模式复用。",
+          "title_zh": "基于相变材料的硅波导模式复用开关仿真",
+          "missing_evidence": [
+            "仅有摘要，缺少全文中的仿真参数、带宽曲线及制造容差分析。",
+            "材料未提供实验验证、相变驱动条件、切换速度、能耗和循环可靠性证据。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1117/1.oe.65.10.107104",
+              "text": "该研究提出采用相变材料Ge2Sb2Se4Te1的2×6硅波导模式复用开关，由一个2×2对称开关与两个1×3可重构模式开关级联组成。研究使用耦合模与超模理论分析，并通过三维有限差分时域仿真验证传播特性。摘要报告，在1550 nm处，2×2单元的消光比为37 dB、插入损耗为0.03 dB；集成开关全部12个工作通道的消光比大于12.5 dB、插入损耗小于1.8 dB，并支持时分和可重构模式复用。"
+            }
+          ],
+          "ai_inference": [
+            "该级联结构可为片上模式复用网络的可重构路由设计提供参考，实际应用仍需器件制备与系统实验验证。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1117/1.oe.65.10.107104",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-27T00:24:41.874075+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "d24a90d6-4011-4693-8be5-cd5f0c03d5a0",
+            "work_key": "doi:10.1117/1.oe.65.10.107104",
+            "identifiers": {
+              "doi": "10.1117/1.oe.65.10.107104",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "0091-3286",
+                "1560-2303"
+              ]
+            },
+            "bibliography": {
+              "title": "Symmetric mode multiplexing waveguide switch based on optical phase change material",
+              "type": "journal-article",
+              "venue_id": "9d9aae91a2171e1e",
+              "venue_name": "Optical Engineering",
+              "venue_abbr": "Opt. Eng.",
+              "date": "2026-10-26",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": "65",
+              "issue": "10",
+              "pages": "1-14",
+              "article_number": null,
+              "publisher": null,
+              "language": null,
+              "published_online": null,
+              "published_print": null
+            },
+            "authors": [
+              "张桂菊",
+              "chenggen wang"
+            ],
+            "first_author": "张桂菊",
+            "author_count": 2,
+            "contributors": [],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [
+                "Photonic and Optical Devices",
+                "Phase-change materials and chalcogenides",
+                "Photorefractive and Nonlinear Optics"
+              ],
+              "topic_tags": [],
+              "directions": [
+                "通信光子器件与集成"
+              ],
+              "direction_basis": "source-classification",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": null,
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": "P3"
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "direct",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": []
+            },
+            "citation_counts": {
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1117/1.oe.65.10.107104",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": null,
+              "metadata_observed_at": null,
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
+        {
+          "schema_version": 1,
+          "record_id": "51447883-d0ec-4cb0-b462-ebcf313d4c07",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Graphene-Based Photodetectors for Silicon Photonic Optical Communications: Progress, Challenges, and Outlook",
+          "authors": [
+            "Alexander Löwen",
+            "Zhuang Miao",
+            "Daniel Neumaier"
+          ],
+          "doi": "10.1021/acsaelm.6c01405",
+          "venue": "ACS Applied Electronic Materials",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "5332655a72b6b4b7",
+            "name": "ACS Applied Electronic Materials",
+            "original_name": "ACS Applied Electronic Materials",
+            "abbr": "ACS Applied Electronic Materials",
+            "kind": "journal",
+            "match_status": "unmatched",
+            "aliases": [
+              "ACS Applied Electronic Materials",
+              "ACS Applied Electronic Materials"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "未匹配 CIE 2023",
+            "rank_order": 99,
+            "focus_tier": null,
+            "focus_label": "知流关注级未定",
+            "focus_order": 99,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-10-25",
+          "topics": [
+            "通信光子器件与集成"
+          ],
+          "summary_zh": "这篇观点综述梳理了波导集成石墨烯光探测器的发展、探测机制、性能指标及集成策略。摘要报告近期器件的响应度最高达0.65 A/W、带宽超过180 GHz，并称实验已证明其具备突破500 GHz的潜力；这不代表已实现超过500 GHz的器件带宽。文章指出，石墨烯探测器在响应度、噪声等效功率及制造成熟度方面尚未超越先进锗光电二极管，预计近期难以替代标准电信接收机中的成熟技术。",
+          "title_zh": "硅光通信石墨烯探测器：进展与瓶颈",
+          "missing_evidence": [
+            "仅提供摘要，缺少全文及被引原始实验，无法核查各项指标对应的器件、测试条件，以及突破500 GHz潜力的具体实验依据。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1021/acsaelm.6c01405",
+              "text": "这篇观点综述梳理了波导集成石墨烯光探测器的发展、探测机制、性能指标及集成策略。摘要报告近期器件的响应度最高达0.65 A/W、带宽超过180 GHz，并称实验已证明其具备突破500 GHz的潜力；这不代表已实现超过500 GHz的器件带宽。文章指出，石墨烯探测器在响应度、噪声等效功率及制造成熟度方面尚未超越先进锗光电二极管，预计近期难以替代标准电信接收机中的成熟技术。"
+            }
+          ],
+          "ai_inference": [
+            "可关注其在极高带宽、宽波段工作和异质光子集成中的应用；评估通信接收价值时，需结合响应度、噪声与制造成熟度，而非仅比较带宽。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1021/acsaelm.6c01405",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-27T00:35:15.679212+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "51447883-d0ec-4cb0-b462-ebcf313d4c07",
+            "work_key": "doi:10.1021/acsaelm.6c01405",
+            "identifiers": {
+              "doi": "10.1021/acsaelm.6c01405",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "2637-6113"
+              ]
+            },
+            "bibliography": {
+              "title": "Graphene-Based Photodetectors for Silicon Photonic Optical Communications: Progress, Challenges, and Outlook",
+              "type": "journal-article",
+              "venue_id": "5332655a72b6b4b7",
+              "venue_name": "ACS Applied Electronic Materials",
+              "venue_abbr": "ACS Applied Electronic Materials",
+              "date": "2026-10-25",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "article_number": null,
+              "publisher": null,
+              "language": null,
+              "published_online": null,
+              "published_print": null
+            },
+            "authors": [
+              "Alexander Löwen",
+              "Zhuang Miao",
+              "Daniel Neumaier"
+            ],
+            "first_author": "Alexander Löwen",
+            "author_count": 3,
+            "contributors": [],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [
+                "Photonic and Optical Devices",
+                "Graphene research and applications",
+                "Plasmonic and Surface Plasmon Research"
+              ],
+              "topic_tags": [
+                "硅光"
+              ],
+              "directions": [
+                "通信光子器件与集成"
+              ],
+              "direction_basis": "source-classification",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": null,
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": null
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "direct",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": []
+            },
+            "citation_counts": {
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1021/acsaelm.6c01405",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": null,
+              "metadata_observed_at": null,
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
+        {
+          "schema_version": 1,
+          "record_id": "bec89cc7-94b6-40b0-a0d4-22ff26bbe7e3",
+          "revision": 4,
           "is_demo": false,
           "kind": "paper",
           "title": "High-Speed Energy-Efficient Resonant Modulator on a Graphene-Organic Hybrid Platform",
@@ -646,9 +994,9 @@
             "Yannik Horst",
             "Wolfgang Heni",
             "Alexandros Emboras",
-            "Tatsuhiko Watanabe",
-            "Nikolaus Flöry",
-            "Lukas Novotny",
+            "T. Watanabe",
+            "Nikolaus Flöry",
+            "Lukáš Novotný",
             "Delwin L. Elder",
             "Larry R. Dalton",
             "Juerg Leuthold"
@@ -696,30 +1044,30 @@
           "topics": [
             "通信光子器件与集成"
           ],
-          "summary_zh": "该研究报告硅平台上的石墨烯—有机混合谐振电光调制器：石墨烯用作透明电极，有机材料提供高线性电光系数。器件有源长度为50 μm，调制带宽约35 GHz。摘要报告高速数据传输实验达到320 Gbit/s；在CMOS兼容电压下达到128 Gbit/s，能耗约10.1 fJ/bit。",
+          "summary_zh": "该研究报告硅平台上的石墨烯—有机混合谐振电光调制器。石墨烯作为透明电极，使射频场靠近光学模式；有机材料提供高线性电光系数。器件有源长度为50 μm，调制带宽约35 GHz。高速数据传输实验展示320 Gbit/s线速率；在CMOS兼容电压下实现128 Gbit/s，能耗约10.1 fJ/bit。",
           "title_zh": "石墨烯—有机混合谐振调制器实现高速低能耗传输",
           "missing_evidence": [
-            "仅提供摘要，缺少全文中的调制格式、误码率、驱动电压及能耗计算口径。",
-            "缺少插入损耗、谐振温度稳定性及系统集成条件等证据。"
+            "未提供正文，无法核查调制格式、误码率、传输距离及能耗统计边界。",
+            "摘要未给出具体驱动电压、插入损耗、温度稳定性及谐振调谐开销。"
           ],
           "facts": [
             {
               "locator": "abstract",
               "source_url": "https://doi.org/10.1021/acsphotonics.6c00793",
-              "text": "该研究报告硅平台上的石墨烯—有机混合谐振电光调制器：石墨烯用作透明电极，有机材料提供高线性电光系数。器件有源长度为50 μm，调制带宽约35 GHz。摘要报告高速数据传输实验达到320 Gbit/s；在CMOS兼容电压下达到128 Gbit/s，能耗约10.1 fJ/bit。"
+              "text": "该研究报告硅平台上的石墨烯—有机混合谐振电光调制器。石墨烯作为透明电极，使射频场靠近光学模式；有机材料提供高线性电光系数。器件有源长度为50 μm，调制带宽约35 GHz。高速数据传输实验展示320 Gbit/s线速率；在CMOS兼容电压下实现128 Gbit/s，能耗约10.1 fJ/bit。"
             }
           ],
           "ai_inference": [
-            "该结构可为硅光通信链路中紧凑、低驱动能耗的调制器设计提供参考；其谐振特性对波分复用的实际适用性仍需进一步验证。"
+            "该混合材料方案可为硅光高速低能耗发射端提供器件设计参考；谐振结构用于波分复用链路的实际收益仍需系统验证。"
           ],
           "metrics": [],
-          "evidence_status": "abstract-only",
+          "evidence_status": "abstract+pdf-link",
           "source_url": "https://doi.org/10.1021/acsphotonics.6c00793",
           "related_ids": [],
           "relevance_class": "enabling",
           "reading_level": "B",
           "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-25T00:23:59.193379+00:00",
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-27T00:43:40.113394+00:00",
           "attributes": {
             "schema": "paperflow.paper-attributes/v1",
             "id": "bec89cc7-94b6-40b0-a0d4-22ff26bbe7e3",
@@ -745,9 +1093,9 @@
               "issue": null,
               "pages": null,
               "article_number": null,
-              "publisher": "American Chemical Society (ACS)",
-              "language": "en",
-              "published_online": "2026-10-24",
+              "publisher": null,
+              "language": null,
+              "published_online": null,
               "published_print": null
             },
             "authors": [
@@ -757,105 +1105,23 @@
               "Yannik Horst",
               "Wolfgang Heni",
               "Alexandros Emboras",
-              "Tatsuhiko Watanabe",
+              "T. Watanabe",
               "Nikolaus Flöry",
-              "Lukas Novotny",
+              "Lukáš Novotný",
               "Delwin L. Elder",
               "Larry R. Dalton",
               "Juerg Leuthold"
             ],
             "first_author": "Xinzhi Zhang",
             "author_count": 12,
-            "contributors": [
-              {
-                "name": "Xinzhi Zhang",
-                "orcid": "https://orcid.org/0000-0002-5360-3214",
-                "affiliations": [
-                  "ETH Zurich , , ,"
-                ]
-              },
-              {
-                "name": "Ping Ma",
-                "orcid": null,
-                "affiliations": [
-                  "ETH Zurich , , ,",
-                  "University of Science and Technology , , , ,"
-                ]
-              },
-              {
-                "name": "Tobias Blatter",
-                "orcid": null,
-                "affiliations": [
-                  "ETH Zurich , , ,"
-                ]
-              },
-              {
-                "name": "Yannik Horst",
-                "orcid": null,
-                "affiliations": [
-                  "ETH Zurich , , ,"
-                ]
-              },
-              {
-                "name": "Wolfgang Heni",
-                "orcid": null,
-                "affiliations": [
-                  "Polariton Technologies , ,"
-                ]
-              },
-              {
-                "name": "Alexandros Emboras",
-                "orcid": null,
-                "affiliations": [
-                  "ETH Zurich , , ,"
-                ]
-              },
-              {
-                "name": "Tatsuhiko Watanabe",
-                "orcid": null,
-                "affiliations": [
-                  "ETH Zurich , , ,"
-                ]
-              },
-              {
-                "name": "Nikolaus Flöry",
-                "orcid": null,
-                "affiliations": [
-                  "ETH Zurich , , ,"
-                ]
-              },
-              {
-                "name": "Lukas Novotny",
-                "orcid": null,
-                "affiliations": [
-                  "ETH Zurich , , ,"
-                ]
-              },
-              {
-                "name": "Delwin L. Elder",
-                "orcid": null,
-                "affiliations": [
-                  "University of Washington , , , ,"
-                ]
-              },
-              {
-                "name": "Larry R. Dalton",
-                "orcid": "https://orcid.org/0000-0002-6461-0145",
-                "affiliations": [
-                  "University of Washington , , , ,"
-                ]
-              },
-              {
-                "name": "Juerg Leuthold",
-                "orcid": null,
-                "affiliations": [
-                  "ETH Zurich , , ,"
-                ]
-              }
-            ],
+            "contributors": [],
             "content": {
               "author_keywords": [],
-              "source_subjects": [],
+              "source_subjects": [
+                "Photonic and Optical Devices",
+                "Photorefractive and Nonlinear Optics",
+                "Plasmonic and Surface Plasmon Research"
+              ],
               "topic_tags": [
                 "调制器"
               ],
@@ -883,70 +1149,83 @@
             "reading": {
               "priority": "B",
               "relevance": "enabling",
-              "evidence": "abstract-only"
+              "evidence": "abstract+pdf-link"
             },
             "access": {
               "oa_status": "unknown",
-              "licenses": [
-                {
-                  "start": "2026-10-24",
-                  "url": "https://creativecommons.org/licenses/by/4.0/",
-                  "version": "vor"
-                }
-              ]
+              "licenses": []
             },
             "citation_counts": {
-              "references": 52,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-10-25T00:18:40.688985+00:00"
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
             },
             "provenance": {
               "source_url": "https://doi.org/10.1021/acsphotonics.6c00793",
               "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1021/acsphotonics.6c00793",
-              "metadata_observed_at": "2026-10-25T00:18:40.688985+00:00",
+              "metadata_source": null,
+              "metadata_observed_at": null,
               "missing": [
                 "author_keywords",
                 "open_access"
               ]
             }
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "DSP、编码与智能算法",
+      "title": "从算法收益到实时实现",
+      "description": "关注均衡、编码、非线性补偿与光子计算。",
+      "question": "精度收益是否包含复杂度、训练开销和跨链路泛化代价？",
+      "count": 24,
+      "latest": "2026-10-26",
+      "items": [
         {
           "schema_version": 1,
-          "record_id": "68334008-79e6-40a3-a023-88a961561e79",
-          "revision": 4,
+          "record_id": "7d53ff81-2089-4146-b7ec-6e5238e4f13e",
+          "revision": 2,
           "is_demo": false,
           "kind": "paper",
-          "title": "Compact scalable phase modulator with zero static power consumption for visible integrated photonics",
+          "title": "Photonic-aided wideband mm-wave transmission with scalable subband-selective reception based on AGFB-OFDM",
           "authors": [
-            "Neil MacFarlane",
-            "Firooz Aflatouni"
+            "Gang Li",
+            "Yuxiao Xu",
+            "Jianping Zhu",
+            "Huan Chang",
+            "Zhipei Li",
+            "Dong Guo",
+            "Sitong Zhou",
+            "Xiaolong Pan",
+            "Xiangjun Xin"
           ],
-          "doi": "10.1364/optica.608940",
-          "venue": "Optica",
+          "doi": "10.1364/oe.619020",
+          "venue": "Optics Express",
           "venue_info": {
             "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "847254fcf9a46c99",
-            "name": "Optica",
-            "original_name": "Optica",
-            "abbr": "Optica",
+            "id": "20fe917b3f1c57bc",
+            "name": "Optics Express",
+            "original_name": "Optics Express",
+            "abbr": "OE",
             "kind": "journal",
             "match_status": "matched",
             "aliases": [
-              "Optica"
+              "Optics Express",
+              "OE",
+              "Opt. Express"
             ],
             "rank_scheme": "cie-electronics-communications-2023",
             "rank_source": "中国电子学会 2023",
             "rank_version": "2023",
             "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": "T1",
-            "rank_label": "CIE T1 · 2023",
-            "rank_order": 1,
-            "focus_tier": "P1",
-            "focus_label": "知流 P1 · 前沿重点",
-            "focus_order": 1,
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
             "hust_grade": null,
             "hust_rule_grade": null,
             "hust_status": "unverified",
@@ -963,94 +1242,86 @@
             "exchange_label": "",
             "exchange_source": ""
           },
-          "published_at": "2026-10-23",
+          "published_at": "2026-10-26",
           "topics": [
-            "通信光子器件与集成",
-            "光源与通用光子器件"
+            "DSP、编码与智能算法"
           ],
-          "summary_zh": "摘要报告：可见光波段硅基相位调制器长期受限于热光、液晶与压电光机效应的速度与效率。报道首个（据作者所知）基于ITO电容堆叠在Si₃N₄波导上电荷积累效应的可见光紧凑相位调制器：VπL 0.5 V·cm且零静态功耗；带宽与Vπ成反比，400 µm器件最小Vπ 12.4±0.4 V（损耗2.5 dB），10 µm器件最高−3 dB带宽150 MHz（损耗0.06 dB）；面向生物光子学、量子传感与计算的大规模高速集成。",
-          "title_zh": "面向可见光集成光子学的零静态功耗紧凑可扩展相位调制器",
+          "summary_zh": "该研究提出基于自适应广义滤波器组OFDM的光子辅助宽带毫米波传输架构，通过结构化子带和选择性提取匹配接收端处理需求。仿真考察8、10和12个子带，在给定OSNR下获得与传统全带接收相当或更低的平均BER。实验将含10个子带的6 GHz信号经10 km标准单模光纤和26 GHz载频的1.5 m无线链路传输，实现22.5 Gbit/s总速率、93.75%频谱利用率及3.75 bit/s/Hz频谱效率。在光电探测器输入功率为−6 dBm时，全部子带BER低于HD-FEC门限。单个所选子带采用512点FFT处理，全带处理则需5120点FFT；实验还展示了不同子带采用16QAM/QPSK的异构传输。",
+          "title_zh": "AGFB-OFDM支持光子辅助毫米波链路按子带接收",
           "missing_evidence": [
-            "插入损耗-带宽权衡的系统数据",
-            "器件寿命与偏压稳定性",
-            "大规模集成的串扰与均匀性",
-            "与铌酸锂可见调制器的对比"
+            "未提供全文，无法核查实验配置、BER统计方法及具体HD-FEC门限。",
+            "摘要未给出端到端计算量、功耗或时延测量，FFT点数缩减不能直接等同于系统整体收益。"
           ],
           "facts": [
             {
               "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/optica.608940",
-              "text": "摘要报告：如何在可见光波段实现高能效、可扩展的集成相位调制？"
-            },
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/optica.608940",
-              "text": "摘要报告：ITO电容堆叠/Si₃N₄波导电荷积累型相位调制器；不同长度器件的Vπ/带宽/损耗测量。"
-            },
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/optica.608940",
-              "text": "摘要报告：VπL 0.5 V·cm、零静态功耗；400 µm器件Vπ 12.4±0.4 V（2.5 dB损耗）、10 µm器件150 MHz带宽（0.06 dB损耗）。"
+              "source_url": "https://doi.org/10.1364/oe.619020",
+              "text": "该研究提出基于自适应广义滤波器组OFDM的光子辅助宽带毫米波传输架构，通过结构化子带和选择性提取匹配接收端处理需求。仿真考察8、10和12个子带，在给定OSNR下获得与传统全带接收相当或更低的平均BER。实验将含10个子带的6 GHz信号经10 km标准单模光纤和26 GHz载频的1.5 m无线链路传输，实现22.5 Gbit/s总速率、93.75%频谱利用率及3.75 bit/s/Hz频谱效率。在光电探测器输入功率为−6 dBm时，全部子带BER低于HD-FEC门限。单个所选子带采用512点FFT处理，全带处理则需5120点FFT；实验还展示了不同子带采用16QAM/QPSK的异构传输。"
             }
           ],
-          "ai_inference": [],
+          "ai_inference": [
+            "按需提取子带的机制可为光纤无线融合接入中的接收处理资源分配提供参考；实际计算量和能耗收益仍需进一步验证。"
+          ],
           "metrics": [],
-          "evidence_status": "abstract+pdf-link",
-          "source_url": "https://doi.org/10.1364/optica.608940",
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/oe.619020",
           "related_ids": [],
           "relevance_class": "enabling",
           "reading_level": "B",
           "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-25T02:52:34.625069+00:00",
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-27T00:31:02.150086+00:00",
           "attributes": {
             "schema": "paperflow.paper-attributes/v1",
-            "id": "68334008-79e6-40a3-a023-88a961561e79",
-            "work_key": "doi:10.1364/optica.608940",
+            "id": "7d53ff81-2089-4146-b7ec-6e5238e4f13e",
+            "work_key": "doi:10.1364/oe.619020",
             "identifiers": {
-              "doi": "10.1364/optica.608940",
+              "doi": "10.1364/oe.619020",
               "arxiv": null,
               "paper_code": null,
               "issn": [
-                "2334-2536"
+                "1094-4087"
               ]
             },
             "bibliography": {
-              "title": "Compact scalable phase modulator with zero static power consumption for visible integrated photonics",
+              "title": "Photonic-aided wideband mm-wave transmission with scalable subband-selective reception based on AGFB-OFDM",
               "type": "journal-article",
-              "venue_id": "847254fcf9a46c99",
-              "venue_name": "Optica",
-              "venue_abbr": "Optica",
-              "date": "2026-10-23",
+              "venue_id": "20fe917b3f1c57bc",
+              "venue_name": "Optics Express",
+              "venue_abbr": "OE",
+              "date": "2026-10-26",
               "date_precision": "day",
               "year": 2026,
-              "volume": "13",
-              "issue": "11",
-              "pages": "2262",
+              "volume": "34",
+              "issue": "22",
+              "pages": "42154",
               "article_number": null,
               "publisher": "Optica Publishing Group",
               "language": "en",
-              "published_online": "2026-09-30",
+              "published_online": "2026-10-19",
               "published_print": null
             },
             "authors": [
-              "Neil MacFarlane",
-              "Firooz Aflatouni"
+              "Gang Li",
+              "Yuxiao Xu",
+              "Jianping Zhu",
+              "Huan Chang",
+              "Zhipei Li",
+              "Dong Guo",
+              "Sitong Zhou",
+              "Xiaolong Pan",
+              "Xiangjun Xin"
             ],
-            "first_author": "Neil MacFarlane",
-            "author_count": 2,
+            "first_author": "Gang Li",
+            "author_count": 9,
             "contributors": [],
             "content": {
               "author_keywords": [],
               "source_subjects": [],
-              "topic_tags": [
-                "光子集成",
-                "调制器"
-              ],
+              "topic_tags": [],
               "directions": [
-                "通信光子器件与集成",
-                "光源与通用光子器件"
+                "DSP、编码与智能算法"
               ],
-              "direction_basis": "reviewed-classification",
+              "direction_basis": "source-classification",
               "tag_basis": "title-session-rule"
             },
             "conference": {
@@ -1058,7 +1329,7 @@
               "presentation_type": null
             },
             "ratings": {
-              "cie": "T1",
+              "cie": "T2",
               "cie_year": 2023,
               "hust_reference": null,
               "hust_confirmed": null,
@@ -1066,12 +1337,12 @@
               "hust_year": 2020,
               "exchange": null,
               "exchange_year": null,
-              "focus": "P1"
+              "focus": "P2"
             },
             "reading": {
               "priority": "B",
               "relevance": "enabling",
-              "evidence": "abstract+pdf-link"
+              "evidence": "abstract-only"
             },
             "access": {
               "oa_status": "unknown",
@@ -1081,13 +1352,13 @@
               "references": 0,
               "cited_by": 0,
               "source": "Crossref",
-              "observed_at": "2026-10-23T00:18:41.923706+00:00"
+              "observed_at": "2026-10-23T00:18:36.893544+00:00"
             },
             "provenance": {
-              "source_url": "https://doi.org/10.1364/optica.608940",
+              "source_url": "https://doi.org/10.1364/oe.619020",
               "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1364/optica.608940",
-              "metadata_observed_at": "2026-10-23T00:18:41.923706+00:00",
+              "metadata_source": "https://api.crossref.org/works/10.1364/oe.619020",
+              "metadata_observed_at": "2026-10-23T00:18:36.893544+00:00",
               "missing": [
                 "author_keywords",
                 "open_access"
@@ -1097,20 +1368,20 @@
         },
         {
           "schema_version": 1,
-          "record_id": "9bffd7f2-baa8-47b3-9f10-3c1e79641288",
+          "record_id": "53952767-0de7-4a1f-aaf0-92d984ac45ea",
           "revision": 2,
           "is_demo": false,
           "kind": "paper",
-          "title": "Photonic Digital-to-Analog Converters: Architectures, Benchmarking, and Integration Pathways",
+          "title": "33.1 nm Wide-Tuning High-Power Blue-Green Semiconductor Disk Laser and Its Application in Underwater Wireless Optical Communication with Various Water Types",
           "authors": [
-            "Nassim Ahmed Mahammedi",
-            "Juan Andres Vásquez-Peralvo",
-            "Rizwan Masood",
-            "Juan Carlos Merlano-Duncan",
-            "Robinson Cruzoe Guzmán Martínez",
-            "Symeon Chatzinotas"
+            "Tian Liu",
+            "Cheng Zhang",
+            "Tao Wang",
+            "Lidan Jiang",
+            "Renjiang Zhu",
+            "Peng Zhang"
           ],
-          "doi": "10.1021/acsphotonics.6c01723",
+          "doi": "10.1021/acsphotonics.6c01626",
           "venue": "ACS Photonics",
           "venue_info": {
             "catalog_version": "optical-venues-2026-10-22-v2",
@@ -1149,39 +1420,40 @@
             "exchange_label": "",
             "exchange_source": ""
           },
-          "published_at": "2026-10-22",
+          "published_at": "2026-10-26",
           "topics": [
-            "通信光子器件与集成"
+            "DSP、编码与智能算法"
           ],
-          "summary_zh": "该综述将光子数模转换器归纳为并行、串行及分段或混合三类架构，提出面向光子集成电路的比较框架，覆盖转换性能、误差来源与功耗核算边界，并推导不同位数下的器件精度要求。在其审计的报告范围内，尚无光子数模转换器在实测有效位数、更新率、输出频率和完整功耗品质因数上同时超过所选高频电子数模转换器参照。摘要将相干光接口、超宽带发射机及微波光子链路等列为潜在应用。",
-          "title_zh": "光子数模转换器架构、基准与集成路径综述",
+          "summary_zh": "该实验研究采用双增益芯片复合谐振腔与LBO晶体腔内倍频，实现484.5—517.6 nm连续调谐，最大输出功率12.43 W。研究结合声光调制，在纯海水、清澈海水和近岸海水中测试四个波长的水下无线光通信；在15 m、30 Mbps条件下，三类水体的误码率均低于所述FEC门限3.8×10⁻³。纯海水中最优测试波长为486 nm，另外两类水体中为515 nm。",
+          "title_zh": "宽调谐蓝绿半导体盘激光器用于多水质水下光通信",
           "missing_evidence": [
-            "未提供全文，无法核查文献覆盖范围、参照器件选择、量化推导及功耗核算细节。"
+            "未提供正文，无法核查水体配置、链路结构、接收功率、误码统计及测量不确定度。",
+            "摘要未报告实时自适应调谐、动态水体测试或单波长系统的定量对照。"
           ],
           "facts": [
             {
               "locator": "abstract",
-              "source_url": "https://doi.org/10.1021/acsphotonics.6c01723",
-              "text": "该综述将光子数模转换器归纳为并行、串行及分段或混合三类架构，提出面向光子集成电路的比较框架，覆盖转换性能、误差来源与功耗核算边界，并推导不同位数下的器件精度要求。在其审计的报告范围内，尚无光子数模转换器在实测有效位数、更新率、输出频率和完整功耗品质因数上同时超过所选高频电子数模转换器参照。摘要将相干光接口、超宽带发射机及微波光子链路等列为潜在应用。"
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01626",
+              "text": "该实验研究采用双增益芯片复合谐振腔与LBO晶体腔内倍频，实现484.5—517.6 nm连续调谐，最大输出功率12.43 W。研究结合声光调制，在纯海水、清澈海水和近岸海水中测试四个波长的水下无线光通信；在15 m、30 Mbps条件下，三类水体的误码率均低于所述FEC门限3.8×10⁻³。纯海水中最优测试波长为486 nm，另外两类水体中为515 nm。"
             }
           ],
           "ai_inference": [
-            "可借鉴其功耗边界与转换器级指标框架，评估光通信发射端中光域波形合成的系统收益。"
+            "不同水体的最优测试波长存在差异，提示可研究依据水体条件选择发射波长的水下光通信方案。"
           ],
           "metrics": [],
           "evidence_status": "abstract+pdf-link",
-          "source_url": "https://doi.org/10.1021/acsphotonics.6c01723",
+          "source_url": "https://doi.org/10.1021/acsphotonics.6c01626",
           "related_ids": [],
-          "relevance_class": "enabling",
+          "relevance_class": "direct",
           "reading_level": "B",
           "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-23T00:26:17.934076+00:00",
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-27T00:26:50.476399+00:00",
           "attributes": {
             "schema": "paperflow.paper-attributes/v1",
-            "id": "9bffd7f2-baa8-47b3-9f10-3c1e79641288",
-            "work_key": "doi:10.1021/acsphotonics.6c01723",
+            "id": "53952767-0de7-4a1f-aaf0-92d984ac45ea",
+            "work_key": "doi:10.1021/acsphotonics.6c01626",
             "identifiers": {
-              "doi": "10.1021/acsphotonics.6c01723",
+              "doi": "10.1021/acsphotonics.6c01626",
               "arxiv": null,
               "paper_code": null,
               "issn": [
@@ -1189,12 +1461,12 @@
               ]
             },
             "bibliography": {
-              "title": "Photonic Digital-to-Analog Converters: Architectures, Benchmarking, and Integration Pathways",
+              "title": "33.1 nm Wide-Tuning High-Power Blue-Green Semiconductor Disk Laser and Its Application in Underwater Wireless Optical Communication with Various Water Types",
               "type": "journal-article",
               "venue_id": "7816fff088c7f79d",
               "venue_name": "ACS Photonics",
               "venue_abbr": "ACS Photonics",
-              "date": "2026-10-22",
+              "date": "2026-10-26",
               "date_precision": "day",
               "year": 2026,
               "volume": null,
@@ -1202,70 +1474,29 @@
               "pages": null,
               "article_number": null,
               "publisher": "American Chemical Society (ACS)",
-              "language": "en",
-              "published_online": "2026-10-22",
+              "language": null,
+              "published_online": null,
               "published_print": null
             },
             "authors": [
-              "Nassim Ahmed Mahammedi",
-              "Juan Andres Vásquez-Peralvo",
-              "Rizwan Masood",
-              "Juan Carlos Merlano-Duncan",
-              "Robinson Cruzoe Guzmán Martínez",
-              "Symeon Chatzinotas"
+              "Tian Liu",
+              "Cheng Zhang",
+              "Tao Wang",
+              "Lidan Jiang",
+              "Renjiang Zhu",
+              "Peng Zhang"
             ],
-            "first_author": "Nassim Ahmed Mahammedi",
+            "first_author": "Tian Liu",
             "author_count": 6,
-            "contributors": [
-              {
-                "name": "Nassim Ahmed Mahammedi",
-                "orcid": "https://orcid.org/0000-0003-1903-5222",
-                "affiliations": [
-                  "University of Luxembourg , , ,"
-                ]
-              },
-              {
-                "name": "Juan Andres Vásquez-Peralvo",
-                "orcid": null,
-                "affiliations": [
-                  "University of Luxembourg , , ,"
-                ]
-              },
-              {
-                "name": "Rizwan Masood",
-                "orcid": null,
-                "affiliations": [
-                  "University of Luxembourg , , ,"
-                ]
-              },
-              {
-                "name": "Juan Carlos Merlano-Duncan",
-                "orcid": null,
-                "affiliations": [
-                  "University of Luxembourg , , ,"
-                ]
-              },
-              {
-                "name": "Robinson Cruzoe Guzmán Martínez",
-                "orcid": null,
-                "affiliations": [
-                  "Rey Juan Carlos University (URJC) , Camino Del Molino, 5 , , ,"
-                ]
-              },
-              {
-                "name": "Symeon Chatzinotas",
-                "orcid": null,
-                "affiliations": [
-                  "University of Luxembourg , , ,"
-                ]
-              }
-            ],
+            "contributors": [],
             "content": {
               "author_keywords": [],
               "source_subjects": [],
-              "topic_tags": [],
+              "topic_tags": [
+                "激光器"
+              ],
               "directions": [
-                "通信光子器件与集成"
+                "DSP、编码与智能算法"
               ],
               "direction_basis": "source-classification",
               "tag_basis": "title-session-rule"
@@ -1287,62 +1518,31 @@
             },
             "reading": {
               "priority": "B",
-              "relevance": "enabling",
+              "relevance": "direct",
               "evidence": "abstract+pdf-link"
             },
             "access": {
               "oa_status": "unknown",
-              "licenses": [
-                {
-                  "url": "https://creativecommons.org/licenses/by-nc-nd/4.0/",
-                  "version": "vor",
-                  "start": "2027-10-22"
-                },
-                {
-                  "url": "https://doi.org/10.15223/policy-029",
-                  "version": "stm-asf",
-                  "start": "2026-10-22"
-                },
-                {
-                  "url": "https://doi.org/10.15223/policy-037",
-                  "version": "stm-asf",
-                  "start": "2026-10-22"
-                },
-                {
-                  "url": "https://doi.org/10.15223/policy-045",
-                  "version": "stm-asf",
-                  "start": "2026-10-22"
-                }
-              ]
+              "licenses": []
             },
             "citation_counts": {
-              "references": 111,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-10-23T00:18:45.847973+00:00"
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
             },
             "provenance": {
-              "source_url": "https://doi.org/10.1021/acsphotonics.6c01723",
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01626",
               "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1021/acsphotonics.6c01723",
-              "metadata_observed_at": "2026-10-23T00:18:45.847973+00:00",
+              "metadata_source": null,
+              "metadata_observed_at": null,
               "missing": [
                 "author_keywords",
                 "open_access"
               ]
             }
           }
-        }
-      ]
-    },
-    {
-      "name": "DSP、编码与智能算法",
-      "title": "从算法收益到实时实现",
-      "description": "关注均衡、编码、非线性补偿与光子计算。",
-      "question": "精度收益是否包含复杂度、训练开销和跨链路泛化代价？",
-      "count": 15,
-      "latest": "2026-10-22",
-      "items": [
+        },
         {
           "schema_version": 1,
           "record_id": "2d357952-9d0e-4434-a82c-d83673cd3ba4",
@@ -1553,409 +1753,6 @@
               ]
             }
           }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "4313cf8d-742f-484e-bb40-7a2149b9576b",
-          "revision": 3,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Investigation of multipath interference impairments and a FEC-aided equalization solution in IM/DD PAM4 interconnects",
-          "authors": [
-            "Jun Ming",
-            "Ze Dong",
-            "Shaonan Liu",
-            "Hailian He",
-            "Yujia Mu",
-            "Junyuan Song",
-            "Rui Wang",
-            "Zhipei Li",
-            "Xiangjun Xin"
-          ],
-          "doi": "10.1364/oe.614019",
-          "venue": "Optics Express",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "20fe917b3f1c57bc",
-            "name": "Optics Express",
-            "original_name": "Optics Express",
-            "abbr": "OE",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Optics Express",
-              "OE",
-              "Opt. Express"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": "T2",
-            "rank_label": "CIE T2 · 2023",
-            "rank_order": 2,
-            "focus_tier": "P2",
-            "focus_label": "知流 P2 · 领域核心",
-            "focus_order": 2,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-10-21",
-          "topics": [
-            "DSP、编码与智能算法"
-          ],
-          "summary_zh": "该研究通过理论模型与实验分析激光线宽、信干比及反射时延对多径干扰的影响，并提出FEC辅助多径干扰均衡方案。方案利用FEC译码比特作为简化误差幅度相关均衡器的参考，再将均衡符号反馈给译码器。摘要报告，在60 GBaud PAM4、2 km标准单模光纤传输实验中，以2.4×10⁻⁴为FEC门限，信干比容限最高改善2.2 dB。",
-          "title_zh": "FEC辅助均衡缓解IM/DD PAM4互连多径干扰",
-          "missing_evidence": [
-            "未提供全文，无法核查基线方案、反射条件、FEC配置、复杂度及处理时延。",
-            "摘要未给出不同线宽和反射时延下增益的完整范围。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/oe.614019",
-              "text": "该研究通过理论模型与实验分析激光线宽、信干比及反射时延对多径干扰的影响，并提出FEC辅助多径干扰均衡方案。方案利用FEC译码比特作为简化误差幅度相关均衡器的参考，再将均衡符号反馈给译码器。摘要报告，在60 GBaud PAM4、2 km标准单模光纤传输实验中，以2.4×10⁻⁴为FEC门限，信干比容限最高改善2.2 dB。"
-            }
-          ],
-          "ai_inference": [
-            "可考虑利用FEC译码结果改善均衡参考符号，研究其对短距光互连反射干扰和误差传播的抑制作用。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1364/oe.614019",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "D",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-22T00:34:13.904675+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "4313cf8d-742f-484e-bb40-7a2149b9576b",
-            "work_key": "doi:10.1364/oe.614019",
-            "identifiers": {
-              "doi": "10.1364/oe.614019",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "1094-4087"
-              ]
-            },
-            "bibliography": {
-              "title": "Investigation of multipath interference impairments and a FEC-aided equalization solution in IM/DD PAM4 interconnects",
-              "type": "journal-article",
-              "venue_id": "20fe917b3f1c57bc",
-              "venue_name": "Optics Express",
-              "venue_abbr": "OE",
-              "date": "2026-10-21",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": "34",
-              "issue": "22",
-              "pages": "41412",
-              "article_number": null,
-              "publisher": "Optica Publishing Group",
-              "language": "en",
-              "published_online": "2026-10-21",
-              "published_print": "2026-11-02"
-            },
-            "authors": [
-              "Jun Ming",
-              "Ze Dong",
-              "Shaonan Liu",
-              "Hailian He",
-              "Yujia Mu",
-              "Junyuan Song",
-              "Rui Wang",
-              "Zhipei Li",
-              "Xiangjun Xin"
-            ],
-            "first_author": "Jun Ming",
-            "author_count": 9,
-            "contributors": [
-              {
-                "name": "Ze Dong",
-                "orcid": "https://orcid.org/0000-0001-5773-9461",
-                "affiliations": []
-              },
-              {
-                "name": "Junyuan Song",
-                "orcid": "https://orcid.org/0000-0002-0773-8345",
-                "affiliations": []
-              },
-              {
-                "name": "Zhipei Li",
-                "orcid": "https://orcid.org/0000-0001-5441-4979",
-                "affiliations": []
-              }
-            ],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "光互连",
-                "IM/DD",
-                "PAM",
-                "均衡",
-                "FEC"
-              ],
-              "directions": [
-                "DSP、编码与智能算法"
-              ],
-              "direction_basis": "source-classification",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": "T2",
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": "P2"
-            },
-            "reading": {
-              "priority": "D",
-              "relevance": "enabling",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": [
-                {
-                  "url": "https://doi.org/10.1364/OA_License_v2#VOR-OA",
-                  "version": "vor",
-                  "start": "2026-10-21"
-                },
-                {
-                  "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
-                  "version": "tdm",
-                  "start": "2026-10-21"
-                }
-              ]
-            },
-            "citation_counts": {
-              "references": 13,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-10-23T00:18:36.893544+00:00"
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1364/oe.614019",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1364/oe.614019",
-              "metadata_observed_at": "2026-10-23T00:18:36.893544+00:00",
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "fd4cb024-46a1-40e3-9a39-b0fcc394b2f7",
-          "revision": 3,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Nonlinear pluggable optics: Digital signal processing-free Intensity Modulated Direct Detection links using analog photonic Next Generation Reservoir Computing",
-          "authors": [
-            "Nicholas Cox",
-            "Joseph Murray",
-            "Ross T. Schermer",
-            "Shuo S. Pang",
-            "Christopher Long",
-            "Gajadhar Joshi",
-            "Nicholas A. Nobile",
-            "Raktim Sarma",
-            "Brandon Redding"
-          ],
-          "doi": "10.1364/oe.608534",
-          "venue": "Optics Express",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "20fe917b3f1c57bc",
-            "name": "Optics Express",
-            "original_name": "Optics Express",
-            "abbr": "OE",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Optics Express",
-              "OE",
-              "Opt. Express"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": "T2",
-            "rank_label": "CIE T2 · 2023",
-            "rank_order": 2,
-            "focus_tier": "P2",
-            "focus_label": "知流 P2 · 领域核心",
-            "focus_order": 2,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-10-16",
-          "topics": [
-            "DSP、编码与智能算法"
-          ],
-          "summary_zh": "该研究提出非线性可插拔光收发器，采用面向光子集成电路的模拟光子下一代储备池计算架构，补偿电域失真、色散及克尔非线性。在50 GBd PAM-4链路仿真中，该方案扩展了线性可插拔光学方案的传输距离，并优于所比较的DSP方案。摘要指出，该架构可在无需本振的条件下利用光相位信息，并在无需高带宽电子器件的条件下实现高于符号率的光学采样。",
-          "title_zh": "模拟光子储备池计算用于无DSP直检链路",
-          "missing_evidence": [
-            "未提供全文，无法核查DSP基线配置、比较条件及性能指标。",
-            "未提供硬件实验及实测功耗、时延证据，不能据此认定已实现低功耗、低时延收发器。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/oe.608534",
-              "text": "该研究提出非线性可插拔光收发器，采用面向光子集成电路的模拟光子下一代储备池计算架构，补偿电域失真、色散及克尔非线性。在50 GBd PAM-4链路仿真中，该方案扩展了线性可插拔光学方案的传输距离，并优于所比较的DSP方案。摘要指出，该架构可在无需本振的条件下利用光相位信息，并在无需高带宽电子器件的条件下实现高于符号率的光学采样。"
-            }
-          ],
-          "ai_inference": [
-            "该架构值得作为IM/DD链路光域均衡的研究方向，后续可通过硬件实验评估其性能优势及功耗、时延代价。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1364/oe.608534",
-          "related_ids": [],
-          "relevance_class": "direct",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-18T00:27:56.068813+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "fd4cb024-46a1-40e3-9a39-b0fcc394b2f7",
-            "work_key": "doi:10.1364/oe.608534",
-            "identifiers": {
-              "doi": "10.1364/oe.608534",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "1094-4087"
-              ]
-            },
-            "bibliography": {
-              "title": "Nonlinear pluggable optics: Digital signal processing-free Intensity Modulated Direct Detection links using analog photonic Next Generation Reservoir Computing",
-              "type": "journal-article",
-              "venue_id": "20fe917b3f1c57bc",
-              "venue_name": "Optics Express",
-              "venue_abbr": "OE",
-              "date": "2026-10-16",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": null,
-              "issue": null,
-              "pages": null,
-              "article_number": null,
-              "publisher": "Optica Publishing Group",
-              "language": "en",
-              "published_online": "2026-10-16",
-              "published_print": null
-            },
-            "authors": [
-              "Nicholas Cox",
-              "Joseph Murray",
-              "Ross T. Schermer",
-              "Shuo S. Pang",
-              "Christopher Long",
-              "Gajadhar Joshi",
-              "Nicholas A. Nobile",
-              "Raktim Sarma",
-              "Brandon Redding"
-            ],
-            "first_author": "Nicholas Cox",
-            "author_count": 9,
-            "contributors": [],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "IM/DD",
-                "DSP",
-                "光计算"
-              ],
-              "directions": [
-                "DSP、编码与智能算法"
-              ],
-              "direction_basis": "source-classification",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": "T2",
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": "P2"
-            },
-            "reading": {
-              "priority": "B",
-              "relevance": "direct",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": []
-            },
-            "citation_counts": {
-              "references": 0,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-10-23T00:18:37.977489+00:00"
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1364/oe.608534",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1364/oe.608534",
-              "metadata_observed_at": "2026-10-23T00:18:37.977489+00:00",
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
         }
       ]
     },
@@ -1964,7 +1761,7 @@
       "title": "跨越自由空间的光链路",
       "description": "关注湍流、波束、捕获跟踪与空间传输。",
       "question": "结论在什么天气、距离与指向误差条件下成立？",
-      "count": 30,
+      "count": 38,
       "latest": "2026-10-20",
       "items": [
         {
@@ -2579,7 +2376,7 @@
       "title": "连接光域与射频域",
       "description": "关注宽带处理、波束赋形与光生毫米波。",
       "question": "带宽、噪声和动态范围能否同时满足目标场景？",
-      "count": 13,
+      "count": 15,
       "latest": "2026-10-22",
       "items": [
         {
@@ -3142,7 +2939,7 @@
       "title": "从单链路到网络协同",
       "description": "关注资源分配、控制与业务可靠性。",
       "question": "仿真增益是否包含控制开销、故障与真实业务变化？",
-      "count": 16,
+      "count": 21,
       "latest": "2026-10-23",
       "items": [
         {
@@ -3810,7 +3607,7 @@
       "title": "重新审视传输介质",
       "description": "关注空芯、多芯、少模光纤与传输限制。",
       "question": "损耗、串扰与连接代价在实际部署中如何权衡？",
-      "count": 7,
+      "count": 9,
       "latest": "2026-10-20",
       "items": [
         {
@@ -4423,9 +4220,202 @@
       "title": "探索量子网络边界",
       "description": "关注量子链路、纠缠分发与经典网络共存。",
       "question": "速率、保真度与距离是否在可比条件下报告？",
-      "count": 11,
-      "latest": "2026-10-20",
+      "count": 14,
+      "latest": "2026-10-23",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "eec97f1c-f66f-497d-ba33-bedc4daabf3a",
+          "revision": 4,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Integration of III‐V Quantum Dot Photonic Devices on Silicon Nitride via Lithography‐Aligned Micro‐Transfer Printing",
+          "authors": [
+            "Xuebin Peng",
+            "Jiawei Yang",
+            "Wentao Ma",
+            "Zihao Liu",
+            "Xuan Pu",
+            "Ying Yu",
+            "Siyuan Yu"
+          ],
+          "doi": "10.1002/lpor.72084",
+          "venue": "Laser & Photonics Reviews",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "4d348a50e2c95ba5",
+            "name": "Laser & Photonics Reviews",
+            "original_name": "Laser & Photonics Reviews",
+            "abbr": "LPR",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Laser & Photonics Reviews",
+              "LPR",
+              "Laser & Photonics Review",
+              "Laser Photonics Rev."
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "未匹配 CIE 2023",
+            "rank_order": 99,
+            "focus_tier": "P1",
+            "focus_label": "知流 P1 · 前沿重点",
+            "focus_order": 1,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-10-23",
+          "topics": [
+            "通信光子器件与集成",
+            "量子通信与网络"
+          ],
+          "summary_zh": "摘要报告：QPIC需要把高性能有源量子光子器件与低损无源电路异质集成，常规晶圆键合与先加工后转移受热-机应力或机械放置公差限制。提出光刻对准微转印（µTP）策略：把无图形III-V膜局部转印到SiNx平台，再经标记电子束光刻图形化——把关键对准要求从机械放置转移到光刻套刻。演示Q=4981±57的微环谐振腔、带Purcell增强单光子发射的光子晶体波导集成，以及在785 nm脉冲激发下用片上SiNx MMI分束器完成HBT测量：g(2)(0)=0.045±0.008。",
+          "title_zh": "光刻对准微转印在氮化硅上集成III-V量子点光子器件",
+          "missing_evidence": [
+            "转印良率与批次一致性",
+            "单光子源亮度与波长",
+            "大规模集成演示",
+            "与晶圆键合的性能对比"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1002/lpor.72084",
+              "text": "摘要报告：如何把III-V量子光子器件与低损SiN电路高精度异质集成？"
+            },
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1002/lpor.72084",
+              "text": "摘要报告：先转移后工艺的µTP+标记电子束光刻；微环/光子晶体集成与HBT单光子测量（785 nm脉冲激发）。"
+            },
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1002/lpor.72084",
+              "text": "摘要报告：微环Q=4981±57；Purcell增强单光子发射；片上HBT g(2)(0)=0.045±0.008（实验）。"
+            }
+          ],
+          "ai_inference": [],
+          "metrics": [],
+          "evidence_status": "abstract+pdf-link",
+          "source_url": "https://doi.org/10.1002/lpor.72084",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-26T15:00:27.128084+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "eec97f1c-f66f-497d-ba33-bedc4daabf3a",
+            "work_key": "doi:10.1002/lpor.72084",
+            "identifiers": {
+              "doi": "10.1002/lpor.72084",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "1863-8880",
+                "1863-8899"
+              ]
+            },
+            "bibliography": {
+              "title": "Integration of III‐V Quantum Dot Photonic Devices on Silicon Nitride via Lithography‐Aligned Micro‐Transfer Printing",
+              "type": "journal-article",
+              "venue_id": "4d348a50e2c95ba5",
+              "venue_name": "Laser & Photonics Reviews",
+              "venue_abbr": "LPR",
+              "date": "2026-10-23",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "article_number": null,
+              "publisher": "Wiley",
+              "language": null,
+              "published_online": null,
+              "published_print": null
+            },
+            "authors": [
+              "Xuebin Peng",
+              "Jiawei Yang",
+              "Wentao Ma",
+              "Zihao Liu",
+              "Xuan Pu",
+              "Ying Yu",
+              "Siyuan Yu"
+            ],
+            "first_author": "Xuebin Peng",
+            "author_count": 7,
+            "contributors": [],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [],
+              "topic_tags": [],
+              "directions": [
+                "通信光子器件与集成",
+                "量子通信与网络"
+              ],
+              "direction_basis": "reviewed-classification",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": null,
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": "P1"
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "enabling",
+              "evidence": "abstract+pdf-link"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": []
+            },
+            "citation_counts": {
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1002/lpor.72084",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": null,
+              "metadata_observed_at": null,
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
         {
           "schema_version": 1,
           "record_id": "93e83629-b238-4920-94d5-2b7c02ac7bb2",
@@ -4815,260 +4805,6 @@
               ]
             }
           }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "3719eb33-dea8-469f-a2a5-0aba0cf8f8a1",
-          "revision": 7,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Practical continuous-variable quantum key distribution with squeezed light",
-          "authors": [
-            "Huy Quang Nguyen",
-            "Ivan Derkach",
-            "Hou-Man Chin",
-            "Adnan A.E. Hajomer",
-            "Akash nag Oruganti",
-            "Radim Filip",
-            "Ulrik L. Andersen",
-            "Vladyslav C. Usenko",
-            "Tobias Gehring"
-          ],
-          "doi": "10.1126/sciadv.aed4162",
-          "venue": "Science Advances",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "26240bd42e3befb1",
-            "name": "Science Advances",
-            "original_name": "Science Advances",
-            "abbr": "Sci. Adv.",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Science Advances",
-              "Sci. Adv."
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": "P1",
-            "focus_label": "知流 P1 · 前沿重点",
-            "focus_order": 1,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-10-16",
-          "topics": [
-            "量子通信与网络",
-            "DSP、编码与智能算法"
-          ],
-          "summary_zh": "摘要报告：CV-QKD现有系统多采用相干态，而压缩光理论上可带来更高密钥率、更强过剩噪声韧性与更低协调效率要求。该文实验验证这些预测，基于本地本振（LLO）与现代DSP技术构建并演示实用的压缩态CV-QKD系统：在光纤信道上、针对集体攻击的有限尺寸安全性下运行，并展示其相对相干态系统的优势。作者称该工作推动压缩光成为QKD及其他量子信息协议的实用资源。",
-          "title_zh": "基于压缩光的实用连续变量量子密钥分发",
-          "missing_evidence": [
-            "具体密钥率、传输距离与信道损耗",
-            "压缩度（dB）与压缩光源实现",
-            "与相干态系统的定量对比曲线",
-            "有限尺寸分析的块长与假设"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1126/sciadv.aed4162",
-              "text": "摘要报告：压缩光能否在实用化（LLO+DSP）CV-QKD系统中兑现理论上更高的密钥率与过剩噪声韧性？"
-            },
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1126/sciadv.aed4162",
-              "text": "摘要报告：本地本振与现代DSP技术构建的压缩态CV-QKD系统；光纤信道实验，有限尺寸安全性分析（对抗集体攻击），与相干态系统对比。"
-            },
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1126/sciadv.aed4162",
-              "text": "摘要报告：摘要称实验验证了压缩态相对相干态的优势（密钥率、噪声韧性、协调效率要求），未给出具体密钥率/距离/压缩度数值。"
-            }
-          ],
-          "ai_inference": [],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1126/sciadv.aed4162",
-          "related_ids": [],
-          "relevance_class": "direct",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-25T02:52:34.603341+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "3719eb33-dea8-469f-a2a5-0aba0cf8f8a1",
-            "work_key": "doi:10.1126/sciadv.aed4162",
-            "identifiers": {
-              "doi": "10.1126/sciadv.aed4162",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "2375-2548"
-              ]
-            },
-            "bibliography": {
-              "title": "Practical continuous-variable quantum key distribution with squeezed light",
-              "type": "journal-article",
-              "venue_id": "26240bd42e3befb1",
-              "venue_name": "Science Advances",
-              "venue_abbr": "Sci. Adv.",
-              "date": "2026-10-16",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": "12",
-              "issue": "42",
-              "pages": null,
-              "article_number": "eaed4162",
-              "publisher": "American Association for the Advancement of Science (AAAS)",
-              "language": "en",
-              "published_online": null,
-              "published_print": "2026-10-16"
-            },
-            "authors": [
-              "Huy Quang Nguyen",
-              "Ivan Derkach",
-              "Hou-Man Chin",
-              "Adnan A.E. Hajomer",
-              "Akash nag Oruganti",
-              "Radim Filip",
-              "Ulrik L. Andersen",
-              "Vladyslav C. Usenko",
-              "Tobias Gehring"
-            ],
-            "first_author": "Huy Quang Nguyen",
-            "author_count": 9,
-            "contributors": [
-              {
-                "name": "Ivan Derkach",
-                "orcid": "https://orcid.org/0000-0001-8014-7202",
-                "affiliations": [
-                  "Department of Optics, Faculty of Science, Palacky University, 771 46 Olomouc, Czech Republic."
-                ]
-              },
-              {
-                "name": "Hou-Man Chin",
-                "orcid": "https://orcid.org/0000-0002-2488-9305",
-                "affiliations": [
-                  "Celare Quantum Communications ApS, 2000 Frederiksberg, Denmark."
-                ]
-              },
-              {
-                "name": "Adnan A.E. Hajomer",
-                "orcid": "https://orcid.org/0000-0003-4572-4857",
-                "affiliations": [
-                  "Center for Macroscopic Quantum States (bigQ), Department of Physics, Technical University of Denmark, 2800 Kongens Lyngby, Denmark."
-                ]
-              },
-              {
-                "name": "Akash nag Oruganti",
-                "orcid": "https://orcid.org/0000-0002-2395-8735",
-                "affiliations": [
-                  "Department of Optics, Faculty of Science, Palacky University, 771 46 Olomouc, Czech Republic."
-                ]
-              },
-              {
-                "name": "Radim Filip",
-                "orcid": "https://orcid.org/0000-0003-4114-6068",
-                "affiliations": [
-                  "Department of Optics, Faculty of Science, Palacky University, 771 46 Olomouc, Czech Republic."
-                ]
-              },
-              {
-                "name": "Ulrik L. Andersen",
-                "orcid": "https://orcid.org/0000-0002-1990-7687",
-                "affiliations": [
-                  "Center for Macroscopic Quantum States (bigQ), Department of Physics, Technical University of Denmark, 2800 Kongens Lyngby, Denmark."
-                ]
-              },
-              {
-                "name": "Vladyslav C. Usenko",
-                "orcid": "https://orcid.org/0000-0002-8765-8758",
-                "affiliations": [
-                  "Department of Optics, Faculty of Science, Palacky University, 771 46 Olomouc, Czech Republic."
-                ]
-              },
-              {
-                "name": "Tobias Gehring",
-                "orcid": "https://orcid.org/0000-0002-4311-2593",
-                "affiliations": [
-                  "Center for Macroscopic Quantum States (bigQ), Department of Physics, Technical University of Denmark, 2800 Kongens Lyngby, Denmark.",
-                  "Celare Quantum Communications ApS, 2000 Frederiksberg, Denmark."
-                ]
-              }
-            ],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "量子通信"
-              ],
-              "directions": [
-                "量子通信与网络",
-                "DSP、编码与智能算法"
-              ],
-              "direction_basis": "reviewed-classification",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": null,
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": "P1"
-            },
-            "reading": {
-              "priority": "B",
-              "relevance": "direct",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": []
-            },
-            "citation_counts": {
-              "references": 68,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-10-23T00:19:05.399231+00:00"
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1126/sciadv.aed4162",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1126/sciadv.aed4162",
-              "metadata_observed_at": "2026-10-23T00:19:05.399231+00:00",
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
         }
       ]
     },
@@ -5077,7 +4813,7 @@
       "title": "从光学信号到可靠测量",
       "description": "关注传感灵敏度、空间分辨率与测量范围。",
       "question": "灵敏度是否同时说明噪声、带宽、环境与标定条件？",
-      "count": 10,
+      "count": 23,
       "latest": "2026-10-19",
       "items": [
         {
@@ -5318,32 +5054,252 @@
         },
         {
           "schema_version": 1,
-          "record_id": "bcd23a68-5914-402f-b088-6212ade8d303",
+          "record_id": "941b897b-499d-44b9-b406-344635f1d8f6",
+          "revision": 5,
+          "is_demo": false,
+          "kind": "preprint",
+          "title": "Design and synthesis of laser inscribed flexible Bragg gratings containing silicon oxynitride-doped silicon thin film for authentication applications with the insights from X-Ray Absorption Spectroscopy and Quantum Mechanical Calculations",
+          "authors": [
+            "Ali Karatutlu",
+            "Timuçin Emre Tabaru",
+            "Umut Taylan",
+            "Zehra Gizem Mutlay",
+            "Doğukan Hazar Özbey",
+            "Okan Uslu",
+            "Hamid-Reza Bahari",
+            "Esra Kendir Tekgül",
+            "Andriy Budnyk",
+            "İremnur Duru",
+            "Mustafa Fatih Genisel",
+            "Zeynep Reyhan Öztürk",
+            "Taylan Gorkan",
+            "Engin Durgun",
+            "Bülend Ortaç"
+          ],
+          "doi": null,
+          "venue": "arXiv",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "43ef3159143b717e",
+            "name": "arXiv",
+            "original_name": "arXiv",
+            "abbr": "arXiv",
+            "kind": "preprint",
+            "match_status": "platform",
+            "aliases": [
+              "arXiv",
+              "arXiv"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "不适用期刊等级",
+            "rank_order": 99,
+            "focus_tier": null,
+            "focus_label": "知流关注级未定",
+            "focus_order": 99,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "not-applicable",
+            "hust_label": "不适用院规等级",
+            "hust_note": "",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-10-18",
+          "topics": [
+            "光源与通用光子器件",
+            "光学传感与测量"
+          ],
+          "summary_zh": "摘要报告：该团队新近发现氮氧化硅掺杂硅（SiON-doped Si）材料，折射率可在2.1–2.5精确调控并具多波长光敏性。研究在柔性衬底上于100 °C以下低温合成该材料并制作布拉格光栅（BG）：数值与实验演示其在紫外-近红外多光谱反射行为中对超快激光直写微信息的保持，用于防伪认证；以Si L、O K、N K边软X射线吸收研究其结构特性；结合粒子群优化与DFT进行Si₃N₄₋ₓOₓ体相晶体结构预测，提出SiON掺杂Si的可能形成机制（预印本）。",
+          "title_zh": "含氮氧化硅掺杂硅薄膜的激光直写柔性布拉格光栅设计与合成：面向防伪应用",
+          "missing_evidence": [
+            "防伪读取的系统指标（误识率等）",
+            "BG的Q/反射率数值",
+            "柔性衬底弯曲稳定性",
+            "与既有防伪技术的对比",
+            "kind=preprint（以输入标注为准）"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://arxiv.org/abs/2610.25382v1",
+              "text": "摘要报告：如何在柔性衬底上低温合成SiON掺杂硅并制作多光谱防伪布拉格光栅？"
+            },
+            {
+              "locator": "abstract",
+              "source_url": "https://arxiv.org/abs/2610.25382v1",
+              "text": "摘要报告：低温（<100 °C）柔性衬底合成+激光直写BG；软X射线吸收谱+PSO/DFT晶体结构预测（数值与实验结合）。"
+            },
+            {
+              "locator": "abstract",
+              "source_url": "https://arxiv.org/abs/2610.25382v1",
+              "text": "摘要报告：UV–NIR多光谱反射行为可保持激光直写微信息（防伪演示）；折射率2.1–2.5可调；XAS与计算支持对可能形成机制的分析。"
+            }
+          ],
+          "ai_inference": [],
+          "metrics": [],
+          "evidence_status": "abstract+pdf-link",
+          "source_url": "https://arxiv.org/abs/2610.25382v1",
+          "related_ids": [],
+          "relevance_class": "exploratory",
+          "reading_level": "C",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-26T15:00:27.130598+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "941b897b-499d-44b9-b406-344635f1d8f6",
+            "work_key": "arxiv:2610.25382",
+            "identifiers": {
+              "doi": null,
+              "arxiv": "2610.25382",
+              "paper_code": null,
+              "issn": []
+            },
+            "bibliography": {
+              "title": "Design and synthesis of laser inscribed flexible Bragg gratings containing silicon oxynitride-doped silicon thin film for authentication applications with the insights from X-Ray Absorption Spectroscopy and Quantum Mechanical Calculations",
+              "type": "preprint",
+              "venue_id": "43ef3159143b717e",
+              "venue_name": "arXiv",
+              "venue_abbr": "arXiv",
+              "date": "2026-10-18",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "article_number": null,
+              "publisher": null,
+              "language": null,
+              "published_online": null,
+              "published_print": null
+            },
+            "authors": [
+              "Ali Karatutlu",
+              "Timuçin Emre Tabaru",
+              "Umut Taylan",
+              "Zehra Gizem Mutlay",
+              "Doğukan Hazar Özbey",
+              "Okan Uslu",
+              "Hamid-Reza Bahari",
+              "Esra Kendir Tekgül",
+              "Andriy Budnyk",
+              "İremnur Duru",
+              "Mustafa Fatih Genisel",
+              "Zeynep Reyhan Öztürk",
+              "Taylan Gorkan",
+              "Engin Durgun",
+              "Bülend Ortaç"
+            ],
+            "first_author": "Ali Karatutlu",
+            "author_count": 15,
+            "contributors": [],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [],
+              "topic_tags": [
+                "激光器"
+              ],
+              "directions": [
+                "光源与通用光子器件",
+                "光学传感与测量"
+              ],
+              "direction_basis": "reviewed-classification",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": null,
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "not-applicable",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": null
+            },
+            "reading": {
+              "priority": "C",
+              "relevance": "exploratory",
+              "evidence": "abstract+pdf-link"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": []
+            },
+            "citation_counts": {
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
+            },
+            "provenance": {
+              "source_url": "https://arxiv.org/abs/2610.25382v1",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": null,
+              "metadata_observed_at": null,
+              "missing": [
+                "author_keywords",
+                "doi",
+                "open_access"
+              ]
+            }
+          }
+        },
+        {
+          "schema_version": 1,
+          "record_id": "4ac0dade-ac5c-472d-831e-4e80a7903dab",
           "revision": 5,
           "is_demo": false,
           "kind": "paper",
-          "title": "Optical Link and Atmospheric Turbulence Characterization with JPL’s Laser Communication Relay Demonstration Optical Ground Station",
+          "title": "Sb 2 Se 3 ‐Integrated Silicon‐on‐Sapphire Photonics for Nonvolatile Spectral Trimming in the Mid‐Infrared",
           "authors": [
-            "Erandi Wijerathna",
-            "Sabino Piazzolla",
-            "Joseph M Kovalik",
-            "Malcolm W Wright",
-            "William Buehlman",
-            "et. al."
+            "Zezhao Ju",
+            "Kai Xu",
+            "Yiting Yun",
+            "Zequn Chen",
+            "Shuo Lin",
+            "Kai Xia",
+            "Yalan Si",
+            "Jingyu Chang",
+            "Shouyan Zhang",
+            "Mengxue Qi",
+            "Seyyed Moinalden Mostaan",
+            "Qijie Wang",
+            "Yan Cai",
+            "Lan Li",
+            "Peilong Yang",
+            "Hongtao Lin"
           ],
-          "doi": "10.48577/jpl.mxa8iy",
-          "venue": "JPL Data",
+          "doi": "10.1002/lpor.72071",
+          "venue": "Laser & Photonics Reviews",
           "venue_info": {
             "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "724fc05ac012608a",
-            "name": "JPL Data",
-            "original_name": "JPL Data",
-            "abbr": "JPL Data",
+            "id": "4d348a50e2c95ba5",
+            "name": "Laser & Photonics Reviews",
+            "original_name": "Laser & Photonics Reviews",
+            "abbr": "LPR",
             "kind": "journal",
-            "match_status": "unmatched",
+            "match_status": "matched",
             "aliases": [
-              "JPL Data",
-              "JPL Data"
+              "Laser & Photonics Reviews",
+              "LPR",
+              "Laser & Photonics Review",
+              "Laser Photonics Rev."
             ],
             "rank_scheme": "cie-electronics-communications-2023",
             "rank_source": "中国电子学会 2023",
@@ -5352,9 +5308,9 @@
             "rank_grade": null,
             "rank_label": "未匹配 CIE 2023",
             "rank_order": 99,
-            "focus_tier": null,
-            "focus_label": "知流关注级未定",
-            "focus_order": 99,
+            "focus_tier": "P1",
+            "focus_label": "知流 P1 · 前沿重点",
+            "focus_order": 1,
             "hust_grade": null,
             "hust_rule_grade": null,
             "hust_status": "unverified",
@@ -5371,63 +5327,65 @@
             "exchange_label": "",
             "exchange_source": ""
           },
-          "published_at": "2026-10-11",
+          "published_at": "2026-10-15",
           "topics": [
-            "自由空间、可见光与空间光通信",
+            "通信光子器件与集成",
             "光学传感与测量"
           ],
-          "summary_zh": "摘要报告：JPL OCTL的LCRD OGS-1持续支持与地球同步轨道载荷的双向高速光通信，并利用自适应光学（快速倾斜镜+低阶/高阶变形镜+夏克-哈特曼传感器）校正下行波前、耦合进单模光纤接收。长期运行数据给出不同湍流条件下的Fried参数与系统性能（Strehl比、光纤耦合功率等遥测量）；发现Fried参数约4 cm时系统达到性能极限，强湍流下变形镜行程饱和问题加重；并以波光学仿真表征弱/强湍流下的波前像差。",
-          "title_zh": "JPL激光通信中继演示光地面站（OGS-1）的链路与大气湍流表征",
+          "summary_zh": "摘要报告：集成中红外传感系统对制造偏差与环境扰动敏感，后制造校准是核心挑战；非挥发相变材料（PCM）可免静态功耗实现设定-保持光谱校正，但3 µm以上集成PCM平台鲜有报道。演示3.2 µm附近Sb₂Se₃/蓝宝石上硅修调平台的三类传感架构（MZI、微环、布拉格光栅）：热板外置结晶确立非晶-晶态端态修调范围，集成微加热器经渐进电结晶实现原位多级修调；PCM加载混合波导π相移长度48 µm，布拉格器件3 dB阻带带宽展宽18 nm；作者称系3 µm以上跨干涉/谐振/布拉格架构的非挥发PCM修调平台首次实验演示，为集成中红外光子学零静态功耗校准与非挥发光谱校正提供路径。",
+          "title_zh": "蓝宝石上硅集成Sb2Se3实现中红外非挥发光谱修调",
           "missing_evidence": [
-            "链路速率、距离与仰角范围等运行参数",
-            "Fried参数统计分布与观测周期",
-            "Strehl/PiF与通信性能（BER/吞吐）的关联",
-            "波光学仿真与实测的吻合度指标",
-            "原文“reaches is approximately”存在语法冗余，按原样引用"
+            "修调精度与重复性数据",
+            "晶态循环次数/ endurance",
+            "中红外传感系统级演示",
+            "与其他PCM（GST等）中红外表现的对比"
           ],
           "facts": [
             {
               "locator": "abstract",
-              "source_url": "https://doi.org/10.48577/jpl.mxa8iy",
-              "text": "摘要报告：长期运行的地球同步轨道光地面站自适应光学系统在不同大气湍流下的性能极限与统计特征是什么？"
+              "source_url": "https://doi.org/10.1002/lpor.72071",
+              "text": "摘要报告：如何在3 µm以上中红外平台实现非挥发、零静态功耗的光谱修调？"
             },
             {
               "locator": "abstract",
-              "source_url": "https://doi.org/10.48577/jpl.mxa8iy",
-              "text": "摘要报告：LCRD OGS-1长期运行遥测数据（Fried参数、Strehl比、Power in Fiber等）+波光学仿真表征弱/强湍流波前像差；AO链路为FSM+LODM/HODM+SHWFS。"
+              "source_url": "https://doi.org/10.1002/lpor.72071",
+              "text": "摘要报告：Sb₂Se₃/SOS平台+三类架构（MZI/MRR/布拉格）设计制备；热板外置结晶+微加热器原位多级修调实验。"
             },
             {
               "locator": "abstract",
-              "source_url": "https://doi.org/10.48577/jpl.mxa8iy",
-              "text": "摘要报告：Fried参数约4 cm时系统达性能极限；摘要报告强湍流下变形镜行程饱和加重；给出长期湍流与系统性能统计及波光学仿真表征。"
+              "source_url": "https://doi.org/10.1002/lpor.72071",
+              "text": "摘要报告：π相移长度48 µm；布拉格3 dB阻带展宽18 nm；3 µm以上跨架构非挥发修调首次实验演示（作者称）。"
             }
           ],
           "ai_inference": [],
           "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.48577/jpl.mxa8iy",
+          "evidence_status": "abstract+pdf-link",
+          "source_url": "https://doi.org/10.1002/lpor.72071",
           "related_ids": [],
-          "relevance_class": "direct",
+          "relevance_class": "enabling",
           "reading_level": "B",
           "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-25T02:52:34.602333+00:00",
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-26T15:00:27.127082+00:00",
           "attributes": {
             "schema": "paperflow.paper-attributes/v1",
-            "id": "bcd23a68-5914-402f-b088-6212ade8d303",
-            "work_key": "doi:10.48577/jpl.mxa8iy",
+            "id": "4ac0dade-ac5c-472d-831e-4e80a7903dab",
+            "work_key": "doi:10.1002/lpor.72071",
             "identifiers": {
-              "doi": "10.48577/jpl.mxa8iy",
+              "doi": "10.1002/lpor.72071",
               "arxiv": null,
               "paper_code": null,
-              "issn": []
+              "issn": [
+                "1863-8880",
+                "1863-8899"
+              ]
             },
             "bibliography": {
-              "title": "Optical Link and Atmospheric Turbulence Characterization with JPL’s Laser Communication Relay Demonstration Optical Ground Station",
+              "title": "Sb 2 Se 3 ‐Integrated Silicon‐on‐Sapphire Photonics for Nonvolatile Spectral Trimming in the Mid‐Infrared",
               "type": "journal-article",
-              "venue_id": "724fc05ac012608a",
-              "venue_name": "JPL Data",
-              "venue_abbr": "JPL Data",
-              "date": "2026-10-11",
+              "venue_id": "4d348a50e2c95ba5",
+              "venue_name": "Laser & Photonics Reviews",
+              "venue_abbr": "LPR",
+              "date": "2026-10-15",
               "date_precision": "day",
               "year": 2026,
               "volume": null,
@@ -5440,24 +5398,32 @@
               "published_print": null
             },
             "authors": [
-              "Erandi Wijerathna",
-              "Sabino Piazzolla",
-              "Joseph M Kovalik",
-              "Malcolm W Wright",
-              "William Buehlman",
-              "et. al."
+              "Zezhao Ju",
+              "Kai Xu",
+              "Yiting Yun",
+              "Zequn Chen",
+              "Shuo Lin",
+              "Kai Xia",
+              "Yalan Si",
+              "Jingyu Chang",
+              "Shouyan Zhang",
+              "Mengxue Qi",
+              "Seyyed Moinalden Mostaan",
+              "Qijie Wang",
+              "Yan Cai",
+              "Lan Li",
+              "Peilong Yang",
+              "Hongtao Lin"
             ],
-            "first_author": "Erandi Wijerathna",
-            "author_count": 6,
+            "first_author": "Zezhao Ju",
+            "author_count": 16,
             "contributors": [],
             "content": {
               "author_keywords": [],
               "source_subjects": [],
-              "topic_tags": [
-                "激光器"
-              ],
+              "topic_tags": [],
               "directions": [
-                "自由空间、可见光与空间光通信",
+                "通信光子器件与集成",
                 "光学传感与测量"
               ],
               "direction_basis": "reviewed-classification",
@@ -5476,12 +5442,12 @@
               "hust_year": 2020,
               "exchange": null,
               "exchange_year": null,
-              "focus": null
+              "focus": "P1"
             },
             "reading": {
               "priority": "B",
-              "relevance": "direct",
-              "evidence": "abstract-only"
+              "relevance": "enabling",
+              "evidence": "abstract+pdf-link"
             },
             "access": {
               "oa_status": "unknown",
@@ -5494,7 +5460,7 @@
               "observed_at": null
             },
             "provenance": {
-              "source_url": "https://doi.org/10.48577/jpl.mxa8iy",
+              "source_url": "https://doi.org/10.1002/lpor.72071",
               "normalizer": "paper-attributes-v1",
               "metadata_source": null,
               "metadata_observed_at": null,
@@ -5504,26 +5470,38 @@
               ]
             }
           }
-        },
+        }
+      ]
+    },
+    {
+      "name": "光计算与交叉光子学",
+      "title": "探索光子计算的可用边界",
+      "description": "关注计算架构、精度、训练与系统能耗。",
+      "question": "计算收益是否计入光电转换、训练与外围电子开销？",
+      "count": 13,
+      "latest": "2026-10-22",
+      "items": [
         {
           "schema_version": 1,
-          "record_id": "175a081d-fd9b-422b-8250-2306e42fabd7",
-          "revision": 5,
+          "record_id": "f220120b-13d2-475d-905b-05ec367b5b27",
+          "revision": 4,
           "is_demo": false,
           "kind": "paper",
-          "title": "GaSb–TFLN Hybrid Integrated Pockels Laser for Ultrafast Spectroscopy in the 2 μm Waveband",
+          "title": "Self-Rolled-Up Microtube Optoelectronic Synapse Based on WS2/Graphene Heterojunction for Retina-Inspired Photoresponse Dynamics",
           "authors": [
-            "Songjian Lin",
-            "Rongjin Xie",
-            "Zhengqi Geng",
-            "Jincheng Wei",
-            "Yu Qiao",
-            "Chengao Yang",
-            "Zhichuan Niu",
-            "Ruijun Wang",
-            "Siyuan Yu"
+            "Xiaoqiu Tang",
+            "Yuning Li",
+            "Yixin Zhang",
+            "Yuyang Zhao",
+            "Hengzhen Cheng",
+            "Xuan Yao",
+            "Danke Chen",
+            "Zhe Jiang",
+            "Mingqiang Zhu",
+            "Jingye Sun",
+            "Tao Deng"
           ],
-          "doi": "10.1021/acsphotonics.6c01600",
+          "doi": "10.1021/acsphotonics.6c01771",
           "venue": "ACS Photonics",
           "venue_info": {
             "catalog_version": "optical-venues-2026-10-22-v2",
@@ -5562,52 +5540,51 @@
             "exchange_label": "",
             "exchange_source": ""
           },
-          "published_at": "2026-10-08",
+          "published_at": "2026-10-22",
           "topics": [
             "光源与通用光子器件",
-            "光学传感与测量"
+            "光计算与交叉光子学"
           ],
-          "summary_zh": "摘要报告：将GaSb反射式半导体光放大器与含DBR的薄膜铌酸锂外腔混合集成，实现1.95 µm附近窄线宽激光：室温片上输出6.5 mW、边模抑制比39 dB、由白频率噪声底估计的本征线宽31.6 kHz。利用TFLN泡克尔斯效应实现快速线性电光调谐：无跳模范围3.4 GHz、非线性1.6%。应用于可调谐二极管激光吸收光谱，实现对CO₂吸收线的MHz速率扫描，谱线与HITRAN仿真吻合。",
-          "title_zh": "用于2 µm波段超快光谱的GaSb–TFLN混合集成泡克尔斯激光器",
+          "summary_zh": "摘要报告：现有神经形态视觉传感器难以精确模拟生物视网膜复杂动态。演示从平面WS₂探测器到3D微管WS₂/石墨烯异质结光电突触的功能演进：vdW异质结+原位自卷曲成3D微管后，微管腔增强陷光、曲率应变调制能带与缺陷态，触发类似生物光感受器与ON双极细胞的超极化行为；器件产生仿生复合光响应——初始电流下陷（光感受器超极化）、随后电流上升（ON双极细胞激活）、带下冲的快速衰减（ON双极超极化）与类似视杆细胞暗适应的缓慢恢复。缓解人工光电器件与生物视网膜细胞间的部分功能失配，为模拟生物光响应特性的神经形态视觉传感器提供可行路线。",
+          "title_zh": "基于WS2/石墨烯异质结的自卷曲微管光电突触模拟视网膜光响应动力学",
           "missing_evidence": [
-            "器件功耗、热稳定性与可靠性",
-            "调制带宽（摘要未报告通信调制能力）",
-            "与同类2 µm可调激光器的对比",
-            "调谐非线性对相干应用的影响量化",
-            "调谐速率在输入中写作2.8 × 1015 Hz/s，指数格式待核，本次不纳入定量摘要。"
+            "响应时间/灵敏度数值",
+            "突触可塑性指标",
+            "阵列化与成像演示",
+            "与平面器件的量化对比"
           ],
           "facts": [
             {
               "locator": "abstract",
-              "source_url": "https://doi.org/10.1021/acsphotonics.6c01600",
-              "text": "摘要报告：如何在2 µm波段实现窄线宽、快速线性电光调谐的可集成激光光源？"
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01771",
+              "text": "摘要报告：如何用3D微管异质结复现视网膜多阶段光响应动力学？"
             },
             {
               "locator": "abstract",
-              "source_url": "https://doi.org/10.1021/acsphotonics.6c01600",
-              "text": "摘要报告：GaSb RSOA+TFLN外腔（低耦合系数DBR）混合集成；线宽由白频率噪声底估计；以TDLAS扫描CO₂吸收线并与HITRAN仿真对比验证。"
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01771",
+              "text": "摘要报告：WS₂/石墨烯vdW异质结+自卷曲3D微管工艺；平面→3D功能演进对比与光响应动力学表征。"
             },
             {
               "locator": "abstract",
-              "source_url": "https://doi.org/10.1021/acsphotonics.6c01600",
-              "text": "摘要报告：1.95 µm附近片上6.5 mW、SMSR 39 dB、本征线宽31.6 kHz；无跳模调谐3.4 GHz、非线性1.6%；CO₂吸收线MHz速率扫描实测与HITRAN吻合。"
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01771",
+              "text": "摘要报告：仿生复合光响应四阶段（下陷-上升-带下冲衰减-慢恢复）；机制归因于陷光增强与曲率应变（性能数值摘要未给）。"
             }
           ],
           "ai_inference": [],
           "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1021/acsphotonics.6c01600",
+          "evidence_status": "abstract+pdf-link",
+          "source_url": "https://doi.org/10.1021/acsphotonics.6c01771",
           "related_ids": [],
           "relevance_class": "enabling",
-          "reading_level": "B",
+          "reading_level": "C",
           "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-25T02:52:34.604343+00:00",
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-26T15:00:27.129598+00:00",
           "attributes": {
             "schema": "paperflow.paper-attributes/v1",
-            "id": "175a081d-fd9b-422b-8250-2306e42fabd7",
-            "work_key": "doi:10.1021/acsphotonics.6c01600",
+            "id": "f220120b-13d2-475d-905b-05ec367b5b27",
+            "work_key": "doi:10.1021/acsphotonics.6c01771",
             "identifiers": {
-              "doi": "10.1021/acsphotonics.6c01600",
+              "doi": "10.1021/acsphotonics.6c01771",
               "arxiv": null,
               "paper_code": null,
               "issn": [
@@ -5615,114 +5592,124 @@
               ]
             },
             "bibliography": {
-              "title": "GaSb–TFLN Hybrid Integrated Pockels Laser for Ultrafast Spectroscopy in the 2 μm Waveband",
+              "title": "Self-Rolled-Up Microtube Optoelectronic Synapse Based on WS2/Graphene Heterojunction for Retina-Inspired Photoresponse Dynamics",
               "type": "journal-article",
               "venue_id": "7816fff088c7f79d",
               "venue_name": "ACS Photonics",
               "venue_abbr": "ACS Photonics",
-              "date": "2026-10-08",
+              "date": "2026-10-22",
               "date_precision": "day",
               "year": 2026,
-              "volume": "13",
-              "issue": "20",
-              "pages": "6182-6190",
+              "volume": null,
+              "issue": null,
+              "pages": null,
               "article_number": null,
               "publisher": "American Chemical Society (ACS)",
               "language": "en",
-              "published_online": "2026-10-07",
-              "published_print": "2026-10-21"
+              "published_online": "2026-10-22",
+              "published_print": null
             },
             "authors": [
-              "Songjian Lin",
-              "Rongjin Xie",
-              "Zhengqi Geng",
-              "Jincheng Wei",
-              "Yu Qiao",
-              "Chengao Yang",
-              "Zhichuan Niu",
-              "Ruijun Wang",
-              "Siyuan Yu"
+              "Xiaoqiu Tang",
+              "Yuning Li",
+              "Yixin Zhang",
+              "Yuyang Zhao",
+              "Hengzhen Cheng",
+              "Xuan Yao",
+              "Danke Chen",
+              "Zhe Jiang",
+              "Mingqiang Zhu",
+              "Jingye Sun",
+              "Tao Deng"
             ],
-            "first_author": "Songjian Lin",
-            "author_count": 9,
+            "first_author": "Xiaoqiu Tang",
+            "author_count": 11,
             "contributors": [
               {
-                "name": "Songjian Lin",
-                "orcid": null,
+                "name": "Xiaoqiu Tang",
+                "orcid": "https://orcid.org/0009-0004-5817-3294",
                 "affiliations": [
-                  "Sun Yat-Sen University , , ,"
+                  "Beijing Jiaotong University , , ,"
                 ]
               },
               {
-                "name": "Rongjin Xie",
+                "name": "Yuning Li",
                 "orcid": null,
                 "affiliations": [
-                  "Sun Yat-Sen University , , ,"
+                  "Beijing Jiaotong University , , ,"
                 ]
               },
               {
-                "name": "Zhengqi Geng",
+                "name": "Yixin Zhang",
                 "orcid": null,
                 "affiliations": [
-                  "Chinese Academy of Sciences , , ,",
-                  "University of Chinese Academy of Sciences , , ,"
+                  "Beijing Jiaotong University , , ,"
                 ]
               },
               {
-                "name": "Jincheng Wei",
+                "name": "Yuyang Zhao",
                 "orcid": null,
                 "affiliations": [
-                  "Sun Yat-Sen University , , ,"
+                  "Beijing Jiaotong University , , ,"
                 ]
               },
               {
-                "name": "Yu Qiao",
+                "name": "Hengzhen Cheng",
                 "orcid": null,
                 "affiliations": [
-                  "Sun Yat-Sen University , , ,"
+                  "Beijing Jiaotong University , , ,"
                 ]
               },
               {
-                "name": "Chengao Yang",
+                "name": "Xuan Yao",
                 "orcid": null,
                 "affiliations": [
-                  "Chinese Academy of Sciences , , ,",
-                  "University of Chinese Academy of Sciences , , ,"
+                  "Beijing Jiaotong University , , ,"
                 ]
               },
               {
-                "name": "Zhichuan Niu",
+                "name": "Danke Chen",
                 "orcid": null,
                 "affiliations": [
-                  "Chinese Academy of Sciences , , ,",
-                  "University of Chinese Academy of Sciences , , ,"
+                  "Beijing Jiaotong University , , ,"
                 ]
               },
               {
-                "name": "Ruijun Wang",
+                "name": "Zhe Jiang",
                 "orcid": null,
                 "affiliations": [
-                  "Sun Yat-Sen University , , ,"
+                  "Beijing Jiaotong University , , ,"
                 ]
               },
               {
-                "name": "Siyuan Yu",
+                "name": "Mingqiang Zhu",
                 "orcid": null,
                 "affiliations": [
-                  "Sun Yat-Sen University , , ,"
+                  "Beijing Jiaotong University , , ,"
+                ]
+              },
+              {
+                "name": "Jingye Sun",
+                "orcid": "https://orcid.org/0009-0005-2047-1410",
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
+              },
+              {
+                "name": "Tao Deng",
+                "orcid": "https://orcid.org/0000-0001-9597-4833",
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
                 ]
               }
             ],
             "content": {
               "author_keywords": [],
               "source_subjects": [],
-              "topic_tags": [
-                "铌酸锂",
-                "激光器"
-              ],
+              "topic_tags": [],
               "directions": [
                 "光源与通用光子器件",
-                "光学传感与测量"
+                "光计算与交叉光子学"
               ],
               "direction_basis": "reviewed-classification",
               "tag_basis": "title-session-rule"
@@ -5743,9 +5730,9 @@
               "focus": "P2"
             },
             "reading": {
-              "priority": "B",
+              "priority": "C",
               "relevance": "enabling",
-              "evidence": "abstract-only"
+              "evidence": "abstract+pdf-link"
             },
             "access": {
               "oa_status": "unknown",
@@ -5753,30 +5740,30 @@
                 {
                   "url": "https://doi.org/10.15223/policy-029",
                   "version": "stm-asf",
-                  "start": "2026-10-07"
+                  "start": "2026-10-22"
                 },
                 {
                   "url": "https://doi.org/10.15223/policy-037",
                   "version": "stm-asf",
-                  "start": "2026-10-07"
+                  "start": "2026-10-22"
                 },
                 {
                   "url": "https://doi.org/10.15223/policy-045",
                   "version": "stm-asf",
-                  "start": "2026-10-07"
+                  "start": "2026-10-22"
                 }
               ]
             },
             "citation_counts": {
-              "references": 50,
+              "references": 63,
               "cited_by": 0,
               "source": "Crossref",
               "observed_at": "2026-10-23T00:18:45.847973+00:00"
             },
             "provenance": {
-              "source_url": "https://doi.org/10.1021/acsphotonics.6c01600",
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01771",
               "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1021/acsphotonics.6c01600",
+              "metadata_source": "https://api.crossref.org/works/10.1021/acsphotonics.6c01771",
               "metadata_observed_at": "2026-10-23T00:18:45.847973+00:00",
               "missing": [
                 "author_keywords",
@@ -5784,17 +5771,7 @@
               ]
             }
           }
-        }
-      ]
-    },
-    {
-      "name": "光计算与交叉光子学",
-      "title": "探索光子计算的可用边界",
-      "description": "关注计算架构、精度、训练与系统能耗。",
-      "question": "计算收益是否计入光电转换、训练与外围电子开销？",
-      "count": 6,
-      "latest": "2026-10-21",
-      "items": [
+        },
         {
           "schema_version": 1,
           "record_id": "0842ee72-c8b9-410f-b86c-f42757c65c78",
@@ -6027,37 +6004,368 @@
         },
         {
           "schema_version": 1,
-          "record_id": "749fe740-bd4b-487e-a509-5cc7dccb8e07",
-          "revision": 6,
+          "record_id": "d303744f-e17f-4100-95b9-8236c08f5d86",
+          "revision": 5,
           "is_demo": false,
           "kind": "paper",
-          "title": "Optical neural computing: from fourier optics to integrated photonic artificial intelligence",
+          "title": "Gate-Programmable Bipolar β-Ga2O3 Solar-Blind Phototransistor for Encrypted Optical Communication and Image Transmission",
           "authors": [
-            "Р. В. Скиданов",
-            "Nikolay Lvovich Kazanskiy",
-            "Svetlana Nikolaevna Khonina"
+            "Wei Wang",
+            "Yushi Wang",
+            "Chenxing Liu",
+            "Zhengyuan Wu",
+            "Xin Dong",
+            "Kelvin H. L. Zhang",
+            "Ning Jia",
+            "Qinglin Sai",
+            "Hongji Qi",
+            "Daoyou Guo",
+            "Shan Li",
+            "Weihua Tang",
+            "Zhilai Fang"
           ],
-          "doi": "10.1016/j.optlastec.2026.116673",
-          "venue": "Optics & Laser Technology",
+          "doi": "10.1021/acsphotonics.6c01763",
+          "venue": "ACS Photonics",
           "venue_info": {
             "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "0986a2b8282d4855",
-            "name": "Optics & Laser Technology",
-            "original_name": "Optics & Laser Technology",
-            "abbr": "Opt. Laser Technol.",
+            "id": "7816fff088c7f79d",
+            "name": "ACS Photonics",
+            "original_name": "ACS Photonics",
+            "abbr": "ACS Photonics",
             "kind": "journal",
             "match_status": "matched",
             "aliases": [
-              "Optics & Laser Technology",
-              "Opt. Laser Technol."
+              "ACS Photonics"
             ],
             "rank_scheme": "cie-electronics-communications-2023",
             "rank_source": "中国电子学会 2023",
             "rank_version": "2023",
             "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
+            "rank_grade": "T1",
+            "rank_label": "CIE T1 · 2023",
+            "rank_order": 1,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-10-19",
+          "topics": [
+            "光源与通用光子器件",
+            "光计算与交叉光子学"
+          ],
+          "summary_zh": "摘要报告：现有双极探测器或依赖缓慢电化学过程、或需波长选择性激发。演示栅极可编程日盲β-Ga₂O₃光电晶体管：栅控横向/纵向载流输运重构，在固定254 nm日盲照射下实现电流极性可逆切换；响应度与探测度的指数排版待核，响应时间为毫秒级，兼得灵敏度/速度/操作简单性；利用电学可编程双极响应实现快速XOR逻辑，完成日盲紫外下的加密文本通信与图像加解密。",
+          "title_zh": "栅极可编程双极β-Ga2O3日盲光电晶体管实现加密光通信与图像传输",
+          "missing_evidence": [
+            "加密通信演示的速率/误码",
+            "栅压切换时间与循环稳定性",
+            "与电化学型双极器件的同条件对比",
+            "指数原始排版核对",
+            "“1.73 × 104 A/W”“1014 Jones”的指数排版待核，按输入原样记录，不还原为确定数值"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01763",
+              "text": "摘要报告：如何在固定波长照射下用电学方式实现可重构双极光响应？"
+            },
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01763",
+              "text": "摘要报告：栅控β-Ga₂O₃光电晶体管（横向/纵向输运重构）；固定254 nm照射下极性切换；XOR逻辑与文本/图像加解密演示。"
+            },
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01763",
+              "text": "摘要报告：毫秒级响应；响应度与探测度指数待核；XOR逻辑+加密文本/图像演示（速率未给出）。"
+            }
+          ],
+          "ai_inference": [],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1021/acsphotonics.6c01763",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "C",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-26T15:00:27.111680+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "d303744f-e17f-4100-95b9-8236c08f5d86",
+            "work_key": "doi:10.1021/acsphotonics.6c01763",
+            "identifiers": {
+              "doi": "10.1021/acsphotonics.6c01763",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "2330-4022"
+              ]
+            },
+            "bibliography": {
+              "title": "Gate-Programmable Bipolar β-Ga2O3 Solar-Blind Phototransistor for Encrypted Optical Communication and Image Transmission",
+              "type": "journal-article",
+              "venue_id": "7816fff088c7f79d",
+              "venue_name": "ACS Photonics",
+              "venue_abbr": "ACS Photonics",
+              "date": "2026-10-19",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "article_number": null,
+              "publisher": "American Chemical Society (ACS)",
+              "language": "en",
+              "published_online": "2026-10-19",
+              "published_print": null
+            },
+            "authors": [
+              "Wei Wang",
+              "Yushi Wang",
+              "Chenxing Liu",
+              "Zhengyuan Wu",
+              "Xin Dong",
+              "Kelvin H. L. Zhang",
+              "Ning Jia",
+              "Qinglin Sai",
+              "Hongji Qi",
+              "Daoyou Guo",
+              "Shan Li",
+              "Weihua Tang",
+              "Zhilai Fang"
+            ],
+            "first_author": "Wei Wang",
+            "author_count": 13,
+            "contributors": [
+              {
+                "name": "Wei Wang",
+                "orcid": null,
+                "affiliations": [
+                  "Fudan University , , ,"
+                ]
+              },
+              {
+                "name": "Yushi Wang",
+                "orcid": null,
+                "affiliations": [
+                  "Fudan University , , ,"
+                ]
+              },
+              {
+                "name": "Chenxing Liu",
+                "orcid": null,
+                "affiliations": [
+                  "Fudan University , , ,"
+                ]
+              },
+              {
+                "name": "Zhengyuan Wu",
+                "orcid": null,
+                "affiliations": [
+                  "Fudan University , , ,"
+                ]
+              },
+              {
+                "name": "Xin Dong",
+                "orcid": null,
+                "affiliations": [
+                  "Jilin University , , ,"
+                ]
+              },
+              {
+                "name": "Kelvin H. L. Zhang",
+                "orcid": "https://orcid.org/0000-0001-9352-6236",
+                "affiliations": [
+                  "Xiamen University , , ,"
+                ]
+              },
+              {
+                "name": "Ning Jia",
+                "orcid": "https://orcid.org/0000-0002-4195-1481",
+                "affiliations": [
+                  "Shanghai Key Laboratory of Wide and Ultra-Wide Bandgap Semiconductor Materials , ,",
+                  "Shanghai Institute of Optics and Fine Mechanics, Chinese Academy of Sciences , , ,"
+                ]
+              },
+              {
+                "name": "Qinglin Sai",
+                "orcid": null,
+                "affiliations": [
+                  "Shanghai Key Laboratory of Wide and Ultra-Wide Bandgap Semiconductor Materials , ,",
+                  "Shanghai Institute of Optics and Fine Mechanics, Chinese Academy of Sciences , , ,"
+                ]
+              },
+              {
+                "name": "Hongji Qi",
+                "orcid": null,
+                "affiliations": [
+                  "Shanghai Key Laboratory of Wide and Ultra-Wide Bandgap Semiconductor Materials , ,",
+                  "Shanghai Institute of Optics and Fine Mechanics, Chinese Academy of Sciences , , ,"
+                ]
+              },
+              {
+                "name": "Daoyou Guo",
+                "orcid": "https://orcid.org/0000-0002-6191-1655",
+                "affiliations": [
+                  "Zhejiang Sci-Tech University , , ,"
+                ]
+              },
+              {
+                "name": "Shan Li",
+                "orcid": "https://orcid.org/0000-0002-3095-3721",
+                "affiliations": [
+                  "Nanjing University of Posts and Telecommunications , , , ,"
+                ]
+              },
+              {
+                "name": "Weihua Tang",
+                "orcid": null,
+                "affiliations": [
+                  "Nanjing University of Posts and Telecommunications , , , ,"
+                ]
+              },
+              {
+                "name": "Zhilai Fang",
+                "orcid": "https://orcid.org/0000-0002-9270-5475",
+                "affiliations": [
+                  "Fudan University , , ,",
+                  "Shanghai Key Laboratory of Wide and Ultra-Wide Bandgap Semiconductor Materials , ,"
+                ]
+              }
+            ],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [],
+              "topic_tags": [],
+              "directions": [
+                "光源与通用光子器件",
+                "光计算与交叉光子学"
+              ],
+              "direction_basis": "reviewed-classification",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": "T1",
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": "P2"
+            },
+            "reading": {
+              "priority": "C",
+              "relevance": "enabling",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": [
+                {
+                  "url": "https://doi.org/10.15223/policy-029",
+                  "version": "stm-asf",
+                  "start": "2026-10-19"
+                },
+                {
+                  "url": "https://doi.org/10.15223/policy-037",
+                  "version": "stm-asf",
+                  "start": "2026-10-19"
+                },
+                {
+                  "url": "https://doi.org/10.15223/policy-045",
+                  "version": "stm-asf",
+                  "start": "2026-10-19"
+                }
+              ]
+            },
+            "citation_counts": {
+              "references": 36,
+              "cited_by": 0,
+              "source": "Crossref",
+              "observed_at": "2026-10-23T00:18:45.847973+00:00"
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01763",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": "https://api.crossref.org/works/10.1021/acsphotonics.6c01763",
+              "metadata_observed_at": "2026-10-23T00:18:45.847973+00:00",
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "name": "光源与通用光子器件",
+      "title": "从光源能力寻找迁移机会",
+      "description": "关注激光、频率梳与通用光子器件；不预设通信适用性。",
+      "question": "这项能力迁移到通信系统还缺哪些稳定性、集成和成本证据？",
+      "count": 49,
+      "latest": "2026-10-26",
+      "items": [
+        {
+          "schema_version": 1,
+          "record_id": "4a2e5ed1-0da6-4349-87f7-7c5b2b9d3fc6",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Output-coupling-dependent linewidth narrowing in resonantly pumped diamond Raman lasers",
+          "authors": [
+            "Hui Chen",
+            "Wenqiang Fan",
+            "Longjie Zhang",
+            "Jie Ding",
+            "Bingzheng Yan",
+            "Yulei Wang",
+            "Zhiwei Lu",
+            "Zonghua Zhang",
+            "Zhenxu Bai"
+          ],
+          "doi": "10.1063/5.0352290",
+          "venue": "Applied Physics Letters",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "b2ec04237afa0fba",
+            "name": "Applied Physics Letters",
+            "original_name": "Applied Physics Letters",
+            "abbr": "Appl. Phys. Lett.",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Applied Physics Letters",
+              "Appl. Phys. Lett.",
+              "APL"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
             "focus_tier": "P3",
             "focus_label": "知流 P3 · 扩展关注",
             "focus_order": 3,
@@ -6077,96 +6385,162 @@
             "exchange_label": "",
             "exchange_source": ""
           },
-          "published_at": "2026-10-18",
+          "published_at": "2026-10-26",
           "topics": [
-            "光计算与交叉光子学"
+            "光源与通用光子器件"
           ],
-          "summary_zh": "摘要报告：综述光神经计算发展脉络：从经典4f处理器与自由空间衍射系统到可编程光神经网络、集成光子加速器、储备池计算平台与可现场编程光子架构；系统考察物理原理、计算机制与硬件实现，重点关注可重构光子学、超表面、衍射深度学习、光子集成电路与光电混合系统；讨论计算成像、自主感知、边缘智能、高速通信与量子信息处理应用及可扩展性、可编程性、非线性计算、训练与系统集成挑战。",
-          "title_zh": "光神经计算：从傅里叶光学到集成光子人工智能（综述）",
+          "summary_zh": "该实验采用窄线宽连续波泵浦激光与 Pound–Drever–Hall 锁定，对比不同输出耦合镜透射率下金刚石拉曼振荡器的斯托克斯输出。透射率从0.6%提高至3.0%时，输出功率和转换效率提高，但稳定锁定持续时间缩短；降低透射率则使线宽逐渐收窄。在约0.2%透射率下，实现5.70 kHz斯托克斯线宽，略窄于泵浦激光线宽。摘要将线宽压缩归因于腔内斯托克斯光子寿命延长及泵浦至斯托克斯频率噪声传递受到抑制。",
+          "title_zh": "输出耦合损耗调控金刚石拉曼激光线宽",
           "missing_evidence": [
-            "文献覆盖范围与检索方法",
-            "各平台定量性能对比表",
-            "与电子AI加速器的能效基准",
-            "光通信应用部分深度",
-            "摘要明确为综述（nonresearch_detected=true）"
+            "未提供全文，无法核查线宽测量方法、测量不确定度及频率噪声传递的直接证据。",
+            "未提供通信波段适配或光通信系统实验。"
           ],
           "facts": [
             {
               "locator": "abstract",
-              "source_url": "https://doi.org/10.1016/j.optlastec.2026.116673",
-              "text": "摘要报告：傅里叶光学如何构成光神经计算的基础，各代光计算硬件的现状与瓶颈是什么？"
-            },
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1016/j.optlastec.2026.116673",
-              "text": "摘要报告：文献综述：按4f处理器→自由空间衍射→可编程/集成/储备池/可现场编程架构的历史脉络梳理（检索口径未说明）。"
-            },
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1016/j.optlastec.2026.116673",
-              "text": "摘要报告：综述性归纳：指出可扩展性、可编程性、非线性与训练为核心挑战；摘要未提供新实验数据。"
+              "source_url": "https://doi.org/10.1063/5.0352290",
+              "text": "该实验采用窄线宽连续波泵浦激光与 Pound–Drever–Hall 锁定，对比不同输出耦合镜透射率下金刚石拉曼振荡器的斯托克斯输出。透射率从0.6%提高至3.0%时，输出功率和转换效率提高，但稳定锁定持续时间缩短；降低透射率则使线宽逐渐收窄。在约0.2%透射率下，实现5.70 kHz斯托克斯线宽，略窄于泵浦激光线宽。摘要将线宽压缩归因于腔内斯托克斯光子寿命延长及泵浦至斯托克斯频率噪声传递受到抑制。"
             }
           ],
-          "ai_inference": [],
+          "ai_inference": [
+            "输出耦合损耗可作为面向相干检测的窄线宽光源设计参数，值得进一步验证其在目标通信波段及系统中的适用性。"
+          ],
           "metrics": [],
           "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1016/j.optlastec.2026.116673",
+          "source_url": "https://doi.org/10.1063/5.0352290",
           "related_ids": [],
-          "relevance_class": "exploratory",
-          "reading_level": "C",
+          "relevance_class": "enabling",
+          "reading_level": "D",
           "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-25T02:52:34.617373+00:00",
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-27T00:33:09.106365+00:00",
           "attributes": {
             "schema": "paperflow.paper-attributes/v1",
-            "id": "749fe740-bd4b-487e-a509-5cc7dccb8e07",
-            "work_key": "doi:10.1016/j.optlastec.2026.116673",
+            "id": "4a2e5ed1-0da6-4349-87f7-7c5b2b9d3fc6",
+            "work_key": "doi:10.1063/5.0352290",
             "identifiers": {
-              "doi": "10.1016/j.optlastec.2026.116673",
+              "doi": "10.1063/5.0352290",
               "arxiv": null,
               "paper_code": null,
               "issn": [
-                "0030-3992",
-                "0374-3926",
-                "1878-7371",
-                "1879-2545"
+                "0003-6951",
+                "1077-3118"
               ]
             },
             "bibliography": {
-              "title": "Optical neural computing: from fourier optics to integrated photonic artificial intelligence",
+              "title": "Output-coupling-dependent linewidth narrowing in resonantly pumped diamond Raman lasers",
               "type": "journal-article",
-              "venue_id": "0986a2b8282d4855",
-              "venue_name": "Optics & Laser Technology",
-              "venue_abbr": "Opt. Laser Technol.",
-              "date": "2026-10-18",
+              "venue_id": "b2ec04237afa0fba",
+              "venue_name": "Applied Physics Letters",
+              "venue_abbr": "Appl. Phys. Lett.",
+              "date": "2026-10-26",
               "date_precision": "day",
               "year": 2026,
-              "volume": null,
-              "issue": null,
+              "volume": "129",
+              "issue": "17",
               "pages": null,
-              "article_number": null,
-              "publisher": null,
-              "language": null,
-              "published_online": null,
-              "published_print": null
+              "article_number": "172201",
+              "publisher": "AIP Publishing",
+              "language": "en",
+              "published_online": "2026-10-26",
+              "published_print": "2026-10-26"
             },
             "authors": [
-              "Р. В. Скиданов",
-              "Nikolay Lvovich Kazanskiy",
-              "Svetlana Nikolaevna Khonina"
+              "Hui Chen",
+              "Wenqiang Fan",
+              "Longjie Zhang",
+              "Jie Ding",
+              "Bingzheng Yan",
+              "Yulei Wang",
+              "Zhiwei Lu",
+              "Zonghua Zhang",
+              "Zhenxu Bai"
             ],
-            "first_author": "Р. В. Скиданов",
-            "author_count": 3,
-            "contributors": [],
+            "first_author": "Hui Chen",
+            "author_count": 9,
+            "contributors": [
+              {
+                "name": "Hui Chen",
+                "orcid": "https://orcid.org/0000-0003-4296-6113",
+                "affiliations": [
+                  "Center for Advanced Laser Technology, Hebei University of Technology 1 , Tianjin 300401,",
+                  "School of Mechanical Engineering, Hebei University of Technology 2 , Tianjin 300401,",
+                  "Collaborative Innovation Center for Diamond Laser Technology and Applications 3 , Tianjin 300401,"
+                ]
+              },
+              {
+                "name": "Wenqiang Fan",
+                "orcid": null,
+                "affiliations": [
+                  "Center for Advanced Laser Technology, Hebei University of Technology 1 , Tianjin 300401,",
+                  "Collaborative Innovation Center for Diamond Laser Technology and Applications 3 , Tianjin 300401,"
+                ]
+              },
+              {
+                "name": "Longjie Zhang",
+                "orcid": "https://orcid.org/0009-0005-1643-1803",
+                "affiliations": [
+                  "Center for Advanced Laser Technology, Hebei University of Technology 1 , Tianjin 300401,",
+                  "Collaborative Innovation Center for Diamond Laser Technology and Applications 3 , Tianjin 300401,"
+                ]
+              },
+              {
+                "name": "Jie Ding",
+                "orcid": "https://orcid.org/0000-0001-8343-8531",
+                "affiliations": [
+                  "Center for Advanced Laser Technology, Hebei University of Technology 1 , Tianjin 300401,",
+                  "Collaborative Innovation Center for Diamond Laser Technology and Applications 3 , Tianjin 300401,"
+                ]
+              },
+              {
+                "name": "Bingzheng Yan",
+                "orcid": "https://orcid.org/0000-0002-3937-0389",
+                "affiliations": [
+                  "Center for Advanced Laser Technology, Hebei University of Technology 1 , Tianjin 300401,",
+                  "Collaborative Innovation Center for Diamond Laser Technology and Applications 3 , Tianjin 300401,"
+                ]
+              },
+              {
+                "name": "Yulei Wang",
+                "orcid": "https://orcid.org/0000-0002-0281-3641",
+                "affiliations": [
+                  "Center for Advanced Laser Technology, Hebei University of Technology 1 , Tianjin 300401,",
+                  "Collaborative Innovation Center for Diamond Laser Technology and Applications 3 , Tianjin 300401,"
+                ]
+              },
+              {
+                "name": "Zhiwei Lu",
+                "orcid": "https://orcid.org/0009-0009-4693-5315",
+                "affiliations": [
+                  "Center for Advanced Laser Technology, Hebei University of Technology 1 , Tianjin 300401,",
+                  "Collaborative Innovation Center for Diamond Laser Technology and Applications 3 , Tianjin 300401,"
+                ]
+              },
+              {
+                "name": "Zonghua Zhang",
+                "orcid": "https://orcid.org/0000-0003-0638-1118",
+                "affiliations": [
+                  "School of Mechanical Engineering, Hebei University of Technology 2 , Tianjin 300401,"
+                ]
+              },
+              {
+                "name": "Zhenxu Bai",
+                "orcid": "https://orcid.org/0000-0003-2040-833X",
+                "affiliations": [
+                  "Center for Advanced Laser Technology, Hebei University of Technology 1 , Tianjin 300401,",
+                  "Collaborative Innovation Center for Diamond Laser Technology and Applications 3 , Tianjin 300401,"
+                ]
+              }
+            ],
             "content": {
               "author_keywords": [],
               "source_subjects": [],
               "topic_tags": [
-                "光子集成"
+                "激光器"
               ],
               "directions": [
-                "光计算与交叉光子学"
+                "光源与通用光子器件"
               ],
-              "direction_basis": "reviewed-classification",
+              "direction_basis": "title-session-rule",
               "tag_basis": "title-session-rule"
             },
             "conference": {
@@ -6174,7 +6548,7 @@
               "presentation_type": null
             },
             "ratings": {
-              "cie": null,
+              "cie": "T2",
               "cie_year": 2023,
               "hust_reference": null,
               "hust_confirmed": null,
@@ -6185,8 +6559,8 @@
               "focus": "P3"
             },
             "reading": {
-              "priority": "C",
-              "relevance": "exploratory",
+              "priority": "D",
+              "relevance": "enabling",
               "evidence": "abstract-only"
             },
             "access": {
@@ -6194,16 +6568,16 @@
               "licenses": []
             },
             "citation_counts": {
-              "references": null,
-              "cited_by": null,
-              "source": null,
-              "observed_at": null
+              "references": 30,
+              "cited_by": 0,
+              "source": "Crossref",
+              "observed_at": "2026-10-27T00:19:44.366093+00:00"
             },
             "provenance": {
-              "source_url": "https://doi.org/10.1016/j.optlastec.2026.116673",
+              "source_url": "https://doi.org/10.1063/5.0352290",
               "normalizer": "paper-attributes-v1",
-              "metadata_source": null,
-              "metadata_observed_at": null,
+              "metadata_source": "https://api.crossref.org/works/10.1063/5.0352290",
+              "metadata_observed_at": "2026-10-27T00:19:44.366093+00:00",
               "missing": [
                 "author_keywords",
                 "open_access"
@@ -6211,210 +6585,6 @@
             }
           }
         },
-        {
-          "schema_version": 1,
-          "record_id": "0b4f39b6-3961-4464-b371-c6b7ee42157b",
-          "revision": 5,
-          "is_demo": false,
-          "kind": "preprint",
-          "title": "Ultralow-power, high-speed programmable Si photonic circuits with InGaAsP membrane",
-          "authors": [
-            "Tomohiro Akazawa",
-            "Rui Tang",
-            "Hanzhi Tang",
-            "Makoto Okano",
-            "Yangyang Wan",
-            "Nobuyuki Matsuda",
-            "Kasidit Toprasertpong",
-            "Shinichi Takagi",
-            "Mitsuru Takenaka"
-          ],
-          "doi": null,
-          "venue": "arXiv",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "43ef3159143b717e",
-            "name": "arXiv",
-            "original_name": "arXiv",
-            "abbr": "arXiv",
-            "kind": "preprint",
-            "match_status": "platform",
-            "aliases": [
-              "arXiv",
-              "arXiv"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "不适用期刊等级",
-            "rank_order": 99,
-            "focus_tier": null,
-            "focus_label": "知流关注级未定",
-            "focus_order": 99,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "not-applicable",
-            "hust_label": "不适用院规等级",
-            "hust_note": "",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-09-21",
-          "topics": [
-            "通信光子器件与集成",
-            "光计算与交叉光子学"
-          ],
-          "summary_zh": "摘要报告：可编程光路的扩展受限于相移器功耗/速度/效率/损耗/热串扰的固有折中。提出InGaAsP/Si混合MOS相移器：结合MOS电容低泄漏与InGaAsP薄膜强调制的载流子折射率效应，实现静态功耗低于30 fW/π、切换时间555 ps、调制效率VπL 0.13 V·cm、载流子引入的附加损耗仅0.20 dB/π；集成到可编程MZI网格中演示光开关与可编程幺正变换，电路级运行热串扰可忽略（预印本）。",
-          "title_zh": "基于InGaAsP薄膜的超低功耗高速可编程硅光电路",
-          "missing_evidence": [
-            "大规模网格的成品率与相移器一致性",
-            "高速调制下的动态功耗",
-            "与载流子耗尽型硅移相器的系统对比",
-            "InGaAsP膜集成工艺复杂度与可靠性",
-            "kind=preprint，输入标为预印本，当前同行评审及正式发表状态未核实"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://arxiv.org/abs/2609.24611v1",
-              "text": "摘要报告：如何同时满足超低功耗、高速、高效、低损耗与低热串扰的可编程光路相移器？"
-            },
-            {
-              "locator": "abstract",
-              "source_url": "https://arxiv.org/abs/2609.24611v1",
-              "text": "摘要报告：InGaAsP/Si混合MOS相移器设计制备；指标测量（功耗/切换时间/VπL/损耗）；可编程MZI网格演示光开关与幺正变换。"
-            },
-            {
-              "locator": "abstract",
-              "source_url": "https://arxiv.org/abs/2609.24611v1",
-              "text": "摘要报告：静态功耗<30 fW/π、切换555 ps、VπL 0.13 V·cm、附加损耗0.20 dB/π；网格级热串扰可忽略；实验层面（预印本）。"
-            }
-          ],
-          "ai_inference": [],
-          "metrics": [],
-          "evidence_status": "abstract+pdf-link",
-          "source_url": "https://arxiv.org/abs/2609.24611v1",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-25T02:52:34.618373+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "0b4f39b6-3961-4464-b371-c6b7ee42157b",
-            "work_key": "arxiv:2609.24611",
-            "identifiers": {
-              "doi": null,
-              "arxiv": "2609.24611",
-              "paper_code": null,
-              "issn": []
-            },
-            "bibliography": {
-              "title": "Ultralow-power, high-speed programmable Si photonic circuits with InGaAsP membrane",
-              "type": "preprint",
-              "venue_id": "43ef3159143b717e",
-              "venue_name": "arXiv",
-              "venue_abbr": "arXiv",
-              "date": "2026-09-21",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": null,
-              "issue": null,
-              "pages": null,
-              "article_number": null,
-              "publisher": null,
-              "language": null,
-              "published_online": null,
-              "published_print": null
-            },
-            "authors": [
-              "Tomohiro Akazawa",
-              "Rui Tang",
-              "Hanzhi Tang",
-              "Makoto Okano",
-              "Yangyang Wan",
-              "Nobuyuki Matsuda",
-              "Kasidit Toprasertpong",
-              "Shinichi Takagi",
-              "Mitsuru Takenaka"
-            ],
-            "first_author": "Tomohiro Akazawa",
-            "author_count": 9,
-            "contributors": [],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [],
-              "directions": [
-                "通信光子器件与集成",
-                "光计算与交叉光子学"
-              ],
-              "direction_basis": "reviewed-classification",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": null,
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "not-applicable",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": null
-            },
-            "reading": {
-              "priority": "B",
-              "relevance": "enabling",
-              "evidence": "abstract+pdf-link"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": []
-            },
-            "citation_counts": {
-              "references": null,
-              "cited_by": null,
-              "source": null,
-              "observed_at": null
-            },
-            "provenance": {
-              "source_url": "https://arxiv.org/abs/2609.24611v1",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": null,
-              "metadata_observed_at": null,
-              "missing": [
-                "author_keywords",
-                "doi",
-                "open_access"
-              ]
-            }
-          }
-        }
-      ]
-    },
-    {
-      "name": "光源与通用光子器件",
-      "title": "从光源能力寻找迁移机会",
-      "description": "关注激光、频率梳与通用光子器件；不预设通信适用性。",
-      "question": "这项能力迁移到通信系统还缺哪些稳定性、集成和成本证据？",
-      "count": 25,
-      "latest": "2026-10-23",
-      "items": [
         {
           "schema_version": 1,
           "record_id": "68334008-79e6-40a3-a023-88a961561e79",
@@ -6599,37 +6769,36 @@
         },
         {
           "schema_version": 1,
-          "record_id": "694397af-c37d-4ba2-8a92-cd6fba847c6d",
+          "record_id": "f220120b-13d2-475d-905b-05ec367b5b27",
           "revision": 4,
           "is_demo": false,
           "kind": "paper",
-          "title": "Narrow-linewidth, piezoelectrically tunable photonic integrated blue laser",
+          "title": "Self-Rolled-Up Microtube Optoelectronic Synapse Based on WS2/Graphene Heterojunction for Retina-Inspired Photoresponse Dynamics",
           "authors": [
-            "Anat Siddharth",
-            "Asger Brimnes Gardner",
-            "Xinru Ji",
-            "Shivaprasad Umesh Hulyal",
-            "Mikael Reichler",
-            "Alaina Attanasio",
-            "Johann Riemensberger",
-            "Sunil Ashok Bhave",
-            "Nicolas Volet",
-            "Simone Bianconi",
-            "Tobias Jan Kippenberg"
+            "Xiaoqiu Tang",
+            "Yuning Li",
+            "Yixin Zhang",
+            "Yuyang Zhao",
+            "Hengzhen Cheng",
+            "Xuan Yao",
+            "Danke Chen",
+            "Zhe Jiang",
+            "Mingqiang Zhu",
+            "Jingye Sun",
+            "Tao Deng"
           ],
-          "doi": "10.1038/s41566-026-02040-9",
-          "venue": "Nature Photonics",
+          "doi": "10.1021/acsphotonics.6c01771",
+          "venue": "ACS Photonics",
           "venue_info": {
             "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "80aa5b9618278735",
-            "name": "Nature Photonics",
-            "original_name": "Nature Photonics",
-            "abbr": "Nat. Photonics",
+            "id": "7816fff088c7f79d",
+            "name": "ACS Photonics",
+            "original_name": "ACS Photonics",
+            "abbr": "ACS Photonics",
             "kind": "journal",
             "match_status": "matched",
             "aliases": [
-              "Nature Photonics",
-              "Nat. Photonics"
+              "ACS Photonics"
             ],
             "rank_scheme": "cie-electronics-communications-2023",
             "rank_source": "中国电子学会 2023",
@@ -6638,9 +6807,9 @@
             "rank_grade": "T1",
             "rank_label": "CIE T1 · 2023",
             "rank_order": 1,
-            "focus_tier": "P1",
-            "focus_label": "知流 P1 · 前沿重点",
-            "focus_order": 1,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
             "hust_grade": null,
             "hust_rule_grade": null,
             "hust_status": "unverified",
@@ -6659,51 +6828,61 @@
           },
           "published_at": "2026-10-22",
           "topics": [
-            "通信光子器件与集成",
-            "光源与通用光子器件"
+            "光源与通用光子器件",
+            "光计算与交叉光子学"
           ],
-          "summary_zh": "研究报告了一种工作于461 nm的集成蓝光激光器：将氮化镓激光二极管与低损耗氮化硅高Q微谐振器混合集成，通过自注入锁定实现低于30 kHz的线宽和超过1 mW的光输出功率。单片集成的氮化铝压电执行器支持无跳模线性扫频，扫频范围最高900 MHz、重复频率最高1 MHz，调谐非线性低于2%。摘要称开展了水下通信及相干气溶胶传感实验。",
-          "title_zh": "压电可调窄线宽集成蓝光激光器",
+          "summary_zh": "摘要报告：现有神经形态视觉传感器难以精确模拟生物视网膜复杂动态。演示从平面WS₂探测器到3D微管WS₂/石墨烯异质结光电突触的功能演进：vdW异质结+原位自卷曲成3D微管后，微管腔增强陷光、曲率应变调制能带与缺陷态，触发类似生物光感受器与ON双极细胞的超极化行为；器件产生仿生复合光响应——初始电流下陷（光感受器超极化）、随后电流上升（ON双极细胞激活）、带下冲的快速衰减（ON双极超极化）与类似视杆细胞暗适应的缓慢恢复。缓解人工光电器件与生物视网膜细胞间的部分功能失配，为模拟生物光响应特性的神经形态视觉传感器提供可行路线。",
+          "title_zh": "基于WS2/石墨烯异质结的自卷曲微管光电突触模拟视网膜光响应动力学",
           "missing_evidence": [
-            "全文及水下通信实验细节，包括链路距离、传输速率、误码率和水体条件。"
+            "响应时间/灵敏度数值",
+            "突触可塑性指标",
+            "阵列化与成像演示",
+            "与平面器件的量化对比"
           ],
           "facts": [
             {
               "locator": "abstract",
-              "source_url": "https://doi.org/10.1038/s41566-026-02040-9",
-              "text": "研究报告了一种工作于461 nm的集成蓝光激光器：将氮化镓激光二极管与低损耗氮化硅高Q微谐振器混合集成，通过自注入锁定实现低于30 kHz的线宽和超过1 mW的光输出功率。单片集成的氮化铝压电执行器支持无跳模线性扫频，扫频范围最高900 MHz、重复频率最高1 MHz，调谐非线性低于2%。摘要称开展了水下通信及相干气溶胶传感实验。"
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01771",
+              "text": "摘要报告：如何用3D微管异质结复现视网膜多阶段光响应动力学？"
+            },
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01771",
+              "text": "摘要报告：WS₂/石墨烯vdW异质结+自卷曲3D微管工艺；平面→3D功能演进对比与光响应动力学表征。"
+            },
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01771",
+              "text": "摘要报告：仿生复合光响应四阶段（下陷-上升-带下冲衰减-慢恢复）；机制归因于陷光增强与曲率应变（性能数值摘要未给）。"
             }
           ],
-          "ai_inference": [
-            "该器件可能为水下光通信提供紧凑的窄线宽、快速可调蓝光光源；其链路性能与系统适用性仍需结合通信实验数据评估。"
-          ],
+          "ai_inference": [],
           "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1038/s41566-026-02040-9",
+          "evidence_status": "abstract+pdf-link",
+          "source_url": "https://doi.org/10.1021/acsphotonics.6c01771",
           "related_ids": [],
           "relevance_class": "enabling",
-          "reading_level": "B",
+          "reading_level": "C",
           "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-24T00:39:14.285467+00:00",
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-26T15:00:27.129598+00:00",
           "attributes": {
             "schema": "paperflow.paper-attributes/v1",
-            "id": "694397af-c37d-4ba2-8a92-cd6fba847c6d",
-            "work_key": "doi:10.1038/s41566-026-02040-9",
+            "id": "f220120b-13d2-475d-905b-05ec367b5b27",
+            "work_key": "doi:10.1021/acsphotonics.6c01771",
             "identifiers": {
-              "doi": "10.1038/s41566-026-02040-9",
+              "doi": "10.1021/acsphotonics.6c01771",
               "arxiv": null,
               "paper_code": null,
               "issn": [
-                "1749-4885",
-                "1749-4893"
+                "2330-4022"
               ]
             },
             "bibliography": {
-              "title": "Narrow-linewidth, piezoelectrically tunable photonic integrated blue laser",
+              "title": "Self-Rolled-Up Microtube Optoelectronic Synapse Based on WS2/Graphene Heterojunction for Retina-Inspired Photoresponse Dynamics",
               "type": "journal-article",
-              "venue_id": "80aa5b9618278735",
-              "venue_name": "Nature Photonics",
-              "venue_abbr": "Nat. Photonics",
+              "venue_id": "7816fff088c7f79d",
+              "venue_name": "ACS Photonics",
+              "venue_abbr": "ACS Photonics",
               "date": "2026-10-22",
               "date_precision": "day",
               "year": 2026,
@@ -6711,64 +6890,114 @@
               "issue": null,
               "pages": null,
               "article_number": null,
-              "publisher": "Springer Science and Business Media LLC",
+              "publisher": "American Chemical Society (ACS)",
               "language": "en",
               "published_online": "2026-10-22",
               "published_print": null
             },
             "authors": [
-              "Anat Siddharth",
-              "Asger Brimnes Gardner",
-              "Xinru Ji",
-              "Shivaprasad Umesh Hulyal",
-              "Mikael Reichler",
-              "Alaina Attanasio",
-              "Johann Riemensberger",
-              "Sunil Ashok Bhave",
-              "Nicolas Volet",
-              "Simone Bianconi",
-              "Tobias Jan Kippenberg"
+              "Xiaoqiu Tang",
+              "Yuning Li",
+              "Yixin Zhang",
+              "Yuyang Zhao",
+              "Hengzhen Cheng",
+              "Xuan Yao",
+              "Danke Chen",
+              "Zhe Jiang",
+              "Mingqiang Zhu",
+              "Jingye Sun",
+              "Tao Deng"
             ],
-            "first_author": "Anat Siddharth",
+            "first_author": "Xiaoqiu Tang",
             "author_count": 11,
             "contributors": [
               {
-                "name": "Anat Siddharth",
-                "orcid": "https://orcid.org/0000-0003-4066-7304",
-                "affiliations": []
+                "name": "Xiaoqiu Tang",
+                "orcid": "https://orcid.org/0009-0004-5817-3294",
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
               },
               {
-                "name": "Xinru Ji",
-                "orcid": "https://orcid.org/0000-0001-7057-7786",
-                "affiliations": []
+                "name": "Yuning Li",
+                "orcid": null,
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
               },
               {
-                "name": "Johann Riemensberger",
-                "orcid": "https://orcid.org/0000-0002-3468-6501",
-                "affiliations": []
+                "name": "Yixin Zhang",
+                "orcid": null,
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
               },
               {
-                "name": "Simone Bianconi",
-                "orcid": "https://orcid.org/0000-0002-3828-6513",
-                "affiliations": []
+                "name": "Yuyang Zhao",
+                "orcid": null,
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
+              },
+              {
+                "name": "Hengzhen Cheng",
+                "orcid": null,
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
+              },
+              {
+                "name": "Xuan Yao",
+                "orcid": null,
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
+              },
+              {
+                "name": "Danke Chen",
+                "orcid": null,
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
+              },
+              {
+                "name": "Zhe Jiang",
+                "orcid": null,
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
+              },
+              {
+                "name": "Mingqiang Zhu",
+                "orcid": null,
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
+              },
+              {
+                "name": "Jingye Sun",
+                "orcid": "https://orcid.org/0009-0005-2047-1410",
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
+              },
+              {
+                "name": "Tao Deng",
+                "orcid": "https://orcid.org/0000-0001-9597-4833",
+                "affiliations": [
+                  "Beijing Jiaotong University , , ,"
+                ]
               }
             ],
             "content": {
               "author_keywords": [],
-              "source_subjects": [
-                "Photonic and Optical Devices",
-                "Semiconductor Lasers and Optical Devices",
-                "Advanced Fiber Laser Technologies"
-              ],
-              "topic_tags": [
-                "光子集成",
-                "激光器"
-              ],
+              "source_subjects": [],
+              "topic_tags": [],
               "directions": [
-                "通信光子器件与集成",
-                "光源与通用光子器件"
+                "光源与通用光子器件",
+                "光计算与交叉光子学"
               ],
-              "direction_basis": "title-session-rule",
+              "direction_basis": "reviewed-classification",
               "tag_basis": "title-session-rule"
             },
             "conference": {
@@ -6784,207 +7013,44 @@
               "hust_year": 2020,
               "exchange": null,
               "exchange_year": null,
-              "focus": "P1"
+              "focus": "P2"
             },
             "reading": {
-              "priority": "B",
+              "priority": "C",
               "relevance": "enabling",
-              "evidence": "abstract-only"
+              "evidence": "abstract+pdf-link"
             },
             "access": {
               "oa_status": "unknown",
               "licenses": [
                 {
-                  "url": "https://creativecommons.org/licenses/by/4.0",
-                  "version": "tdm",
+                  "url": "https://doi.org/10.15223/policy-029",
+                  "version": "stm-asf",
                   "start": "2026-10-22"
                 },
                 {
-                  "url": "https://creativecommons.org/licenses/by/4.0",
-                  "version": "vor",
+                  "url": "https://doi.org/10.15223/policy-037",
+                  "version": "stm-asf",
+                  "start": "2026-10-22"
+                },
+                {
+                  "url": "https://doi.org/10.15223/policy-045",
+                  "version": "stm-asf",
                   "start": "2026-10-22"
                 }
               ]
             },
             "citation_counts": {
-              "references": 39,
+              "references": 63,
               "cited_by": 0,
               "source": "Crossref",
-              "observed_at": "2026-10-23T00:18:41.755034+00:00"
+              "observed_at": "2026-10-23T00:18:45.847973+00:00"
             },
             "provenance": {
-              "source_url": "https://doi.org/10.1038/s41566-026-02040-9",
+              "source_url": "https://doi.org/10.1021/acsphotonics.6c01771",
               "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1038/s41566-026-02040-9",
-              "metadata_observed_at": "2026-10-23T00:18:41.755034+00:00",
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "9b640902-580d-4350-9784-6018c298724c",
-          "revision": 3,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Laser-Enabled Optical Access Networks",
-          "authors": [
-            "Vivek Kachhatiya",
-            "Shanthi Prince"
-          ],
-          "doi": "10.1201/9781003649519-3",
-          "venue": "CRC Press eBooks",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "3f8ad1136269e501",
-            "name": "CRC Press eBooks",
-            "original_name": "CRC Press eBooks",
-            "abbr": "CRC Press eBooks",
-            "kind": "journal",
-            "match_status": "unmatched",
-            "aliases": [
-              "CRC Press eBooks",
-              "CRC Press eBooks"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": null,
-            "focus_label": "知流关注级未定",
-            "focus_order": 99,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-10-20",
-          "topics": [
-            "光源与通用光子器件"
-          ],
-          "summary_zh": "该书章介绍光接入网络基础，重点讨论无源光网络（PON）的架构、组件及复用技术，并介绍光纤无线融合（FiWi）。内容涉及数据速率、时延和安全等网络设计因素；摘要称包含案例研究与仿真结果，并展望全光、软件定义的接入网络。",
-          "title_zh": "激光赋能光接入网络：PON与光纤无线融合综述",
-          "missing_evidence": [
-            "未提供全文，无法核对案例、仿真设置、性能指标及比较基线。",
-            "摘要未提供实验验证或可量化的性能改进证据。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1201/9781003649519-3",
-              "text": "该书章介绍光接入网络基础，重点讨论无源光网络（PON）的架构、组件及复用技术，并介绍光纤无线融合（FiWi）。内容涉及数据速率、时延和安全等网络设计因素；摘要称包含案例研究与仿真结果，并展望全光、软件定义的接入网络。"
-            }
-          ],
-          "ai_inference": [
-            "可将其作为梳理PON与FiWi设计问题的入门材料，并据全文案例进一步评估不同接入方案的适用条件。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1201/9781003649519-3",
-          "related_ids": [],
-          "relevance_class": "direct",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-21T15:55:04.293872+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "9b640902-580d-4350-9784-6018c298724c",
-            "work_key": "doi:10.1201/9781003649519-3",
-            "identifiers": {
-              "doi": "10.1201/9781003649519-3",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": []
-            },
-            "bibliography": {
-              "title": "Laser-Enabled Optical Access Networks",
-              "type": "journal-article",
-              "venue_id": "3f8ad1136269e501",
-              "venue_name": "CRC Press eBooks",
-              "venue_abbr": "CRC Press eBooks",
-              "date": "2026-10-20",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": null,
-              "issue": null,
-              "pages": null,
-              "article_number": null,
-              "publisher": null,
-              "language": null,
-              "published_online": null,
-              "published_print": null
-            },
-            "authors": [
-              "Vivek Kachhatiya",
-              "Shanthi Prince"
-            ],
-            "first_author": "Vivek Kachhatiya",
-            "author_count": 2,
-            "contributors": [],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "激光器"
-              ],
-              "directions": [
-                "光源与通用光子器件"
-              ],
-              "direction_basis": "title-session-rule",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": null,
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": null
-            },
-            "reading": {
-              "priority": "B",
-              "relevance": "direct",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": []
-            },
-            "citation_counts": {
-              "references": null,
-              "cited_by": null,
-              "source": null,
-              "observed_at": null
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1201/9781003649519-3",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": null,
-              "metadata_observed_at": null,
+              "metadata_source": "https://api.crossref.org/works/10.1021/acsphotonics.6c01771",
+              "metadata_observed_at": "2026-10-23T00:18:45.847973+00:00",
               "missing": [
                 "author_keywords",
                 "open_access"
@@ -6995,10 +7061,10 @@
       ]
     }
   ],
-  "unclassified": 61,
+  "unclassified": 62,
   "evidence_counts": {
-    "abstract+pdf-link": 56,
-    "abstract-only": 167,
+    "abstract+pdf-link": 77,
+    "abstract-only": 206,
     "official-announcement": 1
   }
 }

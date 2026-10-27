@@ -5,7 +5,6 @@
   const key='paperflow:discovery:v1:'+base.pathname, schema='paperflow.discovery-workspace/v1';
   const labels={deep:'精读',skim:'略读',later:'暂缓',irrelevant:'不相关'};
   const fields=['author','keyword','keyword_source','metadata','focus','search','venue','kind','year','evidence','presentation','rank','hust','exchange','session','topic','review','period'];
-  const aliases=[['硅光','silicon photonic'],['相干','coherent'],['光互连','interconnect'],['共封装','co-packaged','cpo'],['空芯','hollow-core','hollow core'],['微波光子','microwave photonic'],['光网络','optical network'],['量子','quantum'],['自由空间','free-space','free space'],['调制器','modulator'],['光纤','fiber','fibre'],['均衡','equaliz'],['波束','beamform','beam steer']];
   const norm=s=>String(s||'').normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim();
   const el=(tag,text,cls)=>{const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;};
   const blank=()=>({schema,searches:[],triage:[]}), stamp=()=>new Date().toISOString();
@@ -34,8 +33,7 @@
     const text=f.search?norm(searchText??[p.title,p.title_zh,p.search_summary,...(p.authors||[]),p.doi,p.paper_code,p.abbr,p.venue,...(p.venue_aliases||[]),p.hust_label,p.exchange_label,p.session,...(p.attributes?.content.topic_tags||[]),...(p.attributes?.content.author_keywords||[])].join(' ')):'';
     if(!PaperAttributes.match(p.attributes,f))return false;
     if(f.focus&&(p.focus_tier||'unrated')!==f.focus)return false;
-    const terms=norm(f.search).split(' ').filter(Boolean);
-    if(!terms.every(t=>(aliases.find(g=>g.includes(t))||[t]).some(a=>text.includes(a))))return false;
+    if(f.search&&!PaperAttributes.keywordMatch([text],f.search))return false;
     if(f.hust&&(p.hust_rule_grade||(p.kind==='journal'||p.kind==='conference'?'unverified':'na'))!==f.hust||f.exchange&&(p.exchange_grade||'unlisted')!==f.exchange)return false;
     if(f.venue&&p.venue_key!==f.venue||f.kind&&p.kind!==f.kind||f.year&&String(p.year)!==f.year||f.evidence&&p.has_abstract!==(f.evidence==='yes')||f.presentation&&p.presentation_type!==f.presentation||f.rank&&p.rank_label!==f.rank||f.session&&p.session!==f.session||f.topic&&!PaperAttributes.topicMatch(p.theme_hints,f.topic)||f.review&&Boolean(p.reading_url)!==(f.review==='yes'))return false;
     if(f.period){
@@ -97,16 +95,24 @@
       }
     }catch(_){if(serial===renderSerial){host.replaceChildren(el('p','目录读取失败，个人记录未丢失。请刷新重试。'));}}
   }
+  function saveSearch(name,values,papers){
+    name=String(name||'').trim();
+    if(!name||name.length>100){message('请填写不超过100字的检索名称。');return {ok:false};}
+    read();if(blocked)return {ok:false};
+    const f=Object.fromEntries(fields.map(k=>[k,values[k]||'']));
+    const same=state.searches.find(s=>fields.every(k=>(s.filters[k]||'')===(f[k]||'')));
+    if(same){message('相同条件已保存为“'+same.name+'”，可到我的检索管理。');return {ok:true,existing:true,id:same.id};}
+    if(state.searches.length>=30){message('最多保存30个检索，请先整理已有检索。');return {ok:false};}
+    const found=papers.filter(p=>match(p,f));
+    const s={id:crypto.randomUUID(),name,filters:f,seen:found.map(p=>p.index_id),updated_at:stamp(),checked_at:stamp()};
+    if(save({...state,searches:[...state.searches,s]})){message('检索已保存；当前题录作为基线，后续匹配新增会单独标记。');return {ok:true,id:s.id};}
+    return {ok:false};
+  }
   function attachCatalog(api){controller=api;
     const input=document.getElementById('saved-search-name'),button=document.getElementById('save-search');if(!button)return;
     button.disabled=false;button.addEventListener('click',()=>{
       const name=input.value.trim();if(!name||name.length>100){message('请填写不超过100字的检索名称。');input.focus();return;}
-      read();const f=filters();const found=controller.papers().filter(p=>match(p,f));
-      const same=state.searches.find(s=>fields.every(k=>(s.filters[k]||'')===(f[k]||'')));
-      if(same){message('相同条件已保存为“'+same.name+'”，可到我的检索管理。');return;}
-      if(state.searches.length>=30){message('最多保存30个检索，请先整理已有检索。');return;}
-      const s={id:crypto.randomUUID(),name,filters:f,seen:found.map(p=>p.index_id),updated_at:stamp(),checked_at:stamp()};
-      if(save({...state,searches:[...state.searches,s]})){input.value='';message('检索已保存；当前结果作为基线，后续匹配新增会单独标记。');}
+      if(saveSearch(name,filters(),controller.papers()).ok)input.value='';
     });
   }
   function catalogChanged(found){
@@ -127,6 +133,6 @@
   document.getElementById('discovery-export')?.addEventListener('click',()=>{const raw=blocked?localStorage.getItem(key):JSON.stringify(state);const url=URL.createObjectURL(new Blob([raw||''],{type:'application/json'}));const a=el('a');a.href=url;a.download=blocked?'paperflow-discovery-recovery.txt':'paperflow-discovery.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);});
   document.getElementById('discovery-import')?.addEventListener('change',async e=>{try{const f=e.target.files[0];if(!f)return;if(f.size>5*1024*1024)throw Error();const incoming=validate(JSON.parse(await f.text()));read();const merge=(a,b)=>{const m=new Map(a.map(v=>[v.id,v]));for(const v of b)if(!m.has(v.id)||Date.parse(v.updated_at)>Date.parse(m.get(v.id).updated_at))m.set(v.id,v);return [...m.values()];};if(save({schema,searches:merge(state.searches,incoming.searches),triage:merge(state.triage,incoming.triage)}))message('检索与筛选备份已合并。');}catch(_){message('导入失败：请使用有效的检索与筛选备份（不超过5 MB），原数据未更改。');}e.target.value='';});
   window.addEventListener('storage',e=>{if(e.key===key||e.key===null){read();syncSelectors();renderPersonal();window.dispatchEvent(new Event('paperflow:discovery-changed'));}});
-  window.PaperFlowDiscovery=Object.freeze({match,mount,attachCatalog,catalogChanged,isNew,decision,getState:()=>JSON.parse(JSON.stringify(state))});
+  window.PaperFlowDiscovery=Object.freeze({match,mount,attachCatalog,catalogChanged,isNew,decision,saveSearch,getState:()=>JSON.parse(JSON.stringify(state))});
   renderPersonal();
 })();

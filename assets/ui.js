@@ -6,7 +6,7 @@
   const button=document.getElementById('view-density');
   function apply(){document.body.classList.toggle('compact-view',compact);if(button){button.textContent=compact?'舒适阅读':'紧凑浏览';button.setAttribute('aria-pressed',String(compact));}}
   apply();button?.addEventListener('click',()=>{compact=!compact;apply();try{localStorage.setItem(key,compact?'compact':'comfortable');}catch(_){notice('已切换本页显示，浏览器未允许保存偏好。');}});
-  const search=document.getElementById('catalog-search')||document.getElementById('workspace-search')||document.getElementById('version-search')||document.getElementById('search');
+  const search=document.getElementById('explore-query')||document.getElementById('catalog-search')||document.getElementById('workspace-search')||document.getElementById('version-search')||document.getElementById('search');
   document.addEventListener('keydown',e=>{if(e.key==='/'&&!e.ctrlKey&&!e.metaKey&&!e.altKey&&!e.target.closest('input,textarea,select,[contenteditable=true]')&&search){e.preventDefault();search.focus();search.scrollIntoView({block:'center'});}});
   const savedDisclosure=document.querySelector('.save-search-disclosure');
   if(savedDisclosure&&new URLSearchParams(location.search).has('saved'))savedDisclosure.open=true;

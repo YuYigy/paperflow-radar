@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "5301d154-cd6b-4d95-aa30-dc22c9a5f24a",
-  "root": "doi:10.1364/jocn.601174",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7172382335",
+  "status": "ok",
+  "checked_at": "2026-10-28T00:54:45.189654+00:00",
+  "coverage": {
+    "references_found": 26,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 26,
+    "displayed": 26
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/jocn.601174",
+      "id": "W7172382335",
       "doi": "10.1364/jocn.601174",
       "title": "Multi-granularity collaborative scheduling method for distributed AI training in all-optical data center networks",
       "authors": [
@@ -21,20 +31,1503 @@
         "Jiawei Zhang",
         "Yuefeng Ji"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Journal of Optical Communications and Networking",
       "venue_abbr": "JOCN",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "optical circuit switching",
+        "mixed-integer linear programming",
+        "heuristic scheduling algorithm",
+        "combinatorial optimization"
+      ],
       "url": "https://doi.org/10.1364/jocn.601174",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/5301d154-cd6b-4d95-aa30-dc22c9a5f24a.html",
       "summary": "摘要报告：AI数据中心分布式训练产生多作业并发的大规模通信需求，全光交换网络是高带宽低时延方案，但需求多样引发资源争用。提出多粒度协同调度（MGCS）：融合光时隙交换（OTS）与光路交换（OCS），按阶段感知分层调度——对流水线并行（PP）通信，将确定性OTS调度形式化为组合优化并给出MILP模型与启发式算法；对数据并行（DP）通信采用动态协调OTS与OCS的混合多粒度调度。搭建小规模全光交换试验床并开展大规模仿真：MGCS最多降低epoch训练时间30.60%、网络资源占用比49.70%。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4388557279",
+      "doi": "10.1016/j.neucom.2023.127009",
+      "title": "Topologies in distributed machine learning: Comprehensive survey, recommendations and future directions",
+      "authors": [
+        "Ling Liu",
+        "Pan Zhou",
+        "Gang Sun",
+        "Xi Chen",
+        "Tao T. Wu",
+        "Hongfang Yu",
+        "Mohsen Guizani"
+      ],
+      "year": 2023,
+      "venue": "Neurocomputing",
+      "venue_abbr": "Neurocomputing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed learning",
+        "network topology",
+        "communication architecture",
+        "tree topology",
+        "ring topology",
+        "scalability",
+        "fault tolerance",
+        "training performance",
+        "network traffic patterns"
+      ],
+      "url": "https://doi.org/10.1016/j.neucom.2023.127009",
+      "cited_by_count": 12,
+      "importance": 0.5193,
+      "score_basis": {
+        "topic_overlap": 0.265,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3025347955",
+      "doi": "10.1016/j.knosys.2020.106002",
+      "title": "Online job scheduling for distributed machine learning in optical circuit switch networks",
+      "authors": [
+        "Ling Liu",
+        "Hongfang Yu",
+        "Gang Sun",
+        "Huaman Zhou",
+        "Zonghang Li",
+        "Shouxi Luo"
+      ],
+      "year": 2020,
+      "venue": "Knowledge-Based Systems",
+      "venue_abbr": "Knowledge-Based Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed learning",
+        "optical circuit switching",
+        "data center networks"
+      ],
+      "url": "https://doi.org/10.1016/j.knosys.2020.106002",
+      "cited_by_count": 19,
+      "importance": 0.5038,
+      "score_basis": {
+        "topic_overlap": 0.408,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3036907365",
+      "doi": "10.1109/jlt.2020.3002735",
+      "title": "ROTOS: A Reconfigurable and Cost-Effective Architecture for High-Performance Optical Data Center Networks",
+      "authors": [
+        "Xuwei Xue",
+        "Fulong Yan",
+        "Kristif Prifti",
+        "Fu Wang",
+        "Bitao Pan",
+        "Xiaotao Guo",
+        "Shaojuan Zhang",
+        "Nicola Calabretta"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical data center networks",
+        "wavelength selective switch",
+        "software-defined networking",
+        "dynamic bandwidth allocation",
+        "optical transceivers",
+        "packet loss",
+        "network scalability",
+        "power efficiency",
+        "cost reduction"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.3002735",
+      "cited_by_count": 67,
+      "importance": 0.477,
+      "score_basis": {
+        "topic_overlap": 0.393,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2743429249",
+      "doi": "10.1145/3098822.3098838",
+      "title": "RotorNet",
+      "authors": [
+        "William Maxwell Mellette",
+        "Rob McGuinness",
+        "Arjun Roy",
+        "Alex Forencich",
+        "George C. Papen",
+        "Alex C. Snoeren",
+        "George Porter"
+      ],
+      "year": 2017,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical circuit switches",
+        "data center networks",
+        "demand estimation",
+        "centralized control plane",
+        "clock synchronization",
+        "network reconfiguration",
+        "bandwidth requirements"
+      ],
+      "url": "https://doi.org/10.1145/3098822.3098838",
+      "cited_by_count": 239,
+      "importance": 0.4719,
+      "score_basis": {
+        "topic_overlap": 0.426,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3046344355",
+      "doi": "10.1145/3387514.3406221",
+      "title": "Sirius",
+      "authors": [
+        "Hitesh Ballani",
+        "Paolo Costa",
+        "Raphael Behrendt",
+        "Daniel Cletheroe",
+        "Istvan Haller",
+        "Krzysztof Jozwik",
+        "Fotini Karinou",
+        "Sophie Lange",
+        "Kai Shi",
+        "Benn Charles Thomsen",
+        "Hugh E. Williams"
+      ],
+      "year": 2020,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "tunable lasers",
+        "wavelength routing",
+        "switch reconfiguration",
+        "congestion control",
+        "clock synchronization",
+        "end-to-end delay",
+        "energy efficiency"
+      ],
+      "url": "https://doi.org/10.1145/3387514.3406221",
+      "cited_by_count": 205,
+      "importance": 0.4675,
+      "score_basis": {
+        "topic_overlap": 0.35,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402389838",
+      "doi": "10.1109/hoti63208.2024.00013",
+      "title": "Rail-only: A Low-Cost High-Performance Network for Training LLMs with Trillion Parameters",
+      "authors": [
+        "Weiyang Wang",
+        "Manya Ghobadi",
+        "Kayvon Shakeri",
+        "Ying Zhang",
+        "Naader Hasani"
+      ],
+      "year": 2024,
+      "venue": "IEEE Symposium on High-Performance Interconnects (HOTI)",
+      "venue_abbr": "IEEE Symposium on High-Performance Interconnects (HOTI)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "large language model training",
+        "GPU clusters",
+        "all-to-all communication",
+        "mixture of experts",
+        "network energy consumption",
+        "parallelization strategies"
+      ],
+      "url": "https://doi.org/10.1109/hoti63208.2024.00013",
+      "cited_by_count": 57,
+      "importance": 0.4661,
+      "score_basis": {
+        "topic_overlap": 0.147,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416930694",
+      "doi": "10.1364/jocn.577375",
+      "title": "Deterministic optical time-slot scheduling and performance evaluation via time-aware resource allocation in metro all-optical spine-leaf networks",
+      "authors": [
+        "Huitao Zhou",
+        "Lizhu Liu",
+        "Chen Su",
+        "Bojun Zhang",
+        "Zhiqun Gu",
+        "Jiawei Zhang",
+        "Yuefeng Ji"
+      ],
+      "year": 2025,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "metro networks",
+        "deterministic transmission",
+        "time-sensitive networking",
+        "deterministic network calculus",
+        "buffer occupancy",
+        "integer linear programming",
+        "heuristic scheduling algorithm"
+      ],
+      "url": "https://doi.org/10.1364/jocn.577375",
+      "cited_by_count": 2,
+      "importance": 0.465,
+      "score_basis": {
+        "topic_overlap": 0.367,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7125820424",
+      "doi": "10.1364/jocn.581084",
+      "title": "Experimental demonstration of a collaborative centralized and distributed control plane for multi-granularity switching in an all-optical metro spine-leaf network",
+      "authors": [
+        "Bojun Zhang",
+        "Jiawei Zhang",
+        "Huitao Zhou",
+        "Xingyi Zhang",
+        "Zhiqun Gu",
+        "Yuanhang Shi",
+        "Yuefeng Ji"
+      ],
+      "year": 2026,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "network control plane",
+        "FPGA",
+        "clock synchronization",
+        "frequency synchronization",
+        "east-west traffic"
+      ],
+      "url": "https://doi.org/10.1364/jocn.581084",
+      "cited_by_count": 3,
+      "importance": 0.4524,
+      "score_basis": {
+        "topic_overlap": 0.339,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2141810662",
+      "doi": "10.1109/tnet.2013.2253120",
+      "title": "OSA: An Optical Switching Architecture for Data Center Networks With Unprecedented Flexibility",
+      "authors": [
+        "Kai Chen",
+        "Ankit Singla",
+        "Atul Kumar Singh",
+        "Kishore Ramachandran",
+        "Lei Xu",
+        "Yueping Zhang",
+        "Xitao Wen",
+        "Yan Chen"
+      ],
+      "year": 2013,
+      "venue": "IEEE/ACM Transactions on Networking",
+      "venue_abbr": "IEEE/ACM Transactions on Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical switching architecture",
+        "data center networks",
+        "reconfigurable photonic devices",
+        "dynamic topology",
+        "bisection bandwidth"
+      ],
+      "url": "https://doi.org/10.1109/tnet.2013.2253120",
+      "cited_by_count": 472,
+      "importance": 0.4341,
+      "score_basis": {
+        "topic_overlap": 0.431,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405586305",
+      "doi": "10.1364/oe.544474",
+      "title": "AWGR-based all-optical switching network for distributed machine learning",
+      "authors": [
+        "Yuanzhi Guo",
+        "Xuwei Xue",
+        "Bingli Guo",
+        "Daohang Dang",
+        "Shikui Shen",
+        "Yisong Zhao",
+        "Buzheng Wei",
+        "Changsheng Yang",
+        "Guangquan Wang",
+        "Shanguo Huang"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "distributed learning",
+        "communication bottleneck",
+        "optical packet switching",
+        "power efficiency",
+        "cost efficiency",
+        "ResNet",
+        "VGG19"
+      ],
+      "url": "https://doi.org/10.1364/oe.544474",
+      "cited_by_count": 21,
+      "importance": 0.3316,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3187255235",
+      "doi": "10.1145/3458817.3476209",
+      "title": "Efficient large-scale language model training on GPU clusters using megatron-LM",
+      "authors": [
+        "Deepak Narayanan",
+        "Mohammad Shoeybi",
+        "Jared Casper",
+        "Patrick LeGresley",
+        "Mostofa Ali Patwary",
+        "Vijay Anand Korthikanti",
+        "Dmitri Vainbrand",
+        "Prethvi Kashinkunti",
+        "Julie Bernauer",
+        "Bryan Catanzaro",
+        "Amar Phanishayee",
+        "Matei Zaharia"
+      ],
+      "year": 2021,
+      "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+      "venue_abbr": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "large language model training",
+        "GPU clusters",
+        "tensor parallelism",
+        "pipeline parallelism",
+        "data parallelism",
+        "memory efficiency",
+        "training throughput"
+      ],
+      "url": "https://doi.org/10.1145/3458817.3476209",
+      "cited_by_count": 637,
+      "importance": 0.3267,
+      "score_basis": {
+        "topic_overlap": 0.037,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402124690",
+      "doi": "10.1109/mnet.2024.3449276",
+      "title": "Communication Optimization for Distributed Training: Architecture, Advances, and Opportunities",
+      "authors": [
+        "Yunze Wei",
+        "Tianshuo Hu",
+        "C. H. Liang",
+        "Yong Cui"
+      ],
+      "year": 2024,
+      "venue": "IEEE Network",
+      "venue_abbr": "IEEE Network",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "communication optimization",
+        "distributed training",
+        "parallelization strategies",
+        "network performance",
+        "co-design",
+        "heterogeneous resources",
+        "GPU training",
+        "training duration"
+      ],
+      "url": "https://doi.org/10.1109/mnet.2024.3449276",
+      "cited_by_count": 12,
+      "importance": 0.3258,
+      "score_basis": {
+        "topic_overlap": 0.057,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400237250",
+      "doi": "10.1145/3663408.3663409",
+      "title": "Understanding Communication Characteristics of Distributed Training",
+      "authors": [
+        "Wenxue Li",
+        "Xiangzhou Liu",
+        "Yuxuan Li",
+        "Yilun Jin",
+        "Tian Han",
+        "Zhizhen Zhong",
+        "Guyue Liu",
+        "Ying Zhang",
+        "Kai Chen"
+      ],
+      "year": 2024,
+      "venue": "Asia-Pacific Workshop on Networking (APNet)",
+      "venue_abbr": "Asia-Pacific Workshop on Networking (APNet)",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed training",
+        "communication characteristics",
+        "communication patterns",
+        "communication overhead",
+        "deep learning training efficiency"
+      ],
+      "url": "https://doi.org/10.1145/3663408.3663409",
+      "cited_by_count": 46,
+      "importance": 0.3202,
+      "score_basis": {
+        "topic_overlap": 0.045,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389989295",
+      "doi": "10.1109/icnp59255.2023.10355574",
+      "title": "Preemptive Switch Memory Usage to Accelerate Training Jobs with Shared In-Network Aggregation",
+      "authors": [
+        "Hao Wang",
+        "Yuxuan Qin",
+        "ChonLam Lao",
+        "Yanfang Le",
+        "Wenfei Wu",
+        "Kai Chen"
+      ],
+      "year": 2023,
+      "venue": "IEEE International Conference on Network Protocols (ICNP)",
+      "venue_abbr": "IEEE International Conference on Network Protocols (ICNP)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "in-network aggregation",
+        "preemption",
+        "distributed training",
+        "priority policies",
+        "gradient aggregation",
+        "communication efficiency",
+        "job completion time",
+        "data center networks"
+      ],
+      "url": "https://doi.org/10.1109/icnp59255.2023.10355574",
+      "cited_by_count": 20,
+      "importance": 0.31,
+      "score_basis": {
+        "topic_overlap": 0.2,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409992267",
+      "doi": "10.1109/oecc54135.2024.10975545",
+      "title": "An All Optical Metro Spine-Leaf Network Architecture with Collaborative OCS and OTS",
+      "authors": [
+        "Bojun Zhang",
+        "Jiawei Zhang",
+        "Zhiqun Gu",
+        "Bitao Pan",
+        "Huitao Zhou",
+        "Yongcheng Li",
+        "Zeshan Chang",
+        "Yuefeng Ji"
+      ],
+      "year": 2024,
+      "venue": "OptoElectronics and Communications Conference",
+      "venue_abbr": "OECC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical circuit switching",
+        "converged services",
+        "quality of service",
+        "optical switching"
+      ],
+      "url": "https://doi.org/10.1109/oecc54135.2024.10975545",
+      "cited_by_count": 6,
+      "importance": 0.3091,
+      "score_basis": {
+        "topic_overlap": 0.198,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2613694343",
+      "doi": "10.1145/1672308.1672325",
+      "title": "Understanding data center traffic characteristics",
+      "authors": [
+        "Theophilus Benson",
+        "Ashok Anand",
+        "Aditya Akella",
+        "Ming Zhang"
+      ],
+      "year": 2010,
+      "venue": "ACM SIGCOMM Computer Communication Review",
+      "venue_abbr": "ACM SIGCOMM Computer Communication Review",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "data center networks",
+        "on-off traffic",
+        "packet loss",
+        "packet traces",
+        "traffic engineering"
+      ],
+      "url": "https://doi.org/10.1145/1672308.1672325",
+      "cited_by_count": 555,
+      "importance": 0.3028,
+      "score_basis": {
+        "topic_overlap": 0.184,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4206666954",
+      "doi": "10.1109/jlt.2021.3138456",
+      "title": "Precise Time Distribution and Synchronization for Low Latency Slotted Optical Metro-Access Networks",
+      "authors": [
+        "Bitao Pan",
+        "Xuwei Xue",
+        "Xiaotao Guo",
+        "Nicola Calabretta"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "node synchronization",
+        "wavelength reuse",
+        "low latency",
+        "spectral efficiency",
+        "deterministic latency"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3138456",
+      "cited_by_count": 21,
+      "importance": 0.3006,
+      "score_basis": {
+        "topic_overlap": 0.135,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401907575",
+      "doi": "10.1109/tnsm.2024.3450670",
+      "title": "Dynamic Flow Scheduling for DNN Training Workloads in Data Centers",
+      "authors": [
+        "Xiaoyang Zhao",
+        "Chuan Wu",
+        "Xia Zhu"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Network and Service Management",
+      "venue_abbr": "IEEE Transactions on Network and Service Management",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed deep learning training",
+        "data center networks",
+        "congestion control",
+        "network bandwidth utilization",
+        "parameter server",
+        "AllReduce",
+        "GPU servers"
+      ],
+      "url": "https://doi.org/10.1109/tnsm.2024.3450670",
+      "cited_by_count": 9,
+      "importance": 0.2987,
+      "score_basis": {
+        "topic_overlap": 0.219,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2057332538",
+      "doi": "10.1016/j.jpdc.2008.09.002",
+      "title": "Bandwidth optimal all-reduce algorithms for clusters of workstations",
+      "authors": [
+        "Pitch Patarasuk",
+        "Xin Yuan"
+      ],
+      "year": 2008,
+      "venue": "Journal of Parallel and Distributed Computing",
+      "venue_abbr": "Journal of Parallel and Distributed Computing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "AllReduce",
+        "bandwidth optimization",
+        "clusters of workstations",
+        "communication complexity lower bounds"
+      ],
+      "url": "https://doi.org/10.1016/j.jpdc.2008.09.002",
+      "cited_by_count": 411,
+      "importance": 0.2908,
+      "score_basis": {
+        "topic_overlap": 0.157,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2973727699",
+      "doi": "10.48550/arxiv.1909.08053",
+      "title": "Megatron-LM: Training Multi-Billion Parameter Language Models Using Model Parallelism",
+      "authors": [
+        "Mohammad Shoeybi",
+        "Mostofa Ali Patwary",
+        "Raul Puri",
+        "Patrick LeGresley",
+        "Jared Casper",
+        "Bryan Catanzaro"
+      ],
+      "year": 2019,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "large language models",
+        "transformer models",
+        "multi-GPU training",
+        "memory constraints",
+        "PyTorch",
+        "BERT",
+        "GPT-2",
+        "training efficiency"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.1909.08053",
+      "cited_by_count": 858,
+      "importance": 0.2758,
+      "score_basis": {
+        "topic_overlap": 0.035,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2158893758",
+      "doi": "10.1109/jproc.2006.887322",
+      "title": "Layering as Optimization Decomposition: A Mathematical Theory of Network Architectures",
+      "authors": [
+        "Mung Chiang",
+        "Steven H. Low",
+        "A.R. Calderbank",
+        "John C. Doyle"
+      ],
+      "year": 2007,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "network layering",
+        "optimization decomposition",
+        "protocol stack",
+        "network utility maximization",
+        "distributed optimization",
+        "cross-layer design",
+        "congestion control",
+        "routing",
+        "scheduling",
+        "random access",
+        "power control",
+        "channel coding"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2006.887322",
+      "cited_by_count": 1352,
+      "importance": 0.2734,
+      "score_basis": {
+        "topic_overlap": 0.163,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4399657463",
+      "doi": "10.48550/arxiv.2406.08115",
+      "title": "Resource Allocation and Workload Scheduling for Large-Scale Distributed Deep Learning: A Survey",
+      "authors": [
+        "Feng Liang",
+        "Zhen Zhang",
+        "Haifeng Lu",
+        "Chengming Li",
+        "Victor C. M. Leung",
+        "Yanyi Guo",
+        "Xiping Hu"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "resource allocation",
+        "workload scheduling",
+        "distributed deep learning",
+        "large-scale data centers",
+        "distributed training",
+        "distributed inference",
+        "fault tolerance",
+        "resource heterogeneity",
+        "large language model training",
+        "communication resource management"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2406.08115",
+      "cited_by_count": 7,
+      "importance": 0.2308,
+      "score_basis": {
+        "topic_overlap": 0.068,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3202009823",
+      "doi": "10.1145/3472456.3472467",
+      "title": "Prophet: Speeding up Distributed DNN Training with Predictable Communication Scheduling",
+      "authors": [
+        "Zhenwei Zhang",
+        "Qiang Qi",
+        "Ruitao Shang",
+        "Li Chen",
+        "Fei Xu"
+      ],
+      "year": 2021,
+      "venue": "Proceedings of the International Conference on Parallel Processing",
+      "venue_abbr": "Proceedings of the International Conference on Parallel Processing",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "distributed deep neural network training",
+        "communication scheduling",
+        "GPU utilization",
+        "priority scheduling",
+        "communication-computation overlap"
+      ],
+      "url": "https://doi.org/10.1145/3472456.3472467",
+      "cited_by_count": 10,
+      "importance": 0.2258,
+      "score_basis": {
+        "topic_overlap": 0.057,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388716388",
+      "doi": "10.48550/arxiv.2311.08105",
+      "title": "DiLoCo: Distributed Low-Communication Training of Language Models",
+      "authors": [
+        "Arthur Douillard",
+        "Feng, Qixuan",
+        "Andrei A. Rusu",
+        "Rachita Chhaparia",
+        "Yani Donchev",
+        "Adhiguna Kuncoro",
+        "Marc’Aurelio Ranzato",
+        "Arthur D. Szlam",
+        "Jiajun Shen"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "distributed training",
+        "large language models",
+        "FedAvg",
+        "Nesterov momentum",
+        "AdamW",
+        "heterogeneous clusters",
+        "asynchronous communication",
+        "resource availability"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2311.08105",
+      "cited_by_count": 9,
+      "importance": 0.2162,
+      "score_basis": {
+        "topic_overlap": 0.036,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3106918569",
+      "doi": "10.1109/tcc.2020.3040312",
+      "title": "Efficient Online Scheduling for Coflow-Aware Machine Learning Clusters",
+      "authors": [
+        "Wenxin Li",
+        "Sheng Chen",
+        "Keqiu Li",
+        "Heng Qi",
+        "Renhai Xu",
+        "Song Zhang"
+      ],
+      "year": 2020,
+      "venue": "IEEE Transactions on Cloud Computing",
+      "venue_abbr": "IEEE Transactions on Cloud Computing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "coflow scheduling",
+        "distributed learning",
+        "online scheduling",
+        "job completion time",
+        "bandwidth sharing",
+        "shortest remaining processing time",
+        "competitive ratio",
+        "NP-hardness"
+      ],
+      "url": "https://doi.org/10.1109/tcc.2020.3040312",
+      "cited_by_count": 26,
+      "importance": 0.215,
+      "score_basis": {
+        "topic_overlap": 0.033,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4206790491",
+      "doi": "10.1109/tpds.2021.3138825",
+      "title": "Liquid: Intelligent Resource Estimation and Network-Efficient Scheduling for Deep Learning Jobs on Distributed GPU Clusters",
+      "authors": [
+        "Rong Gu",
+        "Yuquan Chen",
+        "Shuai Liu",
+        "Haipeng Dai",
+        "Guihai Chen",
+        "Kai Zhang",
+        "Yang Che",
+        "Yihua Huang"
+      ],
+      "year": 2021,
+      "venue": "IEEE Transactions on Parallel and Distributed Systems",
+      "venue_abbr": "IEEE Transactions on Parallel and Distributed Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "GPU resource management",
+        "GPU sharing",
+        "batch scheduling",
+        "event-driven communication",
+        "job completion time"
+      ],
+      "url": "https://doi.org/10.1109/tpds.2021.3138825",
+      "cited_by_count": 75,
+      "importance": 0.2143,
+      "score_basis": {
+        "topic_overlap": 0.032,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W3025347955",
+      "to": "W2057332538",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3025347955"
+        }
+      ]
+    },
+    {
+      "from": "W3025347955",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3025347955"
+        }
+      ]
+    },
+    {
+      "from": "W3036907365",
+      "to": "W2141810662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3036907365"
+        }
+      ]
+    },
+    {
+      "from": "W3036907365",
+      "to": "W2613694343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3036907365"
+        }
+      ]
+    },
+    {
+      "from": "W3046344355",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3046344355"
+        }
+      ]
+    },
+    {
+      "from": "W3187255235",
+      "to": "W2973727699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3187255235"
+        }
+      ]
+    },
+    {
+      "from": "W4388557279",
+      "to": "W2141810662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388557279"
+        }
+      ]
+    },
+    {
+      "from": "W4388557279",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388557279"
+        }
+      ]
+    },
+    {
+      "from": "W4388557279",
+      "to": "W3025347955",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388557279"
+        }
+      ]
+    },
+    {
+      "from": "W4388557279",
+      "to": "W3046344355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388557279"
+        }
+      ]
+    },
+    {
+      "from": "W4400237250",
+      "to": "W3187255235",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400237250"
+        }
+      ]
+    },
+    {
+      "from": "W4400237250",
+      "to": "W4389989295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400237250"
+        }
+      ]
+    },
+    {
+      "from": "W4402124690",
+      "to": "W2973727699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402124690"
+        }
+      ]
+    },
+    {
+      "from": "W4402124690",
+      "to": "W3187255235",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402124690"
+        }
+      ]
+    },
+    {
+      "from": "W4402389838",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402389838"
+        }
+      ]
+    },
+    {
+      "from": "W4402389838",
+      "to": "W2973727699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402389838"
+        }
+      ]
+    },
+    {
+      "from": "W4402389838",
+      "to": "W3046344355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402389838"
+        }
+      ]
+    },
+    {
+      "from": "W4402389838",
+      "to": "W3187255235",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402389838"
+        }
+      ]
+    },
+    {
+      "from": "W4416930694",
+      "to": "W3046344355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416930694"
+        }
+      ]
+    },
+    {
+      "from": "W4416930694",
+      "to": "W4206666954",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416930694"
+        }
+      ]
+    },
+    {
+      "from": "W7125820424",
+      "to": "W4206666954",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7125820424"
+        }
+      ]
+    },
+    {
+      "from": "W7125820424",
+      "to": "W4409992267",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7125820424"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W2057332538",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W2141810662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W2158893758",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W2613694343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W2973727699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W3025347955",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W3036907365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W3046344355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W3106918569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W3187255235",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W3202009823",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4206666954",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4206790491",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4388557279",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4388716388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4389989295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4399657463",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4400237250",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4401907575",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4402124690",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4402389838",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4405586305",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4409992267",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W4416930694",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    },
+    {
+      "from": "W7172382335",
+      "to": "W7125820424",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172382335"
+        }
+      ]
+    }
+  ]
 }

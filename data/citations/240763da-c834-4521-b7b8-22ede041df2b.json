@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "240763da-c834-4521-b7b8-22ede041df2b",
-  "root": "doi:10.1364/oe.610358",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7212245888",
+  "status": "ok",
+  "checked_at": "2026-10-28T00:54:47.374996+00:00",
+  "coverage": {
+    "references_found": 23,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 23,
+    "displayed": 23
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/oe.610358",
+      "id": "W7212245888",
       "doi": "10.1364/oe.610358",
       "title": "Gated joint source-channel coding for turbulence-resilient semantic transmission over underwater wireless optical channels",
       "authors": [
@@ -17,22 +27,1703 @@
         "Zhitong Huang",
         "Jie Xu",
         "Yi Gao",
-        "Qiming Gao"
+        "qiming Gao"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Express",
       "venue_abbr": "OE",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "underwater optical communication",
+        "joint source-channel coding",
+        "ocean turbulence",
+        "vision transformer",
+        "depthwise convolution",
+        "spatially correlated fading",
+        "image transmission"
+      ],
       "url": "https://doi.org/10.1364/oe.610358",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/240763da-c834-4521-b7b8-22ede041df2b.html",
       "summary": "摘要报告：UWOC带宽受限使传统分离式信源-信道编码处理高维图像效率低下；现有UWOSC在海洋湍流下性能显著退化。提出gated-JSCC：在ViT-JSCC上引入双端注意力输出门控（把深度衰减token的影响限制在注意力输出内）与深度卷积增强前馈网络（增强空间相关衰落下的局部空间一致性）。仿真覆盖宽SNR、湍流强度与传播距离：较ViT-JSCC基线获得约1.1–1.7 dB一致PSNR增益；同符号预算实验中，在湍流相关的气泡和温度衰落下较传统分离编码优6.1–14.4 dB。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4389953563",
+      "doi": "10.1364/oe.507955",
+      "title": "Design and experimental demonstration of underwater wireless optical communication system based on semantic communication paradigm",
+      "authors": [
+        "Jie Xu",
+        "Zhitong Huang",
+        "Yi Gao",
+        "Wenmin Zhai",
+        "Hongcheng Qiu",
+        "Yuefeng Ji"
+      ],
+      "year": 2023,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "underwater optical communication",
+        "semantic communication",
+        "image transmission",
+        "deep residual convolutional neural network",
+        "long short-term memory networks",
+        "underwater channel modeling",
+        "two-stage training",
+        "turbidity",
+        "bandwidth reduction",
+        "ocean exploration"
+      ],
+      "url": "https://doi.org/10.1364/oe.507955",
+      "cited_by_count": 19,
+      "importance": 0.6984,
+      "score_basis": {
+        "topic_overlap": 0.463,
+        "shared_references": 7,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403674894",
+      "doi": "10.1109/jlt.2024.3485065",
+      "title": "Environment Semantics Aided Underwater Wireless Optical Semantic Communication",
+      "authors": [
+        "Jie Xu",
+        "Zhitong Huang",
+        "Wenmin Zhai",
+        "Hongcheng Qiu",
+        "Yi Gao",
+        "Yuefeng Ji"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "underwater optical communication",
+        "semantic communication",
+        "adaptive code rate",
+        "channel gain estimation",
+        "spectral efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3485065",
+      "cited_by_count": 16,
+      "importance": 0.6718,
+      "score_basis": {
+        "topic_overlap": 0.448,
+        "shared_references": 9,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410610092",
+      "doi": "10.3788/col202523.060601",
+      "title": "Machine vision-based intelligent turbulence perception for underwater wireless optical communication",
+      "authors": [
+        "Yan Jia",
+        "Zhitong Huang",
+        "Jie Xu",
+        "Hongcheng Qiu",
+        "Yi Gao",
+        "Yuefeng Ji"
+      ],
+      "year": 2025,
+      "venue": "Chinese Optics Letters",
+      "venue_abbr": "COL",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "machine vision"
+      ],
+      "url": "https://doi.org/10.3788/col202523.060601",
+      "cited_by_count": 5,
+      "importance": 0.6112,
+      "score_basis": {
+        "topic_overlap": 0.358,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7128488577",
+      "doi": "10.1109/jiot.2026.3663138",
+      "title": "Adaptive Symbol and Power Loading for OFDM-Based Underwater Wireless Optical Semantic Communications",
+      "authors": [
+        "Jie Xu",
+        "Zhitong Huang",
+        "Yi Gao",
+        "Hongcheng Qiu",
+        "Yuefeng Ji"
+      ],
+      "year": 2026,
+      "venue": "IEEE Internet of Things Journal",
+      "venue_abbr": "IEEE Internet of Things Journal",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "semantic communication",
+        "OFDM",
+        "Internet of Underwater Things",
+        "hierarchical vision transformer",
+        "optoelectronic devices"
+      ],
+      "url": "https://doi.org/10.1109/jiot.2026.3663138",
+      "cited_by_count": 2,
+      "importance": 0.6091,
+      "score_basis": {
+        "topic_overlap": 0.465,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388494198",
+      "doi": "10.1364/oe.500053",
+      "title": "Bubbles-induced turbulence channel prediction mechanism based on machine vision in underwater wireless optical communication",
+      "authors": [
+        "Zhixin Dong",
+        "Zhitong Huang",
+        "Hongcheng Qiu",
+        "Jie Xu",
+        "Yuefeng Ji"
+      ],
+      "year": 2023,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "underwater optical communication",
+        "bubbles",
+        "bubble-induced turbulence",
+        "channel prediction",
+        "machine vision",
+        "underwater channel modeling"
+      ],
+      "url": "https://doi.org/10.1364/oe.500053",
+      "cited_by_count": 11,
+      "importance": 0.6035,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2897734900",
+      "doi": "10.1109/tcomm.2019.2891542",
+      "title": "Unified Statistical Channel Model for Turbulence-Induced Fading in Underwater Wireless Optical Communication Systems",
+      "authors": [
+        "Emna Zedini",
+        "Hassan M. Oubei",
+        "Abla Kammoun",
+        "Mounir Hamdi",
+        "Boon Siew Ooi",
+        "Mohamed‐Slim Alouini"
+      ],
+      "year": 2019,
+      "venue": "IEEE Transactions on Communications",
+      "venue_abbr": "IEEE Trans. Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "underwater optical communication",
+        "turbulence-induced fading",
+        "statistical channel model",
+        "air bubbles",
+        "temperature gradient",
+        "irradiance fluctuations",
+        "expectation-maximization estimation",
+        "outage probability",
+        "bit error rate",
+        "ergodic capacity"
+      ],
+      "url": "https://doi.org/10.1109/tcomm.2019.2891542",
+      "cited_by_count": 318,
+      "importance": 0.5774,
+      "score_basis": {
+        "topic_overlap": 0.439,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313446194",
+      "doi": "10.1364/ol.481958",
+      "title": "Unified statistical thermocline channel model for underwater wireless optical communication",
+      "authors": [
+        "Hongcheng Qiu",
+        "Zhitong Huang",
+        "Jie Xu",
+        "Wenmin Zhai",
+        "Yi Gao",
+        "Yuefeng Ji"
+      ],
+      "year": 2023,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "underwater optical communication",
+        "ocean turbulence",
+        "air bubbles",
+        "optical channel modeling",
+        "temperature and salinity gradients"
+      ],
+      "url": "https://doi.org/10.1364/ol.481958",
+      "cited_by_count": 24,
+      "importance": 0.5682,
+      "score_basis": {
+        "topic_overlap": 0.352,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2996666220",
+      "doi": "10.1109/jlt.2019.2960131",
+      "title": "A Review on Practical Considerations and Solutions in Underwater Wireless Optical Communication",
+      "authors": [
+        "Xiaobin Sun",
+        "Chun Hong Kang",
+        "Meiwei Kong",
+        "Omar Alkhazragi",
+        "Yujian Guo",
+        "Mustapha Ouhssain",
+        "Yang Weng",
+        "Burton H. Jones",
+        "Tien Khee Ng",
+        "Boon Siew Ooi"
+      ],
+      "year": 2019,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "underwater optical communication",
+        "Internet of Underwater Things",
+        "ocean turbulence",
+        "beam misalignment",
+        "pointing, acquisition, and tracking",
+        "non-line-of-sight communication",
+        "light scattering",
+        "solar cells",
+        "energy harvesting",
+        "underwater wireless sensor networks"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2019.2960131",
+      "cited_by_count": 280,
+      "importance": 0.5475,
+      "score_basis": {
+        "topic_overlap": 0.306,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2607000399",
+      "doi": "10.1109/comst.2016.2618841",
+      "title": "A Survey of Underwater Optical Wireless Communications",
+      "authors": [
+        "Zhaoquan Zeng",
+        "Shu Fu",
+        "Huihui Zhang",
+        "Yuhan Dong",
+        "Julian Cheng"
+      ],
+      "year": 2016,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "underwater wireless communication",
+        "light absorption and scattering",
+        "modulation schemes",
+        "channel coding",
+        "free-space optical communication",
+        "underwater acoustic communication",
+        "environmental monitoring",
+        "offshore exploration"
+      ],
+      "url": "https://doi.org/10.1109/comst.2016.2618841",
+      "cited_by_count": 1284,
+      "importance": 0.547,
+      "score_basis": {
+        "topic_overlap": 0.438,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403598779",
+      "doi": "10.1109/jlt.2024.3484570",
+      "title": "Underwater Wireless Optical Communications: From the Lab Tank to the Real Sea",
+      "authors": [
+        "Jing Xu",
+        "Yufan Zhang"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "underwater optical communication",
+        "sea trials",
+        "transceiver",
+        "signal processing",
+        "atmospheric turbulence",
+        "misalignment",
+        "multi-hop communication",
+        "underwater wireless sensor networks",
+        "high-definition video transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3484570",
+      "cited_by_count": 38,
+      "importance": 0.4807,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2964218076",
+      "doi": "10.1109/tcomm.2018.2842212",
+      "title": "Statistical Studies of Fading in Underwater Wireless Optical Channels in the Presence of Air Bubble, Temperature, and Salinity Random Variations",
+      "authors": [
+        "Mohammad Vahid Jamali",
+        "Ali Mirani",
+        "Alireza Parsay",
+        "Bahman Abolhassani",
+        "Pooya Nabavi",
+        "Ata Chizari",
+        "Pirazh Khorramshahi",
+        "Sajjad Abdollahramezani",
+        "Jawad A. Salehi"
+      ],
+      "year": 2018,
+      "venue": "IEEE Transactions on Communications",
+      "venue_abbr": "IEEE Trans. Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "underwater optical communication",
+        "fading",
+        "intensity fluctuations",
+        "air bubbles",
+        "temperature variation",
+        "salinity change",
+        "refractive index fluctuations",
+        "scintillation index",
+        "turbulent flow",
+        "channel coherence time",
+        "generalized gamma distribution",
+        "exponentiated Weibull distribution"
+      ],
+      "url": "https://doi.org/10.1109/tcomm.2018.2842212",
+      "cited_by_count": 307,
+      "importance": 0.4708,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388739236",
+      "doi": "10.1109/comst.2023.3333342",
+      "title": "Semantics-Empowered Communications: A Tutorial-Cum-Survey",
+      "authors": [
+        "Zhilin Lu",
+        "Rongpeng Li",
+        "Kun Lu",
+        "Xianfu Chen",
+        "Ekram Hossain",
+        "Zhifeng Zhao",
+        "Honggang Zhang"
+      ],
+      "year": 2023,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "content semantics",
+        "semantic accuracy",
+        "semantic robustness",
+        "scalability",
+        "research taxonomy"
+      ],
+      "url": "https://doi.org/10.1109/comst.2023.3333342",
+      "cited_by_count": 140,
+      "importance": 0.4284,
+      "score_basis": {
+        "topic_overlap": 0.019,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3107617916",
+      "doi": "10.1109/tcsvt.2021.3082521",
+      "title": "Wireless Image Transmission Using Deep Source Channel Coding With Attention Modules",
+      "authors": [
+        "Jialong Xu",
+        "Bo Ai",
+        "Wei Ren Chen",
+        "Ang Yang",
+        "Peng Sun",
+        "Miguel R. D. Rodrigues"
+      ],
+      "year": 2021,
+      "venue": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "venue_abbr": "IEEE Transactions on Circuits and Systems for Video Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "joint source-channel coding",
+        "wireless image transmission",
+        "attention mechanism",
+        "channel mismatch",
+        "resource allocation"
+      ],
+      "url": "https://doi.org/10.1109/tcsvt.2021.3082521",
+      "cited_by_count": 518,
+      "importance": 0.4282,
+      "score_basis": {
+        "topic_overlap": 0.152,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313350220",
+      "doi": "10.1109/jsac.2022.3221999",
+      "title": "Toward Semantic Communications: Deep Learning-Based Image Semantic Coding",
+      "authors": [
+        "Danlan Huang",
+        "Feifei Gao",
+        "Xiaoming Tao",
+        "Qiyuan Du",
+        "Jianhua Lü"
+      ],
+      "year": 2022,
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "venue_abbr": "JSAC",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "semantic communication",
+        "reinforcement learning",
+        "adaptive quantization",
+        "semantic encoder",
+        "generative adversarial networks",
+        "attention mechanism"
+      ],
+      "url": "https://doi.org/10.1109/jsac.2022.3221999",
+      "cited_by_count": 333,
+      "importance": 0.4225,
+      "score_basis": {
+        "topic_overlap": 0.072,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2946889564",
+      "doi": "10.1109/tccn.2019.2919300",
+      "title": "Deep Joint Source-Channel Coding for Wireless Image Transmission",
+      "authors": [
+        "Eirina Bourtsoulatze",
+        "David Burth Kurka",
+        "Denız Gündüz"
+      ],
+      "year": 2019,
+      "venue": "IEEE Transactions on Cognitive Communications and Networking",
+      "venue_abbr": "IEEE Transactions on Cognitive Communications and Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "joint source-channel coding",
+        "wireless image transmission",
+        "convolutional neural networks",
+        "autoencoder",
+        "cliff effect",
+        "Rayleigh fading",
+        "AWGN channel",
+        "image compression",
+        "error correction",
+        "capacity-achieving codes",
+        "low signal-to-noise ratio"
+      ],
+      "url": "https://doi.org/10.1109/tccn.2019.2919300",
+      "cited_by_count": 1500,
+      "importance": 0.4057,
+      "score_basis": {
+        "topic_overlap": 0.124,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400409682",
+      "doi": "10.1109/tccn.2024.3424842",
+      "title": "SwinJSCC: Taming Swin Transformer for Deep Joint Source-Channel Coding",
+      "authors": [
+        "Ke Yang",
+        "Sixian Wang",
+        "Jincheng Dai",
+        "Xiaoqi Qin",
+        "Kai Niu",
+        "Ping Zhang"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Cognitive Communications and Networking",
+      "venue_abbr": "IEEE Transactions on Cognitive Communications and Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Swin Transformer",
+        "semantic communication",
+        "spatial modulation",
+        "channel state information",
+        "transmission rate adaptation",
+        "image transmission",
+        "model capacity"
+      ],
+      "url": "https://doi.org/10.1109/tccn.2024.3424842",
+      "cited_by_count": 222,
+      "importance": 0.3752,
+      "score_basis": {
+        "topic_overlap": 0.167,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3036851434",
+      "doi": "10.1109/tsp.2021.3071210",
+      "title": "Deep Learning Enabled Semantic Communication Systems",
+      "authors": [
+        "Huiqiang Xie",
+        "Zhijin Qin",
+        "Geoffrey Ye Li",
+        "Biing-Hwang Fred Juang"
+      ],
+      "year": 2021,
+      "venue": "IEEE Transactions on Signal Processing",
+      "venue_abbr": "IEEE Transactions on Signal Processing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "semantic communication",
+        "textual transmission",
+        "transformer models",
+        "transfer learning",
+        "low SNR performance"
+      ],
+      "url": "https://doi.org/10.1109/tsp.2021.3071210",
+      "cited_by_count": 1596,
+      "importance": 0.3655,
+      "score_basis": {
+        "topic_overlap": 0.079,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4292972664",
+      "doi": "10.1109/mcom.001.2200099",
+      "title": "A Paradigm Shift toward Semantic Communications",
+      "authors": [
+        "Kai Niu",
+        "Jincheng Dai",
+        "Shengshi Yao",
+        "Sixian Wang",
+        "Zhongwei Si",
+        "Xiaoqi Qin",
+        "Ping Zhang"
+      ],
+      "year": 2022,
+      "venue": "IEEE Communications Magazine",
+      "venue_abbr": "IEEE Communications Magazine",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "semantic communication",
+        "semantic compression",
+        "information theory",
+        "source coding",
+        "channel coding",
+        "quality of service",
+        "data transmission efficiency"
+      ],
+      "url": "https://doi.org/10.1109/mcom.001.2200099",
+      "cited_by_count": 119,
+      "importance": 0.3416,
+      "score_basis": {
+        "topic_overlap": 0.115,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2037185816",
+      "doi": "10.1364/ao.54.001273",
+      "title": "Underwater optical communication performance for laser beam propagation through weak oceanic turbulence",
+      "authors": [
+        "Xiang Yi",
+        "Zan Li",
+        "Zengji Liu"
+      ],
+      "year": 2015,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "ocean turbulence",
+        "refractive index fluctuations",
+        "scintillation index",
+        "signal-to-noise ratio",
+        "bit error rate",
+        "temperature dissipation rate",
+        "plane wave propagation",
+        "spherical wave propagation"
+      ],
+      "url": "https://doi.org/10.1364/ao.54.001273",
+      "cited_by_count": 195,
+      "importance": 0.3385,
+      "score_basis": {
+        "topic_overlap": 0.174,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2794276328",
+      "doi": "10.1364/ao.57.002057",
+      "title": "Performance of heterodyne differential phase-shift-keying underwater wireless optical communication systems in gamma-gamma-distributed turbulence",
+      "authors": [
+        "Yuqing Fu",
+        "Yongzhao Du"
+      ],
+      "year": 2018,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "heterodyne detection",
+        "differential phase-shift keying",
+        "Gamma-Gamma turbulence",
+        "atmospheric turbulence",
+        "scintillation index",
+        "spherical wave propagation",
+        "bit error rate",
+        "outage probability",
+        "refractive index spectrum",
+        "absorption and scattering",
+        "turbulence dissipation rate"
+      ],
+      "url": "https://doi.org/10.1364/ao.57.002057",
+      "cited_by_count": 55,
+      "importance": 0.3289,
+      "score_basis": {
+        "topic_overlap": 0.286,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3016715915",
+      "doi": "10.1109/jsait.2020.2987203",
+      "title": "DeepJSCC- f : Deep Joint Source-Channel Coding of Images With Feedback",
+      "authors": [
+        "David Burth Kurka",
+        "Denız Gündüz"
+      ],
+      "year": 2020,
+      "venue": "IEEE Journal on Selected Areas in Information Theory",
+      "venue_abbr": "IEEE Journal on Selected Areas in Information Theory",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "joint source-channel coding",
+        "image transmission",
+        "autoencoder",
+        "deep learning for communications",
+        "finite blocklength regime",
+        "separation principle",
+        "image reconstruction",
+        "average delay"
+      ],
+      "url": "https://doi.org/10.1109/jsait.2020.2987203",
+      "cited_by_count": 479,
+      "importance": 0.3162,
+      "score_basis": {
+        "topic_overlap": 0.103,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3214462705",
+      "doi": "10.1109/jsac.2021.3126087",
+      "title": "Learning Task-Oriented Communication for Edge Inference: An Information Bottleneck Approach",
+      "authors": [
+        "Jiawei Shao",
+        "Yuyi Mao",
+        "Jun Zhang"
+      ],
+      "year": 2021,
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "venue_abbr": "JSAC",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "task-oriented communication",
+        "edge inference",
+        "information bottleneck",
+        "variational information bottleneck",
+        "rate-distortion tradeoff",
+        "feature extraction",
+        "source coding",
+        "channel coding",
+        "sparsity-inducing priors",
+        "dynamic neural networks",
+        "dynamic channel conditions",
+        "low-latency inference"
+      ],
+      "url": "https://doi.org/10.1109/jsac.2021.3126087",
+      "cited_by_count": 341,
+      "importance": 0.2954,
+      "score_basis": {
+        "topic_overlap": 0.057,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2133665775",
+      "doi": "10.1109/tip.2003.819861",
+      "title": "Image quality assessment: from error visibility to structural similarity",
+      "authors": [
+        "Zhou Wang",
+        "Alan Conrad Bovik",
+        "Hamid R. Sheikh",
+        "Eero P. Simoncelli"
+      ],
+      "year": 2004,
+      "venue": "IEEE Transactions on Image Processing",
+      "venue_abbr": "IEEE Transactions on Image Processing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "image quality assessment",
+        "structural similarity",
+        "structural similarity index",
+        "human visual system",
+        "perceptual image quality",
+        "JPEG compression",
+        "JPEG2000",
+        "image compression"
+      ],
+      "url": "https://doi.org/10.1109/tip.2003.819861",
+      "cited_by_count": 57762,
+      "importance": 0.2679,
+      "score_basis": {
+        "topic_overlap": 0.018,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2607000399",
+      "to": "W2037185816",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2607000399"
+        }
+      ]
+    },
+    {
+      "from": "W2897734900",
+      "to": "W2037185816",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2897734900"
+        }
+      ]
+    },
+    {
+      "from": "W2897734900",
+      "to": "W2607000399",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2897734900"
+        }
+      ]
+    },
+    {
+      "from": "W2946889564",
+      "to": "W2133665775",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2946889564"
+        }
+      ]
+    },
+    {
+      "from": "W2964218076",
+      "to": "W2037185816",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2964218076"
+        }
+      ]
+    },
+    {
+      "from": "W2996666220",
+      "to": "W2607000399",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2996666220"
+        }
+      ]
+    },
+    {
+      "from": "W2996666220",
+      "to": "W2897734900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2996666220"
+        }
+      ]
+    },
+    {
+      "from": "W2996666220",
+      "to": "W2964218076",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2996666220"
+        }
+      ]
+    },
+    {
+      "from": "W3016715915",
+      "to": "W2946889564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3016715915"
+        }
+      ]
+    },
+    {
+      "from": "W3036851434",
+      "to": "W2946889564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3036851434"
+        }
+      ]
+    },
+    {
+      "from": "W3107617916",
+      "to": "W2946889564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3107617916"
+        }
+      ]
+    },
+    {
+      "from": "W3107617916",
+      "to": "W3016715915",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3107617916"
+        }
+      ]
+    },
+    {
+      "from": "W3214462705",
+      "to": "W2946889564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3214462705"
+        }
+      ]
+    },
+    {
+      "from": "W4292972664",
+      "to": "W3036851434",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4292972664"
+        }
+      ]
+    },
+    {
+      "from": "W4313350220",
+      "to": "W2946889564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313350220"
+        }
+      ]
+    },
+    {
+      "from": "W4313350220",
+      "to": "W3036851434",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313350220"
+        }
+      ]
+    },
+    {
+      "from": "W4313350220",
+      "to": "W3107617916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313350220"
+        }
+      ]
+    },
+    {
+      "from": "W4313446194",
+      "to": "W2607000399",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313446194"
+        }
+      ]
+    },
+    {
+      "from": "W4313446194",
+      "to": "W2897734900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313446194"
+        }
+      ]
+    },
+    {
+      "from": "W4313446194",
+      "to": "W2964218076",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313446194"
+        }
+      ]
+    },
+    {
+      "from": "W4388494198",
+      "to": "W2607000399",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388494198"
+        }
+      ]
+    },
+    {
+      "from": "W4388494198",
+      "to": "W2897734900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388494198"
+        }
+      ]
+    },
+    {
+      "from": "W4388494198",
+      "to": "W2964218076",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388494198"
+        }
+      ]
+    },
+    {
+      "from": "W4388494198",
+      "to": "W4313446194",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388494198"
+        }
+      ]
+    },
+    {
+      "from": "W4388739236",
+      "to": "W2946889564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388739236"
+        }
+      ]
+    },
+    {
+      "from": "W4388739236",
+      "to": "W3036851434",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388739236"
+        }
+      ]
+    },
+    {
+      "from": "W4388739236",
+      "to": "W3107617916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388739236"
+        }
+      ]
+    },
+    {
+      "from": "W4388739236",
+      "to": "W4313350220",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388739236"
+        }
+      ]
+    },
+    {
+      "from": "W4389953563",
+      "to": "W2133665775",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389953563"
+        }
+      ]
+    },
+    {
+      "from": "W4389953563",
+      "to": "W2607000399",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389953563"
+        }
+      ]
+    },
+    {
+      "from": "W4389953563",
+      "to": "W2946889564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389953563"
+        }
+      ]
+    },
+    {
+      "from": "W4389953563",
+      "to": "W2996666220",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389953563"
+        }
+      ]
+    },
+    {
+      "from": "W4389953563",
+      "to": "W3036851434",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389953563"
+        }
+      ]
+    },
+    {
+      "from": "W4389953563",
+      "to": "W4292972664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389953563"
+        }
+      ]
+    },
+    {
+      "from": "W4389953563",
+      "to": "W4313350220",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389953563"
+        }
+      ]
+    },
+    {
+      "from": "W4400409682",
+      "to": "W2946889564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400409682"
+        }
+      ]
+    },
+    {
+      "from": "W4400409682",
+      "to": "W3107617916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400409682"
+        }
+      ]
+    },
+    {
+      "from": "W4403598779",
+      "to": "W2996666220",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403598779"
+        }
+      ]
+    },
+    {
+      "from": "W4403674894",
+      "to": "W2133665775",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403674894"
+        }
+      ]
+    },
+    {
+      "from": "W4403674894",
+      "to": "W2607000399",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403674894"
+        }
+      ]
+    },
+    {
+      "from": "W4403674894",
+      "to": "W2946889564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403674894"
+        }
+      ]
+    },
+    {
+      "from": "W4403674894",
+      "to": "W3214462705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403674894"
+        }
+      ]
+    },
+    {
+      "from": "W4403674894",
+      "to": "W4292972664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403674894"
+        }
+      ]
+    },
+    {
+      "from": "W4403674894",
+      "to": "W4313446194",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403674894"
+        }
+      ]
+    },
+    {
+      "from": "W4403674894",
+      "to": "W4388494198",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403674894"
+        }
+      ]
+    },
+    {
+      "from": "W4403674894",
+      "to": "W4388739236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403674894"
+        }
+      ]
+    },
+    {
+      "from": "W4403674894",
+      "to": "W4389953563",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403674894"
+        }
+      ]
+    },
+    {
+      "from": "W4410610092",
+      "to": "W2607000399",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410610092"
+        }
+      ]
+    },
+    {
+      "from": "W4410610092",
+      "to": "W2897734900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410610092"
+        }
+      ]
+    },
+    {
+      "from": "W4410610092",
+      "to": "W2964218076",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410610092"
+        }
+      ]
+    },
+    {
+      "from": "W4410610092",
+      "to": "W2996666220",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410610092"
+        }
+      ]
+    },
+    {
+      "from": "W4410610092",
+      "to": "W4313446194",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410610092"
+        }
+      ]
+    },
+    {
+      "from": "W4410610092",
+      "to": "W4388494198",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410610092"
+        }
+      ]
+    },
+    {
+      "from": "W7128488577",
+      "to": "W2946889564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7128488577"
+        }
+      ]
+    },
+    {
+      "from": "W7128488577",
+      "to": "W4389953563",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7128488577"
+        }
+      ]
+    },
+    {
+      "from": "W7128488577",
+      "to": "W4403598779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7128488577"
+        }
+      ]
+    },
+    {
+      "from": "W7128488577",
+      "to": "W4403674894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7128488577"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W2037185816",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W2133665775",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W2607000399",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W2794276328",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W2897734900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W2946889564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W2964218076",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W2996666220",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W3016715915",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W3036851434",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W3107617916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W3214462705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W4292972664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W4313350220",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W4313446194",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W4388494198",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W4388739236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W4389953563",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W4400409682",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W4403598779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W4403674894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W4410610092",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    },
+    {
+      "from": "W7212245888",
+      "to": "W7128488577",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212245888"
+        }
+      ]
+    }
+  ]
 }

@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "4610b565-345e-489d-9ff9-14ba810d5bce",
-  "root": "doi:10.1364/ol.611498",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7204903777",
+  "status": "ok",
+  "checked_at": "2026-10-28T00:54:49.948845+00:00",
+  "coverage": {
+    "references_found": 22,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 22,
+    "displayed": 22
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ol.611498",
+      "id": "W7204903777",
       "doi": "10.1364/ol.611498",
       "title": "High-responsivity germanium photodetector enabled by dual corner reflectors",
       "authors": [
@@ -20,20 +30,1664 @@
         "Yeyu Tong",
         "Ke Xu"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Letters",
       "venue_abbr": "OL",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "germanium photodetectors",
+        "waveguide photodetectors",
+        "Ge/Si heterostructures",
+        "responsivity",
+        "dark current",
+        "bandwidth",
+        "light recycling",
+        "1550 nm",
+        "high-speed optical receivers"
+      ],
       "url": "https://doi.org/10.1364/ol.611498",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/4610b565-345e-489d-9ff9-14ba810d5bce.html",
       "summary": "摘要报告：锗波导探测器是硅光收发机的基本构件，但增大吸收区面积会牺牲暗电流与带宽，需提高单位面积响应度。演示带Si/Ge双角反射器的垂直锗探测器，在Si与Ge层内循环回收未吸收光：有源区仅4.8 µm×3.7 µm；1550 nm响应度0.93 A/W、−2 V暗电流1.7 nA（单位面积响应度显著提高）；小有源区使实测3 dB带宽达77 GHz，支持112 Gbps NRZ与224 Gbps PAM-4接收。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4402905224",
+      "doi": "10.1364/prj.532212",
+      "title": "High-performance compact vertical germanium photodiodes enabled by silicon corner reflectors",
+      "authors": [
+        "Wei Chen",
+        "Yang Shi",
+        "Yilun Wang",
+        "Mingjie Zou",
+        "Wen Zhang",
+        "Yu Yu",
+        "Xinliang Zhang"
+      ],
+      "year": 2024,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "germanium photodiodes",
+        "light recycling",
+        "evanescent coupling",
+        "responsivity enhancement",
+        "dark current reduction",
+        "bandwidth",
+        "silicon photonics",
+        "optical detection",
+        "1550 nm",
+        "noise equivalent power"
+      ],
+      "url": "https://doi.org/10.1364/prj.532212",
+      "cited_by_count": 12,
+      "importance": 0.7339,
+      "score_basis": {
+        "topic_overlap": 0.586,
+        "shared_references": 9,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4318619926",
+      "doi": "10.1088/1674-4926/44/1/012301",
+      "title": "75 GHz germanium waveguide photodetector with 64 Gbps data rates utilizing an inductive-gain-peaking technique",
+      "authors": [
+        "Xiuli Li",
+        "Yupeng Zhu",
+        "Zhi Liu",
+        "Linzhi Peng",
+        "Xiangquan Liu",
+        "Chaoqun Niu",
+        "Jun Zheng",
+        "Yuhua Zuo",
+        "Buwen Cheng"
+      ],
+      "year": 2023,
+      "venue": "Journal of Semiconductors",
+      "venue_abbr": "J. Semicond.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated inductors",
+        "frequency response",
+        "dark current",
+        "optical responsivity",
+        "open eye diagram",
+        "high-speed optical receivers"
+      ],
+      "url": "https://doi.org/10.1088/1674-4926/44/1/012301",
+      "cited_by_count": 32,
+      "importance": 0.7127,
+      "score_basis": {
+        "topic_overlap": 0.517,
+        "shared_references": 4,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3127547995",
+      "doi": "10.1364/prj.416887",
+      "title": "80 GHz germanium waveguide photodiode enabled by parasitic parameter engineering",
+      "authors": [
+        "Yang Shi",
+        "De Zhou",
+        "Yu Yu",
+        "Xinliang Zhang"
+      ],
+      "year": 2021,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "bandwidth enhancement",
+        "PIN photodiode",
+        "silicon photonics",
+        "high-speed photodetection",
+        "responsivity",
+        "dark current"
+      ],
+      "url": "https://doi.org/10.1364/prj.416887",
+      "cited_by_count": 46,
+      "importance": 0.6483,
+      "score_basis": {
+        "topic_overlap": 0.552,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416765346",
+      "doi": "10.1021/acsphotonics.5c01735",
+      "title": "Ultra-Compact Lateral Junction Germanium Photodiode with a Bandwidth of 136 GHz",
+      "authors": [
+        "Mingjie Zou",
+        "Yang Shi",
+        "Zuhang Li",
+        "Yu Yu",
+        "Xinliang Zhang"
+      ],
+      "year": 2025,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "germanium photodiodes",
+        "lateral junctions",
+        "optical interconnects",
+        "butt coupling",
+        "on-chip inductors",
+        "bandwidth density",
+        "high-density integration",
+        "PAM-4"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.5c01735",
+      "cited_by_count": 3,
+      "importance": 0.6319,
+      "score_basis": {
+        "topic_overlap": 0.404,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416954915",
+      "doi": "10.1364/optica.572859",
+      "title": "100 GHz bandwidth ultra-thin germanium photodetectors with high responsivity on a 300 mm silicon photonics process",
+      "authors": [
+        "Xu Wang",
+        "Xiaohua Hu",
+        "Jinwen Song",
+        "Weihua Wang",
+        "Li Qiang Xu",
+        "Fengxin Yu",
+        "Chengkun Yang",
+        "Ting Xia",
+        "Xin Wang",
+        "Ruoyu Shen",
+        "Fenghe Yang",
+        "Hai Sheng Zhao",
+        "Wei Chu",
+        "Haiwen Cai"
+      ],
+      "year": 2025,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "germanium photodetectors",
+        "chemical mechanical polishing",
+        "responsivity",
+        "dark current",
+        "quantum efficiency",
+        "1550 nm",
+        "coherent optical systems",
+        "CMOS-compatible fabrication"
+      ],
+      "url": "https://doi.org/10.1364/optica.572859",
+      "cited_by_count": 7,
+      "importance": 0.6207,
+      "score_basis": {
+        "topic_overlap": 0.491,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4281849792",
+      "doi": "10.1364/prj.456772",
+      "title": "Silicon photonics for high-capacity data communications",
+      "authors": [
+        "Yaocheng Shi",
+        "Yong Zhang",
+        "Yating Wan",
+        "Yu Yu",
+        "Yuguang Zhang",
+        "Xiao Hu",
+        "Xi Xiao",
+        "Hongnan Xu",
+        "Long Zhang",
+        "Bingcheng Pan"
+      ],
+      "year": 2022,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "photonic integrated circuits",
+        "optical modulators",
+        "photodetectors",
+        "silicon waveguides",
+        "passive optical components",
+        "data center interconnects",
+        "network-on-chip"
+      ],
+      "url": "https://doi.org/10.1364/prj.456772",
+      "cited_by_count": 313,
+      "importance": 0.6117,
+      "score_basis": {
+        "topic_overlap": 0.27,
+        "shared_references": 6,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4367173686",
+      "doi": "10.1364/oe.486947",
+      "title": "420 Gbit/s optical signal reception enabled by an inductive gain peaking Ge-Si photodetector with 80 GHz bandwidth",
+      "authors": [
+        "Xiao Hu",
+        "Dingyi Wu",
+        "Ye Liu",
+        "Min Liu",
+        "Daigao Chen",
+        "Lei Wang",
+        "Xi Xiao",
+        "Shaohua Yu"
+      ],
+      "year": 2023,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "PAM-4",
+        "PAM-8",
+        "NRZ",
+        "bit error rate",
+        "silicon photonics",
+        "intensity modulation and direct detection",
+        "coherent optical receivers"
+      ],
+      "url": "https://doi.org/10.1364/oe.486947",
+      "cited_by_count": 23,
+      "importance": 0.605,
+      "score_basis": {
+        "topic_overlap": 0.3,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392049004",
+      "doi": "10.1364/ao.518425",
+      "title": "High-uniformity and high-performance waveguide Ge photodetectors for the O and C bands",
+      "authors": [
+        "Xinyu Li",
+        "Qiang Xu",
+        "Song Ruogu",
+        "Jinyu Wang",
+        "Shuxiao Wang",
+        "Wencheng Yue",
+        "Wei Wang",
+        "Yan Cai",
+        "Mingbin Yu"
+      ],
+      "year": 2024,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "germanium photodetectors",
+        "waveguide photodetectors",
+        "O-band",
+        "C-band",
+        "responsivity",
+        "dark current",
+        "device uniformity",
+        "optical receiver"
+      ],
+      "url": "https://doi.org/10.1364/ao.518425",
+      "cited_by_count": 3,
+      "importance": 0.5894,
+      "score_basis": {
+        "topic_overlap": 0.532,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3212286684",
+      "doi": "10.1038/s41566-021-00893-w",
+      "title": "Ultra-fast germanium photodiode with 3-dB bandwidth of 265 GHz",
+      "authors": [
+        "Stefan Lischke",
+        "Anna Pęczek",
+        "Jesse Morgan",
+        "Keye Sun",
+        "Daniel Steckler",
+        "Yuji Yamamoto",
+        "Falk Korndorfer",
+        "Christian Mai",
+        "S. Marschmeyer",
+        "Mirko Fraschke",
+        "A. Krüger",
+        "Andréas Beling",
+        "Lars Zimmermann"
+      ],
+      "year": 2021,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "germanium photodiodes",
+        "germanium on silicon",
+        "high-speed photodetection",
+        "3-dB bandwidth",
+        "fin structure",
+        "dark current",
+        "bandwidth-efficiency product",
+        "silicon photonics",
+        "1550 nm"
+      ],
+      "url": "https://doi.org/10.1038/s41566-021-00893-w",
+      "cited_by_count": 349,
+      "importance": 0.5715,
+      "score_basis": {
+        "topic_overlap": 0.492,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4282972382",
+      "doi": "10.1364/prj.455291",
+      "title": "67 GHz light-trapping-structure germanium photodetector supporting 240 Gb/s PAM-4 transmission",
+      "authors": [
+        "Daigao Chen",
+        "Hongguang Zhang",
+        "Min Liu",
+        "Xiao Ying Hu",
+        "Yuguang Zhang",
+        "Dingyi Wu",
+        "Peiqi Zhou",
+        "Siyao Chang",
+        "Lei Wang",
+        "Xi Xiao"
+      ],
+      "year": 2022,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "germanium photodetectors",
+        "dark current",
+        "fiber transmission",
+        "1550 nm",
+        "digital signal processing"
+      ],
+      "url": "https://doi.org/10.1364/prj.455291",
+      "cited_by_count": 38,
+      "importance": 0.5533,
+      "score_basis": {
+        "topic_overlap": 0.385,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2774045588",
+      "doi": "10.1364/ol.42.005141",
+      "title": "High-performance Ge-on-Si photodetector with optimized DBR location",
+      "authors": [
+        "Jishi Cui",
+        "Zhiping Zhou"
+      ],
+      "year": 2017,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Ge-on-Si photodetectors",
+        "distributed Bragg reflector",
+        "germanium photodetectors",
+        "responsivity",
+        "dark current",
+        "bandwidth",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1364/ol.42.005141",
+      "cited_by_count": 48,
+      "importance": 0.5186,
+      "score_basis": {
+        "topic_overlap": 0.419,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3045101653",
+      "doi": "10.1109/jphot.2020.3010502",
+      "title": "High-Performance Microring Resonator Ge-on-Si Photodetectors by Optimizing Absorption Layer Length",
+      "authors": [
+        "Jishi Cui",
+        "Tiantian Li",
+        "Hongmin Chen",
+        "Wenjing Cui"
+      ],
+      "year": 2020,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "germanium on silicon",
+        "light field distribution",
+        "silicon waveguides",
+        "responsivity",
+        "dark current",
+        "bandwidth",
+        "1550 nm",
+        "optical absorption"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2020.3010502",
+      "cited_by_count": 12,
+      "importance": 0.4902,
+      "score_basis": {
+        "topic_overlap": 0.312,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4283030564",
+      "doi": "10.1364/optica.462609",
+      "title": "High-speed waveguide Ge/Si avalanche photodiode with a gain-bandwidth product of 615 GHz",
+      "authors": [
+        "Yuluan Xiang",
+        "Hengzhen Cao",
+        "Chaoyue Liu",
+        "Jingshu Guo",
+        "Daoxin Dai A"
+      ],
+      "year": 2022,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "waveguide photodetectors",
+        "gain-bandwidth product",
+        "high-speed optical receivers",
+        "O-band",
+        "avalanche gain",
+        "NRZ signals",
+        "PAM-4",
+        "forward error correction",
+        "receiver sensitivity"
+      ],
+      "url": "https://doi.org/10.1364/optica.462609",
+      "cited_by_count": 79,
+      "importance": 0.4791,
+      "score_basis": {
+        "topic_overlap": 0.465,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1970588388",
+      "doi": "10.1364/oe.21.028387",
+      "title": "Germanium photodetector with 60 GHz bandwidth using inductive gain peaking",
+      "authors": [
+        "Ari Novack",
+        "Mike Gould",
+        "Yisu Yang",
+        "Zhe Xuan",
+        "Matthew Streshinsky",
+        "Yang Liu",
+        "Giovanni Capellini",
+        "Andy Eu-Jin Lim",
+        "Guo‐Qiang Lo",
+        "Tom W. Baehr-Jones",
+        "Michael Hochberg"
+      ],
+      "year": 2013,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "germanium photodetectors",
+        "germanium on silicon",
+        "detector bandwidth",
+        "3-dB bandwidth",
+        "inductor-capacitor circuit"
+      ],
+      "url": "https://doi.org/10.1364/oe.21.028387",
+      "cited_by_count": 167,
+      "importance": 0.4468,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2032671594",
+      "doi": "10.1364/oe.20.026345",
+      "title": "Improving CMOS-compatible Germanium photodetectors",
+      "authors": [
+        "Guoliang Li",
+        "Ying Luo",
+        "Xuezhe Zheng",
+        "G. Masini",
+        "Attila Mekis",
+        "Subal Sahni",
+        "Hiren D. Thacker",
+        "Jin Yao",
+        "Ivan N. Shubin",
+        "Kannan Raj",
+        "J. E. Cunningham",
+        "Ashok V. Krishnamoorthy"
+      ],
+      "year": 2012,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "germanium photodetectors",
+        "CMOS-compatible photodetectors",
+        "evanescent coupling",
+        "low-temperature growth",
+        "C-band",
+        "responsivity",
+        "device capacitance",
+        "millimeter-wave photodetection"
+      ],
+      "url": "https://doi.org/10.1364/oe.20.026345",
+      "cited_by_count": 76,
+      "importance": 0.4441,
+      "score_basis": {
+        "topic_overlap": 0.409,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2079411243",
+      "doi": "10.1364/oe.22.026976",
+      "title": "A microring resonator photodetector for enhancement in L-band performance",
+      "authors": [
+        "Junfeng Song",
+        "Andy Eu-Jin Lim",
+        "Xianshu Luo",
+        "Ying Huang",
+        "Xiaoguang Tu",
+        "Lianxi Jia",
+        "Qing Fang",
+        "Tsung-Yang Liow",
+        "Mingbin Yu",
+        "Guo‐Qiang Lo"
+      ],
+      "year": 2014,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "microring resonators",
+        "photodetectors",
+        "L-band",
+        "germanium photodetectors",
+        "responsivity enhancement",
+        "optical communication"
+      ],
+      "url": "https://doi.org/10.1364/oe.22.026976",
+      "cited_by_count": 20,
+      "importance": 0.4425,
+      "score_basis": {
+        "topic_overlap": 0.45,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3168218278",
+      "doi": "10.1109/jstqe.2021.3087416",
+      "title": "High Responsivity Si-Ge Waveguide Avalanche Photodiodes Enhanced by Loop Reflector",
+      "authors": [
+        "Yuan Yuan",
+        "Zhihong Huang",
+        "Xiaoge Zeng",
+        "Di Liang",
+        "Wayne V. Sorin",
+        "Marco Fiorentino B",
+        "Raymond G. Beausoleil"
+      ],
+      "year": 2021,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "avalanche photodiode",
+        "responsivity enhancement",
+        "gain-bandwidth product",
+        "receiver sensitivity",
+        "optical interconnects"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2021.3087416",
+      "cited_by_count": 37,
+      "importance": 0.4352,
+      "score_basis": {
+        "topic_overlap": 0.434,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2220870060",
+      "doi": "10.1038/nature16454",
+      "title": "Single-chip microprocessor that communicates directly using light",
+      "authors": [
+        "Chen Sun",
+        "Mark T. Wade",
+        "Yunsup Lee",
+        "Jason S. Orcutt",
+        "L. Alloatti",
+        "Michael S. Georgas",
+        "Andrew S. Waterman",
+        "Jeffrey M. Shainline",
+        "Rimas R. Avizienis",
+        "Sen Lin",
+        "Benjamin R. Moss",
+        "Rajesh Kumar",
+        "Fabio Pavanello",
+        "Amir Hossein Atabaki",
+        "Henry M. Cook",
+        "Albert J. Ou",
+        "Jonathan C. Leu",
+        "Yu‐Hsin Chen",
+        "Krste Asanović",
+        "Rajeev J. Ram",
+        "Miloš A. Popović",
+        "Vladimir Marko Stojanovic"
+      ],
+      "year": 2015,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic-electronic integration",
+        "silicon photonics",
+        "on-chip optical interconnects",
+        "system-on-chip",
+        "optical transmission",
+        "chip-scale integration",
+        "energy-efficient computing",
+        "nanophotonic devices",
+        "photonic memory",
+        "photonic logic",
+        "photonic sensors",
+        "optical modulators"
+      ],
+      "url": "https://doi.org/10.1038/nature16454",
+      "cited_by_count": 1311,
+      "importance": 0.4118,
+      "score_basis": {
+        "topic_overlap": 0.248,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416068158",
+      "doi": "10.1038/s41566-025-01784-0",
+      "title": "Modified uni-travelling-carrier photodiodes with 206 GHz bandwidth and 0.81 A W−1 external responsivity",
+      "authors": [
+        "Linze Li",
+        "Tianyu Long",
+        "Xiongwei Yang",
+        "Zhouze Zhang",
+        "Luyu Wang",
+        "Jingyi Wang",
+        "Mingxu Wang",
+        "Juanjuan Lu",
+        "Jianjun Yu",
+        "Baile Chen"
+      ],
+      "year": 2025,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "uni-traveling-carrier photodiode",
+        "bandwidth-efficiency product",
+        "spot-size converter",
+        "terahertz communication",
+        "parasitic capacitance reduction"
+      ],
+      "url": "https://doi.org/10.1038/s41566-025-01784-0",
+      "cited_by_count": 45,
+      "importance": 0.37,
+      "score_basis": {
+        "topic_overlap": 0.267,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4280617936",
+      "doi": "10.1038/s41586-022-04579-3",
+      "title": "Microcomb-driven silicon photonic systems",
+      "authors": [
+        "Haowen Shu",
+        "Lin Chang",
+        "Yuansheng Tao",
+        "Bitao Shen",
+        "Weiqiang Xie",
+        "Ming Jin",
+        "Andrew M. Netherton",
+        "Zihan Tao",
+        "Xuguang Zhang",
+        "Ruixuan Chen",
+        "Bowen Bai",
+        "Jun Qin",
+        "Shaohua Yu",
+        "Xingjun Wang",
+        "John Edward Bowers"
+      ],
+      "year": 2022,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "microcombs",
+        "silicon photonics",
+        "AlGaAs-on-insulator",
+        "optical transmission",
+        "microwave photonics",
+        "terabit-per-second transmission"
+      ],
+      "url": "https://doi.org/10.1038/s41586-022-04579-3",
+      "cited_by_count": 447,
+      "importance": 0.345,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3011473312",
+      "doi": "10.1364/oe.386103",
+      "title": "Hybrid ultrathin-silicon/graphene waveguide photodetector with a loop mirror reflector",
+      "authors": [
+        "Jiang Li",
+        "Yanlong Yin",
+        "Jingshu Guo",
+        "Chaoyue Liu",
+        "Daoxin Dai A"
+      ],
+      "year": 2020,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "graphene photodetectors",
+        "light absorption enhancement",
+        "TE polarization",
+        "responsivity",
+        "3-dB bandwidth",
+        "on-chip photodetection",
+        "1550 nm"
+      ],
+      "url": "https://doi.org/10.1364/oe.386103",
+      "cited_by_count": 19,
+      "importance": 0.3185,
+      "score_basis": {
+        "topic_overlap": 0.263,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389302665",
+      "doi": "10.1364/prj.509686",
+      "title": "Mode-switchable dual-color infrared quantum cascade detector",
+      "authors": [
+        "Yixuan Zhu",
+        "Shenqiang Zhai",
+        "Kun Li",
+        "Kai Guo",
+        "Qiangqiang Guo",
+        "Jinchuan Zhang",
+        "Shuman Liu",
+        "Lijun Wang",
+        "Fengqi Liu",
+        "Junqi Liu"
+      ],
+      "year": 2023,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum cascade detectors",
+        "mode switching",
+        "microstrip antenna array",
+        "mid-wave infrared",
+        "long-wave infrared",
+        "polarization modulation",
+        "crosstalk",
+        "room-temperature operation"
+      ],
+      "url": "https://doi.org/10.1364/prj.509686",
+      "cited_by_count": 9,
+      "importance": 0.2073,
+      "score_basis": {
+        "topic_overlap": 0.016,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2774045588",
+      "to": "W2032671594",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2774045588"
+        }
+      ]
+    },
+    {
+      "from": "W3045101653",
+      "to": "W2032671594",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3045101653"
+        }
+      ]
+    },
+    {
+      "from": "W3045101653",
+      "to": "W2079411243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3045101653"
+        }
+      ]
+    },
+    {
+      "from": "W3045101653",
+      "to": "W2774045588",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3045101653"
+        }
+      ]
+    },
+    {
+      "from": "W3127547995",
+      "to": "W1970588388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127547995"
+        }
+      ]
+    },
+    {
+      "from": "W3127547995",
+      "to": "W2079411243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127547995"
+        }
+      ]
+    },
+    {
+      "from": "W3212286684",
+      "to": "W3127547995",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3212286684"
+        }
+      ]
+    },
+    {
+      "from": "W4281849792",
+      "to": "W1970588388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281849792"
+        }
+      ]
+    },
+    {
+      "from": "W4281849792",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281849792"
+        }
+      ]
+    },
+    {
+      "from": "W4281849792",
+      "to": "W2774045588",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281849792"
+        }
+      ]
+    },
+    {
+      "from": "W4281849792",
+      "to": "W3127547995",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281849792"
+        }
+      ]
+    },
+    {
+      "from": "W4281849792",
+      "to": "W3168218278",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281849792"
+        }
+      ]
+    },
+    {
+      "from": "W4281849792",
+      "to": "W3212286684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281849792"
+        }
+      ]
+    },
+    {
+      "from": "W4282972382",
+      "to": "W2774045588",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282972382"
+        }
+      ]
+    },
+    {
+      "from": "W4282972382",
+      "to": "W3212286684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282972382"
+        }
+      ]
+    },
+    {
+      "from": "W4283030564",
+      "to": "W3168218278",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283030564"
+        }
+      ]
+    },
+    {
+      "from": "W4318619926",
+      "to": "W1970588388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4318619926"
+        }
+      ]
+    },
+    {
+      "from": "W4318619926",
+      "to": "W3127547995",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4318619926"
+        }
+      ]
+    },
+    {
+      "from": "W4318619926",
+      "to": "W3212286684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4318619926"
+        }
+      ]
+    },
+    {
+      "from": "W4318619926",
+      "to": "W4281849792",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4318619926"
+        }
+      ]
+    },
+    {
+      "from": "W4367173686",
+      "to": "W1970588388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367173686"
+        }
+      ]
+    },
+    {
+      "from": "W4367173686",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367173686"
+        }
+      ]
+    },
+    {
+      "from": "W4367173686",
+      "to": "W3212286684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367173686"
+        }
+      ]
+    },
+    {
+      "from": "W4367173686",
+      "to": "W4281849792",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367173686"
+        }
+      ]
+    },
+    {
+      "from": "W4367173686",
+      "to": "W4282972382",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367173686"
+        }
+      ]
+    },
+    {
+      "from": "W4367173686",
+      "to": "W4318619926",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367173686"
+        }
+      ]
+    },
+    {
+      "from": "W4392049004",
+      "to": "W3212286684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392049004"
+        }
+      ]
+    },
+    {
+      "from": "W4392049004",
+      "to": "W4318619926",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392049004"
+        }
+      ]
+    },
+    {
+      "from": "W4392049004",
+      "to": "W4367173686",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392049004"
+        }
+      ]
+    },
+    {
+      "from": "W4402905224",
+      "to": "W1970588388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402905224"
+        }
+      ]
+    },
+    {
+      "from": "W4402905224",
+      "to": "W2032671594",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402905224"
+        }
+      ]
+    },
+    {
+      "from": "W4402905224",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402905224"
+        }
+      ]
+    },
+    {
+      "from": "W4402905224",
+      "to": "W2774045588",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402905224"
+        }
+      ]
+    },
+    {
+      "from": "W4402905224",
+      "to": "W3127547995",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402905224"
+        }
+      ]
+    },
+    {
+      "from": "W4402905224",
+      "to": "W3212286684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402905224"
+        }
+      ]
+    },
+    {
+      "from": "W4402905224",
+      "to": "W4280617936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402905224"
+        }
+      ]
+    },
+    {
+      "from": "W4402905224",
+      "to": "W4282972382",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402905224"
+        }
+      ]
+    },
+    {
+      "from": "W4402905224",
+      "to": "W4318619926",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402905224"
+        }
+      ]
+    },
+    {
+      "from": "W4416068158",
+      "to": "W3212286684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416068158"
+        }
+      ]
+    },
+    {
+      "from": "W4416765346",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416765346"
+        }
+      ]
+    },
+    {
+      "from": "W4416765346",
+      "to": "W3127547995",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416765346"
+        }
+      ]
+    },
+    {
+      "from": "W4416765346",
+      "to": "W3212286684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416765346"
+        }
+      ]
+    },
+    {
+      "from": "W4416765346",
+      "to": "W4282972382",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416765346"
+        }
+      ]
+    },
+    {
+      "from": "W4416765346",
+      "to": "W4283030564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416765346"
+        }
+      ]
+    },
+    {
+      "from": "W4416765346",
+      "to": "W4318619926",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416765346"
+        }
+      ]
+    },
+    {
+      "from": "W4416765346",
+      "to": "W4402905224",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416765346"
+        }
+      ]
+    },
+    {
+      "from": "W4416954915",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416954915"
+        }
+      ]
+    },
+    {
+      "from": "W4416954915",
+      "to": "W3212286684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416954915"
+        }
+      ]
+    },
+    {
+      "from": "W4416954915",
+      "to": "W4280617936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416954915"
+        }
+      ]
+    },
+    {
+      "from": "W4416954915",
+      "to": "W4282972382",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416954915"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W1970588388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W2032671594",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W2079411243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W2774045588",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W3011473312",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W3045101653",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W3127547995",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W3168218278",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W3212286684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4280617936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4281849792",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4282972382",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4283030564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4318619926",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4367173686",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4389302665",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4392049004",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4402905224",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4416068158",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4416765346",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    },
+    {
+      "from": "W7204903777",
+      "to": "W4416954915",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204903777"
+        }
+      ]
+    }
+  ]
 }

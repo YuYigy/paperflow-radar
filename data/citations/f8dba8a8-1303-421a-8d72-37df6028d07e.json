@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "f8dba8a8-1303-421a-8d72-37df6028d07e",
-  "root": "doi:10.1364/oe.608233",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7203573575",
+  "status": "ok",
+  "checked_at": "2026-10-28T00:54:47.935715+00:00",
+  "coverage": {
+    "references_found": 14,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 14,
+    "displayed": 14
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/oe.608233",
+      "id": "W7203573575",
       "doi": "10.1364/oe.608233",
       "title": "Gradient-accelerated nutation-based fast alignment for transmitter-receiver misalignment in inter-satellite free-space optical communication systems",
       "authors": [
@@ -19,20 +29,761 @@
         "Yang Chen",
         "Siyuan Yu"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Express",
       "venue_abbr": "OE",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "free-space optical communication",
+        "inter-satellite links",
+        "transmitter-receiver misalignment",
+        "adaptive step size",
+        "convergence acceleration",
+        "signal-to-noise ratio"
+      ],
       "url": "https://doi.org/10.1364/oe.608233",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/f8dba8a8-1303-421a-8d72-37df6028d07e.html",
       "summary": "摘要报告：针对星间FSO收发失准问题提出梯度加速章动算法：保留传统章动法优点，利用链路光场分布显著提升收敛速度；推导步长与光功率梯度的解析关系，使算法依据梯度模型在快速收敛与高精度对准间自动切换；超参数由链路特性决定、与瞬时同轴误差无关；分析SNR与步长缩放因子对收敛的影响并给出工程指导。数值仿真与10.4 km外场实验验证：失准校准迭代次数约减少65%。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4403182787",
+      "doi": "10.1109/jphot.2024.3476199",
+      "title": "ESPGD Algorithm to Improve the Convergence Speed for Adaptive Single-Mode Fiber Coupling",
+      "authors": [
+        "Jinjin Peng",
+        "Bo Qi",
+        "Yun Zhang",
+        "Z. Li",
+        "Yao Mao"
+      ],
+      "year": 2024,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "stochastic parallel gradient descent",
+        "fast steering mirror",
+        "convergence rate",
+        "gradient estimation",
+        "adaptive parameter estimation",
+        "free-space optical communication",
+        "coupling efficiency",
+        "control bandwidth"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2024.3476199",
+      "cited_by_count": 4,
+      "importance": 0.4562,
+      "score_basis": {
+        "topic_overlap": 0.458,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4289937410",
+      "doi": "10.1364/oe.463051",
+      "title": "Method for 10 Gbps near-ground quasi-static free-space laser transmission by nutation mutual coupling",
+      "authors": [
+        "Lei Zhang",
+        "Xiaonan Yu",
+        "Baiqiu Zhao",
+        "Tong Wang",
+        "Shoufeng Tong"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "space laser communication",
+        "10 Gb/s transmission",
+        "video transmission"
+      ],
+      "url": "https://doi.org/10.1364/oe.463051",
+      "cited_by_count": 17,
+      "importance": 0.4494,
+      "score_basis": {
+        "topic_overlap": 0.31,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7124441560",
+      "doi": "10.1109/jlt.2026.3654227",
+      "title": "Wide-Field Laser Nutation FSOC System Enabled by Multi-Core Fiber",
+      "authors": [
+        "Qirun Fan",
+        "Qichao Lu",
+        "Yifei Zhu",
+        "Qirui Xu",
+        "Muying Li",
+        "Chao Li",
+        "Tianjin Mei",
+        "Tong Cheng",
+        "Renjie Li",
+        "Ming Tang",
+        "Qi Yang",
+        "Li Tao",
+        "Chen Liu"
+      ],
+      "year": 2026,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "multicore fiber",
+        "wide field of view",
+        "beam alignment",
+        "6G",
+        "coherent optical communication"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2026.3654227",
+      "cited_by_count": 3,
+      "importance": 0.4456,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2897541594",
+      "doi": "10.1109/jphot.2018.2877212",
+      "title": "Adaptive Single-Mode Fiber Coupling Method Based on Coarse-Fine Laser Nutation",
+      "authors": [
+        "Bo Li",
+        "Yutong Liu",
+        "Shoufeng Tong",
+        "Lei Zhang",
+        "Haifeng Yao"
+      ],
+      "year": 2018,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "single-mode fiber coupling",
+        "free-space optical communication",
+        "coupling efficiency",
+        "atmospheric turbulence"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2018.2877212",
+      "cited_by_count": 17,
+      "importance": 0.438,
+      "score_basis": {
+        "topic_overlap": 0.329,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408032033",
+      "doi": "10.1016/j.optcom.2025.131685",
+      "title": "Research on the influence mechanism of angular misalignment on the transmission performance in inter-satellite coherent laser communication",
+      "authors": [
+        "Ziqi Zhang",
+        "Shoufeng Tong",
+        "Peng Lin",
+        "Baiqiu Zhao",
+        "Jingmei Ye",
+        "Xiaonan Yu"
+      ],
+      "year": 2025,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "angular misalignment",
+        "bit error rate",
+        "fast steering mirror",
+        "error vector magnitude",
+        "constellation diagram",
+        "received optical power",
+        "signal-to-noise ratio",
+        "phase error",
+        "space laser communication"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2025.131685",
+      "cited_by_count": 4,
+      "importance": 0.4162,
+      "score_basis": {
+        "topic_overlap": 0.369,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2888845466",
+      "doi": "10.1364/ao.57.007462",
+      "title": "Adaptive beam control techniques for airborne free-space optical communication systems",
+      "authors": [
+        "Vuong V. Mai",
+        "Hoon Kim"
+      ],
+      "year": 2018,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "beam divergence",
+        "link availability",
+        "alignment errors",
+        "energy consumption reduction"
+      ],
+      "url": "https://doi.org/10.1364/ao.57.007462",
+      "cited_by_count": 64,
+      "importance": 0.4091,
+      "score_basis": {
+        "topic_overlap": 0.465,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410303836",
+      "doi": "10.3390/s25103051",
+      "title": "Parameter Self-Adjusting Single-Mode Fiber Nutation Coupling Algorithm Based on Fuzzy Control",
+      "authors": [
+        "Yongkai Liu",
+        "Shuqiang Li",
+        "Furui Lv",
+        "Ximing Wang",
+        "Baogang Chen",
+        "Chenzi Guo",
+        "Kainan Yao",
+        "Jianli Wang"
+      ],
+      "year": 2025,
+      "venue": "Sensors",
+      "venue_abbr": "Sensors",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-mode fiber",
+        "free-space optical communication",
+        "fuzzy logic control",
+        "coupling efficiency",
+        "dynamic performance"
+      ],
+      "url": "https://doi.org/10.3390/s25103051",
+      "cited_by_count": 3,
+      "importance": 0.3841,
+      "score_basis": {
+        "topic_overlap": 0.187,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2268298577",
+      "doi": "10.1088/1674-1056/23/1/014207",
+      "title": "Experimental demonstration of single-mode fiber coupling using adaptive fiber coupler",
+      "authors": [
+        "Wen Luo",
+        "Chao Geng",
+        "Yunyun Wu",
+        "Yi Tan",
+        "Qi Luo",
+        "Hongmei Liu",
+        "Xinyang Li"
+      ],
+      "year": 2014,
+      "venue": "Chinese Physics B",
+      "venue_abbr": "Chin. Phys. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-mode fiber coupling",
+        "stochastic parallel gradient descent",
+        "adaptive optics",
+        "atmospheric turbulence",
+        "coupling efficiency",
+        "feedback control"
+      ],
+      "url": "https://doi.org/10.1088/1674-1056/23/1/014207",
+      "cited_by_count": 28,
+      "importance": 0.36,
+      "score_basis": {
+        "topic_overlap": 0.267,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2913373503",
+      "doi": "10.1117/1.oe.58.2.026102",
+      "title": "High-bandwidth fine tracking system for optical communication with double closed-loop control method",
+      "authors": [
+        "Yukun Wang",
+        "Dayu Li",
+        "Rui Wang",
+        "Cheng‐Bin Jin",
+        "Shaoxin Wang",
+        "Quanquan Mu",
+        "Li Xuan",
+        "Zhaoliang Cao",
+        "Zhi Wang"
+      ],
+      "year": 2019,
+      "venue": "Optical Engineering",
+      "venue_abbr": "Opt. Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "double closed-loop control",
+        "free-space optical communication",
+        "fast steering mirror",
+        "hysteresis compensation",
+        "time delay compensation",
+        "atmospheric turbulence",
+        "beacon tracking",
+        "coupling efficiency"
+      ],
+      "url": "https://doi.org/10.1117/1.oe.58.2.026102",
+      "cited_by_count": 7,
+      "importance": 0.3316,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4367663430",
+      "doi": "10.1109/jqe.2023.3271688",
+      "title": "Effect of Lateral Alignment Error on Communication Performance of Space Chaotic Optical Communication System",
+      "authors": [
+        "Mi Li",
+        "Jiahan Li",
+        "Boyu Li",
+        "Jisun Chen",
+        "Yijun Jiang"
+      ],
+      "year": 2023,
+      "venue": "IEEE Journal of Quantum Electronics",
+      "venue_abbr": "JQE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "bit error rate",
+        "fiber coupling",
+        "chaotic signals"
+      ],
+      "url": "https://doi.org/10.1109/jqe.2023.3271688",
+      "cited_by_count": 4,
+      "importance": 0.3308,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2080348862",
+      "doi": "10.1364/ol.22.000907",
+      "title": "Adaptive phase-distortion correction based on parallel gradient-descent optimization",
+      "authors": [
+        "Воронцов Михаил Александрович",
+        "Gary W. Carhart",
+        "Jennifer C. Ricklin"
+      ],
+      "year": 1997,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "phase aberration correction",
+        "random perturbations",
+        "liquid crystal phase modulator",
+        "extended sources",
+        "image enhancement"
+      ],
+      "url": "https://doi.org/10.1364/ol.22.000907",
+      "cited_by_count": 317,
+      "importance": 0.3075,
+      "score_basis": {
+        "topic_overlap": 0.15,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387879413",
+      "doi": "10.3390/photonics10101176",
+      "title": "Analysis of Coaxiality Error Induced by the Cube Corner Retro-Reflector Geometrical and Assembly Errors of an Acquisition, Pointing, and Tracking System",
+      "authors": [
+        "Daquan Li",
+        "Zhaoyong Mao",
+        "Lijuan Sun",
+        "Haifeng Zhang",
+        "Furui Zhang"
+      ],
+      "year": 2023,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "corner cube retroreflector",
+        "satellite laser communication",
+        "beam pointing error",
+        "assembly errors"
+      ],
+      "url": "https://doi.org/10.3390/photonics10101176",
+      "cited_by_count": 4,
+      "importance": 0.2668,
+      "score_basis": {
+        "topic_overlap": 0.148,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2060077951",
+      "doi": "10.1364/ao.51.006421",
+      "title": "Two-step camera calibration method based on the SPGD algorithm",
+      "authors": [
+        "Zhaohui Qi",
+        "Longxu Xiao",
+        "Sihua Fu",
+        "Tan Li",
+        "Guangwen Jiang",
+        "Xuejun Long"
+      ],
+      "year": 2012,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "camera calibration",
+        "two-step calibration",
+        "stochastic parallel gradient descent",
+        "aberration estimation",
+        "iterative optimization"
+      ],
+      "url": "https://doi.org/10.1364/ao.51.006421",
+      "cited_by_count": 12,
+      "importance": 0.2662,
+      "score_basis": {
+        "topic_overlap": 0.036,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4220990717",
+      "doi": "10.3390/s22062231",
+      "title": "Active Control Loop of the BOROWIEC SLR Space Debris Tracking System",
+      "authors": [
+        "Tomasz Suchodolski"
+      ],
+      "year": 2022,
+      "venue": "Sensors",
+      "venue_abbr": "Sensors",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "satellite laser ranging",
+        "space debris tracking",
+        "object recognition"
+      ],
+      "url": "https://doi.org/10.3390/s22062231",
+      "cited_by_count": 8,
+      "importance": 0.2167,
+      "score_basis": {
+        "topic_overlap": 0.037,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2060077951",
+      "to": "W2080348862",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2060077951"
+        }
+      ]
+    },
+    {
+      "from": "W2897541594",
+      "to": "W2268298577",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2897541594"
+        }
+      ]
+    },
+    {
+      "from": "W4289937410",
+      "to": "W2268298577",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4289937410"
+        }
+      ]
+    },
+    {
+      "from": "W4403182787",
+      "to": "W2080348862",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403182787"
+        }
+      ]
+    },
+    {
+      "from": "W4408032033",
+      "to": "W4289937410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408032033"
+        }
+      ]
+    },
+    {
+      "from": "W4410303836",
+      "to": "W2897541594",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410303836"
+        }
+      ]
+    },
+    {
+      "from": "W4410303836",
+      "to": "W4289937410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410303836"
+        }
+      ]
+    },
+    {
+      "from": "W7124441560",
+      "to": "W2897541594",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7124441560"
+        }
+      ]
+    },
+    {
+      "from": "W7124441560",
+      "to": "W4289937410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7124441560"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W2060077951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W2080348862",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W2268298577",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W2888845466",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W2897541594",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W2913373503",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W4220990717",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W4289937410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W4367663430",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W4387879413",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W4403182787",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W4408032033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W4410303836",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    },
+    {
+      "from": "W7203573575",
+      "to": "W7124441560",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203573575"
+        }
+      ]
+    }
+  ]
 }

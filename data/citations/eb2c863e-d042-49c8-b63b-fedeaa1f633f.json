@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "eb2c863e-d042-49c8-b63b-fedeaa1f633f",
-  "root": "doi:10.1364/ol.605328",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7202194152",
+  "status": "ok",
+  "checked_at": "2026-10-28T00:54:50.474818+00:00",
+  "coverage": {
+    "references_found": 33,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 33,
+    "displayed": 33
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ol.605328",
+      "id": "W7202194152",
       "doi": "10.1364/ol.605328",
       "title": "Topologically protected dense wavelength division multiplexer based on valley photonic crystal slabs",
       "authors": [
@@ -17,20 +27,2160 @@
         "Lu He",
         "Xiangdong Zhang"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Letters",
       "venue_abbr": "OL",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "dense wavelength division multiplexing",
+        "valley photonic crystals",
+        "topological photonics",
+        "contra-directional coupler",
+        "tunable optical filter",
+        "silicon photonics",
+        "microheaters",
+        "optical interconnects",
+        "elastic optical networks",
+        "quantum communication"
+      ],
       "url": "https://doi.org/10.1364/ol.605328",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/eb2c863e-d042-49c8-b63b-fedeaa1f633f.html",
       "summary": "摘要报告：片上DWDM是高密度互连基石，但AWG等常规器件占地大、插损高且易受制造缺陷与环境扰动影响。报道硅光平台上级联拓扑保护反向耦合器（谷光子晶体）构成的多端口可调滤波器：通信波段内窄滤波带宽1.56 nm、透射率0.97，并对制造缺陷具韧性；各端口输出波长可经集成微加热器编程。面向健壮超紧凑光互连及下一代弹性光网络与量子通信系统应用。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W3162522244",
+      "doi": "10.1109/jlt.2021.3082558",
+      "title": "A Topological Photonic Ring-Resonator for On-Chip Channel Filters",
+      "authors": [
+        "Linpeng Gu",
+        "Qingchen Yuan",
+        "Qiang Zhao",
+        "Yafei Ji",
+        "Ziyu Liu",
+        "Liang Fang",
+        "Xuetao Gan",
+        "Jianlin Zhao"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "topological photonics",
+        "ring resonator",
+        "valley photonic crystals",
+        "notch filter",
+        "unidirectional transmission",
+        "topological waveguides",
+        "silicon photonics",
+        "photonic integrated circuits"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3082558",
+      "cited_by_count": 59,
+      "importance": 0.6628,
+      "score_basis": {
+        "topic_overlap": 0.473,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4221035012",
+      "doi": "10.1002/lpor.202100631",
+      "title": "Asymmetric Topological Valley Edge States on Silicon‐On‐Insulator Platform",
+      "authors": [
+        "Hongwei Wang",
+        "Lu Sun",
+        "Yu He",
+        "Guojing Tang",
+        "Shaohua An",
+        "Zhen Wang",
+        "Yuhan Du",
+        "Yong Zhang",
+        "Luqi Yuan",
+        "Xin‐Tao He",
+        "Jian‐Wen Dong",
+        "Yikai Su"
+      ],
+      "year": 2022,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "valley Hall effect",
+        "silicon-on-insulator photonics",
+        "topological waveguides",
+        "mode field distribution",
+        "backscattering suppression",
+        "high-speed optical transmission"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202100631",
+      "cited_by_count": 70,
+      "importance": 0.6029,
+      "score_basis": {
+        "topic_overlap": 0.295,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2898867578",
+      "doi": "10.1038/s41565-018-0297-6",
+      "title": "Robust topologically protected transport in photonic crystals at telecommunication wavelengths",
+      "authors": [
+        "Mikhail I. Shalaev",
+        "Wiktor T. Walasik",
+        "A. Tsukernik",
+        "Yun Xu",
+        "Natalia M. Litchinitser"
+      ],
+      "year": 2018,
+      "venue": "Nature Nanotechnology",
+      "venue_abbr": "Nature Nanotechnology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic topological insulators",
+        "valley Hall effect",
+        "silicon photonic crystals",
+        "backscattering suppression",
+        "telecom wavelengths",
+        "near-infrared photonics",
+        "topological interfaces",
+        "band gap",
+        "CMOS-compatible photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41565-018-0297-6",
+      "cited_by_count": 618,
+      "importance": 0.5994,
+      "score_basis": {
+        "topic_overlap": 0.354,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3040733661",
+      "doi": "10.1364/prj.396872",
+      "title": "Topological photonic crystal of large valley Chern numbers",
+      "authors": [
+        "Xiang Xi",
+        "Kang-Ping Ye",
+        "Rui‐Xin Wu"
+      ],
+      "year": 2020,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topological photonic crystals",
+        "valley Chern number",
+        "valleytronics",
+        "domain walls",
+        "wave propagation",
+        "unit cell configuration"
+      ],
+      "url": "https://doi.org/10.1364/prj.396872",
+      "cited_by_count": 59,
+      "importance": 0.5935,
+      "score_basis": {
+        "topic_overlap": 0.319,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4211161891",
+      "doi": "10.1103/revmodphys.91.015006",
+      "title": "Topological photonics",
+      "authors": [
+        "Tomoki Ozawa",
+        "Hannah M. Price",
+        "Alberto Amo",
+        "Nathan Goldman",
+        "Mohammad Hafezi",
+        "Ling Lü",
+        "Mikael C. Rechtsman",
+        "David Schuster",
+        "Jonathan Simon",
+        "Oded Zilberberg",
+        "Iacopo Carusotto"
+      ],
+      "year": 2019,
+      "venue": "Reviews of Modern Physics",
+      "venue_abbr": "Reviews of Modern Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topological photonics",
+        "topological invariants",
+        "integer quantum Hall effect",
+        "photonic waveguide arrays",
+        "optical metamaterials",
+        "periodic media"
+      ],
+      "url": "https://doi.org/10.1103/revmodphys.91.015006",
+      "cited_by_count": 3705,
+      "importance": 0.5859,
+      "score_basis": {
+        "topic_overlap": 0.191,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7153807607",
+      "doi": "10.1002/lpor.71182",
+      "title": "Mitigating Lithography Stitching Losses Using Topological Photonic Crystals in Silicon Photonics",
+      "authors": [
+        "Ce Chen",
+        "Chunxue Wang",
+        "Pan Hu",
+        "Lu Sun",
+        "Yikai Su",
+        "Xingchen Ji"
+      ],
+      "year": 2026,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topological photonic crystals",
+        "silicon photonics",
+        "silicon-on-insulator",
+        "topological protection",
+        "backscattering immunity",
+        "photonic integration",
+        "fabrication robustness"
+      ],
+      "url": "https://doi.org/10.1002/lpor.71182",
+      "cited_by_count": 1,
+      "importance": 0.547,
+      "score_basis": {
+        "topic_overlap": 0.438,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W41153617",
+      "doi": "10.1103/physrevlett.114.223901",
+      "title": "Scheme for Achieving a Topological Photonic Crystal by Using Dielectric Material",
+      "authors": [
+        "Long-Hua Wu",
+        "Xiao Hu"
+      ],
+      "year": 2015,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topological photonic crystals",
+        "pseudospin",
+        "Berry curvature",
+        "helical edge states",
+        "TM modes",
+        "Poynting vector"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.114.223901",
+      "cited_by_count": 1638,
+      "importance": 0.5325,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3006594036",
+      "doi": "10.1038/s41586-020-1981-x",
+      "title": "Electrically pumped topological laser with valley edge modes",
+      "authors": [
+        "Yongquan Zeng",
+        "Udvas Chattopadhyay",
+        "Bofeng Zhu",
+        "Bo Qiang",
+        "Jinghao Li",
+        "Yuhao Jin",
+        "Lianhe H. Li",
+        "Alexander Giles Davies",
+        "E. H. Linfield",
+        "Baile Zhang",
+        "Y. D. Chong",
+        "Qi Jie Wang"
+      ],
+      "year": 2020,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topological lasers",
+        "valley degree of freedom",
+        "photonic crystals",
+        "quantum cascade lasers",
+        "terahertz lasers",
+        "electrically pumped lasers",
+        "topological photonics",
+        "valleytronics",
+        "triangular cavity"
+      ],
+      "url": "https://doi.org/10.1038/s41586-020-1981-x",
+      "cited_by_count": 601,
+      "importance": 0.53,
+      "score_basis": {
+        "topic_overlap": 0.333,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7135012992",
+      "doi": "10.1103/dkvp-41zt",
+      "title": "Gauge-Tunable Uniform Delocalization of Higher-Order Topological Photonic Modes",
+      "authors": [
+        "Shiqi Li",
+        "Yu He",
+        "Yunlang Wang",
+        "Shiyin Jia",
+        "Haotian Li",
+        "Renwen Huang",
+        "Hui Huang",
+        "Hong‐Ling Cai",
+        "Minghui Lu",
+        "Biye Xie",
+        "Peng Zhan",
+        "Zhenlin Wang"
+      ],
+      "year": 2026,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "corner states",
+        "chiral symmetry",
+        "photonic crystals",
+        "topological protection",
+        "zero modes"
+      ],
+      "url": "https://doi.org/10.1103/dkvp-41zt",
+      "cited_by_count": 4,
+      "importance": 0.4858,
+      "score_basis": {
+        "topic_overlap": 0.302,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403184648",
+      "doi": "10.1103/physrevb.110.155415",
+      "title": "Dual-band large-area topological edge states and higher-order corner states in a valley Hall photonic crystal",
+      "authors": [
+        "Lianlian Du",
+        "Yahong Liu",
+        "Meize Li",
+        "Xin Gang Zhou",
+        "Song Wang",
+        "Qian Cheng Zhao",
+        "Zhenfei Li",
+        "Liyun Tao",
+        "Xiang Xiao",
+        "Kun Song",
+        "Xiaopeng Zhao"
+      ],
+      "year": 2024,
+      "venue": "Physical review. B./Physical review. B",
+      "venue_abbr": "Physical review. B./Physical review. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topological edge states",
+        "topological cavities",
+        "electromagnetic wave localization",
+        "waveguide interface"
+      ],
+      "url": "https://doi.org/10.1103/physrevb.110.155415",
+      "cited_by_count": 13,
+      "importance": 0.4829,
+      "score_basis": {
+        "topic_overlap": 0.295,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2053033894",
+      "doi": "10.1038/nmat3520",
+      "title": "Photonic topological insulators",
+      "authors": [
+        "Alexander B. Khanikaev",
+        "S. Hossein Mousavi",
+        "Wang-Kong Tse",
+        "Mehdi Kargarian",
+        "Allan H. MacDonald",
+        "Gennady B. Shvets"
+      ],
+      "year": 2012,
+      "venue": "Nature Materials",
+      "venue_abbr": "Nature Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic topological insulators",
+        "metamaterials",
+        "metacrystals",
+        "helical edge states",
+        "time-reversal symmetry",
+        "superlattices",
+        "disorder robustness"
+      ],
+      "url": "https://doi.org/10.1038/nmat3520",
+      "cited_by_count": 1964,
+      "importance": 0.4679,
+      "score_basis": {
+        "topic_overlap": 0.151,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2108731428",
+      "doi": "10.1103/physrevlett.100.013905",
+      "title": "Reflection-Free One-Way Edge Modes in a Gyromagnetic Photonic Crystal",
+      "authors": [
+        "Zheng Wang",
+        "Y. D. Chong",
+        "John D. Joannopoulos",
+        "Marin Soljacic A"
+      ],
+      "year": 2008,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "gyromagnetic photonic crystals",
+        "Chern number",
+        "quantum Hall edge states",
+        "Dirac point",
+        "yttrium iron garnet",
+        "time-reversal symmetry breaking",
+        "TM modes",
+        "microwave photonics",
+        "photonic waveguides",
+        "square lattice photonic crystal"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.100.013905",
+      "cited_by_count": 1436,
+      "importance": 0.4343,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1987693322",
+      "doi": "10.1038/nature08293",
+      "title": "Observation of unidirectional backscattering-immune topological electromagnetic states",
+      "authors": [
+        "Zheng Wang",
+        "Y. D. Chong",
+        "John D. Joannopoulos",
+        "Marin Soljacic A"
+      ],
+      "year": 2009,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topological photonics",
+        "magneto-optical photonic crystals",
+        "microwave photonics",
+        "topological edge states",
+        "photonic crystals",
+        "disorder robustness",
+        "metallic scatterers",
+        "photonic devices"
+      ],
+      "url": "https://doi.org/10.1038/nature08293",
+      "cited_by_count": 3110,
+      "importance": 0.4317,
+      "score_basis": {
+        "topic_overlap": 0.182,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3092181927",
+      "doi": "10.1038/s42254-021-00323-4",
+      "title": "Higher-order band topology",
+      "authors": [
+        "Biye Xie",
+        "Hai-Xiao Wang",
+        "Xiujuan Zhang",
+        "Peng Zhan",
+        "Jian-Hua Jiang",
+        "Minghui Lu",
+        "Yanfeng Chen"
+      ],
+      "year": 2021,
+      "venue": "Nature Reviews Physics",
+      "venue_abbr": "Nature Reviews Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topological insulators",
+        "hinge states",
+        "corner states",
+        "topological invariants",
+        "photonic topological insulators",
+        "topological band theory"
+      ],
+      "url": "https://doi.org/10.1038/s42254-021-00323-4",
+      "cited_by_count": 559,
+      "importance": 0.3688,
+      "score_basis": {
+        "topic_overlap": 0.153,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7115601523",
+      "doi": "10.1088/1361-6463/ae2c9e",
+      "title": "Valley assisted and topologically protected dispersion-less beam splitter in microwave photonic crystal",
+      "authors": [
+        "Geetanjali Jena",
+        "Nitin Chourasis",
+        "Rakesh Kumar Singh",
+        "Ravendra Kumar Varshney",
+        "Dibakar Roy Chowdhury"
+      ],
+      "year": 2025,
+      "venue": "Journal of Physics D Applied Physics",
+      "venue_abbr": "Journal of Physics D Applied Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topological photonics",
+        "microwave photonic crystals",
+        "bending loss",
+        "group delay",
+        "topological protection",
+        "signal fidelity",
+        "photonic crystal waveguides"
+      ],
+      "url": "https://doi.org/10.1088/1361-6463/ae2c9e",
+      "cited_by_count": 2,
+      "importance": 0.3635,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4318706857",
+      "doi": "10.1038/s44172-023-00055-6",
+      "title": "Polarization-independent wavelength demultiplexer based on a single etched diffraction grating device",
+      "authors": [
+        "Chenguang Li",
+        "Bo Xiong",
+        "Tao Chu"
+      ],
+      "year": 2023,
+      "venue": "Communications Engineering",
+      "venue_abbr": "Commun. Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "waveguide birefringence",
+        "polarization-dependent loss",
+        "optical transceivers"
+      ],
+      "url": "https://doi.org/10.1038/s44172-023-00055-6",
+      "cited_by_count": 17,
+      "importance": 0.345,
+      "score_basis": {
+        "topic_overlap": 0.167,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407970624",
+      "doi": "10.1007/s11433-024-2605-3",
+      "title": "On-chip multidimensional (de)multiplexer utilizing adiabatic structure-connected micro-ring resonators",
+      "authors": [
+        "Zhiwei Guan",
+        "Keyin Wen",
+        "Chuangxin Xie",
+        "Ruixue Dou",
+        "Tianyimei Zuo",
+        "Junmin Liu",
+        "Huapeng Ye",
+        "Chaofeng Wang",
+        "Ze Dong",
+        "Dianyuan Fan",
+        "Shuqing Chen"
+      ],
+      "year": 2025,
+      "venue": "Science China Physics Mechanics and Astronomy",
+      "venue_abbr": "Science China Physics Mechanics and Astronomy",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "microring resonators",
+        "wavelength multiplexing",
+        "polarization multiplexing",
+        "polarization rotation",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1007/s11433-024-2605-3",
+      "cited_by_count": 3,
+      "importance": 0.3325,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7125230202",
+      "doi": "10.1002/lpor.202500062",
+      "title": "Quasiperiodic–Periodic Properties and Topological Transitions in Twisted Nested Moiré Patterns",
+      "authors": [
+        "Peng Peng",
+        "Yuchen Peng",
+        "Aoqian Shi",
+        "Xiaogen Yi",
+        "Yizhou Wei",
+        "Yuanjiang Xiang",
+        "Shuangchun Wen",
+        "Jianjun Liu"
+      ],
+      "year": 2026,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topological phase transition",
+        "higher-order topological states",
+        "Su-Schrieffer-Heeger model",
+        "photonic crystals"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202500062",
+      "cited_by_count": 10,
+      "importance": 0.3259,
+      "score_basis": {
+        "topic_overlap": 0.28,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387695909",
+      "doi": "10.1002/lpor.202300617",
+      "title": "Ultra‐Low‐Crosstalk Silicon Arrayed‐Waveguide Grating (De)multiplexer with 1.6‐nm Channel Spacing",
+      "authors": [
+        "Xiaowan Shen",
+        "Chenlei Li",
+        "Weike Zhao",
+        "Huan Li",
+        "Yaocheng Shi",
+        "Daoxin Dai A"
+      ],
+      "year": 2023,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "AWG demultiplexer",
+        "AWG multiplexer",
+        "dense wavelength division multiplexing",
+        "crosstalk reduction",
+        "higher-order mode suppression",
+        "broadband waveguide",
+        "excess loss",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202300617",
+      "cited_by_count": 49,
+      "importance": 0.319,
+      "score_basis": {
+        "topic_overlap": 0.22,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417210857",
+      "doi": "10.1103/8pvg-mrf9",
+      "title": "Higher-order topological systems and their subsymmetry-protected topology",
+      "authors": [
+        "Myungjun Kang",
+        "Wonjun Sung",
+        "Sonu Verma",
+        "Sangmo Cheon"
+      ],
+      "year": 2025,
+      "venue": "Physical review. B./Physical review. B",
+      "venue_abbr": "Physical review. B./Physical review. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "higher-order topological insulators",
+        "corner states",
+        "hinge modes",
+        "Fermi arcs",
+        "chiral symmetry",
+        "Dirac point",
+        "topological boundary states"
+      ],
+      "url": "https://doi.org/10.1103/8pvg-mrf9",
+      "cited_by_count": 5,
+      "importance": 0.3158,
+      "score_basis": {
+        "topic_overlap": 0.146,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7131124336",
+      "doi": "10.1103/1yh5-zc63",
+      "title": "Topological point states in non-Hermitian quasicrystals",
+      "authors": [
+        "Jianzhi 健智 Chen 陈",
+        "Aoqian Shi",
+        "Yuchen Peng",
+        "Peng Peng",
+        "Jianjun Liu"
+      ],
+      "year": 2026,
+      "venue": "Physical review. B./Physical review. B",
+      "venue_abbr": "Physical review. B./Physical review. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "non-Hermitian physics",
+        "quasicrystals",
+        "topological edge states"
+      ],
+      "url": "https://doi.org/10.1103/1yh5-zc63",
+      "cited_by_count": 5,
+      "importance": 0.3114,
+      "score_basis": {
+        "topic_overlap": 0.136,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411376307",
+      "doi": "10.1002/lpor.202500507",
+      "title": "Electrically and Arbitrarily Reconfigurable Arrayed Waveguide Grating on Thin Film Lithium Niobate",
+      "authors": [
+        "Xiaofu Pan",
+        "Junjie Yi",
+        "Shen Wang",
+        "Ziliang Ruan",
+        "Fei Huang",
+        "Zejie Yu",
+        "Daoxin Dai A",
+        "Liu Liu"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "arrayed waveguide grating",
+        "thin-film lithium niobate",
+        "X-cut lithium niobate",
+        "particle swarm optimization",
+        "wavelength demultiplexing",
+        "insertion loss",
+        "crosstalk"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202500507",
+      "cited_by_count": 7,
+      "importance": 0.3091,
+      "score_basis": {
+        "topic_overlap": 0.131,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2794256495",
+      "doi": "10.1364/ol.43.001483",
+      "title": "Polarization-insensitive four-channel coarse wavelength-division (de)multiplexer based on Mach–Zehnder interferometers with bent directional couplers and polarization rotators",
+      "authors": [
+        "Hongnan Xu",
+        "Liu Liu",
+        "Yaocheng Shi"
+      ],
+      "year": 2018,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coarse wavelength division multiplexing",
+        "Mach-Zehnder interferometer",
+        "polarization rotator",
+        "polarization insensitivity",
+        "polarization-dependent loss"
+      ],
+      "url": "https://doi.org/10.1364/ol.43.001483",
+      "cited_by_count": 73,
+      "importance": 0.3073,
+      "score_basis": {
+        "topic_overlap": 0.194,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415003148",
+      "doi": "10.1109/jlt.2025.3619929",
+      "title": "Reconfigurable Hybrid Polarization/Wavelength (De)Multiplexer for 1.6-Tbps Fiber Communications",
+      "authors": [
+        "Kaihang Lu",
+        "Wu Zhou",
+        "Xianyi Feng",
+        "Yeyu Tong"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "wavelength demultiplexer",
+        "polarization multiplexing",
+        "wavelength division multiplexing",
+        "silicon-on-insulator photonics",
+        "polarization locking",
+        "NRZ-OOK",
+        "optical interconnects",
+        "data centers"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3619929",
+      "cited_by_count": 7,
+      "importance": 0.305,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2022091241",
+      "doi": "10.1143/jpsj.74.1674",
+      "title": "Chern Numbers in Discretized Brillouin Zone: Efficient Method of Computing (Spin) Hall Conductances",
+      "authors": [
+        "Takahiro Fukui",
+        "Yasuhiro Hatsugai",
+        "Hiroshi Suzuki"
+      ],
+      "year": 2005,
+      "venue": "Journal of the Physical Society of Japan",
+      "venue_abbr": "Journal of the Physical Society of Japan",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Chern number",
+        "Berry connection",
+        "spin Hall conductance",
+        "Hall conductance quantization",
+        "gauge invariance",
+        "topological phases"
+      ],
+      "url": "https://doi.org/10.1143/jpsj.74.1674",
+      "cited_by_count": 1425,
+      "importance": 0.299,
+      "score_basis": {
+        "topic_overlap": 0.131,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412075737",
+      "doi": "10.1038/s41467-025-61408-7",
+      "title": "A 4×256 Gbps silicon transmitter with on-chip adaptive dispersion compensation",
+      "authors": [
+        "Shihuan Ran",
+        "Guo Yu",
+        "Yuanbin Liu",
+        "Ting Miao",
+        "Yangbo Wu",
+        "Yang Qin",
+        "Yuyao Guo",
+        "Liangjun Lu",
+        "Yixiao Zhu",
+        "Yu Li",
+        "Qunbi Zhuge",
+        "Jianping Chen",
+        "Linjie Zhou"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chromatic dispersion",
+        "Mach-Zehnder modulator",
+        "wavelength division multiplexing",
+        "forward error correction",
+        "feed-forward equalization",
+        "maximum likelihood sequence estimation",
+        "optical interconnects",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-61408-7",
+      "cited_by_count": 18,
+      "importance": 0.2907,
+      "score_basis": {
+        "topic_overlap": 0.201,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408282298",
+      "doi": "10.1038/s41467-025-57689-7",
+      "title": "Edge-guided inverse design of digital metamaterial-based mode multiplexers for high-capacity multi-dimensional optical interconnect",
+      "authors": [
+        "Aolong Sun",
+        "Sizhe Xing",
+        "Xuyu Deng",
+        "Ruoyu Shen",
+        "An Yan",
+        "Fangchen Hu",
+        "Yuqin Yuan",
+        "Boyu Dong",
+        "Junhao Zhao",
+        "Ouhan Huang",
+        "Ziwei Li",
+        "Jianyang Shi",
+        "Yingjun Zhou",
+        "Chao Shen",
+        "Yiheng Zhao",
+        "Bingzhou Hong",
+        "Wei Chu",
+        "Junwen Zhang",
+        "Haiwen Cai",
+        "Nan Chi"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical interconnects",
+        "mode multiplexing",
+        "inverse design",
+        "silicon photonics",
+        "wavelength multiplexing",
+        "high-order modulation",
+        "PAM-8",
+        "terabit-per-second transmission",
+        "data center interconnects"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-57689-7",
+      "cited_by_count": 60,
+      "importance": 0.283,
+      "score_basis": {
+        "topic_overlap": 0.184,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408523593",
+      "doi": "10.1103/physrevb.111.094109",
+      "title": "Non-Hermitian Floquet higher-order topological states in two-dimensional quasicrystals",
+      "authors": [
+        "Aoqian Shi",
+        "Linsheng Bao",
+        "Peng Peng",
+        "Jiayun Ning",
+        "Zhennan Wang",
+        "Jianjun Liu"
+      ],
+      "year": 2025,
+      "venue": "Physical review. B./Physical review. B",
+      "venue_abbr": "Physical review. B./Physical review. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "higher-order topological states",
+        "quasicrystals",
+        "topological invariants",
+        "non-Hermitian skin effect",
+        "pi-mode",
+        "delocalization",
+        "effective model"
+      ],
+      "url": "https://doi.org/10.1103/physrevb.111.094109",
+      "cited_by_count": 43,
+      "importance": 0.2795,
+      "score_basis": {
+        "topic_overlap": 0.132,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3014357829",
+      "doi": "10.1109/jlt.2020.2981256",
+      "title": "DCI Field Trial Demonstrating 1.3-Tb/s Single-Channel and 50.8-Tb/s WDM Transmission Capacity",
+      "authors": [
+        "Fred Buchali",
+        "Karsten Schuh",
+        "Roman Dischler",
+        "Mathieu Chagnon",
+        "Vahid Aref",
+        "Henning Buelow",
+        "Qian Yu Hu",
+        "Florian Pulka",
+        "Massimo Frascolla",
+        "Islam Younis",
+        "Mohamed El-Zonkoli",
+        "Peter J. Winzer"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "data center interconnects",
+        "wavelength division multiplexing",
+        "high-capacity optical transmission",
+        "single-channel transmission",
+        "multi-channel transmission",
+        "spectral efficiency",
+        "erbium-doped fiber amplification",
+        "standard single-mode fiber",
+        "digital-to-analog converter",
+        "C-band"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.2981256",
+      "cited_by_count": 28,
+      "importance": 0.2229,
+      "score_basis": {
+        "topic_overlap": 0.051,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4395444915",
+      "doi": "10.1088/1361-6463/ad4371",
+      "title": "Spatial shaping of low- and high-order harmonics generated using vortex beams",
+      "authors": [
+        "Andra Naresh Kumar Reddy",
+        "Vyacheslav V. Kim",
+        "Victor Kärcher",
+        "H. Zacharias",
+        "Arturs Bundulis",
+        "Anatolijs Šarakovskis",
+        "Aigars Atvars",
+        "Arnolds Úbelis",
+        "Rashid Ashirovich Ganeev"
+      ],
+      "year": 2024,
+      "venue": "Journal of Physics D Applied Physics",
+      "venue_abbr": "Journal of Physics D Applied Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical vortices",
+        "high harmonic generation",
+        "orbital angular momentum",
+        "topological charge",
+        "spiral phase plate",
+        "second harmonic generation",
+        "third harmonic generation",
+        "lithium triborate",
+        "fused silica",
+        "extreme ultraviolet radiation",
+        "spatial profile",
+        "polarization dependence"
+      ],
+      "url": "https://doi.org/10.1088/1361-6463/ad4371",
+      "cited_by_count": 4,
+      "importance": 0.2051,
+      "score_basis": {
+        "topic_overlap": 0.011,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402593523",
+      "doi": "10.1109/jlt.2024.3463670",
+      "title": "Long-Haul >100-Tb/s Transmission Over >1000 km With High-Symbol-Rate Triple-Band WDM Signals",
+      "authors": [
+        "Fukutaro Hamaoka",
+        "Masanori Nakamura",
+        "Takeo Sasai",
+        "Shuto Sugawara",
+        "Takayuki Kobayashi",
+        "Yutaka Miyamoto",
+        "Etsushi Yamazaki"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "long-haul optical transmission",
+        "digital coherent detection",
+        "stimulated Raman scattering",
+        "distributed Raman amplification",
+        "rare-earth-doped fiber amplifiers"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3463670",
+      "cited_by_count": 16,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404105418",
+      "doi": "10.1038/s41586-024-08109-1",
+      "title": "A broadband hyperspectral image sensor with high spatio-temporal resolution",
+      "authors": [
+        "Liheng Bian",
+        "Zhen Wang",
+        "Yuzhe Zhang",
+        "Lianjie Li",
+        "Yinuo Zhang",
+        "Chen Yang",
+        "Wen Fang",
+        "Jiajun Zhao",
+        "Chunli Zhu",
+        "Qinghao Meng",
+        "Xuan Peng",
+        "Jun Zhang"
+      ],
+      "year": 2024,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "hyperspectral imaging",
+        "image sensors",
+        "spatiotemporal resolution",
+        "light throughput",
+        "chlorophyll quantification",
+        "sugar quantification",
+        "blood oxygen monitoring",
+        "water quality monitoring",
+        "fabric classification"
+      ],
+      "url": "https://doi.org/10.1038/s41586-024-08109-1",
+      "cited_by_count": 241,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404544314",
+      "doi": "10.1002/adma.202410060",
+      "title": "Printed High‐Entropy Prussian Blue Analogs for Advanced Non‐Volatile Memristive Devices",
+      "authors": [
+        "Yueyue He",
+        "Yin‐Ying Ting",
+        "Hongrong Hu",
+        "Thomas Diemant",
+        "Yuting Dai",
+        "Jing Chie Lin",
+        "Simon Schweidler",
+        "Gabriel Cadilha Marques",
+        "Horst Hahn",
+        "Yanjiao Ma",
+        "Torsten Brezesinski",
+        "Piotr M. Kowalski",
+        "Ben Breitung",
+        "Jasmin Aghassi‐Hagmann"
+      ],
+      "year": 2024,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "memristors",
+        "non-volatile memory",
+        "inkjet printing",
+        "forming-free operation",
+        "low power consumption",
+        "neuromorphic computing"
+      ],
+      "url": "https://doi.org/10.1002/adma.202410060",
+      "cited_by_count": 15,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1987693322",
+      "to": "W2108731428",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1987693322"
+        }
+      ]
+    },
+    {
+      "from": "W2053033894",
+      "to": "W1987693322",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2053033894"
+        }
+      ]
+    },
+    {
+      "from": "W2053033894",
+      "to": "W2108731428",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2053033894"
+        }
+      ]
+    },
+    {
+      "from": "W2898867578",
+      "to": "W1987693322",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2898867578"
+        }
+      ]
+    },
+    {
+      "from": "W2898867578",
+      "to": "W2022091241",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2898867578"
+        }
+      ]
+    },
+    {
+      "from": "W2898867578",
+      "to": "W2053033894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2898867578"
+        }
+      ]
+    },
+    {
+      "from": "W2898867578",
+      "to": "W41153617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2898867578"
+        }
+      ]
+    },
+    {
+      "from": "W3006594036",
+      "to": "W2898867578",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006594036"
+        }
+      ]
+    },
+    {
+      "from": "W3006594036",
+      "to": "W4211161891",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006594036"
+        }
+      ]
+    },
+    {
+      "from": "W3040733661",
+      "to": "W1987693322",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040733661"
+        }
+      ]
+    },
+    {
+      "from": "W3040733661",
+      "to": "W2022091241",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040733661"
+        }
+      ]
+    },
+    {
+      "from": "W3040733661",
+      "to": "W2108731428",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040733661"
+        }
+      ]
+    },
+    {
+      "from": "W3040733661",
+      "to": "W3006594036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040733661"
+        }
+      ]
+    },
+    {
+      "from": "W3040733661",
+      "to": "W41153617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040733661"
+        }
+      ]
+    },
+    {
+      "from": "W3040733661",
+      "to": "W4211161891",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040733661"
+        }
+      ]
+    },
+    {
+      "from": "W3092181927",
+      "to": "W41153617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3092181927"
+        }
+      ]
+    },
+    {
+      "from": "W3092181927",
+      "to": "W4211161891",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3092181927"
+        }
+      ]
+    },
+    {
+      "from": "W3162522244",
+      "to": "W1987693322",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162522244"
+        }
+      ]
+    },
+    {
+      "from": "W3162522244",
+      "to": "W2053033894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162522244"
+        }
+      ]
+    },
+    {
+      "from": "W3162522244",
+      "to": "W2108731428",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162522244"
+        }
+      ]
+    },
+    {
+      "from": "W3162522244",
+      "to": "W2898867578",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162522244"
+        }
+      ]
+    },
+    {
+      "from": "W3162522244",
+      "to": "W3006594036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162522244"
+        }
+      ]
+    },
+    {
+      "from": "W3162522244",
+      "to": "W41153617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162522244"
+        }
+      ]
+    },
+    {
+      "from": "W41153617",
+      "to": "W1987693322",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W41153617"
+        }
+      ]
+    },
+    {
+      "from": "W41153617",
+      "to": "W2053033894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W41153617"
+        }
+      ]
+    },
+    {
+      "from": "W41153617",
+      "to": "W2108731428",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W41153617"
+        }
+      ]
+    },
+    {
+      "from": "W4211161891",
+      "to": "W1987693322",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4211161891"
+        }
+      ]
+    },
+    {
+      "from": "W4211161891",
+      "to": "W2053033894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4211161891"
+        }
+      ]
+    },
+    {
+      "from": "W4211161891",
+      "to": "W2108731428",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4211161891"
+        }
+      ]
+    },
+    {
+      "from": "W4211161891",
+      "to": "W41153617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4211161891"
+        }
+      ]
+    },
+    {
+      "from": "W4221035012",
+      "to": "W1987693322",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221035012"
+        }
+      ]
+    },
+    {
+      "from": "W4221035012",
+      "to": "W2053033894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221035012"
+        }
+      ]
+    },
+    {
+      "from": "W4221035012",
+      "to": "W3006594036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221035012"
+        }
+      ]
+    },
+    {
+      "from": "W4221035012",
+      "to": "W41153617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221035012"
+        }
+      ]
+    },
+    {
+      "from": "W4221035012",
+      "to": "W4211161891",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221035012"
+        }
+      ]
+    },
+    {
+      "from": "W4318706857",
+      "to": "W2794256495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4318706857"
+        }
+      ]
+    },
+    {
+      "from": "W4403184648",
+      "to": "W1987693322",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403184648"
+        }
+      ]
+    },
+    {
+      "from": "W4403184648",
+      "to": "W3006594036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403184648"
+        }
+      ]
+    },
+    {
+      "from": "W4403184648",
+      "to": "W4211161891",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403184648"
+        }
+      ]
+    },
+    {
+      "from": "W4407970624",
+      "to": "W4318706857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407970624"
+        }
+      ]
+    },
+    {
+      "from": "W4411376307",
+      "to": "W4387695909",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411376307"
+        }
+      ]
+    },
+    {
+      "from": "W4417210857",
+      "to": "W4211161891",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417210857"
+        }
+      ]
+    },
+    {
+      "from": "W7131124336",
+      "to": "W4408523593",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7131124336"
+        }
+      ]
+    },
+    {
+      "from": "W7135012992",
+      "to": "W1987693322",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7135012992"
+        }
+      ]
+    },
+    {
+      "from": "W7135012992",
+      "to": "W2053033894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7135012992"
+        }
+      ]
+    },
+    {
+      "from": "W7135012992",
+      "to": "W4211161891",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7135012992"
+        }
+      ]
+    },
+    {
+      "from": "W7153807607",
+      "to": "W2053033894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7153807607"
+        }
+      ]
+    },
+    {
+      "from": "W7153807607",
+      "to": "W41153617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7153807607"
+        }
+      ]
+    },
+    {
+      "from": "W7153807607",
+      "to": "W4221035012",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7153807607"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W1987693322",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W2022091241",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W2053033894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W2108731428",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W2794256495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W2898867578",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W3006594036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W3014357829",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W3040733661",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W3092181927",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W3162522244",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W41153617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4211161891",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4221035012",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4318706857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4387695909",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4395444915",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4402593523",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4403184648",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4404105418",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4404544314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4407970624",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4408282298",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4408523593",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4411376307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4412075737",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4415003148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W4417210857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W7115601523",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W7125230202",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W7131124336",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W7135012992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    },
+    {
+      "from": "W7202194152",
+      "to": "W7153807607",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202194152"
+        }
+      ]
+    }
+  ]
 }

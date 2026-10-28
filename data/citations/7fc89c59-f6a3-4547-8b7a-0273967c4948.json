@@ -1,37 +1,2659 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "7fc89c59-f6a3-4547-8b7a-0273967c4948",
-  "root": "doi:10.1364/oe.609515",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7212689956",
+  "status": "ok",
+  "checked_at": "2026-10-28T00:54:45.797649+00:00",
+  "coverage": {
+    "references_found": 42,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 42,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/oe.609515",
+      "id": "W7212689956",
       "doi": "10.1364/oe.609515",
       "title": "GAE-based sensorless adaptive optics for high-order wavefront aberration correction in coherent free-space optical communication",
       "authors": [
         "Xingyu Xie",
         "Jingtai Cao",
         "Xingxin Fu",
-        "Kangbo Xuan"
+        "xuan kangbo"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Express",
       "venue_abbr": "OE",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "wavefront sensorless adaptive optics",
+        "atmospheric turbulence",
+        "grey wolf optimizer",
+        "hybrid metaheuristic",
+        "mixing efficiency",
+        "bit error rate",
+        "coupling efficiency"
+      ],
       "url": "https://doi.org/10.1364/oe.609515",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/7fc89c59-f6a3-4547-8b7a-0273967c4948.html",
       "summary": "摘要报告：针对相干FSOC中湍流致高阶波前像差下无传感器自适应光学收敛慢、鲁棒性差的问题，提出灰狼优化融合alpha进化算法（GAE）。结合相干探测理论与Zernike波前建模，在不同湍流强度与像差阶数下以混合效率、误码率、耦合效率为指标评估。结果：200个随机高阶波前中99%经校正后平均混合效率超过0.99，总体均值超过0.998；摘要未说明为仿真还是实验平台验证。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4210832990",
+      "doi": "10.1364/oe.451350",
+      "title": "Application of AdamSPGD algorithm to sensor-less adaptive optics in coherent free-space optical communication system",
+      "authors": [
+        "Heng Zhang",
+        "Li Xu",
+        "Yongfei Guo",
+        "Jingtai Cao",
+        "Wei Liu",
+        "Leqiang Yang"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "stochastic parallel gradient descent",
+        "Adam optimizer",
+        "wavefront correction",
+        "atmospheric turbulence correction",
+        "convergence rate",
+        "bit error rate",
+        "outage probability",
+        "mixing efficiency"
+      ],
+      "url": "https://doi.org/10.1364/oe.451350",
+      "cited_by_count": 63,
+      "importance": 0.732,
+      "score_basis": {
+        "topic_overlap": 0.493,
+        "shared_references": 5,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4205258247",
+      "doi": "10.1016/j.optlastec.2022.107878",
+      "title": "Performance analysis of coherent optical communication based on hybrid algorithm",
+      "authors": [
+        "Wei Liu",
+        "Dairan Jin",
+        "Wenxiao Shi",
+        "Jingtai Cao"
+      ],
+      "year": 2022,
+      "venue": "Optics & Laser Technology",
+      "venue_abbr": "Opt. Laser Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "atmospheric turbulence",
+        "wavefront sensorless adaptive optics",
+        "hybrid control algorithm",
+        "simulated annealing",
+        "stochastic parallel gradient descent",
+        "mixing efficiency",
+        "bit error rate",
+        "coupling efficiency",
+        "local optima avoidance"
+      ],
+      "url": "https://doi.org/10.1016/j.optlastec.2022.107878",
+      "cited_by_count": 23,
+      "importance": 0.73,
+      "score_basis": {
+        "topic_overlap": 0.6,
+        "shared_references": 4,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7163008104",
+      "doi": "10.1364/ao.592636",
+      "title": "VDNGWO-based aberration correction in sensorless adaptive optics for coherent free-space optical communication",
+      "authors": [
+        "Xingyu Xie",
+        "Xingxin Fu",
+        "Zhen Ping Wang",
+        "xuan kangbo",
+        "Jingtai Cao"
+      ],
+      "year": 2026,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "wavefront sensorless adaptive optics",
+        "wavefront aberration correction",
+        "grey wolf optimizer",
+        "atmospheric turbulence correction",
+        "metaheuristic optimization",
+        "convergence rate"
+      ],
+      "url": "https://doi.org/10.1364/ao.592636",
+      "cited_by_count": 1,
+      "importance": 0.7265,
+      "score_basis": {
+        "topic_overlap": 0.614,
+        "shared_references": 16,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2411675800",
+      "doi": "10.1364/oe.24.013288",
+      "title": "Performance evaluation of coherent free space optical communications with a double-stage fast-steering-mirror adaptive optics system depending on the Greenwood frequency",
+      "authors": [
+        "Wei Liu",
+        "Kainan Yao",
+        "Danian Huang",
+        "Xudong Lin",
+        "Liang Wang",
+        "Yaowen Lv"
+      ],
+      "year": 2016,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "adaptive optics",
+        "fast steering mirror",
+        "mixing efficiency",
+        "bit error rate",
+        "higher-order aberrations",
+        "deformable mirror",
+        "closed-loop adaptive optics",
+        "atmospheric turbulence"
+      ],
+      "url": "https://doi.org/10.1364/oe.24.013288",
+      "cited_by_count": 89,
+      "importance": 0.6959,
+      "score_basis": {
+        "topic_overlap": 0.547,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2972346952",
+      "doi": "10.1038/s41598-019-48338-3",
+      "title": "Performance analysis of 349-element adaptive optics unit for a coherent free space optical communication system",
+      "authors": [
+        "Leqiang Yang",
+        "Kainan Yao",
+        "Jianli Wang",
+        "Jingtai Cao",
+        "Xudong Lin",
+        "Xinyue Liu",
+        "Wei Liu",
+        "Haijun Gu"
+      ],
+      "year": 2019,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "adaptive optics",
+        "deformable mirror",
+        "mixing efficiency",
+        "bit error rate",
+        "atmospheric turbulence",
+        "system performance evaluation"
+      ],
+      "url": "https://doi.org/10.1038/s41598-019-48338-3",
+      "cited_by_count": 22,
+      "importance": 0.6561,
+      "score_basis": {
+        "topic_overlap": 0.591,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407760823",
+      "doi": "10.1364/oe.550701",
+      "title": "Performance analysis of the optimized equilibrium optimizer algorithm using linear population size reduction in the coherent free-space optical communication system",
+      "authors": [
+        "Zhimin Wang",
+        "Jingtai Cao",
+        "Xingxin Fu",
+        "Wei Liu"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "atmospheric turbulence correction"
+      ],
+      "url": "https://doi.org/10.1364/oe.550701",
+      "cited_by_count": 4,
+      "importance": 0.64,
+      "score_basis": {
+        "topic_overlap": 0.378,
+        "shared_references": 7,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4381620602",
+      "doi": "10.1016/j.optcom.2023.129707",
+      "title": "Residual network-based aberration correction in a sensor-less adaptive optics system",
+      "authors": [
+        "Wei Liu",
+        "Xinyang Ma",
+        "Dairan Jin",
+        "Wenxiao Shi",
+        "Haijun Gu",
+        "Jingtai Cao"
+      ],
+      "year": 2023,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "ResNet",
+        "wavefront aberration correction",
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "real-time performance"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2023.129707",
+      "cited_by_count": 15,
+      "importance": 0.6311,
+      "score_basis": {
+        "topic_overlap": 0.536,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2070208296",
+      "doi": "10.1364/oe.22.015554",
+      "title": "Performance evaluation of adaptive optics for atmospheric coherent laser communications",
+      "authors": [
+        "Chao Liu",
+        "Shanqiu Chen",
+        "Xinyang Li",
+        "Hao Xian"
+      ],
+      "year": 2014,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "adaptive optics",
+        "free-space optical links",
+        "atmospheric turbulence",
+        "mixing efficiency",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1364/oe.22.015554",
+      "cited_by_count": 117,
+      "importance": 0.6007,
+      "score_basis": {
+        "topic_overlap": 0.602,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2017783665",
+      "doi": "10.1364/oe.19.000371",
+      "title": "Wavefront sensorless adaptive optics: a general model-based approach",
+      "authors": [
+        "Huang Linhai",
+        "Changhui Rao"
+      ],
+      "year": 2010,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "wavefront sensorless adaptive optics",
+        "model-based correction",
+        "far-field intensity distribution",
+        "bias function",
+        "Strehl ratio",
+        "aberration correction"
+      ],
+      "url": "https://doi.org/10.1364/oe.19.000371",
+      "cited_by_count": 86,
+      "importance": 0.5724,
+      "score_basis": {
+        "topic_overlap": 0.339,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406272115",
+      "doi": "10.1364/optica.541823",
+      "title": "Automatic mitigation of dynamic atmospheric turbulence using optical phase conjugation for coherent free-space optical communications",
+      "authors": [
+        "Huibin Zhou",
+        "Xinzhou Su",
+        "Yuxiang Duan",
+        "Yue Zuo",
+        "Zile Jiang",
+        "Muralekrishnan Ramakrishnan",
+        "Jan Tepper",
+        "Volker Ziegler",
+        "Robert W. Boyd",
+        "Moshe Tur",
+        "Alan Eli Willner"
+      ],
+      "year": 2025,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "phase conjugation",
+        "atmospheric turbulence correction",
+        "free-space optical communication",
+        "coherent detection",
+        "photorefractive crystals",
+        "four-wave mixing",
+        "GaAs crystals",
+        "QPSK",
+        "high-speed data transmission"
+      ],
+      "url": "https://doi.org/10.1364/optica.541823",
+      "cited_by_count": 24,
+      "importance": 0.5677,
+      "score_basis": {
+        "topic_overlap": 0.373,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2174849117",
+      "doi": "10.1016/j.optcom.2015.10.033",
+      "title": "Adaptive optics for the free-space coherent optical communications",
+      "authors": [
+        "Chao Liu",
+        "Mo Chen",
+        "Shanqiu Chen",
+        "Hao Xian"
+      ],
+      "year": 2015,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "adaptive optics",
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "homodyne detection",
+        "mixing efficiency",
+        "bit error rate",
+        "Strehl ratio",
+        "wavefront error",
+        "1550 nm",
+        "coherent optical communication"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2015.10.033",
+      "cited_by_count": 71,
+      "importance": 0.563,
+      "score_basis": {
+        "topic_overlap": 0.518,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402638678",
+      "doi": "10.1103/physrevapplied.22.034047",
+      "title": "Experimental demonstration of deep-learning-enabled adaptive optics",
+      "authors": [
+        "Hao-Bin Fu",
+        "Zu-Yang Wan",
+        "Yu-Huai Li",
+        "Bo Li",
+        "Zhen Rong",
+        "Gao-Qiang Wang",
+        "Juan Yin",
+        "Ji-Gang Ren",
+        "Wei-Yue Liu",
+        "Sheng‐Kai Liao",
+        "Yuan Wen Cao",
+        "Cheng-Zhi Peng"
+      ],
+      "year": 2024,
+      "venue": "Physical Review Applied",
+      "venue_abbr": "Phys. Rev. Applied",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "adaptive optics",
+        "deep learning",
+        "convolutional neural networks",
+        "atmospheric turbulence",
+        "single-mode fiber coupling",
+        "free-space quantum key distribution",
+        "satellite quantum communication"
+      ],
+      "url": "https://doi.org/10.1103/physrevapplied.22.034047",
+      "cited_by_count": 9,
+      "importance": 0.5621,
+      "score_basis": {
+        "topic_overlap": 0.36,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2153332281",
+      "doi": "10.1364/ao.44.004946",
+      "title": "Fiber-coupling efficiency for free-space optical communication through atmospheric turbulence",
+      "authors": [
+        "Yamaç Dikmelik",
+        "Frederic M. Davidson"
+      ],
+      "year": 2005,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fiber coupling efficiency",
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "spatial coherence",
+        "subapertures",
+        "laser beam distortion",
+        "receiver module"
+      ],
+      "url": "https://doi.org/10.1364/ao.44.004946",
+      "cited_by_count": 259,
+      "importance": 0.4744,
+      "score_basis": {
+        "topic_overlap": 0.476,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2602293332",
+      "doi": "10.1038/nmeth.4218",
+      "title": "Adaptive optical fluorescence microscopy",
+      "authors": [
+        "Na Ji"
+      ],
+      "year": 2017,
+      "venue": "Nature Methods",
+      "venue_abbr": "Nature Methods",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "adaptive optics",
+        "fluorescence microscopy",
+        "optical aberrations",
+        "deep tissue imaging",
+        "aberration correction",
+        "bioimaging",
+        "image quality",
+        "multicellular organisms"
+      ],
+      "url": "https://doi.org/10.1038/nmeth.4218",
+      "cited_by_count": 532,
+      "importance": 0.4741,
+      "score_basis": {
+        "topic_overlap": 0.187,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2087809363",
+      "doi": "10.1364/ol.32.000005",
+      "title": "Wavefront sensorless adaptive optics for large aberrations",
+      "authors": [
+        "Martin J. Booth"
+      ],
+      "year": 2006,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "wavefront sensorless adaptive optics",
+        "geometrical optics"
+      ],
+      "url": "https://doi.org/10.1364/ol.32.000005",
+      "cited_by_count": 195,
+      "importance": 0.4728,
+      "score_basis": {
+        "topic_overlap": 0.206,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4225000881",
+      "doi": "10.1364/ao.455953",
+      "title": "Prediction of wavefront distortion for wavefront sensorless adaptive optics based on deep learning",
+      "authors": [
+        "Yushuang Li",
+        "Dan Yue",
+        "Yihao He"
+      ],
+      "year": 2022,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "wavefront sensorless adaptive optics",
+        "Zernike coefficients",
+        "atmospheric turbulence",
+        "convolutional neural networks",
+        "EfficientNetB0",
+        "ResNet",
+        "turbulence intensity"
+      ],
+      "url": "https://doi.org/10.1364/ao.455953",
+      "cited_by_count": 32,
+      "importance": 0.4487,
+      "score_basis": {
+        "topic_overlap": 0.219,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2008493311",
+      "doi": "10.1117/12.55712",
+      "title": "Atmospheric wavefront simulation using Zernike polynomials",
+      "authors": [
+        "Nicolas A. Roddier"
+      ],
+      "year": 1990,
+      "venue": "Optical Engineering",
+      "venue_abbr": "Opt. Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Zernike polynomials",
+        "Karhunen-Loeve transform",
+        "structure functions",
+        "Strehl ratio",
+        "adaptive optics",
+        "atmospheric turbulence"
+      ],
+      "url": "https://doi.org/10.1117/12.55712",
+      "cited_by_count": 442,
+      "importance": 0.4456,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2059157514",
+      "doi": "10.1364/josa.66.000207",
+      "title": "Zernike polynomials and atmospheric turbulence*",
+      "authors": [
+        "Robert J. Noll"
+      ],
+      "year": 1976,
+      "venue": "Journal of the Optical Society of America",
+      "venue_abbr": "Journal of the Optical Society of America",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Zernike polynomials",
+        "atmospheric turbulence",
+        "Kolmogorov spectrum",
+        "wavefront compensation",
+        "Fourier transform",
+        "integral representation",
+        "wavefront aberrations"
+      ],
+      "url": "https://doi.org/10.1364/josa.66.000207",
+      "cited_by_count": 2782,
+      "importance": 0.4294,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4381429786",
+      "doi": "10.1038/s41377-023-01201-7",
+      "title": "Tbit/s line-rate satellite feeder links enabled by coherent modulation and full-adaptive optics",
+      "authors": [
+        "Yannik Horst",
+        "Bertold Ian Bitachon",
+        "Laurenz Kulmer",
+        "Jannik Brun",
+        "Tobias Blatter",
+        "Jean‐Marc Conan",
+        "Aurélie Montmerle-Bonnefois",
+        "Joseph Montri",
+        "Béatrice Sorrente",
+        "Caroline B. Lim",
+        "Nicolas Védrenne",
+        "Daniel Matter",
+        "Loann D. Pommarel",
+        "Benedikt Baeuerle",
+        "Juerg Leuthold"
+      ],
+      "year": 2023,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "coherent modulation",
+        "atmospheric turbulence",
+        "polarization multiplexing",
+        "high-order modulation",
+        "photon efficiency"
+      ],
+      "url": "https://doi.org/10.1038/s41377-023-01201-7",
+      "cited_by_count": 120,
+      "importance": 0.4199,
+      "score_basis": {
+        "topic_overlap": 0.444,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400207942",
+      "doi": "10.1038/s41566-024-01466-3",
+      "title": "Direct observation of atmospheric turbulence with a video-rate wide-field wavefront sensor",
+      "authors": [
+        "Yuduo Guo",
+        "Yuhan Hao",
+        "Sen Wan",
+        "Hao Zhang",
+        "Laiyu Zhu",
+        "Yi Zhang",
+        "Jiamin Wu",
+        "Qionghai Dai",
+        "Lu Fang"
+      ],
+      "year": 2024,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "atmospheric turbulence",
+        "light field imaging",
+        "anisoplanatism",
+        "von Karman turbulence model",
+        "differential image motion monitor",
+        "aberration correction",
+        "free-space optical communication",
+        "convolutional recurrent neural network",
+        "turbulence prediction",
+        "atmospheric optics"
+      ],
+      "url": "https://doi.org/10.1038/s41566-024-01466-3",
+      "cited_by_count": 65,
+      "importance": 0.4172,
+      "score_basis": {
+        "topic_overlap": 0.372,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2067847687",
+      "doi": "10.1364/oe.14.001339",
+      "title": "Wave front sensor-less adaptive optics: a model-based approach using sphere packings",
+      "authors": [
+        "Martin J. Booth"
+      ],
+      "year": 2006,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "wavefront sensorless adaptive optics",
+        "sphere packing",
+        "sphere covering",
+        "Zernike polynomials",
+        "direct search algorithm",
+        "hill climbing"
+      ],
+      "url": "https://doi.org/10.1364/oe.14.001339",
+      "cited_by_count": 183,
+      "importance": 0.4097,
+      "score_basis": {
+        "topic_overlap": 0.177,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2007445030",
+      "doi": "10.1364/ol.39.004599",
+      "title": "Speckle transfer function for partial correction adaptive optics image reconstruction",
+      "authors": [
+        "Libo Zhong",
+        "Yu Tian",
+        "Changhui Rao"
+      ],
+      "year": 2014,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "photometry",
+        "seeing conditions",
+        "spectral ratio method",
+        "wavefront compensation"
+      ],
+      "url": "https://doi.org/10.1364/ol.39.004599",
+      "cited_by_count": 3,
+      "importance": 0.4025,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386022482",
+      "doi": "10.1364/prj.497909",
+      "title": "Highly robust spatiotemporal wavefront prediction with a mixed graph neural network in adaptive optics",
+      "authors": [
+        "Ju Tang",
+        "Ji Wu",
+        "Jiawei Zhang",
+        "Mengmeng Zhang",
+        "Zhenbo Ren",
+        "Jianglei Di",
+        "Liusen Hu",
+        "Guodong Liu",
+        "Jianlin Zhao"
+      ],
+      "year": 2023,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "adaptive optics",
+        "Zernike polynomials",
+        "spatiotemporal feature extraction",
+        "atmospheric turbulence",
+        "wavefront correction"
+      ],
+      "url": "https://doi.org/10.1364/prj.497909",
+      "cited_by_count": 20,
+      "importance": 0.4012,
+      "score_basis": {
+        "topic_overlap": 0.336,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4328122725",
+      "doi": "10.1364/boe.479886",
+      "title": "Adaptive optics for optical microscopy [Invited]",
+      "authors": [
+        "Qinrong Zhang",
+        "Qi Hu",
+        "Caroline Berlage",
+        "Peter Kner",
+        "Benjamin Judkewitz",
+        "Martin J. Booth",
+        "Na Ji"
+      ],
+      "year": 2023,
+      "venue": "Biomedical Optics Express",
+      "venue_abbr": "Biomedical Optics Express",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "adaptive optics",
+        "optical microscopy",
+        "aberration correction",
+        "super-resolution imaging",
+        "bioimaging",
+        "complex tissues",
+        "high-resolution imaging"
+      ],
+      "url": "https://doi.org/10.1364/boe.479886",
+      "cited_by_count": 87,
+      "importance": 0.3955,
+      "score_basis": {
+        "topic_overlap": 0.212,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2111957251",
+      "doi": "10.1364/josaa.17.001440",
+      "title": "Adaptive optics based on analog parallel stochastic optimization: analysis and experimental demonstration",
+      "authors": [
+        "Воронцов Михаил Александрович",
+        "Gary W. Carhart",
+        "Marc H. Cohen",
+        "Gert Cauwenberghs"
+      ],
+      "year": 2000,
+      "venue": "Journal of the Optical Society of America A",
+      "venue_abbr": "Journal of the Optical Society of America A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "adaptive optics",
+        "wavefront correction",
+        "simultaneous perturbation stochastic approximation",
+        "analog VLSI",
+        "gradient descent",
+        "deformable mirror",
+        "liquid crystal phase modulator",
+        "laser beam steering",
+        "intensity scintillation",
+        "phase aberration compensation",
+        "real-time adaptive control"
+      ],
+      "url": "https://doi.org/10.1364/josaa.17.001440",
+      "cited_by_count": 196,
+      "importance": 0.3921,
+      "score_basis": {
+        "topic_overlap": 0.294,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2076414501",
+      "doi": "10.1364/ol.31.000939",
+      "title": "Simulated annealing in ocular adaptive optics",
+      "authors": [
+        "Shachaf Zommer",
+        "Erez N. Ribak",
+        "S. G. Lipson",
+        "Joan Adler"
+      ],
+      "year": 2006,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "simulated annealing",
+        "adaptive optics",
+        "retinal imaging",
+        "wavefront sensing",
+        "Shack-Hartmann wavefront sensor",
+        "stochastic parallel gradient descent",
+        "hardware implementation",
+        "optimization algorithms"
+      ],
+      "url": "https://doi.org/10.1364/ol.31.000939",
+      "cited_by_count": 125,
+      "importance": 0.3829,
+      "score_basis": {
+        "topic_overlap": 0.162,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3098912657",
+      "doi": "10.1364/oe.409201",
+      "title": "Real-time 1.5 kHz adaptive optical system to correct for atmospheric turbulence",
+      "authors": [
+        "Alexis V. Kudryashov",
+        "Alexey L. Rukosuev",
+        "Alexander Nikolaevich Nikitin",
+        "Ilya V. Galaktionov",
+        "Julia Sheldakova"
+      ],
+      "year": 2020,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "adaptive optics",
+        "atmospheric turbulence",
+        "wavefront correction",
+        "FPGA control",
+        "real-time correction"
+      ],
+      "url": "https://doi.org/10.1364/oe.409201",
+      "cited_by_count": 42,
+      "importance": 0.3582,
+      "score_basis": {
+        "topic_overlap": 0.352,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3156638541",
+      "doi": "10.1016/j.optcom.2021.127029",
+      "title": "Coupling system with concave and positive–negative angular cone lenses group for the Cassegrain receiving antenna system",
+      "authors": [
+        "Biao Cao",
+        "Ping Jiang",
+        "Huajun Yang",
+        "Yan Qin",
+        "Miaofang Zhou"
+      ],
+      "year": 2021,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "space optical communication",
+        "beam coupling",
+        "single-mode fiber",
+        "concave lens",
+        "coupling efficiency",
+        "misalignment tolerance"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2021.127029",
+      "cited_by_count": 9,
+      "importance": 0.3491,
+      "score_basis": {
+        "topic_overlap": 0.176,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2594747861",
+      "doi": "10.1016/j.phycom.2017.02.008",
+      "title": "Gerchberg–Saxton algorithm based phase correction in optical wireless communication",
+      "authors": [
+        "Ming Li",
+        "Yupeng Li",
+        "Jiawei Han"
+      ],
+      "year": 2017,
+      "venue": "Physical Communication",
+      "venue_abbr": "Physical Communication",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical wireless communication",
+        "phase retrieval",
+        "Gerchberg-Saxton algorithm",
+        "atmospheric turbulence",
+        "phase aberration correction",
+        "5G backhaul",
+        "initial conditions"
+      ],
+      "url": "https://doi.org/10.1016/j.phycom.2017.02.008",
+      "cited_by_count": 42,
+      "importance": 0.3468,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4294691184",
+      "doi": "10.1109/jphot.2022.3203993",
+      "title": "Deep Learning-Based Prediction Algorithm on Atmospheric Turbulence-Induced Wavefront for Adaptive Optics",
+      "authors": [
+        "Ning Wang",
+        "Licheng Zhu",
+        "Shuai Ma",
+        "Zhao Wang",
+        "Xinlan Ge",
+        "Zeyu Gao",
+        "Kangjian Yang",
+        "Shuai Wang",
+        "Ping Yang"
+      ],
+      "year": 2022,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "adaptive optics",
+        "atmospheric turbulence",
+        "Shack-Hartmann wavefront sensor",
+        "system latency"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2022.3203993",
+      "cited_by_count": 15,
+      "importance": 0.3456,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406471571",
+      "doi": "10.1140/epjqt/s40507-025-00306-9",
+      "title": "Intermodal quantum key distribution field trial with active switching between fiber and free-space channels",
+      "authors": [
+        "Francesco Picciariello",
+        "Ilektra Karakosta-Amarantidou",
+        "Edoardo Rossi",
+        "Marco Avesani",
+        "Giulio Foletto",
+        "Luca Calderaro",
+        "Giuseppe Vallone",
+        "Paolo Villoresi",
+        "Francesco Vedovato"
+      ],
+      "year": 2025,
+      "venue": "EPJ Quantum Technology",
+      "venue_abbr": "EPJ Quantum Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "free-space quantum key distribution",
+        "channel switching",
+        "atmospheric turbulence",
+        "secret key rate",
+        "field trials"
+      ],
+      "url": "https://doi.org/10.1140/epjqt/s40507-025-00306-9",
+      "cited_by_count": 17,
+      "importance": 0.3391,
+      "score_basis": {
+        "topic_overlap": 0.198,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1969023967",
+      "doi": "10.1364/oe.15.017051",
+      "title": "Intracavity transverse modes controlled by a genetic algorithm based on Zernike mode coefficients",
+      "authors": [
+        "Ping Yang",
+        "Mingwu Ao",
+        "Yuan Liu",
+        "Bing Xu",
+        "WenHan Jiang"
+      ],
+      "year": 2007,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "adaptive optics",
+        "transverse mode control",
+        "genetic algorithm",
+        "Nd:YAG laser",
+        "diode-pumped lasers",
+        "convergence rate"
+      ],
+      "url": "https://doi.org/10.1364/oe.15.017051",
+      "cited_by_count": 67,
+      "importance": 0.3334,
+      "score_basis": {
+        "topic_overlap": 0.163,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2037657651",
+      "doi": "10.1038/lsa.2014.46",
+      "title": "Adaptive optical microscopy: the ongoing quest for a perfect image",
+      "authors": [
+        "Martin J. Booth"
+      ],
+      "year": 2014,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "adaptive optics",
+        "aberration correction",
+        "refractive index structure",
+        "high-resolution microscopy",
+        "deep tissue imaging",
+        "tissue imaging"
+      ],
+      "url": "https://doi.org/10.1038/lsa.2014.46",
+      "cited_by_count": 652,
+      "importance": 0.331,
+      "score_basis": {
+        "topic_overlap": 0.202,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2593381201",
+      "doi": "10.1364/ao.56.002336",
+      "title": "Strehl ratio and amplitude-weighted generalized orthonormal Zernike-based polynomials",
+      "authors": [
+        "Cosmas Mafusire",
+        "Tjaart P. J. Krüger"
+      ],
+      "year": 2017,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Zernike polynomials",
+        "orthonormal polynomials",
+        "Strehl ratio",
+        "amplitude weighting",
+        "wavefront aberrations",
+        "phase representation"
+      ],
+      "url": "https://doi.org/10.1364/ao.56.002336",
+      "cited_by_count": 8,
+      "importance": 0.3102,
+      "score_basis": {
+        "topic_overlap": 0.134,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3129020207",
+      "doi": "10.1364/ol.417305",
+      "title": "Pyramid and Shack–Hartmann hybrid wave-front sensor",
+      "authors": [
+        "Charlotte Guthery",
+        "Michael Hart"
+      ],
+      "year": 2021,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "pyramid wavefront sensor",
+        "Shack-Hartmann wavefront sensor",
+        "adaptive optics",
+        "wavefront sensing",
+        "dynamic range",
+        "sensitivity",
+        "microlens array",
+        "pupil imaging",
+        "wavefront reconstruction"
+      ],
+      "url": "https://doi.org/10.1364/ol.417305",
+      "cited_by_count": 14,
+      "importance": 0.301,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1982310458",
+      "doi": "10.1364/oe.16.000108",
+      "title": "Modified Gaussian influence function of deformable mirror actuators",
+      "authors": [
+        "Linhai Huang",
+        "Changhui Rao",
+        "Wenhan Jiang"
+      ],
+      "year": 2008,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "deformable mirror",
+        "influence function",
+        "Gaussian function",
+        "residual error analysis",
+        "simplex search",
+        "Zygo interferometer",
+        "wavefront correction"
+      ],
+      "url": "https://doi.org/10.1364/oe.16.000108",
+      "cited_by_count": 43,
+      "importance": 0.295,
+      "score_basis": {
+        "topic_overlap": 0.167,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409817272",
+      "doi": "10.1364/oe.561252",
+      "title": "Robust multifunctional single-tone training sequence for free-space optical communication in strong turbulence",
+      "authors": [
+        "Kunfeng Liu",
+        "Liqian Wang",
+        "Mengyao Chen"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "frequency offset estimation",
+        "training sequence design",
+        "phase correction",
+        "diversity reception",
+        "transceiver",
+        "digital signal processing"
+      ],
+      "url": "https://doi.org/10.1364/oe.561252",
+      "cited_by_count": 4,
+      "importance": 0.2924,
+      "score_basis": {
+        "topic_overlap": 0.205,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390475396",
+      "doi": "10.1038/s41377-023-01340-x",
+      "title": "On the use of deep learning for phase recovery",
+      "authors": [
+        "Kaiqiang Wang",
+        "Li Song",
+        "Chutian Wang",
+        "Zhenbo Ren",
+        "Guangyuan Zhao",
+        "Jiazhen Dou",
+        "Jianglei Di",
+        "George Barbastathis",
+        "Renjie Zhou",
+        "Jianlin Zhao",
+        "Edmund Y. M. Lam"
+      ],
+      "year": 2023,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "phase recovery",
+        "deep learning",
+        "phase retrieval",
+        "quantitative phase imaging",
+        "coherent diffraction imaging",
+        "adaptive optics",
+        "refractive index reconstruction",
+        "computational imaging",
+        "aberration correction"
+      ],
+      "url": "https://doi.org/10.1038/s41377-023-01340-x",
+      "cited_by_count": 248,
+      "importance": 0.29,
+      "score_basis": {
+        "topic_overlap": 0.2,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4292623500",
+      "doi": "10.1364/oe.466292",
+      "title": "Phase-diversity wavefront sensing enhanced by a Fourier-based neural network",
+      "authors": [
+        "Zhisheng Zhou",
+        "Jingang Zhang",
+        "Qiang Fu",
+        "Yunfeng Nie"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "low-frequency coefficients",
+        "local optima avoidance",
+        "training data reduction",
+        "adaptive optics"
+      ],
+      "url": "https://doi.org/10.1364/oe.466292",
+      "cited_by_count": 21,
+      "importance": 0.2734,
+      "score_basis": {
+        "topic_overlap": 0.163,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2061438946",
+      "doi": "10.1016/j.advengsoft.2013.12.007",
+      "title": "Grey Wolf Optimizer",
+      "authors": [
+        "Seyedali Mirjalili",
+        "Seyed Mohammad Mirjalili",
+        "Andrew Lewis"
+      ],
+      "year": 2014,
+      "venue": "Advances in Engineering Software",
+      "venue_abbr": "Advances in Engineering Software",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "grey wolf optimizer",
+        "metaheuristic optimization",
+        "leadership hierarchy",
+        "benchmark functions",
+        "engineering design optimization",
+        "tension/compression spring design",
+        "welded beam design",
+        "pressure vessel design",
+        "swarm intelligence"
+      ],
+      "url": "https://doi.org/10.1016/j.advengsoft.2013.12.007",
+      "cited_by_count": 19793,
+      "importance": 0.2679,
+      "score_basis": {
+        "topic_overlap": 0.062,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2007445030",
+      "to": "W2008493311",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2007445030"
+        }
+      ]
+    },
+    {
+      "from": "W2007445030",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2007445030"
+        }
+      ]
+    },
+    {
+      "from": "W2017783665",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2017783665"
+        }
+      ]
+    },
+    {
+      "from": "W2017783665",
+      "to": "W2067847687",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2017783665"
+        }
+      ]
+    },
+    {
+      "from": "W2017783665",
+      "to": "W2087809363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2017783665"
+        }
+      ]
+    },
+    {
+      "from": "W2017783665",
+      "to": "W2111957251",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2017783665"
+        }
+      ]
+    },
+    {
+      "from": "W2067847687",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2067847687"
+        }
+      ]
+    },
+    {
+      "from": "W2070208296",
+      "to": "W2008493311",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2070208296"
+        }
+      ]
+    },
+    {
+      "from": "W2076414501",
+      "to": "W2111957251",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2076414501"
+        }
+      ]
+    },
+    {
+      "from": "W2087809363",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2087809363"
+        }
+      ]
+    },
+    {
+      "from": "W2087809363",
+      "to": "W2067847687",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2087809363"
+        }
+      ]
+    },
+    {
+      "from": "W2174849117",
+      "to": "W2070208296",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2174849117"
+        }
+      ]
+    },
+    {
+      "from": "W2411675800",
+      "to": "W2008493311",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2411675800"
+        }
+      ]
+    },
+    {
+      "from": "W2411675800",
+      "to": "W2070208296",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2411675800"
+        }
+      ]
+    },
+    {
+      "from": "W2411675800",
+      "to": "W2174849117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2411675800"
+        }
+      ]
+    },
+    {
+      "from": "W2593381201",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2593381201"
+        }
+      ]
+    },
+    {
+      "from": "W2602293332",
+      "to": "W2037657651",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2602293332"
+        }
+      ]
+    },
+    {
+      "from": "W2602293332",
+      "to": "W2067847687",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2602293332"
+        }
+      ]
+    },
+    {
+      "from": "W2602293332",
+      "to": "W2087809363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2602293332"
+        }
+      ]
+    },
+    {
+      "from": "W2972346952",
+      "to": "W2070208296",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2972346952"
+        }
+      ]
+    },
+    {
+      "from": "W2972346952",
+      "to": "W2174849117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2972346952"
+        }
+      ]
+    },
+    {
+      "from": "W2972346952",
+      "to": "W2411675800",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2972346952"
+        }
+      ]
+    },
+    {
+      "from": "W3156638541",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3156638541"
+        }
+      ]
+    },
+    {
+      "from": "W4205258247",
+      "to": "W2007445030",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4205258247"
+        }
+      ]
+    },
+    {
+      "from": "W4205258247",
+      "to": "W2174849117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4205258247"
+        }
+      ]
+    },
+    {
+      "from": "W4205258247",
+      "to": "W2411675800",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4205258247"
+        }
+      ]
+    },
+    {
+      "from": "W4205258247",
+      "to": "W3156638541",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4205258247"
+        }
+      ]
+    },
+    {
+      "from": "W4210832990",
+      "to": "W2008493311",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210832990"
+        }
+      ]
+    },
+    {
+      "from": "W4210832990",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210832990"
+        }
+      ]
+    },
+    {
+      "from": "W4210832990",
+      "to": "W2070208296",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210832990"
+        }
+      ]
+    },
+    {
+      "from": "W4210832990",
+      "to": "W2174849117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210832990"
+        }
+      ]
+    },
+    {
+      "from": "W4210832990",
+      "to": "W2972346952",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210832990"
+        }
+      ]
+    },
+    {
+      "from": "W4225000881",
+      "to": "W1969023967",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225000881"
+        }
+      ]
+    },
+    {
+      "from": "W4225000881",
+      "to": "W2076414501",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225000881"
+        }
+      ]
+    },
+    {
+      "from": "W4225000881",
+      "to": "W2087809363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225000881"
+        }
+      ]
+    },
+    {
+      "from": "W4328122725",
+      "to": "W2037657651",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4328122725"
+        }
+      ]
+    },
+    {
+      "from": "W4328122725",
+      "to": "W2602293332",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4328122725"
+        }
+      ]
+    },
+    {
+      "from": "W4381620602",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381620602"
+        }
+      ]
+    },
+    {
+      "from": "W4381620602",
+      "to": "W2411675800",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381620602"
+        }
+      ]
+    },
+    {
+      "from": "W4381620602",
+      "to": "W4205258247",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381620602"
+        }
+      ]
+    },
+    {
+      "from": "W4386022482",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386022482"
+        }
+      ]
+    },
+    {
+      "from": "W4400207942",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400207942"
+        }
+      ]
+    },
+    {
+      "from": "W4402638678",
+      "to": "W1969023967",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402638678"
+        }
+      ]
+    },
+    {
+      "from": "W4402638678",
+      "to": "W2008493311",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402638678"
+        }
+      ]
+    },
+    {
+      "from": "W4402638678",
+      "to": "W2602293332",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402638678"
+        }
+      ]
+    },
+    {
+      "from": "W4402638678",
+      "to": "W4210832990",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402638678"
+        }
+      ]
+    },
+    {
+      "from": "W4406272115",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406272115"
+        }
+      ]
+    },
+    {
+      "from": "W4406272115",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406272115"
+        }
+      ]
+    },
+    {
+      "from": "W4406272115",
+      "to": "W2972346952",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406272115"
+        }
+      ]
+    },
+    {
+      "from": "W4406272115",
+      "to": "W4381429786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406272115"
+        }
+      ]
+    },
+    {
+      "from": "W4406471571",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406471571"
+        }
+      ]
+    },
+    {
+      "from": "W4407760823",
+      "to": "W2008493311",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407760823"
+        }
+      ]
+    },
+    {
+      "from": "W4407760823",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407760823"
+        }
+      ]
+    },
+    {
+      "from": "W4407760823",
+      "to": "W2076414501",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407760823"
+        }
+      ]
+    },
+    {
+      "from": "W4407760823",
+      "to": "W2411675800",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407760823"
+        }
+      ]
+    },
+    {
+      "from": "W4407760823",
+      "to": "W4205258247",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407760823"
+        }
+      ]
+    },
+    {
+      "from": "W4407760823",
+      "to": "W4210832990",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407760823"
+        }
+      ]
+    },
+    {
+      "from": "W4407760823",
+      "to": "W4381620602",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407760823"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W1969023967",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W1982310458",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W2008493311",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W2017783665",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W2061438946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W2067847687",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W2076414501",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W2087809363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W2111957251",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W2411675800",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W3129020207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W4205258247",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W4210832990",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W4381620602",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7163008104",
+      "to": "W4407760823",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163008104"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W1969023967",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W1982310458",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2007445030",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2008493311",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2017783665",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2037657651",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2059157514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2061438946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2067847687",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2070208296",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2076414501",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2087809363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2111957251",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2174849117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2411675800",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2593381201",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2594747861",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2602293332",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W2972346952",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W3098912657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W3129020207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W3156638541",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4205258247",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4210832990",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4225000881",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4292623500",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4294691184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4328122725",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4381429786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4381620602",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4386022482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4390475396",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4400207942",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4402638678",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4406272115",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4406471571",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4407760823",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W4409817272",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    },
+    {
+      "from": "W7212689956",
+      "to": "W7163008104",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212689956"
+        }
+      ]
+    }
+  ]
 }

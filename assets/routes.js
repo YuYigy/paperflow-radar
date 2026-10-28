@@ -5,7 +5,7 @@
   const baseElement=document.querySelector('base');
   if(baseElement)baseElement.href=originalBase;
   const root=new URL(document.body.dataset.prefix||'./',originalBase);
-  const pages=new Set(['my-data','today','catalog','conferences','explore','workspace','venues','discovery','research','reader','lab','versions','updates','archive','about']);
+  const pages=new Set(['snapshots','my-data','today','catalog','conferences','explore','workspace','venues','discovery','research','reader','lab','versions','updates','archive','about']);
   function clean(url){
     if(url.origin!==root.origin||!url.pathname.startsWith(root.pathname))return url;
     const local=url.pathname.slice(root.pathname.length);

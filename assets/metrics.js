@@ -20,8 +20,8 @@
       record.context=context.validate(v.schema===legacySchema?(m.context||{}):m.context);return record;
     });if(new Set(entries.map(m=>m.id)).size!==entries.length)throw Error('指标编号重复');return {schema,entries};
   }
-  (window.PaperFlowBackupAdapters ||= {}).metrics={key,schema,legacySchemas:[legacySchema],label:'个人指标与条件',validate:valid,empty:()=>({schema,entries:[]})};
-  if(document.body.dataset.page==='my-data')return;
+  (window.PaperFlowBackupAdapters ||= {}).metrics={key,schema,legacySchemas:[legacySchema],categoryLabels:Object.fromEntries(Object.entries(definitions).map(([k,v])=>[k,v.label])),basisLabels:basis,label:'个人指标与条件',validate:valid,empty:()=>({schema,entries:[]})};
+  if(['my-data','snapshots'].includes(document.body.dataset.page))return;
   function read(){try{const raw=localStorage.getItem(key);state=raw?valid(JSON.parse(raw)):{schema,entries:[]};blocked=false;}catch(_){blocked=true;state={schema,entries:[]};message('指标存储不可用，已停止写入并保留原数据。请导出原始备份检查。');}}
   function save(next){if(blocked){message('存储不可用，未覆盖原数据。');return false;}try{next=valid(next);localStorage.setItem(key,JSON.stringify(next));state=next;render();return true;}catch(e){message('保存失败：'+e.message);return false;}}
   function unitOptions(value){$('metric-unit').replaceChildren(...Object.keys(definitions[$('metric-category').value].units).map(u=>new Option(u,u)));if(value)$('metric-unit').value=value;}

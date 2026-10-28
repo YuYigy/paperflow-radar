@@ -30,13 +30,14 @@
     if(!state.requests.length)list.append(el('p','还没有引文阅读任务。打开一篇论文的关系图，双击感兴趣的节点开始。'));
     for(const r of [...state.requests].sort((a,b)=>b.updated_at.localeCompare(a.updated_at))){
       const card=el('article');card.className='triage-card';const h=el('h3'),a=el('a',r.title);a.href=r.url;a.rel='noreferrer';h.append(a);
-      card.append(h,el('p',`${r.mode==='deep'?'精读':'略读'} · 待处理 · 仅此浏览器`));
+      card.append(h,el('p',`${r.mode==='deep'?'精读':'略读'} · 浏览器阅读安排 · 本机执行情况需查看回执`));
       const actions=el('div');actions.className='actions';const toggle=el('button',r.mode==='deep'?'改为略读':'改为精读'),remove=el('button','移出队列');
       toggle.onclick=()=>{read();const current=state.requests.find(x=>x.id===r.id);if(current)add(current,current.mode==='deep'?'skim':'deep',current.origin);};
       remove.onclick=()=>{read();save({schema,requests:state.requests.filter(x=>x.id!==r.id)});};actions.append(toggle,remove);card.append(actions);list.append(card);
     }
   }
   read();render();
+  const list=document.getElementById('citation-request-list');if(list){const link=el('a','到阅读工作台查看本机任务回执 →');link.href='workspace.html#reading-progress';list.after(link);}
   document.getElementById('citation-request-export')?.addEventListener('click',()=>{
     read();let raw;try{raw=blocked?localStorage.getItem(key):JSON.stringify(state,null,2);}catch(_){message('无法访问浏览器存储。');return;}
     const url=URL.createObjectURL(new Blob([raw||''],{type:'application/json'})),a=el('a');a.href=url;a.download=blocked?'paperflow-citation-recovery.txt':'paperflow-citation-requests.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);message('已导出。将文件拖到本机 import-paper-requests.cmd 接入待处理任务箱。');

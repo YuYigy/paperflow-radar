@@ -27,7 +27,7 @@
     if(input?.schema===schema){
       if(!input.sections||Array.isArray(input.sections)||typeof input.sections!=='object'||Object.keys(input.sections).length!==Object.keys(adapters).length)throw Error('完整备份缺少数据分组');
       parts=input.sections;
-    }else{const found=Object.entries(adapters).find(([,a])=>a.schema===input?.schema);if(!found)throw Error('无法识别备份格式');parts={[found[0]]:input};}
+    }else{const found=Object.entries(adapters).find(([,a])=>a.schema===input?.schema||a.legacySchemas?.includes(input?.schema));if(!found)throw Error('无法识别备份格式');parts={[found[0]]:input};}
     return Object.fromEntries(Object.entries(parts).map(([k,v])=>{if(!Object.hasOwn(adapters,k))throw Error('未知的数据分组');return [k,adapters[k].validate(clone(v))];}));
   }
   function merge(k,current,incoming){

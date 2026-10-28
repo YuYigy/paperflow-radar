@@ -42,6 +42,19 @@
     }
     disclosure.addEventListener('toggle',()=>{if(disclosure.open)load();});
   }
+  function coverageStatus(){
+    const venue=data.venues.find(v=>v.key===controls.venue.value);if(!venue)return null;
+    const known=papers.filter(x=>x.paper.venue_key===venue.key),year=controls.year.value;
+    const checked='最近采集检查：'+(venue.checked_date||'尚无记录')+'。';
+    if(!known.length){
+      const reports=(venue.reports||[]).filter(r=>!year||String(r.year)===year);
+      const failed=reports.some(r=>r.status==='failed'),directory=reports.some(r=>r.directory_error);
+      const detail=failed?'最近相关来源获取失败，当前尚无可展示题录。':directory?'官方年度目录尚未取得，备用检索也未匹配到可收录题录。':'已列入监测，但当前检索范围尚未取得可收录题录。';
+      return {title:venue.abbr+'：本站暂未收录题录',detail:detail+checked+'这不表示该刊会没有论文；既有日程说明以标注的核查时间为准。'};
+    }
+    if(year&&!known.some(x=>String(x.paper.year)===year))return {title:venue.abbr+'：'+year+' 年暂无已收录题录',detail:'本站已收录该刊会其他年份的 '+known.length+' 条记录，可清除年份查看。'+checked+'未收录不代表当年没有论文。'};
+    return null;
+  }
   function render(update=true){
     PaperAttributes.constrainVenues(controls.venue,conferenceMode?'conference':controls.kind.value);
     if(conferenceMode)controls.kind.value='conference';sessions();
@@ -77,12 +90,14 @@
       PaperFlowDiscovery.mount(article,p.reading_url?'item':'catalog',p.reading_url?p.reading_url.split('/').pop().replace('.html',''):p.index_id,brief?.title_zh||p.title,brief?.revision||1);
       list.append(article);
     }
+    const scope=coverageStatus(),scopePanel=document.getElementById('catalog-scope-status');
+    scopePanel.hidden=!scope;if(scope){scopePanel.querySelector('h3').textContent=scope.title;scopePanel.querySelector('p').textContent=scope.detail;}
     if(!found.length){
       const empty=el('div',undefined,'empty-state catalog-empty');
-      empty.append(el('h3',onlyNew&&matching.length?'当前没有未确认的新增':'这些条件暂未找到交集'));
+      empty.append(el('h3',scope?'先浏览其他已收录题录':onlyNew&&matching.length?'当前没有未确认的新增':'这些条件暂未找到交集'));
       const suggestions=Object.keys(savedFilters).filter(k=>savedFilters[k]&&!(conferenceMode&&k==='kind')&&facets.relaxed[k]>0)
         .map(key=>({key,count:facets.relaxed[key]})).sort((a,b)=>a.count-b.count).slice(0,3);
-      empty.append(el('p',onlyNew&&matching.length?`检索本身有 ${matching.length} 条匹配，当前已确认。`:
+      empty.append(el('p',scope?'该范围的来源检查见上方。可以移除刊会或年份条件，查看已有记录。':onlyNew&&matching.length?`检索本身有 ${matching.length} 条匹配，当前已确认。`:
         suggestions.length?'保留其他条件，试着放宽下面其中一项。':'单独移除一项仍没有结果。可缩短搜索词，或清除条件后重新选择。'));
       const actions=el('div',undefined,'recovery-actions');
       function action(text,fn,primary=false){const button=el('button',text,primary?'button':'button secondary');button.type='button';button.onclick=()=>{fn();page=1;render();document.getElementById('catalog-count').scrollIntoView({block:'center'});};actions.append(button);}
@@ -95,9 +110,12 @@
       empty.append(actions,el('p','数量仅代表本站当前已收录题录；未匹配不等于该领域没有论文。','fine'));list.append(empty);
     }
     document.getElementById('catalog-count').textContent=`${found.length} / ${papers.length} 条`;
-    document.getElementById('catalog-page').textContent=`第 ${page} / ${pages} 页`;
-    document.getElementById('catalog-prev').disabled=page===1;document.getElementById('catalog-next').disabled=page===pages;
-    document.querySelector('.catalog-pagination').hidden=pages===1;
+    for(const nav of document.querySelectorAll('.catalog-pagination')){
+      nav.hidden=pages===1;nav.querySelector('[data-page-label]').textContent=`第 ${page} / ${pages} 页`;
+      nav.querySelector('[data-page-step="-1"]').disabled=page===1;nav.querySelector('[data-page-target="first"]').disabled=page===1;
+      nav.querySelector('[data-page-step="1"]').disabled=page===pages;nav.querySelector('[data-page-target="last"]').disabled=page===pages;
+      const input=nav.querySelector('input');input.max=String(pages);input.value=String(page);
+    }
     const venue=data.venues.find(v=>v.key===controls.venue.value);
     if(conferenceMode){document.getElementById('conference-title').textContent=venue?venue.abbr+' · '+venue.name:'全部会议';const event=venue?.events?.[controls.year.value||String(new Date().getFullYear())];const link=document.getElementById('conference-source');const source=event?.source_url||venue?.coverage_check?.source_url;link.hidden=!source;if(source)link.href=source;document.getElementById('conference-schedule').textContent=event?`官方会期 ${event.start} 至 ${event.end}`:'当前按已收录年度目录浏览，具体会期见官方来源。';const today=new Intl.DateTimeFormat('sv-SE',{timeZone:'Asia/Shanghai'}).format(new Date());document.getElementById('conference-status').textContent=event&&event.start>today?'会议尚未举行；已公布日程与最终论文集可能不同，持续监测。':venue&&!venue.count?(venue.coverage_check?.note||'已列入监测，当前未取得论文题录；这不表示会议没有论文。'):'官方分会保留原名，主题线索用于辅助探索；题录数量不是完整收录率。';}
     document.getElementById('catalog-coverage-note').textContent=venue?`${venue.abbr}：${venue.count} 条；${venue.reports.map(r=>r.note||r.error||r.status).join(' ')}；最近检查 ${venue.checked_date||'尚未执行'}`:'期刊采用近期窗口，会议采用年度目录。不同来源的覆盖范围分别记录；按年份、记录日期排序。';
@@ -119,7 +137,7 @@
   }
   async function load(){
     list.setAttribute('aria-busy','true');list.replaceChildren(el('p','正在读取题录与解读索引…'));document.getElementById('catalog-count').textContent='正在加载…';
-    try{data=await PaperCatalogData.load();try{const r=await fetch('data/reading-dashboard.json');if(r.ok)briefs=(await r.json()).briefs||{};}catch(_){}for(const p of data.papers){const b=briefs[p.reading_url?.split('/').pop().replace('.html','')];if(b){p.title_zh=b.title_zh;p.search_summary=b.summary;}}papers=data.papers.filter(p=>!conferenceMode||p.kind==='conference').map(p=>({paper:p,search:norm([p.title,...p.authors,p.doi,p.paper_code,p.abbr,p.venue,p.session,briefs[p.reading_url?.split('/').pop().replace('.html','')]?.summary||''].join(' '))}));readUrl();PaperFlowDiscovery.attachCatalog({papers:()=>papers.map(x=>x.paper),render});render(false);document.dispatchEvent(new Event('paperflow:filters-restored'));}
+    try{data=await PaperCatalogData.load();try{const r=await fetch('data/reading-dashboard.json');if(r.ok)briefs=(await r.json()).briefs||{};}catch(_){}for(const p of data.papers){const b=briefs[p.reading_url?.split('/').pop().replace('.html','')];if(b){p.title_zh=b.title_zh;p.search_summary=b.summary;}}papers=data.papers.filter(p=>!conferenceMode||p.kind==='conference').map(p=>({paper:p,search:norm([p.title,...p.authors,p.doi,p.paper_code,p.abbr,p.venue,p.session,briefs[p.reading_url?.split('/').pop().replace('.html','')]?.summary||''].join(' '))}));readUrl();PaperFlowDiscovery.attachCatalog({papers:()=>papers.map(x=>x.paper),render});render();document.dispatchEvent(new Event('paperflow:filters-restored'));}
     catch(_){list.replaceChildren(el('p','题录加载失败，请重试。精选解读仍可从主导航打开。'));const retry=el('button','重新加载');retry.addEventListener('click',load);list.append(retry);document.getElementById('catalog-count').textContent='暂不可用';}
     finally{list.setAttribute('aria-busy','false');}
   }
@@ -128,6 +146,15 @@
   document.addEventListener('click',event=>{const b=event.target.closest('[data-catalog-venue]');if(b&&data){controls.venue.value=b.dataset.catalogVenue;page=1;render();}});
   document.getElementById('catalog-new-only').addEventListener('change',()=>{page=1;if(data)render();});
   document.getElementById('catalog-reset').addEventListener('click',()=>{for(const c of Object.values(controls))c.value='';document.getElementById('catalog-new-only').checked=false;page=1;if(data)render();});
-  for(const [id,step] of [['prev',-1],['next',1]])document.getElementById('catalog-'+id).addEventListener('click',()=>{if(data){page+=step;render();document.getElementById('catalog-count').scrollIntoView({block:'center'});}});
-  window.addEventListener('popstate',()=>{if(data){readUrl();render(false);document.dispatchEvent(new Event('paperflow:filters-restored'));}});load();
+  function goPage(target){
+    if(!data)return;const max=Number(document.querySelector('[data-page-jump] input').max)||1;
+    const next=Math.min(max,Math.max(1,Math.floor(Number(target))||1));if(next===page)return;
+    history.pushState(null,'',location.href);page=next;render();
+    const heading=document.getElementById('catalog-count');heading.tabIndex=-1;heading.focus({preventScroll:true});heading.scrollIntoView({block:'center'});
+  }
+  for(const b of document.querySelectorAll('[data-page-step]'))b.onclick=()=>goPage(page+Number(b.dataset.pageStep));
+  for(const b of document.querySelectorAll('[data-page-target]'))b.onclick=()=>goPage(b.dataset.pageTarget==='first'?1:document.querySelector('[data-page-jump] input').max);
+  for(const form of document.querySelectorAll('[data-page-jump]'))form.onsubmit=e=>{e.preventDefault();if(form.reportValidity())goPage(form.querySelector('input').value);};
+
+  window.addEventListener('popstate',()=>{if(data){readUrl();render();document.dispatchEvent(new Event('paperflow:filters-restored'));}});load();
 })();

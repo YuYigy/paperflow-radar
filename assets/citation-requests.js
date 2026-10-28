@@ -12,6 +12,7 @@
       return {id:r.id,title:r.title,url:url.href,mode:r.mode,updated_at:r.updated_at,origin:typeof r.origin==='string'?r.origin.slice(0,200):''};
     })};
   }
+  (window.PaperFlowBackupAdapters ||= {}).citations={key,schema,label:'引文阅读队列',validate:valid,empty:()=>({schema,requests:[]})};
   function message(text){const p=document.getElementById('citation-request-status');if(p)p.textContent=text;}
   function read(){try{const raw=localStorage.getItem(key);state=raw?valid(JSON.parse(raw)):{schema,requests:[]};blocked=false;}catch(_){blocked=true;message('队列暂时无法读取，原数据保留。请先导出备份检查。');}}
   function save(next){

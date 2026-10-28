@@ -11,7 +11,7 @@
 <div class="shell">
 <div class="workbar"><nav aria-label="个人研究路径"><a href="discovery.html">检索与筛选</a><a href="workspace.html" aria-current="page">阅读笔记</a><a href="reader.html">精读证据</a><a href="lab.html">指标对比</a><a href="research.html">研究空间</a></nav><button type="button" id="view-density" aria-pressed="false" title="切换卡片阅读密度；检索快捷键 /">紧凑浏览</button></div><main id="main">
 <section class="page-heading"><div><p class="kicker">阅读工作台</p><h1>让每次阅读留下可用的线索</h1><p class="intro">安排阅读，记录问题与证据，再把笔记带回自己的研究库。</p></div><a class="button secondary" href="index.html#research">继续找论文</a></section>
-<div class="notice subtle">阅读清单与笔记只保存在当前浏览器，不会上传或公开。换设备前请导出备份。</div>
+<div class="notice subtle">阅读清单与笔记只保存在当前浏览器，不会上传或公开。换设备前请到 <a href="my-data.html">我的数据</a> 一次备份全部研究记录。</div>
 <section class="workspace-controls panel" aria-labelledby="reading-list-title">
   <div class="section-title"><h2 id="reading-list-title">我的阅读清单</h2><span id="workspace-count" role="status"></span></div>
   <div class="workspace-search-row"><label for="workspace-search">查找论文与笔记<input id="workspace-search" type="search" placeholder="标题、作者、期刊、DOI 或笔记关键词" autocomplete="off" aria-controls="workspace-list"></label><label for="workspace-sort">排序<select id="workspace-sort" aria-controls="workspace-list"><option value="updated">最近修改</option><option value="published">最新发表</option><option value="title">论文标题</option></select></label></div>
@@ -33,5 +33,5 @@
 <details class="panel workspace-backup"><summary>备份与迁移 <span>导出笔记 · 合并备份 · 衔接精读</span></summary><div class="actions"><button type="button" id="export-workspace">导出备份 / 精读任务</button><label class="file-button">导入备份<input id="import-workspace" type="file" accept=".json,application/json"></label></div><p class="fine">导出包含整个阅读清单，不受当前筛选影响。导入会合并记录，保留较新的修改；“已读”只表示个人进度，不改变论文的证据等级。</p></details>
 <section class="panel"><h2>接下来，进入精读</h2><p class="actions"><a class="button secondary" href="reader.html">查看分页证据</a><a href="lab.html">记录实验指标 →</a></p><p>先记录研究问题、核心贡献、方法和比较条件，再补充原文定位。个人想法与论文结论分开书写。</p><p class="fine">项目文件夹中的“read-pdf.cmd”已支持本机 PDF 精读：提供论文详情链接，选择你有权使用的 PDF，生成带页码的私有 AI 草稿，再将 browser-import.json 导入这里。调用模型前请先备份现有笔记；图表与结论仍需核查，网站不会自动上传全文。</p><div data-extension-slot="reading.workspace.tools"></div></section>
 </main>
-<footer><span>知流 PaperFlow · 沿着证据理解研究</span><nav aria-label="辅助导航"><a href="archive.html">归档</a><a href="about.html">方法与证据</a><a href="updates.html">更新状态</a><a href="feed.xml">RSS 订阅</a></nav><small>页面生成 2026-10-28 · 北京时间</small></footer>
+<footer><span>知流 PaperFlow · 沿着证据理解研究</span><nav aria-label="辅助导航"><a href="my-data.html">我的数据</a><a href="archive.html">归档</a><a href="about.html">方法与证据</a><a href="updates.html">更新状态</a><a href="feed.xml">RSS 订阅</a></nav><small>页面生成 2026-10-28 · 北京时间</small></footer>
 </div><p id="app-notice" class="toast" role="status" hidden></p><script src="assets/paper-export.js" defer></script></body></html>

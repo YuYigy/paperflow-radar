@@ -26,6 +26,7 @@
     }
     return data;
   }
+  (window.PaperFlowBackupAdapters ||= {}).reading={key,schema,label:'阅读清单与笔记',validate:validate,empty:()=>(empty())};
   function read() {
     try { const raw = localStorage.getItem(key); return raw ? validate(JSON.parse(raw)) : empty(); }
     catch (_) { blocked = true; notify('无法读取阅读存储，已停止写入以保留原数据。请检查浏览器存储权限或恢复备份。'); return empty(); }

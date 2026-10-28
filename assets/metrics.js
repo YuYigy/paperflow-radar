@@ -1,6 +1,6 @@
 "use strict";
 (() => {
-  const $=id=>document.getElementById(id),base=new URL('./',document.baseURI),key='paperflow:metrics:v1:'+base.pathname,schema='paperflow.metric-notebook/v1';
+  const $=id=>document.getElementById(id),base=new URL(document.body.dataset.prefix||'./',document.baseURI),key='paperflow:metrics:v1:'+base.pathname,schema='paperflow.metric-notebook/v1';
   const definitions={net_rate:{label:'净速率',units:{'Gb/s':1,'Tb/s':1000,'Mb/s':0.001},standard:'Gb/s'},gross_rate:{label:'总速率',units:{'Gb/s':1,'Tb/s':1000,'Mb/s':0.001},standard:'Gb/s'},baud:{label:'符号率',units:{GBd:1,MBd:0.001},standard:'GBd'},distance:{label:'传输距离',units:{km:1,m:0.001},standard:'km'},bandwidth:{label:'带宽',units:{GHz:1,MHz:0.001,THz:1000},standard:'GHz'},ber:{label:'误码率 BER',units:{'无量纲':1},standard:'无量纲'},ngmi:{label:'NGMI',units:{'无量纲':1},standard:'无量纲'},osnr:{label:'OSNR',units:{dB:1},standard:'dB'},energy:{label:'每比特能耗',units:{'pJ/bit':1,'fJ/bit':0.001,'nJ/bit':1000},standard:'pJ/bit'},power:{label:'功耗',units:{W:1,mW:0.001},standard:'W'}};
   const basis={simulation:'仿真',offline:'离线实验',realtime:'实时实验',field:'现场试验',theory:'理论分析',unknown:'原文未明确'};
   let state={schema,entries:[]},blocked=false,items=[],loadFailed=false,editingRevision=null;
@@ -18,6 +18,8 @@
       return Object.fromEntries(['id','record_id','revision','title','category','value','unit','basis','conditions','baseline','locator','quote','source_url','updated_at'].map(k=>[k,m[k]]));
     });if(new Set(entries.map(m=>m.id)).size!==entries.length)throw Error('指标编号重复');return {schema,entries};
   }
+  (window.PaperFlowBackupAdapters ||= {}).metrics={key,schema,label:'个人指标与条件',validate:valid,empty:()=>({schema,entries:[]})};
+  if(document.body.dataset.page==='my-data')return;
   function read(){try{const raw=localStorage.getItem(key);state=raw?valid(JSON.parse(raw)):{schema,entries:[]};blocked=false;}catch(_){blocked=true;state={schema,entries:[]};message('指标存储不可用，已停止写入并保留原数据。请导出原始备份检查。');}}
   function save(next){if(blocked){message('存储不可用，未覆盖原数据。');return false;}try{next=valid(next);localStorage.setItem(key,JSON.stringify(next));state=next;render();return true;}catch(e){message('保存失败：'+e.message);return false;}}
   function unitOptions(value){$('metric-unit').replaceChildren(...Object.keys(definitions[$('metric-category').value].units).map(u=>new Option(u,u)));if(value)$('metric-unit').value=value;}

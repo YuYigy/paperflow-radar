@@ -16,6 +16,7 @@
     if(!unique(questions.map(q=>q.id)))throw Error('问题编号重复');
     return {schema,profile:Object.fromEntries(['core','explore','include','exclude','mode','updated_at'].map(k=>[k,p[k]])),compare:[...v.compare],authors:[...new Map(v.authors.map(a=>[a.trim().toLowerCase(),a.trim()])).values()],questions};
   }
+  (window.PaperFlowBackupAdapters ||= {}).research={key,schema,label:'研究偏好、作者与选题',validate:validate,empty:()=>(empty())};
   function message(text){const node=$('research-status')||$('app-notice');if(node){node.textContent=text;node.hidden=false;}}
   function read(){blocked=false;try{const raw=localStorage.getItem(key);state=raw?validate(JSON.parse(raw)):empty();}catch(_){blocked=true;state=empty();message('研究空间存储不可用或格式损坏。已停止写入并保留原始数据；请先导出备份检查。');}}
   function save(next){if(blocked){message('存储不可用，未覆盖原始数据。');return false;}try{next=validate(next);localStorage.setItem(key,JSON.stringify(next));state=next;window.dispatchEvent(new Event('paperflow:research-changed'));return true;}catch(_){message('保存未完成：请检查输入长度、数量或浏览器存储空间。');return false;}}

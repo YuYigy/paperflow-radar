@@ -26,6 +26,7 @@
     if(new Set(searches.map(s=>s.id)).size!==searches.length||new Set(triage.map(t=>t.id)).size!==triage.length)throw Error('记录编号重复');
     return {schema,searches,triage};
   }
+  (window.PaperFlowBackupAdapters ||= {}).discovery={key,schema,label:'保存检索与筛选队列',validate:validate,empty:()=>(blank())};
   function message(text){const node=document.getElementById('discovery-status')||document.getElementById('app-notice');if(node){node.hidden=false;node.textContent=text;}}
   function read(){try{const raw=localStorage.getItem(key);state=raw?validate(JSON.parse(raw)):blank();blocked=false;}catch(_){blocked=true;state=blank();message('检索与筛选存储不可用，已停止写入并保留原始数据。请导出原始备份检查。');}}
   function save(next){if(blocked){message('存储不可用，未覆盖原始数据。');return false;}try{const clean=validate(next);localStorage.setItem(key,JSON.stringify(clean));state=clean;syncSelectors();renderPersonal();window.dispatchEvent(new Event('paperflow:discovery-changed'));return true;}catch(_){message('保存失败，请检查存储空间或备份格式；原记录未更改。');return false;}}

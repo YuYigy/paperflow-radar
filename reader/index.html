@@ -3,13 +3,16 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="description" content="知流光通信研究工作台：检索论文、探索研究方向、理解证据与刊会等级，整理个人阅读笔记。">
 <meta name="color-scheme" content="light"><title>精读证据 · 知流 PaperFlow</title>
-<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/reading-design.css"><link rel="stylesheet" href="assets/interface.css"><link rel="stylesheet" href="assets/paper-filters.css"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" title="知流研究动态" href="feed.xml">
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/reading-design.css"><link rel="stylesheet" href="assets/interface.css"><link rel="stylesheet" href="assets/paper-filters.css"><link rel="stylesheet" href="assets/navigation.css"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" title="知流研究动态" href="feed.xml">
 <script src="assets/routes.js" defer></script><script src="assets/paper-attributes.js" defer></script><script src="assets/catalog-data.js" defer></script><script src="assets/workspace.js" defer></script><script src="assets/research.js" defer></script><script src="assets/discovery.js" defer></script><script src="assets/ui.js" defer></script></head>
 <body data-prefix="" data-page="reader"><a class="skip" href="#main">跳到内容</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="知流 PaperFlow 首页"><span class="mark" aria-hidden="true">知</span><span>知流 <small>PaperFlow</small></span></a><span class="brand-caption">光通信研究工作台</span>
-<nav aria-label="主导航"><a href="today.html">今日阅读</a><a href="index.html">精选解读</a><a href="catalog.html">刊会题录</a><a href="conferences.html">会议专题</a><a href="explore.html">方向探索</a><a href="workspace.html" aria-current="page">阅读工作台</a><a href="venues.html">刊会分级</a></nav></div></header>
+
+
+
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="知流 PaperFlow 首页"><span class="mark" aria-hidden="true">知</span><span>知流 <small>PaperFlow</small></span></a><span class="brand-caption">光通信研究工作台</span><nav aria-label="主导航"><a href="today.html">发现论文</a><a href="explore.html">探索方向</a><a href="workspace.html" aria-current="true">阅读与笔记</a><a href="research.html">研究与比较</a><a href="about.html">关于与数据</a></nav></div></header>
 <div class="shell">
-<div class="workbar"><nav aria-label="个人研究路径"><a href="discovery.html">检索与筛选</a><a href="workspace.html">阅读笔记</a><a href="reader.html" aria-current="page">精读证据</a><a href="lab.html">指标对比</a><a href="research.html">研究空间</a></nav><button type="button" id="view-density" aria-pressed="false" title="切换卡片阅读密度；检索快捷键 /">紧凑浏览</button></div><main id="main">
+
+<div class="workbar"><nav aria-label="当前功能路径"><a href="workspace.html">阅读清单与笔记</a><a href="reader.html" aria-current="page">精读证据</a><a href="my-data.html">备份与迁移</a></nav><button type="button" id="view-density" aria-pressed="false" title="切换卡片阅读密度；检索快捷键 /">紧凑浏览</button></div><main id="main">
 <section class="page-heading"><div><p class="kicker">精读 · 沿着原文核对</p><h1>每个判断，都有来处</h1><p class="intro">把精读草稿与原文放在一起，逐页核对证据、条件和自己的问题。</p></div><a class="button secondary" href="lab.html">记录与对比指标 →</a></section>
 <section id="reader-start" class="panel import-surface"><div><span class="step-index">01 / 导入证据</span><h2>打开本机精读证据包</h2><p>选择本机精读流程生成的 <code>reader-packet.json</code>。文件在当前页面内读取，不会上传；关闭或刷新后需重新选择。</p><label class="button file-button">选择证据包<input type="file" id="reader-import" accept="application/json,.json"></label></div><div class="reader-instructions"><h3>还没有证据包？</h3><p>在项目文件夹运行 read-pdf.cmd，提供论文详情链接并选择有权使用的 PDF。输出文件夹中会同时生成证据包和笔记备份。</p><p class="fine">PDF文件页码可能不同于论文印刷页码。文本提取不代表图表、公式或结论已完成核查。</p></div></section>
 <p id="reader-status" role="status"></p>

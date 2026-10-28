@@ -3,13 +3,16 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="description" content="知流光通信研究工作台：检索论文、探索研究方向、理解证据与刊会等级，整理个人阅读笔记。">
 <meta name="color-scheme" content="light"><title>论文版本关联 · 知流 PaperFlow</title>
-<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/reading-design.css"><link rel="stylesheet" href="assets/interface.css"><link rel="stylesheet" href="assets/paper-filters.css"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" title="知流研究动态" href="feed.xml">
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/reading-design.css"><link rel="stylesheet" href="assets/interface.css"><link rel="stylesheet" href="assets/paper-filters.css"><link rel="stylesheet" href="assets/navigation.css"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" title="知流研究动态" href="feed.xml">
 <script src="assets/routes.js" defer></script><script src="assets/paper-attributes.js" defer></script><script src="assets/catalog-data.js" defer></script><script src="assets/workspace.js" defer></script><script src="assets/research.js" defer></script><script src="assets/discovery.js" defer></script><script src="assets/ui.js" defer></script></head>
 <body data-prefix="" data-page="versions"><a class="skip" href="#main">跳到内容</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="知流 PaperFlow 首页"><span class="mark" aria-hidden="true">知</span><span>知流 <small>PaperFlow</small></span></a><span class="brand-caption">光通信研究工作台</span>
-<nav aria-label="主导航"><a href="today.html">今日阅读</a><a href="index.html">精选解读</a><a href="catalog.html">刊会题录</a><a href="conferences.html">会议专题</a><a href="explore.html">方向探索</a><a href="workspace.html" aria-current="page">阅读工作台</a><a href="venues.html">刊会分级</a></nav></div></header>
+
+
+
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="知流 PaperFlow 首页"><span class="mark" aria-hidden="true">知</span><span>知流 <small>PaperFlow</small></span></a><span class="brand-caption">光通信研究工作台</span><nav aria-label="主导航"><a href="today.html" aria-current="true">发现论文</a><a href="explore.html">探索方向</a><a href="workspace.html">阅读与笔记</a><a href="research.html">研究与比较</a><a href="about.html">关于与数据</a></nav></div></header>
 <div class="shell">
-<div class="workbar"><nav aria-label="个人研究路径"><a href="discovery.html">检索与筛选</a><a href="workspace.html">阅读笔记</a><a href="reader.html">精读证据</a><a href="lab.html">指标对比</a><a href="research.html">研究空间</a></nav><button type="button" id="view-density" aria-pressed="false" title="切换卡片阅读密度；检索快捷键 /">紧凑浏览</button></div><main id="main">
+
+<div class="workbar"><nav aria-label="当前功能路径"><a href="today.html">推荐阅读</a><a href="index.html">精选解读</a><a href="catalog.html">刊会题录</a><a href="conferences.html">会议专题</a><a href="discovery.html">我的检索</a></nav><button type="button" id="view-density" aria-pressed="false" title="切换卡片阅读密度；检索快捷键 /">紧凑浏览</button></div><main id="main">
 <section class="page-heading"><div><p class="kicker">预印本 · 会议 · 期刊</p><h1>沿着版本，回到研究原文</h1><p class="intro">找到来源明确登记的关联作品，分清你读过哪个版本，以及哪些内容还需要重新核对。</p></div><a class="button secondary" href="catalog.html">返回刊会题录 →</a></section>
 <p class="notice">版本关联依据来源元数据。不同记录的解读、笔记和实验指标各自保留；关联不代表内容相同、全文已核查或后续版本一定更优。</p>
 <section class="filter-panel"><div class="toolbar"><label>搜索标题、作者或标识<input id="version-search" type="search" placeholder="标题、DOI、arXiv编号" maxlength="300"></label><label>关系类型<select id="version-kind"><option value="">全部关系</option><option value="arxiv-doi">arXiv登记发表链接</option><option value="preprint">预印本与发表记录</option><option value="version">明确的版本关系</option><option value="identical">同一作品登记</option></select></label><button type="button" id="version-reset">清除筛选</button></div><p id="version-context" class="fine"></p><p id="version-count" role="status">75 条登记关系</p></section>

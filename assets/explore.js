@@ -147,8 +147,28 @@
     if(!actions.childNodes.length)actions.append(button('重新选择方向',()=>change({search:'',topic:'',venue:'',year:''})));
     box.append(actions,link('查看本站收录范围','venues/#coverage'));return box;
   }
+  function distribution(){
+    const data=state.view==='readings'?readings:(catalog?.papers||[]),ready=state.view==='readings'?items:catalog;
+    $('explore-distribution').hidden=!ready;
+    for(const [field,hostId,limit] of [['venue','explore-venue-chart',6],['year','explore-year-chart',12]]){
+      const host=$(hostId);host.replaceChildren();
+      const subset=data.filter(p=>matches(p,{...filters(),[field]:''})),counts=new Map();let missing=0;
+      for(const p of subset){const value=String((field==='venue'?p.venue_key:p.year)||'');if(!value){missing++;continue;}counts.set(value,(counts.get(value)||0)+1);}
+      const ordered=[...counts].sort((a,b)=>field==='year'?b[0].localeCompare(a[0]):b[1]-a[1]||a[0].localeCompare(b[0]));
+      const shown=ordered.slice(0,limit),max=Math.max(1,...ordered.map(v=>v[1]));
+      for(const [value,count] of shown){
+        const label=field==='venue'?(venueNames.get(value)||value):value;
+        const row=button('',()=>{change({[field]:state[field]===value?'':value});const again=[...host.querySelectorAll('button')].find(b=>b.dataset.value===value);again?.focus();});
+        row.className='distribution-row';row.dataset.value=value;row.dataset.count=String(count);row.setAttribute('aria-pressed',String(state[field]===value));row.setAttribute('aria-label',label+'，'+count+'条，点击切换筛选');
+        const meter=el('progress');meter.max=max;meter.value=count;meter.setAttribute('aria-hidden','true');
+        row.append(el('span',label),meter,el('strong',String(count)));host.append(row);
+      }
+      if(!shown.length)host.append(el('p','当前范围暂无可统计记录。','fine'));
+      host.append(el('p',`共 ${subset.length} 条；${missing} 条缺少${field==='venue'?'刊会':'年份'}。`+(ordered.length>limit?`展示前 ${limit} 项，其余请用筛选框。`:''),'fine'));
+    }
+  }
   function render(){
-    syncControls();
+    syncControls();distribution();
     const a=readings.filter(p=>matches(p)),b=(catalog?.papers||[]).filter(p=>matches(p));
     $('explore-reading-count').textContent=items?String(a.length):errors.items?'暂不可用':'…';
     $('explore-catalog-count').textContent=catalog?String(b.length):errors.catalog?'暂不可用':'…';

@@ -3,13 +3,16 @@
 <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
 <meta name="description" content="知流光通信研究工作台：检索论文、探索研究方向、理解证据与刊会等级，整理个人阅读笔记。">
 <meta name="color-scheme" content="light"><title>方向探索 · 知流 PaperFlow</title>
-<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/reading-design.css"><link rel="stylesheet" href="assets/interface.css"><link rel="stylesheet" href="assets/paper-filters.css"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" title="知流研究动态" href="feed.xml">
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/reading-design.css"><link rel="stylesheet" href="assets/interface.css"><link rel="stylesheet" href="assets/paper-filters.css"><link rel="stylesheet" href="assets/navigation.css"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" title="知流研究动态" href="feed.xml">
 <script src="assets/routes.js" defer></script><script src="assets/paper-attributes.js" defer></script><script src="assets/catalog-data.js" defer></script><script src="assets/workspace.js" defer></script><script src="assets/research.js" defer></script><script src="assets/discovery.js" defer></script><script src="assets/ui.js" defer></script></head>
 <body data-prefix="" data-page="explore"><a class="skip" href="#main">跳到内容</a>
-<header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="知流 PaperFlow 首页"><span class="mark" aria-hidden="true">知</span><span>知流 <small>PaperFlow</small></span></a><span class="brand-caption">光通信研究工作台</span>
-<nav aria-label="主导航"><a href="today.html">今日阅读</a><a href="index.html">精选解读</a><a href="catalog.html">刊会题录</a><a href="conferences.html">会议专题</a><a href="explore.html" aria-current="page">方向探索</a><a href="workspace.html">阅读工作台</a><a href="venues.html">刊会分级</a></nav></div></header>
+
+
+
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="知流 PaperFlow 首页"><span class="mark" aria-hidden="true">知</span><span>知流 <small>PaperFlow</small></span></a><span class="brand-caption">光通信研究工作台</span><nav aria-label="主导航"><a href="today.html">发现论文</a><a href="explore.html" aria-current="page">探索方向</a><a href="workspace.html">阅读与笔记</a><a href="research.html">研究与比较</a><a href="about.html">关于与数据</a></nav></div></header>
 <div class="shell">
-<div class="workbar"><nav aria-label="个人研究路径"><a href="discovery.html">检索与筛选</a><a href="workspace.html">阅读笔记</a><a href="reader.html">精读证据</a><a href="lab.html">指标对比</a><a href="research.html">研究空间</a></nav><button type="button" id="view-density" aria-pressed="false" title="切换卡片阅读密度；检索快捷键 /">紧凑浏览</button></div><main id="main">
+
+<div class="workbar"><nav aria-label="当前功能路径"><a href="explore.html" aria-current="page">方向探索</a><a href="discovery.html">已保存探索</a><a href="venues.html">刊会分级</a></nav><button type="button" id="view-density" aria-pressed="false" title="切换卡片阅读密度；检索快捷键 /">紧凑浏览</button></div><main id="main">
 <!-- Refactoring UI: primary=query and paper titles; secondary=direction, counts,
  dates and evidence; tertiary=reading prompts. One primary action: 开始探索.
  Layout uses whitespace and two weights before --accent, --paper/--canvas,
@@ -41,6 +44,7 @@
       <label>年份<select id="explore-year" aria-label="筛选年份"><option value="">全部年份</option></select></label>
       <label>排序<select id="explore-sort" aria-label="结果排序"><option value="recommended">阅读建议优先</option><option value="recent">发表时间优先</option></select></label>
     </div>
+    <details id="explore-distribution" class="explore-distribution" hidden><summary>看收录分布，缩小探索范围 <span>刊会 · 发表年份</span></summary><p class="fine">与当前视图同源，保留关键词、方向及另一项筛选；点击条形切换条件，再次点击取消。数量是本站记录数，不代表去重论文量或研究热度。</p><div class="distribution-grid"><section><h3>刊会分布</h3><div id="explore-venue-chart"></div></section><section><h3>发表年份</h3><div id="explore-year-chart"></div></section></div></details>
     <div id="explore-active" class="explore-active" aria-label="当前探索条件"></div>
     <div class="explore-result-heading"><p id="explore-count" role="status" aria-live="polite">正在准备探索内容…</p><div><button type="button" id="explore-save-quick" disabled title="保存当前方向与关键词，后续查看匹配的新题录">保存探索</button><button type="button" id="explore-reset">重置条件</button></div></div>
     <p id="explore-scope-note" class="fine">阅读建议是本站优先级，不是期刊等级；摘要解读不等于全文已读。</p>

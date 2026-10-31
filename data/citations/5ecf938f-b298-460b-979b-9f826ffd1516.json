@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "5ecf938f-b298-460b-979b-9f826ffd1516",
-  "root": "doi:10.1002/adfm.78368",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7212549542",
+  "status": "ok",
+  "checked_at": "2026-10-30T00:55:09.687636+00:00",
+  "coverage": {
+    "references_found": 43,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 43,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1002/adfm.78368",
+      "id": "W7212549542",
       "doi": "10.1002/adfm.78368",
       "title": "Facile Geometry Engineering of Deep Ultraviolet Micro‐Scale Light Emitting and Detecting Diodes for High‐Speed Free‐Space Optical Communication",
       "authors": [
@@ -31,20 +41,3084 @@
         "Sheng Liu",
         "Haiding Sun"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Advanced Functional Materials",
       "venue_abbr": "Adv. Funct. Mater.",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "deep ultraviolet light-emitting diodes",
+        "deep ultraviolet photodetectors",
+        "trench aspect ratio",
+        "multiple quantum wells",
+        "free-space optical communication",
+        "responsivity",
+        "photon extraction",
+        "optical coupling",
+        "integrated photonics",
+        "bidirectional transceiver"
+      ],
       "url": "https://doi.org/10.1002/adfm.78368",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/5ecf938f-b298-460b-979b-9f826ffd1516.html",
       "summary": "摘要报告：为改善超小尺寸DUV二极管的光提取与耦合，提出沟槽纵横比重构策略，在同一晶圆上制备面积2500 µm²的规则三角与窄三角MQW微二极管。结特性几乎不变的前提下，窄三角（NT）二极管发射与探测性能均提升：发射光功率更高、横模相关发射增强；260 nm探测响应度由163升至191 mA/W并保持纳秒级响应。NT二极管实现约480 MHz基准带宽与2.688 Gbps数据率的日盲光通信，并完成双向自由空间通信概念验证。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4393990424",
+      "doi": "10.1002/lpor.202300789",
+      "title": "Dual‐Functional Triangular‐Shape Micro‐Size Light‐Emitting and Detecting Diode for On‐Chip Optical Communication in the Deep Ultraviolet Band",
+      "authors": [
+        "Huabin Yu",
+        "Shudan Xiao",
+        "Muhammad Hunain Memon",
+        "Yuanmin Luo",
+        "Rui Wang",
+        "Dong Li",
+        "Chao Shen",
+        "Haiding Sun"
+      ],
+      "year": 2024,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "deep ultraviolet light-emitting diodes",
+        "photodiode",
+        "on-chip optical communication",
+        "bidirectional data transmission",
+        "photoresponsivity",
+        "modulation bandwidth",
+        "light extraction",
+        "current injection",
+        "monolithic integration"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202300789",
+      "cited_by_count": 82,
+      "importance": 0.6747,
+      "score_basis": {
+        "topic_overlap": 0.366,
+        "shared_references": 12,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4395467574",
+      "doi": "10.1038/s41928-024-01142-y",
+      "title": "A three-terminal light emitting and detecting diode",
+      "authors": [
+        "Muhammad Hunain Memon",
+        "Huabin Yu",
+        "Yuanmin Luo",
+        "Yang Kang",
+        "Wei Chen",
+        "Dong Li",
+        "Dongyang Luo",
+        "Shudan Xiao",
+        "Chengjie Zuo",
+        "Chen Gong",
+        "Chao Shen",
+        "Lan Fu",
+        "Boon Siew Ooi",
+        "Sheng Liu",
+        "Haiding Sun"
+      ],
+      "year": 2024,
+      "venue": "Nature Electronics",
+      "venue_abbr": "Nat. Electron.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "bias tee",
+        "photodetectors",
+        "MOS capacitors",
+        "modulation bandwidth",
+        "Al2O3 dielectric",
+        "monolithic integration"
+      ],
+      "url": "https://doi.org/10.1038/s41928-024-01142-y",
+      "cited_by_count": 150,
+      "importance": 0.6616,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 8,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4296193992",
+      "doi": "10.1002/adom.202201738",
+      "title": "Deep‐Ultraviolet LEDs Incorporated with SiO2‐Based Microcavities Toward High‐Speed Ultraviolet Light Communication",
+      "authors": [
+        "Huabin Yu",
+        "Muhammad Hunain Memon",
+        "Hongfeng Jia",
+        "Yifan Ding",
+        "Shudan Xiao",
+        "Xin Liu",
+        "Yang Kang",
+        "Danhao Wang",
+        "Haochen Zhang",
+        "Shi Fang",
+        "Chen Gong",
+        "Zhengyuan Xu",
+        "Boon Siew Ooi",
+        "Haiding Sun"
+      ],
+      "year": 2022,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "deep ultraviolet LEDs",
+        "optical wireless communication",
+        "aluminum reflector",
+        "light extraction efficiency",
+        "modulation bandwidth",
+        "light output power enhancement"
+      ],
+      "url": "https://doi.org/10.1002/adom.202201738",
+      "cited_by_count": 60,
+      "importance": 0.648,
+      "score_basis": {
+        "topic_overlap": 0.218,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4384080207",
+      "doi": "10.1109/led.2023.3294819",
+      "title": "In-Depth Investigation of Deep Ultraviolet MicroLED Geometry for Enhanced Performance",
+      "authors": [
+        "Shudan Xiao",
+        "Huabin Yu",
+        "Muhammad Hunain Memon",
+        "Hongfeng Jia",
+        "Yuanmin Luo",
+        "Rui Wang",
+        "Haiding Sun"
+      ],
+      "year": 2023,
+      "venue": "IEEE Electron Device Letters",
+      "venue_abbr": "IEEE Electron Device Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "external quantum efficiency",
+        "light extraction",
+        "current spreading",
+        "light output power"
+      ],
+      "url": "https://doi.org/10.1109/led.2023.3294819",
+      "cited_by_count": 34,
+      "importance": 0.6043,
+      "score_basis": {
+        "topic_overlap": 0.21,
+        "shared_references": 5,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7203794131",
+      "doi": "10.1002/adom.71648",
+      "title": "Pixel‐Engineered Deep Ultraviolet Micro‐LED Arrays for High‐Speed Optical Interconnects",
+      "authors": [
+        "Muhammad Hunain Memon",
+        "Yang Kang",
+        "Junxing Qiu",
+        "Jikai Yao",
+        "Leihao Sun",
+        "Alireza Hosseini",
+        "Yuchen Du",
+        "Yiguo Yan",
+        "Chao Shen",
+        "Yong Yan",
+        "Haochen Zhang",
+        "Haiding Sun"
+      ],
+      "year": 2026,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "micro-LED arrays",
+        "AlGaN",
+        "pixel density",
+        "optical interconnects",
+        "thermal effects",
+        "effective capacitance",
+        "bandwidth"
+      ],
+      "url": "https://doi.org/10.1002/adom.71648",
+      "cited_by_count": 1,
+      "importance": 0.589,
+      "score_basis": {
+        "topic_overlap": 0.309,
+        "shared_references": 8,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403722034",
+      "doi": "10.1109/jlt.2024.3486102",
+      "title": "Micro-Trench Deep-Ultraviolet LEDs With Boosted Efficiency for High-Speed Solar-Blind Optical Communication",
+      "authors": [
+        "Muhammad Hunain Memon",
+        "Huabin Yu",
+        "Hongfeng Jia",
+        "Dong Li",
+        "Rui Wang",
+        "Jikai Yao",
+        "Yang Kang",
+        "Wei Chen",
+        "Shuiqing Li",
+        "Jinjian Zheng",
+        "Jiangyong Zhang",
+        "Chao Shen",
+        "Tao Tao",
+        "Boon Siew Ooi",
+        "Haiding Sun"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "deep ultraviolet LEDs",
+        "optical wireless communication",
+        "light output power",
+        "optical bandwidth",
+        "photon escape",
+        "carrier lifetime"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3486102",
+      "cited_by_count": 21,
+      "importance": 0.5837,
+      "score_basis": {
+        "topic_overlap": 0.253,
+        "shared_references": 16,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405814804",
+      "doi": "10.1002/adom.202402777",
+      "title": "Exploring Strategies for Performance Enhancement in Micro‐LEDs: a Synoptic Review of III‐V Semiconductor Technology",
+      "authors": [
+        "Driss Mouloua",
+        "Michael Martin",
+        "Miguel Beruete",
+        "Christophe Jany",
+        "Karim Hassan",
+        "T. Baron"
+      ],
+      "year": 2024,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "micro-LEDs",
+        "III-V semiconductors",
+        "external quantum efficiency",
+        "surface passivation",
+        "distributed Bragg reflector",
+        "metamaterials",
+        "plasmonics",
+        "two-dimensional materials",
+        "deep ultraviolet LEDs",
+        "electrical injection",
+        "optoelectronic performance"
+      ],
+      "url": "https://doi.org/10.1002/adom.202402777",
+      "cited_by_count": 26,
+      "importance": 0.5755,
+      "score_basis": {
+        "topic_overlap": 0.279,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4381334010",
+      "doi": "10.1364/ol.496397",
+      "title": "Plasmon-enhanced deep ultraviolet Micro-LED arrays for solar-blind communications",
+      "authors": [
+        "Siyao Zhang",
+        "Rui He",
+        "Yiwei Duo",
+        "Renfeng Chen",
+        "Li‐Gang Wang",
+        "Junxi Wang",
+        "Tongbo Wei"
+      ],
+      "year": 2023,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "localized surface plasmon resonance",
+        "modulation bandwidth enhancement",
+        "internal quantum efficiency",
+        "carrier lifetime",
+        "photoluminescence enhancement",
+        "electroluminescence",
+        "self-assembled nanospheres",
+        "AlGaN"
+      ],
+      "url": "https://doi.org/10.1364/ol.496397",
+      "cited_by_count": 23,
+      "importance": 0.5642,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 5,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4221008782",
+      "doi": "10.1002/adma.202109765",
+      "title": "Deep‐Ultraviolet Micro‐LEDs Exhibiting High Output Power and High Modulation Bandwidth Simultaneously",
+      "authors": [
+        "Duo Li",
+        "Shangfeng Liu",
+        "Zeyuan Qian",
+        "Quanfeng Liu",
+        "Kang Zhou",
+        "Dandan Liu",
+        "Shanshan Sheng",
+        "Bowen Sheng",
+        "Fang Liu",
+        "Zhaoying Chen",
+        "Ping Wang",
+        "Tao Wang",
+        "Xin Rong",
+        "Renchun Tao",
+        "Jianbin Kang",
+        "Feiliang Chen",
+        "Junjie Kang",
+        "Ye Yuan",
+        "Qi Wang",
+        "Ming Sun",
+        "Weikun Ge",
+        "Bo Shen",
+        "Pengfei Tian",
+        "Xinqiang Wang"
+      ],
+      "year": 2022,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "high output power",
+        "wall-plug efficiency",
+        "visible light communication",
+        "non-line-of-sight propagation"
+      ],
+      "url": "https://doi.org/10.1002/adma.202109765",
+      "cited_by_count": 104,
+      "importance": 0.5407,
+      "score_basis": {
+        "topic_overlap": 0.201,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387780190",
+      "doi": "10.1063/5.0169319",
+      "title": "Deep-ultraviolet light communication in sunlight using 275-nm LEDs",
+      "authors": [
+        "Ziqian Qi",
+        "Linning Wang",
+        "Yingze Liang",
+        "Pengzhan Liu",
+        "Hongbo Zhu",
+        "Yongjin Wang"
+      ],
+      "year": 2023,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "video transmission",
+        "packet loss"
+      ],
+      "url": "https://doi.org/10.1063/5.0169319",
+      "cited_by_count": 26,
+      "importance": 0.5033,
+      "score_basis": {
+        "topic_overlap": 0.185,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406339865",
+      "doi": "10.1016/j.mssp.2025.109270",
+      "title": "A review of state of the art fabrication approaches for efficiency improvement in ultra-violet region light emitting diodes",
+      "authors": [
+        "Indrani Mazumder",
+        "Kashish Sapra",
+        "Ashok S. Chauhan",
+        "Manish Mathew",
+        "Kuldip Singh"
+      ],
+      "year": 2025,
+      "venue": "Materials Science in Semiconductor Processing",
+      "venue_abbr": "Mater. Sci. Semicond. Process.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "ultraviolet light-emitting diodes",
+        "AlInGaN",
+        "light extraction efficiency",
+        "external quantum efficiency",
+        "internal quantum efficiency",
+        "metal-semiconductor contacts",
+        "carrier transport",
+        "flip-chip packaging",
+        "substrate thermal conductivity",
+        "micro-LEDs",
+        "LED fabrication"
+      ],
+      "url": "https://doi.org/10.1016/j.mssp.2025.109270",
+      "cited_by_count": 6,
+      "importance": 0.4859,
+      "score_basis": {
+        "topic_overlap": 0.08,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4225714421",
+      "doi": "10.1109/jqe.2022.3159854",
+      "title": "AlGaN Ultraviolet Micro-LEDs",
+      "authors": [
+        "Pengfei Tian",
+        "Xinyi Shan",
+        "Shijie Zhu",
+        "Enyuan Xie",
+        "Jonathan J. D. McKendry",
+        "Erdan Gu",
+        "Martin D. Dawson"
+      ],
+      "year": 2022,
+      "venue": "IEEE Journal of Quantum Electronics",
+      "venue_abbr": "JQE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "AlGaN",
+        "ultraviolet light-emitting diodes",
+        "current spreading",
+        "self-heating",
+        "light extraction efficiency",
+        "quantum efficiency",
+        "sterilization",
+        "disinfection",
+        "phototherapy",
+        "high-speed optical transmission",
+        "fluorescence lifetime measurement",
+        "optical pumping"
+      ],
+      "url": "https://doi.org/10.1109/jqe.2022.3159854",
+      "cited_by_count": 57,
+      "importance": 0.4672,
+      "score_basis": {
+        "topic_overlap": 0.127,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3045126074",
+      "doi": "10.1063/5.0013112",
+      "title": "Self-organized micro-light-emitting diode structure for high-speed solar-blind optical wireless communications",
+      "authors": [
+        "Kazunobu Kojima",
+        "Yuki Yoshida",
+        "Masaki Shiraiwa",
+        "Yoshinari Awaji",
+        "Atsushi Kanno",
+        "Naokatsu Yamamoto",
+        "Akira Hirano",
+        "Yosuke Nagasawa",
+        "Masamichi Ippommatsu",
+        "Shigefusa F. Chichibu"
+      ],
+      "year": 2020,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "deep ultraviolet light-emitting diodes",
+        "AlGaN",
+        "high-speed modulation",
+        "frequency response",
+        "AlN/sapphire templates",
+        "time-resolved electroluminescence",
+        "micro-imaging"
+      ],
+      "url": "https://doi.org/10.1063/5.0013112",
+      "cited_by_count": 27,
+      "importance": 0.4493,
+      "score_basis": {
+        "topic_overlap": 0.221,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407804489",
+      "doi": "10.1364/prj.551615",
+      "title": "Plasmonic omni-directional reflective pads for enhanced light extraction in sub-250 nm deep-ultraviolet light-emitting diodes",
+      "authors": [
+        "Wenyu Kang",
+        "Shilin Liu",
+        "Xiaofang Ye",
+        "Yang Chen",
+        "Wei Jiang",
+        "Jinchai Li",
+        "Kai Huang",
+        "Jun Yin",
+        "Junyong Kang"
+      ],
+      "year": 2025,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "deep ultraviolet light-emitting diodes",
+        "light extraction enhancement",
+        "AlGaN",
+        "TM modes",
+        "TE modes",
+        "valence band splitting",
+        "wall-plug efficiency",
+        "refractive index matching"
+      ],
+      "url": "https://doi.org/10.1364/prj.551615",
+      "cited_by_count": 7,
+      "importance": 0.4369,
+      "score_basis": {
+        "topic_overlap": 0.193,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3046653400",
+      "doi": "10.35848/1347-4065/abaac6",
+      "title": "Design and characterization of a low-optical-loss UV-C laser diode",
+      "authors": [
+        "Ziyi Zhang",
+        "Maki Kushimoto",
+        "Tadayoshi Sakai",
+        "Naoharu Sugiyama",
+        "LEO J. SCHOWALTER",
+        "Chiaki Sasaoka",
+        "Hiroshi Amano"
+      ],
+      "year": 2020,
+      "venue": "Japanese Journal of Applied Physics",
+      "venue_abbr": "Japanese Journal of Applied Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "AlN substrate",
+        "modal loss",
+        "optical pumping",
+        "optical modeling"
+      ],
+      "url": "https://doi.org/10.35848/1347-4065/abaac6",
+      "cited_by_count": 53,
+      "importance": 0.415,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3217197192",
+      "doi": "10.1109/jphot.2021.3129648",
+      "title": "275 nm Deep Ultraviolet AlGaN-Based Micro-LED Arrays for Ultraviolet Communication",
+      "authors": [
+        "Liang Guo",
+        "Yanan Guo",
+        "Jiankun Yang",
+        "Jianchang Yan",
+        "Jianguo Liu",
+        "Junxi Wang",
+        "Tongbo Wei"
+      ],
+      "year": 2021,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "deep ultraviolet LEDs",
+        "ultraviolet communication",
+        "flip-chip packaging",
+        "differential resistance",
+        "external quantum efficiency",
+        "bandwidth enhancement"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2021.3129648",
+      "cited_by_count": 40,
+      "importance": 0.415,
+      "score_basis": {
+        "topic_overlap": 0.189,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3009152700",
+      "doi": "10.1364/oe.389262",
+      "title": "Gbit/s ultraviolet-C diffuse-line-of-sight communication based on probabilistically shaped DMT and diversity reception",
+      "authors": [
+        "Omar Alkhazragi",
+        "Fangchen Hu",
+        "Peng Zou",
+        "Yinaer Ha",
+        "Chun Hong Kang",
+        "Yuan Mao",
+        "Tien Khee Ng",
+        "Nan Chi",
+        "Boon Siew Ooi"
+      ],
+      "year": 2020,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "probabilistically shaped modulation",
+        "discrete multitone modulation",
+        "diversity reception",
+        "SIMO",
+        "Shannon limit",
+        "spectral efficiency",
+        "atmospheric turbulence",
+        "bit error rate",
+        "field of view"
+      ],
+      "url": "https://doi.org/10.1364/oe.389262",
+      "cited_by_count": 54,
+      "importance": 0.4131,
+      "score_basis": {
+        "topic_overlap": 0.14,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2753982526",
+      "doi": "10.1364/oe.25.023267",
+      "title": "71-Mbit/s ultraviolet-B LED communication link based on 8-QAM-OFDM modulation",
+      "authors": [
+        "Xiaobin Sun",
+        "Zhenyu Charlus Zhang",
+        "Anas Chaaban",
+        "Tien Khee Ng",
+        "Chao Shen",
+        "Rui Chen",
+        "Jianchang Yan",
+        "Haiding Sun",
+        "Xiaohang Li",
+        "Junxi Wang",
+        "Jinmin Li",
+        "Mohamed‐Slim Alouini",
+        "Boon Siew Ooi"
+      ],
+      "year": 2017,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "OFDM",
+        "high-speed data transmission",
+        "non-line-of-sight communication",
+        "optical wireless links"
+      ],
+      "url": "https://doi.org/10.1364/oe.25.023267",
+      "cited_by_count": 88,
+      "importance": 0.3924,
+      "score_basis": {
+        "topic_overlap": 0.205,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402898303",
+      "doi": "10.1002/lpor.202401220",
+      "title": "Vertically Integrated Self‐Monitoring AlGaN‐Based Deep Ultraviolet Micro‐LED Array with Photodetector Via a Transparent Sapphire Substrate Toward Stable and Compact Maskless Photolithography Application",
+      "authors": [
+        "Huabin Yu",
+        "Jikai Yao",
+        "Muhammad Hunain Memon",
+        "Yuanmin Luo",
+        "Zhixiang Gao",
+        "Dongyang Luo",
+        "Rui Wang",
+        "Zixun Wang",
+        "Wei Chen",
+        "Linjun Wang",
+        "Shuiqing Li",
+        "Jinjian Zheng",
+        "Jiangyong Zhang",
+        "Sheng Liu",
+        "Haiding Sun"
+      ],
+      "year": 2024,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "AlGaN",
+        "photodetectors",
+        "self-monitoring",
+        "maskless photolithography",
+        "integrated photonics",
+        "active matrix"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202401220",
+      "cited_by_count": 26,
+      "importance": 0.3883,
+      "score_basis": {
+        "topic_overlap": 0.196,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4286316540",
+      "doi": "10.1021/acsphotonics.2c00041",
+      "title": "Bright Future of Deep-Ultraviolet Photonics: Emerging UVC Chip-Scale Light-Source Technology Platforms, Benchmarking, Challenges, and Outlook for UV Disinfection",
+      "authors": [
+        "Vijay Kumar Sharma",
+        "Hilmi Volkan Demir"
+      ],
+      "year": 2022,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "ultraviolet disinfection",
+        "air disinfection",
+        "deep ultraviolet LEDs",
+        "electroluminescent devices",
+        "excimer lamps",
+        "COVID-19 pandemic",
+        "ultraviolet light-emitting diodes"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.2c00041",
+      "cited_by_count": 115,
+      "importance": 0.3826,
+      "score_basis": {
+        "topic_overlap": 0.206,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414295736",
+      "doi": "10.1021/acsphotonics.5c01345",
+      "title": "Complete-Mapping Bidirectional Light Communication Using Monolithic III-Nitrides Based Photonic Circuit",
+      "authors": [
+        "Mingyuan Xie",
+        "Ziqian Qi",
+        "Linning Wang",
+        "Yan Jiang",
+        "Xiang Gao",
+        "Yingze Liang",
+        "Jialei Yuan",
+        "Xumin Gao",
+        "Zheng Shi",
+        "Yuhuai Liu",
+        "Hiroshi Amano",
+        "Yufeng Guo",
+        "Yongjin Wang"
+      ],
+      "year": 2025,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical isolator",
+        "crosstalk reduction",
+        "decentralized computing"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.5c01345",
+      "cited_by_count": 6,
+      "importance": 0.3754,
+      "score_basis": {
+        "topic_overlap": 0.279,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2910573972",
+      "doi": "10.1002/pssa.201800815",
+      "title": "Progress in External Quantum Efficiency for III‐Nitride Based Deep Ultraviolet Light‐Emitting Diodes",
+      "authors": [
+        "Chunshuang Chu",
+        "Kangkai Tian",
+        "Yonghui Zhang",
+        "Wengang Bi",
+        "Zi‐Hui Zhang"
+      ],
+      "year": 2019,
+      "venue": "physica status solidi (a)",
+      "venue_abbr": "physica status solidi (a)",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "deep ultraviolet light-emitting diodes",
+        "AlGaN",
+        "external quantum efficiency",
+        "internal quantum efficiency",
+        "light extraction efficiency",
+        "III-nitride semiconductors"
+      ],
+      "url": "https://doi.org/10.1002/pssa.201800815",
+      "cited_by_count": 51,
+      "importance": 0.375,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3196098433",
+      "doi": "10.1038/s41928-021-00624-7",
+      "title": "Emerging light-emitting diodes for next-generation data communications",
+      "authors": [
+        "Aobo Ren",
+        "Hao Wang",
+        "Wei Zhang",
+        "Jiang Wu",
+        "Zhiming Wang",
+        "Richard V. Penty",
+        "Ian H. White"
+      ],
+      "year": 2021,
+      "venue": "Nature Electronics",
+      "venue_abbr": "Nat. Electron.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "light-emitting diodes",
+        "optical interconnects",
+        "free-space optical communication",
+        "organic semiconductors",
+        "colloidal quantum dots",
+        "halide perovskites",
+        "device efficiency",
+        "on-chip interconnects",
+        "high-speed data transmission"
+      ],
+      "url": "https://doi.org/10.1038/s41928-021-00624-7",
+      "cited_by_count": 253,
+      "importance": 0.3685,
+      "score_basis": {
+        "topic_overlap": 0.241,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409113363",
+      "doi": "10.1063/5.0241011",
+      "title": "III-nitride-based monolithic integration: From electronics to photonics",
+      "authors": [
+        "Yijian Song",
+        "Rui He",
+        "Junxue Ran",
+        "Junxi Wang",
+        "Jinmin Li",
+        "Tongbo Wei"
+      ],
+      "year": 2025,
+      "venue": "Applied Physics Reviews",
+      "venue_abbr": "Applied Physics Reviews",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "III-nitride semiconductors",
+        "gallium nitride",
+        "monolithic integration",
+        "photonic integrated circuits",
+        "laser diode",
+        "high electron mobility transistors",
+        "on-chip optical communication",
+        "sensing",
+        "wide bandgap semiconductors"
+      ],
+      "url": "https://doi.org/10.1063/5.0241011",
+      "cited_by_count": 45,
+      "importance": 0.3464,
+      "score_basis": {
+        "topic_overlap": 0.17,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3205560934",
+      "doi": "10.1364/ol.441300",
+      "title": "Development of highly efficient ultraviolet LEDs on hybrid patterned sapphire substrates",
+      "authors": [
+        "Huabin Yu",
+        "Hongfeng Jia",
+        "Zhongling Liu",
+        "Muhammad Hunain Memon",
+        "Meng Tian",
+        "Shi Fang",
+        "Danhao Wang",
+        "Haochen Zhang",
+        "Jianzhe Liu",
+        "Liang Xu",
+        "Tianpeng Yang",
+        "Long Wei",
+        "Zhaoliang Liao",
+        "Haiding Sun"
+      ],
+      "year": 2021,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "ultraviolet light-emitting diodes",
+        "AlGaN epilayers",
+        "light extraction efficiency",
+        "external quantum efficiency",
+        "UV transmittance",
+        "refractive index contrast",
+        "substrate patterning"
+      ],
+      "url": "https://doi.org/10.1364/ol.441300",
+      "cited_by_count": 23,
+      "importance": 0.3458,
+      "score_basis": {
+        "topic_overlap": 0.08,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406817248",
+      "doi": "10.1038/s41377-025-01751-y",
+      "title": "Advanced technologies in InGaN micro-LED fabrication to mitigate the sidewall effect",
+      "authors": [
+        "Zhiyuan Liu",
+        "Haicheng Cao",
+        "Xiao Long Tang",
+        "Tingang Liu",
+        "Yi Lu",
+        "Zixian Jiang",
+        "Na Xiao",
+        "Xiaohang Li"
+      ],
+      "year": 2025,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "InGaN micro-LEDs",
+        "sidewall effects",
+        "plasma etching damage",
+        "damage-free etching",
+        "microdisplays",
+        "AR/VR displays",
+        "light extraction efficiency"
+      ],
+      "url": "https://doi.org/10.1038/s41377-025-01751-y",
+      "cited_by_count": 97,
+      "importance": 0.3449,
+      "score_basis": {
+        "topic_overlap": 0.055,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2923831016",
+      "doi": "10.1038/s41566-019-0359-9",
+      "title": "The emergence and prospects of deep-ultraviolet light-emitting diode technologies",
+      "authors": [
+        "Michael Kneissl",
+        "Tae‐Yeon Seong",
+        "Jung Woo Han",
+        "Hiroshi Amano"
+      ],
+      "year": 2019,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "deep ultraviolet light-emitting diodes",
+        "AlGaN",
+        "external quantum efficiency",
+        "defect density",
+        "carrier injection efficiency",
+        "light extraction efficiency",
+        "heat dissipation",
+        "III-nitride semiconductors",
+        "ultraviolet light-emitting devices"
+      ],
+      "url": "https://doi.org/10.1038/s41566-019-0359-9",
+      "cited_by_count": 1325,
+      "importance": 0.3427,
+      "score_basis": {
+        "topic_overlap": 0.095,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410294845",
+      "doi": "10.1109/lpt.2025.3568789",
+      "title": "P-Metal Geometry Impacts Micro-LEDs Efficiency: Current Spreading and Light Extraction",
+      "authors": [
+        "Shibiao Liu",
+        "Mai-Jia Lin",
+        "Tao-Ming Liu",
+        "Wen-An Guo",
+        "Hua-Xin Xiong",
+        "Yue Lin",
+        "Yuhan Su",
+        "Hao‐Chung Kuo",
+        "Yijun Lü",
+        "Tingzhu Wu",
+        "Zhong Chen"
+      ],
+      "year": 2025,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-LEDs",
+        "current spreading",
+        "light extraction",
+        "external quantum efficiency",
+        "mesa structure",
+        "optoelectronic properties"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2025.3568789",
+      "cited_by_count": 2,
+      "importance": 0.3373,
+      "score_basis": {
+        "topic_overlap": 0.194,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2070987128",
+      "doi": "10.1063/1.1875751",
+      "title": "Polarization of III-nitride blue and ultraviolet light-emitting diodes",
+      "authors": [
+        "Jagat Shakya",
+        "Kevin Knabe",
+        "K. H. Kim",
+        "Jing Li",
+        "J. Y. Lin",
+        "H. X. Jiang"
+      ],
+      "year": 2005,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "III-nitride light-emitting diodes",
+        "ultraviolet light-emitting diodes",
+        "blue LEDs",
+        "TE polarization",
+        "TM polarization",
+        "InGaN/GaN quantum wells",
+        "AlInGaN",
+        "degree of polarization",
+        "edge emission",
+        "Al concentration dependence",
+        "emission efficiency"
+      ],
+      "url": "https://doi.org/10.1063/1.1875751",
+      "cited_by_count": 111,
+      "importance": 0.3315,
+      "score_basis": {
+        "topic_overlap": 0.203,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2718895077",
+      "doi": "10.1088/1361-6633/aa7bb2",
+      "title": "Optoelectronic device physics and technology of nitride semiconductors from the UV to the terahertz",
+      "authors": [
+        "T. D. Moustakas",
+        "Roberto Paiella"
+      ],
+      "year": 2017,
+      "venue": "Reports on Progress in Physics",
+      "venue_abbr": "Reports on Progress in Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "nitride semiconductors",
+        "GaN",
+        "AlGaN",
+        "optoelectronic devices",
+        "deep ultraviolet LEDs",
+        "blue LEDs",
+        "green gap",
+        "efficiency roll-off",
+        "solar-blind photodetectors",
+        "electroabsorption modulator",
+        "intersubband transitions",
+        "AlGaN quantum wells"
+      ],
+      "url": "https://doi.org/10.1088/1361-6633/aa7bb2",
+      "cited_by_count": 231,
+      "importance": 0.3296,
+      "score_basis": {
+        "topic_overlap": 0.177,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4377944016",
+      "doi": "10.1016/j.micrna.2023.207614",
+      "title": "The dependence of light extraction improvement on optimized surface microstructure for AlGaN-based UVC-LEDs considering TM-polarized emission",
+      "authors": [
+        "Yifan Zhu",
+        "Huimin Lu",
+        "Jianping Wang",
+        "Tongjun Yu",
+        "Zizheng Li",
+        "Yucheng Tian"
+      ],
+      "year": 2023,
+      "venue": "Micro and Nanostructures",
+      "venue_abbr": "Micro and Nanostructures",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "light extraction efficiency",
+        "surface microstructure",
+        "TM polarization",
+        "particle swarm optimization",
+        "inverse design",
+        "high aspect ratio structures",
+        "AlN substrate",
+        "structural tolerance"
+      ],
+      "url": "https://doi.org/10.1016/j.micrna.2023.207614",
+      "cited_by_count": 8,
+      "importance": 0.3271,
+      "score_basis": {
+        "topic_overlap": 0.06,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3107497314",
+      "doi": "10.1088/1361-6463/abcfe4",
+      "title": "MicroLED technologies and applications: characteristics, fabrication, progress, and challenges",
+      "authors": [
+        "Zhen Chen",
+        "Shuke Yan",
+        "Cameron Danesh"
+      ],
+      "year": 2020,
+      "venue": "Journal of Physics D Applied Physics",
+      "venue_abbr": "Journal of Physics D Applied Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "micro-LED displays",
+        "epitaxial growth",
+        "external quantum efficiency",
+        "mass transfer",
+        "backplane"
+      ],
+      "url": "https://doi.org/10.1088/1361-6463/abcfe4",
+      "cited_by_count": 340,
+      "importance": 0.3249,
+      "score_basis": {
+        "topic_overlap": 0.144,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411712735",
+      "doi": "10.1364/oe.563222",
+      "title": "Performance enhancement of 254 nm DUV LEDs utilizing tunnel junction contact layer and asymmetric polarization-induced doping electron blocking layer",
+      "authors": [
+        "Aoxiang Zhang",
+        "Jiayi Yao",
+        "Xien Sang",
+        "Fang Wang",
+        "Juin J. Liou",
+        "Yuhuai Liu"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "deep ultraviolet LEDs",
+        "254 nm",
+        "electron blocking layer",
+        "hole injection",
+        "electron leakage",
+        "AlGaN",
+        "turn-on voltage",
+        "internal quantum efficiency",
+        "radiative recombination",
+        "spontaneous emission"
+      ],
+      "url": "https://doi.org/10.1364/oe.563222",
+      "cited_by_count": 5,
+      "importance": 0.3174,
+      "score_basis": {
+        "topic_overlap": 0.15,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2036120141",
+      "doi": "10.1063/1.3675451",
+      "title": "Effect of strain and barrier composition on the polarization of light emission from AlGaN/AlN quantum wells",
+      "authors": [
+        "John E. Northrup",
+        "C.L. Chua",
+        "Zhilin Yang",
+        "Thomas Wunderer",
+        "Michael Kneissl",
+        "Noble M. Johnson",
+        "Tim Kolbe"
+      ],
+      "year": 2012,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "barrier composition",
+        "nitride light-emitting diodes",
+        "sapphire substrate",
+        "Al composition"
+      ],
+      "url": "https://doi.org/10.1063/1.3675451",
+      "cited_by_count": 163,
+      "importance": 0.3073,
+      "score_basis": {
+        "topic_overlap": 0.194,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2005913171",
+      "doi": "10.1063/1.365671",
+      "title": "Optical properties of hexagonal GaN",
+      "authors": [
+        "Takahiro Kawashima",
+        "Hisashi Yoshikawa",
+        "Sadao Adachi",
+        "Shunro Fuke",
+        "Kohji Ohtsuka"
+      ],
+      "year": 1997,
+      "venue": "Journal of Applied Physics",
+      "venue_abbr": "J. Appl. Phys.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "hexagonal GaN",
+        "dielectric function",
+        "optical constants",
+        "surface roughness correction",
+        "effective medium model",
+        "epitaxial thin films",
+        "sapphire substrate",
+        "critical points",
+        "refractive index",
+        "absorption coefficient",
+        "reflectivity",
+        "metalorganic chemical vapor deposition"
+      ],
+      "url": "https://doi.org/10.1063/1.365671",
+      "cited_by_count": 341,
+      "importance": 0.3,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403657998",
+      "doi": "10.1002/adma.202405558",
+      "title": "Bottom‐Up Formation of III‐Nitride Nanowires: Past, Present, and Future for Photonic Devices",
+      "authors": [
+        "Jung‐Wook Min",
+        "Yue Wang",
+        "Tae‐Yong Park",
+        "Danhao Wang",
+        "Bilal Janjua",
+        "Dasom Jeong",
+        "Gyun Seo Kim",
+        "Haiding Sun",
+        "Chao Zhao",
+        "Joana Catarina Mendes",
+        "M. R. Correia",
+        "Diogo F. Carvalho",
+        "José P. S. Cardoso",
+        "Qingxiao Wang",
+        "Huafan Zhang",
+        "Tien Khee Ng",
+        "Boon Siew Ooi"
+      ],
+      "year": 2024,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "III-nitride nanowires",
+        "semiconductor heterostructures",
+        "optoelectronics",
+        "heterogeneous integration",
+        "photoelectrochemical photodetectors",
+        "single-photon sources",
+        "single-photon detectors",
+        "quantum technologies"
+      ],
+      "url": "https://doi.org/10.1002/adma.202405558",
+      "cited_by_count": 32,
+      "importance": 0.2897,
+      "score_basis": {
+        "topic_overlap": 0.155,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414230139",
+      "doi": "10.1109/jlt.2025.3610267",
+      "title": "Thermal Effect Induced High-Bandwidth for Ring-Shaped Parallel Micro-LED Arrays Toward 10.25 Gbps Visible Light Communication",
+      "authors": [
+        "Xinyi Shan",
+        "Handan Xu",
+        "Guobin Wang",
+        "Tianyang Ren",
+        "Runze Lin",
+        "Zuxin Jin",
+        "Xugao Cui",
+        "Ran Liu",
+        "Ke Xu",
+        "Pengfei Tian"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-LED arrays",
+        "visible light communication",
+        "thermal effects",
+        "optical bandwidth",
+        "GaN micro-LEDs",
+        "carrier lifetime",
+        "equivalent circuit model",
+        "OFDM",
+        "high-speed data transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3610267",
+      "cited_by_count": 3,
+      "importance": 0.2796,
+      "score_basis": {
+        "topic_overlap": 0.177,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2802974363",
+      "doi": "10.1109/ted.2018.2823742",
+      "title": "High Light Extraction Efficiency of Deep Ultraviolet LEDs Enhanced Using Nanolens Arrays",
+      "authors": [
+        "Renli Liang",
+        "Jiangnan Dai",
+        "Linlin Xu",
+        "Ju He",
+        "Shuai Wang",
+        "Yang Peng",
+        "Hao Wang",
+        "Lei Ye",
+        "Changqing Chen"
+      ],
+      "year": 2018,
+      "venue": "IEEE Transactions on Electron Devices",
+      "venue_abbr": "IEEE Transactions on Electron Devices",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "deep ultraviolet LEDs",
+        "light extraction efficiency",
+        "AlGaN",
+        "wet etching",
+        "light output power",
+        "emission angle",
+        "flat lens"
+      ],
+      "url": "https://doi.org/10.1109/ted.2018.2823742",
+      "cited_by_count": 56,
+      "importance": 0.2725,
+      "score_basis": {
+        "topic_overlap": 0.072,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7118858367",
+      "doi": "10.1021/acsphotonics.5c02363",
+      "title": "Enhancing the Performance of InGaN-Based Micro-LED Arrays via Fluorine Ion Implantation Passivation Ring Design",
+      "authors": [
+        "Yuzhu Pan",
+        "Zijing Huang",
+        "Wing Cheung Chong",
+        "Tao Wang",
+        "Tiwei Chen",
+        "Jin Zhou",
+        "Dongdong Wu",
+        "Qiang Zha",
+        "Wei Cheng",
+        "Yong Cai",
+        "Wenhua Shi",
+        "Xiaodong Zhang",
+        "Dongmin Wu",
+        "Zhongming Zeng",
+        "Qian Sun",
+        "Baoshun Zhang"
+      ],
+      "year": 2026,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "fluorine implantation",
+        "sidewall passivation",
+        "pixelation",
+        "efficiency roll-off",
+        "sidewall damage",
+        "selective etching",
+        "light extraction efficiency",
+        "optical crosstalk",
+        "luminous efficiency",
+        "color purity"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.5c02363",
+      "cited_by_count": 3,
+      "importance": 0.2662,
+      "score_basis": {
+        "topic_overlap": 0.036,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3153277520",
+      "doi": "10.1364/oe.425800",
+      "title": "Enhanced microLED efficiency via strategic pGaN contact geometries",
+      "authors": [
+        "Keith Behrman",
+        "Ioannis Kymissis"
+      ],
+      "year": 2021,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-LEDs",
+        "contact geometry",
+        "power output efficiency",
+        "surface recombination",
+        "current density",
+        "device modeling",
+        "light-emitting diodes"
+      ],
+      "url": "https://doi.org/10.1364/oe.425800",
+      "cited_by_count": 29,
+      "importance": 0.2511,
+      "score_basis": {
+        "topic_overlap": 0.069,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2718895077",
+      "to": "W2070987128",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2718895077"
+        }
+      ]
+    },
+    {
+      "from": "W2910573972",
+      "to": "W2802974363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2910573972"
+        }
+      ]
+    },
+    {
+      "from": "W3009152700",
+      "to": "W2753982526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3009152700"
+        }
+      ]
+    },
+    {
+      "from": "W3045126074",
+      "to": "W2753982526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3045126074"
+        }
+      ]
+    },
+    {
+      "from": "W3046653400",
+      "to": "W2005913171",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3046653400"
+        }
+      ]
+    },
+    {
+      "from": "W3205560934",
+      "to": "W3009152700",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3205560934"
+        }
+      ]
+    },
+    {
+      "from": "W3217197192",
+      "to": "W3009152700",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3217197192"
+        }
+      ]
+    },
+    {
+      "from": "W4221008782",
+      "to": "W2005913171",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221008782"
+        }
+      ]
+    },
+    {
+      "from": "W4221008782",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221008782"
+        }
+      ]
+    },
+    {
+      "from": "W4221008782",
+      "to": "W3009152700",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221008782"
+        }
+      ]
+    },
+    {
+      "from": "W4225714421",
+      "to": "W2753982526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225714421"
+        }
+      ]
+    },
+    {
+      "from": "W4225714421",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225714421"
+        }
+      ]
+    },
+    {
+      "from": "W4225714421",
+      "to": "W3009152700",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225714421"
+        }
+      ]
+    },
+    {
+      "from": "W4286316540",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4286316540"
+        }
+      ]
+    },
+    {
+      "from": "W4296193992",
+      "to": "W2005913171",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296193992"
+        }
+      ]
+    },
+    {
+      "from": "W4296193992",
+      "to": "W2753982526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296193992"
+        }
+      ]
+    },
+    {
+      "from": "W4296193992",
+      "to": "W3046653400",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296193992"
+        }
+      ]
+    },
+    {
+      "from": "W4296193992",
+      "to": "W3196098433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296193992"
+        }
+      ]
+    },
+    {
+      "from": "W4296193992",
+      "to": "W3205560934",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296193992"
+        }
+      ]
+    },
+    {
+      "from": "W4296193992",
+      "to": "W4221008782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296193992"
+        }
+      ]
+    },
+    {
+      "from": "W4377944016",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377944016"
+        }
+      ]
+    },
+    {
+      "from": "W4377944016",
+      "to": "W4225714421",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377944016"
+        }
+      ]
+    },
+    {
+      "from": "W4381334010",
+      "to": "W3009152700",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381334010"
+        }
+      ]
+    },
+    {
+      "from": "W4381334010",
+      "to": "W3045126074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381334010"
+        }
+      ]
+    },
+    {
+      "from": "W4381334010",
+      "to": "W3217197192",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381334010"
+        }
+      ]
+    },
+    {
+      "from": "W4381334010",
+      "to": "W4221008782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381334010"
+        }
+      ]
+    },
+    {
+      "from": "W4381334010",
+      "to": "W4225714421",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381334010"
+        }
+      ]
+    },
+    {
+      "from": "W4384080207",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4384080207"
+        }
+      ]
+    },
+    {
+      "from": "W4384080207",
+      "to": "W3205560934",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4384080207"
+        }
+      ]
+    },
+    {
+      "from": "W4384080207",
+      "to": "W3217197192",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4384080207"
+        }
+      ]
+    },
+    {
+      "from": "W4384080207",
+      "to": "W4221008782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4384080207"
+        }
+      ]
+    },
+    {
+      "from": "W4384080207",
+      "to": "W4296193992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4384080207"
+        }
+      ]
+    },
+    {
+      "from": "W4387780190",
+      "to": "W2753982526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387780190"
+        }
+      ]
+    },
+    {
+      "from": "W4387780190",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387780190"
+        }
+      ]
+    },
+    {
+      "from": "W4387780190",
+      "to": "W3009152700",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387780190"
+        }
+      ]
+    },
+    {
+      "from": "W4387780190",
+      "to": "W3045126074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387780190"
+        }
+      ]
+    },
+    {
+      "from": "W4393990424",
+      "to": "W2005913171",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393990424"
+        }
+      ]
+    },
+    {
+      "from": "W4393990424",
+      "to": "W2036120141",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393990424"
+        }
+      ]
+    },
+    {
+      "from": "W4393990424",
+      "to": "W2070987128",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393990424"
+        }
+      ]
+    },
+    {
+      "from": "W4393990424",
+      "to": "W2753982526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393990424"
+        }
+      ]
+    },
+    {
+      "from": "W4393990424",
+      "to": "W3009152700",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393990424"
+        }
+      ]
+    },
+    {
+      "from": "W4393990424",
+      "to": "W3045126074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393990424"
+        }
+      ]
+    },
+    {
+      "from": "W4393990424",
+      "to": "W3046653400",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393990424"
+        }
+      ]
+    },
+    {
+      "from": "W4393990424",
+      "to": "W4221008782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393990424"
+        }
+      ]
+    },
+    {
+      "from": "W4393990424",
+      "to": "W4296193992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393990424"
+        }
+      ]
+    },
+    {
+      "from": "W4393990424",
+      "to": "W4384080207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393990424"
+        }
+      ]
+    },
+    {
+      "from": "W4395467574",
+      "to": "W2753982526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4395467574"
+        }
+      ]
+    },
+    {
+      "from": "W4395467574",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4395467574"
+        }
+      ]
+    },
+    {
+      "from": "W4395467574",
+      "to": "W3009152700",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4395467574"
+        }
+      ]
+    },
+    {
+      "from": "W4395467574",
+      "to": "W3045126074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4395467574"
+        }
+      ]
+    },
+    {
+      "from": "W4395467574",
+      "to": "W3196098433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4395467574"
+        }
+      ]
+    },
+    {
+      "from": "W4395467574",
+      "to": "W3217197192",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4395467574"
+        }
+      ]
+    },
+    {
+      "from": "W4395467574",
+      "to": "W4221008782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4395467574"
+        }
+      ]
+    },
+    {
+      "from": "W4395467574",
+      "to": "W4296193992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4395467574"
+        }
+      ]
+    },
+    {
+      "from": "W4402898303",
+      "to": "W4393990424",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402898303"
+        }
+      ]
+    },
+    {
+      "from": "W4402898303",
+      "to": "W4395467574",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402898303"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W2005913171",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W2910573972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W3009152700",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W3045126074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W3046653400",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W3196098433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W3205560934",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W3217197192",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W4221008782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W4225714421",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W4286316540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W4296193992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W4384080207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4403722034",
+      "to": "W4395467574",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403722034"
+        }
+      ]
+    },
+    {
+      "from": "W4405814804",
+      "to": "W3107497314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405814804"
+        }
+      ]
+    },
+    {
+      "from": "W4405814804",
+      "to": "W4384080207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405814804"
+        }
+      ]
+    },
+    {
+      "from": "W4405814804",
+      "to": "W4393990424",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405814804"
+        }
+      ]
+    },
+    {
+      "from": "W4405814804",
+      "to": "W4395467574",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405814804"
+        }
+      ]
+    },
+    {
+      "from": "W4405814804",
+      "to": "W4403657998",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405814804"
+        }
+      ]
+    },
+    {
+      "from": "W4406339865",
+      "to": "W2802974363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406339865"
+        }
+      ]
+    },
+    {
+      "from": "W4406339865",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406339865"
+        }
+      ]
+    },
+    {
+      "from": "W4406339865",
+      "to": "W3107497314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406339865"
+        }
+      ]
+    },
+    {
+      "from": "W4406339865",
+      "to": "W4221008782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406339865"
+        }
+      ]
+    },
+    {
+      "from": "W4406339865",
+      "to": "W4286316540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406339865"
+        }
+      ]
+    },
+    {
+      "from": "W4406339865",
+      "to": "W4381334010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406339865"
+        }
+      ]
+    },
+    {
+      "from": "W4406817248",
+      "to": "W3107497314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406817248"
+        }
+      ]
+    },
+    {
+      "from": "W4406817248",
+      "to": "W3153277520",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406817248"
+        }
+      ]
+    },
+    {
+      "from": "W4407804489",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407804489"
+        }
+      ]
+    },
+    {
+      "from": "W4407804489",
+      "to": "W4296193992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407804489"
+        }
+      ]
+    },
+    {
+      "from": "W4407804489",
+      "to": "W4395467574",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407804489"
+        }
+      ]
+    },
+    {
+      "from": "W4409113363",
+      "to": "W4381334010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409113363"
+        }
+      ]
+    },
+    {
+      "from": "W4410294845",
+      "to": "W4393990424",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410294845"
+        }
+      ]
+    },
+    {
+      "from": "W4411712735",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411712735"
+        }
+      ]
+    },
+    {
+      "from": "W4414295736",
+      "to": "W4409113363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414295736"
+        }
+      ]
+    },
+    {
+      "from": "W7118858367",
+      "to": "W4406817248",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7118858367"
+        }
+      ]
+    },
+    {
+      "from": "W7203794131",
+      "to": "W2005913171",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203794131"
+        }
+      ]
+    },
+    {
+      "from": "W7203794131",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203794131"
+        }
+      ]
+    },
+    {
+      "from": "W7203794131",
+      "to": "W3009152700",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203794131"
+        }
+      ]
+    },
+    {
+      "from": "W7203794131",
+      "to": "W3045126074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203794131"
+        }
+      ]
+    },
+    {
+      "from": "W7203794131",
+      "to": "W4221008782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203794131"
+        }
+      ]
+    },
+    {
+      "from": "W7203794131",
+      "to": "W4296193992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203794131"
+        }
+      ]
+    },
+    {
+      "from": "W7203794131",
+      "to": "W4387780190",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203794131"
+        }
+      ]
+    },
+    {
+      "from": "W7203794131",
+      "to": "W4403722034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203794131"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W2005913171",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W2036120141",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W2070987128",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W2718895077",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W2753982526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W2802974363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W2910573972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W2923831016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W3009152700",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W3045126074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W3046653400",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W3107497314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W3153277520",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W3196098433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W3205560934",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W3217197192",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4221008782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4225714421",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4286316540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4296193992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4377944016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4381334010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4384080207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4387780190",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4393990424",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4395467574",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4402898303",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4403657998",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4403722034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4405814804",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4406339865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4406817248",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4407804489",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4409113363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4410294845",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4411712735",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4414230139",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W4414295736",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W7118858367",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    },
+    {
+      "from": "W7212549542",
+      "to": "W7203794131",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212549542"
+        }
+      ]
+    }
+  ]
 }

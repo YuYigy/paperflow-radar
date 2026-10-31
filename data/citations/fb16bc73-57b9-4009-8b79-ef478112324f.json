@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "fb16bc73-57b9-4009-8b79-ef478112324f",
-  "root": "doi:10.1002/lpor.71896",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7213247028",
+  "status": "ok",
+  "checked_at": "2026-10-30T00:55:02.177687+00:00",
+  "coverage": {
+    "references_found": 28,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 28,
+    "displayed": 28
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1002/lpor.71896",
+      "id": "W7213247028",
       "doi": "10.1002/lpor.71896",
       "title": "Inverse‐Designed Compact Lithium Niobate Mid‐Infrared Devices",
       "authors": [
@@ -17,23 +27,1766 @@
         "Guowu Zhang",
         "Haoran Li",
         "Yaocheng Shi",
-        "Daoxin Dai",
+        "Daoxin Dai A",
         "Zejie Yu"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Laser & Photonics Reviews",
       "venue_abbr": "LPR",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "mid-infrared photonics",
+        "thin-film lithium niobate",
+        "inverse design",
+        "production constraints",
+        "polarization beam splitter",
+        "power divider",
+        "waveguide crossing",
+        "photonic integrated circuits",
+        "free-space optical communication",
+        "LiDAR",
+        "biochemical sensing"
+      ],
       "url": "https://doi.org/10.1002/lpor.71896",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/fb16bc73-57b9-4009-8b79-ef478112324f.html",
       "summary": "摘要报告：薄膜铌酸锂（TFLN）是中红外光路的优选平台，但各向异性刻蚀导致的斜侧壁会劣化器件性能。提出把斜侧壁效应显式纳入优化的逆向设计策略，并首次实验演示工作于3670–3730 nm波段的紧凑低损偏振分束器、功率分束器与波导交叉，建立1400 nm TFLN平台（4.7 µm二氧化硅缓冲层）上高性能小型化中红外器件的稳健设计框架，面向安全自由空间光通信、生化检测与LiDAR应用。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4313387867",
+      "doi": "10.1002/lpor.202200445",
+      "title": "Compact Mid‐Infrared Chalcogenide Glass Photonic Devices Based on Robust‐Inverse Design",
+      "authors": [
+        "Xiaobin Lin",
+        "Maoliang Wei",
+        "Kunhao Lei",
+        "Songtao Yang",
+        "Hui Ma",
+        "Chuyu Zhong",
+        "Ye Luo",
+        "Da Li",
+        "Junying Li",
+        "Changgui Lin",
+        "Wei Zhang",
+        "Shixun Dai",
+        "Xiaoyong Hu",
+        "Lan Li",
+        "Er‐Ping Li",
+        "Hongtao Lin"
+      ],
+      "year": 2022,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chalcogenide glasses",
+        "mid-infrared photonics",
+        "polarization beam splitter",
+        "waveguide polarizer",
+        "mode converter",
+        "wavelength demultiplexer",
+        "on-chip photonic devices"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202200445",
+      "cited_by_count": 19,
+      "importance": 0.6128,
+      "score_basis": {
+        "topic_overlap": 0.428,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3141447144",
+      "doi": "10.1364/oe.421202",
+      "title": "Topological inverse design of nanophotonic devices with energy constraint",
+      "authors": [
+        "Guowu Zhang",
+        "Dan‐Xia Xu",
+        "Yuri Grinberg",
+        "Odile Liboiron-Ladouceur"
+      ],
+      "year": 2021,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "energy constraints",
+        "nanophotonic devices",
+        "topology optimization",
+        "mode converter",
+        "wavelength demultiplexer",
+        "fabrication robustness",
+        "feature size reduction"
+      ],
+      "url": "https://doi.org/10.1364/oe.421202",
+      "cited_by_count": 45,
+      "importance": 0.601,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4280619170",
+      "doi": "10.1364/prj.457066",
+      "title": "Experimental demonstration of robust nanophotonic devices optimized by topological inverse design with energy constraint",
+      "authors": [
+        "Guowu Zhang",
+        "Dan‐Xia Xu",
+        "Yuri Grinberg",
+        "Odile Liboiron-Ladouceur"
+      ],
+      "year": 2022,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "energy constraints",
+        "nanophotonic devices",
+        "mode converter",
+        "wavelength demultiplexer",
+        "coarse wavelength division multiplexing",
+        "fabrication robustness",
+        "fabrication error tolerance",
+        "insertion loss",
+        "crosstalk",
+        "spectrum shift"
+      ],
+      "url": "https://doi.org/10.1364/prj.457066",
+      "cited_by_count": 31,
+      "importance": 0.5767,
+      "score_basis": {
+        "topic_overlap": 0.281,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2988604213",
+      "doi": "10.1021/acsphotonics.9b01540",
+      "title": "Inverse-Designed Photonics for Semiconductor Foundries",
+      "authors": [
+        "Alexander Y. Piggott",
+        "Yue Ma",
+        "Logan Su",
+        "Geun Ho Ahn",
+        "Neil V. Sapra",
+        "Dries Vercruysse",
+        "Andrew M. Netherton",
+        "Akhilesh S. P. Khope",
+        "John Edward Bowers",
+        "Jelena Vuckovic A"
+      ],
+      "year": 2020,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "inverse design",
+        "silicon photonics",
+        "wavelength demultiplexer",
+        "directional coupler",
+        "power divider"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.9b01540",
+      "cited_by_count": 134,
+      "importance": 0.5324,
+      "score_basis": {
+        "topic_overlap": 0.339,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1929077562",
+      "doi": "10.1038/nphoton.2015.69",
+      "title": "Inverse design and demonstration of a compact and broadband on-chip wavelength demultiplexer",
+      "authors": [
+        "Alexander Y. Piggott",
+        "Jesse Lu",
+        "Konstantinos G. Lagoudakis",
+        "Jan Petykiewicz",
+        "Thomas M. Babinec",
+        "Jelena Vuckovic A"
+      ],
+      "year": 2015,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "wavelength demultiplexer",
+        "inverse design",
+        "silicon photonics",
+        "wavelength splitting",
+        "compact photonic devices",
+        "insertion loss",
+        "crosstalk",
+        "dielectric waveguides"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2015.69",
+      "cited_by_count": 1112,
+      "importance": 0.4968,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390780842",
+      "doi": "10.29026/oes.2023.230038",
+      "title": "Inverse design for material anisotropy and its application for a compact X-cut TFLN on-chip wavelength demultiplexer",
+      "authors": [
+        "Jiangbo Lyu",
+        "Zhu Tao",
+        "Yan Zhou",
+        "Zhenmin Chen",
+        "Yazhi Pi",
+        "Zhengtong Liu",
+        "Xiaochuan Xu",
+        "Ke Xu",
+        "Xu Ma",
+        "Lei Wang",
+        "Zizheng Cao",
+        "Shaohua Yu"
+      ],
+      "year": 2023,
+      "venue": "Opto-Electronic Science",
+      "venue_abbr": "OES",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "inverse design",
+        "anisotropic materials",
+        "lithium niobate",
+        "thin-film lithium niobate",
+        "wavelength demultiplexer",
+        "adjoint method",
+        "on-chip photonic integration",
+        "compact photonic devices"
+      ],
+      "url": "https://doi.org/10.29026/oes.2023.230038",
+      "cited_by_count": 26,
+      "importance": 0.4673,
+      "score_basis": {
+        "topic_overlap": 0.483,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407101512",
+      "doi": "10.1364/oe.550007",
+      "title": "Low-loss and broadband silicon-based multimode waveguide crossing at 2 μm using 2-D sub-wavelength holey metamaterials",
+      "authors": [
+        "Bin Ni",
+        "Hao Xu",
+        "Chenyang Luo",
+        "Shengbao Wu",
+        "Jichuan Xiong"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon photonics",
+        "mid-infrared",
+        "2 μm wavelength",
+        "TE modes",
+        "insertion loss",
+        "crosstalk",
+        "broadband waveguide",
+        "photonic integrated circuits"
+      ],
+      "url": "https://doi.org/10.1364/oe.550007",
+      "cited_by_count": 5,
+      "importance": 0.4607,
+      "score_basis": {
+        "topic_overlap": 0.357,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3012027708",
+      "doi": "10.1063/1.5131263",
+      "title": "Nanophotonic inverse design with SPINS: Software architecture and practical considerations",
+      "authors": [
+        "Logan Su",
+        "Dries Vercruysse",
+        "Jinhie Skarda",
+        "Neil V. Sapra",
+        "Jan Petykiewicz",
+        "Jelena Vuckovic A"
+      ],
+      "year": 2020,
+      "venue": "Applied Physics Reviews",
+      "venue_abbr": "Applied Physics Reviews",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "spin",
+        "gradient-based optimization",
+        "computational graphs",
+        "wavelength demultiplexer",
+        "local minima",
+        "initial condition selection",
+        "design heuristics",
+        "reproducibility"
+      ],
+      "url": "https://doi.org/10.1063/1.5131263",
+      "cited_by_count": 175,
+      "importance": 0.4567,
+      "score_basis": {
+        "topic_overlap": 0.259,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4399384098",
+      "doi": "10.1364/ol.526023",
+      "title": "Inverse design of mid-infrared diamond waveguide beam splitter",
+      "authors": [
+        "Yihao Li",
+        "Shu Chen",
+        "Yanan Yu",
+        "Chen Li",
+        "Ting‐Hui Xiao"
+      ],
+      "year": 2024,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "diamond waveguides",
+        "beam splitter",
+        "mid-infrared photonics",
+        "inverse design",
+        "transmission efficiency",
+        "compact photonic devices",
+        "integrated photonics",
+        "refractive index"
+      ],
+      "url": "https://doi.org/10.1364/ol.526023",
+      "cited_by_count": 5,
+      "importance": 0.4525,
+      "score_basis": {
+        "topic_overlap": 0.45,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386879670",
+      "doi": "10.1117/1.oe.62.9.097103",
+      "title": "Broadband mid-infrared polarization beam splitter with high extinction ratio based on GaAs hybrid plasma three-guide directional coupler",
+      "authors": [
+        "Fang Wang",
+        "Hua Liu",
+        "Tao Ma",
+        "Shoudao Ma",
+        "Yufang Liu"
+      ],
+      "year": 2023,
+      "venue": "Optical Engineering",
+      "venue_abbr": "Opt. Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization beam splitter",
+        "mid-infrared",
+        "directional coupler",
+        "extinction ratio",
+        "phase matching",
+        "insertion loss",
+        "optical communication"
+      ],
+      "url": "https://doi.org/10.1117/1.oe.62.9.097103",
+      "cited_by_count": 2,
+      "importance": 0.444,
+      "score_basis": {
+        "topic_overlap": 0.32,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1967305048",
+      "doi": "10.1364/oe.21.013351",
+      "title": "Nanophotonic computational design",
+      "authors": [
+        "Jesse Lu",
+        "Jelena Vuckovic A"
+      ],
+      "year": 2013,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "nanophotonic device design",
+        "computational design",
+        "parameter space optimization",
+        "three-dimensional photonic structures",
+        "compact photonic devices"
+      ],
+      "url": "https://doi.org/10.1364/oe.21.013351",
+      "cited_by_count": 283,
+      "importance": 0.4435,
+      "score_basis": {
+        "topic_overlap": 0.319,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385350483",
+      "doi": "10.1364/prj.495729",
+      "title": "Advanced mid-infrared plasmonic waveguides for on-chip integrated photonics",
+      "authors": [
+        "Mauro David",
+        "Davide Disnan",
+        "Elena Arigliani",
+        "Anna Lardschneider",
+        "Georg Marschick",
+        "Hanh T. Hoang",
+        "Hermann Detz",
+        "Bernhard Lendl",
+        "Ulrich Schmid",
+        "G. Strasser",
+        "Borislav Hinkov"
+      ],
+      "year": 2023,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "plasmonic waveguides",
+        "mid-infrared photonics",
+        "photonic integrated circuits",
+        "polyethylene",
+        "S-bend waveguide",
+        "bending loss",
+        "mode confinement"
+      ],
+      "url": "https://doi.org/10.1364/prj.495729",
+      "cited_by_count": 23,
+      "importance": 0.4262,
+      "score_basis": {
+        "topic_overlap": 0.347,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4319439815",
+      "doi": "10.1002/lpor.202200674",
+      "title": "Ultra‐Broadband Multimode Waveguide Crossing via Subwavelength Transmitarray with Bound State",
+      "authors": [
+        "Xiaoyuan Guo",
+        "Zi Xin Wang",
+        "Yao Zhang",
+        "Yingjie Liu",
+        "Zimeng Zhang",
+        "Jiefeng Xu",
+        "Shumin Xiao",
+        "Qinghai Song",
+        "Ke Xu"
+      ],
+      "year": 2023,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "waveguide crossing",
+        "multimode waveguides",
+        "bound states",
+        "silicon photonics",
+        "silicon-on-insulator",
+        "wavelength division multiplexing",
+        "mode-division multiplexing",
+        "photonic integrated circuits",
+        "network-on-chip",
+        "broadband transmittance",
+        "excess loss"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202200674",
+      "cited_by_count": 48,
+      "importance": 0.4101,
+      "score_basis": {
+        "topic_overlap": 0.311,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412687537",
+      "doi": "10.1002/lpor.202500643",
+      "title": "Advances in On‐Chip Polarization Multiplexing Devices: From Traditional Designs to Inverse Design and Hybrid Multiplexing",
+      "authors": [
+        "Maoqing Guo",
+        "Lvyi Zhong",
+        "Shilong Li",
+        "Yuhang Chen",
+        "Jie Li",
+        "Jitao Li",
+        "Dingyu Yang"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization multiplexing",
+        "polarization beam splitter",
+        "polarization rotator",
+        "inverse design",
+        "hybrid multiplexing",
+        "directional coupler",
+        "multimode interference",
+        "Y-branch waveguide",
+        "photonic crystals",
+        "hybrid plasmonic waveguide",
+        "subwavelength gratings",
+        "slot waveguide"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202500643",
+      "cited_by_count": 15,
+      "importance": 0.4048,
+      "score_basis": {
+        "topic_overlap": 0.344,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4294710640",
+      "doi": "10.3389/fphy.2022.985208",
+      "title": "Methods and applications of on-chip beam splitting: A review",
+      "authors": [
+        "Yuting Xu",
+        "Zhongxing Tian",
+        "Xiaoqin Meng",
+        "Zhen Chai"
+      ],
+      "year": 2022,
+      "venue": "Frontiers in Physics",
+      "venue_abbr": "Frontiers in Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "Y-branch coupler",
+        "multimode interference",
+        "directional coupler",
+        "inverse design",
+        "power splitting",
+        "polarization separation",
+        "wavelength division multiplexing"
+      ],
+      "url": "https://doi.org/10.3389/fphy.2022.985208",
+      "cited_by_count": 45,
+      "importance": 0.3915,
+      "score_basis": {
+        "topic_overlap": 0.203,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3197883817",
+      "doi": "10.1016/j.optcom.2021.127418",
+      "title": "Ultracompact and broadband mid-infrared polarization beam splitter based on an asymmetric directional coupler consisting of GaAs–CaF 2 hybrid plasmonic waveguide and GaAs nanowire",
+      "authors": [
+        "Fang Wang",
+        "Yake Chen",
+        "Chuanqiang Li",
+        "Tao Ma",
+        "Xu Wang",
+        "Kun Yu",
+        "Lei Li"
+      ],
+      "year": 2021,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization beam splitter",
+        "asymmetric directional coupler",
+        "mid-infrared photonics",
+        "plasmonic waveguides",
+        "TE and TM modes",
+        "phase matching",
+        "extinction ratio",
+        "insertion loss"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2021.127418",
+      "cited_by_count": 20,
+      "importance": 0.3868,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2538469433",
+      "doi": "10.1109/jstqe.2016.2619330",
+      "title": "Photonics in the Mid-Infrared: Challenges in Single-Chip Integration and Absorption Sensing",
+      "authors": [
+        "Ventsislav Lavchiev",
+        "Bernhard Jakoby"
+      ],
+      "year": 2016,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mid-infrared photonics",
+        "silicon photonics",
+        "single-chip integration",
+        "gas sensing",
+        "liquid sensing",
+        "silicon oxide",
+        "silicon nitride",
+        "photonic crystal waveguides",
+        "ridge waveguide",
+        "optoelectronic devices"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2016.2619330",
+      "cited_by_count": 74,
+      "importance": 0.3715,
+      "score_basis": {
+        "topic_overlap": 0.337,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4226326828",
+      "doi": "10.1109/jphot.2022.3158698",
+      "title": "Design of High-Speed Mid-Infrared Electro-Optic Modulator Based on Thin Film Lithium Niobate",
+      "authors": [
+        "Lingyun Yu",
+        "Jumei Shang",
+        "Kaiwen Luo",
+        "Qijing Lin",
+        "Huajiang Chen",
+        "Wentao Qiu",
+        "Heyuan Guan",
+        "Huihui Lu"
+      ],
+      "year": 2022,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "lithium niobate on insulator",
+        "X-cut lithium niobate",
+        "ridge waveguide",
+        "multimode interference coupler",
+        "coplanar waveguide electrodes",
+        "electro-optic bandwidth",
+        "half-wave voltage",
+        "interaction length",
+        "3 μm wavelength",
+        "high-speed optical modulation"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2022.3158698",
+      "cited_by_count": 17,
+      "importance": 0.3509,
+      "score_basis": {
+        "topic_overlap": 0.335,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3121839509",
+      "doi": "10.1063/5.0055148",
+      "title": "Topology optimization of surface-enhanced Raman scattering substrates",
+      "authors": [
+        "Ying Pan",
+        "Rasmus E. Christiansen",
+        "Jérôme Michon",
+        "Juejun Hu",
+        "Steven G. Johnson"
+      ],
+      "year": 2021,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "surface-enhanced Raman scattering",
+        "SERS substrates",
+        "topology optimization",
+        "metal nanostructures",
+        "Raman enhancement factor",
+        "rhodamine 6G",
+        "production constraints",
+        "minimum feature size",
+        "nanostructure design"
+      ],
+      "url": "https://doi.org/10.1063/5.0055148",
+      "cited_by_count": 22,
+      "importance": 0.3187,
+      "score_basis": {
+        "topic_overlap": 0.041,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W305632992",
+      "doi": "10.1016/j.cma.2015.05.003",
+      "title": "Minimum length scale in topology optimization by geometric constraints",
+      "authors": [
+        "Mingdong Zhou",
+        "Boyan Stefanov Lazarov",
+        "Fengwen Wang",
+        "Ole Sigmund"
+      ],
+      "year": 2015,
+      "venue": "Computer Methods in Applied Mechanics and Engineering",
+      "venue_abbr": "Computer Methods in Applied Mechanics and Engineering",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topology optimization",
+        "minimum length scale",
+        "geometric constraints",
+        "density-based topology optimization",
+        "structural design",
+        "constraint-based optimization"
+      ],
+      "url": "https://doi.org/10.1016/j.cma.2015.05.003",
+      "cited_by_count": 423,
+      "importance": 0.315,
+      "score_basis": {
+        "topic_overlap": 0.033,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3217207963",
+      "doi": "10.1364/ol.431887",
+      "title": "Plasmonic loss-mitigating broadband adiabatic polarizing beam splitter",
+      "authors": [
+        "Guang Hui Yang",
+        "Alexander V. Sergienko",
+        "Abdoulaye Ndao"
+      ],
+      "year": 2021,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "polarization beam splitter",
+        "stimulated Raman adiabatic passage",
+        "plasmonic waveguides",
+        "broadband polarization conversion",
+        "loss reduction",
+        "hybrid plasmonic waveguide",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/ol.431887",
+      "cited_by_count": 24,
+      "importance": 0.3133,
+      "score_basis": {
+        "topic_overlap": 0.207,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313555657",
+      "doi": "10.1126/science.abj4396",
+      "title": "Lithium niobate photonics: Unlocking the electromagnetic spectrum",
+      "authors": [
+        "Andreas Boes",
+        "Lin Chang",
+        "Carsten Langrock",
+        "Mengjie Yu",
+        "Mian Zhang",
+        "Qiang Lin",
+        "Marko Lončar",
+        "M. M. Fejer",
+        "John Edward Bowers",
+        "Arnan Mitchell"
+      ],
+      "year": 2023,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate",
+        "photonic crystals",
+        "photonic integrated circuits",
+        "optical waveguides",
+        "frequency conversion",
+        "nonlinear optics",
+        "microwave photonics",
+        "ultraviolet photonics",
+        "crystal growth",
+        "photonic platform"
+      ],
+      "url": "https://doi.org/10.1126/science.abj4396",
+      "cited_by_count": 672,
+      "importance": 0.3124,
+      "score_basis": {
+        "topic_overlap": 0.205,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3012196025",
+      "doi": "10.3390/mi11030326",
+      "title": "State-of-the-Art and Perspectives on Silicon Waveguide Crossings: A Review",
+      "authors": [
+        "Sailong Wu",
+        "Xin Mu",
+        "Li-Rong Lilly Cheng",
+        "Simei Mao",
+        "H. Y. Fu"
+      ],
+      "year": 2020,
+      "venue": "Micromachines",
+      "venue_abbr": "Micromachines",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "photonic integrated circuits",
+        "multimode interference",
+        "subwavelength gratings",
+        "forward design",
+        "inverse design",
+        "polarization multiplexing",
+        "mode-division multiplexing"
+      ],
+      "url": "https://doi.org/10.3390/mi11030326",
+      "cited_by_count": 90,
+      "importance": 0.3057,
+      "score_basis": {
+        "topic_overlap": 0.235,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3087935506",
+      "doi": "10.1364/oe.401881",
+      "title": "Design of on-chip mid-IR frequency comb with ultra-low power pump in near-IR",
+      "authors": [
+        "Jinze He",
+        "Yang Li"
+      ],
+      "year": 2020,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "mid-infrared frequency comb",
+        "lithium niobate on insulator",
+        "nonlinear frequency conversion",
+        "continuous-wave operation",
+        "mid-infrared spectroscopy",
+        "integrated photonics",
+        "conversion efficiency"
+      ],
+      "url": "https://doi.org/10.1364/oe.401881",
+      "cited_by_count": 12,
+      "importance": 0.3045,
+      "score_basis": {
+        "topic_overlap": 0.232,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406737551",
+      "doi": "10.1063/5.0230260",
+      "title": "Progress in mid-infrared optoelectronics for high-speed free-space data throughput",
+      "authors": [
+        "Frédéric Grillot",
+        "Thomas Poletti",
+        "Salvatore Pes"
+      ],
+      "year": 2025,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "mid-infrared optoelectronics",
+        "free-space optical communication",
+        "quantum cascade lasers",
+        "quantum cascade detectors",
+        "mid-wave infrared",
+        "long-wave infrared",
+        "atmospheric transmission",
+        "integrated photonics",
+        "high-speed data transmission",
+        "1550 nm"
+      ],
+      "url": "https://doi.org/10.1063/5.0230260",
+      "cited_by_count": 43,
+      "importance": 0.2955,
+      "score_basis": {
+        "topic_overlap": 0.101,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408722548",
+      "doi": "10.1117/12.3050483",
+      "title": "Free-space communication and remote sensing using mid-infrared quantum cascade lasers down to few-photon light level",
+      "authors": [
+        "Simone Borri",
+        "Tecla Gabbrielli",
+        "Jacopo Pelini",
+        "Luigi Consolino",
+        "Davide Mazzotti",
+        "Lorenzo Mischi",
+        "Nicola Corrias",
+        "Giovanni Bianchini",
+        "Paolo De Natale",
+        "Francesco Cappelli"
+      ],
+      "year": 2025,
+      "venue": "Quantum Sensing and Nano Electronics and Photonics",
+      "venue_abbr": "Quantum Sensing and Nano Electronics and Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "free-space optical communication",
+        "remote sensing",
+        "mid-infrared quantum cascade lasers"
+      ],
+      "url": "https://doi.org/10.1117/12.3050483",
+      "cited_by_count": 3,
+      "importance": 0.245,
+      "score_basis": {
+        "topic_overlap": 0.1,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406268040",
+      "doi": "10.1002/advs.202415518",
+      "title": "On‐Chip Metamaterial‐Enhanced Mid‐Infrared Photodetectors with Built‐In Encryption Features",
+      "authors": [
+        "Shicong Hou",
+        "Han Li",
+        "Shi Zhang",
+        "Libo Zhang",
+        "Kaixuan Zhang",
+        "Kening Xiao",
+        "Yang Yao",
+        "Yunduo Zhang",
+        "Yuanfeng Wen",
+        "Wenqi Mo",
+        "Yiran Tan",
+        "Yifan Yao",
+        "Jiale He",
+        "Weiwei Tang",
+        "Xuguang Guo",
+        "Yiming Zhu",
+        "Xiaoshuang Chen"
+      ],
+      "year": 2025,
+      "venue": "Advanced Science",
+      "venue_abbr": "Advanced Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mid-infrared photodetectors",
+        "Ta2NiSe5",
+        "plasmon resonance",
+        "self-powered photodetection",
+        "reconfigurable logic gates",
+        "secure optical communication",
+        "room-temperature operation"
+      ],
+      "url": "https://doi.org/10.1002/advs.202415518",
+      "cited_by_count": 29,
+      "importance": 0.2176,
+      "score_basis": {
+        "topic_overlap": 0.039,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401931326",
+      "doi": "10.1016/j.trac.2024.117916",
+      "title": "Recent advances and trends in mid-infrared chem/bio sensors",
+      "authors": [
+        "Gabriela Flores-Rangel",
+        "Lorena Díaz de León-Martínez",
+        "Lisa Sophie Walter",
+        "Boris Mizaikoff"
+      ],
+      "year": 2024,
+      "venue": "TrAC Trends in Analytical Chemistry",
+      "venue_abbr": "TrAC Trends in Analytical Chemistry",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mid-infrared spectroscopy",
+        "optical biosensors",
+        "biomarker detection",
+        "disease diagnosis",
+        "real-time monitoring",
+        "sensitivity enhancement",
+        "device miniaturization",
+        "artificial intelligence",
+        "personalized medicine",
+        "molecular vibrational modes"
+      ],
+      "url": "https://doi.org/10.1016/j.trac.2024.117916",
+      "cited_by_count": 36,
+      "importance": 0.2104,
+      "score_basis": {
+        "topic_overlap": 0.023,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1929077562",
+      "to": "W1967305048",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1929077562"
+        }
+      ]
+    },
+    {
+      "from": "W2988604213",
+      "to": "W1929077562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2988604213"
+        }
+      ]
+    },
+    {
+      "from": "W2988604213",
+      "to": "W1967305048",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2988604213"
+        }
+      ]
+    },
+    {
+      "from": "W3012027708",
+      "to": "W1967305048",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012027708"
+        }
+      ]
+    },
+    {
+      "from": "W3012027708",
+      "to": "W305632992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012027708"
+        }
+      ]
+    },
+    {
+      "from": "W3121839509",
+      "to": "W1929077562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3121839509"
+        }
+      ]
+    },
+    {
+      "from": "W3121839509",
+      "to": "W305632992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3121839509"
+        }
+      ]
+    },
+    {
+      "from": "W3141447144",
+      "to": "W1929077562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3141447144"
+        }
+      ]
+    },
+    {
+      "from": "W3141447144",
+      "to": "W1967305048",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3141447144"
+        }
+      ]
+    },
+    {
+      "from": "W3141447144",
+      "to": "W2988604213",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3141447144"
+        }
+      ]
+    },
+    {
+      "from": "W3141447144",
+      "to": "W3012027708",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3141447144"
+        }
+      ]
+    },
+    {
+      "from": "W3141447144",
+      "to": "W305632992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3141447144"
+        }
+      ]
+    },
+    {
+      "from": "W4280619170",
+      "to": "W1929077562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4280619170"
+        }
+      ]
+    },
+    {
+      "from": "W4280619170",
+      "to": "W1967305048",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4280619170"
+        }
+      ]
+    },
+    {
+      "from": "W4280619170",
+      "to": "W2988604213",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4280619170"
+        }
+      ]
+    },
+    {
+      "from": "W4280619170",
+      "to": "W3012027708",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4280619170"
+        }
+      ]
+    },
+    {
+      "from": "W4280619170",
+      "to": "W305632992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4280619170"
+        }
+      ]
+    },
+    {
+      "from": "W4280619170",
+      "to": "W3141447144",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4280619170"
+        }
+      ]
+    },
+    {
+      "from": "W4294710640",
+      "to": "W1929077562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294710640"
+        }
+      ]
+    },
+    {
+      "from": "W4294710640",
+      "to": "W3197883817",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294710640"
+        }
+      ]
+    },
+    {
+      "from": "W4313387867",
+      "to": "W1929077562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313387867"
+        }
+      ]
+    },
+    {
+      "from": "W4313387867",
+      "to": "W1967305048",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313387867"
+        }
+      ]
+    },
+    {
+      "from": "W4313387867",
+      "to": "W2988604213",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313387867"
+        }
+      ]
+    },
+    {
+      "from": "W4313387867",
+      "to": "W305632992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313387867"
+        }
+      ]
+    },
+    {
+      "from": "W4319439815",
+      "to": "W2988604213",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4319439815"
+        }
+      ]
+    },
+    {
+      "from": "W4385350483",
+      "to": "W2538469433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385350483"
+        }
+      ]
+    },
+    {
+      "from": "W4386879670",
+      "to": "W3197883817",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386879670"
+        }
+      ]
+    },
+    {
+      "from": "W4386879670",
+      "to": "W3217207963",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386879670"
+        }
+      ]
+    },
+    {
+      "from": "W4390780842",
+      "to": "W1929077562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390780842"
+        }
+      ]
+    },
+    {
+      "from": "W4399384098",
+      "to": "W4313387867",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4399384098"
+        }
+      ]
+    },
+    {
+      "from": "W4406737551",
+      "to": "W4385350483",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406737551"
+        }
+      ]
+    },
+    {
+      "from": "W4407101512",
+      "to": "W1929077562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407101512"
+        }
+      ]
+    },
+    {
+      "from": "W4407101512",
+      "to": "W4319439815",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407101512"
+        }
+      ]
+    },
+    {
+      "from": "W4412687537",
+      "to": "W4313555657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412687537"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W1929077562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W1967305048",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W2538469433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W2988604213",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W3012027708",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W3012196025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W305632992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W3087935506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W3121839509",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W3141447144",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W3197883817",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W3217207963",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4226326828",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4280619170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4294710640",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4313387867",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4313555657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4319439815",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4385350483",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4386879670",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4390780842",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4399384098",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4401931326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4406268040",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4406737551",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4407101512",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4408722548",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    },
+    {
+      "from": "W7213247028",
+      "to": "W4412687537",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213247028"
+        }
+      ]
+    }
+  ]
 }

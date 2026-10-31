@@ -1,41 +1,2334 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "7c96622d-9040-48fd-852c-4251a4e2f1a3",
-  "root": "doi:10.1063/5.0326522",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7205709573",
+  "status": "ok",
+  "checked_at": "2026-10-30T00:55:04.625518+00:00",
+  "coverage": {
+    "references_found": 44,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 44,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1063/5.0326522",
+      "id": "W7205709573",
       "doi": "10.1063/5.0326522",
       "title": "Semiconductor optical amplifier for next-generation data center interconnects",
       "authors": [
         "Ahmed Galib Reza",
         "Lakshmi Narayanan Venkatasubramani",
-        "Sean O’Duill",
-        "Leidy Rodriguez",
+        "Sean O’Dúill",
+        "Leidy Rodríguez",
         "Janina Rautert",
         "Vladimir S. Mikhrin",
-        "Alexy Gubenko",
-        "Liam Barry"
+        "Alexey Gubenko",
+        "Liam P. Barry"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "APL Photonics",
       "venue_abbr": "APL Photonics",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "semiconductor optical amplifier",
+        "data center interconnects",
+        "wavelength division multiplexing",
+        "O-band",
+        "energy-efficient optical networks",
+        "optical transceivers",
+        "nonlinear signal distortion",
+        "physical layer"
+      ],
       "url": "https://doi.org/10.1063/5.0326522",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/7c96622d-9040-48fd-852c-4251a4e2f1a3.html",
       "summary": "摘要报告：光数据中心流量指数增长；未来1.6/3.2 TbE标准或在O波段采用WDM传输（更多波长信道×更高速率），推高激光器与收发机能耗。SOA因小尺寸、易集成成为高容量低能耗数据中心网络候选；近年量子点SOA在单器件WDM放大、降低非线性失真与能耗方面潜力突出。文章讨论各类SOA技术（重点QD-SOA）及SOA在数据中心网络架构、系统与收发机概念中的应用，目标是为光数据中心互连提供节能物理层技术。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4281752781",
+      "doi": "10.1364/aop.451872",
+      "title": "Semiconductor optical amplifiers: recent advances and applications",
+      "authors": [
+        "Aneesh Sobhanan",
+        "Aravind P. Anthur",
+        "Sean O’Dúill",
+        "Mark D. Pelusi",
+        "Shu Namiki",
+        "Liam P. Barry",
+        "Deepa Venkitesh",
+        "Govind Prasad Agrawal"
+      ],
+      "year": 2022,
+      "venue": "Advances in Optics and Photonics",
+      "venue_abbr": "Advances in Optics and Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "coherent optical communication",
+        "phase modulation",
+        "optical signal processing",
+        "all-optical wavelength conversion",
+        "phase conjugation",
+        "phase quantization",
+        "transponders",
+        "nonlinear optics"
+      ],
+      "url": "https://doi.org/10.1364/aop.451872",
+      "cited_by_count": 134,
+      "importance": 0.5568,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404847721",
+      "doi": "10.1109/jlt.2024.3509402",
+      "title": "Performance and Characterization Comparison of QD SOA, QW SOA, Bulk SOA and PDFA for Multi-Tbps O-Band WDM Links",
+      "authors": [
+        "Charles St-Arnault",
+        "Santiago Bernal",
+        "R. Gutiérrez-Castrejón",
+        "Essam R. Berikaa",
+        "Weijia Li",
+        "Zixian Wei",
+        "Yixiang Hu",
+        "Md Samiul Alam",
+        "Janina Rautert",
+        "S. V. Poltavtsev",
+        "Alexey E. Gubenko",
+        "V. V. Belykh",
+        "Vladimir S. Mikhrin",
+        "Alexey R. Kovsh",
+        "David V. Plant"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "O-band",
+        "coherent optical transmission",
+        "intensity modulation and direct detection",
+        "data center interconnects",
+        "PAM-8",
+        "forward error correction",
+        "noise figure",
+        "alpha-factor",
+        "high-capacity optical networks"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3509402",
+      "cited_by_count": 16,
+      "importance": 0.5495,
+      "score_basis": {
+        "topic_overlap": 0.332,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2065246571",
+      "doi": "10.1109/3.42059",
+      "title": "Self-phase modulation and spectral broadening of optical pulses in semiconductor laser amplifiers",
+      "authors": [
+        "Govind Prasad Agrawal",
+        "N.A. Olsson"
+      ],
+      "year": 1989,
+      "venue": "IEEE Journal of Quantum Electronics",
+      "venue_abbr": "JQE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "self-phase modulation",
+        "spectral broadening",
+        "semiconductor laser amplifier",
+        "ultrashort optical pulses",
+        "gain saturation",
+        "carrier concentration",
+        "frequency chirp",
+        "picosecond pulses",
+        "mode-locked lasers",
+        "fiber dispersion compensation",
+        "pulse compression",
+        "nonlinear optics"
+      ],
+      "url": "https://doi.org/10.1109/3.42059",
+      "cited_by_count": 1175,
+      "importance": 0.4745,
+      "score_basis": {
+        "topic_overlap": 0.277,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403182441",
+      "doi": "10.1109/jlt.2024.3475885",
+      "title": "Bit Error Rate in WDM Data Transmission Links With Semiconductor Optical Amplifier",
+      "authors": [
+        "V. V. Belykh",
+        "Janina Rautert",
+        "Vladimir S. Mikhrin",
+        "Alexey E. Gubenko"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "bit error rate",
+        "wavelength division multiplexing",
+        "PAM4 modulation",
+        "NRZ modulation",
+        "intensity modulation and direct detection",
+        "optical amplification",
+        "noise figure",
+        "400 Gb/s transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3475885",
+      "cited_by_count": 6,
+      "importance": 0.4738,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404627770",
+      "doi": "10.1109/lpt.2024.3504841",
+      "title": "2 × 53 Gbit/s PAM-4 Transmission Using 1.3 μm DML With High Power Budget Enabled by Quantum-Dot SOA",
+      "authors": [
+        "Ahmed Galib Reza",
+        "Lakshmi Narayanan Venkatasubramani",
+        "Anil Raj Gautam",
+        "Prajwal Doddaballapura Lakshmijayasimha",
+        "John O’Carroll",
+        "Richard Phelan",
+        "Diarmuid C. Byrne",
+        "Brian Kelly",
+        "Vladimir S. Mikhrin",
+        "Alexey Gubenko",
+        "Liam P. Barry"
+      ],
+      "year": 2024,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "PAM-4",
+        "directly modulated lasers",
+        "distributed feedback lasers",
+        "quantum dot semiconductor optical amplifier",
+        "wavelength division multiplexing",
+        "passive optical networks",
+        "feed-forward equalization",
+        "1.3 μm lasers"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2024.3504841",
+      "cited_by_count": 12,
+      "importance": 0.4489,
+      "score_basis": {
+        "topic_overlap": 0.331,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4377232683",
+      "doi": "10.1109/jlt.2023.3278981",
+      "title": "Mitigation of SOA-Induced Nonlinearities With Recurrent Neural Networks in 75 Gbit/s/λ PAM-4 IM/DD WDM-PON Transmission Systems",
+      "authors": [
+        "Ahmed Galib Reza",
+        "Marcos Troncoso Costas",
+        "Colm Browning",
+        "Sean O’Dúill",
+        "Liam P. Barry"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "PAM-4",
+        "intensity modulation and direct detection",
+        "WDM-PON",
+        "nonlinear distortion compensation",
+        "electroabsorption modulator",
+        "feed-forward equalizer",
+        "optical distribution network",
+        "100 GHz channel spacing"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3278981",
+      "cited_by_count": 17,
+      "importance": 0.4433,
+      "score_basis": {
+        "topic_overlap": 0.274,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404710721",
+      "doi": "10.1063/5.0240831",
+      "title": "High saturation power anti-waveguide asymmetric super-large optical cavity SOA with low confinement factor and ultra-narrow vertical divergence angle",
+      "authors": [
+        "霜垣 幸浩",
+        "Suping Liu",
+        "Qiong Qi",
+        "Cong Xiong",
+        "Jinyuan Chang",
+        "Lingni Zhu",
+        "Xin Wei",
+        "Xiaoyu Ma"
+      ],
+      "year": 2024,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "nonlinear frequency conversion",
+        "power amplifier",
+        "fiber coupling efficiency",
+        "1 μm wavelength",
+        "small-signal gain"
+      ],
+      "url": "https://doi.org/10.1063/5.0240831",
+      "cited_by_count": 3,
+      "importance": 0.4375,
+      "score_basis": {
+        "topic_overlap": 0.306,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4226193631",
+      "doi": "10.1109/jphot.2022.3168683",
+      "title": "Single-Lane 54-Gbit/s PAM-4/8 Signal Transmissions Using 10G-Class Directly Modulated Lasers Enabled by Low-Complexity Nonlinear Digital Equalization",
+      "authors": [
+        "Ahmed Galib Reza",
+        "Marcos Troncoso Costas",
+        "Colm Browning",
+        "Francisco J. Díaz-Otero",
+        "Liam P. Barry"
+      ],
+      "year": 2022,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "directly modulated lasers",
+        "PAM-4",
+        "PAM-8",
+        "nonlinear equalization",
+        "Volterra equalizer",
+        "neural network equalizer",
+        "optical amplification",
+        "laser frequency chirp",
+        "memory effects",
+        "power budget",
+        "single-mode fiber links"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2022.3168683",
+      "cited_by_count": 16,
+      "importance": 0.4367,
+      "score_basis": {
+        "topic_overlap": 0.259,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2093436992",
+      "doi": "10.1109/50.4035",
+      "title": "Semiconductor laser optical amplifiers for use in future fiber systems",
+      "authors": [
+        "M.J. O’Mahony"
+      ],
+      "year": 1988,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "semiconductor laser amplifier",
+        "optical fiber systems",
+        "preamplifier",
+        "bistable elements"
+      ],
+      "url": "https://doi.org/10.1109/50.4035",
+      "cited_by_count": 321,
+      "importance": 0.4352,
+      "score_basis": {
+        "topic_overlap": 0.278,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400908552",
+      "doi": "10.1109/jstqe.2024.3432313",
+      "title": "Energy Efficient and High Bandwidth Quantum Dot Comb Laser Based Silicon Microring Transmitter for Optical Interconnects",
+      "authors": [
+        "Jiajian Chen",
+        "Bo Yang",
+        "Jiale Qin",
+        "Jingzhi Huang",
+        "Xiangru Cui",
+        "Jie Yan",
+        "Dingyi Wu",
+        "Xi Xiao",
+        "Zihao Wang",
+        "Changyuan Yu",
+        "Jianjun Zhang",
+        "Ting Wang"
+      ],
+      "year": 2024,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon microring resonator",
+        "optical transmitter",
+        "optical interconnects",
+        "optical I/O",
+        "multi-wavelength transmission",
+        "energy efficiency",
+        "100 Gb/s",
+        "O-band",
+        "semiconductor lasers"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2024.3432313",
+      "cited_by_count": 13,
+      "importance": 0.4251,
+      "score_basis": {
+        "topic_overlap": 0.345,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410226848",
+      "doi": "10.1109/jlt.2025.3568202",
+      "title": "Microcomb and Micro-Ring Modulator Driven DWDM Optical Transmitter With Ultra-High Speed of 20 × 128 Gb/s",
+      "authors": [
+        "Hongjun Cai",
+        "Zichun Liao",
+        "Yutian Zhang",
+        "Xinliang Zhang",
+        "Chi Zhang",
+        "Yu Yu"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Kerr microcombs",
+        "silicon modulators",
+        "crosstalk reduction",
+        "spectral aliasing",
+        "data center interconnects",
+        "optical interconnects",
+        "100 GHz channel spacing",
+        "spectral efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3568202",
+      "cited_by_count": 11,
+      "importance": 0.4249,
+      "score_basis": {
+        "topic_overlap": 0.278,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2811491877",
+      "doi": "10.1109/lpt.2018.2852327",
+      "title": "Nonlinear Equalizer Based on Neural Networks for PAM-4 Signal Transmission Using DML",
+      "authors": [
+        "Ahmed Galib Reza",
+        "June‐Koo Kevin Rhee"
+      ],
+      "year": 2018,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "nonlinear equalizer",
+        "artificial neural networks",
+        "directly modulated lasers",
+        "PAM-4",
+        "intensity modulation and direct detection",
+        "optical access networks",
+        "nonlinear distortion",
+        "20 Gb/s transmission",
+        "channel capacity"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2018.2852327",
+      "cited_by_count": 79,
+      "importance": 0.4175,
+      "score_basis": {
+        "topic_overlap": 0.306,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2503164808",
+      "doi": "10.1109/jstqe.2016.2593103",
+      "title": "Heterogeneous Silicon/III–V Semiconductor Optical Amplifiers",
+      "authors": [
+        "Michael L. Davenport",
+        "Sandra Skendzic",
+        "Nicolas Volet",
+        "Jared C. Hulme",
+        "Martijn J. R. Heck",
+        "John Edward Bowers"
+      ],
+      "year": 2016,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "heterogeneous integration",
+        "silicon waveguides",
+        "transition loss",
+        "parasitic reflections",
+        "amplifier gain",
+        "output power",
+        "photonic integrated circuits",
+        "amplifier optimization"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2016.2593103",
+      "cited_by_count": 145,
+      "importance": 0.4108,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3047192726",
+      "doi": "10.1016/j.yofte.2020.102322",
+      "title": "Blind nonlinearity mitigation of 10G DMLs using sparse Volterra equalizer in IM/DD PAM-4 transmission systems",
+      "authors": [
+        "Ahmed Galib Reza",
+        "June‐Koo Kevin Rhee"
+      ],
+      "year": 2020,
+      "venue": "Optical Fiber Technology",
+      "venue_abbr": "OFT",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "blind equalization",
+        "directly modulated lasers",
+        "intensity modulation and direct detection",
+        "PAM-4",
+        "10 Gb/s optical transmission",
+        "nonlinear distortion compensation",
+        "optical access networks"
+      ],
+      "url": "https://doi.org/10.1016/j.yofte.2020.102322",
+      "cited_by_count": 8,
+      "importance": 0.3964,
+      "score_basis": {
+        "topic_overlap": 0.281,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3005347399",
+      "doi": "10.1109/lpt.2020.2971648",
+      "title": "High-Speed PS-PAM8 Transmission in a Four-Lane IM/DD System Using SOA at O-Band for 800G DCI",
+      "authors": [
+        "Kaihui Wang",
+        "Jiao Zhang",
+        "Mingming Zhao",
+        "Wen Zhou",
+        "Li Zhao",
+        "Jianjun Yu"
+      ],
+      "year": 2020,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "probabilistic shaping",
+        "PAM-8",
+        "semiconductor optical amplifier",
+        "wavelength division multiplexing",
+        "O-band",
+        "soft-decision forward error correction",
+        "standard single-mode fiber"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2020.2971648",
+      "cited_by_count": 48,
+      "importance": 0.3932,
+      "score_basis": {
+        "topic_overlap": 0.318,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2050731785",
+      "doi": "10.1109/jqe.2007.901587",
+      "title": "Specific Features of XGM in QD-SOA",
+      "authors": [
+        "Yossef Ben Ezra",
+        "Boris I. Lembrikov",
+        "M. Haridim"
+      ],
+      "year": 2007,
+      "venue": "IEEE Journal of Quantum Electronics",
+      "venue_abbr": "JQE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "cross-gain modulation",
+        "quantum dot semiconductor optical amplifier",
+        "inhomogeneous broadening",
+        "wetting layer",
+        "detuning",
+        "excited states",
+        "signal propagation"
+      ],
+      "url": "https://doi.org/10.1109/jqe.2007.901587",
+      "cited_by_count": 53,
+      "importance": 0.3875,
+      "score_basis": {
+        "topic_overlap": 0.306,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2149121883",
+      "doi": "10.1109/jlt.2009.2036868",
+      "title": "Low-Complexity Compensation of SOA Nonlinearity for Single-Channel PSK and OOK",
+      "authors": [
+        "Francesco Vacondio",
+        "Amirhossein Ghazisaeidi",
+        "A. Bononi",
+        "Leslie Ann Rusch"
+      ],
+      "year": 2009,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "nonlinear phase noise",
+        "phase-shift keying",
+        "on-off keying",
+        "carrier density fluctuations",
+        "small-signal analysis"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2009.2036868",
+      "cited_by_count": 23,
+      "importance": 0.385,
+      "score_basis": {
+        "topic_overlap": 0.3,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2153090594",
+      "doi": "10.1109/jstqe.2003.822919",
+      "title": "Modeling and Measurement of Noisy SOA Dynamics for Ultrafast Applications",
+      "authors": [
+        "Antonella Bogoni",
+        "Luca Potì",
+        "Claudio Porzi",
+        "Mirco Scaffardi",
+        "Paolo Ghelfi",
+        "Filippo Ponzini"
+      ],
+      "year": 2004,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "gain dynamics",
+        "gain saturation",
+        "amplified spontaneous emission",
+        "all-optical signal processing"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2003.822919",
+      "cited_by_count": 23,
+      "importance": 0.3808,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2889476621",
+      "doi": "10.1109/jproc.2018.2864668",
+      "title": "Photonic Integrated Circuits Using Heterogeneous Integration on Silicon",
+      "authors": [
+        "Tin Komljenović",
+        "Duanni Huang",
+        "Paolo Pintus",
+        "Minh A. Tran",
+        "Michael L. Davenport",
+        "John Edward Bowers"
+      ],
+      "year": 2018,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "heterogeneous integration",
+        "silicon photonics",
+        "wafer bonding",
+        "III-V on silicon",
+        "narrow-linewidth laser",
+        "widely tunable lasers",
+        "mode-locked lasers",
+        "photonic integrated circuits",
+        "optical communication",
+        "optical sensing",
+        "Ce:YIG",
+        "feedback suppression"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2018.2864668",
+      "cited_by_count": 198,
+      "importance": 0.3725,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2148790807",
+      "doi": "10.1109/50.9981",
+      "title": "Recent progress in semiconductor laser amplifiers",
+      "authors": [
+        "Tadashi Saitoh",
+        "T. Mukai"
+      ],
+      "year": 1988,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "semiconductor laser amplifier",
+        "GaInAsP",
+        "optical fiber transmission systems",
+        "antireflection coatings",
+        "small-signal gain",
+        "gain saturation",
+        "amplifier noise",
+        "channel crosstalk",
+        "active layer structure"
+      ],
+      "url": "https://doi.org/10.1109/50.9981",
+      "cited_by_count": 100,
+      "importance": 0.3558,
+      "score_basis": {
+        "topic_overlap": 0.302,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414341878",
+      "doi": "10.1364/oe.569003",
+      "title": "O-band quantum-dot mode-locked laser frequency comb for terabit optical transport",
+      "authors": [
+        "Lakshmi Narayanan Venkatasubramani",
+        "Ahmed Galib Reza",
+        "Seán Ó Dúill",
+        "Mikhail S. Buyalo",
+        "Janina Rautert",
+        "Alexey Gubenko",
+        "Liam P. Barry"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical frequency combs",
+        "O-band",
+        "InAs/InGaAs quantum dots",
+        "PAM-4",
+        "wavelength division multiplexing",
+        "semiconductor optical amplifier",
+        "booster amplifier"
+      ],
+      "url": "https://doi.org/10.1364/oe.569003",
+      "cited_by_count": 4,
+      "importance": 0.3551,
+      "score_basis": {
+        "topic_overlap": 0.345,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4382726075",
+      "doi": "10.1038/s41566-023-01244-7",
+      "title": "Massively scalable Kerr comb-driven silicon photonic link",
+      "authors": [
+        "Anthony J. Rizzo",
+        "Asher Novick",
+        "Vignesh Gopal",
+        "Bok Young Kim",
+        "Xingchen Ji",
+        "Stuart Daudlin",
+        "Yoshitomo Okawachi",
+        "Qixiang Cheng",
+        "Michal F. Lipson",
+        "Alexander L. Gaeta",
+        "K. Bergman"
+      ],
+      "year": 2023,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "Kerr frequency combs",
+        "silicon photonics",
+        "optical interconnects",
+        "wavelength division multiplexing",
+        "microresonators",
+        "energy-efficient data transmission"
+      ],
+      "url": "https://doi.org/10.1038/s41566-023-01244-7",
+      "cited_by_count": 210,
+      "importance": 0.3545,
+      "score_basis": {
+        "topic_overlap": 0.255,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2320701066",
+      "doi": "10.1515/joc.1983.4.2.51",
+      "title": "Semiconductor Laser Amplifier for Single Mode Optical Fiber Communications",
+      "authors": [
+        "Jean–Claude Simon"
+      ],
+      "year": 1983,
+      "venue": "Journal of Optical Communications",
+      "venue_abbr": "J. Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "semiconductor laser amplifier",
+        "single-mode fiber",
+        "optical fiber communication",
+        "optical amplification"
+      ],
+      "url": "https://doi.org/10.1515/joc.1983.4.2.51",
+      "cited_by_count": 140,
+      "importance": 0.3467,
+      "score_basis": {
+        "topic_overlap": 0.281,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391020596",
+      "doi": "10.1109/jqe.2024.3356366",
+      "title": "New SOA Design With Large Gain, Small Noise Figure, and High Saturation Output Power Level",
+      "authors": [
+        "Shuqi Yu",
+        "Antonin Gallet",
+        "Iosif Demirtzioglou",
+        "Sheherazade Lamkadmi Azouigui",
+        "Nayla El Dahdah",
+        "R. Brenot"
+      ],
+      "year": 2024,
+      "venue": "IEEE Journal of Quantum Electronics",
+      "venue_abbr": "JQE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "gain",
+        "noise figure",
+        "saturation power",
+        "design optimization model",
+        "drive current"
+      ],
+      "url": "https://doi.org/10.1109/jqe.2024.3356366",
+      "cited_by_count": 14,
+      "importance": 0.3408,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4292973630",
+      "doi": "10.1109/jphot.2022.3200639",
+      "title": "Design and Analysis of Novel O-Band Low Polarization Sensitive SOA Co-Integrated With Passive Waveguides for Optical Systems",
+      "authors": [
+        "Aref Rasoulzadeh Zali",
+        "Ripalta Stabile",
+        "Nicola Calabretta"
+      ],
+      "year": 2022,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "O-band",
+        "photonic integrated circuits",
+        "ridge waveguide",
+        "confinement factor",
+        "polarization-dependent gain",
+        "saturation power",
+        "manufacturing tolerances",
+        "cladding thickness"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2022.3200639",
+      "cited_by_count": 9,
+      "importance": 0.3245,
+      "score_basis": {
+        "topic_overlap": 0.277,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2028310162",
+      "doi": "10.1109/jlt.2015.2389533",
+      "title": "Integrated SOA-PIN Detector for High-Speed Short Reach Applications",
+      "authors": [
+        "Christophe Caillaud",
+        "Philippe Chanclou",
+        "F. Blache",
+        "Philippe Angelini",
+        "B. Duval",
+        "Philippe Charbonnier",
+        "Delphine Lanteri",
+        "Genevieve Glastre",
+        "M. Achouche"
+      ],
+      "year": 2015,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical preamplification",
+        "transimpedance amplifier",
+        "high-speed optical receivers",
+        "short-reach optical transmission",
+        "access networks",
+        "receiver sensitivity",
+        "noise figure",
+        "responsivity",
+        "polarization dependence",
+        "40 Gb/s"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2015.2389533",
+      "cited_by_count": 37,
+      "importance": 0.3193,
+      "score_basis": {
+        "topic_overlap": 0.265,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408705910",
+      "doi": "10.1117/12.3045076",
+      "title": "Advancements in 1550nm high-brightness tapered diode laser amplifiers",
+      "authors": [
+        "Jenna Campbell",
+        "Michelle Labrecque",
+        "Igor' Vasil'evich Kudryashov",
+        "Kevin McClune",
+        "Allen Chu",
+        "Chris Ebert",
+        "Elliot Burke",
+        "Tom Liu",
+        "Jack Kotelnikov",
+        "Leif A. Johansson",
+        "Milan L. Mashanovitch",
+        "Paul O. Leisher",
+        "Gordon B. Morrison"
+      ],
+      "year": 2025,
+      "venue": "High-Power Diode Laser Technology",
+      "venue_abbr": "High-Power Diode Laser Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "tapered diode lasers",
+        "1550 nm",
+        "diffraction-limited output",
+        "continuous-wave operation",
+        "optical communication",
+        "differential phase-shift keying",
+        "open eye diagram",
+        "reliability testing",
+        "stress testing"
+      ],
+      "url": "https://doi.org/10.1117/12.3045076",
+      "cited_by_count": 2,
+      "importance": 0.3174,
+      "score_basis": {
+        "topic_overlap": 0.261,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2019785575",
+      "doi": "10.1109/68.180571",
+      "title": "Erbium-doped fiber amplifier with 54 dB gain and 3.1 dB noise figures",
+      "authors": [
+        "Richard I. Laming",
+        "Michalis N. Zervas",
+        "David Neil Payne"
+      ],
+      "year": 1992,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "erbium-doped fiber amplifier",
+        "noise figure",
+        "optical isolator",
+        "pump power",
+        "gain"
+      ],
+      "url": "https://doi.org/10.1109/68.180571",
+      "cited_by_count": 101,
+      "importance": 0.3148,
+      "score_basis": {
+        "topic_overlap": 0.255,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406439902",
+      "doi": "10.1364/oe.550648",
+      "title": "High-power (500 mW) narrow-linewidth (21 kHz) low-RIN (−168 dB/Hz) distributed feedback laser",
+      "authors": [
+        "Hao Ran Song",
+        "Ruikang Zhang",
+        "Dan Lu",
+        "Zi Wang",
+        "Hao Wang",
+        "Lingjuan Zhao"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "distributed feedback lasers",
+        "narrow-linewidth laser",
+        "high-power semiconductor lasers",
+        "heat dissipation",
+        "single-mode operation",
+        "continuous-wave laser",
+        "pulsed laser",
+        "far-field divergence"
+      ],
+      "url": "https://doi.org/10.1364/oe.550648",
+      "cited_by_count": 16,
+      "importance": 0.3116,
+      "score_basis": {
+        "topic_overlap": 0.248,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2042751042",
+      "doi": "10.1016/s0022-0248(02)02506-x",
+      "title": "InAs/InGaAs/GaAs quantum dot lasers of 1.3μm range with enhanced optical gain",
+      "authors": [
+        "Alexey R. Kovsh",
+        "Nikolay A. Maleev",
+        "A. E. Zhukov",
+        "S. S. Mikhrin",
+        "Alexey P. Vasil’ev",
+        "Elizaveta S. Semenova",
+        "Yu. M. Shernyakov",
+        "Mikhail V. Maximov",
+        "Daniel A. Livshits",
+        "V. M. Ustinov",
+        "N. N. Ledentsov",
+        "D. Bimberg",
+        "Zh. I. Alfërov"
+      ],
+      "year": 2003,
+      "venue": "Journal of Crystal Growth",
+      "venue_abbr": "Journal of Crystal Growth",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum dot lasers",
+        "1.3 μm lasers",
+        "optical gain enhancement",
+        "slope efficiency",
+        "threshold current density",
+        "characteristic temperature",
+        "internal losses",
+        "cavity length dependence",
+        "ground-state lasing",
+        "mirror loss"
+      ],
+      "url": "https://doi.org/10.1016/s0022-0248(02)02506-x",
+      "cited_by_count": 116,
+      "importance": 0.305,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4393174847",
+      "doi": "10.1049/icp.2023.2083",
+      "title": "4×130 Gbit/s PS-PAM-16 transmissions using an integrated SOA-PIN design for intra-DCIs enabled by machine learning",
+      "authors": [
+        "Ahmed Galib Reza",
+        "Lakshmi Narayanan Venkatasubramani",
+        "A. R. Gautam",
+        "Marcos Troncoso Costas",
+        "M. Raytcheva",
+        "Ahmad Atieh",
+        "Liam P. Barry"
+      ],
+      "year": 2023,
+      "venue": "IET conference proceedings.",
+      "venue_abbr": "IET conference proceedings.",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "probabilistic shaping",
+        "integrated optical amplifiers",
+        "neural network equalizer",
+        "bandwidth-limited channels"
+      ],
+      "url": "https://doi.org/10.1049/icp.2023.2083",
+      "cited_by_count": 2,
+      "importance": 0.305,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3182294715",
+      "doi": "10.1109/access.2021.3096519",
+      "title": "Monolithic Integrated Semiconductor Optical Amplifier With Broad Spectrum, High Power, and Small Linewidth Expansion",
+      "authors": [
+        "Xin Li",
+        "Lei Liang",
+        "Li Jun Wang",
+        "Li Qin",
+        "Yongyi Chen",
+        "Yu Bing Wang",
+        "Yue Song",
+        "Yu Xin Lei",
+        "Peng Jia",
+        "Yu Zeng",
+        "Chuan Tao Zheng",
+        "Huan Zhao"
+      ],
+      "year": 2021,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "monolithic integration",
+        "gain-bandwidth product",
+        "output power",
+        "i-line lithography"
+      ],
+      "url": "https://doi.org/10.1109/access.2021.3096519",
+      "cited_by_count": 16,
+      "importance": 0.2888,
+      "score_basis": {
+        "topic_overlap": 0.153,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2888995155",
+      "doi": "10.1109/jproc.2018.2858542",
+      "title": "Heterogeneous Integration on Silicon Photonics",
+      "authors": [
+        "Owen Marshall",
+        "Mark Hsu",
+        "Zhechao Wang",
+        "Bernardette Kunert",
+        "Christian G. Koos",
+        "Dries Van Thourhout"
+      ],
+      "year": 2018,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "heterogeneous integration",
+        "silicon photonics",
+        "silicon waveguides",
+        "ferroelectric materials",
+        "lead zirconate titanate",
+        "barium titanate",
+        "electro-optic polymers",
+        "graphene",
+        "two-dimensional materials",
+        "III-V semiconductors",
+        "epitaxial integration",
+        "light emission"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2018.2858542",
+      "cited_by_count": 47,
+      "importance": 0.2725,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3120739463",
+      "doi": "10.1364/oe.413434",
+      "title": "InP high power monolithically integrated widely tunable laser and SOA array for hybrid integration",
+      "authors": [
+        "Keith A. McKinzie",
+        "Cong Wang",
+        "Abdullah Al Noman",
+        "David L. Mathine",
+        "Kyunghun Han",
+        "Daniel E. Leaird",
+        "Gloria E. Hoefler",
+        "Vikrant Lal",
+        "Fred Kish",
+        "Minghao Qi",
+        "Andrew M. Weiner"
+      ],
+      "year": 2021,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "InP photonic integrated circuits",
+        "widely tunable lasers",
+        "coherent beam combining",
+        "single-mode waveguides",
+        "hybrid integration",
+        "silicon nitride microring resonator",
+        "narrow-linewidth laser",
+        "high average power",
+        "C-band",
+        "nonlinear integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/oe.413434",
+      "cited_by_count": 19,
+      "importance": 0.2644,
+      "score_basis": {
+        "topic_overlap": 0.143,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2054370765",
+      "doi": "10.1364/ao.53.000694",
+      "title": "Mode-hopping suppression of external cavity diode laser by mode matching",
+      "authors": [
+        "Hai Gong",
+        "Zhigang Liu",
+        "Yangli Zhou",
+        "Weibo Zhang",
+        "Tao Lv"
+      ],
+      "year": 2014,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mode hopping suppression",
+        "external cavity diode laser",
+        "mode matching",
+        "wavelength stability",
+        "laser tuning"
+      ],
+      "url": "https://doi.org/10.1364/ao.53.000694",
+      "cited_by_count": 28,
+      "importance": 0.2622,
+      "score_basis": {
+        "topic_overlap": 0.138,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2141431241",
+      "doi": "10.1049/el:19900754",
+      "title": "Monolithic integration of 1.5 μm optical preamplifier and PIN photodetector with a gain of 20 dB and a bandwidth of 35 GHz",
+      "authors": [
+        "David Wake",
+        "S.N. Judge",
+        "T.P. Spooner",
+        "Michael J. Harlow",
+        "W.J. Duncan",
+        "Ian D. Henning",
+        "Mike J. O’Mahony"
+      ],
+      "year": 1990,
+      "venue": "Electronics Letters",
+      "venue_abbr": "Electronics Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical preamplifier",
+        "PIN photodiode",
+        "monolithic integration",
+        "semiconductor lasers",
+        "gain",
+        "bandwidth",
+        "1550 nm"
+      ],
+      "url": "https://doi.org/10.1049/el:19900754",
+      "cited_by_count": 31,
+      "importance": 0.2619,
+      "score_basis": {
+        "topic_overlap": 0.138,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1993983180",
+      "doi": "10.1364/oe.22.005651",
+      "title": "Linewidth enhancement factor in semiconductor lasers subject to various external optical feedback conditions",
+      "authors": [
+        "Chao-Fu Chuang",
+        "Yihuan Liao",
+        "Chih‐Hao Lin",
+        "Siao-Yu Chen",
+        "Frédéric Grillot",
+        "Fan-Yi Lin"
+      ],
+      "year": 2014,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "linewidth enhancement factor",
+        "semiconductor lasers",
+        "optical feedback",
+        "external cavity length",
+        "feedback phase",
+        "Hopf bifurcation",
+        "optical injection",
+        "feedback strength"
+      ],
+      "url": "https://doi.org/10.1364/oe.22.005651",
+      "cited_by_count": 25,
+      "importance": 0.2606,
+      "score_basis": {
+        "topic_overlap": 0.135,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408602313",
+      "doi": "10.1117/12.3043942",
+      "title": "The impact of semiconductor laser reliability on silicon-photonic-based systems and paths for future improvement",
+      "authors": [
+        "Robert W. Herrick"
+      ],
+      "year": 2025,
+      "venue": "Smart Photonic and Optoelectronic Integrated Circuits",
+      "venue_abbr": "Smart Photonic and Optoelectronic Integrated Circuits",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "field failures",
+        "reliability qualification",
+        "device screening",
+        "reliability standards"
+      ],
+      "url": "https://doi.org/10.1117/12.3043942",
+      "cited_by_count": 2,
+      "importance": 0.2606,
+      "score_basis": {
+        "topic_overlap": 0.135,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4282601810",
+      "doi": "10.1364/oe.461866",
+      "title": "Elimination of catastrophic optical mirror damage in continuous-wave high-power laser diodes using multi-section waveguides",
+      "authors": [
+        "Yuxian Liu",
+        "Kaveh Ebadi",
+        "Ali Kaan Sünnetçioğlu",
+        "Sinan Gündoğdu",
+        "Serdar Şengül",
+        "Yuliang Zhao",
+        "Yu Lan",
+        "Yongming Zhao",
+        "Guowen Yang",
+        "Abdullah Demir"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "catastrophic optical mirror damage",
+        "high-power laser diodes",
+        "continuous-wave operation",
+        "thermal management",
+        "laser diode reliability",
+        "semiconductor lasers"
+      ],
+      "url": "https://doi.org/10.1364/oe.461866",
+      "cited_by_count": 20,
+      "importance": 0.26,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4399664544",
+      "doi": "10.1364/optica.523421",
+      "title": "High-speed high-power free-space optical communication via directly modulated watt-class photonic-crystal surface-emitting lasers",
+      "authors": [
+        "Ryohei Morita",
+        "Shota Ishimura",
+        "Takuya Inoue",
+        "Kosuke Nishimura",
+        "Hidenori Takahashi",
+        "Takehiro Tsuritani",
+        "Menaka DE ZOYSA",
+        "Kenji Ishizaki",
+        "Masatoshi Suzuki",
+        "Susumu Noda"
+      ],
+      "year": 2024,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "photonic-crystal surface-emitting lasers",
+        "free-space optical communication",
+        "direct modulation",
+        "high-power lasers",
+        "high-speed optical transmitter",
+        "frequency response",
+        "continuous-wave operation",
+        "quadrature amplitude modulation",
+        "long-haul optical transmission"
+      ],
+      "url": "https://doi.org/10.1364/optica.523421",
+      "cited_by_count": 36,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2050731785",
+      "to": "W2065246571",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2050731785"
+        }
+      ]
+    },
+    {
+      "from": "W2065246571",
+      "to": "W2093436992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2065246571"
+        }
+      ]
+    },
+    {
+      "from": "W2093436992",
+      "to": "W2320701066",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2093436992"
+        }
+      ]
+    },
+    {
+      "from": "W2149121883",
+      "to": "W2065246571",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2149121883"
+        }
+      ]
+    },
+    {
+      "from": "W2153090594",
+      "to": "W2065246571",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2153090594"
+        }
+      ]
+    },
+    {
+      "from": "W2503164808",
+      "to": "W2093436992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2503164808"
+        }
+      ]
+    },
+    {
+      "from": "W2889476621",
+      "to": "W2503164808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2889476621"
+        }
+      ]
+    },
+    {
+      "from": "W2889476621",
+      "to": "W2888995155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2889476621"
+        }
+      ]
+    },
+    {
+      "from": "W3005347399",
+      "to": "W2065246571",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3005347399"
+        }
+      ]
+    },
+    {
+      "from": "W3047192726",
+      "to": "W2811491877",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047192726"
+        }
+      ]
+    },
+    {
+      "from": "W4226193631",
+      "to": "W2811491877",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4226193631"
+        }
+      ]
+    },
+    {
+      "from": "W4226193631",
+      "to": "W3047192726",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4226193631"
+        }
+      ]
+    },
+    {
+      "from": "W4281752781",
+      "to": "W2065246571",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281752781"
+        }
+      ]
+    },
+    {
+      "from": "W4281752781",
+      "to": "W2093436992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281752781"
+        }
+      ]
+    },
+    {
+      "from": "W4281752781",
+      "to": "W2148790807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281752781"
+        }
+      ]
+    },
+    {
+      "from": "W4377232683",
+      "to": "W2811491877",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377232683"
+        }
+      ]
+    },
+    {
+      "from": "W4377232683",
+      "to": "W4281752781",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377232683"
+        }
+      ]
+    },
+    {
+      "from": "W4400908552",
+      "to": "W4382726075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400908552"
+        }
+      ]
+    },
+    {
+      "from": "W4403182441",
+      "to": "W4281752781",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403182441"
+        }
+      ]
+    },
+    {
+      "from": "W4403182441",
+      "to": "W4377232683",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403182441"
+        }
+      ]
+    },
+    {
+      "from": "W4404627770",
+      "to": "W2811491877",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404627770"
+        }
+      ]
+    },
+    {
+      "from": "W4404627770",
+      "to": "W4226193631",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404627770"
+        }
+      ]
+    },
+    {
+      "from": "W4404710721",
+      "to": "W3182294715",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404710721"
+        }
+      ]
+    },
+    {
+      "from": "W4404710721",
+      "to": "W4391020596",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404710721"
+        }
+      ]
+    },
+    {
+      "from": "W4404847721",
+      "to": "W2503164808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404847721"
+        }
+      ]
+    },
+    {
+      "from": "W4404847721",
+      "to": "W2889476621",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404847721"
+        }
+      ]
+    },
+    {
+      "from": "W4404847721",
+      "to": "W4281752781",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404847721"
+        }
+      ]
+    },
+    {
+      "from": "W4404847721",
+      "to": "W4403182441",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404847721"
+        }
+      ]
+    },
+    {
+      "from": "W4410226848",
+      "to": "W4382726075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410226848"
+        }
+      ]
+    },
+    {
+      "from": "W4410226848",
+      "to": "W4400908552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410226848"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W1993983180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2019785575",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2028310162",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2042751042",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2050731785",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2054370765",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2065246571",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2093436992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2141431241",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2148790807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2149121883",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2153090594",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2320701066",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2503164808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2811491877",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2888995155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W2889476621",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W3005347399",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W3047192726",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W3120739463",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W3182294715",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4226193631",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4281752781",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4282601810",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4292973630",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4377232683",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4382726075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4391020596",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4393174847",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4399664544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4400908552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4403182441",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4404627770",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4404710721",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4404847721",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4406439902",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4408602313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4408705910",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4410226848",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    },
+    {
+      "from": "W7205709573",
+      "to": "W4414341878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7205709573"
+        }
+      ]
+    }
+  ]
 }

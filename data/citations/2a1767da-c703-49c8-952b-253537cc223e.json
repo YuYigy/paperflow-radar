@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "2a1767da-c703-49c8-952b-253537cc223e",
-  "root": "doi:10.1364/ol.611276",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7203906115",
+  "status": "ok",
+  "checked_at": "2026-10-29T00:50:09.941816+00:00",
+  "coverage": {
+    "references_found": 22,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 22,
+    "displayed": 22
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ol.611276",
+      "id": "W7203906115",
       "doi": "10.1364/ol.611276",
       "title": "Broadband InP-based 2-μm semiconductor optical amplifier enabling hybrid integrated external-cavity lasers",
       "authors": [
@@ -17,24 +27,1472 @@
         "Zehang Xu",
         "Jincheng Wei",
         "Yu Qiao",
-        "Yanfang Wang",
+        "YANFANG WANG",
         "Ruijun Wang",
         "Siyuan Yu"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Letters",
       "venue_abbr": "OL",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "semiconductor optical amplifier",
+        "indium phosphide",
+        "2 μm wavelength",
+        "broadband gain",
+        "external cavity laser",
+        "hybrid integration",
+        "silicon nitride photonic integrated circuits",
+        "side-mode suppression ratio",
+        "gas sensing",
+        "LiDAR"
+      ],
       "url": "https://doi.org/10.1364/ol.611276",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/2a1767da-c703-49c8-952b-253537cc223e.html",
       "summary": "摘要报告：面向2 µm波段的气体传感、光通信与LiDAR需求，演示宽带InP基SOA作为2 µm光子系统的增益平台：小信号增益超20 dB、最大输出功率13 dBm、3 dB增益带宽超100 nm。以反射式SOA与低损耗氮化硅PIC耦合构建混合集成外腔激光器：单模波长覆盖82 nm、片上输出5.0 mW、边模抑制比45 dB。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4412477210",
+      "doi": "10.1364/prj.568579",
+      "title": "Ultra-broadband tunable GaSb-silicon hybrid laser for gas spectroscopy",
+      "authors": [
+        "Jincheng Wei",
+        "Songjian Lin",
+        "Zhengqi Geng",
+        "Haohai Yu",
+        "Yihang Chen",
+        "Chengao Yang",
+        "Zhichuan Niu",
+        "Ying Yu",
+        "Ruijun Wang",
+        "Siyuan Yu"
+      ],
+      "year": 2025,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "tunable lasers",
+        "GaSb",
+        "silicon photonics",
+        "hybrid laser",
+        "mid-infrared",
+        "reflective semiconductor optical amplifier",
+        "microring resonators",
+        "broadband optical filters",
+        "free spectral range",
+        "mode-hop-free tuning",
+        "side-mode suppression ratio",
+        "tunable diode laser absorption spectroscopy"
+      ],
+      "url": "https://doi.org/10.1364/prj.568579",
+      "cited_by_count": 6,
+      "importance": 0.633,
+      "score_basis": {
+        "topic_overlap": 0.407,
+        "shared_references": 10,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403304309",
+      "doi": "10.1063/5.0233289",
+      "title": "GaSb-Si3N4 hybrid lasers with precise wavelength control and narrow spectral linewidth based on low-kappa Bragg gratings",
+      "authors": [
+        "Chunfan Zhu",
+        "Jincheng Wei",
+        "Zhengqi Geng",
+        "Yihang Chen",
+        "Chengao Yang",
+        "Zhichuan Niu",
+        "Ruijun Wang",
+        "Siyuan Yu"
+      ],
+      "year": 2024,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "wavelength control",
+        "narrow linewidth",
+        "single-mode operation",
+        "external cavity laser",
+        "side-mode suppression ratio",
+        "photon lifetime",
+        "hybrid integration",
+        "mid-infrared lasers"
+      ],
+      "url": "https://doi.org/10.1063/5.0233289",
+      "cited_by_count": 9,
+      "importance": 0.6281,
+      "score_basis": {
+        "topic_overlap": 0.396,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2560612758",
+      "doi": "10.1364/oe.24.028977",
+      "title": "Compact GaSb/silicon-on-insulator 20x μm widely tunable external cavity lasers",
+      "authors": [
+        "Ruijun Wang",
+        "Aditya Malik",
+        "Ieva Šimonytė",
+        "Augustinas Vizbaras",
+        "Kristijonas Vizbaras",
+        "Günther Roelkens"
+      ],
+      "year": 2016,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "external cavity laser",
+        "microresonators",
+        "widely tunable lasers",
+        "coupling gap",
+        "side-mode suppression ratio",
+        "semiconductor microresonators"
+      ],
+      "url": "https://doi.org/10.1364/oe.24.028977",
+      "cited_by_count": 63,
+      "importance": 0.5363,
+      "score_basis": {
+        "topic_overlap": 0.414,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3037829209",
+      "doi": "10.1364/oe.398906",
+      "title": "Hybrid integrated InP-Si3N4 diode laser with a 40-Hz intrinsic linewidth",
+      "authors": [
+        "Youwen Fan",
+        "Albert van Rees",
+        "Petrus J.M. van der Slot",
+        "Jesse Mak",
+        "Ruud M. Oldenbeuving",
+        "Marcel Hoekman",
+        "Dimitri Geskus",
+        "Chris G.  H. Roeloffzen",
+        "Klaus J. Boller"
+      ],
+      "year": 2020,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "diode laser",
+        "linewidth narrowing",
+        "single-mode operation",
+        "tunable lasers",
+        "1550 nm",
+        "side-mode suppression",
+        "microwave photonics",
+        "photonic circuits"
+      ],
+      "url": "https://doi.org/10.1364/oe.398906",
+      "cited_by_count": 176,
+      "importance": 0.4945,
+      "score_basis": {
+        "topic_overlap": 0.521,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4318774464",
+      "doi": "10.1364/ol.480867",
+      "title": "Widely tunable 2 µm hybrid laser using GaSb semiconductor optical amplifiers and a Si 3 N 4 photonics integrated reflector",
+      "authors": [
+        "Nouman Zia",
+        "Samu‐Pekka Ojanen",
+        "Jukka Viheriälä",
+        "Eero Koivusalo",
+        "Joonas Hilska",
+        "Heidi Tuorila",
+        "Mircea D. Guina"
+      ],
+      "year": 2023,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "tunable lasers",
+        "2 μm laser",
+        "hybrid laser",
+        "photonic integrated circuits",
+        "silicon nitride waveguides",
+        "single-mode waveguides",
+        "bending loss",
+        "Y-junction",
+        "insertion loss",
+        "mid-infrared detection"
+      ],
+      "url": "https://doi.org/10.1364/ol.480867",
+      "cited_by_count": 15,
+      "importance": 0.4846,
+      "score_basis": {
+        "topic_overlap": 0.388,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4280615638",
+      "doi": "10.1063/5.0088119",
+      "title": "Hybrid integrated external cavity laser with a 172-nm tuning range",
+      "authors": [
+        "Yuyao Guo",
+        "Xinhang Li",
+        "Minhui Jin",
+        "Liangjun Lu",
+        "Jingya Xie",
+        "Jianping Chen",
+        "Linjie Zhou"
+      ],
+      "year": 2022,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "external cavity laser",
+        "chip-scale lasers",
+        "wavelength tuning range",
+        "side-mode suppression ratio",
+        "Sagnac loop reflector",
+        "reflective semiconductor optical amplifier",
+        "III-V semiconductors",
+        "laser linewidth",
+        "hybrid integration",
+        "free spectral range"
+      ],
+      "url": "https://doi.org/10.1063/5.0088119",
+      "cited_by_count": 94,
+      "importance": 0.4749,
+      "score_basis": {
+        "topic_overlap": 0.455,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3207308221",
+      "doi": "10.1109/jphot.2021.3119760",
+      "title": "Compact, Hybrid III-V/Silicon Vernier Laser Diode Operating From 1955–1992 nm",
+      "authors": [
+        "Jia Xu Brian Sia",
+        "Xiang Li",
+        "Wanjun Wang",
+        "Zhongliang Qiao",
+        "Xin Guo",
+        "Jiawei Wang",
+        "Callum G. Littlejohns",
+        "Chongyang Liu",
+        "Graham T. Reed",
+        "Kian Siong Ang",
+        "Hong Wang"
+      ],
+      "year": 2021,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "tunable laser diode",
+        "silicon photonics",
+        "water absorption",
+        "continuous-wave operation",
+        "room-temperature operation",
+        "heterogeneous integration"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2021.3119760",
+      "cited_by_count": 8,
+      "importance": 0.4316,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2556106742",
+      "doi": "10.1364/optica.3.001412",
+      "title": "Monolithically integrated widely tunable laser source operating at 2 μm",
+      "authors": [
+        "Sylwester Latkowski",
+        "Andreas Hänsel",
+        "Petrus J. van Veldhoven",
+        "Domenico D’Agostino",
+        "Hadi Rabbani-Haghighi",
+        "Boudewijn Docter",
+        "Nandini Bhattacharya",
+        "Peter J. A. Thijs",
+        "Huub P. M. M. Ambrosius",
+        "Meint K. Smit",
+        "K.A. Williams",
+        "Erwin A. J. M. Bente"
+      ],
+      "year": 2016,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "2 μm laser",
+        "monolithic integration",
+        "indium phosphide",
+        "photonic integrated circuits",
+        "Mach-Zehnder interferometer",
+        "electro-optic modulator",
+        "single-mode operation",
+        "high-resolution spectroscopy"
+      ],
+      "url": "https://doi.org/10.1364/optica.3.001412",
+      "cited_by_count": 39,
+      "importance": 0.4282,
+      "score_basis": {
+        "topic_overlap": 0.352,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4378802094",
+      "doi": "10.1364/prj.484520",
+      "title": "High-power distributed feedback lasers based on InP corrugated sidewalls at λ∼2 μm",
+      "authors": [
+        "Yongqiang Sun",
+        "Yunfei Xu",
+        "Jinchuan Zhang",
+        "Fengmin Chen",
+        "Junqi Liu",
+        "Shuman Liu",
+        "Quanyong Lu",
+        "Ning Zhuo",
+        "Lijun Wang",
+        "Fengqi Liu",
+        "Shenqiang Zhai"
+      ],
+      "year": 2023,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed feedback lasers",
+        "indium phosphide",
+        "2 μm wavelength",
+        "single-mode operation",
+        "surface-emitting lasers",
+        "far-field radiation pattern",
+        "side-mode suppression ratio",
+        "temperature tuning",
+        "ridge waveguide"
+      ],
+      "url": "https://doi.org/10.1364/prj.484520",
+      "cited_by_count": 6,
+      "importance": 0.4135,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396953566",
+      "doi": "10.1063/5.0200861",
+      "title": "Scaling photonic integrated circuits with InP technology: A perspective",
+      "authors": [
+        "Yi Wang",
+        "Yuqing Jiao",
+        "Kevin A. Williams"
+      ],
+      "year": 2024,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "photonic integrated circuits",
+        "indium phosphide",
+        "active-passive integration",
+        "large-scale integration",
+        "component miniaturization",
+        "wafer size scaling",
+        "high-speed modulators",
+        "lasers",
+        "optical amplifiers"
+      ],
+      "url": "https://doi.org/10.1063/5.0200861",
+      "cited_by_count": 54,
+      "importance": 0.4132,
+      "score_basis": {
+        "topic_overlap": 0.474,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411055201",
+      "doi": "10.1109/lpt.2025.3576783",
+      "title": "2-μm-Band Monolithic Tunable Laser With Over-100-nm Tuning Range for CO2 TDLAS",
+      "authors": [
+        "Yuta Ueda",
+        "Takahiko Shindo",
+        "Wataru Kobayashi",
+        "Fumito Nakajima"
+      ],
+      "year": 2025,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "tunable diode laser",
+        "monolithic integration",
+        "tunable filters",
+        "carbon dioxide detection",
+        "tunable diode laser absorption spectroscopy",
+        "wide tuning range",
+        "greenhouse gas detection",
+        "semiconductor lasers",
+        "optical gain"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2025.3576783",
+      "cited_by_count": 3,
+      "importance": 0.3915,
+      "score_basis": {
+        "topic_overlap": 0.203,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2530975060",
+      "doi": "10.1088/0268-1242/31/11/113005",
+      "title": "Novel InP- and GaSb-based light sources for the near to far infrared",
+      "authors": [
+        "Stephan Sprengel",
+        "Frederic Demmerle",
+        "Amann Markus-Christian"
+      ],
+      "year": 2016,
+      "venue": "Semiconductor Science and Technology",
+      "venue_abbr": "Semiconductor Science and Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mid-infrared lasers",
+        "near-infrared laser",
+        "far-infrared laser",
+        "terahertz sources",
+        "quantum cascade lasers",
+        "interband cascade lasers",
+        "type-II quantum wells",
+        "edge-emitting lasers",
+        "vertical-cavity surface-emitting lasers",
+        "nonlinear frequency conversion",
+        "quantum well lasers"
+      ],
+      "url": "https://doi.org/10.1088/0268-1242/31/11/113005",
+      "cited_by_count": 36,
+      "importance": 0.3664,
+      "score_basis": {
+        "topic_overlap": 0.17,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1975292827",
+      "doi": "10.1109/jstqe.2013.2247572",
+      "title": "InP-Based Type-II Quantum-Well Lasers and LEDs",
+      "authors": [
+        "Stephan Sprengel",
+        "Christian Grasse",
+        "Peter R. Wiecha",
+        "Alexander Andrejew",
+        "Tobias Gruendl",
+        "Gerhard Boehm",
+        "Ralf Meyer",
+        "Markus Christian Amann"
+      ],
+      "year": 2013,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "type-II quantum wells",
+        "InP-based lasers",
+        "mid-infrared lasers",
+        "electrically pumped lasers",
+        "resonant-cavity light-emitting diodes",
+        "continuous-wave operation",
+        "photoluminescence",
+        "temperature stability"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2013.2247572",
+      "cited_by_count": 42,
+      "importance": 0.3641,
+      "score_basis": {
+        "topic_overlap": 0.276,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2897129714",
+      "doi": "10.1063/1.5052056",
+      "title": "High performance continuous-wave InP-based 2.1 μm superluminescent diode with InGaAsSb quantum well and cavity structure suppression",
+      "authors": [
+        "Dongbo Wang",
+        "Jinchuan Zhang",
+        "Chuncai Hou",
+        "Yue Min Zhao",
+        "Fengmin Cheng",
+        "Xuefeng Jia",
+        "Shenqiang Zhai",
+        "Ning Zhuo",
+        "Junqi Liu",
+        "Fengqi Liu",
+        "Zhanguo Wang"
+      ],
+      "year": 2018,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "superluminescent diode",
+        "indium phosphide",
+        "mid-infrared sources",
+        "continuous-wave operation",
+        "amplified spontaneous emission",
+        "reflection suppression",
+        "broadband emission",
+        "waveguide design optimization",
+        "buried heterostructure",
+        "far-field emission pattern"
+      ],
+      "url": "https://doi.org/10.1063/1.5052056",
+      "cited_by_count": 14,
+      "importance": 0.3581,
+      "score_basis": {
+        "topic_overlap": 0.307,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2766026081",
+      "doi": "10.1364/ol.42.004541",
+      "title": "Compact narrow-linewidth integrated laser based on a low-loss silicon nitride ring resonator",
+      "authors": [
+        "Brian Stern",
+        "Xingchen Ji",
+        "Avik Dutt",
+        "Michal F. Lipson"
+      ],
+      "year": 2017,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "integrated lasers",
+        "silicon nitride ring resonator",
+        "narrow-linewidth laser",
+        "microring resonators",
+        "low-loss waveguides",
+        "high-Q resonators",
+        "propagation delay",
+        "1550 nm"
+      ],
+      "url": "https://doi.org/10.1364/ol.42.004541",
+      "cited_by_count": 161,
+      "importance": 0.3407,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2108944159",
+      "doi": "10.1109/jlt.2005.859839",
+      "title": "Tunable lasers in optical networks",
+      "authors": [
+        "Jens Buus",
+        "Edmond J. Murphy"
+      ],
+      "year": 2006,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "tunable lasers",
+        "optical networks",
+        "wavelength division multiplexing",
+        "network operators",
+        "technology trends"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2005.859839",
+      "cited_by_count": 215,
+      "importance": 0.2692,
+      "score_basis": {
+        "topic_overlap": 0.154,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4323666124",
+      "doi": "10.1364/oe.485608",
+      "title": "Evaluation of a coherent 2-µm differential absorption lidar for water vapor and radial wind velocity measurements",
+      "authors": [
+        "Hironori Iwai",
+        "Makoto Aoki"
+      ],
+      "year": 2023,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "differential absorption lidar",
+        "water vapor measurement",
+        "wavelength locking",
+        "radiosonde comparison",
+        "atmospheric remote sensing"
+      ],
+      "url": "https://doi.org/10.1364/oe.485608",
+      "cited_by_count": 37,
+      "importance": 0.2604,
+      "score_basis": {
+        "topic_overlap": 0.045,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2901359793",
+      "doi": "10.1080/05704928.2018.1474766",
+      "title": "Review on multi gas detector using infrared spectral absorption technology",
+      "authors": [
+        "Chen Chen",
+        "Qiang Ren",
+        "Yanzhang Wang"
+      ],
+      "year": 2018,
+      "venue": "Applied Spectroscopy Reviews",
+      "venue_abbr": "Applied Spectroscopy Reviews",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multi-gas detection",
+        "infrared absorption spectroscopy",
+        "quantum cascade lasers",
+        "infrared detectors",
+        "optical multiplexing",
+        "wavelength modulation spectroscopy",
+        "frequency modulation spectroscopy",
+        "cavity ring-down spectroscopy",
+        "photoacoustic spectroscopy",
+        "gas sensing"
+      ],
+      "url": "https://doi.org/10.1080/05704928.2018.1474766",
+      "cited_by_count": 64,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.072,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4200599926",
+      "doi": "10.1016/j.jqsrt.2021.107949",
+      "title": "The HITRAN2020 molecular spectroscopic database",
+      "authors": [
+        "Iouli E. Gordon",
+        "Laurence S. Rothman",
+        "Robert J. Hargreaves",
+        "Robab Hashemi",
+        "Ekaterina V. Karlovets",
+        "Frances Skinner",
+        "Eamon K. Conway",
+        "Christian Hill",
+        "Roman V. Kochanov",
+        "Yan Tan",
+        "Piotr Wcisło",
+        "Artem A. Finenko",
+        "K. Nelson",
+        "P. F. Bernath",
+        "Manfred Birk",
+        "Vincent Boudon",
+        "A. Campargue",
+        "K. Chance",
+        "Athena Coustenis",
+        "Brian J. Drouin",
+        "J.‐M. Flaud",
+        "Robert R. Gamache",
+        "Joseph T. Hodges",
+        "David Jacquemart",
+        "E. J. Mlawer",
+        "A.V. Nikitin",
+        "V. I. Perevalov",
+        "M. Rotger",
+        "Jonathan Tennyson",
+        "Geoffrey C. Toon",
+        "H. Tran",
+        "Vladimir G. Tyuterev",
+        "Erin M. Adkins",
+        "Ashley Baker",
+        "A. Barbe",
+        "Elisabetta Canè",
+        "Attila Géza Császár",
+        "Anna S. Dudaryonok",
+        "Oleg V. Egorov",
+        "Adam J. Fleisher",
+        "Hélène Fleurbaey",
+        "Aleksandra Foltynowicz",
+        "Tibor Furtenbacher",
+        "Jeremy J. Harrison",
+        "Jean‐Michel Hartmann",
+        "V.–M. Horneman",
+        "Xinchuan Huang",
+        "Tijs Karman",
+        "Joshua Karns",
+        "S. Kassi",
+        "Isabelle Kleiner",
+        "Vincent Kofman",
+        "Fridolin Kwabia Tchana",
+        "N.N. Lavrentieva",
+        "T.J. Lee",
+        "David A. Long",
+        "Anastasiya A. Lukashevskaya",
+        "Oleg M. Lyulin",
+        "Vladimir Yu. Makhnev",
+        "Wyatt Matt",
+        "S. T. Massie",
+        "Mattia Melosso",
+        "С.Н. Михайленко",
+        "D. Mondelain",
+        "Holger S P Müller",
+        "O. V. Naumenko",
+        "Agnès M. Perrin",
+        "Oleg L. Polyansky A B",
+        "Emna Raddaoui",
+        "Paul L. Raston",
+        "Zachary Reed",
+        "M. Rey",
+        "C. Richard",
+        "Roland Tóbiás",
+        "Ibrahim M. Sadiek",
+        "David W. Schwenke",
+        "E. Starikova",
+        "Keeyoon Sung",
+        "Filippo Tamassia",
+        "Sergei A. Tashkun",
+        "J. Vander Auwera",
+        "Irina A. Vasilenko",
+        "Andrei A. Vigasin",
+        "G. L. Villanueva",
+        "Bastien Vispoel",
+        "Georg Wagner",
+        "Andrey Yachmenev",
+        "Sergei  N. Yurchenko"
+      ],
+      "year": 2021,
+      "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+      "venue_abbr": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "infrared absorption cross sections",
+        "collision-induced absorption",
+        "partition function",
+        "radiative transfer",
+        "atmospheric absorption",
+        "isotopologues",
+        "HITRAN database"
+      ],
+      "url": "https://doi.org/10.1016/j.jqsrt.2021.107949",
+      "cited_by_count": 2594,
+      "importance": 0.24,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2001009621",
+      "doi": "10.1364/oe.21.028559",
+      "title": "Demonstration of amplified data transmission at 2 µm in a low-loss wide bandwidth hollow core photonic bandgap fiber",
+      "authors": [
+        "Marco N. Petrovich",
+        "Francesco Poletti",
+        "John P. F. Wooler",
+        "Alexander M. Heidt",
+        "Naveen Krishna Baddela",
+        "Zhentao Li",
+        "David R. Gray",
+        "Radan Slavı́k",
+        "Francesca R. Parmigiani",
+        "Natalie V. Wheeler",
+        "J. R. Hayes",
+        "E. Numkam",
+        "Lars Grüner-Nielsen",
+        "Bera Pálsdóttir",
+        "Richard Phelan",
+        "Brian Kelly",
+        "John O’Carroll",
+        "Martin Becker",
+        "Naoise Mac Suibhne",
+        "Jian Zhao",
+        "Fatima C. Garcia Gunning",
+        "Andrew D. Ellis",
+        "Periklis Petropoulos",
+        "S. U. Alam",
+        "David John Richardson"
+      ],
+      "year": 2013,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "hollow-core photonic bandgap fiber",
+        "2 μm wavelength",
+        "optical amplification",
+        "thulium-doped fiber amplifier",
+        "low-loss fiber",
+        "time-of-flight measurement"
+      ],
+      "url": "https://doi.org/10.1364/oe.21.028559",
+      "cited_by_count": 134,
+      "importance": 0.2395,
+      "score_basis": {
+        "topic_overlap": 0.043,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2026279702",
+      "doi": "10.1177/193229680900300202",
+      "title": "Near-Infrared Microspectroscopic Analysis of Rat Skin Tissue Heterogeneity in Relation to Noninvasive Glucose Sensing",
+      "authors": [
+        "Natalia V. Alexeeva",
+        "Mark A. Arnold"
+      ],
+      "year": 2009,
+      "venue": "Journal of Diabetes Science and Technology",
+      "venue_abbr": "Journal of Diabetes Science and Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "non-invasive glucose monitoring",
+        "rat skin",
+        "collagen",
+        "keratin",
+        "skin fat",
+        "moisture content",
+        "optical fiber probe",
+        "diabetes management",
+        "spectral mapping"
+      ],
+      "url": "https://doi.org/10.1177/193229680900300202",
+      "cited_by_count": 31,
+      "importance": 0.2256,
+      "score_basis": {
+        "topic_overlap": 0.013,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2004877012",
+      "doi": "10.1515/revce.2007.23.2.65",
+      "title": "TUNABLE DIODE LASER ABSORPTION SPECTROSCOPY (TDLAS) IN THE PROCESS INDUSTRIES – A REVIEW",
+      "authors": [
+        "Maximilian K. Lackner"
+      ],
+      "year": 2007,
+      "venue": "Reviews in Chemical Engineering",
+      "venue_abbr": "Reviews in Chemical Engineering",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "tunable diode laser absorption spectroscopy",
+        "process industry",
+        "gas analysis",
+        "industrial process monitoring",
+        "non-invasive measurement"
+      ],
+      "url": "https://doi.org/10.1515/revce.2007.23.2.65",
+      "cited_by_count": 351,
+      "importance": 0.2139,
+      "score_basis": {
+        "topic_overlap": 0.031,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2530975060",
+      "to": "W1975292827",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2530975060"
+        }
+      ]
+    },
+    {
+      "from": "W2556106742",
+      "to": "W1975292827",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2556106742"
+        }
+      ]
+    },
+    {
+      "from": "W2560612758",
+      "to": "W2001009621",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2560612758"
+        }
+      ]
+    },
+    {
+      "from": "W3207308221",
+      "to": "W2560612758",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207308221"
+        }
+      ]
+    },
+    {
+      "from": "W3207308221",
+      "to": "W3037829209",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207308221"
+        }
+      ]
+    },
+    {
+      "from": "W4280615638",
+      "to": "W3037829209",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4280615638"
+        }
+      ]
+    },
+    {
+      "from": "W4318774464",
+      "to": "W2560612758",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4318774464"
+        }
+      ]
+    },
+    {
+      "from": "W4378802094",
+      "to": "W2897129714",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4378802094"
+        }
+      ]
+    },
+    {
+      "from": "W4403304309",
+      "to": "W2530975060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403304309"
+        }
+      ]
+    },
+    {
+      "from": "W4403304309",
+      "to": "W2560612758",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403304309"
+        }
+      ]
+    },
+    {
+      "from": "W4403304309",
+      "to": "W4200599926",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403304309"
+        }
+      ]
+    },
+    {
+      "from": "W4403304309",
+      "to": "W4318774464",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403304309"
+        }
+      ]
+    },
+    {
+      "from": "W4403304309",
+      "to": "W4323666124",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403304309"
+        }
+      ]
+    },
+    {
+      "from": "W4411055201",
+      "to": "W2560612758",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411055201"
+        }
+      ]
+    },
+    {
+      "from": "W4411055201",
+      "to": "W4318774464",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411055201"
+        }
+      ]
+    },
+    {
+      "from": "W4412477210",
+      "to": "W2026279702",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412477210"
+        }
+      ]
+    },
+    {
+      "from": "W4412477210",
+      "to": "W2530975060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412477210"
+        }
+      ]
+    },
+    {
+      "from": "W4412477210",
+      "to": "W2556106742",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412477210"
+        }
+      ]
+    },
+    {
+      "from": "W4412477210",
+      "to": "W2560612758",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412477210"
+        }
+      ]
+    },
+    {
+      "from": "W4412477210",
+      "to": "W2901359793",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412477210"
+        }
+      ]
+    },
+    {
+      "from": "W4412477210",
+      "to": "W3037829209",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412477210"
+        }
+      ]
+    },
+    {
+      "from": "W4412477210",
+      "to": "W4200599926",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412477210"
+        }
+      ]
+    },
+    {
+      "from": "W4412477210",
+      "to": "W4280615638",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412477210"
+        }
+      ]
+    },
+    {
+      "from": "W4412477210",
+      "to": "W4318774464",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412477210"
+        }
+      ]
+    },
+    {
+      "from": "W4412477210",
+      "to": "W4323666124",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412477210"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W1975292827",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W2001009621",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W2004877012",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W2026279702",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W2108944159",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W2530975060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W2556106742",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W2560612758",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W2766026081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W2897129714",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W2901359793",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W3037829209",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W3207308221",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W4200599926",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W4280615638",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W4318774464",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W4323666124",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W4378802094",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W4396953566",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W4403304309",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W4411055201",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    },
+    {
+      "from": "W7203906115",
+      "to": "W4412477210",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203906115"
+        }
+      ]
+    }
+  ]
 }

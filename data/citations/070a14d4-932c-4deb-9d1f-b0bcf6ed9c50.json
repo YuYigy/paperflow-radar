@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "070a14d4-932c-4deb-9d1f-b0bcf6ed9c50",
-  "root": "doi:10.1002/lpor.71855",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7211926099",
+  "status": "ok",
+  "checked_at": "2026-10-31T00:49:19.461881+00:00",
+  "coverage": {
+    "references_found": 136,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 100,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1002/lpor.71855",
+      "id": "W7211926099",
       "doi": "10.1002/lpor.71855",
       "title": "Research Progress and Challenges of GaN‐Based Micro‐LEDs in Short‐Reach Optical Interconnects",
       "authors": [
@@ -25,20 +35,4079 @@
         "Bingjun Li",
         "Bin Liu"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Laser & Photonics Reviews",
       "venue_abbr": "LPR",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "short-reach optical links",
+        "modulation bandwidth",
+        "power consumption",
+        "epitaxial structures",
+        "equivalent circuit model",
+        "parallel transmission",
+        "data center interconnects",
+        "high-speed optical transmission"
+      ],
       "url": "https://doi.org/10.1002/lpor.71855",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/070a14d4-932c-4deb-9d1f-b0bcf6ed9c50.html",
       "summary": "摘要报告：AI发展使数据中心互连带宽承压，电互连逼近物理极限，激光光互连成关键。Micro-LED作为新型光源具备微尺寸、高调制带宽、低功耗、热稳定与易阵列集成等优点。该综述系统梳理Micro-LED面向短距光互连的进展：分析通信性能关键因素（重点调制带宽与功耗），总结外延结构、器件结构与等效电路模型的器件级优化策略，讨论Micro-LED通信架构演进（并行传输潜力），并提出Micro-LED不应仅被视为替代光源，而是未来短距光互连的有力候选。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W3199125431",
+      "doi": "10.1002/adpr.202100093",
+      "title": "Improving the Modulation Bandwidth of GaN‐Based Light‐Emitting Diodes for High‐Speed Visible Light Communication: Countermeasures and Challenges",
+      "authors": [
+        "Rongqiao Wan",
+        "Liancheng Wang",
+        "Jinpeng Huang",
+        "Xiaoyan Yi",
+        "Hao‐Chung Kuo",
+        "Jinmin Li"
+      ],
+      "year": 2021,
+      "venue": "Advanced Photonics Research",
+      "venue_abbr": "Advanced Photonics Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "visible light communication",
+        "GaN light-emitting diodes",
+        "modulation bandwidth",
+        "high-speed data transmission",
+        "micro-LEDs",
+        "nanoLEDs",
+        "resonant cavity LEDs",
+        "white LEDs",
+        "carrier lifetime",
+        "energy transfer"
+      ],
+      "url": "https://doi.org/10.1002/adpr.202100093",
+      "cited_by_count": 50,
+      "importance": 0.7281,
+      "score_basis": {
+        "topic_overlap": 0.396,
+        "shared_references": 8,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2440201662",
+      "doi": "10.1109/lpt.2016.2581318",
+      "title": "High Bandwidth GaN-Based Micro-LEDs for Multi-Gb/s Visible Light Communications",
+      "authors": [
+        "R. Ferreira",
+        "Enyuan Xie",
+        "Jonathan J. D. McKendry",
+        "Sujan Rajbhandari",
+        "Hyunchae Chun",
+        "Grahame E. Faulkner",
+        "Scott Watson",
+        "Anthony E. Kelly",
+        "Erdan Gu",
+        "Richard V. Penty",
+        "Ian H. White",
+        "Dominic C. O'Brien",
+        "Martin D. Dawson"
+      ],
+      "year": 2016,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "visible light communication",
+        "modulation bandwidth",
+        "on-off keying",
+        "pulse amplitude modulation",
+        "orthogonal frequency division multiplexing",
+        "free-space optical communication",
+        "high-speed data transmission"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2016.2581318",
+      "cited_by_count": 345,
+      "importance": 0.7208,
+      "score_basis": {
+        "topic_overlap": 0.38,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4281660699",
+      "doi": "10.1364/ol.458495",
+      "title": "High bandwidth series-biased green micro-LED array toward 6 Gbps visible light communication",
+      "authors": [
+        "Runze Lin",
+        "Zuxin Jin",
+        "Pengjiang Qiu",
+        "Yue Liao",
+        "Jason Hoo",
+        "Shiping Guo",
+        "Xugao Cui",
+        "Pengfei Tian"
+      ],
+      "year": 2022,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-LEDs",
+        "visible light communication",
+        "modulation bandwidth",
+        "c-plane GaN",
+        "orthogonal frequency division multiplexing",
+        "high-speed data transmission",
+        "free-space optical communication",
+        "high current density"
+      ],
+      "url": "https://doi.org/10.1364/ol.458495",
+      "cited_by_count": 39,
+      "importance": 0.7148,
+      "score_basis": {
+        "topic_overlap": 0.366,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4225687334",
+      "doi": "10.1109/led.2022.3168314",
+      "title": "C-Plane Blue Micro-LED With 1.53 GHz Bandwidth for High-Speed Visible Light Communication",
+      "authors": [
+        "Feifan Xu",
+        "Zuxin Jin",
+        "Tao Tao",
+        "Pengfei Tian",
+        "Guobin Wang",
+        "Xiaoyan Liu",
+        "Ting Zhi",
+        "Qi-ang Yan",
+        "Danfeng Pan",
+        "Zili Xie",
+        "Ke Xu",
+        "Bin Liu",
+        "Rong Zhang"
+      ],
+      "year": 2022,
+      "venue": "IEEE Electron Device Letters",
+      "venue_abbr": "IEEE Electron Device Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "modulation bandwidth",
+        "visible light communication",
+        "polarization field",
+        "OFDM",
+        "free-space optical communication",
+        "high-speed data transmission"
+      ],
+      "url": "https://doi.org/10.1109/led.2022.3168314",
+      "cited_by_count": 69,
+      "importance": 0.7103,
+      "score_basis": {
+        "topic_overlap": 0.356,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4324125323",
+      "doi": "10.1109/led.2023.3256422",
+      "title": "Bandwidth Analysis of High-Speed InGaN Micro-LEDs by an Equivalent Circuit Model",
+      "authors": [
+        "Zhenhao Li",
+        "Xinran Zhang",
+        "Zhibiao Hao",
+        "Yi Luo",
+        "Changzheng Sun",
+        "Bing Xiong",
+        "Yanjun Han",
+        "Jian Wang",
+        "Hongtao Li",
+        "Lin Gan",
+        "Lai Wang"
+      ],
+      "year": 2023,
+      "venue": "IEEE Electron Device Letters",
+      "venue_abbr": "IEEE Electron Device Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "InGaN micro-LEDs",
+        "modulation bandwidth",
+        "equivalent circuit model",
+        "charge recombination",
+        "RC time constant",
+        "blue and green LEDs",
+        "high-temperature operation"
+      ],
+      "url": "https://doi.org/10.1109/led.2023.3256422",
+      "cited_by_count": 29,
+      "importance": 0.7102,
+      "score_basis": {
+        "topic_overlap": 0.4,
+        "shared_references": 7,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2906620932",
+      "doi": "10.1109/jlt.2018.2889380",
+      "title": "High-Speed Visible Light Communication Based on a III-Nitride Series-Biased Micro-LED Array",
+      "authors": [
+        "Enyuan Xie",
+        "Xiangyu He",
+        "Mohamed Sufyan Islim",
+        "Ardimas Andi Purwita",
+        "Jonathan J. D. McKendry",
+        "Erdan Gu",
+        "Harald Haas",
+        "Martin D. Dawson"
+      ],
+      "year": 2018,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "visible light communication",
+        "micro-LED arrays",
+        "III-nitride LEDs",
+        "optical power enhancement",
+        "OFDM",
+        "pulse amplitude modulation",
+        "on-off keying",
+        "free-space optical communication",
+        "high-speed data transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2018.2889380",
+      "cited_by_count": 76,
+      "importance": 0.7094,
+      "score_basis": {
+        "topic_overlap": 0.354,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3010774156",
+      "doi": "10.1109/lpt.2020.2981827",
+      "title": "Over 10 Gbps VLC for Long-Distance Applications Using a GaN-Based Series-Biased Micro-LED Array",
+      "authors": [
+        "Enyuan Xie",
+        "Rui Bian",
+        "Xiangyu He",
+        "Mohamed Sufyan Islim",
+        "Cheng Chen",
+        "Jonathan J. D. McKendry",
+        "Erdan Gu",
+        "Harald Haas",
+        "Martin D. Dawson"
+      ],
+      "year": 2020,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "visible light communication",
+        "micro-LED arrays",
+        "GaN micro-LEDs",
+        "orthogonal frequency division multiplexing",
+        "long-distance transmission",
+        "high-speed data transmission",
+        "forward error correction"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2020.2981827",
+      "cited_by_count": 95,
+      "importance": 0.6995,
+      "score_basis": {
+        "topic_overlap": 0.332,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3012137182",
+      "doi": "10.1364/ol.391566",
+      "title": "High-speed integrated micro-LED array for visible light communication",
+      "authors": [
+        "Hao-Yu Lan",
+        "I-Chen Tseng",
+        "Yung‐Hsiang Lin",
+        "Gong‐Ru Lin",
+        "Ding‐Wei Huang",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2020,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-LED arrays",
+        "visible light communication",
+        "modulation bandwidth",
+        "parallel configuration",
+        "injection current density",
+        "eye diagram",
+        "high-speed transmitter",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/ol.391566",
+      "cited_by_count": 80,
+      "importance": 0.6989,
+      "score_basis": {
+        "topic_overlap": 0.331,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3177405367",
+      "doi": "10.1364/prj.424934",
+      "title": "Si-substrate LEDs with multiple superlattice interlayers for beyond 24 Gbps visible light communication",
+      "authors": [
+        "Fangchen Hu",
+        "Shouqing Chen",
+        "Guoqiang Li",
+        "Peng Zou",
+        "Junwen Zhang",
+        "Jian Hu",
+        "Jianli Zhang",
+        "Zhixue He",
+        "Shaohua Yu",
+        "Fengyi Jiang",
+        "Nan Chi"
+      ],
+      "year": 2021,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "visible light communication",
+        "InGaN/GaN LEDs",
+        "stress reduction",
+        "wavelength division multiplexing",
+        "high-speed data transmission",
+        "blue LEDs"
+      ],
+      "url": "https://doi.org/10.1364/prj.424934",
+      "cited_by_count": 71,
+      "importance": 0.6978,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2766730184",
+      "doi": "10.1063/1.4993230",
+      "title": "Influence of quantum confined Stark effect and carrier localization effect on modulation bandwidth for GaN-based LEDs",
+      "authors": [
+        "Shi-Chao Zhu",
+        "Shan Lin",
+        "Jing Li",
+        "Zhiguo Yu",
+        "Haicheng Cao",
+        "Chao Yang",
+        "Jinmin Li",
+        "Lixia Zhao"
+      ],
+      "year": 2017,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "quantum-confined Stark effect",
+        "carrier localization",
+        "modulation bandwidth",
+        "GaN light-emitting diodes",
+        "quantum well thickness",
+        "charge recombination",
+        "AC bias",
+        "visible light communication",
+        "high-speed optical modulation"
+      ],
+      "url": "https://doi.org/10.1063/1.4993230",
+      "cited_by_count": 79,
+      "importance": 0.6968,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3094365221",
+      "doi": "10.3390/app10207384",
+      "title": "Micro-LED as a Promising Candidate for High-Speed Visible Light Communication",
+      "authors": [
+        "Konthoujam James Singh",
+        "Yu-Ming Huang",
+        "Tanveer Ahmed",
+        "An-Chen Liu",
+        "Sung‐Wen Huang Chen",
+        "Fang-Jyun Liou",
+        "Tingzhu Wu",
+        "Chien‐Chung Lin",
+        "Chi‐Wai Chow",
+        "Gong‐Ru Lin",
+        "Hao‐Chung Kuo"
+      ],
+      "year": 2020,
+      "venue": "Applied Sciences",
+      "venue_abbr": "Appl. Sci.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "visible light communication",
+        "micro-LEDs",
+        "modulation bandwidth",
+        "LED arrays",
+        "quantum-confined Stark effect",
+        "carrier lifetime",
+        "carrier recombination time",
+        "crystal orientation",
+        "underwater optical communication",
+        "active layer thickness",
+        "doping",
+        "blue filter"
+      ],
+      "url": "https://doi.org/10.3390/app10207384",
+      "cited_by_count": 166,
+      "importance": 0.6908,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 10,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3126978947",
+      "doi": "10.1364/prj.411863",
+      "title": "1.3 GHz E-O bandwidth GaN-based micro-LED for multi-gigabit visible light communication",
+      "authors": [
+        "Lei Wang",
+        "Zixian Wei",
+        "Chien-Ju Chen",
+        "Lai Wang",
+        "H. Y. Fu",
+        "Li Zhang",
+        "Kai-Chia Chen",
+        "Meng‐Chyi Wu",
+        "Yuhan Dong",
+        "Zhibiao Hao",
+        "Yi Luo"
+      ],
+      "year": 2021,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "visible light communication",
+        "micro-LEDs",
+        "GaN",
+        "charge recombination",
+        "on-off keying",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1364/prj.411863",
+      "cited_by_count": 80,
+      "importance": 0.685,
+      "score_basis": {
+        "topic_overlap": 0.3,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3039379506",
+      "doi": "10.1021/acsphotonics.0c00764",
+      "title": "High-Bandwidth Green Semipolar (20–21) InGaN/GaN Micro Light-Emitting Diodes for Visible Light Communication",
+      "authors": [
+        "Sung‐Wen Huang Chen",
+        "Yu-Ming Huang",
+        "Yun-Han Chang",
+        "Yue Lin",
+        "Fang-Jyun Liou",
+        "Yu-Chien Hsu",
+        "Jie Song",
+        "Joowon Choi",
+        "Chi‐Wai Chow",
+        "Chien‐Chung Lin",
+        "Ray‐Hua Horng",
+        "Zhong Chen",
+        "Jung Woo Han",
+        "Tingzhu Wu",
+        "Hao‐Chung Kuo"
+      ],
+      "year": 2020,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "visible light communication",
+        "micro-LEDs",
+        "green LEDs",
+        "3-dB bandwidth",
+        "polarization performance",
+        "high-speed data transmission",
+        "epitaxial growth"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.0c00764",
+      "cited_by_count": 165,
+      "importance": 0.6781,
+      "score_basis": {
+        "topic_overlap": 0.396,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4283268804",
+      "doi": "10.1021/acsphotonics.2c00380",
+      "title": "Multigigabit Visible Light Communication Based on High-Bandwidth InGaN Quantum Dot Green Micro-LED",
+      "authors": [
+        "Zixian Wei",
+        "Lei Wang",
+        "Zhongxu Liu",
+        "Chao Zhang",
+        "Chien-Ju Chen",
+        "Meng‐Chyi Wu",
+        "Yanfu Yang",
+        "Changyuan Yu",
+        "Lai Wang",
+        "H. Y. Fu"
+      ],
+      "year": 2022,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "visible light communication",
+        "InGaN quantum dots",
+        "modulation bandwidth",
+        "carrier lifetime",
+        "PAM-4",
+        "NRZ-OOK",
+        "high-speed optical transmission"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.2c00380",
+      "cited_by_count": 36,
+      "importance": 0.6589,
+      "score_basis": {
+        "topic_overlap": 0.331,
+        "shared_references": 14,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391661549",
+      "doi": "10.1109/jlt.2024.3363729",
+      "title": "10.5 Gbps Visible Light Communication Systems Based on C-Plane Freestanding GaN Micro-LED",
+      "authors": [
+        "Zhiwei Rao",
+        "Xinyi Shan",
+        "Guobin Wang",
+        "Zuxin Jin",
+        "Runze Lin",
+        "Xugao Cui",
+        "Ran Liu",
+        "Ke Xu",
+        "Pengfei Tian"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "visible light communication",
+        "GaN micro-LEDs",
+        "modulation bandwidth",
+        "light output power",
+        "OFDM",
+        "data rate",
+        "long-distance transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3363729",
+      "cited_by_count": 23,
+      "importance": 0.6566,
+      "score_basis": {
+        "topic_overlap": 0.37,
+        "shared_references": 7,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2567838662",
+      "doi": "10.1117/12.2267389",
+      "title": "GaN-based flip-chip parallel micro LED array for visible light communication",
+      "authors": [
+        "Shi-Chao Zhu",
+        "Lixia Zhao",
+        "Chao Yang",
+        "Haicheng Cao",
+        "Zhiguo Yu",
+        "Lei Liu"
+      ],
+      "year": 2017,
+      "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "venue_abbr": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "GaN light-emitting diodes",
+        "flip-chip packaging",
+        "visible light communication",
+        "modulation bandwidth",
+        "current spreading",
+        "heat dissipation",
+        "light extraction efficiency",
+        "RC time constant",
+        "carrier lifetime",
+        "optical power"
+      ],
+      "url": "https://doi.org/10.1117/12.2267389",
+      "cited_by_count": 18,
+      "importance": 0.644,
+      "score_basis": {
+        "topic_overlap": 0.32,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4283585165",
+      "doi": "10.1364/ol.463399",
+      "title": "Parallel micro-LED arrays with a high modulation bandwidth for a visible light communication",
+      "authors": [
+        "Sunan Yao",
+        "Huaqing Chai",
+        "Lei Lei",
+        "Zihe Zhu",
+        "Guoqiang Li",
+        "Wenliang Wang"
+      ],
+      "year": 2022,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-LED arrays",
+        "visible light communication",
+        "modulation bandwidth",
+        "GaN-based LEDs",
+        "light output power",
+        "free-space optical communication",
+        "solid-state lighting"
+      ],
+      "url": "https://doi.org/10.1364/ol.463399",
+      "cited_by_count": 18,
+      "importance": 0.64,
+      "score_basis": {
+        "topic_overlap": 0.378,
+        "shared_references": 8,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2793780021",
+      "doi": "10.1109/led.2018.2803082",
+      "title": "Nonpolar ${m}$ -Plane InGaN/GaN Micro-Scale Light-Emitting Diode With 1.5 GHz Modulation Bandwidth",
+      "authors": [
+        "Arman Rashidi",
+        "Morteza Monavarian",
+        "Andrew A. Aragon",
+        "Ashwin K. Rishinaramangalam",
+        "Daniel F. Feezell"
+      ],
+      "year": 2018,
+      "venue": "IEEE Electron Device Letters",
+      "venue_abbr": "IEEE Electron Device Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "electron-hole overlap",
+        "spontaneous emission rate",
+        "rate equation model",
+        "visible light communication"
+      ],
+      "url": "https://doi.org/10.1109/led.2018.2803082",
+      "cited_by_count": 122,
+      "importance": 0.6373,
+      "score_basis": {
+        "topic_overlap": 0.194,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4294811313",
+      "doi": "10.1109/jphot.2022.3204711",
+      "title": "Low-Power High-Bandwidth Non-Polar InGaN Micro-LEDs at Low Current Densities for Energy-Efficient Visible Light Communication",
+      "authors": [
+        "Shijie Zhu",
+        "Xinyi Shan",
+        "Pengjiang Qiu",
+        "Zhou Wang",
+        "Zexing Yuan",
+        "Xugao Cui",
+        "Guoqi Zhang",
+        "Pengfei Tian"
+      ],
+      "year": 2022,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-LEDs",
+        "visible light communication",
+        "low current density",
+        "low power consumption",
+        "high bandwidth",
+        "external quantum efficiency",
+        "energy efficiency",
+        "Internet of Things",
+        "data rate"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2022.3204711",
+      "cited_by_count": 21,
+      "importance": 0.6326,
+      "score_basis": {
+        "topic_overlap": 0.339,
+        "shared_references": 4,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313306342",
+      "doi": "10.1109/ted.2022.3231235",
+      "title": "Embedded Electrode Micro-LEDs With High Modulation Bandwidth for Visible Light Communication",
+      "authors": [
+        "Zihe Zhu",
+        "Lei Lei",
+        "Tingjun Lin",
+        "Linhao Li",
+        "Zhengliang Lin",
+        "Hongsheng Jiang",
+        "Guoqiang Li",
+        "Wenliang Wang"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Electron Devices",
+      "venue_abbr": "IEEE Transactions on Electron Devices",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "micro-LEDs",
+        "embedded electrodes",
+        "modulation bandwidth",
+        "visible light communication",
+        "GaN light-emitting diodes",
+        "output power stability",
+        "current spreading",
+        "underwater visible light communication",
+        "LED arrays"
+      ],
+      "url": "https://doi.org/10.1109/ted.2022.3231235",
+      "cited_by_count": 23,
+      "importance": 0.6262,
+      "score_basis": {
+        "topic_overlap": 0.347,
+        "shared_references": 7,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2784594579",
+      "doi": "10.1063/1.5019730",
+      "title": "Impact of crystal orientation on the modulation bandwidth of InGaN/GaN light-emitting diodes",
+      "authors": [
+        "Morteza Monavarian",
+        "Arman Rashidi",
+        "Andrew A. Aragon",
+        "Sang Ho Oh",
+        "Ashwin K. Rishinaramangalam",
+        "Steven P. DenBaars",
+        "Daniel F. Feezell"
+      ],
+      "year": 2018,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "InGaN/GaN light-emitting diodes",
+        "modulation bandwidth",
+        "crystal orientation",
+        "nonpolar GaN",
+        "semipolar GaN",
+        "polar GaN",
+        "efficiency roll-off",
+        "internal quantum efficiency",
+        "wave function overlap",
+        "carrier concentration",
+        "visible light communication",
+        "current density"
+      ],
+      "url": "https://doi.org/10.1063/1.5019730",
+      "cited_by_count": 70,
+      "importance": 0.6204,
+      "score_basis": {
+        "topic_overlap": 0.156,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3137965635",
+      "doi": "10.1002/lpor.202000406",
+      "title": "Green InGaN Quantum Dots Breaking through Efficiency and Bandwidth Bottlenecks of Micro‐LEDs",
+      "authors": [
+        "Lei Wang",
+        "Lai Wang",
+        "Chien-Ju Chen",
+        "Kai‐Chia Chen",
+        "Zhibiao Hao",
+        "Yi Luo",
+        "Changzheng Sun",
+        "Meng‐Chyi Wu",
+        "Jiadong Yu",
+        "Yanjun Han",
+        "Bing Xiong",
+        "Jian Wang",
+        "Hongtao Li"
+      ],
+      "year": 2021,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "InGaN quantum dots",
+        "micro-LEDs",
+        "green emission",
+        "external quantum efficiency",
+        "3-dB bandwidth",
+        "quantum-confined Stark effect",
+        "Stranski-Krastanov growth",
+        "Volmer-Weber growth",
+        "self-assembled quantum dots",
+        "visible light communication",
+        "display technology",
+        "low current density"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202000406",
+      "cited_by_count": 79,
+      "importance": 0.6191,
+      "score_basis": {
+        "topic_overlap": 0.153,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285169210",
+      "doi": "10.1109/led.2022.3186018",
+      "title": "High-Speed Parallel Micro-LED Arrays on Si Substrates Based on Via-Holes Structure for Visible Light Communication",
+      "authors": [
+        "Huaqing Chai",
+        "Shunan Yao",
+        "Lei Lei",
+        "Zihe Zhu",
+        "Guoqiang Li",
+        "Wenliang Wang"
+      ],
+      "year": 2022,
+      "venue": "IEEE Electron Device Letters",
+      "venue_abbr": "IEEE Electron Device Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "micro-LED arrays",
+        "silicon substrate",
+        "visible light communication",
+        "frequency response",
+        "bandwidth",
+        "RC time constant",
+        "light output power"
+      ],
+      "url": "https://doi.org/10.1109/led.2022.3186018",
+      "cited_by_count": 29,
+      "importance": 0.6189,
+      "score_basis": {
+        "topic_overlap": 0.331,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4315631106",
+      "doi": "10.1109/jphot.2023.3235108",
+      "title": "High Bandwidth Semi-Polar InGaN/GaN Micro-LEDs With Low Current Injection for Visible Light Communication",
+      "authors": [
+        "Feifan Xu",
+        "Pengjiang Qiu",
+        "Tao Tao",
+        "Pengfei Tian",
+        "Xiaoyan Liu",
+        "Ting Zhi",
+        "Zili Xie",
+        "Bin Liu",
+        "Rong Zhang"
+      ],
+      "year": 2023,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-LEDs",
+        "visible light communication",
+        "quantum-confined Stark effect",
+        "modulation bandwidth",
+        "free-space optical communication"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2023.3235108",
+      "cited_by_count": 14,
+      "importance": 0.6189,
+      "score_basis": {
+        "topic_overlap": 0.331,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391093142",
+      "doi": "10.1109/ted.2024.3350526",
+      "title": "Improved Modulation Bandwidth of c-Plane Micro-LED Arrays by Varying Si Doping in the Quantum Barrier",
+      "authors": [
+        "Lei Lei",
+        "Zihe Zhu",
+        "Jiangxiong Wei",
+        "Wenliang Wang",
+        "Guoqiang Li"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Electron Devices",
+      "venue_abbr": "IEEE Transactions on Electron Devices",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "visible light communication",
+        "micro-LED arrays",
+        "c-plane GaN",
+        "silicon doping",
+        "quantum-confined Stark effect",
+        "modulation bandwidth",
+        "radiative recombination rate",
+        "on-off keying",
+        "bit error rate",
+        "high-speed optical transmission"
+      ],
+      "url": "https://doi.org/10.1109/ted.2024.3350526",
+      "cited_by_count": 12,
+      "importance": 0.6186,
+      "score_basis": {
+        "topic_overlap": 0.33,
+        "shared_references": 14,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401943078",
+      "doi": "10.1109/lpt.2024.3451244",
+      "title": "Data Communication Using Blue GaN-on-Si Micro-LEDs Reported on a 200-mm Silicon Substrate",
+      "authors": [
+        "Sultan El Badaoui",
+        "Luc Maret",
+        "Nicolas Delaunay",
+        "Anthony Cibié",
+        "Patrick Le Maître",
+        "Clement Ballot",
+        "Julia Simon",
+        "Bastien Miralles",
+        "Bernard Aventurier",
+        "Paolo De Martino",
+        "S. Jacob",
+        "Yannis Le Guennec"
+      ],
+      "year": 2024,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "visible light communication",
+        "chip-to-chip interconnects",
+        "DCO-OFDM",
+        "optical OFDM",
+        "high-speed data transmission",
+        "nonlinear distortion"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2024.3451244",
+      "cited_by_count": 6,
+      "importance": 0.6166,
+      "score_basis": {
+        "topic_overlap": 0.37,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4312343585",
+      "doi": "10.1109/jlt.2022.3224612",
+      "title": "Comparison of Beyond 1 GHz C-Plane Freestanding and Sapphire-Substrate GaN-Based micro-LEDs for High-Speed Visible Light Communication",
+      "authors": [
+        "Xinyi Shan",
+        "Guobin Wang",
+        "Shijie Zhu",
+        "Pengjiang Qiu",
+        "Runze Lin",
+        "Zhou Wang",
+        "Zexing Yuan",
+        "Qi-ang Yan",
+        "Xugao Cui",
+        "Jianfeng Wang",
+        "Wengang Bi",
+        "Ran Liu",
+        "Ke Xu",
+        "Pengfei Tian"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-LEDs",
+        "visible light communication",
+        "sapphire substrate",
+        "6G",
+        "threading dislocation density",
+        "heat dissipation",
+        "light output power",
+        "bandwidth",
+        "data rate",
+        "blue LEDs",
+        "epitaxial quality"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3224612",
+      "cited_by_count": 31,
+      "importance": 0.6148,
+      "score_basis": {
+        "topic_overlap": 0.366,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1965659207",
+      "doi": "10.1109/led.2014.2304513",
+      "title": "High-Speed Light-Emitting Diodes Emitting at 500 nm With 463-MHz Modulation Bandwidth",
+      "authors": [
+        "Chien-Lan Liao",
+        "Chong-Lung Ho",
+        "Yung-Fu Chang",
+        "Chi-Hung Wu",
+        "Meng‐Chyi Wu"
+      ],
+      "year": 2014,
+      "venue": "IEEE Electron Device Letters",
+      "venue_abbr": "IEEE Electron Device Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "GaN-based LEDs",
+        "green LEDs",
+        "modulation bandwidth",
+        "ring-shaped electrodes",
+        "aperture diameter",
+        "optical output power",
+        "visible light communication",
+        "plastic optical fiber"
+      ],
+      "url": "https://doi.org/10.1109/led.2014.2304513",
+      "cited_by_count": 96,
+      "importance": 0.6038,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4378469618",
+      "doi": "10.1109/jphot.2023.3278671",
+      "title": "GaN-Based Cascade Micro Light-Emitting Diode in Parallel and Series Arrays for Visible Light Communication",
+      "authors": [
+        "Shihao Liang",
+        "Guobin Wang",
+        "Tao Tao",
+        "Feifan Xu",
+        "Kai Chen",
+        "Ting Zhi",
+        "Zhifang Zhu",
+        "Wenjuan Chen",
+        "Yong Li",
+        "Ke Xu",
+        "Bin Liu",
+        "Rong Zhang"
+      ],
+      "year": 2023,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "GaN micro-LEDs",
+        "visible light communication",
+        "modulation bandwidth",
+        "pixel size",
+        "brightness"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2023.3278671",
+      "cited_by_count": 8,
+      "importance": 0.6038,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401608188",
+      "doi": "10.1109/jlt.2024.3444324",
+      "title": "High-Speed Micro-LEDs Based on Nano-Engineered InGaN Active Region Towards Chip-to-Chip Interconnections",
+      "authors": [
+        "Zhenhao Li",
+        "Luming Yu",
+        "Bo Liu",
+        "Xinran Zhang",
+        "Zengyi Xu",
+        "Xianhao Lin",
+        "Zhibiao Hao",
+        "Yi Luo",
+        "Changzheng Sun",
+        "Bing Xiong",
+        "Yanjun Han",
+        "Jian Wang",
+        "Hongtao Li",
+        "Lin Gan",
+        "Nan Chi",
+        "Lai Wang"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-LEDs",
+        "chip-to-chip interconnects",
+        "optical interconnects",
+        "NRZ-OOK",
+        "free-space optical communication",
+        "optical fiber transmission",
+        "discrete multitone modulation",
+        "blue LEDs"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3444324",
+      "cited_by_count": 20,
+      "importance": 0.6038,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 8,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2597737612",
+      "doi": "10.1364/prj.5.000a35",
+      "title": "Towards 10 Gb/s orthogonal frequency division multiplexing-based visible light communication using a GaN violet micro-LED",
+      "authors": [
+        "Mohamed Sufyan Islim",
+        "R. Ferreira",
+        "Xiangyu He",
+        "Enyuan Xie",
+        "Stefan Videv",
+        "Shaun Viola",
+        "Scott Watson",
+        "N. Bamiedakis",
+        "Richard V. Penty",
+        "Ian H. White",
+        "Anthony E. Kelly",
+        "Erdan Gu",
+        "Harald Haas",
+        "Martin D. Dawson"
+      ],
+      "year": 2017,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "visible light communication",
+        "orthogonal frequency division multiplexing",
+        "gallium nitride",
+        "high-speed data transmission",
+        "forward error correction threshold"
+      ],
+      "url": "https://doi.org/10.1364/prj.5.000a35",
+      "cited_by_count": 360,
+      "importance": 0.5978,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4394698894",
+      "doi": "10.1109/ted.2024.3383403",
+      "title": "Demonstration of Graphene/GaN-Based Micro-LEDs Arrays for Visible Light Communication",
+      "authors": [
+        "Zihe Zhu",
+        "Wenliang Wang",
+        "Peixin Liu",
+        "Chao Wang",
+        "Jianyu Lan",
+        "Lei Lei",
+        "Lijie Sun",
+        "Xing Hu",
+        "Tingjun Lin",
+        "Pingan Liu",
+        "Guoqiang Li"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Electron Devices",
+      "venue_abbr": "IEEE Transactions on Electron Devices",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "micro-LED arrays",
+        "visible light communication",
+        "modulation bandwidth",
+        "light output power",
+        "current spreading",
+        "hole injection",
+        "quantum wells",
+        "device aging",
+        "light-emitting diodes"
+      ],
+      "url": "https://doi.org/10.1109/ted.2024.3383403",
+      "cited_by_count": 6,
+      "importance": 0.5958,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 9,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402812115",
+      "doi": "10.1109/ted.2024.3456770",
+      "title": "GaN-Based Freestanding Micro-LEDs With GHz Bandwidth and Low Efficiency Droop for Visible Light Communication",
+      "authors": [
+        "Jinpeng Huang",
+        "Guobin Wang",
+        "Handan Xu",
+        "Feifan Xu",
+        "Ting Zhi",
+        "Wenjuan Chen",
+        "Yimeng Sang",
+        "Dongqi Zhang",
+        "Junchi Yu",
+        "Honghui He",
+        "Ke Xu",
+        "Pengfei Tian",
+        "Tao Tao",
+        "Bin Liu",
+        "Rong Zhang"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Electron Devices",
+      "venue_abbr": "IEEE Transactions on Electron Devices",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "visible light communication",
+        "GaN",
+        "quantum-confined Stark effect",
+        "efficiency roll-off",
+        "modulation bandwidth",
+        "homoepitaxy",
+        "carrier transport",
+        "external quantum efficiency",
+        "optical power",
+        "defect density",
+        "thermal management"
+      ],
+      "url": "https://doi.org/10.1109/ted.2024.3456770",
+      "cited_by_count": 8,
+      "importance": 0.5923,
+      "score_basis": {
+        "topic_overlap": 0.316,
+        "shared_references": 10,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4367554017",
+      "doi": "10.1063/5.0125103",
+      "title": "MicroLED/LED electro-optical integration techniques for non-display applications",
+      "authors": [
+        "Vikrant Kumar",
+        "Ioannis Kymissis"
+      ],
+      "year": 2023,
+      "venue": "Applied Physics Reviews",
+      "venue_abbr": "Applied Physics Reviews",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "micro-LEDs",
+        "LED light source",
+        "external quantum efficiency",
+        "beam shaping",
+        "modulation bandwidth",
+        "light output power",
+        "emission wavelength tuning"
+      ],
+      "url": "https://doi.org/10.1063/5.0125103",
+      "cited_by_count": 30,
+      "importance": 0.5882,
+      "score_basis": {
+        "topic_overlap": 0.307,
+        "shared_references": 10,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4224237726",
+      "doi": "10.1016/j.optlastec.2022.108170",
+      "title": "Small signal analysis of the modulation bandwidth of light-emitting diodes for visible light communication",
+      "authors": [
+        "Han‐Youl Ryu",
+        "Geunhwan Ryu"
+      ],
+      "year": 2022,
+      "venue": "Optics & Laser Technology",
+      "venue_abbr": "Opt. Laser Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "light-emitting diodes",
+        "visible light communication",
+        "modulation bandwidth",
+        "small-signal analysis",
+        "carrier rate equation",
+        "internal quantum efficiency",
+        "radiative recombination coefficient",
+        "current density",
+        "quantum well thickness",
+        "3-dB bandwidth"
+      ],
+      "url": "https://doi.org/10.1016/j.optlastec.2022.108170",
+      "cited_by_count": 12,
+      "importance": 0.5877,
+      "score_basis": {
+        "topic_overlap": 0.262,
+        "shared_references": 8,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2560515337",
+      "doi": "10.1364/ol.41.005752",
+      "title": "GHz bandwidth semipolar (112¯2) InGaN/GaN light-emitting diodes",
+      "authors": [
+        "Duc V. Dinh",
+        "Zhiheng Quan",
+        "Brendan J. Roycroft",
+        "Peter James Parbrook",
+        "Brian Corbett"
+      ],
+      "year": 2016,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "visible light communication",
+        "optical transmission",
+        "r-plane sapphire substrate",
+        "blue LEDs"
+      ],
+      "url": "https://doi.org/10.1364/ol.41.005752",
+      "cited_by_count": 49,
+      "importance": 0.5858,
+      "score_basis": {
+        "topic_overlap": 0.302,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4311745903",
+      "doi": "10.1021/acsphotonics.2c01028",
+      "title": "Characteristics of GaN-on-Si Green Micro-LED for Wide Color Gamut Display and High-Speed Visible Light Communication",
+      "authors": [
+        "Shijie Zhu",
+        "Xinyi Shan",
+        "Runze Lin",
+        "Pengjiang Qiu",
+        "Zhou Wang",
+        "Xinyi Lu",
+        "Lintao Yan",
+        "Xugao Cui",
+        "Guoqi Zhang",
+        "Pengfei Tian"
+      ],
+      "year": 2022,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "GaN-on-Si",
+        "visible light communication",
+        "wide color gamut displays",
+        "external quantum efficiency",
+        "color purity",
+        "bandwidth",
+        "data rate",
+        "micro-LED displays"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.2c01028",
+      "cited_by_count": 54,
+      "importance": 0.5853,
+      "score_basis": {
+        "topic_overlap": 0.212,
+        "shared_references": 7,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402915894",
+      "doi": "10.1109/jlt.2024.3470242",
+      "title": "Green Micro-LED With a Bandwidth Exceeding 2 GHz for 9-Gbps Visible Light Communication Based on SNR Gap-Dependent Bit and Power Loading",
+      "authors": [
+        "Zuxin Jin",
+        "Runze Lin",
+        "Xuyang Liu",
+        "Di Sun",
+        "Bin Liu",
+        "Tao Tao",
+        "Feifan Xu",
+        "Zhilai Fang",
+        "Xugao Cui",
+        "Pengfei Tian"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "visible light communication",
+        "wavelength division multiplexing",
+        "spectral efficiency",
+        "forward error correction threshold",
+        "6G",
+        "free-space optical communication"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3470242",
+      "cited_by_count": 15,
+      "importance": 0.5729,
+      "score_basis": {
+        "topic_overlap": 0.273,
+        "shared_references": 11,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4293499085",
+      "doi": "10.1109/jlt.2022.3202182",
+      "title": "Size-Dependent UV-C Communication Performance of AlGaN Micro-LEDs and LEDs",
+      "authors": [
+        "Zeyuan Qian",
+        "Dong Li",
+        "Fangchen Hu",
+        "Pengjiang Qiu",
+        "Chicheng Ma",
+        "Chao Shen",
+        "Shanduan Zhang",
+        "Nan Chi",
+        "Xugao Cui",
+        "Pengfei Tian"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "UV-C LEDs",
+        "spectral efficiency",
+        "signal-to-noise ratio",
+        "energy efficiency",
+        "discrete multitone modulation",
+        "optical coupling",
+        "channel attenuation",
+        "data rate"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3202182",
+      "cited_by_count": 23,
+      "importance": 0.5529,
+      "score_basis": {
+        "topic_overlap": 0.295,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4327746275",
+      "doi": "10.1364/ol.487747",
+      "title": "10-Gbps visible light communication in a 10-m free space based on violet series-biased micro-LED array and distance adaptive pre-equalization",
+      "authors": [
+        "Zuxin Jin",
+        "Lintao Yan",
+        "Shijie Zhu",
+        "Xugao Cui",
+        "Pengfei Tian"
+      ],
+      "year": 2023,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "visible light communication",
+        "micro-LED arrays",
+        "violet light",
+        "orthogonal frequency division multiplexing",
+        "bit loading",
+        "high-speed data transmission",
+        "forward error correction"
+      ],
+      "url": "https://doi.org/10.1364/ol.487747",
+      "cited_by_count": 32,
+      "importance": 0.5517,
+      "score_basis": {
+        "topic_overlap": 0.182,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2560515337",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2560515337"
+        }
+      ]
+    },
+    {
+      "from": "W2560515337",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2560515337"
+        }
+      ]
+    },
+    {
+      "from": "W2567838662",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2567838662"
+        }
+      ]
+    },
+    {
+      "from": "W2597737612",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2597737612"
+        }
+      ]
+    },
+    {
+      "from": "W2766730184",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2766730184"
+        }
+      ]
+    },
+    {
+      "from": "W2766730184",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2766730184"
+        }
+      ]
+    },
+    {
+      "from": "W2766730184",
+      "to": "W2567838662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2766730184"
+        }
+      ]
+    },
+    {
+      "from": "W2784594579",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2784594579"
+        }
+      ]
+    },
+    {
+      "from": "W2784594579",
+      "to": "W2560515337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2784594579"
+        }
+      ]
+    },
+    {
+      "from": "W2784594579",
+      "to": "W2766730184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2784594579"
+        }
+      ]
+    },
+    {
+      "from": "W2793780021",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2793780021"
+        }
+      ]
+    },
+    {
+      "from": "W2793780021",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2793780021"
+        }
+      ]
+    },
+    {
+      "from": "W2793780021",
+      "to": "W2560515337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2793780021"
+        }
+      ]
+    },
+    {
+      "from": "W2793780021",
+      "to": "W2784594579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2793780021"
+        }
+      ]
+    },
+    {
+      "from": "W2906620932",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2906620932"
+        }
+      ]
+    },
+    {
+      "from": "W2906620932",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2906620932"
+        }
+      ]
+    },
+    {
+      "from": "W3010774156",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3010774156"
+        }
+      ]
+    },
+    {
+      "from": "W3010774156",
+      "to": "W2560515337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3010774156"
+        }
+      ]
+    },
+    {
+      "from": "W3010774156",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3010774156"
+        }
+      ]
+    },
+    {
+      "from": "W3010774156",
+      "to": "W2906620932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3010774156"
+        }
+      ]
+    },
+    {
+      "from": "W3012137182",
+      "to": "W2567838662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012137182"
+        }
+      ]
+    },
+    {
+      "from": "W3012137182",
+      "to": "W2784594579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012137182"
+        }
+      ]
+    },
+    {
+      "from": "W3012137182",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012137182"
+        }
+      ]
+    },
+    {
+      "from": "W3012137182",
+      "to": "W2906620932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012137182"
+        }
+      ]
+    },
+    {
+      "from": "W3039379506",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3039379506"
+        }
+      ]
+    },
+    {
+      "from": "W3039379506",
+      "to": "W2784594579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3039379506"
+        }
+      ]
+    },
+    {
+      "from": "W3094365221",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094365221"
+        }
+      ]
+    },
+    {
+      "from": "W3094365221",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094365221"
+        }
+      ]
+    },
+    {
+      "from": "W3094365221",
+      "to": "W2560515337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094365221"
+        }
+      ]
+    },
+    {
+      "from": "W3094365221",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094365221"
+        }
+      ]
+    },
+    {
+      "from": "W3094365221",
+      "to": "W2766730184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094365221"
+        }
+      ]
+    },
+    {
+      "from": "W3094365221",
+      "to": "W2784594579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094365221"
+        }
+      ]
+    },
+    {
+      "from": "W3094365221",
+      "to": "W2906620932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094365221"
+        }
+      ]
+    },
+    {
+      "from": "W3094365221",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094365221"
+        }
+      ]
+    },
+    {
+      "from": "W3126978947",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126978947"
+        }
+      ]
+    },
+    {
+      "from": "W3126978947",
+      "to": "W2560515337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126978947"
+        }
+      ]
+    },
+    {
+      "from": "W3126978947",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126978947"
+        }
+      ]
+    },
+    {
+      "from": "W3126978947",
+      "to": "W2784594579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126978947"
+        }
+      ]
+    },
+    {
+      "from": "W3126978947",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126978947"
+        }
+      ]
+    },
+    {
+      "from": "W3126978947",
+      "to": "W2906620932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126978947"
+        }
+      ]
+    },
+    {
+      "from": "W3137965635",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3137965635"
+        }
+      ]
+    },
+    {
+      "from": "W3137965635",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3137965635"
+        }
+      ]
+    },
+    {
+      "from": "W3137965635",
+      "to": "W2560515337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3137965635"
+        }
+      ]
+    },
+    {
+      "from": "W3137965635",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3137965635"
+        }
+      ]
+    },
+    {
+      "from": "W3137965635",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3137965635"
+        }
+      ]
+    },
+    {
+      "from": "W3177405367",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3177405367"
+        }
+      ]
+    },
+    {
+      "from": "W3177405367",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3177405367"
+        }
+      ]
+    },
+    {
+      "from": "W3177405367",
+      "to": "W2906620932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3177405367"
+        }
+      ]
+    },
+    {
+      "from": "W3177405367",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3177405367"
+        }
+      ]
+    },
+    {
+      "from": "W3199125431",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3199125431"
+        }
+      ]
+    },
+    {
+      "from": "W3199125431",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3199125431"
+        }
+      ]
+    },
+    {
+      "from": "W3199125431",
+      "to": "W2766730184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3199125431"
+        }
+      ]
+    },
+    {
+      "from": "W3199125431",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3199125431"
+        }
+      ]
+    },
+    {
+      "from": "W3199125431",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3199125431"
+        }
+      ]
+    },
+    {
+      "from": "W4224237726",
+      "to": "W2560515337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224237726"
+        }
+      ]
+    },
+    {
+      "from": "W4224237726",
+      "to": "W2766730184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224237726"
+        }
+      ]
+    },
+    {
+      "from": "W4224237726",
+      "to": "W2784594579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224237726"
+        }
+      ]
+    },
+    {
+      "from": "W4224237726",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224237726"
+        }
+      ]
+    },
+    {
+      "from": "W4224237726",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224237726"
+        }
+      ]
+    },
+    {
+      "from": "W4224237726",
+      "to": "W3094365221",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224237726"
+        }
+      ]
+    },
+    {
+      "from": "W4225687334",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225687334"
+        }
+      ]
+    },
+    {
+      "from": "W4225687334",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225687334"
+        }
+      ]
+    },
+    {
+      "from": "W4225687334",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225687334"
+        }
+      ]
+    },
+    {
+      "from": "W4225687334",
+      "to": "W2906620932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225687334"
+        }
+      ]
+    },
+    {
+      "from": "W4225687334",
+      "to": "W3094365221",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225687334"
+        }
+      ]
+    },
+    {
+      "from": "W4225687334",
+      "to": "W3126978947",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225687334"
+        }
+      ]
+    },
+    {
+      "from": "W4281660699",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281660699"
+        }
+      ]
+    },
+    {
+      "from": "W4281660699",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281660699"
+        }
+      ]
+    },
+    {
+      "from": "W4281660699",
+      "to": "W3094365221",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281660699"
+        }
+      ]
+    },
+    {
+      "from": "W4281660699",
+      "to": "W3137965635",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281660699"
+        }
+      ]
+    },
+    {
+      "from": "W4281660699",
+      "to": "W3177405367",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281660699"
+        }
+      ]
+    },
+    {
+      "from": "W4281660699",
+      "to": "W4225687334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281660699"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W2560515337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W2766730184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W2784594579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W2906620932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W3094365221",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W3126978947",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283268804",
+      "to": "W3137965635",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283268804"
+        }
+      ]
+    },
+    {
+      "from": "W4283585165",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283585165"
+        }
+      ]
+    },
+    {
+      "from": "W4283585165",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283585165"
+        }
+      ]
+    },
+    {
+      "from": "W4283585165",
+      "to": "W3012137182",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283585165"
+        }
+      ]
+    },
+    {
+      "from": "W4283585165",
+      "to": "W3094365221",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283585165"
+        }
+      ]
+    },
+    {
+      "from": "W4283585165",
+      "to": "W3126978947",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283585165"
+        }
+      ]
+    },
+    {
+      "from": "W4283585165",
+      "to": "W3199125431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283585165"
+        }
+      ]
+    },
+    {
+      "from": "W4283585165",
+      "to": "W4225687334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283585165"
+        }
+      ]
+    },
+    {
+      "from": "W4285169210",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285169210"
+        }
+      ]
+    },
+    {
+      "from": "W4285169210",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285169210"
+        }
+      ]
+    },
+    {
+      "from": "W4285169210",
+      "to": "W2567838662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285169210"
+        }
+      ]
+    },
+    {
+      "from": "W4285169210",
+      "to": "W3012137182",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285169210"
+        }
+      ]
+    },
+    {
+      "from": "W4285169210",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285169210"
+        }
+      ]
+    },
+    {
+      "from": "W4293499085",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4293499085"
+        }
+      ]
+    },
+    {
+      "from": "W4294811313",
+      "to": "W2784594579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294811313"
+        }
+      ]
+    },
+    {
+      "from": "W4294811313",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294811313"
+        }
+      ]
+    },
+    {
+      "from": "W4294811313",
+      "to": "W4225687334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294811313"
+        }
+      ]
+    },
+    {
+      "from": "W4311745903",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4311745903"
+        }
+      ]
+    },
+    {
+      "from": "W4311745903",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4311745903"
+        }
+      ]
+    },
+    {
+      "from": "W4311745903",
+      "to": "W3137965635",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4311745903"
+        }
+      ]
+    },
+    {
+      "from": "W4311745903",
+      "to": "W3177405367",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4311745903"
+        }
+      ]
+    },
+    {
+      "from": "W4312343585",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312343585"
+        }
+      ]
+    },
+    {
+      "from": "W4312343585",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312343585"
+        }
+      ]
+    },
+    {
+      "from": "W4313306342",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313306342"
+        }
+      ]
+    },
+    {
+      "from": "W4313306342",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313306342"
+        }
+      ]
+    },
+    {
+      "from": "W4313306342",
+      "to": "W3126978947",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313306342"
+        }
+      ]
+    },
+    {
+      "from": "W4313306342",
+      "to": "W4225687334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313306342"
+        }
+      ]
+    },
+    {
+      "from": "W4313306342",
+      "to": "W4281660699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313306342"
+        }
+      ]
+    },
+    {
+      "from": "W4315631106",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4315631106"
+        }
+      ]
+    },
+    {
+      "from": "W4315631106",
+      "to": "W2560515337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4315631106"
+        }
+      ]
+    },
+    {
+      "from": "W4315631106",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4315631106"
+        }
+      ]
+    },
+    {
+      "from": "W4315631106",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4315631106"
+        }
+      ]
+    },
+    {
+      "from": "W4315631106",
+      "to": "W4225687334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4315631106"
+        }
+      ]
+    },
+    {
+      "from": "W4315631106",
+      "to": "W4294811313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4315631106"
+        }
+      ]
+    },
+    {
+      "from": "W4324125323",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4324125323"
+        }
+      ]
+    },
+    {
+      "from": "W4324125323",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4324125323"
+        }
+      ]
+    },
+    {
+      "from": "W4324125323",
+      "to": "W3126978947",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4324125323"
+        }
+      ]
+    },
+    {
+      "from": "W4324125323",
+      "to": "W3137965635",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4324125323"
+        }
+      ]
+    },
+    {
+      "from": "W4324125323",
+      "to": "W4225687334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4324125323"
+        }
+      ]
+    },
+    {
+      "from": "W4324125323",
+      "to": "W4283268804",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4324125323"
+        }
+      ]
+    },
+    {
+      "from": "W4327746275",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327746275"
+        }
+      ]
+    },
+    {
+      "from": "W4327746275",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327746275"
+        }
+      ]
+    },
+    {
+      "from": "W4327746275",
+      "to": "W3177405367",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327746275"
+        }
+      ]
+    },
+    {
+      "from": "W4327746275",
+      "to": "W4281660699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327746275"
+        }
+      ]
+    },
+    {
+      "from": "W4367554017",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367554017"
+        }
+      ]
+    },
+    {
+      "from": "W4367554017",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367554017"
+        }
+      ]
+    },
+    {
+      "from": "W4367554017",
+      "to": "W2567838662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367554017"
+        }
+      ]
+    },
+    {
+      "from": "W4367554017",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367554017"
+        }
+      ]
+    },
+    {
+      "from": "W4367554017",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367554017"
+        }
+      ]
+    },
+    {
+      "from": "W4378469618",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4378469618"
+        }
+      ]
+    },
+    {
+      "from": "W4378469618",
+      "to": "W2567838662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4378469618"
+        }
+      ]
+    },
+    {
+      "from": "W4378469618",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4378469618"
+        }
+      ]
+    },
+    {
+      "from": "W4378469618",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4378469618"
+        }
+      ]
+    },
+    {
+      "from": "W4378469618",
+      "to": "W3094365221",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4378469618"
+        }
+      ]
+    },
+    {
+      "from": "W4378469618",
+      "to": "W4285169210",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4378469618"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W2766730184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W2906620932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W3012137182",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W3094365221",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W3199125431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W4225687334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W4281660699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W4294811313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W4311745903",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W4313306342",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W4315631106",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391093142",
+      "to": "W4324125323",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391093142"
+        }
+      ]
+    },
+    {
+      "from": "W4391661549",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391661549"
+        }
+      ]
+    },
+    {
+      "from": "W4391661549",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391661549"
+        }
+      ]
+    },
+    {
+      "from": "W4391661549",
+      "to": "W4281660699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391661549"
+        }
+      ]
+    },
+    {
+      "from": "W4391661549",
+      "to": "W4293499085",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391661549"
+        }
+      ]
+    },
+    {
+      "from": "W4391661549",
+      "to": "W4312343585",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391661549"
+        }
+      ]
+    },
+    {
+      "from": "W4391661549",
+      "to": "W4327746275",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391661549"
+        }
+      ]
+    },
+    {
+      "from": "W4394698894",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394698894"
+        }
+      ]
+    },
+    {
+      "from": "W4394698894",
+      "to": "W2906620932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394698894"
+        }
+      ]
+    },
+    {
+      "from": "W4394698894",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394698894"
+        }
+      ]
+    },
+    {
+      "from": "W4394698894",
+      "to": "W3126978947",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394698894"
+        }
+      ]
+    },
+    {
+      "from": "W4394698894",
+      "to": "W4225687334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394698894"
+        }
+      ]
+    },
+    {
+      "from": "W4394698894",
+      "to": "W4281660699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394698894"
+        }
+      ]
+    },
+    {
+      "from": "W4394698894",
+      "to": "W4283585165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394698894"
+        }
+      ]
+    },
+    {
+      "from": "W4394698894",
+      "to": "W4294811313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394698894"
+        }
+      ]
+    },
+    {
+      "from": "W4401608188",
+      "to": "W2560515337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608188"
+        }
+      ]
+    },
+    {
+      "from": "W4401608188",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608188"
+        }
+      ]
+    },
+    {
+      "from": "W4401608188",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608188"
+        }
+      ]
+    },
+    {
+      "from": "W4401608188",
+      "to": "W3094365221",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608188"
+        }
+      ]
+    },
+    {
+      "from": "W4401608188",
+      "to": "W3126978947",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608188"
+        }
+      ]
+    },
+    {
+      "from": "W4401608188",
+      "to": "W4225687334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608188"
+        }
+      ]
+    },
+    {
+      "from": "W4401608188",
+      "to": "W4283268804",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608188"
+        }
+      ]
+    },
+    {
+      "from": "W4401608188",
+      "to": "W4324125323",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608188"
+        }
+      ]
+    },
+    {
+      "from": "W4401943078",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401943078"
+        }
+      ]
+    },
+    {
+      "from": "W4401943078",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401943078"
+        }
+      ]
+    },
+    {
+      "from": "W4401943078",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401943078"
+        }
+      ]
+    },
+    {
+      "from": "W4401943078",
+      "to": "W4281660699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401943078"
+        }
+      ]
+    },
+    {
+      "from": "W4401943078",
+      "to": "W4283268804",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401943078"
+        }
+      ]
+    },
+    {
+      "from": "W4401943078",
+      "to": "W4391661549",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401943078"
+        }
+      ]
+    },
+    {
+      "from": "W4402812115",
+      "to": "W2766730184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402812115"
+        }
+      ]
+    },
+    {
+      "from": "W4402812115",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402812115"
+        }
+      ]
+    },
+    {
+      "from": "W4402812115",
+      "to": "W3126978947",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402812115"
+        }
+      ]
+    },
+    {
+      "from": "W4402812115",
+      "to": "W3199125431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402812115"
+        }
+      ]
+    },
+    {
+      "from": "W4402812115",
+      "to": "W4224237726",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402812115"
+        }
+      ]
+    },
+    {
+      "from": "W4402812115",
+      "to": "W4225687334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402812115"
+        }
+      ]
+    },
+    {
+      "from": "W4402812115",
+      "to": "W4312343585",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402812115"
+        }
+      ]
+    },
+    {
+      "from": "W4402812115",
+      "to": "W4324125323",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402812115"
+        }
+      ]
+    },
+    {
+      "from": "W4402812115",
+      "to": "W4391093142",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402812115"
+        }
+      ]
+    },
+    {
+      "from": "W4402812115",
+      "to": "W4391661549",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402812115"
+        }
+      ]
+    },
+    {
+      "from": "W4402915894",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402915894"
+        }
+      ]
+    },
+    {
+      "from": "W4402915894",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402915894"
+        }
+      ]
+    },
+    {
+      "from": "W4402915894",
+      "to": "W3012137182",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402915894"
+        }
+      ]
+    },
+    {
+      "from": "W4402915894",
+      "to": "W3137965635",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402915894"
+        }
+      ]
+    },
+    {
+      "from": "W4402915894",
+      "to": "W3177405367",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402915894"
+        }
+      ]
+    },
+    {
+      "from": "W4402915894",
+      "to": "W4281660699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402915894"
+        }
+      ]
+    },
+    {
+      "from": "W4402915894",
+      "to": "W4312343585",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402915894"
+        }
+      ]
+    },
+    {
+      "from": "W4402915894",
+      "to": "W4324125323",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402915894"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W1965659207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W2440201662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W2560515337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W2567838662",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W2597737612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W2766730184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W2784594579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W2793780021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W2906620932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W3010774156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W3012137182",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W3039379506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W3094365221",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W3126978947",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W3137965635",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W3177405367",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W3199125431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4224237726",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4225687334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4281660699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4283268804",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4283585165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4285169210",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4293499085",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4294811313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4311745903",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4312343585",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4313306342",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4315631106",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4324125323",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4327746275",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4367554017",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4378469618",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4391093142",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4391661549",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4394698894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4401608188",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4401943078",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4402812115",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    },
+    {
+      "from": "W7211926099",
+      "to": "W4402915894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7211926099"
+        }
+      ]
+    }
+  ]
 }

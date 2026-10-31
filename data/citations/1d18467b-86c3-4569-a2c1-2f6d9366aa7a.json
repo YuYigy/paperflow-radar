@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "1d18467b-86c3-4569-a2c1-2f6d9366aa7a",
-  "root": "doi:10.1063/5.0335962",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7204953286",
+  "status": "ok",
+  "checked_at": "2026-10-30T00:55:07.176899+00:00",
+  "coverage": {
+    "references_found": 57,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "partial",
+    "citing_status": "ok",
+    "candidates_resolved": 56,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1063/5.0335962",
+      "id": "W7204953286",
       "doi": "10.1063/5.0335962",
       "title": "Patch-array antennas for narrowband and large-aperture field-resolved detection of terahertz signals in hybrid silicon–organic photonic chips",
       "authors": [
@@ -19,20 +29,2835 @@
         "Withawat Withayachumnankul",
         "Ileana-Cristina Benea-Chelmus"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "APL Photonics",
       "venue_abbr": "APL Photonics",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "microstrip antenna array",
+        "terahertz detection",
+        "electro-optic modulation",
+        "Pockels effect",
+        "silicon waveguides",
+        "bow-tie antenna",
+        "spatial coupling",
+        "terahertz waveguides"
+      ],
       "url": "https://doi.org/10.1063/5.0335962",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/1d18467b-86c3-4569-a2c1-2f6d9366aa7a.html",
       "summary": "摘要报告：硅光与高非线性有机电光材料结合可产生超快调制与高频无线场-导波光信号直接变换能力。研究集成于硅波导的贴片阵列天线探测自由空间太赫兹波：电信探测光经硅电路转为等离激元缝隙模，与天线纳米间隙内积累的THz场作用（极化有机材料提供泡克尔斯非线性）。设计多种贴片天线几何并与常规蝶形天线对比：贴片阵列经更强谐振场集中在选择频率提供更高灵敏度，蝶形因锥形偶极设计呈宽带响应；进一步分析探测信号随THz光斑相对位置的依赖，重构两种配置的空间耦合行为，厘清带宽-灵敏度-空间容差折衷并给出集成光取样设计准则。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W2992673092",
+      "doi": "10.1038/s41467-019-13490-x",
+      "title": "Compact and ultra-efficient broadband plasmonic terahertz field detector",
+      "authors": [
+        "Yannick Salamin",
+        "Ileana-Cristina Benea-Chelmus",
+        "Yuriy Myronovych Fedoryshyn",
+        "Wolfgang Heni",
+        "Delwin L. Elder",
+        "Larry R. Dalton",
+        "Jérôme Faist",
+        "Juerg Leuthold"
+      ],
+      "year": 2019,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "monolithic integration",
+        "nonlinear optical mixing",
+        "broadband detection",
+        "conversion efficiency"
+      ],
+      "url": "https://doi.org/10.1038/s41467-019-13490-x",
+      "cited_by_count": 133,
+      "importance": 0.6835,
+      "score_basis": {
+        "topic_overlap": 0.297,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387252986",
+      "doi": "10.1063/5.0159166",
+      "title": "Plasmonic, photonic, or hybrid? Reviewing waveguide geometries for electro-optic modulators",
+      "authors": [
+        "Andreas Messner",
+        "David Moor",
+        "Daniel Chelladurai",
+        "Roman Svoboda",
+        "Jasmin Smajić",
+        "Juerg Leuthold"
+      ],
+      "year": 2023,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "electro-optic modulator",
+        "waveguide geometry",
+        "plasmonic waveguides",
+        "photonic waveguides",
+        "Pockels effect",
+        "high-speed optical modulation",
+        "path loss",
+        "confinement"
+      ],
+      "url": "https://doi.org/10.1063/5.0159166",
+      "cited_by_count": 45,
+      "importance": 0.6735,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 7,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2903983414",
+      "doi": "10.1038/s41928-018-0173-2",
+      "title": "Terahertz integrated electronic and hybrid electronic–photonic systems",
+      "authors": [
+        "Kaushik Sengupta",
+        "Tadao Nagatsuma",
+        "Daniel M. Mittleman"
+      ],
+      "year": 2018,
+      "venue": "Nature Electronics",
+      "venue_abbr": "Nat. Electron.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "heterojunction bipolar transistors",
+        "III-V semiconductors",
+        "reconfigurable architecture",
+        "terahertz communication",
+        "terahertz sensing",
+        "terahertz imaging"
+      ],
+      "url": "https://doi.org/10.1038/s41928-018-0173-2",
+      "cited_by_count": 711,
+      "importance": 0.6239,
+      "score_basis": {
+        "topic_overlap": 0.164,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396605417",
+      "doi": "10.1109/jstqe.2024.3396549",
+      "title": "Plasmonic Electro-Optic Modulators – A Review",
+      "authors": [
+        "Jasmin Smajić",
+        "Juerg Leuthold"
+      ],
+      "year": 2024,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "plasmonic modulators",
+        "electro-optic modulation",
+        "plasmonics",
+        "photonic communication",
+        "figure of merit"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2024.3396549",
+      "cited_by_count": 26,
+      "importance": 0.6084,
+      "score_basis": {
+        "topic_overlap": 0.308,
+        "shared_references": 7,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2798456652",
+      "doi": "10.1364/optica.5.000739",
+      "title": "Ultra-high electro-optic activity demonstrated in a silicon-organic hybrid modulator",
+      "authors": [
+        "Clemens Kieninger",
+        "Y. Kutuvantavida",
+        "Delwin L. Elder",
+        "S. Wolf",
+        "Heiner Zwickel",
+        "Matthias Blaicher",
+        "Juned Nassir Kemal",
+        "Matthias Lauermann",
+        "Sebastian Randel",
+        "W. Freude",
+        "Larry R. Dalton",
+        "Christian G. Koos"
+      ],
+      "year": 2018,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "electro-optic modulator",
+        "Mach-Zehnder modulator",
+        "on-off keying",
+        "40 Gbit/s optical transmission",
+        "high-speed optical transmission"
+      ],
+      "url": "https://doi.org/10.1364/optica.5.000739",
+      "cited_by_count": 207,
+      "importance": 0.5891,
+      "score_basis": {
+        "topic_overlap": 0.198,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3176749292",
+      "doi": "10.3390/nano11071646",
+      "title": "A Review on Terahertz Technologies Accelerated by Silicon Photonics",
+      "authors": [
+        "Jingya Xie",
+        "Wangcheng Ye",
+        "Linjie Zhou",
+        "Xuguang Guo",
+        "Xiaofei Zang",
+        "Lin Chen",
+        "Yiming Zhu"
+      ],
+      "year": 2021,
+      "venue": "Nanomaterials",
+      "venue_abbr": "Nanomaterials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz technology",
+        "silicon photonics",
+        "hybrid silicon photonics",
+        "terahertz generation",
+        "terahertz detection",
+        "photomixing",
+        "phase modulation",
+        "intensity modulation",
+        "passive components",
+        "hybrid silicon lasers",
+        "conversion efficiency",
+        "device integration"
+      ],
+      "url": "https://doi.org/10.3390/nano11071646",
+      "cited_by_count": 87,
+      "importance": 0.5882,
+      "score_basis": {
+        "topic_overlap": 0.307,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386634485",
+      "doi": "10.1109/jstqe.2023.3314696",
+      "title": "Modeling Plasmonic Antennas for the Millimeterwave & THz Range",
+      "authors": [
+        "Hande İbili",
+        "Tobias Blatter",
+        "Michael Baumann",
+        "Laurenz Kulmer",
+        "Boris Vukovic",
+        "Jasmin Smajić",
+        "Juerg Leuthold"
+      ],
+      "year": 2023,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "equivalent circuit model",
+        "field enhancement",
+        "antenna optimization",
+        "antenna parameters",
+        "optical modulators"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2023.3314696",
+      "cited_by_count": 21,
+      "importance": 0.5669,
+      "score_basis": {
+        "topic_overlap": 0.282,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7117888085",
+      "doi": "10.1038/s41377-025-02089-1",
+      "title": "Large-area photonic circuits for terahertz detection and beam profiling",
+      "authors": [
+        "Alessandro Tomasino",
+        "Amirhassan Shams‐Ansari",
+        "Marko Lončar",
+        "Ileana-Cristina Benea-Chelmus"
+      ],
+      "year": 2026,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "terahertz detection",
+        "integrated photonics",
+        "thin-film lithium niobate",
+        "electro-optic modulation",
+        "Mach-Zehnder interferometer",
+        "beam profile measurement",
+        "quasi-phase matching",
+        "telecom band",
+        "terahertz spectroscopy",
+        "terahertz communication"
+      ],
+      "url": "https://doi.org/10.1038/s41377-025-02089-1",
+      "cited_by_count": 5,
+      "importance": 0.5434,
+      "score_basis": {
+        "topic_overlap": 0.208,
+        "shared_references": 8,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385491043",
+      "doi": "10.1063/5.0146912",
+      "title": "Present and future of terahertz integrated photonic devices",
+      "authors": [
+        "Shima Rajabali",
+        "Ileana-Cristina Benea-Chelmus"
+      ],
+      "year": 2023,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "photonic integrated circuits",
+        "nonlinear waveguides",
+        "second-order nonlinear optics",
+        "third-order nonlinear optics",
+        "terahertz detection",
+        "printed antenna"
+      ],
+      "url": "https://doi.org/10.1063/5.0146912",
+      "cited_by_count": 48,
+      "importance": 0.5425,
+      "score_basis": {
+        "topic_overlap": 0.317,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3020212266",
+      "doi": "10.1364/optica.384160",
+      "title": "Electro-optic interface for ultrasensitive intracavity electric field measurements at microwave and terahertz frequencies",
+      "authors": [
+        "Ileana-Cristina Benea-Chelmus",
+        "Yannick Salamin",
+        "Francesca Fabiana Settembrini",
+        "Yuriy Myronovych Fedoryshyn",
+        "Wolfgang Heni",
+        "Delwin L. Elder",
+        "Larry R. Dalton",
+        "Juerg Leuthold",
+        "Jérôme Faist"
+      ],
+      "year": 2020,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "electro-optic sampling",
+        "femtosecond pulses",
+        "strong coupling",
+        "homodyne detection",
+        "standard quantum limit"
+      ],
+      "url": "https://doi.org/10.1364/optica.384160",
+      "cited_by_count": 66,
+      "importance": 0.5233,
+      "score_basis": {
+        "topic_overlap": 0.207,
+        "shared_references": 3,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3173948972",
+      "doi": "10.1002/lpor.202100051",
+      "title": "Time‐Domain Integration of Broadband Terahertz Pulses in a Tapered Two‐Wire Waveguide",
+      "authors": [
+        "Giacomo Balistreri",
+        "Alessandro Tomasino",
+        "Junliang Dong",
+        "Aycan Yurtsever",
+        "Salvatore S. Stivala",
+        "José Azaña",
+        "Roberto Morandotti"
+      ],
+      "year": 2021,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "broadband terahertz pulses",
+        "time-domain integration",
+        "terahertz signal processing"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202100051",
+      "cited_by_count": 27,
+      "importance": 0.51,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 8,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2958069725",
+      "doi": "10.1038/s41566-019-0475-6",
+      "title": "THz-to-optical conversion in wireless communications using an ultra-broadband plasmonic modulator",
+      "authors": [
+        "Sandeep Ummethala"
+      ],
+      "year": 2019,
+      "venue": "VUBIR (Vrije Universiteit Brussel)",
+      "venue_abbr": "VUBIR (Vrije Universiteit Brussel)",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz communication",
+        "gap plasmons",
+        "uni-traveling-carrier photodiode",
+        "photomixing",
+        "wireless receivers"
+      ],
+      "url": "https://doi.org/10.1038/s41566-019-0475-6",
+      "cited_by_count": 292,
+      "importance": 0.509,
+      "score_basis": {
+        "topic_overlap": 0.131,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2274961479",
+      "doi": "10.1021/acs.nanolett.5b04025",
+      "title": "Direct Conversion of Free Space Millimeter Waves to Optical Domain by Plasmonic Modulator Antenna",
+      "authors": [
+        "Yannick Salamin",
+        "Wolfgang Heni",
+        "Christian Haffner",
+        "Yuriy Myronovych Fedoryshyn",
+        "Claudia B. Hoessbacher",
+        "Romain Bonjour",
+        "Marco Zahner",
+        "D. Hillerkuss",
+        "P. Leuchtmann",
+        "Delwin L. Elder",
+        "Larry R. Dalton",
+        "Christian Haffner",
+        "Juerg Leuthold"
+      ],
+      "year": 2015,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz radiation",
+        "electric field enhancement",
+        "resonant antennas",
+        "free-space optical communication"
+      ],
+      "url": "https://doi.org/10.1021/acs.nanolett.5b04025",
+      "cited_by_count": 112,
+      "importance": 0.4829,
+      "score_basis": {
+        "topic_overlap": 0.295,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410997349",
+      "doi": "10.1021/acs.chemmater.5c00027",
+      "title": "Ultrahigh Performance Cross-Linkable Organic Electro-Optic Material for Hybrid Modulators",
+      "authors": [
+        "Huajun Xu",
+        "Delwin L. Elder",
+        "Lewis E. Johnson",
+        "Yovan de Coene",
+        "Wolfgang Heni",
+        "David Moor",
+        "Scott R. Hammond",
+        "Kevin M. O’Malley",
+        "Koen Clays",
+        "Juerg Leuthold",
+        "Larry R. Dalton",
+        "Bruce H. Robinson"
+      ],
+      "year": 2025,
+      "venue": "Chemistry of Materials",
+      "venue_abbr": "Chemistry of Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "organic electro-optic materials",
+        "hyperpolarizability",
+        "Mach-Zehnder modulator",
+        "electro-optic coefficient",
+        "hyper-Rayleigh scattering"
+      ],
+      "url": "https://doi.org/10.1021/acs.chemmater.5c00027",
+      "cited_by_count": 21,
+      "importance": 0.4772,
+      "score_basis": {
+        "topic_overlap": 0.06,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2583488113",
+      "doi": "10.1364/oe.25.002627",
+      "title": "Nonlinearities of organic electro-optic materials in nanoscale slots and implications for the optimum modulator design",
+      "authors": [
+        "Wolfgang Heni",
+        "Christian Haffner",
+        "Delwin L. Elder",
+        "Andreas F. Tillack",
+        "Yuriy Myronovych Fedoryshyn",
+        "R. Cottier",
+        "Yannick Salamin",
+        "Claudia B. Hoessbacher",
+        "Ueli Koch",
+        "Bojun Cheng",
+        "Bruce H. Robinson",
+        "Larry R. Dalton",
+        "Juerg Leuthold"
+      ],
+      "year": 2017,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "organic electro-optic materials",
+        "electro-optic modulator",
+        "voltage-length product",
+        "insertion loss",
+        "nonlinear optical enhancement"
+      ],
+      "url": "https://doi.org/10.1364/oe.25.002627",
+      "cited_by_count": 156,
+      "importance": 0.4729,
+      "score_basis": {
+        "topic_overlap": 0.162,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285589045",
+      "doi": "10.1515/nanoph-2022-0141",
+      "title": "Polymer modulators in silicon photonics: review and projections",
+      "authors": [
+        "Iman Taghavi",
+        "Maryam Moridsadat",
+        "Alexander Tofini",
+        "Shaheer Raza",
+        "Nicolas A. F. Jaeger",
+        "Lukas Chrostowski",
+        "Bhavin J. Shastri",
+        "Sudip Shekhar"
+      ],
+      "year": 2022,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "silicon photonics",
+        "electro-optic effect",
+        "optical phase shifter",
+        "low driving voltage",
+        "modulation bandwidth",
+        "device aging",
+        "temperature dependence",
+        "lithium niobate modulator"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2022-0141",
+      "cited_by_count": 77,
+      "importance": 0.4568,
+      "score_basis": {
+        "topic_overlap": 0.304,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4317987686",
+      "doi": "10.1109/tthz.2023.3239809",
+      "title": "Terahertz Resonant-Tunneling Diode With Series-Fed Patch Array Antenna",
+      "authors": [
+        "Mingxiang Stephen Li",
+        "Ta Van",
+        "Christophe Fumeaux",
+        "Safumi Suzuki",
+        "Withawat Withayachumnankul"
+      ],
+      "year": 2023,
+      "venue": "IEEE Transactions on Terahertz Science and Technology",
+      "venue_abbr": "IEEE Transactions on Terahertz Science and Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "resonant tunneling diodes",
+        "terahertz sources",
+        "broadside radiation",
+        "directivity",
+        "radiation efficiency",
+        "beamwidth",
+        "sidelobe level",
+        "flat lens"
+      ],
+      "url": "https://doi.org/10.1109/tthz.2023.3239809",
+      "cited_by_count": 9,
+      "importance": 0.4291,
+      "score_basis": {
+        "topic_overlap": 0.176,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2208980477",
+      "doi": "10.1038/nphoton.2015.127",
+      "title": "All-plasmonic Mach–Zehnder modulator enabling optical high-speed communication at the microscale",
+      "authors": [
+        "Christian Haffner",
+        "Wolfgang Heni",
+        "Yuriy Myronovych Fedoryshyn",
+        "Jens Niegemann",
+        "A. Melikyan",
+        "Delwin L. Elder",
+        "Benedikt Baeuerle",
+        "Yannick Salamin",
+        "Arne Josten",
+        "Ueli Koch",
+        "Claudia B. Hoessbacher",
+        "Fabian Ducry",
+        "L. Juchli",
+        "Alexandros Emboras",
+        "D. Hillerkuss",
+        "Manfred Kohl",
+        "Larry R. Dalton",
+        "Christian Haffner",
+        "Juerg Leuthold"
+      ],
+      "year": 2015,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "high-speed optical modulation",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2015.127",
+      "cited_by_count": 604,
+      "importance": 0.42,
+      "score_basis": {
+        "topic_overlap": 0.267,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4366680545",
+      "doi": "10.1364/oe.484191",
+      "title": "D-band optical modulators using electro-optic polymer waveguides and non-coplanar patch antennas",
+      "authors": [
+        "Takahiro Kaji",
+        "Isao Morohashi",
+        "Yukihiro Tominari",
+        "Meguru Ohara",
+        "Toshiki Yamada",
+        "Akira Otomo"
+      ],
+      "year": 2023,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "carrier-to-sideband ratio",
+        "optical phase shift",
+        "radio-over-fiber"
+      ],
+      "url": "https://doi.org/10.1364/oe.484191",
+      "cited_by_count": 16,
+      "importance": 0.4082,
+      "score_basis": {
+        "topic_overlap": 0.196,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2895735558",
+      "doi": "10.1038/s41467-018-06463-z",
+      "title": "Electrically reconfigurable terahertz signal processing devices using liquid metal components",
+      "authors": [
+        "Kimberly S. Reichel",
+        "Nicolas Lozada-Smith",
+        "Ishan D. Joshipura",
+        "Jianjun Ma",
+        "Rabi Shrestha",
+        "Rajind Mendis",
+        "Michael David Dickey",
+        "Daniel M. Mittleman"
+      ],
+      "year": 2018,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz signal processing",
+        "liquid metals",
+        "terahertz waveguides",
+        "power splitting",
+        "add-drop filter",
+        "terahertz communication",
+        "polarization control",
+        "wavefront control"
+      ],
+      "url": "https://doi.org/10.1038/s41467-018-06463-z",
+      "cited_by_count": 56,
+      "importance": 0.4052,
+      "score_basis": {
+        "topic_overlap": 0.145,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2755497875",
+      "doi": "10.1364/oe.25.023784",
+      "title": "Silicon-organic hybrid (SOH) modulators for intensity-modulation / direct-detection links with line rates of up to 120 Gbit/s",
+      "authors": [
+        "Heiner Zwickel",
+        "S. Wolf",
+        "Clemens Kieninger",
+        "Y. Kutuvantavida",
+        "Matthias Lauermann",
+        "Timothy De Keulenaer",
+        "Arno Vyncke",
+        "Renato Vaernewyck",
+        "Jingdong Luo",
+        "Alex K.‐Y. Jen",
+        "W. Freude",
+        "Johan Bauwelinck",
+        "Sebastian Randel",
+        "Christian G. Koos"
+      ],
+      "year": 2017,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation",
+        "direct detection",
+        "Mach-Zehnder modulator",
+        "high-speed optical links",
+        "silicon photonics",
+        "arbitrary waveform generation"
+      ],
+      "url": "https://doi.org/10.1364/oe.25.023784",
+      "cited_by_count": 53,
+      "importance": 0.4043,
+      "score_basis": {
+        "topic_overlap": 0.187,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1542036482",
+      "doi": "10.1038/lsa.2014.54",
+      "title": "100 GHz silicon–organic hybrid modulator",
+      "authors": [
+        "L. Alloatti",
+        "R. Palmer",
+        "S. Diebold",
+        "Kai Philipp Pahl",
+        "Baoquan Chen",
+        "Raluca Dinu",
+        "Maryse Fournier",
+        "Jean-Marc Fédéli",
+        "Thomas Zwick",
+        "W. Freude",
+        "Christian G. Koos",
+        "Juerg Leuthold"
+      ],
+      "year": 2014,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "electro-optic modulation",
+        "silicon waveguides",
+        "RC time constant",
+        "electron accumulation layer",
+        "gate dielectric",
+        "voltage-length product",
+        "cladding materials"
+      ],
+      "url": "https://doi.org/10.1038/lsa.2014.54",
+      "cited_by_count": 341,
+      "importance": 0.4001,
+      "score_basis": {
+        "topic_overlap": 0.222,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3195743510",
+      "doi": "10.1364/oe.434028",
+      "title": "W-band optical modulators using electro-optic polymer waveguides and patch antenna arrays",
+      "authors": [
+        "Takahiro Kaji",
+        "Isao Morohashi",
+        "Yukihiro Tominari",
+        "Norihiko Sekine",
+        "Toshiki Yamada",
+        "Akira Otomo"
+      ],
+      "year": 2021,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "W-band",
+        "optical modulators",
+        "cyclo-olefin polymer",
+        "microstrip antenna array",
+        "carrier-to-sideband ratio",
+        "poled polymer films",
+        "radio-over-fiber",
+        "millimeter-wave photonics"
+      ],
+      "url": "https://doi.org/10.1364/oe.434028",
+      "cited_by_count": 31,
+      "importance": 0.388,
+      "score_basis": {
+        "topic_overlap": 0.218,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3159474533",
+      "doi": "10.1063/5.0039262",
+      "title": "Line-of-sight and non-line-of-sight links for dispersive terahertz wireless networks",
+      "authors": [
+        "Yasaman Ghasempour",
+        "Yasith Amarasinghe",
+        "Chia-Yi Yeh",
+        "Edward W. Knightly",
+        "Daniel M. Mittleman"
+      ],
+      "year": 2021,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "terahertz communication",
+        "non-line-of-sight paths",
+        "line-of-sight links",
+        "specular reflection",
+        "directional antennas",
+        "leaky-wave antenna",
+        "antenna alignment",
+        "bandwidth",
+        "data rate",
+        "millimeter wave"
+      ],
+      "url": "https://doi.org/10.1063/5.0039262",
+      "cited_by_count": 31,
+      "importance": 0.3712,
+      "score_basis": {
+        "topic_overlap": 0.158,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3013089882",
+      "doi": "10.1038/s41586-020-2118-y",
+      "title": "Nanoplasma-enabled picosecond switches for ultrafast electronics",
+      "authors": [
+        "Mohammad Samizadeh Nikoo",
+        "Armin Jafari",
+        "Nirmana Perera",
+        "Minghua Zhu",
+        "Giovanni Santoruvo",
+        "Elison Matioli"
+      ],
+      "year": 2020,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "nanoplasma",
+        "picosecond switching",
+        "ultrafast electronics",
+        "terahertz generation",
+        "ultrafast electron transfer",
+        "dipole antenna",
+        "rise time"
+      ],
+      "url": "https://doi.org/10.1038/s41586-020-2118-y",
+      "cited_by_count": 120,
+      "importance": 0.3693,
+      "score_basis": {
+        "topic_overlap": 0.265,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2786951150",
+      "doi": "10.1063/1.5014037",
+      "title": "Invited Article: Channel performance for indoor and outdoor terahertz wireless links",
+      "authors": [
+        "Jianjun Ma",
+        "Rabi Shrestha",
+        "Lothar Moeller",
+        "Daniel M. Mittleman"
+      ],
+      "year": 2018,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "channel characterization",
+        "indoor propagation",
+        "outdoor propagation",
+        "line-of-sight links",
+        "specular reflection",
+        "millimeter-wave communication",
+        "5G",
+        "building walls"
+      ],
+      "url": "https://doi.org/10.1063/1.5014037",
+      "cited_by_count": 168,
+      "importance": 0.3687,
+      "score_basis": {
+        "topic_overlap": 0.13,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2775205161",
+      "doi": "10.1063/1.5007683",
+      "title": "Perspective: Terahertz science and technology",
+      "authors": [
+        "Daniel M. Mittleman"
+      ],
+      "year": 2017,
+      "venue": "Journal of Applied Physics",
+      "venue_abbr": "J. Appl. Phys.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz science",
+        "terahertz technology",
+        "nonlinear optical effects",
+        "terahertz sources"
+      ],
+      "url": "https://doi.org/10.1063/1.5007683",
+      "cited_by_count": 385,
+      "importance": 0.3511,
+      "score_basis": {
+        "topic_overlap": 0.136,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1878276256",
+      "doi": "10.1038/nphoton.2015.176",
+      "title": "Frequency-division multiplexing in the terahertz range using a leaky-wave antenna",
+      "authors": [
+        "Nicholas J. Karl",
+        "Robert W. McKinney",
+        "Yasuaki Monnai",
+        "Rajind Mendis",
+        "Daniel M. Mittleman"
+      ],
+      "year": 2015,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "frequency division multiplexing",
+        "demultiplexing",
+        "leaky-wave antenna",
+        "terahertz communication",
+        "parallel-plate waveguide",
+        "spectrum allocation",
+        "broadband networks",
+        "terahertz radiation"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2015.176",
+      "cited_by_count": 216,
+      "importance": 0.3458,
+      "score_basis": {
+        "topic_overlap": 0.146,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2901601628",
+      "doi": "10.1063/1.5052628",
+      "title": "Invited Article: Ultra-broadband terahertz coherent detection via a silicon nitride-based deep sub-wavelength metallic slit",
+      "authors": [
+        "Alessandro Tomasino",
+        "Riccardo Piccoli",
+        "Y. Jestin",
+        "S. Delprat",
+        "Mohamed Chaker",
+        "Marco Peccianti",
+        "Matteo Clerici",
+        "Alessandro Busacca",
+        "Luca Razzari",
+        "Roberto Morandotti"
+      ],
+      "year": 2018,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "silicon nitride",
+        "nonlinear optical coefficients",
+        "CMOS-compatible devices",
+        "quartz substrate",
+        "dynamic range"
+      ],
+      "url": "https://doi.org/10.1063/1.5052628",
+      "cited_by_count": 16,
+      "importance": 0.3408,
+      "score_basis": {
+        "topic_overlap": 0.157,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2795868295",
+      "doi": "10.1364/oe.26.009417",
+      "title": "Twenty years of terahertz imaging [Invited]",
+      "authors": [
+        "Daniel M. Mittleman"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "terahertz imaging",
+        "terahertz radiation",
+        "imaging applications",
+        "terahertz science",
+        "research frontiers"
+      ],
+      "url": "https://doi.org/10.1364/oe.26.009417",
+      "cited_by_count": 756,
+      "importance": 0.3404,
+      "score_basis": {
+        "topic_overlap": 0.134,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2034914744",
+      "doi": "10.1063/1.3386413",
+      "title": "Review of terahertz and subterahertz wireless communications",
+      "authors": [
+        "John F. Federici",
+        "Lothar Moeller"
+      ],
+      "year": 2010,
+      "venue": "Journal of Applied Physics",
+      "venue_abbr": "J. Appl. Phys.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz communication",
+        "sub-terahertz communication",
+        "bandwidth requirements",
+        "data rate requirements",
+        "atmospheric scintillation",
+        "secure communication",
+        "point-to-point links"
+      ],
+      "url": "https://doi.org/10.1063/1.3386413",
+      "cited_by_count": 1208,
+      "importance": 0.3193,
+      "score_basis": {
+        "topic_overlap": 0.132,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285271510",
+      "doi": "10.1109/tthz.2022.3180492",
+      "title": "A High-Power Terahertz Source Over 10 mW at 0.45 THz Using an Active Antenna Array With Integrated Patch Antennas and Resonant-Tunneling Diodes",
+      "authors": [
+        "Yasushi Koyama",
+        "Yuki Kitazawa",
+        "Koji Yukimasa",
+        "Tatsuro Uchida",
+        "Takeshi Yoshioka",
+        "Kokichi Fujimoto",
+        "Takahiro Sato",
+        "Jun Iba",
+        "Katsuhito Sakurai",
+        "Takeshi Ichikawa"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Terahertz Science and Technology",
+      "venue_abbr": "IEEE Transactions on Terahertz Science and Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz sources",
+        "resonant tunneling diodes",
+        "active antenna arrays",
+        "microstrip antenna",
+        "coherent oscillations",
+        "injection locking",
+        "spatial power combining",
+        "directivity",
+        "microstrip line coupling",
+        "DC-to-RF efficiency",
+        "6G communication",
+        "terahertz imaging"
+      ],
+      "url": "https://doi.org/10.1109/tthz.2022.3180492",
+      "cited_by_count": 95,
+      "importance": 0.3193,
+      "score_basis": {
+        "topic_overlap": 0.221,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1978908111",
+      "doi": "10.1038/nphoton.2010.185",
+      "title": "Nonlinear silicon photonics",
+      "authors": [
+        "Juerg Leuthold",
+        "Christian G. Koos",
+        "W. Freude"
+      ],
+      "year": 2010,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "nonlinear optical properties",
+        "organic photonics",
+        "plastic optical fiber",
+        "optical modulators",
+        "photodetectors",
+        "light sources",
+        "optoelectronic devices",
+        "optical communication"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2010.185",
+      "cited_by_count": 1384,
+      "importance": 0.3171,
+      "score_basis": {
+        "topic_overlap": 0.149,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2053133440",
+      "doi": "10.1007/s10762-012-9878-x",
+      "title": "A Review on Thin-film Sensing with Terahertz Waves",
+      "authors": [
+        "John F. O’Hara",
+        "Withawat Withayachumnankul",
+        "Ibraheem A. I. Al-Naib"
+      ],
+      "year": 2012,
+      "venue": "Journal of Infrared Millimeter and Terahertz Waves",
+      "venue_abbr": "Journal of Infrared Millimeter and Terahertz Waves",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz sensing",
+        "terahertz time-domain spectroscopy",
+        "terahertz materials",
+        "terahertz applications"
+      ],
+      "url": "https://doi.org/10.1007/s10762-012-9878-x",
+      "cited_by_count": 249,
+      "importance": 0.3102,
+      "score_basis": {
+        "topic_overlap": 0.134,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4360989547",
+      "doi": "10.1038/s41467-023-37285-3",
+      "title": "Single-shot ultrafast terahertz photography",
+      "authors": [
+        "Junliang Dong",
+        "Pei You",
+        "Alessandro Tomasino",
+        "Aycan Yurtsever",
+        "Roberto Morandotti"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-shot imaging",
+        "ultrafast imaging",
+        "terahertz imaging",
+        "computational image reconstruction",
+        "multidimensional imaging",
+        "transient events"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-37285-3",
+      "cited_by_count": 35,
+      "importance": 0.31,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2071609164",
+      "doi": "10.1364/oe.14.004357",
+      "title": "Tailored anomalous group-velocity dispersion in silicon channel waveguides",
+      "authors": [
+        "Amy C. Turner",
+        "Christina Manolatou",
+        "Bradley S. Schmidt",
+        "Michal F. Lipson",
+        "Mark A. Foster",
+        "Jay E. Sharping",
+        "Alexander L. Gaeta"
+      ],
+      "year": 2006,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "anomalous group velocity dispersion",
+        "silicon waveguides",
+        "dispersion tuning",
+        "telecom band",
+        "photonic integrated circuits"
+      ],
+      "url": "https://doi.org/10.1364/oe.14.004357",
+      "cited_by_count": 407,
+      "importance": 0.295,
+      "score_basis": {
+        "topic_overlap": 0.167,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4394586155",
+      "doi": "10.1109/comst.2024.3385908",
+      "title": "Terahertz Communications and Sensing for 6G and Beyond: A Comprehensive Review",
+      "authors": [
+        "Wei Jiang",
+        "Wei Jiang",
+        "Q Zhou",
+        "S Melnyk",
+        "S Zhou",
+        "M A Habibi",
+        "Bin Han",
+        "H D Schotten",
+        "Marco Di Renzo",
+        "Fa-Long Luo",
+        "Victor C M Leung",
+        "Merouane Abdelkader Debbah",
+        "Markku J. Juntti",
+        "Tarek S. El-Bawab",
+        "Jiguang He"
+      ],
+      "year": 2024,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz communication",
+        "terahertz sensing",
+        "6G",
+        "radio wave propagation",
+        "channel modeling",
+        "antenna design",
+        "beamforming",
+        "transceiver",
+        "testbed"
+      ],
+      "url": "https://doi.org/10.1109/comst.2024.3385908",
+      "cited_by_count": 570,
+      "importance": 0.2861,
+      "score_basis": {
+        "topic_overlap": 0.147,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2479262060",
+      "doi": "10.1109/tthz.2016.2590947",
+      "title": "Double Bow-Tie Slot Antennas for Wideband Millimeter-Wave and Terahertz Applications",
+      "authors": [
+        "Abdullah J. Alazemi",
+        "Hyun‐Ho Yang",
+        "Gabriel M. Rebeiz"
+      ],
+      "year": 2016,
+      "venue": "IEEE Transactions on Terahertz Science and Technology",
+      "venue_abbr": "IEEE Transactions on Terahertz Science and Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "millimeter-wave antennas",
+        "terahertz antennas",
+        "wide impedance bandwidth",
+        "coplanar waveguide filters",
+        "antenna gain",
+        "radio astronomy",
+        "terahertz imaging"
+      ],
+      "url": "https://doi.org/10.1109/tthz.2016.2590947",
+      "cited_by_count": 51,
+      "importance": 0.2857,
+      "score_basis": {
+        "topic_overlap": 0.191,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2905574041",
+      "doi": "10.1063/1.5047659",
+      "title": "Tutorial: An introduction to terahertz time domain spectroscopy (THz-TDS)",
+      "authors": [
+        "Jens Neu",
+        "Charles A. Schmuttenmaer"
+      ],
+      "year": 2018,
+      "venue": "Journal of Applied Physics",
+      "venue_abbr": "J. Appl. Phys.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz time-domain spectroscopy",
+        "terahertz generation",
+        "terahertz detection",
+        "noise sources",
+        "complex refractive index",
+        "conductivity measurement",
+        "material characterization",
+        "compound identification",
+        "explosives detection",
+        "two-dimensional materials",
+        "superconductors"
+      ],
+      "url": "https://doi.org/10.1063/1.5047659",
+      "cited_by_count": 674,
+      "importance": 0.2838,
+      "score_basis": {
+        "topic_overlap": 0.142,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1974775960",
+      "doi": "10.1038/nphoton.2010.16",
+      "title": "Endless applications",
+      "authors": [
+        "Noriaki Horiuchi"
+      ],
+      "year": 2010,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "terahertz radiation",
+        "terahertz metasurfaces",
+        "terahertz beam shaping"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2010.16",
+      "cited_by_count": 78,
+      "importance": 0.2811,
+      "score_basis": {
+        "topic_overlap": 0.136,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1978908111",
+      "to": "W2071609164",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1978908111"
+        }
+      ]
+    },
+    {
+      "from": "W2053133440",
+      "to": "W2034914744",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2053133440"
+        }
+      ]
+    },
+    {
+      "from": "W2274961479",
+      "to": "W2208980477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2274961479"
+        }
+      ]
+    },
+    {
+      "from": "W2583488113",
+      "to": "W2208980477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2583488113"
+        }
+      ]
+    },
+    {
+      "from": "W2583488113",
+      "to": "W2274961479",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2583488113"
+        }
+      ]
+    },
+    {
+      "from": "W2755497875",
+      "to": "W1542036482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2755497875"
+        }
+      ]
+    },
+    {
+      "from": "W2755497875",
+      "to": "W2208980477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2755497875"
+        }
+      ]
+    },
+    {
+      "from": "W2775205161",
+      "to": "W1878276256",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2775205161"
+        }
+      ]
+    },
+    {
+      "from": "W2786951150",
+      "to": "W2034914744",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2786951150"
+        }
+      ]
+    },
+    {
+      "from": "W2798456652",
+      "to": "W1542036482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2798456652"
+        }
+      ]
+    },
+    {
+      "from": "W2798456652",
+      "to": "W2208980477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2798456652"
+        }
+      ]
+    },
+    {
+      "from": "W2798456652",
+      "to": "W2583488113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2798456652"
+        }
+      ]
+    },
+    {
+      "from": "W2798456652",
+      "to": "W2755497875",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2798456652"
+        }
+      ]
+    },
+    {
+      "from": "W2895735558",
+      "to": "W1878276256",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2895735558"
+        }
+      ]
+    },
+    {
+      "from": "W2895735558",
+      "to": "W2786951150",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2895735558"
+        }
+      ]
+    },
+    {
+      "from": "W2903983414",
+      "to": "W1878276256",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2903983414"
+        }
+      ]
+    },
+    {
+      "from": "W2903983414",
+      "to": "W2775205161",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2903983414"
+        }
+      ]
+    },
+    {
+      "from": "W2903983414",
+      "to": "W2786951150",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2903983414"
+        }
+      ]
+    },
+    {
+      "from": "W2903983414",
+      "to": "W2795868295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2903983414"
+        }
+      ]
+    },
+    {
+      "from": "W2903983414",
+      "to": "W2895735558",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2903983414"
+        }
+      ]
+    },
+    {
+      "from": "W2958069725",
+      "to": "W2208980477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2958069725"
+        }
+      ]
+    },
+    {
+      "from": "W2958069725",
+      "to": "W2274961479",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2958069725"
+        }
+      ]
+    },
+    {
+      "from": "W2958069725",
+      "to": "W2798456652",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2958069725"
+        }
+      ]
+    },
+    {
+      "from": "W2992673092",
+      "to": "W2208980477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2992673092"
+        }
+      ]
+    },
+    {
+      "from": "W2992673092",
+      "to": "W2274961479",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2992673092"
+        }
+      ]
+    },
+    {
+      "from": "W2992673092",
+      "to": "W2583488113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2992673092"
+        }
+      ]
+    },
+    {
+      "from": "W2992673092",
+      "to": "W2775205161",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2992673092"
+        }
+      ]
+    },
+    {
+      "from": "W2992673092",
+      "to": "W2903983414",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2992673092"
+        }
+      ]
+    },
+    {
+      "from": "W3013089882",
+      "to": "W2903983414",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3013089882"
+        }
+      ]
+    },
+    {
+      "from": "W3020212266",
+      "to": "W2274961479",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3020212266"
+        }
+      ]
+    },
+    {
+      "from": "W3020212266",
+      "to": "W2903983414",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3020212266"
+        }
+      ]
+    },
+    {
+      "from": "W3020212266",
+      "to": "W2992673092",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3020212266"
+        }
+      ]
+    },
+    {
+      "from": "W3159474533",
+      "to": "W1878276256",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3159474533"
+        }
+      ]
+    },
+    {
+      "from": "W3159474533",
+      "to": "W2786951150",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3159474533"
+        }
+      ]
+    },
+    {
+      "from": "W3173948972",
+      "to": "W1974775960",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173948972"
+        }
+      ]
+    },
+    {
+      "from": "W3173948972",
+      "to": "W2034914744",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173948972"
+        }
+      ]
+    },
+    {
+      "from": "W3173948972",
+      "to": "W2795868295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173948972"
+        }
+      ]
+    },
+    {
+      "from": "W3173948972",
+      "to": "W2895735558",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173948972"
+        }
+      ]
+    },
+    {
+      "from": "W3173948972",
+      "to": "W2901601628",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173948972"
+        }
+      ]
+    },
+    {
+      "from": "W3173948972",
+      "to": "W2958069725",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173948972"
+        }
+      ]
+    },
+    {
+      "from": "W3176749292",
+      "to": "W2903983414",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3176749292"
+        }
+      ]
+    },
+    {
+      "from": "W3176749292",
+      "to": "W2905574041",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3176749292"
+        }
+      ]
+    },
+    {
+      "from": "W3176749292",
+      "to": "W2958069725",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3176749292"
+        }
+      ]
+    },
+    {
+      "from": "W3176749292",
+      "to": "W2992673092",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3176749292"
+        }
+      ]
+    },
+    {
+      "from": "W3176749292",
+      "to": "W3020212266",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3176749292"
+        }
+      ]
+    },
+    {
+      "from": "W3195743510",
+      "to": "W2958069725",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3195743510"
+        }
+      ]
+    },
+    {
+      "from": "W4285589045",
+      "to": "W1542036482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285589045"
+        }
+      ]
+    },
+    {
+      "from": "W4285589045",
+      "to": "W2798456652",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285589045"
+        }
+      ]
+    },
+    {
+      "from": "W4317987686",
+      "to": "W4285271510",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4317987686"
+        }
+      ]
+    },
+    {
+      "from": "W4360989547",
+      "to": "W2795868295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360989547"
+        }
+      ]
+    },
+    {
+      "from": "W4366680545",
+      "to": "W2958069725",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4366680545"
+        }
+      ]
+    },
+    {
+      "from": "W4366680545",
+      "to": "W3195743510",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4366680545"
+        }
+      ]
+    },
+    {
+      "from": "W4385491043",
+      "to": "W2795868295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385491043"
+        }
+      ]
+    },
+    {
+      "from": "W4385491043",
+      "to": "W2798456652",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385491043"
+        }
+      ]
+    },
+    {
+      "from": "W4385491043",
+      "to": "W2992673092",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385491043"
+        }
+      ]
+    },
+    {
+      "from": "W4385491043",
+      "to": "W3020212266",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385491043"
+        }
+      ]
+    },
+    {
+      "from": "W4386634485",
+      "to": "W2208980477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386634485"
+        }
+      ]
+    },
+    {
+      "from": "W4386634485",
+      "to": "W2274961479",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386634485"
+        }
+      ]
+    },
+    {
+      "from": "W4386634485",
+      "to": "W2992673092",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386634485"
+        }
+      ]
+    },
+    {
+      "from": "W4386634485",
+      "to": "W3195743510",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386634485"
+        }
+      ]
+    },
+    {
+      "from": "W4387252986",
+      "to": "W1542036482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387252986"
+        }
+      ]
+    },
+    {
+      "from": "W4387252986",
+      "to": "W2208980477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387252986"
+        }
+      ]
+    },
+    {
+      "from": "W4387252986",
+      "to": "W2583488113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387252986"
+        }
+      ]
+    },
+    {
+      "from": "W4387252986",
+      "to": "W2798456652",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387252986"
+        }
+      ]
+    },
+    {
+      "from": "W4387252986",
+      "to": "W2958069725",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387252986"
+        }
+      ]
+    },
+    {
+      "from": "W4387252986",
+      "to": "W2992673092",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387252986"
+        }
+      ]
+    },
+    {
+      "from": "W4387252986",
+      "to": "W3020212266",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387252986"
+        }
+      ]
+    },
+    {
+      "from": "W4396605417",
+      "to": "W1542036482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396605417"
+        }
+      ]
+    },
+    {
+      "from": "W4396605417",
+      "to": "W2208980477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396605417"
+        }
+      ]
+    },
+    {
+      "from": "W4396605417",
+      "to": "W2274961479",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396605417"
+        }
+      ]
+    },
+    {
+      "from": "W4396605417",
+      "to": "W2583488113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396605417"
+        }
+      ]
+    },
+    {
+      "from": "W4396605417",
+      "to": "W2992673092",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396605417"
+        }
+      ]
+    },
+    {
+      "from": "W4396605417",
+      "to": "W4386634485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396605417"
+        }
+      ]
+    },
+    {
+      "from": "W4396605417",
+      "to": "W4387252986",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396605417"
+        }
+      ]
+    },
+    {
+      "from": "W4410997349",
+      "to": "W1542036482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410997349"
+        }
+      ]
+    },
+    {
+      "from": "W4410997349",
+      "to": "W2583488113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410997349"
+        }
+      ]
+    },
+    {
+      "from": "W4410997349",
+      "to": "W2798456652",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410997349"
+        }
+      ]
+    },
+    {
+      "from": "W4410997349",
+      "to": "W4285589045",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410997349"
+        }
+      ]
+    },
+    {
+      "from": "W4410997349",
+      "to": "W4366680545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410997349"
+        }
+      ]
+    },
+    {
+      "from": "W4410997349",
+      "to": "W4387252986",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410997349"
+        }
+      ]
+    },
+    {
+      "from": "W7117888085",
+      "to": "W2903983414",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7117888085"
+        }
+      ]
+    },
+    {
+      "from": "W7117888085",
+      "to": "W2958069725",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7117888085"
+        }
+      ]
+    },
+    {
+      "from": "W7117888085",
+      "to": "W2992673092",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7117888085"
+        }
+      ]
+    },
+    {
+      "from": "W7117888085",
+      "to": "W3020212266",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7117888085"
+        }
+      ]
+    },
+    {
+      "from": "W7117888085",
+      "to": "W4386634485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7117888085"
+        }
+      ]
+    },
+    {
+      "from": "W7117888085",
+      "to": "W4387252986",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7117888085"
+        }
+      ]
+    },
+    {
+      "from": "W7117888085",
+      "to": "W4394586155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7117888085"
+        }
+      ]
+    },
+    {
+      "from": "W7117888085",
+      "to": "W4396605417",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7117888085"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W1542036482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W1878276256",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W1974775960",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W1978908111",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2034914744",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2053133440",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2071609164",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2208980477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2274961479",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2479262060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2583488113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2755497875",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2775205161",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2786951150",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2795868295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2798456652",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2895735558",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2901601628",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2903983414",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2905574041",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2958069725",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W2992673092",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W3013089882",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W3020212266",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W3159474533",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W3173948972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W3176749292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W3195743510",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W4285271510",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W4285589045",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W4317987686",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W4360989547",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W4366680545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W4385491043",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W4386634485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W4387252986",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W4394586155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W4396605417",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W4410997349",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    },
+    {
+      "from": "W7204953286",
+      "to": "W7117888085",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204953286"
+        }
+      ]
+    }
+  ]
 }

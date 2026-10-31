@@ -1,39 +1,2492 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "0da9a93d-6242-4e2c-b601-c9f14dbd4339",
-  "root": "doi:10.1021/acsphotonics.6c01728",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7214625768",
+  "status": "ok",
+  "checked_at": "2026-10-30T00:55:04.393861+00:00",
+  "coverage": {
+    "references_found": 32,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 32,
+    "displayed": 32
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1021/acsphotonics.6c01728",
+      "id": "W7214625768",
       "doi": "10.1021/acsphotonics.6c01728",
       "title": "Monolithically Integrated Perovskites for High-Performance Vapor-Deposited Narrowband Photodetectors",
       "authors": [
         "Serhii Derenko",
-        "Lidón Gil-Escrig",
+        "Lidón Gil‐Escrig",
         "Joost W. C. Reinders",
-        "Cristina Roldán-Carmona",
+        "Cristina Roldán‐Carmona",
         "Daniel Tordera",
         "Michele Sessolo"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "ACS Photonics",
       "venue_abbr": "ACS Photonics",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "monolithic integration",
+        "spectral selectivity",
+        "optical filters",
+        "photodiode",
+        "device stability",
+        "detectivity"
+      ],
       "url": "https://doi.org/10.1021/acsphotonics.6c01728",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/0da9a93d-6242-4e2c-b601-c9f14dbd4339.html",
       "summary": "摘要报告：窄带探测器通常需外加滤光片（增加复杂度、损害鲁棒性）或电学有源滤光（寄生光电流限制光谱抑制）。该文在探测器架构内单片集成光学有源但电学无源的钙钛矿滤光层，并与外置滤光配置对比：集成架构在保持有源光电二极管性能的同时实现窄带（750 nm处FWHM 50 nm）；比探测度数值指数待核（−0.5 V）；集成器件在空气中存放三个月无可见滤光退化，非集成配置则存在退化。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4317438752",
+      "doi": "10.34133/adi.0006",
+      "title": "Recent Progress of Narrowband Perovskite Photodetectors: Fundamental Physics and Strategies",
+      "authors": [
+        "Dan Wu",
+        "Yilan Zhang",
+        "Chenxi Liu",
+        "Zeji Sun",
+        "Zhaojin Wang",
+        "Zhaowen Lin",
+        "Mingxia Qiu",
+        "Dongju Fu",
+        "Kai Wang"
+      ],
+      "year": 2023,
+      "venue": "Advanced Devices & Instrumentation",
+      "venue_abbr": "Advanced Devices & Instrumentation",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite photodetectors",
+        "halide perovskites",
+        "device physics",
+        "solution-processed materials",
+        "quantum dots",
+        "organic semiconductors",
+        "device architecture",
+        "perovskite morphology"
+      ],
+      "url": "https://doi.org/10.34133/adi.0006",
+      "cited_by_count": 39,
+      "importance": 0.6419,
+      "score_basis": {
+        "topic_overlap": 0.426,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4399385980",
+      "doi": "10.1002/adom.202400464",
+      "title": "Vacuum‐Deposited Perovskite Photodiodes for Visible and X‐Ray Photon Detection",
+      "authors": [
+        "Lucía Martínez‐Goyeneche",
+        "Riccardo Ollearo",
+        "Camilla Bordoni",
+        "Andrea Ciavatti",
+        "Albert J. J. M. van Breemen",
+        "Gerwin H. Gelinck",
+        "Beatrice Fraboni",
+        "Daniel Tordera",
+        "Michele Sessolo"
+      ],
+      "year": 2024,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite photodiodes",
+        "halide perovskites",
+        "vacuum deposition",
+        "hole transport layer",
+        "X-ray detection",
+        "visible light detection",
+        "noise current",
+        "detectivity",
+        "radiation stability",
+        "detection limit"
+      ],
+      "url": "https://doi.org/10.1002/adom.202400464",
+      "cited_by_count": 14,
+      "importance": 0.6084,
+      "score_basis": {
+        "topic_overlap": 0.308,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1898252091",
+      "doi": "10.1038/nphoton.2015.175",
+      "title": "Filterless narrowband visible photodetectors",
+      "authors": [
+        "Qianqian Lin",
+        "Ardalan Armin",
+        "Paul L. Burn",
+        "Paul Meredith"
+      ],
+      "year": 2015,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "organohalide perovskites",
+        "organic compounds",
+        "charge collection",
+        "external quantum efficiency",
+        "color imaging"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2015.175",
+      "cited_by_count": 598,
+      "importance": 0.5843,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313528074",
+      "doi": "10.1039/d2tc05126e",
+      "title": "Multimodal photodetectors with vacuum deposited perovskite bilayers",
+      "authors": [
+        "Lucía Martínez‐Goyeneche",
+        "Lidón Gil‐Escrig",
+        "Daniel Tordera",
+        "Cristina Roldán‐Carmona",
+        "Henk J. Bolink",
+        "Michele Sessolo"
+      ],
+      "year": 2023,
+      "venue": "Journal of Materials Chemistry C",
+      "venue_abbr": "Journal of Materials Chemistry C",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite photodetectors",
+        "vacuum deposition",
+        "broadband photodetection",
+        "narrowband photodetection",
+        "band gap tuning",
+        "metal oxide interlayers",
+        "interlayer mixing"
+      ],
+      "url": "https://doi.org/10.1039/d2tc05126e",
+      "cited_by_count": 7,
+      "importance": 0.5816,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 11,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3202868801",
+      "doi": "10.1039/d1cc04447h",
+      "title": "Perovskite photodetectors and their application in artificial photonic synapses",
+      "authors": [
+        "Xin Huang",
+        "Yunlong Guo",
+        "Yunqi Liu"
+      ],
+      "year": 2021,
+      "venue": "Chemical Communications",
+      "venue_abbr": "Chemical Communications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite photodetectors",
+        "organic-inorganic hybrid perovskites",
+        "neuromorphic computing",
+        "photoconductors",
+        "photodiode",
+        "phototransistor",
+        "detectivity",
+        "optoelectronic properties",
+        "artificial intelligence"
+      ],
+      "url": "https://doi.org/10.1039/d1cc04447h",
+      "cited_by_count": 51,
+      "importance": 0.5794,
+      "score_basis": {
+        "topic_overlap": 0.31,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412931395",
+      "doi": "10.1038/s41578-025-00830-1",
+      "title": "Towards high and reliable specific detectivity in visible and infrared perovskite and organic photodiodes",
+      "authors": [
+        "Davide Nodari",
+        "Zhuoran Qiao",
+        "Francesco Furlan",
+        "Oskar J. Sandberg",
+        "Koen Vandewal",
+        "Nicola Gasparini"
+      ],
+      "year": 2025,
+      "venue": "Nature Reviews Materials",
+      "venue_abbr": "Nature Reviews Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite photodiodes",
+        "organic photodiodes",
+        "detectivity",
+        "near-infrared photodetection",
+        "UV detection",
+        "charge recombination",
+        "photodetector characterization"
+      ],
+      "url": "https://doi.org/10.1038/s41578-025-00830-1",
+      "cited_by_count": 49,
+      "importance": 0.5727,
+      "score_basis": {
+        "topic_overlap": 0.273,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2901606073",
+      "doi": "10.1021/acs.nanolett.8b03209",
+      "title": "Narrowband Perovskite Photodetector-Based Image Array for Potential Application in Artificial Vision",
+      "authors": [
+        "Jie Xue",
+        "Zhengfeng Zhu",
+        "Xiaobao Xu",
+        "Yu Gu",
+        "Shalong Wang",
+        "Leimeng Xu",
+        "Yousheng Zou",
+        "Jizhong Song",
+        "Haibo Zeng",
+        "Qian Chen"
+      ],
+      "year": 2018,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite photodetectors",
+        "narrowband photodetection",
+        "CsPbBr3",
+        "image sensor arrays",
+        "artificial vision",
+        "color recognition",
+        "band gap tuning",
+        "polycrystalline perovskite films",
+        "detectivity"
+      ],
+      "url": "https://doi.org/10.1021/acs.nanolett.8b03209",
+      "cited_by_count": 267,
+      "importance": 0.5512,
+      "score_basis": {
+        "topic_overlap": 0.403,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410376595",
+      "doi": "10.1039/d5el00021a",
+      "title": "Tuning substrate temperature for enhanced vacuum-deposited wide-bandgap perovskite solar cells: insights from morphology, charge transport, and drift-diffusion simulations",
+      "authors": [
+        "Lidón Gil‐Escrig",
+        "Jasmeen Nespoli",
+        "Fransien D. Elhorst",
+        "Federico Ventosinos",
+        "Cristina Roldán‐Carmona",
+        "L. Jan Anton Koster",
+        "Tom J. Savenije",
+        "Michele Sessolo",
+        "Henk J. Bolink"
+      ],
+      "year": 2025,
+      "venue": "EES solar.",
+      "venue_abbr": "EES solar.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "wide-bandgap perovskite solar cells",
+        "substrate temperature",
+        "formamidinium iodide",
+        "vapor deposition",
+        "film morphology",
+        "carrier mobility",
+        "ion mobility",
+        "charge trapping",
+        "interface energetics",
+        "deposition rate",
+        "thermal stability",
+        "drift-diffusion simulation"
+      ],
+      "url": "https://doi.org/10.1039/d5el00021a",
+      "cited_by_count": 13,
+      "importance": 0.5208,
+      "score_basis": {
+        "topic_overlap": 0.157,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3126754914",
+      "doi": "10.1021/acsenergylett.0c02445",
+      "title": "Efficient Wide-Bandgap Mixed-Cation and Mixed-Halide Perovskite Solar Cells by Vacuum Deposition",
+      "authors": [
+        "Lidón Gil‐Escrig",
+        "Chris Dreeßen",
+        "Francisco Palazón",
+        "Zafer M. Hawash",
+        "Ellen Moons",
+        "Steve Albrecht",
+        "Michele Sessolo",
+        "Henk J. Bolink"
+      ],
+      "year": 2021,
+      "venue": "ACS Energy Letters",
+      "venue_abbr": "ACS Energy Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite solar cells",
+        "mixed-cation perovskites",
+        "mixed-halide perovskites",
+        "wide-bandgap perovskites",
+        "vacuum deposition",
+        "halide segregation",
+        "power conversion efficiency",
+        "device stability"
+      ],
+      "url": "https://doi.org/10.1021/acsenergylett.0c02445",
+      "cited_by_count": 168,
+      "importance": 0.5191,
+      "score_basis": {
+        "topic_overlap": 0.176,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2756391639",
+      "doi": "10.1002/adom.201700672",
+      "title": "Self‐Filtered Narrowband Perovskite Photodetectors with Ultrafast and Tuned Spectral Response",
+      "authors": [
+        "Lingliang Li",
+        "Yehao Deng",
+        "Chunxiong Bao",
+        "Yanjun Fang",
+        "Haotong Wei",
+        "Shi Tang",
+        "Fujun Zhang",
+        "Jinsong Huang"
+      ],
+      "year": 2017,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite photodetectors",
+        "bandpass filtering",
+        "band gap tuning",
+        "ultrafast response",
+        "visible light detection"
+      ],
+      "url": "https://doi.org/10.1002/adom.201700672",
+      "cited_by_count": 109,
+      "importance": 0.5124,
+      "score_basis": {
+        "topic_overlap": 0.294,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412532857",
+      "doi": "10.1021/acsphotonics.4c01942",
+      "title": "Resonant Cavity Effect for Spectrally Tunable and Efficient Narrowband Perovskite Photodetectors",
+      "authors": [
+        "Zher Ying Ooi",
+        "Shenyu Nie",
+        "G. Vega",
+        "May Ching Lai",
+        "Alberto Jiménez‐Solano",
+        "Chieh‐Szu Huang",
+        "Hao Wang",
+        "Tianjun Liu",
+        "Krzysztof Gal̷kowski",
+        "Michał P. Nowak",
+        "Piotr Nyga",
+        "Qixiang Cheng",
+        "Caterina Ducati",
+        "Sol Carretero‐Palacios",
+        "Simon Kahmann",
+        "Samuel D. Stranks",
+        "Miguel Anaya"
+      ],
+      "year": 2025,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "perovskite photodetectors",
+        "resonant cavity enhancement",
+        "narrowband photodetection",
+        "spectral tuning",
+        "external quantum efficiency",
+        "detectivity",
+        "photonic crystals",
+        "halide segregation",
+        "perovskite layer thickness",
+        "color imaging",
+        "low noise",
+        "high-speed switching"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.4c01942",
+      "cited_by_count": 13,
+      "importance": 0.489,
+      "score_basis": {
+        "topic_overlap": 0.309,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4221004255",
+      "doi": "10.1016/j.mtadv.2022.100232",
+      "title": "Recent progress of perovskite devices fabricated using thermal evaporation method: Perspective and outlook",
+      "authors": [
+        "Sa‐Rang Bae",
+        "Do Yeon Heo",
+        "Soo Young Kim"
+      ],
+      "year": 2022,
+      "venue": "Materials Today Advances",
+      "venue_abbr": "Materials Today Advances",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "halide perovskites",
+        "thermal evaporation",
+        "spin coating",
+        "perovskite thin films",
+        "perovskite solar cells",
+        "perovskite light-emitting diodes",
+        "film thickness control",
+        "film uniformity"
+      ],
+      "url": "https://doi.org/10.1016/j.mtadv.2022.100232",
+      "cited_by_count": 120,
+      "importance": 0.482,
+      "score_basis": {
+        "topic_overlap": 0.249,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2580498825",
+      "doi": "10.1038/natrevmats.2016.100",
+      "title": "Solution-processed semiconductors for next-generation photodetectors",
+      "authors": [
+        "Francisco Pelayo García de Arquer",
+        "Ardalan Armin",
+        "Paul Meredith",
+        "Edward Hartley Sargent"
+      ],
+      "year": 2017,
+      "venue": "Nature Reviews Materials",
+      "venue_abbr": "Nature Reviews Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "solution-processed semiconductors",
+        "photodetectors",
+        "organic semiconductors",
+        "halide perovskites",
+        "quantum dots",
+        "perovskite photodiodes",
+        "flexible photodetectors",
+        "CMOS integration",
+        "optical sensing"
+      ],
+      "url": "https://doi.org/10.1038/natrevmats.2016.100",
+      "cited_by_count": 1528,
+      "importance": 0.4799,
+      "score_basis": {
+        "topic_overlap": 0.178,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2078019609",
+      "doi": "10.1021/jz500279b",
+      "title": "Organometallic Halide Perovskites: Sharp Optical Absorption Edge and Its Relation to Photovoltaic Performance",
+      "authors": [
+        "Stefaan De Wolf",
+        "Jakub Holovský",
+        "Soo‐Jin Moon",
+        "Philipp Löper",
+        "Bjoern Niesen",
+        "Martin Ledinský",
+        "Franz‐Josef Haug",
+        "Jun‐Ho Yum",
+        "Christophe Ballif"
+      ],
+      "year": 2014,
+      "venue": "The Journal of Physical Chemistry Letters",
+      "venue_abbr": "The Journal of Physical Chemistry Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "organometallic halide perovskites",
+        "methylammonium lead iodide",
+        "optical absorption edge",
+        "Urbach energy",
+        "absorption coefficient",
+        "photothermal deflection spectroscopy",
+        "photocurrent spectroscopy",
+        "deep state",
+        "open-circuit voltage",
+        "moisture degradation",
+        "perovskite solar cells",
+        "thin films"
+      ],
+      "url": "https://doi.org/10.1021/jz500279b",
+      "cited_by_count": 2859,
+      "importance": 0.4672,
+      "score_basis": {
+        "topic_overlap": 0.26,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2073726416",
+      "doi": "10.1126/science.1243982",
+      "title": "Electron-Hole Diffusion Lengths Exceeding 1 Micrometer in an Organometal Trihalide Perovskite Absorber",
+      "authors": [
+        "Samuel D. Stranks",
+        "Giles E. Eperon",
+        "Giulia Grancini",
+        "Christopher Menelaou",
+        "Marcelo J. P. Alcocer",
+        "Tomas Leijtens",
+        "Laura M. Herz",
+        "Annamaria Petrozza",
+        "Henry James Snaith"
+      ],
+      "year": 2013,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "organic-inorganic hybrid perovskites",
+        "mixed-halide perovskites",
+        "methylammonium lead iodide",
+        "diffusion coefficient",
+        "carrier lifetime",
+        "planar heterojunction solar cells",
+        "transient absorption spectroscopy",
+        "photoluminescence quenching",
+        "perovskite absorbers"
+      ],
+      "url": "https://doi.org/10.1126/science.1243982",
+      "cited_by_count": 10412,
+      "importance": 0.461,
+      "score_basis": {
+        "topic_overlap": 0.247,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3006440331",
+      "doi": "10.1126/sciadv.aaw7453",
+      "title": "Low-frequency lattice phonons in halide perovskites explain high defect tolerance toward electron-hole recombination",
+      "authors": [
+        "Weibin Chu",
+        "Qijing Zheng",
+        "Oleg V. Prezhdo",
+        "Jin Zhao",
+        "Wissam  Abdo Saidi"
+      ],
+      "year": 2020,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "halide perovskites",
+        "defect tolerance",
+        "electron-hole recombination",
+        "nonradiative recombination",
+        "nonadiabatic coupling",
+        "photoexcited carriers",
+        "bulk modulus",
+        "soft lattice"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.aaw7453",
+      "cited_by_count": 322,
+      "importance": 0.4604,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3165254853",
+      "doi": "10.1002/advs.202100569",
+      "title": "Recent Progress on Electrical and Optical Manipulations of Perovskite Photodetectors",
+      "authors": [
+        "Fang Wang",
+        "Xuming Zou",
+        "Mengjian Xu",
+        "Hao Wang",
+        "Hailu Wang",
+        "Huijun Guo",
+        "Jiaxiang Guo",
+        "Peng Wang",
+        "Meng Peng",
+        "Zhen Wang",
+        "Yang Wang",
+        "Jinshui Miao",
+        "Fansheng Chen",
+        "Jianlu Wang",
+        "Xiaoshuang Chen",
+        "Anlian Pan",
+        "Chongxin Shan",
+        "Lei Liao",
+        "Weida Hu"
+      ],
+      "year": 2021,
+      "venue": "Advanced Science",
+      "venue_abbr": "Advanced Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite photodetectors",
+        "perovskite solar cells",
+        "light absorption efficiency",
+        "quantum efficiency",
+        "low power consumption"
+      ],
+      "url": "https://doi.org/10.1002/advs.202100569",
+      "cited_by_count": 315,
+      "importance": 0.4566,
+      "score_basis": {
+        "topic_overlap": 0.37,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4319794902",
+      "doi": "10.1002/solr.202201073",
+      "title": "Photovoltaic Devices Using Sublimed Methylammonium Lead Iodide Perovskites: Long‐Term Reproducible Processing",
+      "authors": [
+        "Kassio P. S. Zanoni",
+        "Lucía Martínez‐Goyeneche",
+        "Chris Dreeßen",
+        "Michele Sessolo",
+        "Henk J. Bolink"
+      ],
+      "year": 2023,
+      "venue": "Solar RRL",
+      "venue_abbr": "Solar RRL",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "methylammonium lead iodide",
+        "co-evaporation",
+        "perovskite solar cells",
+        "quartz crystal microbalance",
+        "batch-to-batch reproducibility"
+      ],
+      "url": "https://doi.org/10.1002/solr.202201073",
+      "cited_by_count": 32,
+      "importance": 0.4504,
+      "score_basis": {
+        "topic_overlap": 0.134,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2760304410",
+      "doi": "10.1016/j.joule.2017.07.014",
+      "title": "Vapor-Deposited Perovskites: The Route to High-Performance Solar Cell Production?",
+      "authors": [
+        "Jorge Ávila",
+        "Cristina Momblona",
+        "Pablo P. Boix",
+        "Michele Sessolo",
+        "Henk J. Bolink"
+      ],
+      "year": 2017,
+      "venue": "Joule",
+      "venue_abbr": "Joule",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite solar cells",
+        "vapor deposition",
+        "perovskite thin films",
+        "large-area fabrication",
+        "industrial-scale production",
+        "solution processing",
+        "thin film deposition"
+      ],
+      "url": "https://doi.org/10.1016/j.joule.2017.07.014",
+      "cited_by_count": 379,
+      "importance": 0.4443,
+      "score_basis": {
+        "topic_overlap": 0.21,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4321185952",
+      "doi": "10.1126/sciadv.adf9861",
+      "title": "Vitality surveillance at distance using thin-film tandem-like narrowband near-infrared photodiodes with light-enhanced responsivity",
+      "authors": [
+        "Riccardo Ollearo",
+        "Xiao Ma",
+        "Hylke B. Akkerman",
+        "Marco Fattori",
+        "Matthew J. Dyson",
+        "Albert J. J. M. van Breemen",
+        "Stefan C. J. Meskers",
+        "Wijnand M. Dijkstra",
+        "René A. J. Janssen",
+        "Gerwin H. Gelinck"
+      ],
+      "year": 2023,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "thin-film photodiodes",
+        "near-infrared photodetection",
+        "remote vital sign monitoring",
+        "heart rate measurement",
+        "respiratory rate measurement",
+        "dark current",
+        "solution-processed photodetectors"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.adf9861",
+      "cited_by_count": 78,
+      "importance": 0.4358,
+      "score_basis": {
+        "topic_overlap": 0.146,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3082290582",
+      "doi": "10.1002/aenm.202001959",
+      "title": "Defect Tolerance and Intolerance in Metal‐Halide Perovskites",
+      "authors": [
+        "Guan‐Woo Kim",
+        "Annamaria Petrozza"
+      ],
+      "year": 2020,
+      "venue": "Advanced Energy Materials",
+      "venue_abbr": "Advanced Energy Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "halide perovskites",
+        "defect tolerance",
+        "defect passivation",
+        "photostability",
+        "optoelectronic properties",
+        "carrier diffusion length",
+        "ambipolar transport",
+        "perovskite solar cells"
+      ],
+      "url": "https://doi.org/10.1002/aenm.202001959",
+      "cited_by_count": 201,
+      "importance": 0.4334,
+      "score_basis": {
+        "topic_overlap": 0.252,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3127980211",
+      "doi": "10.1016/j.jechem.2020.12.001",
+      "title": "Large-area perovskite films for PV applications: A perspective from nucleation and crystallization",
+      "authors": [
+        "Yuanhang Yang",
+        "Zexu Xue",
+        "Long Chen",
+        "Cho Fai Jonathan Lau",
+        "Zhiping Wang"
+      ],
+      "year": 2020,
+      "venue": "Journal of Energy Chemistry",
+      "venue_abbr": "Journal of Energy Chemistry",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite solar cells",
+        "large-area perovskite films",
+        "nucleation",
+        "crystallization",
+        "solution processing",
+        "film morphology",
+        "crystallization control"
+      ],
+      "url": "https://doi.org/10.1016/j.jechem.2020.12.001",
+      "cited_by_count": 20,
+      "importance": 0.4225,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2129970907",
+      "doi": "10.1126/science.1243167",
+      "title": "Long-Range Balanced Electron- and Hole-Transport Lengths in Organic-Inorganic CH 3 NH 3 PbI 3",
+      "authors": [
+        "Guichuan Xing",
+        "Nripan Mathews",
+        "Shuangyong Sun",
+        "Swee Sien Lim",
+        "Yeng Ming Lam",
+        "Michaël Grätzel",
+        "Subodh G. Mhaisalkar",
+        "Tze Chien Sum"
+      ],
+      "year": 2013,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "methylammonium lead iodide",
+        "perovskite solar cells",
+        "charge transport",
+        "exciton diffusion",
+        "bilayer interface",
+        "femtosecond transient absorption",
+        "low-temperature solution processing",
+        "photophysical properties"
+      ],
+      "url": "https://doi.org/10.1126/science.1243167",
+      "cited_by_count": 6916,
+      "importance": 0.405,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387734755",
+      "doi": "10.1021/acsenergylett.3c01724",
+      "title": "Fast Coevaporation of 1 μm Thick Perovskite Solar Cells",
+      "authors": [
+        "Manuel Piot",
+        "Javier Enrique Sebastian Alonso",
+        "Kassio P. S. Zanoni",
+        "Nathan Rodkey",
+        "Federico Ventosinos",
+        "Cristina Roldán‐Carmona",
+        "Michele Sessolo",
+        "Henk J. Bolink"
+      ],
+      "year": 2023,
+      "venue": "ACS Energy Letters",
+      "venue_abbr": "ACS Energy Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "perovskite solar cells",
+        "co-evaporation",
+        "thin film deposition",
+        "deposition rate",
+        "film thickness",
+        "stoichiometry control",
+        "structural properties",
+        "power conversion efficiency",
+        "industrialization"
+      ],
+      "url": "https://doi.org/10.1021/acsenergylett.3c01724",
+      "cited_by_count": 34,
+      "importance": 0.3925,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3125054902",
+      "doi": "10.1002/aesr.202000065",
+      "title": "Crystal Reorientation and Amorphization Induced by Stressing Efficient and Stable P–I–N Vacuum‐Processed MAPbI3 Perovskite Solar Cells",
+      "authors": [
+        "İsmail Cihan Kaya",
+        "Kassio P. S. Zanoni",
+        "Francisco Palazón",
+        "Michele Sessolo",
+        "Hasan Akyıldız",
+        "Savaş Sönmezoğlu",
+        "Henk J. Bolink"
+      ],
+      "year": 2021,
+      "venue": "Advanced Energy and Sustainability Research",
+      "venue_abbr": "Advanced Energy and Sustainability Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "MAPbI3 perovskite solar cells",
+        "vacuum deposition",
+        "long-term stability",
+        "thermal stability",
+        "light-soaking degradation",
+        "crystal reorientation",
+        "amorphization",
+        "power conversion efficiency loss"
+      ],
+      "url": "https://doi.org/10.1002/aesr.202000065",
+      "cited_by_count": 38,
+      "importance": 0.3895,
+      "score_basis": {
+        "topic_overlap": 0.132,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1977380830",
+      "doi": "10.1038/ncomms7343",
+      "title": "Narrowband light detection via internal quantum efficiency manipulation of organic photodiodes",
+      "authors": [
+        "Ardalan Armin",
+        "Ross D. Jansen‐van Vuuren",
+        "Nikos Kopidakis",
+        "Paul L. Burn",
+        "Paul Meredith"
+      ],
+      "year": 2015,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "narrowband photodetection",
+        "organic photodiodes",
+        "internal quantum efficiency",
+        "spectral selectivity",
+        "charge collection efficiency",
+        "bulk heterojunction"
+      ],
+      "url": "https://doi.org/10.1038/ncomms7343",
+      "cited_by_count": 593,
+      "importance": 0.3808,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4200031686",
+      "doi": "10.1002/adom.202101770",
+      "title": "Thermal Evaporation for Halide Perovskite Optoelectronics: Fundamentals, Progress, and Outlook",
+      "authors": [
+        "Peipei Du",
+        "Liang Wang",
+        "Jinghui Li",
+        "Jiajun Luo",
+        "Ying Ma",
+        "Jiang Tang",
+        "Tianyou Zhai"
+      ],
+      "year": 2021,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "halide perovskites",
+        "thermal evaporation",
+        "perovskite solar cells",
+        "perovskite light-emitting diodes",
+        "large-area device fabrication",
+        "scale-up manufacturing",
+        "optoelectronic devices"
+      ],
+      "url": "https://doi.org/10.1002/adom.202101770",
+      "cited_by_count": 115,
+      "importance": 0.3704,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2081640113",
+      "doi": "10.1021/nl400349b",
+      "title": "Chemical Management for Colorful, Efficient, and Stable Inorganic–Organic Hybrid Nanostructured Solar Cells",
+      "authors": [
+        "Jun Hong Noh",
+        "Sang Hyuk Im",
+        "Jin Hyuck Heo",
+        "Tarak Nath Mandal",
+        "Sang Il Seok"
+      ],
+      "year": 2013,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "methylammonium lead iodide bromide",
+        "band gap tuning",
+        "nanostructured solar cells",
+        "mesoporous TiO2",
+        "power conversion efficiency",
+        "device stability",
+        "chemical composition tuning"
+      ],
+      "url": "https://doi.org/10.1021/nl400349b",
+      "cited_by_count": 4833,
+      "importance": 0.3664,
+      "score_basis": {
+        "topic_overlap": 0.148,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4280633800",
+      "doi": "10.1002/admt.202101747",
+      "title": "ITO Top‐Electrodes via Industrial‐Scale PLD for Efficient Buffer‐Layer‐Free Semitransparent Perovskite Solar Cells",
+      "authors": [
+        "Kassio P. S. Zanoni",
+        "Abhyuday Paliwal",
+        "M. Angeles Hernández-Fenollosa",
+        "Pierre‐Alexis Repecaud",
+        "Monica Morales‐Masis",
+        "Henk J. Bolink"
+      ],
+      "year": 2022,
+      "venue": "Advanced Materials Technologies",
+      "venue_abbr": "Adv. Mater. Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "indium tin oxide",
+        "top electrode",
+        "semitransparent perovskite solar cells",
+        "pulsed laser deposition",
+        "transparent conducting oxides",
+        "power conversion efficiency",
+        "fill factor"
+      ],
+      "url": "https://doi.org/10.1002/admt.202101747",
+      "cited_by_count": 36,
+      "importance": 0.3525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2123857657",
+      "doi": "10.1038/nmat3911",
+      "title": "Low-temperature solution-processed wavelength-tunable perovskites for lasing",
+      "authors": [
+        "Guichuan Xing",
+        "Nripan Mathews",
+        "Swee Sien Lim",
+        "Natalia Yantara",
+        "Xinfeng Liu",
+        "Dharani Sabba",
+        "Michaël Grätzel",
+        "Subodh G. Mhaisalkar",
+        "Tze Chien Sum"
+      ],
+      "year": 2014,
+      "venue": "Nature Materials",
+      "venue_abbr": "Nature Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "organic-inorganic hybrid perovskites",
+        "methylammonium lead halide",
+        "amplified spontaneous emission",
+        "optical gain",
+        "wavelength tuning",
+        "low-temperature solution processing",
+        "visible lasing",
+        "Auger recombination",
+        "ambipolar transport",
+        "on-chip light sources",
+        "perovskite solar cells"
+      ],
+      "url": "https://doi.org/10.1038/nmat3911",
+      "cited_by_count": 3225,
+      "importance": 0.3286,
+      "score_basis": {
+        "topic_overlap": 0.13,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2025134526",
+      "doi": "10.1038/ncomms2642",
+      "title": "Narrowband photodetection in the near-infrared with a plasmon-induced hot electron device",
+      "authors": [
+        "Ali Sobhani",
+        "Mark W. Knight",
+        "Yumin Wang",
+        "Bob Y. Zheng",
+        "Nicholas S. King",
+        "Lisa V. Brown",
+        "Zheyu Fang",
+        "Peter J. Nordlander",
+        "Naomi J. Halas"
+      ],
+      "year": 2013,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "plasmonic photodetectors",
+        "hot electron generation",
+        "surface plasmons",
+        "periodic gratings",
+        "Schottky barrier",
+        "silicon substrate",
+        "gold nanostructures",
+        "surface plasmon resonance biosensor",
+        "photoresponsivity"
+      ],
+      "url": "https://doi.org/10.1038/ncomms2642",
+      "cited_by_count": 704,
+      "importance": 0.2619,
+      "score_basis": {
+        "topic_overlap": 0.049,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2034749070",
+      "doi": "10.1109/40.743681",
+      "title": "Color processing in digital cameras",
+      "authors": [
+        "James E. Adams",
+        "Kenneth A. Parulski",
+        "Kevin E. Spaulding"
+      ],
+      "year": 1998,
+      "venue": "IEEE Micro",
+      "venue_abbr": "IEEE Micro",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "digital cameras",
+        "color processing",
+        "color calibration",
+        "anti-aliasing"
+      ],
+      "url": "https://doi.org/10.1109/40.743681",
+      "cited_by_count": 234,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1898252091",
+      "to": "W1977380830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1898252091"
+        }
+      ]
+    },
+    {
+      "from": "W1898252091",
+      "to": "W2073726416",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1898252091"
+        }
+      ]
+    },
+    {
+      "from": "W1898252091",
+      "to": "W2129970907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1898252091"
+        }
+      ]
+    },
+    {
+      "from": "W2073726416",
+      "to": "W2081640113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2073726416"
+        }
+      ]
+    },
+    {
+      "from": "W2078019609",
+      "to": "W2081640113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2078019609"
+        }
+      ]
+    },
+    {
+      "from": "W2123857657",
+      "to": "W2129970907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2123857657"
+        }
+      ]
+    },
+    {
+      "from": "W2580498825",
+      "to": "W1898252091",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2580498825"
+        }
+      ]
+    },
+    {
+      "from": "W2580498825",
+      "to": "W1977380830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2580498825"
+        }
+      ]
+    },
+    {
+      "from": "W2756391639",
+      "to": "W1898252091",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2756391639"
+        }
+      ]
+    },
+    {
+      "from": "W2756391639",
+      "to": "W1977380830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2756391639"
+        }
+      ]
+    },
+    {
+      "from": "W2760304410",
+      "to": "W2078019609",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2760304410"
+        }
+      ]
+    },
+    {
+      "from": "W2901606073",
+      "to": "W1898252091",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2901606073"
+        }
+      ]
+    },
+    {
+      "from": "W2901606073",
+      "to": "W2025134526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2901606073"
+        }
+      ]
+    },
+    {
+      "from": "W2901606073",
+      "to": "W2580498825",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2901606073"
+        }
+      ]
+    },
+    {
+      "from": "W3006440331",
+      "to": "W2073726416",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006440331"
+        }
+      ]
+    },
+    {
+      "from": "W3006440331",
+      "to": "W2129970907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006440331"
+        }
+      ]
+    },
+    {
+      "from": "W3082290582",
+      "to": "W2073726416",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3082290582"
+        }
+      ]
+    },
+    {
+      "from": "W3082290582",
+      "to": "W2078019609",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3082290582"
+        }
+      ]
+    },
+    {
+      "from": "W3125054902",
+      "to": "W2760304410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3125054902"
+        }
+      ]
+    },
+    {
+      "from": "W3126754914",
+      "to": "W2073726416",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126754914"
+        }
+      ]
+    },
+    {
+      "from": "W3126754914",
+      "to": "W2078019609",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126754914"
+        }
+      ]
+    },
+    {
+      "from": "W3126754914",
+      "to": "W2081640113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126754914"
+        }
+      ]
+    },
+    {
+      "from": "W3126754914",
+      "to": "W3006440331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126754914"
+        }
+      ]
+    },
+    {
+      "from": "W3127980211",
+      "to": "W2073726416",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127980211"
+        }
+      ]
+    },
+    {
+      "from": "W3127980211",
+      "to": "W2078019609",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127980211"
+        }
+      ]
+    },
+    {
+      "from": "W3127980211",
+      "to": "W2129970907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127980211"
+        }
+      ]
+    },
+    {
+      "from": "W3202868801",
+      "to": "W2073726416",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202868801"
+        }
+      ]
+    },
+    {
+      "from": "W3202868801",
+      "to": "W2081640113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202868801"
+        }
+      ]
+    },
+    {
+      "from": "W3202868801",
+      "to": "W2580498825",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202868801"
+        }
+      ]
+    },
+    {
+      "from": "W3202868801",
+      "to": "W3165254853",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202868801"
+        }
+      ]
+    },
+    {
+      "from": "W4200031686",
+      "to": "W2760304410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200031686"
+        }
+      ]
+    },
+    {
+      "from": "W4221004255",
+      "to": "W2078019609",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221004255"
+        }
+      ]
+    },
+    {
+      "from": "W4221004255",
+      "to": "W2129970907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221004255"
+        }
+      ]
+    },
+    {
+      "from": "W4221004255",
+      "to": "W2760304410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221004255"
+        }
+      ]
+    },
+    {
+      "from": "W4280633800",
+      "to": "W2760304410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4280633800"
+        }
+      ]
+    },
+    {
+      "from": "W4280633800",
+      "to": "W3125054902",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4280633800"
+        }
+      ]
+    },
+    {
+      "from": "W4313528074",
+      "to": "W1977380830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313528074"
+        }
+      ]
+    },
+    {
+      "from": "W4313528074",
+      "to": "W2073726416",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313528074"
+        }
+      ]
+    },
+    {
+      "from": "W4313528074",
+      "to": "W2123857657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313528074"
+        }
+      ]
+    },
+    {
+      "from": "W4313528074",
+      "to": "W2129970907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313528074"
+        }
+      ]
+    },
+    {
+      "from": "W4313528074",
+      "to": "W2580498825",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313528074"
+        }
+      ]
+    },
+    {
+      "from": "W4313528074",
+      "to": "W2756391639",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313528074"
+        }
+      ]
+    },
+    {
+      "from": "W4313528074",
+      "to": "W3006440331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313528074"
+        }
+      ]
+    },
+    {
+      "from": "W4313528074",
+      "to": "W3082290582",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313528074"
+        }
+      ]
+    },
+    {
+      "from": "W4313528074",
+      "to": "W3125054902",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313528074"
+        }
+      ]
+    },
+    {
+      "from": "W4313528074",
+      "to": "W3126754914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313528074"
+        }
+      ]
+    },
+    {
+      "from": "W4313528074",
+      "to": "W3202868801",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313528074"
+        }
+      ]
+    },
+    {
+      "from": "W4317438752",
+      "to": "W1898252091",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4317438752"
+        }
+      ]
+    },
+    {
+      "from": "W4317438752",
+      "to": "W1977380830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4317438752"
+        }
+      ]
+    },
+    {
+      "from": "W4317438752",
+      "to": "W2025134526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4317438752"
+        }
+      ]
+    },
+    {
+      "from": "W4317438752",
+      "to": "W2073726416",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4317438752"
+        }
+      ]
+    },
+    {
+      "from": "W4317438752",
+      "to": "W2580498825",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4317438752"
+        }
+      ]
+    },
+    {
+      "from": "W4317438752",
+      "to": "W2756391639",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4317438752"
+        }
+      ]
+    },
+    {
+      "from": "W4317438752",
+      "to": "W2901606073",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4317438752"
+        }
+      ]
+    },
+    {
+      "from": "W4319794902",
+      "to": "W3125054902",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4319794902"
+        }
+      ]
+    },
+    {
+      "from": "W4319794902",
+      "to": "W3127980211",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4319794902"
+        }
+      ]
+    },
+    {
+      "from": "W4319794902",
+      "to": "W4221004255",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4319794902"
+        }
+      ]
+    },
+    {
+      "from": "W4321185952",
+      "to": "W1898252091",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4321185952"
+        }
+      ]
+    },
+    {
+      "from": "W4321185952",
+      "to": "W1977380830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4321185952"
+        }
+      ]
+    },
+    {
+      "from": "W4321185952",
+      "to": "W2756391639",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4321185952"
+        }
+      ]
+    },
+    {
+      "from": "W4387734755",
+      "to": "W2760304410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387734755"
+        }
+      ]
+    },
+    {
+      "from": "W4387734755",
+      "to": "W4319794902",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387734755"
+        }
+      ]
+    },
+    {
+      "from": "W4399385980",
+      "to": "W2580498825",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4399385980"
+        }
+      ]
+    },
+    {
+      "from": "W4399385980",
+      "to": "W3125054902",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4399385980"
+        }
+      ]
+    },
+    {
+      "from": "W4399385980",
+      "to": "W3202868801",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4399385980"
+        }
+      ]
+    },
+    {
+      "from": "W4399385980",
+      "to": "W4319794902",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4399385980"
+        }
+      ]
+    },
+    {
+      "from": "W4399385980",
+      "to": "W4387734755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4399385980"
+        }
+      ]
+    },
+    {
+      "from": "W4410376595",
+      "to": "W2073726416",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410376595"
+        }
+      ]
+    },
+    {
+      "from": "W4410376595",
+      "to": "W2078019609",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410376595"
+        }
+      ]
+    },
+    {
+      "from": "W4410376595",
+      "to": "W2081640113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410376595"
+        }
+      ]
+    },
+    {
+      "from": "W4410376595",
+      "to": "W2760304410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410376595"
+        }
+      ]
+    },
+    {
+      "from": "W4410376595",
+      "to": "W3126754914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410376595"
+        }
+      ]
+    },
+    {
+      "from": "W4410376595",
+      "to": "W4387734755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410376595"
+        }
+      ]
+    },
+    {
+      "from": "W4412532857",
+      "to": "W1898252091",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412532857"
+        }
+      ]
+    },
+    {
+      "from": "W4412532857",
+      "to": "W1977380830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412532857"
+        }
+      ]
+    },
+    {
+      "from": "W4412532857",
+      "to": "W2756391639",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412532857"
+        }
+      ]
+    },
+    {
+      "from": "W4412931395",
+      "to": "W1898252091",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412931395"
+        }
+      ]
+    },
+    {
+      "from": "W4412931395",
+      "to": "W1977380830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412931395"
+        }
+      ]
+    },
+    {
+      "from": "W4412931395",
+      "to": "W2073726416",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412931395"
+        }
+      ]
+    },
+    {
+      "from": "W4412931395",
+      "to": "W2129970907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412931395"
+        }
+      ]
+    },
+    {
+      "from": "W4412931395",
+      "to": "W2580498825",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412931395"
+        }
+      ]
+    },
+    {
+      "from": "W4412931395",
+      "to": "W4321185952",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412931395"
+        }
+      ]
+    },
+    {
+      "from": "W4412931395",
+      "to": "W4399385980",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412931395"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W1898252091",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W1977380830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W2025134526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W2034749070",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W2073726416",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W2078019609",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W2081640113",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W2123857657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W2129970907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W2580498825",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W2756391639",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W2760304410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W2901606073",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W3006440331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W3082290582",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W3125054902",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W3126754914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W3127980211",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W3165254853",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W3202868801",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4200031686",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4221004255",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4280633800",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4313528074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4317438752",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4319794902",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4321185952",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4387734755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4399385980",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4410376595",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4412532857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    },
+    {
+      "from": "W7214625768",
+      "to": "W4412931395",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214625768"
+        }
+      ]
+    }
+  ]
 }

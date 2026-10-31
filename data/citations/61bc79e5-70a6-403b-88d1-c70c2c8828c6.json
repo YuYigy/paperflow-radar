@@ -1,20 +1,30 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "61bc79e5-70a6-403b-88d1-c70c2c8828c6",
-  "root": "doi:10.1364/prj.604434",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7172419125",
+  "status": "ok",
+  "checked_at": "2026-10-29T00:50:12.430628+00:00",
+  "coverage": {
+    "references_found": 38,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 38,
+    "displayed": 38
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/prj.604434",
+      "id": "W7172419125",
       "doi": "10.1364/prj.604434",
       "title": "Coherent reconstruction of turbulence-distorted spatial modes for free-space optical communication",
       "authors": [
         "Zepeng Wei",
-        "Wang Wei",
+        "WANG WEI",
         "Qiqi Yuan",
         "Weihan Xu",
         "Chang Li",
@@ -22,20 +32,2357 @@
         "Ting Lei",
         "Xiaocong Yuan"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Photonics Research",
       "venue_abbr": "PR",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "multi-plane light conversion",
+        "silicon photonics",
+        "scintillation mitigation"
+      ],
       "url": "https://doi.org/10.1364/prj.604434",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/61bc79e5-70a6-403b-88d1-c70c2c8828c6.html",
       "summary": "摘要报告：针对湍流导致SMF直接接收功率在空间模式间再分配并产生深衰落的问题，提出并实验演示相干重构接收机：少模光纤收集+多平面光转换解复用+硅基光子相干重构。实验室湍流模拟中，解复用后四模功率和与相干重构输出的闪烁均低于直接单模接收；在10 Gb/s通信测试中降低中断概率，无中断通信时间最长延长3.02倍。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W2896771593",
+      "doi": "10.1364/oe.26.028263",
+      "title": "Performance of mode diversity reception of a polarization-division-multiplexed signal for free-space optical communication under atmospheric turbulence",
+      "authors": [
+        "Manabu Arikawa",
+        "Toshiharu Ito"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "polarization multiplexing",
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "linearly polarized modes",
+        "power imbalance",
+        "selection combining",
+        "adaptive filtering",
+        "DP-QPSK",
+        "diffuser plate",
+        "fading mitigation"
+      ],
+      "url": "https://doi.org/10.1364/oe.26.028263",
+      "cited_by_count": 61,
+      "importance": 0.6887,
+      "score_basis": {
+        "topic_overlap": 0.464,
+        "shared_references": 4,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4289262074",
+      "doi": "10.1364/jocn.462484",
+      "title": "Performance of improved mode diversity reception for free-space optical communication under atmospheric turbulence",
+      "authors": [
+        "Feng Wang",
+        "Cong Qiu",
+        "Yue Chen",
+        "Guijun Hu"
+      ],
+      "year": 2022,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "Kramers-Kronig receiver",
+        "coherent detection",
+        "heterodyne detection"
+      ],
+      "url": "https://doi.org/10.1364/jocn.462484",
+      "cited_by_count": 16,
+      "importance": 0.6555,
+      "score_basis": {
+        "topic_overlap": 0.368,
+        "shared_references": 6,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3172899644",
+      "doi": "10.1364/oe.433087",
+      "title": "Free space optical communication receiver based on a spatial demultiplexer and a photonic integrated coherent combining circuit",
+      "authors": [
+        "Vincent Billault",
+        "Jérôme Bourderionnet",
+        "Jean-Paul Mazellier",
+        "Luc Leviandier",
+        "Patrick Feneyrou",
+        "Anaëlle Maho",
+        "Michel Sotom",
+        "Xavier Normandin",
+        "Herve Lonjaret",
+        "A. Brignon"
+      ],
+      "year": 2021,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "optical receiver",
+        "photonic integrated circuits",
+        "coherent beam combining",
+        "Hermite-Gaussian modes",
+        "atmospheric turbulence",
+        "scintillation",
+        "beam wander",
+        "wavefront distortion"
+      ],
+      "url": "https://doi.org/10.1364/oe.433087",
+      "cited_by_count": 50,
+      "importance": 0.6074,
+      "score_basis": {
+        "topic_overlap": 0.305,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416713219",
+      "doi": "10.1364/oe.579218",
+      "title": "Modeling and performance analysis for few-mode free-space optical communication reception based on optical-domain coherent beam combining",
+      "authors": [
+        "Wenqi Ma",
+        "Fan Yang",
+        "Xiuquan Li",
+        "Haiyan Wang",
+        "Guijun Hu"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "few-mode fiber",
+        "atmospheric turbulence",
+        "bit error rate",
+        "receiver sensitivity",
+        "mode coupling",
+        "local oscillator",
+        "hardware complexity reduction"
+      ],
+      "url": "https://doi.org/10.1364/oe.579218",
+      "cited_by_count": 1,
+      "importance": 0.6,
+      "score_basis": {
+        "topic_overlap": 0.333,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4312578846",
+      "doi": "10.1109/jphot.2022.3225337",
+      "title": "Free-Space Optical Communication Based on Mode Diversity Reception Using a Nonmode Selective Photonic Lantern and Equal Gain Combining",
+      "authors": [
+        "Feng Wang",
+        "Cong Qiu",
+        "Meiling Zhang",
+        "Guijun Hu"
+      ],
+      "year": 2022,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "photonic lantern",
+        "equal gain combining",
+        "maximum ratio combining",
+        "mode demultiplexer",
+        "modal crosstalk",
+        "atmospheric turbulence",
+        "bit error rate",
+        "outage performance",
+        "receiver diversity"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2022.3225337",
+      "cited_by_count": 12,
+      "importance": 0.5925,
+      "score_basis": {
+        "topic_overlap": 0.317,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1982892759",
+      "doi": "10.1109/comst.2014.2329501",
+      "title": "Survey on Free Space Optical Communication: A Communication Theory Perspective",
+      "authors": [
+        "Mohammad‐Ali Khalighi",
+        "Murat Uysal"
+      ],
+      "year": 2014,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "free-space optical communication",
+        "optical wireless communication",
+        "atmospheric turbulence",
+        "fading",
+        "transmitter and receiver design",
+        "information-theoretic limits",
+        "modulation",
+        "channel coding",
+        "multiple-input multiple-output",
+        "cooperative diversity",
+        "adaptive transmission",
+        "terrestrial optical links"
+      ],
+      "url": "https://doi.org/10.1109/comst.2014.2329501",
+      "cited_by_count": 2479,
+      "importance": 0.5807,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2511038469",
+      "doi": "10.1109/comst.2016.2603518",
+      "title": "Optical Communication in Space: Challenges and Mitigation Techniques",
+      "authors": [
+        "Hemani Kaushal",
+        "Georges Kaddoum"
+      ],
+      "year": 2016,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "free-space optical communication",
+        "satellite-to-ground links",
+        "inter-satellite links",
+        "atmospheric turbulence",
+        "atmospheric absorption and scattering",
+        "bit error rate",
+        "orbital angular momentum",
+        "optical backhaul"
+      ],
+      "url": "https://doi.org/10.1109/comst.2016.2603518",
+      "cited_by_count": 1921,
+      "importance": 0.5657,
+      "score_basis": {
+        "topic_overlap": 0.235,
+        "shared_references": 4,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2898406541",
+      "doi": "10.1364/oe.26.028879",
+      "title": "Performance enhancement of free-space optical communications under atmospheric turbulence using modes diversity coherent receipt",
+      "authors": [
+        "Donghao Zheng",
+        "Yan Li",
+        "Honghang Zhou",
+        "Yiming Bian",
+        "Chen Yang",
+        "Wei Li",
+        "Jifang Qiu",
+        "Hongxiang Guo",
+        "Xiaobin Hong",
+        "Yong Zuo",
+        "Ian P. Giles",
+        "Weijun Tong",
+        "Jian Wu"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "coherent reception",
+        "turbulence intensity",
+        "performance improvement"
+      ],
+      "url": "https://doi.org/10.1364/oe.26.028879",
+      "cited_by_count": 67,
+      "importance": 0.5408,
+      "score_basis": {
+        "topic_overlap": 0.402,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2505901782",
+      "doi": "10.1364/oe.24.018739",
+      "title": "Free-space to few-mode-fiber coupling under atmospheric turbulence",
+      "authors": [
+        "Donghao Zheng",
+        "Yan Li",
+        "Erhu Chen",
+        "Beibei Li",
+        "Deming Kong",
+        "Li Wei",
+        "Jian Wu"
+      ],
+      "year": 2016,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "few-mode fiber",
+        "atmospheric turbulence",
+        "coupling efficiency",
+        "single-mode fiber",
+        "received power fluctuations",
+        "turbulence intensity"
+      ],
+      "url": "https://doi.org/10.1364/oe.24.018739",
+      "cited_by_count": 67,
+      "importance": 0.5179,
+      "score_basis": {
+        "topic_overlap": 0.462,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3195494750",
+      "doi": "10.1364/josab.434854",
+      "title": "Coupling efficiency of a plane wave to few-mode fiber in the presence of beam random angular jitter",
+      "authors": [
+        "Yunhao Chen",
+        "Liying Tan",
+        "L. Zhao",
+        "Dongpeng Kang",
+        "Jing Ma"
+      ],
+      "year": 2021,
+      "venue": "Journal of the Optical Society of America B",
+      "venue_abbr": "Journal of the Optical Society of America B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "few-mode fiber",
+        "plane wave coupling",
+        "coupling efficiency",
+        "free-space optical communication",
+        "single-mode fiber comparison",
+        "jitter tolerance"
+      ],
+      "url": "https://doi.org/10.1364/josab.434854",
+      "cited_by_count": 5,
+      "importance": 0.4941,
+      "score_basis": {
+        "topic_overlap": 0.431,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2767085642",
+      "doi": "10.1364/oe.25.027519",
+      "title": "Multi-aperture all-fiber active coherent beam combining for free-space optical communication receivers",
+      "authors": [
+        "Yan Yang",
+        "Chao Geng",
+        "Feng Li",
+        "Guan Huang",
+        "Xinyang Li"
+      ],
+      "year": 2017,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent beam combining",
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "fiber coupler",
+        "combining efficiency",
+        "phase compensation"
+      ],
+      "url": "https://doi.org/10.1364/oe.25.027519",
+      "cited_by_count": 58,
+      "importance": 0.4656,
+      "score_basis": {
+        "topic_overlap": 0.39,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2405552739",
+      "doi": "10.1364/ao.54.008722",
+      "title": "Experimental demonstration of single-mode fiber coupling over relatively strong turbulence with adaptive optics",
+      "authors": [
+        "Mo Chen",
+        "Chao Liu",
+        "Hao Xian"
+      ],
+      "year": 2015,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-mode fiber coupling",
+        "atmospheric turbulence",
+        "adaptive optics",
+        "free-space optical communication",
+        "coupling efficiency",
+        "phase distortion",
+        "deformable mirror",
+        "Shack-Hartmann wavefront sensor",
+        "turbulence intensity"
+      ],
+      "url": "https://doi.org/10.1364/ao.54.008722",
+      "cited_by_count": 84,
+      "importance": 0.4525,
+      "score_basis": {
+        "topic_overlap": 0.317,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2569202499",
+      "doi": "10.1364/oe.22.015599",
+      "title": "Efficient and mode selective spatial mode multiplexer based on multi-plane light conversion",
+      "authors": [
+        "Guillaume Labroille",
+        "Bertrand Denolle",
+        "Pu Jian",
+        "Philippe Genevaux",
+        "Nicolas Treps",
+        "Jean‐François Morizur"
+      ],
+      "year": 2014,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "multi-plane light conversion",
+        "mode selectivity",
+        "insertion loss",
+        "few-mode fiber",
+        "mode conversion",
+        "C-band",
+        "LP modes",
+        "optical coatings"
+      ],
+      "url": "https://doi.org/10.1364/oe.22.015599",
+      "cited_by_count": 498,
+      "importance": 0.4155,
+      "score_basis": {
+        "topic_overlap": 0.368,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2153332281",
+      "doi": "10.1364/ao.44.004946",
+      "title": "Fiber-coupling efficiency for free-space optical communication through atmospheric turbulence",
+      "authors": [
+        "Yamaç Dikmelik",
+        "Frederic M. Davidson"
+      ],
+      "year": 2005,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fiber coupling efficiency",
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "spatial coherence",
+        "subapertures",
+        "laser beam distortion",
+        "receiver module"
+      ],
+      "url": "https://doi.org/10.1364/ao.44.004946",
+      "cited_by_count": 259,
+      "importance": 0.413,
+      "score_basis": {
+        "topic_overlap": 0.251,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2075415458",
+      "doi": "10.1364/ao.46.006561",
+      "title": "Spatial correlation and irradiance statistics in a multiple-beam terrestrial free-space optical communication link",
+      "authors": [
+        "Jaime A. Anguita",
+        "Mark Allen Neifeld",
+        "Bane V. Vasic"
+      ],
+      "year": 2007,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "free-space optical communication",
+        "spatial correlation",
+        "gamma-gamma distribution",
+        "bit error rate",
+        "terrestrial optical links"
+      ],
+      "url": "https://doi.org/10.1364/ao.46.006561",
+      "cited_by_count": 128,
+      "importance": 0.4102,
+      "score_basis": {
+        "topic_overlap": 0.201,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411086895",
+      "doi": "10.1109/jlt.2025.3577382",
+      "title": "High-Speed Free-Space Optical Communication Using Mode Demultiplexers and Coherent Beam Combining",
+      "authors": [
+        "Ming Zhang",
+        "Zepeng Wei",
+        "Ting Lei",
+        "Ruitao Wu",
+        "Tianhe Heng",
+        "Yixin Ma",
+        "Luping Du",
+        "Xiaocong Yuan"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "mode demultiplexing",
+        "coherent beam combining",
+        "satellite-to-ground links",
+        "high-speed optical transmission",
+        "insertion loss",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3577382",
+      "cited_by_count": 7,
+      "importance": 0.4041,
+      "score_basis": {
+        "topic_overlap": 0.231,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4319789490",
+      "doi": "10.1117/1.ap.5.1.016006",
+      "title": "Robust structured light in atmospheric turbulence",
+      "authors": [
+        "Asher Klug",
+        "Cade Peters",
+        "Andrew Forbes"
+      ],
+      "year": 2023,
+      "venue": "Advanced Photonics",
+      "venue_abbr": "Adv. Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "structured light",
+        "atmospheric turbulence",
+        "free-space optical communication",
+        "quantum communication",
+        "underwater optics",
+        "optical fiber channel"
+      ],
+      "url": "https://doi.org/10.1117/1.ap.5.1.016006",
+      "cited_by_count": 146,
+      "importance": 0.3952,
+      "score_basis": {
+        "topic_overlap": 0.389,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4282982073",
+      "doi": "10.3390/app12126075",
+      "title": "Theoretical and Experimental Analysis on Statistical Properties of Coupling Efficiency for Single-Mode Fiber in Free-Space Optical Communication Link Based on Non-Kolmogorov Turbulence",
+      "authors": [
+        "Lie Ma",
+        "Shijie Gao",
+        "Bo Chen",
+        "Yongkai Liu"
+      ],
+      "year": 2022,
+      "venue": "Applied Sciences",
+      "venue_abbr": "Appl. Sci.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "non-Kolmogorov turbulence",
+        "free-space optical communication",
+        "single-mode fiber",
+        "coupling efficiency",
+        "probability density function",
+        "atmospheric turbulence",
+        "statistical modeling"
+      ],
+      "url": "https://doi.org/10.3390/app12126075",
+      "cited_by_count": 5,
+      "importance": 0.3943,
+      "score_basis": {
+        "topic_overlap": 0.21,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2109815475",
+      "doi": "10.1109/tcomm.2002.800829",
+      "title": "Free-space optical communication through atmospheric turbulence channels",
+      "authors": [
+        "Xiaoming Zhu",
+        "Joseph M. Kahn"
+      ],
+      "year": 2002,
+      "venue": "IEEE Transactions on Communications",
+      "venue_abbr": "IEEE Trans. Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "intensity fluctuations",
+        "signal fading",
+        "maximum likelihood detection",
+        "maximum likelihood sequence estimation",
+        "fading correlation",
+        "fading statistics"
+      ],
+      "url": "https://doi.org/10.1109/tcomm.2002.800829",
+      "cited_by_count": 1627,
+      "importance": 0.3922,
+      "score_basis": {
+        "topic_overlap": 0.338,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2145845226",
+      "doi": "10.1109/jlt.2006.885252",
+      "title": "Free-Space Optical Communications",
+      "authors": [
+        "Vincent W. S. Chan"
+      ],
+      "year": 2006,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "photon counting receiver",
+        "vacuum channel",
+        "coherent optical processing",
+        "clear air turbulence",
+        "multiple access interference",
+        "system cost minimization",
+        "atmospheric propagation"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2006.885252",
+      "cited_by_count": 869,
+      "importance": 0.3841,
+      "score_basis": {
+        "topic_overlap": 0.231,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7125824047",
+      "doi": "10.1038/s41467-026-68751-3",
+      "title": "Topological robustness of classical and quantum optical skyrmions in atmospheric turbulence",
+      "authors": [
+        "Zhenyu Guo",
+        "Cade Peters",
+        "Nilo Mata-Cervera",
+        "Anton N. Vetlugin",
+        "Ruixiang Guo",
+        "Pei Zhang",
+        "Andrew Forbes",
+        "Yijie Shen"
+      ],
+      "year": 2026,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical skyrmions",
+        "atmospheric turbulence",
+        "topological robustness",
+        "structured light",
+        "quantum entanglement",
+        "vector beams",
+        "topological protection",
+        "free-space optical communication",
+        "satellite-to-ground communication",
+        "turbulent flow simulation"
+      ],
+      "url": "https://doi.org/10.1038/s41467-026-68751-3",
+      "cited_by_count": 36,
+      "importance": 0.3557,
+      "score_basis": {
+        "topic_overlap": 0.235,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415300727",
+      "doi": "10.1038/s41566-025-01772-4",
+      "title": "Single-shot phase diversity wavefront sensing in deep turbulence via metasurface optics",
+      "authors": [
+        "Arturo Martin Jimenez",
+        "Marc Baltes",
+        "Jackson Cornelius",
+        "Neşet Aközbek",
+        "Zachary J. Coppens"
+      ],
+      "year": 2025,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "phase diversity",
+        "wavefront sensing",
+        "optical metasurfaces",
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "adaptive optics",
+        "noise immunity"
+      ],
+      "url": "https://doi.org/10.1038/s41566-025-01772-4",
+      "cited_by_count": 20,
+      "importance": 0.3522,
+      "score_basis": {
+        "topic_overlap": 0.338,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2000135762",
+      "doi": "10.1117/12.450638",
+      "title": "Analysis of the preliminary optical links between ARTEMIS and the Optical Ground Station",
+      "authors": [
+        "Marcos Reyes García-Talavera",
+        "Sergio Chueca",
+        "Angel Alonso",
+        "Teodora Viera",
+        "Zoran Sodnik"
+      ],
+      "year": 2002,
+      "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "venue_abbr": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "free-space optical communication",
+        "ARTEMIS satellite",
+        "optical ground station",
+        "laser communication terminals",
+        "in-orbit testing",
+        "pointing, acquisition, and tracking",
+        "bit error rate",
+        "atmospheric turbulence",
+        "beam divergence",
+        "Teide Observatory",
+        "SMART-1"
+      ],
+      "url": "https://doi.org/10.1117/12.450638",
+      "cited_by_count": 39,
+      "importance": 0.3482,
+      "score_basis": {
+        "topic_overlap": 0.196,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2094155032",
+      "doi": "10.1364/jon.4.000300",
+      "title": "Trends in satellite communications and the role of optical free-space communications [Invited]",
+      "authors": [
+        "Morio Toyoshima"
+      ],
+      "year": 2005,
+      "venue": "Journal of Optical Networking",
+      "venue_abbr": "Journal of Optical Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "satellite communication",
+        "Earth observation satellites",
+        "optical wireless communication",
+        "radio frequency links",
+        "high-speed data links",
+        "frequency resource utilization"
+      ],
+      "url": "https://doi.org/10.1364/jon.4.000300",
+      "cited_by_count": 174,
+      "importance": 0.3476,
+      "score_basis": {
+        "topic_overlap": 0.172,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2031003059",
+      "doi": "10.1364/josaa.16.001417",
+      "title": "Theory of optical scintillation",
+      "authors": [
+        "L. C. Andrews",
+        "R. L. Phillips",
+        "C Y Hopen",
+        "Ammar Al-Habash"
+      ],
+      "year": 1999,
+      "venue": "Journal of the Optical Society of America A",
+      "venue_abbr": "Journal of the Optical Society of America A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical scintillation",
+        "irradiance fluctuations",
+        "atmospheric turbulence",
+        "scintillation index",
+        "spatial frequency filtering",
+        "Rytov method",
+        "Fresnel zone",
+        "plane waves",
+        "spherical waves",
+        "strong turbulence"
+      ],
+      "url": "https://doi.org/10.1364/josaa.16.001417",
+      "cited_by_count": 433,
+      "importance": 0.3397,
+      "score_basis": {
+        "topic_overlap": 0.222,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2055475124",
+      "doi": "10.1364/ao.35.003640",
+      "title": "Adaptive optics and ground-to-space laser communications",
+      "authors": [
+        "Robert K. Tyson"
+      ],
+      "year": 1996,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "adaptive optics",
+        "free-space optical links",
+        "atmospheric turbulence",
+        "log-amplitude variance",
+        "system performance evaluation"
+      ],
+      "url": "https://doi.org/10.1364/ao.35.003640",
+      "cited_by_count": 151,
+      "importance": 0.3315,
+      "score_basis": {
+        "topic_overlap": 0.203,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417036465",
+      "doi": "10.1038/s41467-025-66929-9",
+      "title": "Ultra-wideband optical diffractive network for mode multiplexing across the entire telecommunication range",
+      "authors": [
+        "Aru Kong",
+        "Jianxin Ren",
+        "Kaihui Wang",
+        "Yongyi Yu",
+        "Rongyi Lin",
+        "Chen Wang",
+        "Jianyu Long",
+        "Fufei Pang",
+        "Xueli Chen",
+        "Xiaoyu Yan",
+        "Zhifeng Wang",
+        "Bo Liu",
+        "Ting Lei",
+        "Xiaocong Yuan"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "space-division multiplexing",
+        "inverse design",
+        "mode purity",
+        "mode crosstalk",
+        "spectrum utilization"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-66929-9",
+      "cited_by_count": 11,
+      "importance": 0.3134,
+      "score_basis": {
+        "topic_overlap": 0.252,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2123422118",
+      "doi": "10.1364/josa.68.000297",
+      "title": "Modes of optical waveguides",
+      "authors": [
+        "Allan W. Snyder",
+        "William R. Young"
+      ],
+      "year": 1978,
+      "venue": "Journal of the Optical Society of America",
+      "venue_abbr": "Journal of the Optical Society of America",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical waveguide modes",
+        "mode calculation",
+        "weakly guiding waveguides",
+        "arbitrary refractive index profile",
+        "modal fields",
+        "propagation constant",
+        "polarization properties",
+        "vector wave equation",
+        "LP modes",
+        "mode coupling",
+        "eccentricity"
+      ],
+      "url": "https://doi.org/10.1364/josa.68.000297",
+      "cited_by_count": 290,
+      "importance": 0.3125,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1968246733",
+      "doi": "10.1364/josaa.27.002524",
+      "title": "Programmable unitary spatial mode manipulation",
+      "authors": [
+        "Jean‐François Morizur",
+        "Lachlan Nicholls",
+        "Pu Jian",
+        "Seiji Armstrong",
+        "Nicolas Treps",
+        "Boris Hage",
+        "Magnus T. L. Hsu",
+        "Warwick P. Bowen",
+        "Jiří Janoušek",
+        "Hans‐A. Bachor"
+      ],
+      "year": 2010,
+      "venue": "Journal of the Optical Society of America A",
+      "venue_abbr": "Journal of the Optical Society of America A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "deformable mirror",
+        "free-space propagation",
+        "transverse electromagnetic mode",
+        "beam shaping",
+        "mode conversion efficiency"
+      ],
+      "url": "https://doi.org/10.1364/josaa.27.002524",
+      "cited_by_count": 290,
+      "importance": 0.3115,
+      "score_basis": {
+        "topic_overlap": 0.203,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4240882551",
+      "doi": "10.1007/s10297-005-0033-5",
+      "title": "Free-space laser communications with adaptive optics: Atmospheric compensation experiments",
+      "authors": [
+        "Thomas Weyrauch",
+        "Воронцов Михаил Александрович"
+      ],
+      "year": 2004,
+      "venue": "Journal of Optical and Fiber Communications Reports",
+      "venue_abbr": "Journal of Optical and Fiber Communications Reports",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "free-space optical communication",
+        "adaptive optics",
+        "atmospheric turbulence",
+        "stochastic parallel gradient descent",
+        "MEMS deformable mirror",
+        "scintillation",
+        "signal fading",
+        "beam steering",
+        "single-mode fiber coupling",
+        "atmospheric turbulence correction"
+      ],
+      "url": "https://doi.org/10.1007/s10297-005-0033-5",
+      "cited_by_count": 84,
+      "importance": 0.2964,
+      "score_basis": {
+        "topic_overlap": 0.214,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2070630277",
+      "doi": "10.1117/12.530138",
+      "title": "Ground-to-satellite optical link tests between Japanese laser communications terminal and European geostationary satellite ARTEMIS",
+      "authors": [
+        "Morio Toyoshima",
+        "Shiro Yamakawa",
+        "Toshihiko Yamawaki",
+        "Katsuyoshi Arai",
+        "Marcos Reyes",
+        "Angel Alonso",
+        "Zoran Sodnik",
+        "Benoit Demelenne"
+      ],
+      "year": 2004,
+      "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "venue_abbr": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "laser communication",
+        "optical ground station",
+        "ARTEMIS satellite",
+        "geostationary satellites",
+        "atmospheric turbulence",
+        "bit error rate",
+        "signal fading"
+      ],
+      "url": "https://doi.org/10.1117/12.530138",
+      "cited_by_count": 52,
+      "importance": 0.2962,
+      "score_basis": {
+        "topic_overlap": 0.169,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7135380672",
+      "doi": "10.1002/lpor.202502441",
+      "title": "Dual‐plane Intensity Nonlinear Wavefront Sensing via a Kolmogorov‐Arnold Network in Adaptive Optics",
+      "authors": [
+        "Haocheng Feng",
+        "Mingyu Zhang",
+        "Zhenbo Ren",
+        "Ju Tang",
+        "Siqing Dai",
+        "Jiazhen Dou",
+        "Jianglei Di",
+        "Yuwen Qin"
+      ],
+      "year": 2026,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "adaptive optics",
+        "atmospheric turbulence",
+        "Kolmogorov-Arnold networks",
+        "multi-head self-attention",
+        "learnable activation functions",
+        "wavefront reconstruction",
+        "Strehl ratio",
+        "image restoration"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202502441",
+      "cited_by_count": 3,
+      "importance": 0.29,
+      "score_basis": {
+        "topic_overlap": 0.2,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2051533949",
+      "doi": "10.1016/j.actaastro.2012.05.009",
+      "title": "Scintillation model of laser beam propagation in satellite-to-ground bidirectional atmospheric channels",
+      "authors": [
+        "Morio Toyoshima",
+        "Takashi Sasaki",
+        "Hideki Takenaka",
+        "Yoshihisa Takayama"
+      ],
+      "year": 2012,
+      "venue": "Acta Astronautica",
+      "venue_abbr": "Acta Astronautica",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "laser beam propagation",
+        "atmospheric scintillation",
+        "satellite-to-ground laser communication",
+        "speckle patterns",
+        "von Karman spectrum",
+        "scintillation index",
+        "gamma-gamma distribution",
+        "low Earth orbit satellites",
+        "frequency response"
+      ],
+      "url": "https://doi.org/10.1016/j.actaastro.2012.05.009",
+      "cited_by_count": 18,
+      "importance": 0.2744,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2763624567",
+      "doi": "10.1364/aop.7.000107",
+      "title": "The photonic lantern",
+      "authors": [
+        "T. A. Birks",
+        "Itandehui Gris-Sánchez",
+        "Stephanos Yerolatsitis",
+        "Sergio G. Leon-Saval",
+        "Robert R. Thomson"
+      ],
+      "year": 2015,
+      "venue": "Advances in Optics and Photonics",
+      "venue_abbr": "Advances in Optics and Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic lantern",
+        "mode mapping",
+        "multimode fiber",
+        "single-mode fiber"
+      ],
+      "url": "https://doi.org/10.1364/aop.7.000107",
+      "cited_by_count": 364,
+      "importance": 0.2725,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414687148",
+      "doi": "10.1038/s41377-025-01977-w",
+      "title": "Integrated electronic controller for dynamic self-configuration of photonic circuits",
+      "authors": [
+        "Emanuele Sacchi",
+        "Francesco Zanetto",
+        "Andrés Martinez",
+        "SeyedMohammad SeyedinNavadeh",
+        "Francesco Morichetti",
+        "Andrea Ivano Melloni",
+        "Marco Sampietro",
+        "Giorgio Ferrari"
+      ],
+      "year": 2025,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "reconfigurable photonic integrated circuits",
+        "electronic controller",
+        "application-specific integrated circuits",
+        "dynamic reconfiguration",
+        "tunable optical components",
+        "silicon photonics",
+        "wavefront correction",
+        "temperature drift compensation"
+      ],
+      "url": "https://doi.org/10.1038/s41377-025-01977-w",
+      "cited_by_count": 10,
+      "importance": 0.2658,
+      "score_basis": {
+        "topic_overlap": 0.035,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388939295",
+      "doi": "10.1038/s41566-023-01330-w",
+      "title": "Determining the optimal communication channels of arbitrary optical systems using integrated photonic processors",
+      "authors": [
+        "SeyedMohammad SeyedinNavadeh",
+        "Maziyar Milanizadeh",
+        "Francesco Zanetto",
+        "Giorgio Ferrari",
+        "Marco Sampietro",
+        "Marc Sorel",
+        "David A. B. Miller",
+        "Andrea Ivano Melloni",
+        "Francesco Morichetti"
+      ],
+      "year": 2023,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical communication channels",
+        "orthogonal modes",
+        "turbid media",
+        "photonic processors",
+        "Mach-Zehnder interferometer",
+        "silicon photonics",
+        "singular value decomposition",
+        "crosstalk",
+        "power maximization"
+      ],
+      "url": "https://doi.org/10.1038/s41566-023-01330-w",
+      "cited_by_count": 98,
+      "importance": 0.2508,
+      "score_basis": {
+        "topic_overlap": 0.068,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2061126534",
+      "doi": "10.1364/oe.20.020021",
+      "title": "Fabrication tolerant polarization splitter and rotator based on a tapered directional coupler",
+      "authors": [
+        "Yunhong Ding",
+        "Liu Liu",
+        "Christophe Peucheret",
+        "Haiyan Ou"
+      ],
+      "year": 2012,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "manufacturing tolerances",
+        "silicon-on-insulator",
+        "silicon photonics",
+        "parallel coupling",
+        "polarization conversion efficiency"
+      ],
+      "url": "https://doi.org/10.1364/oe.20.020021",
+      "cited_by_count": 138,
+      "importance": 0.2274,
+      "score_basis": {
+        "topic_overlap": 0.061,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2067626447",
+      "doi": "10.1364/oe.22.003777",
+      "title": "Polarization rotator-splitters in standard active silicon photonics platforms",
+      "authors": [
+        "Wesley D. Sacher",
+        "Tymon Barwicz",
+        "Benjamin J. F. Taylor",
+        "Joyce K. S. Poon"
+      ],
+      "year": 2014,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon-on-insulator photonics",
+        "polarization control",
+        "polarization crosstalk",
+        "polarization controller",
+        "PIN diode phase shifter"
+      ],
+      "url": "https://doi.org/10.1364/oe.22.003777",
+      "cited_by_count": 237,
+      "importance": 0.2183,
+      "score_basis": {
+        "topic_overlap": 0.041,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1982892759",
+      "to": "W2031003059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1982892759"
+        }
+      ]
+    },
+    {
+      "from": "W1982892759",
+      "to": "W2075415458",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1982892759"
+        }
+      ]
+    },
+    {
+      "from": "W1982892759",
+      "to": "W2109815475",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1982892759"
+        }
+      ]
+    },
+    {
+      "from": "W1982892759",
+      "to": "W2145845226",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1982892759"
+        }
+      ]
+    },
+    {
+      "from": "W2075415458",
+      "to": "W2031003059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2075415458"
+        }
+      ]
+    },
+    {
+      "from": "W2075415458",
+      "to": "W2109815475",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2075415458"
+        }
+      ]
+    },
+    {
+      "from": "W2094155032",
+      "to": "W2055475124",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2094155032"
+        }
+      ]
+    },
+    {
+      "from": "W2405552739",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2405552739"
+        }
+      ]
+    },
+    {
+      "from": "W2505901782",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2505901782"
+        }
+      ]
+    },
+    {
+      "from": "W2511038469",
+      "to": "W1982892759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2511038469"
+        }
+      ]
+    },
+    {
+      "from": "W2511038469",
+      "to": "W2055475124",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2511038469"
+        }
+      ]
+    },
+    {
+      "from": "W2511038469",
+      "to": "W2094155032",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2511038469"
+        }
+      ]
+    },
+    {
+      "from": "W2511038469",
+      "to": "W2145845226",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2511038469"
+        }
+      ]
+    },
+    {
+      "from": "W2569202499",
+      "to": "W1968246733",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2569202499"
+        }
+      ]
+    },
+    {
+      "from": "W2767085642",
+      "to": "W2145845226",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2767085642"
+        }
+      ]
+    },
+    {
+      "from": "W2896771593",
+      "to": "W1982892759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2896771593"
+        }
+      ]
+    },
+    {
+      "from": "W2896771593",
+      "to": "W2000135762",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2896771593"
+        }
+      ]
+    },
+    {
+      "from": "W2896771593",
+      "to": "W2145845226",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2896771593"
+        }
+      ]
+    },
+    {
+      "from": "W2896771593",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2896771593"
+        }
+      ]
+    },
+    {
+      "from": "W2898406541",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2898406541"
+        }
+      ]
+    },
+    {
+      "from": "W2898406541",
+      "to": "W2505901782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2898406541"
+        }
+      ]
+    },
+    {
+      "from": "W3172899644",
+      "to": "W2000135762",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3172899644"
+        }
+      ]
+    },
+    {
+      "from": "W3172899644",
+      "to": "W2070630277",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3172899644"
+        }
+      ]
+    },
+    {
+      "from": "W3172899644",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3172899644"
+        }
+      ]
+    },
+    {
+      "from": "W3172899644",
+      "to": "W2767085642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3172899644"
+        }
+      ]
+    },
+    {
+      "from": "W3172899644",
+      "to": "W2896771593",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3172899644"
+        }
+      ]
+    },
+    {
+      "from": "W3195494750",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3195494750"
+        }
+      ]
+    },
+    {
+      "from": "W3195494750",
+      "to": "W2505901782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3195494750"
+        }
+      ]
+    },
+    {
+      "from": "W4282982073",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282982073"
+        }
+      ]
+    },
+    {
+      "from": "W4282982073",
+      "to": "W2405552739",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282982073"
+        }
+      ]
+    },
+    {
+      "from": "W4289262074",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4289262074"
+        }
+      ]
+    },
+    {
+      "from": "W4289262074",
+      "to": "W2405552739",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4289262074"
+        }
+      ]
+    },
+    {
+      "from": "W4289262074",
+      "to": "W2505901782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4289262074"
+        }
+      ]
+    },
+    {
+      "from": "W4289262074",
+      "to": "W2511038469",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4289262074"
+        }
+      ]
+    },
+    {
+      "from": "W4289262074",
+      "to": "W2896771593",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4289262074"
+        }
+      ]
+    },
+    {
+      "from": "W4289262074",
+      "to": "W2898406541",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4289262074"
+        }
+      ]
+    },
+    {
+      "from": "W4312578846",
+      "to": "W2405552739",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312578846"
+        }
+      ]
+    },
+    {
+      "from": "W4312578846",
+      "to": "W2511038469",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312578846"
+        }
+      ]
+    },
+    {
+      "from": "W4312578846",
+      "to": "W2896771593",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312578846"
+        }
+      ]
+    },
+    {
+      "from": "W4312578846",
+      "to": "W2898406541",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312578846"
+        }
+      ]
+    },
+    {
+      "from": "W4312578846",
+      "to": "W4289262074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312578846"
+        }
+      ]
+    },
+    {
+      "from": "W4411086895",
+      "to": "W2763624567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411086895"
+        }
+      ]
+    },
+    {
+      "from": "W4411086895",
+      "to": "W2896771593",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411086895"
+        }
+      ]
+    },
+    {
+      "from": "W4414687148",
+      "to": "W4388939295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414687148"
+        }
+      ]
+    },
+    {
+      "from": "W4416713219",
+      "to": "W2000135762",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416713219"
+        }
+      ]
+    },
+    {
+      "from": "W4416713219",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416713219"
+        }
+      ]
+    },
+    {
+      "from": "W4416713219",
+      "to": "W2511038469",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416713219"
+        }
+      ]
+    },
+    {
+      "from": "W4416713219",
+      "to": "W2767085642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416713219"
+        }
+      ]
+    },
+    {
+      "from": "W4416713219",
+      "to": "W2898406541",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416713219"
+        }
+      ]
+    },
+    {
+      "from": "W4416713219",
+      "to": "W3172899644",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416713219"
+        }
+      ]
+    },
+    {
+      "from": "W4416713219",
+      "to": "W4289262074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416713219"
+        }
+      ]
+    },
+    {
+      "from": "W7125824047",
+      "to": "W4319789490",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7125824047"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W1968246733",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W1982892759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2000135762",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2031003059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2051533949",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2055475124",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2061126534",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2067626447",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2070630277",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2075415458",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2094155032",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2109815475",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2123422118",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2145845226",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2153332281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2405552739",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2505901782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2511038469",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2569202499",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2763624567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2767085642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2896771593",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W2898406541",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W3172899644",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W3195494750",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W4240882551",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W4282982073",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W4289262074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W4312578846",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W4319789490",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W4388939295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W4411086895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W4414687148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W4415300727",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W4416713219",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W4417036465",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W7125824047",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    },
+    {
+      "from": "W7172419125",
+      "to": "W7135380672",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7172419125"
+        }
+      ]
+    }
+  ]
 }

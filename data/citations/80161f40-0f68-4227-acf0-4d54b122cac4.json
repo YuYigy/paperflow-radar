@@ -1,39 +1,1132 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "80161f40-0f68-4227-acf0-4d54b122cac4",
-  "root": "doi:10.1364/ol.610023",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7203734350",
+  "status": "ok",
+  "checked_at": "2026-10-29T00:50:12.173864+00:00",
+  "coverage": {
+    "references_found": 19,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 19,
+    "displayed": 19
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ol.610023",
+      "id": "W7203734350",
       "doi": "10.1364/ol.610023",
       "title": "Enhanced physical-layer security in WDM optical communications based on chaotic optical encryption with frequency-hopping filtered feedback",
       "authors": [
         "Chenpeng Xue",
         "Shuo Diao",
-        "Cheng He",
+        "He Cheng",
         "Wei Jin",
         "Zuxing Zhang",
         "Yanhua Hong"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Letters",
       "venue_abbr": "OL",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "physical layer security",
+        "16-QAM",
+        "long-haul transmission",
+        "frequency hopping",
+        "50 GHz channel spacing"
+      ],
       "url": "https://doi.org/10.1364/ol.610023",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/80161f40-0f68-4227-acf0-4d54b122cac4.html",
       "summary": "摘要报告：数值演示4×50 Gb/s 16QAM WDM系统的光相位加密物理层安全增强：滤波光电反馈环路产生宽带混沌信号作为相位密钥，强调制指数与覆盖近两个相邻信道（50 GHz间隔）的80 GHz光滤波使双通道拍频产生超过36 GHz宽带混沌，显著宽于单通道反馈；宽带相位加密使系统对色散失配、滤波器失谐与带宽失配高度敏感，从而增强安全性；调制指数1.2时仍可传输超400 km；跳频滤波在每个时隙随机改变收发滤波器中心频率，提供额外安全层。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4363677144",
+      "doi": "10.1364/ol.487627",
+      "title": "Physical-layer security of optical communication based on chaotic optical encryption without an additional driving signal",
+      "authors": [
+        "Chenpeng Xue",
+        "Yongkang Xia",
+        "Wei Chen",
+        "Ping Dao Gu",
+        "Zuxing Zhang"
+      ],
+      "year": 2023,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "physical layer security",
+        "chaos synchronization",
+        "semiconductor lasers",
+        "dispersion",
+        "parameter mismatch",
+        "eavesdropping",
+        "optical communication"
+      ],
+      "url": "https://doi.org/10.1364/ol.487627",
+      "cited_by_count": 30,
+      "importance": 0.6207,
+      "score_basis": {
+        "topic_overlap": 0.335,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400467966",
+      "doi": "10.1364/oe.529540",
+      "title": "Physical layer security-enhanced optical communication based on chaos masking and chaotic hardware encryption",
+      "authors": [
+        "Jinyang Ye",
+        "Xulin Gao",
+        "Xing Li",
+        "Hao Yang",
+        "Yuehua An",
+        "Pengbai Xu",
+        "Anbang Wang",
+        "Xinyong Dong",
+        "Yuncai Wang",
+        "Yuwen Qin",
+        "Zhensen Gao"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "physical layer security",
+        "chaos masking",
+        "chaotic optical communication",
+        "Fabry-Perot lasers",
+        "wavelength division multiplexing",
+        "bit error rate",
+        "forward error correction threshold"
+      ],
+      "url": "https://doi.org/10.1364/oe.529540",
+      "cited_by_count": 23,
+      "importance": 0.5076,
+      "score_basis": {
+        "topic_overlap": 0.461,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3118430650",
+      "doi": "10.1109/jlt.2021.3051407",
+      "title": "Physical Layer Encryption for WDM Optical Communication Systems Using Private Chaotic Phase Scrambling",
+      "authors": [
+        "Anke Zhao",
+        "Ning Jiang",
+        "Shiqin Liu",
+        "Yiqun Zhang",
+        "Kun Qiu"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical encryption",
+        "physical layer security",
+        "wavelength division multiplexing",
+        "spectral broadening",
+        "single-mode fiber",
+        "quantum computing threats"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3051407",
+      "cited_by_count": 131,
+      "importance": 0.4851,
+      "score_basis": {
+        "topic_overlap": 0.345,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4289593566",
+      "doi": "10.1364/oe.467578",
+      "title": "Experimental demonstration of synchronous privacy enhanced chaotic temporal phase en/decryption for high speed secure optical communication",
+      "authors": [
+        "Zhensen Gao",
+        "Qiongqiong Wu",
+        "Lei Liao",
+        "Biao Su",
+        "Xulin Gao",
+        "Songnian Fu",
+        "Zhaohui Li",
+        "Yuncai Wang",
+        "Yuwen Qin"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "physical layer security",
+        "chaos synchronization",
+        "optical encryption",
+        "secure optical communication",
+        "on-off keying",
+        "dispersive component",
+        "slave laser",
+        "high-speed optical transmission",
+        "single-mode fiber"
+      ],
+      "url": "https://doi.org/10.1364/oe.467578",
+      "cited_by_count": 42,
+      "importance": 0.4749,
+      "score_basis": {
+        "topic_overlap": 0.344,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2921773970",
+      "doi": "10.1364/ol.44.001536",
+      "title": "Physical secure optical communication based on private chaotic spectral phase encryption/decryption",
+      "authors": [
+        "Ning Jiang",
+        "Anke Zhao",
+        "Chenpeng Xue",
+        "Jianming Tang",
+        "Kun Qiu"
+      ],
+      "year": 2019,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "physical layer security",
+        "optical communication",
+        "chaos synchronization",
+        "phase modulator",
+        "dispersion",
+        "external cavity semiconductor laser",
+        "eavesdropping resistance",
+        "WDM transmission",
+        "high-speed optical transmission"
+      ],
+      "url": "https://doi.org/10.1364/ol.44.001536",
+      "cited_by_count": 185,
+      "importance": 0.4603,
+      "score_basis": {
+        "topic_overlap": 0.356,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389886533",
+      "doi": "10.1117/1.apn.3.1.016003",
+      "title": "100 Gb/s coherent chaotic optical communication over 800 km fiber transmission via advanced digital signal processing",
+      "authors": [
+        "Yunhao Xie",
+        "Yang Zhao",
+        "Mengyue Shi",
+        "Qunbi Zhuge",
+        "Weisheng Hu",
+        "Lilin Yi"
+      ],
+      "year": 2023,
+      "venue": "Advanced Photonics Nexus",
+      "venue_abbr": "Adv. Photonics Nexus",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chaotic optical communication",
+        "coherent optical transmission",
+        "chaos-based cryptography",
+        "physical layer security",
+        "equalization",
+        "phase noise compensation",
+        "LMS algorithm",
+        "QPSK",
+        "single-mode fiber transmission",
+        "FPGA",
+        "long-haul optical fiber"
+      ],
+      "url": "https://doi.org/10.1117/1.apn.3.1.016003",
+      "cited_by_count": 55,
+      "importance": 0.4549,
+      "score_basis": {
+        "topic_overlap": 0.344,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387331380",
+      "doi": "10.1016/j.optlastec.2023.110147",
+      "title": "Secure WDM communication based on second order differential feedback electro-optical chaotic mutual injection synchronization",
+      "authors": [
+        "Meitong Yu",
+        "Hongxiang Wang",
+        "Yuefeng Ji"
+      ],
+      "year": 2023,
+      "venue": "Optics & Laser Technology",
+      "venue_abbr": "Opt. Laser Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chaotic optical communication",
+        "wavelength division multiplexing",
+        "multi-channel transmission",
+        "16-QAM",
+        "multi-modulus algorithm",
+        "secure optical communication"
+      ],
+      "url": "https://doi.org/10.1016/j.optlastec.2023.110147",
+      "cited_by_count": 17,
+      "importance": 0.4066,
+      "score_basis": {
+        "topic_overlap": 0.348,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4295815777",
+      "doi": "10.1364/ol.472489",
+      "title": "Photonic-layer secure 56 Gb/s PAM4 optical communication based on common noise driven synchronous private temporal phase en/decryption",
+      "authors": [
+        "Zhensen Gao",
+        "Lei Liao",
+        "Biao Su",
+        "Qiongqiong Wu",
+        "Xulin Gao",
+        "Songnian Fu",
+        "Zhaohui Li",
+        "Yuncai Wang",
+        "Yuwen Qin"
+      ],
+      "year": 2022,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "PAM-4",
+        "pulse amplitude modulation",
+        "optical fiber communication",
+        "high-speed optical transmission",
+        "56 Gb/s",
+        "fiber optic networks",
+        "physical layer security"
+      ],
+      "url": "https://doi.org/10.1364/ol.472489",
+      "cited_by_count": 21,
+      "importance": 0.3518,
+      "score_basis": {
+        "topic_overlap": 0.182,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3033752005",
+      "doi": "10.1109/lpt.2020.3000215",
+      "title": "40Gb/s Secure Optical Communication Based on Symbol-by-Symbol Optical Phase Encryption",
+      "authors": [
+        "Zhensen Gao",
+        "Yuehua An",
+        "Anbang Wang",
+        "Pu Li",
+        "Yuwen Qin",
+        "Yuncai Wang",
+        "Xu Wang"
+      ],
+      "year": 2020,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "physical layer security",
+        "differential phase-shift keying",
+        "40 Gb/s optical communication",
+        "eavesdropping",
+        "optical codes",
+        "dispersive component"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2020.3000215",
+      "cited_by_count": 16,
+      "importance": 0.3402,
+      "score_basis": {
+        "topic_overlap": 0.201,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7167701133",
+      "doi": "10.1016/j.yofte.2026.104739",
+      "title": "Chaotic secure optical communication using quadrature amplitude modulation based on the Kramers–Kronig algorithm with time-delay signature concealment",
+      "authors": [
+        "Yu-Gang Huang",
+        "Zhaoyun Li",
+        "Keyuan Mo",
+        "Ya-Xian Fan"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Technology",
+      "venue_abbr": "OFT",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quadrature amplitude modulation",
+        "physical layer security",
+        "fiber Bragg grating",
+        "minimum phase signals",
+        "intensity-only measurements",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1016/j.yofte.2026.104739",
+      "cited_by_count": 1,
+      "importance": 0.3322,
+      "score_basis": {
+        "topic_overlap": 0.294,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2768246602",
+      "doi": "10.1088/2040-8986/aa9e1d",
+      "title": "Phase chaos generation and security enhancement by introducing fine-controllable dispersion",
+      "authors": [
+        "Lilin Yi",
+        "Junxiang Ke",
+        "Guang-Qiong Xia",
+        "Weisheng Hu"
+      ],
+      "year": 2017,
+      "venue": "Journal of Optics",
+      "venue_abbr": "J. Opt.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "dispersion management",
+        "feedback delay",
+        "nonlinear dynamics",
+        "chaos synchronization",
+        "synchronization error",
+        "chaotic optical communication",
+        "optical security"
+      ],
+      "url": "https://doi.org/10.1088/2040-8986/aa9e1d",
+      "cited_by_count": 24,
+      "importance": 0.3308,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3167935918",
+      "doi": "10.1038/s41467-021-23527-9",
+      "title": "Private communication with quantum cascade laser photonic chaos",
+      "authors": [
+        "Olivier Spitz",
+        "Andreas Herdt",
+        "Jiagui Wu",
+        "G. Maisons",
+        "Mathieu Carras",
+        "Chee Wei Wong",
+        "Wolfgang Elsäßer",
+        "Frédéric Grillot"
+      ],
+      "year": 2021,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum cascade lasers",
+        "free-space optical communication",
+        "mid-infrared",
+        "physical layer security",
+        "message encryption",
+        "chaos synchronization",
+        "eavesdropping resistance"
+      ],
+      "url": "https://doi.org/10.1038/s41467-021-23527-9",
+      "cited_by_count": 142,
+      "importance": 0.3259,
+      "score_basis": {
+        "topic_overlap": 0.191,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390738776",
+      "doi": "10.1109/jlt.2024.3352892",
+      "title": "256 Gbit/s Chaotic Optical Communication over 1600 Km Using an AI-based Optoelectronic Oscillator Model",
+      "authors": [
+        "Jiacheng Feng",
+        "Lin Jiang",
+        "Jihui Sun",
+        "Xingchen He",
+        "Anlin Yi",
+        "Wei Pan",
+        "Lianshan Yan"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "chaotic optical communication",
+        "chaos synchronization",
+        "optoelectronic oscillator",
+        "artificial intelligence",
+        "deep learning",
+        "chaos-based cryptography",
+        "chromatic dispersion",
+        "polarization multiplexing",
+        "16-QAM",
+        "coherent optical fiber transmission",
+        "key space analysis",
+        "key sensitivity"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3352892",
+      "cited_by_count": 67,
+      "importance": 0.3249,
+      "score_basis": {
+        "topic_overlap": 0.278,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3047883032",
+      "doi": "10.1364/oe.403021",
+      "title": "Optically injected nanolasers for time-delay signature suppression and communications",
+      "authors": [
+        "Pei Jiang",
+        "Pei Zhou",
+        "Nianqiang Li",
+        "Penghua Mu",
+        "Xiaofeng Li"
+      ],
+      "year": 2020,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "nanolasers",
+        "optically injected lasers",
+        "time-delay signature suppression",
+        "chaos-based secure communication",
+        "chaos synchronization",
+        "parameter mismatch",
+        "message encryption and decryption",
+        "fabrication imperfections"
+      ],
+      "url": "https://doi.org/10.1364/oe.403021",
+      "cited_by_count": 26,
+      "importance": 0.3208,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2069776289",
+      "doi": "10.1109/jqe.2012.2198195",
+      "title": "Effective Bandwidths of Broadband Chaotic Signals",
+      "authors": [
+        "Fan-Yi Lin",
+        "Yuh-Kwei Chao",
+        "Tsung-Chieh Wu"
+      ],
+      "year": 2012,
+      "venue": "IEEE Journal of Quantum Electronics",
+      "venue_abbr": "JQE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "effective bandwidth",
+        "optically injected lasers",
+        "chaotic laser dynamics"
+      ],
+      "url": "https://doi.org/10.1109/jqe.2012.2198195",
+      "cited_by_count": 149,
+      "importance": 0.3151,
+      "score_basis": {
+        "topic_overlap": 0.256,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405718079",
+      "doi": "10.1109/jlt.2024.3520900",
+      "title": "Photonic Layer Security in High-Speed Optical Communications",
+      "authors": [
+        "Dan Sadot",
+        "Ido Attia",
+        "Ohad Balasiano",
+        "Isaac Jonas",
+        "Yarden Yalinevich",
+        "Gil Alín",
+        "Elimelech Keller",
+        "Hamutal Shalom",
+        "Eyal Wohlgemuth"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "spectral phase encoding",
+        "harvest-now-decrypt-later attacks",
+        "DP-QPSK",
+        "DP-16QAM",
+        "high-speed optical transmission",
+        "single-mode fiber links"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3520900",
+      "cited_by_count": 10,
+      "importance": 0.285,
+      "score_basis": {
+        "topic_overlap": 0.189,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4384499237",
+      "doi": "10.1109/lcomm.2023.3295809",
+      "title": "Physical Layer Secure Key Distribution Based on Artificial Amplitude Noise in QAM/QNSC Optical Communication Systems",
+      "authors": [
+        "Shuang Wei",
+        "Yajie Li",
+        "Kongni Zhu",
+        "Chao Lei",
+        "Yuang Li",
+        "Mengwen Pan",
+        "Wei Min Wang",
+        "Yongli Zhao",
+        "Jie Zhang"
+      ],
+      "year": 2023,
+      "venue": "IEEE Communications Letters",
+      "venue_abbr": "IEEE Communications Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "physical layer security",
+        "secure key distribution",
+        "quantum noise stream cipher",
+        "quadrature amplitude modulation",
+        "PAM modulation",
+        "optical communication",
+        "key generation rate",
+        "pre-shared key"
+      ],
+      "url": "https://doi.org/10.1109/lcomm.2023.3295809",
+      "cited_by_count": 14,
+      "importance": 0.2833,
+      "score_basis": {
+        "topic_overlap": 0.185,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3215879482",
+      "doi": "10.4236/jamp.2021.911185",
+      "title": "Metrology of Optical Communication Systems Using Error Vector Magnitude",
+      "authors": [
+        "Irshaad Fatadin"
+      ],
+      "year": 2021,
+      "venue": "Journal of Applied Mathematics and Physics",
+      "venue_abbr": "Journal of Applied Mathematics and Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "error vector magnitude",
+        "coherent optical communication",
+        "M-ary quadrature amplitude modulation",
+        "bit error rate estimation",
+        "carrier phase recovery",
+        "differential decoding",
+        "laser phase noise",
+        "QPSK",
+        "16-QAM",
+        "64-QAM",
+        "performance monitoring"
+      ],
+      "url": "https://doi.org/10.4236/jamp.2021.911185",
+      "cited_by_count": 6,
+      "importance": 0.2593,
+      "score_basis": {
+        "topic_overlap": 0.132,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2125284466",
+      "doi": "10.1038/nature04233",
+      "title": "Two-dimensional gas of massless Dirac fermions in graphene",
+      "authors": [
+        "Kostya S. Novoselov",
+        "Andre K. Geim",
+        "Sergey V. Morozov",
+        "Da Jiang",
+        "Mikhail I. Katsnelson",
+        "I. V. Grigorieva",
+        "S. V. Dubonos",
+        "А. А. Firsov"
+      ],
+      "year": 2005,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "graphene",
+        "massless Dirac fermions",
+        "two-dimensional Dirac fermions",
+        "quantum Hall effect",
+        "cyclotron mass",
+        "electron transport",
+        "relativistic electrons"
+      ],
+      "url": "https://doi.org/10.1038/nature04233",
+      "cited_by_count": 21497,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W3033752005",
+      "to": "W2921773970",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3033752005"
+        }
+      ]
+    },
+    {
+      "from": "W3118430650",
+      "to": "W2921773970",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3118430650"
+        }
+      ]
+    },
+    {
+      "from": "W4289593566",
+      "to": "W2921773970",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4289593566"
+        }
+      ]
+    },
+    {
+      "from": "W4289593566",
+      "to": "W3167935918",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4289593566"
+        }
+      ]
+    },
+    {
+      "from": "W4295815777",
+      "to": "W2921773970",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4295815777"
+        }
+      ]
+    },
+    {
+      "from": "W4363677144",
+      "to": "W2921773970",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4363677144"
+        }
+      ]
+    },
+    {
+      "from": "W4363677144",
+      "to": "W3118430650",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4363677144"
+        }
+      ]
+    },
+    {
+      "from": "W4363677144",
+      "to": "W3167935918",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4363677144"
+        }
+      ]
+    },
+    {
+      "from": "W4363677144",
+      "to": "W4289593566",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4363677144"
+        }
+      ]
+    },
+    {
+      "from": "W4363677144",
+      "to": "W4295815777",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4363677144"
+        }
+      ]
+    },
+    {
+      "from": "W4387331380",
+      "to": "W3118430650",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387331380"
+        }
+      ]
+    },
+    {
+      "from": "W4389886533",
+      "to": "W2921773970",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389886533"
+        }
+      ]
+    },
+    {
+      "from": "W4389886533",
+      "to": "W3118430650",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389886533"
+        }
+      ]
+    },
+    {
+      "from": "W4400467966",
+      "to": "W3118430650",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400467966"
+        }
+      ]
+    },
+    {
+      "from": "W4400467966",
+      "to": "W4363677144",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400467966"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W2069776289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W2125284466",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W2768246602",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W2921773970",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W3033752005",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W3047883032",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W3118430650",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W3167935918",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W3215879482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W4289593566",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W4295815777",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W4363677144",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W4384499237",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W4387331380",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W4389886533",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W4390738776",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W4400467966",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W4405718079",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    },
+    {
+      "from": "W7203734350",
+      "to": "W7167701133",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203734350"
+        }
+      ]
+    }
+  ]
 }

@@ -1,45 +1,1423 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "bd334002-bc3c-48dd-9447-f7bf89f48138",
-  "root": "doi:10.1364/ol.606921",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7203829757",
+  "status": "ok",
+  "checked_at": "2026-10-29T00:50:09.940824+00:00",
+  "coverage": {
+    "references_found": 22,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 22,
+    "displayed": 22
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ol.606921",
+      "id": "W7203829757",
       "doi": "10.1364/ol.606921",
       "title": "Externally time-gated photon-counting OTDR in the 1.5 µm telecom band",
       "authors": [
         "Ri-Yao Song",
-        "Yun-Ru Fan",
+        "Yunru Fan",
         "Peng Wu",
         "Yao Xiao",
         "Qi Zhang",
         "Hai-Zhi Song",
         "Bin Li",
         "Tao Zhou",
-        "Ya-Nan Wang",
+        "Yanan Wang",
         "Kai Guo",
-        "Guang-Can Guo",
+        "Guang‐Can Guo",
         "Qiang Zhou"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Letters",
       "venue_abbr": "OL",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "optical time-domain reflectometry",
+        "dynamic range"
+      ],
       "url": "https://doi.org/10.1364/ol.606921",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/bd334002-bc3c-48dd-9447-f7bf89f48138.html",
       "summary": "摘要报告：光子计数OTDR的动态范围受单光子探测器死时间与最大计数率限制。演示工作于1.5 µm电信波段的外部时间门控PC-OTDR：用光调制器门控后向传播信号，仅让特定光纤段的光子到达探测器，从而抑制门外背散光子并优化有限计数率利用。结果：0.36 dB弱损耗事件被清晰分辨（无门控时不可见）；50 ns外门控下70 m系统动态范围24.1 dB，较无门控提升10.8 dB。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W2959458211",
+      "doi": "10.1109/jlt.2019.2941997",
+      "title": "High Dynamic Range Externally Time-Gated Photon Counting Optical Time-Domain Reflectometry",
+      "authors": [
+        "Bin Li",
+        "Guangwei Deng",
+        "Ruiming Zhang",
+        "Zhonghua Ou",
+        "Heng Zhou",
+        "Yun Ling",
+        "Yunxiang Wang",
+        "You Wang",
+        "Kun Qiu",
+        "Haizhi Song",
+        "Qiang Zhou"
+      ],
+      "year": 2019,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "dynamic range",
+        "Mach-Zehnder interferometer"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2019.2941997",
+      "cited_by_count": 21,
+      "importance": 0.722,
+      "score_basis": {
+        "topic_overlap": 0.716,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3017896810",
+      "doi": "10.1109/jlt.2020.2990872",
+      "title": "Fast Acquisition Tunable High-Resolution Photon-Counting OTDR",
+      "authors": [
+        "Felipe Calliari",
+        "Marlon M. Correia",
+        "Guilherme P. Temporão",
+        "Gustavo Castro do Amaral",
+        "Jean Pierre von der Weid"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical time-domain reflectometry",
+        "dead time",
+        "dynamic range"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.2990872",
+      "cited_by_count": 19,
+      "importance": 0.6875,
+      "score_basis": {
+        "topic_overlap": 0.639,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2155777794",
+      "doi": "10.1109/jlt.2012.2203786",
+      "title": "Photon-Counting Optical Time-Domain Reflectometry Using a Superconducting Nanowire Single-Photon Detector",
+      "authors": [
+        "Junhui Hu",
+        "Qingyuan Zhao",
+        "Xuping Zhang",
+        "Labao Zhang",
+        "Xiaodong Zhao",
+        "Lin Kang",
+        "Peiheng Wu"
+      ],
+      "year": 2012,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "superconducting nanowire single-photon detectors",
+        "fiber optic sensing",
+        "dynamic range",
+        "spatial resolution",
+        "noise equivalent power",
+        "timing jitter",
+        "single-mode fiber",
+        "fiber optic sensors"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2012.2203786",
+      "cited_by_count": 54,
+      "importance": 0.6781,
+      "score_basis": {
+        "topic_overlap": 0.507,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4327915182",
+      "doi": "10.1117/12.2666408",
+      "title": "Photon-counting optical time-domain reflectometry based on free-running single-photon avalanche detector",
+      "authors": [
+        "Yang Cao",
+        "Wen-Wei Tao",
+        "Yang Su",
+        "Shi-yong Dai",
+        "Jie Wang",
+        "Song Wei Gao",
+        "Ren-De Liu",
+        "Shi-Biao Tang"
+      ],
+      "year": 2023,
+      "venue": "Eighth Symposium on Novel Photoelectronic Detection Technology and Applications",
+      "venue_abbr": "Eighth Symposium on Novel Photoelectronic Detection Technology and Applications",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "single-photon avalanche diodes",
+        "negative feedback",
+        "detection efficiency",
+        "timing jitter",
+        "optical fiber characterization",
+        "two-point resolution"
+      ],
+      "url": "https://doi.org/10.1117/12.2666408",
+      "cited_by_count": 1,
+      "importance": 0.6579,
+      "score_basis": {
+        "topic_overlap": 0.462,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2137020569",
+      "doi": "10.1109/jlt.2009.2039635",
+      "title": "Photon Counting OTDR: Advantages and Limitations",
+      "authors": [
+        "Patrick Eraerds",
+        "Matthieu Legré",
+        "Jun Zhang",
+        "Hugo Zbinden",
+        "N. Gisin"
+      ],
+      "year": 2010,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical time-domain reflectometry",
+        "avalanche photodiode",
+        "Geiger-mode operation",
+        "dynamic range",
+        "two-point resolution",
+        "free-running mode",
+        "dead zone",
+        "optical fiber diagnostics"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2009.2039635",
+      "cited_by_count": 150,
+      "importance": 0.6411,
+      "score_basis": {
+        "topic_overlap": 0.536,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W377624706",
+      "doi": "10.1038/srep10441",
+      "title": "Long-haul and high-resolution optical time domain reflectometry using superconducting nanowire single-photon detectors",
+      "authors": [
+        "Qingyuan Zhao",
+        "Lan Xia",
+        "Chao Wan",
+        "Junhui Hu",
+        "Tao Jia",
+        "Min Gu",
+        "Labao Zhang",
+        "Lin Kang",
+        "Jian Chen",
+        "Xuping Zhang",
+        "Peiheng Wu"
+      ],
+      "year": 2015,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical time-domain reflectometry",
+        "superconducting nanowire single-photon detectors",
+        "photon counting",
+        "pulse width reduction",
+        "two-point resolution",
+        "dynamic range",
+        "optical fiber diagnostics"
+      ],
+      "url": "https://doi.org/10.1038/srep10441",
+      "cited_by_count": 56,
+      "importance": 0.6333,
+      "score_basis": {
+        "topic_overlap": 0.519,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2180408364",
+      "doi": "10.1109/jlt.2015.2495518",
+      "title": "Automatic Fault Detection in WDM-PON With Tunable Photon Counting OTDR",
+      "authors": [
+        "Gustavo Castro do Amaral",
+        "Joaquim Dias Garcia",
+        "Luis E. Y. Herrera",
+        "Guilherme P. Temporão",
+        "Patryk J. Urban",
+        "Jean Pierre von der Weid"
+      ],
+      "year": 2015,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "automatic fault detection",
+        "WDM-PON",
+        "optical time-domain reflectometry"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2015.2495518",
+      "cited_by_count": 44,
+      "importance": 0.5925,
+      "score_basis": {
+        "topic_overlap": 0.45,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2087085802",
+      "doi": "10.1063/1.4803011",
+      "title": "Optical time domain reflectometry with low noise waveguide-coupled superconducting nanowire single-photon detectors",
+      "authors": [
+        "Carsten Schuck",
+        "Wolfram H. P. Pernice",
+        "Xiao‐Song Ma",
+        "Hong X. Tang"
+      ],
+      "year": 2013,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical time-domain reflectometry",
+        "superconducting nanowire single-photon detectors",
+        "NbTiN",
+        "silicon nitride waveguides",
+        "timing resolution",
+        "dark count rate",
+        "long-haul optical fiber"
+      ],
+      "url": "https://doi.org/10.1063/1.4803011",
+      "cited_by_count": 41,
+      "importance": 0.5816,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1982836961",
+      "doi": "10.1364/oe.15.008237",
+      "title": "High resolution optical time domain reflectometer based on 1.55μm up-conversion photon-counting module",
+      "authors": [
+        "Matthieu Legré",
+        "Rob Thew",
+        "Hugo Zbinden",
+        "Nicolas Gisin"
+      ],
+      "year": 2007,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical time-domain reflectometry",
+        "photon counting",
+        "1550 nm",
+        "upconversion",
+        "periodically poled lithium niobate",
+        "silicon photomultipliers",
+        "timing jitter",
+        "wavelength conversion",
+        "optical fiber characterization",
+        "high spatial resolution"
+      ],
+      "url": "https://doi.org/10.1364/oe.15.008237",
+      "cited_by_count": 88,
+      "importance": 0.5047,
+      "score_basis": {
+        "topic_overlap": 0.455,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2896910639",
+      "doi": "10.1364/ao.57.008824",
+      "title": "Cost-effective high-spatial-resolution photon-counting optical time-domain reflectometry at 850 nm",
+      "authors": [
+        "Bin Li",
+        "Qiang Zhou",
+        "Ruiming Zhang",
+        "Junyi Li",
+        "Heng Zhou",
+        "Hao Li",
+        "Yun Ling",
+        "Yunxiang Wang",
+        "Guangwei Deng",
+        "You Wang",
+        "Lin Shi",
+        "Kun Liang Qiu",
+        "Hai‐Zhi Song"
+      ],
+      "year": 2018,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical time-domain reflectometry",
+        "photon counting",
+        "850 nm",
+        "spatial resolution",
+        "low-cost instrumentation"
+      ],
+      "url": "https://doi.org/10.1364/ao.57.008824",
+      "cited_by_count": 14,
+      "importance": 0.5006,
+      "score_basis": {
+        "topic_overlap": 0.512,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2111328720",
+      "doi": "10.1364/ol.31.000727",
+      "title": "15 μm photon-counting optical time-domain reflectometry with a single-photon detector based on upconversion in a periodically poled lithium niobate waveguide",
+      "authors": [
+        "Eleni Diamanti",
+        "Carsten Langrock",
+        "M. M. Fejer",
+        "Y. Yamamoto",
+        "Hiroki Takesue"
+      ],
+      "year": 2006,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical time-domain reflectometry",
+        "photon counting",
+        "single-photon detection",
+        "frequency up-conversion",
+        "periodically poled lithium niobate",
+        "waveguides",
+        "silicon avalanche photodiode",
+        "optical fiber characterization",
+        "1550 nm",
+        "high sensitivity",
+        "spatial resolution"
+      ],
+      "url": "https://doi.org/10.1364/ol.31.000727",
+      "cited_by_count": 41,
+      "importance": 0.448,
+      "score_basis": {
+        "topic_overlap": 0.329,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3027790040",
+      "doi": "10.1364/ao.393072",
+      "title": "Integrated optical time-domain reflectometer with low overhead",
+      "authors": [
+        "Thomas Mauldin",
+        "Zhenyu Xu",
+        "Zheyi Yao",
+        "Tao Wei"
+      ],
+      "year": 2020,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical time-domain reflectometry",
+        "optical fiber characterization",
+        "CMOS compatibility",
+        "printed circuit board integration",
+        "optical transceivers",
+        "spatial resolution",
+        "sensitivity",
+        "dynamic range"
+      ],
+      "url": "https://doi.org/10.1364/ao.393072",
+      "cited_by_count": 12,
+      "importance": 0.4097,
+      "score_basis": {
+        "topic_overlap": 0.466,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2044915122",
+      "doi": "10.1364/ao.24.002313",
+      "title": "Optical time-domain reflectometer specifications and performance testing",
+      "authors": [
+        "Bruce L. Danielson"
+      ],
+      "year": 1985,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical time domain reflectometer",
+        "performance specifications",
+        "performance testing",
+        "dynamic range",
+        "optical fiber diagnostics"
+      ],
+      "url": "https://doi.org/10.1364/ao.24.002313",
+      "cited_by_count": 60,
+      "importance": 0.39,
+      "score_basis": {
+        "topic_overlap": 0.378,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2275729540",
+      "doi": "10.1109/jlt.2016.2570302",
+      "title": "Adaptive Filter for Automatic Identification of Multiple Faults in a Noisy OTDR Profile",
+      "authors": [
+        "Jean Pierre von der Weid",
+        "Mario H. Souto",
+        "Joaquim D. Garcia",
+        "Gustavo Castro do Amaral"
+      ],
+      "year": 2016,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical time-domain reflectometry",
+        "adaptive filtering",
+        "parameter-free algorithms",
+        "embedded signal processing"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2016.2570302",
+      "cited_by_count": 37,
+      "importance": 0.3858,
+      "score_basis": {
+        "topic_overlap": 0.213,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1834065734",
+      "doi": "10.1038/lsa.2015.59",
+      "title": "Advances in InGaAs/InP single-photon detector systems for quantum communication",
+      "authors": [
+        "Jun Zhang",
+        "Mark A Itzler",
+        "Hugo Zbinden",
+        "Jian-Wei Pan"
+      ],
+      "year": 2015,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "single-photon detectors",
+        "InGaAs/InP",
+        "single-photon avalanche diodes",
+        "quantum communication",
+        "free-running operation",
+        "near-infrared photodetection",
+        "telecom wavelengths",
+        "III-V semiconductors",
+        "detector characterization"
+      ],
+      "url": "https://doi.org/10.1038/lsa.2015.59",
+      "cited_by_count": 441,
+      "importance": 0.3402,
+      "score_basis": {
+        "topic_overlap": 0.156,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2115990575",
+      "doi": "10.1109/lpt.2005.846954",
+      "title": "Measuring modal birefringence along a holey fiber by photon-counting OTDR",
+      "authors": [
+        "Y. Inoue",
+        "Takamitsu Aiba",
+        "N. Shibata"
+      ],
+      "year": 2005,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "modal birefringence",
+        "photonic crystal fiber",
+        "optical time-domain reflectometry",
+        "polarization mode dispersion",
+        "birefringence measurement"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2005.846954",
+      "cited_by_count": 5,
+      "importance": 0.3256,
+      "score_basis": {
+        "topic_overlap": 0.279,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1969575569",
+      "doi": "10.1063/1.4824196",
+      "title": "A study of pile-up in integrated time-correlated single photon counting systems",
+      "authors": [
+        "Jochen Arlt",
+        "David Tyndall",
+        "Bruce R. Rae",
+        "David Li",
+        "Justin A. Richardson",
+        "Robert Henderson"
+      ],
+      "year": 2013,
+      "venue": "Review of Scientific Instruments",
+      "venue_abbr": "Review of Scientific Instruments",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "time-correlated single photon counting",
+        "SPAD arrays",
+        "photon detection efficiency",
+        "dynamic range",
+        "fluorescence lifetime measurement",
+        "time-to-digital conversion",
+        "live-cell imaging",
+        "near-infrared optical tomography"
+      ],
+      "url": "https://doi.org/10.1063/1.4824196",
+      "cited_by_count": 111,
+      "importance": 0.2968,
+      "score_basis": {
+        "topic_overlap": 0.215,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1980967920",
+      "doi": "10.1117/12.259788",
+      "title": "Advances in high-resolution distributed sensing using a time-resolved photon counting technique",
+      "authors": [
+        "Ricardo Feced",
+        "Mahmoud Farhadiroushan",
+        "Pablo Rodriguez",
+        "V.A. Handerek",
+        "Alan J. Rogers"
+      ],
+      "year": 1996,
+      "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "venue_abbr": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "time-resolved photon counting",
+        "high-resolution temperature measurement",
+        "spatial resolution",
+        "temperature sensitivity",
+        "life assessment"
+      ],
+      "url": "https://doi.org/10.1117/12.259788",
+      "cited_by_count": 4,
+      "importance": 0.2876,
+      "score_basis": {
+        "topic_overlap": 0.195,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4360862185",
+      "doi": "10.3390/s23073412",
+      "title": "Modeling for Single-Photon Avalanche Diodes: State-of-the-Art and Research Challenges",
+      "authors": [
+        "Xuanyu Qian",
+        "Wei Jiang",
+        "Ahmed Y. Elsharabasy",
+        "M. Jamal Deen"
+      ],
+      "year": 2023,
+      "venue": "Sensors",
+      "venue_abbr": "Sensors",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-photon avalanche diodes",
+        "single photon counting",
+        "photon detection probability",
+        "dark count rate",
+        "timing jitter"
+      ],
+      "url": "https://doi.org/10.3390/s23073412",
+      "cited_by_count": 43,
+      "importance": 0.2742,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2007574391",
+      "doi": "10.1364/oe.14.013067",
+      "title": "1.5- μm single photon counting using polarization-independent up-conversion detector",
+      "authors": [
+        "Hiroki Takesue",
+        "Eleni Diamanti",
+        "Carsten Langrock",
+        "M. M. Fejer",
+        "Y. Yamamoto"
+      ],
+      "year": 2006,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "single-photon detection",
+        "frequency up-conversion",
+        "periodically poled lithium niobate",
+        "PPLN waveguide",
+        "polarization diversity",
+        "polarization beam splitter",
+        "1550 nm",
+        "sifted key rate",
+        "quantum key distribution"
+      ],
+      "url": "https://doi.org/10.1364/oe.14.013067",
+      "cited_by_count": 24,
+      "importance": 0.2172,
+      "score_basis": {
+        "topic_overlap": 0.038,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1995277864",
+      "doi": "10.1088/1464-4258/7/4/006",
+      "title": "Segmented phase-only filter binarized with a new error diffusion approach",
+      "authors": [
+        "Ayman Al Falou",
+        "Marwa Elbouz",
+        "Habib Hamam"
+      ],
+      "year": 2005,
+      "venue": "Journal of Optics A Pure and Applied Optics",
+      "venue_abbr": "Journal of Optics A Pure and Applied Optics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase-only filter",
+        "error diffusion",
+        "binarization",
+        "optical image processing"
+      ],
+      "url": "https://doi.org/10.1088/1464-4258/7/4/006",
+      "cited_by_count": 34,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2036641755",
+      "doi": "10.1364/oe.22.027437",
+      "title": "Polarization-sensitive color in butterfly scales: polarization conversion from ridges with reflecting elements",
+      "authors": [
+        "Ke Zhang",
+        "Yiwen Tang",
+        "Jinsong Meng",
+        "Ge Wang",
+        "Han Zhou",
+        "Tongxiang Fan",
+        "Di Zhang"
+      ],
+      "year": 2014,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "butterfly wing scales",
+        "polarization conversion",
+        "form birefringence",
+        "triangular grating",
+        "polarization-dependent reflection",
+        "anti-counterfeiting",
+        "structural color"
+      ],
+      "url": "https://doi.org/10.1364/oe.22.027437",
+      "cited_by_count": 19,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1834065734",
+      "to": "W2137020569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1834065734"
+        }
+      ]
+    },
+    {
+      "from": "W2087085802",
+      "to": "W1982836961",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2087085802"
+        }
+      ]
+    },
+    {
+      "from": "W2087085802",
+      "to": "W2111328720",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2087085802"
+        }
+      ]
+    },
+    {
+      "from": "W2087085802",
+      "to": "W2137020569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2087085802"
+        }
+      ]
+    },
+    {
+      "from": "W2087085802",
+      "to": "W2155777794",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2087085802"
+        }
+      ]
+    },
+    {
+      "from": "W2137020569",
+      "to": "W1982836961",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2137020569"
+        }
+      ]
+    },
+    {
+      "from": "W2137020569",
+      "to": "W2111328720",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2137020569"
+        }
+      ]
+    },
+    {
+      "from": "W2155777794",
+      "to": "W1982836961",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2155777794"
+        }
+      ]
+    },
+    {
+      "from": "W2155777794",
+      "to": "W2111328720",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2155777794"
+        }
+      ]
+    },
+    {
+      "from": "W2155777794",
+      "to": "W2137020569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2155777794"
+        }
+      ]
+    },
+    {
+      "from": "W2180408364",
+      "to": "W2044915122",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2180408364"
+        }
+      ]
+    },
+    {
+      "from": "W2180408364",
+      "to": "W2111328720",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2180408364"
+        }
+      ]
+    },
+    {
+      "from": "W2180408364",
+      "to": "W2137020569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2180408364"
+        }
+      ]
+    },
+    {
+      "from": "W2275729540",
+      "to": "W2180408364",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2275729540"
+        }
+      ]
+    },
+    {
+      "from": "W2896910639",
+      "to": "W2137020569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2896910639"
+        }
+      ]
+    },
+    {
+      "from": "W2959458211",
+      "to": "W2137020569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2959458211"
+        }
+      ]
+    },
+    {
+      "from": "W2959458211",
+      "to": "W2155777794",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2959458211"
+        }
+      ]
+    },
+    {
+      "from": "W2959458211",
+      "to": "W2275729540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2959458211"
+        }
+      ]
+    },
+    {
+      "from": "W2959458211",
+      "to": "W2896910639",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2959458211"
+        }
+      ]
+    },
+    {
+      "from": "W3017896810",
+      "to": "W2137020569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3017896810"
+        }
+      ]
+    },
+    {
+      "from": "W3017896810",
+      "to": "W2155777794",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3017896810"
+        }
+      ]
+    },
+    {
+      "from": "W3017896810",
+      "to": "W2180408364",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3017896810"
+        }
+      ]
+    },
+    {
+      "from": "W3017896810",
+      "to": "W2275729540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3017896810"
+        }
+      ]
+    },
+    {
+      "from": "W377624706",
+      "to": "W1982836961",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W377624706"
+        }
+      ]
+    },
+    {
+      "from": "W377624706",
+      "to": "W2087085802",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W377624706"
+        }
+      ]
+    },
+    {
+      "from": "W377624706",
+      "to": "W2137020569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W377624706"
+        }
+      ]
+    },
+    {
+      "from": "W377624706",
+      "to": "W2155777794",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W377624706"
+        }
+      ]
+    },
+    {
+      "from": "W4327915182",
+      "to": "W1834065734",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327915182"
+        }
+      ]
+    },
+    {
+      "from": "W4327915182",
+      "to": "W1982836961",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327915182"
+        }
+      ]
+    },
+    {
+      "from": "W4327915182",
+      "to": "W2087085802",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327915182"
+        }
+      ]
+    },
+    {
+      "from": "W4327915182",
+      "to": "W2111328720",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327915182"
+        }
+      ]
+    },
+    {
+      "from": "W4327915182",
+      "to": "W2137020569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327915182"
+        }
+      ]
+    },
+    {
+      "from": "W4327915182",
+      "to": "W2155777794",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327915182"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W1834065734",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W1969575569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W1980967920",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W1982836961",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W1995277864",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2007574391",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2036641755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2044915122",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2087085802",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2111328720",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2115990575",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2137020569",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2155777794",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2180408364",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2275729540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2896910639",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W2959458211",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W3017896810",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W3027790040",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W377624706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W4327915182",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    },
+    {
+      "from": "W7203829757",
+      "to": "W4360862185",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203829757"
+        }
+      ]
+    }
+  ]
 }

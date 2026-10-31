@@ -1,21 +1,31 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "b7cc9499-abab-4095-96b1-b80e26361453",
-  "root": "doi:10.1364/ol.608464",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7203742152",
+  "status": "ok",
+  "checked_at": "2026-10-29T00:50:09.939826+00:00",
+  "coverage": {
+    "references_found": 21,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 21,
+    "displayed": 21
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ol.608464",
+      "id": "W7203742152",
       "doi": "10.1364/ol.608464",
       "title": "Ultra-broadband lithium niobate optical mode (de)multiplexer enabled by SWG-based modal-field redistribution",
       "authors": [
         "Xudong Zhou",
         "Pu Zhang",
-        "Bingjie Wang",
+        "wang binjie",
         "Yongheng Jiang",
         "Huifu Xiao",
         "Mingrui Yuan",
@@ -26,20 +36,1301 @@
         "Arnan Mitchell",
         "Yonghui Tian"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Letters",
       "venue_abbr": "OL",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "mode-division multiplexing",
+        "lithium niobate on insulator",
+        "subwavelength gratings",
+        "broadband optical devices",
+        "photonic integrated circuits",
+        "insertion loss",
+        "crosstalk"
+      ],
       "url": "https://doi.org/10.1364/ol.608464",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/b7cc9499-abab-4095-96b1-b80e26361453.html",
       "summary": "摘要报告：模分复用可提升PIC通信容量，模式（解）复用器把多路单模信号转换为对应多模信号并合波/分波。提出基于亚波长光栅（SWG）模场重分布的LNOI超宽带模式（解）复用器，设计并制备三通道器件：仿真显示工作带宽800 nm（1.2–2.0 µm）、插损<1 dB；实验测得1500–1600 nm范围内各器件插损<1.0 dB、串扰<−15.9 dB，与仿真基本一致。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4386782778",
+      "doi": "10.1002/lpor.202300377",
+      "title": "Demonstration of a High‐Performance 3 dB Power Splitter in Silicon Nitride Loaded Lithium Niobate on Insulator",
+      "authors": [
+        "Li Chen",
+        "Xu Han",
+        "Xudong Zhou",
+        "Ruoyu Yin",
+        "Mingrui Yuan",
+        "Huifu Xiao",
+        "Thach Giang Nguyen",
+        "Andreas Boes",
+        "Guanghui Ren",
+        "Arnan Mitchell",
+        "Yonghui Tian"
+      ],
+      "year": 2023,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate on insulator",
+        "silicon nitride",
+        "subwavelength gratings",
+        "Y-branch coupler",
+        "evanescent coupling",
+        "insertion loss",
+        "passive optical components",
+        "electro-optic modulator"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202300377",
+      "cited_by_count": 24,
+      "importance": 0.5787,
+      "score_basis": {
+        "topic_overlap": 0.464,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4366145447",
+      "doi": "10.1002/lpor.202300203",
+      "title": "Subwavelength Grating‐Assisted Contra‐Directional Couplers in Lithium Niobate on Insulator",
+      "authors": [
+        "Xu Han",
+        "Yongheng Jiang",
+        "Huifu Xiao",
+        "Mingrui Yuan",
+        "Thach Giang Nguyen",
+        "Andreas Boes",
+        "Guanghui Ren",
+        "Yong Zhang",
+        "Qinfen Hao",
+        "Yikai Su",
+        "Arnan Mitchell",
+        "Yonghui Tian"
+      ],
+      "year": 2023,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate on insulator",
+        "subwavelength gratings",
+        "wavelength demultiplexer",
+        "wavelength division multiplexer",
+        "manufacturing tolerances",
+        "channel crosstalk",
+        "insertion loss"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202300203",
+      "cited_by_count": 31,
+      "importance": 0.5461,
+      "score_basis": {
+        "topic_overlap": 0.547,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414690515",
+      "doi": "10.1364/ol.573985",
+      "title": "Ultra-broadband and high-fabrication-tolerance mode-division (de)multiplexer in lithium niobate on insulator",
+      "authors": [
+        "Zixu Zhu",
+        "Xu Han",
+        "Mei Xian Low",
+        "Guanghui Ren",
+        "Arnan Mitchell",
+        "Haojie Xia"
+      ],
+      "year": 2025,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "mode-division multiplexing",
+        "lithium niobate on insulator",
+        "evanescent coupling",
+        "waveguide modes",
+        "manufacturing tolerances",
+        "broadband optical devices",
+        "angular separation"
+      ],
+      "url": "https://doi.org/10.1364/ol.573985",
+      "cited_by_count": 4,
+      "importance": 0.5435,
+      "score_basis": {
+        "topic_overlap": 0.541,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412687537",
+      "doi": "10.1002/lpor.202500643",
+      "title": "Advances in On‐Chip Polarization Multiplexing Devices: From Traditional Designs to Inverse Design and Hybrid Multiplexing",
+      "authors": [
+        "Maoqing Guo",
+        "Lvyi Zhong",
+        "Shilong Li",
+        "Yuhang Chen",
+        "Jie Li",
+        "Jitao Li",
+        "Dingyu Yang"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization multiplexing",
+        "polarization beam splitter",
+        "polarization rotator",
+        "inverse design",
+        "hybrid multiplexing",
+        "directional coupler",
+        "multimode interference",
+        "Y-branch waveguide",
+        "photonic crystals",
+        "hybrid plasmonic waveguide",
+        "subwavelength gratings",
+        "slot waveguide"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202500643",
+      "cited_by_count": 15,
+      "importance": 0.539,
+      "score_basis": {
+        "topic_overlap": 0.309,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410614075",
+      "doi": "10.1109/lpt.2025.3572505",
+      "title": "High-Performance Shape-Optimized Lithium Niobate-on-Insulator Mode (De)multiplexer",
+      "authors": [
+        "Xiuzhi Chen",
+        "Chuang Cheng",
+        "杨兰 YANG Lan",
+        "Xin Fu",
+        "Lin Yang"
+      ],
+      "year": 2025,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "lithium niobate on insulator",
+        "mode-division multiplexing",
+        "mode demultiplexer",
+        "inverse design",
+        "shape optimization",
+        "crystal anisotropy",
+        "sidewall angle",
+        "insertion loss",
+        "crosstalk",
+        "compact photonic devices"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2025.3572505",
+      "cited_by_count": 8,
+      "importance": 0.525,
+      "score_basis": {
+        "topic_overlap": 0.567,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4399522602",
+      "doi": "10.1021/acsphotonics.4c00511",
+      "title": "Four-Channel Broadband Mode (De)multiplexer Based on Thin-Film Lithium Niobate Platform",
+      "authors": [
+        "Wanghua Zhu",
+        "Chunyu Deng",
+        "Dongyu Wang",
+        "Qichao Wang",
+        "Yaohui Sun",
+        "Jin Wang",
+        "Binfeng Yun",
+        "Yiping Cui",
+        "Guohua Hu"
+      ],
+      "year": 2024,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "lithium niobate on insulator",
+        "mode multiplexer",
+        "mode demultiplexer",
+        "strip waveguides",
+        "phase mismatch",
+        "crosstalk",
+        "electro-optic modulation"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.4c00511",
+      "cited_by_count": 23,
+      "importance": 0.5244,
+      "score_basis": {
+        "topic_overlap": 0.476,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2793605074",
+      "doi": "10.1002/lpor.201700256",
+      "title": "Status and Potential of Lithium Niobate on Insulator (LNOI) for Photonic Integrated Circuits",
+      "authors": [
+        "Andreas Boes",
+        "Bill Corcoran",
+        "Lin Chang",
+        "John Edward Bowers",
+        "Arnan Mitchell"
+      ],
+      "year": 2018,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate on insulator",
+        "photonic integrated circuits",
+        "integrated photonics",
+        "light confinement",
+        "heterogeneous integration",
+        "laser sources",
+        "photodetectors"
+      ],
+      "url": "https://doi.org/10.1002/lpor.201700256",
+      "cited_by_count": 704,
+      "importance": 0.4891,
+      "score_basis": {
+        "topic_overlap": 0.465,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3130725666",
+      "doi": "10.1364/aop.411024",
+      "title": "Integrated photonics on thin-film lithium niobate",
+      "authors": [
+        "Di Zhu",
+        "Linbo Shao",
+        "Mengjie Yu",
+        "Rebecca Cheng",
+        "Boris Desiatov",
+        "C. J. Xin",
+        "Yaowen Hu",
+        "Jeffrey Holzgrafe",
+        "Soumya Shankar Ghosh",
+        "Amirhassan Shams‐Ansari",
+        "Eric Puma",
+        "Neil E. Sinclair",
+        "Christian Reimer",
+        "Mian Zhang",
+        "Marko Lončar"
+      ],
+      "year": 2021,
+      "venue": "Advances in Optics and Photonics",
+      "venue_abbr": "Advances in Optics and Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate",
+        "thin-film lithium niobate",
+        "integrated photonics",
+        "lithium niobate on insulator",
+        "optical modulators",
+        "nonlinear frequency conversion",
+        "electro-optic devices",
+        "acousto-optic devices",
+        "low-loss resonators",
+        "optical frequency combs",
+        "quantum transducers",
+        "wafer-scale thin films"
+      ],
+      "url": "https://doi.org/10.1364/aop.411024",
+      "cited_by_count": 1513,
+      "importance": 0.4778,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401961774",
+      "doi": "10.3390/mi15091084",
+      "title": "Ultra-Broadband Mode (De)Multiplexer on Thin-Film Lithium Niobate Platform Adopting Phase Control Theory",
+      "authors": [
+        "Kun Yin",
+        "Wenting Jiao",
+        "Lin Wang",
+        "Shiqiang Zhu"
+      ],
+      "year": 2024,
+      "venue": "Micromachines",
+      "venue_abbr": "Micromachines",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mode demultiplexer",
+        "mode multiplexer",
+        "thin-film lithium niobate",
+        "lithium niobate on silicon",
+        "directional coupler",
+        "dispersion compensation",
+        "broadband mode conversion",
+        "higher-order modes",
+        "crosstalk",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.3390/mi15091084",
+      "cited_by_count": 4,
+      "importance": 0.4646,
+      "score_basis": {
+        "topic_overlap": 0.477,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4353083521",
+      "doi": "10.1515/nanoph-2023-0111",
+      "title": "On‐chip mode‐selective manipulation based on the modal‐field redistribution assisted with subwavelength grating structures",
+      "authors": [
+        "Xiaolin Yi",
+        "Chenlei Li",
+        "Weike Zhao",
+        "Long Zhang",
+        "Yaocheng Shi",
+        "Daoxin Dai A"
+      ],
+      "year": 2023,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "mode-division multiplexing",
+        "subwavelength gratings",
+        "silicon photonics",
+        "mode coupling coefficients",
+        "inter-mode crosstalk",
+        "evanescent coupling"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2023-0111",
+      "cited_by_count": 23,
+      "importance": 0.4302,
+      "score_basis": {
+        "topic_overlap": 0.4,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407820392",
+      "doi": "10.1364/oe.555172",
+      "title": "Compact and scalable mode (de)multiplexer using inverse-designed subwavelength gratings",
+      "authors": [
+        "Rui Wu",
+        "Xingqi Wang",
+        "Xin Qiao",
+        "Yong Shuai Wei",
+        "Yingjie Liu"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "mode demultiplexer",
+        "mode multiplexer",
+        "subwavelength gratings",
+        "inverse design",
+        "mode-division multiplexing",
+        "polarization multiplexing",
+        "directional coupler",
+        "compact photonic integrated circuits",
+        "crosstalk"
+      ],
+      "url": "https://doi.org/10.1364/oe.555172",
+      "cited_by_count": 22,
+      "importance": 0.3964,
+      "score_basis": {
+        "topic_overlap": 0.436,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3139120465",
+      "doi": "10.1364/optica.415762",
+      "title": "Integrated lithium niobate electro-optic modulators: when performance meets scalability",
+      "authors": [
+        "Mian Zhang",
+        "Cheng Wang",
+        "Prashanta Kharel",
+        "Di Zhu",
+        "Marko Lončar"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "lithium niobate",
+        "electro-optic modulator",
+        "thin-film lithium niobate",
+        "integrated photonics",
+        "electro-optic modulation",
+        "scalability",
+        "optical communication",
+        "microwave photonics",
+        "quantum photonics",
+        "photonic circuits"
+      ],
+      "url": "https://doi.org/10.1364/optica.415762",
+      "cited_by_count": 496,
+      "importance": 0.3935,
+      "score_basis": {
+        "topic_overlap": 0.319,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2139784017",
+      "doi": "10.1002/lpor.201400083",
+      "title": "Waveguide sub‐wavelength structures: a review of principles and applications",
+      "authors": [
+        "Robert Halir",
+        "Przemek J. Bock",
+        "Pavel Cheben",
+        "Alejandro Ortega‐Moñux",
+        "Carlos Alonso‐Ramos",
+        "Jens H. Schmid",
+        "J. Lapointe",
+        "Dan‐Xia Xu",
+        "Juan Gonzalo Wangüemert-Pérez",
+        "Íñigo Molina‐Fernández",
+        "Siegfried Janz"
+      ],
+      "year": 2014,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "subwavelength structures",
+        "periodic structures",
+        "waveguide optics",
+        "silicon photonics",
+        "antireflection coatings",
+        "polarization rotator",
+        "spectrometer",
+        "high-reflectivity mirrors",
+        "multimode interference coupler",
+        "dispersion engineering"
+      ],
+      "url": "https://doi.org/10.1002/lpor.201400083",
+      "cited_by_count": 658,
+      "importance": 0.3712,
+      "score_basis": {
+        "topic_overlap": 0.247,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407065508",
+      "doi": "10.1002/lpor.202401689",
+      "title": "Multichannel Parallel Mode Order Converter for On‐Chip Reconfigurable PDM‐MDM Transmission",
+      "authors": [
+        "Zhe Yuan",
+        "Yongchen Wang",
+        "Hangming Fan",
+        "Xiao-Yang Liu",
+        "Mengfan Cheng",
+        "Qi Yang",
+        "Ming Tang",
+        "Deming Liu",
+        "Lei Deng"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization multiplexing",
+        "mode-division multiplexing",
+        "wavelength division multiplexing",
+        "hybrid multiplexing",
+        "metamaterials",
+        "binary search",
+        "insertion loss",
+        "crosstalk"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202401689",
+      "cited_by_count": 8,
+      "importance": 0.3512,
+      "score_basis": {
+        "topic_overlap": 0.336,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2468172470",
+      "doi": "10.1088/2040-8978/18/7/073003",
+      "title": "Roadmap on silicon photonics",
+      "authors": [
+        "David J. Thomson",
+        "Aaron J. Zilkie",
+        "John Edward Bowers",
+        "Tin Komljenović",
+        "Graham T. Reed",
+        "Laurent Vivien",
+        "Delphine Marris‐Morini",
+        "Éric Cassan",
+        "Léopold Virot",
+        "Jean-Marc Fédéli",
+        "Jean‐Michel Hartmann",
+        "Jens H. Schmid",
+        "Dan‐Xia Xu",
+        "F. Bœuf",
+        "Peter A. O'Brien",
+        "Goran Z. Mashanovich",
+        "Miloš Nedeljković"
+      ],
+      "year": 2016,
+      "venue": "Journal of Optics",
+      "venue_abbr": "J. Opt.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "silicon photonics integrated circuits",
+        "silicon waveguides",
+        "light sources",
+        "optical modulators",
+        "photodetectors",
+        "CMOS-compatible photonics",
+        "photonic integration",
+        "photonic packaging",
+        "mid-infrared photonics",
+        "data centers",
+        "high-performance computing"
+      ],
+      "url": "https://doi.org/10.1088/2040-8978/18/7/073003",
+      "cited_by_count": 1361,
+      "importance": 0.3434,
+      "score_basis": {
+        "topic_overlap": 0.163,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405998181",
+      "doi": "10.3788/col202422.120001",
+      "title": "High-density MDM-WDM silicon photonic transmitter chiplet based on MRMs and dual-mode GC for 4 × 56 Gbps 3D co-packaged optical interconnects",
+      "authors": [
+        "Xinyi Wang",
+        "Jiangbing Du",
+        "Weihong Shen",
+        "Ke Xu",
+        "Zuyuan He"
+      ],
+      "year": 2024,
+      "venue": "Chinese Optics Letters",
+      "venue_abbr": "COL",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "wavelength division multiplexing",
+        "mode-division multiplexing"
+      ],
+      "url": "https://doi.org/10.3788/col202422.120001",
+      "cited_by_count": 9,
+      "importance": 0.3341,
+      "score_basis": {
+        "topic_overlap": 0.187,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412165578",
+      "doi": "10.1038/s41467-025-61288-x",
+      "title": "Integrated multi-port multi-wavelength coherent optical source for beyond Tb/s optical links",
+      "authors": [
+        "Ali Pirmoradi",
+        "Jizhao Zang",
+        "Kaisarbek Omirzakhov",
+        "Zhehao Yu",
+        "Yan Jin",
+        "Scott B. Papp",
+        "Firooz Aflatouni"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Kerr microcombs",
+        "wavelength demultiplexer",
+        "multi-wavelength light source",
+        "soliton microcombs",
+        "energy efficiency",
+        "wavelength division multiplexing",
+        "monolithic integration"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-61288-x",
+      "cited_by_count": 16,
+      "importance": 0.325,
+      "score_basis": {
+        "topic_overlap": 0.167,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3213713756",
+      "doi": "10.1364/oe.444493",
+      "title": "Hybrid WDM-MDM transmitter with an integrated Si modulator array and a micro-resonator comb source",
+      "authors": [
+        "Can Li",
+        "Hongyi Zhang",
+        "Gangqiang Zhou",
+        "Liangjun Lu",
+        "Minhui Jin",
+        "Jianji Dong",
+        "Linjie Zhou",
+        "Jianping Chen"
+      ],
+      "year": 2021,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "wavelength division multiplexing",
+        "mode-division multiplexing",
+        "silicon electro-optic modulator",
+        "multi-channel optical transmission",
+        "high-capacity optical transmission",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/oe.444493",
+      "cited_by_count": 37,
+      "importance": 0.3197,
+      "score_basis": {
+        "topic_overlap": 0.177,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2921607508",
+      "doi": "10.1109/jstqe.2019.2903775",
+      "title": "High-Performance Photonic Integrated Circuits on Silicon",
+      "authors": [
+        "Roger Helkey",
+        "Adel A. M. Saleh",
+        "James F. Buckwalter",
+        "John Edward Bowers"
+      ],
+      "year": 2019,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic integrated circuits",
+        "silicon photonics",
+        "III-V on silicon",
+        "heterogeneous integration",
+        "quantum dot lasers",
+        "epitaxial deposition",
+        "laser reliability",
+        "linewidth enhancement factor",
+        "optical frequency synthesis",
+        "microwave photonics",
+        "data transmission",
+        "optical switching"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2019.2903775",
+      "cited_by_count": 80,
+      "importance": 0.2916,
+      "score_basis": {
+        "topic_overlap": 0.159,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2981656869",
+      "doi": "10.1109/jstqe.2019.2948501",
+      "title": "Silicon Photonics for 5G and Future Networks",
+      "authors": [
+        "Roberto Sabella"
+      ],
+      "year": 2019,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "5G",
+        "integrated photonics",
+        "optical interconnects",
+        "chip-to-chip interconnects",
+        "energy consumption reduction",
+        "network infrastructure",
+        "6G",
+        "bandwidth density"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2019.2948501",
+      "cited_by_count": 78,
+      "importance": 0.2606,
+      "score_basis": {
+        "topic_overlap": 0.135,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4395672190",
+      "doi": "10.1002/lpor.202400184",
+      "title": "Spin‐Decoupled Metasurface by Hybridizing Curvature‐ and Rotation‐Induced Geometrical Phases",
+      "authors": [
+        "Zhenxu Wang",
+        "Xinmin Fu",
+        "Jian‐gang Liang",
+        "Yajuan Han",
+        "Yuxiang Jia",
+        "Chang Ding",
+        "Shaobo Qu",
+        "Jiafu Wang"
+      ],
+      "year": 2024,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "spin-decoupled metasurface",
+        "Berry phase",
+        "circular polarization",
+        "phase engineering",
+        "broadband metasurface"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202400184",
+      "cited_by_count": 14,
+      "importance": 0.2604,
+      "score_basis": {
+        "topic_overlap": 0.134,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2468172470",
+      "to": "W2139784017",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2468172470"
+        }
+      ]
+    },
+    {
+      "from": "W3130725666",
+      "to": "W2793605074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3130725666"
+        }
+      ]
+    },
+    {
+      "from": "W3139120465",
+      "to": "W2468172470",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3139120465"
+        }
+      ]
+    },
+    {
+      "from": "W4353083521",
+      "to": "W2139784017",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4353083521"
+        }
+      ]
+    },
+    {
+      "from": "W4366145447",
+      "to": "W2793605074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4366145447"
+        }
+      ]
+    },
+    {
+      "from": "W4366145447",
+      "to": "W3130725666",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4366145447"
+        }
+      ]
+    },
+    {
+      "from": "W4386782778",
+      "to": "W2793605074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386782778"
+        }
+      ]
+    },
+    {
+      "from": "W4386782778",
+      "to": "W2921607508",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386782778"
+        }
+      ]
+    },
+    {
+      "from": "W4386782778",
+      "to": "W3130725666",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386782778"
+        }
+      ]
+    },
+    {
+      "from": "W4399522602",
+      "to": "W3130725666",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4399522602"
+        }
+      ]
+    },
+    {
+      "from": "W4401961774",
+      "to": "W4399522602",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401961774"
+        }
+      ]
+    },
+    {
+      "from": "W4405998181",
+      "to": "W3213713756",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405998181"
+        }
+      ]
+    },
+    {
+      "from": "W4410614075",
+      "to": "W4399522602",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410614075"
+        }
+      ]
+    },
+    {
+      "from": "W4412165578",
+      "to": "W3213713756",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412165578"
+        }
+      ]
+    },
+    {
+      "from": "W4412687537",
+      "to": "W2139784017",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412687537"
+        }
+      ]
+    },
+    {
+      "from": "W4412687537",
+      "to": "W2793605074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412687537"
+        }
+      ]
+    },
+    {
+      "from": "W4412687537",
+      "to": "W3130725666",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412687537"
+        }
+      ]
+    },
+    {
+      "from": "W4412687537",
+      "to": "W4386782778",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412687537"
+        }
+      ]
+    },
+    {
+      "from": "W4414690515",
+      "to": "W4399522602",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414690515"
+        }
+      ]
+    },
+    {
+      "from": "W4414690515",
+      "to": "W4410614075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414690515"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W2139784017",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W2468172470",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W2793605074",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W2921607508",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W2981656869",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W3130725666",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W3139120465",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W3213713756",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4353083521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4366145447",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4386782778",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4395672190",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4399522602",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4401961774",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4405998181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4407065508",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4407820392",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4410614075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4412165578",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4412687537",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    },
+    {
+      "from": "W7203742152",
+      "to": "W4414690515",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203742152"
+        }
+      ]
+    }
+  ]
 }

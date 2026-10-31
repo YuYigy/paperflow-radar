@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "bc471475-b2ab-45df-a12e-65fa289e5c3b",
-  "root": "doi:10.1364/ol.611768",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7213226089",
+  "status": "ok",
+  "checked_at": "2026-10-31T00:49:30.854447+00:00",
+  "coverage": {
+    "references_found": 20,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 20,
+    "displayed": 20
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ol.611768",
+      "id": "W7213226089",
       "doi": "10.1364/ol.611768",
       "title": "Probabilistic photonic computing based on chaotic Kerr optical frequency combs",
       "authors": [
@@ -24,20 +34,1188 @@
         "Jun Zhang",
         "Tian Jiang"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Letters",
       "venue_abbr": "OL",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "probabilistic computing",
+        "optical computing",
+        "optical frequency combs",
+        "Kerr nonlinearity",
+        "optical neural networks"
+      ],
       "url": "https://doi.org/10.1364/ol.611768",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/bc471475-b2ab-45df-a12e-65fa289e5c3b.html",
       "summary": "摘要报告：常规ANN是点估计器、无法刻画预测不确定性；贝叶斯概率模型适合量化不确定性但与确定性计算架构不适配。提出并实验演示基于混沌克尔光频梳的概率光子计算链路（CK-PPC）：以混沌克尔光频梳的本征随机性作为原生熵源，级联马赫-曾德尔调制器与微环谐振腔阵列实现概率光子计算链路；构建混合贝叶斯卷积网络（HBNN）用于血细胞显微图像分类与分布外（OOD）检测：较常规CNN的OOD检测提升23%并保持高识别精度。为可信AI的可集成高速概率光处理器铺路。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4404887069",
+      "doi": "10.1038/s41467-024-54931-6",
+      "title": "Probabilistic photonic computing with chaotic light",
+      "authors": [
+        "Frank Brückerhoff‐Plückelmann",
+        "Hendrik Borras",
+        "Bernhard Klein",
+        "Akhil Varri",
+        "Marlon Becker",
+        "Jelle Dijkstra",
+        "Martin Brückerhoff",
+        "Christopher David Wright",
+        "Martin Salinga",
+        "Harish Bhaskaran",
+        "Benjamin Risse",
+        "Holger Fröning",
+        "Wolfram H. P. Pernice"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chaotic light",
+        "uncertainty quantification",
+        "Bayesian neural networks",
+        "image classification",
+        "synchronous sampling",
+        "artificial neural networks"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-54931-6",
+      "cited_by_count": 31,
+      "importance": 0.5849,
+      "score_basis": {
+        "topic_overlap": 0.322,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410621616",
+      "doi": "10.1038/s43588-025-00800-1",
+      "title": "Probabilistic photonic computing for AI",
+      "authors": [
+        "Frank Brückerhoff‐Plückelmann",
+        "Anna P. Ovvyan",
+        "Akhil Varri",
+        "Hendrik Borras",
+        "Bernhard Klein",
+        "Lennart Meyer",
+        "Christopher David Wright",
+        "Harish Bhaskaran",
+        "Syed Ghazi Sarwat",
+        "Abu Sebastian",
+        "Holger Fröning",
+        "Wolfram H. P. Pernice"
+      ],
+      "year": 2025,
+      "venue": "Nature Computational Science",
+      "venue_abbr": "Nature Computational Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "probabilistic computing",
+        "optical computing",
+        "physical computing",
+        "photonic processors",
+        "AI accelerators",
+        "in-memory computing",
+        "uncertainty modeling",
+        "combinatorial optimization",
+        "energy-efficient hardware"
+      ],
+      "url": "https://doi.org/10.1038/s43588-025-00800-1",
+      "cited_by_count": 12,
+      "importance": 0.5443,
+      "score_basis": {
+        "topic_overlap": 0.21,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409901655",
+      "doi": "10.1002/advs.202500525",
+      "title": "Photonic Bayesian Neural Networks: Leveraging Programmable Noise for Robust and Uncertainty‐Aware Computing",
+      "authors": [
+        "Yangyang Zhuge",
+        "Zhihao Ren",
+        "Zian Xiao",
+        "Zixuan Zhang",
+        "Xinmiao Liu",
+        "Weixin Liu",
+        "Siyu Xu",
+        "Chong Pei Ho",
+        "Nanxi Li",
+        "Chengkuo Lee"
+      ],
+      "year": 2025,
+      "venue": "Advanced Science",
+      "venue_abbr": "Advanced Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic neural networks",
+        "Bayesian neural networks",
+        "silicon photonics",
+        "device noise",
+        "Mach-Zehnder interferometer",
+        "microring resonators",
+        "handwritten digit recognition",
+        "multimodal processing",
+        "outlier detection"
+      ],
+      "url": "https://doi.org/10.1002/advs.202500525",
+      "cited_by_count": 14,
+      "importance": 0.4891,
+      "score_basis": {
+        "topic_overlap": 0.198,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388822849",
+      "doi": "10.1038/s41467-023-43317-9",
+      "title": "Bringing uncertainty quantification to the extreme-edge with memristor-based Bayesian neural networks",
+      "authors": [
+        "Djohan Bonnet",
+        "Tifenn Hirtzlin",
+        "Atreya Majumdar",
+        "Thomas Dalgaty",
+        "Eduardo Esmanhotto",
+        "V. Meli",
+        "N. Castellani",
+        "Simon Martin",
+        "Jean-François Nodin",
+        "G. Bourgeois",
+        "Jean‐Michel Portal",
+        "Damien Querlioz",
+        "Elisa Vianello"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "memristors",
+        "Bayesian neural networks",
+        "uncertainty quantification",
+        "in-memory computing",
+        "crossbar arrays",
+        "variational inference",
+        "technological losses",
+        "probabilistic computing",
+        "heartbeat classification",
+        "energy-efficient inference"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-43317-9",
+      "cited_by_count": 73,
+      "importance": 0.4003,
+      "score_basis": {
+        "topic_overlap": 0.09,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409470410",
+      "doi": "10.1038/s41377-025-01846-6",
+      "title": "Multi-wavelength optical information processing with deep reinforcement learning",
+      "authors": [
+        "Qiuquan Yan",
+        "Hao Ouyang",
+        "Zilong Tao",
+        "Meili Shen",
+        "Shiyin Du",
+        "Jun Zhang",
+        "Hengzhu Liu",
+        "Hao Hao",
+        "Tian Jiang"
+      ],
+      "year": 2025,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "deep deterministic policy gradient",
+        "dispersion compensating fiber",
+        "microwave photonic signal processing",
+        "optical network routing",
+        "optical neural networks"
+      ],
+      "url": "https://doi.org/10.1038/s41377-025-01846-6",
+      "cited_by_count": 36,
+      "importance": 0.3875,
+      "score_basis": {
+        "topic_overlap": 0.306,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414873790",
+      "doi": "10.1103/6tbg-g9fm",
+      "title": "Optical neuromorphic computing based on chaotic frequency combs in nonlinear microresonators",
+      "authors": [
+        "Negar Shaabani Shishavan",
+        "Egor S. Manuylovich",
+        "Morteza Kamalian-Kopae",
+        "Auro M. Perego"
+      ],
+      "year": 2025,
+      "venue": "Physical Review Research",
+      "venue_abbr": "Physical Review Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical neuromorphic computing",
+        "reservoir computing",
+        "chaotic time series prediction",
+        "on-chip photonic integration",
+        "low power consumption"
+      ],
+      "url": "https://doi.org/10.1103/6tbg-g9fm",
+      "cited_by_count": 7,
+      "importance": 0.3715,
+      "score_basis": {
+        "topic_overlap": 0.381,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413796455",
+      "doi": "10.1515/nanoph-2025-0260",
+      "title": "Frequency‐multiplexed optical reservoir computing using a microcomb",
+      "authors": [
+        "Jonathan Cuevas",
+        "Yue Hu",
+        "Baoqi Shi",
+        "Junqiu Liu",
+        "Kaoru Minoshima",
+        "Naoya Kuse"
+      ],
+      "year": 2025,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical reservoir computing",
+        "microcombs",
+        "temporal reasoning",
+        "nonlinear equalization",
+        "CMOS-compatible photonics",
+        "dissipative Kerr solitons"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2025-0260",
+      "cited_by_count": 8,
+      "importance": 0.3432,
+      "score_basis": {
+        "topic_overlap": 0.318,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407101545",
+      "doi": "10.1364/ol.549527",
+      "title": "Co-design for Kolmogorov–Arnold networks to unlock the full potential of optical intelligent accelerators",
+      "authors": [
+        "Shiyin Du",
+        "Hao Ouyang",
+        "Zilong Tao",
+        "Qiuquan Yan",
+        "Hao Hao",
+        "Jie Zhang",
+        "Yuhua Tang",
+        "Tian Jiang"
+      ],
+      "year": 2025,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical neural networks",
+        "Kolmogorov-Arnold networks",
+        "hardware-software co-design",
+        "Mach-Zehnder modulator",
+        "nonlinear activation",
+        "data encoding",
+        "multilayer perceptron",
+        "optical computing"
+      ],
+      "url": "https://doi.org/10.1364/ol.549527",
+      "cited_by_count": 3,
+      "importance": 0.3353,
+      "score_basis": {
+        "topic_overlap": 0.301,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7143327201",
+      "doi": "10.29026/oet.2026.260007",
+      "title": "Multi-scale attention residual deep convolutional dealiasing network-assisted unambiguous ultra-long baseline high-precision microwave photonic angle of arrival estimation",
+      "authors": [
+        "Xianglin Chen",
+        "Yin Li",
+        "Shiru Song",
+        "Yalin Yao",
+        "He Cui",
+        "Xuan Li",
+        "Zhe Guo",
+        "Yinlong Tan",
+        "Taolin Liu",
+        "Tian Jiang"
+      ],
+      "year": 2026,
+      "venue": "Opto-Electronic Technology",
+      "venue_abbr": "Opto-Electronic Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "angle of arrival estimation",
+        "microwave photonic signal processing",
+        "deep convolutional neural networks",
+        "attention mechanism",
+        "ResNet",
+        "multi-scale feature extraction",
+        "de-aliasing"
+      ],
+      "url": "https://doi.org/10.29026/oet.2026.260007",
+      "cited_by_count": 2,
+      "importance": 0.3294,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385428445",
+      "doi": "10.1038/s41467-023-40152-w",
+      "title": "Harnessing microcomb-based parallel chaos for random number generation and optical decision making",
+      "authors": [
+        "Bitao Shen",
+        "Haowen Shu",
+        "Weiqiang Xie",
+        "Ruixuan Chen",
+        "Zhi Liu",
+        "Zhangfeng Ge",
+        "Xuguang Zhang",
+        "Yimeng Wang",
+        "Yunhao Zhang",
+        "Buwen Cheng",
+        "Shaohua Yu",
+        "Lin Chang",
+        "Xingjun Wang"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical chaos",
+        "random number generation",
+        "inter-channel correlation",
+        "silicon photonics",
+        "bandit problems",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-40152-w",
+      "cited_by_count": 113,
+      "importance": 0.325,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390938566",
+      "doi": "10.1364/ol.517583",
+      "title": "Parallel edge extraction operators on chip speed up photonic convolutional neural networks",
+      "authors": [
+        "Hao Ouyang",
+        "Zeyu Zhao",
+        "Zilong Tao",
+        "Jie You",
+        "Xiang’ai Cheng",
+        "Tian Jiang"
+      ],
+      "year": 2024,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon photonics",
+        "image recognition",
+        "CIFAR-10"
+      ],
+      "url": "https://doi.org/10.1364/ol.517583",
+      "cited_by_count": 24,
+      "importance": 0.3124,
+      "score_basis": {
+        "topic_overlap": 0.205,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4306406679",
+      "doi": "10.3389/fnano.2022.1021943",
+      "title": "Bayesian neural networks using magnetic tunnel junction-based probabilistic in-memory computing",
+      "authors": [
+        "Samuel Liu",
+        "Tianyao Patrick Xiao",
+        "Jaesuk Kwon",
+        "Bert Debusschere",
+        "Sapan Agarwal",
+        "Jean Anne C. Incorvia",
+        "Christopher H. Bennett"
+      ],
+      "year": 2022,
+      "venue": "Frontiers in Nanotechnology",
+      "venue_abbr": "Frontiers in Nanotechnology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Bayesian neural networks",
+        "magnetic tunnel junctions",
+        "uncertainty quantification",
+        "micromagnetic simulation",
+        "neural network accelerators",
+        "energy-efficient computing"
+      ],
+      "url": "https://doi.org/10.3389/fnano.2022.1021943",
+      "cited_by_count": 38,
+      "importance": 0.3088,
+      "score_basis": {
+        "topic_overlap": 0.108,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2777186991",
+      "doi": "10.1109/access.2017.2788044",
+      "title": "Deep Learning Applications in Medical Image Analysis",
+      "authors": [
+        "Justin Ker",
+        "Lipo Wang",
+        "Jai Prashanth Rao",
+        "C. C. Tchoyoson Lim"
+      ],
+      "year": 2017,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "medical image analysis",
+        "convolutional neural networks",
+        "medical image classification",
+        "localization",
+        "detection",
+        "image segmentation",
+        "image registration",
+        "electronic health records",
+        "big data in healthcare",
+        "clinical application"
+      ],
+      "url": "https://doi.org/10.1109/access.2017.2788044",
+      "cited_by_count": 1491,
+      "importance": 0.2795,
+      "score_basis": {
+        "topic_overlap": 0.043,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1494192115",
+      "doi": "10.1038/nature14541",
+      "title": "Probabilistic machine learning and artificial intelligence",
+      "authors": [
+        "Zoubin Ghahramani A"
+      ],
+      "year": 2015,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "stochastic modeling",
+        "machine learning",
+        "artificial intelligence",
+        "uncertainty representation",
+        "probabilistic programming",
+        "Bayesian optimization",
+        "data compression",
+        "experiential learning"
+      ],
+      "url": "https://doi.org/10.1038/nature14541",
+      "cited_by_count": 1995,
+      "importance": 0.2722,
+      "score_basis": {
+        "topic_overlap": 0.027,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7114929710",
+      "doi": "10.3788/col202624.011201",
+      "title": "DLA2C: deep-learning-based advanced adaptive control for Mach-Zehnder modulators",
+      "authors": [
+        "Xiang Hu",
+        "Yongjun Dai",
+        "Yin Li",
+        "Siyao Chen",
+        "Taolin Liu",
+        "Zhe Guo",
+        "Qiaosong Cai",
+        "Jie Yang",
+        "Tong Zhou",
+        "Yuanxi Peng",
+        "Tian Jiang"
+      ],
+      "year": 2025,
+      "venue": "Chinese Optics Letters",
+      "venue_abbr": "COL",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Mach-Zehnder modulator",
+        "bias voltage control",
+        "artificial neural networks",
+        "particle swarm optimization",
+        "temperature invariance",
+        "optical power stability",
+        "dithering"
+      ],
+      "url": "https://doi.org/10.3788/col202624.011201",
+      "cited_by_count": 3,
+      "importance": 0.2714,
+      "score_basis": {
+        "topic_overlap": 0.159,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7164198449",
+      "doi": "10.1038/s41467-026-74265-9",
+      "title": "Overcoming the thermo-refractive noise limit for a full-spectrum Hertz-linewidth microcomb",
+      "authors": [
+        "Chao Zhou",
+        "Runlin Miao",
+        "Pan Han",
+        "Mingxin Yang",
+        "Xing Zou",
+        "Ke wei",
+        "Ke Yin",
+        "Tian Jiang"
+      ],
+      "year": 2026,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "microcombs",
+        "self-injection locking",
+        "optical injection locking",
+        "soliton comb",
+        "noise reduction",
+        "chip-scale photonics",
+        "coherent optical communication",
+        "precision metrology"
+      ],
+      "url": "https://doi.org/10.1038/s41467-026-74265-9",
+      "cited_by_count": 2,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2531327146",
+      "doi": "10.48550/arxiv.1610.02136",
+      "title": "A Baseline for Detecting Misclassified and Out-of-Distribution Examples in Neural Networks",
+      "authors": [
+        "Dan Hendrycks",
+        "Kevin Gimpel"
+      ],
+      "year": 2016,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "misclassification detection",
+        "out-of-distribution detection",
+        "anomaly detection",
+        "computer vision",
+        "natural language processing",
+        "speech recognition"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.1610.02136",
+      "cited_by_count": 1897,
+      "importance": 0.2225,
+      "score_basis": {
+        "topic_overlap": 0.05,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3203392333",
+      "doi": "10.1038/s41928-022-00774-2",
+      "title": "Massively parallel probabilistic computing with sparse Ising machines",
+      "authors": [
+        "Navid Anjum Aadit",
+        "Andrea Grimaldi",
+        "Mario Carpentieri",
+        "Luke S. Theogarajan",
+        "John M. Martinis",
+        "Giovanni Finocchio",
+        "Kerem Yunus Camsari"
+      ],
+      "year": 2022,
+      "venue": "Nature Electronics",
+      "venue_abbr": "Nat. Electron.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "probabilistic computing",
+        "massive parallelism",
+        "FPGA",
+        "Gibbs sampling",
+        "Boolean satisfiability",
+        "combinatorial optimization",
+        "ground state search",
+        "sparsification",
+        "quantum-inspired computing",
+        "hardware acceleration"
+      ],
+      "url": "https://doi.org/10.1038/s41928-022-00774-2",
+      "cited_by_count": 214,
+      "importance": 0.2183,
+      "score_basis": {
+        "topic_overlap": 0.041,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3015930014",
+      "doi": "10.1016/j.dib.2020.105474",
+      "title": "A dataset of microscopic peripheral blood cell images for development of automatic recognition systems",
+      "authors": [
+        "Andrea Acevedo",
+        "Anna Merino",
+        "Santiago Alférez",
+        "Ángel Molina",
+        "Laura Boldú",
+        "José Rodellar"
+      ],
+      "year": 2020,
+      "venue": "Data in Brief",
+      "venue_abbr": "Data in Brief",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "blood cell classification",
+        "neutrophils",
+        "eosinophils",
+        "basophils",
+        "lymphocytes",
+        "monocytes",
+        "immature granulocytes",
+        "erythroblasts",
+        "platelets",
+        "convolutional neural networks",
+        "model benchmarking"
+      ],
+      "url": "https://doi.org/10.1016/j.dib.2020.105474",
+      "cited_by_count": 344,
+      "importance": 0.2177,
+      "score_basis": {
+        "topic_overlap": 0.039,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411222043",
+      "doi": "10.1007/s12200-025-00158-2",
+      "title": "Recent advances in monolithic-integrated lead-based optoelectronic devices",
+      "authors": [
+        "Shaoheng Xu",
+        "Jiajun Luo",
+        "Haisheng Song",
+        "Jiang Tang"
+      ],
+      "year": 2025,
+      "venue": "Frontiers of Optoelectronics",
+      "venue_abbr": "FOE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lead halide perovskites",
+        "colloidal quantum dots",
+        "photodetectors",
+        "monolithic integration",
+        "on-chip fabrication",
+        "light-emitting diodes",
+        "perovskite solar cells"
+      ],
+      "url": "https://doi.org/10.1007/s12200-025-00158-2",
+      "cited_by_count": 5,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W4388822849",
+      "to": "W1494192115",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388822849"
+        }
+      ]
+    },
+    {
+      "from": "W4388822849",
+      "to": "W4306406679",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388822849"
+        }
+      ]
+    },
+    {
+      "from": "W4404887069",
+      "to": "W1494192115",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404887069"
+        }
+      ]
+    },
+    {
+      "from": "W4404887069",
+      "to": "W2777186991",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404887069"
+        }
+      ]
+    },
+    {
+      "from": "W4404887069",
+      "to": "W4306406679",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404887069"
+        }
+      ]
+    },
+    {
+      "from": "W4404887069",
+      "to": "W4388822849",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404887069"
+        }
+      ]
+    },
+    {
+      "from": "W4409470410",
+      "to": "W4390938566",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409470410"
+        }
+      ]
+    },
+    {
+      "from": "W4409901655",
+      "to": "W1494192115",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409901655"
+        }
+      ]
+    },
+    {
+      "from": "W4409901655",
+      "to": "W2777186991",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409901655"
+        }
+      ]
+    },
+    {
+      "from": "W4409901655",
+      "to": "W4388822849",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409901655"
+        }
+      ]
+    },
+    {
+      "from": "W4409901655",
+      "to": "W4404887069",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409901655"
+        }
+      ]
+    },
+    {
+      "from": "W4410621616",
+      "to": "W2777186991",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410621616"
+        }
+      ]
+    },
+    {
+      "from": "W4410621616",
+      "to": "W4306406679",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410621616"
+        }
+      ]
+    },
+    {
+      "from": "W4410621616",
+      "to": "W4385428445",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410621616"
+        }
+      ]
+    },
+    {
+      "from": "W4410621616",
+      "to": "W4388822849",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410621616"
+        }
+      ]
+    },
+    {
+      "from": "W4410621616",
+      "to": "W4404887069",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410621616"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W1494192115",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W2531327146",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W2777186991",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W3015930014",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W3203392333",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4306406679",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4385428445",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4388822849",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4390938566",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4404887069",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4407101545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4409470410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4409901655",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4410621616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4411222043",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4413796455",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W4414873790",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W7114929710",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W7143327201",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    },
+    {
+      "from": "W7213226089",
+      "to": "W7164198449",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7213226089"
+        }
+      ]
+    }
+  ]
 }

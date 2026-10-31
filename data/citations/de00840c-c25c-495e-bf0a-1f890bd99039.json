@@ -1,37 +1,4215 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "de00840c-c25c-495e-bf0a-1f890bd99039",
-  "root": "doi:10.1126/science.aeh1375",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7127575312",
+  "status": "ok",
+  "checked_at": "2026-10-31T00:49:19.464394+00:00",
+  "coverage": {
+    "references_found": 55,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "references_without_doi": 0,
+    "candidates_resolved": 55,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1126/science.aeh1375",
+      "id": "W7127575312",
       "doi": "10.1126/science.aeh1375",
       "title": "Stationary entanglement of a levitated oscillator with an optical field",
       "authors": [
-        "Q. Deplano",
+        "Quentin Deplano",
         "A. Pontin",
         "F. Marino",
-        "F. Marin"
+        "Francesco Marin"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Science",
       "venue_abbr": "Science",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "stationary entanglement",
+        "optomechanics",
+        "center-of-mass motion",
+        "optical resonators",
+        "nonclassical correlations",
+        "continuous-variable quantum communication",
+        "heterodyne detection"
+      ],
       "url": "https://doi.org/10.1126/science.aeh1375",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/de00840c-c25c-495e-bf0a-1f890bd99039.html",
       "summary": "摘要报告：报告光镊腔内悬浮纳米球质心运动与电磁场之间的量子纠缠：用外差探测重构全套光机关联，观测到机械运动与传播光学模式间可分离性边界违背，表明非经典关联分布到相互作用区之外；纠缠在室温产生并在宽参数范围保持稳健；作者称该结果确立悬浮光机系统作为连续变量量子通信与宏观量子物理检验的平台。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W1970238975",
+      "doi": "10.1103/physreva.78.032316",
+      "title": "Robust entanglement of a micromechanical resonator with output optical fields",
+      "authors": [
+        "Claudiu Genes",
+        "Andrea Mari",
+        "P. Tombesi",
+        "David Vitali"
+      ],
+      "year": 2008,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optomechanical entanglement",
+        "micromechanical resonators",
+        "detection bandwidth",
+        "tripartite entanglement",
+        "continuous-variable quantum communication"
+      ],
+      "url": "https://doi.org/10.1103/physreva.78.032316",
+      "cited_by_count": 352,
+      "importance": 0.7138,
+      "score_basis": {
+        "topic_overlap": 0.408,
+        "shared_references": 6,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4225492951",
+      "doi": "10.1103/physrevresearch.4.033051",
+      "title": "Two-dimensional quantum motion of a levitated nanosphere",
+      "authors": [
+        "Anedio Ranfagni",
+        "Kjetil Børkje",
+        "Francesco Marino",
+        "Francesco Marin"
+      ],
+      "year": 2022,
+      "venue": "Physical Review Research",
+      "venue_abbr": "Physical Review Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optomechanical coupling",
+        "optical resonators",
+        "coherent scattering",
+        "optomechanical entanglement",
+        "quantum sensing"
+      ],
+      "url": "https://doi.org/10.1103/physrevresearch.4.033051",
+      "cited_by_count": 70,
+      "importance": 0.7112,
+      "score_basis": {
+        "topic_overlap": 0.358,
+        "shared_references": 12,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3117728249",
+      "doi": "10.1038/s41567-021-01307-y",
+      "title": "Vectorial polaritons in the quantum motion of a levitated nanosphere",
+      "authors": [
+        "Anedio Ranfagni",
+        "Paolo Vezio",
+        "Massimo Calamai",
+        "Avishek Chowdhury",
+        "Francesco Marino",
+        "Francesco Marin"
+      ],
+      "year": 2021,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optomechanics",
+        "optically trapped particles",
+        "strong coupling",
+        "cavity quantum electrodynamics",
+        "optical tweezers",
+        "quantum entanglement",
+        "quantum information transfer",
+        "avoided crossings"
+      ],
+      "url": "https://doi.org/10.1038/s41567-021-01307-y",
+      "cited_by_count": 30,
+      "importance": 0.6993,
+      "score_basis": {
+        "topic_overlap": 0.332,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4323309987",
+      "doi": "10.1038/s41567-023-01956-1",
+      "title": "Simultaneous ground-state cooling of two mechanical modes of a levitated nanoparticle",
+      "authors": [
+        "Johannes Piotrowski",
+        "Dominik Windey",
+        "Jayadev Vijayan",
+        "Carlos Gonzalez-Ballestero",
+        "Andrés de los Ríos Sommer",
+        "Nadine Meyer",
+        "Romain Quidant",
+        "Oriol Romero‐Isart",
+        "René Reimann",
+        "Lukáš Novotný"
+      ],
+      "year": 2023,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "ground-state cooling",
+        "optically levitated nanoparticles",
+        "mechanical modes",
+        "dark mode",
+        "coherent scattering",
+        "optical resonators",
+        "center-of-mass motion",
+        "quantum control",
+        "rotation sensing",
+        "orbital angular momentum states",
+        "macroscopic quantum states",
+        "decoherence"
+      ],
+      "url": "https://doi.org/10.1038/s41567-023-01956-1",
+      "cited_by_count": 160,
+      "importance": 0.6978,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 10,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3114063485",
+      "doi": "10.1103/physrevresearch.3.023071",
+      "title": "Coherent-scattering two-dimensional cooling in levitated cavity optomechanics",
+      "authors": [
+        "Marko Toroš",
+        "Uroš Delić",
+        "Fagin Hales",
+        "T. S. Monteiro"
+      ],
+      "year": 2021,
+      "venue": "Physical Review Research",
+      "venue_abbr": "Physical Review Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cavity optomechanics",
+        "coherent scattering",
+        "levitated nanoparticles",
+        "quantum ground state cooling",
+        "cavity linewidth",
+        "dark mode",
+        "strong coupling",
+        "motional heating",
+        "directional sensing",
+        "nanomechanical resonators"
+      ],
+      "url": "https://doi.org/10.1103/physrevresearch.3.023071",
+      "cited_by_count": 31,
+      "importance": 0.6866,
+      "score_basis": {
+        "topic_overlap": 0.304,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3204610656",
+      "doi": "10.1126/science.abg3027",
+      "title": "Levitodynamics: Levitation and control of microscopic objects in vacuum",
+      "authors": [
+        "Carlos Gonzalez-Ballestero",
+        "Markus Aspelmeyer",
+        "Lukáš Novotný",
+        "Romain Quidant",
+        "Oriol Romero‐Isart"
+      ],
+      "year": 2021,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optomechanics",
+        "optically levitated nanoparticles",
+        "ground-state cooling",
+        "quantum sensing",
+        "atomic physics"
+      ],
+      "url": "https://doi.org/10.1126/science.abg3027",
+      "cited_by_count": 386,
+      "importance": 0.6824,
+      "score_basis": {
+        "topic_overlap": 0.294,
+        "shared_references": 10,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4362673297",
+      "doi": "10.1038/s41567-023-02006-6",
+      "title": "Simultaneous cavity cooling of all six degrees of freedom of a levitated nanoparticle",
+      "authors": [
+        "A. Pontin",
+        "H. Fu",
+        "Marko Toroš",
+        "T. S. Monteiro",
+        "P. F. Barker"
+      ],
+      "year": 2023,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cavity cooling",
+        "levitated nanoparticles",
+        "optical tweezers",
+        "rotational motion",
+        "librational modes",
+        "quantum ground state",
+        "macroscopic quantum phenomena"
+      ],
+      "url": "https://doi.org/10.1038/s41567-023-02006-6",
+      "cited_by_count": 58,
+      "importance": 0.6801,
+      "score_basis": {
+        "topic_overlap": 0.289,
+        "shared_references": 14,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3003563372",
+      "doi": "10.1126/science.aba3993",
+      "title": "Cooling of a levitated nanoparticle to the motional quantum ground state",
+      "authors": [
+        "Uroš Delić",
+        "Manuel Reisenbauer",
+        "Kahan Dare",
+        "David Grass",
+        "Vladan Vuletić",
+        "Nikolai Kiesel",
+        "Markus Aspelmeyer"
+      ],
+      "year": 2020,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "laser cooling",
+        "levitated nanoparticles",
+        "quantum ground state",
+        "optical trapping",
+        "optical forces",
+        "macroscopic quantum phenomena",
+        "quantum-to-classical transition",
+        "free-fall experiments"
+      ],
+      "url": "https://doi.org/10.1126/science.aba3993",
+      "cited_by_count": 650,
+      "importance": 0.6722,
+      "score_basis": {
+        "topic_overlap": 0.272,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3028527477",
+      "doi": "10.1038/s41467-020-20419-2",
+      "title": "Strong optomechanical coupling at room temperature by coherent scattering",
+      "authors": [
+        "Andrés de los Ríos Sommer",
+        "Nadine Meyer",
+        "Romain Quidant"
+      ],
+      "year": 2021,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optomechanical coupling",
+        "strong coupling",
+        "room temperature",
+        "coherent scattering",
+        "cavity optomechanics",
+        "high-finesse optical cavity",
+        "normal mode splitting",
+        "quantum control",
+        "mesoscopic systems",
+        "cavity decay rate"
+      ],
+      "url": "https://doi.org/10.1038/s41467-020-20419-2",
+      "cited_by_count": 55,
+      "importance": 0.6713,
+      "score_basis": {
+        "topic_overlap": 0.269,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410115955",
+      "doi": "10.1038/s41467-025-59213-3",
+      "title": "High purity two-dimensional levitated mechanical oscillator",
+      "authors": [
+        "Quentin Deplano",
+        "A. Pontin",
+        "Anedio Ranfagni",
+        "Francesco Marino",
+        "Francesco Marin"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "levitated optomechanics",
+        "mechanical entanglement",
+        "continuous-variable entanglement",
+        "ground-state cooling",
+        "optical tweezers",
+        "optical resonators",
+        "spectral overlap"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-59213-3",
+      "cited_by_count": 8,
+      "importance": 0.6656,
+      "score_basis": {
+        "topic_overlap": 0.39,
+        "shared_references": 20,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2891688606",
+      "doi": "10.1038/s41586-019-1320-2",
+      "title": "Stationary entangled radiation from micromechanical motion",
+      "authors": [
+        "S. Barzanjeh",
+        "E. S. Redchenko",
+        "M. Peruzzo",
+        "M. Wulf",
+        "D. P. Lewis",
+        "G. Arnold",
+        "J. M. Fink"
+      ],
+      "year": 2019,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "micromechanical oscillators",
+        "two-mode squeezing",
+        "EPR states",
+        "path entanglement",
+        "quantum discord",
+        "parametric driving",
+        "non-invasive measurement",
+        "hybrid quantum systems",
+        "thermal modes",
+        "quantum-enhanced sensing"
+      ],
+      "url": "https://doi.org/10.1038/s41586-019-1320-2",
+      "cited_by_count": 162,
+      "importance": 0.6643,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 6,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1965198243",
+      "doi": "10.1126/science.1244563",
+      "title": "Entangling Mechanical Motion with Microwave Fields",
+      "authors": [
+        "Tauno Palomaki",
+        "John D. Teufel",
+        "Raymond W. Simmonds",
+        "Konrad W. Lehnert"
+      ],
+      "year": 2013,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum entanglement",
+        "mechanical resonators",
+        "micromechanical resonators",
+        "microwave field",
+        "entanglement storage",
+        "macroscopic quantum phenomena",
+        "quantum processors"
+      ],
+      "url": "https://doi.org/10.1126/science.1244563",
+      "cited_by_count": 710,
+      "importance": 0.6592,
+      "score_basis": {
+        "topic_overlap": 0.354,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3159123643",
+      "doi": "10.1126/science.abf2998",
+      "title": "Direct observation of deterministic macroscopic entanglement",
+      "authors": [
+        "Shlomi Kotler",
+        "Gabriel A. Peterson",
+        "Ezad Shojaee",
+        "Florent Lecocq",
+        "Katarina Cicak",
+        "Alex Kwiatkowski",
+        "Shawn Geller",
+        "Scott Glancy",
+        "Emanuel H. Knill",
+        "Raymond W. Simmonds",
+        "José Aumentado",
+        "John D. Teufel"
+      ],
+      "year": 2021,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "macroscopic quantum entanglement",
+        "mechanical entanglement",
+        "quantum state tomography",
+        "quantum-limited measurement",
+        "quantum-to-classical transition",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1126/science.abf2998",
+      "cited_by_count": 291,
+      "importance": 0.6545,
+      "score_basis": {
+        "topic_overlap": 0.277,
+        "shared_references": 7,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2110251070",
+      "doi": "10.1103/physrevlett.98.030405",
+      "title": "Optomechanical Entanglement between a Movable Mirror and a Cavity Field",
+      "authors": [
+        "David Vitali",
+        "Sylvain Gigan",
+        "Aires Ferreira",
+        "Hannes R. Böhm",
+        "P. Tombesi",
+        "Ariel Guerreiro",
+        "Vlatko Vedral",
+        "Anton Zeilinger",
+        "Markus Aspelmeyer"
+      ],
+      "year": 2007,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optomechanical entanglement",
+        "radiation pressure",
+        "moving mirror",
+        "stationary entanglement",
+        "entanglement quantification"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.98.030405",
+      "cited_by_count": 1239,
+      "importance": 0.65,
+      "score_basis": {
+        "topic_overlap": 0.422,
+        "shared_references": 4,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2973260754",
+      "doi": "10.1103/physrevresearch.2.023228",
+      "title": "Quantum sensing and cooling in three-dimensional levitated cavity optomechanics",
+      "authors": [
+        "Marko Toroš",
+        "T. S. Monteiro"
+      ],
+      "year": 2020,
+      "venue": "Physical Review Research",
+      "venue_abbr": "Physical Review Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "levitated nanoparticles",
+        "cavity optomechanics",
+        "quantum sensing",
+        "cavity cooling",
+        "three-dimensional motion",
+        "sympathetic cooling",
+        "optomechanical cooling"
+      ],
+      "url": "https://doi.org/10.1103/physrevresearch.2.023228",
+      "cited_by_count": 33,
+      "importance": 0.65,
+      "score_basis": {
+        "topic_overlap": 0.333,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4312223186",
+      "doi": "10.1038/s41534-022-00661-w",
+      "title": "Tuneable Gaussian entanglement in levitated nanoparticle arrays",
+      "authors": [
+        "Anil Kumar Chauhan",
+        "Ondřej Černotík",
+        "Radim Filip"
+      ],
+      "year": 2022,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optically levitated nanoparticles",
+        "Gaussian entanglement",
+        "coherent scattering",
+        "Bogoliubov modes",
+        "cavity cooling",
+        "optical tweezers",
+        "optical bus",
+        "quantum many-body systems",
+        "quantum simulation",
+        "quantum sensing",
+        "thermal noise reduction"
+      ],
+      "url": "https://doi.org/10.1038/s41534-022-00661-w",
+      "cited_by_count": 15,
+      "importance": 0.6494,
+      "score_basis": {
+        "topic_overlap": 0.399,
+        "shared_references": 13,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2987622401",
+      "doi": "10.1038/s41467-020-14768-1",
+      "title": "Entanglement of propagating optical modes via a mechanical interface",
+      "authors": [
+        "Junxin Chen",
+        "Massimiliano Rossi",
+        "David Mason",
+        "Albert Schließer"
+      ],
+      "year": 2020,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "entanglement",
+        "mechanical systems",
+        "quantum interface",
+        "logarithmic negativity",
+        "homodyne tomography",
+        "optical fiber communication"
+      ],
+      "url": "https://doi.org/10.1038/s41467-020-14768-1",
+      "cited_by_count": 96,
+      "importance": 0.6463,
+      "score_basis": {
+        "topic_overlap": 0.303,
+        "shared_references": 5,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2993825220",
+      "doi": "10.1103/physrevresearch.2.033244",
+      "title": "Stationary optomechanical entanglement between a mechanical oscillator and its measurement apparatus",
+      "authors": [
+        "Corentin Gut",
+        "K. Winkler",
+        "Jason Hoelscher-Obermaier",
+        "S. G. Hofer",
+        "Ramon Moghadas Nia",
+        "Nathan Walk",
+        "Adrian Steffens",
+        "Jens Eisert",
+        "Witlef Wieczorek",
+        "Joshua A. Slater",
+        "Markus Aspelmeyer",
+        "Klemens Hammerer"
+      ],
+      "year": 2020,
+      "venue": "Physical Review Research",
+      "venue_abbr": "Physical Review Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optomechanical entanglement",
+        "stationary entanglement",
+        "mechanical resonators",
+        "continuous measurement",
+        "squeezing",
+        "optomechanical cavity",
+        "quantum measurement theory",
+        "force sensor"
+      ],
+      "url": "https://doi.org/10.1103/physrevresearch.2.033244",
+      "cited_by_count": 41,
+      "importance": 0.6355,
+      "score_basis": {
+        "topic_overlap": 0.368,
+        "shared_references": 11,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2906420471",
+      "doi": "10.1103/physrevlett.122.123602",
+      "title": "Cavity Cooling of a Levitated Nanosphere by Coherent Scattering",
+      "authors": [
+        "Uroš Delić",
+        "Manuel Reisenbauer",
+        "David Grass",
+        "Nikolai Kiesel",
+        "Vladan Vuletić",
+        "Markus Aspelmeyer"
+      ],
+      "year": 2019,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cavity cooling",
+        "levitated nanoparticles",
+        "nanospheres",
+        "coherent scattering",
+        "optical tweezers",
+        "optical resonators",
+        "quantum ground state",
+        "radiation pressure"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.122.123602",
+      "cited_by_count": 161,
+      "importance": 0.6343,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3166656857",
+      "doi": "10.1038/s41586-021-03602-3",
+      "title": "Real-time optimal quantum control of mechanical motion at room temperature",
+      "authors": [
+        "Lorenzo Magrini",
+        "Philipp Rosenzweig",
+        "Constanze Bach",
+        "Andreas Deutschmann",
+        "Sebastian G. Hofer",
+        "Sungkun Hong",
+        "Nikolai Kiesel",
+        "Andreas Kugi",
+        "Markus Aspelmeyer"
+      ],
+      "year": 2021,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum optimal control",
+        "mechanical motion",
+        "quantum state estimation",
+        "quantum feedback",
+        "quantum ground state cooling",
+        "Heisenberg limit",
+        "quantum harmonic oscillator"
+      ],
+      "url": "https://doi.org/10.1038/s41586-021-03602-3",
+      "cited_by_count": 383,
+      "importance": 0.6316,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389248413",
+      "doi": "10.1038/s41467-023-43745-7",
+      "title": "Nanoscale feedback control of six degrees of freedom of a near-sphere",
+      "authors": [
+        "Mitsuyoshi Kamba",
+        "Ryoga Shimizu",
+        "K. Aikawa"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "feedback cooling",
+        "six degrees of freedom",
+        "angular motion",
+        "translational motion",
+        "ground-state cooling",
+        "light confinement",
+        "anisotropic confinement",
+        "Brownian motion",
+        "nanoscale thermometry"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-43745-7",
+      "cited_by_count": 38,
+      "importance": 0.6231,
+      "score_basis": {
+        "topic_overlap": 0.251,
+        "shared_references": 6,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3133557117",
+      "doi": "10.1038/s41586-021-03617-w",
+      "title": "Quantum control of a nanoparticle optically levitated in cryogenic free space",
+      "authors": [
+        "Felix Tebbenjohanns",
+        "M. Luisa Mattana",
+        "Massimiliano Rossi",
+        "Martin Frimmer",
+        "Lukáš Novotný"
+      ],
+      "year": 2021,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optically levitated nanoparticles",
+        "quantum control",
+        "measurement-based feedback",
+        "feedback cooling",
+        "quantum ground state",
+        "measurement backaction",
+        "decoherence",
+        "radiation pressure",
+        "micromechanical oscillators",
+        "dielectric particles"
+      ],
+      "url": "https://doi.org/10.1038/s41586-021-03617-w",
+      "cited_by_count": 348,
+      "importance": 0.6204,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313526369",
+      "doi": "10.1103/physreva.107.013502",
+      "title": "Quantum state purity versus average phonon number for characterization of mechanical oscillators in cavity optomechanics",
+      "authors": [
+        "Kjetil Børkje",
+        "Francesco Marin"
+      ],
+      "year": 2023,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum state purity",
+        "mechanical resonators",
+        "cavity optomechanics",
+        "sideband cooling",
+        "quantum backaction",
+        "Gaussian states",
+        "weak coupling"
+      ],
+      "url": "https://doi.org/10.1103/physreva.107.013502",
+      "cited_by_count": 3,
+      "importance": 0.6201,
+      "score_basis": {
+        "topic_overlap": 0.289,
+        "shared_references": 10,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414321743",
+      "doi": "10.1126/science.ady4652",
+      "title": "Quantum squeezing of a levitated nanomechanical oscillator",
+      "authors": [
+        "Mitsuyoshi Kamba",
+        "Naoki Hara",
+        "K. Aikawa"
+      ],
+      "year": 2025,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum squeezing",
+        "levitated nanoparticles",
+        "nanomechanical resonators",
+        "nonclassical states",
+        "velocity variance",
+        "frequency modulation",
+        "quantum sensing",
+        "optomechanics"
+      ],
+      "url": "https://doi.org/10.1126/science.ady4652",
+      "cited_by_count": 19,
+      "importance": 0.62,
+      "score_basis": {
+        "topic_overlap": 0.378,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3089138714",
+      "doi": "10.1126/science.abf5389",
+      "title": "Quantum mechanics–free subsystem with mechanical oscillators",
+      "authors": [
+        "Laure Mercier de Lépinay",
+        "Caspar F. Ockeloen-Korppi",
+        "Matt Woolley",
+        "Mika A. Sillanpää"
+      ],
+      "year": 2021,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum backaction",
+        "continuous measurement",
+        "micromechanical oscillators",
+        "quantum-limited measurement",
+        "quantum entanglement",
+        "weak force detection",
+        "quantum-classical interface"
+      ],
+      "url": "https://doi.org/10.1126/science.abf5389",
+      "cited_by_count": 207,
+      "importance": 0.6027,
+      "score_basis": {
+        "topic_overlap": 0.317,
+        "shared_references": 4,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392385338",
+      "doi": "10.1038/s41567-024-02405-3",
+      "title": "Cavity-mediated long-range interactions in levitated optomechanics",
+      "authors": [
+        "Jayadev Vijayan",
+        "Johannes Piotrowski",
+        "Carlos Gonzalez-Ballestero",
+        "Kevin Weber",
+        "Oriol Romero‐Isart",
+        "Lukáš Novotný"
+      ],
+      "year": 2024,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "levitated optomechanics",
+        "cavity-mediated interactions",
+        "long-range interactions",
+        "cavity quantum electrodynamics",
+        "nanoparticle arrays",
+        "strong coupling",
+        "cavity detuning",
+        "interparticle distance",
+        "optomechanical sensing"
+      ],
+      "url": "https://doi.org/10.1038/s41567-024-02405-3",
+      "cited_by_count": 47,
+      "importance": 0.6016,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 13,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413025199",
+      "doi": "10.1038/s41567-025-02976-9",
+      "title": "High-purity quantum optomechanics at room temperature",
+      "authors": [
+        "Lorenzo Dania",
+        "Oscar Kremer",
+        "Johannes Piotrowski",
+        "Davide Candoli",
+        "Jayadev Vijayan",
+        "Oriol Romero‐Isart",
+        "Carlos Gonzalez-Ballestero",
+        "Lukáš Novotný",
+        "Martin Frimmer"
+      ],
+      "year": 2025,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum optomechanics",
+        "room-temperature operation",
+        "Fabry-Perot cavity",
+        "phonon population",
+        "quantum ground state",
+        "mechanical resonators",
+        "back-action evasion"
+      ],
+      "url": "https://doi.org/10.1038/s41567-025-02976-9",
+      "cited_by_count": 25,
+      "importance": 0.6008,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 9,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2767661975",
+      "doi": "10.1038/s41586-018-0038-x",
+      "title": "Stabilized entanglement of massive mechanical oscillators",
+      "authors": [
+        "Caspar F. Ockeloen-Korppi",
+        "Erno Damskägg",
+        "J.-M. Pirkkalainen",
+        "Muhammad Asjad",
+        "Aashish A. Clerk",
+        "Francesco Massel",
+        "Matthew J. Woolley",
+        "Mika A. Sillanpää"
+      ],
+      "year": 2018,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum entanglement",
+        "macroscopic quantum entanglement",
+        "micromechanical oscillators",
+        "center-of-mass motion",
+        "microwave cavity",
+        "entanglement stabilization",
+        "cavity quantum electrodynamics",
+        "quantum information processing",
+        "tests of quantum mechanics"
+      ],
+      "url": "https://doi.org/10.1038/s41586-018-0038-x",
+      "cited_by_count": 598,
+      "importance": 0.6007,
+      "score_basis": {
+        "topic_overlap": 0.335,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7163545494",
+      "doi": "10.1016/j.physrep.2026.05.003",
+      "title": "Roto-translational levitated optomechanics",
+      "authors": [
+        "Markus Rademacher",
+        "A. Pontin",
+        "Jonathan M. H. Gosling",
+        "P. F. Barker",
+        "Marko Toroš"
+      ],
+      "year": 2026,
+      "venue": "Physics Reports",
+      "venue_abbr": "Physics Reports",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "levitated optomechanics",
+        "anisotropic particles",
+        "optical trapping",
+        "polarized light",
+        "quantum-classical correspondence",
+        "nonclassical states",
+        "particle characterization"
+      ],
+      "url": "https://doi.org/10.1016/j.physrep.2026.05.003",
+      "cited_by_count": 3,
+      "importance": 0.594,
+      "score_basis": {
+        "topic_overlap": 0.32,
+        "shared_references": 24,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4393233685",
+      "doi": "10.1103/physrevlett.132.133602",
+      "title": "Ultrahigh Quality Factor of a Levitated Nanomechanical Oscillator",
+      "authors": [
+        "Lorenzo Dania",
+        "Dmitry S. Bykov",
+        "Florian Goschin",
+        "Markus Teller",
+        "Abderrahmane Kassid",
+        "Tracy E. Northup"
+      ],
+      "year": 2024,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quality factor",
+        "mechanical energy dissipation",
+        "Paul trap",
+        "ultrahigh vacuum",
+        "heating rate",
+        "mechanical isolation"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.132.133602",
+      "cited_by_count": 60,
+      "importance": 0.5939,
+      "score_basis": {
+        "topic_overlap": 0.275,
+        "shared_references": 8,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2810060588",
+      "doi": "10.1103/physrevlett.121.220404",
+      "title": "Optomechanical Bell Test",
+      "authors": [
+        "Igor Marinković",
+        "Andreas Wallucks",
+        "Ralf Riedinger",
+        "Sungkun Hong",
+        "Markus Aspelmeyer",
+        "Simon Gröblacher"
+      ],
+      "year": 2018,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Bell inequality violation",
+        "optomechanical systems",
+        "light-matter entanglement",
+        "quantum nonlocality",
+        "fair sampling assumption",
+        "quantum key distribution"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.121.220404",
+      "cited_by_count": 173,
+      "importance": 0.5933,
+      "score_basis": {
+        "topic_overlap": 0.274,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412561354",
+      "doi": "10.1103/t33b-f1b2",
+      "title": "Strong Coupling and Dark Modes in the Motion of a Pair of Levitated Nanoparticles",
+      "authors": [
+        "A. Pontin",
+        "Quentin Deplano",
+        "Anedio Ranfagni",
+        "Francesco Marino",
+        "Francesco Marin"
+      ],
+      "year": 2025,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "levitated nanoparticles",
+        "nanospheres",
+        "strong coupling",
+        "dark mode",
+        "coherent scattering",
+        "optical cavity modes",
+        "chromatic aberration",
+        "optical trapping",
+        "quantum-to-classical transition"
+      ],
+      "url": "https://doi.org/10.1103/t33b-f1b2",
+      "cited_by_count": 3,
+      "importance": 0.5808,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 16,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4224268864",
+      "doi": "10.1038/s41586-022-04500-y",
+      "title": "Quantum state preparation and tomography of entangled mechanical resonators",
+      "authors": [
+        "E. Alex Wollack",
+        "Agnetta Y. Cleland",
+        "Rachel G. Gruenke",
+        "Zhaoyou Wang",
+        "Patricio Arrangoiz-Arriola",
+        "Amir H. Safavi‐Naeini"
+      ],
+      "year": 2022,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum state preparation",
+        "quantum state tomography",
+        "nanomechanical resonators",
+        "superconducting qubits",
+        "dispersive regime",
+        "quantum non-demolition measurement",
+        "piezoelectric coupling",
+        "nonclassical states",
+        "feedback control"
+      ],
+      "url": "https://doi.org/10.1038/s41586-022-04500-y",
+      "cited_by_count": 135,
+      "importance": 0.5794,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3047782596",
+      "doi": "10.1063/5.0024432",
+      "title": "Transfer of a levitating nanoparticle between optical tweezers",
+      "authors": [
+        "M. Calamai",
+        "A. Ranfagni",
+        "Francesco Marin"
+      ],
+      "year": 2021,
+      "venue": "AIP Advances",
+      "venue_abbr": "AIP Advances",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical tweezers",
+        "nanoparticle transfer",
+        "high-finesse optical cavity",
+        "cavity optomechanics",
+        "vacuum chamber",
+        "particle loading",
+        "quantum sensing"
+      ],
+      "url": "https://doi.org/10.1063/5.0024432",
+      "cited_by_count": 14,
+      "importance": 0.5739,
+      "score_basis": {
+        "topic_overlap": 0.275,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1987840974",
+      "doi": "10.1103/physrevlett.99.250401",
+      "title": "Creating and Probing Multipartite Macroscopic Entanglement with Light",
+      "authors": [
+        "Mauro Paternostro",
+        "David Vitali",
+        "Sylvain Gigan",
+        "M. S. Kim",
+        "Časlav Brukner",
+        "Jens Eisert",
+        "Markus Aspelmeyer"
+      ],
+      "year": 2007,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multipartite entanglement",
+        "macroscopic entanglement",
+        "radiation pressure",
+        "cavity quantum electrodynamics",
+        "moving mirror",
+        "light-matter entanglement"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.99.250401",
+      "cited_by_count": 322,
+      "importance": 0.5645,
+      "score_basis": {
+        "topic_overlap": 0.277,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2905907779",
+      "doi": "10.1103/physrevlett.122.123601",
+      "title": "Cavity-Based 3D Cooling of a Levitated Nanoparticle via Coherent Scattering",
+      "authors": [
+        "Dominik Windey",
+        "Carlos Gonzalez-Ballestero",
+        "Patrick Maurer",
+        "Lukáš Novotný",
+        "Oriol Romero‐Isart",
+        "René Reimann"
+      ],
+      "year": 2019,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cavity cooling",
+        "levitated nanoparticles",
+        "coherent scattering",
+        "optical tweezers",
+        "center-of-mass motion",
+        "millikelvin temperatures",
+        "damping rate",
+        "cavity detuning"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.122.123601",
+      "cited_by_count": 135,
+      "importance": 0.544,
+      "score_basis": {
+        "topic_overlap": 0.32,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1972493615",
+      "doi": "10.1088/1367-2630/17/4/043025",
+      "title": "Entanglement and squeezing of continuous-wave stationary light",
+      "authors": [
+        "Stefano Zippilli",
+        "Giovanni Di Giuseppe",
+        "David Vitali"
+      ],
+      "year": 2015,
+      "venue": "New Journal of Physics",
+      "venue_abbr": "New Journal of Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable entanglement",
+        "squeezed light",
+        "spectral entanglement",
+        "cross-power spectrum",
+        "homodyne detection",
+        "heterodyne detection",
+        "two-mode squeezing",
+        "logarithmic negativity",
+        "ponderomotive squeezing"
+      ],
+      "url": "https://doi.org/10.1088/1367-2630/17/4/043025",
+      "cited_by_count": 34,
+      "importance": 0.5298,
+      "score_basis": {
+        "topic_overlap": 0.355,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2766561855",
+      "doi": "10.1038/s41586-018-0036-z",
+      "title": "Remote quantum entanglement between two micromechanical oscillators",
+      "authors": [
+        "Ralf Riedinger",
+        "Andreas Wallucks",
+        "Igor Marinković",
+        "Clemens Löschnauer",
+        "Markus Aspelmeyer",
+        "Sungkun Hong",
+        "Simon Gröblacher"
+      ],
+      "year": 2018,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum entanglement",
+        "micromechanical oscillators",
+        "optomechanical resonators",
+        "silicon micromachining",
+        "quantum networks",
+        "quantum memory",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41586-018-0036-z",
+      "cited_by_count": 611,
+      "importance": 0.4853,
+      "score_basis": {
+        "topic_overlap": 0.301,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1976598292",
+      "doi": "10.1103/physrevlett.90.137901",
+      "title": "Scheme for Teleportation of Quantum States onto a Mechanical Resonator",
+      "authors": [
+        "Stefano Mancini",
+        "David Vitali",
+        "Paolo Tombesi"
+      ],
+      "year": 2003,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum teleportation",
+        "mechanical resonators",
+        "radiation pressure",
+        "quantum channels",
+        "optomechanics",
+        "macroscopic quantum states"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.90.137901",
+      "cited_by_count": 146,
+      "importance": 0.4763,
+      "score_basis": {
+        "topic_overlap": 0.303,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2054033963",
+      "doi": "10.1103/physrevlett.97.150403",
+      "title": "Macroscopic Entanglement by Entanglement Swapping",
+      "authors": [
+        "Stefano Pirandola",
+        "David Vitali",
+        "Paolo Tombesi",
+        "Seth Lloyd"
+      ],
+      "year": 2006,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "entanglement swapping",
+        "macroscopic entanglement",
+        "micromechanical oscillators",
+        "radiation pressure",
+        "mechanical entanglement",
+        "Gaussian states",
+        "input-output relationship",
+        "quantum optomechanics"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.97.150403",
+      "cited_by_count": 166,
+      "importance": 0.4743,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1970238975",
+      "to": "W1976598292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1970238975"
+        }
+      ]
+    },
+    {
+      "from": "W1970238975",
+      "to": "W1987840974",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1970238975"
+        }
+      ]
+    },
+    {
+      "from": "W1970238975",
+      "to": "W2054033963",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1970238975"
+        }
+      ]
+    },
+    {
+      "from": "W1970238975",
+      "to": "W2110251070",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1970238975"
+        }
+      ]
+    },
+    {
+      "from": "W1972493615",
+      "to": "W1970238975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1972493615"
+        }
+      ]
+    },
+    {
+      "from": "W1987840974",
+      "to": "W2110251070",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1987840974"
+        }
+      ]
+    },
+    {
+      "from": "W2054033963",
+      "to": "W1976598292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2054033963"
+        }
+      ]
+    },
+    {
+      "from": "W2110251070",
+      "to": "W2054033963",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2110251070"
+        }
+      ]
+    },
+    {
+      "from": "W2766561855",
+      "to": "W1965198243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2766561855"
+        }
+      ]
+    },
+    {
+      "from": "W2767661975",
+      "to": "W1965198243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2767661975"
+        }
+      ]
+    },
+    {
+      "from": "W2810060588",
+      "to": "W1965198243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2810060588"
+        }
+      ]
+    },
+    {
+      "from": "W2810060588",
+      "to": "W2766561855",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2810060588"
+        }
+      ]
+    },
+    {
+      "from": "W2810060588",
+      "to": "W2767661975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2810060588"
+        }
+      ]
+    },
+    {
+      "from": "W2891688606",
+      "to": "W1965198243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2891688606"
+        }
+      ]
+    },
+    {
+      "from": "W2891688606",
+      "to": "W1970238975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2891688606"
+        }
+      ]
+    },
+    {
+      "from": "W2891688606",
+      "to": "W1987840974",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2891688606"
+        }
+      ]
+    },
+    {
+      "from": "W2891688606",
+      "to": "W2766561855",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2891688606"
+        }
+      ]
+    },
+    {
+      "from": "W2891688606",
+      "to": "W2767661975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2891688606"
+        }
+      ]
+    },
+    {
+      "from": "W2905907779",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2905907779"
+        }
+      ]
+    },
+    {
+      "from": "W2906420471",
+      "to": "W1970238975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2906420471"
+        }
+      ]
+    },
+    {
+      "from": "W2906420471",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2906420471"
+        }
+      ]
+    },
+    {
+      "from": "W2973260754",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2973260754"
+        }
+      ]
+    },
+    {
+      "from": "W2973260754",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2973260754"
+        }
+      ]
+    },
+    {
+      "from": "W2973260754",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2973260754"
+        }
+      ]
+    },
+    {
+      "from": "W2987622401",
+      "to": "W1972493615",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2987622401"
+        }
+      ]
+    },
+    {
+      "from": "W2987622401",
+      "to": "W2110251070",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2987622401"
+        }
+      ]
+    },
+    {
+      "from": "W2987622401",
+      "to": "W2891688606",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2987622401"
+        }
+      ]
+    },
+    {
+      "from": "W2987622401",
+      "to": "W2993825220",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2987622401"
+        }
+      ]
+    },
+    {
+      "from": "W2993825220",
+      "to": "W1965198243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2993825220"
+        }
+      ]
+    },
+    {
+      "from": "W2993825220",
+      "to": "W1970238975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2993825220"
+        }
+      ]
+    },
+    {
+      "from": "W2993825220",
+      "to": "W2766561855",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2993825220"
+        }
+      ]
+    },
+    {
+      "from": "W2993825220",
+      "to": "W2767661975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2993825220"
+        }
+      ]
+    },
+    {
+      "from": "W2993825220",
+      "to": "W2810060588",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2993825220"
+        }
+      ]
+    },
+    {
+      "from": "W2993825220",
+      "to": "W2891688606",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2993825220"
+        }
+      ]
+    },
+    {
+      "from": "W2993825220",
+      "to": "W2987622401",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2993825220"
+        }
+      ]
+    },
+    {
+      "from": "W3003563372",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3003563372"
+        }
+      ]
+    },
+    {
+      "from": "W3003563372",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3003563372"
+        }
+      ]
+    },
+    {
+      "from": "W3028527477",
+      "to": "W2766561855",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3028527477"
+        }
+      ]
+    },
+    {
+      "from": "W3028527477",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3028527477"
+        }
+      ]
+    },
+    {
+      "from": "W3028527477",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3028527477"
+        }
+      ]
+    },
+    {
+      "from": "W3028527477",
+      "to": "W2987622401",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3028527477"
+        }
+      ]
+    },
+    {
+      "from": "W3028527477",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3028527477"
+        }
+      ]
+    },
+    {
+      "from": "W3047782596",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047782596"
+        }
+      ]
+    },
+    {
+      "from": "W3047782596",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047782596"
+        }
+      ]
+    },
+    {
+      "from": "W3047782596",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047782596"
+        }
+      ]
+    },
+    {
+      "from": "W3089138714",
+      "to": "W2766561855",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3089138714"
+        }
+      ]
+    },
+    {
+      "from": "W3089138714",
+      "to": "W2767661975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3089138714"
+        }
+      ]
+    },
+    {
+      "from": "W3089138714",
+      "to": "W3159123643",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3089138714"
+        }
+      ]
+    },
+    {
+      "from": "W3114063485",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3114063485"
+        }
+      ]
+    },
+    {
+      "from": "W3114063485",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3114063485"
+        }
+      ]
+    },
+    {
+      "from": "W3114063485",
+      "to": "W2973260754",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3114063485"
+        }
+      ]
+    },
+    {
+      "from": "W3114063485",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3114063485"
+        }
+      ]
+    },
+    {
+      "from": "W3114063485",
+      "to": "W3028527477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3114063485"
+        }
+      ]
+    },
+    {
+      "from": "W3117728249",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3117728249"
+        }
+      ]
+    },
+    {
+      "from": "W3117728249",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3117728249"
+        }
+      ]
+    },
+    {
+      "from": "W3117728249",
+      "to": "W2973260754",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3117728249"
+        }
+      ]
+    },
+    {
+      "from": "W3117728249",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3117728249"
+        }
+      ]
+    },
+    {
+      "from": "W3117728249",
+      "to": "W3028527477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3117728249"
+        }
+      ]
+    },
+    {
+      "from": "W3117728249",
+      "to": "W3047782596",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3117728249"
+        }
+      ]
+    },
+    {
+      "from": "W3117728249",
+      "to": "W3114063485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3117728249"
+        }
+      ]
+    },
+    {
+      "from": "W3133557117",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3133557117"
+        }
+      ]
+    },
+    {
+      "from": "W3133557117",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3133557117"
+        }
+      ]
+    },
+    {
+      "from": "W3133557117",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3133557117"
+        }
+      ]
+    },
+    {
+      "from": "W3133557117",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3133557117"
+        }
+      ]
+    },
+    {
+      "from": "W3159123643",
+      "to": "W1965198243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3159123643"
+        }
+      ]
+    },
+    {
+      "from": "W3159123643",
+      "to": "W2766561855",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3159123643"
+        }
+      ]
+    },
+    {
+      "from": "W3159123643",
+      "to": "W2767661975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3159123643"
+        }
+      ]
+    },
+    {
+      "from": "W3159123643",
+      "to": "W2891688606",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3159123643"
+        }
+      ]
+    },
+    {
+      "from": "W3159123643",
+      "to": "W2987622401",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3159123643"
+        }
+      ]
+    },
+    {
+      "from": "W3166656857",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3166656857"
+        }
+      ]
+    },
+    {
+      "from": "W3166656857",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3166656857"
+        }
+      ]
+    },
+    {
+      "from": "W3166656857",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3166656857"
+        }
+      ]
+    },
+    {
+      "from": "W3166656857",
+      "to": "W3028527477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3166656857"
+        }
+      ]
+    },
+    {
+      "from": "W3204610656",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3204610656"
+        }
+      ]
+    },
+    {
+      "from": "W3204610656",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3204610656"
+        }
+      ]
+    },
+    {
+      "from": "W3204610656",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3204610656"
+        }
+      ]
+    },
+    {
+      "from": "W3204610656",
+      "to": "W3028527477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3204610656"
+        }
+      ]
+    },
+    {
+      "from": "W3204610656",
+      "to": "W3047782596",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3204610656"
+        }
+      ]
+    },
+    {
+      "from": "W3204610656",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3204610656"
+        }
+      ]
+    },
+    {
+      "from": "W3204610656",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3204610656"
+        }
+      ]
+    },
+    {
+      "from": "W4224268864",
+      "to": "W2766561855",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224268864"
+        }
+      ]
+    },
+    {
+      "from": "W4224268864",
+      "to": "W2767661975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224268864"
+        }
+      ]
+    },
+    {
+      "from": "W4224268864",
+      "to": "W2891688606",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224268864"
+        }
+      ]
+    },
+    {
+      "from": "W4224268864",
+      "to": "W3089138714",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224268864"
+        }
+      ]
+    },
+    {
+      "from": "W4224268864",
+      "to": "W3159123643",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224268864"
+        }
+      ]
+    },
+    {
+      "from": "W4225492951",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225492951"
+        }
+      ]
+    },
+    {
+      "from": "W4225492951",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225492951"
+        }
+      ]
+    },
+    {
+      "from": "W4225492951",
+      "to": "W2973260754",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225492951"
+        }
+      ]
+    },
+    {
+      "from": "W4225492951",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225492951"
+        }
+      ]
+    },
+    {
+      "from": "W4225492951",
+      "to": "W3028527477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225492951"
+        }
+      ]
+    },
+    {
+      "from": "W4225492951",
+      "to": "W3047782596",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225492951"
+        }
+      ]
+    },
+    {
+      "from": "W4225492951",
+      "to": "W3114063485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225492951"
+        }
+      ]
+    },
+    {
+      "from": "W4225492951",
+      "to": "W3117728249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225492951"
+        }
+      ]
+    },
+    {
+      "from": "W4225492951",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225492951"
+        }
+      ]
+    },
+    {
+      "from": "W4225492951",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225492951"
+        }
+      ]
+    },
+    {
+      "from": "W4225492951",
+      "to": "W3204610656",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225492951"
+        }
+      ]
+    },
+    {
+      "from": "W4312223186",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312223186"
+        }
+      ]
+    },
+    {
+      "from": "W4312223186",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312223186"
+        }
+      ]
+    },
+    {
+      "from": "W4312223186",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312223186"
+        }
+      ]
+    },
+    {
+      "from": "W4312223186",
+      "to": "W3028527477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312223186"
+        }
+      ]
+    },
+    {
+      "from": "W4312223186",
+      "to": "W3114063485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312223186"
+        }
+      ]
+    },
+    {
+      "from": "W4312223186",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312223186"
+        }
+      ]
+    },
+    {
+      "from": "W4312223186",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312223186"
+        }
+      ]
+    },
+    {
+      "from": "W4312223186",
+      "to": "W3204610656",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312223186"
+        }
+      ]
+    },
+    {
+      "from": "W4313526369",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313526369"
+        }
+      ]
+    },
+    {
+      "from": "W4313526369",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313526369"
+        }
+      ]
+    },
+    {
+      "from": "W4313526369",
+      "to": "W2973260754",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313526369"
+        }
+      ]
+    },
+    {
+      "from": "W4313526369",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313526369"
+        }
+      ]
+    },
+    {
+      "from": "W4313526369",
+      "to": "W3028527477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313526369"
+        }
+      ]
+    },
+    {
+      "from": "W4313526369",
+      "to": "W3114063485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313526369"
+        }
+      ]
+    },
+    {
+      "from": "W4313526369",
+      "to": "W3117728249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313526369"
+        }
+      ]
+    },
+    {
+      "from": "W4313526369",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313526369"
+        }
+      ]
+    },
+    {
+      "from": "W4313526369",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313526369"
+        }
+      ]
+    },
+    {
+      "from": "W4313526369",
+      "to": "W4225492951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313526369"
+        }
+      ]
+    },
+    {
+      "from": "W4323309987",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323309987"
+        }
+      ]
+    },
+    {
+      "from": "W4323309987",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323309987"
+        }
+      ]
+    },
+    {
+      "from": "W4323309987",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323309987"
+        }
+      ]
+    },
+    {
+      "from": "W4323309987",
+      "to": "W3114063485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323309987"
+        }
+      ]
+    },
+    {
+      "from": "W4323309987",
+      "to": "W3117728249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323309987"
+        }
+      ]
+    },
+    {
+      "from": "W4323309987",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323309987"
+        }
+      ]
+    },
+    {
+      "from": "W4323309987",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323309987"
+        }
+      ]
+    },
+    {
+      "from": "W4323309987",
+      "to": "W3204610656",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323309987"
+        }
+      ]
+    },
+    {
+      "from": "W4323309987",
+      "to": "W4225492951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323309987"
+        }
+      ]
+    },
+    {
+      "from": "W4362673297",
+      "to": "W2767661975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362673297"
+        }
+      ]
+    },
+    {
+      "from": "W4362673297",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362673297"
+        }
+      ]
+    },
+    {
+      "from": "W4362673297",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362673297"
+        }
+      ]
+    },
+    {
+      "from": "W4362673297",
+      "to": "W2973260754",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362673297"
+        }
+      ]
+    },
+    {
+      "from": "W4362673297",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362673297"
+        }
+      ]
+    },
+    {
+      "from": "W4362673297",
+      "to": "W3114063485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362673297"
+        }
+      ]
+    },
+    {
+      "from": "W4362673297",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362673297"
+        }
+      ]
+    },
+    {
+      "from": "W4362673297",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362673297"
+        }
+      ]
+    },
+    {
+      "from": "W4362673297",
+      "to": "W4225492951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362673297"
+        }
+      ]
+    },
+    {
+      "from": "W4362673297",
+      "to": "W4323309987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362673297"
+        }
+      ]
+    },
+    {
+      "from": "W4389248413",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389248413"
+        }
+      ]
+    },
+    {
+      "from": "W4389248413",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389248413"
+        }
+      ]
+    },
+    {
+      "from": "W4389248413",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389248413"
+        }
+      ]
+    },
+    {
+      "from": "W4389248413",
+      "to": "W3204610656",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389248413"
+        }
+      ]
+    },
+    {
+      "from": "W4389248413",
+      "to": "W4323309987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389248413"
+        }
+      ]
+    },
+    {
+      "from": "W4389248413",
+      "to": "W4362673297",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389248413"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W2973260754",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W3028527477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W3089138714",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W3159123643",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W3204610656",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W4225492951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W4312223186",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W4323309987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4392385338",
+      "to": "W4362673297",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392385338"
+        }
+      ]
+    },
+    {
+      "from": "W4393233685",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393233685"
+        }
+      ]
+    },
+    {
+      "from": "W4393233685",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393233685"
+        }
+      ]
+    },
+    {
+      "from": "W4393233685",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393233685"
+        }
+      ]
+    },
+    {
+      "from": "W4393233685",
+      "to": "W3204610656",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393233685"
+        }
+      ]
+    },
+    {
+      "from": "W4393233685",
+      "to": "W4225492951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393233685"
+        }
+      ]
+    },
+    {
+      "from": "W4393233685",
+      "to": "W4323309987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393233685"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W2767661975",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W2973260754",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W3028527477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W3047782596",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W3089138714",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W3114063485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W3117728249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W3159123643",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W3204610656",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W4225492951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W4313526369",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W4323309987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4410115955",
+      "to": "W4362673297",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410115955"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W2973260754",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W3047782596",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W3114063485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W3117728249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W4225492951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W4323309987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W4362673297",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W4392385338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4412561354",
+      "to": "W4410115955",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412561354"
+        }
+      ]
+    },
+    {
+      "from": "W4413025199",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413025199"
+        }
+      ]
+    },
+    {
+      "from": "W4413025199",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413025199"
+        }
+      ]
+    },
+    {
+      "from": "W4413025199",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413025199"
+        }
+      ]
+    },
+    {
+      "from": "W4413025199",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413025199"
+        }
+      ]
+    },
+    {
+      "from": "W4413025199",
+      "to": "W3204610656",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413025199"
+        }
+      ]
+    },
+    {
+      "from": "W4413025199",
+      "to": "W4323309987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413025199"
+        }
+      ]
+    },
+    {
+      "from": "W4413025199",
+      "to": "W4362673297",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413025199"
+        }
+      ]
+    },
+    {
+      "from": "W4413025199",
+      "to": "W4389248413",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413025199"
+        }
+      ]
+    },
+    {
+      "from": "W4414321743",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414321743"
+        }
+      ]
+    },
+    {
+      "from": "W4414321743",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414321743"
+        }
+      ]
+    },
+    {
+      "from": "W4414321743",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414321743"
+        }
+      ]
+    },
+    {
+      "from": "W4414321743",
+      "to": "W3204610656",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414321743"
+        }
+      ]
+    },
+    {
+      "from": "W4414321743",
+      "to": "W4225492951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414321743"
+        }
+      ]
+    },
+    {
+      "from": "W4414321743",
+      "to": "W4389248413",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414321743"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W1965198243",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W1970238975",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W1972493615",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W1976598292",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W1987840974",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W2054033963",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W2110251070",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W2766561855",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W2767661975",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W2810060588",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W2891688606",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W2973260754",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W2987622401",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W2993825220",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W3028527477",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W3047782596",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W3089138714",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W3114063485",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W3117728249",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W3159123643",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W3204610656",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4224268864",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4225492951",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4312223186",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4313526369",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4323309987",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4362673297",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4389248413",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4392385338",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4393233685",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4410115955",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4412561354",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4413025199",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W4414321743",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7127575312",
+      "to": "W7163545494",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fscience.aeh1375"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W2905907779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W2906420471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W2973260754",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W3003563372",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W3028527477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W3047782596",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W3114063485",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W3117728249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W3133557117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W3166656857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W3204610656",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W4225492951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W4313526369",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W4323309987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W4362673297",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W4389248413",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W4393233685",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W4410115955",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    },
+    {
+      "from": "W7163545494",
+      "to": "W4413025199",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163545494"
+        }
+      ]
+    }
+  ]
 }

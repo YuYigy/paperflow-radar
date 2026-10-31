@@ -66,8 +66,8 @@
     if(!itemset){itemset=await PaperFlow.getItems();const byId=new Map(itemset.map(i=>[i.record_id,i]));for(const p of dataset.papers){const i=byId.get(p.reading_url?.split('/').pop().replace('.html',''));if(i){p.title_zh=i.title_zh;p.search_summary=i.summary_zh;}}}
   }
   async function renderPersonal(){
-    const host=document.getElementById('saved-search-list');if(!host)return;const serial=++renderSerial;
-    try{await loadData();if(serial!==renderSerial)return;host.replaceChildren();
+    const host=document.getElementById('saved-search-list'),queue=document.getElementById('triage-list');if(!host&&!queue)return;const serial=++renderSerial;
+    try{if(host||state.triage.length)await loadData();if(serial!==renderSerial)return;if(host){host.replaceChildren();
       if(!state.searches.length)host.append(el('p','还没有保存检索。在题录库设置筛选后，给检索起一个名字即可。','fine'));
       for(const s of state.searches){
         const found=dataset.papers.filter(p=>match(p,s.filters)),seen=new Set(s.seen),fresh=found.filter(p=>!seen.has(p.index_id));
@@ -80,21 +80,25 @@
         const freshLink=el('a','只看新增 →');const freshUrl=linkFor(s);freshUrl.searchParams.set('new','1');freshLink.href=freshUrl;
         actions.append(freshLink,ack,rename,remove);box.append(actions);host.append(box);
       }
-      const list=document.getElementById('triage-list');list.replaceChildren();const rows=state.triage.filter(t=>view==='all'||t.decision===view).sort((a,b)=>b.updated_at.localeCompare(a.updated_at));
+      }
+      const list=queue;if(!list)return;list.replaceChildren();const rows=state.triage.filter(t=>view==='all'||t.decision===view).sort((a,b)=>b.updated_at.localeCompare(a.updated_at));
       document.getElementById('triage-count').textContent=`${rows.length} / ${state.triage.length} 篇`;
       if(!rows.length)list.append(el('p','这个队列还没有论文，可从题录库或今日阅读标记。','fine'));
       for(const t of rows){const source=t.type==='item'?itemset.find(i=>i.record_id===t.record_id):dataset.papers.find(p=>p.index_id===t.record_id);
         const box=el('article',undefined,'triage-card'),h=el('h3');
         if(source){const a=el('a',source.title_zh||source.title);a.href=t.type==='item'?new URL('items/'+t.record_id+'.html',base):source.source_url;a.rel='noreferrer';h.append(a);}else h.textContent=t.title;
         box.append(h,el('p',labels[t.decision]+' · '+(t.type==='item'?'公开解读':'题录，未必已有解读'),'fine'));
+        const readingId=t.type==='item'?t.record_id:source?.reading_url?.split('/').pop().replace('.html','');
+        const progress=readingId?window.PaperFlow?.getReadingEntry(readingId):null;
+        box.append(el('p','阅读进度：'+(progress?({queued:'待读',reading:'在读',done:'已读'}[progress.status]):'尚未加入阅读清单'),'fine'));
         if(!source)box.append(el('p','当前目录中没有此条目，保留原筛选供复查。','fine'));
         if(t.type==='item'&&source&&t.revision!==source.revision)box.append(el('p','解读已修订，请重新核对筛选决定。','notice subtle'));
         mount(box,t.type,t.record_id,t.title,source?.revision||t.revision);
-        if(t.type==='item'&&source){const b=el('button','加入阅读清单');b.dataset.save=t.record_id;b.dataset.revision=source.revision;box.append(b);}
+        if(t.type==='item'&&source){if(progress){const a=el('a','继续阅读与笔记 →');a.href=new URL('items/'+t.record_id+'.html#personal-note',base);box.append(a);}else{const b=el('button','加入阅读清单');b.dataset.save=t.record_id;b.dataset.revision=source.revision;box.append(b);}}
         else if(source?.reading_url){const a=el('a','已有中文解读 →');a.href=new URL(source.reading_url,base);box.append(a);}
         list.append(box);
       }
-    }catch(_){if(serial===renderSerial){host.replaceChildren(el('p','目录读取失败，个人记录未丢失。请刷新重试。'));}}
+    }catch(_){if(serial===renderSerial){(host||queue).replaceChildren(el('p','目录读取失败，个人记录未丢失。请刷新重试。'));}}
   }
   function saveSearch(name,values,papers){
     name=String(name||'').trim();
@@ -135,5 +139,6 @@
   document.getElementById('discovery-import')?.addEventListener('change',async e=>{try{const f=e.target.files[0];if(!f)return;if(f.size>5*1024*1024)throw Error();const incoming=validate(JSON.parse(await f.text()));read();const merge=(a,b)=>{const m=new Map(a.map(v=>[v.id,v]));for(const v of b)if(!m.has(v.id)||Date.parse(v.updated_at)>Date.parse(m.get(v.id).updated_at))m.set(v.id,v);return [...m.values()];};if(save({schema,searches:merge(state.searches,incoming.searches),triage:merge(state.triage,incoming.triage)}))message('检索与筛选备份已合并。');}catch(_){message('导入失败：请使用有效的检索与筛选备份（不超过5 MB），原数据未更改。');}e.target.value='';});
   window.addEventListener('storage',e=>{if(e.key===key||e.key===null){read();syncSelectors();renderPersonal();window.dispatchEvent(new Event('paperflow:discovery-changed'));}});
   window.PaperFlowDiscovery=Object.freeze({match,mount,attachCatalog,catalogChanged,isNew,decision,saveSearch,getState:()=>JSON.parse(JSON.stringify(state))});
+  window.addEventListener('paperflow:reading-changed',()=>{if(document.getElementById('triage-list'))renderPersonal();});
   renderPersonal();
 })();

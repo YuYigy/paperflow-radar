@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "f91dc79c-55c2-48e9-98e6-97585adb3a7b",
-  "root": "doi:10.1002/lpor.71894",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7212264445",
+  "status": "ok",
+  "checked_at": "2026-10-29T00:50:17.800155+00:00",
+  "coverage": {
+    "references_found": 142,
+    "citing_found": 1,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 101,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1002/lpor.71894",
+      "id": "W7212264445",
       "doi": "10.1002/lpor.71894",
       "title": "Silicon Photonics for Short‐Reach Interconnects: Progress in High‐Bandwidth and Energy‐Efficient Optical I/O",
       "authors": [
@@ -33,20 +43,2785 @@
         "Haiwen Cai",
         "Wei Chu"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Laser & Photonics Reviews",
       "venue_abbr": "LPR",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "silicon photonics",
+        "optical interconnects",
+        "optical I/O",
+        "high-bandwidth data transfer",
+        "energy efficiency",
+        "optical packaging",
+        "interconnect architecture",
+        "performance trade-offs"
+      ],
       "url": "https://doi.org/10.1002/lpor.71894",
-      "cited_by_count": null,
+      "cited_by_count": 1,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/f91dc79c-55c2-48e9-98e6-97585adb3a7b.html",
       "summary": "摘要报告：综述硅光互连在AI集群中的进展，指出数据在加速器、内存与网络组件间的搬运已成为系统扩展瓶颈，硅光I/O可克服电链路在带宽密度、能效与可扩展性上的限制。文章从光器件、电子电路、封装技术与系统架构四个层面分析性能权衡、部署挑战与未来机会。摘要未列出定量对比数据或具体器件指标。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W7223019152",
+      "doi": "10.21203/rs.3.rs-11425295/v1",
+      "title": "System boundary harmonization reveals conditional energy crossover in chip interconnects",
+      "authors": [
+        "Takenari Fujio"
+      ],
+      "year": 2026,
+      "venue": "Research Square",
+      "venue_abbr": "Research Square",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "energy per bit",
+        "on-chip interconnects",
+        "channel loss",
+        "optical transceivers",
+        "chiplets",
+        "optoelectronic integration",
+        "energy efficiency"
+      ],
+      "url": "https://doi.org/10.21203/rs.3.rs-11425295/v1",
+      "cited_by_count": 0,
+      "importance": 0.6333,
+      "score_basis": {
+        "topic_overlap": 0.407,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "citing",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3214445190",
+      "doi": "10.1109/jstqe.2021.3126124",
+      "title": "High-Performance Silicon Photonics Using Heterogeneous Integration",
+      "authors": [
+        "Chao Xiang",
+        "Warren Jin",
+        "Duanni Huang",
+        "Minh A. Tran",
+        "Joel Guo",
+        "Yating Wan",
+        "Weiqiang Xie",
+        "Géza Kurczveil",
+        "Andrew M. Netherton",
+        "Di Liang",
+        "Haisheng Rong",
+        "John Edward Bowers"
+      ],
+      "year": 2021,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "heterogeneous integration",
+        "single-wavelength laser",
+        "photonic integrated circuits",
+        "optical phased array",
+        "LiDAR",
+        "optical transceivers",
+        "data center interconnects"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2021.3126124",
+      "cited_by_count": 186,
+      "importance": 0.5598,
+      "score_basis": {
+        "topic_overlap": 0.355,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3188674373",
+      "doi": "10.1109/jlt.2021.3066203",
+      "title": "Review of Silicon Photonics Technology and Platform Development",
+      "authors": [
+        "Shawn Yohanes Siew",
+        "B. Li",
+        "Feng Gao",
+        "Han Yue Zheng",
+        "W. Zhang",
+        "P. Guo",
+        "Shangran Xie",
+        "A. Song",
+        "Bin Dong",
+        "L. W. Luo",
+        "C. Li",
+        "Xianshu Luo",
+        "G. Q. Lo"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon photonics",
+        "photonic integrated circuits",
+        "process design kit",
+        "device library",
+        "commercialization",
+        "photonic integration"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3066203",
+      "cited_by_count": 986,
+      "importance": 0.5527,
+      "score_basis": {
+        "topic_overlap": 0.273,
+        "shared_references": 3,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2913848248",
+      "doi": "10.1364/prj.7.000201",
+      "title": "Coupling strategies for silicon photonics integrated chips [Invited]",
+      "authors": [
+        "Riccardo Marchetti",
+        "Cosimo Lacava",
+        "Lee Carroll",
+        "Kamil Gradkowski",
+        "P. Minzioni"
+      ],
+      "year": 2019,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "fiber-to-chip coupling",
+        "optical coupler",
+        "photonic integrated circuits",
+        "optical packaging",
+        "fiber assemblies",
+        "coupling efficiency",
+        "polarization dependence",
+        "coupling bandwidth"
+      ],
+      "url": "https://doi.org/10.1364/prj.7.000201",
+      "cited_by_count": 635,
+      "importance": 0.5507,
+      "score_basis": {
+        "topic_overlap": 0.335,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3040900371",
+      "doi": "10.1002/mop.32509",
+      "title": "Silicon photonic filters",
+      "authors": [
+        "Dajian Liu",
+        "Hongnan Xu",
+        "Ying Tan",
+        "Yaocheng Shi",
+        "Daoxin Dai A"
+      ],
+      "year": 2020,
+      "venue": "Microwave and Optical Technology Letters",
+      "venue_abbr": "Microwave and Optical Technology Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "Mach-Zehnder interferometer",
+        "microring resonators",
+        "waveguide Bragg gratings",
+        "arrayed waveguide grating",
+        "optical interconnects",
+        "optical sensing"
+      ],
+      "url": "https://doi.org/10.1002/mop.32509",
+      "cited_by_count": 81,
+      "importance": 0.5499,
+      "score_basis": {
+        "topic_overlap": 0.178,
+        "shared_references": 10,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4226223731",
+      "doi": "10.1002/lpor.202200005",
+      "title": "On‐Chip Metamaterial Enabled Wavelength (De)Multiplexer",
+      "authors": [
+        "Yaotian Zhao",
+        "Jinlong Xiang",
+        "Yu He",
+        "Yuchen Yin",
+        "An He",
+        "Yong Zhang",
+        "Zongyin Yang",
+        "Xuhan Guo",
+        "Yikai Su"
+      ],
+      "year": 2022,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "wavelength division multiplexing",
+        "wavelength demultiplexer",
+        "metamaterials",
+        "silicon photonics",
+        "multimode waveguides",
+        "mode demultiplexer",
+        "compact footprint",
+        "channel crosstalk"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202200005",
+      "cited_by_count": 27,
+      "importance": 0.5392,
+      "score_basis": {
+        "topic_overlap": 0.154,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391021617",
+      "doi": "10.1109/jssc.2023.3344072",
+      "title": "8- λ × 50 Gbps/ λ Heterogeneously Integrated Si-Ph DWDM Transmitter",
+      "authors": [
+        "Cooper S. Levy",
+        "Zhe Xuan",
+        "Jahnavi Sharma",
+        "Duanni Huang",
+        "Ranjeet Kumar",
+        "Chaoxuan Ma",
+        "Guan-Lin Su",
+        "Songtao Liu",
+        "Jinyong Kim",
+        "Xinru Wu",
+        "Tolga Açıkalın",
+        "Haisheng Rong",
+        "Ganesh Balamurugan",
+        "James E. Jaussi"
+      ],
+      "year": 2024,
+      "venue": "IEEE Journal of Solid-State Circuits",
+      "venue_abbr": "IEEE Journal of Solid-State Circuits",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "dense wavelength division multiplexing",
+        "silicon photonics",
+        "heterogeneous integration",
+        "3D integration",
+        "micro-ring modulator",
+        "semiconductor optical amplifier",
+        "laser arrays",
+        "thermal management",
+        "energy efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jssc.2023.3344072",
+      "cited_by_count": 68,
+      "importance": 0.535,
+      "score_basis": {
+        "topic_overlap": 0.3,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401540200",
+      "doi": "10.1364/optica.531372",
+      "title": "High-speed, low-voltage, low-bit-energy silicon photonic crystal slow-light modulator with impedance-engineered distributed electrodes",
+      "authors": [
+        "Keisuke Kawahara",
+        "Tai Tsuchizawa",
+        "Noritsugu Yamamoto",
+        "Yuriko Maegami",
+        "Koji Yamada",
+        "Shinsuke Hara",
+        "Toshihiko Baba"
+      ],
+      "year": 2024,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "Mach-Zehnder modulator",
+        "impedance matching",
+        "low driving voltage",
+        "optical transceivers",
+        "data center energy consumption"
+      ],
+      "url": "https://doi.org/10.1364/optica.531372",
+      "cited_by_count": 34,
+      "importance": 0.535,
+      "score_basis": {
+        "topic_overlap": 0.3,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4205509740",
+      "doi": "10.1109/jssc.2021.3134221",
+      "title": "Silicon Photonic Microring-Based 4 × 112 Gb/s WDM Transmitter With Photocurrent-Based Thermal Control in 28-nm CMOS",
+      "authors": [
+        "Jahnavi Sharma",
+        "Zhe Xuan",
+        "Hao Li",
+        "Taehwan Kim",
+        "Ranjeet Kumar",
+        "Meer Sakib",
+        "Chun-Ming Hsu",
+        "Chaoxuan Ma",
+        "Haisheng Rong",
+        "Ganesh Balamurugan",
+        "James E. Jaussi"
+      ],
+      "year": 2021,
+      "venue": "IEEE Journal of Solid-State Circuits",
+      "venue_abbr": "IEEE Journal of Solid-State Circuits",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "micro-ring modulator",
+        "wavelength division multiplexing",
+        "optical transmitter",
+        "thermal management",
+        "nonlinear equalization",
+        "28nm CMOS",
+        "hybrid integration",
+        "co-packaged optics",
+        "O-band",
+        "112 Gb/s",
+        "energy efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jssc.2021.3134221",
+      "cited_by_count": 72,
+      "importance": 0.5222,
+      "score_basis": {
+        "topic_overlap": 0.294,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2220870060",
+      "doi": "10.1038/nature16454",
+      "title": "Single-chip microprocessor that communicates directly using light",
+      "authors": [
+        "Chen Sun",
+        "Mark T. Wade",
+        "Yunsup Lee",
+        "Jason S. Orcutt",
+        "L. Alloatti",
+        "Michael S. Georgas",
+        "Andrew S. Waterman",
+        "Jeffrey M. Shainline",
+        "Rimas R. Avizienis",
+        "Sen Lin",
+        "Benjamin R. Moss",
+        "Rajesh Kumar",
+        "Fabio Pavanello",
+        "Amir Hossein Atabaki",
+        "Henry M. Cook",
+        "Albert J. Ou",
+        "Jonathan C. Leu",
+        "Yu‐Hsin Chen",
+        "Krste Asanović",
+        "Rajeev J. Ram",
+        "Miloš A. Popović",
+        "Vladimir Marko Stojanovic"
+      ],
+      "year": 2015,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic-electronic integration",
+        "silicon photonics",
+        "on-chip optical interconnects",
+        "system-on-chip",
+        "optical transmission",
+        "chip-scale integration",
+        "energy-efficient computing",
+        "nanophotonic devices",
+        "photonic memory",
+        "photonic logic",
+        "photonic sensors",
+        "optical modulators"
+      ],
+      "url": "https://doi.org/10.1038/nature16454",
+      "cited_by_count": 1313,
+      "importance": 0.495,
+      "score_basis": {
+        "topic_overlap": 0.433,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2284127214",
+      "doi": "10.1364/oe.24.004622",
+      "title": "−1 V bias 67 GHz bandwidth Si-contacted germanium waveguide p-i-n photodetector for optical links at 56 Gbps and beyond",
+      "authors": [
+        "Hong Tao Chen",
+        "Peter Verheyen",
+        "Peter De Heyn",
+        "Guy Lepage",
+        "Jeroen De Coster",
+        "Sadhishkumar Balakrishnan",
+        "Philippe P. Absil",
+        "Weiming Yao",
+        "Liangying Shen",
+        "Günther Roelkens",
+        "Joris Van Campenhout"
+      ],
+      "year": 2016,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "germanium photodetectors",
+        "p-i-n photodetectors",
+        "silicon contacts",
+        "waveguide photodetectors",
+        "low bias operation",
+        "high bandwidth",
+        "low capacitance",
+        "dark current",
+        "responsivity",
+        "optical interconnects",
+        "on-off keying",
+        "C-band"
+      ],
+      "url": "https://doi.org/10.1364/oe.24.004622",
+      "cited_by_count": 191,
+      "importance": 0.495,
+      "score_basis": {
+        "topic_overlap": 0.3,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387736313",
+      "doi": "10.1364/prj.495958",
+      "title": "103 GHz germanium-on-silicon photodiode enabled by an optimized U-shaped electrode",
+      "authors": [
+        "Yang Shi",
+        "Xiang Li",
+        "Mingjie Zou",
+        "Yu Yu",
+        "Xinliang Zhang"
+      ],
+      "year": 2023,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "germanium photodiodes",
+        "germanium on silicon",
+        "high bandwidth",
+        "silicon photonics",
+        "optical detection",
+        "detectivity",
+        "dark current",
+        "optical responsivity"
+      ],
+      "url": "https://doi.org/10.1364/prj.495958",
+      "cited_by_count": 61,
+      "importance": 0.4905,
+      "score_basis": {
+        "topic_overlap": 0.312,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3134754865",
+      "doi": "10.1364/prj.417601",
+      "title": "High-speed and high-power germanium photodetector with a lateral silicon nitride waveguide",
+      "authors": [
+        "Xiao Ying Hu",
+        "Dingyi Wu",
+        "Hongguang Zhang",
+        "Weizhong Li",
+        "Daigao Chen",
+        "Lei Wang",
+        "Xi Xiao",
+        "Shaohua Yu"
+      ],
+      "year": 2021,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "germanium photodetectors",
+        "germanium on silicon",
+        "silicon nitride waveguides",
+        "high-speed photodetection",
+        "high-power photodetection",
+        "eye diagram",
+        "silicon photonics",
+        "equivalent circuit model",
+        "NRZ modulation",
+        "PAM4 modulation",
+        "silicon photonics integrated circuits",
+        "60 GHz"
+      ],
+      "url": "https://doi.org/10.1364/prj.417601",
+      "cited_by_count": 77,
+      "importance": 0.4869,
+      "score_basis": {
+        "topic_overlap": 0.282,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2774662355",
+      "doi": "10.1109/lpt.2017.2779489",
+      "title": "Flat-Top CWDM (De)Multiplexer Based on MZI With Bent Directional Couplers",
+      "authors": [
+        "Hongnan Xu",
+        "Yaocheng Shi"
+      ],
+      "year": 2017,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coarse wavelength division multiplexing",
+        "flat-top passband",
+        "Mach-Zehnder interferometer",
+        "power divider",
+        "crosstalk reduction"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2017.2779489",
+      "cited_by_count": 133,
+      "importance": 0.485,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387805647",
+      "doi": "10.1126/sciadv.adi5339",
+      "title": "Slow-light silicon modulator with 110-GHz bandwidth",
+      "authors": [
+        "Changhao Han",
+        "Zhao Min Zheng",
+        "Haowen Shu",
+        "Ming Jin",
+        "Jun Qin",
+        "Ruixuan Chen",
+        "Yuansheng Tao",
+        "Bitao Shen",
+        "Bowen Bai",
+        "Fenghe Yang",
+        "Yimeng Wang",
+        "Haoyu Wang",
+        "Feifan Wang",
+        "Zixuan Zhang",
+        "Shaohua Yu",
+        "Chao Peng",
+        "Xingjun Wang"
+      ],
+      "year": 2023,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon modulators",
+        "slow light",
+        "electro-optic modulation",
+        "modulation bandwidth",
+        "corrugated waveguide",
+        "on-off keying",
+        "optical interconnects",
+        "high-speed optical transmission"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.adi5339",
+      "cited_by_count": 189,
+      "importance": 0.4769,
+      "score_basis": {
+        "topic_overlap": 0.193,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391454445",
+      "doi": "10.1109/jlt.2024.3361068",
+      "title": "Low-Loss Ultra-Compact Silicon Photonic Integrated Micro-Disk Modulator for Large-Scale WDM Optical Interconnection",
+      "authors": [
+        "Weifeng Zhang",
+        "Shuwen Yang",
+        "Shuang Zheng",
+        "Bin Wang"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "electro-optic modulator",
+        "wavelength division multiplexing",
+        "optical interconnection networks",
+        "planar waveguides",
+        "insertion loss",
+        "modulation bandwidth",
+        "microwave photonics"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3361068",
+      "cited_by_count": 22,
+      "importance": 0.4754,
+      "score_basis": {
+        "topic_overlap": 0.279,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4393217440",
+      "doi": "10.1109/jlt.2024.3382091",
+      "title": "A Comprehensive Equivalent Circuit Model of Silicon Microring Modulators for Photonics-Electronics Codesign",
+      "authors": [
+        "Shenlei Bao",
+        "Yingjie Ma",
+        "Jintao Xue",
+        "Jinyi Wu",
+        "Nan Qi",
+        "Binhao Wang"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon microring modulator",
+        "equivalent circuit model",
+        "co-packaged optics",
+        "optical I/O",
+        "thermo-optic effect",
+        "nonlinear optical dynamics",
+        "electrical parasitics",
+        "co-simulation",
+        "electronic-photonic integrated circuits",
+        "eye diagram"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3382091",
+      "cited_by_count": 14,
+      "importance": 0.4683,
+      "score_basis": {
+        "topic_overlap": 0.263,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3187586187",
+      "doi": "10.1109/ectc32696.2021.00052",
+      "title": "Heterogeneous Integration of a Compact Universal Photonic Engine for Silicon Photonics Applications in HPC",
+      "authors": [
+        "Harry Hsia",
+        "Chung-Hao Tsai",
+        "K. C. Ting",
+        "Feng-Wei Kuo",
+        "Charles Chih-Chin Lin",
+        "C.T. Wang",
+        "S.Y. Hou",
+        "W.C. Chiou",
+        "Douglas Yu"
+      ],
+      "year": 2021,
+      "venue": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "venue_abbr": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "silicon photonics",
+        "heterogeneous integration",
+        "monolithic integration",
+        "coupé",
+        "grating couplers",
+        "edge coupler",
+        "insertion loss",
+        "high-performance computing",
+        "optical interconnects"
+      ],
+      "url": "https://doi.org/10.1109/ectc32696.2021.00052",
+      "cited_by_count": 32,
+      "importance": 0.4656,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2146747949",
+      "doi": "10.1364/oe.20.001096",
+      "title": "Zero-bias 40Gbit/s germanium waveguide photodetector on silicon",
+      "authors": [
+        "Laurent Vivien",
+        "Andreas Polzer",
+        "Delphine Marris‐Morini",
+        "Johann Osmond",
+        "Jean‐Michel Hartmann",
+        "Paul Crozat",
+        "Éric Cassan",
+        "Christophe Kopp",
+        "Horst Zimmermann",
+        "Jean Marc Fédéli"
+      ],
+      "year": 2012,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "germanium photodetectors",
+        "silicon photonics",
+        "silicon waveguides",
+        "zero-bias operation",
+        "optical bandwidth",
+        "responsivity",
+        "40 Gb/s transmission",
+        "1550 nm",
+        "open eye diagram"
+      ],
+      "url": "https://doi.org/10.1364/oe.20.001096",
+      "cited_by_count": 425,
+      "importance": 0.4608,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4206191055",
+      "doi": "10.1109/jlt.2022.3141906",
+      "title": "A Compact 112-Gbaud PAM-4 Silicon Photonics Transceiver for Short-Reach Interconnects",
+      "authors": [
+        "David Weng U. Chan",
+        "Gai Zhou",
+        "Xiong Wu",
+        "Yeyu Tong",
+        "Junwei Zhang",
+        "Chao Lü",
+        "Alan Pak Tao Lau",
+        "Hon Ki Tsang"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "PAM-4",
+        "short-reach optical links",
+        "intensity modulation and direct detection",
+        "C-band transmission",
+        "single-mode fiber transmission",
+        "high-speed optical transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3141906",
+      "cited_by_count": 38,
+      "importance": 0.4551,
+      "score_basis": {
+        "topic_overlap": 0.345,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2019883289",
+      "doi": "10.1038/nphoton.2010.179",
+      "title": "Silicon optical modulators",
+      "authors": [
+        "Graham T. Reed",
+        "Goran Z. Mashanovich",
+        "Frédéric Y. Gardes",
+        "Dave J. Thomson"
+      ],
+      "year": 2010,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "silicon optical modulator",
+        "silicon photonics",
+        "optical interconnects",
+        "CMOS-compatible fabrication",
+        "modulation bandwidth",
+        "modulation depth",
+        "energy consumption per bit",
+        "device footprint",
+        "heat tolerance",
+        "ultra-low power"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2010.179",
+      "cited_by_count": 2485,
+      "importance": 0.4456,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4367173686",
+      "doi": "10.1364/oe.486947",
+      "title": "420 Gbit/s optical signal reception enabled by an inductive gain peaking Ge-Si photodetector with 80 GHz bandwidth",
+      "authors": [
+        "Xiao Hu",
+        "Dingyi Wu",
+        "Ye Liu",
+        "Min Liu",
+        "Daigao Chen",
+        "Lei Wang",
+        "Xi Xiao",
+        "Shaohua Yu"
+      ],
+      "year": 2023,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "PAM-4",
+        "PAM-8",
+        "NRZ",
+        "bit error rate",
+        "silicon photonics",
+        "intensity modulation and direct detection",
+        "coherent optical receivers"
+      ],
+      "url": "https://doi.org/10.1364/oe.486947",
+      "cited_by_count": 23,
+      "importance": 0.4444,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4377082760",
+      "doi": "10.1364/ofc.2023.th4a.3",
+      "title": "280 Gbit/s PAM-4 Ge/Si Electro-absorption Modulator with 3-dB Bandwidth beyond 110 GHz",
+      "authors": [
+        "Xiao Hu",
+        "Dingyi Wu",
+        "Daigao Chen",
+        "Ye Liu",
+        "Hongguang Zhang",
+        "Yang Liu",
+        "Jia Liu",
+        "Min Liu",
+        "Lu Xu",
+        "Lei Wang",
+        "Xi Xiao",
+        "Shaohua Yu"
+      ],
+      "year": 2023,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "electroabsorption modulator",
+        "PAM-4",
+        "3-dB bandwidth",
+        "high-speed optical modulation",
+        "eye diagram",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2023.th4a.3",
+      "cited_by_count": 13,
+      "importance": 0.4405,
+      "score_basis": {
+        "topic_overlap": 0.312,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2768564320",
+      "doi": "10.1109/jlt.2017.2775658",
+      "title": "Cascading Second-Order Microring Resonators for a Box-Like Filter Response",
+      "authors": [
+        "Lei Zhang",
+        "Haiyang Zhao",
+        "Haoyan Wang",
+        "Sizhu Shao",
+        "Wenjing Tian",
+        "Jainfeng Ding",
+        "Xin Fu",
+        "Lin Yang"
+      ],
+      "year": 2017,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "cascaded microring resonators",
+        "optical filters",
+        "flat-top spectrum",
+        "roll-off rate",
+        "bandwidth",
+        "insertion loss",
+        "extinction ratio",
+        "silicon-on-insulator",
+        "manufacturing tolerances"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2017.2775658",
+      "cited_by_count": 58,
+      "importance": 0.4361,
+      "score_basis": {
+        "topic_overlap": 0.147,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2933780027",
+      "doi": "10.1109/mnano.2019.2891369",
+      "title": "Heterogeneously Integrated InP\\/Silicon Photonics: Fabricating Fully Functional Transceivers",
+      "authors": [
+        "Richard Jones",
+        "Pierre Doussiere",
+        "Jeffrey B. Driscoll",
+        "Wenhua Lin",
+        "Haijiang Yu",
+        "Yulia Akulova",
+        "Tin Komljenović",
+        "John Edward Bowers"
+      ],
+      "year": 2019,
+      "venue": "IEEE Nanotechnology Magazine",
+      "venue_abbr": "IEEE Nanotechnology Magazine",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "heterogeneous integration",
+        "silicon photonics",
+        "photonic transceivers",
+        "optical communication",
+        "photonic integration",
+        "CMOS-compatible photonics"
+      ],
+      "url": "https://doi.org/10.1109/mnano.2019.2891369",
+      "cited_by_count": 236,
+      "importance": 0.4333,
+      "score_basis": {
+        "topic_overlap": 0.274,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388838098",
+      "doi": "10.1109/tcsii.2023.3333864",
+      "title": "Optical Interconnects Using Hybrid Integration of CMOS and Silicon-Photonic ICs",
+      "authors": [
+        "Vishal Saxena",
+        "Ankur Kumar",
+        "Shubham Mishra",
+        "Samuel M. Palermo",
+        "K.R. Lakshmikumar"
+      ],
+      "year": 2023,
+      "venue": "IEEE Transactions on Circuits & Systems II Express Briefs",
+      "venue_abbr": "IEEE Transactions on Circuits & Systems II Express Briefs",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical interconnects",
+        "silicon photonics",
+        "micro-ring modulator",
+        "multilevel modulation",
+        "transceiver",
+        "circuit design"
+      ],
+      "url": "https://doi.org/10.1109/tcsii.2023.3333864",
+      "cited_by_count": 10,
+      "importance": 0.4324,
+      "score_basis": {
+        "topic_overlap": 0.294,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3087893936",
+      "doi": "10.1109/jssc.2020.3022851",
+      "title": "A 3-D-Integrated Silicon Photonic Microring-Based 112-Gb/s PAM-4 Transmitter With Nonlinear Equalization and Thermal Control",
+      "authors": [
+        "Hao Li",
+        "Ganesh Balamurugan",
+        "Taehwan Kim",
+        "Meer Sakib",
+        "Ranjeet Kumar",
+        "Haisheng Rong",
+        "James E. Jaussi",
+        "Bryan K. Casper"
+      ],
+      "year": 2020,
+      "venue": "IEEE Journal of Solid-State Circuits",
+      "venue_abbr": "IEEE Journal of Solid-State Circuits",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "3D integration",
+        "nonlinear equalization",
+        "thermal management",
+        "on-chip lasers",
+        "CMOS driver",
+        "energy efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jssc.2020.3022851",
+      "cited_by_count": 120,
+      "importance": 0.4301,
+      "score_basis": {
+        "topic_overlap": 0.289,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2782324417",
+      "doi": "10.1364/oe.26.006663",
+      "title": "High-speed Si/GeSi hetero-structure Electro Absorption Modulator",
+      "authors": [
+        "Lorenzo Mastronardi",
+        "Mehdi Banakar",
+        "Ali Z. Khokhar",
+        "Nannicha Hattasan",
+        "Teerapat Rutirawut",
+        "Thalía Domínguez Bucio",
+        "K. M. Grabska",
+        "Callum G. Littlejohns",
+        "Alexandre Bazin",
+        "Goran Z. Mashanovich",
+        "Frédéric Y. Gardes"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "electroabsorption modulator",
+        "GeSi",
+        "Franz-Keldysh effect",
+        "modulation bandwidth",
+        "56 Gb/s",
+        "eye diagram",
+        "power consumption",
+        "optical interconnects",
+        "CMOS photonics"
+      ],
+      "url": "https://doi.org/10.1364/oe.26.006663",
+      "cited_by_count": 79,
+      "importance": 0.4275,
+      "score_basis": {
+        "topic_overlap": 0.306,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4394564420",
+      "doi": "10.1109/jlt.2024.3386033",
+      "title": "Passively Aligned Glass Micro-Optic Bridge for Expanded-Beam Vertical Coupling and Pluggable Silicon Photonics",
+      "authors": [
+        "Nicholas D. Psaila",
+        "Zachary J. Chaboyer",
+        "John Macdonald",
+        "Pooya Tadayon"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "passive alignment",
+        "beam expansion",
+        "silicon photonics packaging",
+        "edge coupler",
+        "excess loss",
+        "misalignment tolerance"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3386033",
+      "cited_by_count": 18,
+      "importance": 0.4275,
+      "score_basis": {
+        "topic_overlap": 0.283,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4214506642",
+      "doi": "10.1364/prj.441791",
+      "title": "240 Gb/s optical transmission based on an ultrafast silicon microring modulator",
+      "authors": [
+        "Yuguang Zhang",
+        "Hongguang Zhang",
+        "Junwen Zhang",
+        "Jia Liu",
+        "Lei Wang",
+        "Daigao Chen",
+        "Nan Chi",
+        "Xi Xiao",
+        "Shaohua Yu"
+      ],
+      "year": 2022,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon microring modulator",
+        "electro-optic modulation",
+        "PAM-8",
+        "PAM-4",
+        "electro-optic bandwidth",
+        "wavelength tuning",
+        "standard single-mode fiber",
+        "bit error rate",
+        "soft-decision forward error correction"
+      ],
+      "url": "https://doi.org/10.1364/prj.441791",
+      "cited_by_count": 157,
+      "importance": 0.4268,
+      "score_basis": {
+        "topic_overlap": 0.148,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4306841613",
+      "doi": "10.1021/acsphotonics.2c00891",
+      "title": "Integrated Photonics Packaging: Challenges and Opportunities",
+      "authors": [
+        "Luigi Ranno",
+        "Parnika Gupta",
+        "Kamil Gradkowski",
+        "Robert Bernson",
+        "Drew M. Weninger",
+        "Samuel Serna",
+        "Anu Agarwal",
+        "Lionel C. Kimerling",
+        "Juejun Hu",
+        "Peter A. O'Brien"
+      ],
+      "year": 2022,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "photonic integrated circuits",
+        "photonic packaging",
+        "optoelectronic systems",
+        "packaging costs",
+        "packaging strategy"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.2c00891",
+      "cited_by_count": 110,
+      "importance": 0.4259,
+      "score_basis": {
+        "topic_overlap": 0.28,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4393164369",
+      "doi": "10.1021/acsphotonics.4c00173",
+      "title": "High-Power Ge/Si Waveguide Photodetector",
+      "authors": [
+        "Hengzhen Cao",
+        "Yuluan Xiang",
+        "Weichao Sun",
+        "Jin Xie",
+        "Jingshu Guo",
+        "Zejie Yu",
+        "Liu Liu",
+        "Yaocheng Shi",
+        "Daoxin Dai A"
+      ],
+      "year": 2024,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "germanium photodetectors",
+        "side coupling",
+        "adiabatic coupling",
+        "space charge effects",
+        "responsivity",
+        "bandwidth",
+        "optical receiver",
+        "25 Gbps",
+        "eye diagram"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.4c00173",
+      "cited_by_count": 42,
+      "importance": 0.4217,
+      "score_basis": {
+        "topic_overlap": 0.27,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391622603",
+      "doi": "10.1109/iedm45741.2023.10413683",
+      "title": "A silicon photonic 8λ, x 32Gbps/λ, WDM transceiver with integrated laser array and SOA for optical I/O",
+      "authors": [
+        "Duanni Huang",
+        "Z. Xuan",
+        "R. Kumar",
+        "Cooper S. Levy",
+        "G. Su",
+        "Chaoxuan Ma",
+        "Xinru Wu",
+        "Songtao Liu",
+        "J. Sharma",
+        "J. Kim",
+        "T. Acikalin",
+        "G. Balamuragan",
+        "James E. Jaussi",
+        "Haisheng Rong"
+      ],
+      "year": 2023,
+      "venue": "Technical digest - International Electron Devices Meeting/Technical digest",
+      "venue_abbr": "Technical digest - International Electron Devices Meeting/Technical digest",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "wavelength division multiplexing",
+        "optical transceivers",
+        "semiconductor optical amplifier",
+        "micro-ring modulator",
+        "germanium photodetectors"
+      ],
+      "url": "https://doi.org/10.1109/iedm45741.2023.10413683",
+      "cited_by_count": 15,
+      "importance": 0.4204,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2561383992",
+      "doi": "10.1016/b978-0-08-100512-5.00002-4",
+      "title": "Optical interconnects",
+      "authors": [
+        "D. Tsiokos",
+        "George Theodore Kanellos"
+      ],
+      "year": 2016,
+      "venue": "Elsevier eBooks",
+      "venue_abbr": "Elsevier eBooks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical interconnects",
+        "data centers",
+        "high-end computing",
+        "photonic components",
+        "photonic integration",
+        "energy efficiency",
+        "bandwidth",
+        "technology roadmap",
+        "electrical interconnects"
+      ],
+      "url": "https://doi.org/10.1016/b978-0-08-100512-5.00002-4",
+      "cited_by_count": 10,
+      "importance": 0.4202,
+      "score_basis": {
+        "topic_overlap": 0.489,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4382998923",
+      "doi": "10.1109/jlt.2023.3291704",
+      "title": "A 3D Integrated Energy-Efficient Transceiver Realized by Direct Bond Interconnect of Co-Designed 12 nm FinFET and Silicon Photonic Integrated Circuits",
+      "authors": [
+        "Po-Hsuan Chang",
+        "Anirban Samanta",
+        "Peng Yan",
+        "Mingye Fu",
+        "Yu Zhang",
+        "Mehmet Berkay On",
+        "Ankur Kumar",
+        "Hyungryul Kang",
+        "Il-Min Yi",
+        "Dedeepya Annabattuni",
+        "D.B. Scott",
+        "Robert Patti",
+        "Yang-Hang Fan",
+        "Yuanming Zhu",
+        "Samuel M. Palermo",
+        "S. J. Ben Yoo"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical transceivers",
+        "3D heterogeneous integration",
+        "silicon photonics",
+        "FinFET",
+        "wavelength division multiplexing",
+        "injection-locked oscillator",
+        "optical receiver",
+        "energy efficiency",
+        "link efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3291704",
+      "cited_by_count": 41,
+      "importance": 0.42,
+      "score_basis": {
+        "topic_overlap": 0.333,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W906528410",
+      "doi": "10.1016/j.optlastec.2015.07.005",
+      "title": "Compact 4-channel AWGs for CWDM and LAN WDM in data center monolithic applications",
+      "authors": [
+        "Pan Pan",
+        "Junming An",
+        "Yue Wang",
+        "Jiashun Zhang",
+        "Liang‐Liang Wang",
+        "Ying Qi",
+        "Qin Han",
+        "Xiongwei Hu"
+      ],
+      "year": 2015,
+      "venue": "Optics & Laser Technology",
+      "venue_abbr": "Opt. Laser Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "arrayed waveguide grating",
+        "indium phosphide",
+        "coarse wavelength division multiplexing",
+        "compact photonic integrated circuits",
+        "data center optical interconnects",
+        "monolithic integration",
+        "insertion loss",
+        "crosstalk",
+        "channel spacing"
+      ],
+      "url": "https://doi.org/10.1016/j.optlastec.2015.07.005",
+      "cited_by_count": 59,
+      "importance": 0.418,
+      "score_basis": {
+        "topic_overlap": 0.262,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2091382331",
+      "doi": "10.1002/lpor.201100017",
+      "title": "Silicon microring resonators",
+      "authors": [
+        "Wim Bogaerts",
+        "Peter De Heyn",
+        "Thomas Van Vaerenbergh",
+        "Katrien De Vos",
+        "Shankar Kumar Selvaraja",
+        "Tom Claes",
+        "Pieter Dumon",
+        "Peter Bienstman",
+        "Dries Van Thourhout",
+        "Roel Baets"
+      ],
+      "year": 2011,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon microring resonator",
+        "ring resonator",
+        "silicon nanophotonics",
+        "photonic wire waveguides",
+        "bending radius",
+        "optical filters",
+        "optical delay line",
+        "label-free biosensor",
+        "silicon light sources"
+      ],
+      "url": "https://doi.org/10.1002/lpor.201100017",
+      "cited_by_count": 2644,
+      "importance": 0.4104,
+      "score_basis": {
+        "topic_overlap": 0.134,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3000307548",
+      "doi": "10.1109/lpt.2020.2966073",
+      "title": "Four-Channel CWDM (de)Multiplexers Using Cascaded Multimode Waveguide Gratings",
+      "authors": [
+        "Dajian Liu",
+        "Ming Zhang",
+        "Yaocheng Shi",
+        "Daoxin Dai A"
+      ],
+      "year": 2020,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coarse wavelength division multiplexing",
+        "silicon photonics",
+        "O-band",
+        "thermal sensitivity"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2020.2966073",
+      "cited_by_count": 66,
+      "importance": 0.4097,
+      "score_basis": {
+        "topic_overlap": 0.155,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385541966",
+      "doi": "10.1109/ectc51909.2023.00108",
+      "title": "Integrated Optical Interconnect Systems (iOIS) for Silicon Photonics Applications in HPC",
+      "authors": [
+        "Harry Hsia",
+        "S. P. Tai",
+        "C. S. Liu",
+        "C. W. Tseng",
+        "Shigang Lu",
+        "Yutung Wu",
+        "Chia‐Chan Chang",
+        "Jason Wu",
+        "K. C. Yee",
+        "Chung-Ming Wu",
+        "C. H. Tung",
+        "Douglas Yu"
+      ],
+      "year": 2023,
+      "venue": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "venue_abbr": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "silicon photonics",
+        "coupé",
+        "optical engine",
+        "bandwidth density",
+        "heterogeneous integration",
+        "CPO",
+        "high-performance computing",
+        "optical networking",
+        "coupling loss"
+      ],
+      "url": "https://doi.org/10.1109/ectc51909.2023.00108",
+      "cited_by_count": 32,
+      "importance": 0.4066,
+      "score_basis": {
+        "topic_overlap": 0.348,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3006702698",
+      "doi": "10.1109/mm.2020.2976067",
+      "title": "TeraPHY: A Chiplet Technology for Low-Power, High-Bandwidth In-Package Optical I/O",
+      "authors": [
+        "Mark T. Wade",
+        "Erik F. Anderson",
+        "Shahab Ardalan",
+        "Pavan Bhargava",
+        "Sidney Buchbinder",
+        "Michael L. Davenport",
+        "John M. Fini",
+        "Haiwei Lu",
+        "Chen Li",
+        "Roy Meade",
+        "Chandru Ramamurthy",
+        "Michael Rust",
+        "Forrest G. Sedgwick",
+        "Vladimir Marko Stojanovic",
+        "Derek A. Van Orden",
+        "Chong Zhang",
+        "Chen Sun",
+        "Sergey Shumarayev",
+        "Conor O’Keeffe",
+        "Tim Tri Hoang",
+        "David Kehlet",
+        "Ravi V. Mahajan",
+        "Matthew T. Guzy",
+        "Allen Chan",
+        "Tina Tran"
+      ],
+      "year": 2020,
+      "venue": "IEEE Micro",
+      "venue_abbr": "IEEE Micro",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chiplets",
+        "photonic-electronic integration",
+        "chip-to-chip communication",
+        "low-power interconnects",
+        "low latency",
+        "multi-chip package",
+        "high-bandwidth interconnects"
+      ],
+      "url": "https://doi.org/10.1109/mm.2020.2976067",
+      "cited_by_count": 155,
+      "importance": 0.4016,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2091382331",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2091382331"
+        }
+      ]
+    },
+    {
+      "from": "W2284127214",
+      "to": "W2146747949",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2284127214"
+        }
+      ]
+    },
+    {
+      "from": "W2768564320",
+      "to": "W2091382331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2768564320"
+        }
+      ]
+    },
+    {
+      "from": "W2774662355",
+      "to": "W906528410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2774662355"
+        }
+      ]
+    },
+    {
+      "from": "W2782324417",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2782324417"
+        }
+      ]
+    },
+    {
+      "from": "W2913848248",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2913848248"
+        }
+      ]
+    },
+    {
+      "from": "W2913848248",
+      "to": "W2091382331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2913848248"
+        }
+      ]
+    },
+    {
+      "from": "W2933780027",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2933780027"
+        }
+      ]
+    },
+    {
+      "from": "W3000307548",
+      "to": "W2774662355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3000307548"
+        }
+      ]
+    },
+    {
+      "from": "W3000307548",
+      "to": "W906528410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3000307548"
+        }
+      ]
+    },
+    {
+      "from": "W3006702698",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006702698"
+        }
+      ]
+    },
+    {
+      "from": "W3040900371",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040900371"
+        }
+      ]
+    },
+    {
+      "from": "W3040900371",
+      "to": "W2091382331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040900371"
+        }
+      ]
+    },
+    {
+      "from": "W3040900371",
+      "to": "W2768564320",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040900371"
+        }
+      ]
+    },
+    {
+      "from": "W3040900371",
+      "to": "W2774662355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040900371"
+        }
+      ]
+    },
+    {
+      "from": "W3040900371",
+      "to": "W3000307548",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040900371"
+        }
+      ]
+    },
+    {
+      "from": "W3040900371",
+      "to": "W906528410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3040900371"
+        }
+      ]
+    },
+    {
+      "from": "W3134754865",
+      "to": "W2284127214",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3134754865"
+        }
+      ]
+    },
+    {
+      "from": "W3187586187",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3187586187"
+        }
+      ]
+    },
+    {
+      "from": "W3187586187",
+      "to": "W2913848248",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3187586187"
+        }
+      ]
+    },
+    {
+      "from": "W3188674373",
+      "to": "W2284127214",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3188674373"
+        }
+      ]
+    },
+    {
+      "from": "W3214445190",
+      "to": "W2091382331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3214445190"
+        }
+      ]
+    },
+    {
+      "from": "W3214445190",
+      "to": "W2933780027",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3214445190"
+        }
+      ]
+    },
+    {
+      "from": "W4205509740",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4205509740"
+        }
+      ]
+    },
+    {
+      "from": "W4205509740",
+      "to": "W3087893936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4205509740"
+        }
+      ]
+    },
+    {
+      "from": "W4206191055",
+      "to": "W2782324417",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4206191055"
+        }
+      ]
+    },
+    {
+      "from": "W4214506642",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4214506642"
+        }
+      ]
+    },
+    {
+      "from": "W4226223731",
+      "to": "W2091382331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4226223731"
+        }
+      ]
+    },
+    {
+      "from": "W4226223731",
+      "to": "W2774662355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4226223731"
+        }
+      ]
+    },
+    {
+      "from": "W4226223731",
+      "to": "W3000307548",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4226223731"
+        }
+      ]
+    },
+    {
+      "from": "W4226223731",
+      "to": "W3040900371",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4226223731"
+        }
+      ]
+    },
+    {
+      "from": "W4226223731",
+      "to": "W906528410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4226223731"
+        }
+      ]
+    },
+    {
+      "from": "W4306841613",
+      "to": "W2913848248",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4306841613"
+        }
+      ]
+    },
+    {
+      "from": "W4306841613",
+      "to": "W3006702698",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4306841613"
+        }
+      ]
+    },
+    {
+      "from": "W4367173686",
+      "to": "W2146747949",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367173686"
+        }
+      ]
+    },
+    {
+      "from": "W4367173686",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367173686"
+        }
+      ]
+    },
+    {
+      "from": "W4367173686",
+      "to": "W3134754865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4367173686"
+        }
+      ]
+    },
+    {
+      "from": "W4377082760",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377082760"
+        }
+      ]
+    },
+    {
+      "from": "W4377082760",
+      "to": "W3188674373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377082760"
+        }
+      ]
+    },
+    {
+      "from": "W4385541966",
+      "to": "W3187586187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385541966"
+        }
+      ]
+    },
+    {
+      "from": "W4387736313",
+      "to": "W2146747949",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387736313"
+        }
+      ]
+    },
+    {
+      "from": "W4387736313",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387736313"
+        }
+      ]
+    },
+    {
+      "from": "W4387736313",
+      "to": "W2284127214",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387736313"
+        }
+      ]
+    },
+    {
+      "from": "W4387805647",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387805647"
+        }
+      ]
+    },
+    {
+      "from": "W4387805647",
+      "to": "W2782324417",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387805647"
+        }
+      ]
+    },
+    {
+      "from": "W4388838098",
+      "to": "W3087893936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388838098"
+        }
+      ]
+    },
+    {
+      "from": "W4388838098",
+      "to": "W4205509740",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388838098"
+        }
+      ]
+    },
+    {
+      "from": "W4391021617",
+      "to": "W3087893936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391021617"
+        }
+      ]
+    },
+    {
+      "from": "W4391021617",
+      "to": "W4205509740",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391021617"
+        }
+      ]
+    },
+    {
+      "from": "W4391454445",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391454445"
+        }
+      ]
+    },
+    {
+      "from": "W4391454445",
+      "to": "W2091382331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391454445"
+        }
+      ]
+    },
+    {
+      "from": "W4391454445",
+      "to": "W4214506642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391454445"
+        }
+      ]
+    },
+    {
+      "from": "W4391622603",
+      "to": "W2933780027",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391622603"
+        }
+      ]
+    },
+    {
+      "from": "W4393164369",
+      "to": "W3134754865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393164369"
+        }
+      ]
+    },
+    {
+      "from": "W4393164369",
+      "to": "W3188674373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393164369"
+        }
+      ]
+    },
+    {
+      "from": "W4393217440",
+      "to": "W2091382331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393217440"
+        }
+      ]
+    },
+    {
+      "from": "W4393217440",
+      "to": "W3087893936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393217440"
+        }
+      ]
+    },
+    {
+      "from": "W4393217440",
+      "to": "W4214506642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393217440"
+        }
+      ]
+    },
+    {
+      "from": "W4394564420",
+      "to": "W2913848248",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394564420"
+        }
+      ]
+    },
+    {
+      "from": "W4401540200",
+      "to": "W3087893936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401540200"
+        }
+      ]
+    },
+    {
+      "from": "W4401540200",
+      "to": "W3188674373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401540200"
+        }
+      ]
+    },
+    {
+      "from": "W4401540200",
+      "to": "W4214506642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401540200"
+        }
+      ]
+    },
+    {
+      "from": "W4401540200",
+      "to": "W4387805647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401540200"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W2091382331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W2146747949",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W2284127214",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W2561383992",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W2768564320",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W2774662355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W2782324417",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W2913848248",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W2933780027",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W3000307548",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W3006702698",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W3040900371",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W3087893936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W3134754865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W3187586187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W3188674373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W3214445190",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4205509740",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4206191055",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4214506642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4226223731",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4306841613",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4367173686",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4377082760",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4382998923",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4385541966",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4387736313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4387805647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4388838098",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4391021617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4391454445",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4391622603",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4393164369",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4393217440",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4394564420",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W4401540200",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7212264445",
+      "to": "W906528410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212264445"
+        }
+      ]
+    },
+    {
+      "from": "W7223019152",
+      "to": "W2220870060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223019152"
+        }
+      ]
+    },
+    {
+      "from": "W7223019152",
+      "to": "W4367173686",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223019152"
+        }
+      ]
+    },
+    {
+      "from": "W7223019152",
+      "to": "W4382998923",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223019152"
+        }
+      ]
+    },
+    {
+      "from": "W7223019152",
+      "to": "W4387805647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223019152"
+        }
+      ]
+    },
+    {
+      "from": "W7223019152",
+      "to": "W7212264445",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223019152"
+        }
+      ]
+    }
+  ]
 }

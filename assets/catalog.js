@@ -4,13 +4,14 @@
   const ids=['author','keyword','keyword_source','metadata','focus','search','venue','kind','year','evidence','presentation','rank','hust','exchange','session','topic','review','period'];
   const controls=Object.fromEntries(ids.map(k=>[k,document.getElementById('catalog-'+k)]));
   const list=document.getElementById('catalog-list');
+  const searchUI=PaperSearchControls.bind(controls,()=>{if(data){page=1;render();}}),cv=PaperSearchControls.value;
   const norm=t=>String(t||'').normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim();
   const aliases=[['硅光','silicon photonic'],['相干','coherent'],['光互连','interconnect'],['共封装','co-packaged','cpo'],['空芯','hollow-core','hollow core'],['微波光子','microwave photonic'],['光网络','optical network'],['量子','quantum'],['自由空间','free-space','free space'],['调制器','modulator'],['光纤','fiber','fibre'],['均衡','equaliz'],['波束','beamform','beam steer']];
   const el=(tag,value,cls)=>{const n=document.createElement(tag);if(value!==undefined)n.textContent=value;if(cls)n.className=cls;return n;};
   const labels={author:'作者',keyword:'关键词',keyword_source:'关键词来源',metadata:'资料',focus:'关注级',search:'搜索',venue:'刊会',kind:'类型',year:'年份',evidence:'摘要',presentation:'报告',rank:'学会等级',hust:'院规参考级',exchange:'交流目录',session:'分会',topic:'主题',review:'解读',period:'日期'};
   let data, papers=[],page=1,briefs={};
   function sessions(value=controls.session.value){const options=[...new Set(papers.filter(({paper:p})=>(!controls.venue.value||p.venue_key===controls.venue.value)&&(!controls.year.value||String(p.year)===controls.year.value)).map(({paper:p})=>p.session).filter(Boolean))].sort();controls.session.replaceChildren(new Option('全部分会',''));for(const name of options)controls.session.add(new Option(name,name));controls.session.value=options.includes(value)?value:'';}
-  function readUrl(){const params=new URLSearchParams(location.search);for(const [key,c] of Object.entries(controls)){if(key==='session')continue;c.value=params.get(key==='search'?'q':key)||'';if(key==='topic')PaperAttributes.restoreTopic(c,params.get('topic')||'');if(c.tagName==='SELECT'&&c.selectedIndex<0)c.value='';}if(conferenceMode)controls.kind.value='conference';sessions(params.get('session')||'');page=Math.max(1,Number(params.get('page'))||1);document.getElementById('catalog-new-only').checked=params.get('new')==='1';}
+  function readUrl(){const params=new URLSearchParams(location.search);for(const [key,c] of Object.entries(controls)){if(key==='session')continue;c.value=params.get(key==='search'?'q':key)||'';if(key==='topic')PaperAttributes.restoreTopic(c,params.get('topic')||'');if(c.tagName==='SELECT'&&c.selectedIndex<0)c.value='';}if(conferenceMode)controls.kind.value='conference';sessions(params.get('session')||'');page=Math.max(1,Number(params.get('page'))||1);document.getElementById('catalog-new-only').checked=params.get('new')==='1';searchUI.reset();}
   function mountProperties(article,p){
     const disclosure=el('details',undefined,'paper-properties');
     disclosure.append(el('summary','论文属性 · 作者、关键词与发表信息'));
@@ -56,9 +57,10 @@
     return null;
   }
   function render(update=true){
+    searchUI.sync();
     PaperAttributes.constrainVenues(controls.venue,conferenceMode?'conference':controls.kind.value);
     if(conferenceMode)controls.kind.value='conference';sessions();
-    const savedFilters=Object.fromEntries(Object.entries(controls).map(([k,c])=>[k,c.value]));
+    const savedFilters=Object.fromEntries(Object.entries(controls).map(([k,c])=>[k,cv(c)]));
     const matching=papers.filter(({paper:p})=>PaperFlowDiscovery.match(p,savedFilters));
     PaperFlowDiscovery.catalogChanged(matching.map(x=>x.paper));
     const found=matching.filter(({paper:p})=>!document.getElementById('catalog-new-only').checked||PaperFlowDiscovery.isNew(p));
@@ -103,10 +105,10 @@
       function action(text,fn,primary=false){const button=el('button',text,primary?'button':'button secondary');button.type='button';button.onclick=()=>{fn();page=1;render();document.getElementById('catalog-count').scrollIntoView({block:'center'});};actions.append(button);}
       if(onlyNew&&matching.length)action(`查看全部 ${matching.length} 条匹配`,()=>{document.getElementById('catalog-new-only').checked=false;},true);
       for(const [index,s] of suggestions.entries()){
-        const control=controls[s.key],value=control.tagName==='SELECT'?PaperCatalogFacets.label(control.selectedOptions[0]):control.value;
-        action(`移除${labels[s.key]}「${value}」 · ${s.count} 条`,()=>{control.value='';},index===0&&!(onlyNew&&matching.length));
+        const control=controls[s.key],value=control.tagName==='SELECT'?PaperCatalogFacets.label(control.selectedOptions[0]):cv(control);
+        action(`移除${labels[s.key]}「${value}」 · ${s.count} 条`,()=>{PaperSearchControls.set(control,'');},index===0&&!(onlyNew&&matching.length));
       }
-      action('清除全部筛选',()=>{for(const control of Object.values(controls))control.value='';document.getElementById('catalog-new-only').checked=false;},!suggestions.length&&!(onlyNew&&matching.length));
+      action('清除全部筛选',()=>{for(const control of Object.values(controls))PaperSearchControls.set(control,'');document.getElementById('catalog-new-only').checked=false;},!suggestions.length&&!(onlyNew&&matching.length));
       empty.append(actions,el('p','数量仅代表本站当前已收录题录；未匹配不等于该领域没有论文。','fine'));list.append(empty);
     }
     document.getElementById('catalog-count').textContent=`${found.length} / ${papers.length} 条`;
@@ -124,28 +126,28 @@
     if(chips){
       chips.replaceChildren();
       for(const [key,control] of Object.entries(controls)){
-        if(!control.value||(conferenceMode&&key==='kind'))continue;
-        const value=control.tagName!=='SELECT'?control.value:PaperCatalogFacets.label(control.options[control.selectedIndex]);
+        if(!cv(control)||(conferenceMode&&key==='kind'))continue;
+        const value=control.tagName!=='SELECT'?cv(control):PaperCatalogFacets.label(control.options[control.selectedIndex]);
         const chip=el('button',`${labels[key]}：${value} ×`);chip.type='button';chip.setAttribute('aria-label',`移除${labels[key]}筛选：${value}`);
-        chip.addEventListener('click',()=>{control.value='';page=1;render();controls.search.focus();});chips.append(chip);
+        chip.addEventListener('click',()=>{PaperSearchControls.set(control,'');page=1;render();controls.search.focus();});chips.append(chip);
       }
       const onlyNew=document.getElementById('catalog-new-only');
       if(onlyNew.checked){const chip=el('button','仅未确认新增 ×');chip.type='button';chip.setAttribute('aria-label','移除仅未确认新增筛选');chip.onclick=()=>{onlyNew.checked=false;page=1;render();};chips.append(chip);}
     }
     document.dispatchEvent(new Event('paperflow:catalog-filtered'));
-    if(update){const url=new URL(location.href);for(const [k,c] of Object.entries(controls)){const key=k==='search'?'q':k;if(c.value)url.searchParams.set(key,c.value);else url.searchParams.delete(key);}if(document.getElementById('catalog-new-only').checked)url.searchParams.set('new','1');else url.searchParams.delete('new');if(page>1)url.searchParams.set('page',String(page));else url.searchParams.delete('page');history.replaceState(null,'',url);}
+    if(update){const url=new URL(location.href);for(const [k,c] of Object.entries(controls)){const key=k==='search'?'q':k;if(cv(c))url.searchParams.set(key,cv(c));else url.searchParams.delete(key);}if(document.getElementById('catalog-new-only').checked)url.searchParams.set('new','1');else url.searchParams.delete('new');if(page>1)url.searchParams.set('page',String(page));else url.searchParams.delete('page');history.replaceState(null,'',url);}
   }
   async function load(){
     list.setAttribute('aria-busy','true');list.replaceChildren(el('p','正在读取题录与解读索引…'));document.getElementById('catalog-count').textContent='正在加载…';
-    try{data=await PaperCatalogData.load();try{const r=await fetch('data/reading-dashboard.json');if(r.ok)briefs=(await r.json()).briefs||{};}catch(_){}for(const p of data.papers){const b=briefs[p.reading_url?.split('/').pop().replace('.html','')];if(b){p.title_zh=b.title_zh;p.search_summary=b.summary;}}papers=data.papers.filter(p=>!conferenceMode||p.kind==='conference').map(p=>({paper:p,search:norm([p.title,...p.authors,p.doi,p.paper_code,p.abbr,p.venue,p.session,briefs[p.reading_url?.split('/').pop().replace('.html','')]?.summary||''].join(' '))}));readUrl();PaperFlowDiscovery.attachCatalog({papers:()=>papers.map(x=>x.paper),render});render();document.dispatchEvent(new Event('paperflow:filters-restored'));}
+    try{data=await PaperCatalogData.load();try{const r=await fetch('data/reading-dashboard.json');if(r.ok)briefs=(await r.json()).briefs||{};}catch(_){}for(const p of data.papers){const b=briefs[p.reading_url?.split('/').pop().replace('.html','')];if(b){p.title_zh=b.title_zh;p.search_summary=b.summary;}}papers=data.papers.filter(p=>!conferenceMode||p.kind==='conference').map(p=>({paper:p,search:norm([p.title,...p.authors,p.doi,p.paper_code,p.abbr,p.venue,p.session,briefs[p.reading_url?.split('/').pop().replace('.html','')]?.summary||''].join(' '))}));searchUI.setAuthors(papers.map(x=>x.paper));readUrl();PaperFlowDiscovery.attachCatalog({papers:()=>papers.map(x=>x.paper),render});render();document.dispatchEvent(new Event('paperflow:filters-restored'));}
     catch(_){list.replaceChildren(el('p','题录加载失败，请重试。精选解读仍可从主导航打开。'));const retry=el('button','重新加载');retry.addEventListener('click',load);list.append(retry);document.getElementById('catalog-count').textContent='暂不可用';}
     finally{list.setAttribute('aria-busy','false');}
   }
   controls.kind.addEventListener('input',()=>PaperAttributes.constrainVenues(controls.venue,controls.kind.value,true));
-  for(const c of Object.values(controls))c.addEventListener('input',()=>{if(data){page=1;render();}});
+  for(const c of Object.values(controls))if(c.tagName==='SELECT')c.addEventListener('input',()=>{if(data){page=1;render();}});
   document.addEventListener('click',event=>{const b=event.target.closest('[data-catalog-venue]');if(b&&data){controls.venue.value=b.dataset.catalogVenue;page=1;render();}});
   document.getElementById('catalog-new-only').addEventListener('change',()=>{page=1;if(data)render();});
-  document.getElementById('catalog-reset').addEventListener('click',()=>{for(const c of Object.values(controls))c.value='';document.getElementById('catalog-new-only').checked=false;page=1;if(data)render();});
+  document.getElementById('catalog-reset').addEventListener('click',()=>{for(const c of Object.values(controls))PaperSearchControls.set(c,'');searchUI.sync();document.getElementById('catalog-new-only').checked=false;page=1;if(data)render();});
   function goPage(target){
     if(!data)return;const max=Number(document.querySelector('[data-page-jump] input').max)||1;
     const next=Math.min(max,Math.max(1,Math.floor(Number(target))||1));if(next===page)return;

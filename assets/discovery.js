@@ -31,10 +31,10 @@
   function read(){try{const raw=localStorage.getItem(key);state=raw?validate(JSON.parse(raw)):blank();blocked=false;}catch(_){blocked=true;state=blank();message('检索与筛选存储不可用，已停止写入并保留原始数据。请导出原始备份检查。');}}
   function save(next){if(blocked){message('存储不可用，未覆盖原始数据。');return false;}try{const clean=validate(next);localStorage.setItem(key,JSON.stringify(clean));state=clean;syncSelectors();renderPersonal();window.dispatchEvent(new Event('paperflow:discovery-changed'));return true;}catch(_){message('保存失败，请检查存储空间或备份格式；原记录未更改。');return false;}}
   function match(p,f,searchText){
-    const text=f.search?norm(searchText??[p.title,p.title_zh,p.search_summary,...(p.authors||[]),p.doi,p.paper_code,p.abbr,p.venue,...(p.venue_aliases||[]),p.hust_label,p.exchange_label,p.session,...(p.attributes?.content.topic_tags||[]),...(p.attributes?.content.author_keywords||[])].join(' ')):'';
+    const text=f.search?norm(searchText??[p.title,p.title_zh,p.search_summary,p.doi,p.paper_code,p.abbr,p.venue,...(p.venue_aliases||[]),p.hust_label,p.exchange_label,p.session,...(p.attributes?.content.topic_tags||[]),...(p.attributes?.content.author_keywords||[])].join(' ')):'';
     if(!PaperAttributes.match(p.attributes,f))return false;
     if(f.focus&&(p.focus_tier||'unrated')!==f.focus)return false;
-    if(f.search&&!PaperAttributes.keywordMatch([text],f.search))return false;
+    if(f.search&&!PaperAttributes.searchMatch(text,p.authors||[],f.search))return false;
     if(f.hust&&(p.hust_rule_grade||(p.kind==='journal'||p.kind==='conference'?'unverified':'na'))!==f.hust||f.exchange&&(p.exchange_grade||'unlisted')!==f.exchange)return false;
     if(f.venue&&p.venue_key!==f.venue||f.kind&&p.kind!==f.kind||f.year&&String(p.year)!==f.year||f.evidence&&p.has_abstract!==(f.evidence==='yes')||f.presentation&&p.presentation_type!==f.presentation||f.rank&&p.rank_label!==f.rank||f.session&&p.session!==f.session||f.topic&&!PaperAttributes.topicMatch(p.theme_hints,f.topic)||f.review&&Boolean(p.reading_url)!==(f.review==='yes'))return false;
     if(f.period){
@@ -45,7 +45,7 @@
     }
     return true;
   }
-  const filters=()=>Object.fromEntries(fields.map(k=>[k,document.getElementById('catalog-'+k)?.value||'']));
+  const filters=()=>Object.fromEntries(fields.map(k=>[k,PaperSearchControls.value(document.getElementById('catalog-'+k))||'']));
   const decision=(type,record)=>state.triage.find(t=>t.id===type+'_'+record)?.decision||'';
   function choose(type,record,title,revision,value){
     read();const rows=state.triage.filter(t=>t.id!==type+'_'+record);

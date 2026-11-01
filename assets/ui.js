@@ -12,7 +12,7 @@
   if(savedDisclosure&&new URLSearchParams(location.search).has('saved'))savedDisclosure.open=true;
   function updateFilterGroups(reveal=false){
     for(const group of document.querySelectorAll('[data-filter-group]')){
-      const count=[...group.querySelectorAll('input,select')].filter(c=>c.value).length;
+      const count=[...group.querySelectorAll('input:not(.select-search-input),select')].filter(c=>PaperSearchControls.value(c)).length;
       const badge=group.querySelector('[data-group-count]');if(badge)badge.textContent=count?count+' 项已选':'';
       if(reveal&&count)group.open=true;
     }

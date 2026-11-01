@@ -2,6 +2,38 @@
 'use strict';
 (() => {
   const norm=value=>String(value||'').normalize('NFKC').toLowerCase().replace(/\s+/g,' ').trim();
+  // Match name spellings, never infer identity or translate Chinese names to pinyin.
+  const nameTokens=value=>norm(value).normalize('NFKD').replace(/\p{M}/gu,'').split(/[^\p{L}\p{N}]+/u).filter(Boolean);
+  const names=new Map();
+  function nameForms(value){
+    if(names.has(value))return names.get(value);
+    const tokens=nameTokens(value),joined=tokens.join('');
+    const forms=new Set([joined]);
+    for(let i=1;i<tokens.length;i++)forms.add([...tokens.slice(i),...tokens.slice(0,i)].join(''));
+    const result={tokens,forms};names.set(value,result);return result;
+  }
+  function authorMatch(name,query){
+    const q=nameForms(query).tokens;if(!q.length)return !norm(query);
+    const n=nameForms(name);
+    if(n.forms.has(q.join('')))return true;
+    // Partial names match token prefixes, not arbitrary cross-author substrings.
+    const remaining=[...n.tokens];
+    return q.every(token=>{const i=remaining.findIndex(t=>t.startsWith(token));if(i<0)return false;remaining.splice(i,1);return true;});
+  }
+  function searchMatch(text,authors,query){
+    if(!norm(query))return true;
+    if(authors.some(name=>authorMatch(name,query)))return true;
+    if(!query.includes('"')&&keywordMatch([text],query))return true;
+    let contentMatched=false;
+    const all=(norm(query).match(/"[^"]+"|\S+/g)||[]).every(term=>{
+      const quoted=term.startsWith('"');term=term.replace(/^"|"$/g,'');
+      const inContent=quoted?norm(text).includes(term):keywordMatch([text],term);
+      contentMatched ||= inContent;
+      return inContent||authors.some(name=>authorMatch(name,term));
+    });
+    // Two separate coauthors must not jointly impersonate a single queried name.
+    return all&&contentMatched;
+  }
   const groups=[['硅光','silicon photonics','silicon photonic'],['相干通信','相干','coherent'],['光互连','interconnect'],['共封装','共封装光学','cpo','co-packaged','co packaged'],['均衡','equaliz','equalization','equalisation','equalizer'],['光子集成','integrated photonics'],['微波光子','microwave photonics','microwave photonic'],['光纤','fiber','fibre'],['光频梳','microcomb','frequency comb'],['空芯','空芯光纤','hollow-core','hollow core'],['自由空间','自由空间光通信','fso','free-space','free space'],['调制器','modulator'],['光收发机','transceiver'],['光网络','optical network'],['量子','quantum'],['波束','beamform','beam steer'],['光计算','photonic computing','optical computing','photonic neural','optical neural'],['光传感','optical sensing','fiber sensing','fibre sensing'],['可见光通信','vlc','visible light communication','visible-light communication'],['数字信号处理','dsp','digital signal processing'],['无源光网络','pon','passive optical network'],['薄膜铌酸锂','tfln','thin-film lithium niobate','thin film lithium niobate'],['共振微环','microring','micro-ring'],['空分复用','sdm','space-division multiplex','space division multiplex']];
   const legacyTopics={'相干传输与光互连':['光通信与光互连'],'硅光与集成器件':['通信光子器件与集成'],'DSP与编码':['DSP、编码与智能算法'],'光网络与交换':['光网络与控制'],'光纤与传感':['光纤与传输介质','光学传感与测量'],'微波与太赫兹光子':['微波与太赫兹光子学'],'自由空间光通信':['自由空间、可见光与空间光通信'],'量子与新型光计算':['量子通信与网络','光计算与交叉光子学'],'其他光子学 / 待归类':['待分类'],'系统与传输':['光通信与光互连'],'收发机、光模块与光互连':['光通信与光互连']};
   const topicMatch=(values,topic)=>(legacyTopics[topic]||[topic]).some(t=>values.includes(t));
@@ -18,7 +50,7 @@
   }
   function match(a,f){
     if(!a)return ![f.author,f.keyword,f.keyword_source,f.metadata].some(Boolean);
-    if(f.author&&![...a.authors,...(a.contributors||[]).map(p=>p.orcid||'')].some(name=>norm(name).includes(norm(f.author))))return false;
+    if(f.author&&!a.authors.some(name=>authorMatch(name,f.author))&&!(a.contributors||[]).some(p=>p.orcid&&norm(p.orcid).includes(norm(f.author))))return false;
     const c=a.content;
     const keywords=f.keyword_source==='author'?c.author_keywords:f.keyword_source==='derived'?c.topic_tags:[...c.author_keywords,...c.topic_tags];
     if(f.keyword&&!keywordMatch(keywords,f.keyword))return false;
@@ -27,5 +59,5 @@
     if(f.metadata==='missing-author'&&!missing.includes('authors')||f.metadata==='missing-keywords'&&!missing.includes('author_keywords')||f.metadata==='missing-doi'&&!missing.includes('doi')||f.metadata==='unclassified'&&c.direction_basis!=='unclassified')return false;
     return true;
   }
-  window.PaperAttributes={match,keywordMatch,norm,topicMatch,restoreTopic,constrainVenues};
+  window.PaperAttributes={match,keywordMatch,norm,authorMatch,searchMatch,topicMatch,restoreTopic,constrainVenues};
 })();

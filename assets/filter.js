@@ -1,6 +1,7 @@
 "use strict";
 (() => {
   const controls = Object.fromEntries(["search", "author", "keyword", "keyword_source", "metadata", "year", "topic", "venue", "grade", "hust", "exchange", "focus", "kind", "period", "sort", "reading", "relevance", "evidence", "saved"].map(id => [id, document.getElementById(id)]));
+  const searchUI=PaperSearchControls.bind(controls,()=>filterCards()),cv=PaperSearchControls.value;
   const cards = Array.from(document.querySelectorAll(".card"));
   const attributes = new Map(cards.map(c=>[c,JSON.parse(c.dataset.attributes)]));
   const container = document.querySelector(".cards");
@@ -21,12 +22,13 @@
     return text.includes(term);
   };
   const searchText = new Map(cards.map(card => {
-    const text = normalize(card.dataset.search);
+    let text = normalize(card.dataset.search);
+    for(const name of attributes.get(card).authors)text=text.split(normalize(name)).join(' ');
     const extra = groups.filter(group => group.some(word => contains(text, word))).flat();
     return [card, text + " " + extra.join(" ")];
   }));
   const labels = {search: "搜索", author:"作者",keyword:"关键词",keyword_source:"关键词来源",metadata:"资料",year:"年份",topic: "方向", venue: "刊会", grade: "CIE等级", hust: "院规参考级", exchange: "交流目录", focus: "关注级", kind: "类型", period: "时间", sort: "排序", reading: "阅读建议", relevance: "相关性", evidence: "证据", saved: "阅读清单"};
-  function isActive(id) { return controls[id].value !== (id === "sort" ? "date" : ""); }
+  function isActive(id) { return cv(controls[id]) !== (id === "sort" ? "date" : ""); }
   function readUrl() {
     const params = new URLSearchParams(location.search);
     for (const [id, control] of Object.entries(controls)) {
@@ -35,21 +37,21 @@
       if(id==='topic')PaperAttributes.restoreTopic(control,value);
       if (control.tagName === 'SELECT' && control.selectedIndex < 0) control.value = id === "sort" ? "date" : "";
     }
-    document.dispatchEvent(new Event('paperflow:filters-restored'));
+    searchUI.reset();document.dispatchEvent(new Event('paperflow:filters-restored'));
   }
   function filterCards(updateUrl = true) {
+    searchUI.sync();
     PaperAttributes.constrainVenues(controls.venue,controls.kind.value);
     const today = new Date().toLocaleDateString("sv-SE", {timeZone: "Asia/Shanghai"});
     const todayMs = Date.parse(today + "T00:00:00Z");
-    const query = normalize(controls.search.value);
-    const terms = (query.match(/"[^"]+"|\S+/g) || []).map(term => term.replace(/^"|"$/g, ""));
+    const query = normalize(cv(controls.search));
     let visible = 0;
     const matches = card => {
       const d = card.dataset;
       const date = /^\d{4}-\d{2}-\d{2}/.test(d.date) ? Date.parse(d.date.slice(0, 10) + "T00:00:00Z") : NaN;
       const attrs=attributes.get(card);
-      return terms.every(term => contains(searchText.get(card), term)) &&
-        PaperAttributes.match(attrs,Object.fromEntries(Object.entries(controls).map(([k,c])=>[k,c.value]))) &&
+      return PaperAttributes.searchMatch(searchText.get(card),attrs.authors,query) &&
+        PaperAttributes.match(attrs,Object.fromEntries(Object.entries(controls).map(([k,c])=>[k,cv(c)]))) &&
         (!controls.year.value || String(attrs.bibliography.year||'unknown')===controls.year.value) &&
         (!controls.topic.value || PaperAttributes.topicMatch(d.topics.split("|"),controls.topic.value)) &&
         ["venue", "grade", "hust", "exchange", "focus", "kind", "reading", "relevance", "evidence"].every(id => !controls[id].value || d[id] === controls[id].value) &&
@@ -69,10 +71,10 @@
     for (const [id, control] of Object.entries(controls)) {
       if (!isActive(id)) continue;
       const chip = document.createElement("button"); chip.type = "button";
-      const text = control.tagName !== 'SELECT' ? control.value : control.options[control.selectedIndex].text;
+      const text = control.tagName !== 'SELECT' ? cv(control) : control.options[control.selectedIndex].text;
       chip.textContent = labels[id] + "：" + text + " ×";
       chip.setAttribute("aria-label", "移除" + labels[id] + "筛选：" + text);
-      chip.addEventListener("click", () => { control.value = id === "sort" ? "date" : ""; filterCards(); });
+      chip.addEventListener("click", () => { PaperSearchControls.set(control,id === "sort" ? "date" : ""); searchUI.sync();filterCards(); });
       active.append(chip);
     }
     reset.hidden = !Object.keys(controls).some(isActive);
@@ -83,14 +85,14 @@
       const url = new URL(location.href);
       for (const [id, control] of Object.entries(controls)) {
         const key = id === "search" ? "q" : id;
-        if (isActive(id)) url.searchParams.set(key, control.value); else url.searchParams.delete(key);
+        if (isActive(id)) url.searchParams.set(key, cv(control)); else url.searchParams.delete(key);
       }
       history.replaceState(null, "", url);
     }
   }
   controls.kind.addEventListener('input',()=>PaperAttributes.constrainVenues(controls.venue,controls.kind.value,true));
-  for (const control of Object.values(controls)) control.addEventListener("input", () => filterCards());
-  reset.addEventListener("click", () => { for (const [id, control] of Object.entries(controls)) control.value = id === "sort" ? "date" : ""; filterCards(); controls.search.focus(); });
+  for (const control of Object.values(controls)) if(control.tagName==='SELECT')control.addEventListener("input", () => filterCards());
+  reset.addEventListener("click", () => { for (const [id, control] of Object.entries(controls)) PaperSearchControls.set(control,id === "sort" ? "date" : ""); searchUI.sync();filterCards(); controls.search.focus(); });
   document.addEventListener("click", event => {
     const button = event.target.closest("[data-filter-topic]");
     if (button) { controls.topic.value = button.dataset.filterTopic; filterCards(); }
@@ -99,5 +101,5 @@
   });
   window.addEventListener("popstate", () => { readUrl(); filterCards(false); });
   window.addEventListener('paperflow:reading-changed', () => filterCards(false));
-  readUrl(); filterCards(false);
+  searchUI.setAuthors([...attributes.values()]);readUrl(); filterCards(false);
 })();

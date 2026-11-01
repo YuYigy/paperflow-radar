@@ -1,37 +1,1411 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "e3b25076-60cd-43b2-9317-fe3dca3328ff",
-  "root": "doi:10.1364/jocn.606257",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7211965582",
+  "status": "ok",
+  "checked_at": "2026-11-01T00:46:10.798988+00:00",
+  "coverage": {
+    "references_found": 26,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "references_without_doi": 8,
+    "candidates_resolved": 26,
+    "displayed": 26
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/jocn.606257",
+      "id": "W7211965582",
       "doi": "10.1364/jocn.606257",
-      "title": "Adaptive E2E Monitoring Path Selection with Deep Reinforcement Learning in Multi-domain Optical Networks",
+      "title": "Adaptive E2E monitoring path selection with deep reinforcement learning in multi-domain optical networks",
       "authors": [
         "Soham Choudhury",
         "Martin Bojinov",
         "Jason P. Jue",
         "Genya Ishigaki"
       ],
-      "year": "2026",
-      "venue": "arXiv",
-      "venue_abbr": "arXiv",
-      "rank_label": "不适用期刊等级",
-      "keywords": [],
-      "url": "https://arxiv.org/abs/2610.10753v1",
-      "cited_by_count": null,
+      "year": 2026,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "end-to-end monitoring",
+        "path selection",
+        "deep reinforcement learning",
+        "multi-domain optical networks",
+        "adaptive routing",
+        "network monitoring"
+      ],
+      "url": "https://doi.org/10.1364/jocn.606257",
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/e3b25076-60cd-43b2-9317-fe3dca3328ff.html",
       "summary": "摘要报告：多域光网络切片中域间信息不透明时，切片协调器需选择端到端监测路径以检测与定位链路失效。论文提出初始选择与渐进选择两个互补优化问题，构成闭环自治监测；提出深度强化学习算法自适应选择各阶段最优监测路径集合。基于GNPy光网络仿真器的实验显示该方法在两个问题上均优于基线算法，并在初始选择中接近最优定位，表明AI驱动闭环失效定位在多域光网络中的可行性（预印本）。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W4313886879",
+      "doi": "10.1109/jlt.2023.3235039",
+      "title": "Hierarchical Reinforcement Learning in Multi-Domain Elastic Optical Networks to Realize Joint RMSA",
+      "authors": [
+        "Liufei Xu",
+        "Yue‐Cai Huang",
+        "Yun Xue",
+        "Xiaohui Hu"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "hierarchical reinforcement learning",
+        "deep reinforcement learning",
+        "network autonomy",
+        "agent cooperation",
+        "network scalability"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3235039",
+      "cited_by_count": 29,
+      "importance": 0.494,
+      "score_basis": {
+        "topic_overlap": 0.431,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4213370164",
+      "doi": "10.1109/jstqe.2022.3151878",
+      "title": "On Cooperative Fault Management in Multi-Domain Optical Networks Using Hybrid Learning",
+      "authors": [
+        "Xiaoliang Chen",
+        "Che-Yu Liu",
+        "Roberto Proietti",
+        "Jie Yin",
+        "Zhaohui Li",
+        "S. J. Ben Yoo"
+      ],
+      "year": 2022,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multi-domain optical networks",
+        "self-supervised learning",
+        "federated learning",
+        "optical performance monitoring",
+        "failure localization",
+        "model uncertainty estimation",
+        "privacy-preserving machine learning",
+        "class imbalance"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2022.3151878",
+      "cited_by_count": 24,
+      "importance": 0.4507,
+      "score_basis": {
+        "topic_overlap": 0.335,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4294310846",
+      "doi": "10.1109/tnet.2022.3200249",
+      "title": "A Bayesian Approach to Network Monitoring for Progressive Failure Localization",
+      "authors": [
+        "Viviana Arrigoni",
+        "Novella Bartolini",
+        "Annalisa Massini",
+        "Federico Trombetti"
+      ],
+      "year": 2022,
+      "venue": "IEEE/ACM Transactions on Networking",
+      "venue_abbr": "IEEE/ACM Transactions on Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "network tomography",
+        "failure localization",
+        "information utility",
+        "greedy approximation",
+        "sliding window",
+        "end-to-end monitoring",
+        "group testing",
+        "network monitoring"
+      ],
+      "url": "https://doi.org/10.1109/tnet.2022.3200249",
+      "cited_by_count": 9,
+      "importance": 0.4338,
+      "score_basis": {
+        "topic_overlap": 0.186,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387304875",
+      "doi": "10.1007/s11280-023-01206-7",
+      "title": "Low-cost crossed probing path planning for network failure localization",
+      "authors": [
+        "Hongyun Gao",
+        "Laiping Zhao",
+        "Sheng Chen",
+        "Keqiu Li"
+      ],
+      "year": 2023,
+      "venue": "World Wide Web",
+      "venue_abbr": "World Wide Web",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "link failure",
+        "active probing",
+        "reachability verification",
+        "network fault diagnosis"
+      ],
+      "url": "https://doi.org/10.1007/s11280-023-01206-7",
+      "cited_by_count": 0,
+      "importance": 0.4292,
+      "score_basis": {
+        "topic_overlap": 0.398,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2762746414",
+      "doi": "10.1109/infocom.2017.8057091",
+      "title": "Fundamental limits of failure identifiability by boolean network tomography",
+      "authors": [
+        "Novella Bartolini",
+        "Ting He",
+        "Hana Khamfroush"
+      ],
+      "year": 2017,
+      "venue": "IEEE Conference on Computer Communications (INFOCOM)",
+      "venue_abbr": "IEEE Conference on Computer Communications (INFOCOM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "network monitoring",
+        "upper bounds",
+        "network topology",
+        "routing constraints",
+        "network reliability",
+        "NP-hardness"
+      ],
+      "url": "https://doi.org/10.1109/infocom.2017.8057091",
+      "cited_by_count": 25,
+      "importance": 0.4287,
+      "score_basis": {
+        "topic_overlap": 0.308,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W304687760",
+      "doi": "10.1007/978-3-319-09339-0_39",
+      "title": "An Implementation of an Intelligent PCE-Agent-Based Multi-domain Optical Network Architecture",
+      "authors": [
+        "Ying Xu",
+        "Tiantian Zhang",
+        "Renfa Li"
+      ],
+      "year": 2014,
+      "venue": "Lecture notes in computer science",
+      "venue_abbr": "Lecture notes in computer science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "path computation element",
+        "multi-domain optical networks",
+        "optical network architecture",
+        "point-to-point routing",
+        "resource utilization",
+        "load balancing"
+      ],
+      "url": "https://doi.org/10.1007/978-3-319-09339-0_39",
+      "cited_by_count": 4,
+      "importance": 0.425,
+      "score_basis": {
+        "topic_overlap": 0.5,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3023412732",
+      "doi": "10.3390/s20092655",
+      "title": "Virtual Network Embedding for Multi-Domain Heterogeneous Converged Optical Networks: Issues and Challenges",
+      "authors": [
+        "Yue Zong",
+        "Chuan Feng",
+        "Yingying Guan",
+        "Yejun Liu",
+        "Lei Guo"
+      ],
+      "year": 2020,
+      "venue": "Sensors",
+      "venue_abbr": "Sensors",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "virtual network embedding",
+        "network slicing",
+        "network virtualization",
+        "resource allocation",
+        "network orchestration",
+        "algorithm taxonomy",
+        "5G"
+      ],
+      "url": "https://doi.org/10.3390/s20092655",
+      "cited_by_count": 18,
+      "importance": 0.4183,
+      "score_basis": {
+        "topic_overlap": 0.33,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2170378215",
+      "doi": "10.1109/tit.2006.885460",
+      "title": "Network Tomography of Binary Network Performance Characteristics",
+      "authors": [
+        "Nick G. Duffield"
+      ],
+      "year": 2006,
+      "venue": "IEEE Transactions on Information Theory",
+      "venue_abbr": "IEEE Transactions on Information Theory",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "end-to-end measurement",
+        "link loss",
+        "packet delay",
+        "inference algorithms",
+        "network tomography"
+      ],
+      "url": "https://doi.org/10.1109/tit.2006.885460",
+      "cited_by_count": 244,
+      "importance": 0.4084,
+      "score_basis": {
+        "topic_overlap": 0.285,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2885792477",
+      "doi": "10.1109/mcom.2018.1701191",
+      "title": "Knowledge-Based Autonomous Service Provisioning in Multi-Domain Elastic Optical Networks",
+      "authors": [
+        "Xiaoliang Chen",
+        "Roberto Proietti",
+        "Hongbo Lu",
+        "Alberto Castro",
+        "S. J. Ben Yoo"
+      ],
+      "year": 2018,
+      "venue": "IEEE Communications Magazine",
+      "venue_abbr": "IEEE Communications Magazine",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "multi-domain networks",
+        "network monitoring",
+        "machine learning for network management",
+        "traffic prediction",
+        "traffic engineering",
+        "lightpath provisioning",
+        "transmission quality",
+        "spectrum allocation"
+      ],
+      "url": "https://doi.org/10.1109/mcom.2018.1701191",
+      "cited_by_count": 60,
+      "importance": 0.4055,
+      "score_basis": {
+        "topic_overlap": 0.368,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3095169063",
+      "doi": "10.1364/jocn.403056",
+      "title": "Hybrid-learning-assisted impairments abstraction framework for service planning and provisioning over multi-domain optical networks",
+      "authors": [
+        "Rui Wang",
+        "Reza Nejabati",
+        "Dimitra E. Simeonidou"
+      ],
+      "year": 2020,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "multi-domain optical networks",
+        "service delivery",
+        "network planning",
+        "hybrid machine learning",
+        "signal-to-noise ratio estimation",
+        "network testbed"
+      ],
+      "url": "https://doi.org/10.1364/jocn.403056",
+      "cited_by_count": 3,
+      "importance": 0.4037,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3205923723",
+      "doi": "10.1109/tnet.2021.3118006",
+      "title": "Bound Inference and Reinforcement Learning-Based Path Construction in Bandwidth Tomography",
+      "authors": [
+        "Cuiying Feng",
+        "Jianwei An",
+        "Kui Wu",
+        "Jianping Wang"
+      ],
+      "year": 2021,
+      "venue": "IEEE/ACM Transactions on Networking",
+      "venue_abbr": "IEEE/ACM Transactions on Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "network tomography",
+        "reinforcement learning",
+        "error bounds",
+        "polynomial-time algorithms",
+        "inverse problems",
+        "ISP topologies",
+        "network measurement"
+      ],
+      "url": "https://doi.org/10.1109/tnet.2021.3118006",
+      "cited_by_count": 4,
+      "importance": 0.3978,
+      "score_basis": {
+        "topic_overlap": 0.44,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2147626323",
+      "doi": "10.1109/surv.2009.090104",
+      "title": "A survey of inter-domain peering and provisioning solutions for the next generation optical networks",
+      "authors": [
+        "Mohit Chamania",
+        "Admela Jukan"
+      ],
+      "year": 2009,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "network provisioning",
+        "next-generation optical networks",
+        "WDM networks",
+        "quality of service",
+        "scalability",
+        "reliability"
+      ],
+      "url": "https://doi.org/10.1109/surv.2009.090104",
+      "cited_by_count": 78,
+      "importance": 0.3912,
+      "score_basis": {
+        "topic_overlap": 0.425,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2790149204",
+      "doi": "10.1145/3199524.3199532",
+      "title": "Distributed Link Anomaly Detection via Partial Network Tomography",
+      "authors": [
+        "Ting He"
+      ],
+      "year": 2018,
+      "venue": "ACM SIGMETRICS Performance Evaluation Review",
+      "venue_abbr": "ACM SIGMETRICS Performance Evaluation Review",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "network tomography",
+        "distributed detection",
+        "end-to-end measurement",
+        "measurement fusion",
+        "false alarm probability",
+        "network monitoring"
+      ],
+      "url": "https://doi.org/10.1145/3199524.3199532",
+      "cited_by_count": 10,
+      "importance": 0.3876,
+      "score_basis": {
+        "topic_overlap": 0.195,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3154519134",
+      "doi": "10.1109/infocom42981.2021.9488893",
+      "title": "Failure Localization through Progressive Network Tomography",
+      "authors": [
+        "Viviana Arrigoni",
+        "Novella Bartolini",
+        "Annalisa Massini",
+        "Federico Trombetti"
+      ],
+      "year": 2021,
+      "venue": "IEEE Conference on Computer Communications (INFOCOM)",
+      "venue_abbr": "IEEE Conference on Computer Communications (INFOCOM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "stochastic optimization",
+        "greedy strategy",
+        "posterior probability",
+        "group testing"
+      ],
+      "url": "https://doi.org/10.1109/infocom42981.2021.9488893",
+      "cited_by_count": 16,
+      "importance": 0.3833,
+      "score_basis": {
+        "topic_overlap": 0.141,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2161834958",
+      "doi": "10.1109/tnet.2010.2103402",
+      "title": "SRLG Failure Localization in Optical Networks",
+      "authors": [
+        "Satyajeet Singh Ahuja",
+        "Srinivasan Ramasubramanian D",
+        "Marwan Krunz"
+      ],
+      "year": 2011,
+      "venue": "IEEE/ACM Transactions on Networking",
+      "venue_abbr": "IEEE/ACM Transactions on Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "all-optical networks",
+        "edge connectivity",
+        "graph transformation",
+        "integer linear programming",
+        "optical splitter",
+        "network survivability"
+      ],
+      "url": "https://doi.org/10.1109/tnet.2010.2103402",
+      "cited_by_count": 44,
+      "importance": 0.3667,
+      "score_basis": {
+        "topic_overlap": 0.281,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3000963382",
+      "doi": "10.1109/jlt.2020.2969248",
+      "title": "Abstraction and Control of Multi-Domain Disaggregated Optical Networks With OpenROADM Device Models",
+      "authors": [
+        "Ramon Casellas",
+        "Ricardo Martí­nez",
+        "Ricard Vilalta",
+        "Raül Muñoz"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical transport networks",
+        "network disaggregation",
+        "multi-domain networks",
+        "network abstraction",
+        "control plane architecture",
+        "software-defined networking",
+        "network virtualization",
+        "network slicing",
+        "multi-tenancy",
+        "vendor interoperability",
+        "traffic engineering"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.2969248",
+      "cited_by_count": 33,
+      "importance": 0.3594,
+      "score_basis": {
+        "topic_overlap": 0.31,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2045762215",
+      "doi": "10.1016/j.comcom.2006.08.003",
+      "title": "Hierarchical routing in multi-domain optical networks",
+      "authors": [
+        "Q. Liu",
+        "M.A. Kök",
+        "Nasir Ghani",
+        "Ashwin Gumaste"
+      ],
+      "year": 2006,
+      "venue": "Computer Communications",
+      "venue_abbr": "Computer Communications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "hierarchical routing",
+        "multi-domain optical networks",
+        "dense wavelength division multiplexing",
+        "GMPLS",
+        "routing scalability",
+        "blocking probability",
+        "all-optical networks"
+      ],
+      "url": "https://doi.org/10.1016/j.comcom.2006.08.003",
+      "cited_by_count": 79,
+      "importance": 0.3538,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417053375",
+      "doi": "10.1109/ecoc66593.2025.11263088",
+      "title": "Optical Network Tomography Over Live Production Network in Multi-Domain Environment",
+      "authors": [
+        "Takeo Sasai",
+        "Kazuya Anazawa",
+        "Dmitrii Briantcev",
+        "Devika Dass",
+        "Sumaiya Ali",
+        "Giacomo Borraccini",
+        "Yoshiharu Kobatake",
+        "Hiroyuki Ishihara",
+        "Eoin Kenny",
+        "Garwin Liu",
+        "Toru Mano",
+        "Masanori Nakamura",
+        "Hideki Nishizawa",
+        "Yoshiaki Sone",
+        "Etsushi Yamazaki",
+        "Yoshiaki Kisaka",
+        "Koichi Takasugi",
+        "Koji Asahi",
+        "Marco Ruffini",
+        "Daniel C. Kilper"
+      ],
+      "year": 2025,
+      "venue": "European Conference on Optical Communication",
+      "venue_abbr": "ECOC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "multi-domain optical networks",
+        "route optimization",
+        "lightpath provisioning",
+        "optical power measurement"
+      ],
+      "url": "https://doi.org/10.1109/ecoc66593.2025.11263088",
+      "cited_by_count": 1,
+      "importance": 0.3518,
+      "score_basis": {
+        "topic_overlap": 0.337,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2954022626",
+      "doi": "10.1109/mwc.2019.1800234",
+      "title": "An Overview of Network Slicing for 5G",
+      "authors": [
+        "Shunliang Zhang"
+      ],
+      "year": 2019,
+      "venue": "IEEE Wireless Communications",
+      "venue_abbr": "IEEE Wireless Communications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "network slicing",
+        "5G",
+        "network function virtualization",
+        "modularization",
+        "network management and orchestration",
+        "3GPP standardization"
+      ],
+      "url": "https://doi.org/10.1109/mwc.2019.1800234",
+      "cited_by_count": 515,
+      "importance": 0.3377,
+      "score_basis": {
+        "topic_overlap": 0.262,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2103087495",
+      "doi": "10.1109/jlt.2009.2026063",
+      "title": "Optimization for Fault Localization in All-Optical Networks",
+      "authors": [
+        "Mazen G. Khair",
+        "Burak Kantarcı",
+        "Jun Gang Zheng",
+        "Hussein Talaat Mouftah"
+      ],
+      "year": 2009,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "fault location",
+        "all-optical networks",
+        "single link failure",
+        "integer linear programming",
+        "heuristic algorithms"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2009.2026063",
+      "cited_by_count": 7,
+      "importance": 0.3358,
+      "score_basis": {
+        "topic_overlap": 0.257,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3005416630",
+      "doi": "10.1016/j.csi.2020.103428",
+      "title": "An extended software defined optical networks slicing architecture",
+      "authors": [
+        "Tiago Portela",
+        "Maxwell E. Monteiro",
+        "Jefferson Rodrigo A. Cavalcante",
+        "Joaquim Celestino",
+        "Ahmed Moosajee Patel"
+      ],
+      "year": 2020,
+      "venue": "Computer Standards & Interfaces",
+      "venue_abbr": "Computer Standards & Interfaces",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "software-defined optical networks",
+        "network virtualization",
+        "dynamic resource provisioning",
+        "service level agreements"
+      ],
+      "url": "https://doi.org/10.1016/j.csi.2020.103428",
+      "cited_by_count": 4,
+      "importance": 0.3275,
+      "score_basis": {
+        "topic_overlap": 0.283,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2962695821",
+      "doi": "10.1109/mnet.2019.1800341",
+      "title": "Monitoring and Data Analytics for Optical Networking: Benefits, Architectures, and Use Cases",
+      "authors": [
+        "Luis Velasco",
+        "Anna Chiadò Piat",
+        "O. Gonzlez",
+        "A. Lord",
+        "Antonio Napoli",
+        "Patricia Layec",
+        "Danish Rafique",
+        "A. D’Errico",
+        "Daniel King",
+        "M. Ruiz",
+        "Filippo Cugini",
+        "Ramon Casellas"
+      ],
+      "year": 2019,
+      "venue": "IEEE Network",
+      "venue_abbr": "IEEE Network",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical network management",
+        "network monitoring",
+        "data analytics",
+        "network automation",
+        "performance monitoring",
+        "troubleshooting",
+        "service continuity",
+        "network resource optimization",
+        "control loops",
+        "network orchestration"
+      ],
+      "url": "https://doi.org/10.1109/mnet.2019.1800341",
+      "cited_by_count": 76,
+      "importance": 0.3233,
+      "score_basis": {
+        "topic_overlap": 0.274,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2011297616",
+      "doi": "10.1109/apnoms.2011.6077026",
+      "title": "An effective weighted matrix algorithm for determining connection status of alarm emitting routes",
+      "authors": [
+        "Pei Jung",
+        "Kan Yan Lee",
+        "Chih‐Wei Chang",
+        "Jung Hung Huang"
+      ],
+      "year": 2011,
+      "venue": "Asia-Pacific Network Operations and Management Symposium (APNOMS)",
+      "venue_abbr": "Asia-Pacific Network Operations and Management Symposium (APNOMS)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "telecommunications services",
+        "pyruvate dehydrogenase",
+        "SDH",
+        "ADSL",
+        "FTTx",
+        "ring networks",
+        "link aggregation",
+        "computational complexity"
+      ],
+      "url": "https://doi.org/10.1109/apnoms.2011.6077026",
+      "cited_by_count": 0,
+      "importance": 0.3131,
+      "score_basis": {
+        "topic_overlap": 0.251,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3006729569",
+      "doi": "10.1364/jocn.382906",
+      "title": "GNPy: an open source application for physical layer aware open optical networks",
+      "authors": [
+        "Alessio Ferrari",
+        "Mark M. Filer",
+        "Karthikeyan Balasubramanian",
+        "Yawei Yin",
+        "Esther Le Rouzic",
+        "Jan Kundrát",
+        "Gert Grammel",
+        "Gabriele Maria Galimberti",
+        "Vittorio Curri"
+      ],
+      "year": 2020,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical layer",
+        "physical layer modeling",
+        "coherent wavelength division multiplexing",
+        "quality of transmission estimation",
+        "generalized signal-to-noise ratio",
+        "optical signal-to-noise ratio",
+        "Raman amplification",
+        "erbium-doped fiber amplification",
+        "network configuration optimization",
+        "channel capacity",
+        "long-haul optical transmission",
+        "open source software"
+      ],
+      "url": "https://doi.org/10.1364/jocn.382906",
+      "cited_by_count": 233,
+      "importance": 0.2655,
+      "score_basis": {
+        "topic_overlap": 0.146,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1757796397",
+      "doi": "10.48550/arxiv.1312.5602",
+      "title": "Playing Atari with Deep Reinforcement Learning",
+      "authors": [
+        "Volodymyr Mnih",
+        "Koray Kavukcuoglu",
+        "David Silver",
+        "Alex Graves",
+        "Ioannis Antonoglou",
+        "Daan Wierstra",
+        "Martin Riedmiller"
+      ],
+      "year": 2013,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "deep reinforcement learning",
+        "Atari 2600",
+        "convolutional neural networks",
+        "Q-learning",
+        "value function estimation",
+        "game-playing agents",
+        "Arcade Learning Environment"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.1312.5602",
+      "cited_by_count": 9459,
+      "importance": 0.245,
+      "score_basis": {
+        "topic_overlap": 0.1,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2898389697",
+      "doi": "10.48550/arxiv.1810.10637",
+      "title": "Learning to Route Efficiently with End-to-End Feedback: The Value of Networked Structure",
+      "authors": [
+        "Ruihao Zhu",
+        "Eytan Modiano"
+      ],
+      "year": 2018,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "directed acyclic networks",
+        "adaptive exploration",
+        "worst-case regret",
+        "regret minimization"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.1810.10637",
+      "cited_by_count": 2,
+      "importance": 0.2433,
+      "score_basis": {
+        "topic_overlap": 0.096,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2762746414",
+      "to": "W2170378215",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2762746414"
+        }
+      ]
+    },
+    {
+      "from": "W2790149204",
+      "to": "W2161834958",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2790149204"
+        }
+      ]
+    },
+    {
+      "from": "W2790149204",
+      "to": "W2170378215",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2790149204"
+        }
+      ]
+    },
+    {
+      "from": "W3023412732",
+      "to": "W2954022626",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3023412732"
+        }
+      ]
+    },
+    {
+      "from": "W3095169063",
+      "to": "W3000963382",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3095169063"
+        }
+      ]
+    },
+    {
+      "from": "W3154519134",
+      "to": "W2170378215",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154519134"
+        }
+      ]
+    },
+    {
+      "from": "W3154519134",
+      "to": "W2762746414",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154519134"
+        }
+      ]
+    },
+    {
+      "from": "W4213370164",
+      "to": "W2103087495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4213370164"
+        }
+      ]
+    },
+    {
+      "from": "W4213370164",
+      "to": "W2885792477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4213370164"
+        }
+      ]
+    },
+    {
+      "from": "W4294310846",
+      "to": "W2170378215",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294310846"
+        }
+      ]
+    },
+    {
+      "from": "W4294310846",
+      "to": "W2762746414",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294310846"
+        }
+      ]
+    },
+    {
+      "from": "W4294310846",
+      "to": "W3154519134",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294310846"
+        }
+      ]
+    },
+    {
+      "from": "W4313886879",
+      "to": "W2885792477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313886879"
+        }
+      ]
+    },
+    {
+      "from": "W4313886879",
+      "to": "W3023412732",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313886879"
+        }
+      ]
+    },
+    {
+      "from": "W4387304875",
+      "to": "W2161834958",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387304875"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W1757796397",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2011297616",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2045762215",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2103087495",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2147626323",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2161834958",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2170378215",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2762746414",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2790149204",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2885792477",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2898389697",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2954022626",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W2962695821",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W3000963382",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W3005416630",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W3006729569",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W3023412732",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W304687760",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W3095169063",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W3154519134",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W3205923723",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W4213370164",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W4294310846",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W4313886879",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W4387304875",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    },
+    {
+      "from": "W7211965582",
+      "to": "W4417053375",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.606257"
+        }
+      ]
+    }
+  ]
 }

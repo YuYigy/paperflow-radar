@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "cc6b720c-b383-45d9-b2cd-3b778fe574e3",
-  "root": "doi:10.1515/joc-2026-0340",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7220833757",
+  "status": "ok",
+  "checked_at": "2026-11-01T00:46:05.963733+00:00",
+  "coverage": {
+    "references_found": 14,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "partial",
+    "citing_status": "ok",
+    "candidates_resolved": 13,
+    "displayed": 13
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1515/joc-2026-0340",
+      "id": "W7220833757",
       "doi": "10.1515/joc-2026-0340",
       "title": "Performance-optimized hybrid multidomain dispersion compensation techniques for next-generation ultra-high capacity coherent optical communication systems",
       "authors": [
@@ -20,20 +30,664 @@
         "Lemya Abd Alameer Hadi",
         "Murooj A. Abd Almuhsan"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Journal of Optical Communications",
       "venue_abbr": "J. Opt. Commun.",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "coherent optical communication",
+        "chromatic dispersion",
+        "digital signal processing",
+        "400 Gb/s transmission",
+        "long-haul optical transmission",
+        "standard single-mode fiber",
+        "bit error rate",
+        "quality factor",
+        "nonlinear impairments"
+      ],
       "url": "https://doi.org/10.1515/joc-2026-0340",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/cc6b720c-b383-45d9-b2cd-3b778fe574e3.html",
       "summary": "摘要报告：针对超大容量相干光传输中光域或DSP单独补偿难以覆盖的线性与非线性损伤，提出光域色散补偿与高级DSP算法结合的混合多域补偿（MDC）方案。在OptiSystem 23.0中搭建架构、在MATLAB R2024b实现DSP，仿真考察400 Gb/s相干系统在所设传输条件下最长800 km标准单模光纤的传输。结果为仿真层面：混合补偿在所比较工况下BER最低、Q因子最高，性能接近背靠背参考系统。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4413449824",
+      "doi": "10.1016/j.ijleo.2025.172509",
+      "title": "Convergence of multi-domain hybrid dispersion compensation paradigms for ultra-high-speed optical fiber transmission in spectrally-efficient coherent communication systems",
+      "authors": [
+        "Noor Jamal Jihad",
+        "Ahmed H. Abbas",
+        "Shayma Wail Nourildean",
+        "Murooj A. Abd Almuhsan"
+      ],
+      "year": 2025,
+      "venue": "Optik",
+      "venue_abbr": "Optik",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chromatic dispersion compensation",
+        "dispersion compensating fiber",
+        "fiber Bragg grating",
+        "electronic dispersion compensation",
+        "phase conjugation",
+        "coherent optical communication",
+        "long-haul optical transmission",
+        "bit error rate",
+        "quality factor",
+        "intersymbol interference"
+      ],
+      "url": "https://doi.org/10.1016/j.ijleo.2025.172509",
+      "cited_by_count": 6,
+      "importance": 0.4649,
+      "score_basis": {
+        "topic_overlap": 0.589,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7160919311",
+      "doi": "10.1109/jlt.2026.3691989",
+      "title": "Hybrid Neural Network With Implementation Efficiency for Joint Dispersion and Nonlinear Compensation in High-Speed and Long-Haul Transmission Systems",
+      "authors": [
+        "Luhan Jiang",
+        "Ying Wu",
+        "Yue Wang",
+        "Jianyu Long",
+        "Yifan Chen",
+        "Wen Zhou",
+        "Kaihui Wang",
+        "Jianjun Yu"
+      ],
+      "year": 2026,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "chromatic dispersion compensation",
+        "hybrid neural network",
+        "coherent optical fiber transmission",
+        "autoencoder",
+        "nonlinear equalizer",
+        "edge computing",
+        "real-time DSP"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2026.3691989",
+      "cited_by_count": 2,
+      "importance": 0.4297,
+      "score_basis": {
+        "topic_overlap": 0.399,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4399577886",
+      "doi": "10.1515/joc-2024-0110",
+      "title": "Hybrid optical-electronic compensation of fiber nonlinearity for long-haul coherent optical transmission",
+      "authors": [
+        "Xiaogang Tong",
+        "Wei Huang",
+        "Weiwei Cao",
+        "Junsheng Zhang",
+        "Xiaojuan Zhang"
+      ],
+      "year": 2024,
+      "venue": "Journal of Optical Communications",
+      "venue_abbr": "J. Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fiber nonlinearity compensation",
+        "phase conjugation",
+        "PM-16QAM",
+        "computational complexity reduction"
+      ],
+      "url": "https://doi.org/10.1515/joc-2024-0110",
+      "cited_by_count": 1,
+      "importance": 0.4062,
+      "score_basis": {
+        "topic_overlap": 0.458,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7159662044",
+      "doi": "10.1515/joc-2026-0127",
+      "title": "Design and performance analysis of a hybrid PDM-WDM-SAC-OCDMA-TDM FTTH network for next-generation high-capacity access",
+      "authors": [
+        "Ahmed Musaaed Yasin",
+        "Noor Jamal Jihad",
+        "Zainab Naser Jameel"
+      ],
+      "year": 2026,
+      "venue": "Journal of Optical Communications",
+      "venue_abbr": "J. Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fiber to the home",
+        "SAC-OCDMA",
+        "polarization multiplexing",
+        "wavelength division multiplexing",
+        "time-division multiplexing",
+        "multiple access interference",
+        "spectral efficiency",
+        "quality factor",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1515/joc-2026-0127",
+      "cited_by_count": 1,
+      "importance": 0.37,
+      "score_basis": {
+        "topic_overlap": 0.378,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402570575",
+      "doi": "10.1109/jphot.2024.3462438",
+      "title": "Coherent all Optical Reservoir Computing for Equalization of Impairments in Coherent Fiber Optic Communication Systems",
+      "authors": [
+        "Shiva Kumar",
+        "Mahmoud M. T. Maghrabi",
+        "Mohamed H. Bakr",
+        "Toshihiko Hirooka",
+        "Masataka Nakazawa"
+      ],
+      "year": 2024,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "reservoir computing",
+        "all-optical signal processing",
+        "coherent detection",
+        "semiconductor saturable absorber mirror",
+        "dispersion management",
+        "nonlinear impairments",
+        "chromatic dispersion",
+        "data center networks",
+        "nonlinear memory",
+        "linear memory"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2024.3462438",
+      "cited_by_count": 5,
+      "importance": 0.3635,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409014440",
+      "doi": "10.1109/jlt.2025.3555655",
+      "title": "A MIMO Neural Network Integrated With Maximum Likelihood Phase Recovery for Transoceanic Coherent Transmission",
+      "authors": [
+        "Kaihui Wang",
+        "Chen Wang",
+        "Tianqi Zheng",
+        "Jianyu Long",
+        "Bohan Sang",
+        "Wen Zhou",
+        "Jianjun Yu"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical transmission",
+        "long-haul optical transmission",
+        "phase noise compensation",
+        "nonlinear distortion compensation",
+        "low-complexity equalization"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3555655",
+      "cited_by_count": 23,
+      "importance": 0.3616,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400579208",
+      "doi": "10.1109/jlt.2024.3427121",
+      "title": "Deep Learning-Assisted Nonlinearity Compensation in Subcarrier-Multiplexing Coherent Optical Systems",
+      "authors": [
+        "Waddah S. Saif",
+        "Sunish Kumar Orappanpara Soman",
+        "Octavia A. Dobre"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "fiber nonlinearity compensation",
+        "subcarrier multiplexing",
+        "coherent optical transmission",
+        "deep learning",
+        "computational complexity reduction",
+        "long-haul optical fiber links",
+        "high-speed optical transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3427121",
+      "cited_by_count": 21,
+      "importance": 0.357,
+      "score_basis": {
+        "topic_overlap": 0.349,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7131418268",
+      "doi": "10.1016/j.optlastec.2026.115010",
+      "title": "Fixed short-FFT-size chromatic dispersion compensation for long-haul high-speed coherent optical transmission",
+      "authors": [
+        "Ying Wu",
+        "jianjun yu",
+        "Jianyu Long",
+        "Ying Wang",
+        "Luhan Jiang",
+        "Yifan Chen",
+        "Wen Zhou",
+        "Kaihui Wang"
+      ],
+      "year": 2026,
+      "venue": "Optics & Laser Technology",
+      "venue_abbr": "Opt. Laser Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chromatic dispersion compensation",
+        "coherent optical transmission",
+        "computational complexity reduction",
+        "long-haul optical transmission",
+        "DP-16QAM",
+        "submarine optical cable",
+        "data center interconnects"
+      ],
+      "url": "https://doi.org/10.1016/j.optlastec.2026.115010",
+      "cited_by_count": 4,
+      "importance": 0.3538,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413556320",
+      "doi": "10.1109/jlt.2025.3602509",
+      "title": "Adaptive Autoencoder-Based Probabilistic Shaping in Nonlinear Optical Communication Systems Considering Equalization-Enhanced Phase Noise",
+      "authors": [
+        "Fengyuan Tian",
+        "Zheng Liu",
+        "Sergei Popov",
+        "Gan Zheng",
+        "Tianhua Xu"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "probabilistic shaping",
+        "autoencoder",
+        "equalization-enhanced phase noise",
+        "coherent optical fiber communication",
+        "generalized mutual information",
+        "laser linewidth",
+        "launch power",
+        "model mismatch"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3602509",
+      "cited_by_count": 1,
+      "importance": 0.3331,
+      "score_basis": {
+        "topic_overlap": 0.296,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404609699",
+      "doi": "10.1515/joc-2024-0210",
+      "title": "Performance analysis of high dynamic range OFDM radio over fiber system for 5G/NR signals",
+      "authors": [
+        "Muhannad Y. Muhsin",
+        "Zainab F. Mohammad",
+        "Noor Jamal Jihad"
+      ],
+      "year": 2024,
+      "venue": "Journal of Optical Communications",
+      "venue_abbr": "J. Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "radio-over-fiber",
+        "OFDM",
+        "64-QAM",
+        "5G NR",
+        "millimeter wave",
+        "high dynamic range",
+        "optical modulator design",
+        "local oscillator",
+        "error vector magnitude",
+        "signal-to-noise ratio",
+        "28 GHz"
+      ],
+      "url": "https://doi.org/10.1515/joc-2024-0210",
+      "cited_by_count": 7,
+      "importance": 0.3321,
+      "score_basis": {
+        "topic_overlap": 0.294,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406243143",
+      "doi": "10.3390/electronics14020265",
+      "title": "A Noise-Tolerant Carrier Phase Recovery Method for Inter-Satellite Coherent Optical Communications",
+      "authors": [
+        "Chunyuan Hu",
+        "Yujie Lin",
+        "Zihao Wu",
+        "Ruolin Yang",
+        "Xiangyuan Bu"
+      ],
+      "year": 2025,
+      "venue": "Electronics",
+      "venue_abbr": "Electronics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "carrier phase recovery",
+        "optical inter-satellite links",
+        "laser phase noise",
+        "bit error rate",
+        "computational complexity reduction"
+      ],
+      "url": "https://doi.org/10.3390/electronics14020265",
+      "cited_by_count": 3,
+      "importance": 0.3294,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401046345",
+      "doi": "10.1038/s41467-024-50439-1",
+      "title": "Overcoming laser phase noise for low-cost coherent optical communication",
+      "authors": [
+        "Xiansong Fang",
+        "Yixiao Zhu",
+        "Xiang Cai",
+        "Weisheng Hu",
+        "Zhixue He",
+        "Shaohua Yu",
+        "Fan Zhang"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "laser phase noise",
+        "coherent optical communication",
+        "distributed feedback lasers",
+        "probabilistic shaping",
+        "256-QAM",
+        "low-cost laser",
+        "data center interconnects"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-50439-1",
+      "cited_by_count": 107,
+      "importance": 0.3167,
+      "score_basis": {
+        "topic_overlap": 0.259,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404723205",
+      "doi": "10.1002/adpr.202400123",
+      "title": "Optimized Hybrid Probabilistic and Geometric Constellation Shaping for Coherent Optical Communication Systems Using End‐to‐End Learning",
+      "authors": [
+        "Zhiyang Liu",
+        "Lu Zhang",
+        "Xiaoyu Liu",
+        "Shilin Xiao",
+        "Weiying Yang",
+        "Weisheng Hu"
+      ],
+      "year": 2024,
+      "venue": "Advanced Photonics Research",
+      "venue_abbr": "Advanced Photonics Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "coherent optical communication",
+        "Wiener phase noise",
+        "carrier phase estimation",
+        "blind phase search",
+        "end-to-end learning",
+        "higher-order QAM",
+        "spectral efficiency",
+        "generalized mutual information",
+        "digital signal processing"
+      ],
+      "url": "https://doi.org/10.1002/adpr.202400123",
+      "cited_by_count": 2,
+      "importance": 0.295,
+      "score_basis": {
+        "topic_overlap": 0.211,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W7160919311",
+      "to": "W4409014440",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160919311"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W4399577886",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W4400579208",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W4401046345",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W4402570575",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W4404609699",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W4404723205",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W4406243143",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W4409014440",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W4413449824",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W4413556320",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W7131418268",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W7159662044",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    },
+    {
+      "from": "W7220833757",
+      "to": "W7160919311",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220833757"
+        }
+      ]
+    }
+  ]
 }

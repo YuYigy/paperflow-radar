@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "e87c9842-38a8-41e8-bf18-f648629fc50c",
-  "root": "doi:10.1021/acsphotonics.6c01208",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7221576615",
+  "status": "ok",
+  "checked_at": "2026-11-02T00:50:03.539242+00:00",
+  "coverage": {
+    "references_found": 41,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 41,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1021/acsphotonics.6c01208",
+      "id": "W7221576615",
       "doi": "10.1021/acsphotonics.6c01208",
       "title": "Thin-Film Lithium Niobate Hybrid-Integrated External-Cavity Laser with 90 nm Tuning Range and 20 mA Threshold",
       "authors": [
@@ -21,20 +31,3473 @@
         "Yuping Chen",
         "Hongtao Lin"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "ACS Photonics",
       "venue_abbr": "ACS Photonics",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "thin-film lithium niobate",
+        "external cavity laser",
+        "chip-scale lasers",
+        "wavelength tuning range",
+        "side-mode suppression",
+        "reflective semiconductor optical amplifier",
+        "wavelength-selective reflector",
+        "Sagnac loop reflector",
+        "electro-optic effect",
+        "low threshold current",
+        "chirp rate",
+        "line width"
+      ],
       "url": "https://doi.org/10.1021/acsphotonics.6c01208",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/e87c9842-38a8-41e8-bf18-f648629fc50c.html",
       "summary": "摘要报告：芯片级激光器需同时低阈值、宽调谐、窄线宽与快啁啾，但摘要称多数已报道芯片级TFLN外腔激光器调谐范围为20–45 nm。演示宽带反射式SOA增益芯片+TFLN波长选择反射器芯片的集成外腔激光器：采用简单双环外腔与可调萨格纳克环反射器，实现90 nm调谐范围与最优54 dB边模抑制比；低损TFLN外腔+快电光效应带来低至20 mA的阈值电流、2.5 kHz最小本征线宽（啁啾率指数排版待核）。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4407253470",
+      "doi": "10.1063/5.0231827",
+      "title": "High-power and narrow-linewidth laser on thin-film lithium niobate enabled by photonic wire bonding",
+      "authors": [
+        "Cornelis A. A. Franken",
+        "Rebecca Cheng",
+        "Keith B. Powell",
+        "Georgios Kyriazidis",
+        "Victoria Rosborough",
+        "Juergen Musolf",
+        "Maximilian Shah",
+        "David R. Barton",
+        "Gage Hills",
+        "Leif A. Johansson",
+        "Klaus J. Boller",
+        "Marko Lončar"
+      ],
+      "year": 2025,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "photonic wire bonding",
+        "on-chip lasers",
+        "extended cavity diode laser",
+        "side-mode suppression ratio",
+        "wavelength tuning",
+        "narrow linewidth",
+        "high-power lasers",
+        "optical amplifiers",
+        "feedback circuits",
+        "frequency stability",
+        "chip-scale integration"
+      ],
+      "url": "https://doi.org/10.1063/5.0231827",
+      "cited_by_count": 35,
+      "importance": 0.6863,
+      "score_basis": {
+        "topic_overlap": 0.525,
+        "shared_references": 10,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4224980528",
+      "doi": "10.1038/s41467-022-33101-6",
+      "title": "Integrated Pockels laser",
+      "authors": [
+        "Mingxiao Li",
+        "Lin Chang",
+        "Lue Wu",
+        "Jeremy Staffa",
+        "Jingwei Ling",
+        "Usman A. Javid",
+        "Shixin Xue",
+        "Yang He",
+        "Raymond Lopez‐Rios",
+        "Theodore J. Morin",
+        "Heming Wang",
+        "Boqiang Shen",
+        "Siwei Zeng",
+        "Lin Zhu",
+        "Kerry J. Vahala",
+        "John Edward Bowers",
+        "Qiang Lin"
+      ],
+      "year": 2022,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated semiconductor laser",
+        "Pockels effect",
+        "electro-optic effect",
+        "lithium niobate",
+        "second harmonic generation",
+        "narrow linewidth",
+        "wavelength tuning",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41467-022-33101-6",
+      "cited_by_count": 172,
+      "importance": 0.6746,
+      "score_basis": {
+        "topic_overlap": 0.388,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313555657",
+      "doi": "10.1126/science.abj4396",
+      "title": "Lithium niobate photonics: Unlocking the electromagnetic spectrum",
+      "authors": [
+        "Andreas Boes",
+        "Lin Chang",
+        "Carsten Langrock",
+        "Mengjie Yu",
+        "Mian Zhang",
+        "Qiang Lin",
+        "Marko Lončar",
+        "M. M. Fejer",
+        "John Edward Bowers",
+        "Arnan Mitchell"
+      ],
+      "year": 2023,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate",
+        "photonic crystals",
+        "photonic integrated circuits",
+        "optical waveguides",
+        "frequency conversion",
+        "nonlinear optics",
+        "microwave photonics",
+        "ultraviolet photonics",
+        "crystal growth",
+        "photonic platform"
+      ],
+      "url": "https://doi.org/10.1126/science.abj4396",
+      "cited_by_count": 675,
+      "importance": 0.6719,
+      "score_basis": {
+        "topic_overlap": 0.271,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4324344181",
+      "doi": "10.1038/s41586-023-05724-2",
+      "title": "Ultrafast tunable lasers using lithium niobate integrated photonics",
+      "authors": [
+        "Viacheslav S. Snigirev",
+        "Annina Riedhauser",
+        "Grigory Lihachev",
+        "Mikhail Churaev",
+        "Johann Riemensberger",
+        "Rui Ning Wang",
+        "Anat Siddharth",
+        "Guanhao Huang",
+        "Charles Möhl",
+        "Youri Popoff",
+        "Ute Drechsler",
+        "Daniele Caimi",
+        "Simon Hönl",
+        "Junqiu Liu",
+        "Paul F. Seidler",
+        "Tobias Jan Kippenberg"
+      ],
+      "year": 2023,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "tunable lasers",
+        "lithium niobate on insulator",
+        "silicon nitride photonics",
+        "hybrid photonic integration",
+        "direct wafer bonding",
+        "self-injection locking",
+        "FMCW LiDAR",
+        "thin-film lithium niobate"
+      ],
+      "url": "https://doi.org/10.1038/s41586-023-05724-2",
+      "cited_by_count": 295,
+      "importance": 0.6426,
+      "score_basis": {
+        "topic_overlap": 0.206,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411068096",
+      "doi": "10.1038/s41566-025-01687-0",
+      "title": "Ultrafast tunable photonic-integrated extended-DBR Pockels laser",
+      "authors": [
+        "Anat Siddharth",
+        "Simone Bianconi",
+        "Rui Ning Wang",
+        "Zheru Qiu",
+        "Andrey Voloshin",
+        "Mohammad J. Bereyhi",
+        "Johann Riemensberger",
+        "Tobias Jan Kippenberg"
+      ],
+      "year": 2025,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "frequency-agile laser",
+        "distributed Bragg reflector",
+        "lithium niobate on insulator",
+        "hybrid integrated photonics",
+        "self-injection locking",
+        "mode-hop-free tuning",
+        "reflective semiconductor optical amplifier",
+        "electro-optic tuning",
+        "frequency-modulated continuous-wave LiDAR",
+        "butterfly package",
+        "phase noise"
+      ],
+      "url": "https://doi.org/10.1038/s41566-025-01687-0",
+      "cited_by_count": 41,
+      "importance": 0.6184,
+      "score_basis": {
+        "topic_overlap": 0.374,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391564616",
+      "doi": "10.1364/ol.516486",
+      "title": "Coprocessed heterogeneous near-infrared lasers on thin-film lithium niobate",
+      "authors": [
+        "Theodore J. Morin",
+        "Jonathan Peters",
+        "Mingxiao Li",
+        "Joel Guo",
+        "Yating Wan",
+        "Chao Xiang",
+        "John Edward Bowers"
+      ],
+      "year": 2024,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "near-infrared laser",
+        "InGaAs quantum wells",
+        "InAs quantum dots",
+        "second harmonic generation",
+        "visible light generation",
+        "co-processing",
+        "III-V semiconductor lasers"
+      ],
+      "url": "https://doi.org/10.1364/ol.516486",
+      "cited_by_count": 15,
+      "importance": 0.6176,
+      "score_basis": {
+        "topic_overlap": 0.439,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392358646",
+      "doi": "10.1016/j.optcom.2024.130415",
+      "title": "Widely and fast tunable external cavity laser on the thin film lithium niobate platform",
+      "authors": [
+        "Yekai Ren",
+        "Bo Xiong",
+        "Yalong Yu",
+        "Kangping Lou",
+        "Tao Chu"
+      ],
+      "year": 2024,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "external cavity laser",
+        "thin-film lithium niobate",
+        "tunable lasers",
+        "wavelength tuning range",
+        "side-mode suppression ratio",
+        "optical sensors"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2024.130415",
+      "cited_by_count": 21,
+      "importance": 0.6049,
+      "score_basis": {
+        "topic_overlap": 0.455,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390807355",
+      "doi": "10.1364/oe.509900",
+      "title": "Integrated self-injection-locked narrow linewidth laser based on thin-film lithium niobate",
+      "authors": [
+        "Mengjie Han",
+        "Jinye Li",
+        "Haiyang Yu",
+        "Dechen Li",
+        "Run Li",
+        "Jianguo Liu"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "narrow-linewidth laser",
+        "self-injection locking",
+        "thin-film lithium niobate",
+        "distributed feedback lasers",
+        "microring resonators",
+        "external cavity",
+        "side-mode suppression ratio",
+        "integrated photonics",
+        "coherent optical communication"
+      ],
+      "url": "https://doi.org/10.1364/oe.509900",
+      "cited_by_count": 21,
+      "importance": 0.5941,
+      "score_basis": {
+        "topic_overlap": 0.276,
+        "shared_references": 7,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406392738",
+      "doi": "10.1002/lpor.202401857",
+      "title": "Second Harmonic Generation with 48% Conversion Efficiency from Cavity Polygon Modes in a Monocrystalline Lithium Niobate Microdisk Resonator",
+      "authors": [
+        "Chao Sun",
+        "Jielei Ni",
+        "Chuntao Li",
+        "Jintian Lin",
+        "Renhong Gao",
+        "Jianglin Guan",
+        "Qian Qiao",
+        "Qifeng Hou",
+        "Xiaochao Luo",
+        "Xinzhi Zheng",
+        "Lingling Qiao",
+        "Min Wang",
+        "Ya Cheng"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "second harmonic generation",
+        "thin-film lithium niobate",
+        "nonlinear frequency conversion",
+        "conversion efficiency",
+        "X-cut lithium niobate",
+        "high-Q microresonators",
+        "on-chip nonlinear optics"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202401857",
+      "cited_by_count": 6,
+      "importance": 0.5894,
+      "score_basis": {
+        "topic_overlap": 0.31,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3206091767",
+      "doi": "10.1364/ol.442281",
+      "title": "Electrically pumped widely tunable O-band hybrid lithium niobite/III-V laser",
+      "authors": [
+        "Ya Ping Han",
+        "Xian Zhang",
+        "Fujin Huang",
+        "Xiaoyue Liu",
+        "Mengyue Xu",
+        "Zhongjin Lin",
+        "Mingbo He",
+        "Siyuan Yu",
+        "Ruijun Wang",
+        "Xinlun Cai"
+      ],
+      "year": 2021,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "hybrid laser",
+        "lithium niobate on insulator",
+        "microring resonators",
+        "electrically pumped lasers",
+        "photonic integrated circuits",
+        "side-mode suppression ratio",
+        "threshold current density"
+      ],
+      "url": "https://doi.org/10.1364/ol.442281",
+      "cited_by_count": 68,
+      "importance": 0.5707,
+      "score_basis": {
+        "topic_overlap": 0.379,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4296002986",
+      "doi": "10.1364/oe.471402",
+      "title": "Widely tunable O-band lithium niobite/III-V transmitter",
+      "authors": [
+        "Ya Ping Han",
+        "Xian Zhang",
+        "Rui Ma",
+        "Mengyue Xu",
+        "Heyun Tan",
+        "Jie Liu",
+        "Ruijun Wang",
+        "Siyuan Yu",
+        "Xinlun Cai"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "O-band",
+        "electro-optic modulator",
+        "side-mode suppression ratio",
+        "160 Gb/s transmission",
+        "photonic integrated circuits"
+      ],
+      "url": "https://doi.org/10.1364/oe.471402",
+      "cited_by_count": 20,
+      "importance": 0.5647,
+      "score_basis": {
+        "topic_overlap": 0.255,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409808365",
+      "doi": "10.1038/s42254-025-00825-5",
+      "title": "Integrated electro-optics on thin-film lithium niobate",
+      "authors": [
+        "Yaowen Hu",
+        "Di Zhu",
+        "Shengyuan Lu",
+        "Xinrui Zhu",
+        "Yunxiang Song",
+        "Dylan L. Renaud",
+        "Daniel Assumpção",
+        "Rebecca Cheng",
+        "C. J. Xin",
+        "Matthew Yeh",
+        "Hana Warner",
+        "Xiangwen Guo",
+        "Amirhassan Shams‐Ansari",
+        "David R. Barton",
+        "Neil E. Sinclair",
+        "Marko Lončar"
+      ],
+      "year": 2025,
+      "venue": "Nature Reviews Physics",
+      "venue_abbr": "Nature Reviews Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "integrated photonics",
+        "optical modulators",
+        "microwave photonics",
+        "quantum information",
+        "optical computing",
+        "optical loss"
+      ],
+      "url": "https://doi.org/10.1038/s42254-025-00825-5",
+      "cited_by_count": 163,
+      "importance": 0.5633,
+      "score_basis": {
+        "topic_overlap": 0.207,
+        "shared_references": 12,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402139037",
+      "doi": "10.1038/s41377-024-01546-7",
+      "title": "Octave-spanning Kerr soliton frequency combs in dispersion- and dissipation-engineered lithium niobate microresonators",
+      "authors": [
+        "Yunxiang Song",
+        "Yaowen Hu",
+        "Xinrui Zhu",
+        "Ki Youl Yang",
+        "Marko Lončar"
+      ],
+      "year": 2024,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "Kerr solitons",
+        "soliton microcombs",
+        "octave-spanning frequency combs",
+        "thin-film lithium niobate",
+        "optical microcavities",
+        "self-reference",
+        "carrier-envelope offset frequency",
+        "frequency division",
+        "electro-optic modulation",
+        "frequency standards",
+        "dispersion engineering",
+        "dissipation engineering"
+      ],
+      "url": "https://doi.org/10.1038/s41377-024-01546-7",
+      "cited_by_count": 71,
+      "importance": 0.5533,
+      "score_basis": {
+        "topic_overlap": 0.185,
+        "shared_references": 8,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4397013634",
+      "doi": "10.1002/lpor.202400224",
+      "title": "High‐Performance Integrated Laser Based on Thin‐Film Lithium Niobate Photonics for Coherent Ranging",
+      "authors": [
+        "Shuxin Wang",
+        "Zhongjin Lin",
+        "Qi Wang",
+        "Xian Zhang",
+        "Rui Ma",
+        "Xinlun Cai"
+      ],
+      "year": 2024,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated lasers",
+        "frequency-modulated continuous-wave laser",
+        "FMCW LiDAR",
+        "chirp bandwidth",
+        "chirp rate",
+        "ranging precision"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202400224",
+      "cited_by_count": 36,
+      "importance": 0.5498,
+      "score_basis": {
+        "topic_overlap": 0.355,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392699884",
+      "doi": "10.1080/23746149.2024.2322739",
+      "title": "Recent development in integrated Lithium niobate photonics",
+      "authors": [
+        "Zhenda Xie",
+        "Bo Fang",
+        "Jintian Lin",
+        "Hui Hu",
+        "Xinlun Cai",
+        "Xiao-Hui Tian",
+        "Zhiwei Fang",
+        "Jinming Chen",
+        "Min Wang",
+        "Feng Chen",
+        "Ya Cheng",
+        "Jingjun Xu",
+        "Shining N. Zhu"
+      ],
+      "year": 2024,
+      "venue": "Advances in Physics X",
+      "venue_abbr": "Advances in Physics X",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate on insulator",
+        "integrated photonics",
+        "thin-film lithium niobate",
+        "waveguides",
+        "electro-optic modulator",
+        "domain engineering",
+        "microring resonators",
+        "optical filters",
+        "nonlinear optics",
+        "microwave photonics",
+        "quantum photonics",
+        "optical communication"
+      ],
+      "url": "https://doi.org/10.1080/23746149.2024.2322739",
+      "cited_by_count": 77,
+      "importance": 0.5426,
+      "score_basis": {
+        "topic_overlap": 0.206,
+        "shared_references": 11,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3021779279",
+      "doi": "10.1515/nanoph-2020-0013",
+      "title": "Integrated lithium niobate photonics",
+      "authors": [
+        "Yifan Qi",
+        "Yang Li"
+      ],
+      "year": 2020,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "lithium niobate on insulator",
+        "integrated photonics",
+        "ridge waveguide",
+        "periodically poled lithium niobate",
+        "waveguide couplers",
+        "optical resonators",
+        "electro-optic modulator",
+        "nonlinear optical devices",
+        "optical frequency combs",
+        "optical communication",
+        "integrated microwave photonics",
+        "quantum optics"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2020-0013",
+      "cited_by_count": 422,
+      "importance": 0.5406,
+      "score_basis": {
+        "topic_overlap": 0.179,
+        "shared_references": 4,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392242467",
+      "doi": "10.1038/s41586-024-07078-9",
+      "title": "Integrated lithium niobate microwave photonic processing engine",
+      "authors": [
+        "Hanke Feng",
+        "Tong Ge",
+        "Xiaoqing Guo",
+        "Benshan Wang",
+        "Yiwen Zhang",
+        "Zhaoxi Chen",
+        "Sha Zhu",
+        "Ke Zhang",
+        "Wenzhao Sun",
+        "Chaoran Huang",
+        "Yixuan Yuan",
+        "Cheng Wang"
+      ],
+      "year": 2024,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated microwave photonics",
+        "lithium niobate",
+        "thin-film lithium niobate",
+        "electro-optic modulation",
+        "edge detection"
+      ],
+      "url": "https://doi.org/10.1038/s41586-024-07078-9",
+      "cited_by_count": 222,
+      "importance": 0.5401,
+      "score_basis": {
+        "topic_overlap": 0.222,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3128605999",
+      "doi": "10.1038/s41467-022-31134-5",
+      "title": "Ultra-low-power second-order nonlinear optics on a chip",
+      "authors": [
+        "Timothy P. McKenna",
+        "Hubert S. Stokowski",
+        "Vahid Ansari",
+        "Jatadhari Mishra",
+        "Marc Jankowski",
+        "Christopher J. Sarabalis",
+        "Jason F. Herrmann",
+        "Carsten Langrock",
+        "M. M. Fejer",
+        "Amir H. Safavi‐Naeini"
+      ],
+      "year": 2022,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "second-order nonlinear optics",
+        "integrated photonics",
+        "lithium niobate",
+        "thin-film lithium niobate",
+        "second harmonic generation",
+        "parametric oscillation",
+        "cascaded nonlinear processes",
+        "quantum entanglement",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41467-022-31134-5",
+      "cited_by_count": 119,
+      "importance": 0.5051,
+      "score_basis": {
+        "topic_overlap": 0.323,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3196655433",
+      "doi": "10.1364/optica.438620",
+      "title": "III/V-on-lithium niobate amplifiers and lasers",
+      "authors": [
+        "Camiel Op de Beeck",
+        "Felix M. Mayor",
+        "Stijn Cuyvers",
+        "Stijn Poelman",
+        "Jason F. Herrmann",
+        "Okan Atalar",
+        "Timothy P. McKenna",
+        "Bahawal Haq",
+        "Wentao Jiang",
+        "Jeremy D. Witmer",
+        "Günther Roelkens",
+        "Amir H. Safavi‐Naeini",
+        "Raphaël Van Laer",
+        "Bart Kuyken"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "electrically pumped lasers",
+        "optical amplifiers",
+        "III-V semiconductor lasers"
+      ],
+      "url": "https://doi.org/10.1364/optica.438620",
+      "cited_by_count": 124,
+      "importance": 0.5,
+      "score_basis": {
+        "topic_overlap": 0.333,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3047301857",
+      "doi": "10.1038/s41467-020-17806-0",
+      "title": "High-performance coherent optical modulators based on thin-film lithium niobate platform",
+      "authors": [
+        "Mengyue Xu",
+        "Mingbo He",
+        "Hongguang Zhang",
+        "Jian Jian",
+        "Ying Pan",
+        "Xiaoyue Liu",
+        "Lifeng Chen",
+        "Xiangyu Meng",
+        "Hui Chen",
+        "Zhaohui Li",
+        "Xi Xiao",
+        "Shaohua Yu",
+        "Siyuan Yu",
+        "Xinlun Cai"
+      ],
+      "year": 2020,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "coherent optical transmission",
+        "electro-optic modulator",
+        "thin-film lithium niobate",
+        "integrated photonics",
+        "half-wave voltage",
+        "modulation bandwidth",
+        "optical loss",
+        "chirp",
+        "digital signal processing",
+        "Shannon limit"
+      ],
+      "url": "https://doi.org/10.1038/s41467-020-17806-0",
+      "cited_by_count": 546,
+      "importance": 0.4958,
+      "score_basis": {
+        "topic_overlap": 0.213,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3127881187",
+      "doi": "10.1364/optica.416155",
+      "title": "Breaking voltage–bandwidth limits in integrated lithium niobate modulators using micro-structured electrodes",
+      "authors": [
+        "Prashanta Kharel",
+        "Christian Reimer",
+        "Kevin J. Luke",
+        "Lingyan He",
+        "Mian Zhang"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "lithium niobate modulator",
+        "thin-film lithium niobate",
+        "electro-optic modulator",
+        "half-wave voltage",
+        "microwave loss",
+        "integrated photonics",
+        "high-frequency modulation"
+      ],
+      "url": "https://doi.org/10.1364/optica.416155",
+      "cited_by_count": 435,
+      "importance": 0.4919,
+      "score_basis": {
+        "topic_overlap": 0.204,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406844005",
+      "doi": "10.1038/s41566-024-01608-7",
+      "title": "Integrated lithium niobate photonic millimetre-wave radar",
+      "authors": [
+        "Sha Zhu",
+        "Yiwen Zhang",
+        "Jiaxue Feng",
+        "Yongji Wang",
+        "Kunpeng Zhai",
+        "Hanke Feng",
+        "Edwin Yue‐Bun Pun",
+        "Ning Hua Zhu",
+        "Cheng Wang"
+      ],
+      "year": 2025,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "millimeter-wave radar",
+        "thin-film lithium niobate",
+        "electro-optic modulator",
+        "optical frequency multiplication",
+        "dechirping",
+        "inverse synthetic aperture radar",
+        "velocity measurement",
+        "V-band"
+      ],
+      "url": "https://doi.org/10.1038/s41566-024-01608-7",
+      "cited_by_count": 83,
+      "importance": 0.4909,
+      "score_basis": {
+        "topic_overlap": 0.091,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3202561006",
+      "doi": "10.1364/prj.432906",
+      "title": "Broadband adiabatic polarization rotator-splitter based on a lithium niobate on insulator platform",
+      "authors": [
+        "Zhaoxi Chen",
+        "Jingwei Yang",
+        "Wing‐Han Wong",
+        "Edwin Yue‐Bun Pun",
+        "Cheng Wang"
+      ],
+      "year": 2021,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate on insulator",
+        "broadband polarization control",
+        "telecom wavelengths",
+        "polarization crosstalk",
+        "photonic integrated circuits"
+      ],
+      "url": "https://doi.org/10.1364/prj.432906",
+      "cited_by_count": 76,
+      "importance": 0.4908,
+      "score_basis": {
+        "topic_overlap": 0.157,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408814972",
+      "doi": "10.1038/s41467-025-58018-8",
+      "title": "1.79-GHz acquisition rate absolute distance measurement with lithium niobate electro-optic comb",
+      "authors": [
+        "Yifan Qi",
+        "Xingyu Jia",
+        "Jingyi Wang",
+        "Weiwei Yang",
+        "Yihan Miao",
+        "Xinlun Cai",
+        "Guanhao Wu",
+        "Yang Li"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "absolute distance measurement",
+        "electro-optic frequency comb",
+        "LiDAR",
+        "acquisition rate",
+        "half-wave voltage",
+        "autonomous vehicles"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-58018-8",
+      "cited_by_count": 30,
+      "importance": 0.483,
+      "score_basis": {
+        "topic_overlap": 0.184,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2883358148",
+      "doi": "10.1038/s41566-019-0378-6",
+      "title": "High-performance hybrid silicon and lithium niobate Mach–Zehnder modulators for 100 Gbit s−1 and beyond",
+      "authors": [
+        "Mingbo He",
+        "Mengyue Xu",
+        "Yuxuan Ren",
+        "Jian Jian",
+        "Ziliang Ruan",
+        "Yongsheng Xu",
+        "Shengqian Gao",
+        "Shihao Sun",
+        "Xueqin Wen",
+        "Lidan Zhou",
+        "Lin Liu",
+        "Changjian Guo",
+        "Hui Chen",
+        "Siyuan Yu",
+        "Liu Liu",
+        "Xinlun Cai"
+      ],
+      "year": 2019,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "Mach-Zehnder modulator",
+        "lithium niobate waveguides",
+        "silicon photonics",
+        "high-speed optical modulation",
+        "100 Gb/s",
+        "electro-optic bandwidth",
+        "insertion loss",
+        "voltage-length product",
+        "modulation linearity"
+      ],
+      "url": "https://doi.org/10.1038/s41566-019-0378-6",
+      "cited_by_count": 1206,
+      "importance": 0.4811,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4294068736",
+      "doi": "10.1109/jlt.2022.3203409",
+      "title": "Lithium Niobate Thin Film Polarization Beam Splitter Based on Asymmetric Directional Coupling",
+      "authors": [
+        "Yinan Wu",
+        "Xuerui Sun",
+        "Hao Li",
+        "Chuanyi Lu",
+        "Yuting Zhang",
+        "Shijie Liu",
+        "Yuanlin Zheng",
+        "Xianfeng Chen"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "polarization beam splitter",
+        "thin-film lithium niobate",
+        "asymmetric directional coupler",
+        "photonic integrated circuits",
+        "TE and TM modes",
+        "extinction ratio",
+        "telecom band",
+        "polarization multiplexing",
+        "electron beam lithography",
+        "inductively coupled plasma etching"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3203409",
+      "cited_by_count": 31,
+      "importance": 0.4786,
+      "score_basis": {
+        "topic_overlap": 0.175,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388520060",
+      "doi": "10.1126/science.adj5438",
+      "title": "Ultrafast mode-locked laser in nanophotonic lithium niobate",
+      "authors": [
+        "Qiushi Guo",
+        "Benjamin K. Gutierrez",
+        "Ryoto Sekine",
+        "Robert M. Gray",
+        "James Williams",
+        "Luis M. Ledezma",
+        "Luís Costa",
+        "Arkadev Roy",
+        "Selina Zhou",
+        "Mingchen Liu",
+        "Alireza Marandi"
+      ],
+      "year": 2023,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mode-locked lasers",
+        "lithium niobate",
+        "nanophotonics",
+        "semiconductor optical amplifier",
+        "hybrid integration",
+        "III-V photonics",
+        "ultrashort pulses",
+        "carrier-envelope offset frequency",
+        "electrically pumped lasers",
+        "picosecond pulses"
+      ],
+      "url": "https://doi.org/10.1126/science.adj5438",
+      "cited_by_count": 126,
+      "importance": 0.4709,
+      "score_basis": {
+        "topic_overlap": 0.335,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391987481",
+      "doi": "10.1364/ol.505362",
+      "title": "Tunable double notch filter on a thin-film lithium niobate platform",
+      "authors": [
+        "Songyan Hou",
+        "Hao Hu",
+        "Zhihong Liu",
+        "Weichuan Xing",
+        "Jincheng Zhang",
+        "Yue Hao"
+      ],
+      "year": 2024,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "tunable optical filter",
+        "thin-film lithium niobate",
+        "electro-optic tuning",
+        "nanophotonic waveguides",
+        "photonic integrated circuits",
+        "optical switching",
+        "wavelength division multiplexing"
+      ],
+      "url": "https://doi.org/10.1364/ol.505362",
+      "cited_by_count": 12,
+      "importance": 0.4585,
+      "score_basis": {
+        "topic_overlap": 0.241,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4378901101",
+      "doi": "10.1117/1.ap.5.3.034002",
+      "title": "Advances in lithium niobate thin-film lasers and amplifiers: a review",
+      "authors": [
+        "Qiang Luo",
+        "Bo Fang",
+        "Yongfa Kong",
+        "Guoquan Zhang",
+        "Jingjun Xu"
+      ],
+      "year": 2023,
+      "venue": "Advanced Photonics",
+      "venue_abbr": "Adv. Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "thin-film lasers",
+        "integrated photonics",
+        "optically pumped lasers",
+        "electrically pumped lasers",
+        "rare-earth doping",
+        "electro-optic modulator",
+        "nonlinear frequency conversion",
+        "on-chip light sources"
+      ],
+      "url": "https://doi.org/10.1117/1.ap.5.3.034002",
+      "cited_by_count": 133,
+      "importance": 0.4166,
+      "score_basis": {
+        "topic_overlap": 0.348,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2892135951",
+      "doi": "10.1038/s41586-018-0551-y",
+      "title": "Integrated lithium niobate electro-optic modulators operating at CMOS-compatible voltages",
+      "authors": [
+        "Cheng Wang",
+        "Mian Zhang",
+        "Xi Chen",
+        "Maxime Bertrand",
+        "Amirhassan Shams‐Ansari",
+        "S. Chandrasekhar",
+        "Peter J. Winzer",
+        "Marko Lončar"
+      ],
+      "year": 2018,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate",
+        "electro-optic modulator",
+        "monolithic integration",
+        "group velocity matching",
+        "low optical loss",
+        "microwave photonic systems",
+        "optical networks",
+        "reconfigurable photonic circuits"
+      ],
+      "url": "https://doi.org/10.1038/s41586-018-0551-y",
+      "cited_by_count": 2596,
+      "importance": 0.3856,
+      "score_basis": {
+        "topic_overlap": 0.19,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2971102795",
+      "doi": "10.1364/optica.6.001138",
+      "title": "Self-starting bi-chromatic LiNbO 3 soliton microcomb",
+      "authors": [
+        "Yang He",
+        "Qi‐Fan Yang",
+        "Jingwei Ling",
+        "Rui Luo",
+        "Hanxiao Liang",
+        "Mingxiao Li",
+        "Boqiang Shen",
+        "Heming Wang",
+        "Kerry J. Vahala",
+        "Qiang Lin"
+      ],
+      "year": 2019,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "lithium niobate",
+        "soliton microcombs",
+        "self-starting mode locking",
+        "photorefractive effect",
+        "soliton switching",
+        "second harmonic generation",
+        "self-frequency shift",
+        "high-Q resonators",
+        "frequency synthesis",
+        "electro-optic control",
+        "piezoelectric control"
+      ],
+      "url": "https://doi.org/10.1364/optica.6.001138",
+      "cited_by_count": 409,
+      "importance": 0.3844,
+      "score_basis": {
+        "topic_overlap": 0.188,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2943018275",
+      "doi": "10.1103/physrevlett.122.173903",
+      "title": "Broadband Quasi-Phase-Matched Harmonic Generation in an On-Chip Monocrystalline Lithium Niobate Microdisk Resonator",
+      "authors": [
+        "Jintian Lin",
+        "Ni Yao",
+        "Zhenzhong Hao",
+        "Jianhao Zhang",
+        "Wenbo Mao",
+        "Min Wang",
+        "Wei Chu",
+        "Rongbo Wu",
+        "Zhiwei Fang",
+        "Lingling Qiao",
+        "Wei Fang",
+        "Bo Fang",
+        "Ya Cheng"
+      ],
+      "year": 2019,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quasi-phase matching",
+        "harmonic generation",
+        "lithium niobate",
+        "microdisk resonators",
+        "second harmonic",
+        "nonlinear optical coefficients",
+        "X-cut lithium niobate",
+        "wavelength conversion",
+        "entangled photon sources"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.122.173903",
+      "cited_by_count": 233,
+      "importance": 0.3842,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2984580011",
+      "doi": "10.1063/1.5124254",
+      "title": "Tutorial on narrow linewidth tunable semiconductor lasers using Si/III-V heterogeneous integration",
+      "authors": [
+        "Minh A. Tran",
+        "Duanni Huang",
+        "John Edward Bowers"
+      ],
+      "year": 2019,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "narrow-linewidth laser",
+        "tunable semiconductor laser",
+        "silicon photonics",
+        "III-V semiconductor lasers",
+        "Lorentzian linewidth",
+        "laser linewidth reduction",
+        "coherent optical communication",
+        "optical sensing",
+        "optical metrology"
+      ],
+      "url": "https://doi.org/10.1063/1.5124254",
+      "cited_by_count": 303,
+      "importance": 0.37,
+      "score_basis": {
+        "topic_overlap": 0.156,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313855684",
+      "doi": "10.1109/jlt.2023.3235105",
+      "title": "Self-Injection Locked Silica External Cavity Narrow Linewidth Laser",
+      "authors": [
+        "Guojie Zhang",
+        "Qizhuang Cen",
+        "Tengfei Hao",
+        "Xiaojie Yin",
+        "Xingzhuang Zi",
+        "Nuannuan Shi",
+        "Wei Li",
+        "Ninghua Zhu",
+        "Ming Li"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "narrow-linewidth laser",
+        "self-injection locking",
+        "external cavity laser",
+        "silica photonics",
+        "microring resonators",
+        "directional coupler",
+        "chirp reduction",
+        "frequency stability",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3235105",
+      "cited_by_count": 35,
+      "importance": 0.3518,
+      "score_basis": {
+        "topic_overlap": 0.182,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4282032659",
+      "doi": "10.1364/oe.458218",
+      "title": "Thermo-optic tunable optical filters with GHz-bandwidth and flat-top passband on thin film lithium niobate platform",
+      "authors": [
+        "Yuedi Ding",
+        "Shiqi Tao",
+        "Xuanhao Wang",
+        "Chenglin Shang",
+        "An Pan",
+        "Cheng Zeng",
+        "Jinsong Xia"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "lithium niobate on insulator",
+        "thin-film lithium niobate",
+        "microring resonators",
+        "cascaded resonators",
+        "flat-top passband",
+        "microwave photonics",
+        "optical information processing",
+        "insertion loss"
+      ],
+      "url": "https://doi.org/10.1364/oe.458218",
+      "cited_by_count": 38,
+      "importance": 0.3496,
+      "score_basis": {
+        "topic_overlap": 0.177,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4363650242",
+      "doi": "10.1364/optica.484549",
+      "title": "100 GHz bandwidth, 1 volt integrated electro-optic Mach–Zehnder modulator at near-IR wavelengths",
+      "authors": [
+        "Forrest Valdez",
+        "Viphretuo Mere",
+        "Shayan Mookherjea"
+      ],
+      "year": 2023,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "silicon nitride waveguides",
+        "hybrid integrated photonics",
+        "near-infrared photonics",
+        "high-bandwidth modulation",
+        "low-voltage modulation",
+        "half-wave voltage",
+        "extinction ratio"
+      ],
+      "url": "https://doi.org/10.1364/optica.484549",
+      "cited_by_count": 99,
+      "importance": 0.3495,
+      "score_basis": {
+        "topic_overlap": 0.221,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400996136",
+      "doi": "10.29026/oea.2024.240061",
+      "title": "Soliton microcomb generation by cavity polygon modes",
+      "authors": [
+        "Botao Fu",
+        "Renhong Gao",
+        "Ni Yao",
+        "Haisu Zhang",
+        "Chuntao Li",
+        "Jintian Lin",
+        "Min Wang",
+        "Lingling Qiao",
+        "Ya Cheng"
+      ],
+      "year": 2024,
+      "venue": "Opto-Electronic Advances",
+      "venue_abbr": "OEA",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "soliton microcombs",
+        "anomalous dispersion",
+        "whispering gallery modes",
+        "optical quality factor",
+        "integrated photonics",
+        "dispersion engineering"
+      ],
+      "url": "https://doi.org/10.29026/oea.2024.240061",
+      "cited_by_count": 42,
+      "importance": 0.3319,
+      "score_basis": {
+        "topic_overlap": 0.027,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3005039507",
+      "doi": "10.1364/oe.386356",
+      "title": "Ring resonator enhanced mode-hop-free wavelength tuning of an integrated extended-cavity laser",
+      "authors": [
+        "Albert van Rees",
+        "Youwen Fan",
+        "Dimitri Geskus",
+        "Edwin Jan Klein",
+        "Ruud M. Oldenbeuving",
+        "Petrus J.M. van der Slot",
+        "Klaus J. Boller"
+      ],
+      "year": 2020,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "ring resonator",
+        "extended cavity lasers",
+        "continuous wavelength tuning",
+        "free spectral range",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/oe.386356",
+      "cited_by_count": 72,
+      "importance": 0.3257,
+      "score_basis": {
+        "topic_overlap": 0.235,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3135506291",
+      "doi": "10.1021/acsphotonics.0c01607",
+      "title": "Gigahertz Acousto-Optic Modulation and Frequency Shifting on Etchless Lithium Niobate Integrated Platform",
+      "authors": [
+        "Zejie Yu",
+        "Xiankai Sun"
+      ],
+      "year": 2021,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "acousto-optic modulation",
+        "single-sideband modulation",
+        "frequency shift",
+        "integrated photonics",
+        "C-band",
+        "optical signal processing",
+        "ion trapping"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.0c01607",
+      "cited_by_count": 72,
+      "importance": 0.2754,
+      "score_basis": {
+        "topic_overlap": 0.168,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2979785333",
+      "doi": "10.3390/app9204225",
+      "title": "Si Photonics for Practical LiDAR Solutions",
+      "authors": [
+        "Xiaochen Sun",
+        "Lingxuan Zhang",
+        "Qihao Zhang",
+        "Wenfu Zhang"
+      ],
+      "year": 2019,
+      "venue": "Applied Sciences",
+      "venue_abbr": "Appl. Sci.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Si photonics",
+        "LiDAR",
+        "automotive LiDAR",
+        "optical phased array",
+        "lidar system design",
+        "photonic devices"
+      ],
+      "url": "https://doi.org/10.3390/app9204225",
+      "cited_by_count": 116,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2883358148",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2883358148"
+        }
+      ]
+    },
+    {
+      "from": "W2943018275",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2943018275"
+        }
+      ]
+    },
+    {
+      "from": "W3021779279",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3021779279"
+        }
+      ]
+    },
+    {
+      "from": "W3021779279",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3021779279"
+        }
+      ]
+    },
+    {
+      "from": "W3021779279",
+      "to": "W2943018275",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3021779279"
+        }
+      ]
+    },
+    {
+      "from": "W3021779279",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3021779279"
+        }
+      ]
+    },
+    {
+      "from": "W3047301857",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047301857"
+        }
+      ]
+    },
+    {
+      "from": "W3047301857",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047301857"
+        }
+      ]
+    },
+    {
+      "from": "W3127881187",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127881187"
+        }
+      ]
+    },
+    {
+      "from": "W3127881187",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127881187"
+        }
+      ]
+    },
+    {
+      "from": "W3128605999",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3128605999"
+        }
+      ]
+    },
+    {
+      "from": "W3128605999",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3128605999"
+        }
+      ]
+    },
+    {
+      "from": "W3196655433",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3196655433"
+        }
+      ]
+    },
+    {
+      "from": "W3202561006",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202561006"
+        }
+      ]
+    },
+    {
+      "from": "W3202561006",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202561006"
+        }
+      ]
+    },
+    {
+      "from": "W3202561006",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202561006"
+        }
+      ]
+    },
+    {
+      "from": "W3202561006",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202561006"
+        }
+      ]
+    },
+    {
+      "from": "W3206091767",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3206091767"
+        }
+      ]
+    },
+    {
+      "from": "W3206091767",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3206091767"
+        }
+      ]
+    },
+    {
+      "from": "W4224980528",
+      "to": "W2984580011",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224980528"
+        }
+      ]
+    },
+    {
+      "from": "W4224980528",
+      "to": "W3196655433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224980528"
+        }
+      ]
+    },
+    {
+      "from": "W4224980528",
+      "to": "W3206091767",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224980528"
+        }
+      ]
+    },
+    {
+      "from": "W4224980528",
+      "to": "W4324344181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224980528"
+        }
+      ]
+    },
+    {
+      "from": "W4282032659",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282032659"
+        }
+      ]
+    },
+    {
+      "from": "W4294068736",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294068736"
+        }
+      ]
+    },
+    {
+      "from": "W4294068736",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294068736"
+        }
+      ]
+    },
+    {
+      "from": "W4294068736",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294068736"
+        }
+      ]
+    },
+    {
+      "from": "W4294068736",
+      "to": "W3202561006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294068736"
+        }
+      ]
+    },
+    {
+      "from": "W4296002986",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296002986"
+        }
+      ]
+    },
+    {
+      "from": "W4296002986",
+      "to": "W2984580011",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296002986"
+        }
+      ]
+    },
+    {
+      "from": "W4296002986",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296002986"
+        }
+      ]
+    },
+    {
+      "from": "W4296002986",
+      "to": "W3196655433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296002986"
+        }
+      ]
+    },
+    {
+      "from": "W4296002986",
+      "to": "W3206091767",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296002986"
+        }
+      ]
+    },
+    {
+      "from": "W4313555657",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313555657"
+        }
+      ]
+    },
+    {
+      "from": "W4313555657",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313555657"
+        }
+      ]
+    },
+    {
+      "from": "W4313555657",
+      "to": "W3021779279",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313555657"
+        }
+      ]
+    },
+    {
+      "from": "W4313555657",
+      "to": "W3196655433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313555657"
+        }
+      ]
+    },
+    {
+      "from": "W4313555657",
+      "to": "W4224980528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313555657"
+        }
+      ]
+    },
+    {
+      "from": "W4313855684",
+      "to": "W2984580011",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313855684"
+        }
+      ]
+    },
+    {
+      "from": "W4324344181",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4324344181"
+        }
+      ]
+    },
+    {
+      "from": "W4324344181",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4324344181"
+        }
+      ]
+    },
+    {
+      "from": "W4324344181",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4324344181"
+        }
+      ]
+    },
+    {
+      "from": "W4324344181",
+      "to": "W3196655433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4324344181"
+        }
+      ]
+    },
+    {
+      "from": "W4324344181",
+      "to": "W3206091767",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4324344181"
+        }
+      ]
+    },
+    {
+      "from": "W4363650242",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4363650242"
+        }
+      ]
+    },
+    {
+      "from": "W4388520060",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388520060"
+        }
+      ]
+    },
+    {
+      "from": "W4388520060",
+      "to": "W3128605999",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388520060"
+        }
+      ]
+    },
+    {
+      "from": "W4390807355",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390807355"
+        }
+      ]
+    },
+    {
+      "from": "W4390807355",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390807355"
+        }
+      ]
+    },
+    {
+      "from": "W4390807355",
+      "to": "W2984580011",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390807355"
+        }
+      ]
+    },
+    {
+      "from": "W4390807355",
+      "to": "W4224980528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390807355"
+        }
+      ]
+    },
+    {
+      "from": "W4390807355",
+      "to": "W4282032659",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390807355"
+        }
+      ]
+    },
+    {
+      "from": "W4390807355",
+      "to": "W4313855684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390807355"
+        }
+      ]
+    },
+    {
+      "from": "W4390807355",
+      "to": "W4324344181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390807355"
+        }
+      ]
+    },
+    {
+      "from": "W4391564616",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391564616"
+        }
+      ]
+    },
+    {
+      "from": "W4391564616",
+      "to": "W4224980528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391564616"
+        }
+      ]
+    },
+    {
+      "from": "W4391564616",
+      "to": "W4313555657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391564616"
+        }
+      ]
+    },
+    {
+      "from": "W4391564616",
+      "to": "W4324344181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391564616"
+        }
+      ]
+    },
+    {
+      "from": "W4391987481",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391987481"
+        }
+      ]
+    },
+    {
+      "from": "W4391987481",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391987481"
+        }
+      ]
+    },
+    {
+      "from": "W4391987481",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391987481"
+        }
+      ]
+    },
+    {
+      "from": "W4392242467",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392242467"
+        }
+      ]
+    },
+    {
+      "from": "W4392242467",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392242467"
+        }
+      ]
+    },
+    {
+      "from": "W4392242467",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392242467"
+        }
+      ]
+    },
+    {
+      "from": "W4392242467",
+      "to": "W4313555657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392242467"
+        }
+      ]
+    },
+    {
+      "from": "W4392358646",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392358646"
+        }
+      ]
+    },
+    {
+      "from": "W4392358646",
+      "to": "W3196655433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392358646"
+        }
+      ]
+    },
+    {
+      "from": "W4392358646",
+      "to": "W3206091767",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392358646"
+        }
+      ]
+    },
+    {
+      "from": "W4392358646",
+      "to": "W4224980528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392358646"
+        }
+      ]
+    },
+    {
+      "from": "W4392699884",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392699884"
+        }
+      ]
+    },
+    {
+      "from": "W4392699884",
+      "to": "W2943018275",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392699884"
+        }
+      ]
+    },
+    {
+      "from": "W4392699884",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392699884"
+        }
+      ]
+    },
+    {
+      "from": "W4392699884",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392699884"
+        }
+      ]
+    },
+    {
+      "from": "W4392699884",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392699884"
+        }
+      ]
+    },
+    {
+      "from": "W4392699884",
+      "to": "W3196655433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392699884"
+        }
+      ]
+    },
+    {
+      "from": "W4392699884",
+      "to": "W3206091767",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392699884"
+        }
+      ]
+    },
+    {
+      "from": "W4392699884",
+      "to": "W4224980528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392699884"
+        }
+      ]
+    },
+    {
+      "from": "W4392699884",
+      "to": "W4313555657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392699884"
+        }
+      ]
+    },
+    {
+      "from": "W4392699884",
+      "to": "W4324344181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392699884"
+        }
+      ]
+    },
+    {
+      "from": "W4392699884",
+      "to": "W4378901101",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392699884"
+        }
+      ]
+    },
+    {
+      "from": "W4397013634",
+      "to": "W2984580011",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4397013634"
+        }
+      ]
+    },
+    {
+      "from": "W4397013634",
+      "to": "W4224980528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4397013634"
+        }
+      ]
+    },
+    {
+      "from": "W4397013634",
+      "to": "W4324344181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4397013634"
+        }
+      ]
+    },
+    {
+      "from": "W4400996136",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400996136"
+        }
+      ]
+    },
+    {
+      "from": "W4400996136",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400996136"
+        }
+      ]
+    },
+    {
+      "from": "W4402139037",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402139037"
+        }
+      ]
+    },
+    {
+      "from": "W4402139037",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402139037"
+        }
+      ]
+    },
+    {
+      "from": "W4402139037",
+      "to": "W3128605999",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402139037"
+        }
+      ]
+    },
+    {
+      "from": "W4402139037",
+      "to": "W3196655433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402139037"
+        }
+      ]
+    },
+    {
+      "from": "W4402139037",
+      "to": "W3206091767",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402139037"
+        }
+      ]
+    },
+    {
+      "from": "W4402139037",
+      "to": "W4313555657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402139037"
+        }
+      ]
+    },
+    {
+      "from": "W4402139037",
+      "to": "W4324344181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402139037"
+        }
+      ]
+    },
+    {
+      "from": "W4402139037",
+      "to": "W4409808365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402139037"
+        }
+      ]
+    },
+    {
+      "from": "W4406392738",
+      "to": "W2943018275",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406392738"
+        }
+      ]
+    },
+    {
+      "from": "W4406392738",
+      "to": "W3021779279",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406392738"
+        }
+      ]
+    },
+    {
+      "from": "W4406392738",
+      "to": "W3128605999",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406392738"
+        }
+      ]
+    },
+    {
+      "from": "W4406392738",
+      "to": "W4392242467",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406392738"
+        }
+      ]
+    },
+    {
+      "from": "W4406392738",
+      "to": "W4400996136",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406392738"
+        }
+      ]
+    },
+    {
+      "from": "W4406844005",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406844005"
+        }
+      ]
+    },
+    {
+      "from": "W4406844005",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406844005"
+        }
+      ]
+    },
+    {
+      "from": "W4406844005",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406844005"
+        }
+      ]
+    },
+    {
+      "from": "W4406844005",
+      "to": "W4324344181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406844005"
+        }
+      ]
+    },
+    {
+      "from": "W4406844005",
+      "to": "W4378901101",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406844005"
+        }
+      ]
+    },
+    {
+      "from": "W4406844005",
+      "to": "W4392242467",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406844005"
+        }
+      ]
+    },
+    {
+      "from": "W4407253470",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407253470"
+        }
+      ]
+    },
+    {
+      "from": "W4407253470",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407253470"
+        }
+      ]
+    },
+    {
+      "from": "W4407253470",
+      "to": "W3005039507",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407253470"
+        }
+      ]
+    },
+    {
+      "from": "W4407253470",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407253470"
+        }
+      ]
+    },
+    {
+      "from": "W4407253470",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407253470"
+        }
+      ]
+    },
+    {
+      "from": "W4407253470",
+      "to": "W3196655433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407253470"
+        }
+      ]
+    },
+    {
+      "from": "W4407253470",
+      "to": "W4224980528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407253470"
+        }
+      ]
+    },
+    {
+      "from": "W4407253470",
+      "to": "W4390807355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407253470"
+        }
+      ]
+    },
+    {
+      "from": "W4407253470",
+      "to": "W4391564616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407253470"
+        }
+      ]
+    },
+    {
+      "from": "W4407253470",
+      "to": "W4402139037",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407253470"
+        }
+      ]
+    },
+    {
+      "from": "W4408814972",
+      "to": "W3021779279",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408814972"
+        }
+      ]
+    },
+    {
+      "from": "W4408814972",
+      "to": "W3196655433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408814972"
+        }
+      ]
+    },
+    {
+      "from": "W4408814972",
+      "to": "W4324344181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408814972"
+        }
+      ]
+    },
+    {
+      "from": "W4408814972",
+      "to": "W4397013634",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408814972"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W3196655433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W3206091767",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W4224980528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W4313555657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W4324344181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W4378901101",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W4388520060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4411068096",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411068096"
+        }
+      ]
+    },
+    {
+      "from": "W4411068096",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411068096"
+        }
+      ]
+    },
+    {
+      "from": "W4411068096",
+      "to": "W2984580011",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411068096"
+        }
+      ]
+    },
+    {
+      "from": "W4411068096",
+      "to": "W4224980528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411068096"
+        }
+      ]
+    },
+    {
+      "from": "W4411068096",
+      "to": "W4324344181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411068096"
+        }
+      ]
+    },
+    {
+      "from": "W4411068096",
+      "to": "W4397013634",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411068096"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W2883358148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W2943018275",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W2971102795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W2979785333",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W2984580011",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W3005039507",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W3021779279",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W3128605999",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W3135506291",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W3196655433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W3202561006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W3206091767",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4224980528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4282032659",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4294068736",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4296002986",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4313555657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4313855684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4324344181",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4363650242",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4378901101",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4388520060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4390807355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4391564616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4391987481",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4392242467",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4392358646",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4392699884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4397013634",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4400996136",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4402139037",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4406392738",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4406844005",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4407253470",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4408814972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4409808365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    },
+    {
+      "from": "W7221576615",
+      "to": "W4411068096",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221576615"
+        }
+      ]
+    }
+  ]
 }

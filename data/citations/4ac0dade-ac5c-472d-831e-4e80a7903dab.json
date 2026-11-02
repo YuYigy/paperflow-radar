@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "4ac0dade-ac5c-472d-831e-4e80a7903dab",
-  "root": "doi:10.1002/lpor.72071",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7222187671",
+  "status": "ok",
+  "checked_at": "2026-11-02T00:50:08.381053+00:00",
+  "coverage": {
+    "references_found": 40,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 40,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1002/lpor.72071",
+      "id": "W7222187671",
       "doi": "10.1002/lpor.72071",
       "title": "Sb 2 Se 3 ‐Integrated Silicon‐on‐Sapphire Photonics for Nonvolatile Spectral Trimming in the Mid‐Infrared",
       "authors": [
@@ -24,26 +34,2558 @@
         "Shouyan Zhang",
         "Mengxue Qi",
         "Seyyed Moinalden Mostaan",
-        "Qijie Wang",
+        "Qi Jie Wang",
         "Yan Cai",
         "Lan Li",
         "Peilong Yang",
-        "Hongtao Lin"
+        "Lan Li"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Laser & Photonics Reviews",
       "venue_abbr": "LPR",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "Sb2Se3",
+        "phase change materials",
+        "mid-infrared photonics",
+        "Mach-Zehnder interferometer",
+        "microring resonators",
+        "Bragg gratings",
+        "microheaters",
+        "amorphous-to-crystalline transition"
+      ],
       "url": "https://doi.org/10.1002/lpor.72071",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/4ac0dade-ac5c-472d-831e-4e80a7903dab.html",
       "summary": "摘要报告：集成中红外传感系统对制造偏差与环境扰动敏感，后制造校准是核心挑战；非挥发相变材料（PCM）可免静态功耗实现设定-保持光谱校正，但3 µm以上集成PCM平台鲜有报道。演示3.2 µm附近Sb₂Se₃/蓝宝石上硅修调平台的三类传感架构（MZI、微环、布拉格光栅）：热板外置结晶确立非晶-晶态端态修调范围，集成微加热器经渐进电结晶实现原位多级修调；PCM加载混合波导π相移长度48 µm，布拉格器件3 dB阻带带宽展宽18 nm；作者称系3 µm以上跨干涉/谐振/布拉格架构的非挥发PCM修调平台首次实验演示，为集成中红外光子学零静态功耗校准与非挥发光谱校正提供路径。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W4386965204",
+      "doi": "10.1016/j.isci.2023.107946",
+      "title": "Roadmap for phase change materials in photonics and beyond",
+      "authors": [
+        "Patinharekandy Prabhathan",
+        "Kandammathe Valiyaveedu Sreekanth",
+        "Jinghua Teng",
+        "Joo Hwan Ko",
+        "Young Jin Yoo",
+        "Hyeon‐Ho Jeong",
+        "Yubin Lee",
+        "Shoujun Zhang",
+        "Tun Cao",
+        "Cosmin‐Constantin Popescu",
+        "Brian Mills",
+        "Tian Gu",
+        "Zhuoran Fang",
+        "Rui Chen",
+        "Hao Tong",
+        "Yi Wang",
+        "Qiang He",
+        "Yitao Lu",
+        "Zhiyuan Liu",
+        "Han Yu",
+        "Avik Mandal",
+        "Yihao Cui",
+        "Abbas Sheikh Ansari",
+        "Viraj Bhingardive",
+        "Myungkoo Kang",
+        "Choon Kong Lai",
+        "Moritz Merklein",
+        "Maximilian J. Müller",
+        "Young Min Song",
+        "Zhen Tian",
+        "Juejun Hu",
+        "María Losurdo",
+        "Arka Majumdar",
+        "Xiangshui Miao",
+        "Xiao Chen",
+        "Behrad Gholipour",
+        "Kathleen A. Richardson",
+        "Benjamin J. Eggleton",
+        "Matthias Wuttig",
+        "Ranjan Singh"
+      ],
+      "year": 2023,
+      "venue": "iScience",
+      "venue_abbr": "iScience",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase change materials",
+        "metasurface design",
+        "photonic integrated circuits",
+        "non-volatile memory",
+        "optical data storage",
+        "energy harvesting",
+        "neuromorphic computing",
+        "thermal management",
+        "flexible electronics",
+        "biophotonics"
+      ],
+      "url": "https://doi.org/10.1016/j.isci.2023.107946",
+      "cited_by_count": 136,
+      "importance": 0.6282,
+      "score_basis": {
+        "topic_overlap": 0.307,
+        "shared_references": 5,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386097912",
+      "doi": "10.1364/ome.498931",
+      "title": "Nonvolatile tuning of Bragg structures using transparent phase-change materials",
+      "authors": [
+        "Nicholas A. Nobile",
+        "Chuanyu Lian",
+        "Hongyi Sun",
+        "Yi‐Siou Huang",
+        "Brian Mills",
+        "Cosmin‐Constantin Popescu",
+        "Dennis M. Callahan",
+        "Juejun Hu",
+        "Carlos Rı́os",
+        "Nathan Youngblood"
+      ],
+      "year": 2023,
+      "venue": "Optical Materials Express",
+      "venue_abbr": "Optical Materials Express",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Bragg gratings",
+        "phase change materials",
+        "Sb2Se3",
+        "band-stop filter",
+        "Fabry-Perot cavity",
+        "refractive index modulation",
+        "broadband transparency",
+        "index contrast",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1364/ome.498931",
+      "cited_by_count": 10,
+      "importance": 0.625,
+      "score_basis": {
+        "topic_overlap": 0.5,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4229049782",
+      "doi": "10.1021/acsphotonics.2c00452",
+      "title": "Broadband Nonvolatile Electrically Controlled Programmable Units in Silicon Photonics",
+      "authors": [
+        "Rui Chen",
+        "Zhuoran Fang",
+        "Johannes E. Fröch",
+        "Peipeng Xu",
+        "Jiajiu Zheng",
+        "Arka Majumdar"
+      ],
+      "year": 2022,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "programmable photonic integrated circuits",
+        "Ge2Sb2Te5",
+        "directional coupler",
+        "silicon photonics",
+        "switching endurance",
+        "telecommunication C-band",
+        "insertion loss",
+        "crosstalk",
+        "low static power consumption"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.2c00452",
+      "cited_by_count": 105,
+      "importance": 0.5835,
+      "score_basis": {
+        "topic_overlap": 0.408,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411043534",
+      "doi": "10.1364/oe.563531",
+      "title": "On-chip nonvolatile and erasable silicon waveguide filter based on a low-loss phase-change material",
+      "authors": [
+        "Shengxiong Lai",
+        "Yuexiang Guo",
+        "Lun Zhang",
+        "Xin Hu",
+        "Yin Xu",
+        "Hualong Bao"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "phase change materials",
+        "Sb2Se3",
+        "laser-induced phase transition",
+        "Bragg diffraction",
+        "Fabry-Perot resonance",
+        "programmable photonic circuits",
+        "low-loss waveguides"
+      ],
+      "url": "https://doi.org/10.1364/oe.563531",
+      "cited_by_count": 3,
+      "importance": 0.5646,
+      "score_basis": {
+        "topic_overlap": 0.477,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3170585019",
+      "doi": "10.1126/sciadv.abg3500",
+      "title": "Nonvolatile programmable silicon photonics using an ultralow-loss Sb 2 Se 3 phase change material",
+      "authors": [
+        "Matthew Delaney",
+        "Ioannis Zeimpekis",
+        "Han Du",
+        "Xingzhao Yan",
+        "Mehdi Banakar",
+        "David J. Thomson",
+        "Daniel William Hewak",
+        "Otto L. Muskens"
+      ],
+      "year": 2021,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "phase change materials",
+        "Sb2Se3",
+        "non-volatile memory",
+        "optical phase control",
+        "Mach-Zehnder interferometer"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.abg3500",
+      "cited_by_count": 287,
+      "importance": 0.5464,
+      "score_basis": {
+        "topic_overlap": 0.436,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4394746749",
+      "doi": "10.1016/j.optlastec.2024.111005",
+      "title": "Compact non-volatile multilevel Sb2Se3 electro-optical switching in the mid-infrared group-IV-photonics platform",
+      "authors": [
+        "Richard A. Soref",
+        "Francesco De Leonardis",
+        "Martino De Carlo",
+        "Vittorio M. N. Passaro"
+      ],
+      "year": 2024,
+      "venue": "Optics & Laser Technology",
+      "venue_abbr": "Opt. Laser Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Sb2Se3",
+        "phase change materials",
+        "electro-optic switching",
+        "germanium-on-insulator",
+        "mid-infrared photonics",
+        "group IV semiconductors",
+        "Mach-Zehnder interferometer",
+        "directional coupler",
+        "multilevel switching",
+        "crossbar switching",
+        "ring resonator",
+        "thermal modeling"
+      ],
+      "url": "https://doi.org/10.1016/j.optlastec.2024.111005",
+      "cited_by_count": 16,
+      "importance": 0.5455,
+      "score_basis": {
+        "topic_overlap": 0.501,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402331718",
+      "doi": "10.1002/apxr.202400080",
+      "title": "A Review of Integrated Photonic Devices Using Sb 2 Se 3",
+      "authors": [
+        "Xiaojun Chen",
+        "Jiao Lin",
+        "Ke Wang"
+      ],
+      "year": 2024,
+      "venue": "Advanced Physics Research",
+      "venue_abbr": "Advanced Physics Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Sb2Se3",
+        "silicon photonics",
+        "photonic integrated circuits",
+        "phase change materials",
+        "low-loss optical waveguides",
+        "C-band",
+        "optical switching",
+        "integrated optical devices"
+      ],
+      "url": "https://doi.org/10.1002/apxr.202400080",
+      "cited_by_count": 13,
+      "importance": 0.517,
+      "score_basis": {
+        "topic_overlap": 0.371,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391646802",
+      "doi": "10.1364/ome.511923",
+      "title": "Sb 2 S 3 as a low-loss phase-change material for mid-IR photonics",
+      "authors": [
+        "Adam Biegański",
+        "Marko Perestjuk",
+        "Rémi Armand",
+        "Alberto Della Torre",
+        "Capucine Laprais",
+        "Guillaume Saint‐Girons",
+        "Vincent Reboud",
+        "Jean‐Michel Hartmann",
+        "J.H. Tortai",
+        "Antonin Moreau",
+        "Julien H. Lumeau",
+        "Thach Giang Nguyen",
+        "Arnan Mitchell",
+        "Christelle Monat",
+        "Sébastien Cueff",
+        "Christian Grillet"
+      ],
+      "year": 2024,
+      "venue": "Optical Materials Express",
+      "venue_abbr": "Optical Materials Express",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Sb2S3",
+        "phase change materials",
+        "mid-infrared photonics",
+        "integrated photonics",
+        "refractive index contrast",
+        "extinction coefficient",
+        "path loss",
+        "cladding"
+      ],
+      "url": "https://doi.org/10.1364/ome.511923",
+      "cited_by_count": 28,
+      "importance": 0.5135,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406805159",
+      "doi": "10.1002/adom.202402997",
+      "title": "Reconfigurable Free Form Silicon Photonics by Phase Change Waveguides",
+      "authors": [
+        "Gao Shixin",
+        "Ren Haonan",
+        "庞景哲 PANG Jingzhe",
+        "Ren Yang",
+        "Zhenqing Zhao",
+        "Shuang Zhang",
+        "Tun Cao"
+      ],
+      "year": 2025,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reconfigurable photonic integrated circuits",
+        "phase change materials",
+        "Sb2S3",
+        "chalcogenide phase-change materials",
+        "silicon photonics",
+        "silicon-on-insulator",
+        "direct laser writing",
+        "CMOS-compatible fabrication",
+        "waveguide coupling",
+        "optical interconnects",
+        "neuromorphic photonics",
+        "quantum photonics"
+      ],
+      "url": "https://doi.org/10.1002/adom.202402997",
+      "cited_by_count": 15,
+      "importance": 0.4974,
+      "score_basis": {
+        "topic_overlap": 0.439,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390046135",
+      "doi": "10.1021/acs.nanolett.3c03353",
+      "title": "Arbitrary Programming of Racetrack Resonators Using Low-Loss Phase-Change Material Sb 2 Se 3",
+      "authors": [
+        "Zhuoran Fang",
+        "Brian Mills",
+        "Rui Chen",
+        "Jieying Zhang",
+        "Peipeng Xu",
+        "Juejun Hu",
+        "Arka Majumdar"
+      ],
+      "year": 2023,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "programmable photonic integrated circuits",
+        "racetrack resonator",
+        "phase change materials",
+        "Sb2Se3",
+        "directional coupler",
+        "low insertion loss",
+        "optical interconnects",
+        "energy-efficient photonics"
+      ],
+      "url": "https://doi.org/10.1021/acs.nanolett.3c03353",
+      "cited_by_count": 49,
+      "importance": 0.4562,
+      "score_basis": {
+        "topic_overlap": 0.347,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3041268832",
+      "doi": "10.1002/adfm.202002447",
+      "title": "A New Family of Ultralow Loss Reversible Phase‐Change Materials for Photonic Integrated Circuits: Sb 2 S 3 and Sb 2 Se 3",
+      "authors": [
+        "Matthew Delaney",
+        "Ioannis Zeimpekis",
+        "Daniel Lawson",
+        "Daniel William Hewak",
+        "Otto L. Muskens"
+      ],
+      "year": 2020,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase change materials",
+        "Sb2S3",
+        "Sb2Se3",
+        "refractive index contrast",
+        "optical switching",
+        "reconfigurable photonic integrated circuits",
+        "figure of merit",
+        "waveguide loss",
+        "C-band",
+        "visible wavelength lasers",
+        "switching endurance",
+        "reconfigurable metasurface"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202002447",
+      "cited_by_count": 680,
+      "importance": 0.4368,
+      "score_basis": {
+        "topic_overlap": 0.304,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3007690484",
+      "doi": "10.1364/prj.382529",
+      "title": "Laser trimming of the operating wavelength of silicon nitride racetrack resonators",
+      "authors": [
+        "Greta De Paoli",
+        "Senta L. Jantzen",
+        "Thalía Domínguez Bucio",
+        "Ilias Skandalos",
+        "Christopher H. Holmes",
+        "Peter G. R. Smith",
+        "Milan M. Milošević",
+        "Frédéric Y. Gardes"
+      ],
+      "year": 2020,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "laser trimming",
+        "silicon nitride",
+        "racetrack resonator",
+        "ultraviolet laser",
+        "wavelength tuning",
+        "free spectral range",
+        "post-fabrication tuning",
+        "silicon photonics",
+        "optical resonators"
+      ],
+      "url": "https://doi.org/10.1364/prj.382529",
+      "cited_by_count": 29,
+      "importance": 0.4356,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390697156",
+      "doi": "10.1021/acsphotonics.3c01598",
+      "title": "Seven Bit Nonvolatile Electrically Programmable Photonics Based on Phase-Change Materials for Image Recognition",
+      "authors": [
+        "Jian Guo Xia",
+        "Tianci Wang",
+        "Zixuan Wang",
+        "Junjie Gong",
+        "Yunxiao Dong",
+        "Rui Yang",
+        "Xiangshui Miao"
+      ],
+      "year": 2024,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "phase change materials",
+        "nitrogen doping",
+        "Ge2Sb2Te5",
+        "crystallization kinetics",
+        "grain refinement",
+        "optical convolutional neural networks",
+        "handwritten digit recognition",
+        "neuromorphic computing",
+        "optical neural networks",
+        "waveguide integration"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.3c01598",
+      "cited_by_count": 47,
+      "importance": 0.4343,
+      "score_basis": {
+        "topic_overlap": 0.187,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3034339773",
+      "doi": "10.1364/optica.392878",
+      "title": "Reversible optical tuning of GeSbTe phase-change metasurface spectral filters for mid-wave infrared imaging",
+      "authors": [
+        "Matthew Julian",
+        "Calum Williams",
+        "Stephen E. Borg",
+        "Scott M. Bartram",
+        "Hyun Jung Kim"
+      ],
+      "year": 2020,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "phase-change metasurfaces",
+        "GeSbTe",
+        "mid-wave infrared",
+        "infrared thermography",
+        "plasmonic nanohole arrays",
+        "optical switching",
+        "hyperspectral imaging",
+        "nanosecond laser pulses"
+      ],
+      "url": "https://doi.org/10.1364/optica.392878",
+      "cited_by_count": 172,
+      "importance": 0.4282,
+      "score_basis": {
+        "topic_overlap": 0.196,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414290905",
+      "doi": "10.1364/oe.567610",
+      "title": "Thermally induced refractive index trimming of visible-light silicon nitride waveguides using suspended heaters",
+      "authors": [
+        "Hong Chen",
+        "Tianyuan Xue",
+        "Zheng Yong",
+        "Xianshu Luo",
+        "Hongyao Chua",
+        "Andrei Stalmashonak",
+        "Guo‐Qiang Lo",
+        "Joyce K. S. Poon",
+        "Wesley D. Sacher"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon nitride waveguides",
+        "thermal insulation",
+        "thermo-optic phase shifters",
+        "silica cladding",
+        "thermal aging"
+      ],
+      "url": "https://doi.org/10.1364/oe.567610",
+      "cited_by_count": 7,
+      "importance": 0.4259,
+      "score_basis": {
+        "topic_overlap": 0.28,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387616778",
+      "doi": "10.1364/ome.503178",
+      "title": "Optical and thermal properties of Ge2Sb2Te5, Sb2Se3, and Sb2S3 for reconfigurable photonic devices [Invited]",
+      "authors": [
+        "Kiumars Aryana",
+        "Hyun Jung Kim",
+        "Md. Rafiqul Islam",
+        "Nina Hong",
+        "Cosmin‐Constantin Popescu",
+        "Sara Makarem",
+        "Tian Gu",
+        "Juejun Hu",
+        "Patrick E. Hopkins"
+      ],
+      "year": 2023,
+      "venue": "Optical Materials Express",
+      "venue_abbr": "Optical Materials Express",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase change materials",
+        "Ge2Sb2Te5",
+        "Sb2Se3",
+        "Sb2S3",
+        "reconfigurable photonic devices",
+        "optical constants",
+        "refractive index",
+        "extinction coefficient",
+        "thermal conductivity",
+        "amorphous-to-crystalline transition",
+        "time-domain thermoreflectance",
+        "photonic devices"
+      ],
+      "url": "https://doi.org/10.1364/ome.503178",
+      "cited_by_count": 61,
+      "importance": 0.4049,
+      "score_basis": {
+        "topic_overlap": 0.344,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3177189934",
+      "doi": "10.1364/ome.426775",
+      "title": "Post-fabrication resonance trimming of Si3N4 photonic circuits via localized thermal annealing of a sputter-deposited SiO2 cladding",
+      "authors": [
+        "Yanran Xie",
+        "Henry C. Frankis",
+        "Jonathan D. B. Bradley",
+        "Andrew P. Knights"
+      ],
+      "year": 2021,
+      "venue": "Optical Materials Express",
+      "venue_abbr": "Optical Materials Express",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "microring resonators",
+        "SiO2 cladding",
+        "sputter deposition",
+        "annealing",
+        "thermal crosstalk",
+        "ring filter"
+      ],
+      "url": "https://doi.org/10.1364/ome.426775",
+      "cited_by_count": 15,
+      "importance": 0.3939,
+      "score_basis": {
+        "topic_overlap": 0.164,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4398780905",
+      "doi": "10.1117/1.apn.3.4.044001",
+      "title": "Silicon thermo-optic phase shifters: a review of configurations and optimization strategies",
+      "authors": [
+        "Jorge Parra",
+        "Juan Navarro‐Arenas",
+        "Pablo Sanchis"
+      ],
+      "year": 2024,
+      "venue": "Advanced Photonics Nexus",
+      "venue_abbr": "Adv. Photonics Nexus",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "thermo-optic phase shifters",
+        "silicon photonics",
+        "optical phase shifter",
+        "thermo-optic coefficient",
+        "electro-optic phase shifters",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1117/1.apn.3.4.044001",
+      "cited_by_count": 78,
+      "importance": 0.3894,
+      "score_basis": {
+        "topic_overlap": 0.31,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401225525",
+      "doi": "10.1016/j.apmt.2024.102338",
+      "title": "Tunability of Sb2Se3 phase change material for multi-domain optoelectronics",
+      "authors": [
+        "Krishna Murali",
+        "Litty Varghese Thekkekara",
+        "Md. Ataur Rahman",
+        "Suvankar Sen",
+        "Vladlen G. Shvedov",
+        "Yana V. Izdebskaya",
+        "Chengjun Zou",
+        "Sherif Abdulkader Tawfik",
+        "Ilya V. Shadrivov",
+        "Sharath Sriram",
+        "Madhu C. Bhaskaran"
+      ],
+      "year": 2024,
+      "venue": "Applied Materials Today",
+      "venue_abbr": "Applied Materials Today",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Sb2Se3",
+        "phase change materials",
+        "chalcogenide thin films",
+        "sputtered thin films",
+        "refractive index change",
+        "tunable optical properties",
+        "phase-change memory",
+        "optical switches",
+        "photonic memory",
+        "silicon integration"
+      ],
+      "url": "https://doi.org/10.1016/j.apmt.2024.102338",
+      "cited_by_count": 17,
+      "importance": 0.3882,
+      "score_basis": {
+        "topic_overlap": 0.196,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2044401598",
+      "doi": "10.1364/oe.18.012127",
+      "title": "Silicon-on-sapphire integrated waveguides for the mid-infrared",
+      "authors": [
+        "Tom W. Baehr-Jones",
+        "Alexander Spott",
+        "Rob B. Ilic",
+        "Andrew Spott",
+        "Boyan Penkov",
+        "William E. Asher",
+        "Michael J. Hochberg"
+      ],
+      "year": 2010,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon-on-sapphire",
+        "integrated waveguides",
+        "mid-infrared",
+        "silicon photonics",
+        "single-mode waveguides",
+        "waveguide loss",
+        "infrared photonics"
+      ],
+      "url": "https://doi.org/10.1364/oe.18.012127",
+      "cited_by_count": 249,
+      "importance": 0.3855,
+      "score_basis": {
+        "topic_overlap": 0.368,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2739261368",
+      "doi": "10.1364/prj.5.000578",
+      "title": "Post-fabrication phase trimming of Mach–Zehnder interferometers by laser annealing of germanium implanted waveguides",
+      "authors": [
+        "Xia Chen",
+        "Milan M. Milošević",
+        "David J. Thomson",
+        "Ali Z. Khokhar",
+        "Yohann Franz",
+        "Antoine F. J. Runge",
+        "S. Mailis",
+        "Anna C. Peacock",
+        "Graham T. Reed"
+      ],
+      "year": 2017,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Mach-Zehnder interferometer",
+        "laser annealing",
+        "germanium implantation",
+        "silicon photonics",
+        "effective refractive index",
+        "active feedback control",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/prj.5.000578",
+      "cited_by_count": 40,
+      "importance": 0.385,
+      "score_basis": {
+        "topic_overlap": 0.367,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2955052533",
+      "doi": "10.1109/jlt.2019.2924916",
+      "title": "Mid Infrared Integrated MZI Gas Sensor Using Suspended Silicon Waveguide",
+      "authors": [
+        "Raghi Samir El Shamy",
+        "Mohamed A. Swillam",
+        "Diaa A. M. Khalil"
+      ],
+      "year": 2019,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Mach-Zehnder interferometer",
+        "suspended silicon waveguides",
+        "refractive index sensitivity",
+        "wavelength interrogation",
+        "intensity interrogation",
+        "figure of merit",
+        "spectral sensitivity",
+        "lab-on-a-chip",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2019.2924916",
+      "cited_by_count": 32,
+      "importance": 0.3683,
+      "score_basis": {
+        "topic_overlap": 0.263,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2957148388",
+      "doi": "10.1109/lpt.2019.2927323",
+      "title": "Post-Fabrication Trimming of Silicon Ring Resonators via Integrated Annealing",
+      "authors": [
+        "David E. Hagan",
+        "Benjamin Torres-Kulik",
+        "Andrew P. Knights"
+      ],
+      "year": 2019,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon ring resonator",
+        "silicon-on-insulator",
+        "crystal defects",
+        "boron implantation",
+        "post-implantation annealing",
+        "resonance wavelength tuning",
+        "photonic integrated circuits"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2019.2927323",
+      "cited_by_count": 14,
+      "importance": 0.355,
+      "score_basis": {
+        "topic_overlap": 0.3,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2238099481",
+      "doi": "10.1038/nphoton.2015.247",
+      "title": "Optically reconfigurable metasurfaces and photonic devices based on phase change materials",
+      "authors": [
+        "Qian Wang",
+        "Edward T. F. Rogers",
+        "Behrad Gholipour",
+        "Chih‐Ming Wang",
+        "Guang Yuan",
+        "Jinghua Teng",
+        "Nikolay I. Zheludev"
+      ],
+      "year": 2015,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "phase change materials",
+        "femtosecond laser direct writing",
+        "Fresnel zone plate",
+        "subwavelength focusing",
+        "all-dielectric metamaterials",
+        "tunable photonic devices"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2015.247",
+      "cited_by_count": 1236,
+      "importance": 0.3534,
+      "score_basis": {
+        "topic_overlap": 0.163,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3000698335",
+      "doi": "10.1364/oe.382226",
+      "title": "Vernier effect-based tunable mid-infrared sensor using silicon-on-insulator cascaded rings",
+      "authors": [
+        "Yuhua Chang",
+        "Bowei Dong",
+        "Yiming Ma",
+        "Jingxuan Wei",
+        "Zhihao Ren",
+        "Chengkuo Lee"
+      ],
+      "year": 2020,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Vernier effect",
+        "mid-infrared detection",
+        "silicon-on-insulator",
+        "cascaded ring resonators",
+        "temperature tuning",
+        "refractive index sensing",
+        "photonic sensors"
+      ],
+      "url": "https://doi.org/10.1364/oe.382226",
+      "cited_by_count": 53,
+      "importance": 0.3518,
+      "score_basis": {
+        "topic_overlap": 0.182,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4384697390",
+      "doi": "10.1117/1.ap.5.4.046004",
+      "title": "Electrically programmable phase-change photonic memory for optical neural networks with nanoseconds in situ training capability",
+      "authors": [
+        "Maoliang Wei",
+        "Junying Li",
+        "Zequn Chen",
+        "Bo Tang",
+        "Zhiqi Jia",
+        "Peng Zhang",
+        "Kunhao Lei",
+        "Kai J. Xu",
+        "Jianghong Wu",
+        "Chuyu Zhong",
+        "Hui Ma",
+        "Yuting Ye",
+        "Jialing Jian",
+        "Chunlei Sun",
+        "Ruonan Liu",
+        "Ying Sun",
+        "Wei E. I. Sha",
+        "Xiaoyong Hu",
+        "Jianyi Yang",
+        "Lan Li",
+        "Hongtao Lin"
+      ],
+      "year": 2023,
+      "venue": "Advanced Photonics",
+      "venue_abbr": "Adv. Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical neural networks",
+        "photonic memory",
+        "phase change materials",
+        "in situ training",
+        "microring resonators",
+        "PIN diodes",
+        "energy-efficient computing",
+        "MNIST handwritten digit classification"
+      ],
+      "url": "https://doi.org/10.1117/1.ap.5.4.046004",
+      "cited_by_count": 104,
+      "importance": 0.3465,
+      "score_basis": {
+        "topic_overlap": 0.192,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4289132600",
+      "doi": "10.1021/acs.analchem.2c01463",
+      "title": "Mid-Infrared Serial Microring Resonator Array for Real-Time Detection of Vapor-Phase Volatile Organic Compounds",
+      "authors": [
+        "Junchao Zhou",
+        "Diana Al Husseini",
+        "Junyan Li",
+        "Zhihai Lin",
+        "Svetlana A. Sukhishvili",
+        "Gerard L. Coté",
+        "Ricardo Gutiérrez‐Osuna",
+        "Pao Tai Lin"
+      ],
+      "year": 2022,
+      "venue": "Analytical Chemistry",
+      "venue_abbr": "Analytical Chemistry",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mid-infrared detection",
+        "volatile organic compounds",
+        "vapor sensing",
+        "wavelength demultiplexing",
+        "silicon-rich silicon nitride",
+        "CMOS-compatible photonics",
+        "free spectral range",
+        "ethanol vapor",
+        "wafer-level packaging",
+        "real-time gas sensing"
+      ],
+      "url": "https://doi.org/10.1021/acs.analchem.2c01463",
+      "cited_by_count": 15,
+      "importance": 0.3452,
+      "score_basis": {
+        "topic_overlap": 0.211,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3126392713",
+      "doi": "10.1002/lpor.202000373",
+      "title": "Nonlinear Mid‐Infrared Metasurface based on a Phase‐Change Material",
+      "authors": [
+        "Fuyong Yue",
+        "Riccardo Piccoli",
+        "Mikhail Y. Shalaginov",
+        "Tian Gu",
+        "Kathleen A. Richardson",
+        "Roberto Morandotti",
+        "Juejun Hu",
+        "Luca Razzari"
+      ],
+      "year": 2021,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase change materials",
+        "Ge2Sb2Se4Te1",
+        "third harmonic generation",
+        "nonlinear optics",
+        "magnetic dipole resonance",
+        "reconfigurable photonic devices",
+        "broadband transparency",
+        "nonlinear refractive index"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202000373",
+      "cited_by_count": 54,
+      "importance": 0.3373,
+      "score_basis": {
+        "topic_overlap": 0.194,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406823672",
+      "doi": "10.1002/lpor.202401473",
+      "title": "Broadband and High‐Resolution Mid‐Infrared Spectroscopy Enabled by a Single Phase Change Metasurface",
+      "authors": [
+        "Yi Xu",
+        "Yan Li",
+        "Ruifeng Zhong",
+        "Yu‐Ru Li",
+        "Qiang Li",
+        "Dawei Wang",
+        "Zhenshi Chen",
+        "Jingshun Pan",
+        "Zhaohui Li"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mid-infrared spectroscopy",
+        "phase-change metasurfaces",
+        "chalcogenide phase-change materials",
+        "miniaturized spectrometer",
+        "methane detection",
+        "carbon dioxide detection",
+        "gas analysis",
+        "combustion diagnostics"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202401473",
+      "cited_by_count": 21,
+      "importance": 0.3365,
+      "score_basis": {
+        "topic_overlap": 0.192,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2904378262",
+      "doi": "10.1364/oe.26.034366",
+      "title": "On-chip Bragg grating waveguides and Fabry-Perot resonators for long-wave infrared operation up to 84 µm",
+      "authors": [
+        "Qiankun Liu",
+        "Joan Manel Ramírez",
+        "Vladyslav Vakarin",
+        "Xavier Le Roux",
+        "Jacopo Frigerio",
+        "Andrea Ballabio",
+        "Enrico Talamas Simola",
+        "Carlos Alonso‐Ramos",
+        "Daniel Benedikovič",
+        "David Bouville",
+        "Laurent Vivien",
+        "Giovanni Isella",
+        "Delphine Marris‐Morini"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Fabry-Perot cavity",
+        "long-wave infrared",
+        "high quality factor",
+        "atmospheric window",
+        "nonlinear optical devices"
+      ],
+      "url": "https://doi.org/10.1364/oe.26.034366",
+      "cited_by_count": 25,
+      "importance": 0.3269,
+      "score_basis": {
+        "topic_overlap": 0.282,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2910306093",
+      "doi": "10.1364/optica.6.000084",
+      "title": "Photoconductive heaters enable control of large-scale silicon photonic ring resonator circuits",
+      "authors": [
+        "Hasitha Jayatilleka",
+        "Hossam A. Shoman",
+        "Lukas Chrostowski",
+        "Sudip Shekhar"
+      ],
+      "year": 2019,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "silicon ring resonator",
+        "thermo-optic tuning",
+        "coupled resonator optical waveguides",
+        "photonic switches"
+      ],
+      "url": "https://doi.org/10.1364/optica.6.000084",
+      "cited_by_count": 80,
+      "importance": 0.3123,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2765933076",
+      "doi": "10.1038/lsa.2016.194",
+      "title": "Control over emissivity of zero-static-power thermal emitters based on phase-changing material GST",
+      "authors": [
+        "Kai-Kai Du",
+        "Qiang Li",
+        "Yan-Biao Lyu",
+        "Ji-Chao Ding",
+        "Yue Lu",
+        "Zhiyuan Cheng",
+        "Min Qiu"
+      ],
+      "year": 2016,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "thermal emitters",
+        "emissivity control",
+        "phase change materials",
+        "Ge2Sb2Te5",
+        "GST",
+        "mid-infrared emission",
+        "extinction ratio",
+        "thermophotovoltaics",
+        "radiative cooling",
+        "infrared imaging",
+        "gold substrate",
+        "layer thickness dependence"
+      ],
+      "url": "https://doi.org/10.1038/lsa.2016.194",
+      "cited_by_count": 346,
+      "importance": 0.303,
+      "score_basis": {
+        "topic_overlap": 0.184,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2899199318",
+      "doi": "10.3390/nano8110893",
+      "title": "Wavelength-Flattened Directional Coupler Based Mid-Infrared Chemical Sensor Using Bragg Wavelength in Subwavelength Grating Structure",
+      "authors": [
+        "Bowei Dong",
+        "Ting Hu",
+        "Xianshu Luo",
+        "Yuhua Chang",
+        "Xin Guo",
+        "Hong Wang",
+        "Dim‐Lee Kwong",
+        "Guo‐Qiang Lo",
+        "Chengkuo Lee"
+      ],
+      "year": 2018,
+      "venue": "Nanomaterials",
+      "venue_abbr": "Nanomaterials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "subwavelength gratings",
+        "Bragg diffraction",
+        "refractive index sensing",
+        "ethanol",
+        "broadband operation",
+        "dispersion engineering",
+        "compact optical sensor"
+      ],
+      "url": "https://doi.org/10.3390/nano8110893",
+      "cited_by_count": 48,
+      "importance": 0.2997,
+      "score_basis": {
+        "topic_overlap": 0.177,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3015857757",
+      "doi": "10.1364/optica.384138",
+      "title": "Reconfigurable multilevel control of hybrid all-dielectric phase-change metasurfaces",
+      "authors": [
+        "Carlota Ruíz de Galarreta",
+        "Ivan Sinev",
+        "A. M. Alexeev",
+        "Pavel I. Trofimov",
+        "Konstantin Ladutenko",
+        "Santiago Garcia-Cuevas Carrillo",
+        "Emanuele Gemo",
+        "Anna V. Baldycheva",
+        "Jacopo Bertolotti",
+        "Christopher David Wright"
+      ],
+      "year": 2020,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "dielectric metasurfaces",
+        "hybrid metasurfaces",
+        "phase change materials",
+        "Ge2Sb2Te5",
+        "optical modulation",
+        "optical filtering",
+        "near-infrared",
+        "structural color",
+        "visible spectrum"
+      ],
+      "url": "https://doi.org/10.1364/optica.384138",
+      "cited_by_count": 240,
+      "importance": 0.2825,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415126952",
+      "doi": "10.1364/ao.577386",
+      "title": "All-in-one integrated polymer waveguide with phase-shifted Bragg grating for enhanced fluorescence detection",
+      "authors": [
+        "Rongqiu Mu",
+        "Feng Xu",
+        "Feixiang Zheng",
+        "Guanghui Wang"
+      ],
+      "year": 2025,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polymer waveguides",
+        "phase-shifted Bragg grating",
+        "fluorescence detection",
+        "optofluidic chip",
+        "slot waveguide",
+        "fluorescence collection efficiency",
+        "fluorescence enhancement",
+        "on-chip light sources",
+        "microfluidics"
+      ],
+      "url": "https://doi.org/10.1364/ao.577386",
+      "cited_by_count": 1,
+      "importance": 0.2729,
+      "score_basis": {
+        "topic_overlap": 0.162,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410750166",
+      "doi": "10.1021/acsomega.4c10053",
+      "title": "Exploring the Thermal Stability of Sb2Se3 for Potential Applications through Advanced Thermal Analysis Methods",
+      "authors": [
+        "Gözde Altuntaş",
+        "M. Isik",
+        "Gökhan Sürücü",
+        "M. Parlak",
+        "Özge Bayraklı Sürücü"
+      ],
+      "year": 2025,
+      "venue": "ACS Omega",
+      "venue_abbr": "ACS Omega",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Sb2Se3",
+        "thermal stability",
+        "thermal decomposition",
+        "activation energy",
+        "phase transitions",
+        "weight loss",
+        "thermoelectric materials",
+        "photovoltaics",
+        "photodetectors",
+        "high-temperature materials"
+      ],
+      "url": "https://doi.org/10.1021/acsomega.4c10053",
+      "cited_by_count": 7,
+      "importance": 0.2724,
+      "score_basis": {
+        "topic_overlap": 0.161,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2958651157",
+      "doi": "10.1364/oe.27.021532",
+      "title": "Optical frequency comb based system for photonic refractive index sensor interrogation",
+      "authors": [
+        "Markus Knoerzer",
+        "Crispin Szydzik",
+        "Guanghui Ren",
+        "César S. Huertas",
+        "Sonya Palmer",
+        "Phuong Tang",
+        "Thach Giang Nguyen",
+        "Lam Anh Bui",
+        "Andreas Boes",
+        "Arnan Mitchell"
+      ],
+      "year": 2019,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical frequency combs",
+        "refractive index sensing",
+        "fiber optic sensors"
+      ],
+      "url": "https://doi.org/10.1364/oe.27.021532",
+      "cited_by_count": 31,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4283211300",
+      "doi": "10.1364/oe.459805",
+      "title": "Mach-Zehnder interferometer based integrated-photonic acetone sensor approaching the sub-ppm level detection limit",
+      "authors": [
+        "Haoyun Niu",
+        "Peng Yu",
+        "Yisong Zhu",
+        "Zhimin Jing",
+        "Peihang Li",
+        "Baoqing Wang",
+        "Cuiping Ma",
+        "Jiaying Wang",
+        "Jiang Wu",
+        "Alexander O. Govorov",
+        "Arup Neogi",
+        "Zhiming M. Wang"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "acetone gas sensor",
+        "Mach-Zehnder interferometer",
+        "integrated photonics",
+        "breath analysis",
+        "polyethyleneimine",
+        "room-temperature gas sensing",
+        "diabetes diagnosis",
+        "heart failure prognosis",
+        "breath biomarkers"
+      ],
+      "url": "https://doi.org/10.1364/oe.459805",
+      "cited_by_count": 19,
+      "importance": 0.2318,
+      "score_basis": {
+        "topic_overlap": 0.071,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390512466",
+      "doi": "10.1063/5.0165663",
+      "title": "Phase change plasmonic metasurface for dynamic thermal emission modulation",
+      "authors": [
+        "Zexiao Wang",
+        "Lin Jing",
+        "Xiu Liu",
+        "Xiao Luo",
+        "Hyeong Seok Yun",
+        "Zhuo Li",
+        "Sheng Shen"
+      ],
+      "year": 2024,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "plasmonic metasurfaces",
+        "phase change materials",
+        "vanadium dioxide",
+        "gold nanorod arrays",
+        "Joule heating",
+        "finite element analysis"
+      ],
+      "url": "https://doi.org/10.1063/5.0165663",
+      "cited_by_count": 28,
+      "importance": 0.2214,
+      "score_basis": {
+        "topic_overlap": 0.048,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401931326",
+      "doi": "10.1016/j.trac.2024.117916",
+      "title": "Recent advances and trends in mid-infrared chem/bio sensors",
+      "authors": [
+        "Gabriela Flores-Rangel",
+        "Lorena Díaz de León-Martínez",
+        "Lisa Sophie Walter",
+        "Boris Mizaikoff"
+      ],
+      "year": 2024,
+      "venue": "TrAC Trends in Analytical Chemistry",
+      "venue_abbr": "TrAC Trends in Analytical Chemistry",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mid-infrared spectroscopy",
+        "optical biosensors",
+        "biomarker detection",
+        "disease diagnosis",
+        "real-time monitoring",
+        "sensitivity enhancement",
+        "device miniaturization",
+        "artificial intelligence",
+        "personalized medicine",
+        "molecular vibrational modes"
+      ],
+      "url": "https://doi.org/10.1016/j.trac.2024.117916",
+      "cited_by_count": 36,
+      "importance": 0.2117,
+      "score_basis": {
+        "topic_overlap": 0.026,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2955052533",
+      "to": "W2044401598",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2955052533"
+        }
+      ]
+    },
+    {
+      "from": "W3000698335",
+      "to": "W2899199318",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3000698335"
+        }
+      ]
+    },
+    {
+      "from": "W3007690484",
+      "to": "W2739261368",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007690484"
+        }
+      ]
+    },
+    {
+      "from": "W3034339773",
+      "to": "W2238099481",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3034339773"
+        }
+      ]
+    },
+    {
+      "from": "W3034339773",
+      "to": "W2765933076",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3034339773"
+        }
+      ]
+    },
+    {
+      "from": "W3126392713",
+      "to": "W2238099481",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3126392713"
+        }
+      ]
+    },
+    {
+      "from": "W3170585019",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3170585019"
+        }
+      ]
+    },
+    {
+      "from": "W3177189934",
+      "to": "W2957148388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3177189934"
+        }
+      ]
+    },
+    {
+      "from": "W3177189934",
+      "to": "W3007690484",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3177189934"
+        }
+      ]
+    },
+    {
+      "from": "W4229049782",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4229049782"
+        }
+      ]
+    },
+    {
+      "from": "W4229049782",
+      "to": "W3170585019",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4229049782"
+        }
+      ]
+    },
+    {
+      "from": "W4289132600",
+      "to": "W3000698335",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4289132600"
+        }
+      ]
+    },
+    {
+      "from": "W4386097912",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386097912"
+        }
+      ]
+    },
+    {
+      "from": "W4386097912",
+      "to": "W3170585019",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386097912"
+        }
+      ]
+    },
+    {
+      "from": "W4386097912",
+      "to": "W4229049782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386097912"
+        }
+      ]
+    },
+    {
+      "from": "W4386097912",
+      "to": "W4384697390",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386097912"
+        }
+      ]
+    },
+    {
+      "from": "W4386965204",
+      "to": "W2238099481",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386965204"
+        }
+      ]
+    },
+    {
+      "from": "W4386965204",
+      "to": "W3034339773",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386965204"
+        }
+      ]
+    },
+    {
+      "from": "W4386965204",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386965204"
+        }
+      ]
+    },
+    {
+      "from": "W4386965204",
+      "to": "W3170585019",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386965204"
+        }
+      ]
+    },
+    {
+      "from": "W4386965204",
+      "to": "W4229049782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386965204"
+        }
+      ]
+    },
+    {
+      "from": "W4387616778",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387616778"
+        }
+      ]
+    },
+    {
+      "from": "W4390046135",
+      "to": "W3170585019",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390046135"
+        }
+      ]
+    },
+    {
+      "from": "W4390046135",
+      "to": "W4229049782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390046135"
+        }
+      ]
+    },
+    {
+      "from": "W4390697156",
+      "to": "W3170585019",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390697156"
+        }
+      ]
+    },
+    {
+      "from": "W4390697156",
+      "to": "W4229049782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390697156"
+        }
+      ]
+    },
+    {
+      "from": "W4390697156",
+      "to": "W4384697390",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390697156"
+        }
+      ]
+    },
+    {
+      "from": "W4391646802",
+      "to": "W3034339773",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391646802"
+        }
+      ]
+    },
+    {
+      "from": "W4391646802",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391646802"
+        }
+      ]
+    },
+    {
+      "from": "W4391646802",
+      "to": "W3170585019",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391646802"
+        }
+      ]
+    },
+    {
+      "from": "W4394746749",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394746749"
+        }
+      ]
+    },
+    {
+      "from": "W4394746749",
+      "to": "W4384697390",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394746749"
+        }
+      ]
+    },
+    {
+      "from": "W4398780905",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398780905"
+        }
+      ]
+    },
+    {
+      "from": "W4401225525",
+      "to": "W3170585019",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401225525"
+        }
+      ]
+    },
+    {
+      "from": "W4401225525",
+      "to": "W4386965204",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401225525"
+        }
+      ]
+    },
+    {
+      "from": "W4402331718",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402331718"
+        }
+      ]
+    },
+    {
+      "from": "W4402331718",
+      "to": "W3170585019",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402331718"
+        }
+      ]
+    },
+    {
+      "from": "W4402331718",
+      "to": "W4394746749",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402331718"
+        }
+      ]
+    },
+    {
+      "from": "W4406805159",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406805159"
+        }
+      ]
+    },
+    {
+      "from": "W4406805159",
+      "to": "W4386965204",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406805159"
+        }
+      ]
+    },
+    {
+      "from": "W4406823672",
+      "to": "W2238099481",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406823672"
+        }
+      ]
+    },
+    {
+      "from": "W4411043534",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411043534"
+        }
+      ]
+    },
+    {
+      "from": "W4411043534",
+      "to": "W3170585019",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411043534"
+        }
+      ]
+    },
+    {
+      "from": "W4411043534",
+      "to": "W4229049782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411043534"
+        }
+      ]
+    },
+    {
+      "from": "W4414290905",
+      "to": "W3007690484",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414290905"
+        }
+      ]
+    },
+    {
+      "from": "W4414290905",
+      "to": "W3177189934",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414290905"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W2044401598",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W2238099481",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W2739261368",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W2765933076",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W2899199318",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W2904378262",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W2910306093",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W2955052533",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W2957148388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W2958651157",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W3000698335",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W3007690484",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W3015857757",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W3034339773",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W3126392713",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W3170585019",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W3177189934",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4229049782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4283211300",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4289132600",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4384697390",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4386097912",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4386965204",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4387616778",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4390046135",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4390512466",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4390697156",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4391646802",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4394746749",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4398780905",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4401225525",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4401931326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4402331718",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4406805159",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4406823672",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4410750166",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4411043534",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4414290905",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    },
+    {
+      "from": "W7222187671",
+      "to": "W4415126952",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222187671"
+        }
+      ]
+    }
+  ]
 }

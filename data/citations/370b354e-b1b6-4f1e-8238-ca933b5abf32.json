@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "370b354e-b1b6-4f1e-8238-ca933b5abf32",
-  "root": "doi:10.1016/j.optlastec.2026.116502",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7221321864",
+  "status": "ok",
+  "checked_at": "2026-11-02T00:50:01.519657+00:00",
+  "coverage": {
+    "references_found": 13,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 13,
+    "displayed": 13
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1016/j.optlastec.2026.116502",
+      "id": "W7221321864",
       "doi": "10.1016/j.optlastec.2026.116502",
       "title": "A disturbance-observer-based two-degree-of-freedom fractional-order internal model PID control method for liquid crystal optical phased array",
       "authors": [
@@ -19,20 +29,670 @@
         "Jinyang Yu",
         "Chunyang Wang"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics & Laser Technology",
       "venue_abbr": "Opt. Laser Technol.",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "liquid crystal optical phased array",
+        "disturbance observer",
+        "two-degree-of-freedom control",
+        "PID control",
+        "phase control"
+      ],
       "url": "https://doi.org/10.1016/j.optlastec.2026.116502",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/370b354e-b1b6-4f1e-8238-ca933b5abf32.html",
       "summary": "摘要报告：针对液晶光学相控阵（LCOPA）因液晶弛豫特性与外部扰动导致的响应慢、稳态误差大、鲁棒性差，提出基于扰动观测器（DOB）的二自由度分数阶内模PID（SP-FO-IMCPID）波束控制：DOB实时估计补偿模型不确定性与扰动，Smith预估器补偿时滞，二自由度IMC分别优化目标跟踪与扰动抑制，引入分数阶提高整定灵活性，并以鲸鱼优化算法全局寻优。在搭建的LCOPA平台上完成阶跃、定点跟踪与鲁棒性实验，较整数阶PID、FOPID、FMAESO-FOPID缩短调节时间、抑制超调并提升跟踪精度与抗扰能力。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W7134960080",
+      "doi": "10.3390/fractalfract10030182",
+      "title": "Dynamic Compensation Strategy for Beam Pointing Based on Cascaded Liquid Crystal Polarization Gratings Using Liquid Crystal Optical Phased Array",
+      "authors": [
+        "Mingkan Ta",
+        "Chunyang Wang",
+        "Xuelian Liu",
+        "Jinyang Yu",
+        "Jiliang Jin",
+        "Da Xie"
+      ],
+      "year": 2026,
+      "venue": "Fractal and Fractional",
+      "venue_abbr": "Fractal and Fractional",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "liquid crystal optical phased array",
+        "non-mechanical beam steering",
+        "disturbance estimation",
+        "Smith predictor",
+        "time delay compensation",
+        "composite control strategy",
+        "pointing accuracy"
+      ],
+      "url": "https://doi.org/10.3390/fractalfract10030182",
+      "cited_by_count": 1,
+      "importance": 0.6076,
+      "score_basis": {
+        "topic_overlap": 0.461,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4220765223",
+      "doi": "10.1364/oe.456765",
+      "title": "Liquid crystal spatial light modulator based non-mechanical beam steering system fractional-order model",
+      "authors": [
+        "Zishuo Wang",
+        "Chunyang Wang",
+        "Shuning Liang",
+        "Xuelian Liu"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "liquid crystal spatial light modulator",
+        "non-mechanical beam steering",
+        "fractional-order model",
+        "fractional calculus",
+        "parameter estimation",
+        "two-dimensional beam scanning"
+      ],
+      "url": "https://doi.org/10.1364/oe.456765",
+      "cited_by_count": 15,
+      "importance": 0.381,
+      "score_basis": {
+        "topic_overlap": 0.247,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2162014537",
+      "doi": "10.1109/acc.2008.4587150",
+      "title": "Nonlinear adaptive control of optical jitter with a new liquid crystal beam steering device",
+      "authors": [
+        "Pawel K. Orzechowski",
+        "Steve Gibson",
+        "Tsu‐Chin Tsao",
+        "Dan Herrick",
+        "Victor Beazel",
+        "Milind Mahajan",
+        "Bing Wen",
+        "Bruce K. Winker"
+      ],
+      "year": 2008,
+      "venue": "Proceedings of the ... American Control Conference/Proceedings of the American Control Conference",
+      "venue_abbr": "Proceedings of the ... American Control Conference/Proceedings of the American Control Conference",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "nonlinear adaptive control",
+        "jitter reduction",
+        "quantization nonlinearity",
+        "laser beam steering"
+      ],
+      "url": "https://doi.org/10.1109/acc.2008.4587150",
+      "cited_by_count": 12,
+      "importance": 0.3738,
+      "score_basis": {
+        "topic_overlap": 0.186,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2906193932",
+      "doi": "10.3788/yjyxs20183310.0857",
+      "title": "Beam deflection control method based on liquid crystal phased array",
+      "authors": [
+        "王春阳 Wang Chunyang",
+        "李兰婷 LI Lan-ting",
+        "史红伟 Shi Hongwei",
+        "牛启凤 NIU Qi-feng"
+      ],
+      "year": 2018,
+      "venue": "Chinese Journal of Liquid Crystals and Displays",
+      "venue_abbr": "Chinese Journal of Liquid Crystals and Displays",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical beam steering",
+        "liquid crystal spatial light modulator",
+        "phase control"
+      ],
+      "url": "https://doi.org/10.3788/yjyxs20183310.0857",
+      "cited_by_count": 8,
+      "importance": 0.3615,
+      "score_basis": {
+        "topic_overlap": 0.314,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3195824394",
+      "doi": "10.1007/s40031-021-00656-9",
+      "title": "Whale Optimization Algorithm Optimized Fuzzy-PID Plus PID Hybrid Controller for Frequency Regulation in Hybrid Power System",
+      "authors": [
+        "Amit Kumar",
+        "Sathans Suhag"
+      ],
+      "year": 2021,
+      "venue": "Journal of The Institution of Engineers (India) Series B",
+      "venue_abbr": "Journal of The Institution of Engineers (India) Series B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "whale optimization algorithm",
+        "load frequency control",
+        "hybrid energy systems",
+        "microgrids",
+        "solar thermal power systems",
+        "controller tuning"
+      ],
+      "url": "https://doi.org/10.1007/s40031-021-00656-9",
+      "cited_by_count": 25,
+      "importance": 0.3187,
+      "score_basis": {
+        "topic_overlap": 0.153,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2946032687",
+      "doi": "10.1007/s11082-019-1858-0",
+      "title": "High precision beam steering using a liquid crystal spatial light modulator",
+      "authors": [
+        "Qifeng Niu",
+        "Chunyang Wang"
+      ],
+      "year": 2019,
+      "venue": "Optical and Quantum Electronics",
+      "venue_abbr": "Optical and Quantum Electronics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "liquid crystal spatial light modulator",
+        "beam steering",
+        "phase modulation",
+        "driving voltage",
+        "electro-optical properties",
+        "nonlinear least squares",
+        "beam pointing error"
+      ],
+      "url": "https://doi.org/10.1007/s11082-019-1858-0",
+      "cited_by_count": 19,
+      "importance": 0.3183,
+      "score_basis": {
+        "topic_overlap": 0.174,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3046361365",
+      "doi": "10.1080/02678292.2020.1783706",
+      "title": "Quantitative error analysis for non-mechanical phase-controlled beam steering based on symmetrical radial sub-aperture coherence algorithm",
+      "authors": [
+        "Chengmiao Wang",
+        "Wan Chen",
+        "Zhiwei Zhao",
+        "Quanquan Mu",
+        "Zheng-Hui Peng",
+        "Zhihui Diao",
+        "Lishuang Yao",
+        "Xuan Li",
+        "Qidong Wang"
+      ],
+      "year": 2020,
+      "venue": "Liquid Crystals",
+      "venue_abbr": "Liquid Crystals",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "non-mechanical beam steering",
+        "liquid crystal optical phased array",
+        "alignment errors",
+        "angular resolution",
+        "error analysis"
+      ],
+      "url": "https://doi.org/10.1080/02678292.2020.1783706",
+      "cited_by_count": 4,
+      "importance": 0.2943,
+      "score_basis": {
+        "topic_overlap": 0.21,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2072093910",
+      "doi": "10.1115/1.4025801",
+      "title": "A Guide to Design Disturbance Observer",
+      "authors": [
+        "Emre Sarıyıldız",
+        "Kouhei Ohnishi"
+      ],
+      "year": 2013,
+      "venue": "Journal of Dynamic Systems Measurement and Control",
+      "venue_abbr": "Journal of Dynamic Systems Measurement and Control",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "disturbance observer",
+        "bandwidth constraints",
+        "robustness analysis",
+        "Poisson integral",
+        "non-minimum phase zeros",
+        "robust control",
+        "performance constraints"
+      ],
+      "url": "https://doi.org/10.1115/1.4025801",
+      "cited_by_count": 176,
+      "importance": 0.2915,
+      "score_basis": {
+        "topic_overlap": 0.203,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4225404424",
+      "doi": "10.1080/00207721.2022.2067366",
+      "title": "An effective Smith predictor based fractional-order PID controller design methodology for preservation of design optimality and robust control performance in practice",
+      "authors": [
+        "Furkan Nur Deniz"
+      ],
+      "year": 2022,
+      "venue": "International Journal of Systems Science",
+      "venue_abbr": "International Journal of Systems Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Smith predictor",
+        "fractional order PID controller",
+        "continued fraction expansion",
+        "robust control",
+        "loop shaping",
+        "multi-objective optimization",
+        "genetic algorithm",
+        "model approximation error",
+        "signal saturation"
+      ],
+      "url": "https://doi.org/10.1080/00207721.2022.2067366",
+      "cited_by_count": 13,
+      "importance": 0.2873,
+      "score_basis": {
+        "topic_overlap": 0.194,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313430550",
+      "doi": "10.1364/oe.477316",
+      "title": "Non-mechanical self-alignment system for free-space optical communications based on a cascaded liquid crystal optical antenna",
+      "authors": [
+        "Yanwei Huang",
+        "Kangzhe Wang",
+        "Rusheng Zhuo",
+        "Xiaoxian He",
+        "Jieping Wu",
+        "Hao Wang",
+        "Zhiqing Liang",
+        "Xiangru Wang"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "non-mechanical beam steering",
+        "self-alignment",
+        "vibration suppression"
+      ],
+      "url": "https://doi.org/10.1364/oe.477316",
+      "cited_by_count": 18,
+      "importance": 0.2708,
+      "score_basis": {
+        "topic_overlap": 0.157,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2180491606",
+      "doi": "10.1016/j.ijleo.2015.11.023",
+      "title": "Numerical and experimental study on liquid crystal optical phased array beam steering combined with stochastic parallel gradient descent algorithm",
+      "authors": [
+        "Yubin Shi",
+        "Lei Si",
+        "Guobin Feng",
+        "Jianmin Zhang"
+      ],
+      "year": 2015,
+      "venue": "Optik",
+      "venue_abbr": "Optik",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "liquid crystal optical phased array",
+        "beam steering",
+        "stochastic parallel gradient descent",
+        "Zernike polynomials",
+        "phase control",
+        "adaptive optics"
+      ],
+      "url": "https://doi.org/10.1016/j.ijleo.2015.11.023",
+      "cited_by_count": 7,
+      "importance": 0.2548,
+      "score_basis": {
+        "topic_overlap": 0.122,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2290883490",
+      "doi": "10.1016/j.advengsoft.2016.01.008",
+      "title": "The Whale Optimization Algorithm",
+      "authors": [
+        "Seyedali Mirjalili",
+        "Andrew Lewis"
+      ],
+      "year": 2016,
+      "venue": "Advances in Engineering Software",
+      "venue_abbr": "Advances in Engineering Software",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "whale optimization algorithm",
+        "metaheuristic optimization",
+        "bio-inspired algorithms",
+        "structural optimization"
+      ],
+      "url": "https://doi.org/10.1016/j.advengsoft.2016.01.008",
+      "cited_by_count": 14706,
+      "importance": 0.22,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400830264",
+      "doi": "10.37188/cjlcd.2023-0207",
+      "title": "Optimization algorithm of beam pointing accuracy based on G&L-HHO",
+      "authors": [
+        "Zhe Wang",
+        "Qi HU",
+        "Hui Geng",
+        "Jiazheng TIAN",
+        "Yuning Wei"
+      ],
+      "year": 2024,
+      "venue": "Chinese Journal of Liquid Crystals and Displays",
+      "venue_abbr": "Chinese Journal of Liquid Crystals and Displays",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "beam pointing accuracy",
+        "laser beam steering",
+        "optimization algorithms"
+      ],
+      "url": "https://doi.org/10.37188/cjlcd.2023-0207",
+      "cited_by_count": 2,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W3195824394",
+      "to": "W2290883490",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3195824394"
+        }
+      ]
+    },
+    {
+      "from": "W4220765223",
+      "to": "W2946032687",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220765223"
+        }
+      ]
+    },
+    {
+      "from": "W7134960080",
+      "to": "W2162014537",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7134960080"
+        }
+      ]
+    },
+    {
+      "from": "W7134960080",
+      "to": "W2906193932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7134960080"
+        }
+      ]
+    },
+    {
+      "from": "W7134960080",
+      "to": "W2946032687",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7134960080"
+        }
+      ]
+    },
+    {
+      "from": "W7134960080",
+      "to": "W4220765223",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7134960080"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W2072093910",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W2162014537",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W2180491606",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W2290883490",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W2906193932",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W2946032687",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W3046361365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W3195824394",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W4220765223",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W4225404424",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W4313430550",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W4400830264",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    },
+    {
+      "from": "W7221321864",
+      "to": "W7134960080",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221321864"
+        }
+      ]
+    }
+  ]
 }

@@ -6,9 +6,190 @@
       "title": "从链路到算力互连",
       "description": "关注传输容量、链路预算与互连代价。",
       "question": "容量与距离是否在相同功率和带宽条件下比较？",
-      "count": 46,
-      "latest": "2026-10-29",
+      "count": 48,
+      "latest": "2026-11-02",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "f2e73262-7a2a-4afc-81e2-910fe4ec1d8d",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Adaptive conformal finite-blocklength link adaptation for burst-mode coherent passive optical networks",
+          "authors": [
+            "Keshav Kumar",
+            "Mohit Kumar Srivastava",
+            "Man Mohan Shukla",
+            "Vivek Kumar",
+            "Gaurav Sahu"
+          ],
+          "doi": "10.1515/joc-2026-0448",
+          "venue": "Journal of Optical Communications",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "a11a7eb93fc7eae5",
+            "name": "Journal of Optical Communications",
+            "original_name": "Journal of Optical Communications",
+            "abbr": "J. Opt. Commun.",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Journal of Optical Communications",
+              "J. Opt. Commun."
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "未匹配 CIE 2023",
+            "rank_order": 99,
+            "focus_tier": "P3",
+            "focus_label": "知流 P3 · 扩展关注",
+            "focus_order": 3,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-11-02",
+          "topics": [
+            "光通信与光互连",
+            "光网络与控制"
+          ],
+          "summary_zh": "论文提出AC-FBLA方案：光线路终端根据近期残差估计构建随上下文变化、按时近程度加权的突发信噪比单侧下界，并结合误覆盖反馈和有限码长可行性筛选，选择发射功率、调制格式及编码率。摘要报告，在32个ONU、25 GBd、1024符号载荷等蒙特卡洛仿真条件下，覆盖率为97.67%–97.77%，低于98%的目标；相较点估计自适应，块错误率降低87.3%–97.8%。摘要另报告频谱效率提升45.3%–79.6%，但未明确该指标的比较基线。",
+          "title_zh": "突发相干PON的自适应有限码长链路控制仿真",
+          "missing_evidence": [
+            "缺少全文，无法核查信道及残差模型、有限码长近似、比较基线与统计不确定性。",
+            "未提供硬件实验、控制开销或实时实现证据。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1515/joc-2026-0448",
+              "text": "论文提出AC-FBLA方案：光线路终端根据近期残差估计构建随上下文变化、按时近程度加权的突发信噪比单侧下界，并结合误覆盖反馈和有限码长可行性筛选，选择发射功率、调制格式及编码率。摘要报告，在32个ONU、25 GBd、1024符号载荷等蒙特卡洛仿真条件下，覆盖率为97.67%–97.77%，低于98%的目标；相较点估计自适应，块错误率降低87.3%–97.8%。摘要另报告频谱效率提升45.3%–79.6%，但未明确该指标的比较基线。"
+            }
+          ],
+          "ai_inference": [
+            "可探索将带可靠性边界的信噪比估计用于突发相干PON的逐次授权链路自适应；实际收益仍需实验验证。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1515/joc-2026-0448",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-02T00:26:38.619620+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "f2e73262-7a2a-4afc-81e2-910fe4ec1d8d",
+            "work_key": "doi:10.1515/joc-2026-0448",
+            "identifiers": {
+              "doi": "10.1515/joc-2026-0448",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "0173-4911",
+                "2191-6322"
+              ]
+            },
+            "bibliography": {
+              "title": "Adaptive conformal finite-blocklength link adaptation for burst-mode coherent passive optical networks",
+              "type": "journal-article",
+              "venue_id": "a11a7eb93fc7eae5",
+              "venue_name": "Journal of Optical Communications",
+              "venue_abbr": "J. Opt. Commun.",
+              "date": "2026-11-02",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "article_number": null,
+              "publisher": "Walter de Gruyter GmbH",
+              "language": null,
+              "published_online": null,
+              "published_print": null
+            },
+            "authors": [
+              "Keshav Kumar",
+              "Mohit Kumar Srivastava",
+              "Man Mohan Shukla",
+              "Vivek Kumar",
+              "Gaurav Sahu"
+            ],
+            "first_author": "Keshav Kumar",
+            "author_count": 5,
+            "contributors": [],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [],
+              "topic_tags": [
+                "相干通信",
+                "光网络",
+                "PON"
+              ],
+              "directions": [
+                "光通信与光互连",
+                "光网络与控制"
+              ],
+              "direction_basis": "title-session-rule",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": null,
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": "P3"
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "enabling",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": []
+            },
+            "citation_counts": {
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1515/joc-2026-0448",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": null,
+              "metadata_observed_at": null,
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
         {
           "schema_version": 1,
           "record_id": "7bef8296-52e5-4a47-b441-cf10d0ac1eac",
@@ -389,231 +570,6 @@
               "source_url": "https://doi.org/10.1364/oe.612117",
               "normalizer": "paper-attributes-v1",
               "metadata_source": "https://api.crossref.org/works/10.1364/oe.612117",
-              "metadata_observed_at": "2026-10-23T00:18:36.893544+00:00",
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "62458985-f92e-4642-b8a4-9e43916b2a9f",
-          "revision": 3,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "High-fidelity WDM/SDM fronthaul system based on state-continuous variable-bit coding and sparse residual enhancement",
-          "authors": [
-            "Jiongbin Deng",
-            "Ningyuan Zhong",
-            "Jincong Hu",
-            "Yongtao Du",
-            "Dongyang Jiang",
-            "Jia Ye",
-            "Peng Li",
-            "Xihua Zou",
-            "Lianshan Yan"
-          ],
-          "doi": "10.1364/oe.613111",
-          "venue": "Optics Express",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "20fe917b3f1c57bc",
-            "name": "Optics Express",
-            "original_name": "Optics Express",
-            "abbr": "OE",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Optics Express",
-              "OE",
-              "Opt. Express"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": "T2",
-            "rank_label": "CIE T2 · 2023",
-            "rank_order": 2,
-            "focus_tier": "P2",
-            "focus_label": "知流 P2 · 领域核心",
-            "focus_order": 2,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-10-20",
-          "topics": [
-            "光通信与光互连",
-            "光纤与传输介质"
-          ],
-          "summary_zh": "论文提出结合状态连续可变比特源编码与OFDM域稀疏残差增强的WDM/SDM光前传系统。摘要报告，加入K20稀疏残差层后，EVM降至1.83%，总有效源速率为5.23比特/RF采样，较固定6比特编码降低12.8%。实验采用20-GBaud PAS-PAM8、33线电光频梳及3公里七芯多芯光纤，评估全部231个波长–纤芯组合；配置对应的聚合净信息速率为11.55 Tbps，所有实测BER均低于2.4×10⁻²，多数信道EVM为1.8%–2.0%。",
-          "title_zh": "可变比特编码与稀疏残差增强的波分/空分复用光前传",
-          "missing_evidence": [
-            "仅提供摘要，缺少全文中的实验配置、信道测试方式、净信息速率核算及误差统计细节。",
-            "未提供BER门限对应的纠错条件、长距离表现或编解码复杂度与时延证据。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/oe.613111",
-              "text": "论文提出结合状态连续可变比特源编码与OFDM域稀疏残差增强的WDM/SDM光前传系统。摘要报告，加入K20稀疏残差层后，EVM降至1.83%，总有效源速率为5.23比特/RF采样，较固定6比特编码降低12.8%。实验采用20-GBaud PAS-PAM8、33线电光频梳及3公里七芯多芯光纤，评估全部231个波长–纤芯组合；配置对应的聚合净信息速率为11.55 Tbps，所有实测BER均低于2.4×10⁻²，多数信道EVM为1.8%–2.0%。"
-            }
-          ],
-          "ai_inference": [
-            "该方案提示，可联合优化无线波形源编码与残差传输，以改善光前传的源速率和波形保真度权衡；跨业务波形的适用性仍需验证。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1364/oe.613111",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "D",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-25T00:40:37.976788+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "62458985-f92e-4642-b8a4-9e43916b2a9f",
-            "work_key": "doi:10.1364/oe.613111",
-            "identifiers": {
-              "doi": "10.1364/oe.613111",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "1094-4087"
-              ]
-            },
-            "bibliography": {
-              "title": "High-fidelity WDM/SDM fronthaul system based on state-continuous variable-bit coding and sparse residual enhancement",
-              "type": "journal-article",
-              "venue_id": "20fe917b3f1c57bc",
-              "venue_name": "Optics Express",
-              "venue_abbr": "OE",
-              "date": "2026-10-20",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": "34",
-              "issue": "22",
-              "pages": "41267",
-              "article_number": null,
-              "publisher": "Optica Publishing Group",
-              "language": "en",
-              "published_online": "2026-10-20",
-              "published_print": "2026-11-02"
-            },
-            "authors": [
-              "Jiongbin Deng",
-              "Ningyuan Zhong",
-              "Jincong Hu",
-              "Yongtao Du",
-              "Dongyang Jiang",
-              "Jia Ye",
-              "Peng Li",
-              "Xihua Zou",
-              "Lianshan Yan"
-            ],
-            "first_author": "Jiongbin Deng",
-            "author_count": 9,
-            "contributors": [
-              {
-                "name": "Jiongbin Deng",
-                "orcid": "https://orcid.org/0009-0004-6423-5957",
-                "affiliations": []
-              },
-              {
-                "name": "Jincong Hu",
-                "orcid": "https://orcid.org/0009-0005-8432-1681",
-                "affiliations": []
-              },
-              {
-                "name": "Peng Li",
-                "orcid": "https://orcid.org/0000-0002-8334-7661",
-                "affiliations": []
-              },
-              {
-                "name": "Xihua Zou",
-                "orcid": "https://orcid.org/0000-0002-7240-4229",
-                "affiliations": []
-              },
-              {
-                "name": "Lianshan Yan",
-                "orcid": "https://orcid.org/0000-0002-3633-7161",
-                "affiliations": []
-              }
-            ],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "WDM",
-                "空分复用"
-              ],
-              "directions": [
-                "光通信与光互连",
-                "光纤与传输介质"
-              ],
-              "direction_basis": "title-session-rule",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": "T2",
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": "P2"
-            },
-            "reading": {
-              "priority": "D",
-              "relevance": "enabling",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": [
-                {
-                  "url": "https://doi.org/10.1364/OA_License_v2#VOR-OA",
-                  "version": "vor",
-                  "start": "2026-10-20"
-                },
-                {
-                  "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
-                  "version": "tdm",
-                  "start": "2026-10-20"
-                }
-              ]
-            },
-            "citation_counts": {
-              "references": 37,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-10-23T00:18:36.893544+00:00"
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1364/oe.613111",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1364/oe.613111",
               "metadata_observed_at": "2026-10-23T00:18:36.893544+00:00",
               "missing": [
                 "author_keywords",
@@ -2691,7 +2647,7 @@
         {
           "schema_version": 1,
           "record_id": "fa42fa37-8b68-4b19-9114-7f7a71f480ac",
-          "revision": 2,
+          "revision": 4,
           "is_demo": false,
           "kind": "paper",
           "title": "Memristive crossbar architecture for programmable and scalable terahertz metasurface",
@@ -2758,31 +2714,31 @@
           "topics": [
             "微波与太赫兹光子学"
           ],
-          "summary_zh": "该研究提出受忆阻器交叉阵列启发的像素级可编程超表面寻址架构，并在太赫兹波段实现。摘要称，VO₂突跳选择器可抑制潜行电流，降低像素寻址串扰；模块化行列拼接支持阵列扩展，并展示独立二维相位调制和非易失太赫兹波束转向。",
-          "title_zh": "交叉阵列寻址实现可扩展太赫兹可编程超表面",
+          "summary_zh": "摘要提出并在太赫兹频段实现一种借鉴忆阻器交叉阵列的超表面寻址架构。该架构集成基于VO₂的回跳选择器以抑制潜行电流，实现低串扰像素寻址，并采用模块化行列拼接方案支持阵列扩展。摘要还报告独立二维相位调制和非易失性太赫兹波束转向。",
+          "title_zh": "交叉阵列寻址实现可编程太赫兹超表面",
           "missing_evidence": [
-            "全文及方法部分，以区分功能演示中的实验与仿真证据。",
-            "串扰、阵列规模、调制速度、损耗及保持特性的定量结果。",
-            "光学波段实现与通信链路验证。"
+            "未提供全文，无法核实功能演示的实验配置、测量结果及仿真与实验各自覆盖的范围。",
+            "摘要未给出阵列规模、串扰水平、调制速度、损耗或通信链路性能。",
+            "未提供光频器件实现或验证结果。"
           ],
           "facts": [
             {
               "locator": "abstract",
               "source_url": "https://doi.org/10.1038/s41467-026-78992-x",
-              "text": "该研究提出受忆阻器交叉阵列启发的像素级可编程超表面寻址架构，并在太赫兹波段实现。摘要称，VO₂突跳选择器可抑制潜行电流，降低像素寻址串扰；模块化行列拼接支持阵列扩展，并展示独立二维相位调制和非易失太赫兹波束转向。"
+              "text": "摘要提出并在太赫兹频段实现一种借鉴忆阻器交叉阵列的超表面寻址架构。该架构集成基于VO₂的回跳选择器以抑制潜行电流，实现低串扰像素寻址，并采用模块化行列拼接方案支持阵列扩展。摘要还报告独立二维相位调制和非易失性太赫兹波束转向。"
             }
           ],
           "ai_inference": [
-            "像素选择与模块化寻址思路可能为通信波束控制及光学可编程阵列提供参考；跨波段迁移仍需器件与系统验证。"
+            "低串扰行列寻址与模块化拼接可能为大规模可编程光子阵列提供设计参考；迁移到光频仍需验证器件与调制机制的适用性。"
           ],
           "metrics": [],
-          "evidence_status": "abstract-only",
+          "evidence_status": "abstract+pdf-link",
           "source_url": "https://doi.org/10.1038/s41467-026-78992-x",
           "related_ids": [],
           "relevance_class": "enabling",
-          "reading_level": "C",
+          "reading_level": "B",
           "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-31T00:32:09.350895+00:00",
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-02T00:32:53.340720+00:00",
           "attributes": {
             "schema": "paperflow.paper-attributes/v1",
             "id": "fa42fa37-8b68-4b19-9114-7f7a71f480ac",
@@ -2808,9 +2764,9 @@
               "issue": null,
               "pages": null,
               "article_number": null,
-              "publisher": "Springer Science and Business Media LLC",
-              "language": "en",
-              "published_online": "2026-10-30",
+              "publisher": null,
+              "language": null,
+              "published_online": null,
               "published_print": null
             },
             "authors": [
@@ -2834,61 +2790,14 @@
             ],
             "first_author": "Hangbing Guo",
             "author_count": 17,
-            "contributors": [
-              {
-                "name": "Benwen Chen",
-                "orcid": "https://orcid.org/0000-0001-6561-3594",
-                "affiliations": []
-              },
-              {
-                "name": "Jingbo Wu",
-                "orcid": "https://orcid.org/0000-0003-2969-5670",
-                "affiliations": []
-              },
-              {
-                "name": "Kebin Fan",
-                "orcid": "https://orcid.org/0000-0002-0275-0871",
-                "affiliations": []
-              },
-              {
-                "name": "Caihong Zhang",
-                "orcid": "https://orcid.org/0000-0003-2468-7612",
-                "affiliations": []
-              },
-              {
-                "name": "Xinping Zhang",
-                "orcid": "https://orcid.org/0000-0001-6534-0004",
-                "affiliations": []
-              },
-              {
-                "name": "Yunbin He",
-                "orcid": "https://orcid.org/0000-0002-7179-4392",
-                "affiliations": []
-              },
-              {
-                "name": "Huabing Wang",
-                "orcid": "https://orcid.org/0000-0003-4802-6077",
-                "affiliations": []
-              },
-              {
-                "name": "Biaobing Jin",
-                "orcid": "https://orcid.org/0000-0001-9506-8355",
-                "affiliations": []
-              },
-              {
-                "name": "Jian Chen",
-                "orcid": "https://orcid.org/0000-0002-1360-8969",
-                "affiliations": []
-              },
-              {
-                "name": "Peiheng Wu",
-                "orcid": "https://orcid.org/0000-0003-2663-8953",
-                "affiliations": []
-              }
-            ],
+            "contributors": [],
             "content": {
               "author_keywords": [],
-              "source_subjects": [],
+              "source_subjects": [
+                "Metamaterials and Metasurfaces Applications",
+                "Advanced Memory and Neural Computing",
+                "Terahertz technology and applications"
+              ],
               "topic_tags": [
                 "太赫兹"
               ],
@@ -2914,36 +2823,25 @@
               "focus": "P1"
             },
             "reading": {
-              "priority": "C",
+              "priority": "B",
               "relevance": "enabling",
-              "evidence": "abstract-only"
+              "evidence": "abstract+pdf-link"
             },
             "access": {
               "oa_status": "unknown",
-              "licenses": [
-                {
-                  "start": "2026-10-30",
-                  "url": "https://creativecommons.org/licenses/by/4.0",
-                  "version": "tdm"
-                },
-                {
-                  "start": "2026-10-30",
-                  "url": "https://creativecommons.org/licenses/by/4.0",
-                  "version": "am"
-                }
-              ]
+              "licenses": []
             },
             "citation_counts": {
-              "references": 0,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-10-31T00:20:09.968807+00:00"
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
             },
             "provenance": {
               "source_url": "https://doi.org/10.1038/s41467-026-78992-x",
               "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1038/s41467-026-78992-x",
-              "metadata_observed_at": "2026-10-31T00:20:09.968807+00:00",
+              "metadata_source": null,
+              "metadata_observed_at": null,
               "missing": [
                 "author_keywords",
                 "open_access"
@@ -3156,9 +3054,190 @@
       "title": "从单链路到网络协同",
       "description": "关注资源分配、控制与业务可靠性。",
       "question": "仿真增益是否包含控制开销、故障与真实业务变化？",
-      "count": 25,
-      "latest": "2026-10-27",
+      "count": 26,
+      "latest": "2026-11-02",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "f2e73262-7a2a-4afc-81e2-910fe4ec1d8d",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Adaptive conformal finite-blocklength link adaptation for burst-mode coherent passive optical networks",
+          "authors": [
+            "Keshav Kumar",
+            "Mohit Kumar Srivastava",
+            "Man Mohan Shukla",
+            "Vivek Kumar",
+            "Gaurav Sahu"
+          ],
+          "doi": "10.1515/joc-2026-0448",
+          "venue": "Journal of Optical Communications",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "a11a7eb93fc7eae5",
+            "name": "Journal of Optical Communications",
+            "original_name": "Journal of Optical Communications",
+            "abbr": "J. Opt. Commun.",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Journal of Optical Communications",
+              "J. Opt. Commun."
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "未匹配 CIE 2023",
+            "rank_order": 99,
+            "focus_tier": "P3",
+            "focus_label": "知流 P3 · 扩展关注",
+            "focus_order": 3,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-11-02",
+          "topics": [
+            "光通信与光互连",
+            "光网络与控制"
+          ],
+          "summary_zh": "论文提出AC-FBLA方案：光线路终端根据近期残差估计构建随上下文变化、按时近程度加权的突发信噪比单侧下界，并结合误覆盖反馈和有限码长可行性筛选，选择发射功率、调制格式及编码率。摘要报告，在32个ONU、25 GBd、1024符号载荷等蒙特卡洛仿真条件下，覆盖率为97.67%–97.77%，低于98%的目标；相较点估计自适应，块错误率降低87.3%–97.8%。摘要另报告频谱效率提升45.3%–79.6%，但未明确该指标的比较基线。",
+          "title_zh": "突发相干PON的自适应有限码长链路控制仿真",
+          "missing_evidence": [
+            "缺少全文，无法核查信道及残差模型、有限码长近似、比较基线与统计不确定性。",
+            "未提供硬件实验、控制开销或实时实现证据。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1515/joc-2026-0448",
+              "text": "论文提出AC-FBLA方案：光线路终端根据近期残差估计构建随上下文变化、按时近程度加权的突发信噪比单侧下界，并结合误覆盖反馈和有限码长可行性筛选，选择发射功率、调制格式及编码率。摘要报告，在32个ONU、25 GBd、1024符号载荷等蒙特卡洛仿真条件下，覆盖率为97.67%–97.77%，低于98%的目标；相较点估计自适应，块错误率降低87.3%–97.8%。摘要另报告频谱效率提升45.3%–79.6%，但未明确该指标的比较基线。"
+            }
+          ],
+          "ai_inference": [
+            "可探索将带可靠性边界的信噪比估计用于突发相干PON的逐次授权链路自适应；实际收益仍需实验验证。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1515/joc-2026-0448",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-02T00:26:38.619620+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "f2e73262-7a2a-4afc-81e2-910fe4ec1d8d",
+            "work_key": "doi:10.1515/joc-2026-0448",
+            "identifiers": {
+              "doi": "10.1515/joc-2026-0448",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "0173-4911",
+                "2191-6322"
+              ]
+            },
+            "bibliography": {
+              "title": "Adaptive conformal finite-blocklength link adaptation for burst-mode coherent passive optical networks",
+              "type": "journal-article",
+              "venue_id": "a11a7eb93fc7eae5",
+              "venue_name": "Journal of Optical Communications",
+              "venue_abbr": "J. Opt. Commun.",
+              "date": "2026-11-02",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "article_number": null,
+              "publisher": "Walter de Gruyter GmbH",
+              "language": null,
+              "published_online": null,
+              "published_print": null
+            },
+            "authors": [
+              "Keshav Kumar",
+              "Mohit Kumar Srivastava",
+              "Man Mohan Shukla",
+              "Vivek Kumar",
+              "Gaurav Sahu"
+            ],
+            "first_author": "Keshav Kumar",
+            "author_count": 5,
+            "contributors": [],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [],
+              "topic_tags": [
+                "相干通信",
+                "光网络",
+                "PON"
+              ],
+              "directions": [
+                "光通信与光互连",
+                "光网络与控制"
+              ],
+              "direction_basis": "title-session-rule",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": null,
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": "P3"
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "enabling",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": []
+            },
+            "citation_counts": {
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1515/joc-2026-0448",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": null,
+              "metadata_observed_at": null,
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
         {
           "schema_version": 1,
           "record_id": "61473680-b1e1-4ad7-9acb-3b7bb07db281",
@@ -3553,202 +3632,6 @@
               "normalizer": "paper-attributes-v1",
               "metadata_source": null,
               "metadata_observed_at": null,
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "9efdc253-a935-4cf4-9563-4c42b10c421d",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Bidirectional coherent PON over 25-km hollow-core fiber with a laser-free ONU using silicon photonic coherent receivers",
-          "authors": [
-            "Yutong Pan",
-            "Tianhong Zhang",
-            "Yixiao Zhu",
-            "Shikui Shen",
-            "Yu Qin",
-            "Wenhao Wang",
-            "Shuailuo Huang",
-            "Limin Xiao",
-            "Yichun Shen",
-            "Ning Zhang",
-            "Zelin Wang",
-            "Fan Zhang"
-          ],
-          "doi": "10.1364/ol.612605",
-          "venue": "Optics Letters",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "f01bbddcb7738bfc",
-            "name": "Optics Letters",
-            "original_name": "Optics Letters",
-            "abbr": "OL",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Optics Letters",
-              "OL",
-              "Opt. Lett."
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": "T2",
-            "rank_label": "CIE T2 · 2023",
-            "rank_order": 2,
-            "focus_tier": "P2",
-            "focus_label": "知流 P2 · 领域核心",
-            "focus_order": 2,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-10-23",
-          "topics": [
-            "光网络与控制"
-          ],
-          "summary_zh": "该研究实验演示了采用无激光器ONU和封装硅光集成相干接收机的双向相干PON，在25公里空芯光纤上实现每方向240 Gb/s毛速率传输。OLT下发的光载波同时用作下行本振和上行调制载波。双向同时传输采用30 GBaud双偏振16-QAM；在15%软判决前向纠错门限下，上行和下行功率预算分别为46.5和45.4 dB。实验还验证了QPSK至64-QAM的灵活运行，对应120至360 Gb/s毛速率。",
-          "title_zh": "无激光器ONU实现25公里空芯光纤双向相干PON",
-          "missing_evidence": [
-            "仅提供摘要，无法核查功率预算的计算边界、实验配置及误码性能曲线。",
-            "摘要未给出分光规模、多用户运行、突发接收及长期稳定性证据，也未提供成本量化结果。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/ol.612605",
-              "text": "该研究实验演示了采用无激光器ONU和封装硅光集成相干接收机的双向相干PON，在25公里空芯光纤上实现每方向240 Gb/s毛速率传输。OLT下发的光载波同时用作下行本振和上行调制载波。双向同时传输采用30 GBaud双偏振16-QAM；在15%软判决前向纠错门限下，上行和下行功率预算分别为46.5和45.4 dB。实验还验证了QPSK至64-QAM的灵活运行，对应120至360 Gb/s毛速率。"
-            }
-          ],
-          "ai_inference": [
-            "集中供光与硅光相干接收机的结合，可为减少ONU本地激光器配置的相干接入架构提供研究参考。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1364/ol.612605",
-          "related_ids": [],
-          "relevance_class": "direct",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-24T00:26:40.491813+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "9efdc253-a935-4cf4-9563-4c42b10c421d",
-            "work_key": "doi:10.1364/ol.612605",
-            "identifiers": {
-              "doi": "10.1364/ol.612605",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "0146-9592",
-                "1539-4794"
-              ]
-            },
-            "bibliography": {
-              "title": "Bidirectional coherent PON over 25-km hollow-core fiber with a laser-free ONU using silicon photonic coherent receivers",
-              "type": "journal-article",
-              "venue_id": "f01bbddcb7738bfc",
-              "venue_name": "Optics Letters",
-              "venue_abbr": "OL",
-              "date": "2026-10-23",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": "51",
-              "issue": "21",
-              "pages": "6026",
-              "article_number": null,
-              "publisher": "Optica Publishing Group",
-              "language": "en",
-              "published_online": "2026-10-05",
-              "published_print": null
-            },
-            "authors": [
-              "Yutong Pan",
-              "Tianhong Zhang",
-              "Yixiao Zhu",
-              "Shikui Shen",
-              "Yu Qin",
-              "Wenhao Wang",
-              "Shuailuo Huang",
-              "Limin Xiao",
-              "Yichun Shen",
-              "Ning Zhang",
-              "Zelin Wang",
-              "Fan Zhang"
-            ],
-            "first_author": "Yutong Pan",
-            "author_count": 12,
-            "contributors": [],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "相干通信",
-                "硅光",
-                "激光器",
-                "空芯光纤",
-                "PON"
-              ],
-              "directions": [
-                "光网络与控制"
-              ],
-              "direction_basis": "source-classification",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": "T2",
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": "P2"
-            },
-            "reading": {
-              "priority": "B",
-              "relevance": "direct",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": []
-            },
-            "citation_counts": {
-              "references": 0,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-10-23T00:18:40.793812+00:00"
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1364/ol.612605",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1364/ol.612605",
-              "metadata_observed_at": "2026-10-23T00:18:40.793812+00:00",
               "missing": [
                 "author_keywords",
                 "open_access"
@@ -4376,7 +4259,7 @@
       "title": "探索量子网络边界",
       "description": "关注量子链路、纠缠分发与经典网络共存。",
       "question": "速率、保真度与距离是否在可比条件下报告？",
-      "count": 19,
+      "count": 20,
       "latest": "2026-10-30",
       "items": [
         {
@@ -7164,10 +7047,10 @@
       ]
     }
   ],
-  "unclassified": 64,
+  "unclassified": 66,
   "evidence_counts": {
-    "abstract+pdf-link": 92,
-    "abstract-only": 233,
+    "abstract+pdf-link": 94,
+    "abstract-only": 235,
     "official-announcement": 1
   }
 }

@@ -1,0 +1,3180 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "e06012c6-2ca7-4073-96d1-222e7c581052",
+  "root": "W7169812778",
+  "status": "ok",
+  "checked_at": "2026-11-02T00:50:08.921130+00:00",
+  "coverage": {
+    "references_found": 68,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "references_without_doi": 1,
+    "candidates_resolved": 68,
+    "displayed": 40
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7169812778",
+      "doi": "10.1364/oe.611817",
+      "title": "Efficient routing and spectrum allocation in arbitrary flex-grid entanglement networks",
+      "authors": [
+        "Zachary Goisman",
+        "Matthew L. Stevens",
+        "Maxwell Goisman",
+        "T. K. Truong",
+        "Gayane Vardoyan",
+        "Don Towsley",
+        "Nicholas A. Peters",
+        "Nageswara S. V. Rao",
+        "Guoliang Xue",
+        "Joseph M. Lukens"
+      ],
+      "year": 2026,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "quantum networks",
+        "routing and spectrum assignment",
+        "flex-grid",
+        "entanglement distribution",
+        "Yen's algorithm",
+        "CP-SAT",
+        "frequency allocation",
+        "ring topology"
+      ],
+      "url": "https://doi.org/10.1364/oe.611817",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/e06012c6-2ca7-4073-96d1-222e7c581052.html",
+      "summary": "该研究面向基于超纠缠光子的无中继柔性栅格量子网络，提出三阶段启发式流程：使用 Yen 算法生成低损耗候选路由，通过 APOPT 在保真度约束下优化频率信道分配以最大化分发速率，再由 CP-SAT 为各链路分配具体频率槽，避免不同光源间的频率争用。作者在代表性环形网络及曼哈顿本地交换运营商拓扑上进行数值验证，报告相较既有遗传算法在速度、准确性及可扩展性方面有所改善。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W3135384040",
+      "doi": "10.1103/prxquantum.2.040304",
+      "title": "Reconfigurable Quantum Local Area Network Over Deployed Fiber",
+      "authors": [
+        "Muneer Alshowkan",
+        "Brian P. Williams",
+        "Philip G. Evans",
+        "Nageswara S.V. Rao",
+        "Emma M. Simmerman",
+        "Hsuan‐Hao Lu",
+        "Navin B. Lingaraju",
+        "Andrew M. Weiner",
+        "Claire E. Marvinney",
+        "Yun-Yi Pai",
+        "Benjamin J. Lawrie",
+        "Nicholas A. Peters",
+        "Joseph M. Lukens"
+      ],
+      "year": 2021,
+      "venue": "PRX Quantum",
+      "venue_abbr": "PRX Quantum",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "entanglement distribution",
+        "flex-grid",
+        "clock synchronization",
+        "remote state preparation"
+      ],
+      "url": "https://doi.org/10.1103/prxquantum.2.040304",
+      "cited_by_count": 118,
+      "importance": 0.7037,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412985120",
+      "doi": "10.1109/jlt.2025.3581220",
+      "title": "Resilient Entanglement Distribution in a Multihop Quantum Network",
+      "authors": [
+        "Muneer Alshowkan",
+        "Joseph M. Lukens",
+        "Hsuan‐Hao Lu",
+        "Nicholas A. Peters"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "entanglement distribution",
+        "quantum networking",
+        "polarization entanglement",
+        "two-qubit entanglement",
+        "wavelength selective switch",
+        "adaptive management",
+        "link recovery",
+        "link failure tolerance",
+        "network resilience",
+        "quantum fidelity"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3581220",
+      "cited_by_count": 11,
+      "importance": 0.6919,
+      "score_basis": {
+        "topic_overlap": 0.404,
+        "shared_references": 8,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3178307110",
+      "doi": "10.1109/tnet.2023.3343748",
+      "title": "Concurrent Entanglement Routing for Quantum Networks: Model and Designs",
+      "authors": [
+        "Shouqian Shi",
+        "Xiaoxue Zhang",
+        "Chen Qian"
+      ],
+      "year": 2024,
+      "venue": "IEEE/ACM Transactions on Networking",
+      "venue_abbr": "IEEE/ACM Transactions on Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "entanglement routing",
+        "quantum networks",
+        "quantum key distribution",
+        "secret sharing"
+      ],
+      "url": "https://doi.org/10.1109/tnet.2023.3343748",
+      "cited_by_count": 71,
+      "importance": 0.6884,
+      "score_basis": {
+        "topic_overlap": 0.485,
+        "shared_references": 8,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4297796831",
+      "doi": "10.1109/tqe.2022.3221029",
+      "title": "Design and Implementation of the Illinois Express Quantum Metropolitan Area Network",
+      "authors": [
+        "Joaquín Chung",
+        "Ely M. Eastman",
+        "Gregory S. Kanter",
+        "Keshav Kapoor",
+        "Nikolai Lauk",
+        "Cristián Peña",
+        "Robert K. Plunkett",
+        "Neil E. Sinclair",
+        "Jordan M. Thomas",
+        "Raju Valivarthi",
+        "S. Xie",
+        "Rajkumar Kettimuthu",
+        "Prem Kumar",
+        "Panagiotis Spentzouris",
+        "M. Spiropulu"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Quantum Engineering",
+      "venue_abbr": "IEEE Transactions on Quantum Engineering",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum networking",
+        "metropolitan quantum networks",
+        "software-defined networking",
+        "wavelength routing",
+        "wavelength assignment",
+        "quantum nodes",
+        "optical switches",
+        "network synchronization",
+        "network monitoring",
+        "entanglement distribution",
+        "quantum teleportation",
+        "optical fiber communication"
+      ],
+      "url": "https://doi.org/10.1109/tqe.2022.3221029",
+      "cited_by_count": 56,
+      "importance": 0.6863,
+      "score_basis": {
+        "topic_overlap": 0.458,
+        "shared_references": 4,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4223985649",
+      "doi": "10.1364/oe.458358",
+      "title": "Optimal resource allocation for flexible-grid entanglement distribution networks",
+      "authors": [
+        "Jude Alnas",
+        "Muneer Alshowkan",
+        "Nageswara S. V. Rao",
+        "Nicholas A. Peters",
+        "Joseph M. Lukens"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "entanglement distribution",
+        "resource allocation",
+        "genetic algorithm optimization"
+      ],
+      "url": "https://doi.org/10.1364/oe.458358",
+      "cited_by_count": 16,
+      "importance": 0.6713,
+      "score_basis": {
+        "topic_overlap": 0.403,
+        "shared_references": 10,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2948602808",
+      "doi": "10.1364/aop.361502",
+      "title": "Advances in quantum cryptography",
+      "authors": [
+        "Stefano Pirandola",
+        "U. L. Andersen",
+        "Leonardo Banchi",
+        "Mario Berta",
+        "Darius Bunandar",
+        "Roger Colbeck",
+        "Dirk Englund",
+        "T. Gehring",
+        "Cosmo Lupo",
+        "Carlo Ottaviani",
+        "J. L. Pereira",
+        "Mohsen Razavi",
+        "Jesni Shamsul Shaari",
+        "Marco Tomamichel",
+        "V. C. Usenko",
+        "G. Vallone",
+        "P. Villoresi",
+        "P. Wallden"
+      ],
+      "year": 2020,
+      "venue": "Advances in Optics and Photonics",
+      "venue_abbr": "Advances in Optics and Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum cryptography",
+        "quantum key distribution",
+        "discrete-variable quantum key distribution",
+        "device-independent quantum key distribution",
+        "satellite quantum key distribution",
+        "continuous-variable quantum key distribution",
+        "quantum repeaters",
+        "quantum networks",
+        "private communication",
+        "quantum random number generators",
+        "quantum digital signatures",
+        "security proofs"
+      ],
+      "url": "https://doi.org/10.1364/aop.361502",
+      "cited_by_count": 2039,
+      "importance": 0.6587,
+      "score_basis": {
+        "topic_overlap": 0.286,
+        "shared_references": 8,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408281310",
+      "doi": "10.1109/jsac.2025.3548794",
+      "title": "Routing and Spectrum Allocation in Broadband Quantum Entanglement Distribution",
+      "authors": [
+        "Rohan Bali",
+        "Ashley N. Tittelbaugh",
+        "Shelbi L. Jenkins",
+        "Anuj Agrawal",
+        "Jerry Horgan",
+        "Marco Ruffini",
+        "Daniel C. Kilper",
+        "Boulat A. Bash"
+      ],
+      "year": 2025,
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "venue_abbr": "JSAC",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "quantum entanglement distribution",
+        "routing and spectrum assignment",
+        "time-frequency entanglement",
+        "max-min fairness",
+        "polynomial-time approximation algorithms",
+        "network scalability",
+        "optical networks"
+      ],
+      "url": "https://doi.org/10.1109/jsac.2025.3548794",
+      "cited_by_count": 3,
+      "importance": 0.649,
+      "score_basis": {
+        "topic_overlap": 0.442,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2750575580",
+      "doi": "10.1038/s41534-019-0139-x",
+      "title": "Routing entanglement in the quantum internet",
+      "authors": [
+        "Mihir Pant",
+        "Hari Krovi",
+        "Don Towsley",
+        "Leandros Tassiulas",
+        "Liang Jiang",
+        "Prithwish Basu",
+        "Dirk Englund",
+        "Saikat Guha"
+      ],
+      "year": 2019,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum internet",
+        "quantum repeaters",
+        "entanglement distribution",
+        "entanglement rate",
+        "path diversity",
+        "quantum memory",
+        "distributed quantum computing",
+        "quantum error correction"
+      ],
+      "url": "https://doi.org/10.1038/s41534-019-0139-x",
+      "cited_by_count": 441,
+      "importance": 0.6468,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402534293",
+      "doi": "10.1038/s41534-024-00886-x",
+      "title": "Demonstration of quantum network protocols over a 14-km urban fiber link",
+      "authors": [
+        "Stephan Kucera",
+        "Christian Haen",
+        "Elena Arenskötter",
+        "Tobias Bauer",
+        "Jonas Meiers",
+        "Marlon Schäfer",
+        "Ross Boland",
+        "Milad Yahyapour",
+        "Maurice Lessing",
+        "Ronald Holzwarth",
+        "Christoph Becher",
+        "Jürgen Eschner"
+      ],
+      "year": 2024,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum networks",
+        "quantum entanglement distribution",
+        "quantum teleportation",
+        "dark fiber",
+        "polarization stabilization",
+        "spontaneous parametric down-conversion",
+        "quantum frequency conversion",
+        "telecom C-band",
+        "ion-photon entanglement",
+        "quantum repeaters"
+      ],
+      "url": "https://doi.org/10.1038/s41534-024-00886-x",
+      "cited_by_count": 39,
+      "importance": 0.6335,
+      "score_basis": {
+        "topic_overlap": 0.319,
+        "shared_references": 9,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401458972",
+      "doi": "10.1103/prxquantum.5.030330",
+      "title": "Automated Distribution of Polarization-Entangled Photons Using Deployed New York City Fibers",
+      "authors": [
+        "Alexander N. Craddock",
+        "Anne Lazenby",
+        "Gabriel Bello Portmann",
+        "Rourke Sekelsky",
+        "Mael Flament",
+        "Mehdi Namazi"
+      ],
+      "year": 2024,
+      "venue": "PRX Quantum",
+      "venue_abbr": "PRX Quantum",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-entangled photons",
+        "entanglement distribution",
+        "quantum networks",
+        "entanglement rate",
+        "entanglement fidelity",
+        "continuous operation",
+        "fiber-based quantum communication"
+      ],
+      "url": "https://doi.org/10.1103/prxquantum.5.030330",
+      "cited_by_count": 49,
+      "importance": 0.6305,
+      "score_basis": {
+        "topic_overlap": 0.312,
+        "shared_references": 5,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4292348062",
+      "doi": "10.1109/tcomm.2022.3200115",
+      "title": "Fidelity-Guaranteed Entanglement Routing in Quantum Networks",
+      "authors": [
+        "Jian Li",
+        "Mingjun Wang",
+        "Kaiping Xue",
+        "Ruidong Li",
+        "Nenghai Yu",
+        "Qibin Sun",
+        "Jun Lu"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Communications",
+      "venue_abbr": "IEEE Trans. Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "entanglement routing",
+        "quantum networks",
+        "entanglement fidelity",
+        "entanglement distillation",
+        "source-destination pairs",
+        "Dijkstra's algorithm",
+        "greedy routing",
+        "resource allocation",
+        "rerouting"
+      ],
+      "url": "https://doi.org/10.1109/tcomm.2022.3200115",
+      "cited_by_count": 136,
+      "importance": 0.6202,
+      "score_basis": {
+        "topic_overlap": 0.489,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401728494",
+      "doi": "10.1038/s41598-024-70114-1",
+      "title": "Optimal routing and end-to-end entanglement distribution in quantum networks",
+      "authors": [
+        "Joy Halder",
+        "Akhmadjon Rajabov",
+        "Riccardo Bassoli",
+        "Frank H. P. Fitzek",
+        "Gerhard Paul Fettweis"
+      ],
+      "year": 2024,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum networks",
+        "entanglement distribution",
+        "entanglement swapping",
+        "Bell pairs",
+        "EPR pairs",
+        "resource allocation",
+        "route optimization",
+        "integer linear programming",
+        "heuristic algorithms",
+        "quantum memory",
+        "entanglement fidelity"
+      ],
+      "url": "https://doi.org/10.1038/s41598-024-70114-1",
+      "cited_by_count": 15,
+      "importance": 0.6091,
+      "score_basis": {
+        "topic_overlap": 0.465,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407424331",
+      "doi": "10.1016/j.pquantelec.2025.100586",
+      "title": "Hybrid classical-quantum communication networks",
+      "authors": [
+        "Joseph M. Lukens",
+        "Nicholas A. Peters",
+        "Bing Qi"
+      ],
+      "year": 2025,
+      "venue": "Progress in Quantum Electronics",
+      "venue_abbr": "Progress in Quantum Electronics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "hybrid quantum-classical networks",
+        "quantum networking",
+        "quantum key distribution",
+        "lightwave networks",
+        "fiber optic infrastructure",
+        "quantum repeaters",
+        "quantum memory",
+        "heterogeneous networks",
+        "quantum communication protocols"
+      ],
+      "url": "https://doi.org/10.1016/j.pquantelec.2025.100586",
+      "cited_by_count": 12,
+      "importance": 0.6033,
+      "score_basis": {
+        "topic_overlap": 0.296,
+        "shared_references": 18,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390906822",
+      "doi": "10.1103/physrevapplied.21.014024",
+      "title": "Development of a Boston-area 50-km fiber quantum network testbed",
+      "authors": [
+        "Eric A. Bersin",
+        "Matthew E. Grein",
+        "Madison Sutula",
+        "Ryan P. Murphy",
+        "Yan Qi Huan",
+        "Mark L. Stevens",
+        "Aziza Suleymanzade",
+        "Catherine Lee",
+        "Ralf Riedinger",
+        "David J. Starling",
+        "Pieter-Jan Stas",
+        "Can M. Knaut",
+        "Neil E. Sinclair",
+        "Daniel Assumpção",
+        "Yan-Cheng Wei",
+        "Erik Knall",
+        "Bartholomeus Machielse",
+        "Денис Дмитриевич Сукачев",
+        "David Levonian",
+        "Mihir K. Bhaskar",
+        "Marko Lončar",
+        "Scott A. Hamilton",
+        "Mikhail D. Lukin",
+        "Dirk Englund",
+        "P. Ben Dixon"
+      ],
+      "year": 2024,
+      "venue": "Physical Review Applied",
+      "venue_abbr": "Phys. Rev. Applied",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum networks",
+        "polarization noise",
+        "phase noise",
+        "noise compensation",
+        "quantum key distribution"
+      ],
+      "url": "https://doi.org/10.1103/physrevapplied.21.014024",
+      "cited_by_count": 46,
+      "importance": 0.5953,
+      "score_basis": {
+        "topic_overlap": 0.301,
+        "shared_references": 4,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390971856",
+      "doi": "10.1116/5.0172819",
+      "title": "Asynchronous entanglement routing for the quantum internet",
+      "authors": [
+        "Zebo Yang",
+        "Ali Ghubaish",
+        "Raj Kumar Jain",
+        "Hassan Shapourian",
+        "Alireza Shabani"
+      ],
+      "year": 2024,
+      "venue": "AVS Quantum Science",
+      "venue_abbr": "AVS Quantum Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum internet",
+        "quantum repeaters",
+        "entanglement routing",
+        "entanglement swapping",
+        "dynamic topology",
+        "directed acyclic graphs",
+        "spanning trees",
+        "entanglement rate",
+        "coherence time",
+        "quantum networking"
+      ],
+      "url": "https://doi.org/10.1116/5.0172819",
+      "cited_by_count": 31,
+      "importance": 0.5916,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4309320155",
+      "doi": "10.1364/ol.471363",
+      "title": "Broadband polarization-entangled source for C+L-band flex-grid quantum networks",
+      "authors": [
+        "Muneer Alshowkan",
+        "Joseph M. Lukens",
+        "Hsuan‐Hao Lu",
+        "Brian T. Kirby",
+        "Brian P. Williams",
+        "Warren P. Grice",
+        "Nicholas A. Peters"
+      ],
+      "year": 2022,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "polarization entanglement",
+        "C-band",
+        "L-band",
+        "wavelength selective switch",
+        "entanglement distillation",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1364/ol.471363",
+      "cited_by_count": 32,
+      "importance": 0.5867,
+      "score_basis": {
+        "topic_overlap": 0.237,
+        "shared_references": 4,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404939904",
+      "doi": "10.1364/oe.543704",
+      "title": "Continuous automatic polarization channel stabilization from heterodyne detection of coexisting dim reference signals",
+      "authors": [
+        "Joseph C. Chapman",
+        "Muneer Alshowkan",
+        "Kazi Reaz",
+        "Tian Li",
+        "Mariam Kiran"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "heterodyne detection",
+        "polarimetry",
+        "metropolitan quantum networks",
+        "entanglement distribution",
+        "C-band and L-band"
+      ],
+      "url": "https://doi.org/10.1364/oe.543704",
+      "cited_by_count": 13,
+      "importance": 0.5816,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3205104429",
+      "doi": "10.1016/j.peva.2021.102242",
+      "title": "On the quantum performance evaluation of two distributed quantum architectures",
+      "authors": [
+        "Gayane Vardoyan",
+        "Matthew Skrzypczyk",
+        "Stephanie Wehner"
+      ],
+      "year": 2021,
+      "venue": "Performance Evaluation",
+      "venue_abbr": "Performance Evaluation",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed quantum computing",
+        "quantum computing hardware",
+        "quantum networks",
+        "continuous-time Markov chains",
+        "memory lifetime",
+        "time-varying noise",
+        "nitrogen-vacancy centers",
+        "diamond",
+        "waiting time distribution"
+      ],
+      "url": "https://doi.org/10.1016/j.peva.2021.102242",
+      "cited_by_count": 10,
+      "importance": 0.5781,
+      "score_basis": {
+        "topic_overlap": 0.285,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2897264299",
+      "doi": "10.1126/science.aam9288",
+      "title": "Quantum internet: A vision for the road ahead",
+      "authors": [
+        "Stephanie Wehner",
+        "David Elkouss",
+        "Ronald Hanson"
+      ],
+      "year": 2018,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum internet",
+        "quantum communication",
+        "qubits",
+        "quantum networks",
+        "quantum cryptography",
+        "quantum computing",
+        "information security"
+      ],
+      "url": "https://doi.org/10.1126/science.aam9288",
+      "cited_by_count": 2466,
+      "importance": 0.5759,
+      "score_basis": {
+        "topic_overlap": 0.28,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7133230161",
+      "doi": "10.1103/63wh-4x54",
+      "title": "In situ quantum verification of polarization-stabilized optical channels",
+      "authors": [
+        "Matthew L. Stevens",
+        "Noah I. Wasserbeck",
+        "Zachary Goisman",
+        "Arefur Rahman",
+        "John Michael Record",
+        "T. K. Truong",
+        "Ariq Haqq",
+        "Muneer Alshowkan",
+        "Brian T. Kirby",
+        "Nils T. Otterstrom",
+        "Joseph M. Lukens"
+      ],
+      "year": 2026,
+      "venue": "Physical Review Applied",
+      "venue_abbr": "Phys. Rev. Applied",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization stabilization",
+        "quantum-classical coexistence",
+        "quantum process tomography",
+        "quantum channel characterization",
+        "quantum maps",
+        "polarization tracking",
+        "noise source identification"
+      ],
+      "url": "https://doi.org/10.1103/63wh-4x54",
+      "cited_by_count": 1,
+      "importance": 0.5634,
+      "score_basis": {
+        "topic_overlap": 0.252,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1579655362",
+      "doi": "10.1109/comst.2015.2431731",
+      "title": "Routing and Spectrum Allocation in Elastic Optical Networks: A Tutorial",
+      "authors": [
+        "Bijoy Chand Chatterjee",
+        "Nityananda Sarma",
+        "Eiji Oki"
+      ],
+      "year": 2015,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "routing and spectrum assignment",
+        "optical network architecture",
+        "node architecture",
+        "fragmentation",
+        "modulation",
+        "transmission quality",
+        "traffic grooming",
+        "survivability",
+        "energy conservation",
+        "network cost",
+        "experimental demonstration"
+      ],
+      "url": "https://doi.org/10.1109/comst.2015.2431731",
+      "cited_by_count": 707,
+      "importance": 0.5443,
+      "score_basis": {
+        "topic_overlap": 0.21,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403917832",
+      "doi": "10.1126/sciadv.adp6442",
+      "title": "Metropolitan-scale heralded entanglement of solid-state qubits",
+      "authors": [
+        "Arian Stolk",
+        "Kian L. van der Enden",
+        "Marie-Christine Roehsner",
+        "Ingmar te Raa",
+        "Pieter Botma",
+        "Joris van Rantwijk",
+        "J. J. Benjamin Biemond",
+        "Ronald Hagen",
+        "R.W. Herfst",
+        "Wouter D. Koek",
+        "Adrianus J. H. Meskers",
+        "René Vollmer",
+        "E.J. van Zwet",
+        "Matthew Markham",
+        "Andrew Mark Edmonds",
+        "Jan Fabian Geus",
+        "Florian Elsen",
+        "Bernd Jungbluth",
+        "C. Haefner",
+        "Christoph Tresp",
+        "J. Stühler",
+        "Stephan Ritter",
+        "Ronald Hanson"
+      ],
+      "year": 2024,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "heralded entanglement",
+        "diamond spin qubits",
+        "quantum internet",
+        "quantum frequency conversion",
+        "real-time feedback",
+        "quantum network nodes"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.adp6442",
+      "cited_by_count": 108,
+      "importance": 0.5391,
+      "score_basis": {
+        "topic_overlap": 0.176,
+        "shared_references": 4,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3127129994",
+      "doi": "10.1109/tqe.2021.3058058",
+      "title": "On the Stochastic Analysis of a Quantum Entanglement Distribution Switch",
+      "authors": [
+        "Gayane Vardoyan",
+        "Saikat Guha",
+        "Philippe Nain",
+        "Don Towsley"
+      ],
+      "year": 2021,
+      "venue": "IEEE Transactions on Quantum Engineering",
+      "venue_abbr": "IEEE Transactions on Quantum Engineering",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum entanglement distribution",
+        "quantum switch",
+        "star topology",
+        "switch capacity",
+        "continuous-time Markov chains",
+        "buffer size",
+        "decoherence",
+        "imperfect measurements",
+        "heterogeneous links",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1109/tqe.2021.3058058",
+      "cited_by_count": 63,
+      "importance": 0.538,
+      "score_basis": {
+        "topic_overlap": 0.329,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410118412",
+      "doi": "10.1016/j.comnet.2025.111350",
+      "title": "Cross-layering consideration for network and quantum resources-aware quantum-secured networking",
+      "authors": [
+        "Chankyun Lee",
+        "Wonhyuk Lee"
+      ],
+      "year": 2025,
+      "venue": "Computer Networks",
+      "venue_abbr": "Computer Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum key distribution",
+        "resource dimensioning",
+        "wavelength division multiplexing",
+        "integer linear programming",
+        "heuristic algorithms",
+        "optical networks",
+        "network resource allocation"
+      ],
+      "url": "https://doi.org/10.1016/j.comnet.2025.111350",
+      "cited_by_count": 3,
+      "importance": 0.5366,
+      "score_basis": {
+        "topic_overlap": 0.304,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412782458",
+      "doi": "10.1038/s41534-025-01072-3",
+      "title": "Energy-time and time-bin entanglement: past, present and future",
+      "authors": [
+        "GUILHERME BARRETO XAVIER",
+        "Jan-Åke Larsson",
+        "Paolo Villoresi",
+        "Giuseppe Vallone",
+        "Adán Cabello"
+      ],
+      "year": 2025,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "energy-time entanglement",
+        "time-bin entanglement",
+        "Franson interferometer",
+        "entanglement certification",
+        "quantum communication security",
+        "quantum networks",
+        "nonlocality",
+        "quantum information"
+      ],
+      "url": "https://doi.org/10.1038/s41534-025-01072-3",
+      "cited_by_count": 26,
+      "importance": 0.5308,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2031537547",
+      "doi": "10.1016/j.osn.2014.02.002",
+      "title": "Routing and spectrum allocation algorithms for elastic optical networks with dedicated path protection",
+      "authors": [
+        "Krzysztof M. Walkowiak",
+        "Mirosław Klinkowski",
+        "Bartosz Rabiega",
+        "Róża Goścień"
+      ],
+      "year": 2014,
+      "venue": "Optical Switching and Networking",
+      "venue_abbr": "Optical Switching and Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "routing and spectrum assignment",
+        "dedicated path protection",
+        "optical network survivability",
+        "tabu search",
+        "integer linear programming",
+        "metaheuristic optimization",
+        "path protection"
+      ],
+      "url": "https://doi.org/10.1016/j.osn.2014.02.002",
+      "cited_by_count": 109,
+      "importance": 0.5182,
+      "score_basis": {
+        "topic_overlap": 0.218,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403431107",
+      "doi": "10.1063/5.0225082",
+      "title": "Clock synchronization characterization of the Washington DC metropolitan quantum network (DC-QNet)",
+      "authors": [
+        "Wayne McKenzie",
+        "Anne Marie Richards",
+        "Shirali Patel",
+        "Thomas Gerrits",
+        "Thomas G. Akin",
+        "Steven Peil",
+        "Adam T. Black",
+        "David A. Tulchinsky",
+        "Alexander S. Hastings",
+        "Ya-Shian Li-Baboud",
+        "Anouar Rahmouni",
+        "Ivan A. Burenkov",
+        "Alan Mink",
+        "Matthew Diaz",
+        "Nijil Lal",
+        "Yicheng Shi",
+        "Paulina S. Kuo",
+        "Pranish Shrestha",
+        "Mheni Merzouki",
+        "Alejandro Rodriguez Perez",
+        "Eleanya E. Onuma",
+        "Daniel E. Jones",
+        "Atiyya A. Davis",
+        "Thomas A. Searles",
+        "J. D. Whalen",
+        "Qudsia Sara Quraishi",
+        "K. S. Collins",
+        "La Vida Cooper",
+        "Harry C. Shaw",
+        "Bruce Crabill",
+        "Oliver Slattery",
+        "Abdella Battou"
+      ],
+      "year": 2024,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "clock synchronization",
+        "optical time transfer",
+        "quantum networks",
+        "time deviation",
+        "White Rabbit",
+        "Precision Time Protocol",
+        "metropolitan quantum networks",
+        "environmental variability",
+        "chromatic dispersion",
+        "polarization drift",
+        "optical power fluctuations"
+      ],
+      "url": "https://doi.org/10.1063/5.0225082",
+      "cited_by_count": 21,
+      "importance": 0.5171,
+      "score_basis": {
+        "topic_overlap": 0.149,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388913386",
+      "doi": "10.1364/optica.506096",
+      "title": "Frequency-bin photonic quantum information",
+      "authors": [
+        "Hsuan‐Hao Lu",
+        "Marco Liscidini",
+        "Alexander L. Gaeta",
+        "Andrew M. Weiner",
+        "Joseph M. Lukens"
+      ],
+      "year": 2023,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "photonic quantum information",
+        "integrated photonics",
+        "high-dimensional quantum communication",
+        "quantum gates",
+        "multiplexing",
+        "quantum networking"
+      ],
+      "url": "https://doi.org/10.1364/optica.506096",
+      "cited_by_count": 119,
+      "importance": 0.5152,
+      "score_basis": {
+        "topic_overlap": 0.278,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3094158907",
+      "doi": "10.1364/optica.413657",
+      "title": "Adaptive bandwidth management for entanglement distribution in quantum networks",
+      "authors": [
+        "Navin B. Lingaraju",
+        "Hsuan‐Hao Lu",
+        "Suparna Seshadri",
+        "Daniel E. Leaird",
+        "Andrew M. Weiner",
+        "Joseph M. Lukens"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "entanglement distribution",
+        "quantum networks",
+        "wavelength selective switch",
+        "resource provisioning",
+        "quality of service"
+      ],
+      "url": "https://doi.org/10.1364/optica.413657",
+      "cited_by_count": 76,
+      "importance": 0.4968,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2800313743",
+      "doi": "10.1109/jlt.2018.2834949",
+      "title": "Time-Scheduled Quantum Key Distribution (QKD) Over WDM Networks",
+      "authors": [
+        "Yuan Cao",
+        "Yongli Zhao",
+        "Yu Wu",
+        "Xiaosong Yu",
+        "Jie Zhang"
+      ],
+      "year": 2018,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "quantum key distribution",
+        "wavelength division multiplexing",
+        "time slot scheduling",
+        "integer linear programming",
+        "heuristic algorithms",
+        "resource allocation"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2018.2834949",
+      "cited_by_count": 100,
+      "importance": 0.4884,
+      "score_basis": {
+        "topic_overlap": 0.308,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3197412341",
+      "doi": "10.1038/s41534-021-00474-3",
+      "title": "Implementation of a 46-node quantum metropolitan area network",
+      "authors": [
+        "Teng‐Yun Chen",
+        "Xiao Qiang Jiang",
+        "Shi-Biao Tang",
+        "Lei Zhou",
+        "Xiao Yuan",
+        "Hongyi Zhou",
+        "Jian Wang",
+        "Yang Liu",
+        "Luo-Kan Chen",
+        "Wei-Yue Liu",
+        "Hongfei Zhang",
+        "Ke Cui",
+        "Hao Liang",
+        "Xiao-Gang Li",
+        "Yingqiu Mao",
+        "Liujun Wang",
+        "Sibo Feng",
+        "Qing Chen",
+        "Qiang Zhang",
+        "Li Li",
+        "Nai-Le Liu",
+        "Cheng-Zhi Peng",
+        "Xiongfeng Ma",
+        "Yong Sheng Zhao",
+        "Jian-Wei Pan"
+      ],
+      "year": 2021,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum key distribution",
+        "network scalability",
+        "key management",
+        "one-time pad encryption",
+        "node failure robustness"
+      ],
+      "url": "https://doi.org/10.1038/s41534-021-00474-3",
+      "cited_by_count": 139,
+      "importance": 0.4833,
+      "score_basis": {
+        "topic_overlap": 0.274,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402040435",
+      "doi": "10.1109/tnsm.2024.3452326",
+      "title": "Multipartite Entanglement Distribution in the Quantum Internet: Knowing When to Stop!",
+      "authors": [
+        "Angela Sara Cacciapuoti",
+        "Jessica Illiano",
+        "Michele Viscardi",
+        "Marcello Caleffi"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Network and Service Management",
+      "venue_abbr": "IEEE Transactions on Network and Service Management",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum internet",
+        "decoherence",
+        "quantum noise",
+        "Markov decision process",
+        "entanglement generation",
+        "coherence time"
+      ],
+      "url": "https://doi.org/10.1109/tnsm.2024.3452326",
+      "cited_by_count": 20,
+      "importance": 0.4833,
+      "score_basis": {
+        "topic_overlap": 0.296,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2121213780",
+      "doi": "10.1103/revmodphys.81.1301",
+      "title": "The security of practical quantum key distribution",
+      "authors": [
+        "Valerio Scarani",
+        "Helle Bechmann-Pasquinucci",
+        "Nicolas J. Cerf",
+        "Miloslav Dušek",
+        "Norbert Lütkenhaus",
+        "Momtchil Peev"
+      ],
+      "year": 2009,
+      "venue": "Reviews of Modern Physics",
+      "venue_abbr": "Reviews of Modern Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum key distribution",
+        "practical security",
+        "secret key generation",
+        "quantum channel security"
+      ],
+      "url": "https://doi.org/10.1103/revmodphys.81.1301",
+      "cited_by_count": 3747,
+      "importance": 0.4769,
+      "score_basis": {
+        "topic_overlap": 0.171,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2946363947",
+      "doi": "10.1038/s41567-019-0743-x",
+      "title": "Distributed quantum sensing in a continuous-variable entangled network",
+      "authors": [
+        "Xueshi Guo",
+        "Casper R. Breum",
+        "Johannes Borregaard",
+        "Shuro Izumi",
+        "Mikkel V. Larsen",
+        "Tobias Gehring",
+        "Matthias Christandl",
+        "Jonas Schou Neergaard-Nielsen",
+        "Ulrik L. Andersen"
+      ],
+      "year": 2019,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed quantum sensing",
+        "continuous-variable entanglement",
+        "quantum metrology",
+        "quantum networks",
+        "atomic clocks",
+        "molecular tracking"
+      ],
+      "url": "https://doi.org/10.1038/s41567-019-0743-x",
+      "cited_by_count": 333,
+      "importance": 0.4753,
+      "score_basis": {
+        "topic_overlap": 0.301,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2766679834",
+      "doi": "10.1109/access.2017.2763325",
+      "title": "Optimal Routing for Quantum Networks",
+      "authors": [
+        "Marcello Caleffi"
+      ],
+      "year": 2017,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum networks",
+        "route optimization",
+        "entanglement rate",
+        "quantum repeaters",
+        "entanglement generation",
+        "entanglement swapping",
+        "Bell state measurement",
+        "decoherence",
+        "routing protocols"
+      ],
+      "url": "https://doi.org/10.1109/access.2017.2763325",
+      "cited_by_count": 243,
+      "importance": 0.474,
+      "score_basis": {
+        "topic_overlap": 0.32,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2029784041",
+      "doi": "10.1080/01969722.2013.803885",
+      "title": "AN EVOLUTIONARY ALGORITHM APPROACH FOR DEDICATED PATH PROTECTION PROBLEM IN ELASTIC OPTICAL NETWORKS",
+      "authors": [
+        "Mirosław Klinkowski"
+      ],
+      "year": 2013,
+      "venue": "Cybernetics & Systems",
+      "venue_abbr": "Cybernetics & Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "routing and spectrum assignment",
+        "dedicated path protection",
+        "survivable networks",
+        "evolutionary algorithms",
+        "network survivability",
+        "optical network design"
+      ],
+      "url": "https://doi.org/10.1080/01969722.2013.803885",
+      "cited_by_count": 45,
+      "importance": 0.4713,
+      "score_basis": {
+        "topic_overlap": 0.225,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2567573007",
+      "doi": "10.1109/jlt.2016.2642480",
+      "title": "Elastic Optical Networking: Roles and Benefits in Beyond 100-Gb/s Era",
+      "authors": [
+        "Masahiko Jinno"
+      ],
+      "year": 2016,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "flexible grid",
+        "spectral efficiency",
+        "traffic grooming",
+        "wavelength selective switch",
+        "high-order modulation",
+        "optical network architecture",
+        "energy-efficient optical networks"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2016.2642480",
+      "cited_by_count": 156,
+      "importance": 0.445,
+      "score_basis": {
+        "topic_overlap": 0.167,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396919321",
+      "doi": "10.1038/s41586-024-07308-0",
+      "title": "Creation of memory–memory entanglement in a metropolitan quantum network",
+      "authors": [
+        "Jian-Long Liu",
+        "Xi-Yu Luo",
+        "Yong Hui Yu",
+        "Chaoyang Wang",
+        "Bin Wang",
+        "Yi Hu",
+        "Jun Li",
+        "Mingyang Zheng",
+        "Bo Yao",
+        "Zi Yan",
+        "Da Teng",
+        "Jinwei Jiang",
+        "Xiao-Bing Liu",
+        "Xiu-Ping Xie",
+        "Jun Zhang",
+        "Qinghe Mao",
+        "Xiao Qiang Jiang",
+        "Qiang Zhang",
+        "Xiao‐Hui Bao",
+        "Jian-Wei Pan"
+      ],
+      "year": 2024,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multi-node quantum networks",
+        "metropolitan quantum networks",
+        "quantum internet",
+        "entanglement generation",
+        "memory lifetime"
+      ],
+      "url": "https://doi.org/10.1038/s41586-024-07308-0",
+      "cited_by_count": 154,
+      "importance": 0.445,
+      "score_basis": {
+        "topic_overlap": 0.189,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2043500043",
+      "doi": "10.1103/physreva.89.022317",
+      "title": "Large-scale modular quantum-computer architecture with atomic memory and photonic interconnects",
+      "authors": [
+        "Christopher R. Monroe",
+        "Robert Raussendorf",
+        "A. Ruthven",
+        "Kenneth R. Brown",
+        "Peter Maunz",
+        "Luming Duan",
+        "Jungsang Kim"
+      ],
+      "year": 2014,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "ion trap quantum computing",
+        "atomic memory",
+        "optical interconnects",
+        "qubit registers",
+        "fault tolerance",
+        "scalable quantum hardware",
+        "quantum circuit simulation"
+      ],
+      "url": "https://doi.org/10.1103/physreva.89.022317",
+      "cited_by_count": 700,
+      "importance": 0.4427,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388735225",
+      "doi": "10.1364/opticaq.501048",
+      "title": "Transmission of light–matter entanglement over a metropolitan network",
+      "authors": [
+        "Jelena V. Rakonjac",
+        "Samuele Grandi",
+        "Sören Wengerowsky",
+        "Dario Lago-Rivera",
+        "Félicien Appas",
+        "Hugues de Riedmatten"
+      ],
+      "year": 2023,
+      "venue": "Optica Quantum",
+      "venue_abbr": "Optica Quantum",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "light-matter entanglement",
+        "telecom photons",
+        "solid-state quantum memory",
+        "rare-earth-doped fiber",
+        "spontaneous parametric down-conversion",
+        "optical fiber transmission",
+        "metropolitan quantum networks",
+        "nonclassical correlations",
+        "decoherence",
+        "quantum synchronization",
+        "quantum repeaters"
+      ],
+      "url": "https://doi.org/10.1364/opticaq.501048",
+      "cited_by_count": 26,
+      "importance": 0.4334,
+      "score_basis": {
+        "topic_overlap": 0.163,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W1579655362",
+      "to": "W2031537547",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1579655362"
+        }
+      ]
+    },
+    {
+      "from": "W2031537547",
+      "to": "W2029784041",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2031537547"
+        }
+      ]
+    },
+    {
+      "from": "W2567573007",
+      "to": "W1579655362",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2567573007"
+        }
+      ]
+    },
+    {
+      "from": "W2750575580",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2750575580"
+        }
+      ]
+    },
+    {
+      "from": "W2800313743",
+      "to": "W2121213780",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2800313743"
+        }
+      ]
+    },
+    {
+      "from": "W2897264299",
+      "to": "W2121213780",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2897264299"
+        }
+      ]
+    },
+    {
+      "from": "W2946363947",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2946363947"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W2121213780",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W2750575580",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W3094158907",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094158907"
+        }
+      ]
+    },
+    {
+      "from": "W3127129994",
+      "to": "W2750575580",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127129994"
+        }
+      ]
+    },
+    {
+      "from": "W3135384040",
+      "to": "W2121213780",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3135384040"
+        }
+      ]
+    },
+    {
+      "from": "W3135384040",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3135384040"
+        }
+      ]
+    },
+    {
+      "from": "W3135384040",
+      "to": "W3094158907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3135384040"
+        }
+      ]
+    },
+    {
+      "from": "W3178307110",
+      "to": "W2750575580",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3178307110"
+        }
+      ]
+    },
+    {
+      "from": "W3178307110",
+      "to": "W2766679834",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3178307110"
+        }
+      ]
+    },
+    {
+      "from": "W3178307110",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3178307110"
+        }
+      ]
+    },
+    {
+      "from": "W3178307110",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3178307110"
+        }
+      ]
+    },
+    {
+      "from": "W3205104429",
+      "to": "W2121213780",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3205104429"
+        }
+      ]
+    },
+    {
+      "from": "W3205104429",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3205104429"
+        }
+      ]
+    },
+    {
+      "from": "W3205104429",
+      "to": "W3127129994",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3205104429"
+        }
+      ]
+    },
+    {
+      "from": "W4223985649",
+      "to": "W1579655362",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4223985649"
+        }
+      ]
+    },
+    {
+      "from": "W4223985649",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4223985649"
+        }
+      ]
+    },
+    {
+      "from": "W4223985649",
+      "to": "W3094158907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4223985649"
+        }
+      ]
+    },
+    {
+      "from": "W4223985649",
+      "to": "W3135384040",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4223985649"
+        }
+      ]
+    },
+    {
+      "from": "W4292348062",
+      "to": "W2750575580",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4292348062"
+        }
+      ]
+    },
+    {
+      "from": "W4292348062",
+      "to": "W2766679834",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4292348062"
+        }
+      ]
+    },
+    {
+      "from": "W4297796831",
+      "to": "W2750575580",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4297796831"
+        }
+      ]
+    },
+    {
+      "from": "W4297796831",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4297796831"
+        }
+      ]
+    },
+    {
+      "from": "W4297796831",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4297796831"
+        }
+      ]
+    },
+    {
+      "from": "W4297796831",
+      "to": "W3135384040",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4297796831"
+        }
+      ]
+    },
+    {
+      "from": "W4309320155",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309320155"
+        }
+      ]
+    },
+    {
+      "from": "W4309320155",
+      "to": "W3094158907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309320155"
+        }
+      ]
+    },
+    {
+      "from": "W4309320155",
+      "to": "W3135384040",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309320155"
+        }
+      ]
+    },
+    {
+      "from": "W4309320155",
+      "to": "W4223985649",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309320155"
+        }
+      ]
+    },
+    {
+      "from": "W4388735225",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388735225"
+        }
+      ]
+    },
+    {
+      "from": "W4388913386",
+      "to": "W2043500043",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388913386"
+        }
+      ]
+    },
+    {
+      "from": "W4388913386",
+      "to": "W3094158907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388913386"
+        }
+      ]
+    },
+    {
+      "from": "W4388913386",
+      "to": "W3135384040",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388913386"
+        }
+      ]
+    },
+    {
+      "from": "W4390906822",
+      "to": "W2043500043",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390906822"
+        }
+      ]
+    },
+    {
+      "from": "W4390906822",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390906822"
+        }
+      ]
+    },
+    {
+      "from": "W4390906822",
+      "to": "W3135384040",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390906822"
+        }
+      ]
+    },
+    {
+      "from": "W4390971856",
+      "to": "W2750575580",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390971856"
+        }
+      ]
+    },
+    {
+      "from": "W4390971856",
+      "to": "W2766679834",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390971856"
+        }
+      ]
+    },
+    {
+      "from": "W4390971856",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390971856"
+        }
+      ]
+    },
+    {
+      "from": "W4390971856",
+      "to": "W3178307110",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390971856"
+        }
+      ]
+    },
+    {
+      "from": "W4396919321",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396919321"
+        }
+      ]
+    },
+    {
+      "from": "W4401458972",
+      "to": "W2043500043",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401458972"
+        }
+      ]
+    },
+    {
+      "from": "W4401458972",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401458972"
+        }
+      ]
+    },
+    {
+      "from": "W4401458972",
+      "to": "W4390906822",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401458972"
+        }
+      ]
+    },
+    {
+      "from": "W4401728494",
+      "to": "W2750575580",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401728494"
+        }
+      ]
+    },
+    {
+      "from": "W4401728494",
+      "to": "W2766679834",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401728494"
+        }
+      ]
+    },
+    {
+      "from": "W4402040435",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402040435"
+        }
+      ]
+    },
+    {
+      "from": "W4402040435",
+      "to": "W3127129994",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402040435"
+        }
+      ]
+    },
+    {
+      "from": "W4402534293",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402534293"
+        }
+      ]
+    },
+    {
+      "from": "W4402534293",
+      "to": "W3197412341",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402534293"
+        }
+      ]
+    },
+    {
+      "from": "W4402534293",
+      "to": "W4297796831",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402534293"
+        }
+      ]
+    },
+    {
+      "from": "W4402534293",
+      "to": "W4388735225",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402534293"
+        }
+      ]
+    },
+    {
+      "from": "W4402534293",
+      "to": "W4390906822",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402534293"
+        }
+      ]
+    },
+    {
+      "from": "W4402534293",
+      "to": "W4396919321",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402534293"
+        }
+      ]
+    },
+    {
+      "from": "W4402534293",
+      "to": "W4403917832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402534293"
+        }
+      ]
+    },
+    {
+      "from": "W4403431107",
+      "to": "W3135384040",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403431107"
+        }
+      ]
+    },
+    {
+      "from": "W4403431107",
+      "to": "W3197412341",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403431107"
+        }
+      ]
+    },
+    {
+      "from": "W4403431107",
+      "to": "W4297796831",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403431107"
+        }
+      ]
+    },
+    {
+      "from": "W4403431107",
+      "to": "W4390906822",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403431107"
+        }
+      ]
+    },
+    {
+      "from": "W4403917832",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403917832"
+        }
+      ]
+    },
+    {
+      "from": "W4403917832",
+      "to": "W4388735225",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403917832"
+        }
+      ]
+    },
+    {
+      "from": "W4403917832",
+      "to": "W4396919321",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403917832"
+        }
+      ]
+    },
+    {
+      "from": "W4404939904",
+      "to": "W3135384040",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404939904"
+        }
+      ]
+    },
+    {
+      "from": "W4404939904",
+      "to": "W4309320155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404939904"
+        }
+      ]
+    },
+    {
+      "from": "W4404939904",
+      "to": "W4401458972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404939904"
+        }
+      ]
+    },
+    {
+      "from": "W4404939904",
+      "to": "W4412985120",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404939904"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W2567573007",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W2946363947",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W3094158907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W3135384040",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W4223985649",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W4297796831",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W4309320155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W4388735225",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W4388913386",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W4396919321",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W4402534293",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W4403917832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4407424331",
+      "to": "W4404939904",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407424331"
+        }
+      ]
+    },
+    {
+      "from": "W4408281310",
+      "to": "W1579655362",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408281310"
+        }
+      ]
+    },
+    {
+      "from": "W4408281310",
+      "to": "W2750575580",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408281310"
+        }
+      ]
+    },
+    {
+      "from": "W4408281310",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408281310"
+        }
+      ]
+    },
+    {
+      "from": "W4408281310",
+      "to": "W4412985120",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408281310"
+        }
+      ]
+    },
+    {
+      "from": "W4410118412",
+      "to": "W2121213780",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410118412"
+        }
+      ]
+    },
+    {
+      "from": "W4410118412",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410118412"
+        }
+      ]
+    },
+    {
+      "from": "W4412782458",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412782458"
+        }
+      ]
+    },
+    {
+      "from": "W4412782458",
+      "to": "W4388913386",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412782458"
+        }
+      ]
+    },
+    {
+      "from": "W4412782458",
+      "to": "W4403917832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412782458"
+        }
+      ]
+    },
+    {
+      "from": "W4412985120",
+      "to": "W2750575580",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412985120"
+        }
+      ]
+    },
+    {
+      "from": "W4412985120",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412985120"
+        }
+      ]
+    },
+    {
+      "from": "W4412985120",
+      "to": "W3094158907",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412985120"
+        }
+      ]
+    },
+    {
+      "from": "W4412985120",
+      "to": "W3135384040",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412985120"
+        }
+      ]
+    },
+    {
+      "from": "W4412985120",
+      "to": "W4297796831",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412985120"
+        }
+      ]
+    },
+    {
+      "from": "W4412985120",
+      "to": "W4309320155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412985120"
+        }
+      ]
+    },
+    {
+      "from": "W7133230161",
+      "to": "W4309320155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133230161"
+        }
+      ]
+    },
+    {
+      "from": "W7133230161",
+      "to": "W4401458972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133230161"
+        }
+      ]
+    },
+    {
+      "from": "W7133230161",
+      "to": "W4402534293",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133230161"
+        }
+      ]
+    },
+    {
+      "from": "W7133230161",
+      "to": "W4404939904",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133230161"
+        }
+      ]
+    },
+    {
+      "from": "W7133230161",
+      "to": "W4407424331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133230161"
+        }
+      ]
+    },
+    {
+      "from": "W7133230161",
+      "to": "W4412985120",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133230161"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W1579655362",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W2029784041",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W2031537547",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W2043500043",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W2121213780",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W2567573007",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W2750575580",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W2766679834",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W2800313743",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W2946363947",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W3094158907",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W3127129994",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W3135384040",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W3178307110",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W3197412341",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W3205104429",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4223985649",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4292348062",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4297796831",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4309320155",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4388735225",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4388913386",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4390906822",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4390971856",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4396919321",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4401458972",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4401728494",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4402040435",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4402534293",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4403431107",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4403917832",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4404939904",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4407424331",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4408281310",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4410118412",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4412782458",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W4412985120",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    },
+    {
+      "from": "W7169812778",
+      "to": "W7133230161",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foe.611817"
+        }
+      ]
+    }
+  ]
+}

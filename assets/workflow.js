@@ -1,12 +1,6 @@
 /* Navigation and attribute discovery only. Existing state schemas and URL filters stay intact. */
 (() => {
   'use strict';
-  function revealAnchor(){if(location.hash==='#profile'){const panel=document.getElementById('profile-settings');if(panel){panel.open=true;document.getElementById('profile')?.scrollIntoView();}}}
-  revealAnchor();window.addEventListener('hashchange',revealAnchor);
-  if(document.body.dataset.page==='discovery'&&['#triage','#citation-requests'].includes(location.hash)){
-    const root=new URL(document.body.dataset.prefix||'./',document.baseURI);
-    location.replace(new URL('workspace/'+location.hash,root));return;
-  }
   for(const panel of document.querySelectorAll('.paper-filters')){
     const nav=panel.querySelector('.filter-jump');if(!nav)continue;
     for(const [i,group] of [...panel.querySelectorAll('[data-filter-group]')].entries()){

@@ -1,0 +1,11 @@
+/* §2.1/§3.6: purpose precedes the active tool; related tasks stay secondary. */
+.task-map{margin-top:var(--space-4);border-bottom:1px solid var(--line);padding-bottom:var(--space-4)}
+.task-map summary{cursor:pointer;color:var(--accent);font-size:var(--type-meta)}
+.task-map summary span{margin-left:var(--space-3);color:var(--muted);font-size:var(--type-small)}
+.task-map-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:var(--space-3);margin-top:var(--space-4)}
+.task-map-grid a{display:block;padding:var(--space-4);border:1px solid var(--line);border-radius:var(--radius-control);background:var(--paper)}
+.task-map-grid a[aria-current]{border-color:var(--accent);background:var(--accent-soft)}
+.task-map-grid strong,.task-map-grid span{display:block}.task-map-grid span{color:var(--muted);font-size:var(--type-meta);margin-top:var(--space-2)}
+.task-purpose{padding:var(--space-4) var(--space-6);background:var(--accent-soft);color:var(--accent);border-radius:var(--radius-control);margin-bottom:var(--space-6)}
+.task-footnote{font-size:var(--type-meta);color:var(--muted);margin-block:var(--space-8)}
+@media(max-width:600px){.task-map-grid{grid-template-columns:1fr}.task-purpose{padding:var(--space-4)}}

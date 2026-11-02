@@ -42,10 +42,10 @@
   const statusLabels={idea:'初步问题',reading:'查阅证据',testing:'准备验证',closed:'暂告一段落'};
   function renderQuestions(){const host=$('question-list');if(!host)return;host.replaceChildren();if(!state.questions.length)host.append(el('p','先记下一个值得继续追问的问题。','fine'));for(const q of [...state.questions].sort((a,b)=>b.updated_at.localeCompare(a.updated_at))){const card=el('article',undefined,'question-card');card.append(el('p',statusLabels[q.status]+' · '+q.updated_at.slice(0,10),'fine'),el('h3',q.title));for(const [label,text] of [['个人假设',q.hypothesis],['支持与反对证据',q.evidence],['证据缺口',q.gaps],['下一步验证',q.next]])if(text)card.append(el('h4',label),el('p',text,'preserve-lines'));for(const r of q.records){const i=items.find(i=>i.record_id===r.record_id),p=el('p');if(i)p.append(paperLink(i),el('span',i.revision===r.revision?' · 修订 '+r.revision:' · 解读已修订，请重新核对关联证据','fine'));else p.textContent='关联论文暂不在公开版本：'+r.record_id;card.append(p);}const actions=el('div',undefined,'actions');actions.append(button('编辑','editQuestion',q.id),button('删除','deleteQuestion',q.id));card.append(actions);host.append(card);}}
   function render(){syncButtons();renderCompare();renderAuthors();renderQuestions();}
-  function follow(name){name=name.trim();if(!name)return;const next=copy();if(!next.authors.some(a=>normalized(a)===normalized(name)))next.authors.push(name);if(save(next))message('已关注 '+name+'；可在研究空间查看匹配论文。');}
+  function follow(name){name=name.trim();if(!name)return;const next=copy();if(!next.authors.some(a=>normalized(a)===normalized(name)))next.authors.push(name);if(save(next))message('已关注 '+name+'；可在“关注作者”页查看匹配论文。');}
   function clearQuestion(){ $('question-form').reset();$('question-id').value='';}
   document.addEventListener('click',event=>{const b=event.target.closest('button');if(!b)return;const d=b.dataset;
-    if(d.compare){const next=copy();if(next.compare.includes(d.compare))next.compare=next.compare.filter(i=>i!==d.compare);else if(next.compare.length>=4){message('最多对比 4 篇，请先在研究空间移出一篇。');return;}else next.compare.push(d.compare);if(save(next))message('对比清单已更新，可在研究空间查看。');}
+    if(d.compare){const next=copy();if(next.compare.includes(d.compare))next.compare=next.compare.filter(i=>i!==d.compare);else if(next.compare.length>=4){message('最多对比 4 篇，请先在“论文对比”页移出一篇。');return;}else next.compare.push(d.compare);if(save(next))message('对比清单已更新，可在“论文对比”页查看。');}
     if(d.removeCompare){const next=copy();next.compare=next.compare.filter(i=>i!==d.removeCompare);save(next);}
     if(d.follow)follow(d.follow);
     if(d.unfollow){const next=copy();next.authors=next.authors.filter(a=>a!==d.unfollow);save(next);}
@@ -66,6 +66,6 @@
   window.addEventListener('paperflow:research-changed',render);
   window.addEventListener('storage',event=>{if(event.key===key||event.key===null){read();loadProfile();render();window.dispatchEvent(new Event('paperflow:research-changed'));}});
   syncButtons();loadProfile();
-  if($('compare-list'))PaperFlow.getItems().then(data=>{items=data;for(const i of items.filter(i=>['paper','preprint'].includes(i.kind)))$('question-records').add(new Option(paperTitle(i),i.record_id));render();}).catch(()=>message('论文数据暂时无法读取，已保留个人研究记录。'));
+  if($('compare-list')||$('question-list')||$('author-list'))PaperFlow.getItems().then(data=>{items=data;for(const i of items.filter(i=>['paper','preprint'].includes(i.kind)))$('question-records')?.add(new Option(paperTitle(i),i.record_id));render();}).catch(()=>message('论文数据暂时无法读取，已保留个人研究记录。'));
   if($('author-list'))fetch(new URL('data/venue-index.json',base)).then(r=>{if(!r.ok)throw Error();return r.json();}).then(data=>{catalog=data.papers||[];renderAuthors();}).catch(()=>message('刊会题录暂不可用，作者关注先显示精选解读中的匹配结果。'));
 })();

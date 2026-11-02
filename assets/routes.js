@@ -5,15 +5,19 @@
   const baseElement=document.querySelector('base');
   if(baseElement)baseElement.href=originalBase;
   const root=new URL(document.body.dataset.prefix||'./',originalBase);
-  const pages=new Set(['snapshots','my-data','today','catalog','conferences','explore','workspace','venues','discovery','research','reader','lab','versions','updates','archive','about']);
+  const pages=new Set(['compare','authors','preferences','triage','requests','processing','snapshots','my-data','today','catalog','conferences','explore','workspace','venues','discovery','research','reader','lab','versions','updates','archive','about']);
   function clean(url){
     if(url.origin!==root.origin||!url.pathname.startsWith(root.pathname))return url;
-    const local=url.pathname.slice(root.pathname.length);
+    let local=url.pathname.slice(root.pathname.length);
+    const legacy={research:{'#compare':'compare','#authors':'authors','#profile':'preferences','#profile-settings':'preferences'},workspace:{'#triage':'triage','#citation-requests':'requests','#reading-progress':'processing'},discovery:{'#triage':'triage','#citation-requests':'requests'}};
+    const from=local.replace(/(?:\.html|\/)$/,'');const target=legacy[from]?.[url.hash];
+    if(target){url.pathname=root.pathname+target+'/';return url;}
     if(local==='index.html')url.pathname=root.pathname;
     else if(local.endsWith('.html')&&(pages.has(local.slice(0,-5))||/^items\/[\w-]+\.html$/.test(local)))url.pathname=root.pathname+local.slice(0,-5)+'/';
     return url;
   }
   const current=clean(new URL(location.href));
+  if(current.pathname!==location.pathname&&current.pathname!==location.pathname.replace(/\.html$/,'/')){location.replace(current);return;}
   if(current.href!==location.href)history.replaceState(history.state,'',current);
   function update(a){
     const value=a.getAttribute('href');if(!value)return;

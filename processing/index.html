@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="zh-CN"><head><base href="../"><link rel="canonical" href="https://yuyigy.github.io/paperflow-radar/processing/"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self'; object-src 'none'; base-uri 'self'; form-action 'none'">
+<meta name="description" content="知流光通信研究工作台：检索论文、探索研究方向、理解证据与刊会等级，整理个人阅读笔记。">
+<meta name="color-scheme" content="light"><title>本机处理状态 · 知流 PaperFlow</title>
+<link rel="stylesheet" href="assets/style.css"><link rel="stylesheet" href="assets/reading-design.css"><link rel="stylesheet" href="assets/interface.css"><link rel="stylesheet" href="assets/paper-filters.css"><link rel="stylesheet" href="assets/navigation.css"><link rel="stylesheet" href="assets/workflow.css"><link rel="stylesheet" href="assets/task-pages.css"><link rel="stylesheet" href="assets/search-controls.css"><link rel="icon" href="assets/favicon.svg" type="image/svg+xml"><link rel="alternate" type="application/rss+xml" title="知流研究动态" href="feed.xml">
+<script src="assets/routes.js" defer></script><script src="assets/paper-attributes.js" defer></script><script src="assets/search-controls.js" defer></script><script src="assets/catalog-data.js" defer></script><script src="assets/workspace.js" defer></script><script src="assets/research.js" defer></script><script src="assets/discovery.js" defer></script><script src="assets/ui.js" defer></script><script src="assets/workflow.js" defer></script></head>
+<body data-prefix="" data-page="processing"><a class="skip" href="#main">跳到内容</a>
+
+
+
+<header class="site-header"><div class="header-inner"><a class="brand" href="index.html" aria-label="知流 PaperFlow 首页"><span class="mark" aria-hidden="true">知</span><span>知流 <small>PaperFlow</small></span></a><span class="brand-caption">光通信研究工作台</span><nav aria-label="主导航"><a href="catalog.html">发现论文</a><a href="workspace.html" aria-current="true">我的阅读</a><a href="research.html">研究与比较</a><a href="my-data.html">数据与设置</a></nav></div></header>
+<div class="shell">
+
+<div class="workbar"><nav aria-label="当前功能路径"><a href="workspace.html">阅读清单</a><a href="triage.html">阅读意向</a><a href="requests.html">外部请求</a><a href="processing.html" aria-current="page">处理状态</a><a href="reader.html">精读证据</a></nav></div><main id="main">
+<details class="task-map"><summary>选择要做的事 <span>各工具的用途</span></summary><div class="task-map-grid"><a href="workspace.html"><strong>阅读清单</strong><span>查看进度，继续写阅读笔记</span></a><a href="triage.html"><strong>阅读意向</strong><span>决定略读、精读或暂缓</span></a><a href="requests.html"><strong>外部请求</strong><span>导出外部候选，交给本机处理</span></a><a href="processing.html" aria-current="page"><strong>处理状态</strong><span>查看已导出的任务回执</span></a><a href="reader.html"><strong>精读证据</strong><span>核对分页原文与证据</span></a></div></details>
+
+<section class="page-heading"><div><p class="kicker">本机处理状态</p><h1>本机处理状态</h1><p class="intro">查看本机导出的任务回执，找到下一步操作。</p></div></section><p class="task-purpose">载入回执 → 查看处理结果 → 继续核对证据。</p><section class="panel task-handoff" id="reading-progress" aria-labelledby="reading-progress-title">
+  <div class="section-title"><div><p class="kicker">本机与网页接续</p><h2 id="reading-progress-title">本机任务进度</h2></div><label class="button secondary file-button">查看状态回执<input id="task-status-import" type="file" accept=".json,application/json"></label></div>
+  <p class="intro">看清任务走到哪一步，再继续核对原文。状态回执只在此页面读取，不会改动阅读清单或笔记。</p>
+  <ol class="task-handoff-steps"><li><strong>导出本机状态</strong><span>在项目文件夹双击 export-reading-status.cmd。</span></li><li><strong>选择回执</strong><span>选择输出的 reading-status.json；刷新后需重新选择。</span></li><li><strong>继续核对</strong><span>按结果编号找到证据包，打开精读页；笔记返回“阅读清单”的“备份与迁移”合并。</span></li></ol>
+  <p id="task-status-message" role="status">尚未载入回执。网页无法直接读取本机任务，也不会自动执行阅读。</p>
+  <div id="task-status-content" hidden>
+    <div class="task-status-controls"><label>查看范围<select id="task-status-filter"><option value="all">全部记录</option><option value="results">精读结果</option><option value="requests">已导入请求</option><option value="attention">需检查的结果</option></select></label><label>搜索标题或编号<input id="task-status-search" type="search" maxlength="200" placeholder="论文标题、论文编号、结果编号"></label><button id="task-status-clear" type="button">关闭回执</button></div>
+    <p id="task-status-summary" class="fine"></p><div id="task-status-list"></div>
+    <p class="fine">“已导入”只确认请求进入本机任务箱；结果单独列出，不凭标题猜测关联。草稿仍需核对图表、公式与结论，所有状态均不改变公开证据等级。</p>
+  </div>
+</section><p class="task-footnote">个人记录保存在当前浏览器。<a href="my-data.html">备份与迁移 →</a></p>
+</main>
+<footer><span>知流 PaperFlow · 沿着证据理解研究</span><nav aria-label="辅助导航"><a href="my-data.html">我的数据</a><a href="archive.html">归档</a><a href="about.html">方法与证据</a><a href="updates.html">更新状态</a><a href="feed.xml">RSS 订阅</a></nav><small>页面生成 2026-11-02 · 北京时间</small></footer>
+</div><p id="app-notice" class="toast" role="status" hidden></p><link rel="stylesheet" href="assets/reading-status.css"><script src="assets/reading-status.js" defer></script></body></html>

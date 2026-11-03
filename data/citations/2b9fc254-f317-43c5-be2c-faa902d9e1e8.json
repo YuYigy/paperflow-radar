@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "2b9fc254-f317-43c5-be2c-faa902d9e1e8",
-  "root": "doi:10.1016/j.optlastec.2026.116677",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7222825452",
+  "status": "ok",
+  "checked_at": "2026-11-03T00:53:58.190580+00:00",
+  "coverage": {
+    "references_found": 21,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 21,
+    "displayed": 21
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1016/j.optlastec.2026.116677",
+      "id": "W7222825452",
       "doi": "10.1016/j.optlastec.2026.116677",
       "title": "Design and performance analysis of 5G PON employing filtered OFDM",
       "authors": [
@@ -18,20 +28,1022 @@
         "Somia A. Abd El-Mottaleb",
         "Moustafa H. Aly"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics & Laser Technology",
       "venue_abbr": "Opt. Laser Technol.",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "5G fronthaul",
+        "passive optical networks",
+        "filtered OFDM",
+        "out-of-band emission suppression",
+        "sidelobe suppression",
+        "optical line terminal",
+        "optical network unit",
+        "bit error rate",
+        "optical signal-to-noise ratio",
+        "spectral efficiency",
+        "fiber nonlinearity",
+        "standard single-mode fiber"
+      ],
       "url": "https://doi.org/10.1016/j.optlastec.2026.116677",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/2b9fc254-f317-43c5-be2c-faa902d9e1e8.html",
       "summary": "该研究通过OptiSystem仿真分析面向5G前传的160 Gbps无源光网络，在OLT和ONU采用15阶巴特沃斯带通滤波器，评估四用户在50 km标准单模光纤上的双向传输。摘要报告旁瓣抑制约30–40 dB；激光源功率为5 dBm时，下行和上行最低误码率分别为1.49×10⁻⁵和2.98×10⁻⁵，并报告频谱效率为5 bits/s/Hz。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4387454053",
+      "doi": "10.3390/photonics10101128",
+      "title": "Key Technologies for a Beyond-100G Next-Generation Passive Optical Network",
+      "authors": [
+        "Nan Feng",
+        "Mingyi Ma",
+        "Yinsong Zhang",
+        "Xiaochuan Tan",
+        "Zhe Li",
+        "Shaobo Li"
+      ],
+      "year": 2023,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "passive optical networks",
+        "optical access networks",
+        "physical layer",
+        "medium access control",
+        "digital signal processing",
+        "infrastructure sharing",
+        "network security",
+        "intelligent network management",
+        "bandwidth requirements"
+      ],
+      "url": "https://doi.org/10.3390/photonics10101128",
+      "cited_by_count": 22,
+      "importance": 0.3975,
+      "score_basis": {
+        "topic_overlap": 0.283,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404628882",
+      "doi": "10.1109/jlt.2024.3505148",
+      "title": "IMD Mitigation Using Orthogonal-Time-Set OFDM in Multi-IF Over Fiber Optical Transmission System",
+      "authors": [
+        "Inho Ha",
+        "Joungmoon Lee",
+        "Jinwoo Park",
+        "Sang‐Kook Han"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intermodulation distortion",
+        "OFDM",
+        "multiband OFDM",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3505148",
+      "cited_by_count": 1,
+      "importance": 0.3907,
+      "score_basis": {
+        "topic_overlap": 0.424,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4304780069",
+      "doi": "10.1364/jocn.463671",
+      "title": "100G fine-granularity flexible-rate passive optical networks based on discrete multi-tone with PAPR optimization",
+      "authors": [
+        "Ji Zhou",
+        "Jiale He",
+        "Xiaofeng Lu",
+        "Guanyu Wang",
+        "Yu Bo",
+        "Gengchen Liu",
+        "Yuanda Huang",
+        "Liangchuan Li",
+        "Chengkun Yang",
+        "Haide Wang",
+        "Wenxuan Mo",
+        "Weiping Liu",
+        "Changyuan Yu",
+        "Zhaohui Li"
+      ],
+      "year": 2022,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "passive optical networks",
+        "discrete multitone modulation",
+        "peak-to-average power ratio",
+        "TDMA",
+        "optical power budget",
+        "optical access networks"
+      ],
+      "url": "https://doi.org/10.1364/jocn.463671",
+      "cited_by_count": 25,
+      "importance": 0.3814,
+      "score_basis": {
+        "topic_overlap": 0.403,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4200394267",
+      "doi": "10.21123/bsj.2021.18.4(suppl.).1365",
+      "title": "Design of L-Band Multiwavelength Laser for TDM/WDM PON Application",
+      "authors": [
+        "Nani Fadzlina Naim",
+        "Muhammad Amirul Hafiz Mohamed Hashim",
+        "Suzi Seroja Sarnin",
+        "Norsuzila Ya’acob",
+        "Latifah Sarah Supian"
+      ],
+      "year": 2021,
+      "venue": "Baghdad Science Journal",
+      "venue_abbr": "Baghdad Science Journal",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "100 GHz channel spacing",
+        "optical network unit",
+        "fiber laser design"
+      ],
+      "url": "https://doi.org/10.21123/bsj.2021.18.4(suppl.).1365",
+      "cited_by_count": 5,
+      "importance": 0.3478,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2324811245",
+      "doi": "10.1364/jocn.8.000190",
+      "title": "25 Gbit/s per User Coherent All-Optical OFDM for Tbit/s-Capable PONs",
+      "authors": [
+        "Jacopo Morosi",
+        "Julian Hoxha",
+        "Paolo Martelli",
+        "Paola Parolari",
+        "Gabriella Cincotti",
+        "Satoshi Shimizu",
+        "Naoya Wada",
+        "Pierpaolo Boffi"
+      ],
+      "year": 2016,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "all-optical OFDM",
+        "coherent detection",
+        "passive optical networks",
+        "all-optical demultiplexing",
+        "QPSK modulation",
+        "next-generation PON"
+      ],
+      "url": "https://doi.org/10.1364/jocn.8.000190",
+      "cited_by_count": 20,
+      "importance": 0.3304,
+      "score_basis": {
+        "topic_overlap": 0.29,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2585034481",
+      "doi": "10.1364/jocn.9.000c12",
+      "title": "Beyond 100 Gb/s: Capacity, Flexibility, and Network Optimization",
+      "authors": [
+        "Kim Roberts",
+        "Qunbi Zhuge",
+        "Inder Monga",
+        "Sebastien Gareau",
+        "Charles Laperle"
+      ],
+      "year": 2017,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical transceivers",
+        "optical network capacity",
+        "400 Gb/s transmission",
+        "indium phosphide",
+        "silicon photonics",
+        "digital signal processing",
+        "multidimensional modulation",
+        "constellation shaping",
+        "fiber nonlinearity",
+        "frequency division multiplexing",
+        "forward error correction",
+        "Shannon limit"
+      ],
+      "url": "https://doi.org/10.1364/jocn.9.000c12",
+      "cited_by_count": 160,
+      "importance": 0.3302,
+      "score_basis": {
+        "topic_overlap": 0.289,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4394576256",
+      "doi": "10.1007/s11082-024-06668-1",
+      "title": "5G passive optical network employing all optical-OFDM_Hybrid SSMF/FSO",
+      "authors": [
+        "Ibrahim Luay",
+        "Tahreer Safa’a Mansour",
+        "Somia A. Abd El-Mottaleb"
+      ],
+      "year": 2024,
+      "venue": "Optical and Quantum Electronics",
+      "venue_abbr": "Optical and Quantum Electronics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "all-optical OFDM",
+        "free-space optical communication",
+        "optical frequency generation",
+        "electroabsorption modulator",
+        "wavelength tuning",
+        "atmospheric turbulence",
+        "bidirectional transmission"
+      ],
+      "url": "https://doi.org/10.1007/s11082-024-06668-1",
+      "cited_by_count": 5,
+      "importance": 0.3289,
+      "score_basis": {
+        "topic_overlap": 0.286,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2277959651",
+      "doi": "10.1364/jocn.8.000043",
+      "title": "Physical Layer Aspects of NG-PON2 Standards—Part 2: System Design and Technology Feasibility [Invited]",
+      "authors": [
+        "Yuanqiu Luo",
+        "Hal Roberts",
+        "Klaus Grobe",
+        "Maurizio Valvo",
+        "Derek Nesset",
+        "Kota Asaka",
+        "Harald Rohde",
+        "Joe Smith",
+        "Jun Shan Wey",
+        "Frank J. Effenberger"
+      ],
+      "year": 2015,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "NG-PON2",
+        "passive optical networks",
+        "wavelength control",
+        "optical link design",
+        "technical feasibility",
+        "standardization"
+      ],
+      "url": "https://doi.org/10.1364/jocn.8.000043",
+      "cited_by_count": 66,
+      "importance": 0.3237,
+      "score_basis": {
+        "topic_overlap": 0.275,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2896919439",
+      "doi": "10.1109/access.2019.2949792",
+      "title": "A Comparison of CP-OFDM, PCC-OFDM and UFMC for 5G Uplink Communications",
+      "authors": [
+        "Gayathri Kongara",
+        "Cuiwei He",
+        "Lei Yang",
+        "Jean Armstrong"
+      ],
+      "year": 2019,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "CP-OFDM",
+        "universal filtered multicarrier",
+        "OFDMA uplink",
+        "timing offset",
+        "frequency offset",
+        "subcarrier pairing",
+        "spectral efficiency",
+        "bit error rate",
+        "signal-to-noise ratio"
+      ],
+      "url": "https://doi.org/10.1109/access.2019.2949792",
+      "cited_by_count": 45,
+      "importance": 0.3175,
+      "score_basis": {
+        "topic_overlap": 0.261,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2538088488",
+      "doi": "10.1109/jlt.2016.2618388",
+      "title": "Photonic Circuit Topologies for Optical OFDM and Nyquist WDM",
+      "authors": [
+        "Arthur James Lowery",
+        "Leimeng Zhuang",
+        "Bill Corcoran",
+        "Chen Zhu",
+        "Yiwei Xie"
+      ],
+      "year": 2016,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical OFDM",
+        "DFT-s-OFDM",
+        "modulator bandwidth",
+        "component ordering"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2016.2618388",
+      "cited_by_count": 18,
+      "importance": 0.312,
+      "score_basis": {
+        "topic_overlap": 0.249,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2594869520",
+      "doi": "10.1364/jocn.9.000c54",
+      "title": "Advances in Optical Technologies and Techniques for High Capacity Communications",
+      "authors": [
+        "Francesco Fresi",
+        "Muhammad Imran",
+        "Antonio Malacarne",
+        "Gianluca Meloni",
+        "Vito Sorianello",
+        "Enrico Forestieri",
+        "Luca Potì"
+      ],
+      "year": 2017,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical transceivers",
+        "photonic integrated circuits",
+        "indium phosphide",
+        "silicon photonics",
+        "high-speed transmitter",
+        "high-speed receiver",
+        "optical network capacity",
+        "5G",
+        "transmission technology",
+        "latency",
+        "multi-vendor interoperability"
+      ],
+      "url": "https://doi.org/10.1364/jocn.9.000c54",
+      "cited_by_count": 15,
+      "importance": 0.3103,
+      "score_basis": {
+        "topic_overlap": 0.245,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4221121613",
+      "doi": "10.1515/joc-2022-0013",
+      "title": "A tunable optical frequency comb source using cascaded frequency modulator and Mach–Zehnder modulators",
+      "authors": [
+        "Yousif I. Hammadi",
+        "Jassim Kadim Hmood",
+        "Tahreer Safa’a Mansour",
+        "Sulaiman Wadi Harun"
+      ],
+      "year": 2022,
+      "venue": "Journal of Optical Communications",
+      "venue_abbr": "J. Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Mach-Zehnder modulator",
+        "frequency comb generation"
+      ],
+      "url": "https://doi.org/10.1515/joc-2022-0013",
+      "cited_by_count": 15,
+      "importance": 0.305,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2985711005",
+      "doi": "10.1109/access.2020.2982088",
+      "title": "OFDM With Hybrid Number and Index Modulation",
+      "authors": [
+        "Ahmad Jaradat",
+        "Jehad M. Hamamreh",
+        "Hüseyin Arslan"
+      ],
+      "year": 2020,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "OFDM",
+        "index modulation",
+        "subcarrier index modulation",
+        "spectral efficiency",
+        "energy efficiency",
+        "bit error rate",
+        "Internet of Things",
+        "BPSK"
+      ],
+      "url": "https://doi.org/10.1109/access.2020.2982088",
+      "cited_by_count": 49,
+      "importance": 0.2953,
+      "score_basis": {
+        "topic_overlap": 0.212,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313344792",
+      "doi": "10.1007/978-3-031-23207-7_1",
+      "title": "New Filtering Method to Reduce PAPR and OOBE of UFMC in 5G Communication System",
+      "authors": [
+        "Yousif I. Hammadi",
+        "Riyadh Khlf Ahmed",
+        "Omar Abdulkareem Mahmood",
+        "Ammar Muthanna"
+      ],
+      "year": 2022,
+      "venue": "Lecture notes in computer science",
+      "venue_abbr": "Lecture notes in computer science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "universal filtered multicarrier",
+        "peak-to-average power ratio reduction",
+        "out-of-band radiation",
+        "multicarrier modulation",
+        "5G",
+        "spectral efficiency",
+        "OFDM"
+      ],
+      "url": "https://doi.org/10.1007/978-3-031-23207-7_1",
+      "cited_by_count": 12,
+      "importance": 0.2943,
+      "score_basis": {
+        "topic_overlap": 0.21,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401019488",
+      "doi": "10.1117/1.oe.63.7.078105",
+      "title": "Performance analysis of 80 Gbps underwater optical wireless communications system based on dual-polarization-16-quadrature amplitude modulation-orthogonal frequency-division multiplexing signals",
+      "authors": [
+        "Mehtab Singh",
+        "Somia A. Abd El-Mottaleb",
+        "Ahmad Atieh",
+        "Moustafa H. Aly"
+      ],
+      "year": 2024,
+      "venue": "Optical Engineering",
+      "venue_abbr": "Opt. Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "dual polarization",
+        "16-QAM",
+        "OFDM",
+        "bit error rate",
+        "error vector magnitude",
+        "water attenuation",
+        "transmission range",
+        "laser diode",
+        "constellation diagram"
+      ],
+      "url": "https://doi.org/10.1117/1.oe.63.7.078105",
+      "cited_by_count": 10,
+      "importance": 0.2822,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3030854108",
+      "doi": "10.1088/1742-6596/1530/1/012092",
+      "title": "RETRACTED: Universal Filtered Multicarrier (UFMC) vs. Orthogonal Frequency Division Multiplexing (OFDM)",
+      "authors": [
+        "Saadaldeen Rashid Ahmed",
+        "Ahmed S. Abdullah",
+        "Nayif Mohammed Hammash"
+      ],
+      "year": 2020,
+      "venue": "Journal of Physics Conference Series",
+      "venue_abbr": "Journal of Physics Conference Series",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "universal filtered multicarrier",
+        "OFDM",
+        "filter bank multicarrier",
+        "multicarrier modulation",
+        "LTE",
+        "5G",
+        "spectral efficiency",
+        "computational complexity",
+        "subchannel allocation",
+        "inter-carrier interference",
+        "retracted article"
+      ],
+      "url": "https://doi.org/10.1088/1742-6596/1530/1/012092",
+      "cited_by_count": 18,
+      "importance": 0.275,
+      "score_basis": {
+        "topic_overlap": 0.167,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404131745",
+      "doi": "10.1364/oe.542610",
+      "title": "Two-dimensional adaptive-bandwidth bit and power loading for MIMO-OFDM VLC communications",
+      "authors": [
+        "Yixian Dong",
+        "Xi Cao",
+        "Zhinan Sun",
+        "Yeping Huang",
+        "Xiong Deng"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "visible light communication",
+        "MIMO-OFDM",
+        "adaptive bandwidth allocation",
+        "channel state information",
+        "spectral efficiency",
+        "energy efficiency",
+        "achievable rate maximization"
+      ],
+      "url": "https://doi.org/10.1364/oe.542610",
+      "cited_by_count": 7,
+      "importance": 0.2287,
+      "score_basis": {
+        "topic_overlap": 0.064,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2984120693",
+      "doi": "10.1515/joc-2019-0240",
+      "title": "Passively Femtosecond Mode-Locked Erbium-Doped Fiber Oscillator with External Pulse Compressor for Frequency Comb Generation",
+      "authors": [
+        "Yousif I. Hammadi",
+        "Tahreer Safa’a Mansour",
+        "Ahmed H.H. Al-Masoodi",
+        "Sulaiman Wadi Harun"
+      ],
+      "year": 2019,
+      "venue": "Journal of Optical Communications",
+      "venue_abbr": "J. Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical frequency combs",
+        "erbium-doped fiber laser",
+        "graphene saturable absorber",
+        "soliton mode-locking",
+        "erbium-doped fiber amplifier",
+        "single-mode fiber",
+        "orthogonal frequency division multiplexing"
+      ],
+      "url": "https://doi.org/10.1515/joc-2019-0240",
+      "cited_by_count": 15,
+      "importance": 0.216,
+      "score_basis": {
+        "topic_overlap": 0.035,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4244509123",
+      "doi": "10.1109/comst.2018.2862278",
+      "title": "Editorial: Third Quarter 2018 IEEE Communications Surveys and Tutorials",
+      "authors": [
+        "Ying–Dar Lin"
+      ],
+      "year": 2018,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical communication",
+        "Internet of Things",
+        "machine-to-machine communication",
+        "5G",
+        "network virtualization",
+        "data center networks",
+        "information-centric networking",
+        "network management",
+        "network security"
+      ],
+      "url": "https://doi.org/10.1109/comst.2018.2862278",
+      "cited_by_count": 5,
+      "importance": 0.2113,
+      "score_basis": {
+        "topic_overlap": 0.025,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2790962380",
+      "doi": "10.1109/comst.2018.2804323",
+      "title": "A Survey on Acquisition, Tracking, and Pointing Mechanisms for Mobile Free-Space Optical Communications",
+      "authors": [
+        "Yagiz Kaymak",
+        "Roberto Rojas‐Cessa",
+        "Jianghua Feng",
+        "Nirwan Ansari",
+        "MengChu Zhou",
+        "Tairan Zhang"
+      ],
+      "year": 2018,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "free-space optical communication",
+        "pointing, acquisition, and tracking",
+        "line-of-sight alignment"
+      ],
+      "url": "https://doi.org/10.1109/comst.2018.2804323",
+      "cited_by_count": 449,
+      "importance": 0.2066,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2562896287",
+      "doi": "10.1109/access.2016.2639038",
+      "title": "Survey of RF Communications and Sensing Convergence Research",
+      "authors": [
+        "Bryan Paul",
+        "Alex Rajan Chiriyath",
+        "Daniel W. Bliss"
+      ],
+      "year": 2016,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "radar-communication integration",
+        "integrated sensing and communication",
+        "wireless resource allocation",
+        "wireless sensor networks"
+      ],
+      "url": "https://doi.org/10.1109/access.2016.2639038",
+      "cited_by_count": 482,
+      "importance": 0.2065,
+      "score_basis": {
+        "topic_overlap": 0.014,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W7222825452",
+      "to": "W2277959651",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W2324811245",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W2538088488",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W2562896287",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W2585034481",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W2594869520",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W2790962380",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W2896919439",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W2984120693",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W2985711005",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W3030854108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W4200394267",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W4221121613",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W4244509123",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W4304780069",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W4313344792",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W4387454053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W4394576256",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W4401019488",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W4404131745",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    },
+    {
+      "from": "W7222825452",
+      "to": "W4404628882",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222825452"
+        }
+      ]
+    }
+  ]
 }

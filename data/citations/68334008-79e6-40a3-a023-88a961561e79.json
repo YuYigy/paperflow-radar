@@ -1,35 +1,2702 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "68334008-79e6-40a3-a023-88a961561e79",
-  "root": "doi:10.1364/optica.608940",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W4405562587",
+  "status": "ok",
+  "checked_at": "2026-11-03T00:54:07.699932+00:00",
+  "coverage": {
+    "references_found": 49,
+    "citing_found": 1,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "references_without_doi": 0,
+    "candidates_resolved": 50,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/optica.608940",
+      "id": "W4405562587",
       "doi": "10.1364/optica.608940",
       "title": "Compact scalable phase modulator with zero static power consumption for visible integrated photonics",
       "authors": [
         "Neil MacFarlane",
         "Firooz Aflatouni"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optica",
       "venue_abbr": "Optica",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "phase modulator",
+        "CMOS-compatible photonics",
+        "indium tin oxide",
+        "silicon nitride waveguides",
+        "charge accumulation",
+        "refractive index modulation",
+        "modulation efficiency",
+        "modulation bandwidth",
+        "compact modulator"
+      ],
       "url": "https://doi.org/10.1364/optica.608940",
-      "cited_by_count": null,
+      "cited_by_count": 1,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/68334008-79e6-40a3-a023-88a961561e79.html",
       "summary": "摘要报告：可见光波段硅基相位调制器长期受限于热光、液晶与压电光机效应的速度与效率。报道首个（据作者所知）基于ITO电容堆叠在Si₃N₄波导上电荷积累效应的可见光紧凑相位调制器：VπL 0.5 V·cm且零静态功耗；带宽与Vπ成反比，400 µm器件最小Vπ 12.4±0.4 V（损耗2.5 dB），10 µm器件最高−3 dB带宽150 MHz（损耗0.06 dB）；面向生物光子学、量子传感与计算的大规模高速集成。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W2019883289",
+      "doi": "10.1038/nphoton.2010.179",
+      "title": "Silicon optical modulators",
+      "authors": [
+        "Graham T. Reed",
+        "Goran Z. Mashanovich",
+        "Frédéric Y. Gardes",
+        "Dave J. Thomson"
+      ],
+      "year": 2010,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "silicon optical modulator",
+        "silicon photonics",
+        "optical interconnects",
+        "CMOS-compatible fabrication",
+        "modulation bandwidth",
+        "modulation depth",
+        "energy consumption per bit",
+        "device footprint",
+        "heat tolerance",
+        "ultra-low power"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2010.179",
+      "cited_by_count": 2487,
+      "importance": 0.6225,
+      "score_basis": {
+        "topic_overlap": 0.383,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3211439343",
+      "doi": "10.1364/oe.448614",
+      "title": "Power-efficient silicon nitride thermo-optic phase shifters for visible light",
+      "authors": [
+        "Zheng Yong",
+        "Hong Chen",
+        "Xianshu Luo",
+        "Alperen Gövdeli",
+        "Hongyao Chua",
+        "Saeed Sharif Azadeh",
+        "Andrei Stalmashonak",
+        "Guo‐Qiang Lo",
+        "Joyce K. S. Poon",
+        "Wesley D. Sacher"
+      ],
+      "year": 2021,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "thermo-optic phase shifters",
+        "silicon nitride waveguides",
+        "low power consumption",
+        "deep ultraviolet lithography",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/oe.448614",
+      "cited_by_count": 106,
+      "importance": 0.6202,
+      "score_basis": {
+        "topic_overlap": 0.4,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391035136",
+      "doi": "10.1364/ol.511189",
+      "title": "Integrated liquid-crystal-based variable-tap devices for visible-light amplitude modulation",
+      "authors": [
+        "Milica Notaros",
+        "Andres Garcia Coleto",
+        "Manan Raval",
+        "Jelena Notaroš"
+      ],
+      "year": 2024,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "liquid crystals",
+        "birefringence",
+        "integrated photonics",
+        "optical modulators",
+        "extinction ratio",
+        "low-power optical modulation"
+      ],
+      "url": "https://doi.org/10.1364/ol.511189",
+      "cited_by_count": 10,
+      "importance": 0.5925,
+      "score_basis": {
+        "topic_overlap": 0.317,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4361006093",
+      "doi": "10.1038/s41467-023-36870-w",
+      "title": "Sub-1 Volt and high-bandwidth visible to near-infrared electro-optic modulators",
+      "authors": [
+        "Dylan L. Renaud",
+        "Daniel Assumpção",
+        "Graham Joe",
+        "Amirhassan Shams‐Ansari",
+        "Di Zhu",
+        "Yaowen Hu",
+        "Neil E. Sinclair",
+        "Marko Lončar"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "electro-optic modulator",
+        "thin-film lithium niobate",
+        "Mach-Zehnder modulator",
+        "amplitude and phase modulation"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-36870-w",
+      "cited_by_count": 124,
+      "importance": 0.5907,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3217375294",
+      "doi": "10.1038/s41566-021-00891-y",
+      "title": "Robust, efficient, micrometre-scale phase modulators at visible wavelengths",
+      "authors": [
+        "Guozhen Liang",
+        "Heqing Huang",
+        "Aseema Mohanty",
+        "Min Chul Shin",
+        "Xingchen Ji",
+        "Michael J. Carter",
+        "Sajan Shrestha",
+        "Michal F. Lipson",
+        "Nanfang Yu"
+      ],
+      "year": 2021,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "phase modulator",
+        "silicon nitride",
+        "thermo-optic effect",
+        "visible wavelength",
+        "integrated photonics",
+        "device footprint reduction",
+        "low power consumption",
+        "photonic integrated circuits"
+      ],
+      "url": "https://doi.org/10.1038/s41566-021-00891-y",
+      "cited_by_count": 116,
+      "importance": 0.5852,
+      "score_basis": {
+        "topic_overlap": 0.256,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2921828292",
+      "doi": "10.1364/optica.6.000380",
+      "title": "Ultra-low-loss integrated visible photonics using thin-film lithium niobate",
+      "authors": [
+        "Boris Desiatov",
+        "Amirhassan Shams‐Ansari",
+        "Mian Zhang",
+        "Cheng Wang",
+        "Marko Lončar"
+      ],
+      "year": 2019,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "lithium niobate on insulator",
+        "microring resonators",
+        "high quality factor",
+        "electro-optic intensity modulator",
+        "nonlinear optics",
+        "frequency metrology",
+        "quantum information processing"
+      ],
+      "url": "https://doi.org/10.1364/optica.6.000380",
+      "cited_by_count": 331,
+      "importance": 0.5789,
+      "score_basis": {
+        "topic_overlap": 0.286,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3139120465",
+      "doi": "10.1364/optica.415762",
+      "title": "Integrated lithium niobate electro-optic modulators: when performance meets scalability",
+      "authors": [
+        "Mian Zhang",
+        "Cheng Wang",
+        "Prashanta Kharel",
+        "Di Zhu",
+        "Marko Lončar"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "lithium niobate",
+        "electro-optic modulator",
+        "thin-film lithium niobate",
+        "integrated photonics",
+        "electro-optic modulation",
+        "scalability",
+        "optical communication",
+        "microwave photonics",
+        "quantum photonics",
+        "photonic circuits"
+      ],
+      "url": "https://doi.org/10.1364/optica.415762",
+      "cited_by_count": 498,
+      "importance": 0.5729,
+      "score_basis": {
+        "topic_overlap": 0.295,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3006005007",
+      "doi": "10.1364/ol.385201",
+      "title": "Chip-scale blue light phased array",
+      "authors": [
+        "Min Chul Shin",
+        "Aseema Mohanty",
+        "Kyle Watson",
+        "Gaurang R. Bhatt",
+        "Christopher T. Phare",
+        "Steven A. Miller",
+        "Moshe Zadka",
+        "Brian S. Lee",
+        "Xingchen Ji",
+        "Ipshita Datta",
+        "Michal F. Lipson"
+      ],
+      "year": 2020,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical phased array",
+        "blue light",
+        "silicon nitride",
+        "visible light",
+        "optical trapping"
+      ],
+      "url": "https://doi.org/10.1364/ol.385201",
+      "cited_by_count": 161,
+      "importance": 0.5591,
+      "score_basis": {
+        "topic_overlap": 0.176,
+        "shared_references": 4,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4220969445",
+      "doi": "10.1364/oe.453050",
+      "title": "Compact thin film lithium niobate folded intensity modulator using a waveguide crossing",
+      "authors": [
+        "Sean P. Nelan",
+        "Andrew Mercante",
+        "Cooper Hurley",
+        "Shouyuan Shi",
+        "Peng Yao",
+        "Benjamin Shopp",
+        "Dennis W. Prather"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "electro-optic modulator",
+        "Mach-Zehnder modulator",
+        "folded waveguide",
+        "waveguide crossing",
+        "multimode interference coupler",
+        "silicon nitride",
+        "hybrid silicon photonics",
+        "half-wave voltage",
+        "modulation bandwidth",
+        "extinction ratio",
+        "index matching fluid"
+      ],
+      "url": "https://doi.org/10.1364/oe.453050",
+      "cited_by_count": 38,
+      "importance": 0.5528,
+      "score_basis": {
+        "topic_overlap": 0.339,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3091851330",
+      "doi": "10.1038/s41586-020-2764-0",
+      "title": "Programmable photonic circuits",
+      "authors": [
+        "Wim Bogaerts",
+        "Daniel Pérez",
+        "J. Capmany",
+        "David A. B. Miller",
+        "Joyce K. S. Poon",
+        "Dirk Englund",
+        "Francesco Morichetti",
+        "Andrea Ivano Melloni"
+      ],
+      "year": 2020,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "programmable photonic integrated circuits",
+        "optical phase shifter",
+        "quantum information processing",
+        "microwave photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41586-020-2764-0",
+      "cited_by_count": 1414,
+      "importance": 0.5483,
+      "score_basis": {
+        "topic_overlap": 0.174,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4200233651",
+      "doi": "10.1038/s41566-021-00903-x",
+      "title": "High-speed programmable photonic circuits in a cryogenically compatible, visible–near-infrared 200 mm CMOS architecture",
+      "authors": [
+        "Mark Dong",
+        "Genevieve Clark",
+        "Andrew Jay Leenheer",
+        "Matthew Zimmermann",
+        "Daniel Dominguez",
+        "Adrian J. Menssen",
+        "David Heim",
+        "Gerald Gilbert",
+        "Dirk Englund",
+        "Matt Eichenfield"
+      ],
+      "year": 2021,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "programmable photonic integrated circuits",
+        "silicon nitride waveguides",
+        "cryogenic operation",
+        "photonic quantum information processing"
+      ],
+      "url": "https://doi.org/10.1038/s41566-021-00903-x",
+      "cited_by_count": 219,
+      "importance": 0.5249,
+      "score_basis": {
+        "topic_overlap": 0.344,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4221073125",
+      "doi": "10.1364/oe.454494",
+      "title": "Integrated visible-light liquid-crystal-based phase modulators",
+      "authors": [
+        "Milica Notaros",
+        "Thomas Dyer",
+        "Manan Raval",
+        "Christopher Baiocco",
+        "Jelena Notaroš",
+        "Michael R. Watts"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "liquid crystal phase modulator",
+        "silicon nitride waveguides",
+        "liquid crystal birefringence",
+        "index tuning",
+        "phase shift",
+        "compact phase shifter"
+      ],
+      "url": "https://doi.org/10.1364/oe.454494",
+      "cited_by_count": 62,
+      "importance": 0.5224,
+      "score_basis": {
+        "topic_overlap": 0.405,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2912705718",
+      "doi": "10.1364/ol.44.001112",
+      "title": "Integrated silicon nitride electro-optic modulators with atomic layer deposited overlays",
+      "authors": [
+        "Artur Hermans",
+        "Michiel Van Daele",
+        "Jolien Dendooven",
+        "Stéphane Clemmen",
+        "Christophe Detavernier",
+        "Roel Baets"
+      ],
+      "year": 2019,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon nitride",
+        "electro-optic modulator",
+        "atomic layer deposition",
+        "second-order nonlinear crystals",
+        "zinc oxide",
+        "zinc sulfide",
+        "ring resonator",
+        "CMOS-compatible photonics",
+        "Pockels effect",
+        "second harmonic generation",
+        "silicon-rich silicon nitride",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/ol.44.001112",
+      "cited_by_count": 37,
+      "importance": 0.5048,
+      "score_basis": {
+        "topic_overlap": 0.344,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2892135951",
+      "doi": "10.1038/s41586-018-0551-y",
+      "title": "Integrated lithium niobate electro-optic modulators operating at CMOS-compatible voltages",
+      "authors": [
+        "Cheng Wang",
+        "Mian Zhang",
+        "Xi Chen",
+        "Maxime Bertrand",
+        "Amirhassan Shams‐Ansari",
+        "S. Chandrasekhar",
+        "Peter J. Winzer",
+        "Marko Lončar"
+      ],
+      "year": 2018,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate",
+        "electro-optic modulator",
+        "monolithic integration",
+        "group velocity matching",
+        "low optical loss",
+        "microwave photonic systems",
+        "optical networks",
+        "reconfigurable photonic circuits"
+      ],
+      "url": "https://doi.org/10.1038/s41586-018-0551-y",
+      "cited_by_count": 2595,
+      "importance": 0.4804,
+      "score_basis": {
+        "topic_overlap": 0.29,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3178070464",
+      "doi": "10.1063/5.0057881",
+      "title": "Methods to achieve ultra-high quality factor silicon nitride resonators",
+      "authors": [
+        "Xingchen Ji",
+        "Samantha Pamela Roberts",
+        "Mateus Corato‐Zanarella",
+        "Michal F. Lipson"
+      ],
+      "year": 2021,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "silicon nitride resonators",
+        "quality factor",
+        "on-chip resonators",
+        "integrated photonics",
+        "waveguide loss",
+        "scattering loss",
+        "surface roughness",
+        "low-pressure chemical vapor deposition",
+        "microfabrication",
+        "bending radius"
+      ],
+      "url": "https://doi.org/10.1063/5.0057881",
+      "cited_by_count": 176,
+      "importance": 0.4799,
+      "score_basis": {
+        "topic_overlap": 0.289,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4210465824",
+      "doi": "10.1364/oe.448938",
+      "title": "Ultra-low loss visible light waveguides for integrated atomic, molecular, and quantum photonics",
+      "authors": [
+        "Nitesh Chauhan",
+        "Jiawei Wang",
+        "Debapam Bose",
+        "Kaikai Liu",
+        "R. L. Compton",
+        "Chad Fertig",
+        "Chad Hoyt",
+        "Daniel J. Blumenthal"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon nitride photonics",
+        "resonator quality factor",
+        "atomic clocks",
+        "integrated photonics",
+        "CMOS-compatible photonics",
+        "laser phase noise"
+      ],
+      "url": "https://doi.org/10.1364/oe.448938",
+      "cited_by_count": 85,
+      "importance": 0.4725,
+      "score_basis": {
+        "topic_overlap": 0.383,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3045725857",
+      "doi": "10.1038/s41598-020-80381-3",
+      "title": "Heterogeneously integrated ITO plasmonic Mach–Zehnder interferometric modulator on SOI",
+      "authors": [
+        "Rubab Amin",
+        "Rishi Maiti",
+        "Yaliang Gui",
+        "Can Suer",
+        "Mario Miscuglio",
+        "Elham Heidari",
+        "Jacob B. Khurgin",
+        "Ray T. Chen",
+        "Hamed Dalir",
+        "Volker J. Sorger"
+      ],
+      "year": 2021,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "indium tin oxide",
+        "plasmonic modulators",
+        "Mach-Zehnder interferometer",
+        "heterogeneous integration",
+        "silicon photonics",
+        "electrostatic tuning",
+        "index modulation",
+        "on-chip optical interconnects",
+        "optical phased array",
+        "photonic neural networks"
+      ],
+      "url": "https://doi.org/10.1038/s41598-020-80381-3",
+      "cited_by_count": 84,
+      "importance": 0.4647,
+      "score_basis": {
+        "topic_overlap": 0.477,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4304184203",
+      "doi": "10.1364/oe.473756",
+      "title": "Niobium-tantalum oxide as a material platform for linear and nonlinear integrated photonics",
+      "authors": [
+        "Neil MacFarlane",
+        "Aaron Schreyer-Miller",
+        "Mark A. Foster",
+        "William D. Houck",
+        "Amy C. Foster"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "niobium-tantalum oxide",
+        "sputtered thin films",
+        "integrated photonics",
+        "waveguides",
+        "ring resonator",
+        "Kerr nonlinearity",
+        "optical parametric oscillation",
+        "supercontinuum generation",
+        "path loss",
+        "quality factor",
+        "high refractive index materials"
+      ],
+      "url": "https://doi.org/10.1364/oe.473756",
+      "cited_by_count": 18,
+      "importance": 0.4608,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2012085203",
+      "doi": "10.1109/lpt.2015.2416438",
+      "title": "Digitally Controlled Phase Shifter Using an SOI Slot Waveguide With Liquid Crystal Infiltration",
+      "authors": [
+        "Yufei Xing",
+        "Thomas Ako",
+        "John P. George",
+        "D. Korn",
+        "Hui Yu",
+        "Peter Verheyen",
+        "Marianna Pantouvaki",
+        "Guy Lepage",
+        "Philippe P. Absil",
+        "Alfonso Ruocco",
+        "Christian G. Koos",
+        "Juerg Leuthold",
+        "Kristiaan Neyts",
+        "Jeroen Beeckman",
+        "Wim Bogaerts"
+      ],
+      "year": 2015,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical phase shifter",
+        "silicon slot waveguide",
+        "liquid crystal infiltration",
+        "digital control",
+        "voltage-length product",
+        "pulse width modulation",
+        "frequency modulation"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2015.2416438",
+      "cited_by_count": 68,
+      "importance": 0.4554,
+      "score_basis": {
+        "topic_overlap": 0.279,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W881161943",
+      "doi": "10.1038/nphoton.2015.122",
+      "title": "Graphene electro-optic modulator with 30 GHz bandwidth",
+      "authors": [
+        "Christopher T. Phare",
+        "Yoon Ho Daniel Lee",
+        "Jaime Cárdenas",
+        "Michal F. Lipson"
+      ],
+      "year": 2015,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "graphene",
+        "electro-optic modulator",
+        "critical coupling",
+        "silicon nitride waveguides",
+        "modulation bandwidth",
+        "modulation efficiency",
+        "high-speed optical transmission",
+        "optoelectronic devices",
+        "nonlinear optics"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2015.122",
+      "cited_by_count": 864,
+      "importance": 0.45,
+      "score_basis": {
+        "topic_overlap": 0.467,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2803462617",
+      "doi": "10.1038/s41467-018-05846-6",
+      "title": "Nanophotonic Pockels modulators on a silicon nitride platform",
+      "authors": [
+        "Koen Alexander",
+        "John P. George",
+        "Jochem Verbist",
+        "Kristiaan Neyts",
+        "Bart Kuyken",
+        "Dries Van Thourhout",
+        "Jeroen Beeckman"
+      ],
+      "year": 2018,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "electro-optic modulator",
+        "Pockels effect",
+        "silicon nitride",
+        "ferroelectric thin films",
+        "phase modulation",
+        "half-wave voltage",
+        "bias-free operation",
+        "high bandwidth",
+        "low propagation loss",
+        "O-band",
+        "C-band",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41467-018-05846-6",
+      "cited_by_count": 264,
+      "importance": 0.4448,
+      "score_basis": {
+        "topic_overlap": 0.344,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386710766",
+      "doi": "10.1364/ol.494387",
+      "title": "Liquid-crystal-based visible-light integrated optical phased arrays and application to underwater communications",
+      "authors": [
+        "Milica Notaros",
+        "Daniel M. DeSantis",
+        "Manan Raval",
+        "Jelena Notaroš"
+      ],
+      "year": 2023,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical phased array",
+        "liquid crystals",
+        "visible light communication",
+        "beam steering",
+        "beam formation",
+        "underwater optical communication",
+        "point-to-multipoint communication",
+        "channel selectivity",
+        "on-off keying"
+      ],
+      "url": "https://doi.org/10.1364/ol.494387",
+      "cited_by_count": 55,
+      "importance": 0.4352,
+      "score_basis": {
+        "topic_overlap": 0.145,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385365957",
+      "doi": "10.1364/cleo_si.2023.sm2h.5",
+      "title": "Propagation Losses of Sputtered Oxide Waveguides in the Visible Range",
+      "authors": [
+        "David A. Irvine",
+        "Neil MacFarlane",
+        "Aaron Schreyer-Miller",
+        "William D. Houck",
+        "Mark A. Foster",
+        "Amy C. Foster"
+      ],
+      "year": 2023,
+      "venue": "刊会待核实",
+      "venue_abbr": "待核实",
+      "rank_label": "等级待核实",
+      "keywords": [
+        "path loss",
+        "niobium-tantalum oxide",
+        "tantalum pentoxide",
+        "visible wavelength",
+        "photonic integrated circuits",
+        "oxide thin films"
+      ],
+      "url": "https://doi.org/10.1364/cleo_si.2023.sm2h.5",
+      "cited_by_count": 0,
+      "importance": 0.4343,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2995976872",
+      "doi": "10.1364/oe.27.037400",
+      "title": "Visible-light silicon nitride waveguide devices and implantable neurophotonic probes on thinned 200 mm silicon wafers",
+      "authors": [
+        "Wesley D. Sacher",
+        "Xianshu Luo",
+        "Yisu Yang",
+        "Fu‐Der Chen",
+        "Thomas Lordello",
+        "Jason C. C. Mak",
+        "Xinyu Liu",
+        "Ting Hu",
+        "Tianyuan Xue",
+        "Patrick Guo-Qiang Lo",
+        "Michael Lee Roukes",
+        "Joyce K. S. Poon"
+      ],
+      "year": 2019,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon nitride waveguides",
+        "deep ultraviolet lithography",
+        "waveguide propagation loss",
+        "grating couplers",
+        "optogenetic stimulation",
+        "brain stimulation",
+        "opsin",
+        "fluorophores",
+        "thin silicon wafers"
+      ],
+      "url": "https://doi.org/10.1364/oe.27.037400",
+      "cited_by_count": 143,
+      "importance": 0.4294,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2921994860",
+      "doi": "10.1364/oe.27.008756",
+      "title": "Initial alignment control technique using on-chip groove arrays for liquid crystal hybrid silicon optical phase shifters",
+      "authors": [
+        "Yuki Atsumi",
+        "Kazuhiro Watabe",
+        "Narutaka Uda",
+        "Noboru Miura",
+        "Youichi Sakakibara"
+      ],
+      "year": 2019,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical phase shifter",
+        "buried oxide",
+        "driving voltage reduction",
+        "photonic integrated circuits"
+      ],
+      "url": "https://doi.org/10.1364/oe.27.008756",
+      "cited_by_count": 26,
+      "importance": 0.4216,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2238509365",
+      "doi": "10.1515/nanoph-2015-0006",
+      "title": "Indium‐Tin‐Oxide for High‐performance Electro‐optic Modulation",
+      "authors": [
+        "Zhizhen Ma",
+        "Zhuoran Li",
+        "Ke Liu",
+        "Chenran Ye",
+        "Volker J. Sorger"
+      ],
+      "year": 2014,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "indium tin oxide",
+        "electro-optic modulation",
+        "transparent conducting oxides",
+        "plasmonic modulators",
+        "refractive index change",
+        "on-chip photonic devices",
+        "compact modulator"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2015-0006",
+      "cited_by_count": 250,
+      "importance": 0.4175,
+      "score_basis": {
+        "topic_overlap": 0.483,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3043903037",
+      "doi": "10.1364/optica.411968",
+      "title": "Tantala Kerr nonlinear integrated photonics",
+      "authors": [
+        "Hojoong Jung",
+        "Su‐Peng Yu",
+        "David R. Carlson",
+        "Tara E. Drake",
+        "Travis C. Briles",
+        "Scott B. Papp"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "tantalum pentoxide",
+        "nonlinear integrated photonics",
+        "Kerr nonlinearity",
+        "optical resonators",
+        "waveguides",
+        "residual stress",
+        "ion beam sputtering",
+        "supercontinuum generation",
+        "optical quality factor"
+      ],
+      "url": "https://doi.org/10.1364/optica.411968",
+      "cited_by_count": 185,
+      "importance": 0.4159,
+      "score_basis": {
+        "topic_overlap": 0.28,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2952285760",
+      "doi": "10.1364/oe.22.010487",
+      "title": "Efficient, compact and low loss thermo-optic phase shifter in silicon",
+      "authors": [
+        "Nicholas C. Harris",
+        "Yangjin Ma",
+        "Jacob Mower",
+        "Tom W. Baehr-Jones",
+        "Dirk Englund",
+        "Michael Hochberg",
+        "Christophe Galland"
+      ],
+      "year": 2014,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "thermo-optic phase shifters",
+        "silicon-on-insulator waveguides",
+        "resistive heater",
+        "ridge waveguide",
+        "free carrier absorption",
+        "insertion loss",
+        "modulation bandwidth",
+        "CMOS-compatible photonic integration",
+        "device isolation"
+      ],
+      "url": "https://doi.org/10.1364/oe.22.010487",
+      "cited_by_count": 427,
+      "importance": 0.3959,
+      "score_basis": {
+        "topic_overlap": 0.346,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4224325468",
+      "doi": "10.1038/s41467-022-29448-5",
+      "title": "Integrated silicon carbide electro-optic modulator",
+      "authors": [
+        "Keith B. Powell",
+        "Liwei Li",
+        "Amirhassan Shams‐Ansari",
+        "Jianfu Wang",
+        "Debin Meng",
+        "Neil E. Sinclair",
+        "Jiangdong Deng",
+        "Marko Lončar",
+        "Xiaoke Yi"
+      ],
+      "year": 2022,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon carbide",
+        "electro-optic modulator",
+        "Pockels effect",
+        "integrated photonics",
+        "silicon carbide on insulator",
+        "gigahertz bandwidth",
+        "noncentrosymmetric crystals",
+        "photorefractive effect",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41467-022-29448-5",
+      "cited_by_count": 133,
+      "importance": 0.3956,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407156788",
+      "doi": "10.1364/ol.549975",
+      "title": "Alleviation of DC drift in a thin-film lithium niobate modulator utilizing Ar + ion milling",
+      "authors": [
+        "Jiakang Shi",
+        "Zhilin Ye",
+        "Zhen Liu",
+        "Zhong Yan",
+        "Kunpeng Jia",
+        "Liqiang Zhang",
+        "Daohan Ge",
+        "Shining N. Zhu"
+      ],
+      "year": 2025,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "electro-optic modulator",
+        "DC drift",
+        "Ar ion milling",
+        "electro-optic phase shifters",
+        "photonic integrated circuits",
+        "modulator bandwidth"
+      ],
+      "url": "https://doi.org/10.1364/ol.549975",
+      "cited_by_count": 14,
+      "importance": 0.3843,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1976590877",
+      "doi": "10.1364/ol.38.003878",
+      "title": "Measurements of the refractive indices and thermo-optic coefficients of Si_3N_4 and SiO_x using microring resonances",
+      "authors": [
+        "Amir Arbabi",
+        "Lynford L. Goddard"
+      ],
+      "year": 2013,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "microring resonators",
+        "refractive index measurement",
+        "thermo-optic coefficient",
+        "silicon nitride",
+        "silicon oxide",
+        "singular value decomposition",
+        "temperature sensitivity",
+        "LPCVD silicon nitride"
+      ],
+      "url": "https://doi.org/10.1364/ol.38.003878",
+      "cited_by_count": 332,
+      "importance": 0.379,
+      "score_basis": {
+        "topic_overlap": 0.309,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4225656786",
+      "doi": "10.1103/physrevapplied.19.034001",
+      "title": "Routing Single Photons from a Trapped Ion Using a Photonic Integrated Circuit",
+      "authors": [
+        "Uday Saha",
+        "James Siverns",
+        "John Hannegan",
+        "Mihika Prabhu",
+        "Qudsia Sara Quraishi",
+        "Dirk Englund",
+        "Edo Waks A"
+      ],
+      "year": 2023,
+      "venue": "Physical Review Applied",
+      "venue_abbr": "Phys. Rev. Applied",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-photon routing",
+        "trapped ions",
+        "photonic integrated circuits",
+        "quantum frequency conversion",
+        "silicon nitride photonics",
+        "beam splitting",
+        "quantum networks",
+        "entanglement distribution",
+        "dipole emission"
+      ],
+      "url": "https://doi.org/10.1103/physrevapplied.19.034001",
+      "cited_by_count": 12,
+      "importance": 0.3779,
+      "score_basis": {
+        "topic_overlap": 0.173,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2024147985",
+      "doi": "10.1364/ol.37.000539",
+      "title": "Integrated TiO_2 resonators for visible photonics",
+      "authors": [
+        "Jennifer T. Choy",
+        "Jonathan D. B. Bradley",
+        "Parag B. Deotare",
+        "Ian B. Burgess",
+        "Christopher C. Evans",
+        "Eric Mazur",
+        "Marko Lončar"
+      ],
+      "year": 2012,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "racetrack resonator",
+        "waveguide coupling",
+        "loaded quality factor",
+        "oxidized silicon substrates",
+        "top-down nanofabrication",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/ol.37.000539",
+      "cited_by_count": 88,
+      "importance": 0.3743,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4381572096",
+      "doi": "10.1364/optica.486747",
+      "title": "Universal visible emitters in nanoscale integrated photonics",
+      "authors": [
+        "Grisha Spektor",
+        "David R. Carlson",
+        "Zachary L. Newman",
+        "Jinhie Skarda",
+        "Neil V. Sapra",
+        "Logan Su",
+        "Sindhu Jammi",
+        "Andrew R. Ferdinand",
+        "Amit Kumar Agrawal",
+        "Jelena Vuckovic A",
+        "Scott B. Papp"
+      ],
+      "year": 2023,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "visible light emitters",
+        "inverse design",
+        "circularly polarized beams",
+        "magneto-optical trap",
+        "strontium atoms",
+        "light-matter interaction",
+        "quantum technologies"
+      ],
+      "url": "https://doi.org/10.1364/optica.486747",
+      "cited_by_count": 30,
+      "importance": 0.3729,
+      "score_basis": {
+        "topic_overlap": 0.162,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2127282927",
+      "doi": "10.1109/jqe.1987.1073206",
+      "title": "Electrooptical effects in silicon",
+      "authors": [
+        "Richard A. Soref",
+        "Brian R. Bennett"
+      ],
+      "year": 1987,
+      "venue": "IEEE Journal of Quantum Electronics",
+      "venue_abbr": "JQE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "electro-optic effect",
+        "silicon",
+        "refractive index perturbation",
+        "electroabsorption",
+        "Kramers-Kronig analysis",
+        "electrorefraction",
+        "Kerr effect",
+        "indirect band gap",
+        "charge injection",
+        "depletion",
+        "impurity doping",
+        "electric field"
+      ],
+      "url": "https://doi.org/10.1109/jqe.1987.1073206",
+      "cited_by_count": 2615,
+      "importance": 0.3699,
+      "score_basis": {
+        "topic_overlap": 0.289,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2476515540",
+      "doi": "10.1364/oe.24.012501",
+      "title": "Aluminum nitride electro-optic phase shifter for backend integration on silicon",
+      "authors": [
+        "Shiyang Zhu",
+        "Guo‐Qiang Lo"
+      ],
+      "year": 2016,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "aluminum nitride",
+        "electro-optic phase shifters",
+        "silicon photonics",
+        "Pockels coefficient",
+        "1550 nm",
+        "transverse electric and magnetic modes",
+        "modulation efficiency"
+      ],
+      "url": "https://doi.org/10.1364/oe.24.012501",
+      "cited_by_count": 58,
+      "importance": 0.3689,
+      "score_basis": {
+        "topic_overlap": 0.331,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1985793613",
+      "doi": "10.1364/opex.13.003129",
+      "title": "High speed silicon Mach-Zehnder modulator",
+      "authors": [
+        "Ling Liao",
+        "Dean A. Samara-Rubio",
+        "Michael T. Morse",
+        "Ansheng Liu",
+        "Dexter Hodge",
+        "Doron Rubin",
+        "Ulrich D. Keil",
+        "T. Franck"
+      ],
+      "year": 2005,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon Mach-Zehnder modulator",
+        "high-speed optical modulation",
+        "silicon photonics",
+        "material quality",
+        "device design",
+        "10 Gb/s transmission"
+      ],
+      "url": "https://doi.org/10.1364/opex.13.003129",
+      "cited_by_count": 523,
+      "importance": 0.3584,
+      "score_basis": {
+        "topic_overlap": 0.308,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2466295962",
+      "doi": "10.1109/jlt.2016.2587319",
+      "title": "Design of Mid-infrared electro-optic modulators based on aluminum nitride waveguides",
+      "authors": [
+        "Shuai Liu",
+        "Ke Xu",
+        "Qinghai Song",
+        "Zhenzhou Cheng",
+        "Hon Ki Tsang"
+      ],
+      "year": 2016,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "electro-optic modulator",
+        "aluminum nitride",
+        "mid-infrared",
+        "slot waveguide",
+        "strip waveguides",
+        "modulation efficiency",
+        "waveguide loss",
+        "index changes"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2016.2587319",
+      "cited_by_count": 34,
+      "importance": 0.3512,
+      "score_basis": {
+        "topic_overlap": 0.336,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2623643194",
+      "doi": "10.1364/optica.4.000619",
+      "title": "Ultra-low-loss on-chip resonators with sub-milliwatt parametric oscillation threshold",
+      "authors": [
+        "Xingchen Ji",
+        "F. A. S. Barbosa",
+        "Samantha Pamela Roberts",
+        "Avik Dutt",
+        "Jaime Cárdenas",
+        "Yoshitomo Okawachi",
+        "Alex W. Bryant",
+        "Alexander L. Gaeta",
+        "Michal F. Lipson"
+      ],
+      "year": 2017,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "silicon nitride ring resonator",
+        "surface roughness",
+        "optical loss",
+        "quality factor",
+        "frequency comb generation",
+        "high-precision sensing",
+        "laser stabilization",
+        "nonlinear photonics"
+      ],
+      "url": "https://doi.org/10.1364/optica.4.000619",
+      "cited_by_count": 554,
+      "importance": 0.3497,
+      "score_basis": {
+        "topic_overlap": 0.155,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7134980061",
+      "doi": "10.1007/s00339-026-09437-x",
+      "title": "Dynamic manipulation of Mid-IR Light with plasmonic metasurfaces through programmable nanostructures",
+      "authors": [
+        "M. Sravani",
+        "K Srihari",
+        "S Karthik"
+      ],
+      "year": 2026,
+      "venue": "Applied Physics A",
+      "venue_abbr": "Applied Physics A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "plasmonic metasurfaces",
+        "NiTi",
+        "reconfigurable metasurface",
+        "mechanical actuation",
+        "convolutional neural network optimization",
+        "genetic algorithm optimization"
+      ],
+      "url": "https://doi.org/10.1007/s00339-026-09437-x",
+      "cited_by_count": 0,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "citing",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2012085203",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2012085203"
+        }
+      ]
+    },
+    {
+      "from": "W2019883289",
+      "to": "W1985793613",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2019883289"
+        }
+      ]
+    },
+    {
+      "from": "W2019883289",
+      "to": "W2127282927",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2019883289"
+        }
+      ]
+    },
+    {
+      "from": "W2803462617",
+      "to": "W881161943",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2803462617"
+        }
+      ]
+    },
+    {
+      "from": "W2892135951",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892135951"
+        }
+      ]
+    },
+    {
+      "from": "W2912705718",
+      "to": "W2803462617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2912705718"
+        }
+      ]
+    },
+    {
+      "from": "W2912705718",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2912705718"
+        }
+      ]
+    },
+    {
+      "from": "W2912705718",
+      "to": "W881161943",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2912705718"
+        }
+      ]
+    },
+    {
+      "from": "W2921828292",
+      "to": "W2024147985",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2921828292"
+        }
+      ]
+    },
+    {
+      "from": "W2921828292",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2921828292"
+        }
+      ]
+    },
+    {
+      "from": "W2921994860",
+      "to": "W2012085203",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2921994860"
+        }
+      ]
+    },
+    {
+      "from": "W3006005007",
+      "to": "W2024147985",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006005007"
+        }
+      ]
+    },
+    {
+      "from": "W3006005007",
+      "to": "W2623643194",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006005007"
+        }
+      ]
+    },
+    {
+      "from": "W3006005007",
+      "to": "W2921828292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006005007"
+        }
+      ]
+    },
+    {
+      "from": "W3043903037",
+      "to": "W2623643194",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043903037"
+        }
+      ]
+    },
+    {
+      "from": "W3045725857",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3045725857"
+        }
+      ]
+    },
+    {
+      "from": "W3091851330",
+      "to": "W2012085203",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3091851330"
+        }
+      ]
+    },
+    {
+      "from": "W3091851330",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3091851330"
+        }
+      ]
+    },
+    {
+      "from": "W3091851330",
+      "to": "W2127282927",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3091851330"
+        }
+      ]
+    },
+    {
+      "from": "W3091851330",
+      "to": "W2803462617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3091851330"
+        }
+      ]
+    },
+    {
+      "from": "W3091851330",
+      "to": "W2921828292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3091851330"
+        }
+      ]
+    },
+    {
+      "from": "W3139120465",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3139120465"
+        }
+      ]
+    },
+    {
+      "from": "W3139120465",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3139120465"
+        }
+      ]
+    },
+    {
+      "from": "W3139120465",
+      "to": "W2921828292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3139120465"
+        }
+      ]
+    },
+    {
+      "from": "W3178070464",
+      "to": "W2623643194",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3178070464"
+        }
+      ]
+    },
+    {
+      "from": "W3178070464",
+      "to": "W2995976872",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3178070464"
+        }
+      ]
+    },
+    {
+      "from": "W3178070464",
+      "to": "W3006005007",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3178070464"
+        }
+      ]
+    },
+    {
+      "from": "W3211439343",
+      "to": "W1976590877",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3211439343"
+        }
+      ]
+    },
+    {
+      "from": "W3211439343",
+      "to": "W2921828292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3211439343"
+        }
+      ]
+    },
+    {
+      "from": "W3211439343",
+      "to": "W2995976872",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3211439343"
+        }
+      ]
+    },
+    {
+      "from": "W3217375294",
+      "to": "W1976590877",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3217375294"
+        }
+      ]
+    },
+    {
+      "from": "W3217375294",
+      "to": "W2921828292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3217375294"
+        }
+      ]
+    },
+    {
+      "from": "W3217375294",
+      "to": "W2995976872",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3217375294"
+        }
+      ]
+    },
+    {
+      "from": "W3217375294",
+      "to": "W3006005007",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3217375294"
+        }
+      ]
+    },
+    {
+      "from": "W4200233651",
+      "to": "W2921828292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200233651"
+        }
+      ]
+    },
+    {
+      "from": "W4200233651",
+      "to": "W2952285760",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200233651"
+        }
+      ]
+    },
+    {
+      "from": "W4200233651",
+      "to": "W3091851330",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200233651"
+        }
+      ]
+    },
+    {
+      "from": "W4210465824",
+      "to": "W2921828292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210465824"
+        }
+      ]
+    },
+    {
+      "from": "W4220969445",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220969445"
+        }
+      ]
+    },
+    {
+      "from": "W4220969445",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220969445"
+        }
+      ]
+    },
+    {
+      "from": "W4220969445",
+      "to": "W3139120465",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220969445"
+        }
+      ]
+    },
+    {
+      "from": "W4221073125",
+      "to": "W2012085203",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221073125"
+        }
+      ]
+    },
+    {
+      "from": "W4221073125",
+      "to": "W2921994860",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221073125"
+        }
+      ]
+    },
+    {
+      "from": "W4224325468",
+      "to": "W2476515540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224325468"
+        }
+      ]
+    },
+    {
+      "from": "W4225656786",
+      "to": "W2952285760",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225656786"
+        }
+      ]
+    },
+    {
+      "from": "W4304184203",
+      "to": "W2623643194",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4304184203"
+        }
+      ]
+    },
+    {
+      "from": "W4304184203",
+      "to": "W3043903037",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4304184203"
+        }
+      ]
+    },
+    {
+      "from": "W4361006093",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4361006093"
+        }
+      ]
+    },
+    {
+      "from": "W4361006093",
+      "to": "W2921828292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4361006093"
+        }
+      ]
+    },
+    {
+      "from": "W4361006093",
+      "to": "W2995976872",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4361006093"
+        }
+      ]
+    },
+    {
+      "from": "W4361006093",
+      "to": "W3217375294",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4361006093"
+        }
+      ]
+    },
+    {
+      "from": "W4361006093",
+      "to": "W4200233651",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4361006093"
+        }
+      ]
+    },
+    {
+      "from": "W4381572096",
+      "to": "W3043903037",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381572096"
+        }
+      ]
+    },
+    {
+      "from": "W4385365957",
+      "to": "W2995976872",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385365957"
+        }
+      ]
+    },
+    {
+      "from": "W4385365957",
+      "to": "W4304184203",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385365957"
+        }
+      ]
+    },
+    {
+      "from": "W4386710766",
+      "to": "W3006005007",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386710766"
+        }
+      ]
+    },
+    {
+      "from": "W4386710766",
+      "to": "W3211439343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386710766"
+        }
+      ]
+    },
+    {
+      "from": "W4386710766",
+      "to": "W4221073125",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386710766"
+        }
+      ]
+    },
+    {
+      "from": "W4391035136",
+      "to": "W2012085203",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391035136"
+        }
+      ]
+    },
+    {
+      "from": "W4391035136",
+      "to": "W2921828292",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391035136"
+        }
+      ]
+    },
+    {
+      "from": "W4391035136",
+      "to": "W2921994860",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391035136"
+        }
+      ]
+    },
+    {
+      "from": "W4391035136",
+      "to": "W3006005007",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391035136"
+        }
+      ]
+    },
+    {
+      "from": "W4391035136",
+      "to": "W3211439343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391035136"
+        }
+      ]
+    },
+    {
+      "from": "W4391035136",
+      "to": "W4221073125",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391035136"
+        }
+      ]
+    },
+    {
+      "from": "W4391035136",
+      "to": "W4386710766",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391035136"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W1976590877",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W1985793613",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2012085203",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2019883289",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2024147985",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2127282927",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2238509365",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2466295962",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2476515540",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2623643194",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2803462617",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2912705718",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2921828292",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2921994860",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2952285760",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W2995976872",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W3006005007",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W3043903037",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W3045725857",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W3091851330",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W3139120465",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W3178070464",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W3211439343",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W3217375294",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4200233651",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4210465824",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4220969445",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4221073125",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4224325468",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4225656786",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4304184203",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4361006093",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4381572096",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4385365957",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4386710766",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4391035136",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W4407156788",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4405562587",
+      "to": "W881161943",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Foptica.608940"
+        }
+      ]
+    },
+    {
+      "from": "W4407156788",
+      "to": "W3139120465",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407156788"
+        }
+      ]
+    },
+    {
+      "from": "W7134980061",
+      "to": "W4405562587",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7134980061"
+        }
+      ]
+    }
+  ]
 }

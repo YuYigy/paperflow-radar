@@ -1,42 +1,4129 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "3719eb33-dea8-469f-a2a5-0aba0cf8f8a1",
-  "root": "doi:10.1126/sciadv.aed4162",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W4412209092",
+  "status": "ok",
+  "checked_at": "2026-11-03T00:53:58.190024+00:00",
+  "coverage": {
+    "references_found": 61,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "references_without_doi": 7,
+    "candidates_resolved": 61,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1126/sciadv.aed4162",
+      "id": "W4412209092",
       "doi": "10.1126/sciadv.aed4162",
       "title": "Practical continuous-variable quantum key distribution with squeezed light",
       "authors": [
         "Huy Quang Nguyen",
-        "Ivan Derkach",
+        "Ivan D. Derkach",
         "Hou-Man Chin",
-        "Adnan A.E. Hajomer",
+        "Adnan A. E. Hajomer",
         "Akash nag Oruganti",
         "Radim Filip",
         "Ulrik L. Andersen",
         "Vladyslav C. Usenko",
         "Tobias Gehring"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Science Advances",
       "venue_abbr": "Sci. Adv.",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "squeezed light",
+        "coherent states",
+        "secret key rate",
+        "excess noise",
+        "information reconciliation",
+        "collective attacks",
+        "local oscillator",
+        "digital signal processing"
+      ],
       "url": "https://doi.org/10.1126/sciadv.aed4162",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/3719eb33-dea8-469f-a2a5-0aba0cf8f8a1.html",
       "summary": "摘要报告：CV-QKD现有系统多采用相干态，而压缩光理论上可带来更高密钥率、更强过剩噪声韧性与更低协调效率要求。该文实验验证这些预测，基于本地本振（LLO）与现代DSP技术构建并演示实用的压缩态CV-QKD系统：在光纤信道上、针对集体攻击的有限尺寸安全性下运行，并展示其相对相干态系统的优势。作者称该工作推动压缩光成为QKD及其他量子信息协议的实用资源。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4390569759",
+      "doi": "10.1126/sciadv.adi9474",
+      "title": "Long-distance continuous-variable quantum key distribution over 100-km fiber with local local oscillator",
+      "authors": [
+        "Adnan A. E. Hajomer",
+        "Ivan D. Derkach",
+        "Nitin Jain",
+        "Hou-Man Chin",
+        "Ulrik L. Andersen",
+        "Tobias Gehring"
+      ],
+      "year": 2024,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "local oscillator",
+        "long-distance fiber transmission",
+        "coherent states",
+        "coherent detection",
+        "phase noise",
+        "excess noise",
+        "carrier recovery",
+        "machine learning",
+        "collective attacks"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.adi9474",
+      "cited_by_count": 136,
+      "importance": 0.8161,
+      "score_basis": {
+        "topic_overlap": 0.591,
+        "shared_references": 9,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3000532170",
+      "doi": "10.1103/physrevlett.125.010502",
+      "title": "Long-Distance Continuous-Variable Quantum Key Distribution over 202.81 km of Fiber",
+      "authors": [
+        "Yichen Zhang",
+        "Ziyang Chen",
+        "Stefano Pirandola",
+        "Xiangyu Wang",
+        "Chao Zhou",
+        "Binjie Chu",
+        "Yijia Zhao",
+        "Bingjie Xu",
+        "Song Yu",
+        "Hong Mei Guo"
+      ],
+      "year": 2020,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "long-distance quantum key distribution",
+        "optical fiber transmission",
+        "excess noise",
+        "reconciliation efficiency",
+        "secret key rate",
+        "quantum cryptography"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.125.010502",
+      "cited_by_count": 429,
+      "importance": 0.8019,
+      "score_basis": {
+        "topic_overlap": 0.56,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1982882865",
+      "doi": "10.1038/ncomms2097",
+      "title": "Continuous variable quantum key distribution with modulated entangled states",
+      "authors": [
+        "Lars S. Madsen",
+        "Vladyslav C. Usenko",
+        "Mikael Lassen",
+        "Radim Filip",
+        "Ulrik L. Andersen"
+      ],
+      "year": 2012,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "coherent states"
+      ],
+      "url": "https://doi.org/10.1038/ncomms2097",
+      "cited_by_count": 240,
+      "importance": 0.7894,
+      "score_basis": {
+        "topic_overlap": 0.532,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2884648624",
+      "doi": "10.1038/s41534-018-0084-0",
+      "title": "Complete elimination of information leakage in continuous-variable quantum communication channels",
+      "authors": [
+        "Christian S. Jacobsen",
+        "Lars S. Madsen",
+        "Vladyslav C. Usenko",
+        "Radim Filip",
+        "Ulrik L. Andersen"
+      ],
+      "year": 2018,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "information leakage",
+        "continuous-variable quantum communication",
+        "lossy channels",
+        "eavesdropping",
+        "squeezed states",
+        "Gaussian states",
+        "Holevo information",
+        "quantum key distribution"
+      ],
+      "url": "https://doi.org/10.1038/s41534-018-0084-0",
+      "cited_by_count": 33,
+      "importance": 0.7806,
+      "score_basis": {
+        "topic_overlap": 0.512,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4309647018",
+      "doi": "10.1038/s41534-022-00640-1",
+      "title": "Modulation leakage-free continuous-variable quantum key distribution",
+      "authors": [
+        "Adnan A. E. Hajomer",
+        "Nitin Jain",
+        "Hossein Mani",
+        "Hou-Man Chin",
+        "Ulrik L. Andersen",
+        "Tobias Gehring"
+      ],
+      "year": 2022,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "coherent states",
+        "baseband modulation",
+        "digital signal processing",
+        "composable security",
+        "collective attacks",
+        "side-channel attacks",
+        "secret key generation",
+        "information-theoretic security"
+      ],
+      "url": "https://doi.org/10.1038/s41534-022-00640-1",
+      "cited_by_count": 24,
+      "importance": 0.7591,
+      "score_basis": {
+        "topic_overlap": 0.509,
+        "shared_references": 10,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401075641",
+      "doi": "10.1364/optica.530080",
+      "title": "Continuous-variable quantum key distribution at 10 GBaud using an integrated photonic-electronic receiver",
+      "authors": [
+        "Adnan A. E. Hajomer",
+        "Cédric Bruynsteen",
+        "Ivan D. Derkach",
+        "Nitin Jain",
+        "Axl Bomhals",
+        "Sarah Bastiaens",
+        "Ulrik L. Andersen",
+        "Xin Liang Yin",
+        "Tobias Gehring"
+      ],
+      "year": 2024,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "silicon photonics",
+        "secret key rate",
+        "finite-size effects",
+        "collective attacks",
+        "digital signal processing"
+      ],
+      "url": "https://doi.org/10.1364/optica.530080",
+      "cited_by_count": 76,
+      "importance": 0.7539,
+      "score_basis": {
+        "topic_overlap": 0.586,
+        "shared_references": 7,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2223035631",
+      "doi": "10.3390/e18010020",
+      "title": "Trusted Noise in Continuous-Variable Quantum Key Distribution: A Threat and a Defense",
+      "authors": [
+        "Vladyslav C. Usenko",
+        "Radim Filip"
+      ],
+      "year": 2016,
+      "venue": "Entropy",
+      "venue_abbr": "Entropy",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "detection noise",
+        "squeezed states",
+        "coherent states",
+        "reverse reconciliation",
+        "quantum entropy",
+        "channel noise",
+        "security analysis"
+      ],
+      "url": "https://doi.org/10.3390/e18010020",
+      "cited_by_count": 123,
+      "importance": 0.7464,
+      "score_basis": {
+        "topic_overlap": 0.436,
+        "shared_references": 10,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3205033705",
+      "doi": "10.1038/s41467-022-32161-y",
+      "title": "Practical continuous-variable quantum key distribution with composable security",
+      "authors": [
+        "Nitin Jain",
+        "Hou-Man Chin",
+        "Hossein Mani",
+        "Cosmo Lupo",
+        "Dino Solar Nikolic",
+        "Arne Kordts",
+        "Stefano Pirandola",
+        "Thomas B. Pedersen",
+        "Matthias Kolb",
+        "Bernhard Ömer",
+        "Christoph Pacher",
+        "Tobias Gehring",
+        "Ulrik L. Andersen"
+      ],
+      "year": 2022,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "universal composability",
+        "Gaussian-modulated coherent states",
+        "collective attacks",
+        "finite-key security",
+        "key generation",
+        "security proofs"
+      ],
+      "url": "https://doi.org/10.1038/s41467-022-32161-y",
+      "cited_by_count": 154,
+      "importance": 0.7464,
+      "score_basis": {
+        "topic_overlap": 0.436,
+        "shared_references": 8,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2124815361",
+      "doi": "10.1088/1367-2630/13/11/113007",
+      "title": "Squeezed-state quantum key distribution upon imperfect reconciliation",
+      "authors": [
+        "Vladyslav C. Usenko",
+        "Radim Filip"
+      ],
+      "year": 2011,
+      "venue": "New Journal of Physics",
+      "venue_abbr": "New Journal of Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "reconciliation efficiency",
+        "Holevo quantity",
+        "information leakage",
+        "lossy channels",
+        "security analysis"
+      ],
+      "url": "https://doi.org/10.1088/1367-2630/13/11/113007",
+      "cited_by_count": 72,
+      "importance": 0.7238,
+      "score_basis": {
+        "topic_overlap": 0.386,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1869599893",
+      "doi": "10.1038/ncomms9795",
+      "title": "Implementation of continuous-variable quantum key distribution with composable and one-sided-device-independent security against coherent attacks",
+      "authors": [
+        "Tobias Gehring",
+        "Vitus Händchen",
+        "Jörg Duhme",
+        "Fabian Furrer",
+        "Torsten Franz",
+        "Christoph Pacher",
+        "Reinhard F. Werner",
+        "Roman Schnabel"
+      ],
+      "year": 2015,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "composable security",
+        "coherent attacks",
+        "Einstein-Podolsky-Rosen entanglement",
+        "quantum cryptography"
+      ],
+      "url": "https://doi.org/10.1038/ncomms9795",
+      "cited_by_count": 292,
+      "importance": 0.7144,
+      "score_basis": {
+        "topic_overlap": 0.476,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3154298282",
+      "doi": "10.1103/prxquantum.2.040334",
+      "title": "Homodyne Detection Quadrature Phase Shift Keying Continuous-Variable Quantum key Distribution with High Excess Noise Tolerance",
+      "authors": [
+        "Wen‐Bo Liu",
+        "Chen-Long Li",
+        "Yuan-Mei Xie",
+        "Chen-Xun Weng",
+        "Jie Gu",
+        "Xiaoyu Cao",
+        "Yu-Shuo Lu",
+        "Bing-Hong Li",
+        "Hua‐Lei Yin",
+        "Zeng‐Bing Chen"
+      ],
+      "year": 2021,
+      "venue": "PRX Quantum",
+      "venue_abbr": "PRX Quantum",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "homodyne detection",
+        "QPSK",
+        "information leakage",
+        "collective attacks",
+        "quaternary modulation"
+      ],
+      "url": "https://doi.org/10.1103/prxquantum.2.040334",
+      "cited_by_count": 105,
+      "importance": 0.7111,
+      "score_basis": {
+        "topic_overlap": 0.536,
+        "shared_references": 8,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2105027281",
+      "doi": "10.1103/physrevlett.88.057902",
+      "title": "Continuous Variable Quantum Cryptography Using Coherent States",
+      "authors": [
+        "Frédéric Grosshans",
+        "Philippe Grangier"
+      ],
+      "year": 2002,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum key distribution",
+        "continuous-variable quantum cryptography",
+        "coherent states",
+        "squeezed states",
+        "no-cloning theorem",
+        "eavesdropping",
+        "signal-to-noise ratio",
+        "Gaussian statistics"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.88.057902",
+      "cited_by_count": 1470,
+      "importance": 0.705,
+      "score_basis": {
+        "topic_overlap": 0.567,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4221146077",
+      "doi": "10.1088/2058-9565/ac7ba2",
+      "title": "Digital synchronization for continuous-variable quantum key distribution",
+      "authors": [
+        "Hou-Man Chin",
+        "Nitin Jain",
+        "Ulrik L. Andersen",
+        "Darko Zibar",
+        "Tobias Gehring"
+      ],
+      "year": 2022,
+      "venue": "Quantum Science and Technology",
+      "venue_abbr": "Quantum Sci. Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "digital synchronization",
+        "local oscillator",
+        "coherent detection",
+        "Gaussian modulation",
+        "single-mode fiber"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/ac7ba2",
+      "cited_by_count": 22,
+      "importance": 0.7027,
+      "score_basis": {
+        "topic_overlap": 0.428,
+        "shared_references": 5,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2948602808",
+      "doi": "10.1364/aop.361502",
+      "title": "Advances in quantum cryptography",
+      "authors": [
+        "Stefano Pirandola",
+        "U. L. Andersen",
+        "Leonardo Banchi",
+        "Mario Berta",
+        "Darius Bunandar",
+        "Roger Colbeck",
+        "Dirk Englund",
+        "T. Gehring",
+        "Cosmo Lupo",
+        "Carlo Ottaviani",
+        "J. L. Pereira",
+        "Mohsen Razavi",
+        "Jesni Shamsul Shaari",
+        "Marco Tomamichel",
+        "V. C. Usenko",
+        "G. Vallone",
+        "P. Villoresi",
+        "P. Wallden"
+      ],
+      "year": 2020,
+      "venue": "Advances in Optics and Photonics",
+      "venue_abbr": "Advances in Optics and Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum cryptography",
+        "quantum key distribution",
+        "discrete-variable quantum key distribution",
+        "device-independent quantum key distribution",
+        "satellite quantum key distribution",
+        "continuous-variable quantum key distribution",
+        "quantum repeaters",
+        "quantum networks",
+        "private communication",
+        "quantum random number generators",
+        "quantum digital signatures",
+        "security proofs"
+      ],
+      "url": "https://doi.org/10.1364/aop.361502",
+      "cited_by_count": 2039,
+      "importance": 0.7,
+      "score_basis": {
+        "topic_overlap": 0.333,
+        "shared_references": 17,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415203281",
+      "doi": "10.1038/s42005-025-02317-5",
+      "title": "Enhanced continuous-variable quantum key distribution protocol via adaptive signal processing",
+      "authors": [
+        "Özlem Erkılıç",
+        "Biveen Shajilal",
+        "Lorcán O. Conlon",
+        "Angus Walsh",
+        "Aritra Das",
+        "Sebastian P. Kish",
+        "Thomas Symul",
+        "Ping Koy Lam",
+        "Syed M. Assad",
+        "Jie Zhao"
+      ],
+      "year": 2025,
+      "venue": "Communications Physics",
+      "venue_abbr": "Communications Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "adaptive signal processing",
+        "adaptive filtering",
+        "secret key rate",
+        "satellite quantum communication"
+      ],
+      "url": "https://doi.org/10.1038/s42005-025-02317-5",
+      "cited_by_count": 2,
+      "importance": 0.6983,
+      "score_basis": {
+        "topic_overlap": 0.552,
+        "shared_references": 9,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2155398473",
+      "doi": "10.1103/physrevlett.102.130501",
+      "title": "Continuous-Variable Quantum Key Distribution Protocols Over Noisy Channels",
+      "authors": [
+        "Raúl García−Patrón",
+        "Nicolas J. Cerf"
+      ],
+      "year": 2009,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "squeezed states",
+        "heterodyne detection",
+        "secret key rate",
+        "noisy channels",
+        "quantum cryptography"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.102.130501",
+      "cited_by_count": 172,
+      "importance": 0.6952,
+      "score_basis": {
+        "topic_overlap": 0.545,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4360826146",
+      "doi": "10.1038/s41534-023-00695-8",
+      "title": "Continuous-mode quantum key distribution with digital signal processing",
+      "authors": [
+        "Ziyang Chen",
+        "Xiangyu Wang",
+        "Song Yu",
+        "Zhengyu Li",
+        "Hong Mei Guo"
+      ],
+      "year": 2023,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "digital signal processing",
+        "temporal modes",
+        "security analysis",
+        "spectral broadening"
+      ],
+      "url": "https://doi.org/10.1038/s41534-023-00695-8",
+      "cited_by_count": 92,
+      "importance": 0.693,
+      "score_basis": {
+        "topic_overlap": 0.407,
+        "shared_references": 5,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3006818553",
+      "doi": "10.1038/s41534-021-00361-x",
+      "title": "Machine learning aided carrier recovery in continuous-variable quantum key distribution",
+      "authors": [
+        "Hou-Man Chin",
+        "Nitin Jain",
+        "Darko Zibar",
+        "Ulrik L. Andersen",
+        "Tobias Gehring"
+      ],
+      "year": 2021,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "carrier recovery",
+        "phase noise estimation",
+        "unscented Kalman filter",
+        "excess noise",
+        "pilot signals",
+        "local oscillator",
+        "Bayesian inference",
+        "machine learning",
+        "secret key rate"
+      ],
+      "url": "https://doi.org/10.1038/s41534-021-00361-x",
+      "cited_by_count": 86,
+      "importance": 0.692,
+      "score_basis": {
+        "topic_overlap": 0.427,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409197261",
+      "doi": "10.1038/s42005-025-02061-w",
+      "title": "Practical continuous-variable quantum secret sharing using local local oscillator",
+      "authors": [
+        "Qin Liao",
+        "Zhuoying Fei",
+        "Lei Huang",
+        "Xiquan Fu"
+      ],
+      "year": 2025,
+      "venue": "Communications Physics",
+      "venue_abbr": "Communications Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase compensation",
+        "phase noise",
+        "security bounds",
+        "eavesdropping",
+        "quantum communication networks"
+      ],
+      "url": "https://doi.org/10.1038/s42005-025-02061-w",
+      "cited_by_count": 18,
+      "importance": 0.683,
+      "score_basis": {
+        "topic_overlap": 0.518,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3124600972",
+      "doi": "10.1103/physreva.104.012411",
+      "title": "Minimization of information leakage in continuous-variable quantum key distribution",
+      "authors": [
+        "Matthew S. Winnel",
+        "Nedasadat Hosseinidehaj",
+        "Timothy C. Ralph"
+      ],
+      "year": 2021,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "information leakage",
+        "noisy channels"
+      ],
+      "url": "https://doi.org/10.1103/physreva.104.012411",
+      "cited_by_count": 3,
+      "importance": 0.6725,
+      "score_basis": {
+        "topic_overlap": 0.494,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410050617",
+      "doi": "10.1038/s41534-025-01018-9",
+      "title": "Digital reconstruction of squeezed light for quantum information processing",
+      "authors": [
+        "Huy Quang Nguyen",
+        "Ivan D. Derkach",
+        "Adnan A. E. Hajomer",
+        "Hou-Man Chin",
+        "Akash nag Oruganti",
+        "Ulrik L. Andersen",
+        "Vladyslav C. Usenko",
+        "Tobias Gehring"
+      ],
+      "year": 2025,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "squeezed light",
+        "virtual reconstruction",
+        "asynchronous detection",
+        "local oscillator",
+        "squeezed vacuum",
+        "continuous-variable quantum key distribution",
+        "long-distance quantum communication"
+      ],
+      "url": "https://doi.org/10.1038/s41534-025-01018-9",
+      "cited_by_count": 11,
+      "importance": 0.6682,
+      "score_basis": {
+        "topic_overlap": 0.485,
+        "shared_references": 22,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2892850502",
+      "doi": "10.1088/1367-2630/ab7f8f",
+      "title": "Squeezing-enhanced quantum key distribution over atmospheric channels",
+      "authors": [
+        "Ivan D. Derkach",
+        "Vladyslav C. Usenko",
+        "Radim Filip"
+      ],
+      "year": 2020,
+      "venue": "New Journal of Physics",
+      "venue_abbr": "New Journal of Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum key distribution",
+        "squeezed states",
+        "continuous-variable quantum key distribution",
+        "atmospheric propagation",
+        "free-space quantum communication",
+        "atmospheric turbulence",
+        "signal modulation"
+      ],
+      "url": "https://doi.org/10.1088/1367-2630/ab7f8f",
+      "cited_by_count": 54,
+      "importance": 0.6638,
+      "score_basis": {
+        "topic_overlap": 0.386,
+        "shared_references": 8,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408911537",
+      "doi": "10.1038/s41534-025-01009-w",
+      "title": "Free-space continuous-variable quantum key distribution under high background noise",
+      "authors": [
+        "Xue-Tao Zheng",
+        "Qi-Fa Zhang",
+        "Jie Ling",
+        "Guang‐Can Guo",
+        "Zheng‐Fu Han"
+      ],
+      "year": 2025,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "free-space quantum communication",
+        "ambient light",
+        "Gaussian-modulated coherent states",
+        "secret key rate"
+      ],
+      "url": "https://doi.org/10.1038/s41534-025-01009-w",
+      "cited_by_count": 26,
+      "importance": 0.6555,
+      "score_basis": {
+        "topic_overlap": 0.457,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4283399886",
+      "doi": "10.1088/2058-9565/ac7ba1",
+      "title": "40 km fiber transmission of squeezed light measured with a real local oscillator",
+      "authors": [
+        "I Suleiman",
+        "Jens Arnbak Holbøll Nielsen",
+        "Xiaojie Guo",
+        "N Jain",
+        "Jonas Schou Neergaard-Nielsen",
+        "T Gehring",
+        "Ulrik L. Andersen"
+      ],
+      "year": 2022,
+      "venue": "Quantum Science and Technology",
+      "venue_abbr": "Quantum Sci. Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "squeezed light",
+        "homodyne detection",
+        "fiber transmission",
+        "phase noise",
+        "noise reduction",
+        "1550 nm",
+        "quantum communication",
+        "photonic quantum networks",
+        "FPGA"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/ac7ba1",
+      "cited_by_count": 30,
+      "importance": 0.6438,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 9,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386856483",
+      "doi": "10.1038/s41534-023-00763-z",
+      "title": "Experimental demonstration of multiparty quantum secret sharing and conference key agreement",
+      "authors": [
+        "Shuaishuai Liu",
+        "Zhenguo Lu",
+        "Pu Wang",
+        "Yan Tian",
+        "Xuyang Wang",
+        "Yongmin Li"
+      ],
+      "year": 2023,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum secret sharing",
+        "conference key agreement",
+        "continuous-variable quantum key distribution",
+        "heterodyne detection",
+        "key rate",
+        "single-mode fiber",
+        "practical security",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1038/s41534-023-00763-z",
+      "cited_by_count": 50,
+      "importance": 0.64,
+      "score_basis": {
+        "topic_overlap": 0.378,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2068622545",
+      "doi": "10.1103/physrevlett.93.170504",
+      "title": "Quantum Cryptography Without Switching",
+      "authors": [
+        "Christian Weedbrook",
+        "Andrew M. Lance",
+        "Warwick P. Bowen",
+        "Thomas Symul",
+        "Timothy C. Ralph",
+        "Ping Koy Lam"
+      ],
+      "year": 2004,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum key distribution",
+        "secret key rate",
+        "bandwidth",
+        "quadrature measurement",
+        "continuous-variable quantum cryptography"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.93.170504",
+      "cited_by_count": 535,
+      "importance": 0.6281,
+      "score_basis": {
+        "topic_overlap": 0.507,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2002758003",
+      "doi": "10.1103/physreva.61.010303",
+      "title": "Continuous variable quantum cryptography",
+      "authors": [
+        "Timothy C. Ralph"
+      ],
+      "year": 1999,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum cryptography",
+        "quantum key distribution",
+        "Einstein-Podolsky-Rosen correlations",
+        "phase modulation",
+        "amplitude modulation",
+        "coherent light beams"
+      ],
+      "url": "https://doi.org/10.1103/physreva.61.010303",
+      "cited_by_count": 644,
+      "importance": 0.6215,
+      "score_basis": {
+        "topic_overlap": 0.492,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4382679308",
+      "doi": "10.1103/physreva.107.062614",
+      "title": "Automatic phase compensation of a continuous-variable quantum-key-distribution system via deep learning",
+      "authors": [
+        "Zhe-Kun Zhang",
+        "Weiqi Liu",
+        "Jin Qi",
+        "Chen He",
+        "Peng Huang"
+      ],
+      "year": 2023,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "phase drift compensation",
+        "long short-term memory networks",
+        "deep learning",
+        "local oscillator phase noise",
+        "data reconstruction"
+      ],
+      "url": "https://doi.org/10.1103/physreva.107.062614",
+      "cited_by_count": 10,
+      "importance": 0.6182,
+      "score_basis": {
+        "topic_overlap": 0.374,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2996054165",
+      "doi": "10.1364/oe.27.037877",
+      "title": "Compact, low-threshold squeezed light source",
+      "authors": [
+        "J. Arnbak",
+        "C. S. Jacobsen",
+        "R. B. Andrade",
+        "X. Guo",
+        "J. S. Neergaard-Nielsen",
+        "U. L. Andersen",
+        "T. Gehring"
+      ],
+      "year": 2019,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "squeezed light",
+        "second harmonic generation",
+        "waveguides",
+        "phase noise"
+      ],
+      "url": "https://doi.org/10.1364/oe.27.037877",
+      "cited_by_count": 30,
+      "importance": 0.6124,
+      "score_basis": {
+        "topic_overlap": 0.294,
+        "shared_references": 4,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417267803",
+      "doi": "10.1103/mgj7-t6d3",
+      "title": "Continuous-variable quantum communication",
+      "authors": [
+        "Vladyslav C. Usenko",
+        "Antonio Acín",
+        "Romain Alléaume",
+        "Ulrik L. Andersen",
+        "Eleni Diamanti",
+        "Tobias Gehring",
+        "Adnan A. E. Hajomer",
+        "Florian Kanitschar",
+        "Christoph Pacher",
+        "Stefano Pirandola",
+        "Valerio Pruneri"
+      ],
+      "year": 2025,
+      "venue": "Reviews of Modern Physics",
+      "venue_abbr": "Reviews of Modern Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum communication",
+        "quantum key distribution",
+        "quantum teleportation",
+        "quantum entanglement"
+      ],
+      "url": "https://doi.org/10.1103/mgj7-t6d3",
+      "cited_by_count": 30,
+      "importance": 0.6112,
+      "score_basis": {
+        "topic_overlap": 0.358,
+        "shared_references": 29,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2089350264",
+      "doi": "10.1103/physreva.87.062329",
+      "title": "Quantum hacking of a continuous-variable quantum-key-distribution system using a wavelength attack",
+      "authors": [
+        "Jingzheng Huang",
+        "Christian Weedbrook",
+        "Zhen−Qiang Yin",
+        "Shuang Wang",
+        "Hong-Wei Li",
+        "Wei Chen",
+        "Guang‐Can Guo",
+        "Zheng‐Fu Han"
+      ],
+      "year": 2013,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "quantum hacking",
+        "heterodyne detection",
+        "reverse reconciliation",
+        "eavesdropping",
+        "wavelength filter",
+        "security proofs"
+      ],
+      "url": "https://doi.org/10.1103/physreva.87.062329",
+      "cited_by_count": 215,
+      "importance": 0.6091,
+      "score_basis": {
+        "topic_overlap": 0.465,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414874063",
+      "doi": "10.1103/7wrk-p6gl",
+      "title": "Experimental Efficient Source-Independent Quantum Secret Sharing against Coherent Attacks",
+      "authors": [
+        "Yi-Ran Xiao",
+        "Hua‐Lei Yin",
+        "Wen-Ji Hua",
+        "Xiaoyu Cao",
+        "Zeng-Bing Chen"
+      ],
+      "year": 2025,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multipartite entanglement",
+        "polarization-entangled photon pairs",
+        "coherent attacks",
+        "secret key rate",
+        "star topology",
+        "channel loss",
+        "quantum key distribution"
+      ],
+      "url": "https://doi.org/10.1103/7wrk-p6gl",
+      "cited_by_count": 17,
+      "importance": 0.6075,
+      "score_basis": {
+        "topic_overlap": 0.35,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4221087084",
+      "doi": "10.1103/physreva.105.032602",
+      "title": "Simple and loss-tolerant free-space quantum key distribution using a squeezed laser",
+      "authors": [
+        "Nedasadat Hosseinidehaj",
+        "Matthew S. Winnel",
+        "Timothy C. Ralph"
+      ],
+      "year": 2022,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "free-space quantum key distribution",
+        "self-homodyne detection",
+        "passive eavesdropper",
+        "composable security",
+        "atmospheric turbulence",
+        "loss tolerance",
+        "satellite-based quantum communication"
+      ],
+      "url": "https://doi.org/10.1103/physreva.105.032602",
+      "cited_by_count": 16,
+      "importance": 0.5978,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1996704313",
+      "doi": "10.1103/physrevlett.114.070501",
+      "title": "Composable Security Proof for Continuous-Variable Quantum Key Distribution with Coherent States",
+      "authors": [
+        "Anthony Leverrier"
+      ],
+      "year": 2015,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "coherent states",
+        "composable security",
+        "collective attacks",
+        "Holevo bound",
+        "secret key rate",
+        "de Finetti's theorem",
+        "post-selection",
+        "parameter estimation",
+        "continuous-variable entanglement"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.114.070501",
+      "cited_by_count": 382,
+      "importance": 0.5969,
+      "score_basis": {
+        "topic_overlap": 0.438,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2134063552",
+      "doi": "10.1103/physreva.63.052311",
+      "title": "Quantum distribution of Gaussian keys using squeezed states",
+      "authors": [
+        "Nicolas J. Cerf",
+        "M. Lévy",
+        "Gilles Van Assche"
+      ],
+      "year": 2001,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum key distribution",
+        "squeezed states",
+        "continuous-variable quantum cryptography",
+        "conjugate variables",
+        "individual attacks",
+        "eavesdropping"
+      ],
+      "url": "https://doi.org/10.1103/physreva.63.052311",
+      "cited_by_count": 403,
+      "importance": 0.5855,
+      "score_basis": {
+        "topic_overlap": 0.523,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413109739",
+      "doi": "10.1038/s41534-025-01085-y",
+      "title": "All-day free-space quantum key distribution with thermal source towards quantum secure communications for unmanned vehicles",
+      "authors": [
+        "Han-Wen Yin",
+        "Peng Huang",
+        "Zehao Zhou",
+        "Tao Wang",
+        "Xueqin Jiang",
+        "Guihua Zeng"
+      ],
+      "year": 2025,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum key distribution",
+        "heat source",
+        "free-space quantum communication",
+        "unmanned vehicles",
+        "quantum secure communication",
+        "digital signal processing",
+        "field experiments",
+        "key rate"
+      ],
+      "url": "https://doi.org/10.1038/s41534-025-01085-y",
+      "cited_by_count": 9,
+      "importance": 0.5743,
+      "score_basis": {
+        "topic_overlap": 0.387,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4225905307",
+      "doi": "10.1126/science.abo6213",
+      "title": "Few-cycle vacuum squeezing in nanophotonics",
+      "authors": [
+        "Rajveer Nehra",
+        "Ryoto Sekine",
+        "Luis M. Ledezma",
+        "Qiushi Guo",
+        "Robert M. Gray",
+        "Arkadev Roy",
+        "Alireza Marandi"
+      ],
+      "year": 2022,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "squeezed vacuum",
+        "nanophotonics",
+        "lithium niobate",
+        "all-optical measurement",
+        "quantum noise",
+        "terahertz bandwidth",
+        "quantum information processing"
+      ],
+      "url": "https://doi.org/10.1126/science.abo6213",
+      "cited_by_count": 159,
+      "importance": 0.558,
+      "score_basis": {
+        "topic_overlap": 0.329,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415355652",
+      "doi": "10.1364/opticaq.562545",
+      "title": "Demonstration of a squeezed light source on thin-film lithium niobate with modal phase matching",
+      "authors": [
+        "Tummas Napoleon Arge",
+        "Seongmin Jo",
+        "Huy Quang Nguyen",
+        "Francesco Lenzini",
+        "Emma Lomonte",
+        "Jens Arnbak Holbøll Nielsen",
+        "Renato R. Domeneguetti",
+        "Jonas Schou Neergaard-Nielsen",
+        "Wolfram H. P. Pernice",
+        "Tobias Gehring",
+        "Ulrik L. Andersen"
+      ],
+      "year": 2025,
+      "venue": "Optica Quantum",
+      "venue_abbr": "Optica Quantum",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "squeezed light",
+        "thin-film lithium niobate",
+        "modal phase matching",
+        "continuous-variable quantum information",
+        "integrated photonics",
+        "parametric down-conversion",
+        "shot noise reduction",
+        "grating couplers",
+        "electro-optic modulation"
+      ],
+      "url": "https://doi.org/10.1364/opticaq.562545",
+      "cited_by_count": 8,
+      "importance": 0.5515,
+      "score_basis": {
+        "topic_overlap": 0.337,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385617509",
+      "doi": "10.1038/s41467-023-40438-z",
+      "title": "Enhancing quantum teleportation efficacy with noiseless linear amplification",
+      "authors": [
+        "Jie Zhao",
+        "Hao Jeng",
+        "Lorcán O. Conlon",
+        "Spyros Tserkis",
+        "Biveen Shajilal",
+        "Kui Liu",
+        "Timothy C. Ralph",
+        "Syed M. Assad",
+        "Ping Koy Lam"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum teleportation",
+        "continuous-variable quantum teleportation",
+        "thermal decoherence",
+        "quantum entanglement"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-40438-z",
+      "cited_by_count": 52,
+      "importance": 0.5399,
+      "score_basis": {
+        "topic_overlap": 0.178,
+        "shared_references": 4,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4393952084",
+      "doi": "10.1038/s41534-024-00834-9",
+      "title": "Verifying the security of a continuous variable quantum communication protocol via quantum metrology",
+      "authors": [
+        "Lorcán O. Conlon",
+        "Biveen Shajilal",
+        "Angus Walsh",
+        "Jie Zhao",
+        "Jiří Janoušek",
+        "Ping Koy Lam",
+        "Syed M. Assad"
+      ],
+      "year": 2024,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "continuous-variable quantum communication",
+        "Cramer-Rao lower bound",
+        "quantum metrology",
+        "mutual information",
+        "quantum channel capacity"
+      ],
+      "url": "https://doi.org/10.1038/s41534-024-00834-9",
+      "cited_by_count": 9,
+      "importance": 0.5359,
+      "score_basis": {
+        "topic_overlap": 0.191,
+        "shared_references": 9,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1869599893",
+      "to": "W2089350264",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1869599893"
+        }
+      ]
+    },
+    {
+      "from": "W1869599893",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1869599893"
+        }
+      ]
+    },
+    {
+      "from": "W1982882865",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1982882865"
+        }
+      ]
+    },
+    {
+      "from": "W1982882865",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1982882865"
+        }
+      ]
+    },
+    {
+      "from": "W1982882865",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1982882865"
+        }
+      ]
+    },
+    {
+      "from": "W1982882865",
+      "to": "W2124815361",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1982882865"
+        }
+      ]
+    },
+    {
+      "from": "W1982882865",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1982882865"
+        }
+      ]
+    },
+    {
+      "from": "W1982882865",
+      "to": "W2155398473",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1982882865"
+        }
+      ]
+    },
+    {
+      "from": "W1996704313",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1996704313"
+        }
+      ]
+    },
+    {
+      "from": "W1996704313",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1996704313"
+        }
+      ]
+    },
+    {
+      "from": "W2068622545",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2068622545"
+        }
+      ]
+    },
+    {
+      "from": "W2068622545",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2068622545"
+        }
+      ]
+    },
+    {
+      "from": "W2089350264",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2089350264"
+        }
+      ]
+    },
+    {
+      "from": "W2089350264",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2089350264"
+        }
+      ]
+    },
+    {
+      "from": "W2105027281",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2105027281"
+        }
+      ]
+    },
+    {
+      "from": "W2105027281",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2105027281"
+        }
+      ]
+    },
+    {
+      "from": "W2124815361",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2124815361"
+        }
+      ]
+    },
+    {
+      "from": "W2124815361",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2124815361"
+        }
+      ]
+    },
+    {
+      "from": "W2124815361",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2124815361"
+        }
+      ]
+    },
+    {
+      "from": "W2124815361",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2124815361"
+        }
+      ]
+    },
+    {
+      "from": "W2124815361",
+      "to": "W2155398473",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2124815361"
+        }
+      ]
+    },
+    {
+      "from": "W2134063552",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2134063552"
+        }
+      ]
+    },
+    {
+      "from": "W2155398473",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2155398473"
+        }
+      ]
+    },
+    {
+      "from": "W2155398473",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2155398473"
+        }
+      ]
+    },
+    {
+      "from": "W2155398473",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2155398473"
+        }
+      ]
+    },
+    {
+      "from": "W2223035631",
+      "to": "W1982882865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2223035631"
+        }
+      ]
+    },
+    {
+      "from": "W2223035631",
+      "to": "W1996704313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2223035631"
+        }
+      ]
+    },
+    {
+      "from": "W2223035631",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2223035631"
+        }
+      ]
+    },
+    {
+      "from": "W2223035631",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2223035631"
+        }
+      ]
+    },
+    {
+      "from": "W2223035631",
+      "to": "W2089350264",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2223035631"
+        }
+      ]
+    },
+    {
+      "from": "W2223035631",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2223035631"
+        }
+      ]
+    },
+    {
+      "from": "W2223035631",
+      "to": "W2124815361",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2223035631"
+        }
+      ]
+    },
+    {
+      "from": "W2223035631",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2223035631"
+        }
+      ]
+    },
+    {
+      "from": "W2223035631",
+      "to": "W2155398473",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2223035631"
+        }
+      ]
+    },
+    {
+      "from": "W2884648624",
+      "to": "W1982882865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2884648624"
+        }
+      ]
+    },
+    {
+      "from": "W2884648624",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2884648624"
+        }
+      ]
+    },
+    {
+      "from": "W2884648624",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2884648624"
+        }
+      ]
+    },
+    {
+      "from": "W2884648624",
+      "to": "W2124815361",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2884648624"
+        }
+      ]
+    },
+    {
+      "from": "W2884648624",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2884648624"
+        }
+      ]
+    },
+    {
+      "from": "W2884648624",
+      "to": "W2155398473",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2884648624"
+        }
+      ]
+    },
+    {
+      "from": "W2884648624",
+      "to": "W2223035631",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2884648624"
+        }
+      ]
+    },
+    {
+      "from": "W2892850502",
+      "to": "W1869599893",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892850502"
+        }
+      ]
+    },
+    {
+      "from": "W2892850502",
+      "to": "W1982882865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892850502"
+        }
+      ]
+    },
+    {
+      "from": "W2892850502",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892850502"
+        }
+      ]
+    },
+    {
+      "from": "W2892850502",
+      "to": "W2124815361",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892850502"
+        }
+      ]
+    },
+    {
+      "from": "W2892850502",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892850502"
+        }
+      ]
+    },
+    {
+      "from": "W2892850502",
+      "to": "W2155398473",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892850502"
+        }
+      ]
+    },
+    {
+      "from": "W2892850502",
+      "to": "W2223035631",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892850502"
+        }
+      ]
+    },
+    {
+      "from": "W2892850502",
+      "to": "W2884648624",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892850502"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W1869599893",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W1982882865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W1996704313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W2089350264",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W2155398473",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W2223035631",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W2884648624",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2948602808",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2948602808"
+        }
+      ]
+    },
+    {
+      "from": "W2996054165",
+      "to": "W1869599893",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2996054165"
+        }
+      ]
+    },
+    {
+      "from": "W2996054165",
+      "to": "W1982882865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2996054165"
+        }
+      ]
+    },
+    {
+      "from": "W3000532170",
+      "to": "W1996704313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3000532170"
+        }
+      ]
+    },
+    {
+      "from": "W3000532170",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3000532170"
+        }
+      ]
+    },
+    {
+      "from": "W3000532170",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3000532170"
+        }
+      ]
+    },
+    {
+      "from": "W3000532170",
+      "to": "W2155398473",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3000532170"
+        }
+      ]
+    },
+    {
+      "from": "W3000532170",
+      "to": "W2223035631",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3000532170"
+        }
+      ]
+    },
+    {
+      "from": "W3006818553",
+      "to": "W1996704313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006818553"
+        }
+      ]
+    },
+    {
+      "from": "W3006818553",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006818553"
+        }
+      ]
+    },
+    {
+      "from": "W3006818553",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006818553"
+        }
+      ]
+    },
+    {
+      "from": "W3006818553",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3006818553"
+        }
+      ]
+    },
+    {
+      "from": "W3124600972",
+      "to": "W1982882865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3124600972"
+        }
+      ]
+    },
+    {
+      "from": "W3124600972",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3124600972"
+        }
+      ]
+    },
+    {
+      "from": "W3124600972",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3124600972"
+        }
+      ]
+    },
+    {
+      "from": "W3124600972",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3124600972"
+        }
+      ]
+    },
+    {
+      "from": "W3124600972",
+      "to": "W2884648624",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3124600972"
+        }
+      ]
+    },
+    {
+      "from": "W3124600972",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3124600972"
+        }
+      ]
+    },
+    {
+      "from": "W3154298282",
+      "to": "W1996704313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154298282"
+        }
+      ]
+    },
+    {
+      "from": "W3154298282",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154298282"
+        }
+      ]
+    },
+    {
+      "from": "W3154298282",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154298282"
+        }
+      ]
+    },
+    {
+      "from": "W3154298282",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154298282"
+        }
+      ]
+    },
+    {
+      "from": "W3154298282",
+      "to": "W2155398473",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154298282"
+        }
+      ]
+    },
+    {
+      "from": "W3154298282",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154298282"
+        }
+      ]
+    },
+    {
+      "from": "W3154298282",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154298282"
+        }
+      ]
+    },
+    {
+      "from": "W3154298282",
+      "to": "W3006818553",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154298282"
+        }
+      ]
+    },
+    {
+      "from": "W3205033705",
+      "to": "W1869599893",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3205033705"
+        }
+      ]
+    },
+    {
+      "from": "W3205033705",
+      "to": "W1996704313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3205033705"
+        }
+      ]
+    },
+    {
+      "from": "W3205033705",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3205033705"
+        }
+      ]
+    },
+    {
+      "from": "W3205033705",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3205033705"
+        }
+      ]
+    },
+    {
+      "from": "W3205033705",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3205033705"
+        }
+      ]
+    },
+    {
+      "from": "W3205033705",
+      "to": "W3006818553",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3205033705"
+        }
+      ]
+    },
+    {
+      "from": "W3205033705",
+      "to": "W4221146077",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3205033705"
+        }
+      ]
+    },
+    {
+      "from": "W4221087084",
+      "to": "W1996704313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221087084"
+        }
+      ]
+    },
+    {
+      "from": "W4221087084",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221087084"
+        }
+      ]
+    },
+    {
+      "from": "W4221087084",
+      "to": "W2223035631",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221087084"
+        }
+      ]
+    },
+    {
+      "from": "W4221087084",
+      "to": "W2884648624",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221087084"
+        }
+      ]
+    },
+    {
+      "from": "W4221087084",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221087084"
+        }
+      ]
+    },
+    {
+      "from": "W4221146077",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221146077"
+        }
+      ]
+    },
+    {
+      "from": "W4221146077",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221146077"
+        }
+      ]
+    },
+    {
+      "from": "W4221146077",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221146077"
+        }
+      ]
+    },
+    {
+      "from": "W4221146077",
+      "to": "W3006818553",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221146077"
+        }
+      ]
+    },
+    {
+      "from": "W4221146077",
+      "to": "W3205033705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221146077"
+        }
+      ]
+    },
+    {
+      "from": "W4283399886",
+      "to": "W1869599893",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283399886"
+        }
+      ]
+    },
+    {
+      "from": "W4283399886",
+      "to": "W1982882865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283399886"
+        }
+      ]
+    },
+    {
+      "from": "W4283399886",
+      "to": "W2089350264",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283399886"
+        }
+      ]
+    },
+    {
+      "from": "W4283399886",
+      "to": "W2884648624",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283399886"
+        }
+      ]
+    },
+    {
+      "from": "W4283399886",
+      "to": "W2996054165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283399886"
+        }
+      ]
+    },
+    {
+      "from": "W4283399886",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283399886"
+        }
+      ]
+    },
+    {
+      "from": "W4283399886",
+      "to": "W3006818553",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283399886"
+        }
+      ]
+    },
+    {
+      "from": "W4309647018",
+      "to": "W1869599893",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309647018"
+        }
+      ]
+    },
+    {
+      "from": "W4309647018",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309647018"
+        }
+      ]
+    },
+    {
+      "from": "W4309647018",
+      "to": "W2089350264",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309647018"
+        }
+      ]
+    },
+    {
+      "from": "W4309647018",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309647018"
+        }
+      ]
+    },
+    {
+      "from": "W4309647018",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309647018"
+        }
+      ]
+    },
+    {
+      "from": "W4309647018",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309647018"
+        }
+      ]
+    },
+    {
+      "from": "W4309647018",
+      "to": "W3006818553",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309647018"
+        }
+      ]
+    },
+    {
+      "from": "W4309647018",
+      "to": "W3205033705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309647018"
+        }
+      ]
+    },
+    {
+      "from": "W4360826146",
+      "to": "W1996704313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360826146"
+        }
+      ]
+    },
+    {
+      "from": "W4360826146",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360826146"
+        }
+      ]
+    },
+    {
+      "from": "W4360826146",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360826146"
+        }
+      ]
+    },
+    {
+      "from": "W4360826146",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360826146"
+        }
+      ]
+    },
+    {
+      "from": "W4360826146",
+      "to": "W4309647018",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360826146"
+        }
+      ]
+    },
+    {
+      "from": "W4382679308",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4382679308"
+        }
+      ]
+    },
+    {
+      "from": "W4382679308",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4382679308"
+        }
+      ]
+    },
+    {
+      "from": "W4382679308",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4382679308"
+        }
+      ]
+    },
+    {
+      "from": "W4382679308",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4382679308"
+        }
+      ]
+    },
+    {
+      "from": "W4382679308",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4382679308"
+        }
+      ]
+    },
+    {
+      "from": "W4382679308",
+      "to": "W3205033705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4382679308"
+        }
+      ]
+    },
+    {
+      "from": "W4385617509",
+      "to": "W1869599893",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385617509"
+        }
+      ]
+    },
+    {
+      "from": "W4386856483",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386856483"
+        }
+      ]
+    },
+    {
+      "from": "W4386856483",
+      "to": "W3205033705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386856483"
+        }
+      ]
+    },
+    {
+      "from": "W4390569759",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390569759"
+        }
+      ]
+    },
+    {
+      "from": "W4390569759",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390569759"
+        }
+      ]
+    },
+    {
+      "from": "W4390569759",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390569759"
+        }
+      ]
+    },
+    {
+      "from": "W4390569759",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390569759"
+        }
+      ]
+    },
+    {
+      "from": "W4390569759",
+      "to": "W3006818553",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390569759"
+        }
+      ]
+    },
+    {
+      "from": "W4390569759",
+      "to": "W3205033705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390569759"
+        }
+      ]
+    },
+    {
+      "from": "W4390569759",
+      "to": "W4309647018",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390569759"
+        }
+      ]
+    },
+    {
+      "from": "W4393952084",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393952084"
+        }
+      ]
+    },
+    {
+      "from": "W4393952084",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393952084"
+        }
+      ]
+    },
+    {
+      "from": "W4393952084",
+      "to": "W4385617509",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393952084"
+        }
+      ]
+    },
+    {
+      "from": "W4393952084",
+      "to": "W4390569759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393952084"
+        }
+      ]
+    },
+    {
+      "from": "W4401075641",
+      "to": "W1996704313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401075641"
+        }
+      ]
+    },
+    {
+      "from": "W4401075641",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401075641"
+        }
+      ]
+    },
+    {
+      "from": "W4401075641",
+      "to": "W2223035631",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401075641"
+        }
+      ]
+    },
+    {
+      "from": "W4401075641",
+      "to": "W3205033705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401075641"
+        }
+      ]
+    },
+    {
+      "from": "W4401075641",
+      "to": "W4309647018",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401075641"
+        }
+      ]
+    },
+    {
+      "from": "W4401075641",
+      "to": "W4360826146",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401075641"
+        }
+      ]
+    },
+    {
+      "from": "W4401075641",
+      "to": "W4390569759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401075641"
+        }
+      ]
+    },
+    {
+      "from": "W4408911537",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408911537"
+        }
+      ]
+    },
+    {
+      "from": "W4408911537",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408911537"
+        }
+      ]
+    },
+    {
+      "from": "W4408911537",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408911537"
+        }
+      ]
+    },
+    {
+      "from": "W4408911537",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408911537"
+        }
+      ]
+    },
+    {
+      "from": "W4408911537",
+      "to": "W4390569759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408911537"
+        }
+      ]
+    },
+    {
+      "from": "W4409197261",
+      "to": "W2089350264",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409197261"
+        }
+      ]
+    },
+    {
+      "from": "W4409197261",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409197261"
+        }
+      ]
+    },
+    {
+      "from": "W4409197261",
+      "to": "W4360826146",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409197261"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W1869599893",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W1982882865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W2089350264",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W2124815361",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W2155398473",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W2223035631",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W2884648624",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W2892850502",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W2996054165",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W3006818553",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W3205033705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W4221146077",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W4283399886",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W4390569759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4410050617",
+      "to": "W4401075641",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410050617"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W1869599893",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W1982882865",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W1996704313",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2089350264",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2124815361",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2155398473",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2223035631",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2884648624",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2892850502",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W2996054165",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W3006818553",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W3124600972",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W3154298282",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W3205033705",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4221087084",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4221146077",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4225905307",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4283399886",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4309647018",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4360826146",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4382679308",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4385617509",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4386856483",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4390569759",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4393952084",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4401075641",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4408911537",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4409197261",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4410050617",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4413109739",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4414874063",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4415203281",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4415355652",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4412209092",
+      "to": "W4417267803",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1126%2Fsciadv.aed4162"
+        }
+      ]
+    },
+    {
+      "from": "W4413109739",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413109739"
+        }
+      ]
+    },
+    {
+      "from": "W4413109739",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413109739"
+        }
+      ]
+    },
+    {
+      "from": "W4413109739",
+      "to": "W4390569759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413109739"
+        }
+      ]
+    },
+    {
+      "from": "W4414874063",
+      "to": "W4386856483",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414874063"
+        }
+      ]
+    },
+    {
+      "from": "W4415203281",
+      "to": "W1982882865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415203281"
+        }
+      ]
+    },
+    {
+      "from": "W4415203281",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415203281"
+        }
+      ]
+    },
+    {
+      "from": "W4415203281",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415203281"
+        }
+      ]
+    },
+    {
+      "from": "W4415203281",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415203281"
+        }
+      ]
+    },
+    {
+      "from": "W4415203281",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415203281"
+        }
+      ]
+    },
+    {
+      "from": "W4415203281",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415203281"
+        }
+      ]
+    },
+    {
+      "from": "W4415203281",
+      "to": "W3205033705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415203281"
+        }
+      ]
+    },
+    {
+      "from": "W4415203281",
+      "to": "W4385617509",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415203281"
+        }
+      ]
+    },
+    {
+      "from": "W4415203281",
+      "to": "W4390569759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415203281"
+        }
+      ]
+    },
+    {
+      "from": "W4415355652",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415355652"
+        }
+      ]
+    },
+    {
+      "from": "W4415355652",
+      "to": "W4225905307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415355652"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W1869599893",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W1982882865",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W1996704313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W2002758003",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W2068622545",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W2089350264",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W2105027281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W2124815361",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W2134063552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W2155398473",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W2223035631",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W2884648624",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W2892850502",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W2948602808",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W3000532170",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W3006818553",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W3154298282",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W3205033705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W4221146077",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W4283399886",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W4309647018",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W4360826146",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W4385617509",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W4390569759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    },
+    {
+      "from": "W4417267803",
+      "to": "W4401075641",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417267803"
+        }
+      ]
+    }
+  ]
 }

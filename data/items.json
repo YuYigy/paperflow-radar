@@ -1,6 +1,308 @@
 [
   {
     "schema_version": 1,
+    "record_id": "fc60a49b-1cca-4d5d-be94-ab2ac3483b39",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Stable tracking of turbulence-disturbed laser communication spots using a time-series state fusion network",
+    "authors": [
+      "Xiangyu Feng",
+      "Haifeng Yao",
+      "Youyi Wang",
+      "Liang Tang",
+      "Kexin Miao",
+      "Weihao Wang",
+      "Tong Zhang",
+      "Wenxuan Cheng",
+      "Zhi Liu",
+      "Jie Cao",
+      "Qun Hao",
+      "Keyan Dong",
+      "Huilin Jiang"
+    ],
+    "doi": "10.1364/oe.615362",
+    "venue": "Optics Express",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "20fe917b3f1c57bc",
+      "name": "Optics Express",
+      "original_name": "Optics Express",
+      "abbr": "OE",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Optics Express",
+        "OE",
+        "Opt. Express"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": "T2",
+      "rank_label": "CIE T2 · 2023",
+      "rank_order": 2,
+      "focus_tier": "P2",
+      "focus_label": "知流 P2 · 领域核心",
+      "focus_order": 2,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "院规待核 · 2020",
+      "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-02",
+    "topics": [
+      "光源与通用光子器件"
+    ],
+    "summary_zh": "本文提出时序状态融合自适应跟踪控制网络 TATC-Net，联合处理连续光斑图像、帧间差分和结构化运动状态，执行光斑定位、运动趋势估计、观测可靠性评估、退化程度判别及控制修正预测。摘要报告，碎裂光斑连续运动序列的长序列跟踪实验中，平均指向误差为0.91 μrad，最大指向误差持续低于4 μrad；四种湍流等级的闭环实验中，平均指向误差为7.5 μrad，均方根误差为8.57 μrad，相较基线方法呈现更窄的误差分布和更少的瞬态尖峰。",
+    "title_zh": "时序状态融合网络改善湍流激光通信光斑跟踪",
+    "missing_evidence": [
+      "全文及实验装置、湍流生成方式与等级定义，尚不能确认是否开展真实大气链路或机载验证。",
+      "基线配置、数据划分、计算延迟及统计重复性，尚不能独立评估泛化能力和实时性能。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/oe.615362",
+        "text": "本文提出时序状态融合自适应跟踪控制网络 TATC-Net，联合处理连续光斑图像、帧间差分和结构化运动状态，执行光斑定位、运动趋势估计、观测可靠性评估、退化程度判别及控制修正预测。摘要报告，碎裂光斑连续运动序列的长序列跟踪实验中，平均指向误差为0.91 μrad，最大指向误差持续低于4 μrad；四种湍流等级的闭环实验中，平均指向误差为7.5 μrad，均方根误差为8.57 μrad，相较基线方法呈现更窄的误差分布和更少的瞬态尖峰。"
+      }
+    ],
+    "ai_inference": [
+      "可考虑将时序视觉信息与运动状态的可靠性融合用于自由空间光通信指向控制，重点检验其对碎裂光斑引发的瞬态误差和尾部误差的抑制作用。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/oe.615362",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-03T00:30:12.020490+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "fc60a49b-1cca-4d5d-be94-ab2ac3483b39",
+      "work_key": "doi:10.1364/oe.615362",
+      "identifiers": {
+        "doi": "10.1364/oe.615362",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": [
+          "1094-4087"
+        ]
+      },
+      "bibliography": {
+        "title": "Stable tracking of turbulence-disturbed laser communication spots using a time-series state fusion network",
+        "type": "journal-article",
+        "venue_id": "20fe917b3f1c57bc",
+        "venue_name": "Optics Express",
+        "venue_abbr": "OE",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": "34",
+        "issue": "23",
+        "pages": "43303",
+        "article_number": null,
+        "publisher": "Optica Publishing Group",
+        "language": "en",
+        "published_online": "2026-11-02",
+        "published_print": "2026-11-16"
+      },
+      "authors": [
+        "Xiangyu Feng",
+        "Haifeng Yao",
+        "Youyi Wang",
+        "Liang Tang",
+        "Kexin Miao",
+        "Weihao Wang",
+        "Tong Zhang",
+        "Wenxuan Cheng",
+        "Zhi Liu",
+        "Jie Cao",
+        "Qun Hao",
+        "Keyan Dong",
+        "Huilin Jiang"
+      ],
+      "first_author": "Xiangyu Feng",
+      "author_count": 13,
+      "contributors": [
+        {
+          "name": "Xiangyu Feng",
+          "orcid": null,
+          "affiliations": [
+            "Changchun University of Science and Technology"
+          ]
+        },
+        {
+          "name": "Haifeng Yao",
+          "orcid": "https://orcid.org/0000-0002-3425-4696",
+          "affiliations": [
+            "Changchun University of Science and Technology",
+            "Yangtze Delta Region Academy of Beijing Institute of Technology",
+            "Beijing Institute of Technology"
+          ]
+        },
+        {
+          "name": "Youyi Wang",
+          "orcid": null,
+          "affiliations": [
+            "the Beijing Institute of Control Engineering, National Key Laboratory of Space Intelligence Control"
+          ]
+        },
+        {
+          "name": "Liang Tang",
+          "orcid": null,
+          "affiliations": [
+            "the Beijing Institute of Control Engineering, National Key Laboratory of Space Intelligence Control"
+          ]
+        },
+        {
+          "name": "Kexin Miao",
+          "orcid": null,
+          "affiliations": [
+            "Changchun University of Science and Technology"
+          ]
+        },
+        {
+          "name": "Weihao Wang",
+          "orcid": null,
+          "affiliations": [
+            "Changchun University of Science and Technology"
+          ]
+        },
+        {
+          "name": "Tong Zhang",
+          "orcid": null,
+          "affiliations": [
+            "Changchun University of Science and Technology"
+          ]
+        },
+        {
+          "name": "Wenxuan Cheng",
+          "orcid": "https://orcid.org/0009-0004-3447-2855",
+          "affiliations": [
+            "Changchun University of Science and Technology"
+          ]
+        },
+        {
+          "name": "Zhi Liu",
+          "orcid": null,
+          "affiliations": [
+            "Changchun University of Science and Technology"
+          ]
+        },
+        {
+          "name": "Jie Cao",
+          "orcid": null,
+          "affiliations": [
+            "Changchun University of Science and Technology",
+            "Yangtze Delta Region Academy of Beijing Institute of Technology",
+            "Beijing Institute of Technology"
+          ]
+        },
+        {
+          "name": "Qun Hao",
+          "orcid": null,
+          "affiliations": [
+            "Changchun University of Science and Technology"
+          ]
+        },
+        {
+          "name": "Keyan Dong",
+          "orcid": null,
+          "affiliations": [
+            "Changchun University of Science and Technology"
+          ]
+        },
+        {
+          "name": "Huilin Jiang",
+          "orcid": null,
+          "affiliations": [
+            "Changchun University of Science and Technology",
+            "Yangtze Delta Region Academy of Beijing Institute of Technology",
+            "Beijing Institute of Technology"
+          ]
+        }
+      ],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [
+          "激光器"
+        ],
+        "directions": [
+          "光源与通用光子器件"
+        ],
+        "direction_basis": "title-session-rule",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": "T2",
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "unverified",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": "P2"
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "direct",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": [
+          {
+            "start": "2026-11-02",
+            "url": "https://doi.org/10.1364/OA_License_v2#VOR-OA",
+            "version": "vor"
+          },
+          {
+            "start": "2026-11-02",
+            "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
+            "version": "tdm"
+          }
+        ]
+      },
+      "citation_counts": {
+        "references": 40,
+        "cited_by": 0,
+        "source": "Crossref",
+        "observed_at": "2026-11-03T00:21:33.866842+00:00"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1364/oe.615362",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": "https://api.crossref.org/works/10.1364/oe.615362",
+        "metadata_observed_at": "2026-11-03T00:21:33.866842+00:00",
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
     "record_id": "f2e73262-7a2a-4afc-81e2-910fe4ec1d8d",
     "revision": 2,
     "is_demo": false,
@@ -173,6 +475,280 @@
         "normalizer": "paper-attributes-v1",
         "metadata_source": null,
         "metadata_observed_at": null,
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "1e7264b0-cb11-4d86-911b-c18952147afb",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "A zero-power biasing approach for Mach–Zehnder modulators using phase-change materials",
+    "authors": [
+      "Ruiqing He",
+      "Yujun Liu",
+      "Dongyue Sun",
+      "Ruitao Ma",
+      "Zexu Wang",
+      "Hanwen Li",
+      "Yaoxin Bao",
+      "Ming Zhang",
+      "Chenlei Li",
+      "Huan Li",
+      "Daoxin Dai"
+    ],
+    "doi": "10.1063/5.0343190",
+    "venue": "APL Photonics",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "6bc108eeb12c617e",
+      "name": "APL Photonics",
+      "original_name": "APL Photonics",
+      "abbr": "APL Photonics",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "APL Photonics"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": "T1",
+      "rank_label": "CIE T1 · 2023",
+      "rank_order": 1,
+      "focus_tier": "P2",
+      "focus_label": "知流 P2 · 领域核心",
+      "focus_order": 2,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "院规待核 · 2020",
+      "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-01",
+    "topics": [
+      "通信光子器件与集成"
+    ],
+    "summary_zh": "该研究将低损耗相变材料 Sb2Se3 集成到薄膜铌酸锂马赫–曾德尔调制器的移相段，通过激光诱导结晶编程材料相态，实现非易失相位校准与无需持续供电维持的偏置。摘要报告了 120 Gbps 开关键控和 160 Gbps 四电平脉冲幅度调制演示。",
+    "title_zh": "相变材料实现薄膜铌酸锂调制器零静态功耗偏置",
+    "missing_evidence": [
+      "仅提供摘要，缺少全文及实验条件，无法核查高速演示的误码率、链路配置与测试细节。",
+      "未提供相态编程能耗、偏置保持时间、重复编程耐久性及温度漂移数据。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1063/5.0343190",
+        "text": "该研究将低损耗相变材料 Sb2Se3 集成到薄膜铌酸锂马赫–曾德尔调制器的移相段，通过激光诱导结晶编程材料相态，实现非易失相位校准与无需持续供电维持的偏置。摘要报告了 120 Gbps 开关键控和 160 Gbps 四电平脉冲幅度调制演示。"
+      }
+    ],
+    "ai_inference": [
+      "非易失相位校准可为降低光互连调制器的静态偏置功耗提供研究思路；其系统价值仍需结合编程开销和长期稳定性评估。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1063/5.0343190",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": "C",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-03T00:34:22.505034+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "1e7264b0-cb11-4d86-911b-c18952147afb",
+      "work_key": "doi:10.1063/5.0343190",
+      "identifiers": {
+        "doi": "10.1063/5.0343190",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": [
+          "2378-0967"
+        ]
+      },
+      "bibliography": {
+        "title": "A zero-power biasing approach for Mach–Zehnder modulators using phase-change materials",
+        "type": "journal-article",
+        "venue_id": "6bc108eeb12c617e",
+        "venue_name": "APL Photonics",
+        "venue_abbr": "APL Photonics",
+        "date": "2026-11-01",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": "11",
+        "issue": "11",
+        "pages": null,
+        "article_number": "116103",
+        "publisher": "AIP Publishing",
+        "language": "en",
+        "published_online": "2026-11-02",
+        "published_print": "2026-11-01"
+      },
+      "authors": [
+        "Ruiqing He",
+        "Yujun Liu",
+        "Dongyue Sun",
+        "Ruitao Ma",
+        "Zexu Wang",
+        "Hanwen Li",
+        "Yaoxin Bao",
+        "Ming Zhang",
+        "Chenlei Li",
+        "Huan Li",
+        "Daoxin Dai"
+      ],
+      "first_author": "Ruiqing He",
+      "author_count": 11,
+      "contributors": [
+        {
+          "name": "Ruiqing He",
+          "orcid": "https://orcid.org/0009-0005-0800-3016",
+          "affiliations": [
+            "State Key Laboratory of Extreme Photonics and Instrumentation, Center for Optical & Electromagnetic Research, College of Optical Science and Engineering, International Research Center for Advanced Photonics, Zhejiang University 1 , Zijingang Campus, Hangzhou 310058,"
+          ]
+        },
+        {
+          "name": "Yujun Liu",
+          "orcid": "https://orcid.org/0009-0005-6614-604X",
+          "affiliations": [
+            "State Key Laboratory of Extreme Photonics and Instrumentation, Center for Optical & Electromagnetic Research, College of Optical Science and Engineering, International Research Center for Advanced Photonics, Zhejiang University 1 , Zijingang Campus, Hangzhou 310058,"
+          ]
+        },
+        {
+          "name": "Dongyue Sun",
+          "orcid": "https://orcid.org/0009-0003-6686-1700",
+          "affiliations": [
+            "State Key Laboratory of Extreme Photonics and Instrumentation, Center for Optical & Electromagnetic Research, College of Optical Science and Engineering, International Research Center for Advanced Photonics, Zhejiang University 1 , Zijingang Campus, Hangzhou 310058,"
+          ]
+        },
+        {
+          "name": "Ruitao Ma",
+          "orcid": "https://orcid.org/0009-0006-7446-4985",
+          "affiliations": [
+            "State Key Laboratory of Extreme Photonics and Instrumentation, Center for Optical & Electromagnetic Research, College of Optical Science and Engineering, International Research Center for Advanced Photonics, Zhejiang University 1 , Zijingang Campus, Hangzhou 310058,"
+          ]
+        },
+        {
+          "name": "Zexu Wang",
+          "orcid": null,
+          "affiliations": [
+            "State Key Laboratory of Extreme Photonics and Instrumentation, Center for Optical & Electromagnetic Research, College of Optical Science and Engineering, International Research Center for Advanced Photonics, Zhejiang University 1 , Zijingang Campus, Hangzhou 310058,"
+          ]
+        },
+        {
+          "name": "Hanwen Li",
+          "orcid": "https://orcid.org/0009-0001-6834-6783",
+          "affiliations": [
+            "State Key Laboratory of Extreme Photonics and Instrumentation, Center for Optical & Electromagnetic Research, College of Optical Science and Engineering, International Research Center for Advanced Photonics, Zhejiang University 1 , Zijingang Campus, Hangzhou 310058,"
+          ]
+        },
+        {
+          "name": "Yaoxin Bao",
+          "orcid": "https://orcid.org/0009-0005-0371-0950",
+          "affiliations": [
+            "State Key Laboratory of Extreme Photonics and Instrumentation, Center for Optical & Electromagnetic Research, College of Optical Science and Engineering, International Research Center for Advanced Photonics, Zhejiang University 1 , Zijingang Campus, Hangzhou 310058,"
+          ]
+        },
+        {
+          "name": "Ming Zhang",
+          "orcid": "https://orcid.org/0009-0008-0384-2541",
+          "affiliations": [
+            "Ningbo Global Innovation Center, Zhejiang University 2 , Ningbo 315100,"
+          ]
+        },
+        {
+          "name": "Chenlei Li",
+          "orcid": "https://orcid.org/0000-0002-6759-3846",
+          "affiliations": [
+            "State Key Laboratory of Extreme Photonics and Instrumentation, Center for Optical & Electromagnetic Research, College of Optical Science and Engineering, International Research Center for Advanced Photonics, Zhejiang University 1 , Zijingang Campus, Hangzhou 310058,"
+          ]
+        },
+        {
+          "name": "Huan Li",
+          "orcid": "https://orcid.org/0000-0002-8749-0385",
+          "affiliations": [
+            "State Key Laboratory of Extreme Photonics and Instrumentation, Center for Optical & Electromagnetic Research, College of Optical Science and Engineering, International Research Center for Advanced Photonics, Zhejiang University 1 , Zijingang Campus, Hangzhou 310058,",
+            "Jiaxing Key Laboratory of Photonic Sensing & Intelligent Imaging, Intelligent Optics & Photonics Research Center, Jiaxing Research Institute Zhejiang University 3 , Jiaxing 314000,"
+          ]
+        },
+        {
+          "name": "Daoxin Dai",
+          "orcid": "https://orcid.org/0000-0002-2769-3009",
+          "affiliations": [
+            "State Key Laboratory of Extreme Photonics and Instrumentation, Center for Optical & Electromagnetic Research, College of Optical Science and Engineering, International Research Center for Advanced Photonics, Zhejiang University 1 , Zijingang Campus, Hangzhou 310058,",
+            "Ningbo Global Innovation Center, Zhejiang University 2 , Ningbo 315100,",
+            "Jiaxing Key Laboratory of Photonic Sensing & Intelligent Imaging, Intelligent Optics & Photonics Research Center, Jiaxing Research Institute Zhejiang University 3 , Jiaxing 314000,"
+          ]
+        }
+      ],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [
+          "调制器"
+        ],
+        "directions": [
+          "通信光子器件与集成"
+        ],
+        "direction_basis": "source-classification",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": "T1",
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "unverified",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": "P2"
+      },
+      "reading": {
+        "priority": "C",
+        "relevance": "enabling",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": [
+          {
+            "start": "2026-10-31",
+            "url": "https://creativecommons.org/licenses/by/4.0/",
+            "version": "vor"
+          }
+        ]
+      },
+      "citation_counts": {
+        "references": 38,
+        "cited_by": 0,
+        "source": "Crossref",
+        "observed_at": "2026-11-03T00:22:25.757180+00:00"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1063/5.0343190",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": "https://api.crossref.org/works/10.1063/5.0343190",
+        "metadata_observed_at": "2026-11-03T00:22:25.757180+00:00",
         "missing": [
           "author_keywords",
           "open_access"
@@ -1316,6 +1892,180 @@
         "metadata_observed_at": null,
         "missing": [
           "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "b9c93664-6b8b-4cfe-8341-b66b01aaf821",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "preprint",
+    "title": "Intensity-Domain Demultiplexing of Orbital Angular Momentum Channels for Optical Communication",
+    "authors": [
+      "Junsu Kim",
+      "Jiwon Jung",
+      "Hyunchae Chun",
+      "Seung Ryong Park"
+    ],
+    "doi": null,
+    "venue": "arXiv",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "43ef3159143b717e",
+      "name": "arXiv",
+      "original_name": "arXiv",
+      "abbr": "arXiv",
+      "kind": "preprint",
+      "match_status": "platform",
+      "aliases": [
+        "arXiv",
+        "arXiv"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "not-applicable",
+      "hust_label": "不适用院规等级",
+      "hust_note": "",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-10-30",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "该预印本摘要报告一种强度域OAM解复用方法：以花瓣图样的方位谐波为基底，通过对方位强度分布作傅里叶变换提取各信道，无需光栅或模式分选器。花瓣图样由单个q波片产生的矢量涡旋光束经线偏振投影形成。摘要报告在515 nm下采用16位置圆形光接收阵列的双信道系统，总速率达到5.2 Gb/s、每信道2.6 Gb/s，并达到前向纠错阈值以下的误码表现；所用光接收器带宽为1.4 GHz。",
+    "title_zh": "利用方位强度傅里叶分析解复用OAM光通信信道",
+    "missing_evidence": [
+      "未提供正文，无法核查实验装置、误码率曲线及前向纠错阈值定义。",
+      "摘要未说明传输距离、信道串扰、链路损耗及更多信道下的性能。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://arxiv.org/abs/2610.41259v1",
+        "text": "该预印本摘要报告一种强度域OAM解复用方法：以花瓣图样的方位谐波为基底，通过对方位强度分布作傅里叶变换提取各信道，无需光栅或模式分选器。花瓣图样由单个q波片产生的矢量涡旋光束经线偏振投影形成。摘要报告在515 nm下采用16位置圆形光接收阵列的双信道系统，总速率达到5.2 Gb/s、每信道2.6 Gb/s，并达到前向纠错阈值以下的误码表现；所用光接收器带宽为1.4 GHz。"
+      }
+    ],
+    "ai_inference": [
+      "该方法可启发利用空间强度采样与数字傅里叶处理实现OAM接收解复用；更多信道及其他波段的适用性仍需验证。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract+pdf-link",
+    "source_url": "https://arxiv.org/abs/2610.41259v1",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-03T00:40:48.577124+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "b9c93664-6b8b-4cfe-8341-b66b01aaf821",
+      "work_key": "arxiv:2610.41259",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "2610.41259",
+        "paper_code": null,
+        "issn": []
+      },
+      "bibliography": {
+        "title": "Intensity-Domain Demultiplexing of Orbital Angular Momentum Channels for Optical Communication",
+        "type": "preprint",
+        "venue_id": "43ef3159143b717e",
+        "venue_name": "arXiv",
+        "venue_abbr": "arXiv",
+        "date": "2026-10-30",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": null,
+        "publisher": null,
+        "language": null,
+        "published_online": null,
+        "published_print": null
+      },
+      "authors": [
+        "Junsu Kim",
+        "Jiwon Jung",
+        "Hyunchae Chun",
+        "Seung Ryong Park"
+      ],
+      "first_author": "Junsu Kim",
+      "author_count": 4,
+      "contributors": [],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [
+          "physics.optics",
+          "physics.app-ph"
+        ],
+        "topic_tags": [],
+        "directions": [
+          "待分类"
+        ],
+        "direction_basis": "unclassified",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "not-applicable",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": null
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "direct",
+        "evidence": "abstract+pdf-link"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": null,
+        "cited_by": null,
+        "source": null,
+        "observed_at": null
+      },
+      "provenance": {
+        "source_url": "https://arxiv.org/abs/2610.41259v1",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": null,
+        "metadata_observed_at": null,
+        "missing": [
+          "author_keywords",
+          "doi",
           "open_access"
         ]
       }
@@ -2558,6 +3308,176 @@
   },
   {
     "schema_version": 1,
+    "record_id": "cf765836-f9f4-46e6-8153-e989acf6c853",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "preprint",
+    "title": "Optical Quantum Memory Processing for Quantum Hashing",
+    "authors": [
+      "S. A. Moiseev",
+      "M. M. Minnegaliev"
+    ],
+    "doi": null,
+    "venue": "arXiv",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "43ef3159143b717e",
+      "name": "arXiv",
+      "original_name": "arXiv",
+      "abbr": "arXiv",
+      "kind": "preprint",
+      "match_status": "platform",
+      "aliases": [
+        "arXiv",
+        "arXiv"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "not-applicable",
+      "hust_label": "不适用院规等级",
+      "hust_note": "",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-10-29",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "该预印本提出利用可编程光子回波量子存储器处理多时间仓光子量子比特的高维推广态（qudit），实现基于量子哈希的发送者验证。发送端将单个已存储光子波包转换为可编程时间仓态；接收端依据相位编码，将各时间仓的相干响应依次累积于自旋相干中，并映射至单一输出模式进行验证。作者的分析认为，已有实验验证的光学量子存储器参数可支持该架构的原理验证实现。",
+    "title_zh": "利用光学量子存储器实现量子哈希验证的方案",
+    "missing_evidence": [
+      "未提供全文，无法核查模型假设、存储器参数要求及验证性能分析。",
+      "摘要未报告所提完整架构的实验实现。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://arxiv.org/abs/2610.40904v1",
+        "text": "该预印本提出利用可编程光子回波量子存储器处理多时间仓光子量子比特的高维推广态（qudit），实现基于量子哈希的发送者验证。发送端将单个已存储光子波包转换为可编程时间仓态；接收端依据相位编码，将各时间仓的相干响应依次累积于自旋相干中，并映射至单一输出模式进行验证。作者的分析认为，已有实验验证的光学量子存储器参数可支持该架构的原理验证实现。"
+      }
+    ],
+    "ai_inference": [
+      "可探索量子存储器在量子通信网络中兼任发送者验证处理单元的可行性。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract+pdf-link",
+    "source_url": "https://arxiv.org/abs/2610.40904v1",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-03T00:42:57.818493+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "cf765836-f9f4-46e6-8153-e989acf6c853",
+      "work_key": "arxiv:2610.40904",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "2610.40904",
+        "paper_code": null,
+        "issn": []
+      },
+      "bibliography": {
+        "title": "Optical Quantum Memory Processing for Quantum Hashing",
+        "type": "preprint",
+        "venue_id": "43ef3159143b717e",
+        "venue_name": "arXiv",
+        "venue_abbr": "arXiv",
+        "date": "2026-10-29",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": null,
+        "publisher": null,
+        "language": null,
+        "published_online": null,
+        "published_print": null
+      },
+      "authors": [
+        "S. A. Moiseev",
+        "M. M. Minnegaliev"
+      ],
+      "first_author": "S. A. Moiseev",
+      "author_count": 2,
+      "contributors": [],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [
+          "quant-ph",
+          "physics.optics"
+        ],
+        "topic_tags": [],
+        "directions": [
+          "待分类"
+        ],
+        "direction_basis": "unclassified",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "not-applicable",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": null
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "enabling",
+        "evidence": "abstract+pdf-link"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": null,
+        "cited_by": null,
+        "source": null,
+        "observed_at": null
+      },
+      "provenance": {
+        "source_url": "https://arxiv.org/abs/2610.40904v1",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": null,
+        "metadata_observed_at": null,
+        "missing": [
+          "author_keywords",
+          "doi",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
     "record_id": "cc2593cc-bc3f-4d59-af5c-506f9435081c",
     "revision": 2,
     "is_demo": false,
@@ -2787,7 +3707,7 @@
   {
     "schema_version": 1,
     "record_id": "c53b28de-3fbd-42d6-ad55-93575a8df3b4",
-    "revision": 2,
+    "revision": 4,
     "is_demo": false,
     "kind": "paper",
     "title": "Highly Reconfigurable Microwave Photonic All-Pass Filters based on Optical Microcombs",
@@ -2800,7 +3720,7 @@
       "Guanghui Ren",
       "Thach G. Nguyen",
       "Bill Corcoran",
-      "Sai Tak Chu",
+      "Sai T. Chu",
       "Brent E. Little",
       "Allison Kealy",
       "Roberto Morandotti",
@@ -2850,30 +3770,30 @@
     "topics": [
       "微波与太赫兹光子学"
     ],
-    "summary_zh": "该研究提出并实验演示了基于光学微梳驱动的有限冲激响应横向滤波系统的微波光子全通滤波器。一阶与二阶滤波器的最大幅度变化分别低至约1.95 dB和2.01 dB，最大群时延分别高至约580 ps和1740 ps。通过编程抽头系数、无需更改硬件，实验实现了滤波阶数、群时延、中心频率及多个参数独立控制的可重构性。",
-    "title_zh": "微梳驱动的可重构微波光子全通滤波器",
+    "summary_zh": "研究提出并实验演示了基于光学微梳驱动有限冲激响应横向滤波系统的微波光子全通滤波器。一阶滤波器的最大幅度变化最低约为1.95 dB，最大群时延最高约为580 ps；二阶分别约为2.01 dB和1740 ps。通过编程抽头系数、无需更换硬件，实验展示了滤波阶数、群时延和中心频率的可重构性，以及多个参数的独立控制。",
+    "title_zh": "微梳驱动的高可重构微波光子全通滤波器",
     "missing_evidence": [
-      "未提供全文，无法核查实验配置、工作带宽、测量误差及长期稳定性。",
-      "摘要未说明最低幅度变化与最高群时延是否在同一配置下取得。"
+      "未提供正文，无法核查实验配置、工作带宽、测量不确定度及不同指标是否在同一配置下取得。",
+      "摘要未提供通信链路性能或系统集成验证。"
     ],
     "facts": [
       {
         "locator": "abstract",
         "source_url": "https://doi.org/10.1021/acsphotonics.6c01643",
-        "text": "该研究提出并实验演示了基于光学微梳驱动的有限冲激响应横向滤波系统的微波光子全通滤波器。一阶与二阶滤波器的最大幅度变化分别低至约1.95 dB和2.01 dB，最大群时延分别高至约580 ps和1740 ps。通过编程抽头系数、无需更改硬件，实验实现了滤波阶数、群时延、中心频率及多个参数独立控制的可重构性。"
+        "text": "研究提出并实验演示了基于光学微梳驱动有限冲激响应横向滤波系统的微波光子全通滤波器。一阶滤波器的最大幅度变化最低约为1.95 dB，最大群时延最高约为580 ps；二阶分别约为2.01 dB和1740 ps。通过编程抽头系数、无需更换硬件，实验展示了滤波阶数、群时延和中心频率的可重构性，以及多个参数的独立控制。"
       }
     ],
     "ai_inference": [
-      "该方案可为光通信相关微波光子信号处理中的可编程相位与群时延控制提供参考；摘要未展示通信链路中的性能收益。"
+      "可为光通信相关微波光子信号处理中的可编程相位与群时延控制提供参考；其在具体通信链路中的收益仍需验证。"
     ],
     "metrics": [],
-    "evidence_status": "abstract-only",
+    "evidence_status": "abstract+pdf-link",
     "source_url": "https://doi.org/10.1021/acsphotonics.6c01643",
     "related_ids": [],
     "relevance_class": "enabling",
     "reading_level": "B",
     "news_priority": null,
-    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-31T00:38:32.417636+00:00",
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-03T00:45:04.639850+00:00",
     "attributes": {
       "schema": "paperflow.paper-attributes/v1",
       "id": "c53b28de-3fbd-42d6-ad55-93575a8df3b4",
@@ -2913,7 +3833,7 @@
         "Guanghui Ren",
         "Thach G. Nguyen",
         "Bill Corcoran",
-        "Sai Tak Chu",
+        "Sai T. Chu",
         "Brent E. Little",
         "Allison Kealy",
         "Roberto Morandotti",
@@ -2927,8 +3847,8 @@
         "author_keywords": [],
         "source_subjects": [
           "Advanced Photonic Communication Systems",
-          "Neural Networks and Reservoir Computing",
-          "Advanced Fiber Laser Technologies"
+          "Advanced Fiber Laser Technologies",
+          "Microwave Engineering and Waveguides"
         ],
         "topic_tags": [
           "光频梳",
@@ -2958,7 +3878,7 @@
       "reading": {
         "priority": "B",
         "relevance": "enabling",
-        "evidence": "abstract-only"
+        "evidence": "abstract+pdf-link"
       },
       "access": {
         "oa_status": "unknown",
@@ -9268,7 +10188,7 @@
   {
     "schema_version": 1,
     "record_id": "b1889984-7369-477f-9486-6a1d2219d760",
-    "revision": 2,
+    "revision": 4,
     "is_demo": false,
     "kind": "preprint",
     "title": "Stochastic Analysis of Laser Phase Noise in Photonics-Assisted Radio Frequency Beamforming",
@@ -9322,30 +10242,30 @@
       "光源与通用光子器件",
       "微波与太赫兹光子学"
     ],
-    "summary_zh": "该预印本提出随机理论模型，量化有限线宽激光器的相位噪声对光子辅助射频波束形成的影响。傅里叶域分析表明，相位噪声会改变空间相干函数，引起相干射频孔径收缩、波束图畸变和方向性下降。摘要指出，采用纳秒级光差分延迟的架构，即使使用千赫兹级窄线宽激光器，也可能明显退化；大孔径网络的平均射频功率增益降低且波动占主导，从而限制可实现的阵列规模。",
-    "title_zh": "激光相位噪声限制光子辅助射频波束形成",
+    "summary_zh": "该预印本提出随机理论模型，量化有限线宽激光器的相位噪声对光子辅助射频波束形成的影响。摘要报告，傅里叶域分析表明相位噪声会改变空间相干函数，引起相干射频孔径收缩、波束图畸变和方向性下降。采用纳秒量级光学差分延迟的架构，即使使用千赫兹量级窄线宽激光器，也可能出现显著性能退化。分析还指出，大孔径网络中的平均射频功率增益降低、涨落占主导，从而限制可实现的天线阵列规模。",
+    "title_zh": "激光相位噪声限制光子辅助射频波束形成规模",
     "missing_evidence": [
-      "未提供全文，无法核查模型假设、适用边界、具体定量结果及验证方式。",
-      "所给摘要未报告实验验证。"
+      "未提供正文，无法核对模型假设、参数适用范围及阵列规模上限的具体表达式。",
+      "摘要未说明是否开展数值仿真或实验验证，不能将理论结论视为实验结果。"
     ],
     "facts": [
       {
         "locator": "abstract",
-        "source_url": "https://arxiv.org/abs/2610.32563v1",
-        "text": "该预印本提出随机理论模型，量化有限线宽激光器的相位噪声对光子辅助射频波束形成的影响。傅里叶域分析表明，相位噪声会改变空间相干函数，引起相干射频孔径收缩、波束图畸变和方向性下降。摘要指出，采用纳秒级光差分延迟的架构，即使使用千赫兹级窄线宽激光器，也可能明显退化；大孔径网络的平均射频功率增益降低且波动占主导，从而限制可实现的阵列规模。"
+        "source_url": "https://arxiv.org/abs/2610.32563v2",
+        "text": "该预印本提出随机理论模型，量化有限线宽激光器的相位噪声对光子辅助射频波束形成的影响。摘要报告，傅里叶域分析表明相位噪声会改变空间相干函数，引起相干射频孔径收缩、波束图畸变和方向性下降。采用纳秒量级光学差分延迟的架构，即使使用千赫兹量级窄线宽激光器，也可能出现显著性能退化。分析还指出，大孔径网络中的平均射频功率增益降低、涨落占主导，从而限制可实现的天线阵列规模。"
       }
     ],
     "ai_inference": [
-      "可将激光线宽与光差分延迟联合纳入光子辅助波束形成网络的设计约束，评估扩大阵列规模是否仍能获得预期收益。"
+      "对采用光学差分延迟的微波光子波束形成网络，可将激光线宽、差分延迟与阵列规模联合纳入设计评估；仅依据窄线宽指标选型可能不足。"
     ],
     "metrics": [],
     "evidence_status": "abstract+pdf-link",
-    "source_url": "https://arxiv.org/abs/2610.32563v1",
+    "source_url": "https://arxiv.org/abs/2610.32563v2",
     "related_ids": [],
     "relevance_class": "enabling",
     "reading_level": "C",
     "news_priority": null,
-    "review_note": "AI 审核通过 · 摘要范围 · 2026-10-29T00:43:27.482111+00:00",
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-03T00:47:13.912852+00:00",
     "attributes": {
       "schema": "paperflow.paper-attributes/v1",
       "id": "b1889984-7369-477f-9486-6a1d2219d760",
@@ -9429,7 +10349,7 @@
         "observed_at": null
       },
       "provenance": {
-        "source_url": "https://arxiv.org/abs/2610.32563v1",
+        "source_url": "https://arxiv.org/abs/2610.32563v2",
         "normalizer": "paper-attributes-v1",
         "metadata_source": null,
         "metadata_observed_at": null,

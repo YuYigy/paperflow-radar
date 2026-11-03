@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "d303744f-e17f-4100-95b9-8236c08f5d86",
-  "root": "doi:10.1021/acsphotonics.6c01763",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7222981842",
+  "status": "ok",
+  "checked_at": "2026-11-03T00:54:02.563247+00:00",
+  "coverage": {
+    "references_found": 36,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "partial",
+    "citing_status": "ok",
+    "candidates_resolved": 35,
+    "displayed": 35
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1021/acsphotonics.6c01763",
+      "id": "W7222981842",
       "doi": "10.1021/acsphotonics.6c01763",
       "title": "Gate-Programmable Bipolar β-Ga2O3 Solar-Blind Phototransistor for Encrypted Optical Communication and Image Transmission",
       "authors": [
@@ -27,20 +37,2244 @@
         "Weihua Tang",
         "Zhilai Fang"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "ACS Photonics",
       "venue_abbr": "ACS Photonics",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "β-Ga2O3",
+        "XOR logic",
+        "image encryption",
+        "UV detection",
+        "secure optical communication"
+      ],
       "url": "https://doi.org/10.1021/acsphotonics.6c01763",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/d303744f-e17f-4100-95b9-8236c08f5d86.html",
       "summary": "摘要报告：现有双极探测器或依赖缓慢电化学过程、或需波长选择性激发。演示栅极可编程日盲β-Ga₂O₃光电晶体管：栅控横向/纵向载流输运重构，在固定254 nm日盲照射下实现电流极性可逆切换；响应度与探测度的指数排版待核，响应时间为毫秒级，兼得灵敏度/速度/操作简单性；利用电学可编程双极响应实现快速XOR逻辑，完成日盲紫外下的加密文本通信与图像加解密。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4412757249",
+      "doi": "10.1002/adom.202501641",
+      "title": "Photomultiplication‐Type β‐Ga2O3 Solar‐Blind Photodetector with Excellent Capability of Weak Signal Detection and Anti‐Interference DUV Imaging",
+      "authors": [
+        "Chenxing Liu",
+        "Yushi Wang",
+        "Hongchao Zhai",
+        "Zhengyuan Wu",
+        "Daoyou Guo",
+        "Xin Dong",
+        "Jianlu Wang",
+        "Weihua Tang",
+        "Junyong Kang",
+        "Junhao Chu",
+        "Zhilai Fang"
+      ],
+      "year": 2025,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "β-Ga2O3",
+        "solar-blind photodetectors",
+        "photomultiplication",
+        "deep ultraviolet detection",
+        "weak signal detection",
+        "dark current reduction",
+        "noise current",
+        "photoresponsivity",
+        "impact ionization",
+        "hole trapping",
+        "optical communication"
+      ],
+      "url": "https://doi.org/10.1002/adom.202501641",
+      "cited_by_count": 8,
+      "importance": 0.5925,
+      "score_basis": {
+        "topic_overlap": 0.317,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407360042",
+      "doi": "10.1021/acsphotonics.4c02509",
+      "title": "Gate-Tunable Current Polarity Switching in p-NiO/n-ZnGa 2 O 4 Heterojunction Field-Effect Phototransistors for Secure Optical Communication",
+      "authors": [
+        "Dongyang Han",
+        "Jiayi Liu",
+        "Shujun Zhu",
+        "Chang Liu",
+        "Kaisen Liu",
+        "Xiaoli Zhang",
+        "Ningtao Liu",
+        "Jichun Ye",
+        "Wenrui Zhang"
+      ],
+      "year": 2025,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "secure optical communication",
+        "dark current reduction"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.4c02509",
+      "cited_by_count": 26,
+      "importance": 0.5863,
+      "score_basis": {
+        "topic_overlap": 0.303,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414595859",
+      "doi": "10.1002/lpor.202501855",
+      "title": "Artificial Interfacial Quasi‐Electric Field: A Pathway to Promote Ga 2 O 3 Photodetectors",
+      "authors": [
+        "Zeng Liu",
+        "Zhaoying Xi",
+        "Linhai Gu",
+        "Sihan Yan",
+        "Lei Li",
+        "Lincong Shu",
+        "Jia‐Han Zhang",
+        "Shaohui Zhang",
+        "Ang Bian",
+        "Mingming Jiang",
+        "Weihua Tang"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "gallium oxide",
+        "band offset",
+        "deep-UV photodetection",
+        "solar-blind photodetectors",
+        "dark current reduction",
+        "photoresponse",
+        "response speed",
+        "carrier transport"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202501855",
+      "cited_by_count": 18,
+      "importance": 0.5704,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7163586009",
+      "doi": "10.1063/5.0326590",
+      "title": "Wavelength- and intensity-tunable self-powered bipolar photodetectors based on a-Ga2O3 heterostructures for encrypted communication",
+      "authors": [
+        "YuHang Li",
+        "Jie Tang",
+        "Yang Li",
+        "Xiaoqing Gao",
+        "Yuanqiang Xiong"
+      ],
+      "year": 2026,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "self-powered photodetection",
+        "amorphous gallium oxide",
+        "Au nanoparticles",
+        "oxygen vacancies",
+        "Schottky barrier modulation",
+        "optical logic gates",
+        "vertical heterojunction"
+      ],
+      "url": "https://doi.org/10.1063/5.0326590",
+      "cited_by_count": 2,
+      "importance": 0.4956,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402215691",
+      "doi": "10.1364/prj.534338",
+      "title": "Gate-tunable positive and negative photoresponses based on a mixed-dimensional Ga 2 O 3 /WSe 2 junction field-effect transistor for logic operation",
+      "authors": [
+        "Zibin Huang",
+        "Wenhai Wang",
+        "Sujuan Wang",
+        "Chen Yang",
+        "Hanzhe Zhang",
+        "Lisheng Wang",
+        "Huiru Sun",
+        "Yuan Pan",
+        "Hongyu Chen",
+        "Xun Yang",
+        "Francis Chi-Chung Ling",
+        "Shichen Su"
+      ],
+      "year": 2024,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "JFET",
+        "Fowler-Nordheim tunneling",
+        "NAND gate",
+        "optical communication",
+        "optoelectronic devices"
+      ],
+      "url": "https://doi.org/10.1364/prj.534338",
+      "cited_by_count": 15,
+      "importance": 0.4926,
+      "score_basis": {
+        "topic_overlap": 0.406,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7117367333",
+      "doi": "10.1002/adma.202516019",
+      "title": "Geometry‐Engineered Bipolar Photodetectors for Multivalued Logic‐Gate Encrypted Optical Communication",
+      "authors": [
+        "Chunyan Liu",
+        "Hong Zhang",
+        "Ke Ding",
+        "Jin Zhao",
+        "Aijiang Yan",
+        "Jiangshuai Luo",
+        "Lijuan Ye",
+        "Yi Tang",
+        "Di Pang",
+        "Honglin Li",
+        "Kailian Dong",
+        "Wanjun Li",
+        "Zhenxiang Cheng",
+        "Peng Yu"
+      ],
+      "year": 2025,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photoelectrochemical photodetectors",
+        "secure optical communication",
+        "annealing",
+        "underwater optical communication",
+        "self-powered photodetectors"
+      ],
+      "url": "https://doi.org/10.1002/adma.202516019",
+      "cited_by_count": 22,
+      "importance": 0.4777,
+      "score_basis": {
+        "topic_overlap": 0.506,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4318046961",
+      "doi": "10.1038/s41467-023-36117-8",
+      "title": "Enhanced gain and detectivity of unipolar barrier solar blind avalanche photodetector via lattice and band engineering",
+      "authors": [
+        "Qingyi Zhang",
+        "Ning Li",
+        "Tao Zhang",
+        "Dianmeng Dong",
+        "Yongtao Yang",
+        "Yuehui Wang",
+        "Zhengang Dong",
+        "Jiaying Shen",
+        "Tianhong Zhou",
+        "Yuanlin Liang",
+        "Weihua Tang",
+        "Zhenping Wu",
+        "Yang Zhang",
+        "Jianhua Hao"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "solar-blind photodetectors",
+        "avalanche photodetectors",
+        "β-Ga2O3",
+        "lattice engineering",
+        "band structure engineering",
+        "conduction band offset",
+        "valence band offset",
+        "heterojunction",
+        "Nb-doped SrTiO3",
+        "MgO barrier",
+        "avalanche gain",
+        "detectivity"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-36117-8",
+      "cited_by_count": 348,
+      "importance": 0.4601,
+      "score_basis": {
+        "topic_overlap": 0.289,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412571989",
+      "doi": "10.1063/5.0281687",
+      "title": "Solar-blind ultraviolet β -Ga2O3 phototransistor for logic and secure optical communication applications",
+      "authors": [
+        "Anqi Qiang",
+        "Bingjie Ye",
+        "Leyang Qian",
+        "Huazhen Sun",
+        "Xiumei Zhang",
+        "Yushen Liu",
+        "И. Н. Пархоменко",
+        "Fadei Fadeevich Komarov",
+        "Xinyi Shan",
+        "Yu Liu",
+        "Guofeng Yang"
+      ],
+      "year": 2025,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "β-Ga2O3",
+        "UV detection",
+        "Al2O3 gate dielectric",
+        "high-k dielectrics",
+        "NAND logic",
+        "optical logic gates",
+        "secure optical communication",
+        "signal encryption",
+        "UV/visible rejection ratio",
+        "detectivity"
+      ],
+      "url": "https://doi.org/10.1063/5.0281687",
+      "cited_by_count": 13,
+      "importance": 0.4584,
+      "score_basis": {
+        "topic_overlap": 0.574,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396834913",
+      "doi": "10.1021/acsami.4c01837",
+      "title": "Photocurrent Ambipolar Behavior in Phase Junction of a Ga2O3 Porous Nanostructure for Solar-Blind Light Control Logic Devices",
+      "authors": [
+        "Junhao Ye",
+        "Shuo Jin",
+        "Yuexing Cheng",
+        "Hangjie Xu",
+        "Chao Wu",
+        "Fengmin Wu",
+        "Daoyou Guo"
+      ],
+      "year": 2024,
+      "venue": "ACS Applied Materials & Interfaces",
+      "venue_abbr": "ACS Appl. Mater. Interfaces",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "gallium oxide",
+        "nanoporous materials",
+        "core-shell structure",
+        "solar-blind photodetection",
+        "deep ultraviolet light",
+        "Boolean logic gates",
+        "photoelectrochemical devices",
+        "neuromorphic computing",
+        "surface states",
+        "shell thickness control"
+      ],
+      "url": "https://doi.org/10.1021/acsami.4c01837",
+      "cited_by_count": 93,
+      "importance": 0.4216,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415923708",
+      "doi": "10.1002/adma.202509566",
+      "title": "Light‐Driven Reconfigurable Logic in a Monolithic Perovskite Device via Nonlinear Photoresponse Switching",
+      "authors": [
+        "Dante Ahn",
+        "Youngsoo Jang",
+        "Minz Lee",
+        "Wookyung Jeon",
+        "Yohan Yoon",
+        "Heon Lee",
+        "Assa Aravindh Sasikala Devi",
+        "Namsoo Lim",
+        "Chandran Balamurugan",
+        "Hyeonghun Kim",
+        "Gun Young Jung",
+        "Sooncheol Kwon",
+        "Minah Seo",
+        "Yusin Pak"
+      ],
+      "year": 2025,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optoelectronic logic gates",
+        "perovskite photovoltaics",
+        "methylammonium lead iodide",
+        "poly-L-lysine",
+        "nonlinear photoresponse",
+        "polarity switching",
+        "reconfigurable logic"
+      ],
+      "url": "https://doi.org/10.1002/adma.202509566",
+      "cited_by_count": 3,
+      "importance": 0.4111,
+      "score_basis": {
+        "topic_overlap": 0.136,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4395697388",
+      "doi": "10.1016/j.mtphys.2024.101447",
+      "title": "β-Ga2O3 van der Waals p-n homojunction",
+      "authors": [
+        "Yüe Zhao",
+        "Zhengyuan Wu",
+        "Chenxing Liu",
+        "Xiaofei Yue",
+        "Jiajun Chen",
+        "Chunxiao Cong",
+        "Jianlu Wang",
+        "Junyong Kang",
+        "Junhao Chu",
+        "Zhilai Fang"
+      ],
+      "year": 2024,
+      "venue": "Materials Today Physics",
+      "venue_abbr": "Materials Today Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "β-Ga2O3",
+        "van der Waals heterostructures",
+        "p-n homojunction",
+        "wide bandgap semiconductors",
+        "nanosheets",
+        "depletion region",
+        "Fowler-Nordheim tunneling",
+        "direct tunneling",
+        "diodes",
+        "rectification ratio",
+        "photoresponsivity",
+        "deep ultraviolet detection"
+      ],
+      "url": "https://doi.org/10.1016/j.mtphys.2024.101447",
+      "cited_by_count": 18,
+      "importance": 0.4108,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409440974",
+      "doi": "10.26599/nr.2025.94907460",
+      "title": "Controllable and reversible photoresponses in graphene-gated WSe 2 field-effect transistors for communication, logic gate operations and image pre-processing",
+      "authors": [
+        "Zibin Huang",
+        "Wenhai Wang",
+        "Yuyue Yang",
+        "Hanzhe Zhang",
+        "Yuhang Wang",
+        "Tianle Zhao",
+        "Yuan Pan",
+        "Huiru Sun",
+        "Xuanhui Qu",
+        "Jiang Zeng",
+        "Xinru Su",
+        "Wenzhe Dong",
+        "Lin Hu",
+        "Hongyu Chen",
+        "Shichen Su"
+      ],
+      "year": 2024,
+      "venue": "Nano Research",
+      "venue_abbr": "Nano Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "transition metal dichalcogenides",
+        "field-effect transistors",
+        "photoconductance",
+        "photovoltaic effect",
+        "logic gates",
+        "image preprocessing",
+        "convolutional neural networks",
+        "optoelectronic devices",
+        "encrypted communication"
+      ],
+      "url": "https://doi.org/10.26599/nr.2025.94907460",
+      "cited_by_count": 3,
+      "importance": 0.3891,
+      "score_basis": {
+        "topic_overlap": 0.198,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3201748797",
+      "doi": "10.1002/adma.202106923",
+      "title": "High‐Performance Harsh‐Environment‐Resistant GaO X Solar‐Blind Photodetectors via Defect and Doping Engineering",
+      "authors": [
+        "Xiaohu Hou",
+        "Xiaolong Zhao",
+        "Ying Zhang",
+        "Zhongfang Zhang",
+        "Yan Liu",
+        "Yuan Qin",
+        "Pengju Tan",
+        "Chen Chen",
+        "Shunjie Yu",
+        "Mengfan Ding",
+        "Guangwei Xu",
+        "Qin Hu",
+        "Shibing Long"
+      ],
+      "year": 2021,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "gallium oxide",
+        "solar-blind photodetectors",
+        "defect engineering",
+        "doping engineering",
+        "oxygen deficiency",
+        "nitrogen annealing",
+        "nanopores",
+        "high-temperature operation",
+        "responsivity",
+        "dark current",
+        "harsh environment sensing",
+        "flame detection"
+      ],
+      "url": "https://doi.org/10.1002/adma.202106923",
+      "cited_by_count": 233,
+      "importance": 0.3869,
+      "score_basis": {
+        "topic_overlap": 0.282,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7125608809",
+      "doi": "10.1016/j.mtphys.2026.102032",
+      "title": "Optoelectronic logic gates and chaotic encryption optical communication enabled by dual-band optical response in a-Ga2O3/Cr2O3 heterostructures",
+      "authors": [
+        "Quancai Yue",
+        "Lijuan Ye",
+        "Lai Yuan",
+        "Guoping Qin",
+        "Di Pang",
+        "Yan Tang",
+        "Honglin Li",
+        "Hong Zhang",
+        "Wanjun Li"
+      ],
+      "year": 2026,
+      "venue": "Materials Today Physics",
+      "venue_abbr": "Materials Today Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optoelectronic logic gates",
+        "amorphous gallium oxide",
+        "chromium oxide",
+        "p-n heterojunction",
+        "wavelength-dependent photoresponse",
+        "chaos-based cryptography",
+        "secure optical communication",
+        "self-powered photodetectors",
+        "semiconductor-electrolyte interface",
+        "interfacial redox reactions",
+        "photogenerated carrier transport",
+        "Boolean operations"
+      ],
+      "url": "https://doi.org/10.1016/j.mtphys.2026.102032",
+      "cited_by_count": 7,
+      "importance": 0.3848,
+      "score_basis": {
+        "topic_overlap": 0.3,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391885716",
+      "doi": "10.1126/sciadv.adk8199",
+      "title": "Bionic visual-audio photodetectors with in-sensor perception and preprocessing",
+      "authors": [
+        "Jintao Fu",
+        "Changbin Nie",
+        "Feiying Sun",
+        "Genglin Li",
+        "Haofei Shi",
+        "Xingzhan Wei"
+      ],
+      "year": 2024,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "in-sensor processing",
+        "neuromorphic hardware",
+        "IoT sensors",
+        "visual feature extraction",
+        "object classification"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.adk8199",
+      "cited_by_count": 113,
+      "importance": 0.3625,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4399066775",
+      "doi": "10.1016/j.jmst.2024.05.023",
+      "title": "N-doped β-Ga2O3/Si-doped β-Ga2O3 linearly-graded p-n junction by a one-step integrated approach",
+      "authors": [
+        "Chenxing Liu",
+        "Zhengyuan Wu",
+        "Hongchao Zhai",
+        "Jason Hoo",
+        "Shiping Guo",
+        "Jing Wan",
+        "Junyong Kang",
+        "Junhao Chu",
+        "Zhilai Fang"
+      ],
+      "year": 2024,
+      "venue": "Journal of Material Science and Technology",
+      "venue_abbr": "Journal of Material Science and Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "β-Ga2O3",
+        "p-n homojunction",
+        "ultra-wide bandgap semiconductors",
+        "phase transitions",
+        "asymmetric doping",
+        "built-in potential",
+        "high electric field",
+        "rectifying behavior",
+        "switching speed",
+        "bipolar devices"
+      ],
+      "url": "https://doi.org/10.1016/j.jmst.2024.05.023",
+      "cited_by_count": 25,
+      "importance": 0.3561,
+      "score_basis": {
+        "topic_overlap": 0.147,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3025057924",
+      "doi": "10.1016/j.mtphys.2020.100226",
+      "title": "P-type β-Ga2O3 metal-semiconductor-metal solar-blind photodetectors with extremely high responsivity and gain-bandwidth product",
+      "authors": [
+        "Zicong Jiang",
+        "Zhengyuan Wu",
+        "Congcong Ma",
+        "Jianan Deng",
+        "Hao Zhang",
+        "Yu Xu",
+        "J.D. Ye",
+        "Zhilai Fang",
+        "G.Q. Zhang",
+        "Junyong Kang",
+        "Tong‐Yi Zhang"
+      ],
+      "year": 2020,
+      "venue": "Materials Today Physics",
+      "venue_abbr": "Materials Today Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "β-Ga2O3",
+        "solar-blind photodetectors",
+        "metal-semiconductor-metal photodetectors",
+        "deep ultraviolet photodetection",
+        "photoresponsivity",
+        "gain-bandwidth product",
+        "charge carrier multiplication",
+        "electron-hole liquid",
+        "hole mobility",
+        "noise equivalent power",
+        "detectivity"
+      ],
+      "url": "https://doi.org/10.1016/j.mtphys.2020.100226",
+      "cited_by_count": 134,
+      "importance": 0.3464,
+      "score_basis": {
+        "topic_overlap": 0.281,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4312051487",
+      "doi": "10.1109/led.2022.3214981",
+      "title": "High-Temperature Deep Ultraviolet Photodetector Based on a Crystalline Ga₂O₃-Diamond Heterostructure",
+      "authors": [
+        "Wei Wang",
+        "Qilong Yuan",
+        "Dongyang Han",
+        "Jie Sun",
+        "Ningtao Liu",
+        "Shudong Hu",
+        "Chang Liu",
+        "Wenrui Zhang",
+        "Jichun Ye"
+      ],
+      "year": 2022,
+      "venue": "IEEE Electron Device Letters",
+      "venue_abbr": "IEEE Electron Device Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "deep ultraviolet photodetectors",
+        "ε-Ga2O3",
+        "diamond substrates",
+        "high-temperature operation",
+        "metal-semiconductor-metal photodetectors",
+        "lattice mismatch",
+        "epitaxial film growth",
+        "UV/visible rejection ratio",
+        "rise and decay time"
+      ],
+      "url": "https://doi.org/10.1109/led.2022.3214981",
+      "cited_by_count": 59,
+      "importance": 0.3323,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405131777",
+      "doi": "10.1021/acsnano.4c10392",
+      "title": "Switchable Photovoltaic Effect Induced by Light Intensity",
+      "authors": [
+        "Amin Abnavi",
+        "Ribwar Ahmadi",
+        "Hamidreza Ghanbari",
+        "Deji Akinwande",
+        "Michael Musashi Adachi"
+      ],
+      "year": 2024,
+      "venue": "ACS Nano",
+      "venue_abbr": "ACS Nano",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "light intensity modulation",
+        "gate voltage control"
+      ],
+      "url": "https://doi.org/10.1021/acsnano.4c10392",
+      "cited_by_count": 28,
+      "importance": 0.3242,
+      "score_basis": {
+        "topic_overlap": 0.143,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4321004048",
+      "doi": "10.1021/acsami.3c00124",
+      "title": "Directional Carrier Transport in Micrometer-Thick Gallium Oxide Films for High-Performance Deep-Ultraviolet Photodetection",
+      "authors": [
+        "Wenrui Zhang",
+        "Wei Wang",
+        "Jinfu Zhang",
+        "Tan Zhang",
+        "Li Chen",
+        "Liu Wang",
+        "Yu Zhang",
+        "Yanwei Cao",
+        "Ji Li",
+        "Jichun Ye"
+      ],
+      "year": 2023,
+      "venue": "ACS Applied Materials & Interfaces",
+      "venue_abbr": "ACS Appl. Mater. Interfaces",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "gallium oxide",
+        "ε-Ga2O3",
+        "deep ultraviolet photodetection",
+        "metal-semiconductor-metal photodetectors",
+        "ultra-wide bandgap semiconductors",
+        "photoresponsivity",
+        "response time (sensor)",
+        "photo-to-dark current ratio",
+        "defect profiles"
+      ],
+      "url": "https://doi.org/10.1021/acsami.3c00124",
+      "cited_by_count": 35,
+      "importance": 0.3114,
+      "score_basis": {
+        "topic_overlap": 0.247,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2950970016",
+      "doi": "10.1021/acsanm.9b00527",
+      "title": "α-Ga2O3 Nanorod Array–Cu2O Microsphere p–n Junctions for Self-Powered Spectrum-Distinguishable Photodetectors",
+      "authors": [
+        "Chenran He",
+        "Daoyou Guo",
+        "Kai Chen",
+        "Shunli Wang",
+        "Jingqin Shen",
+        "Nie Zhao",
+        "Aiping Liu",
+        "Yingying Zheng",
+        "Peigang Li",
+        "Zhenping Wu",
+        "Chaorong Li",
+        "Fengmin Wu",
+        "Weihua Tang"
+      ],
+      "year": 2019,
+      "venue": "ACS Applied Nano Materials",
+      "venue_abbr": "ACS Applied Nano Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "p-n junction",
+        "photoelectrochemical photodetectors",
+        "self-powered photodetection",
+        "wavelength-selective photodetection",
+        "UV detection",
+        "heterojunction",
+        "semiconductor-electrolyte junction"
+      ],
+      "url": "https://doi.org/10.1021/acsanm.9b00527",
+      "cited_by_count": 182,
+      "importance": 0.3097,
+      "score_basis": {
+        "topic_overlap": 0.155,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413931167",
+      "doi": "10.1002/adfm.202515145",
+      "title": "Photovoltaic Polarity‐Switching Optoelectronic Device Based on MoS 2 /TiS 3 Heterostructures for Multifunctional Operation",
+      "authors": [
+        "Jiyuan Xu",
+        "Zimeng Wang",
+        "Kailong Yu",
+        "Gangqiang Zhou",
+        "Nan Xiao",
+        "Keyi Wang",
+        "Alexei Barinov",
+        "M. Marsi",
+        "Hengyang Xiang",
+        "Zailan Zhang",
+        "Haibo Zeng",
+        "Zhesheng Chen"
+      ],
+      "year": 2025,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "van der Waals heterostructures",
+        "self-powered photodetectors",
+        "interlayer charge transfer",
+        "band bending",
+        "interfacial coupling",
+        "transition metal chalcogenides",
+        "two-dimensional materials",
+        "light polarization control"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202515145",
+      "cited_by_count": 16,
+      "importance": 0.3025,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2121528521",
+      "doi": "10.1038/nnano.2014.31",
+      "title": "Graphene photodetectors with ultra-broadband and high responsivity at room temperature",
+      "authors": [
+        "Chang‐Hua Liu",
+        "You-Chia Chang",
+        "Theodore B. Norris",
+        "Zhaohui Zhong"
+      ],
+      "year": 2014,
+      "venue": "Nature Nanotechnology",
+      "venue_abbr": "Nature Nanotechnology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "graphene photodetectors",
+        "phototransistor",
+        "tunnel barrier",
+        "photogating",
+        "mid-infrared detection",
+        "broadband photodetection",
+        "room-temperature photodetection",
+        "high responsivity"
+      ],
+      "url": "https://doi.org/10.1038/nnano.2014.31",
+      "cited_by_count": 1211,
+      "importance": 0.292,
+      "score_basis": {
+        "topic_overlap": 0.16,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4361269633",
+      "doi": "10.1002/adom.202300129",
+      "title": "Reprogrammable Binary and Ternary Optoelectronic Logic Gates Composed of Nanostructured GaN Photoelectrodes with Bipolar Photoresponse Characteristics",
+      "authors": [
+        "Yuanmin Luo",
+        "Danhao Wang",
+        "Yang Kang",
+        "Shi Fang",
+        "Xin Liu",
+        "Wei Chen",
+        "Huabin Yu",
+        "Hongfeng Jia",
+        "Muhammad Hunain Memon",
+        "Haochen Zhang",
+        "Dongyang Luo",
+        "Xiyu Sun",
+        "Liuan Li",
+        "Jr‐Hau He",
+        "Haiding Sun"
+      ],
+      "year": 2023,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optoelectronic logic gates",
+        "reconfigurable logic",
+        "ternary logic",
+        "binary logic",
+        "GaN nanowires",
+        "photoelectrodes",
+        "photoelectrochemical devices",
+        "bias voltage tuning",
+        "surface functionalization",
+        "NOT gate",
+        "XOR gate",
+        "OR gate"
+      ],
+      "url": "https://doi.org/10.1002/adom.202300129",
+      "cited_by_count": 56,
+      "importance": 0.2916,
+      "score_basis": {
+        "topic_overlap": 0.07,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402675474",
+      "doi": "10.1021/acsnano.4c10168",
+      "title": "Dual-Electrically Configurable MoTe 2 /In 2 S 3 Phototransistor toward Multifunctional Applications",
+      "authors": [
+        "Zhanxiong Qiu",
+        "Zhongtong Luo",
+        "Meifei Chen",
+        "Wei Gao",
+        "Mengmeng Yang",
+        "Ye Xiao",
+        "Le Huang",
+        "Zhaoqiang Zheng",
+        "Jiandong Yao",
+        "Yu Long Zhao",
+        "Jingbo Li"
+      ],
+      "year": 2024,
+      "venue": "ACS Nano",
+      "venue_abbr": "ACS Nano",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phototransistor",
+        "two-dimensional transition metal dichalcogenides",
+        "photoconductive mode",
+        "photovoltaic mode",
+        "energy band engineering",
+        "optoelectronic logic gates",
+        "high-resolution imaging",
+        "photodetectors"
+      ],
+      "url": "https://doi.org/10.1021/acsnano.4c10168",
+      "cited_by_count": 49,
+      "importance": 0.2871,
+      "score_basis": {
+        "topic_overlap": 0.149,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388939295",
+      "doi": "10.1038/s41566-023-01330-w",
+      "title": "Determining the optimal communication channels of arbitrary optical systems using integrated photonic processors",
+      "authors": [
+        "SeyedMohammad SeyedinNavadeh",
+        "Maziyar Milanizadeh",
+        "Francesco Zanetto",
+        "Giorgio Ferrari",
+        "Marco Sampietro",
+        "Marc Sorel",
+        "David A. B. Miller",
+        "Andrea Ivano Melloni",
+        "Francesco Morichetti"
+      ],
+      "year": 2023,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical communication channels",
+        "orthogonal modes",
+        "turbid media",
+        "photonic processors",
+        "Mach-Zehnder interferometer",
+        "silicon photonics",
+        "singular value decomposition",
+        "crosstalk",
+        "power maximization"
+      ],
+      "url": "https://doi.org/10.1038/s41566-023-01330-w",
+      "cited_by_count": 98,
+      "importance": 0.28,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3170223616",
+      "doi": "10.1002/adpr.202100049",
+      "title": "Self‐Powered and Spectrally Distinctive Nanoporous Ga 2 O 3 /GaN Epitaxial Heterojunction UV Photodetectors",
+      "authors": [
+        "Tiwei Chen",
+        "Xiaodong Zhang",
+        "Yongjian Ma",
+        "Tao He",
+        "Xing Wei",
+        "Wenbo Tang",
+        "Wenxin Tang",
+        "Xin Hua Zhou",
+        "Houqiang Fu",
+        "Li Zhang",
+        "Kun Xu",
+        "Chunhong Zeng",
+        "Yaming Fan",
+        "Yong Cai",
+        "Baoshun Zhang"
+      ],
+      "year": 2021,
+      "venue": "Advanced Photonics Research",
+      "venue_abbr": "Advanced Photonics Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "ultraviolet photodetectors",
+        "self-powered photodetectors",
+        "nanoporous structure",
+        "spectral discrimination",
+        "dark current",
+        "responsivity",
+        "porosity",
+        "carrier transport",
+        "energy band diagram"
+      ],
+      "url": "https://doi.org/10.1002/adpr.202100049",
+      "cited_by_count": 64,
+      "importance": 0.2725,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415623138",
+      "doi": "10.1021/acsaelm.5c01613",
+      "title": "Voltage-Controlled Reconfigurable Boolean Logic Enabled by a β-Ga 2 O 3 Artificial Optoelectronic Synapse",
+      "authors": [
+        "Haolan Qu",
+        "Haitao Du",
+        "Yitai Zhu",
+        "Wenbo Ye",
+        "Wenhui Xu",
+        "Tiangui You",
+        "Xin Ou",
+        "Kerui Li",
+        "Hongzhi Wang",
+        "Xinbo Zou"
+      ],
+      "year": 2025,
+      "venue": "ACS Applied Electronic Materials",
+      "venue_abbr": "ACS Applied Electronic Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optoelectronic synaptic devices",
+        "artificial synapses",
+        "excitatory postsynaptic currents",
+        "paired-pulse facilitation",
+        "short-term and long-term memory",
+        "low energy consumption",
+        "noise immunity",
+        "image encryption",
+        "neuromorphic computing"
+      ],
+      "url": "https://doi.org/10.1021/acsaelm.5c01613",
+      "cited_by_count": 7,
+      "importance": 0.2724,
+      "score_basis": {
+        "topic_overlap": 0.161,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413070325",
+      "doi": "10.1016/j.jallcom.2025.182220",
+      "title": "Filamentary gate-controlled Ga2O3 synaptic device for in-sensing optoelectronic memory",
+      "authors": [
+        "Hye Jin Lee",
+        "Seung Hun Lee",
+        "Dabin Jeon",
+        "Sung‐Nam Lee"
+      ],
+      "year": 2025,
+      "venue": "Journal of Alloys and Compounds",
+      "venue_abbr": "Journal of Alloys and Compounds",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "gallium oxide",
+        "optoelectronic synaptic devices",
+        "gate control",
+        "oxygen vacancies",
+        "in-sensor computing",
+        "neuromorphic computing",
+        "multilevel memory",
+        "paired-pulse facilitation",
+        "optical information processing",
+        "artificial synapses"
+      ],
+      "url": "https://doi.org/10.1016/j.jallcom.2025.182220",
+      "cited_by_count": 4,
+      "importance": 0.2671,
+      "score_basis": {
+        "topic_overlap": 0.149,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2788902020",
+      "doi": "10.1063/1.5020134",
+      "title": "Iron and intrinsic deep level states in Ga2O3",
+      "authors": [
+        "M. E. Ingebrigtsen",
+        "Joel Basile Varley",
+        "Andrej Yu Kuznetsov",
+        "Bengt Gunnar Svensson",
+        "Giovanni Alfieri",
+        "Andrei Mihăilă",
+        "Uwe Badstuebner",
+        "Lasse Vines"
+      ],
+      "year": 2018,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "β-Ga2O3",
+        "iron impurities",
+        "deep levels",
+        "intrinsic defects",
+        "deep acceptors",
+        "FeGa",
+        "proton irradiation",
+        "capture cross section",
+        "ionization potential",
+        "molecular beam epitaxy",
+        "hydride vapor phase epitaxy",
+        "hybrid functional calculations"
+      ],
+      "url": "https://doi.org/10.1063/1.5020134",
+      "cited_by_count": 286,
+      "importance": 0.2595,
+      "score_basis": {
+        "topic_overlap": 0.132,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2978928188",
+      "doi": "10.1109/tsm.2019.2944526",
+      "title": "Development of Large Diameter Semi-Insulating Gallium Oxide (Ga2O3) Substrates",
+      "authors": [
+        "John D. Blevins",
+        "K. T. Stevens",
+        "Adam C. Lindsey",
+        "Greg Foundos",
+        "Luke Sande"
+      ],
+      "year": 2019,
+      "venue": "IEEE Transactions on Semiconductor Manufacturing",
+      "venue_abbr": "IEEE Transactions on Semiconductor Manufacturing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single crystal growth",
+        "Czochralski crystal growth",
+        "edge-defined film-fed growth",
+        "wide bandgap semiconductors",
+        "high-power switching devices",
+        "Schottky diodes",
+        "MOSFET"
+      ],
+      "url": "https://doi.org/10.1109/tsm.2019.2944526",
+      "cited_by_count": 115,
+      "importance": 0.2595,
+      "score_basis": {
+        "topic_overlap": 0.132,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415513251",
+      "doi": "10.1063/5.0272123",
+      "title": "Fe-related defect-induced strong broadband two-photon absorption and nonlinear refraction transients in β -Ga2O3 for ultrafast all-optical switching",
+      "authors": [
+        "Yunfei Lv",
+        "Yuting Zhao",
+        "Fangyuan Shi",
+        "Zhongguo Li",
+        "Zhengguo Xiao",
+        "Xingzhi Wu",
+        "Zhongquan Nie",
+        "Quanying Wu",
+        "Yinglin Song",
+        "Yu Fang"
+      ],
+      "year": 2025,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "β-Ga2O3",
+        "iron doping",
+        "two-photon absorption",
+        "nonlinear refraction",
+        "all-optical switching",
+        "transient absorption spectroscopy",
+        "carrier lifetime",
+        "polarization dependence",
+        "energy level model",
+        "wide bandgap semiconductors"
+      ],
+      "url": "https://doi.org/10.1063/5.0272123",
+      "cited_by_count": 7,
+      "importance": 0.2591,
+      "score_basis": {
+        "topic_overlap": 0.131,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3161143281",
+      "doi": "10.1007/s10853-021-06027-5",
+      "title": "Structural and electronic characteristics of Fe-doped β-Ga2O3 single crystals and the annealing effects",
+      "authors": [
+        "Naiji Zhang",
+        "Haoyue Liu",
+        "Qinglin Sai",
+        "Chongyun Shao",
+        "Changtai Xia",
+        "Lingyu Wan",
+        "Zhe Chuan Feng",
+        "H.F. Mohamed"
+      ],
+      "year": 2021,
+      "venue": "Journal of Materials Science",
+      "venue_abbr": "Journal of Materials Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "β-Ga2O3",
+        "iron doping",
+        "Fe3+ ions",
+        "semi-insulating substrates",
+        "annealing effects",
+        "oxygen vacancies",
+        "optical transmittance",
+        "Raman phonon modes",
+        "Fermi level position",
+        "crystal quality",
+        "tetrahedral and octahedral site occupancy"
+      ],
+      "url": "https://doi.org/10.1007/s10853-021-06027-5",
+      "cited_by_count": 52,
+      "importance": 0.2589,
+      "score_basis": {
+        "topic_overlap": 0.131,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414843740",
+      "doi": "10.1021/acs.jpcc.5c06121",
+      "title": "Impact of Deep Levels in Iron-Doped Gallium Oxides on Electron Transport",
+      "authors": [
+        "Qingming Huang",
+        "Xinhang Cai",
+        "Wenlong Yan",
+        "Xiangyu Xu",
+        "Wenjing Xu",
+        "Duanyang Chen",
+        "Kang Wang",
+        "Zhangqiang Yang",
+        "Hongji Qi",
+        "Kelvin H. L. Zhang",
+        "Ye Yang"
+      ],
+      "year": 2025,
+      "venue": "The Journal of Physical Chemistry C",
+      "venue_abbr": "The Journal of Physical Chemistry C",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "deep levels",
+        "electron transport",
+        "electron trapping",
+        "photoconductivity",
+        "electron mobility",
+        "electron scattering time",
+        "phonon scattering",
+        "Drude-Smith model",
+        "time-resolved terahertz spectroscopy",
+        "semi-insulating substrates",
+        "ultraviolet optoelectronics"
+      ],
+      "url": "https://doi.org/10.1021/acs.jpcc.5c06121",
+      "cited_by_count": 3,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4366581772",
+      "doi": "10.1002/adfm.202302746",
+      "title": "Bidirectional and Dual‐Mode Organic Photodetector Enables Secure Ultraviolet Communication",
+      "authors": [
+        "Tingting Yan",
+        "Ziqing Li",
+        "Li Su",
+        "Limin Wu",
+        "Xiaosheng Fang"
+      ],
+      "year": 2023,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "organic photodetectors",
+        "dual-band photodetection",
+        "ultraviolet communication",
+        "optical encryption",
+        "bulk heterojunction",
+        "optical field distribution",
+        "spectral response",
+        "private communication"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202302746",
+      "cited_by_count": 97,
+      "importance": 0.2466,
+      "score_basis": {
+        "topic_overlap": 0.059,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W4318046961",
+      "to": "W3201748797",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4318046961"
+        }
+      ]
+    },
+    {
+      "from": "W4391885716",
+      "to": "W2121528521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391885716"
+        }
+      ]
+    },
+    {
+      "from": "W4395697388",
+      "to": "W4318046961",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4395697388"
+        }
+      ]
+    },
+    {
+      "from": "W4396834913",
+      "to": "W4361269633",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396834913"
+        }
+      ]
+    },
+    {
+      "from": "W4399066775",
+      "to": "W4318046961",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4399066775"
+        }
+      ]
+    },
+    {
+      "from": "W4402215691",
+      "to": "W4391885716",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402215691"
+        }
+      ]
+    },
+    {
+      "from": "W4407360042",
+      "to": "W3201748797",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407360042"
+        }
+      ]
+    },
+    {
+      "from": "W4407360042",
+      "to": "W4312051487",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407360042"
+        }
+      ]
+    },
+    {
+      "from": "W4407360042",
+      "to": "W4366581772",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407360042"
+        }
+      ]
+    },
+    {
+      "from": "W4407360042",
+      "to": "W4388939295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407360042"
+        }
+      ]
+    },
+    {
+      "from": "W4407360042",
+      "to": "W4396834913",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407360042"
+        }
+      ]
+    },
+    {
+      "from": "W4407360042",
+      "to": "W4402215691",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407360042"
+        }
+      ]
+    },
+    {
+      "from": "W4407360042",
+      "to": "W4402675474",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407360042"
+        }
+      ]
+    },
+    {
+      "from": "W4409440974",
+      "to": "W4391885716",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409440974"
+        }
+      ]
+    },
+    {
+      "from": "W4409440974",
+      "to": "W4402215691",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409440974"
+        }
+      ]
+    },
+    {
+      "from": "W4412757249",
+      "to": "W3025057924",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412757249"
+        }
+      ]
+    },
+    {
+      "from": "W4412757249",
+      "to": "W3201748797",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412757249"
+        }
+      ]
+    },
+    {
+      "from": "W4412757249",
+      "to": "W4318046961",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412757249"
+        }
+      ]
+    },
+    {
+      "from": "W4412757249",
+      "to": "W4395697388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412757249"
+        }
+      ]
+    },
+    {
+      "from": "W4412757249",
+      "to": "W4399066775",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412757249"
+        }
+      ]
+    },
+    {
+      "from": "W4413931167",
+      "to": "W4405131777",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413931167"
+        }
+      ]
+    },
+    {
+      "from": "W4414595859",
+      "to": "W3170223616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414595859"
+        }
+      ]
+    },
+    {
+      "from": "W4414595859",
+      "to": "W4318046961",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414595859"
+        }
+      ]
+    },
+    {
+      "from": "W4414595859",
+      "to": "W4395697388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414595859"
+        }
+      ]
+    },
+    {
+      "from": "W4414595859",
+      "to": "W4399066775",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414595859"
+        }
+      ]
+    },
+    {
+      "from": "W4414595859",
+      "to": "W4402215691",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414595859"
+        }
+      ]
+    },
+    {
+      "from": "W4415923708",
+      "to": "W4361269633",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415923708"
+        }
+      ]
+    },
+    {
+      "from": "W4415923708",
+      "to": "W4391885716",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415923708"
+        }
+      ]
+    },
+    {
+      "from": "W4415923708",
+      "to": "W4405131777",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415923708"
+        }
+      ]
+    },
+    {
+      "from": "W7117367333",
+      "to": "W4361269633",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7117367333"
+        }
+      ]
+    },
+    {
+      "from": "W7125608809",
+      "to": "W2950970016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7125608809"
+        }
+      ]
+    },
+    {
+      "from": "W7163586009",
+      "to": "W2950970016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163586009"
+        }
+      ]
+    },
+    {
+      "from": "W7163586009",
+      "to": "W4396834913",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163586009"
+        }
+      ]
+    },
+    {
+      "from": "W7163586009",
+      "to": "W4405131777",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163586009"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W2121528521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W2788902020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W2950970016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W2978928188",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W3025057924",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W3161143281",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W3170223616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W3201748797",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4312051487",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4318046961",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4321004048",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4361269633",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4366581772",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4388939295",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4391885716",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4395697388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4396834913",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4399066775",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4402215691",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4402675474",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4405131777",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4407360042",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4409440974",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4412571989",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4412757249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4413070325",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4413931167",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4414595859",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4414843740",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4415513251",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4415623138",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W4415923708",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W7117367333",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W7125608809",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    },
+    {
+      "from": "W7222981842",
+      "to": "W7163586009",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222981842"
+        }
+      ]
+    }
+  ]
 }

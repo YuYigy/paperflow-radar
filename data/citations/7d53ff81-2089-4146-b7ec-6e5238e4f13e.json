@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "7d53ff81-2089-4146-b7ec-6e5238e4f13e",
-  "root": "doi:10.1364/oe.619020",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7222982165",
+  "status": "ok",
+  "checked_at": "2026-11-04T00:54:46.341549+00:00",
+  "coverage": {
+    "references_found": 25,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 25,
+    "displayed": 25
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/oe.619020",
+      "id": "W7222982165",
       "doi": "10.1364/oe.619020",
       "title": "Photonic-aided wideband mm-wave transmission with scalable subband-selective reception based on AGFB-OFDM",
       "authors": [
@@ -23,20 +33,1385 @@
         "Xiaolong Pan",
         "Xiangjun Xin"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Express",
       "venue_abbr": "OE",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "orthogonal frequency division multiplexing"
+      ],
       "url": "https://doi.org/10.1364/oe.619020",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/7d53ff81-2089-4146-b7ec-6e5238e4f13e.html",
       "summary": "该研究提出基于自适应广义滤波器组OFDM的光子辅助宽带毫米波传输架构，通过结构化子带和选择性提取匹配接收端处理需求。仿真考察8、10和12个子带，在给定OSNR下获得与传统全带接收相当或更低的平均BER。实验将含10个子带的6 GHz信号经10 km标准单模光纤和26 GHz载频的1.5 m无线链路传输，实现22.5 Gbit/s总速率、93.75%频谱利用率及3.75 bit/s/Hz频谱效率。在光电探测器输入功率为−6 dBm时，全部子带BER低于HD-FEC门限。单个所选子带采用512点FFT处理，全带处理则需5120点FFT；实验还展示了不同子带采用16QAM/QPSK的异构传输。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4415933769",
+      "doi": "10.1109/jlt.2025.3629421",
+      "title": "Spectrally Efficient and Robust AGFB-OFDM Design for Q-Band Photonic-Assisted mmWave Communication",
+      "authors": [
+        "Gang Li",
+        "Yuxiao Xu",
+        "Jianping Zhu",
+        "Xinying Li",
+        "Huan Chang",
+        "Zhipei Li",
+        "Dong Guo",
+        "Hengxin Yan",
+        "Xiangjun Xin",
+        "Xiaolong Pan",
+        "Jianjun Yu"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "adaptive filter banks",
+        "Q-band",
+        "radio-over-fiber",
+        "spectral efficiency",
+        "ultra-wideband transmission",
+        "frequency-selective fading",
+        "6G"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3629421",
+      "cited_by_count": 2,
+      "importance": 0.617,
+      "score_basis": {
+        "topic_overlap": 0.371,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4312403979",
+      "doi": "10.1109/jlt.2022.3211466",
+      "title": "Digital Subcarrier Multiplexing: Enabling Software-Configurable Optical Networks",
+      "authors": [
+        "Dave Welch",
+        "Antonio Napoli",
+        "Johan Bäck",
+        "Sanketh Buggaveeti",
+        "Carlos Castro",
+        "Aaron Chase",
+        "Xi Chen",
+        "Vince Dominic",
+        "Thomas Duthel",
+        "Tobias A. Eriksson",
+        "Mustafa Sezer Erkilinc",
+        "Peter W. Evans",
+        "Christopher R.S. Fludger",
+        "Benjamin Foo",
+        "Thomas Frost",
+        "Paul Gavrilovic",
+        "Steven J. Hand",
+        "Aditya Kakkar",
+        "Ales Kumpera",
+        "Vikrant Lal",
+        "Robert Maher",
+        "Fabio Marques",
+        "Fady Masoud",
+        "A. Mathur",
+        "Ray Milano",
+        "Miguel Iglesias Olmedo",
+        "Magnus Olson",
+        "Don Pavinski",
+        "João Pedro",
+        "Amir Rashidinejad",
+        "Parmijit Samra",
+        "Warren Sande",
+        "Azmina Somani",
+        "Han Sun",
+        "Norman L. Swenson",
+        "Huan-Shang Tsai",
+        "Amin Yekani",
+        "Jiaming Zhang",
+        "M. Ziari"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "digital subcarrier multiplexing",
+        "coherent optical transceivers",
+        "multi-domain optical networks"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3211466",
+      "cited_by_count": 145,
+      "importance": 0.4067,
+      "score_basis": {
+        "topic_overlap": 0.259,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2942749004",
+      "doi": "10.1007/s11107-019-00845-z",
+      "title": "Co-existence of OFDM and FBMC for resilient photonic millimeter-wave 5G mobile fronthaul",
+      "authors": [
+        "Abayomi T. Latunde",
+        "Anastasios Papazafeiropoulos",
+        "Pandelis Kourtessis",
+        "John M. Senior"
+      ],
+      "year": 2019,
+      "venue": "Photonic Network Communications",
+      "venue_abbr": "Photonic Network Communications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "OFDM",
+        "filter bank multicarrier",
+        "mobile fronthaul",
+        "5G",
+        "radio-over-fiber",
+        "optical local oscillator",
+        "wavelength division multiplexing",
+        "laser phase noise",
+        "channel estimation",
+        "cloud radio access network",
+        "error vector magnitude"
+      ],
+      "url": "https://doi.org/10.1007/s11107-019-00845-z",
+      "cited_by_count": 10,
+      "importance": 0.3932,
+      "score_basis": {
+        "topic_overlap": 0.429,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2144619437",
+      "doi": "10.1364/oe.21.022885",
+      "title": "Faster than fiber: over 100-Gb/s signal delivery in fiber wireless integration system",
+      "authors": [
+        "Jianjun Yu",
+        "Xinying Li",
+        "Nan Chi"
+      ],
+      "year": 2013,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "fiber-wireless integration",
+        "optical wireless communication",
+        "polarization multiplexing",
+        "multilevel modulation",
+        "multicarrier modulation",
+        "multipath effects",
+        "constant modulus algorithm",
+        "digital signal processing",
+        "millimeter wave"
+      ],
+      "url": "https://doi.org/10.1364/oe.21.022885",
+      "cited_by_count": 112,
+      "importance": 0.3904,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2144115285",
+      "doi": "10.1109/jlt.2010.2051416",
+      "title": "Reduction of Intersubcarrier Interference and Frequency-Selective Fading in OFDM-ROF Systems",
+      "authors": [
+        "Zizheng Cao",
+        "Jianjun Yu",
+        "Minmin Xia",
+        "Qi Tang",
+        "Yang Gao",
+        "Wenpei Wang",
+        "Lin Chen"
+      ],
+      "year": 2010,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "frequency-selective fading",
+        "turbo codes",
+        "bit interleaving",
+        "receiver sensitivity",
+        "optical fiber transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2010.2051416",
+      "cited_by_count": 64,
+      "importance": 0.3868,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406610720",
+      "doi": "10.1109/jlt.2025.3531386",
+      "title": "Subband Processing for OQAM Digital-Subcarrier-Multiplexing Optical Coherent Systems",
+      "authors": [
+        "Zhaoquan Fan",
+        "Jiating Luo",
+        "Bofang Zheng",
+        "Yi Cai",
+        "Jian Zhao"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "subband processing",
+        "digital subcarrier multiplexing",
+        "coherent optical communication",
+        "OQAM",
+        "chromatic dispersion compensation"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3531386",
+      "cited_by_count": 11,
+      "importance": 0.3784,
+      "score_basis": {
+        "topic_overlap": 0.285,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392459394",
+      "doi": "10.1364/ol.514171",
+      "title": "Architecture for low-cost and highly flexible metro-access networks using SOA-based OADM nodes and digital subcarrier multiplexing with power loading",
+      "authors": [
+        "Zhouyi Hu",
+        "Shiyi Xia",
+        "Henrique Freire Santana",
+        "Marijn Rombouts",
+        "Bin Shi",
+        "Nicola Calabretta"
+      ],
+      "year": 2024,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "metro-access networks",
+        "optical add-drop multiplexer",
+        "semiconductor optical amplifier",
+        "digital subcarrier multiplexing",
+        "power loading",
+        "wavelength division multiplexing",
+        "dynamic wavelength allocation",
+        "direct detection receiver",
+        "network reconfigurability",
+        "bandwidth allocation"
+      ],
+      "url": "https://doi.org/10.1364/ol.514171",
+      "cited_by_count": 5,
+      "importance": 0.3683,
+      "score_basis": {
+        "topic_overlap": 0.263,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2057924000",
+      "doi": "10.1109/jlt.2014.2318273",
+      "title": "Experimental Demonstration of Photonic Millimeter-Wave System for High Capacity Point-to-Point Wireless Communications",
+      "authors": [
+        "Timothy P. McKenna",
+        "Jeffrey A. Nanzer",
+        "Thomas R. Clark"
+      ],
+      "year": 2014,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "W-band",
+        "point-to-point wireless communication",
+        "Schottky diode mixer",
+        "down-conversion",
+        "photonic local oscillator",
+        "microwave photonic links",
+        "intermediate frequency signal",
+        "10 Gb/s transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2014.2318273",
+      "cited_by_count": 70,
+      "importance": 0.3566,
+      "score_basis": {
+        "topic_overlap": 0.304,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404535923",
+      "doi": "10.3390/e26110994",
+      "title": "Generalized Filter Bank Orthogonal Frequency Division Multiplexing: Low-Complexity Waveform for Ultra-Wide Bandwidth and Flexible Services",
+      "authors": [
+        "Yu Xin",
+        "Jian Hua",
+        "Tong Bao",
+        "Yaxing Hao",
+        "Ziheng Xiao",
+        "Xin Nie",
+        "Fanggang Wang"
+      ],
+      "year": 2024,
+      "venue": "Entropy",
+      "venue_abbr": "Entropy",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz communication",
+        "6G",
+        "ultra-wideband",
+        "subcarrier spacing",
+        "OFDM waveform design"
+      ],
+      "url": "https://doi.org/10.3390/e26110994",
+      "cited_by_count": 7,
+      "importance": 0.3466,
+      "score_basis": {
+        "topic_overlap": 0.126,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7169850882",
+      "doi": "10.1364/ol.606158",
+      "title": "AFDM-enabled, photonics-aided fiber-wireless fronthaul system for integrated sensing and communication",
+      "authors": [
+        "Hengxin Yan",
+        "Xinying Li",
+        "Liye Fang",
+        "Jiahao Bi",
+        "Chengang Fu",
+        "Yujie Zhang",
+        "Yukai Fu",
+        "Xianshuang Li",
+        "Tangyao Xie",
+        "Xiaolong Pan",
+        "Qi Zhang",
+        "Xiangjun Xin"
+      ],
+      "year": 2026,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "affine frequency division multiplexing",
+        "doubly dispersive channels",
+        "6G",
+        "OFDM comparison",
+        "target localization",
+        "range resolution",
+        "carrier frequency offset",
+        "multi-target sensing"
+      ],
+      "url": "https://doi.org/10.1364/ol.606158",
+      "cited_by_count": 1,
+      "importance": 0.3445,
+      "score_basis": {
+        "topic_overlap": 0.321,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3183712426",
+      "doi": "10.1109/jlt.2021.3097163",
+      "title": "Point-to-Multipoint Optical Networks Using Coherent Digital Subcarriers",
+      "authors": [
+        "Dave Welch",
+        "Antonio Napoli",
+        "Johan Bäck",
+        "Warren Sande",
+        "João Pedro",
+        "Fady Masoud",
+        "Christopher R.S. Fludger",
+        "Thomas Duthel",
+        "Han Sun",
+        "Steven J. Hand",
+        "Ting-Kuang Chiang",
+        "Aaron Chase",
+        "A. Mathur",
+        "Tobias A. Eriksson",
+        "Mats Plantare",
+        "Magnus Olson",
+        "Stefan Voll",
+        "Kuang‐Tsan Wu"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical communication",
+        "digital subcarrier multiplexing",
+        "network cost reduction"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3097163",
+      "cited_by_count": 211,
+      "importance": 0.3363,
+      "score_basis": {
+        "topic_overlap": 0.258,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4220689519",
+      "doi": "10.1109/jlt.2022.3161878",
+      "title": "Photonics-Aided Terahertz-Wave Wireless Communication",
+      "authors": [
+        "Kaile Li",
+        "Jianguo Yu"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical frequency combs",
+        "optical modulators",
+        "heterodyne detection",
+        "digital signal processing",
+        "6G communication",
+        "bandwidth bottleneck",
+        "receiver sensitivity",
+        "spectral efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3161878",
+      "cited_by_count": 58,
+      "importance": 0.3324,
+      "score_basis": {
+        "topic_overlap": 0.294,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2034295455",
+      "doi": "10.1016/j.optcom.2015.03.040",
+      "title": "Radio over fiber system carrying OFDM signal based on optical octuple frequency technique",
+      "authors": [
+        "Hui Zhou",
+        "Zhiwei Zheng",
+        "Qiuzhen Wan"
+      ],
+      "year": 2015,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "radio-over-fiber",
+        "optical OFDM",
+        "optical millimeter-wave generation",
+        "chromatic dispersion",
+        "Mach-Zehnder modulator",
+        "DC bias",
+        "modulation depth"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2015.03.040",
+      "cited_by_count": 12,
+      "importance": 0.3316,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285798525",
+      "doi": "10.1364/ol.464822",
+      "title": "OFDM-PS-256QAM signal delivery at 47.45 Gb/s over 4.6-kilometers wireless distance at the W band",
+      "authors": [
+        "Weiping Li",
+        "Jianjun Yu",
+        "Yanyi Wang",
+        "Feng Wang",
+        "Bowen Zhu",
+        "Li Zhao",
+        "Wen Yan Zhou",
+        "Jianguo Yu",
+        "Feng Zhao"
+      ],
+      "year": 2022,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "radio-over-fiber",
+        "W-band",
+        "OFDM",
+        "256-QAM",
+        "millimeter-wave transmission",
+        "long-distance wireless transmission",
+        "spectral efficiency",
+        "single-mode fiber",
+        "beyond 5G"
+      ],
+      "url": "https://doi.org/10.1364/ol.464822",
+      "cited_by_count": 41,
+      "importance": 0.3308,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414054724",
+      "doi": "10.1109/tvt.2025.3607450",
+      "title": "Generalized Filter Bank OFDM: Low-Complexity Expectation Propagation Detection in Space–Terrestrial Integrated Network",
+      "authors": [
+        "Yaxing Hao",
+        "Fanggang Wang",
+        "Ziheng Xiao",
+        "Xin Nie",
+        "Yu Xin",
+        "Jian Hua"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "venue_abbr": "IEEE Transactions on Vehicular Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "space-terrestrial integrated networks",
+        "low-complexity detection",
+        "eigenvalue approximation",
+        "matrix factorization",
+        "nonlinear detection",
+        "low Earth orbit satellite communication",
+        "power spectral density",
+        "peak-to-average power ratio",
+        "out-of-band radiation",
+        "waveform design"
+      ],
+      "url": "https://doi.org/10.1109/tvt.2025.3607450",
+      "cited_by_count": 4,
+      "importance": 0.3261,
+      "score_basis": {
+        "topic_overlap": 0.014,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4324311294",
+      "doi": "10.1038/s41467-023-37103-w",
+      "title": "An integrated photonic-assisted phased array transmitter for direct fiber to mm-wave links",
+      "authors": [
+        "Pouria Sanjari",
+        "Firooz Aflatouni"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "millimeter-wave phased arrays",
+        "optical heterodyning",
+        "beam steering",
+        "beamforming",
+        "fronthaul links",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-37103-w",
+      "cited_by_count": 39,
+      "importance": 0.3239,
+      "score_basis": {
+        "topic_overlap": 0.275,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3153082096",
+      "doi": "10.1364/oe.425314",
+      "title": "Integrated MLL chip-based PAM-4/DMT-16QAM photonic-wireless link in W-band for flexible applications",
+      "authors": [
+        "Shi Jia",
+        "Longsheng Li",
+        "Yan Fu",
+        "Leif Katsuo Oxenløwe",
+        "Hao Hu"
+      ],
+      "year": 2021,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "millimeter wave",
+        "W-band",
+        "PAM-4",
+        "intensity modulation and direct detection",
+        "envelope detection",
+        "beyond 5G",
+        "6G"
+      ],
+      "url": "https://doi.org/10.1364/oe.425314",
+      "cited_by_count": 6,
+      "importance": 0.3227,
+      "score_basis": {
+        "topic_overlap": 0.273,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2791140471",
+      "doi": "10.1364/oe.26.007306",
+      "title": "Experimental demonstration of multi-Gbps multi sub-bands FBMC transmission in mm-wave radio over a fiber system",
+      "authors": [
+        "Hum Nath Parajuli",
+        "Haymen Shams",
+        "Luis González-Guerrero",
+        "Eszter Udvary",
+        "Cyril C. Renaud",
+        "John Mitchell"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "filter bank multicarrier",
+        "radio-over-fiber",
+        "photomixing",
+        "free-running lasers",
+        "5G wireless",
+        "out-of-band emission suppression",
+        "quadrature amplitude modulation",
+        "error vector magnitude",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1364/oe.26.007306",
+      "cited_by_count": 27,
+      "importance": 0.3177,
+      "score_basis": {
+        "topic_overlap": 0.262,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4281700657",
+      "doi": "10.1364/jocn.455171",
+      "title": "DSP-enhanced radio-over-fiber technologies for 5G-and-beyond wired-wireless convergence",
+      "authors": [
+        "Paikun Zhu",
+        "Yuki Yoshida",
+        "Atsushi Kanno",
+        "Ken-ichi Kitayama"
+      ],
+      "year": 2022,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "radio-over-fiber",
+        "intermediate frequency over fiber",
+        "sigma-delta modulator",
+        "latency",
+        "power consumption",
+        "system complexity",
+        "edge-cloud computing"
+      ],
+      "url": "https://doi.org/10.1364/jocn.455171",
+      "cited_by_count": 27,
+      "importance": 0.3129,
+      "score_basis": {
+        "topic_overlap": 0.251,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401112250",
+      "doi": "10.3390/electronics13153006",
+      "title": "Generalized Filter Bank Orthogonal Frequency Division Multiplexing Systems for 6G",
+      "authors": [
+        "Yu Xin",
+        "Tong Bao",
+        "Jian Hua",
+        "Hongming Zhang"
+      ],
+      "year": 2024,
+      "venue": "Electronics",
+      "venue_abbr": "Electronics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "6G",
+        "multicarrier waveforms",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.3390/electronics13153006",
+      "cited_by_count": 9,
+      "importance": 0.3088,
+      "score_basis": {
+        "topic_overlap": 0.108,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3168038410",
+      "doi": "10.1109/jlt.2021.3089901",
+      "title": "Low Power DSP-Based Transceivers for Data Center Optical Fiber Communications (Invited Tutorial)",
+      "authors": [
+        "Radhakrishnan Nagarajan",
+        "Ilya Lyubomirsky",
+        "Oscar E. Agazzi"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "data center optical interconnects",
+        "low power design",
+        "coherent optical communication",
+        "direct detection",
+        "modulation schemes",
+        "baud rate",
+        "optical link design",
+        "forward error correction",
+        "signal shaping",
+        "dispersion compensation"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3089901",
+      "cited_by_count": 135,
+      "importance": 0.305,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2909818755",
+      "doi": "10.1038/s41566-018-0310-5",
+      "title": "Integrated microwave photonics",
+      "authors": [
+        "David A. I. Marpaung",
+        "Jianping Yao",
+        "J. Capmany"
+      ],
+      "year": 2019,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "integrated microwave photonics",
+        "photonic integration",
+        "electro-optic modulator",
+        "frequency synthesizer",
+        "light-matter interaction",
+        "quantum photonics",
+        "neuromorphic photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41566-018-0310-5",
+      "cited_by_count": 1396,
+      "importance": 0.2734,
+      "score_basis": {
+        "topic_overlap": 0.163,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385768603",
+      "doi": "10.1364/jocn.492334",
+      "title": "Design and deployment of optical x-haul for 5G, 6G, and beyond: progress and challenges [Invited]",
+      "authors": [
+        "Chathurika Ranaweera",
+        "Christina Lim",
+        "Yijie Tao",
+        "Sampath Edirisinghe",
+        "Tingting Song",
+        "Lena Wosinska",
+        "Ampalavanapillai T. Nirmalathas"
+      ],
+      "year": 2023,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "6G",
+        "radio-over-fiber",
+        "open radio access network",
+        "network softwarization",
+        "network intelligence",
+        "quality of service",
+        "low latency"
+      ],
+      "url": "https://doi.org/10.1364/jocn.492334",
+      "cited_by_count": 49,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2022229255",
+      "doi": "10.1155/2010/165654",
+      "title": "Cosine Modulated and Offset QAM Filter Bank Multicarrier Techniques: A Continuous-Time Prospect",
+      "authors": [
+        "Behrouz Farhang‐Boroujeny",
+        "Chung Him Yuen"
+      ],
+      "year": 2010,
+      "venue": "EURASIP Journal on Advances in Signal Processing",
+      "venue_abbr": "EURASIP Journal on Advances in Signal Processing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "filter bank multicarrier",
+        "cosine-modulated filter banks",
+        "offset QAM",
+        "perfect reconstruction filter banks",
+        "multicarrier modulation",
+        "OFDM",
+        "fast fading channels",
+        "wireless communication",
+        "prototype filter design"
+      ],
+      "url": "https://doi.org/10.1155/2010/165654",
+      "cited_by_count": 139,
+      "importance": 0.2079,
+      "score_basis": {
+        "topic_overlap": 0.018,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3207895616",
+      "doi": "10.1007/s11276-021-02811-y",
+      "title": "5G NR system design: a concise survey of key features and capabilities",
+      "authors": [
+        "Federica Rinaldi",
+        "Alessandro Raschellà",
+        "Sara Pizzi"
+      ],
+      "year": 2021,
+      "venue": "Wireless Networks",
+      "venue_abbr": "Wireless Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "5G NR",
+        "3GPP standardization",
+        "enhanced mobile broadband",
+        "massive machine-type communications",
+        "Internet of Things",
+        "low latency",
+        "forward compatibility",
+        "5G network architecture",
+        "system flexibility"
+      ],
+      "url": "https://doi.org/10.1007/s11276-021-02811-y",
+      "cited_by_count": 80,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2144619437",
+      "to": "W2144115285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2144619437"
+        }
+      ]
+    },
+    {
+      "from": "W4312403979",
+      "to": "W3183712426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312403979"
+        }
+      ]
+    },
+    {
+      "from": "W4392459394",
+      "to": "W4312403979",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392459394"
+        }
+      ]
+    },
+    {
+      "from": "W4404535923",
+      "to": "W4401112250",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404535923"
+        }
+      ]
+    },
+    {
+      "from": "W4406610720",
+      "to": "W4312403979",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406610720"
+        }
+      ]
+    },
+    {
+      "from": "W4414054724",
+      "to": "W4401112250",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414054724"
+        }
+      ]
+    },
+    {
+      "from": "W4414054724",
+      "to": "W4404535923",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414054724"
+        }
+      ]
+    },
+    {
+      "from": "W4415933769",
+      "to": "W2057924000",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415933769"
+        }
+      ]
+    },
+    {
+      "from": "W4415933769",
+      "to": "W2144115285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415933769"
+        }
+      ]
+    },
+    {
+      "from": "W4415933769",
+      "to": "W2144619437",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415933769"
+        }
+      ]
+    },
+    {
+      "from": "W4415933769",
+      "to": "W4401112250",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415933769"
+        }
+      ]
+    },
+    {
+      "from": "W4415933769",
+      "to": "W4404535923",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415933769"
+        }
+      ]
+    },
+    {
+      "from": "W4415933769",
+      "to": "W4414054724",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415933769"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W2022229255",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W2034295455",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W2057924000",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W2144115285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W2144619437",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W2791140471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W2909818755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W2942749004",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W3153082096",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W3168038410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W3183712426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W3207895616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4220689519",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4281700657",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4285798525",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4312403979",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4324311294",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4385768603",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4392459394",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4401112250",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4404535923",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4406610720",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4414054724",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W4415933769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    },
+    {
+      "from": "W7222982165",
+      "to": "W7169850882",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7222982165"
+        }
+      ]
+    }
+  ]
 }

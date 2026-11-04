@@ -1,6 +1,656 @@
 [
   {
     "schema_version": 1,
+    "record_id": "4954c5a0-4400-4cbb-a9c6-253fb6d43b3a",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Performance evaluation of DNN–LSTM–based optical communication monitoring for joint failure diagnosis and physical-layer attack detection",
+    "authors": [
+      "Shayma Wail Nourildean",
+      "Thamer M. Jamel"
+    ],
+    "doi": "10.1515/joc-2026-0505",
+    "venue": "Journal of Optical Communications",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "a11a7eb93fc7eae5",
+      "name": "Journal of Optical Communications",
+      "original_name": "Journal of Optical Communications",
+      "abbr": "J. Opt. Commun.",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Journal of Optical Communications",
+        "J. Opt. Commun."
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "未匹配 CIE 2023",
+      "rank_order": 99,
+      "focus_tier": "P3",
+      "focus_label": "知流 P3 · 扩展关注",
+      "focus_order": 3,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "院规待核 · 2020",
+      "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-04",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "研究提出按类别优化验证集融合权重的DNN–LSTM框架，识别正常运行、三类光故障及三类物理层攻击。攻击场景依据光学测量并施加物理约束构建，误码率由传输质量模型估算。在包含910,000个样本的平衡数据集上开展评估，其中独立测试集含210,000个样本；准确率为91.190%，宏F1为91.056%。光故障与物理层攻击的宏召回率分别为98.468%和80.553%。相较固定权重融合，宏F1由90.819%提升至91.056%。",
+    "title_zh": "DNN–LSTM融合用于光通信故障与物理层攻击联合识别",
+    "missing_evidence": [
+      "全文、数据集来源与划分细节，以及真实攻击实施和跨链路验证证据。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1515/joc-2026-0505",
+        "text": "研究提出按类别优化验证集融合权重的DNN–LSTM框架，识别正常运行、三类光故障及三类物理层攻击。攻击场景依据光学测量并施加物理约束构建，误码率由传输质量模型估算。在包含910,000个样本的平衡数据集上开展评估，其中独立测试集含210,000个样本；准确率为91.190%，宏F1为91.056%。光故障与物理层攻击的宏召回率分别为98.468%和80.553%。相较固定权重融合，宏F1由90.819%提升至91.056%。"
+      }
+    ],
+    "ai_inference": [
+      "按类别设置融合权重可作为联合光性能监测与安全诊断的研究思路；攻击识别召回率较低，提示需进一步研究攻击类别的区分能力。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1515/joc-2026-0505",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-04T00:29:03.138409+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "4954c5a0-4400-4cbb-a9c6-253fb6d43b3a",
+      "work_key": "doi:10.1515/joc-2026-0505",
+      "identifiers": {
+        "doi": "10.1515/joc-2026-0505",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": [
+          "0173-4911",
+          "2191-6322"
+        ]
+      },
+      "bibliography": {
+        "title": "Performance evaluation of DNN–LSTM–based optical communication monitoring for joint failure diagnosis and physical-layer attack detection",
+        "type": "journal-article",
+        "venue_id": "a11a7eb93fc7eae5",
+        "venue_name": "Journal of Optical Communications",
+        "venue_abbr": "J. Opt. Commun.",
+        "date": "2026-11-04",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": null,
+        "publisher": "Walter de Gruyter GmbH",
+        "language": null,
+        "published_online": null,
+        "published_print": null
+      },
+      "authors": [
+        "Shayma Wail Nourildean",
+        "Thamer M. Jamel"
+      ],
+      "first_author": "Shayma Wail Nourildean",
+      "author_count": 2,
+      "contributors": [],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [],
+        "directions": [
+          "待分类"
+        ],
+        "direction_basis": "unclassified",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "unverified",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": "P3"
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "direct",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": null,
+        "cited_by": null,
+        "source": null,
+        "observed_at": null
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1515/joc-2026-0505",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": null,
+        "metadata_observed_at": null,
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "6d3c660c-2c4b-4e2f-9310-77064b50d8fe",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "HgTe Quantum Dots/WSe 2 Mixed‐Dimensional van der Waals Phototransistor for GateTunable Telecom‐Band Photodetection and Dual‐Channel Encrypted Optical Communication",
+    "authors": [
+      "Na Yuan",
+      "Shengdi Chen",
+      "Peiwen Zhou",
+      "Zhaoqiang Zheng",
+      "Yu Zhang",
+      "Shuti Li",
+      "Nengjie Huo",
+      "Libin Tang",
+      "Wei Gao"
+    ],
+    "doi": "10.1002/adom.72029",
+    "venue": "Advanced Optical Materials",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "fe81e54a8f507da5",
+      "name": "Advanced Optical Materials",
+      "original_name": "Advanced Optical Materials",
+      "abbr": "Adv. Opt. Mater.",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Advanced Optical Materials",
+        "Adv. Opt. Mater.",
+        "AOM"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "未匹配 CIE 2023",
+      "rank_order": 99,
+      "focus_tier": "P2",
+      "focus_label": "知流 P2 · 领域核心",
+      "focus_order": 2,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "院规待核 · 2020",
+      "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-03",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "摘要报告了将HgTe量子点与WSe₂沟道集成的混合维度光晶体管实验。器件利用光栅控增益，在1310和1550 nm的响应度分别为2858和2337 A/W。1310 nm处由闪烁噪声谱推导的峰值比探测率为5.31×10¹⁰ Jones，散粒噪声极限下为4.37×10¹² Jones。作者还演示了635 nm通道传输时变置换规则、1310 nm通道传输ASCII编码数据，并通过软件辅助实时解码“SCNU”。",
+    "title_zh": "HgTe量子点/WSe₂光晶体管实现通信波段探测与双通道光信号演示",
+    "missing_evidence": [
+      "仅提供摘要，缺少全文中的器件制备、测量条件及重复性证据。",
+      "未提供响应时间、通信速率、误码率或链路预算。",
+      "未提供威胁模型或安全性分析，无法由双通道解码演示确认加密安全性。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1002/adom.72029",
+        "text": "摘要报告了将HgTe量子点与WSe₂沟道集成的混合维度光晶体管实验。器件利用光栅控增益，在1310和1550 nm的响应度分别为2858和2337 A/W。1310 nm处由闪烁噪声谱推导的峰值比探测率为5.31×10¹⁰ Jones，散粒噪声极限下为4.37×10¹² Jones。作者还演示了635 nm通道传输时变置换规则、1310 nm通道传输ASCII编码数据，并通过软件辅助实时解码“SCNU”。"
+      }
+    ],
+    "ai_inference": [
+      "可探索栅压调控的双波长接收与信号编码；面向实际光通信应用，仍需结合响应速度、误码率和噪声表现评价高响应度的系统价值。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1002/adom.72029",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-04T00:31:09.745109+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "6d3c660c-2c4b-4e2f-9310-77064b50d8fe",
+      "work_key": "doi:10.1002/adom.72029",
+      "identifiers": {
+        "doi": "10.1002/adom.72029",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": [
+          "2195-1071"
+        ]
+      },
+      "bibliography": {
+        "title": "HgTe Quantum Dots/WSe 2 Mixed‐Dimensional van der Waals Phototransistor for GateTunable Telecom‐Band Photodetection and Dual‐Channel Encrypted Optical Communication",
+        "type": "journal-article",
+        "venue_id": "fe81e54a8f507da5",
+        "venue_name": "Advanced Optical Materials",
+        "venue_abbr": "Adv. Opt. Mater.",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": "e72029",
+        "publisher": "Wiley",
+        "language": "en",
+        "published_online": "2026-11-03",
+        "published_print": null
+      },
+      "authors": [
+        "Na Yuan",
+        "Shengdi Chen",
+        "Peiwen Zhou",
+        "Zhaoqiang Zheng",
+        "Yu Zhang",
+        "Shuti Li",
+        "Nengjie Huo",
+        "Libin Tang",
+        "Wei Gao"
+      ],
+      "first_author": "Na Yuan",
+      "author_count": 9,
+      "contributors": [
+        {
+          "name": "Na Yuan",
+          "orcid": null,
+          "affiliations": [
+            "Guangdong Engineering Research Centre of Optoelectronic Functional Materials and Devices School of Electronic Science and Engineering (School of Microelectronics) Faculty of Engineering South China Normal University Foshan People's Republic of China"
+          ]
+        },
+        {
+          "name": "Shengdi Chen",
+          "orcid": null,
+          "affiliations": [
+            "Yunnan Key Laboratory of Advanced Photoelectric Materials &amp; Devices Kunming Institute of Physics Kunming People's Republic of China"
+          ]
+        },
+        {
+          "name": "Peiwen Zhou",
+          "orcid": null,
+          "affiliations": [
+            "Guangdong Engineering Research Centre of Optoelectronic Functional Materials and Devices School of Electronic Science and Engineering (School of Microelectronics) Faculty of Engineering South China Normal University Foshan People's Republic of China"
+          ]
+        },
+        {
+          "name": "Zhaoqiang Zheng",
+          "orcid": "https://orcid.org/0000-0002-1699-2425",
+          "affiliations": [
+            "Guangdong Provincial Key Laboratory of Information Photonics Technology School of Materials and Energy Guangdong University of Technology Guangzhou Guangdong People's Republic of China"
+          ]
+        },
+        {
+          "name": "Yu Zhang",
+          "orcid": "https://orcid.org/0000-0002-2932-5672",
+          "affiliations": [
+            "Ji Hua Laboratory Foshan People's Republic of China"
+          ]
+        },
+        {
+          "name": "Shuti Li",
+          "orcid": "https://orcid.org/0000-0002-8871-1741",
+          "affiliations": [
+            "Guangdong Engineering Research Centre of Optoelectronic Functional Materials and Devices School of Electronic Science and Engineering (School of Microelectronics) Faculty of Engineering South China Normal University Foshan People's Republic of China"
+          ]
+        },
+        {
+          "name": "Nengjie Huo",
+          "orcid": "https://orcid.org/0000-0003-2520-6243",
+          "affiliations": [
+            "Guangdong Engineering Research Centre of Optoelectronic Functional Materials and Devices School of Electronic Science and Engineering (School of Microelectronics) Faculty of Engineering South China Normal University Foshan People's Republic of China"
+          ]
+        },
+        {
+          "name": "Libin Tang",
+          "orcid": "https://orcid.org/0000-0002-7174-2963",
+          "affiliations": [
+            "Yunnan Key Laboratory of Advanced Photoelectric Materials &amp; Devices Kunming Institute of Physics Kunming People's Republic of China"
+          ]
+        },
+        {
+          "name": "Wei Gao",
+          "orcid": "https://orcid.org/0000-0002-8159-3957",
+          "affiliations": [
+            "Guangdong Engineering Research Centre of Optoelectronic Functional Materials and Devices School of Electronic Science and Engineering (School of Microelectronics) Faculty of Engineering South China Normal University Foshan People's Republic of China"
+          ]
+        }
+      ],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [],
+        "directions": [
+          "待分类"
+        ],
+        "direction_basis": "unclassified",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "unverified",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": "P2"
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "direct",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": [
+          {
+            "start": "2026-11-03",
+            "url": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+            "version": "vor"
+          },
+          {
+            "start": "2026-11-03",
+            "url": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+            "version": "tdm"
+          }
+        ]
+      },
+      "citation_counts": {
+        "references": 45,
+        "cited_by": 0,
+        "source": "Crossref",
+        "observed_at": "2026-11-04T00:22:31.847205+00:00"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1002/adom.72029",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": "https://api.crossref.org/works/10.1002/adom.72029",
+        "metadata_observed_at": "2026-11-04T00:22:31.847205+00:00",
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "00efd5da-9fe5-4b09-9bcb-8014ef43b1ab",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Towards fault-tolerant quantum computing with optically controlled superconducting qubits",
+    "authors": [
+      "Na Li",
+      "Yu-Huai Li",
+      "Daojin Fan",
+      "Lian-Chen Han",
+      "Yu Xu",
+      "Jin Lin",
+      "Cheng Guo",
+      "Sheng-Kai Liao",
+      "Xiaobo Zhu",
+      "Cheng-Zhi Peng"
+    ],
+    "doi": "10.1364/oe.616363",
+    "venue": "Optics Express",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "20fe917b3f1c57bc",
+      "name": "Optics Express",
+      "original_name": "Optics Express",
+      "abbr": "OE",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Optics Express",
+        "OE",
+        "Opt. Express"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": "T2",
+      "rank_label": "CIE T2 · 2023",
+      "rank_order": 2,
+      "focus_tier": "P2",
+      "focus_label": "知流 P2 · 领域核心",
+      "focus_order": 2,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "院规待核 · 2020",
+      "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-03",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "研究采用定制光电电路板实现多通道光控制系统，并实验评估控制电子学的等效热噪声、量子比特相干性以及单比特和双比特门保真度。测得双比特受控Z门保真度为99.424±0.083%。",
+    "title_zh": "用于超导量子比特控制的多通道光传输系统",
+    "missing_evidence": [
+      "全文中的通道数量、光链路架构、测试条件及对照数据。",
+      "关于满足表面码容错要求的具体判据与适用条件。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/oe.616363",
+        "text": "研究采用定制光电电路板实现多通道光控制系统，并实验评估控制电子学的等效热噪声、量子比特相干性以及单比特和双比特门保真度。测得双比特受控Z门保真度为99.424±0.083%。"
+      }
+    ],
+    "ai_inference": [
+      "该工作可为低温量子系统中以光传输替代同轴电缆的控制互连提供参考；向光通信系统迁移仍需评估链路带宽、噪声和集成约束。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/oe.616363",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "C",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-04T00:33:15.533090+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "00efd5da-9fe5-4b09-9bcb-8014ef43b1ab",
+      "work_key": "doi:10.1364/oe.616363",
+      "identifiers": {
+        "doi": "10.1364/oe.616363",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": [
+          "1094-4087"
+        ]
+      },
+      "bibliography": {
+        "title": "Towards fault-tolerant quantum computing with optically controlled superconducting qubits",
+        "type": "journal-article",
+        "venue_id": "20fe917b3f1c57bc",
+        "venue_name": "Optics Express",
+        "venue_abbr": "OE",
+        "date": "2026-11-03",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": "34",
+        "issue": "23",
+        "pages": "43602",
+        "article_number": null,
+        "publisher": "Optica Publishing Group",
+        "language": "en",
+        "published_online": "2026-11-03",
+        "published_print": "2026-11-16"
+      },
+      "authors": [
+        "Na Li",
+        "Yu-Huai Li",
+        "Daojin Fan",
+        "Lian-Chen Han",
+        "Yu Xu",
+        "Jin Lin",
+        "Cheng Guo",
+        "Sheng-Kai Liao",
+        "Xiaobo Zhu",
+        "Cheng-Zhi Peng"
+      ],
+      "first_author": "Na Li",
+      "author_count": 10,
+      "contributors": [
+        {
+          "name": "Na Li",
+          "orcid": null,
+          "affiliations": [
+            "University of Science and Technology of China"
+          ]
+        },
+        {
+          "name": "Yu-Huai Li",
+          "orcid": "https://orcid.org/0000-0002-6146-8083",
+          "affiliations": []
+        },
+        {
+          "name": "Sheng-Kai Liao",
+          "orcid": "https://orcid.org/0000-0002-4184-9583",
+          "affiliations": [
+            "University of Science and Technology of China"
+          ]
+        },
+        {
+          "name": "Cheng-Zhi Peng",
+          "orcid": null,
+          "affiliations": [
+            "University of Science and Technology of China"
+          ]
+        }
+      ],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [],
+        "directions": [
+          "待分类"
+        ],
+        "direction_basis": "unclassified",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": "T2",
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "unverified",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": "P2"
+      },
+      "reading": {
+        "priority": "C",
+        "relevance": "direct",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": [
+          {
+            "start": "2026-11-03",
+            "url": "https://doi.org/10.1364/OA_License_v2#VOR-OA",
+            "version": "vor"
+          },
+          {
+            "start": "2026-11-03",
+            "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
+            "version": "tdm"
+          }
+        ]
+      },
+      "citation_counts": {
+        "references": 43,
+        "cited_by": 0,
+        "source": "Crossref",
+        "observed_at": "2026-11-04T00:21:37.753885+00:00"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1364/oe.616363",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": "https://api.crossref.org/works/10.1364/oe.616363",
+        "metadata_observed_at": "2026-11-04T00:21:37.753885+00:00",
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
     "record_id": "fc60a49b-1cca-4d5d-be94-ab2ac3483b39",
     "revision": 2,
     "is_demo": false,
@@ -477,6 +1127,354 @@
         "metadata_observed_at": null,
         "missing": [
           "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "42acbda3-dfef-4017-b128-5f2519f11a70",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "preprint",
+    "title": "Deterministic and dynamic synthesis of optical skyrmions through an ultrathin multimode fibre",
+    "authors": [
+      "R. E. Bautista Gonzalez",
+      "R. Mouthaan",
+      "A. McIntosh",
+      "K. Dholakia"
+    ],
+    "doi": null,
+    "venue": "arXiv",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "43ef3159143b717e",
+      "name": "arXiv",
+      "original_name": "arXiv",
+      "abbr": "arXiv",
+      "kind": "preprint",
+      "match_status": "platform",
+      "aliases": [
+        "arXiv",
+        "arXiv"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "not-applicable",
+      "hust_label": "不适用院规等级",
+      "hust_note": "",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-02",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "该预印本摘要报告，通过结合矢量传输矩阵控制与相位恢复优化，在超细多模光纤输出端重构指定矢量光场，生成多种光学斯格明子及双半斯格明子。作者利用偏振分辨的斯托克斯矢量测量与斯格明子数计算确认拓扑性质，并通过波前重编程实现不同状态间的可逆转换。",
+    "title_zh": "超细多模光纤中光学斯格明子的确定性生成与动态重构",
+    "missing_evidence": [
+      "未提供全文，无法核查实验配置、重构保真度、动态重构速度及稳定性。",
+      "摘要未提供数据通信实验或误码率等通信性能证据。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://arxiv.org/abs/2611.02549v1",
+        "text": "该预印本摘要报告，通过结合矢量传输矩阵控制与相位恢复优化，在超细多模光纤输出端重构指定矢量光场，生成多种光学斯格明子及双半斯格明子。作者利用偏振分辨的斯托克斯矢量测量与斯格明子数计算确认拓扑性质，并通过波前重编程实现不同状态间的可逆转换。"
+      }
+    ],
+    "ai_inference": [
+      "偏振与空间模式的联合控制可为多模光纤中的拓扑态编码提供研究思路；其通信价值仍需通过传输稳定性和数据通信实验验证。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract+pdf-link",
+    "source_url": "https://arxiv.org/abs/2611.02549v1",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-04T00:35:21.183885+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "42acbda3-dfef-4017-b128-5f2519f11a70",
+      "work_key": "arxiv:2611.02549",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "2611.02549",
+        "paper_code": null,
+        "issn": []
+      },
+      "bibliography": {
+        "title": "Deterministic and dynamic synthesis of optical skyrmions through an ultrathin multimode fibre",
+        "type": "preprint",
+        "venue_id": "43ef3159143b717e",
+        "venue_name": "arXiv",
+        "venue_abbr": "arXiv",
+        "date": "2026-11-02",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": null,
+        "publisher": null,
+        "language": null,
+        "published_online": null,
+        "published_print": null
+      },
+      "authors": [
+        "R. E. Bautista Gonzalez",
+        "R. Mouthaan",
+        "A. McIntosh",
+        "K. Dholakia"
+      ],
+      "first_author": "R. E. Bautista Gonzalez",
+      "author_count": 4,
+      "contributors": [],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [
+          "physics.optics"
+        ],
+        "topic_tags": [],
+        "directions": [
+          "待分类"
+        ],
+        "direction_basis": "unclassified",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "not-applicable",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": null
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "enabling",
+        "evidence": "abstract+pdf-link"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": null,
+        "cited_by": null,
+        "source": null,
+        "observed_at": null
+      },
+      "provenance": {
+        "source_url": "https://arxiv.org/abs/2611.02549v1",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": null,
+        "metadata_observed_at": null,
+        "missing": [
+          "author_keywords",
+          "doi",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "423b0888-c3a5-4f7e-9e2e-f7dce9af1cb7",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "preprint",
+    "title": "Experimental demonstration of phase-conjugated twin-wave coherent reception over 100 km with injection locking assisted phase stabilization",
+    "authors": [
+      "Zhenlin Zhao",
+      "Xingwen Yi",
+      "Dawei Wang"
+    ],
+    "doi": null,
+    "venue": "arXiv",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "43ef3159143b717e",
+      "name": "arXiv",
+      "original_name": "arXiv",
+      "abbr": "arXiv",
+      "kind": "preprint",
+      "match_status": "platform",
+      "aliases": [
+        "arXiv",
+        "arXiv"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "not-applicable",
+      "hust_label": "不适用院规等级",
+      "hust_note": "",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-01",
+    "topics": [
+      "光通信与光互连"
+    ],
+    "summary_zh": "该预印本摘要报告了实验演示：利用光注入锁定再生本振，并通过导频辅助光反馈稳定信号与本振的相对相位，实现200 MBaud、最高256-QAM信号经100公里光纤传输后的相位共轭孪生波联合接收。在每个承载数据的光学模式、每个正交分量接收信号光子数相等的比较条件下，实测信噪比超过理想单模零差标准量子极限基准，相对实测零差和常规外差接收分别提高约3 dB和6 dB。星座图及误码率测量显示，相对外差接收的高阶数据恢复得到改善。理想高斯噪声模型预测，均匀16-QAM的光子信息效率为每个接收信号光子1.54 bit。",
+    "title_zh": "注入锁定辅助相位共轭孪生波接收实现100公里传输",
+    "missing_evidence": [
+      "未提供全文，无法核对实验配置、误码率具体结果、测量不确定度及完整资源核算。",
+      "摘要未说明参考光与导频的光子开销是否计入效率比较。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://arxiv.org/abs/2611.01946v1",
+        "text": "该预印本摘要报告了实验演示：利用光注入锁定再生本振，并通过导频辅助光反馈稳定信号与本振的相对相位，实现200 MBaud、最高256-QAM信号经100公里光纤传输后的相位共轭孪生波联合接收。在每个承载数据的光学模式、每个正交分量接收信号光子数相等的比较条件下，实测信噪比超过理想单模零差标准量子极限基准，相对实测零差和常规外差接收分别提高约3 dB和6 dB。星座图及误码率测量显示，相对外差接收的高阶数据恢复得到改善。理想高斯噪声模型预测，均匀16-QAM的光子信息效率为每个接收信号光子1.54 bit。"
+      }
+    ],
+    "ai_inference": [
+      "注入锁定再生本振与导频反馈的组合，可为长距离相位敏感联合接收提供研究参考。",
+      "后续值得在计入参考光、导频和双模式资源后，评估系统总光子预算下的效率收益。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract+pdf-link",
+    "source_url": "https://arxiv.org/abs/2611.01946v1",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-04T00:37:29.226912+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "423b0888-c3a5-4f7e-9e2e-f7dce9af1cb7",
+      "work_key": "arxiv:2611.01946",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "2611.01946",
+        "paper_code": null,
+        "issn": []
+      },
+      "bibliography": {
+        "title": "Experimental demonstration of phase-conjugated twin-wave coherent reception over 100 km with injection locking assisted phase stabilization",
+        "type": "preprint",
+        "venue_id": "43ef3159143b717e",
+        "venue_name": "arXiv",
+        "venue_abbr": "arXiv",
+        "date": "2026-11-01",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": null,
+        "publisher": null,
+        "language": null,
+        "published_online": null,
+        "published_print": null
+      },
+      "authors": [
+        "Zhenlin Zhao",
+        "Xingwen Yi",
+        "Dawei Wang"
+      ],
+      "first_author": "Zhenlin Zhao",
+      "author_count": 3,
+      "contributors": [],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [
+          "physics.optics",
+          "quant-ph"
+        ],
+        "topic_tags": [
+          "相干通信"
+        ],
+        "directions": [
+          "光通信与光互连"
+        ],
+        "direction_basis": "title-session-rule",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "not-applicable",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": null
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "direct",
+        "evidence": "abstract+pdf-link"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": null,
+        "cited_by": null,
+        "source": null,
+        "observed_at": null
+      },
+      "provenance": {
+        "source_url": "https://arxiv.org/abs/2611.01946v1",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": null,
+        "metadata_observed_at": null,
+        "missing": [
+          "author_keywords",
+          "doi",
           "open_access"
         ]
       }
@@ -28341,6 +29339,257 @@
   },
   {
     "schema_version": 1,
+    "record_id": "da7693aa-b4e9-42b7-809d-e81c4428fa1b",
+    "revision": 3,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Frequency‐Resolving Terahertz Detection via NbGeSb Topological Semimetal Integrated With Multi‐Scale 3D‐Printed Metastructures",
+    "authors": [
+      "Wenzhe Wang",
+      "Guodong Jia",
+      "Zuoang Sun",
+      "Min Zhang",
+      "Bingyuan Zhang",
+      "Feilong Gao",
+      "Ling Li",
+      "Qi Song"
+    ],
+    "doi": "10.1002/adom.71910",
+    "venue": "Advanced Optical Materials",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "fe81e54a8f507da5",
+      "name": "Advanced Optical Materials",
+      "original_name": "Advanced Optical Materials",
+      "abbr": "Adv. Opt. Mater.",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Advanced Optical Materials",
+        "Adv. Opt. Mater.",
+        "AOM"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "未匹配 CIE 2023",
+      "rank_order": 99,
+      "focus_tier": "P2",
+      "focus_label": "知流 P2 · 领域核心",
+      "focus_order": 2,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "院规待核 · 2020",
+      "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-10-13",
+    "topics": [
+      "微波与太赫兹光子学"
+    ],
+    "summary_zh": "该研究将NbGeSb拓扑半金属薄膜与多尺度3D打印亚波长超结构集成，利用尺寸相关局域表面等离激元共振实现0.1–0.4 THz范围的选择性场约束。有限差分仿真显示，大面积器件在0.1 THz处的峰值场增强超过10³。摘要报告，优化器件在室温、11.5 V偏压下的响应度为42.231 A/W，噪声等效功率为1.191 pW/Hz¹ᐟ²；太赫兹时域光谱确认了频率选择性调制，最强响应位于约0.1 THz。激光和磁场调制分别增强了频率选择性对比度，二者同时作用仅作为未来方案提出。",
+    "title_zh": "NbGeSb与3D打印超结构集成实现频率分辨太赫兹探测",
+    "missing_evidence": [
+      "未提供全文，无法核查响应度及噪声等效功率的测量方法、误差和适用频点。",
+      "摘要未给出信道分辨率、串扰、探测带宽或通信链路验证。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1002/adom.71910",
+        "text": "该研究将NbGeSb拓扑半金属薄膜与多尺度3D打印亚波长超结构集成，利用尺寸相关局域表面等离激元共振实现0.1–0.4 THz范围的选择性场约束。有限差分仿真显示，大面积器件在0.1 THz处的峰值场增强超过10³。摘要报告，优化器件在室温、11.5 V偏压下的响应度为42.231 A/W，噪声等效功率为1.191 pW/Hz¹ᐟ²；太赫兹时域光谱确认了频率选择性调制，最强响应位于约0.1 THz。激光和磁场调制分别增强了频率选择性对比度，二者同时作用仅作为未来方案提出。"
+      }
+    ],
+    "ai_inference": [
+      "尺寸可调的共振超结构可为太赫兹频分接收前端提供设计思路；能否用于实际通信仍需多信道分辨与链路实验验证。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1002/adom.71910",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": "D",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-04T00:41:40.661325+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "da7693aa-b4e9-42b7-809d-e81c4428fa1b",
+      "work_key": "doi:10.1002/adom.71910",
+      "identifiers": {
+        "doi": "10.1002/adom.71910",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": [
+          "2195-1071"
+        ]
+      },
+      "bibliography": {
+        "title": "Frequency‐Resolving Terahertz Detection via NbGeSb Topological Semimetal Integrated With Multi‐Scale 3D‐Printed Metastructures",
+        "type": "journal-article",
+        "venue_id": "fe81e54a8f507da5",
+        "venue_name": "Advanced Optical Materials",
+        "venue_abbr": "Adv. Opt. Mater.",
+        "date": "2026-10-13",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": "e71910",
+        "publisher": "Wiley",
+        "language": "en",
+        "published_online": "2026-10-13",
+        "published_print": null
+      },
+      "authors": [
+        "Wenzhe Wang",
+        "Guodong Jia",
+        "Zuoang Sun",
+        "Min Zhang",
+        "Bingyuan Zhang",
+        "Feilong Gao",
+        "Ling Li",
+        "Qi Song"
+      ],
+      "first_author": "Wenzhe Wang",
+      "author_count": 8,
+      "contributors": [
+        {
+          "name": "Wenzhe Wang",
+          "orcid": "https://orcid.org/0009-0002-9580-2008",
+          "affiliations": [
+            "School of Physics Science and Information Technology Liaocheng University Liaocheng China"
+          ]
+        },
+        {
+          "name": "Guodong Jia",
+          "orcid": "https://orcid.org/0009-0009-9180-2917",
+          "affiliations": [
+            "College of Physics and Optoelectronic Engineering State Key Laboratory of Radio Frequency Heterogeneous Integration (Shenzhen University) Key Laboratory of Optoelectronic Devices and Systems of Ministry of Education and Guangdong Province Shenzhen University Shenzhen China"
+          ]
+        },
+        {
+          "name": "Zuoang Sun",
+          "orcid": null,
+          "affiliations": [
+            "School of Physics Science and Information Technology Liaocheng University Liaocheng China"
+          ]
+        },
+        {
+          "name": "Min Zhang",
+          "orcid": "https://orcid.org/0000-0002-0910-2172",
+          "affiliations": [
+            "College of Physics and Optoelectronic Engineering State Key Laboratory of Radio Frequency Heterogeneous Integration (Shenzhen University) Key Laboratory of Optoelectronic Devices and Systems of Ministry of Education and Guangdong Province Shenzhen University Shenzhen China"
+          ]
+        },
+        {
+          "name": "Bingyuan Zhang",
+          "orcid": null,
+          "affiliations": [
+            "School of Physics Science and Information Technology Liaocheng University Liaocheng China"
+          ]
+        },
+        {
+          "name": "Feilong Gao",
+          "orcid": "https://orcid.org/0009-0004-7270-731X",
+          "affiliations": [
+            "School of Physics Science and Information Technology Liaocheng University Liaocheng China"
+          ]
+        },
+        {
+          "name": "Ling Li",
+          "orcid": null,
+          "affiliations": [
+            "College of Physics and Optoelectronic Engineering State Key Laboratory of Radio Frequency Heterogeneous Integration (Shenzhen University) Key Laboratory of Optoelectronic Devices and Systems of Ministry of Education and Guangdong Province Shenzhen University Shenzhen China"
+          ]
+        },
+        {
+          "name": "Qi Song",
+          "orcid": "https://orcid.org/0000-0002-1167-871X",
+          "affiliations": [
+            "School of Physics Science and Information Technology Liaocheng University Liaocheng China"
+          ]
+        }
+      ],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [
+          "太赫兹"
+        ],
+        "directions": [
+          "微波与太赫兹光子学"
+        ],
+        "direction_basis": "source-classification",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "unverified",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": "P2"
+      },
+      "reading": {
+        "priority": "D",
+        "relevance": "enabling",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": [
+          {
+            "url": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
+            "version": "vor",
+            "start": "2026-10-13"
+          },
+          {
+            "url": "http://doi.wiley.com/10.1002/tdm_license_1.1",
+            "version": "tdm",
+            "start": "2026-10-13"
+          }
+        ]
+      },
+      "citation_counts": {
+        "references": 33,
+        "cited_by": 0,
+        "source": "Crossref",
+        "observed_at": "2026-10-23T00:18:49.146051+00:00"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1002/adom.71910",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": "https://api.crossref.org/works/10.1002/adom.71910",
+        "metadata_observed_at": "2026-10-23T00:18:49.146051+00:00",
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
     "record_id": "bf270e4f-d1a0-4fde-bcdd-57fbefd745ca",
     "revision": 3,
     "is_demo": false,
@@ -30487,6 +31736,171 @@
   },
   {
     "schema_version": 1,
+    "record_id": "e05b7f9f-758f-4748-9dcb-92b9166316de",
+    "revision": 3,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Applications and Significance of Magneto-Optical Garnets in Quantum Computing and the Quantum Internet",
+    "authors": [
+      "Mehmet Keçeci"
+    ],
+    "doi": "10.5281/zenodo.23308278",
+    "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "57e317839a6cd522",
+      "name": "Zenodo (CERN European Organization for Nuclear Research)",
+      "original_name": "Zenodo (CERN European Organization for Nuclear Research)",
+      "abbr": "Zenodo (CERN European Organization for Nuclear Research)",
+      "kind": "repository",
+      "match_status": "platform",
+      "aliases": [
+        "Zenodo (CERN European Organization for Nuclear Research)",
+        "Zenodo (CERN European Organization for Nuclear Research)"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "not-applicable",
+      "hust_label": "不适用院规等级",
+      "hust_note": "",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-10-12",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "该综述讨论钇铁石榴石（YIG）等磁光石榴石的物理性质及其在量子磁振子学、光磁振子学、微波到光学量子转导、光隔离和非互易光子器件中的作用，并评估其对分布式量子计算和量子互联网的潜在意义。摘要称文章还讨论了限制这些材料性能的主要技术问题。",
+    "title_zh": "磁光石榴石用于量子光互连的综述",
+    "missing_evidence": [
+      "缺少全文，无法核查综述所引用的实验依据、具体性能和技术局限。",
+      "材料未提供同行评审状态信息。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.5281/zenodo.23308278",
+        "text": "该综述讨论钇铁石榴石（YIG）等磁光石榴石的物理性质及其在量子磁振子学、光磁振子学、微波到光学量子转导、光隔离和非互易光子器件中的作用，并评估其对分布式量子计算和量子互联网的潜在意义。摘要称文章还讨论了限制这些材料性能的主要技术问题。"
+      }
+    ],
+    "ai_inference": [
+      "可将磁光石榴石作为连接超导量子处理节点与光纤量子链路的候选接口方向，后续需重点核查转导效率、附加噪声及工作条件。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.5281/zenodo.23308278",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-04T00:45:50.804806+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "e05b7f9f-758f-4748-9dcb-92b9166316de",
+      "work_key": "doi:10.5281/zenodo.23308278",
+      "identifiers": {
+        "doi": "10.5281/zenodo.23308278",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": []
+      },
+      "bibliography": {
+        "title": "Applications and Significance of Magneto-Optical Garnets in Quantum Computing and the Quantum Internet",
+        "type": "unknown",
+        "venue_id": "57e317839a6cd522",
+        "venue_name": "Zenodo (CERN European Organization for Nuclear Research)",
+        "venue_abbr": "Zenodo (CERN European Organization for Nuclear Research)",
+        "date": "2026-10-12",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": null,
+        "publisher": null,
+        "language": null,
+        "published_online": null,
+        "published_print": null
+      },
+      "authors": [
+        "Mehmet Keçeci"
+      ],
+      "first_author": "Mehmet Keçeci",
+      "author_count": 1,
+      "contributors": [],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [],
+        "directions": [
+          "待分类"
+        ],
+        "direction_basis": "unclassified",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "not-applicable",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": null
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "enabling",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": null,
+        "cited_by": null,
+        "source": null,
+        "observed_at": null
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.5281/zenodo.23308278",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": null,
+        "metadata_observed_at": null,
+        "missing": [
+          "author_keywords",
+          "venue",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
     "record_id": "acb772e8-2198-48cc-bc7a-0c2925587d08",
     "revision": 3,
     "is_demo": false,
@@ -31248,6 +32662,520 @@
         "normalizer": "paper-attributes-v1",
         "metadata_source": "https://api.crossref.org/works/10.1364/oe.613485",
         "metadata_observed_at": "2026-10-20T00:23:18.033393+00:00",
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "78d812c9-ba0a-47cf-81b7-775ecc0530a1",
+    "revision": 3,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Polarization conversion of a flexible chiral optical fiber in the terahertz band",
+    "authors": [
+      "Peng-Fei Li",
+      "Zhi-Yong Tan",
+      "Yu-Min Xia",
+      "Hong-Ying Zhou",
+      "Jun-Cheng Cao",
+      "Cheng-Ran Du"
+    ],
+    "doi": "10.1364/oe.612338",
+    "venue": "Optics Express",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "20fe917b3f1c57bc",
+      "name": "Optics Express",
+      "original_name": "Optics Express",
+      "abbr": "OE",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Optics Express",
+        "OE",
+        "Opt. Express"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": "T2",
+      "rank_label": "CIE T2 · 2023",
+      "rank_order": 2,
+      "focus_tier": "P2",
+      "focus_label": "知流 P2 · 领域核心",
+      "focus_order": 2,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "院规待核 · 2020",
+      "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-10-12",
+    "topics": [
+      "微波与太赫兹光子学"
+    ],
+    "summary_zh": "摘要报告制备并表征了一种具有旋转对称性的柔性手性光纤。该光纤采用聚丙烯熔融纺丝制造，由一个空芯及其周围八个中空半环组成，在4.3 THz表现出良好传输特性，并可将线偏振波转换为椭圆偏振波。",
+    "title_zh": "柔性手性太赫兹光纤实现偏振转换",
+    "missing_evidence": [
+      "仅提供摘要，缺少全文及实验方法，无法核查具体测试条件。",
+      "未提供传输损耗、偏振转换效率、工作带宽及弯曲条件下性能的定量结果。",
+      "未提供通信链路或数据传输验证。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/oe.612338",
+        "text": "摘要报告制备并表征了一种具有旋转对称性的柔性手性光纤。该光纤采用聚丙烯熔融纺丝制造，由一个空芯及其周围八个中空半环组成，在4.3 THz表现出良好传输特性，并可将线偏振波转换为椭圆偏振波。"
+      }
+    ],
+    "ai_inference": [
+      "该结构可为太赫兹通信系统的光纤偏振调控提供研究思路，但其通信链路适用性仍需验证。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/oe.612338",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": "D",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-04T00:47:55.419774+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "78d812c9-ba0a-47cf-81b7-775ecc0530a1",
+      "work_key": "doi:10.1364/oe.612338",
+      "identifiers": {
+        "doi": "10.1364/oe.612338",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": [
+          "1094-4087"
+        ]
+      },
+      "bibliography": {
+        "title": "Polarization conversion of a flexible chiral optical fiber in the terahertz band",
+        "type": "journal-article",
+        "venue_id": "20fe917b3f1c57bc",
+        "venue_name": "Optics Express",
+        "venue_abbr": "OE",
+        "date": "2026-10-12",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": "34",
+        "issue": "21",
+        "pages": "39626",
+        "article_number": null,
+        "publisher": "Optica Publishing Group",
+        "language": "en",
+        "published_online": "2026-10-12",
+        "published_print": "2026-10-19"
+      },
+      "authors": [
+        "Peng-Fei Li",
+        "Zhi-Yong Tan",
+        "Yu-Min Xia",
+        "Hong-Ying Zhou",
+        "Jun-Cheng Cao",
+        "Cheng-Ran Du"
+      ],
+      "first_author": "Peng-Fei Li",
+      "author_count": 6,
+      "contributors": [
+        {
+          "name": "Peng-Fei Li",
+          "orcid": "https://orcid.org/0009-0005-0408-5667",
+          "affiliations": []
+        },
+        {
+          "name": "Zhi-Yong Tan",
+          "orcid": "https://orcid.org/0000-0002-5932-8137",
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences"
+          ]
+        },
+        {
+          "name": "Yu-Min Xia",
+          "orcid": null,
+          "affiliations": [
+            "Donghua University"
+          ]
+        },
+        {
+          "name": "Jun-Cheng Cao",
+          "orcid": null,
+          "affiliations": [
+            "Chinese Academy of Sciences",
+            "University of Chinese Academy of Sciences"
+          ]
+        }
+      ],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [
+          "太赫兹"
+        ],
+        "directions": [
+          "微波与太赫兹光子学"
+        ],
+        "direction_basis": "source-classification",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": "T2",
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "unverified",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": "P2"
+      },
+      "reading": {
+        "priority": "D",
+        "relevance": "enabling",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": [
+          {
+            "url": "https://doi.org/10.1364/OA_License_v2#VOR-OA",
+            "version": "vor",
+            "start": "2026-10-12"
+          },
+          {
+            "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
+            "version": "tdm",
+            "start": "2026-10-12"
+          }
+        ]
+      },
+      "citation_counts": {
+        "references": 63,
+        "cited_by": 0,
+        "source": "Crossref",
+        "observed_at": "2026-10-20T00:23:18.033393+00:00"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1364/oe.612338",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": "https://api.crossref.org/works/10.1364/oe.612338",
+        "metadata_observed_at": "2026-10-20T00:23:18.033393+00:00",
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "45817361-71a6-4b6b-84f7-8249b15fd7b5",
+    "revision": 3,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "C-plane yellow–green InGaN micro-light-emitting diodes with 1.55 GHz modulation bandwidth for free-space visible-light communication",
+    "authors": [
+      "Jianhui Liu",
+      "Hongjian Li",
+      "Guanqi Li",
+      "Chunyu Liu",
+      "Yang Su",
+      "Yunpeng Ge",
+      "Zihan Xia",
+      "Ahmad Shuhaimi",
+      "Jinchai Li",
+      "Zhaoxia Bi",
+      "Panpan Li",
+      "Kai Huang",
+      "Rong Zhang"
+    ],
+    "doi": "10.1063/5.0346978",
+    "venue": "Applied Physics Letters",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "b2ec04237afa0fba",
+      "name": "Applied Physics Letters",
+      "original_name": "Applied Physics Letters",
+      "abbr": "Appl. Phys. Lett.",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Applied Physics Letters",
+        "Appl. Phys. Lett.",
+        "APL"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": "T2",
+      "rank_label": "CIE T2 · 2023",
+      "rank_order": 2,
+      "focus_tier": "P3",
+      "focus_label": "知流 P3 · 扩展关注",
+      "focus_order": 3,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "院规待核 · 2020",
+      "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-10-12",
+    "topics": [
+      "自由空间、可见光与空间光通信"
+    ],
+    "summary_zh": "该实验研究报道近545 nm发光的c面单量子阱InGaN微LED。40和60 μm器件的峰值外量子效率分别为5.36%和5.35%，在1000 A cm−2下分别保持2.84%和2.83%。40 μm器件的最大−3 dB小信号调制带宽达1.55 GHz，并在300–375 K范围内保持GHz级带宽。研究还演示了2.0 Gbit/s自由空间非归零开关键控传输，估算误码率低于7%开销硬判决前向纠错门限。",
+    "title_zh": "黄绿光InGaN微LED实现1.55 GHz调制与2.0 Gbit/s可见光传输",
+    "missing_evidence": [
+      "仅提供摘要，缺少全文中的链路距离、接收机配置、误码率估算方法及测试条件。",
+      "缺少长期可靠性和完整热测试资料，无法由摘要确认持续运行表现。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1063/5.0346978",
+        "text": "该实验研究报道近545 nm发光的c面单量子阱InGaN微LED。40和60 μm器件的峰值外量子效率分别为5.36%和5.35%，在1000 A cm−2下分别保持2.84%和2.83%。40 μm器件的最大−3 dB小信号调制带宽达1.55 GHz，并在300–375 K范围内保持GHz级带宽。研究还演示了2.0 Gbit/s自由空间非归零开关键控传输，估算误码率低于7%开销硬判决前向纠错门限。"
+      }
+    ],
+    "ai_inference": [
+      "可探索将该黄绿光器件用于可见光通信的波分复用通道；实际价值仍需结合链路距离、接收条件及功耗验证。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1063/5.0346978",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-04T00:43:46.042222+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "45817361-71a6-4b6b-84f7-8249b15fd7b5",
+      "work_key": "doi:10.1063/5.0346978",
+      "identifiers": {
+        "doi": "10.1063/5.0346978",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": [
+          "0003-6951",
+          "1077-3118"
+        ]
+      },
+      "bibliography": {
+        "title": "C-plane yellow–green InGaN micro-light-emitting diodes with 1.55 GHz modulation bandwidth for free-space visible-light communication",
+        "type": "journal-article",
+        "venue_id": "b2ec04237afa0fba",
+        "venue_name": "Applied Physics Letters",
+        "venue_abbr": "Appl. Phys. Lett.",
+        "date": "2026-10-12",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": "129",
+        "issue": "15",
+        "pages": null,
+        "article_number": "151106",
+        "publisher": "AIP Publishing",
+        "language": "en",
+        "published_online": "2026-10-13",
+        "published_print": "2026-10-12"
+      },
+      "authors": [
+        "Jianhui Liu",
+        "Hongjian Li",
+        "Guanqi Li",
+        "Chunyu Liu",
+        "Yang Su",
+        "Yunpeng Ge",
+        "Zihan Xia",
+        "Ahmad Shuhaimi",
+        "Jinchai Li",
+        "Zhaoxia Bi",
+        "Panpan Li",
+        "Kai Huang",
+        "Rong Zhang"
+      ],
+      "first_author": "Jianhui Liu",
+      "author_count": 13,
+      "contributors": [
+        {
+          "name": "Jianhui Liu",
+          "orcid": "https://orcid.org/0009-0002-6741-9167",
+          "affiliations": [
+            "Department of Electronic Science, Xiamen University 1 , Xiamen 361005,"
+          ]
+        },
+        {
+          "name": "Hongjian Li",
+          "orcid": "https://orcid.org/0000-0003-0635-4777",
+          "affiliations": [
+            "Department of Electronic Science, Xiamen University 1 , Xiamen 361005,",
+            "Future Display Institute of Xiamen 2 , Xiamen 361005,"
+          ]
+        },
+        {
+          "name": "Guanqi Li",
+          "orcid": null,
+          "affiliations": [
+            "Department of Physics, Xiamen University 3 , Xiamen 361005,"
+          ]
+        },
+        {
+          "name": "Chunyu Liu",
+          "orcid": "https://orcid.org/0009-0007-4333-8043",
+          "affiliations": [
+            "Future Display Institute of Xiamen 2 , Xiamen 361005,",
+            "Department of Physics, Xiamen University 3 , Xiamen 361005,"
+          ]
+        },
+        {
+          "name": "Yang Su",
+          "orcid": "https://orcid.org/0009-0009-9443-1170",
+          "affiliations": [
+            "Department of Physics, Xiamen University 3 , Xiamen 361005,"
+          ]
+        },
+        {
+          "name": "Yunpeng Ge",
+          "orcid": "https://orcid.org/0009-0007-7511-5370",
+          "affiliations": [
+            "Department of Electronic Science, Xiamen University 1 , Xiamen 361005,"
+          ]
+        },
+        {
+          "name": "Zihan Xia",
+          "orcid": null,
+          "affiliations": [
+            "Department of Electronic Science, Xiamen University 1 , Xiamen 361005,"
+          ]
+        },
+        {
+          "name": "Ahmad Shuhaimi",
+          "orcid": "https://orcid.org/0000-0002-2575-850X",
+          "affiliations": [
+            "Low Dimensional Material Research Centre (LDMRC), Department of Physics, University of Malaya 4 , 50603 Kuala Lumpur,"
+          ]
+        },
+        {
+          "name": "Jinchai Li",
+          "orcid": "https://orcid.org/0000-0003-3666-9120",
+          "affiliations": [
+            "Future Display Institute of Xiamen 2 , Xiamen 361005,",
+            "Department of Physics, Xiamen University 3 , Xiamen 361005,"
+          ]
+        },
+        {
+          "name": "Zhaoxia Bi",
+          "orcid": "https://orcid.org/0000-0002-7024-7266",
+          "affiliations": [
+            "Future Display Institute of Xiamen 2 , Xiamen 361005,"
+          ]
+        },
+        {
+          "name": "Panpan Li",
+          "orcid": "https://orcid.org/0009-0004-3492-7266",
+          "affiliations": [
+            "Future Display Institute of Xiamen 2 , Xiamen 361005,",
+            "Department of Physics, Xiamen University 3 , Xiamen 361005,"
+          ]
+        },
+        {
+          "name": "Kai Huang",
+          "orcid": "https://orcid.org/0000-0002-9876-2913",
+          "affiliations": [
+            "Future Display Institute of Xiamen 2 , Xiamen 361005,",
+            "Department of Physics, Xiamen University 3 , Xiamen 361005,"
+          ]
+        },
+        {
+          "name": "Rong Zhang",
+          "orcid": "https://orcid.org/0000-0003-0015-6331",
+          "affiliations": [
+            "Future Display Institute of Xiamen 2 , Xiamen 361005,",
+            "Department of Physics, Xiamen University 3 , Xiamen 361005,",
+            "National Laboratory of Solid-State Microstructures, School of Electronic Science and Engineering and Collaborative Innovation Center of Advanced Microstructures, Nanjing University 5 , Nanjing 210093,"
+          ]
+        }
+      ],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [
+          "自由空间光通信",
+          "可见光通信"
+        ],
+        "directions": [
+          "自由空间、可见光与空间光通信"
+        ],
+        "direction_basis": "source-classification",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": "T2",
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "unverified",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": "P3"
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "direct",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": 24,
+        "cited_by": 0,
+        "source": "Crossref",
+        "observed_at": "2026-10-23T00:19:12.949251+00:00"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1063/5.0346978",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": "https://api.crossref.org/works/10.1063/5.0346978",
+        "metadata_observed_at": "2026-10-23T00:19:12.949251+00:00",
         "missing": [
           "author_keywords",
           "open_access"

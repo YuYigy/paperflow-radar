@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "eec97f1c-f66f-497d-ba33-bedc4daabf3a",
-  "root": "doi:10.1002/lpor.72084",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7223269555",
+  "status": "ok",
+  "checked_at": "2026-11-04T00:54:40.383772+00:00",
+  "coverage": {
+    "references_found": 21,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 21,
+    "displayed": 21
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1002/lpor.72084",
+      "id": "W7223269555",
       "doi": "10.1002/lpor.72084",
       "title": "Integration of III‐V Quantum Dot Photonic Devices on Silicon Nitride via Lithography‐Aligned Micro‐Transfer Printing",
       "authors": [
@@ -21,20 +31,1337 @@
         "Ying Yu",
         "Siyuan Yu"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Laser & Photonics Reviews",
       "venue_abbr": "LPR",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "III-V quantum dots",
+        "quantum photonic integrated circuits",
+        "heterogeneous integration",
+        "micro-transfer printing",
+        "silicon nitride",
+        "electron beam lithography",
+        "microring resonators",
+        "photonic crystal waveguides",
+        "second-order intensity correlation",
+        "quantum information processing"
+      ],
       "url": "https://doi.org/10.1002/lpor.72084",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/eec97f1c-f66f-497d-ba33-bedc4daabf3a.html",
       "summary": "摘要报告：QPIC需要把高性能有源量子光子器件与低损无源电路异质集成，常规晶圆键合与先加工后转移受热-机应力或机械放置公差限制。提出光刻对准微转印（µTP）策略：把无图形III-V膜局部转印到SiNx平台，再经标记电子束光刻图形化——把关键对准要求从机械放置转移到光刻套刻。演示Q=4981±57的微环谐振腔、带Purcell增强单光子发射的光子晶体波导集成，以及在785 nm脉冲激发下用片上SiNx MMI分束器完成HBT测量：g(2)(0)=0.045±0.008。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W2775793435",
+      "doi": "10.1021/acs.nanolett.7b05218",
+      "title": "Deterministic Integration of Quantum Dots into on-Chip Multimode Interference Beamsplitters Using in Situ Electron Beam Lithography",
+      "authors": [
+        "Peter Schnauber",
+        "Johannes Schall",
+        "S. Bounouar",
+        "Theresa Höhne",
+        "Suk‐In Park",
+        "Geunhwan Ryu",
+        "Tobias Heindel",
+        "Sven Burger",
+        "Jin Dong Song",
+        "Sven Rodt",
+        "Stephan Reitzenstein"
+      ],
+      "year": 2018,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "InAs quantum dots",
+        "single-photon emission",
+        "nanophotonic integration"
+      ],
+      "url": "https://doi.org/10.1021/acs.nanolett.7b05218",
+      "cited_by_count": 109,
+      "importance": 0.5578,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3193622731",
+      "doi": "10.1002/lpor.202100223",
+      "title": "Nanoscale Positioning Approaches for Integrating Single Solid‐State Quantum Emitters with Photonic Nanostructures",
+      "authors": [
+        "Shunfa Liu",
+        "Kartik A. Srinivasan",
+        "Jin Liu"
+      ],
+      "year": 2021,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "nanoscale positioning",
+        "solid-state quantum emitters",
+        "photonic nanostructures",
+        "atomic force microscopy",
+        "scanning electron microscopy",
+        "confocal microscopy",
+        "fluorescence imaging",
+        "single-photon sources",
+        "entangled photon pairs",
+        "cavity quantum electrodynamics",
+        "quantum photonic devices"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202100223",
+      "cited_by_count": 54,
+      "importance": 0.5254,
+      "score_basis": {
+        "topic_overlap": 0.168,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3121631513",
+      "doi": "10.1063/5.0031628",
+      "title": "Integrated nanophotonics for the development of fully functional quantum circuits based on on-demand single-photon emitters",
+      "authors": [
+        "Sven Rodt",
+        "Stephan Reitzenstein"
+      ],
+      "year": 2021,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "monolithic integration",
+        "linear optical quantum computing",
+        "Bell state measurement",
+        "entanglement swapping",
+        "quantum networks",
+        "CNOT gate",
+        "boson sampling",
+        "quantum advantage"
+      ],
+      "url": "https://doi.org/10.1063/5.0031628",
+      "cited_by_count": 55,
+      "importance": 0.4779,
+      "score_basis": {
+        "topic_overlap": 0.284,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2971161868",
+      "doi": "10.1021/acs.nanolett.9b02758",
+      "title": "Indistinguishable Photons from Deterministically Integrated Single Quantum Dots in Heterogeneous GaAs/Si3N4 Quantum Photonic Circuits",
+      "authors": [
+        "Peter Schnauber",
+        "Anshuman Singh",
+        "Johannes Schall",
+        "Suk In Park",
+        "Jin Dong Song",
+        "Sven Rodt",
+        "Kartik A. Srinivasan",
+        "Stephan Reitzenstein",
+        "Marcelo Davanço"
+      ],
+      "year": 2019,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photon indistinguishability",
+        "single quantum dots",
+        "InAs quantum dots",
+        "silicon photonics",
+        "single-photon sources",
+        "nanophotonic waveguides",
+        "electron beam lithography",
+        "quantum photonic circuits"
+      ],
+      "url": "https://doi.org/10.1021/acs.nanolett.9b02758",
+      "cited_by_count": 86,
+      "importance": 0.4735,
+      "score_basis": {
+        "topic_overlap": 0.408,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2235174674",
+      "doi": "10.1109/jstqe.2016.2573218",
+      "title": "Silicon Quantum Photonics",
+      "authors": [
+        "Joshua W. Silverstone",
+        "Damien Bonneau",
+        "Jeremy L. O’Brien",
+        "Mark G. Thompson"
+      ],
+      "year": 2016,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "quantum photonics",
+        "quantum communication security",
+        "quantum computing",
+        "CMOS compatibility"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2016.2573218",
+      "cited_by_count": 354,
+      "importance": 0.4292,
+      "score_basis": {
+        "topic_overlap": 0.154,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2767294941",
+      "doi": "10.1038/nnano.2017.218",
+      "title": "High-performance semiconductor quantum-dot single-photon sources",
+      "authors": [
+        "P. Senellart",
+        "Glenn S. Solomon",
+        "Andrew G. White"
+      ],
+      "year": 2017,
+      "venue": "Nature Nanotechnology",
+      "venue_abbr": "Nature Nanotechnology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-photon sources",
+        "semiconductor quantum dots",
+        "photon indistinguishability",
+        "quantum technologies",
+        "parametric down-conversion"
+      ],
+      "url": "https://doi.org/10.1038/nnano.2017.218",
+      "cited_by_count": 1289,
+      "importance": 0.4144,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2986322779",
+      "doi": "10.1063/1.5120004",
+      "title": "III-V-on-Si photonic integrated circuits realized using micro-transfer-printing",
+      "authors": [
+        "Jing Zhang",
+        "Grigorij Muliuk",
+        "Joan Juvert",
+        "Sulakshna Kumari",
+        "Jeroen Goyvaerts",
+        "Bahawal Haq",
+        "Camiel Op de Beeck",
+        "Bart Kuyken",
+        "Geert I. Morthier",
+        "Dries Van Thourhout",
+        "Roel Baets",
+        "Guy Lepage",
+        "Peter Verheyen",
+        "Joris Van Campenhout",
+        "Agnieszka M. Gocalinska",
+        "James R. O'Callaghan",
+        "E. Pelucchi",
+        "Kevin Thomas",
+        "Brian Corbett",
+        "António José Trindade",
+        "Günther Roelkens"
+      ],
+      "year": 2019,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "III-V on silicon",
+        "photonic integrated circuits",
+        "micro-transfer printing",
+        "silicon photonics",
+        "elastomeric stamps",
+        "cost reduction"
+      ],
+      "url": "https://doi.org/10.1063/1.5120004",
+      "cited_by_count": 191,
+      "importance": 0.3919,
+      "score_basis": {
+        "topic_overlap": 0.382,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1967673033",
+      "doi": "10.1038/nphoton.2009.229",
+      "title": "Photonic quantum technologies",
+      "authors": [
+        "Jeremy L. O’Brien",
+        "Akira Furusawa",
+        "Jelena Vuckovic A"
+      ],
+      "year": 2009,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "quantum key distribution",
+        "quantum information processing",
+        "quantum lithography",
+        "integrated quantum photonics",
+        "secure communication",
+        "single photons",
+        "quantum states of light",
+        "quantum networks",
+        "eavesdropping detection"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2009.229",
+      "cited_by_count": 2398,
+      "importance": 0.3743,
+      "score_basis": {
+        "topic_overlap": 0.21,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2730929175",
+      "doi": "10.1038/nphoton.2017.101",
+      "title": "Phonon scattering inhibits simultaneous near-unity efficiency and indistinguishability in semiconductor single-photon sources",
+      "authors": [
+        "Jake Iles-Smith",
+        "Dara P. S. McCutcheon",
+        "Ahsan Nazir",
+        "Jesper Mørk"
+      ],
+      "year": 2017,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "semiconductor quantum dots",
+        "single-photon sources",
+        "phonon scattering",
+        "indistinguishability",
+        "emission efficiency",
+        "Purcell effect",
+        "phonon sidebands",
+        "lattice relaxation"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2017.101",
+      "cited_by_count": 179,
+      "importance": 0.3649,
+      "score_basis": {
+        "topic_overlap": 0.144,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3011671851",
+      "doi": "10.1126/sciadv.abc8268",
+      "title": "Scalable integrated single-photon source",
+      "authors": [
+        "Ravitej Uppu",
+        "Freja T. Pedersen",
+        "Ying Wang",
+        "Cecilie T. Olesen",
+        "Camille Papon",
+        "Xiaoyan Zhou",
+        "Leonardo Midolo",
+        "Sven Scholz",
+        "Andreas Dirk Wieck",
+        "Arne Ludwig",
+        "Peter Lodahl"
+      ],
+      "year": 2020,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-photon sources",
+        "quantum dots",
+        "nanophotonic waveguides",
+        "photon indistinguishability",
+        "photonic qubits",
+        "boson sampling",
+        "quantum advantage",
+        "power generation efficiency",
+        "decoherence",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.abc8268",
+      "cited_by_count": 323,
+      "importance": 0.355,
+      "score_basis": {
+        "topic_overlap": 0.189,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2342730178",
+      "doi": "10.1038/ncomms10067",
+      "title": "High yield and ultrafast sources of electrically triggered entangled-photon pairs based on strain-tunable quantum dots",
+      "authors": [
+        "Jiaxiang Zhang",
+        "Johannes S. Wildmann",
+        "Fei Ding",
+        "Rinaldo Trotta",
+        "Yong-Heng Huo",
+        "Eugenio Zallo",
+        "Daniel Huber",
+        "Armando Rastelli",
+        "Oliver G. Schmidt"
+      ],
+      "year": 2015,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "entangled photon pairs",
+        "piezoelectric strain",
+        "polarization entanglement",
+        "fine structure splitting",
+        "entanglement fidelity",
+        "quantum communication"
+      ],
+      "url": "https://doi.org/10.1038/ncomms10067",
+      "cited_by_count": 130,
+      "importance": 0.3547,
+      "score_basis": {
+        "topic_overlap": 0.144,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1971757348",
+      "doi": "10.1038/ncomms4240",
+      "title": "Deterministic and electrically tunable bright single-photon source",
+      "authors": [
+        "A. K. Nowak",
+        "Simone Luca Portalupi",
+        "Valérian Giesz",
+        "Olivier Gazzano",
+        "Claudio Dal Savio",
+        "P.‐F. Braun",
+        "K. Karraï",
+        "Christophe Arnold",
+        "L. Lanco",
+        "Isabelle Sagnes",
+        "Aristide Lemaître",
+        "P. Senellart"
+      ],
+      "year": 2014,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-photon sources",
+        "semiconductor quantum dots",
+        "microcavities",
+        "micropillar cavity",
+        "one-dimensional waveguide",
+        "quantum dot-cavity coupling",
+        "diode structures",
+        "spontaneous emission control",
+        "quantum networks",
+        "extraction efficiency"
+      ],
+      "url": "https://doi.org/10.1038/ncomms4240",
+      "cited_by_count": 178,
+      "importance": 0.3491,
+      "score_basis": {
+        "topic_overlap": 0.153,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4223582955",
+      "doi": "10.1364/prj.452936",
+      "title": "Silicon nitride passive and active photonic integrated circuits: trends and prospects",
+      "authors": [
+        "Chao Xiang",
+        "Warren Jin",
+        "John Edward Bowers"
+      ],
+      "year": 2022,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon nitride photonics",
+        "photonic integrated circuits",
+        "soliton microcombs",
+        "electrically pumped lasers",
+        "nonlinear photonics",
+        "microwave photonics",
+        "passive optical components",
+        "active photonic devices",
+        "waveguide loss"
+      ],
+      "url": "https://doi.org/10.1364/prj.452936",
+      "cited_by_count": 380,
+      "importance": 0.3424,
+      "score_basis": {
+        "topic_overlap": 0.205,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2122639408",
+      "doi": "10.1038/nphys2253",
+      "title": "Photonic quantum simulators",
+      "authors": [
+        "Alán Aspuru‐Guzik",
+        "Philip John Walther"
+      ],
+      "year": 2012,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum simulation",
+        "quantum optics",
+        "quantum chemistry simulation",
+        "quantum biology",
+        "solid state physics",
+        "quantum transport",
+        "quantum information processing"
+      ],
+      "url": "https://doi.org/10.1038/nphys2253",
+      "cited_by_count": 956,
+      "importance": 0.3408,
+      "score_basis": {
+        "topic_overlap": 0.068,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2902718481",
+      "doi": "10.1364/oe.27.026842",
+      "title": "8×8 reconfigurable quantum photonic processor based on silicon nitride waveguides",
+      "authors": [
+        "Caterina Taballione",
+        "Tom A. W. Wolterink",
+        "Jasleen Lugani",
+        "A. Eckstein",
+        "Bryn A. Bell",
+        "Robert Grootjans",
+        "Ilka Visscher",
+        "Dimitri Geskus",
+        "Chris G.  H. Roeloffzen",
+        "Jelmer J. Renema",
+        "Ian A. Walmsley",
+        "Pepijn W. H. Pinkse",
+        "Klaus-J. Boller"
+      ],
+      "year": 2019,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon nitride waveguides",
+        "integrated photonics",
+        "linear optical networks",
+        "Hong-Ou-Mandel interference",
+        "quantum information processing",
+        "low-loss waveguides"
+      ],
+      "url": "https://doi.org/10.1364/oe.27.026842",
+      "cited_by_count": 127,
+      "importance": 0.3325,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3130725666",
+      "doi": "10.1364/aop.411024",
+      "title": "Integrated photonics on thin-film lithium niobate",
+      "authors": [
+        "Di Zhu",
+        "Linbo Shao",
+        "Mengjie Yu",
+        "Rebecca Cheng",
+        "Boris Desiatov",
+        "C. J. Xin",
+        "Yaowen Hu",
+        "Jeffrey Holzgrafe",
+        "Soumya Shankar Ghosh",
+        "Amirhassan Shams‐Ansari",
+        "Eric Puma",
+        "Neil E. Sinclair",
+        "Christian Reimer",
+        "Mian Zhang",
+        "Marko Lončar"
+      ],
+      "year": 2021,
+      "venue": "Advances in Optics and Photonics",
+      "venue_abbr": "Advances in Optics and Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate",
+        "thin-film lithium niobate",
+        "integrated photonics",
+        "lithium niobate on insulator",
+        "optical modulators",
+        "nonlinear frequency conversion",
+        "electro-optic devices",
+        "acousto-optic devices",
+        "low-loss resonators",
+        "optical frequency combs",
+        "quantum transducers",
+        "wafer-scale thin films"
+      ],
+      "url": "https://doi.org/10.1364/aop.411024",
+      "cited_by_count": 1518,
+      "importance": 0.3264,
+      "score_basis": {
+        "topic_overlap": 0.17,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2335186443",
+      "doi": "10.1063/1.4946850",
+      "title": "Tuning exciton energy and fine-structure splitting in single InAs quantum dots by applying uniaxial stress",
+      "authors": [
+        "Dan Su",
+        "Xiuming Dou",
+        "Xuefei Wu",
+        "Yongping Liao",
+        "Pengyu Zhou",
+        "Kun Ding",
+        "Haiqiao Ni",
+        "Zhichuan Niu",
+        "Haijun Zhu",
+        "Desheng Jiang",
+        "Baoquan Sun"
+      ],
+      "year": 2016,
+      "venue": "AIP Advances",
+      "venue_abbr": "AIP Advances",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "InAs/GaAs quantum dots",
+        "uniaxial stress",
+        "fine structure splitting",
+        "biexciton binding energy",
+        "tensile strain",
+        "structural symmetry",
+        "entangled photon generation",
+        "photon indistinguishability"
+      ],
+      "url": "https://doi.org/10.1063/1.4946850",
+      "cited_by_count": 7,
+      "importance": 0.314,
+      "score_basis": {
+        "topic_overlap": 0.142,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2798493401",
+      "doi": "10.1103/physreva.100.052303",
+      "title": "Fundamental building block for all-optical scalable quantum networks",
+      "authors": [
+        "Seung-Woo Lee",
+        "Timothy C. Ralph",
+        "Hyunseok Jeong"
+      ],
+      "year": 2019,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum repeaters",
+        "scalability",
+        "fundamental limits",
+        "quantum communication"
+      ],
+      "url": "https://doi.org/10.1103/physreva.100.052303",
+      "cited_by_count": 65,
+      "importance": 0.3075,
+      "score_basis": {
+        "topic_overlap": 0.017,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2112113449",
+      "doi": "10.3390/ma3031782",
+      "title": "Hybrid Integrated Platforms for Silicon Photonics",
+      "authors": [
+        "Di Liang",
+        "Günther Roelkens",
+        "Roel Baets",
+        "John Edward Bowers"
+      ],
+      "year": 2010,
+      "venue": "Materials",
+      "venue_abbr": "Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "hybrid integration",
+        "silicon photonics",
+        "III-V on silicon",
+        "silicon-on-insulator",
+        "wafer bonding",
+        "bond strength",
+        "stress distribution",
+        "active photonic devices",
+        "passive optical components"
+      ],
+      "url": "https://doi.org/10.3390/ma3031782",
+      "cited_by_count": 316,
+      "importance": 0.2943,
+      "score_basis": {
+        "topic_overlap": 0.21,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2033773734",
+      "doi": "10.1109/lpt.2012.2212881",
+      "title": "Near-Infrared Grating Couplers for Silicon Nitride Photonic Wires",
+      "authors": [
+        "Ananth Z. Subramanian",
+        "Shankar Kumar Selvaraja",
+        "Peter Verheyen",
+        "Ashim Dhakal",
+        "Katarzyna Komorowska",
+        "Roel Baets"
+      ],
+      "year": 2012,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon nitride waveguides",
+        "grating couplers",
+        "near-infrared",
+        "coupling efficiency",
+        "bandwidth",
+        "plasma-enhanced chemical vapor deposition",
+        "photonic wires"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2012.2212881",
+      "cited_by_count": 54,
+      "importance": 0.2804,
+      "score_basis": {
+        "topic_overlap": 0.179,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2108963991",
+      "doi": "10.1103/physrevb.61.r5086",
+      "title": "Light-induced spectral diffusion in single self-assembled quantum dots",
+      "authors": [
+        "Hans D. Robinson",
+        "Bennett B. Goldberg"
+      ],
+      "year": 2000,
+      "venue": "Physical review. B, Condensed matter",
+      "venue_abbr": "Physical review. B, Condensed matter",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "spectral diffusion",
+        "self-assembled quantum dots",
+        "scanning near-field optical microscopy",
+        "photoionization",
+        "thermal ionization",
+        "charge trapping",
+        "optical power dependence",
+        "low-temperature luminescence"
+      ],
+      "url": "https://doi.org/10.1103/physrevb.61.r5086",
+      "cited_by_count": 144,
+      "importance": 0.2642,
+      "score_basis": {
+        "topic_overlap": 0.143,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2122639408",
+      "to": "W1967673033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2122639408"
+        }
+      ]
+    },
+    {
+      "from": "W2235174674",
+      "to": "W1967673033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2235174674"
+        }
+      ]
+    },
+    {
+      "from": "W2235174674",
+      "to": "W2122639408",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2235174674"
+        }
+      ]
+    },
+    {
+      "from": "W2335186443",
+      "to": "W2342730178",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2335186443"
+        }
+      ]
+    },
+    {
+      "from": "W2342730178",
+      "to": "W1971757348",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2342730178"
+        }
+      ]
+    },
+    {
+      "from": "W2730929175",
+      "to": "W1967673033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2730929175"
+        }
+      ]
+    },
+    {
+      "from": "W2730929175",
+      "to": "W1971757348",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2730929175"
+        }
+      ]
+    },
+    {
+      "from": "W2767294941",
+      "to": "W1971757348",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2767294941"
+        }
+      ]
+    },
+    {
+      "from": "W2767294941",
+      "to": "W2342730178",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2767294941"
+        }
+      ]
+    },
+    {
+      "from": "W2775793435",
+      "to": "W1967673033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2775793435"
+        }
+      ]
+    },
+    {
+      "from": "W2775793435",
+      "to": "W2122639408",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2775793435"
+        }
+      ]
+    },
+    {
+      "from": "W2775793435",
+      "to": "W2235174674",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2775793435"
+        }
+      ]
+    },
+    {
+      "from": "W2798493401",
+      "to": "W2235174674",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2798493401"
+        }
+      ]
+    },
+    {
+      "from": "W2798493401",
+      "to": "W2767294941",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2798493401"
+        }
+      ]
+    },
+    {
+      "from": "W2971161868",
+      "to": "W2775793435",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2971161868"
+        }
+      ]
+    },
+    {
+      "from": "W3011671851",
+      "to": "W2122639408",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011671851"
+        }
+      ]
+    },
+    {
+      "from": "W3121631513",
+      "to": "W2235174674",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3121631513"
+        }
+      ]
+    },
+    {
+      "from": "W3121631513",
+      "to": "W2775793435",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3121631513"
+        }
+      ]
+    },
+    {
+      "from": "W3121631513",
+      "to": "W2971161868",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3121631513"
+        }
+      ]
+    },
+    {
+      "from": "W3130725666",
+      "to": "W2986322779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3130725666"
+        }
+      ]
+    },
+    {
+      "from": "W3193622731",
+      "to": "W1971757348",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3193622731"
+        }
+      ]
+    },
+    {
+      "from": "W3193622731",
+      "to": "W2767294941",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3193622731"
+        }
+      ]
+    },
+    {
+      "from": "W3193622731",
+      "to": "W2775793435",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3193622731"
+        }
+      ]
+    },
+    {
+      "from": "W3193622731",
+      "to": "W2971161868",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3193622731"
+        }
+      ]
+    },
+    {
+      "from": "W3193622731",
+      "to": "W3011671851",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3193622731"
+        }
+      ]
+    },
+    {
+      "from": "W4223582955",
+      "to": "W2902718481",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4223582955"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W1967673033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W1971757348",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2033773734",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2108963991",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2112113449",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2122639408",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2235174674",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2335186443",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2342730178",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2730929175",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2767294941",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2775793435",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2798493401",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2902718481",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2971161868",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W2986322779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W3011671851",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W3121631513",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W3130725666",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W3193622731",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    },
+    {
+      "from": "W7223269555",
+      "to": "W4223582955",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223269555"
+        }
+      ]
+    }
+  ]
 }

@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "53952767-0de7-4a1f-aaf0-92d984ac45ea",
-  "root": "doi:10.1021/acsphotonics.6c01626",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7223690306",
+  "status": "ok",
+  "checked_at": "2026-11-04T00:54:42.937793+00:00",
+  "coverage": {
+    "references_found": 38,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 38,
+    "displayed": 38
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1021/acsphotonics.6c01626",
+      "id": "W7223690306",
       "doi": "10.1021/acsphotonics.6c01626",
       "title": "33.1 nm Wide-Tuning High-Power Blue-Green Semiconductor Disk Laser and Its Application in Underwater Wireless Optical Communication with Various Water Types",
       "authors": [
@@ -20,20 +30,2098 @@
         "Renjiang Zhu",
         "Peng Zhang"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "ACS Photonics",
       "venue_abbr": "ACS Photonics",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "VECSEL",
+        "blue-green laser",
+        "intracavity frequency doubling",
+        "LBO crystal",
+        "birefringent filter",
+        "composite resonator",
+        "underwater optical communication",
+        "seawater",
+        "coastal seawater",
+        "bit error rate"
+      ],
       "url": "https://doi.org/10.1021/acsphotonics.6c01626",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/53952767-0de7-4a1f-aaf0-92d984ac45ea.html",
       "summary": "该实验研究采用双增益芯片复合谐振腔与LBO晶体腔内倍频，实现484.5—517.6 nm连续调谐，最大输出功率12.43 W。研究结合声光调制，在纯海水、清澈海水和近岸海水中测试四个波长的水下无线光通信；在15 m、30 Mbps条件下，三类水体的误码率均低于所述FEC门限3.8×10⁻³。纯海水中最优测试波长为486 nm，另外两类水体中为515 nm。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W4402807013",
+      "doi": "10.1364/oe.536676",
+      "title": "High power widely tunable frequency-doubled 490 nm blue semiconductor disk laser",
+      "authors": [
+        "Xue-Fang Peng",
+        "Tao Wang",
+        "Renjiang Zhu",
+        "Lidan Jiang",
+        "Cunzhu Tong",
+        "Yanrong Song",
+        "Peng Zhang"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "VECSEL",
+        "blue laser",
+        "second harmonic generation",
+        "wavelength tuning",
+        "LBO crystal",
+        "type-I phase matching",
+        "birefringent filter",
+        "polarization",
+        "optical-to-optical conversion efficiency",
+        "beam quality",
+        "high-power lasers"
+      ],
+      "url": "https://doi.org/10.1364/oe.536676",
+      "cited_by_count": 6,
+      "importance": 0.6326,
+      "score_basis": {
+        "topic_overlap": 0.406,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396773182",
+      "doi": "10.7498/aps.73.20240499",
+      "title": "509 nm high power wide-tuned external cavity surface emitting laser",
+      "authors": [
+        "Tao Wang",
+        "Xue-Fang Peng",
+        "Liang He",
+        "Xiaoyu Shen",
+        "Renjiang Zhu",
+        "Li-Dan Jiang",
+        "Cunzhu Tong",
+        "Yanrong Song",
+        "Peng Zhang"
+      ],
+      "year": 2024,
+      "venue": "Acta Physica Sinica",
+      "venue_abbr": "Acta Physica Sinica",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "VECSEL",
+        "wavelength tuning",
+        "second harmonic generation",
+        "birefringent filter",
+        "high-power lasers",
+        "beam quality",
+        "conversion efficiency",
+        "spectral linewidth"
+      ],
+      "url": "https://doi.org/10.7498/aps.73.20240499",
+      "cited_by_count": 5,
+      "importance": 0.5528,
+      "score_basis": {
+        "topic_overlap": 0.339,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2021621726",
+      "doi": "10.1109/jqe.2007.911704",
+      "title": "Continuous Tuning and Efficient Intracavity Second-Harmonic Generation in a Semiconductor Disk Laser With an Intracavity Diamond Heatspreader",
+      "authors": [
+        "Alexander J. Maclean",
+        "Alan J. Kemp",
+        "S. Calvez",
+        "Jun-Youn Kim",
+        "Taek Kim",
+        "Martin D. Dawson",
+        "D. Burns"
+      ],
+      "year": 2008,
+      "venue": "IEEE Journal of Quantum Electronics",
+      "venue_abbr": "JQE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "VECSEL",
+        "intracavity frequency doubling",
+        "continuous wavelength tuning",
+        "thermal management",
+        "antireflection coatings",
+        "finite element analysis",
+        "green laser",
+        "ultraviolet generation",
+        "polarization control",
+        "wavelength selection",
+        "power scaling"
+      ],
+      "url": "https://doi.org/10.1109/jqe.2007.911704",
+      "cited_by_count": 42,
+      "importance": 0.4712,
+      "score_basis": {
+        "topic_overlap": 0.358,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1968171704",
+      "doi": "10.1109/jstqe.2014.2361798",
+      "title": "Widely Tunable High-Power Two-Color VECSELs for New Wavelength Generation",
+      "authors": [
+        "Michal L. Lukowski",
+        "Chris Hessenius",
+        "Mahmoud Fallahi"
+      ],
+      "year": 2014,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "VECSEL",
+        "intracavity frequency doubling",
+        "sum-frequency generation",
+        "difference frequency generation",
+        "terahertz generation",
+        "orthogonal polarization modes",
+        "lithium triborate",
+        "periodically poled lithium niobate",
+        "nonlinear optical crystals",
+        "high-power semiconductor lasers"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2014.2361798",
+      "cited_by_count": 30,
+      "importance": 0.4529,
+      "score_basis": {
+        "topic_overlap": 0.318,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409733809",
+      "doi": "10.1016/j.optlaseng.2025.109026",
+      "title": "Performance evaluation of multi-wavelength visible light underwater optical communication",
+      "authors": [
+        "Shofuro Afifah",
+        "Jun-Kai Wei",
+        "Lina Marlina",
+        "Shien‐Kuei Liaw",
+        "Pei‐Jun Lee",
+        "Chien-Hung Yeh"
+      ],
+      "year": 2025,
+      "venue": "Optics and Lasers in Engineering",
+      "venue_abbr": "Opt. Lasers Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "multi-wavelength laser",
+        "bit error rate",
+        "atmospheric turbulence",
+        "temperature effects",
+        "laser diode",
+        "forward error correction"
+      ],
+      "url": "https://doi.org/10.1016/j.optlaseng.2025.109026",
+      "cited_by_count": 10,
+      "importance": 0.444,
+      "score_basis": {
+        "topic_overlap": 0.32,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2038700011",
+      "doi": "10.1063/1.4751352",
+      "title": "High-power high-efficiency optically pumped semiconductor disk lasers in the green spectral region with a broad tuning range",
+      "authors": [
+        "Alexander Hein",
+        "Susanne Menzel",
+        "Peter Unger"
+      ],
+      "year": 2012,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "VECSEL",
+        "optically pumped lasers",
+        "green laser emission",
+        "second harmonic generation",
+        "high-power lasers",
+        "conversion efficiency",
+        "wavelength tuning range",
+        "differential quantum efficiency",
+        "room-temperature operation",
+        "folded resonator"
+      ],
+      "url": "https://doi.org/10.1063/1.4751352",
+      "cited_by_count": 11,
+      "importance": 0.4256,
+      "score_basis": {
+        "topic_overlap": 0.346,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403060821",
+      "doi": "10.1109/jlt.2024.3472701",
+      "title": "A Compact High-Power Narrow-Linewidth 509 nm Single-Frequency Laser With a Wide Tuning Range",
+      "authors": [
+        "Lidan Jiang",
+        "Ri Yan",
+        "Yaowei Gan",
+        "Renjiang Zhu",
+        "Tao Wang",
+        "Cunzhu Tong",
+        "Jun He",
+        "Peng Zhang"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "single-frequency laser",
+        "narrow linewidth",
+        "VECSEL",
+        "high output power",
+        "wavelength tuning range",
+        "Lorentzian linewidth",
+        "compact laser"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3472701",
+      "cited_by_count": 5,
+      "importance": 0.4049,
+      "score_basis": {
+        "topic_overlap": 0.344,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2066911712",
+      "doi": "10.1063/1.2215635",
+      "title": "Tunable watt-level blue-green vertical-external-cavity surface-emitting lasers by intracavity frequency doubling",
+      "authors": [
+        "Fan Li",
+        "Ta-Chen Hsu",
+        "Mahmoud Fallahi",
+        "James T. Murray",
+        "Robert F. Bedford",
+        "Yushi Kaneda",
+        "J. Hader",
+        "Aramais R. Zakharian",
+        "Jerome V. Moloney",
+        "S. W. Koch",
+        "W. Stolz"
+      ],
+      "year": 2006,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "VECSEL",
+        "intracavity frequency doubling",
+        "second harmonic generation",
+        "blue-green laser",
+        "488 nm",
+        "lithium triborate",
+        "tunable lasers",
+        "high-power continuous-wave laser",
+        "linear polarization"
+      ],
+      "url": "https://doi.org/10.1063/1.2215635",
+      "cited_by_count": 53,
+      "importance": 0.3966,
+      "score_basis": {
+        "topic_overlap": 0.348,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3016299313",
+      "doi": "10.3390/s20082261",
+      "title": "Underwater Optical Wireless Communications: Overview",
+      "authors": [
+        "Giuseppe Schirripa Spagnolo",
+        "Lorenzo Cozzella",
+        "Fabio Leccese"
+      ],
+      "year": 2020,
+      "venue": "Sensors",
+      "venue_abbr": "Sensors",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "seawater",
+        "high bandwidth",
+        "low latency"
+      ],
+      "url": "https://doi.org/10.3390/s20082261",
+      "cited_by_count": 403,
+      "importance": 0.392,
+      "score_basis": {
+        "topic_overlap": 0.205,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1990055596",
+      "doi": "10.1364/ol.38.000640",
+      "title": "Tunable type II intracavity sum-frequency generation in a two chip collinear vertical external cavity surface emitting laser",
+      "authors": [
+        "Chris Hessenius",
+        "Michal L. Lukowski",
+        "Mahmoud Fallahi"
+      ],
+      "year": 2013,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intracavity sum-frequency generation",
+        "VECSEL",
+        "InGaAs/GaAs lasers",
+        "lithium triborate",
+        "wavelength tuning",
+        "orthogonal polarization modes",
+        "high output power"
+      ],
+      "url": "https://doi.org/10.1364/ol.38.000640",
+      "cited_by_count": 7,
+      "importance": 0.3829,
+      "score_basis": {
+        "topic_overlap": 0.318,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3174082552",
+      "doi": "10.1016/j.optcom.2021.127261",
+      "title": "100 m full-duplex underwater wireless optical communication based on blue and green lasers and high sensitivity detectors",
+      "authors": [
+        "Xingqi Yang",
+        "Zhijian Tong",
+        "Yizhan Dai",
+        "Xiao Chen",
+        "Hao Zhang",
+        "Haiwu Zou",
+        "Jing Xu"
+      ],
+      "year": 2021,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "full-duplex communication",
+        "narrowband filters",
+        "self-interference",
+        "backscattering",
+        "photomultiplier detectors",
+        "single-photon detection",
+        "nonlinear equalization",
+        "memory polynomial model",
+        "post-equalization",
+        "bit error rate",
+        "water attenuation"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2021.127261",
+      "cited_by_count": 68,
+      "importance": 0.3792,
+      "score_basis": {
+        "topic_overlap": 0.354,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396725506",
+      "doi": "10.1364/oe.521575",
+      "title": "Turbidity-tolerant underwater wireless optical communications using dense blue–green wavelength division multiplexing",
+      "authors": [
+        "Kuokuo Zhang",
+        "Caiming Sun",
+        "Wu Shi",
+        "Jing Lin",
+        "Binghui Li",
+        "Weiwei Liu",
+        "Danyuan Chen",
+        "Aidong Zhang"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "underwater optical communication",
+        "dense wavelength division multiplexing",
+        "blue-green light",
+        "water turbidity",
+        "wavelength spacing",
+        "channel crosstalk",
+        "directly modulated lasers",
+        "beam combining"
+      ],
+      "url": "https://doi.org/10.1364/oe.521575",
+      "cited_by_count": 54,
+      "importance": 0.3791,
+      "score_basis": {
+        "topic_overlap": 0.198,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2499552110",
+      "doi": "10.1088/2040-8978/18/9/093003",
+      "title": "Recent advances in VECSELs",
+      "authors": [
+        "Arash Rahimi‐Iman"
+      ],
+      "year": 2016,
+      "venue": "Journal of Optics",
+      "venue_abbr": "J. Opt.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "VECSEL",
+        "external cavity",
+        "narrow emission linewidth",
+        "pulsed laser",
+        "multimode emission",
+        "frequency conversion",
+        "high beam quality",
+        "high brightness",
+        "ultraviolet laser",
+        "terahertz generation"
+      ],
+      "url": "https://doi.org/10.1088/2040-8978/18/9/093003",
+      "cited_by_count": 79,
+      "importance": 0.3664,
+      "score_basis": {
+        "topic_overlap": 0.17,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7116292103",
+      "doi": "10.1016/j.optlastec.2025.114561",
+      "title": "Underwater wireless optical communication employing a laser diode source based on dense blue spectral multiplexing",
+      "authors": [
+        "C H Zhang",
+        "Chuanbin Sun",
+        "Yawei Zhang",
+        "Pengcheng Wan",
+        "Xingchen Lin",
+        "Xueliang Li",
+        "Jie Liu",
+        "Meng Xiang",
+        "Yongnian Huang",
+        "Hongbo Zhu",
+        "Lijun Wang"
+      ],
+      "year": 2025,
+      "venue": "Optics & Laser Technology",
+      "venue_abbr": "Opt. Laser Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "multi-wavelength transmission",
+        "bit error rate",
+        "forward error correction threshold",
+        "underwater optical links"
+      ],
+      "url": "https://doi.org/10.1016/j.optlastec.2025.114561",
+      "cited_by_count": 5,
+      "importance": 0.357,
+      "score_basis": {
+        "topic_overlap": 0.349,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2122273579",
+      "doi": "10.1364/ao.47.000277",
+      "title": "High bandwidth underwater optical communication",
+      "authors": [
+        "Frank Hanson",
+        "Stojan Radic"
+      ],
+      "year": 2008,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "error-free transmission",
+        "second harmonic generation",
+        "periodically poled lithium niobate",
+        "intensity modulation",
+        "laser diode",
+        "pulse broadening",
+        "Monte Carlo simulation",
+        "contactless data transfer"
+      ],
+      "url": "https://doi.org/10.1364/ao.47.000277",
+      "cited_by_count": 661,
+      "importance": 0.3401,
+      "score_basis": {
+        "topic_overlap": 0.178,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2595155367",
+      "doi": "10.1016/j.optlastec.2017.03.015",
+      "title": "Tunable high-power blue external cavity semiconductor laser",
+      "authors": [
+        "Ding Ding",
+        "Xueqin Lv",
+        "Xinyi Chen",
+        "Fei Wang",
+        "Jiangyong Zhang",
+        "Kai‐Jun Che"
+      ],
+      "year": 2017,
+      "venue": "Optics & Laser Technology",
+      "venue_abbr": "Opt. Laser Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "external cavity semiconductor laser",
+        "blue laser diodes",
+        "GaN laser diodes",
+        "Littrow configuration",
+        "diffraction gratings",
+        "wavelength tuning",
+        "linewidth narrowing",
+        "wavelength locking",
+        "amplified spontaneous emission suppression",
+        "high-power lasers"
+      ],
+      "url": "https://doi.org/10.1016/j.optlastec.2017.03.015",
+      "cited_by_count": 42,
+      "importance": 0.3401,
+      "score_basis": {
+        "topic_overlap": 0.311,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2789554261",
+      "doi": "10.1016/j.adhoc.2019.101935",
+      "title": "Underwater optical wireless communications, networking, and localization: A survey",
+      "authors": [
+        "Nasir Saeed",
+        "Abdulkadir Çelik",
+        "Tareq Y. Al-Naffouri",
+        "Mohamed‐Slim Alouini"
+      ],
+      "year": 2019,
+      "venue": "Ad Hoc Networks",
+      "venue_abbr": "Ad Hoc Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "underwater wireless networks",
+        "underwater localization",
+        "underwater acoustic communication",
+        "channel modeling",
+        "underwater propagation",
+        "modulation schemes",
+        "link budget",
+        "multiple access schemes",
+        "relaying",
+        "routing algorithms",
+        "connectivity"
+      ],
+      "url": "https://doi.org/10.1016/j.adhoc.2019.101935",
+      "cited_by_count": 562,
+      "importance": 0.3397,
+      "score_basis": {
+        "topic_overlap": 0.155,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411204194",
+      "doi": "10.1049/ote2.70007",
+      "title": "Channel Characterisation for Underwater Optical Wireless Vertical Links",
+      "authors": [
+        "Alessandro Ugolini",
+        "Federica Poli",
+        "Daniele Croce",
+        "Stefano Mangione"
+      ],
+      "year": 2025,
+      "venue": "IET Optoelectronics",
+      "venue_abbr": "IET Optoelectronics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "vertical links",
+        "channel characterization",
+        "light propagation in water",
+        "absorption and scattering",
+        "visible spectrum",
+        "laser wavelength",
+        "path loss",
+        "dense wavelength division multiplexing"
+      ],
+      "url": "https://doi.org/10.1049/ote2.70007",
+      "cited_by_count": 2,
+      "importance": 0.3323,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401214746",
+      "doi": "10.1364/ao.528477",
+      "title": "Beam attenuation coefficient for different water turbidities",
+      "authors": [
+        "Chiara Lodovisi",
+        "Fabrizio Gerardi",
+        "Claudio Moriconi",
+        "S. Betti"
+      ],
+      "year": 2024,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "beam attenuation coefficient",
+        "underwater optical communication",
+        "water turbidity",
+        "optical signal-to-noise ratio",
+        "light propagation in water",
+        "contaminated water",
+        "lake water",
+        "seawater"
+      ],
+      "url": "https://doi.org/10.1364/ao.528477",
+      "cited_by_count": 4,
+      "importance": 0.3285,
+      "score_basis": {
+        "topic_overlap": 0.174,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4294591056",
+      "doi": "10.1016/j.optlastec.2022.108624",
+      "title": "Underwater turbulence, its effects on optical wireless communication and imaging: A review",
+      "authors": [
+        "Yahya Kemal Baykal",
+        "Yalçın Ata",
+        "Muhsın Caner Gökçe"
+      ],
+      "year": 2022,
+      "venue": "Optics & Laser Technology",
+      "venue_abbr": "Opt. Laser Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater turbulence",
+        "optical wireless communication",
+        "underwater imaging",
+        "wave structure function",
+        "phase structure function",
+        "coherence length",
+        "anisotropy",
+        "intensity fluctuations",
+        "scintillation index",
+        "bit error rate",
+        "signal-to-noise ratio",
+        "channel capacity"
+      ],
+      "url": "https://doi.org/10.1016/j.optlastec.2022.108624",
+      "cited_by_count": 118,
+      "importance": 0.3119,
+      "score_basis": {
+        "topic_overlap": 0.204,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389633753",
+      "doi": "10.1109/mcom.001.2300461",
+      "title": "Long-Term and Real-Time High-Speed Underwater Wireless Optical Communications in Deep Sea",
+      "authors": [
+        "Jialiang Zhang",
+        "Sujing Wang",
+        "Ziqi Ma",
+        "Guanjun Gao",
+        "Yonggang Guo",
+        "Fei Zhang",
+        "Shanguo Huang",
+        "Jie Zhang"
+      ],
+      "year": 2023,
+      "venue": "IEEE Communications Magazine",
+      "venue_abbr": "IEEE Communications Magazine",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "deep-sea communication",
+        "live streaming",
+        "high-speed optical links",
+        "light attenuation",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1109/mcom.001.2300461",
+      "cited_by_count": 45,
+      "importance": 0.298,
+      "score_basis": {
+        "topic_overlap": 0.218,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2981592399",
+      "doi": "10.3788/col201917.100010",
+      "title": "Absorption and scattering effects of Maalox, chlorophyll, and sea salt on a micro-LED-based underwater wireless optical communication [Invited]",
+      "authors": [
+        "Pengfei Tian",
+        "Honglan Chen",
+        "Peiyao Wang",
+        "Xiaoyan Liu",
+        "Xinwei Chen",
+        "Gufan Zhou",
+        "Shuailong Zhang",
+        "Jie Lu",
+        "Pengjiang Qiu",
+        "Zeyuan Qian",
+        "Xiaolin Zhou",
+        "Zhilai Fang",
+        "Li‐Rong Zheng",
+        "Ran Liu",
+        "Xugao Cui"
+      ],
+      "year": 2019,
+      "venue": "Chinese Optics Letters",
+      "venue_abbr": "COL",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "micro-LEDs",
+        "gallium nitride",
+        "Maalox",
+        "chlorophyll",
+        "sea salt",
+        "optical absorption",
+        "light scattering",
+        "light attenuation",
+        "bit error rate",
+        "data rate"
+      ],
+      "url": "https://doi.org/10.3788/col201917.100010",
+      "cited_by_count": 36,
+      "importance": 0.2891,
+      "score_basis": {
+        "topic_overlap": 0.198,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415931026",
+      "doi": "10.3390/s25216758",
+      "title": "Watt-Level, Narrow-Linewidth, Tunable Green Semiconductor Laser with External-Cavity Synchronous-Locking Technique",
+      "authors": [
+        "Chunna Feng",
+        "Bangze Zeng",
+        "Jinhai Zou",
+        "Qiujun Ruan",
+        "Zhengqian Luo"
+      ],
+      "year": 2025,
+      "venue": "Sensors",
+      "venue_abbr": "Sensors",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "narrow-linewidth laser",
+        "tunable lasers",
+        "GaN laser diodes",
+        "green gap",
+        "diffraction gratings",
+        "beam shaping",
+        "high-power laser output",
+        "wavelength locking"
+      ],
+      "url": "https://doi.org/10.3390/s25216758",
+      "cited_by_count": 1,
+      "importance": 0.2806,
+      "score_basis": {
+        "topic_overlap": 0.179,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396668470",
+      "doi": "10.1016/j.jlumin.2024.120666",
+      "title": "LD-pumped high-power tunable green Pr3+:YLF lasers",
+      "authors": [
+        "Yuchen Xue",
+        "Wei Yuan",
+        "Canlin Jiang",
+        "Zheng Zhang",
+        "Huiying Xu",
+        "Zhiping Cai"
+      ],
+      "year": 2024,
+      "venue": "Journal of Luminescence",
+      "venue_abbr": "Journal of Luminescence",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "green laser",
+        "tunable lasers",
+        "diode-pumped solid-state laser",
+        "continuous-wave laser",
+        "high-power lasers",
+        "polarization dependence",
+        "emission cross section",
+        "slope efficiency"
+      ],
+      "url": "https://doi.org/10.1016/j.jlumin.2024.120666",
+      "cited_by_count": 4,
+      "importance": 0.2764,
+      "score_basis": {
+        "topic_overlap": 0.17,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2107965259",
+      "doi": "10.1364/ao.31.004505",
+      "title": "Transmitted and tuning characteristics of birefringent filters",
+      "authors": [
+        "Xinglong Wang",
+        "Jianquan Yao"
+      ],
+      "year": 1992,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "birefringent filter",
+        "tunable optical filter",
+        "transmission characteristics",
+        "filter optimization"
+      ],
+      "url": "https://doi.org/10.1364/ao.31.004505",
+      "cited_by_count": 70,
+      "importance": 0.2756,
+      "score_basis": {
+        "topic_overlap": 0.168,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4366817051",
+      "doi": "10.1364/ao.488740",
+      "title": "Potential application of a green fiber laser in laser display systems",
+      "authors": [
+        "Liquan Zhu",
+        "Zhipeng Dong",
+        "Jinhai Zou",
+        "Linxiao Deng",
+        "Ting Li",
+        "Yuantong Chen",
+        "Chun Gu",
+        "Lixin Xu",
+        "Zhengqian Luo"
+      ],
+      "year": 2023,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "all-fiber laser",
+        "laser projection display",
+        "color gamut",
+        "speckle contrast",
+        "speckle reduction"
+      ],
+      "url": "https://doi.org/10.1364/ao.488740",
+      "cited_by_count": 9,
+      "importance": 0.2729,
+      "score_basis": {
+        "topic_overlap": 0.162,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401760360",
+      "doi": "10.1038/s41377-024-01534-x",
+      "title": "Advancing on-chip Kerr optical parametric oscillation towards coherent applications covering the green gap",
+      "authors": [
+        "Yi Sun",
+        "Jordan Stone",
+        "Xiyuan Lu",
+        "Feng Lei Zhou",
+        "Junyeob Song",
+        "Zhimin Shi",
+        "Kartik A. Srinivasan"
+      ],
+      "year": 2024,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "Kerr microresonators",
+        "green gap",
+        "continuous frequency tuning",
+        "nonlinear nanophotonics"
+      ],
+      "url": "https://doi.org/10.1038/s41377-024-01534-x",
+      "cited_by_count": 30,
+      "importance": 0.2716,
+      "score_basis": {
+        "topic_overlap": 0.159,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413230208",
+      "doi": "10.1364/oe.572385",
+      "title": "Wavelength-adjustable yellow laser by using a birefringence filter in the Nd:YAG stimulated Raman scattering laser",
+      "authors": [
+        "Chun‐Yu Cho",
+        "Kun-Hsuan Lin"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "yellow laser",
+        "wavelength tuning",
+        "Nd:YAG laser",
+        "stimulated Raman scattering",
+        "second harmonic generation",
+        "solid-state lasers"
+      ],
+      "url": "https://doi.org/10.1364/oe.572385",
+      "cited_by_count": 3,
+      "importance": 0.2716,
+      "score_basis": {
+        "topic_overlap": 0.159,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4394813515",
+      "doi": "10.1364/ome.511506",
+      "title": "Wavelength and polarisation dependence of pump-induced loss in Ti:sapphire",
+      "authors": [
+        "Niall Simpson",
+        "Martin Lee",
+        "Alan J. Kemp"
+      ],
+      "year": 2024,
+      "venue": "Optical Materials Express",
+      "venue_abbr": "Optical Materials Express",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Ti:sapphire",
+        "titanium-doped sapphire",
+        "pump wavelength dependence",
+        "polarization dependence",
+        "residual absorption",
+        "laser-induced damage"
+      ],
+      "url": "https://doi.org/10.1364/ome.511506",
+      "cited_by_count": 9,
+      "importance": 0.259,
+      "score_basis": {
+        "topic_overlap": 0.131,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400038404",
+      "doi": "10.1038/s41586-024-07457-2",
+      "title": "Titanium:sapphire-on-insulator integrated lasers and amplifiers",
+      "authors": [
+        "Joshua SungWoo Yang",
+        "Kasper Van Gasse",
+        "Daniil M. Lukin",
+        "Melissa A. Guidry",
+        "Geun Ho Ahn",
+        "Alexander D. White",
+        "Jelena Vuckovic A"
+      ],
+      "year": 2024,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Ti:sapphire laser",
+        "integrated photonics",
+        "whispering gallery mode resonators",
+        "picosecond pulse amplification",
+        "tunable lasers",
+        "laser arrays",
+        "cavity quantum electrodynamics",
+        "silicon carbide",
+        "mode confinement",
+        "photonic integration"
+      ],
+      "url": "https://doi.org/10.1038/s41586-024-07457-2",
+      "cited_by_count": 84,
+      "importance": 0.2577,
+      "score_basis": {
+        "topic_overlap": 0.128,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387904779",
+      "doi": "10.1007/s44295-023-00007-y",
+      "title": "Review of airborne oceanic lidar remote sensing",
+      "authors": [
+        "Weibiao Chen",
+        "Peng Chen",
+        "Hongwei Zhang",
+        "Yan Li He",
+        "Junwu Tang",
+        "Songhua Wu"
+      ],
+      "year": 2023,
+      "venue": "Intelligent Marine Technology and Systems",
+      "venue_abbr": "Intelligent Marine Technology and Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "ocean remote sensing",
+        "radiative transfer modeling",
+        "ocean biogeochemistry",
+        "data processing algorithms"
+      ],
+      "url": "https://doi.org/10.1007/s44295-023-00007-y",
+      "cited_by_count": 38,
+      "importance": 0.25,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391899265",
+      "doi": "10.1038/s41467-024-45924-6",
+      "title": "Continuous ultraviolet to blue-green astrocomb",
+      "authors": [
+        "Yuk Shan Cheng",
+        "Kamalesh Dadi",
+        "Toby Mitchell",
+        "Samantha J. Thompson",
+        "Nikolai Piskunov",
+        "Lewis D. Wright",
+        "Corin B. E. Gawith",
+        "Richard A. McCracken",
+        "Derryck T. Reid"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "frequency combs",
+        "ultraviolet laser",
+        "blue-green light",
+        "second harmonic generation",
+        "sum-frequency mixing",
+        "Fabry-Perot filter",
+        "spectrograph calibration",
+        "high repetition rate lasers"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-45924-6",
+      "cited_by_count": 21,
+      "importance": 0.2427,
+      "score_basis": {
+        "topic_overlap": 0.095,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285089051",
+      "doi": "10.3390/rs14143351",
+      "title": "A Shipborne Photon-Counting Lidar for Depth-Resolved Ocean Observation",
+      "authors": [
+        "Xue You Shen",
+        "Wei Kong",
+        "Peng Chen",
+        "Tao Chen",
+        "Genghua Huang",
+        "Rong Shu"
+      ],
+      "year": 2022,
+      "venue": "Remote Sensing",
+      "venue_abbr": "Remote Sensing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photon-counting lidar",
+        "shipborne lidar",
+        "chlorophyll a fluorescence",
+        "diffuse attenuation coefficient",
+        "pulsed fiber laser",
+        "high-sensitivity detection"
+      ],
+      "url": "https://doi.org/10.3390/rs14143351",
+      "cited_by_count": 29,
+      "importance": 0.2319,
+      "score_basis": {
+        "topic_overlap": 0.027,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1964169685",
+      "doi": "10.1103/physrev.137.a1305",
+      "title": "Second-Harmonic Generation of Light with Double Refraction",
+      "authors": [
+        "Gary D. Boyd",
+        "Arthur Ashkin",
+        "J. M. Dziedzic",
+        "D. A. Kleinman"
+      ],
+      "year": 1965,
+      "venue": "Physical Review",
+      "venue_abbr": "Physical Review",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "second harmonic generation",
+        "birefringence",
+        "aperture effects",
+        "ammonium dihydrogen phosphate",
+        "ordinary and extraordinary rays",
+        "absorption coefficient",
+        "small-angle scattering"
+      ],
+      "url": "https://doi.org/10.1103/physrev.137.a1305",
+      "cited_by_count": 259,
+      "importance": 0.22,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2059988148",
+      "doi": "10.1007/s00340-004-1612-5",
+      "title": "Frequency doubling of multi-terawatt femtosecond pulses",
+      "authors": [
+        "Andrius Marcinkevičius",
+        "Riccardo Tommasini",
+        "George D. Tsakiris",
+        "Klaus J. Witte",
+        "E. Gaižauskas",
+        "Ulrich Teubner"
+      ],
+      "year": 2004,
+      "venue": "Applied Physics B",
+      "venue_abbr": "Appl. Phys. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "second harmonic generation",
+        "femtosecond pulses",
+        "KDP crystal",
+        "beam quality",
+        "intensity distribution",
+        "phase distribution",
+        "conversion efficiency",
+        "pulse dispersion",
+        "Kerr nonlinearity",
+        "beam diffraction"
+      ],
+      "url": "https://doi.org/10.1007/s00340-004-1612-5",
+      "cited_by_count": 39,
+      "importance": 0.2169,
+      "score_basis": {
+        "topic_overlap": 0.038,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2052072732",
+      "doi": "10.1016/0030-4018(81)90407-7",
+      "title": "Dispersive birefringent filters",
+      "authors": [
+        "Pochi Yeh"
+      ],
+      "year": 1981,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "birefringent crystals",
+        "wave plates",
+        "cadmium sulfide",
+        "narrow bandwidth",
+        "wide field of view"
+      ],
+      "url": "https://doi.org/10.1016/0030-4018(81)90407-7",
+      "cited_by_count": 18,
+      "importance": 0.2136,
+      "score_basis": {
+        "topic_overlap": 0.03,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7117310225",
+      "doi": "10.1097/md.0000000000046434",
+      "title": "The diagnostic value of magnifying endoscopy with blue light imaging in early gastric cancer",
+      "authors": [
+        "Liang Ye",
+        "Xiaoyuan Yi",
+        "Xuhua Xiao"
+      ],
+      "year": 2025,
+      "venue": "Medicine",
+      "venue_abbr": "Medicine",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "early gastric cancer",
+        "image-enhanced endoscopy",
+        "demarcation line",
+        "diagnostic accuracy"
+      ],
+      "url": "https://doi.org/10.1097/md.0000000000046434",
+      "cited_by_count": 1,
+      "importance": 0.2064,
+      "score_basis": {
+        "topic_overlap": 0.014,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2089864334",
+      "doi": "10.1080/713822002",
+      "title": "Generalized Investigations into the Brewster Angle",
+      "authors": [
+        "John Heading"
+      ],
+      "year": 1986,
+      "venue": "Optica Acta International Journal of Optics",
+      "venue_abbr": "Optica Acta International Journal of Optics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization angle",
+        "heterogeneous media",
+        "electromagnetic wave reflection",
+        "plane interface",
+        "isotropic media"
+      ],
+      "url": "https://doi.org/10.1080/713822002",
+      "cited_by_count": 12,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1968171704",
+      "to": "W1990055596",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1968171704"
+        }
+      ]
+    },
+    {
+      "from": "W2021621726",
+      "to": "W2066911712",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2021621726"
+        }
+      ]
+    },
+    {
+      "from": "W2038700011",
+      "to": "W2021621726",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2038700011"
+        }
+      ]
+    },
+    {
+      "from": "W2499552110",
+      "to": "W1968171704",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2499552110"
+        }
+      ]
+    },
+    {
+      "from": "W2789554261",
+      "to": "W2122273579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2789554261"
+        }
+      ]
+    },
+    {
+      "from": "W3016299313",
+      "to": "W2122273579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3016299313"
+        }
+      ]
+    },
+    {
+      "from": "W3016299313",
+      "to": "W2789554261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3016299313"
+        }
+      ]
+    },
+    {
+      "from": "W4387904779",
+      "to": "W4285089051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387904779"
+        }
+      ]
+    },
+    {
+      "from": "W4396725506",
+      "to": "W2122273579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396725506"
+        }
+      ]
+    },
+    {
+      "from": "W4396773182",
+      "to": "W1968171704",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396773182"
+        }
+      ]
+    },
+    {
+      "from": "W4396773182",
+      "to": "W2021621726",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396773182"
+        }
+      ]
+    },
+    {
+      "from": "W4396773182",
+      "to": "W2038700011",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396773182"
+        }
+      ]
+    },
+    {
+      "from": "W4396773182",
+      "to": "W2499552110",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396773182"
+        }
+      ]
+    },
+    {
+      "from": "W4401214746",
+      "to": "W4396725506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401214746"
+        }
+      ]
+    },
+    {
+      "from": "W4402807013",
+      "to": "W1964169685",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402807013"
+        }
+      ]
+    },
+    {
+      "from": "W4402807013",
+      "to": "W1968171704",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402807013"
+        }
+      ]
+    },
+    {
+      "from": "W4402807013",
+      "to": "W1990055596",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402807013"
+        }
+      ]
+    },
+    {
+      "from": "W4402807013",
+      "to": "W2021621726",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402807013"
+        }
+      ]
+    },
+    {
+      "from": "W4402807013",
+      "to": "W2066911712",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402807013"
+        }
+      ]
+    },
+    {
+      "from": "W4403060821",
+      "to": "W2499552110",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403060821"
+        }
+      ]
+    },
+    {
+      "from": "W4409733809",
+      "to": "W3174082552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409733809"
+        }
+      ]
+    },
+    {
+      "from": "W4409733809",
+      "to": "W4294591056",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409733809"
+        }
+      ]
+    },
+    {
+      "from": "W4411204194",
+      "to": "W4396725506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411204194"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W1964169685",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W1968171704",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W1990055596",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2021621726",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2038700011",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2052072732",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2059988148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2066911712",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2089864334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2107965259",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2122273579",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2499552110",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2595155367",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2789554261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W2981592399",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W3016299313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W3174082552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4285089051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4294591056",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4366817051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4387904779",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4389633753",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4391899265",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4394813515",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4396668470",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4396725506",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4396773182",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4400038404",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4401214746",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4401760360",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4402807013",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4403060821",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4409733809",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4411204194",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4413230208",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W4415931026",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W7116292103",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    },
+    {
+      "from": "W7223690306",
+      "to": "W7117310225",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223690306"
+        }
+      ]
+    }
+  ]
 }

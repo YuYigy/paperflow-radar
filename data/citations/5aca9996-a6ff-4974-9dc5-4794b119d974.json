@@ -1,35 +1,2109 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "5aca9996-a6ff-4974-9dc5-4794b119d974",
-  "root": "doi:10.1038/s41598-026-74794-9",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7223672495",
+  "status": "ok",
+  "checked_at": "2026-11-06T00:48:34.424353+00:00",
+  "coverage": {
+    "references_found": 38,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 38,
+    "displayed": 38
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1038/s41598-026-74794-9",
+      "id": "W7223672495",
       "doi": "10.1038/s41598-026-74794-9",
       "title": "Intelligent P-cycle provisioning in elastic optical networks via energy-aware deep reinforcement learning",
       "authors": [
         "Ruchi Dave",
         "Dolly Thankachan"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Scientific Reports",
       "venue_abbr": "Sci. Rep.",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "elastic optical networks",
+        "deep reinforcement learning",
+        "spectrum fragmentation",
+        "spectrum partitioning",
+        "service availability",
+        "genetic algorithm",
+        "bandwidth blocking probability"
+      ],
       "url": "https://doi.org/10.1038/s41598-026-74794-9",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/5aca9996-a6ff-4974-9dc5-4794b119d974.html",
       "summary": "该研究建立考虑保护域依赖关系及光路可访问情形的业务可用性理论模型，并提出结合深度强化学习与改进遗传算法的弹性光网络P-cycle配置方法，同时引入链路频谱分区和工作路径选择机制。摘要报告，仿真中该方法改善频谱资源利用、降低带宽阻塞，并在对阻塞概率影响很小的情况下提升业务可用性。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W4405586184",
+      "doi": "10.1016/j.osn.2024.100793",
+      "title": "Energy efficient resource aware protection with rapid failure recovery in cloud-ready elastic optical networks",
+      "authors": [
+        "Sougata Das",
+        "Monish Chatterjee"
+      ],
+      "year": 2024,
+      "venue": "Optical Switching and Networking",
+      "venue_abbr": "Optical Switching and Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fault recovery",
+        "energy efficiency",
+        "p-cycles",
+        "service migration",
+        "survivability",
+        "polynomial-time algorithms"
+      ],
+      "url": "https://doi.org/10.1016/j.osn.2024.100793",
+      "cited_by_count": 7,
+      "importance": 0.6181,
+      "score_basis": {
+        "topic_overlap": 0.44,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414559629",
+      "doi": "10.1016/j.osn.2025.100823",
+      "title": "Survivable Elastic Optical Network: A survey of failure scenarios and solutions",
+      "authors": [
+        "Amit Khanjan Sarma",
+        "Sanjib Kumar Deka",
+        "Nityananda Sarma"
+      ],
+      "year": 2025,
+      "venue": "Optical Switching and Networking",
+      "venue_abbr": "Optical Switching and Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "flex-grid",
+        "failure scenarios",
+        "dedicated path protection",
+        "shared backup path protection",
+        "spectrum management",
+        "traffic splitting",
+        "vulnerability scoring",
+        "disaster recovery (information technology)",
+        "centralized control",
+        "physical layer impairments",
+        "blocking probability",
+        "spectrum utilization"
+      ],
+      "url": "https://doi.org/10.1016/j.osn.2025.100823",
+      "cited_by_count": 12,
+      "importance": 0.5794,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386710912",
+      "doi": "10.1364/jocn.489577",
+      "title": "Deep reinforcement learning for proactive spectrum defragmentation in elastic optical networks",
+      "authors": [
+        "Ehsan Etezadi",
+        "Carlos Natalino",
+        "Renzo Diaz",
+        "Anders Lindgren",
+        "Stefan Melin",
+        "Lena Wosinska",
+        "Paolo Monti A",
+        "Marija Furdek"
+      ],
+      "year": 2023,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "elastic optical networks",
+        "deep reinforcement learning",
+        "spectrum reallocation",
+        "fragmentation metrics",
+        "blocking probability",
+        "spectral efficiency",
+        "network automation"
+      ],
+      "url": "https://doi.org/10.1364/jocn.489577",
+      "cited_by_count": 31,
+      "importance": 0.5415,
+      "score_basis": {
+        "topic_overlap": 0.559,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401722033",
+      "doi": "10.1109/jlt.2024.3446762",
+      "title": "Deep Reinforcement Learning for QoT-Aware Routing, Modulation, and Spectrum Assignment in Elastic Optical Networks",
+      "authors": [
+        "Ahmad Asiri",
+        "Bin Wang"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "elastic optical networks",
+        "transmission quality",
+        "deep reinforcement learning",
+        "reward function",
+        "state representation",
+        "spectrum fragmentation",
+        "physical impairment",
+        "dynamic traffic demand",
+        "blocking rate",
+        "modulation selection"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3446762",
+      "cited_by_count": 34,
+      "importance": 0.5161,
+      "score_basis": {
+        "topic_overlap": 0.391,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3035849976",
+      "doi": "10.1016/j.comcom.2020.06.018",
+      "title": "On spectrum and energy efficient survivable multipath routing in off-line Elastic Optical Network",
+      "authors": [
+        "Joy Halder",
+        "Tamaghna Acharya",
+        "Monish R. Chatterjee",
+        "Uma Bhattacharya"
+      ],
+      "year": 2020,
+      "venue": "Computer Communications",
+      "venue_abbr": "Computer Communications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "routing and spectrum assignment",
+        "energy efficiency",
+        "spectral efficiency",
+        "integer linear programming",
+        "genetic algorithm heuristic",
+        "power consumption minimization"
+      ],
+      "url": "https://doi.org/10.1016/j.comcom.2020.06.018",
+      "cited_by_count": 28,
+      "importance": 0.5149,
+      "score_basis": {
+        "topic_overlap": 0.455,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411554477",
+      "doi": "10.3390/photonics12070634",
+      "title": "Multi-Link Fragmentation-Aware Deep Reinforcement Learning RSA Algorithm in Elastic Optical Network",
+      "authors": [
+        "Jing Jiang",
+        "Y. S Su",
+        "Jingchi Cheng",
+        "Tao Shang"
+      ],
+      "year": 2025,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "routing and spectrum assignment",
+        "deep reinforcement learning",
+        "resource fragmentation",
+        "reward function design",
+        "spectrum utilization",
+        "blocking rate"
+      ],
+      "url": "https://doi.org/10.3390/photonics12070634",
+      "cited_by_count": 10,
+      "importance": 0.4964,
+      "score_basis": {
+        "topic_overlap": 0.436,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413394653",
+      "doi": "10.1109/jlt.2025.3601402",
+      "title": "DRL-Assisted QoT-Aware Service Provisioning in Multi-Band Elastic Optical Networks",
+      "authors": [
+        "Yiran Teng",
+        "Carlos Natalino",
+        "Farhad Arpanaei",
+        "Haiyuan Li",
+        "Alfonso Sánchez‐Macián",
+        "Paolo Monti A",
+        "Shuangyi Yan",
+        "Dimitra E. Simeonidou"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "multi-band optical networks",
+        "elastic optical networks",
+        "deep reinforcement learning",
+        "dynamic service provisioning",
+        "transmission quality",
+        "state representation",
+        "reward function design",
+        "traffic grooming",
+        "5G/6G networks",
+        "resource management"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3601402",
+      "cited_by_count": 9,
+      "importance": 0.4682,
+      "score_basis": {
+        "topic_overlap": 0.374,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3012970474",
+      "doi": "10.1364/jocn.382561",
+      "title": "Link-protection and FIPP p-cycle designs in translucent elastic optical networks",
+      "authors": [
+        "Rujia Zou",
+        "Hiroshi Hasegawa",
+        "Masahiko Jinno",
+        "Suresh Subramaniam"
+      ],
+      "year": 2020,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "link protection",
+        "routing and spectrum assignment",
+        "regenerator",
+        "spectral efficiency"
+      ],
+      "url": "https://doi.org/10.1364/jocn.382561",
+      "cited_by_count": 20,
+      "importance": 0.4665,
+      "score_basis": {
+        "topic_overlap": 0.437,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2970870482",
+      "doi": "10.1016/j.osn.2019.100535",
+      "title": "Protection in elastic optical networks using Failure-Independent Path Protecting p-cycles",
+      "authors": [
+        "Helder May Nunes da Silva Oliveira",
+        "Nelson L. S. da Fonseca"
+      ],
+      "year": 2019,
+      "venue": "Optical Switching and Networking",
+      "venue_abbr": "Optical Switching and Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "network protection",
+        "p-cycles",
+        "traffic grooming",
+        "integer linear programming",
+        "heuristic algorithms"
+      ],
+      "url": "https://doi.org/10.1016/j.osn.2019.100535",
+      "cited_by_count": 22,
+      "importance": 0.4547,
+      "score_basis": {
+        "topic_overlap": 0.388,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392975539",
+      "doi": "10.1016/j.comnet.2024.110349",
+      "title": "Energy efficient multipath routing in space division multiplexed elastic optical networks",
+      "authors": [
+        "Soheil Hosseini",
+        "Ignacio de Miguel",
+        "Noemí Merayo",
+        "R. de la Rosa",
+        "Ruben Mateo Lorenzo",
+        "Ramón J. Durán Barroso"
+      ],
+      "year": 2024,
+      "venue": "Computer Networks",
+      "venue_abbr": "Computer Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multipath routing",
+        "space-division multiplexing",
+        "elastic optical networks",
+        "energy efficiency",
+        "multicore fiber",
+        "inter-core crosstalk",
+        "modulation format selection",
+        "ROADM",
+        "blocking probability",
+        "dynamic spectrum allocation",
+        "long-haul optical networks"
+      ],
+      "url": "https://doi.org/10.1016/j.comnet.2024.110349",
+      "cited_by_count": 12,
+      "importance": 0.4478,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4322766790",
+      "doi": "10.1155/2023/4140594",
+      "title": "Resource Allocation in Multicore Elastic Optical Networks: A Deep Reinforcement Learning Approach",
+      "authors": [
+        "Juan Pinto-Ríos",
+        "Felipe Calderón",
+        "Ariel Leiva",
+        "Gabriel Hermosilla",
+        "Alejandra Beghelli",
+        "Danilo Bórquez‐Paredes",
+        "Astrid Lozada",
+        "Nicolás Jara",
+        "Ricardo Olivares",
+        "Gabriel Saavedra"
+      ],
+      "year": 2023,
+      "venue": "Complexity",
+      "venue_abbr": "Complexity",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multicore fiber",
+        "elastic optical networks",
+        "resource allocation",
+        "deep reinforcement learning",
+        "inter-core crosstalk",
+        "blocking probability",
+        "NSFNET"
+      ],
+      "url": "https://doi.org/10.1155/2023/4140594",
+      "cited_by_count": 25,
+      "importance": 0.4456,
+      "score_basis": {
+        "topic_overlap": 0.39,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3010925116",
+      "doi": "10.1109/access.2020.2979487",
+      "title": "On Energy Efficient Survivable Multipath Based Approaches in Space Division Multiplexing Elastic Optical Network: Crosstalk-Aware and Fragmentation-Aware",
+      "authors": [
+        "Smita Paira",
+        "Joy Halder",
+        "Monish Chatterjee",
+        "Uma Bhattacharya"
+      ],
+      "year": 2020,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "space-division multiplexing",
+        "elastic optical networks",
+        "energy efficiency",
+        "survivable network design",
+        "multipath routing",
+        "crosstalk",
+        "fragmentation",
+        "single link failure",
+        "dynamic traffic",
+        "p-cycles",
+        "shared path protection"
+      ],
+      "url": "https://doi.org/10.1109/access.2020.2979487",
+      "cited_by_count": 49,
+      "importance": 0.4407,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3186025733",
+      "doi": "10.23919/ondm51796.2021.9492334",
+      "title": "Multi-band provisioning in dynamic elastic optical networks: a comparative study of a heuristic and a deep reinforcement learning approach",
+      "authors": [
+        "Nour El Din El Sheikh",
+        "Esteban Paz",
+        "Juan Pinto-Ríos",
+        "Alejandra Beghelli"
+      ],
+      "year": 2021,
+      "venue": "International Conference on Optical Network Design and Modeling (ONDM)",
+      "venue_abbr": "International Conference on Optical Network Design and Modeling (ONDM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "resource provisioning",
+        "deep reinforcement learning",
+        "deep Q-network",
+        "heuristic algorithms",
+        "blocking probability",
+        "dynamic optical networks",
+        "network representation"
+      ],
+      "url": "https://doi.org/10.23919/ondm51796.2021.9492334",
+      "cited_by_count": 30,
+      "importance": 0.4405,
+      "score_basis": {
+        "topic_overlap": 0.401,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4382203602",
+      "doi": "10.3390/mca28030067",
+      "title": "Routing, Modulation Level, and Spectrum Assignment in Elastic Optical Networks—A Serial Stage Approach with Multiple Sub-Sets of Requests Based on Integer Linear Programming",
+      "authors": [
+        "Luis Víctor Maidana-Benítez",
+        "Melisa María Rosa Villamayor Paredes",
+        "José D. Colbes",
+        "César F. Bogado-Martínez",
+        "Benjamı́n Barán",
+        "Diego Pedro Pinto-Roa"
+      ],
+      "year": 2023,
+      "venue": "Mathematical and Computational Applications",
+      "venue_abbr": "Mathematical and Computational Applications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "spectral efficiency",
+        "integer linear programming"
+      ],
+      "url": "https://doi.org/10.3390/mca28030067",
+      "cited_by_count": 10,
+      "importance": 0.4319,
+      "score_basis": {
+        "topic_overlap": 0.404,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3017967697",
+      "doi": "10.1007/978-981-15-3477-5_14",
+      "title": "Designing of p-Cycle Based Survivable Multicast RSA in Elastic Optical Networks",
+      "authors": [
+        "Susmita Das",
+        "Joy Halder",
+        "Uma Bhattacharya"
+      ],
+      "year": 2020,
+      "venue": "Lecture notes in electrical engineering",
+      "venue_abbr": "Lecture notes in electrical engineering",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "p-cycles",
+        "blocking probability",
+        "spectrum allocation"
+      ],
+      "url": "https://doi.org/10.1007/978-981-15-3477-5_14",
+      "cited_by_count": 2,
+      "importance": 0.425,
+      "score_basis": {
+        "topic_overlap": 0.5,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414230406",
+      "doi": "10.1109/icetetsip64213.2025.11156621",
+      "title": "A Comparative Study of SARSA, DQN and PPO Based RSA for P-Cycle Protection in EONs",
+      "authors": [
+        "Ruchi Dave",
+        "Dolly Thankachan"
+      ],
+      "year": 2025,
+      "venue": "International Conference on Emerging Trends in Engineering and Technology (ICETET)",
+      "venue_abbr": "International Conference on Emerging Trends in Engineering and Technology (ICETET)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "routing and spectrum assignment",
+        "elastic optical networks",
+        "SARSA",
+        "deep Q-network",
+        "proximal policy optimization",
+        "reinforcement learning",
+        "blocking probability",
+        "spectral efficiency",
+        "resource allocation"
+      ],
+      "url": "https://doi.org/10.1109/icetetsip64213.2025.11156621",
+      "cited_by_count": 2,
+      "importance": 0.4243,
+      "score_basis": {
+        "topic_overlap": 0.387,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388451237",
+      "doi": "10.1016/j.comnet.2023.110091",
+      "title": "DRL assisted multi-objective algorithm for multicast scheduling in elastic optical network",
+      "authors": [
+        "Xia Li",
+        "Xiaoli Wang",
+        "Yuping Wang"
+      ],
+      "year": 2023,
+      "venue": "Computer Networks",
+      "venue_abbr": "Computer Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multicast scheduling",
+        "elastic optical networks",
+        "deep reinforcement learning",
+        "multi-objective optimization",
+        "user service quality",
+        "routing strategies",
+        "modulation schemes",
+        "spectral assignment"
+      ],
+      "url": "https://doi.org/10.1016/j.comnet.2023.110091",
+      "cited_by_count": 4,
+      "importance": 0.4144,
+      "score_basis": {
+        "topic_overlap": 0.476,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4311544232",
+      "doi": "10.1016/j.optcom.2022.129211",
+      "title": "Center fit spectrum allocation policy for time-varying traffic in survivable elastic optical networks",
+      "authors": [
+        "Huanlin Liu",
+        "Yan Qiu",
+        "Zhanpeng Wang",
+        "Mingming Tan",
+        "Haonan Chen",
+        "Xingji Huo",
+        "Junling Hu"
+      ],
+      "year": 2022,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "spectrum allocation",
+        "time-varying traffic",
+        "survivable networks",
+        "lightpath protection",
+        "bandwidth blocking probability",
+        "spectrum utilization"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2022.129211",
+      "cited_by_count": 8,
+      "importance": 0.4116,
+      "score_basis": {
+        "topic_overlap": 0.359,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4295540084",
+      "doi": "10.3390/math10183293",
+      "title": "Deep Reinforcement Learning-Based RMSA Policy Distillation for Elastic Optical Networks",
+      "authors": [
+        "Bixia Tang",
+        "Yue‐Cai Huang",
+        "Yun Xue",
+        "Weixing Zhou"
+      ],
+      "year": 2022,
+      "venue": "Mathematics",
+      "venue_abbr": "Mathematics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "policy distillation",
+        "knowledge distillation",
+        "deep reinforcement learning",
+        "resource allocation",
+        "training acceleration",
+        "blocking probability",
+        "teacher-student models"
+      ],
+      "url": "https://doi.org/10.3390/math10183293",
+      "cited_by_count": 22,
+      "importance": 0.411,
+      "score_basis": {
+        "topic_overlap": 0.38,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3178500448",
+      "doi": "10.1016/j.comnet.2021.108284",
+      "title": "Proactive restoration with low re-provisioning in Elastic Optical Networks",
+      "authors": [
+        "Saba Shakouri",
+        "Akbar Ghaffarpour Rahbar"
+      ],
+      "year": 2021,
+      "venue": "Computer Networks",
+      "venue_abbr": "Computer Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "network survivability",
+        "fault recovery"
+      ],
+      "url": "https://doi.org/10.1016/j.comnet.2021.108284",
+      "cited_by_count": 6,
+      "importance": 0.41,
+      "score_basis": {
+        "topic_overlap": 0.422,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3193493943",
+      "doi": "10.1016/j.osn.2021.100644",
+      "title": "A deep neural network with a fuzzy multi-objective optimization model for fault analysis in an elastic optical network",
+      "authors": [
+        "André Luiz Ferraz Lourenço",
+        "A.C. Cesar"
+      ],
+      "year": 2021,
+      "venue": "Optical Switching and Networking",
+      "venue_abbr": "Optical Switching and Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "routing and spectrum assignment",
+        "shared backup path protection",
+        "blocking probability",
+        "spectrum fragmentation",
+        "fuzzy inference system",
+        "multi-objective optimization",
+        "deep neural network",
+        "network survivability",
+        "load balancing"
+      ],
+      "url": "https://doi.org/10.1016/j.osn.2021.100644",
+      "cited_by_count": 7,
+      "importance": 0.4062,
+      "score_basis": {
+        "topic_overlap": 0.347,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3111489359",
+      "doi": "10.1109/jlt.2020.3043271",
+      "title": "Survival Multipath Energy-Aware Resource Allocation in SDM-EONs During Fluctuating Traffic",
+      "authors": [
+        "Ruijie Zhu",
+        "Aretor Samuel",
+        "Peisen Wang",
+        "Shihua Li",
+        "Lulu Li",
+        "Pei Lv",
+        "Mingliang Xu"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "space-division multiplexing",
+        "elastic optical networks",
+        "energy-aware resource allocation",
+        "crosstalk",
+        "core allocation",
+        "link failure",
+        "spectral efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.3043271",
+      "cited_by_count": 39,
+      "importance": 0.4058,
+      "score_basis": {
+        "topic_overlap": 0.302,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411437479",
+      "doi": "10.1016/j.yofte.2025.104317",
+      "title": "Joint multicast survivability and hybrid QoS differentiation for bandwidth usage optimization and variable traffic control in elastic optical networks",
+      "authors": [
+        "Yassine Khlifi"
+      ],
+      "year": 2025,
+      "venue": "Optical Fiber Technology",
+      "venue_abbr": "OFT",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "spectrum allocation"
+      ],
+      "url": "https://doi.org/10.1016/j.yofte.2025.104317",
+      "cited_by_count": 3,
+      "importance": 0.3941,
+      "score_basis": {
+        "topic_overlap": 0.431,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386004581",
+      "doi": "10.1007/978-981-99-4725-6_52",
+      "title": "Scalable Energy Efficiency Protection Model with Directed p-Cycles in Elastic Optical Network",
+      "authors": [
+        "Luong Van Hieu",
+        "Trung Kien Do"
+      ],
+      "year": 2023,
+      "venue": "Lecture notes in networks and systems",
+      "venue_abbr": "Lecture notes in networks and systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "network protection",
+        "energy efficiency",
+        "power consumption",
+        "integer linear programming",
+        "spectrum allocation",
+        "scalability",
+        "NP-hard optimization"
+      ],
+      "url": "https://doi.org/10.1007/978-981-99-4725-6_52",
+      "cited_by_count": 1,
+      "importance": 0.39,
+      "score_basis": {
+        "topic_overlap": 0.422,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313524873",
+      "doi": "10.1109/latincom56090.2022.10000467",
+      "title": "Resilient Routing and Resource Allocation in SDM-EON",
+      "authors": [
+        "Helder May Nunes da Silva Oliveira",
+        "Nelson L. S. da Fonseca"
+      ],
+      "year": 2022,
+      "venue": "IEEE Latin-American Conference on Communications",
+      "venue_abbr": "IEEE Latin-American Conference on Communications",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "resilient routing",
+        "resource allocation",
+        "spectrum allocation",
+        "space-division multiplexing",
+        "elastic optical networks",
+        "adaptive modulation",
+        "p-cycles",
+        "network resilience",
+        "optical networks"
+      ],
+      "url": "https://doi.org/10.1109/latincom56090.2022.10000467",
+      "cited_by_count": 1,
+      "importance": 0.3808,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3097310075",
+      "doi": "10.1007/s11227-020-03493-7",
+      "title": "Multi-period traffic on elastic optical networks planning: alleviating the capacity crunch",
+      "authors": [
+        "Leonardo A. J. Mesquita",
+        "K. D. R. Assis",
+        "Raul C. Almeida"
+      ],
+      "year": 2020,
+      "venue": "The Journal of Supercomputing",
+      "venue_abbr": "The Journal of Supercomputing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "request blocking",
+        "mixed-integer linear programming formulation",
+        "OFDM",
+        "spectral efficiency",
+        "decomposition method"
+      ],
+      "url": "https://doi.org/10.1007/s11227-020-03493-7",
+      "cited_by_count": 7,
+      "importance": 0.3806,
+      "score_basis": {
+        "topic_overlap": 0.401,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4296887771",
+      "doi": "10.1016/j.cie.2022.108663",
+      "title": "Online routing and spectrum allocation in elastic optical networks based on dueling Deep Q-network",
+      "authors": [
+        "Jiawei Zhang",
+        "Fengchen Qian",
+        "Junqiang Yang"
+      ],
+      "year": 2022,
+      "venue": "Computers & Industrial Engineering",
+      "venue_abbr": "Computers & Industrial Engineering",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "dueling deep Q-network",
+        "deep reinforcement learning",
+        "Markov decision process",
+        "mixed-integer linear programming",
+        "dynamic traffic",
+        "blocking probability",
+        "epsilon-greedy strategy",
+        "real-time decision making"
+      ],
+      "url": "https://doi.org/10.1016/j.cie.2022.108663",
+      "cited_by_count": 31,
+      "importance": 0.3635,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2998352845",
+      "doi": "10.3390/app10010363",
+      "title": "AI-Based Modeling and Monitoring Techniques for Future Intelligent Elastic Optical Networks",
+      "authors": [
+        "Xiaomin Liu",
+        "Huazhi Lun",
+        "Mengfan Fu",
+        "Yunyun Fan",
+        "Lilin Yi",
+        "Weisheng Hu",
+        "Qunbi Zhuge"
+      ],
+      "year": 2020,
+      "venue": "Applied Sciences",
+      "venue_abbr": "Appl. Sci.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "elastic optical networks",
+        "optical performance monitoring",
+        "optical network planning",
+        "anomaly detection",
+        "data-driven modeling"
+      ],
+      "url": "https://doi.org/10.3390/app10010363",
+      "cited_by_count": 63,
+      "importance": 0.3008,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392295563",
+      "doi": "10.1364/jocn.514067",
+      "title": "Power-aware high-capacity elastic optical networks",
+      "authors": [
+        "Margita Radovic",
+        "Andrea Sgambelluri",
+        "Filippo Cugini",
+        "Nicola Sambo"
+      ],
+      "year": 2024,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "elastic optical networks",
+        "power consumption",
+        "superchannels",
+        "filter bandwidth",
+        "spectral efficiency",
+        "multi-band transmission",
+        "software-defined networking",
+        "thulium-doped fiber amplifier",
+        "optical amplifiers",
+        "energy efficiency",
+        "digital signal processing"
+      ],
+      "url": "https://doi.org/10.1364/jocn.514067",
+      "cited_by_count": 9,
+      "importance": 0.2873,
+      "score_basis": {
+        "topic_overlap": 0.194,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408911580",
+      "doi": "10.1016/j.comnet.2025.111240",
+      "title": "Memory-efficient programmable packet parsing for multi-tenant terabit networks",
+      "authors": [
+        "Xuetan Cheng",
+        "Yingwen Chen",
+        "Xiangrui Yang",
+        "Huan Zhou",
+        "Lailong Luo",
+        "Deke Guo"
+      ],
+      "year": 2025,
+      "venue": "Computer Networks",
+      "venue_abbr": "Computer Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multi-tenant networks",
+        "terabit networks",
+        "FPGA prototype"
+      ],
+      "url": "https://doi.org/10.1016/j.comnet.2025.111240",
+      "cited_by_count": 34,
+      "importance": 0.2622,
+      "score_basis": {
+        "topic_overlap": 0.138,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410536828",
+      "doi": "10.1109/tvt.2025.3572037",
+      "title": "Radar-Assisted Predictive Beamforming for UAV-Aided Networks: A Deep-Learning Solution",
+      "authors": [
+        "Rui Yin",
+        "Jingwei Peng",
+        "Yunlong Cai",
+        "Celimuge Wu",
+        "Benoı̂t Champagne",
+        "Naofal Al‐Dhahir"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "venue_abbr": "IEEE Transactions on Vehicular Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "UAV-assisted wireless networks",
+        "predictive beamforming",
+        "deep reinforcement learning",
+        "deep unfolding network",
+        "UAV trajectory optimization",
+        "transmit beamforming",
+        "user tracking",
+        "6G",
+        "two-timescale optimization"
+      ],
+      "url": "https://doi.org/10.1109/tvt.2025.3572037",
+      "cited_by_count": 43,
+      "importance": 0.2316,
+      "score_basis": {
+        "topic_overlap": 0.07,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412056082",
+      "doi": "10.1007/s44196-025-00901-9",
+      "title": "Energy Optimization and Efficiency Improvement Model for Enterprise Production Process Based on Deep Learning Under the Background of Carbon Peak and Carbon Neutrality",
+      "authors": [
+        "Hui Bai",
+        "Yiyi Chen",
+        "Hua Bai",
+        "Meiling Liu",
+        "Fan Yu"
+      ],
+      "year": 2025,
+      "venue": "International Journal of Computational Intelligence Systems",
+      "venue_abbr": "International Journal of Computational Intelligence Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "industrial energy management",
+        "energy efficiency optimization",
+        "dual carbon goals",
+        "load forecasting",
+        "LSTM",
+        "production process optimization",
+        "automotive manufacturing",
+        "steel industry",
+        "chemical plants"
+      ],
+      "url": "https://doi.org/10.1007/s44196-025-00901-9",
+      "cited_by_count": 32,
+      "importance": 0.2195,
+      "score_basis": {
+        "topic_overlap": 0.043,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313134679",
+      "doi": "10.1109/jiot.2022.3228811",
+      "title": "A Learning-Based Approach for Vehicle-to-Vehicle Computation Offloading",
+      "authors": [
+        "Xingxia Dai",
+        "Zhu Qiang Xiao",
+        "Hongbo Jiang",
+        "Hongyang Chen",
+        "Geyong Min",
+        "Schahram Dustdar",
+        "Jiannong Cao"
+      ],
+      "year": 2022,
+      "venue": "IEEE Internet of Things Journal",
+      "venue_abbr": "IEEE Internet of Things Journal",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "task delay minimization",
+        "privacy leakage",
+        "quality of service",
+        "vehicular computing",
+        "regret minimization"
+      ],
+      "url": "https://doi.org/10.1109/jiot.2022.3228811",
+      "cited_by_count": 119,
+      "importance": 0.2177,
+      "score_basis": {
+        "topic_overlap": 0.039,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4292261935",
+      "doi": "10.1109/lwc.2022.3199593",
+      "title": "On the Ergodic Secrecy Capacity of Intelligent Reflecting Surface Aided Wireless Powered Communication Systems",
+      "authors": [
+        "Kunrui Cao",
+        "Haiyang Ding",
+        "Wei Li",
+        "Lu Lv",
+        "Mei Gao",
+        "Fengkui Gong",
+        "Buhong Wang"
+      ],
+      "year": 2022,
+      "venue": "IEEE Wireless Communications Letters",
+      "venue_abbr": "IEEE Wireless Communications Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reconfigurable intelligent surface",
+        "wireless powered communication",
+        "physical layer security",
+        "ergodic secrecy capacity",
+        "passive eavesdropper",
+        "hybrid access point",
+        "closed-form expressions"
+      ],
+      "url": "https://doi.org/10.1109/lwc.2022.3199593",
+      "cited_by_count": 113,
+      "importance": 0.207,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4221089097",
+      "doi": "10.1145/3517013",
+      "title": "Concurrent Low-power Listening: A New Design Paradigm for Duty-cycling Communication",
+      "authors": [
+        "Daibo Liu",
+        "Zhichao Cao",
+        "Hongbo Jiang",
+        "Siwang Zhou",
+        "Zhu Qiang Xiao",
+        "Fanzi Zeng"
+      ],
+      "year": 2022,
+      "venue": "ACM Transactions on Sensor Networks",
+      "venue_abbr": "ACM Transactions on Sensor Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "duty cycling",
+        "low-power wireless devices",
+        "medium access control",
+        "wake-up signal",
+        "adaptive transmission power",
+        "transmission scheduling",
+        "sensor networks",
+        "throughput",
+        "transmission delay"
+      ],
+      "url": "https://doi.org/10.1145/3517013",
+      "cited_by_count": 65,
+      "importance": 0.2068,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411446348",
+      "doi": "10.1109/jiot.2025.3581314",
+      "title": "MPAEE: A Multipath Adaptive Energy-Efficient Routing Scheme for Low Earth Orbit-Based Industrial Internet of Things",
+      "authors": [
+        "Guanjun Xu",
+        "Lijing Wang",
+        "Shuaihua Chen",
+        "Lina Zhu",
+        "Maher Guizani",
+        "Lei Shi"
+      ],
+      "year": 2025,
+      "venue": "IEEE Internet of Things Journal",
+      "venue_abbr": "IEEE Internet of Things Journal",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "LEO satellite constellations",
+        "multipath routing",
+        "energy-efficient routing",
+        "Industrial Internet of Things",
+        "particle swarm optimization",
+        "dynamic weighting",
+        "digital twin",
+        "satellite lifetime",
+        "load balancing",
+        "path selection"
+      ],
+      "url": "https://doi.org/10.1109/jiot.2025.3581314",
+      "cited_by_count": 48,
+      "importance": 0.2062,
+      "score_basis": {
+        "topic_overlap": 0.014,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2984011474",
+      "doi": "10.1109/jsac.2019.2951972",
+      "title": "Relaying-Assisted Communications for Demand Response in Smart Grid: Cost Modeling, Game Strategies, and Algorithms",
+      "authors": [
+        "Kai Ma",
+        "Jie Yang",
+        "Pei Liu"
+      ],
+      "year": 2019,
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "venue_abbr": "JSAC",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "demand response",
+        "smart grid",
+        "relaying",
+        "Stackelberg game",
+        "Nash equilibrium",
+        "Taguchi loss function",
+        "payment allocation",
+        "demand variability",
+        "backward induction",
+        "iterative methods"
+      ],
+      "url": "https://doi.org/10.1109/jsac.2019.2951972",
+      "cited_by_count": 245,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414117429",
+      "doi": "10.1109/tce.2025.3608740",
+      "title": "Receding Horizon Optimization of Power Demand Response for Production-Oriented Users With Real-Time Operating Status-Awareness",
+      "authors": [
+        "Hongming Yang",
+        "Rui Liang",
+        "Yu Jie Zheng",
+        "Siyuan Peng",
+        "A. Rae",
+        "Emmanuel Kofi Ackom",
+        "Archie  James Johnston"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Consumer Electronics",
+      "venue_abbr": "IEEE Transactions on Consumer Electronics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "receding horizon optimization",
+        "IoT monitoring",
+        "flexible loads",
+        "real-time electricity pricing",
+        "production equipment",
+        "cement production",
+        "electricity cost reduction"
+      ],
+      "url": "https://doi.org/10.1109/tce.2025.3608740",
+      "cited_by_count": 25,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W3012970474",
+      "to": "W2970870482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012970474"
+        }
+      ]
+    },
+    {
+      "from": "W3035849976",
+      "to": "W3010925116",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3035849976"
+        }
+      ]
+    },
+    {
+      "from": "W3111489359",
+      "to": "W3010925116",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3111489359"
+        }
+      ]
+    },
+    {
+      "from": "W3193493943",
+      "to": "W2998352845",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3193493943"
+        }
+      ]
+    },
+    {
+      "from": "W4311544232",
+      "to": "W3035849976",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4311544232"
+        }
+      ]
+    },
+    {
+      "from": "W4313524873",
+      "to": "W2970870482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313524873"
+        }
+      ]
+    },
+    {
+      "from": "W4322766790",
+      "to": "W3186025733",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322766790"
+        }
+      ]
+    },
+    {
+      "from": "W4382203602",
+      "to": "W4295540084",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4382203602"
+        }
+      ]
+    },
+    {
+      "from": "W4386710912",
+      "to": "W3186025733",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386710912"
+        }
+      ]
+    },
+    {
+      "from": "W4392975539",
+      "to": "W3010925116",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392975539"
+        }
+      ]
+    },
+    {
+      "from": "W4392975539",
+      "to": "W3111489359",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392975539"
+        }
+      ]
+    },
+    {
+      "from": "W4401722033",
+      "to": "W4295540084",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401722033"
+        }
+      ]
+    },
+    {
+      "from": "W4401722033",
+      "to": "W4322766790",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401722033"
+        }
+      ]
+    },
+    {
+      "from": "W4405586184",
+      "to": "W2970870482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405586184"
+        }
+      ]
+    },
+    {
+      "from": "W4405586184",
+      "to": "W3010925116",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405586184"
+        }
+      ]
+    },
+    {
+      "from": "W4405586184",
+      "to": "W3012970474",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405586184"
+        }
+      ]
+    },
+    {
+      "from": "W4405586184",
+      "to": "W3035849976",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405586184"
+        }
+      ]
+    },
+    {
+      "from": "W4411554477",
+      "to": "W4386710912",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411554477"
+        }
+      ]
+    },
+    {
+      "from": "W4411554477",
+      "to": "W4401722033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411554477"
+        }
+      ]
+    },
+    {
+      "from": "W4413394653",
+      "to": "W3186025733",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413394653"
+        }
+      ]
+    },
+    {
+      "from": "W4413394653",
+      "to": "W4386710912",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413394653"
+        }
+      ]
+    },
+    {
+      "from": "W4414230406",
+      "to": "W4401722033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414230406"
+        }
+      ]
+    },
+    {
+      "from": "W4414559629",
+      "to": "W2970870482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414559629"
+        }
+      ]
+    },
+    {
+      "from": "W4414559629",
+      "to": "W3010925116",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414559629"
+        }
+      ]
+    },
+    {
+      "from": "W4414559629",
+      "to": "W3035849976",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414559629"
+        }
+      ]
+    },
+    {
+      "from": "W4414559629",
+      "to": "W3178500448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414559629"
+        }
+      ]
+    },
+    {
+      "from": "W4414559629",
+      "to": "W4405586184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414559629"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W2970870482",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W2984011474",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W2998352845",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W3010925116",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W3012970474",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W3017967697",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W3035849976",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W3097310075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W3111489359",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W3178500448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W3186025733",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W3193493943",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4221089097",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4292261935",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4295540084",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4296887771",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4311544232",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4313134679",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4313524873",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4322766790",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4382203602",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4386004581",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4386710912",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4388451237",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4392295563",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4392975539",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4401722033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4405586184",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4408911580",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4410536828",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4411437479",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4411446348",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4411554477",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4412056082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4413394653",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4414117429",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4414230406",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    },
+    {
+      "from": "W7223672495",
+      "to": "W4414559629",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223672495"
+        }
+      ]
+    }
+  ]
 }

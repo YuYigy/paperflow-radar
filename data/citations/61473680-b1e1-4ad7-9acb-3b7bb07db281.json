@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "61473680-b1e1-4ad7-9acb-3b7bb07db281",
-  "root": "doi:10.1364/jocn.608583",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7212193935",
+  "status": "ok",
+  "checked_at": "2026-11-06T00:48:37.068601+00:00",
+  "coverage": {
+    "references_found": 22,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 22,
+    "displayed": 22
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/jocn.608583",
+      "id": "W7212193935",
       "doi": "10.1364/jocn.608583",
       "title": "Simultaneous state of polarization sensing on separate ONUs in PON upstream transmission",
       "authors": [
@@ -17,23 +27,1425 @@
         "Laura Greborio",
         "Giuseppe Rizzelli",
         "Valter Ferrero",
-        "Annachiara Pagano",
+        "A. Pagano",
         "Roberto Gaudino"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Journal of Optical Communications and Networking",
       "venue_abbr": "JOCN",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "optical network unit",
+        "passive optical networks",
+        "upstream transmission",
+        "simultaneous measurement",
+        "polarization monitoring"
+      ],
       "url": "https://doi.org/10.1364/jocn.608583",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/61473680-b1e1-4ad7-9acb-3b7bb07db281.html",
       "summary": "研究提出在OLT接收机旁并联单台偏振仪，利用GPON上行固有的TDMA突发传输，对多个活跃ONU进行同时偏振态感知。作者采用商用GPON OLT和ONU硬件开展实验，展示了区分馈线与特定配线光纤异常振动的能力，实现粗粒度事件定位。研究还讨论采样率与同步要求，通过对同一ONU突发对应的斯托克斯矢量样本进行平均来改善估计，并实验表征低平均接收功率下的感知限制，以及异构流量下的偏振噪声、估计精度和馈线机械振动信噪比。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4405105111",
+      "doi": "10.1364/jocn.537881",
+      "title": "Overview on the state of polarization sensing: application scenarios and anomaly detection algorithms",
+      "authors": [
+        "Saverio Pellegrini",
+        "Leonardo Minelli",
+        "Lorenzo Andrenacci",
+        "Giuseppe Rizzelli",
+        "Dario Pilori",
+        "Gabriella Bosco",
+        "Luca Della Chiesa",
+        "Claudio Crognale",
+        "Stefano Piciaccia",
+        "Roberto Gaudino"
+      ],
+      "year": 2024,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "polarization sensing",
+        "polarization state",
+        "optical fiber communication",
+        "anomaly detection",
+        "distributed acoustic sensing",
+        "coherent optical receivers",
+        "Stokes vector",
+        "vibration sensing"
+      ],
+      "url": "https://doi.org/10.1364/jocn.537881",
+      "cited_by_count": 39,
+      "importance": 0.6442,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 11,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417439020",
+      "doi": "10.1109/jlt.2025.3644664",
+      "title": "Experimental and Simulative Study on IM-DD Transmission and Large Chirped-Pulse DAS Coexistence",
+      "authors": [
+        "Saverio Pellegrini",
+        "Laura Hernández-Martín",
+        "A. M. Rosa Brusin",
+        "Giuseppe Rizzelli",
+        "Juan Diego Ania‐Castañón",
+        "Gabriella Bosco",
+        "Roberto Gaudino",
+        "Hugo Fidalgo Martins"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "distributed acoustic sensing",
+        "intensity modulation and direct detection",
+        "fiber access networks"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3644664",
+      "cited_by_count": 5,
+      "importance": 0.5833,
+      "score_basis": {
+        "topic_overlap": 0.296,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4398151363",
+      "doi": "10.1109/jphot.2024.3403159",
+      "title": "Polarization-Based Fiber Optic System for Debris Flow Early Warning: On-Field Demonstration",
+      "authors": [
+        "Saverio Pellegrini",
+        "Giuseppe Rizzelli",
+        "Marco Barla",
+        "Roberto Gaudino"
+      ],
+      "year": 2024,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "debris flow early warning",
+        "polarization state",
+        "rockfall detection",
+        "landslide monitoring",
+        "avalanche monitoring",
+        "mountain hazards",
+        "vibration sensing",
+        "background noise robustness",
+        "Aosta Valley"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2024.3403159",
+      "cited_by_count": 7,
+      "importance": 0.5025,
+      "score_basis": {
+        "topic_overlap": 0.072,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4323644314",
+      "doi": "10.1109/jlt.2023.3252444",
+      "title": "Use of Optical Coherent Detection for Environmental Sensing",
+      "authors": [
+        "Antonio Mecozzi",
+        "Cristian Antonelli",
+        "Mikael Mazur",
+        "Nicolas K. Fontaine",
+        "Haoshuo Chen",
+        "Lauren Dallachiesa",
+        "Roland R. Ryf"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical coherent detection",
+        "environmental sensing",
+        "digital coherent receiver",
+        "fiber optic sensing"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3252444",
+      "cited_by_count": 48,
+      "importance": 0.4777,
+      "score_basis": {
+        "topic_overlap": 0.262,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400328395",
+      "doi": "10.1038/s44172-024-00237-w",
+      "title": "Polarization sensing of network health and seismic activity over a live terrestrial fiber-optic cable",
+      "authors": [
+        "Charles J. Carver",
+        "Xia Zhou"
+      ],
+      "year": 2024,
+      "venue": "Communications Engineering",
+      "venue_abbr": "Commun. Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization sensing",
+        "fiber optic networks",
+        "network health monitoring",
+        "seismic monitoring",
+        "distributed acoustic sensing",
+        "fiber optic sensing",
+        "telecommunication network reliability",
+        "Southern California"
+      ],
+      "url": "https://doi.org/10.1038/s44172-024-00237-w",
+      "cited_by_count": 46,
+      "importance": 0.4713,
+      "score_basis": {
+        "topic_overlap": 0.225,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409665603",
+      "doi": "10.1364/jocn.551606",
+      "title": "Real-time in-service ODN monitoring based on receiver-side DSP for next-generation PONs",
+      "authors": [
+        "Vincent E. Houtsma",
+        "Robert Borkowski",
+        "Kovendhan Vijayan",
+        "Doutje van Veen"
+      ],
+      "year": 2025,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "passive optical networks",
+        "in-service monitoring",
+        "fault detection",
+        "50G-PON",
+        "real-time monitoring",
+        "optical access networks"
+      ],
+      "url": "https://doi.org/10.1364/jocn.551606",
+      "cited_by_count": 10,
+      "importance": 0.4478,
+      "score_basis": {
+        "topic_overlap": 0.44,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413120524",
+      "doi": "10.1109/jlt.2025.3597192",
+      "title": "Distributed Fiber Optic Sensing (DFOS) in Telecom Networks: Industry Trends and Standards Development",
+      "authors": [
+        "Jun Shan Wey"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "distributed fiber optic sensing",
+        "telecommunications networks",
+        "ITU-T standardization",
+        "metro networks",
+        "access networks",
+        "network monitoring",
+        "industry trends"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3597192",
+      "cited_by_count": 13,
+      "importance": 0.4353,
+      "score_basis": {
+        "topic_overlap": 0.323,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389307622",
+      "doi": "10.1038/s44172-023-00138-4",
+      "title": "Localization of seismic waves with submarine fiber optics using polarization-only measurements",
+      "authors": [
+        "Luís Costa",
+        "Siddharth J. Varughese",
+        "Pierre Mertz",
+        "Valey F. Kamalov",
+        "Zhongwen Zhan"
+      ],
+      "year": 2023,
+      "venue": "Communications Engineering",
+      "venue_abbr": "Commun. Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fiber optic sensors",
+        "seismic monitoring"
+      ],
+      "url": "https://doi.org/10.1038/s44172-023-00138-4",
+      "cited_by_count": 38,
+      "importance": 0.4334,
+      "score_basis": {
+        "topic_overlap": 0.052,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7125705725",
+      "doi": "10.1364/jocn.586758",
+      "title": "ITU-T G.681: the first distributed fiber optic sensing standard for in-service terrestrial optical networks",
+      "authors": [
+        "Yoshifumi Wakisaka",
+        "Gabriele Di Rosa",
+        "Qirui Fan",
+        "Etienne Rochat",
+        "André Sandmann",
+        "Xiang Liu",
+        "Jun Shan Wey"
+      ],
+      "year": 2026,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "distributed fiber optic sensing",
+        "terrestrial optical networks",
+        "standardization"
+      ],
+      "url": "https://doi.org/10.1364/jocn.586758",
+      "cited_by_count": 4,
+      "importance": 0.4284,
+      "score_basis": {
+        "topic_overlap": 0.285,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4200584357",
+      "doi": "10.1109/jlt.2021.3137768",
+      "title": "Vibration Detection and Localization Using Modified Digital Coherent Telecom Transponders",
+      "authors": [
+        "Ezra Ip",
+        "Yue-Kai Huang",
+        "Glenn A. Wellbrock",
+        "Tiejun J. Xia",
+        "Ming-Fang Huang",
+        "Ting Wang",
+        "Yoshiaki Aono"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "vibration sensing",
+        "vibration localization",
+        "coherent optical receivers",
+        "DP-16QAM",
+        "fiber optic sensing",
+        "field trials"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3137768",
+      "cited_by_count": 124,
+      "importance": 0.4051,
+      "score_basis": {
+        "topic_overlap": 0.256,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3158152860",
+      "doi": "10.1364/optica.424307",
+      "title": "Polarization sensing using submarine optical cables",
+      "authors": [
+        "Antonio Mecozzi",
+        "Mattia Cantono",
+        "Jorge C. Castellanos",
+        "Valey F. Kamalov",
+        "Rafael Muller",
+        "Zhongwen Zhan"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "polarization sensing",
+        "submarine optical cable",
+        "polarization modulation",
+        "strain-induced birefringence",
+        "ocean waves",
+        "earthquake detection",
+        "single-mode fiber",
+        "fiber optic sensing"
+      ],
+      "url": "https://doi.org/10.1364/optica.424307",
+      "cited_by_count": 131,
+      "importance": 0.372,
+      "score_basis": {
+        "topic_overlap": 0.16,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3207546835",
+      "doi": "10.1364/jocn.439175",
+      "title": "Distributed fiber sensor network using telecom cables as sensing media: technology advancements and applications [Invited]",
+      "authors": [
+        "Ezra Ip",
+        "Jian Fang",
+        "Yaowen Li",
+        "Qiang Wang",
+        "Ming-Fang Huang",
+        "Milad Salemi",
+        "Yue-Kai Huang"
+      ],
+      "year": 2021,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "distributed fiber optic sensing",
+        "Brillouin optical time domain reflectometry",
+        "Rayleigh backscattering",
+        "distributed vibration sensing",
+        "distributed acoustic sensing",
+        "distributed temperature sensing",
+        "digital signal processing",
+        "passive optical networks",
+        "semiconductor optical amplifier",
+        "network traffic monitoring"
+      ],
+      "url": "https://doi.org/10.1364/jocn.439175",
+      "cited_by_count": 107,
+      "importance": 0.3607,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2166459180",
+      "doi": "10.1109/jstqe.2010.2044751",
+      "title": "Digital Coherent Optical Receivers: Algorithms and Subsystems",
+      "authors": [
+        "Seb J. Savory"
+      ],
+      "year": 2010,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical front-end",
+        "analog-to-digital converter",
+        "digital signal processing algorithms",
+        "constant modulus algorithm",
+        "decision-directed equalization",
+        "polarization multiplexing",
+        "DP-QPSK",
+        "carrier phase recovery",
+        "clock recovery"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2010.2044751",
+      "cited_by_count": 843,
+      "importance": 0.3527,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4214829285",
+      "doi": "10.1364/jocn.451289",
+      "title": "Machine-learning-based anomaly detection in optical fiber monitoring",
+      "authors": [
+        "Khouloud Abdelli",
+        "Joo Yeon Cho",
+        "Florian Azendorf",
+        "Helmut Grießer",
+        "Carsten Tropschug",
+        "Stephan M. Pachnicke"
+      ],
+      "year": 2022,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical fiber monitoring",
+        "anomaly detection",
+        "fiber cut",
+        "fault location",
+        "fault diagnosis",
+        "autoencoder",
+        "optical network security",
+        "physical layer attacks"
+      ],
+      "url": "https://doi.org/10.1364/jocn.451289",
+      "cited_by_count": 163,
+      "importance": 0.3452,
+      "score_basis": {
+        "topic_overlap": 0.278,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2994752724",
+      "doi": "10.1038/s41467-019-13262-7",
+      "title": "Distributed sensing of microseisms and teleseisms with submarine dark fibers",
+      "authors": [
+        "Ethan Williams",
+        "Maria Rosario Fernandez-Ruiz",
+        "Regina Magalhães",
+        "Roel Vanthillo",
+        "Zhongwen Zhan",
+        "Miguel González‐Herráez",
+        "Hugo Fidalgo Martins"
+      ],
+      "year": 2019,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed acoustic sensing",
+        "microseisms",
+        "teleseismic earthquakes",
+        "surface gravity waves",
+        "Scholte waves"
+      ],
+      "url": "https://doi.org/10.1038/s41467-019-13262-7",
+      "cited_by_count": 496,
+      "importance": 0.3104,
+      "score_basis": {
+        "topic_overlap": 0.023,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386104070",
+      "doi": "10.1109/sum57928.2023.10224504",
+      "title": "Experimental Demonstration of Vibration Sensing and Positioning on Multiple Metropolitan Fibers",
+      "authors": [
+        "Saverio Pellegrini",
+        "Roberto Gaudino",
+        "Claudio Crognale"
+      ],
+      "year": 2023,
+      "venue": "IEEE/LEOS Summer Topical Meetings",
+      "venue_abbr": "IEEE/LEOS Summer Topical Meetings",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fiber optic vibration sensing",
+        "polarization sensing"
+      ],
+      "url": "https://doi.org/10.1109/sum57928.2023.10224504",
+      "cited_by_count": 3,
+      "importance": 0.2944,
+      "score_basis": {
+        "topic_overlap": 0.054,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1941638305",
+      "doi": "10.1109/its.1990.175565",
+      "title": "Polarization shift keying: an efficient coherent optical modulation",
+      "authors": [
+        "Sergio Benedetto",
+        "Pierluigi T. Poggiolini"
+      ],
+      "year": 2002,
+      "venue": "International Telecommunications Symposium (ITS)",
+      "venue_abbr": "International Telecommunications Symposium (ITS)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "polarization shift keying",
+        "coherent optical modulation",
+        "multilevel modulation",
+        "Stokes parameters",
+        "maximum likelihood receiver",
+        "shot noise",
+        "additive Gaussian noise",
+        "average error probability",
+        "optical fiber transmission"
+      ],
+      "url": "https://doi.org/10.1109/its.1990.175565",
+      "cited_by_count": 4,
+      "importance": 0.2897,
+      "score_basis": {
+        "topic_overlap": 0.155,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2119707931",
+      "doi": "10.1364/ao.20.001060",
+      "title": "Polarization-optical time domain reflectometry: a technique for the measurement of field distributions",
+      "authors": [
+        "A. J. Rogers"
+      ],
+      "year": 1981,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization optical time-domain reflectometry",
+        "fiber optic sensors",
+        "backscattered light",
+        "single-mode fiber",
+        "polarization properties",
+        "magnetic field sensing",
+        "electric field sensing",
+        "temperature sensing",
+        "mechanical stress sensing"
+      ],
+      "url": "https://doi.org/10.1364/ao.20.001060",
+      "cited_by_count": 296,
+      "importance": 0.2783,
+      "score_basis": {
+        "topic_overlap": 0.174,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2097524598",
+      "doi": "10.1109/jsen.2009.2026525",
+      "title": "Distributed Temperature Sensor Interrogator Based on Polarization-Sensitive Reflectometry",
+      "authors": [
+        "C. Crunelle",
+        "Marc Legre",
+        "Marc Wuilpart",
+        "Patrice Mégret",
+        "Nicolas Gisin"
+      ],
+      "year": 2009,
+      "venue": "IEEE Sensors Journal",
+      "venue_abbr": "IEEE Sensors Journal",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed temperature sensing",
+        "fiber optic temperature sensor",
+        "coherent optical frequency domain reflectometry",
+        "Rayleigh backscattering",
+        "sensor calibration",
+        "temperature thresholds",
+        "spatial resolution",
+        "interrogators"
+      ],
+      "url": "https://doi.org/10.1109/jsen.2009.2026525",
+      "cited_by_count": 13,
+      "importance": 0.2702,
+      "score_basis": {
+        "topic_overlap": 0.156,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2127575540",
+      "doi": "10.1364/ao.18.002241",
+      "title": "Polarization optics of twisted single-mode fibers",
+      "authors": [
+        "R. Ulrich",
+        "A. Simon"
+      ],
+      "year": 1979,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization optics",
+        "elasto-optic effect",
+        "optical activity",
+        "linear birefringence",
+        "polarization rotator",
+        "delay equalization",
+        "silica fiber"
+      ],
+      "url": "https://doi.org/10.1364/ao.18.002241",
+      "cited_by_count": 759,
+      "importance": 0.2694,
+      "score_basis": {
+        "topic_overlap": 0.021,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3022590026",
+      "doi": "10.1029/2020gl089931",
+      "title": "City‐Scale Dark Fiber DAS Measurements of Infrastructure Use During the COVID‐19 Pandemic",
+      "authors": [
+        "Nathaniel J. Lindsey",
+        "Siyuan Yuan",
+        "Ariel Lellouch",
+        "Lucia Gualtieri",
+        "Thomas Lecocq",
+        "Biondo Biondi"
+      ],
+      "year": 2020,
+      "venue": "Geophysical Research Letters",
+      "venue_abbr": "Geophysical Research Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed acoustic sensing",
+        "dark fiber",
+        "COVID-19 pandemic",
+        "traffic monitoring",
+        "vehicle detection",
+        "template matching"
+      ],
+      "url": "https://doi.org/10.1029/2020gl089931",
+      "cited_by_count": 161,
+      "importance": 0.2577,
+      "score_basis": {
+        "topic_overlap": 0.039,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7131233898",
+      "doi": "10.1364/optica.586317",
+      "title": "Earth-scale precursors of the Kamchatka earthquake revealed via polarization monitoring in undersea Mediterranean optical fiber links",
+      "authors": [
+        "Antonio Mecozzi",
+        "Cristian Antonelli",
+        "Alberto Marullo",
+        "Danilo Decaroli",
+        "Luca Palmieri",
+        "Luca Schenato",
+        "Mohammad Ali Hosseini",
+        "Giuseppe Parisi",
+        "Antonio Napoli",
+        "Carlo Doglioni"
+      ],
+      "year": 2026,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "Kamchatka earthquakes",
+        "earthquake precursors",
+        "polarization rotation",
+        "fiber optic sensing",
+        "geophysical observatory",
+        "earthquake early warning",
+        "Mediterranean Sea"
+      ],
+      "url": "https://doi.org/10.1364/optica.586317",
+      "cited_by_count": 1,
+      "importance": 0.2266,
+      "score_basis": {
+        "topic_overlap": 0.059,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W4200584357",
+      "to": "W2994752724",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200584357"
+        }
+      ]
+    },
+    {
+      "from": "W4323644314",
+      "to": "W2166459180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323644314"
+        }
+      ]
+    },
+    {
+      "from": "W4323644314",
+      "to": "W3158152860",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4323644314"
+        }
+      ]
+    },
+    {
+      "from": "W4386104070",
+      "to": "W3158152860",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386104070"
+        }
+      ]
+    },
+    {
+      "from": "W4389307622",
+      "to": "W2127575540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389307622"
+        }
+      ]
+    },
+    {
+      "from": "W4389307622",
+      "to": "W2994752724",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389307622"
+        }
+      ]
+    },
+    {
+      "from": "W4389307622",
+      "to": "W3158152860",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389307622"
+        }
+      ]
+    },
+    {
+      "from": "W4398151363",
+      "to": "W2127575540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398151363"
+        }
+      ]
+    },
+    {
+      "from": "W4398151363",
+      "to": "W3022590026",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398151363"
+        }
+      ]
+    },
+    {
+      "from": "W4398151363",
+      "to": "W3158152860",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398151363"
+        }
+      ]
+    },
+    {
+      "from": "W4398151363",
+      "to": "W4323644314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398151363"
+        }
+      ]
+    },
+    {
+      "from": "W4398151363",
+      "to": "W4386104070",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398151363"
+        }
+      ]
+    },
+    {
+      "from": "W4400328395",
+      "to": "W2994752724",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400328395"
+        }
+      ]
+    },
+    {
+      "from": "W4400328395",
+      "to": "W3158152860",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400328395"
+        }
+      ]
+    },
+    {
+      "from": "W4400328395",
+      "to": "W4389307622",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400328395"
+        }
+      ]
+    },
+    {
+      "from": "W4405105111",
+      "to": "W1941638305",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405105111"
+        }
+      ]
+    },
+    {
+      "from": "W4405105111",
+      "to": "W2127575540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405105111"
+        }
+      ]
+    },
+    {
+      "from": "W4405105111",
+      "to": "W2994752724",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405105111"
+        }
+      ]
+    },
+    {
+      "from": "W4405105111",
+      "to": "W3022590026",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405105111"
+        }
+      ]
+    },
+    {
+      "from": "W4405105111",
+      "to": "W3158152860",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405105111"
+        }
+      ]
+    },
+    {
+      "from": "W4405105111",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405105111"
+        }
+      ]
+    },
+    {
+      "from": "W4405105111",
+      "to": "W4214829285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405105111"
+        }
+      ]
+    },
+    {
+      "from": "W4405105111",
+      "to": "W4323644314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405105111"
+        }
+      ]
+    },
+    {
+      "from": "W4405105111",
+      "to": "W4389307622",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405105111"
+        }
+      ]
+    },
+    {
+      "from": "W4405105111",
+      "to": "W4398151363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405105111"
+        }
+      ]
+    },
+    {
+      "from": "W4405105111",
+      "to": "W4400328395",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405105111"
+        }
+      ]
+    },
+    {
+      "from": "W4409665603",
+      "to": "W3207546835",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409665603"
+        }
+      ]
+    },
+    {
+      "from": "W4413120524",
+      "to": "W4405105111",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413120524"
+        }
+      ]
+    },
+    {
+      "from": "W4417439020",
+      "to": "W2166459180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417439020"
+        }
+      ]
+    },
+    {
+      "from": "W4417439020",
+      "to": "W2994752724",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417439020"
+        }
+      ]
+    },
+    {
+      "from": "W4417439020",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417439020"
+        }
+      ]
+    },
+    {
+      "from": "W4417439020",
+      "to": "W4323644314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417439020"
+        }
+      ]
+    },
+    {
+      "from": "W4417439020",
+      "to": "W4389307622",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417439020"
+        }
+      ]
+    },
+    {
+      "from": "W4417439020",
+      "to": "W4405105111",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417439020"
+        }
+      ]
+    },
+    {
+      "from": "W4417439020",
+      "to": "W4413120524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417439020"
+        }
+      ]
+    },
+    {
+      "from": "W7125705725",
+      "to": "W4405105111",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7125705725"
+        }
+      ]
+    },
+    {
+      "from": "W7125705725",
+      "to": "W4413120524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7125705725"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W1941638305",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W2097524598",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W2119707931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W2127575540",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W2166459180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W2994752724",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W3022590026",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W3158152860",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W3207546835",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W4214829285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W4323644314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W4386104070",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W4389307622",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W4398151363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W4400328395",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W4405105111",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W4409665603",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W4413120524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W4417439020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W7125705725",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    },
+    {
+      "from": "W7212193935",
+      "to": "W7131233898",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7212193935"
+        }
+      ]
+    }
+  ]
 }

@@ -1,41 +1,2323 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "c9543a8c-1873-469f-ba47-f9215bf7b112",
-  "root": "doi:10.1364/prj.607598",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7207584328",
+  "status": "ok",
+  "checked_at": "2026-11-06T00:48:34.422831+00:00",
+  "coverage": {
+    "references_found": 46,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 46,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/prj.607598",
+      "id": "W7207584328",
       "doi": "10.1364/prj.607598",
       "title": "Highly flexible multi-beam phased array enabled by optical parallelism",
       "authors": [
         "Xue Lan",
         "Shilong Chen",
         "Xinpeng Wang",
-        "Zihang Wang",
-        "Feifei Yin",
+        "Wang Zihang",
+        "尹飞飞",
         "Kun Xu",
         "Ming Li",
         "Yitang Dai"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Photonics Research",
       "venue_abbr": "PR",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "beam combining",
+        "optical beam steering"
+      ],
       "url": "https://doi.org/10.1364/prj.607598",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/c9543a8c-1873-469f-ba47-f9215bf7b112.html",
       "summary": "该研究提出利用等间隔光频梳、共享光延迟单元和周期性窄带滤波复用器的宽带多波束相控阵方案，使不同用户的载波频率和波束方向可独立控制。作者采用分立光学器件实现16阵元概念验证系统，以热控法布里–珀罗腔替代所设计的滤波复用器。实验覆盖4至17.2 GHz载波频率及−76.2°至72.1°的总体波束扫描范围，并通过九个独立频率通道演示多用户定向波束；摘要报告相位标准差小于1.66°、阵列级切换时间约1 ns。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W7165122128",
+      "doi": "10.1038/s41467-026-74485-z",
+      "title": "Fully-connected microwave photonic multi-beamformer with fast beam-steering for broadband wireless communication",
+      "authors": [
+        "Ziheng Ni",
+        "Liangjun Lu",
+        "Kai Fu",
+        "Haowei Zhang",
+        "Tianxiang Wang",
+        "Chao Wang",
+        "Huashan Yang",
+        "Wen Tong",
+        "J Chen",
+        "Linjie Zhou"
+      ],
+      "year": 2026,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multi-beamforming",
+        "fully connected networks",
+        "true-time delay lines",
+        "silicon photonics",
+        "broadband wireless access",
+        "antenna arrays",
+        "64-QAM",
+        "5G/6G networks"
+      ],
+      "url": "https://doi.org/10.1038/s41467-026-74485-z",
+      "cited_by_count": 1,
+      "importance": 0.5308,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7154208728",
+      "doi": "10.1364/prj.590468",
+      "title": "Photonic instantaneous spectrum analysis with massive frequency bins",
+      "authors": [
+        "Xue Lan",
+        "Shilong Chen",
+        "hy Xu",
+        "Wang Zihang",
+        "尹飞飞",
+        "Kun Xu",
+        "Ming Li",
+        "Yitang Dai"
+      ],
+      "year": 2026,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "frequency-to-time mapping",
+        "dispersion reduction",
+        "channelization",
+        "balanced photodetector",
+        "time-frequency analysis",
+        "non-stationary signals",
+        "integrated sensing and communication",
+        "time lens"
+      ],
+      "url": "https://doi.org/10.1364/prj.590468",
+      "cited_by_count": 2,
+      "importance": 0.5025,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 10,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4280617936",
+      "doi": "10.1038/s41586-022-04579-3",
+      "title": "Microcomb-driven silicon photonic systems",
+      "authors": [
+        "Haowen Shu",
+        "Lin Chang",
+        "Yuansheng Tao",
+        "Bitao Shen",
+        "Weiqiang Xie",
+        "Ming Jin",
+        "Andrew M. Netherton",
+        "Zihan Tao",
+        "Xuguang Zhang",
+        "Ruixuan Chen",
+        "Bowen Bai",
+        "Jun Qin",
+        "Shaohua Yu",
+        "Xingjun Wang",
+        "John Edward Bowers"
+      ],
+      "year": 2022,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "microcombs",
+        "silicon photonics",
+        "AlGaAs-on-insulator",
+        "optical transmission",
+        "microwave photonics",
+        "terabit-per-second transmission"
+      ],
+      "url": "https://doi.org/10.1038/s41586-022-04579-3",
+      "cited_by_count": 448,
+      "importance": 0.395,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391920817",
+      "doi": "10.1038/s41467-024-45743-9",
+      "title": "Ultrabroadband high-resolution silicon RF-photonic beamformer",
+      "authors": [
+        "Pablo Martínez-Carrasco Romero",
+        "Tan Huy Ho",
+        "David Wessel",
+        "J. Capmany"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic beamforming",
+        "silicon photonics",
+        "microwave photonics",
+        "beam steering",
+        "broadband operation",
+        "high-resolution beamforming",
+        "5G/6G networks",
+        "Internet of Things"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-45743-9",
+      "cited_by_count": 55,
+      "importance": 0.3694,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3027178813",
+      "doi": "10.1109/jstqe.2020.2995292",
+      "title": "High-Performance Beamforming Network Based on Si-Photonics Phase Shifters for Wideband Communications and Radar Applications",
+      "authors": [
+        "Giovanni Serafino",
+        "Claudio Porzi",
+        "Bilal Hussain",
+        "Filippo Scotti",
+        "Fabio Falconi",
+        "Marco Chiesa",
+        "V. Toccafondo",
+        "Antonella Bogoni",
+        "Paolo Ghelfi"
+      ],
+      "year": 2020,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "beamforming network",
+        "silicon photonics",
+        "integrated phase shifters",
+        "microwave beam steering",
+        "phased array antenna",
+        "5G",
+        "wideband radar",
+        "steering error",
+        "signal distortion"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2020.2995292",
+      "cited_by_count": 17,
+      "importance": 0.3668,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402356718",
+      "doi": "10.1038/s41467-024-52051-9",
+      "title": "Silicon photonic microresonator-based high-resolution line-by-line pulse shaping",
+      "authors": [
+        "Lucas M. Cohen",
+        "Kaiyi Wu",
+        "Karthik V. Myilswamy",
+        "Saleha Fatema",
+        "Navin B. Lingaraju",
+        "Andrew M. Weiner"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical pulse shaping",
+        "high spectral resolution",
+        "phase compensation",
+        "thermal crosstalk",
+        "arbitrary waveform generation",
+        "foundry fabrication",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-52051-9",
+      "cited_by_count": 30,
+      "importance": 0.355,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285049213",
+      "doi": "10.1109/access.2022.3188992",
+      "title": "Photonic Beamforming for 5G and Beyond: A Review of True Time Delay Devices Enabling Ultra-Wideband Beamforming for mmWave Communications",
+      "authors": [
+        "Banaful Paul",
+        "Kubilay Sertel",
+        "Niru K. Nahar"
+      ],
+      "year": 2022,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic beamforming",
+        "millimeter-wave communication",
+        "beam steering",
+        "silicon photonics",
+        "silicon-on-insulator",
+        "photonic integrated circuits",
+        "5G",
+        "phased array antenna"
+      ],
+      "url": "https://doi.org/10.1109/access.2022.3188992",
+      "cited_by_count": 50,
+      "importance": 0.3416,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413140336",
+      "doi": "10.1038/s41467-025-62854-z",
+      "title": "Frequency-comb-steered ultrawideband quasi-true-time-delay beamformer for integrated sensing and communication",
+      "authors": [
+        "Mian Wang",
+        "Wenxin Zhang",
+        "Zeyu Ren",
+        "Shangyuan Li",
+        "Xiaoping Zheng",
+        "Xiaoxiao Xue"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic beamforming",
+        "phased array antenna",
+        "beam squint",
+        "frequency diverse array",
+        "linear frequency modulation",
+        "integrated sensing and communication",
+        "ISAR imaging",
+        "Ku-band",
+        "instantaneous bandwidth",
+        "planar phased array"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-62854-z",
+      "cited_by_count": 8,
+      "importance": 0.3276,
+      "score_basis": {
+        "topic_overlap": 0.172,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2140389953",
+      "doi": "10.1109/lpt.2005.858131",
+      "title": "Reconfigurable optical add-drop multiplexer using microring resonators",
+      "authors": [
+        "Edwin Jan Klein",
+        "Douwe H. Geuzebroek",
+        "H. Kelderman",
+        "Gabriël Sengo",
+        "N. Baker",
+        "A. Driessen"
+      ],
+      "year": 2005,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical add-drop multiplexer",
+        "microring resonators",
+        "reconfigurable optical switching",
+        "access networks",
+        "free spectral range",
+        "3-dB bandwidth",
+        "vertical coupling"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2005.858131",
+      "cited_by_count": 106,
+      "importance": 0.325,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4294146546",
+      "doi": "10.1364/prj.470644",
+      "title": "Million-Q integrated Fabry-Perot cavity using ultralow-loss multimode retroreflectors",
+      "authors": [
+        "Hongnan Xu",
+        "Yue Qin",
+        "Gaolei Hu",
+        "Hon Ki Tsang"
+      ],
+      "year": 2022,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "monolithic integration",
+        "TE1 mode",
+        "excess loss",
+        "label-free detection",
+        "frequency comb generation"
+      ],
+      "url": "https://doi.org/10.1364/prj.470644",
+      "cited_by_count": 31,
+      "importance": 0.3225,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4324311294",
+      "doi": "10.1038/s41467-023-37103-w",
+      "title": "An integrated photonic-assisted phased array transmitter for direct fiber to mm-wave links",
+      "authors": [
+        "Pouria Sanjari",
+        "Firooz Aflatouni"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "millimeter-wave phased arrays",
+        "optical heterodyning",
+        "beam steering",
+        "beamforming",
+        "fronthaul links",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-37103-w",
+      "cited_by_count": 39,
+      "importance": 0.3213,
+      "score_basis": {
+        "topic_overlap": 0.225,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3007075201",
+      "doi": "10.1364/prj.387816",
+      "title": "Ultrahigh-Q silicon racetrack resonators",
+      "authors": [
+        "Long Zhang",
+        "Lanlan Jie",
+        "Ming Zhang",
+        "Yi Wang",
+        "Yiwei Xie",
+        "Yaocheng Shi",
+        "Daoxin Dai A"
+      ],
+      "year": 2020,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multimode waveguides",
+        "fundamental mode",
+        "free spectral range",
+        "180° bend",
+        "high-Q resonators",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1364/prj.387816",
+      "cited_by_count": 170,
+      "importance": 0.3125,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3022286469",
+      "doi": "10.1364/ol.395203",
+      "title": "Compact multi-million Q resonators and 100 MHz passband filter bank in a thick-SOI photonics platform",
+      "authors": [
+        "Bohan Zhang",
+        "Kenaish Al Qubaisi",
+        "Matteo Cherchi",
+        "Mikko T. Harjanne",
+        "Yossef Ehrlichman",
+        "Anatol N. Khilo",
+        "Miloš A. Popović"
+      ],
+      "year": 2020,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "ring resonator",
+        "racetrack resonator",
+        "high quality factor",
+        "integrated photonics",
+        "microwave photonic signal processing",
+        "free spectral range",
+        "bending loss",
+        "integrated microwave photonics",
+        "system-on-chip integration"
+      ],
+      "url": "https://doi.org/10.1364/ol.395203",
+      "cited_by_count": 29,
+      "importance": 0.3121,
+      "score_basis": {
+        "topic_overlap": 0.249,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391683622",
+      "doi": "10.1364/oe.512135",
+      "title": "Continuously tunable silicon optical true-time delay lines with a large delay tuning range and a low delay fluctuation",
+      "authors": [
+        "Yuanbin Liu",
+        "Liangjun Lu",
+        "Ziheng Ni",
+        "Jianping Chen",
+        "Linjie Zhou",
+        "Andrew W. O. Poon"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon photonics",
+        "delay error",
+        "beamforming",
+        "optical switches"
+      ],
+      "url": "https://doi.org/10.1364/oe.512135",
+      "cited_by_count": 18,
+      "importance": 0.305,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4296872126",
+      "doi": "10.1109/jmw.2022.3202626",
+      "title": "Electronically Steerable Antennas for Future Heterogeneous Communication Networks: Review and Perspectives",
+      "authors": [
+        "Tobias Chaloun",
+        "Luigi Boccia",
+        "Emilio Arnieri",
+        "Michael D. Fischer",
+        "Václav Valenta",
+        "Nelson J. G. Fonseca",
+        "Christian Waldschmidt"
+      ],
+      "year": 2022,
+      "venue": "IEEE Journal of Microwaves",
+      "venue_abbr": "IEEE Journal of Microwaves",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "electronically steerable antenna",
+        "phased array antenna",
+        "heterogeneous communication networks",
+        "adaptive beamforming",
+        "6G",
+        "satellite communication",
+        "millimeter wave",
+        "terahertz communication",
+        "polarization agility",
+        "wide-angle scanning",
+        "metasurface antenna",
+        "quasi-optical antenna"
+      ],
+      "url": "https://doi.org/10.1109/jmw.2022.3202626",
+      "cited_by_count": 133,
+      "importance": 0.2877,
+      "score_basis": {
+        "topic_overlap": 0.039,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403222073",
+      "doi": "10.1002/cta.4298",
+      "title": "A Survey of Phase Shifters for Microwave Phased Array Systems",
+      "authors": [
+        "Mamady Kebe",
+        "MUSTAPHA C. E. YAGOUB",
+        "Rony E. Amaya"
+      ],
+      "year": 2024,
+      "venue": "International Journal of Circuit Theory and Applications",
+      "venue_abbr": "International Journal of Circuit Theory and Applications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "RF phase shifters",
+        "reflective phase shifter",
+        "vector-sum phase shifter"
+      ],
+      "url": "https://doi.org/10.1002/cta.4298",
+      "cited_by_count": 32,
+      "importance": 0.2808,
+      "score_basis": {
+        "topic_overlap": 0.068,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2613863150",
+      "doi": "10.1109/isit.2017.8006493",
+      "title": "Beamforming codebook compensation for beam squint with channel capacity constraint",
+      "authors": [
+        "Mingming Cai",
+        "J. Nicholas Laneman",
+        "Bertrand M. Hochwald"
+      ],
+      "year": 2017,
+      "venue": "IEEE International Symposium on Information Theory (ISIT)",
+      "venue_abbr": "IEEE International Symposium on Information Theory (ISIT)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "beam squint",
+        "beamforming codebook",
+        "phased arrays",
+        "channel capacity constraints",
+        "uniform linear array",
+        "millimeter wave",
+        "5G",
+        "codebook design",
+        "bandwidth constraints",
+        "frequency-dependent phase shift"
+      ],
+      "url": "https://doi.org/10.1109/isit.2017.8006493",
+      "cited_by_count": 36,
+      "importance": 0.2803,
+      "score_basis": {
+        "topic_overlap": 0.067,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4319878858",
+      "doi": "10.1109/access.2023.3244063",
+      "title": "Fourier-Optics Based Opto-Electronic Architectures for Simultaneous Multi-Band, Multi-Beam, and Wideband Transmit and Receive Phased Arrays",
+      "authors": [
+        "Dennis W. Prather",
+        "Stefano Galli",
+        "Garrett J. Schneider",
+        "Shouyuan Shi",
+        "Janusz A. Murakowski",
+        "Xiao-Feng Qi",
+        "Christopher A. Schuetz"
+      ],
+      "year": 2023,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Fourier optics",
+        "phased arrays",
+        "multi-beam transmission",
+        "broadband transmission",
+        "optical upconversion",
+        "optical down-conversion",
+        "analog beamforming",
+        "base transceiver station",
+        "remote radio unit",
+        "optical signal processing",
+        "cell search",
+        "initial access"
+      ],
+      "url": "https://doi.org/10.1109/access.2023.3244063",
+      "cited_by_count": 27,
+      "importance": 0.2744,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4288456941",
+      "doi": "10.14429/dsj.72.17436",
+      "title": "Evolutionary Trends in True Time Delay Line Technologies for Timed Array Radars",
+      "authors": [
+        "Kilari Sreenivasulu",
+        "Kamala Prasan Ray",
+        "VENGDARAJAN"
+      ],
+      "year": 2022,
+      "venue": "Defence Science Journal",
+      "venue_abbr": "Defence Science Journal",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "true-time delay lines",
+        "beam squint",
+        "pulse dispersion",
+        "wideband arrays",
+        "photonic integrated circuits",
+        "T/R module"
+      ],
+      "url": "https://doi.org/10.14429/dsj.72.17436",
+      "cited_by_count": 6,
+      "importance": 0.2727,
+      "score_basis": {
+        "topic_overlap": 0.161,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3011737127",
+      "doi": "10.1038/s41467-020-15005-5",
+      "title": "Ultra-efficient frequency comb generation in AlGaAs-on-insulator microresonators",
+      "authors": [
+        "Lin Chang",
+        "Weiqiang Xie",
+        "Haowen Shu",
+        "Qi‐Fan Yang",
+        "Boqiang Shen",
+        "Andreas Boes",
+        "Jon D. Peters",
+        "Warren Jin",
+        "Chao Xiang",
+        "Songtao Liu",
+        "Gregory T. Moille",
+        "Su‐Peng Yu",
+        "Xingjun Wang",
+        "Kartik A. Srinivasan",
+        "Scott B. Papp",
+        "Kerry J. Vahala",
+        "John Edward Bowers"
+      ],
+      "year": 2020,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Kerr frequency combs",
+        "AlGaAs-on-insulator",
+        "microresonators",
+        "integrated photonics",
+        "anomalous dispersion",
+        "Kerr nonlinearity",
+        "high quality factor",
+        "small mode volume",
+        "free spectral range"
+      ],
+      "url": "https://doi.org/10.1038/s41467-020-15005-5",
+      "cited_by_count": 352,
+      "importance": 0.2725,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4295004931",
+      "doi": "10.1515/nanoph-2022-0319",
+      "title": "96‐Channel on‐chip reconfigurable optical add‐drop multiplexer for multidimensional multiplexing systems",
+      "authors": [
+        "Weike Zhao",
+        "Yingying Peng",
+        "Xiaoping Cao",
+        "Shi Zhao",
+        "Ruoran Liu",
+        "Yihui Wei",
+        "Dajian Liu",
+        "Xiaolin Yi",
+        "Shangtong Han",
+        "Yuanjian Wan",
+        "Kang Li",
+        "Guangze Wu",
+        "Jian Wang",
+        "Yaocheng Shi",
+        "Daoxin Dai A"
+      ],
+      "year": 2022,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "ROADM",
+        "silicon photonics",
+        "microring resonators",
+        "wavelength selective switch",
+        "mode-division multiplexing",
+        "polarization multiplexing",
+        "wavelength division multiplexing",
+        "hybrid multiplexing",
+        "polarization splitter-rotator",
+        "asymmetric directional coupler",
+        "grating couplers",
+        "microheaters"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2022-0319",
+      "cited_by_count": 82,
+      "importance": 0.2725,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4362475423",
+      "doi": "10.1038/s41598-023-32313-0",
+      "title": "On-chip wavelength division multiplexing filters using extremely efficient gate-driven silicon microring resonator array",
+      "authors": [
+        "Wei-Che Hsu",
+        "Nabila Nujhat",
+        "Benjamin Kupp",
+        "John F. Conley",
+        "Alan X. Wang"
+      ],
+      "year": 2023,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon microring resonator",
+        "wavelength division multiplexing",
+        "gate voltage control",
+        "wavelength tuning",
+        "low power consumption",
+        "temperature sensitivity",
+        "process variation"
+      ],
+      "url": "https://doi.org/10.1038/s41598-023-32313-0",
+      "cited_by_count": 43,
+      "importance": 0.2616,
+      "score_basis": {
+        "topic_overlap": 0.137,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396214006",
+      "doi": "10.1038/s41467-024-47904-2",
+      "title": "Parallel wavelength-division-multiplexed signal transmission and dispersion compensation enabled by soliton microcombs and microrings",
+      "authors": [
+        "Yuanbin Liu",
+        "Hongyi Zhang",
+        "Jiacheng Liu",
+        "Liangjun Lu",
+        "Jiangbing Du",
+        "Yu Li",
+        "Zuyuan He",
+        "Jianping Chen",
+        "Linjie Zhou",
+        "Andrew W. O. Poon"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "wavelength division multiplexing",
+        "chromatic dispersion compensation",
+        "Kerr microcombs",
+        "soliton microcombs",
+        "microring resonators",
+        "intensity modulation and direct detection",
+        "data center interconnects",
+        "terabit optical communication"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-47904-2",
+      "cited_by_count": 60,
+      "importance": 0.2584,
+      "score_basis": {
+        "topic_overlap": 0.019,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3210260041",
+      "doi": "10.1109/jsac.2022.3196320",
+      "title": "Antenna Array Enabled Space/Air/Ground Communications and Networking for 6G",
+      "authors": [
+        "Zhenyu Xiao",
+        "Zhu Han",
+        "Arumugam Nallanathan",
+        "Octavia A. Dobre",
+        "Bruno Clerckx",
+        "Jinho Choi",
+        "Chong He",
+        "Wen Tong"
+      ],
+      "year": 2022,
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "venue_abbr": "JSAC",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "antenna arrays",
+        "6G",
+        "reconfigurable intelligent surface",
+        "phased arrays",
+        "beamforming",
+        "hybrid beamforming",
+        "passive beamforming",
+        "antenna array design",
+        "space communications",
+        "airborne communication"
+      ],
+      "url": "https://doi.org/10.1109/jsac.2022.3196320",
+      "cited_by_count": 136,
+      "importance": 0.2538,
+      "score_basis": {
+        "topic_overlap": 0.075,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2896181312",
+      "doi": "10.1007/s11107-018-0802-8",
+      "title": "Performance analysis and comparison of optical signal processing beamforming networks: a survey",
+      "authors": [
+        "B. Elizabeth Caroline",
+        "Susan Christina Xavier",
+        "Arunachalam P. Kabilan",
+        "Johnson William"
+      ],
+      "year": 2018,
+      "venue": "Photonic Network Communications",
+      "venue_abbr": "Photonic Network Communications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical signal processing",
+        "beamforming network",
+        "smart antennas",
+        "MIMO",
+        "radiation pattern",
+        "wireless communication",
+        "signal strength enhancement"
+      ],
+      "url": "https://doi.org/10.1007/s11107-018-0802-8",
+      "cited_by_count": 11,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2962703830",
+      "doi": "10.1109/glocom.2016.7841766",
+      "title": "Effect of Wideband Beam Squint on Codebook Design in Phased-Array Wireless Systems",
+      "authors": [
+        "Mingming Cai",
+        "Kang Gao",
+        "Ding Nie",
+        "Bertrand M. Hochwald",
+        "J. Nicholas Laneman",
+        "Huang Huang",
+        "Kunpeng Liu"
+      ],
+      "year": 2016,
+      "venue": "Globecom",
+      "venue_abbr": "Globecom",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "beam squint",
+        "codebook design",
+        "analog beamforming",
+        "phased arrays",
+        "wideband systems",
+        "uniform linear array",
+        "millimeter wave",
+        "5G",
+        "discrete phase shifts"
+      ],
+      "url": "https://doi.org/10.1109/glocom.2016.7841766",
+      "cited_by_count": 110,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.072,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3042269838",
+      "doi": "10.1038/s41467-021-23436-x",
+      "title": "High-responsivity graphene photodetectors integrated on silicon microring resonators",
+      "authors": [
+        "Simone Schuler",
+        "Jakob E. Muench",
+        "Alfonso Ruocco",
+        "Osman Balcı",
+        "Dries Van Thourhout",
+        "Vito Sorianello",
+        "M. Romagnoli",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Ilya Goykhman",
+        "Andrea Carlo Ferrari",
+        "Thomas Mueller"
+      ],
+      "year": 2021,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "graphene photodetectors",
+        "silicon microring resonator",
+        "photothermoelectric effect",
+        "responsivity",
+        "integrated photonics",
+        "critical coupling",
+        "voltage responsivity",
+        "optical receiver",
+        "silicon waveguides",
+        "energy per bit"
+      ],
+      "url": "https://doi.org/10.1038/s41467-021-23436-x",
+      "cited_by_count": 138,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3086498072",
+      "doi": "10.1038/s41467-020-18374-z",
+      "title": "High-speed III-V nanowire photodetector monolithically integrated on Si",
+      "authors": [
+        "Svenja Mauthe",
+        "Yannick Baumgartner",
+        "Marilyne Sousa",
+        "Qian Ding",
+        "Marta D. Rossell",
+        "Andreas Schenk",
+        "Lukas Czornomaz",
+        "Kirsten Emilie Moselund"
+      ],
+      "year": 2020,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "III-V nanowires",
+        "InGaAs",
+        "p-i-n photodetectors",
+        "monolithic integration on silicon",
+        "high-speed optical receivers",
+        "low capacitance",
+        "free-space coupling"
+      ],
+      "url": "https://doi.org/10.1038/s41467-020-18374-z",
+      "cited_by_count": 248,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4322503713",
+      "doi": "10.1038/s41467-023-36814-4",
+      "title": "Broadband physical layer cognitive radio with an integrated photonic processor for blind source separation",
+      "authors": [
+        "Weipeng Zhang",
+        "Alexander N. Tait",
+        "Chaoran Huang",
+        "Thomas Ferreira de Lima",
+        "Simon Bilodeau",
+        "Eric C. Blow",
+        "Aashu Jha",
+        "Bhavin J. Shastri",
+        "Paul R. Prucnal"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "blind source separation",
+        "cognitive radio",
+        "photonic processors",
+        "microring resonators",
+        "wavelength division multiplexing",
+        "wideband signal processing",
+        "interference suppression",
+        "integrated photonics",
+        "signal-to-interference ratio"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-36814-4",
+      "cited_by_count": 69,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2024762869",
+      "doi": "10.1109/surv.2013.121213.00263",
+      "title": "A Survey on Multicarrier Communications: Prototype Filters, Lattice Structures, and Implementation Aspects",
+      "authors": [
+        "Alphan Şahin",
+        "İsmail Güvenç",
+        "Hüseyin Arslan"
+      ],
+      "year": 2014,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multicarrier transmission",
+        "OFDM",
+        "filter prototype",
+        "filter design",
+        "lattice structures",
+        "energy concentration",
+        "rapid decay",
+        "equalization",
+        "synchronization",
+        "multiple antennas",
+        "hardware impairments",
+        "broadband wireless access"
+      ],
+      "url": "https://doi.org/10.1109/surv.2013.121213.00263",
+      "cited_by_count": 401,
+      "importance": 0.25,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411336479",
+      "doi": "10.1109/jmw.2025.3575342",
+      "title": "Multibeam Beamforming Technology in Microwave Power Transfer and Harvesting",
+      "authors": [
+        "Fábio Silva",
+        "Pedro Guilherme Lacerda Ferreira Pinho",
+        "Nuno Borges Carvalho"
+      ],
+      "year": 2025,
+      "venue": "IEEE Journal of Microwaves",
+      "venue_abbr": "IEEE Journal of Microwaves",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multibeam antenna",
+        "beamforming network",
+        "microwave power transmission",
+        "RF energy harvesting",
+        "wireless power transfer",
+        "Internet of Things",
+        "rectenna",
+        "near-field power transfer",
+        "far-field power transfer",
+        "power transfer efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jmw.2025.3575342",
+      "cited_by_count": 6,
+      "importance": 0.25,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2281588363",
+      "doi": "10.1109/jproc.2015.2494879",
+      "title": "The Evolution to Modern Phased Array Architectures",
+      "authors": [
+        "Jeffrey S. Herd",
+        "M. David Conway"
+      ],
+      "year": 2015,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "phased arrays",
+        "military radar",
+        "microwave packaging",
+        "cost reduction",
+        "digital signal processing"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2015.2494879",
+      "cited_by_count": 412,
+      "importance": 0.2454,
+      "score_basis": {
+        "topic_overlap": 0.057,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4384789563",
+      "doi": "10.1109/ojap.2023.3296636",
+      "title": "Wide-Angle Beam Scanning Phased Array Antennas: A Review",
+      "authors": [
+        "Ming Li",
+        "Shu‐Lin Chen",
+        "Yanhui Liu",
+        "Y. Jay Guo"
+      ],
+      "year": 2023,
+      "venue": "IEEE Open Journal of Antennas and Propagation",
+      "venue_abbr": "IEEE Open Journal of Antennas and Propagation",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "wide-angle beam scanning",
+        "phased array antenna",
+        "mutual coupling",
+        "beamwidth",
+        "6G",
+        "satellite communication"
+      ],
+      "url": "https://doi.org/10.1109/ojap.2023.3296636",
+      "cited_by_count": 80,
+      "importance": 0.2418,
+      "score_basis": {
+        "topic_overlap": 0.093,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2724724053",
+      "doi": "10.1631/fitee.1601817",
+      "title": "Beamforming techniques for massive MIMO systems in 5G: overview, classification, and trends for future research",
+      "authors": [
+        "Ehab Ali",
+        "Mahamod B. Ismail",
+        "Rosdiadee Nordin",
+        "Nor Fadzilah Abdullah"
+      ],
+      "year": 2017,
+      "venue": "Frontiers of Information Technology & Electronic Engineering",
+      "venue_abbr": "FITEE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "massive MIMO",
+        "beamforming",
+        "5G",
+        "antenna arrays",
+        "inter-cell interference",
+        "intra-cell interference",
+        "system throughput",
+        "beamforming optimization"
+      ],
+      "url": "https://doi.org/10.1631/fitee.1601817",
+      "cited_by_count": 286,
+      "importance": 0.24,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3116872734",
+      "doi": "10.1109/access.2020.3047696",
+      "title": "Butler Matrix Based Beamforming Networks for Phased Array Antenna Systems: A Comprehensive Review and Future Directions for 5G Applications",
+      "authors": [
+        "Arshad Karimbu Vallappil",
+        "M. K. A. Rahim",
+        "Bilal A. Khawaja",
+        "Noor Asniza Murad",
+        "Mohammed Mustapha Gajibo"
+      ],
+      "year": 2020,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Butler matrix",
+        "beamforming network",
+        "phased array antenna",
+        "5G wireless systems",
+        "beyond 5G",
+        "multibeam antenna",
+        "millimeter wave",
+        "insertion loss",
+        "phase error",
+        "S-parameters",
+        "antenna miniaturization"
+      ],
+      "url": "https://doi.org/10.1109/access.2020.3047696",
+      "cited_by_count": 107,
+      "importance": 0.2377,
+      "score_basis": {
+        "topic_overlap": 0.039,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4319341697",
+      "doi": "10.1109/mcom.007.2200495",
+      "title": "Green Joint Communications and Sensing Employing Analog Multi-Beam Antenna Arrays",
+      "authors": [
+        "Kai Wu",
+        "J. Andrew Zhang",
+        "Xiaojing Huang",
+        "Robert W. Heath",
+        "Y. Jay Guo"
+      ],
+      "year": 2023,
+      "venue": "IEEE Communications Magazine",
+      "venue_abbr": "IEEE Communications Magazine",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "multibeam antenna arrays",
+        "energy efficiency",
+        "lens antenna",
+        "Butler matrix",
+        "beam steering",
+        "beam squint",
+        "angle of arrival estimation",
+        "6G",
+        "green communication"
+      ],
+      "url": "https://doi.org/10.1109/mcom.007.2200495",
+      "cited_by_count": 22,
+      "importance": 0.2293,
+      "score_basis": {
+        "topic_overlap": 0.065,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391878022",
+      "doi": "10.1109/tcomm.2024.3366816",
+      "title": "Multi-Band Wireless Communication Networks: Fundamentals, Challenges, and Resource Allocation",
+      "authors": [
+        "Sylvester Aboagye",
+        "Mohammad Amin Saeidi",
+        "Hina Tabassum",
+        "Yamin Tayyar",
+        "Ekram Hossain",
+        "Hong‐Chuan Yang",
+        "Mohamed‐Slim Alouini"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Communications",
+      "venue_abbr": "IEEE Trans. Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "resource allocation",
+        "6G",
+        "millimeter wave",
+        "terahertz communication",
+        "optical communication",
+        "heterogeneous networks",
+        "channel modeling",
+        "antenna design",
+        "transceiver design",
+        "network architecture",
+        "resource allocation optimization",
+        "performance indicators"
+      ],
+      "url": "https://doi.org/10.1109/tcomm.2024.3366816",
+      "cited_by_count": 68,
+      "importance": 0.2291,
+      "score_basis": {
+        "topic_overlap": 0.02,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1723130174",
+      "doi": "10.1155/2015/797352",
+      "title": "Aspects of the Subarrayed Array Processing for the Phased Array Radar",
+      "authors": [
+        "Hu Hang"
+      ],
+      "year": 2015,
+      "venue": "International Journal of Antennas and Propagation",
+      "venue_abbr": "International Journal of Antennas and Propagation",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phased array radar",
+        "multifunction radar",
+        "adaptive beamforming",
+        "space-time adaptive processing",
+        "sidelobe suppression",
+        "sum and difference beams",
+        "monopulse",
+        "electronic counter-countermeasures"
+      ],
+      "url": "https://doi.org/10.1155/2015/797352",
+      "cited_by_count": 7,
+      "importance": 0.2209,
+      "score_basis": {
+        "topic_overlap": 0.046,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2132305759",
+      "doi": "10.1109/tvt.2008.2004555",
+      "title": "OFDM and Its Wireless Applications: A Survey",
+      "authors": [
+        "Taewon Hwang",
+        "Chenyang Yang",
+        "Gang Wu",
+        "Shaoqian Li",
+        "Geoffrey Ye Li"
+      ],
+      "year": 2008,
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "venue_abbr": "IEEE Transactions on Vehicular Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "OFDM",
+        "wireless communication",
+        "intersymbol interference",
+        "delay spread",
+        "channel estimation",
+        "signal detection",
+        "timing offset estimation",
+        "frequency offset estimation",
+        "peak-to-average power ratio reduction",
+        "MIMO",
+        "wireless communication standards"
+      ],
+      "url": "https://doi.org/10.1109/tvt.2008.2004555",
+      "cited_by_count": 1037,
+      "importance": 0.22,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3110989801",
+      "doi": "10.1007/s11432-020-2955-6",
+      "title": "Towards 6G wireless communication networks: vision, enabling technologies, and new paradigm shifts",
+      "authors": [
+        "Xiaohu You",
+        "Cheng‐Xiang Wang",
+        "Jie Huang",
+        "Xiqi Gao",
+        "Zaichen Zhang",
+        "Mao Wang",
+        "Yongming Huang",
+        "Chuan Zhang",
+        "Yanxiang Jiang",
+        "Jiaheng Wang",
+        "Min Zhu",
+        "Bin Sheng",
+        "Dongming Wang",
+        "Zhiwen Pan",
+        "Pengcheng Zhu",
+        "Yang Yang",
+        "Zening Liu",
+        "Ping Zhang",
+        "Xiaofeng Tao",
+        "Shaoqian Li",
+        "Zhi Chen",
+        "Xinying Ma",
+        "I Chih‐Lin",
+        "Shuangfeng Han",
+        "Ke Li",
+        "Chengkang Pan",
+        "Zhimin Zheng",
+        "Lajos Hanzo",
+        "Xuemin Shen",
+        "Yingjie Jay Guo",
+        "Zhiguo Ding",
+        "Harald Haas",
+        "Wen Tong",
+        "Peiying Zhu",
+        "Ganghua Yang",
+        "Jun Wang",
+        "Erik G. Larsson",
+        "Hien Quoc Ngo",
+        "Wei Hong",
+        "Haiming Wang",
+        "Debin Hou",
+        "Jixin Chen",
+        "Zhe Chen",
+        "Zhang‐Cheng Hao",
+        "Geoffrey Ye Li",
+        "Rahim Tafazolli",
+        "Yue Gao",
+        "H. Vincent Poor",
+        "Gerhard Paul Fettweis",
+        "Ying‐Chang Liang"
+      ],
+      "year": 2020,
+      "venue": "Science China Information Sciences",
+      "venue_abbr": "Sci. China Inf. Sci.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "6G",
+        "5G",
+        "non-terrestrial networks",
+        "space-air-ground-sea integrated networks",
+        "satellite communication",
+        "UAV communication",
+        "terahertz communication",
+        "millimeter wave",
+        "artificial intelligence in wireless networks",
+        "big data",
+        "network security",
+        "waveform design"
+      ],
+      "url": "https://doi.org/10.1007/s11432-020-2955-6",
+      "cited_by_count": 2058,
+      "importance": 0.22,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2024762869",
+      "to": "W2132305759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2024762869"
+        }
+      ]
+    },
+    {
+      "from": "W2613863150",
+      "to": "W2962703830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2613863150"
+        }
+      ]
+    },
+    {
+      "from": "W4280617936",
+      "to": "W3011737127",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4280617936"
+        }
+      ]
+    },
+    {
+      "from": "W4294146546",
+      "to": "W3007075201",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294146546"
+        }
+      ]
+    },
+    {
+      "from": "W4296872126",
+      "to": "W2281588363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296872126"
+        }
+      ]
+    },
+    {
+      "from": "W4396214006",
+      "to": "W4280617936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396214006"
+        }
+      ]
+    },
+    {
+      "from": "W4402356718",
+      "to": "W3007075201",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402356718"
+        }
+      ]
+    },
+    {
+      "from": "W4403222073",
+      "to": "W3116872734",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403222073"
+        }
+      ]
+    },
+    {
+      "from": "W4411336479",
+      "to": "W4296872126",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411336479"
+        }
+      ]
+    },
+    {
+      "from": "W4413140336",
+      "to": "W4391920817",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413140336"
+        }
+      ]
+    },
+    {
+      "from": "W7154208728",
+      "to": "W2140389953",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154208728"
+        }
+      ]
+    },
+    {
+      "from": "W7154208728",
+      "to": "W2724724053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154208728"
+        }
+      ]
+    },
+    {
+      "from": "W7154208728",
+      "to": "W3007075201",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154208728"
+        }
+      ]
+    },
+    {
+      "from": "W7154208728",
+      "to": "W3110989801",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154208728"
+        }
+      ]
+    },
+    {
+      "from": "W7154208728",
+      "to": "W3210260041",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154208728"
+        }
+      ]
+    },
+    {
+      "from": "W7154208728",
+      "to": "W4280617936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154208728"
+        }
+      ]
+    },
+    {
+      "from": "W7154208728",
+      "to": "W4294146546",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154208728"
+        }
+      ]
+    },
+    {
+      "from": "W7154208728",
+      "to": "W4295004931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154208728"
+        }
+      ]
+    },
+    {
+      "from": "W7165122128",
+      "to": "W2724724053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165122128"
+        }
+      ]
+    },
+    {
+      "from": "W7165122128",
+      "to": "W3027178813",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165122128"
+        }
+      ]
+    },
+    {
+      "from": "W7165122128",
+      "to": "W4324311294",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165122128"
+        }
+      ]
+    },
+    {
+      "from": "W7165122128",
+      "to": "W4391878022",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165122128"
+        }
+      ]
+    },
+    {
+      "from": "W7165122128",
+      "to": "W4391920817",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165122128"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W1723130174",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W2024762869",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W2132305759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W2140389953",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W2281588363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W2613863150",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W2724724053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W2896181312",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W2962703830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W3007075201",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W3011737127",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W3022286469",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W3027178813",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W3042269838",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W3086498072",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W3110989801",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W3116872734",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W3210260041",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4280617936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4285049213",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4288456941",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4294146546",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4295004931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4296872126",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4319341697",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4319878858",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4322503713",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4324311294",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4362475423",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4384789563",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4391683622",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4391878022",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4391920817",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4396214006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4402356718",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4403222073",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4411336479",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W4413140336",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W7154208728",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    },
+    {
+      "from": "W7207584328",
+      "to": "W7165122128",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7207584328"
+        }
+      ]
+    }
+  ]
 }

@@ -1,42 +1,1674 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "0f47967f-e07a-4a73-9ff7-08613ba1e56b",
-  "root": "doi:10.1364/oe.609847",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7204783504",
+  "status": "ok",
+  "checked_at": "2026-11-06T00:48:38.019593+00:00",
+  "coverage": {
+    "references_found": 31,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 31,
+    "displayed": 31
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/oe.609847",
+      "id": "W7204783504",
       "doi": "10.1364/oe.609847",
       "title": "Multi-scale characterization and turbulence-aware transformer prediction of spot centroid trajectories in atmospheric turbulence channels",
       "authors": [
-        "Lei Guo",
+        "guo lei",
         "Keyan Dong",
-        "Songyan Song",
+        "Yansong Song",
         "Yan An",
         "Tong Wang",
-        "Hong tu Ge",
+        "Hongtu Ge",
         "Jiaxuan Liu",
         "Guidong Wang",
         "Mingming Li"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Express",
       "venue_abbr": "OE",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "atmospheric turbulence",
+        "multiscale characterization",
+        "trajectory prediction",
+        "laser beam propagation"
+      ],
       "url": "https://doi.org/10.1364/oe.609847",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/0f47967f-e07a-4a73-9ff7-08613ba1e56b.html",
       "summary": "论文提出多尺度湍流感知注意力网络 MSTA-Net，利用连续小波变换分解光束质心轨迹，并结合多尺度注意力、突变增强模块与 Transformer 进行长期预测。在弱、中、强大气湍流模拟数据集上开展测试；摘要报告，在预测跨度为50步时，相较代表性多尺度特征融合模型，预测误差约降低14.9%。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4404906590",
+      "doi": "10.1364/ol.543778",
+      "title": "Deep learning-based prediction of atmospheric turbulence toward satellite-to-ground laser communication",
+      "authors": [
+        "Haoran Yu",
+        "Lang Li",
+        "Yifu Hou",
+        "Yalin Li",
+        "Ci Yin",
+        "Chunqing Gao",
+        "Shiyao Fu"
+      ],
+      "year": 2024,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "atmospheric turbulence",
+        "satellite-to-ground laser communication",
+        "turbulence prediction",
+        "Fried parameter",
+        "deep learning",
+        "multi-step forecasting"
+      ],
+      "url": "https://doi.org/10.1364/ol.543778",
+      "cited_by_count": 25,
+      "importance": 0.4892,
+      "score_basis": {
+        "topic_overlap": 0.354,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416300486",
+      "doi": "10.1364/oe.581494",
+      "title": "Composite axis beam tracking control with LSTM-based pointing trajectory prediction for satellite laser communications",
+      "authors": [
+        "Guanglu Hao",
+        "Kairui Cao",
+        "Zhengjie Li",
+        "Jie Zhang",
+        "Hairui Du",
+        "Pengzhen Guo",
+        "Qingbo Yang",
+        "Liying Tan",
+        "Jingui Ma"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "satellite laser communication",
+        "beam tracking",
+        "long short-term memory",
+        "pointing, acquisition, and tracking",
+        "closed-loop tracking",
+        "platform vibration"
+      ],
+      "url": "https://doi.org/10.1364/oe.581494",
+      "cited_by_count": 5,
+      "importance": 0.4859,
+      "score_basis": {
+        "topic_overlap": 0.191,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413229811",
+      "doi": "10.1364/oe.568684",
+      "title": "Accurate prediction approach for the center position of a future light spot under atmospheric turbulence",
+      "authors": [
+        "Xuewei Wang",
+        "Ninghua Zhang",
+        "Qiang Wang",
+        "Lei Cui"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "satellite-to-ground laser communication",
+        "atmospheric turbulence",
+        "pointing, acquisition, and tracking",
+        "feature matching",
+        "recurrent neural networks",
+        "weak turbulence"
+      ],
+      "url": "https://doi.org/10.1364/oe.568684",
+      "cited_by_count": 3,
+      "importance": 0.4456,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411882286",
+      "doi": "10.1364/oe.565663",
+      "title": "Short-term atmospheric turbulence prediction in a satellite-to-ground laser link with limited observed data",
+      "authors": [
+        "Lang Li",
+        "Shiyun Zhou",
+        "Haoran Yu",
+        "Y.Q. Li",
+        "Ci Yin",
+        "Chunqing Gao",
+        "Shiyao Fu"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "satellite-to-ground laser communication",
+        "limited historical data",
+        "differential image motion monitor",
+        "hybrid forecasting model",
+        "adaptive optics"
+      ],
+      "url": "https://doi.org/10.1364/oe.565663",
+      "cited_by_count": 2,
+      "importance": 0.4375,
+      "score_basis": {
+        "topic_overlap": 0.306,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4380741476",
+      "doi": "10.1117/12.2654667",
+      "title": "The behavior of spatiotemporal Bessel-Gauss beams in atmospheric turbulence",
+      "authors": [
+        "Milo Wilt Hyde IV"
+      ],
+      "year": 2023,
+      "venue": "Laser Technology for Defense and Security",
+      "venue_abbr": "Laser Technology for Defense and Security",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "atmospheric turbulence",
+        "beam propagation",
+        "mutual coherence function",
+        "wave optics simulation",
+        "free-space propagation"
+      ],
+      "url": "https://doi.org/10.1117/12.2654667",
+      "cited_by_count": 2,
+      "importance": 0.3965,
+      "score_basis": {
+        "topic_overlap": 0.437,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414694741",
+      "doi": "10.1364/josaa.576085",
+      "title": "Second-scale atmospheric turbulence predicting with the Kolmogorov–Arnold network",
+      "authors": [
+        "Zhihao Wan",
+        "Haibin Zhan",
+        "Xianglei Meng",
+        "Huichuan Lin",
+        "Yan Li",
+        "Jun Zeng",
+        "Zhimin He",
+        "Yongtao Zhang",
+        "Huanting Chen",
+        "Jixiong Pu"
+      ],
+      "year": 2025,
+      "venue": "Journal of the Optical Society of America A",
+      "venue_abbr": "Journal of the Optical Society of America A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Kolmogorov-Arnold networks",
+        "refractive index structure constant",
+        "free-space optical communication",
+        "satellite-to-ground laser communication",
+        "meteorological parameters"
+      ],
+      "url": "https://doi.org/10.1364/josaa.576085",
+      "cited_by_count": 1,
+      "importance": 0.3894,
+      "score_basis": {
+        "topic_overlap": 0.31,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409630769",
+      "doi": "10.1364/ao.545837",
+      "title": "Degree of cross-polarization of elliptical Gaussian partially coherent beams propagating in turbulent atmosphere",
+      "authors": [
+        "Meimiao Han",
+        "Xizheng Ke"
+      ],
+      "year": 2025,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cross-polarization",
+        "elliptical Gaussian beam",
+        "partially coherent beams",
+        "atmospheric turbulence",
+        "non-Kolmogorov turbulence",
+        "cross-spectral density matrix",
+        "degree of polarization",
+        "zenith angle",
+        "free-space optical communication",
+        "beam propagation"
+      ],
+      "url": "https://doi.org/10.1364/ao.545837",
+      "cited_by_count": 2,
+      "importance": 0.3883,
+      "score_basis": {
+        "topic_overlap": 0.418,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4362663966",
+      "doi": "10.1364/ao.487185",
+      "title": "Forecasting atmospheric turbulence conditions from prior environmental parameters using artificial neural networks",
+      "authors": [
+        "Mitchell Grose",
+        "Edward Watson"
+      ],
+      "year": 2023,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "atmospheric turbulence",
+        "refractive index structure constant",
+        "artificial neural networks",
+        "recurrent neural networks",
+        "gated recurrent unit",
+        "long short-term memory",
+        "multilayer perceptron",
+        "meteorological parameters",
+        "turbulence prediction",
+        "surrogate models"
+      ],
+      "url": "https://doi.org/10.1364/ao.487185",
+      "cited_by_count": 9,
+      "importance": 0.3864,
+      "score_basis": {
+        "topic_overlap": 0.281,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405614005",
+      "doi": "10.1016/j.optlaseng.2024.108775",
+      "title": "SPRNet: Laser spot center position and reconstruction under atmospheric turbulence based on deep learning enhancement",
+      "authors": [
+        "Jiaqi Wang",
+        "Xiangsheng Meng",
+        "Shun Zhou",
+        "Xuan Wang",
+        "Junfeng Han",
+        "Yifan Guo",
+        "Shigeng Song",
+        "Weiguo Liu"
+      ],
+      "year": 2024,
+      "venue": "Optics and Lasers in Engineering",
+      "venue_abbr": "Opt. Lasers Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "atmospheric turbulence",
+        "free-space optical communication",
+        "wavefront distortion",
+        "label-free training"
+      ],
+      "url": "https://doi.org/10.1016/j.optlaseng.2024.108775",
+      "cited_by_count": 12,
+      "importance": 0.3816,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406864241",
+      "doi": "10.1364/ao.549374",
+      "title": "Beam spreading scaling law of a focused Laguerre-Gaussian beam propagating through oceanic turbulence",
+      "authors": [
+        "Hanyin Hu",
+        "Qing Zhang",
+        "Hong Yu",
+        "Zheqiang Zhong",
+        "Bin Zhang"
+      ],
+      "year": 2025,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Laguerre-Gaussian beams",
+        "beam divergence",
+        "ocean turbulence",
+        "scaling laws",
+        "focused beams"
+      ],
+      "url": "https://doi.org/10.1364/ao.549374",
+      "cited_by_count": 6,
+      "importance": 0.377,
+      "score_basis": {
+        "topic_overlap": 0.393,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7161775415",
+      "doi": "10.1364/oe.592936",
+      "title": "Unified analytical–numerical modeling and experimental validation of 3D cat-eye echo fields under turbulence and oblique incidence",
+      "authors": [
+        "Zhe Lv",
+        "Xiaojian Hao"
+      ],
+      "year": 2026,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "retroreflection",
+        "atmospheric turbulence",
+        "oblique incidence",
+        "Rytov approximation",
+        "matrix optics",
+        "speckle",
+        "beam wander",
+        "target tracking",
+        "angle scanning",
+        "refractive index structure constant"
+      ],
+      "url": "https://doi.org/10.1364/oe.592936",
+      "cited_by_count": 1,
+      "importance": 0.3745,
+      "score_basis": {
+        "topic_overlap": 0.277,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412567256",
+      "doi": "10.1109/jlt.2025.3591694",
+      "title": "Deep-Learning-Assisted Orbital Angular Momentum Mode Recovery Under Atmospheric Turbulence for Free-Space Optical Communication",
+      "authors": [
+        "Wenmin Ren",
+        "Hao Zhang",
+        "Xingyu Mao",
+        "Dongye Xu",
+        "Zehui Lu",
+        "Wei Shin Lin",
+        "Shaoxiang Duan",
+        "Bo Liu"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "orbital angular momentum",
+        "atmospheric turbulence",
+        "free-space optical communication",
+        "optical vortices",
+        "convolutional neural networks",
+        "U-Net",
+        "ResNet",
+        "DenseNet",
+        "InceptionNet",
+        "OAM multiplexing",
+        "long-haul optical links"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3591694",
+      "cited_by_count": 13,
+      "importance": 0.3714,
+      "score_basis": {
+        "topic_overlap": 0.381,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7164159269",
+      "doi": "10.1364/ao.597257",
+      "title": "Design of a self-encoding and all-optical decoding spatially multiplexed free-space optical communication channel through optical turbulence",
+      "authors": [
+        "Joseph Greene",
+        "Alfred Moore",
+        "Christopher R. Valenta"
+      ],
+      "year": 2026,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "free-space optical communication",
+        "optical turbulence",
+        "spatial multiplexing",
+        "diffractive neural networks",
+        "Gerchberg-Saxton algorithm",
+        "phase mask",
+        "signal-to-noise ratio"
+      ],
+      "url": "https://doi.org/10.1364/ao.597257",
+      "cited_by_count": 3,
+      "importance": 0.3645,
+      "score_basis": {
+        "topic_overlap": 0.365,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404632617",
+      "doi": "10.3390/photonics11121108",
+      "title": "Prediction of Power Fluctuations of Gaussian Beams After Transmission Through Turbulent Atmosphere",
+      "authors": [
+        "Zhihao Wan",
+        "Jiayi Zhu",
+        "Cheng Huang",
+        "Zhimin He",
+        "Jun Hui Zeng",
+        "Fu‐Chang Chen",
+        "Chaoqun Yu",
+        "Yan Li",
+        "Huanting Chen",
+        "Yongtao Zhang",
+        "Jixiong Pu",
+        "Huichuan Lin"
+      ],
+      "year": 2024,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "atmospheric turbulence",
+        "Gaussian beam",
+        "free-space optical communication",
+        "long short-term memory networks",
+        "LSTM",
+        "time series forecasting",
+        "bit error rate",
+        "laser radar imaging"
+      ],
+      "url": "https://doi.org/10.3390/photonics11121108",
+      "cited_by_count": 3,
+      "importance": 0.359,
+      "score_basis": {
+        "topic_overlap": 0.309,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7136295432",
+      "doi": "10.1134/s1024856025700538",
+      "title": "Influence of Atmospheric Turbulence Characteristics on the Frequency of Laser Parameter Fluctuations. Part 1. Mathematical Model and Numerical Experiment",
+      "authors": [
+        "Fedor Yu Kanev",
+        "Yu. G. Grekova"
+      ],
+      "year": 2025,
+      "venue": "Atmospheric and Oceanic Optics",
+      "venue_abbr": "Atmospheric and Oceanic Optics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "atmospheric turbulence",
+        "laser beam propagation",
+        "intensity fluctuations",
+        "Fourier series",
+        "turbulence scales",
+        "wind speed",
+        "adaptive optics",
+        "laser beam control"
+      ],
+      "url": "https://doi.org/10.1134/s1024856025700538",
+      "cited_by_count": 1,
+      "importance": 0.3456,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411143124",
+      "doi": "10.1109/jlt.2025.3578005",
+      "title": "Self-Adaptive All-Optical Feedback-Based Free- Space Optical Communication System With Attention-Enhanced Turbulence Awareness",
+      "authors": [
+        "Ruizhe Jin",
+        "Jiazheng Ding",
+        "Mingfeng Xu",
+        "Shuangcheng Chen",
+        "Mengjie Zhou",
+        "Yong Yu",
+        "X. Q. Yan",
+        "Nan Chi",
+        "Mingbo Pu",
+        "Xiangang Luo"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "attention mechanism",
+        "pointing errors",
+        "slow fading",
+        "link reliability"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3578005",
+      "cited_by_count": 14,
+      "importance": 0.3417,
+      "score_basis": {
+        "topic_overlap": 0.27,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408210644",
+      "doi": "10.3788/col202523.020101",
+      "title": "Atmospheric turbulence time-evolving modeling using spatio-temporal fractal nature [Invited]",
+      "authors": [
+        "Haiyang Fu",
+        "Fang‐Xiang Wang",
+        "Wei Chen",
+        "Shuang Wang",
+        "De‐Yong He",
+        "Zhen−Qiang Yin",
+        "Zheng‐Fu Han"
+      ],
+      "year": 2025,
+      "venue": "Chinese Optics Letters",
+      "venue_abbr": "COL",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "atmospheric turbulence",
+        "fractional Brownian motion",
+        "wavefront correction",
+        "atmospheric optics",
+        "spatiotemporal resolution",
+        "covariance matrix",
+        "turbulent flow simulation"
+      ],
+      "url": "https://doi.org/10.3788/col202523.020101",
+      "cited_by_count": 9,
+      "importance": 0.3404,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7160093656",
+      "doi": "10.1364/prj.586204",
+      "title": "Few-shot learning-based rapid spatiotemporal wavefront prediction with a lightweight Fourier graph neural network in adaptive optics",
+      "authors": [
+        "Ju Tang",
+        "jiayong chen",
+        "zhijian qin",
+        "Haocheng Feng",
+        "Jiazhen Dou",
+        "Zhenbo Ren",
+        "Jianglei Di",
+        "Yuwen Qin"
+      ],
+      "year": 2026,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "adaptive optics",
+        "few-shot learning",
+        "atmospheric turbulence",
+        "computational efficiency",
+        "astronomical observations",
+        "laser communication"
+      ],
+      "url": "https://doi.org/10.1364/prj.586204",
+      "cited_by_count": 3,
+      "importance": 0.3384,
+      "score_basis": {
+        "topic_overlap": 0.308,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416994273",
+      "doi": "10.1364/ao.578388",
+      "title": "Propagation of Gaussian and Bessel–Gaussian beams through disturbances: an analysis of ranging efficiency",
+      "authors": [
+        "Qinglong Liu",
+        "Yang Chen",
+        "Zunshi Zhao",
+        "Zhi Wang",
+        "Yange Liu",
+        "Pan Wang"
+      ],
+      "year": 2025,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Bessel beams",
+        "Gaussian beam",
+        "optical ranging",
+        "atmospheric turbulence",
+        "beam scintillation",
+        "signal-to-noise ratio",
+        "time-of-flight measurement",
+        "beam wander",
+        "non-diffracting beams",
+        "LiDAR",
+        "ranging accuracy"
+      ],
+      "url": "https://doi.org/10.1364/ao.578388",
+      "cited_by_count": 2,
+      "importance": 0.3366,
+      "score_basis": {
+        "topic_overlap": 0.304,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400276885",
+      "doi": "10.1109/wcnc57260.2024.10570868",
+      "title": "Rytov Variance of Adaptive Optics Applied Modified Von-Karman Spectrum",
+      "authors": [
+        "Mert Bayraktar",
+        "Luis Manuel Garcés-Socarrás",
+        "Juan Carlos Merlano Duncán",
+        "Symeon Chatzinotas"
+      ],
+      "year": 2024,
+      "venue": "IEEE Wireless Communications and Networking Conference",
+      "venue_abbr": "IEEE Wireless Communications and Networking Conference",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "Rytov variance",
+        "adaptive optics",
+        "atmospheric turbulence",
+        "scintillation index",
+        "random phase screen",
+        "propagation distance",
+        "spatial frequency",
+        "wavefront correction"
+      ],
+      "url": "https://doi.org/10.1109/wcnc57260.2024.10570868",
+      "cited_by_count": 2,
+      "importance": 0.3294,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2747261346",
+      "doi": "10.1364/ao.56.007046",
+      "title": "Wander of the short-term spreading filter for partially coherent Gaussian beams through the anisotropic turbulent ocean",
+      "authors": [
+        "Yanqiu Yang",
+        "Lin Yu",
+        "Qiu Wang",
+        "Yixin Zhang"
+      ],
+      "year": 2017,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "beam wander",
+        "ocean turbulence",
+        "anisotropic turbulence",
+        "irradiance fluctuations",
+        "temperature fluctuations",
+        "salinity fluctuations",
+        "turbulence dissipation rate",
+        "inner scale of turbulence"
+      ],
+      "url": "https://doi.org/10.1364/ao.56.007046",
+      "cited_by_count": 27,
+      "importance": 0.3287,
+      "score_basis": {
+        "topic_overlap": 0.286,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408105824",
+      "doi": "10.1364/ol.554208",
+      "title": "Precision analysis of ToF LiDAR in atmospheric turbulence channels",
+      "authors": [
+        "Tianzhu Zhang",
+        "Zhongji Yan",
+        "Anning Pang",
+        "Anhong Dang"
+      ],
+      "year": 2025,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "time-of-flight LiDAR",
+        "atmospheric turbulence",
+        "ranging precision",
+        "Cramer-Rao lower bound",
+        "gamma-gamma distribution",
+        "random phase screen",
+        "Rytov variance",
+        "Monte Carlo simulation"
+      ],
+      "url": "https://doi.org/10.1364/ol.554208",
+      "cited_by_count": 8,
+      "importance": 0.3281,
+      "score_basis": {
+        "topic_overlap": 0.285,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7133877685",
+      "doi": "10.1364/oe.586953",
+      "title": "Neural network nonlinear mitigation and coherent combining to improve the SNR of free-space optical communication systems",
+      "authors": [
+        "Laurenz Kulmer",
+        "Tobias Blatter",
+        "Vincent Billault",
+        "Guénolé Dandé",
+        "Jérôme Bourderionnet",
+        "A. Brignon",
+        "Anaëlle Maho",
+        "Matthew G. Welch",
+        "Stefan M. Koepfli",
+        "Yannik Horst",
+        "Juerg Leuthold"
+      ],
+      "year": 2026,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "neural network equalization",
+        "coherent beam combining",
+        "signal-to-noise ratio improvement",
+        "atmospheric turbulence",
+        "polarization multiplexing"
+      ],
+      "url": "https://doi.org/10.1364/oe.586953",
+      "cited_by_count": 1,
+      "importance": 0.3269,
+      "score_basis": {
+        "topic_overlap": 0.171,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416227747",
+      "doi": "10.1364/oe.577345",
+      "title": "High-efficiency free-space optical communication link with refractive adaptive optics",
+      "authors": [
+        "Antonio Vanzo",
+        "Lorenzo Borsoi",
+        "Luca Massaro",
+        "Francesco Basso Basset",
+        "Alessandro Laneve",
+        "Paolo Barigelli",
+        "Gonzalo Carvacho",
+        "Nicolò Spagnolo",
+        "Fabio Sciarrino",
+        "Rinaldo Trotta",
+        "Stefano Bonora"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "beam wander",
+        "atmospheric turbulence",
+        "wavefront aberration correction",
+        "quantum key distribution",
+        "fast steering mirror",
+        "deformable mirror",
+        "Strehl ratio",
+        "tip-tilt correction"
+      ],
+      "url": "https://doi.org/10.1364/oe.577345",
+      "cited_by_count": 3,
+      "importance": 0.3264,
+      "score_basis": {
+        "topic_overlap": 0.281,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7143277673",
+      "doi": "10.1364/josaa.590033",
+      "title": "Heat flux as a key to predicting optical turbulence: experimental validation of a scaling constant in Rayleigh–Bénard turbulence",
+      "authors": [
+        "David McLeod",
+        "R. Handler",
+        "Richard J. Watkins"
+      ],
+      "year": 2026,
+      "venue": "Journal of the Optical Society of America A",
+      "venue_abbr": "Journal of the Optical Society of America A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical turbulence",
+        "Rayleigh-Bénard convection",
+        "heat flux",
+        "refractive index structure constant",
+        "scaling constants",
+        "buoyancy-driven turbulence",
+        "refractive index fluctuations",
+        "scintillation",
+        "beam wander",
+        "beam spot size",
+        "turbulence suppression",
+        "free-space optical communication"
+      ],
+      "url": "https://doi.org/10.1364/josaa.590033",
+      "cited_by_count": 3,
+      "importance": 0.3259,
+      "score_basis": {
+        "topic_overlap": 0.28,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412870161",
+      "doi": "10.1134/s1063772925701902",
+      "title": "Characteristics of Non-Kolmogorov Atmospheric Optical Turbulence in Terms of High-Resolution Astronomical Observations",
+      "authors": [
+        "A. Yu. Shikhovtsev",
+        "P. G. Kovadlo"
+      ],
+      "year": 2025,
+      "venue": "Astronomy Reports",
+      "venue_abbr": "Astronomy Reports",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "atmospheric optical turbulence",
+        "non-Kolmogorov turbulence",
+        "Kolmogorov turbulence",
+        "atmospheric surface layer",
+        "atmospheric coherence length",
+        "Fried parameter"
+      ],
+      "url": "https://doi.org/10.1134/s1063772925701902",
+      "cited_by_count": 1,
+      "importance": 0.3239,
+      "score_basis": {
+        "topic_overlap": 0.275,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404743109",
+      "doi": "10.1134/s1024856024700647",
+      "title": "An Exact Analytical Calculation of the Wavefront Structure Function for the Case of Kolmogorov Atmospheric Turbulence",
+      "authors": [
+        "Andrey V. Shepelev",
+        "D. A. Yagnyatinskiy",
+        "V. N. Fedoseyev"
+      ],
+      "year": 2024,
+      "venue": "Atmospheric and Oceanic Optics",
+      "venue_abbr": "Atmospheric and Oceanic Optics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Kolmogorov turbulence",
+        "atmospheric turbulence",
+        "wavefront expansion",
+        "mode coefficients",
+        "circular aperture",
+        "Zernike polynomials",
+        "Karhunen-Loeve transform",
+        "randomly inhomogeneous media"
+      ],
+      "url": "https://doi.org/10.1134/s1024856024700647",
+      "cited_by_count": 2,
+      "importance": 0.3204,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7154570784",
+      "doi": "10.1364/oe.586209",
+      "title": "Research on fiber coupling characteristics of linearly polarized modes in coherent free space optical communication systems",
+      "authors": [
+        "Wanting Hu",
+        "Peng Lin",
+        "Ziqi Zhang",
+        "chengxu shen",
+        "Qiaochu Yang",
+        "Li Xu",
+        "xiaonan yu",
+        "Yansong Song",
+        "Keyan Dong"
+      ],
+      "year": 2026,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "fiber coupling",
+        "linearly polarized modes",
+        "higher-order modes",
+        "free-space optical communication",
+        "coherent optical communication",
+        "angular misalignment",
+        "relative motion",
+        "spatial light modulator",
+        "fast steering mirror",
+        "bit error rate",
+        "error vector magnitude",
+        "mode choice"
+      ],
+      "url": "https://doi.org/10.1364/oe.586209",
+      "cited_by_count": 1,
+      "importance": 0.305,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313268864",
+      "doi": "10.1007/s12596-022-01042-4",
+      "title": "Performance enhancement of multi-beam FSO communication system with the application of MIMO with CO-OFDM",
+      "authors": [
+        "Payal Payal",
+        "Deepak Sharma",
+        "Suresh Kumar"
+      ],
+      "year": 2022,
+      "venue": "Journal of Optics",
+      "venue_abbr": "J. Opt.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "free-space optical communication",
+        "MIMO",
+        "coherent OFDM",
+        "atmospheric turbulence",
+        "Rytov variance",
+        "geometric loss",
+        "intersymbol interference",
+        "bit error rate",
+        "transmission distance",
+        "40 Gb/s"
+      ],
+      "url": "https://doi.org/10.1007/s12596-022-01042-4",
+      "cited_by_count": 7,
+      "importance": 0.2825,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409796005",
+      "doi": "10.1109/jlt.2025.3564551",
+      "title": "Field Demonstration of Turbulence-Resilient Self-Coherent Free-Space Optical Communications",
+      "authors": [
+        "Douglas McDonald",
+        "Raphaël Bellossi",
+        "Szymon Gładysz"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "free-space optical communication",
+        "atmospheric turbulence",
+        "self-coherent detection",
+        "spatial coherence",
+        "Kramers-Kronig receiver",
+        "local oscillator",
+        "16-QAM",
+        "10 Gb/s transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3564551",
+      "cited_by_count": 9,
+      "importance": 0.2687,
+      "score_basis": {
+        "topic_overlap": 0.153,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4286217214",
+      "doi": "10.1364/ao.463145",
+      "title": "Fading-free Φ-OTDR evaluation based on the statistical analysis of phase hopping",
+      "authors": [
+        "Heng Qian",
+        "Bin Luo",
+        "Haijun He",
+        "Yin Xiu Zhou",
+        "Xihua Zou",
+        "Wei Pan",
+        "Lianshan Yan"
+      ],
+      "year": 2022,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase noise",
+        "signal-to-noise ratio",
+        "fiber optic sensing"
+      ],
+      "url": "https://doi.org/10.1364/ao.463145",
+      "cited_by_count": 42,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W4404906590",
+      "to": "W4362663966",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404906590"
+        }
+      ]
+    },
+    {
+      "from": "W4411882286",
+      "to": "W4362663966",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411882286"
+        }
+      ]
+    },
+    {
+      "from": "W4411882286",
+      "to": "W4404906590",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411882286"
+        }
+      ]
+    },
+    {
+      "from": "W4413229811",
+      "to": "W4404906590",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413229811"
+        }
+      ]
+    },
+    {
+      "from": "W4413229811",
+      "to": "W4405614005",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413229811"
+        }
+      ]
+    },
+    {
+      "from": "W4414694741",
+      "to": "W4404906590",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414694741"
+        }
+      ]
+    },
+    {
+      "from": "W4416300486",
+      "to": "W4362663966",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416300486"
+        }
+      ]
+    },
+    {
+      "from": "W4416300486",
+      "to": "W4404632617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416300486"
+        }
+      ]
+    },
+    {
+      "from": "W4416300486",
+      "to": "W4404906590",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416300486"
+        }
+      ]
+    },
+    {
+      "from": "W4416300486",
+      "to": "W4405614005",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416300486"
+        }
+      ]
+    },
+    {
+      "from": "W7133877685",
+      "to": "W4411143124",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133877685"
+        }
+      ]
+    },
+    {
+      "from": "W7161775415",
+      "to": "W4408210644",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161775415"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W2747261346",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4286217214",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4313268864",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4362663966",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4380741476",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4400276885",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4404632617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4404743109",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4404906590",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4405614005",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4406864241",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4408105824",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4408210644",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4409630769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4409796005",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4411143124",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4411882286",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4412567256",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4412870161",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4413229811",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4414694741",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4416227747",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4416300486",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W4416994273",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W7133877685",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W7136295432",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W7143277673",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W7154570784",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W7160093656",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W7161775415",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    },
+    {
+      "from": "W7204783504",
+      "to": "W7164159269",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204783504"
+        }
+      ]
+    }
+  ]
 }

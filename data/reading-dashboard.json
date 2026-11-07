@@ -2,6 +2,33 @@
   "schema": "paperflow.reading-dashboard/v1",
   "ranked": [
     {
+      "record_id": "a604ab5b-1029-4de6-8153-a87afdbcc2be",
+      "revision": 2,
+      "reviewed_at": "2026-11-07T00:41:57.797306+00:00",
+      "reason": "与你的光通信研究直接相关",
+      "reading_level": "B",
+      "relevance": "direct",
+      "kind": "journal"
+    },
+    {
+      "record_id": "41fb251e-0d19-494c-82e5-8ec7c8769215",
+      "revision": 2,
+      "reviewed_at": "2026-11-07T00:37:46.875641+00:00",
+      "reason": "与你的光通信研究直接相关",
+      "reading_level": "B",
+      "relevance": "direct",
+      "kind": "preprint"
+    },
+    {
+      "record_id": "2b838a36-254a-4eea-b165-5d5cda686cbe",
+      "revision": 2,
+      "reviewed_at": "2026-11-07T00:25:17.231288+00:00",
+      "reason": "与你的光通信研究直接相关",
+      "reading_level": "B",
+      "relevance": "direct",
+      "kind": "unknown"
+    },
+    {
       "record_id": "de9ff9fb-f4df-4322-9255-102e0b914546",
       "revision": 4,
       "reviewed_at": "2026-11-05T00:42:45.756398+00:00",
@@ -1451,6 +1478,24 @@
       "kind": "preprint"
     },
     {
+      "record_id": "8c0245e7-013f-4da7-9496-c221d549f0f6",
+      "revision": 2,
+      "reviewed_at": "2026-11-07T00:44:02.987461+00:00",
+      "reason": "可迁移到光通信的使能技术",
+      "reading_level": "B",
+      "relevance": "enabling",
+      "kind": "journal"
+    },
+    {
+      "record_id": "7c494378-5f76-405f-8b0e-41bce3f5b0fc",
+      "revision": 2,
+      "reviewed_at": "2026-11-07T00:29:26.499987+00:00",
+      "reason": "可迁移到光通信的使能技术",
+      "reading_level": "B",
+      "relevance": "enabling",
+      "kind": "journal"
+    },
+    {
       "record_id": "e05b7f9f-758f-4748-9dcb-92b9166316de",
       "revision": 3,
       "reviewed_at": "2026-11-04T00:45:50.804806+00:00",
@@ -2360,6 +2405,24 @@
       "kind": "journal"
     },
     {
+      "record_id": "fad47438-b526-4473-9477-11d9de2f5aba",
+      "revision": 2,
+      "reviewed_at": "2026-11-07T00:33:36.899706+00:00",
+      "reason": "可迁移到光通信的使能技术",
+      "reading_level": "C",
+      "relevance": "enabling",
+      "kind": "journal"
+    },
+    {
+      "record_id": "38a55282-32fa-4e82-bcc4-9b65130f1ff1",
+      "revision": 2,
+      "reviewed_at": "2026-11-07T00:31:31.634229+00:00",
+      "reason": "可迁移到光通信的使能技术",
+      "reading_level": "C",
+      "relevance": "enabling",
+      "kind": "unknown"
+    },
+    {
       "record_id": "0be0b895-c5b0-4920-9ff1-52ad79681785",
       "revision": 2,
       "reviewed_at": "2026-11-05T00:36:28.661652+00:00",
@@ -2928,14 +2991,175 @@
     }
   ],
   "recommended": [
+    "a604ab5b-1029-4de6-8153-a87afdbcc2be",
+    "41fb251e-0d19-494c-82e5-8ec7c8769215",
+    "2b838a36-254a-4eea-b165-5d5cda686cbe",
     "de9ff9fb-f4df-4322-9255-102e0b914546",
     "78f0d234-9a1d-47f3-b568-ceaa80b7d01a",
-    "45817361-71a6-4b6b-84f7-8249b15fd7b5",
-    "423b0888-c3a5-4f7e-9e2e-f7dce9af1cb7",
-    "6d3c660c-2c4b-4e2f-9310-77064b50d8fe",
     "37216b9b-e225-4d24-b865-fbfeb28a6e69"
   ],
   "briefs": {
+    "fad47438-b526-4473-9477-11d9de2f5aba": {
+      "record_id": "fad47438-b526-4473-9477-11d9de2f5aba",
+      "revision": 2,
+      "summary": "论文提出面向光电混合太赫兹架构的高熵混沌驱动非线性重构物理层安全方案。摘要报告采用335 GHz连续波行波管放大器，增益超过50 dB，在2.2 km室外无线链路上实现16 Gb/s传输，并结合接收端数字域加密模块。",
+      "title_zh": "光电混合架构支持公里级335 GHz太赫兹安全传输",
+      "evidence_status": "abstract-only",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://doi.org/10.1364/ol.613515",
+          "text": "论文提出面向光电混合太赫兹架构的高熵混沌驱动非线性重构物理层安全方案。摘要报告采用335 GHz连续波行波管放大器，增益超过50 dB，在2.2 km室外无线链路上实现16 Gb/s传输，并结合接收端数字域加密模块。"
+        }
+      ],
+      "limits": [
+        "仅有摘要，缺少全文中的实验配置、光子部分的具体作用及链路性能测量结果。",
+        "缺少攻击模型、密钥敏感性及安全性验证；摘要中密钥空间的指数格式不清，无法准确引用。"
+      ],
+      "inference": [
+        "该方案可为光电融合太赫兹链路的安全机制与射频放大协同设计提供参考；迁移价值仍需结合完整架构和安全测试判断。"
+      ],
+      "source_url": "https://doi.org/10.1364/ol.613515",
+      "sections": []
+    },
+    "7c494378-5f76-405f-8b0e-41bce3f5b0fc": {
+      "record_id": "7c494378-5f76-405f-8b0e-41bce3f5b0fc",
+      "revision": 2,
+      "summary": "摘要报告，通过有机阳离子调控三重态激子，抑制准二维钙钛矿中的快速自旋弛豫，实现自旋偏振激光。作者将阻碍该激光实现的主要弛豫机制归于Bir-Aronov-Pikus机制；调节反向系间窜越后，D’yakonov-Perel’机制发挥关键作用，在77 K下出现35.4 ps的延长自旋寿命，约为前者所致寿命的5倍。自旋偏振激光在低于200 K时实现，阈值较线偏振激发时降低30.2%。",
+      "title_zh": "三重态激子调控实现准二维钙钛矿自旋偏振激光",
+      "evidence_status": "abstract-only",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://doi.org/10.1126/sciadv.aeg4834",
+          "text": "摘要报告，通过有机阳离子调控三重态激子，抑制准二维钙钛矿中的快速自旋弛豫，实现自旋偏振激光。作者将阻碍该激光实现的主要弛豫机制归于Bir-Aronov-Pikus机制；调节反向系间窜越后，D’yakonov-Perel’机制发挥关键作用，在77 K下出现35.4 ps的延长自旋寿命，约为前者所致寿命的5倍。自旋偏振激光在低于200 K时实现，阈值较线偏振激发时降低30.2%。"
+        }
+      ],
+      "limits": [
+        "仅提供摘要，缺少全文中的实验方法、机制判定依据及误差分析。",
+        "未提供室温运行、器件集成或通信链路验证证据。"
+      ],
+      "inference": [
+        "该结果为偏振可控光源及光互连器件提供材料调控思路；其通信应用价值仍需室温工作与器件集成验证。"
+      ],
+      "source_url": "https://doi.org/10.1126/sciadv.aeg4834",
+      "sections": []
+    },
+    "38a55282-32fa-4e82-bcc4-9b65130f1ff1": {
+      "record_id": "38a55282-32fa-4e82-bcc4-9b65130f1ff1",
+      "revision": 2,
+      "summary": "该研究优化锑化物量子阱激光器的外延结构与波导设计，以兼顾光学增益和模式选择性限制。摘要报告器件表征结果：在288 K、0.5 A驱动下，输出光功率为78 mW，远场光束半高全宽发散角为5.2°，并保持稳定单横模激射。",
+      "title_zh": "2 μm GaSb激光二极管实现单横模输出",
+      "evidence_status": "abstract-only",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://doi.org/10.1117/12.3123535",
+          "text": "该研究优化锑化物量子阱激光器的外延结构与波导设计，以兼顾光学增益和模式选择性限制。摘要报告器件表征结果：在288 K、0.5 A驱动下，输出光功率为78 mW，远场光束半高全宽发散角为5.2°，并保持稳定单横模激射。"
+        }
+      ],
+      "limits": [
+        "全文及完整器件表征数据。",
+        "调制带宽、噪声、传输与误码性能等通信验证。",
+        "单横模稳定工作的电流、温度范围及发散角对应方向。"
+      ],
+      "inference": [
+        "可作为2 μm自由空间光通信光源的候选技术；其通信适用性仍需通过调制与链路实验验证。"
+      ],
+      "source_url": "https://doi.org/10.1117/12.3123535",
+      "sections": []
+    },
+    "2b838a36-254a-4eea-b165-5d5cda686cbe": {
+      "record_id": "2b838a36-254a-4eea-b165-5d5cda686cbe",
+      "revision": 2,
+      "summary": "摘要报告了一种采用横向耦合锑化物光栅的单模激光二极管，发射波长为1.95 μm。在20 °C工作温度下，最大光功率为8.3 mW，单模运行的边模抑制比为32 dB。摘要将自由空间光通信列为潜在应用。",
+      "title_zh": "1.95 μm锑化物单纵模激光二极管",
+      "evidence_status": "abstract-only",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://doi.org/10.1117/12.3123532",
+          "text": "摘要报告了一种采用横向耦合锑化物光栅的单模激光二极管，发射波长为1.95 μm。在20 °C工作温度下，最大光功率为8.3 mW，单模运行的边模抑制比为32 dB。摘要将自由空间光通信列为潜在应用。"
+        }
+      ],
+      "limits": [
+        "仅提供摘要，缺少全文及实验方法，无法完整核查测量条件与结果。",
+        "未提供稳定性测试、调制性能或自由空间通信链路验证。"
+      ],
+      "inference": [
+        "可关注其作为1.95 μm自由空间光通信光源的可能性，但仍需调制性能、稳定性与通信链路实验支持。"
+      ],
+      "source_url": "https://doi.org/10.1117/12.3123532",
+      "sections": []
+    },
+    "a604ab5b-1029-4de6-8153-a87afdbcc2be": {
+      "record_id": "a604ab5b-1029-4de6-8153-a87afdbcc2be",
+      "revision": 2,
+      "summary": "该研究提出面向光互连模块的集总参数热模型（LPTM），并以其生成的数据训练CNN-LSTM进行瞬态温度预测。对照COMSOL仿真，LPTM对关键部件瞬态温度的平均MAE为0.52 °C、平均RMSE为0.69 °C；CNN-LSTM在COMSOL生成的独立测试集上取得MAE 0.34 °C、RMSE 0.78 °C。上述结果属于仿真验证。",
+      "title_zh": "光互连模块集总热建模与温度预测",
+      "evidence_status": "abstract-only",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://doi.org/10.3390/photonics13111048",
+          "text": "该研究提出面向光互连模块的集总参数热模型（LPTM），并以其生成的数据训练CNN-LSTM进行瞬态温度预测。对照COMSOL仿真，LPTM对关键部件瞬态温度的平均MAE为0.52 °C、平均RMSE为0.69 °C；CNN-LSTM在COMSOL生成的独立测试集上取得MAE 0.34 °C、RMSE 0.78 °C。上述结果属于仿真验证。"
+        }
+      ],
+      "limits": [
+        "未提供全文及硬件实测证据。",
+        "摘要未给出实时预测的推理时延、计算平台及跨工况泛化结果。"
+      ],
+      "inference": [
+        "该方法可为光互连模块的快速热分析和预测式热管理提供研究思路；实际部署效果仍需实测验证。"
+      ],
+      "source_url": "https://doi.org/10.3390/photonics13111048",
+      "sections": []
+    },
+    "8c0245e7-013f-4da7-9496-c221d549f0f6": {
+      "record_id": "8c0245e7-013f-4da7-9496-c221d549f0f6",
+      "revision": 2,
+      "summary": "该实验研究报告了基于PtSe₂/MoSe₂范德华异质结的自供能偏振敏感光探测器，光响应范围为400–1200 nm。角分辨偏振拉曼表征支持异质结层间耦合增强声子振动各向异性。器件自偏置下偏振比约4.3，零偏压响应时间为68/66 µs，5 V偏压下为6/6 µs；自偏置响应度为0.74 mA/W，探测率为4.79 × 10⁹ Jones。",
+      "title_zh": "PtSe₂/MoSe₂异质结实现零偏压偏振敏感光探测",
+      "evidence_status": "abstract-only",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://doi.org/10.1002/adom.72018",
+          "text": "该实验研究报告了基于PtSe₂/MoSe₂范德华异质结的自供能偏振敏感光探测器，光响应范围为400–1200 nm。角分辨偏振拉曼表征支持异质结层间耦合增强声子振动各向异性。器件自偏置下偏振比约4.3，零偏压响应时间为68/66 µs，5 V偏压下为6/6 µs；自偏置响应度为0.74 mA/W，探测率为4.79 × 10⁹ Jones。"
+        }
+      ],
+      "limits": [
+        "全文中的测试条件、响应时间定义及器件重复性数据。",
+        "通信调制带宽、误码率及实际链路验证。"
+      ],
+      "inference": [
+        "偏振与光强联合探测可为紧凑型光通信接收器提供器件研究思路，但需要进一步验证通信带宽及链路性能。"
+      ],
+      "source_url": "https://doi.org/10.1002/adom.72018",
+      "sections": []
+    },
+    "41fb251e-0d19-494c-82e5-8ec7c8769215": {
+      "record_id": "41fb251e-0d19-494c-82e5-8ec7c8769215",
+      "revision": 2,
+      "summary": "该预印本综述光网络数字孪生在传输质量估计、优化和智能运维中的技术体系，覆盖数字相干传输、物理层可观测性及网络运行。作者从生态、功能、控制和实现架构角度组织相关技术，并提出保真度、动态性和可部署性（FDD）分类框架，强调按用途选择建模保真度。综述还考察实验与现场验证，并讨论数字孪生与AI智能体在自主光网络中的互补作用。",
+      "title_zh": "光网络数字孪生：从相干传输到智能运维的综述",
+      "evidence_status": "abstract+pdf-link",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://arxiv.org/abs/2611.08217v1",
+          "text": "该预印本综述光网络数字孪生在传输质量估计、优化和智能运维中的技术体系，覆盖数字相干传输、物理层可观测性及网络运行。作者从生态、功能、控制和实现架构角度组织相关技术，并提出保真度、动态性和可部署性（FDD）分类框架，强调按用途选择建模保真度。综述还考察实验与现场验证，并讨论数字孪生与AI智能体在自主光网络中的互补作用。"
+        }
+      ],
+      "limits": [
+        "未提供正文，无法核查综述覆盖范围、实验与现场案例细节，以及FDD框架的具体评价方法。"
+      ],
+      "inference": [
+        "可借鉴FDD框架评估光网络数字孪生方案，在物理效应建模、状态同步与部署成本之间确定适合具体任务的取舍。"
+      ],
+      "source_url": "https://arxiv.org/abs/2611.08217v1",
+      "sections": []
+    },
     "78f0d234-9a1d-47f3-b568-ceaa80b7d01a": {
       "record_id": "78f0d234-9a1d-47f3-b568-ceaa80b7d01a",
       "revision": 2,

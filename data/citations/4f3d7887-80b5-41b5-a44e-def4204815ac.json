@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "4f3d7887-80b5-41b5-a44e-def4204815ac",
-  "root": "doi:10.1364/ol.615138",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7221055368",
+  "status": "ok",
+  "checked_at": "2026-11-07T00:51:04.353614+00:00",
+  "coverage": {
+    "references_found": 12,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 12,
+    "displayed": 12
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ol.615138",
+      "id": "W7221055368",
       "doi": "10.1364/ol.615138",
       "title": "Matched-delay local oscillator enabling single-ended vibration localization with a 3-MHz-linewidth DFB laser in ISAC",
       "authors": [
@@ -26,20 +36,858 @@
         "Zhixue He",
         "Lei Wang"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Letters",
       "venue_abbr": "OL",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "distributed feedback lasers",
+        "line width",
+        "integrated sensing and communication",
+        "fiber optic sensing",
+        "vibration sensing",
+        "optical time-division multiplexing"
+      ],
       "url": "https://doi.org/10.1364/ol.615138",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/4f3d7887-80b5-41b5-a44e-def4204815ac.html",
       "summary": "论文摘要报告一种发射端匹配延迟本振，通过匹配感知链路长度及移频分量间的延迟路径，利用自相干检测容忍激光相位噪声。作者报告使用3 MHz线宽DFB激光器检测低至10 Hz的振动，并在25.2 km弱耦合四芯光纤上演示单端分布式振动定位。感知载波同时作为自相干通信本振，在其余三芯实现3 × 448 Gb/s净速率传输。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W7137859339",
+      "doi": "10.1364/prj.585991",
+      "title": "Integrated communication and sensing system using a 7.6 MHz linewidth DFB laser with balanced delay self-coherent detection",
+      "authors": [
+        "Yaguang Hao",
+        "Xueyang Li",
+        "Quanxin Na",
+        "Dongwei Zhuang",
+        "Chen Cheng",
+        "Yanfu Yang",
+        "Weisheng Hu",
+        "Zhixue He",
+        "Lei Wang"
+      ],
+      "year": 2026,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "distributed vibration sensing",
+        "self-coherent detection",
+        "distributed feedback lasers",
+        "DP-16QAM",
+        "multicore fiber",
+        "coherent optical transceivers",
+        "optical fiber communication"
+      ],
+      "url": "https://doi.org/10.1364/prj.585991",
+      "cited_by_count": 1,
+      "importance": 0.6636,
+      "score_basis": {
+        "topic_overlap": 0.475,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7155360926",
+      "doi": "10.1364/ol.596189",
+      "title": "Vibration detection based on DSP frame pilot symbols using integrated coherent receivers",
+      "authors": [
+        "Hao Zhou",
+        "Wen Zuo",
+        "Fan Yang",
+        "Zekai Li",
+        "Baoxuan Quan",
+        "Yutao Zhou",
+        "Du Tang",
+        "Hengying Xu",
+        "Chenglin Bai",
+        "Yaojun Qiao"
+      ],
+      "year": 2026,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "vibration sensing",
+        "pilot symbols",
+        "implementation agreement",
+        "carrier phase recovery",
+        "external cavity laser",
+        "phase noise reduction",
+        "DP-16QAM",
+        "intelligent optical networks",
+        "integrated sensing"
+      ],
+      "url": "https://doi.org/10.1364/ol.596189",
+      "cited_by_count": 1,
+      "importance": 0.5304,
+      "score_basis": {
+        "topic_overlap": 0.29,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7131636338",
+      "doi": "10.1364/prj.585704",
+      "title": "Integrated sensing and communication system exceeding a 200 km repeaterless fiber link",
+      "authors": [
+        "Guo Zhu",
+        "Xiang Cai",
+        "Fei Liu",
+        "Xu Yang",
+        "Perry Ping Shum",
+        "Fan Zhang",
+        "Xian Zhou"
+      ],
+      "year": 2026,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "fiber optic sensing",
+        "distributed vibration sensing",
+        "residual carrier",
+        "vibration localization",
+        "probabilistic shaping",
+        "64-QAM",
+        "wavelength division multiplexing",
+        "high-speed optical transmission"
+      ],
+      "url": "https://doi.org/10.1364/prj.585704",
+      "cited_by_count": 1,
+      "importance": 0.5263,
+      "score_basis": {
+        "topic_overlap": 0.392,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4200584357",
+      "doi": "10.1109/jlt.2021.3137768",
+      "title": "Vibration Detection and Localization Using Modified Digital Coherent Telecom Transponders",
+      "authors": [
+        "Ezra Ip",
+        "Yue-Kai Huang",
+        "Glenn A. Wellbrock",
+        "Tiejun J. Xia",
+        "Ming-Fang Huang",
+        "Ting Wang",
+        "Yoshiaki Aono"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "vibration sensing",
+        "vibration localization",
+        "coherent optical receivers",
+        "DP-16QAM",
+        "fiber optic sensing",
+        "field trials"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3137768",
+      "cited_by_count": 124,
+      "importance": 0.4945,
+      "score_basis": {
+        "topic_overlap": 0.321,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417177204",
+      "doi": "10.1364/prj.576822",
+      "title": "Frequency-modulated continuous wave-enabled single-ended forward sensing over all-passive fiber links for integrated sensing and communications",
+      "authors": [
+        "Yi Zou",
+        "Chenbo Zhang",
+        "Jiachuan Yang",
+        "Zhangyuan Chen",
+        "Xiaopeng Xie"
+      ],
+      "year": 2025,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed acoustic sensing",
+        "integrated sensing and communication",
+        "frequency modulated continuous wave",
+        "vibration sensing",
+        "sound localization",
+        "coherent transceivers",
+        "optical fiber communication",
+        "16-QAM",
+        "signal-to-noise ratio penalty"
+      ],
+      "url": "https://doi.org/10.1364/prj.576822",
+      "cited_by_count": 1,
+      "importance": 0.461,
+      "score_basis": {
+        "topic_overlap": 0.358,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412722582",
+      "doi": "10.1109/jlt.2025.3593142",
+      "title": "Demonstration of High Sensitivity Detection and High Precision Localization of Vibrations in Bidirectional Coherent Transmission Systems Enabled by Carrier Laser Phase Noise Retrieval",
+      "authors": [
+        "Yixiang Hu",
+        "Kaibo Zhang",
+        "Mohammad E. Mousa-Pasandi",
+        "R. Gutiérrez-Castrejón",
+        "Maurice S. O'Sullivan",
+        "Fanqi Kong",
+        "Brandon Buscaino",
+        "Jinsong Zhang",
+        "Santiago Bernal",
+        "Charles St-Arnault",
+        "David V. Plant"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "laser phase noise",
+        "vibration sensing",
+        "vibration localization",
+        "coherent optical fiber transmission",
+        "16-QAM",
+        "fiber optic sensing"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3593142",
+      "cited_by_count": 10,
+      "importance": 0.4533,
+      "score_basis": {
+        "topic_overlap": 0.207,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4294982636",
+      "doi": "10.1109/jproc.2022.3199742",
+      "title": "Using Global Existing Fiber Networks for Environmental Sensing",
+      "authors": [
+        "Ezra Ip",
+        "Fabien Ravet",
+        "Hugo Fidalgo Martins",
+        "Ming-Fang Huang",
+        "Tatsuya Okamoto",
+        "Shaobo Han",
+        "Chaitnaya Narisetty",
+        "Jian Fang",
+        "Yue-Kai Huang",
+        "Milad Salemi",
+        "Etienne Rochat",
+        "Fabien Briffod",
+        "Alexandre Goy",
+        "Maria Rosario Fernandez-Ruiz",
+        "Miguel González‐Herráez"
+      ],
+      "year": 2022,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "distributed fiber optic sensing",
+        "environmental sensing",
+        "Rayleigh scattering",
+        "Brillouin scattering",
+        "Raman scattering",
+        "strain and temperature measurement",
+        "geohazard monitoring",
+        "seismic monitoring",
+        "traffic monitoring",
+        "infrastructure health monitoring",
+        "machine learning",
+        "smart cities"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2022.3199742",
+      "cited_by_count": 98,
+      "importance": 0.4494,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3110731625",
+      "doi": "10.1109/jlt.2020.3044676",
+      "title": "Forward Transmission Based Ultra-Long Distributed Vibration Sensing With Wide Frequency Response",
+      "authors": [
+        "Yaxi Yan",
+        "Faisal Nadeem Khan",
+        "Bin Zhou",
+        "Alan Pak Tao Lau",
+        "Chao Lü",
+        "Changjian Guo"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "distributed vibration sensing",
+        "coherent detection",
+        "acousto-optic modulator",
+        "vibration localization",
+        "phase fluctuations",
+        "long-haul fiber links",
+        "erbium-doped fiber amplifier"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.3044676",
+      "cited_by_count": 86,
+      "importance": 0.444,
+      "score_basis": {
+        "topic_overlap": 0.32,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7129604842",
+      "doi": "10.1364/jocn.585523",
+      "title": "Leveraging deployed telecom cables for distributed fiber sensing topologies and applications",
+      "authors": [
+        "Scott Kotrla",
+        "Ming-Fang Huang",
+        "Jian Fang",
+        "Shaobo Han",
+        "Jamie lynn",
+        "Ezra Ip",
+        "Jeffrey A Mundt",
+        "Ting Wang"
+      ],
+      "year": 2026,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "distributed fiber optic sensing",
+        "hybrid sensing",
+        "DWDM networks",
+        "cable damage detection",
+        "intrusion detection",
+        "pavement condition assessment",
+        "road traffic monitoring",
+        "anomaly detection",
+        "self-supervised representation learning",
+        "infrastructure monitoring",
+        "network operation"
+      ],
+      "url": "https://doi.org/10.1364/jocn.585523",
+      "cited_by_count": 2,
+      "importance": 0.4267,
+      "score_basis": {
+        "topic_overlap": 0.281,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386083252",
+      "doi": "10.1109/lpt.2023.3307452",
+      "title": "Investigation of Co-Cable Identification Based on Ultrasonic Sensing in Coherent Systems",
+      "authors": [
+        "Wen Zuo",
+        "Hao Zhou",
+        "Yaojun Qiao",
+        "Yan Kun Zhao",
+        "Bing Ye"
+      ],
+      "year": 2023,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical receivers",
+        "telecommunications networks",
+        "carrier phase estimation",
+        "frequency offset estimation",
+        "phase compensation",
+        "vibration characteristics"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2023.3307452",
+      "cited_by_count": 25,
+      "importance": 0.4086,
+      "score_basis": {
+        "topic_overlap": 0.264,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4298007713",
+      "doi": "10.1186/s43074-022-00067-z",
+      "title": "Frequency-swept feedback interferometry for noncooperative-target ranging with a stand-off distance of several hundred meters",
+      "authors": [
+        "Yifan Wang",
+        "Xin Guang Xu",
+        "Zongren Dai",
+        "Ziyu Hua",
+        "Chenxiao Lin",
+        "Yubin Hou",
+        "Qian Zhang",
+        "Pu Perry Wang",
+        "Y. X. Tan"
+      ],
+      "year": 2022,
+      "venue": "Photonix",
+      "venue_abbr": "Photonix",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "signal-to-noise ratio improvement",
+        "moving target tracking",
+        "weak echo detection"
+      ],
+      "url": "https://doi.org/10.1186/s43074-022-00067-z",
+      "cited_by_count": 75,
+      "importance": 0.2786,
+      "score_basis": {
+        "topic_overlap": 0.13,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7160763801",
+      "doi": "10.1002/lpor.71267",
+      "title": "Artificial Intelligence Reshapes Microwave Photonics",
+      "authors": [
+        "Peng Li",
+        "Xihua Zou",
+        "Jia Ye",
+        "Wei Pan",
+        "Lianshan Yan"
+      ],
+      "year": 2026,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "microwave photonics",
+        "artificial intelligence",
+        "photonic analog-to-digital converter",
+        "terahertz signals",
+        "millimeter-wave signals",
+        "artificial intelligence in science",
+        "autonomous operation"
+      ],
+      "url": "https://doi.org/10.1002/lpor.71267",
+      "cited_by_count": 3,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W4200584357",
+      "to": "W3110731625",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200584357"
+        }
+      ]
+    },
+    {
+      "from": "W4294982636",
+      "to": "W3110731625",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294982636"
+        }
+      ]
+    },
+    {
+      "from": "W4294982636",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4294982636"
+        }
+      ]
+    },
+    {
+      "from": "W4386083252",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386083252"
+        }
+      ]
+    },
+    {
+      "from": "W4412722582",
+      "to": "W3110731625",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412722582"
+        }
+      ]
+    },
+    {
+      "from": "W4412722582",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412722582"
+        }
+      ]
+    },
+    {
+      "from": "W4417177204",
+      "to": "W3110731625",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417177204"
+        }
+      ]
+    },
+    {
+      "from": "W4417177204",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417177204"
+        }
+      ]
+    },
+    {
+      "from": "W7129604842",
+      "to": "W3110731625",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7129604842"
+        }
+      ]
+    },
+    {
+      "from": "W7129604842",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7129604842"
+        }
+      ]
+    },
+    {
+      "from": "W7131636338",
+      "to": "W3110731625",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7131636338"
+        }
+      ]
+    },
+    {
+      "from": "W7131636338",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7131636338"
+        }
+      ]
+    },
+    {
+      "from": "W7131636338",
+      "to": "W4412722582",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7131636338"
+        }
+      ]
+    },
+    {
+      "from": "W7137859339",
+      "to": "W3110731625",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7137859339"
+        }
+      ]
+    },
+    {
+      "from": "W7137859339",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7137859339"
+        }
+      ]
+    },
+    {
+      "from": "W7137859339",
+      "to": "W4298007713",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7137859339"
+        }
+      ]
+    },
+    {
+      "from": "W7137859339",
+      "to": "W4386083252",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7137859339"
+        }
+      ]
+    },
+    {
+      "from": "W7137859339",
+      "to": "W4412722582",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7137859339"
+        }
+      ]
+    },
+    {
+      "from": "W7155360926",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7155360926"
+        }
+      ]
+    },
+    {
+      "from": "W7155360926",
+      "to": "W4294982636",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7155360926"
+        }
+      ]
+    },
+    {
+      "from": "W7155360926",
+      "to": "W4386083252",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7155360926"
+        }
+      ]
+    },
+    {
+      "from": "W7155360926",
+      "to": "W4412722582",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7155360926"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W3110731625",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W4200584357",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W4294982636",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W4298007713",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W4386083252",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W4412722582",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W4417177204",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W7129604842",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W7131636338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W7137859339",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W7155360926",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    },
+    {
+      "from": "W7221055368",
+      "to": "W7160763801",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221055368"
+        }
+      ]
+    }
+  ]
 }

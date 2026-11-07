@@ -1,15 +1,26 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "9850f433-11f5-43da-993c-a695318aaee2",
-  "root": "doi:10.1103/szts-rbjy",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7135083026",
+  "status": "ok",
+  "checked_at": "2026-11-07T00:50:57.269730+00:00",
+  "coverage": {
+    "references_found": 0,
+    "citing_found": 1,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "references_without_doi": 0,
+    "candidates_resolved": 1,
+    "displayed": 1
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1103/szts-rbjy",
+      "id": "W7135083026",
       "doi": "10.1103/szts-rbjy",
       "title": "High fidelity photon-photon gates by scattering off a two-level quantum emitter",
       "authors": [
@@ -18,20 +29,83 @@
         "Klaus Mølmer",
         "Anders S. Sørensen"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Physical Review Letters",
       "venue_abbr": "Physical Review Letters",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "two-level quantum emitters",
+        "nonlinear phase shift",
+        "chiral waveguide",
+        "second-order dispersion",
+        "harmonic trap",
+        "Bell state measurement",
+        "photonic qubits",
+        "photonic quantum computing",
+        "quantum communication",
+        "high-fidelity quantum gates"
+      ],
       "url": "https://doi.org/10.1103/szts-rbjy",
-      "cited_by_count": null,
+      "cited_by_count": 1,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/9850f433-11f5-43da-993c-a695318aaee2.html",
       "summary": "该研究提出让光子在手性或单侧波导中与同一个二能级量子发射体重复散射，以实现非线性相移。波导中的二阶色散和时间相位调制形成有效谐振势阱，将光子脉冲约束为高斯形状。作者通过数值优化分析受控Z门和确定性贝尔态分析器：散射17次时，门保真度约99.2%、贝尔态测量成功概率约99.6%；散射5次时，两者分别约96%和98%。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W7104013246",
+      "doi": "10.1063/5.0264750",
+      "title": "Routing single photons with quantum emitters coupled to nanostructures",
+      "authors": [
+        "Mateusz Duda",
+        "Nicholas J. Martin",
+        "Eve O. Mills",
+        "Luke R. Wilson",
+        "Pieter Kok"
+      ],
+      "year": 2026,
+      "venue": "Applied Physics Reviews",
+      "venue_abbr": "Applied Physics Reviews",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-photon routing",
+        "single-photon switch",
+        "quantum emitters",
+        "photonic nanostructures",
+        "light-matter interaction",
+        "quantum networks",
+        "reconfigurable photonic circuits",
+        "semiconductor quantum dots",
+        "neutral atoms",
+        "superconducting qubits",
+        "color centers"
+      ],
+      "url": "https://doi.org/10.1063/5.0264750",
+      "cited_by_count": 0,
+      "importance": 0.3361,
+      "score_basis": {
+        "topic_overlap": 0.302,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "citing",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W7104013246",
+      "to": "W7135083026",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7104013246"
+        }
+      ]
+    }
+  ]
 }

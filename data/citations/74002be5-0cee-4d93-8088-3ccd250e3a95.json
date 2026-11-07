@@ -1,41 +1,2060 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "74002be5-0cee-4d93-8088-3ccd250e3a95",
-  "root": "doi:10.1002/lpor.72135",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7224509212",
+  "status": "ok",
+  "checked_at": "2026-11-07T00:50:50.618251+00:00",
+  "coverage": {
+    "references_found": 33,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 33,
+    "displayed": 33
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1002/lpor.72135",
+      "id": "W7224509212",
       "doi": "10.1002/lpor.72135",
       "title": "Cascaded Rotating Metasurfaces for Dynamic Beam Steering",
       "authors": [
         "Tianhao Li",
-        "Xiao Jin",
+        "Jin Jie Xiao",
         "Xue Zhang",
-        "Shifei Zhang",
+        "张时飞 Zhang Shifei",
         "Mubashra Ayub",
         "Yongtian Wang",
         "Thomas Zentgraf",
         "Lingling Huang"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Laser & Photonics Reviews",
       "venue_abbr": "LPR",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "cascaded metasurfaces",
+        "dynamic beam steering",
+        "continuous beam scanning",
+        "Dammann grating",
+        "LiDAR",
+        "free-space optical communication",
+        "optical sensing"
+      ],
       "url": "https://doi.org/10.1002/lpor.72135",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/74002be5-0cee-4d93-8088-3ccd250e3a95.html",
       "summary": "研究提出并演示了由两片独立旋转超表面级联构成的光束转向器件，通过相对旋转动态调节输出光束方向。摘要报告了数值模拟及采用离散扫描技术对花瓣形连续扫描轨迹的实验验证，并称结合梯度相位设计与达曼光栅轮廓可扩大扫描范围、增加可寻址光束位置。作者将自由空间光通信列为潜在应用。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4381325878",
+      "doi": "10.1002/advs.202300542",
+      "title": "Highly Tunable Cascaded Metasurfaces for Continuous Two‐Dimensional Beam Steering",
+      "authors": [
+        "Lingyun Zhang",
+        "Li Zhang",
+        "Rongbo Xie",
+        "Yibo Ni",
+        "Xiaoyu Wu",
+        "Yuanmu Yang",
+        "Fei Xing",
+        "Xiaoguang Zhao",
+        "Zheng You"
+      ],
+      "year": 2023,
+      "venue": "Advanced Science",
+      "venue_abbr": "Advanced Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cascaded metasurfaces",
+        "two-dimensional beam steering",
+        "tunable metasurfaces",
+        "ray tracing",
+        "lateral translation",
+        "LiDAR",
+        "free-space optical communication",
+        "optical efficiency"
+      ],
+      "url": "https://doi.org/10.1002/advs.202300542",
+      "cited_by_count": 63,
+      "importance": 0.6847,
+      "score_basis": {
+        "topic_overlap": 0.477,
+        "shared_references": 8,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390965787",
+      "doi": "10.1002/lpor.202300887",
+      "title": "Switchable Diffraction Pattern Based on Cascaded Metasurfaces",
+      "authors": [
+        "Xue Zhang",
+        "Tianhao Li",
+        "Hongqiang Zhou",
+        "Yao Li",
+        "Junjie Li",
+        "Xiaowei Li",
+        "Yongtian Wang",
+        "Lingling Huang"
+      ],
+      "year": 2024,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cascaded metasurfaces",
+        "optical scanning",
+        "Dammann grating",
+        "spatial light distribution",
+        "intensity distribution",
+        "laser detection",
+        "metasurface optimization"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202300887",
+      "cited_by_count": 26,
+      "importance": 0.6112,
+      "score_basis": {
+        "topic_overlap": 0.358,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4318196243",
+      "doi": "10.1021/acsphotonics.2c01539",
+      "title": "Recent Advances and Prospects of Optical Metasurfaces",
+      "authors": [
+        "Shifei Zhang",
+        "Hongyin Zhou",
+        "Bingyi Liu",
+        "Zhaoxian Su",
+        "Lingling Huang"
+      ],
+      "year": 2023,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical metasurfaces",
+        "wavefront engineering",
+        "holographic multiplexing",
+        "intelligent algorithms",
+        "metasurface fabrication"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.2c01539",
+      "cited_by_count": 44,
+      "importance": 0.4863,
+      "score_basis": {
+        "topic_overlap": 0.258,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4220771742",
+      "doi": "10.1117/1.ap.4.2.024001",
+      "title": "Tunable metasurfaces towards versatile metalenses and metaholograms: a review",
+      "authors": [
+        "Jae‐Kyung Kim",
+        "Junhwa Seong",
+        "Younghwan Yang",
+        "Seong‐Won Moon",
+        "Trevon Badloe",
+        "Junsuk Rho"
+      ],
+      "year": 2022,
+      "venue": "Advanced Photonics",
+      "venue_abbr": "Adv. Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "tunable metasurfaces",
+        "metalenses",
+        "mechanical modulation",
+        "electrical bias",
+        "temperature modulation",
+        "light source modulation"
+      ],
+      "url": "https://doi.org/10.1117/1.ap.4.2.024001",
+      "cited_by_count": 258,
+      "importance": 0.4854,
+      "score_basis": {
+        "topic_overlap": 0.257,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4292116811",
+      "doi": "10.1126/sciadv.abo1511",
+      "title": "Moiré metasurfaces for dynamic beamforming",
+      "authors": [
+        "Shuo Liu",
+        "Shaojie Ma",
+        "Ruiwen Shao",
+        "Lei Zhang",
+        "Tao Yan",
+        "Qian Ma",
+        "Shuang Zhang",
+        "Tie Jun Cui"
+      ],
+      "year": 2022,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "dynamic beamforming",
+        "reconfigurable intelligent surface",
+        "millimeter wave",
+        "beam steering",
+        "far-field scattering",
+        "metallic metasurfaces",
+        "twist angle control"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.abo1511",
+      "cited_by_count": 109,
+      "importance": 0.4853,
+      "score_basis": {
+        "topic_overlap": 0.323,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3183648820",
+      "doi": "10.1364/oe.431112",
+      "title": "Reinforced design method for moiré metalens with large spacing",
+      "authors": [
+        "Yongyue Qian",
+        "Bin Hu",
+        "Zhiyuan Du",
+        "Juan Liu"
+      ],
+      "year": 2021,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "diffraction optics",
+        "focusing efficiency",
+        "reconfigurable metasurface",
+        "aberration correction"
+      ],
+      "url": "https://doi.org/10.1364/oe.431112",
+      "cited_by_count": 18,
+      "importance": 0.445,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4214749828",
+      "doi": "10.1002/adom.202102166",
+      "title": "Rotational Multiplexing Method Based on Cascaded Metasurface Holography",
+      "authors": [
+        "Qunshuo Wei",
+        "Lingling Huang",
+        "Rongxuan Zhao",
+        "Guangzhou Geng",
+        "Junjie Li",
+        "Xiaowei Li",
+        "Yongtian Wang"
+      ],
+      "year": 2022,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cascaded metasurfaces",
+        "metasurface holography",
+        "in-plane rotation",
+        "degrees of freedom",
+        "phase profile optimization",
+        "machine learning",
+        "optical encryption",
+        "dynamic displays",
+        "data storage"
+      ],
+      "url": "https://doi.org/10.1002/adom.202102166",
+      "cited_by_count": 92,
+      "importance": 0.4416,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3082240928",
+      "doi": "10.1364/oe.402691",
+      "title": "Tunable beam splitter using bilayer geometric metasurfaces in the visible spectrum",
+      "authors": [
+        "Chang Wang",
+        "Siqi Liu",
+        "Yan Hui Sun",
+        "Xiao Tao",
+        "Peng Sun",
+        "Jinlei Zhang",
+        "Chenning Tao",
+        "Rengmao Wu",
+        "Fei Wu",
+        "Zhenrong Zheng"
+      ],
+      "year": 2020,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "tunable beam splitter",
+        "bilayer metasurface",
+        "Alvarez lens",
+        "polarization beam splitting",
+        "circular polarization",
+        "visible spectrum",
+        "wavefront control"
+      ],
+      "url": "https://doi.org/10.1364/oe.402691",
+      "cited_by_count": 18,
+      "importance": 0.4152,
+      "score_basis": {
+        "topic_overlap": 0.278,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2121607567",
+      "doi": "10.1126/science.1210713",
+      "title": "Light Propagation with Phase Discontinuities: Generalized Laws of Reflection and Refraction",
+      "authors": [
+        "Nanfang Yu",
+        "Patrice Genevet",
+        "Mikhail A. Kats",
+        "Francesco Aieta",
+        "Jean‐Philippe Tetienne",
+        "Federico Capasso",
+        "Z. Gaburro"
+      ],
+      "year": 2011,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase discontinuity",
+        "anomalous reflection",
+        "anomalous refraction",
+        "Fermat's principle",
+        "silicon",
+        "optical vortices",
+        "beam shaping"
+      ],
+      "url": "https://doi.org/10.1126/science.1210713",
+      "cited_by_count": 10293,
+      "importance": 0.4148,
+      "score_basis": {
+        "topic_overlap": 0.255,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3217777747",
+      "doi": "10.1364/oe.446018",
+      "title": "Generalized phase profile design method for tunable devices using bilayer metasurfaces",
+      "authors": [
+        "Xiaoyu Che",
+        "Rui Lin Gao",
+        "Yefeng Yu",
+        "Weijian Liu",
+        "Yifeng Sun",
+        "Dan Zhu",
+        "Wenyou Qiao",
+        "Lingjie Wang",
+        "Jianping Zhang",
+        "Qun Xing Yuan",
+        "Zhishan Gao"
+      ],
+      "year": 2021,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "bilayer metasurface",
+        "tunable devices",
+        "tunable beam splitter"
+      ],
+      "url": "https://doi.org/10.1364/oe.446018",
+      "cited_by_count": 19,
+      "importance": 0.3984,
+      "score_basis": {
+        "topic_overlap": 0.285,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4309708505",
+      "doi": "10.3390/app122211780",
+      "title": "Two-Dimensional Beam Steering Based on Compact Programmable Coding Metasurface",
+      "authors": [
+        "Fei Yang",
+        "Fan Xu",
+        "Chenxi Liu",
+        "Xinyu Yang",
+        "Ziqiang Wang",
+        "Jun Wu",
+        "Xiaojian Fu"
+      ],
+      "year": 2022,
+      "venue": "Applied Sciences",
+      "venue_abbr": "Appl. Sci.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "beam steering",
+        "PIN diodes",
+        "Ka-band",
+        "meta-atoms",
+        "two-dimensional beam scanning",
+        "millimeter-wave antennas"
+      ],
+      "url": "https://doi.org/10.3390/app122211780",
+      "cited_by_count": 16,
+      "importance": 0.3853,
+      "score_basis": {
+        "topic_overlap": 0.301,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3023771459",
+      "doi": "10.1002/adom.202000142",
+      "title": "Compact Optical Polarization‐Insensitive Zoom Metalens Doublet",
+      "authors": [
+        "Yunxuan Wei",
+        "Yuxi Wang",
+        "Xing Feng",
+        "Shunyuan Xiao",
+        "Zhaokun Wang",
+        "Tie Hu",
+        "Manchen Hu",
+        "Jinwen Song",
+        "Martin Wegener",
+        "Ming Zhao",
+        "Jinsong Xia",
+        "Zhenyu Yang"
+      ],
+      "year": 2020,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "metalenses",
+        "focal length tuning",
+        "zoom factor",
+        "focusing efficiency",
+        "1550 nm"
+      ],
+      "url": "https://doi.org/10.1002/adom.202000142",
+      "cited_by_count": 99,
+      "importance": 0.385,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411612983",
+      "doi": "10.1002/lpor.202500923",
+      "title": "Modular Diffractive Neural Networks Using Cascaded Metasurfaces",
+      "authors": [
+        "Guannan Wang",
+        "Xiaofei Zang",
+        "Zhiyu Tan",
+        "Teng Zhang",
+        "Zhe Gao",
+        "Yuanbo Wang",
+        "Deng Zhang",
+        "Alexander P. Shkurinov",
+        "Yiming Zhu",
+        "Songlin Zhuang"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "diffractive neural networks",
+        "cascaded metasurfaces",
+        "handwritten digit recognition",
+        "optical imaging",
+        "optical encryption",
+        "optical information security"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202500923",
+      "cited_by_count": 17,
+      "importance": 0.375,
+      "score_basis": {
+        "topic_overlap": 0.167,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3154406446",
+      "doi": "10.1126/sciadv.abf9718",
+      "title": "Optical secret sharing with cascaded metasurface holography",
+      "authors": [
+        "Philip Georgi",
+        "Qunshuo Wei",
+        "Basudeb Sain",
+        "Christian Schlickriede",
+        "Yongtian Wang",
+        "Lingling Huang",
+        "Thomas Zentgraf"
+      ],
+      "year": 2021,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "metasurface holography",
+        "cascaded metasurfaces",
+        "holographic encryption",
+        "phase accumulation",
+        "spatial multiplexing",
+        "alignment sensitivity"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.abf9718",
+      "cited_by_count": 350,
+      "importance": 0.3742,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4229019726",
+      "doi": "10.1021/acs.nanolett.2c00486",
+      "title": "RGB Achromatic Metalens Doublet for Digital Imaging",
+      "authors": [
+        "Weibin Feng",
+        "Jianchao Zhang",
+        "Qinfei Wu",
+        "Augusto Martins",
+        "Qian Sun",
+        "Zhihao Liu",
+        "Yong Long",
+        "Emiliano Rezende Martins",
+        "Juntao Li",
+        "Haowen Liang"
+      ],
+      "year": 2022,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "achromatic metalens",
+        "chromatic aberration",
+        "numerical aperture",
+        "digital imaging",
+        "metasurfaces",
+        "digital projector",
+        "virtual reality glasses"
+      ],
+      "url": "https://doi.org/10.1021/acs.nanolett.2c00486",
+      "cited_by_count": 97,
+      "importance": 0.3651,
+      "score_basis": {
+        "topic_overlap": 0.256,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4296917363",
+      "doi": "10.1364/prj.470537",
+      "title": "Quantum metasurface holography",
+      "authors": [
+        "Jia-Zhi Yang",
+        "Rongxuan Zhao",
+        "Zhe Meng",
+        "Jian Li",
+        "Qingyuan Wu",
+        "Lingling Huang",
+        "An‐Ning Zhang"
+      ],
+      "year": 2022,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "metasurface holography",
+        "quantum light sources",
+        "single-photon sources",
+        "polarization multiplexing",
+        "quantum optics",
+        "quantum devices"
+      ],
+      "url": "https://doi.org/10.1364/prj.470537",
+      "cited_by_count": 33,
+      "importance": 0.355,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391930996",
+      "doi": "10.1002/adma.202312303",
+      "title": "Multi‐Dimensional Multiplexed Metasurface Holography by Inverse Design",
+      "authors": [
+        "Yongyao Yin",
+        "Qiang Jiang",
+        "Hongbo Wang",
+        "Jianghong Liu",
+        "Yiyang Xie",
+        "Qiuhua Wang",
+        "Yongtian Wang",
+        "Lingling Huang"
+      ],
+      "year": 2024,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "metasurface holography",
+        "inverse design",
+        "multi-wavelength holography",
+        "meta-atoms",
+        "holographic data storage",
+        "holographic encryption",
+        "Jones matrix"
+      ],
+      "url": "https://doi.org/10.1002/adma.202312303",
+      "cited_by_count": 197,
+      "importance": 0.355,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411640077",
+      "doi": "10.1109/jlt.2025.3583344",
+      "title": "Dual-Parameter Encoded Orbital Angular Momentum Mode Multiplexing Holography Using Rotatable Diffractive Neural Networks",
+      "authors": [
+        "Junmin Liu",
+        "Zeming Liang",
+        "Jiafu Chen",
+        "Qingji Zeng",
+        "Chunxiang Zhang",
+        "Huapeng Ye",
+        "Jun Liu",
+        "Shixiang Xu",
+        "Dianyuan Fan",
+        "Shuqing Chen"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "orbital angular momentum",
+        "image encryption",
+        "optical multiplexing"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3583344",
+      "cited_by_count": 6,
+      "importance": 0.355,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385317987",
+      "doi": "10.29026/oea.2024.230005",
+      "title": "Pluggable multitask diffractive neural networks based on cascaded metasurfaces",
+      "authors": [
+        "Cong He",
+        "Dan Zhao",
+        "Fei Fan",
+        "Hongqiang Zhou",
+        "Xin Li",
+        "Yao Li",
+        "Junjie Li",
+        "Fei Dong",
+        "Yin-Xiao Miao",
+        "Yongtian Wang",
+        "Lingling Huang"
+      ],
+      "year": 2023,
+      "venue": "Opto-Electronic Advances",
+      "venue_abbr": "OEA",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical neural networks",
+        "diffractive neural networks",
+        "cascaded metasurfaces",
+        "handwritten digit recognition",
+        "near-infrared",
+        "energy-efficient computing"
+      ],
+      "url": "https://doi.org/10.29026/oea.2024.230005",
+      "cited_by_count": 124,
+      "importance": 0.3434,
+      "score_basis": {
+        "topic_overlap": 0.163,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2531272002",
+      "doi": "10.1038/srep35439",
+      "title": "Electronically-Controlled Beam-Steering through Vanadium Dioxide Metasurfaces",
+      "authors": [
+        "Mohammed Reza M. Hashemi",
+        "Shang‐Hua Yang",
+        "Tongyu Wang",
+        "Nelson Sepúlveda",
+        "Mona Jarrahi"
+      ],
+      "year": 2016,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "beam steering",
+        "metasurfaces",
+        "vanadium dioxide",
+        "phase change materials",
+        "reconfigurable metasurface",
+        "millimeter wave",
+        "far-infrared",
+        "100 GHz"
+      ],
+      "url": "https://doi.org/10.1038/srep35439",
+      "cited_by_count": 220,
+      "importance": 0.3333,
+      "score_basis": {
+        "topic_overlap": 0.296,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410106164",
+      "doi": "10.1364/optica.546883",
+      "title": "Flat, wide field-of-view imaging polarimeter",
+      "authors": [
+        "Lisa Shi Yun Li",
+        "Jaewon Oh",
+        "Harris R. Miller",
+        "Federico Capasso",
+        "Noah A. Rubin"
+      ],
+      "year": 2025,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "imaging polarimetry",
+        "Stokes vector",
+        "metasurfaces",
+        "wide field of view",
+        "polarization analysis",
+        "polarimeter calibration",
+        "remote sensing",
+        "visible and near-infrared imaging"
+      ],
+      "url": "https://doi.org/10.1364/optica.546883",
+      "cited_by_count": 19,
+      "importance": 0.3239,
+      "score_basis": {
+        "topic_overlap": 0.275,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392199370",
+      "doi": "10.1021/acsphotonics.3c00457",
+      "title": "Roadmap for Optical Metasurfaces",
+      "authors": [
+        "Arseniy I. Kuznetsov",
+        "Mark L. Brongersma",
+        "Jin Li Yao",
+        "Mu Ku Chen",
+        "Uriel Levy",
+        "Din Ping Tsai",
+        "Nikolay I. Zheludev",
+        "Andrei Faraon",
+        "Amir Arbabi",
+        "Nanfang Yu",
+        "Debashis Chanda",
+        "Kenneth B. Crozier",
+        "Alexander V. Kildishev",
+        "Hao Wang",
+        "Joel K. W. Yang",
+        "Jason Valentine",
+        "Patrice Genevet",
+        "Jonathan A. Fan",
+        "Owen D. Miller",
+        "Arka Majumdar",
+        "Johannes E. Fröch",
+        "David J. Brady",
+        "Felix Heide",
+        "Ashok Veeraraghavan",
+        "Nader Engheta",
+        "Andrea Alù",
+        "Albert Polman",
+        "Harry A. Atwater",
+        "Prachi Thureja",
+        "Ramón J. Paniagua-Domínguez",
+        "Son Tung Ha",
+        "Angela I. Barreda",
+        "Jon A. Schuller",
+        "Isabelle Staude",
+        "Gustavo Grinblat",
+        "Yuri S. Kivshar",
+        "Samuel Peana",
+        "Susanne F. Yelin",
+        "Alexander V. Senichev",
+        "Vladimir M. Shalaev",
+        "Soham Saha",
+        "Alexandra E. Boltasseva",
+        "Junsuk Rho",
+        "Dong Kyo Oh",
+        "Joohoon Kim",
+        "Junghyun Park",
+        "Robert Charles Devlin",
+        "Ragip A. Pala"
+      ],
+      "year": 2024,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical metasurfaces",
+        "metasurface design",
+        "beam shaping",
+        "holography",
+        "polarimetry",
+        "computational imaging",
+        "virtual and augmented reality",
+        "biosensing",
+        "nonlinear optics",
+        "quantum optics",
+        "topological photonics",
+        "optical computing"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.3c00457",
+      "cited_by_count": 425,
+      "importance": 0.3227,
+      "score_basis": {
+        "topic_overlap": 0.273,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402520402",
+      "doi": "10.1002/adma.202406717",
+      "title": "Bidirectional Vectorial Holography Using Bi‐Layer Metasurfaces and Its Application to Optical Encryption",
+      "authors": [
+        "Hyeonhee Kim",
+        "Joonkyo Jung",
+        "Jonghwa Shin"
+      ],
+      "year": 2024,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "vectorial holography",
+        "asymmetric transmission",
+        "optical encryption",
+        "Jones matrix",
+        "reciprocal systems",
+        "polarization control"
+      ],
+      "url": "https://doi.org/10.1002/adma.202406717",
+      "cited_by_count": 40,
+      "importance": 0.3148,
+      "score_basis": {
+        "topic_overlap": 0.255,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4290851810",
+      "doi": "10.1021/acsnano.2c03310",
+      "title": "Metasurface Micro/Nano-Optical Sensors: Principles and Applications",
+      "authors": [
+        "Jin Qin",
+        "Shibin Jiang",
+        "Zhanshan Wang",
+        "Xinbin Cheng",
+        "Baojun Li",
+        "Yuzhi Shi",
+        "Din Ping Tsai",
+        "A. Q. Liu",
+        "Wei Huang",
+        "Weiming Zhu"
+      ],
+      "year": 2022,
+      "venue": "ACS Nano",
+      "venue_abbr": "ACS Nano",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "metasurfaces",
+        "metamolecules",
+        "label-free detection",
+        "refractive index sensing",
+        "polarization sensing",
+        "chirality sensing",
+        "near-field sensing",
+        "micro-optics",
+        "biosensing"
+      ],
+      "url": "https://doi.org/10.1021/acsnano.2c03310",
+      "cited_by_count": 366,
+      "importance": 0.2799,
+      "score_basis": {
+        "topic_overlap": 0.178,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4291124834",
+      "doi": "10.1002/lpor.202100511",
+      "title": "A Progress Review on Solid‐State LiDAR and Nanophotonics‐Based LiDAR Sensors",
+      "authors": [
+        "Nanxi Li",
+        "Chong Pei Ho",
+        "Jin Xue",
+        "Leh Woon Lim",
+        "Guanyu Chen",
+        "Yuan Hsing Fu",
+        "Lennon Y. T. Lee"
+      ],
+      "year": 2022,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "solid-state LiDAR",
+        "flash lidar",
+        "MEMS LiDAR",
+        "time-of-flight sensing",
+        "frequency modulated continuous wave",
+        "3D sensing",
+        "autonomous driving"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202100511",
+      "cited_by_count": 333,
+      "importance": 0.2792,
+      "score_basis": {
+        "topic_overlap": 0.065,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1973833649",
+      "doi": "10.1364/ao.51.001619",
+      "title": "Three-dimensional Dammann array",
+      "authors": [
+        "Junjie Yu",
+        "Changhe Zhou",
+        "Wei Jia",
+        "Wugang Cao",
+        "Shaoqing Wang",
+        "Jianyong Ma",
+        "Hongchao Cao"
+      ],
+      "year": 2012,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Dammann grating",
+        "numerical aperture",
+        "optical manipulation",
+        "3D optical data storage"
+      ],
+      "url": "https://doi.org/10.1364/ao.51.001619",
+      "cited_by_count": 53,
+      "importance": 0.2779,
+      "score_basis": {
+        "topic_overlap": 0.173,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409823867",
+      "doi": "10.29026/oea.2025.240299",
+      "title": "Three-dimensional measurement enabled by single-layer all-in-one transmitting-receipting optical metasystem",
+      "authors": [
+        "Xiaoli Jing",
+        "Qiming Liao",
+        "Misheng Liang",
+        "Bo Wang",
+        "Junjie Li",
+        "Yongtian Wang",
+        "Rui You",
+        "Lingling Huang"
+      ],
+      "year": 2025,
+      "venue": "Opto-Electronic Advances",
+      "venue_abbr": "OEA",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical metasurfaces",
+        "structured light",
+        "depth sensing",
+        "process control"
+      ],
+      "url": "https://doi.org/10.29026/oea.2025.240299",
+      "cited_by_count": 7,
+      "importance": 0.2714,
+      "score_basis": {
+        "topic_overlap": 0.159,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390021891",
+      "doi": "10.1126/sciadv.adj9262",
+      "title": "3D-printed multilayer structures for high–numerical aperture achromatic metalenses",
+      "authors": [
+        "Chengfeng Pan",
+        "Hao Wang",
+        "Hongtao Wang",
+        "Parvathi Nair S",
+        "Qifeng Ruan",
+        "Simon Wredh",
+        "Yujie Ke",
+        "John You En Chan",
+        "Wang Zhang",
+        "Cheng‐Wei Qiu",
+        "Joel K. W. Yang"
+      ],
+      "year": 2023,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "achromatic metalenses",
+        "high numerical aperture",
+        "broadband imaging",
+        "polarization insensitivity",
+        "inverse design",
+        "topology optimization",
+        "two-photon polymerization",
+        "3D-printed optics",
+        "metadevices",
+        "visible light",
+        "white light imaging"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.adj9262",
+      "cited_by_count": 118,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1982892759",
+      "doi": "10.1109/comst.2014.2329501",
+      "title": "Survey on Free Space Optical Communication: A Communication Theory Perspective",
+      "authors": [
+        "Mohammad‐Ali Khalighi",
+        "Murat Uysal"
+      ],
+      "year": 2014,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "free-space optical communication",
+        "optical wireless communication",
+        "atmospheric turbulence",
+        "fading",
+        "transmitter and receiver design",
+        "information-theoretic limits",
+        "modulation",
+        "channel coding",
+        "multiple-input multiple-output",
+        "cooperative diversity",
+        "adaptive transmission",
+        "terrestrial optical links"
+      ],
+      "url": "https://doi.org/10.1109/comst.2014.2329501",
+      "cited_by_count": 2489,
+      "importance": 0.2419,
+      "score_basis": {
+        "topic_overlap": 0.049,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2030306896",
+      "doi": "10.1364/ao.52.001389",
+      "title": "Theoretical and experimental determination of steering mechanism for Risley prism systems",
+      "authors": [
+        "Yafei Lü",
+        "Zhou Yuan",
+        "Mo Hei",
+        "Dapeng Fan"
+      ],
+      "year": 2013,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Risley prism",
+        "beam steering",
+        "paraxial approximation",
+        "optical beam scanning"
+      ],
+      "url": "https://doi.org/10.1364/ao.52.001389",
+      "cited_by_count": 59,
+      "importance": 0.2366,
+      "score_basis": {
+        "topic_overlap": 0.081,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2115478677",
+      "doi": "10.1109/jproc.2009.2017218",
+      "title": "A Review of Phased Array Steering for Narrow-Band Electrooptical Systems",
+      "authors": [
+        "Paul McManamon",
+        "Philip J. Bos",
+        "Michael J. Escuti",
+        "Jason C. Heikenfeld",
+        "Steven A. Serati",
+        "Huikai Xie",
+        "Edward A. Watson"
+      ],
+      "year": 2009,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "liquid crystal birefringence",
+        "volume holograms",
+        "birefringent prism",
+        "polarization gratings",
+        "microlens array",
+        "electrowetting"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2009.2017218",
+      "cited_by_count": 418,
+      "importance": 0.2089,
+      "score_basis": {
+        "topic_overlap": 0.02,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4317934785",
+      "doi": "10.3390/sym15020336",
+      "title": "Symmetries of Scan Patterns of Laser Scanners with Rotational Risley Prisms",
+      "authors": [
+        "Alexandru-Lucian Dîmb",
+        "Virgil-Florin Duma"
+      ],
+      "year": 2023,
+      "venue": "Symmetry",
+      "venue_abbr": "Symmetry",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "laser scanner",
+        "scan patterns",
+        "symmetry properties",
+        "rotational speed",
+        "graphical method"
+      ],
+      "url": "https://doi.org/10.3390/sym15020336",
+      "cited_by_count": 15,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4367061116",
+      "doi": "10.48550/arxiv.2304.12985",
+      "title": "Rubik's Optical Neural Networks: Multi-task Learning with Physics-aware Rotation Architecture",
+      "authors": [
+        "Yingjie Li",
+        "Weilu Gao",
+        "Cunxi Yu"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical neural networks",
+        "multi-task learning",
+        "reconfigurable hardware",
+        "energy efficiency",
+        "cost efficiency"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2304.12985",
+      "cited_by_count": 4,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W3082240928",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3082240928"
+        }
+      ]
+    },
+    {
+      "from": "W3183648820",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3183648820"
+        }
+      ]
+    },
+    {
+      "from": "W3183648820",
+      "to": "W3023771459",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3183648820"
+        }
+      ]
+    },
+    {
+      "from": "W3217777747",
+      "to": "W3082240928",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3217777747"
+        }
+      ]
+    },
+    {
+      "from": "W4214749828",
+      "to": "W3154406446",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4214749828"
+        }
+      ]
+    },
+    {
+      "from": "W4220771742",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220771742"
+        }
+      ]
+    },
+    {
+      "from": "W4220771742",
+      "to": "W3023771459",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220771742"
+        }
+      ]
+    },
+    {
+      "from": "W4220771742",
+      "to": "W3154406446",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220771742"
+        }
+      ]
+    },
+    {
+      "from": "W4229019726",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4229019726"
+        }
+      ]
+    },
+    {
+      "from": "W4291124834",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4291124834"
+        }
+      ]
+    },
+    {
+      "from": "W4292116811",
+      "to": "W3023771459",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4292116811"
+        }
+      ]
+    },
+    {
+      "from": "W4292116811",
+      "to": "W3183648820",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4292116811"
+        }
+      ]
+    },
+    {
+      "from": "W4296917363",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4296917363"
+        }
+      ]
+    },
+    {
+      "from": "W4309708505",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4309708505"
+        }
+      ]
+    },
+    {
+      "from": "W4318196243",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4318196243"
+        }
+      ]
+    },
+    {
+      "from": "W4318196243",
+      "to": "W3154406446",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4318196243"
+        }
+      ]
+    },
+    {
+      "from": "W4318196243",
+      "to": "W4214749828",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4318196243"
+        }
+      ]
+    },
+    {
+      "from": "W4381325878",
+      "to": "W1982892759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381325878"
+        }
+      ]
+    },
+    {
+      "from": "W4381325878",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381325878"
+        }
+      ]
+    },
+    {
+      "from": "W4381325878",
+      "to": "W3023771459",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381325878"
+        }
+      ]
+    },
+    {
+      "from": "W4381325878",
+      "to": "W3082240928",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381325878"
+        }
+      ]
+    },
+    {
+      "from": "W4381325878",
+      "to": "W3183648820",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381325878"
+        }
+      ]
+    },
+    {
+      "from": "W4381325878",
+      "to": "W3217777747",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381325878"
+        }
+      ]
+    },
+    {
+      "from": "W4381325878",
+      "to": "W4220771742",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381325878"
+        }
+      ]
+    },
+    {
+      "from": "W4381325878",
+      "to": "W4292116811",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381325878"
+        }
+      ]
+    },
+    {
+      "from": "W4385317987",
+      "to": "W3154406446",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385317987"
+        }
+      ]
+    },
+    {
+      "from": "W4390965787",
+      "to": "W3154406446",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390965787"
+        }
+      ]
+    },
+    {
+      "from": "W4390965787",
+      "to": "W4214749828",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390965787"
+        }
+      ]
+    },
+    {
+      "from": "W4390965787",
+      "to": "W4292116811",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390965787"
+        }
+      ]
+    },
+    {
+      "from": "W4390965787",
+      "to": "W4318196243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390965787"
+        }
+      ]
+    },
+    {
+      "from": "W4390965787",
+      "to": "W4381325878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390965787"
+        }
+      ]
+    },
+    {
+      "from": "W4391930996",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391930996"
+        }
+      ]
+    },
+    {
+      "from": "W4411612983",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411612983"
+        }
+      ]
+    },
+    {
+      "from": "W4411612983",
+      "to": "W4385317987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411612983"
+        }
+      ]
+    },
+    {
+      "from": "W4411640077",
+      "to": "W4214749828",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411640077"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W1973833649",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W1982892759",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W2030306896",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W2115478677",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W2121607567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W2531272002",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W3023771459",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W3082240928",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W3154406446",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W3183648820",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W3217777747",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4214749828",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4220771742",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4229019726",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4290851810",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4291124834",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4292116811",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4296917363",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4309708505",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4317934785",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4318196243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4367061116",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4381325878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4385317987",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4390021891",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4390965787",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4391930996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4392199370",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4402520402",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4409823867",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4410106164",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4411612983",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    },
+    {
+      "from": "W7224509212",
+      "to": "W4411640077",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224509212"
+        }
+      ]
+    }
+  ]
 }

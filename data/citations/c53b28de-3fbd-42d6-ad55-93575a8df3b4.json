@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "c53b28de-3fbd-42d6-ad55-93575a8df3b4",
-  "root": "doi:10.1021/acsphotonics.6c01643",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7203647968",
+  "status": "ok",
+  "checked_at": "2026-11-07T00:50:54.398671+00:00",
+  "coverage": {
+    "references_found": 195,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 100,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1021/acsphotonics.6c01643",
+      "id": "W7203647968",
       "doi": "10.1021/acsphotonics.6c01643",
       "title": "Highly Reconfigurable Microwave Photonic All-Pass Filters based on Optical Microcombs",
       "authors": [
@@ -28,20 +38,4434 @@
         "Arnan Mitchell",
         "David Moss"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "ACS Photonics",
       "venue_abbr": "ACS Photonics",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "microwave photonic filter",
+        "all-pass filter",
+        "optical microcombs",
+        "reconfigurable filter",
+        "transversal filters",
+        "phase engineering",
+        "group delay",
+        "microwave signal processing"
+      ],
       "url": "https://doi.org/10.1021/acsphotonics.6c01643",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/c53b28de-3fbd-42d6-ad55-93575a8df3b4.html",
       "summary": "研究提出并实验演示了基于光学微梳驱动有限冲激响应横向滤波系统的微波光子全通滤波器。一阶滤波器的最大幅度变化最低约为1.95 dB，最大群时延最高约为580 ps；二阶分别约为2.01 dB和1740 ps。通过编程抽头系数、无需更换硬件，实验展示了滤波阶数、群时延和中心频率的可重构性，以及多个参数的独立控制。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W2760400020",
+      "doi": "10.1063/1.4989871",
+      "title": "Reconfigurable broadband microwave photonic intensity differentiator based on an integrated optical frequency comb source",
+      "authors": [
+        "Xingyuan Xu",
+        "Jiayang Wu",
+        "Mehrdad Shoeiby",
+        "Thach Giang Nguyen",
+        "Sai T. Chu",
+        "Brent E. Little",
+        "Roberto Morandotti",
+        "Arnan Mitchell",
+        "David Moss"
+      ],
+      "year": 2017,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "Kerr optical frequency combs",
+        "transversal filters",
+        "multi-wavelength sources"
+      ],
+      "url": "https://doi.org/10.1063/1.4989871",
+      "cited_by_count": 481,
+      "importance": 0.7072,
+      "score_basis": {
+        "topic_overlap": 0.349,
+        "shared_references": 11,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2797680338",
+      "doi": "10.1364/prj.6.000b30",
+      "title": "Photonic microwave true time delays for phased array antennas using a 49 GHz FSR integrated optical micro-comb source [Invited]",
+      "authors": [
+        "Xingyuan Xu",
+        "Jiayang Wu",
+        "Thach Giang Nguyen",
+        "Tania Moein",
+        "Sai T. Chu",
+        "Brent E. Little",
+        "Roberto Morandotti",
+        "Arnan Mitchell",
+        "David Moss"
+      ],
+      "year": 2018,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "true-time delay",
+        "phased array antenna",
+        "microwave signal processing",
+        "beam steering",
+        "angular resolution",
+        "integrated photonics",
+        "radar",
+        "optical microwave generation"
+      ],
+      "url": "https://doi.org/10.1364/prj.6.000b30",
+      "cited_by_count": 222,
+      "importance": 0.6945,
+      "score_basis": {
+        "topic_overlap": 0.321,
+        "shared_references": 19,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2979673467",
+      "doi": "10.1109/jlt.2019.2946606",
+      "title": "Microwave and RF Photonic Fractional Hilbert Transformer Based on a 50 GHz Kerr Micro-Comb",
+      "authors": [
+        "Mengxi Tan",
+        "Arnan Mitchell",
+        "David Moss",
+        "Xingyuan Xu",
+        "Bill Corcoran",
+        "Jiayang Wu",
+        "Andreas Boes",
+        "Thach Giang Nguyen",
+        "Sai Tak Chu",
+        "Brent E. Little",
+        "Roberto Morandotti"
+      ],
+      "year": 2019,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "photonic integrated circuits",
+        "microwave signal processing",
+        "RF signal processing",
+        "phase ripple",
+        "reconfigurable optical filter"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2019.2946606",
+      "cited_by_count": 439,
+      "importance": 0.6938,
+      "score_basis": {
+        "topic_overlap": 0.408,
+        "shared_references": 29,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2911387168",
+      "doi": "10.1063/1.5080246",
+      "title": "High performance RF filters via bandwidth scaling with Kerr micro-combs",
+      "authors": [
+        "Xingyuan Xu",
+        "Mengxi Tan",
+        "Jiayang Wu",
+        "Thach Giang Nguyen",
+        "Sai T. Chu",
+        "Brent E. Little",
+        "Roberto Morandotti",
+        "Arnan Mitchell",
+        "David Moss"
+      ],
+      "year": 2019,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "bandwidth scaling",
+        "microring resonators",
+        "notch filter",
+        "reconfigurable filter",
+        "temperature tuning",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1063/1.5080246",
+      "cited_by_count": 466,
+      "importance": 0.6843,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 21,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2765087426",
+      "doi": "10.1109/jstqe.2018.2805814",
+      "title": "RF Photonics: An Optical Microcombs’ Perspective",
+      "authors": [
+        "Jiayang Wu",
+        "Xingyuan Xu",
+        "Thach Giang Nguyen",
+        "Sai Tak Chu",
+        "Brent E. Little",
+        "Roberto Morandotti",
+        "Arnan Mitchell",
+        "David Moss"
+      ],
+      "year": 2018,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical microcombs",
+        "optical frequency combs",
+        "high-Q microresonators",
+        "microwave photonics",
+        "frequency conversion",
+        "optical-to-electronic conversion",
+        "low power consumption",
+        "compact device"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2018.2805814",
+      "cited_by_count": 624,
+      "importance": 0.6752,
+      "score_basis": {
+        "topic_overlap": 0.278,
+        "shared_references": 29,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1986299972",
+      "doi": "10.1364/oe.22.021488",
+      "title": "CMOS compatible integrated all-optical radio frequency spectrum analyzer",
+      "authors": [
+        "Marcello Ferrera",
+        "Christian Reimer",
+        "Alessia Pasquazi",
+        "Marco Peccianti",
+        "Matteo Clerici",
+        "Lucia Caspani",
+        "Sai T. Chu",
+        "Brent E. Little",
+        "Roberto Morandotti",
+        "David Moss"
+      ],
+      "year": 2014,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "radio frequency spectrum analysis",
+        "CMOS-compatible photonics",
+        "mode-locked lasers",
+        "dynamic noise",
+        "terahertz bandwidth"
+      ],
+      "url": "https://doi.org/10.1364/oe.22.021488",
+      "cited_by_count": 182,
+      "importance": 0.6641,
+      "score_basis": {
+        "topic_overlap": 0.254,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2584201205",
+      "doi": "10.1002/lpor.201200032",
+      "title": "Integrated microwave photonics",
+      "authors": [
+        "David A. I. Marpaung",
+        "Chris G.  H. Roeloffzen",
+        "René Heideman",
+        "Arne Leinse",
+        "Salvador Sales",
+        "J. Capmany"
+      ],
+      "year": 2013,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated microwave photonics",
+        "photonic integrated circuits",
+        "microwave photonics",
+        "RF signal processing",
+        "photonic signal generation"
+      ],
+      "url": "https://doi.org/10.1002/lpor.201200032",
+      "cited_by_count": 786,
+      "importance": 0.661,
+      "score_basis": {
+        "topic_overlap": 0.247,
+        "shared_references": 8,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2066872867",
+      "doi": "10.1109/jlt.2012.2222348",
+      "title": "Microwave Photonic Signal Processing",
+      "authors": [
+        "J. Capmany",
+        "Jose Mora",
+        "Ivana Gasulla",
+        "Juan Sancho",
+        "Juan Lloret",
+        "Salvador Sales"
+      ],
+      "year": 2012,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "microwave photonic signal processing",
+        "optical signal processing",
+        "RF signal processing",
+        "photonic integrated circuits",
+        "figure of merit",
+        "photonic devices"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2012.2222348",
+      "cited_by_count": 637,
+      "importance": 0.6582,
+      "score_basis": {
+        "topic_overlap": 0.24,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3007528374",
+      "doi": "10.1016/j.optcom.2020.125563",
+      "title": "Photonic RF and microwave filters based on 49 GHz and 200 GHz Kerr microcombs",
+      "authors": [
+        "Mengxi Tan",
+        "Xingyuan Xu",
+        "Jiayang Wu",
+        "Roberto Morandotti",
+        "Arnan Mitchell",
+        "David Moss"
+      ],
+      "year": 2020,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Kerr microcombs",
+        "microwave photonic filter",
+        "reconfigurable filter",
+        "transversal filters",
+        "microwave photonics",
+        "optical microcombs",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2020.125563",
+      "cited_by_count": 407,
+      "importance": 0.6525,
+      "score_basis": {
+        "topic_overlap": 0.45,
+        "shared_references": 44,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2293694307",
+      "doi": "10.1002/9781394205318",
+      "title": "Microwave Photonics",
+      "authors": [
+        "Jianping Yao",
+        "José Capmany",
+        "Ming Li"
+      ],
+      "year": 2009,
+      "venue": "Wiley eBooks",
+      "venue_abbr": "Wiley eBooks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "microwave photonics",
+        "photonic signal generation",
+        "optical signal processing",
+        "radio-over-fiber",
+        "photonic analog-to-digital conversion",
+        "millimeter-wave signals",
+        "broadband wireless access networks",
+        "radar",
+        "satellite communication"
+      ],
+      "url": "https://doi.org/10.1002/9781394205318",
+      "cited_by_count": 2875,
+      "importance": 0.6369,
+      "score_basis": {
+        "topic_overlap": 0.193,
+        "shared_references": 12,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2559874245",
+      "doi": "10.1038/nphoton.2016.233",
+      "title": "A monolithic integrated photonic microwave filter",
+      "authors": [
+        "Javier S. Fandiño",
+        "Pascual Muñoz",
+        "David Doménech",
+        "J. Capmany"
+      ],
+      "year": 2016,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "microwave photonic filter",
+        "monolithic integration",
+        "indium phosphide",
+        "optoelectronic components",
+        "lasers",
+        "modulators",
+        "photodetectors",
+        "wireless base stations"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2016.233",
+      "cited_by_count": 262,
+      "importance": 0.6328,
+      "score_basis": {
+        "topic_overlap": 0.184,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2156857373",
+      "doi": "10.1038/nphoton.2013.183",
+      "title": "New CMOS-compatible platforms based on silicon nitride and Hydex for nonlinear optics",
+      "authors": [
+        "David Moss",
+        "Roberto Morandotti",
+        "Alexander L. Gaeta",
+        "Michal F. Lipson"
+      ],
+      "year": 2013,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "silicon nitride",
+        "nonlinear photonics",
+        "CMOS-compatible photonics",
+        "two-photon absorption",
+        "optical frequency comb generation",
+        "all-optical signal processing",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2013.183",
+      "cited_by_count": 1785,
+      "importance": 0.6291,
+      "score_basis": {
+        "topic_overlap": 0.176,
+        "shared_references": 11,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3002893622",
+      "doi": "10.1109/jlt.2019.2930466",
+      "title": "Broadband Microwave Frequency Conversion Based on an Integrated Optical Micro-Comb Source",
+      "authors": [
+        "Xingyuan Xu",
+        "Jiayang Wu",
+        "Mengxi Tan",
+        "Thach Giang Nguyen",
+        "Sai Tak Chu",
+        "Brent E. Little",
+        "Roberto Morandotti",
+        "Arnan Mitchell",
+        "David Moss"
+      ],
+      "year": 2019,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "microwave frequency conversion",
+        "soliton crystals",
+        "broadband frequency conversion",
+        "integrated photonics",
+        "spurious suppression"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2019.2930466",
+      "cited_by_count": 412,
+      "importance": 0.6254,
+      "score_basis": {
+        "topic_overlap": 0.257,
+        "shared_references": 23,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2763363916",
+      "doi": "10.1016/j.physrep.2017.08.004",
+      "title": "Micro-combs: A novel generation of optical sources",
+      "authors": [
+        "Alessia Pasquazi",
+        "Marco Peccianti",
+        "Luca Razzari",
+        "David Moss",
+        "Stéphane Coen",
+        "Miro J. Erkintalo",
+        "Yanne K. Chembo",
+        "Tobias Hansson",
+        "Stefan W. Wabnitz",
+        "Pascal Del’Haye",
+        "Xiaoxiao Xue",
+        "Andrew M. Weiner",
+        "Roberto Morandotti"
+      ],
+      "year": 2017,
+      "venue": "Physics Reports",
+      "venue_abbr": "Physics Reports",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical frequency combs",
+        "silicon photonics",
+        "photonic integration",
+        "optical frequency metrology",
+        "optical frequency stabilization",
+        "optical sensors",
+        "optical modulators",
+        "on-chip optical interconnects",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1016/j.physrep.2017.08.004",
+      "cited_by_count": 1086,
+      "importance": 0.6116,
+      "score_basis": {
+        "topic_overlap": 0.137,
+        "shared_references": 12,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2892415914",
+      "doi": "10.1088/2040-8986/aae3fe",
+      "title": "Continuously tunable orthogonally polarized RF optical single sideband generator based on micro-ring resonators",
+      "authors": [
+        "Xingyuan Xu",
+        "Jiayang Wu",
+        "Linnan Jia",
+        "Mengxi Tan",
+        "Thach Giang Nguyen",
+        "Sai T Chu",
+        "Brent E. Little",
+        "Roberto Morandotti",
+        "Arnan Mitchell",
+        "David Moss"
+      ],
+      "year": 2018,
+      "venue": "Journal of Optics",
+      "venue_abbr": "J. Opt.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "microring resonators",
+        "carrier-to-sideband ratio",
+        "TE and TM polarization",
+        "temperature tuning",
+        "photonic radar"
+      ],
+      "url": "https://doi.org/10.1088/2040-8986/aae3fe",
+      "cited_by_count": 388,
+      "importance": 0.6114,
+      "score_basis": {
+        "topic_overlap": 0.136,
+        "shared_references": 19,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2055207878",
+      "doi": "10.1364/oe.20.027355",
+      "title": "Stable, dual mode, high repetition rate mode-locked laser based on a microring resonator",
+      "authors": [
+        "Alessia Pasquazi",
+        "Marco Peccianti",
+        "Brent E. Little",
+        "Sai T. Chu",
+        "David Moss",
+        "Roberto Morandotti"
+      ],
+      "year": 2012,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "mode-locked lasers",
+        "microring resonators",
+        "integrated photonics",
+        "high-Q resonators",
+        "high repetition rate",
+        "optical frequency combs",
+        "ultrafast lasers"
+      ],
+      "url": "https://doi.org/10.1364/oe.20.027355",
+      "cited_by_count": 432,
+      "importance": 0.6025,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 8,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2130590343",
+      "doi": "10.1364/oe.21.013333",
+      "title": "Self-locked optical parametric oscillation in a CMOS compatible microring resonator: a route to robust optical frequency comb generation on a chip",
+      "authors": [
+        "Alessia Pasquazi",
+        "Lucia Caspani",
+        "Marco Peccianti",
+        "Matteo Clerici",
+        "Marcello Ferrera",
+        "Luca Razzari",
+        "D. Duchesne",
+        "Brent E. Little",
+        "Sai T. Chu",
+        "David Moss",
+        "Roberto Morandotti"
+      ],
+      "year": 2013,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical parametric oscillation",
+        "microring resonators",
+        "CMOS-compatible photonics",
+        "optical frequency combs",
+        "free spectral range"
+      ],
+      "url": "https://doi.org/10.1364/oe.21.013333",
+      "cited_by_count": 455,
+      "importance": 0.6025,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 9,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2150142664",
+      "doi": "10.1364/oe.22.006535",
+      "title": "Integrated frequency comb source of heralded single photons",
+      "authors": [
+        "Christian Reimer",
+        "Lucia Caspani",
+        "Matteo Clerici",
+        "Marcello Ferrera",
+        "Michael Kues",
+        "Marco Peccianti",
+        "Alessia Pasquazi",
+        "Luca Razzari",
+        "Brent E. Little",
+        "Sai T. Chu",
+        "David Moss",
+        "Roberto Morandotti"
+      ],
+      "year": 2014,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "heralded single photons",
+        "photon pair sources",
+        "microring resonators",
+        "frequency combs",
+        "CMOS-compatible photonics",
+        "wavelength division multiplexing",
+        "quantum memory",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/oe.22.006535",
+      "cited_by_count": 459,
+      "importance": 0.6025,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2886839355",
+      "doi": "10.1109/jlt.2018.2863704",
+      "title": "Orthogonally Polarized RF Optical Single Sideband Generation and Dual-Channel Equalization Based on an Integrated Microring Resonator",
+      "authors": [
+        "Xingyuan Xu",
+        "Jiayang Wu",
+        "Mengxi Tan",
+        "Thach Giang Nguyen",
+        "Sai Tak Chu",
+        "Brent E. Little",
+        "Roberto Morandotti",
+        "Arnan Mitchell",
+        "David Moss"
+      ],
+      "year": 2018,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "microring resonators",
+        "carrier-to-sideband ratio",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2018.2863704",
+      "cited_by_count": 411,
+      "importance": 0.6025,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 19,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2916682550",
+      "doi": "10.1038/s41566-019-0379-5",
+      "title": "Laser cavity-soliton microcombs",
+      "authors": [
+        "Hualong Bao",
+        "Andrew Cooper",
+        "Maxwell Rowley",
+        "Luigi Di Lauro",
+        "Juan Sebastian Totero Gongora",
+        "Sai Tak Chu",
+        "Brent E. Little",
+        "Gian-Luca Oppo",
+        "Roberto Morandotti",
+        "David J. Moss",
+        "Benjamin Wetzel",
+        "Marco Peccianti",
+        "Alessia Pasquazi"
+      ],
+      "year": 2019,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "microcombs",
+        "Lugiato-Lefever equation",
+        "bright solitons",
+        "Kerr microresonators",
+        "soliton generation",
+        "repetition rate tuning"
+      ],
+      "url": "https://doi.org/10.1038/s41566-019-0379-5",
+      "cited_by_count": 621,
+      "importance": 0.5922,
+      "score_basis": {
+        "topic_overlap": 0.138,
+        "shared_references": 5,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2909818755",
+      "doi": "10.1038/s41566-018-0310-5",
+      "title": "Integrated microwave photonics",
+      "authors": [
+        "David A. I. Marpaung",
+        "Jianping Yao",
+        "J. Capmany"
+      ],
+      "year": 2019,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "integrated microwave photonics",
+        "photonic integration",
+        "electro-optic modulator",
+        "frequency synthesizer",
+        "light-matter interaction",
+        "quantum photonics",
+        "neuromorphic photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41566-018-0310-5",
+      "cited_by_count": 1391,
+      "importance": 0.5827,
+      "score_basis": {
+        "topic_overlap": 0.161,
+        "shared_references": 11,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2739704173",
+      "doi": "10.1364/oe.25.018940",
+      "title": "Practical system for the generation of pulsed quantum frequency combs",
+      "authors": [
+        "Piotr Roztocki",
+        "Michael Kues",
+        "Christian Reimer",
+        "Benjamin Wetzel",
+        "Stefania Sciara",
+        "Yanbing Young Zhang",
+        "Alfonso Carmelo Cino",
+        "Brent E. Little",
+        "Sai T. Chu",
+        "David Moss",
+        "Roberto Morandotti"
+      ],
+      "year": 2017,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "integrated photonics",
+        "four-wave mixing",
+        "microcavities",
+        "harmonic mode-locking",
+        "coincidence-to-accidental ratio",
+        "photon pair generation",
+        "photon purity"
+      ],
+      "url": "https://doi.org/10.1364/oe.25.018940",
+      "cited_by_count": 328,
+      "importance": 0.5825,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 9,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1963729996",
+      "doi": "10.1038/nphoton.2007.89",
+      "title": "Microwave photonics combines two worlds",
+      "authors": [
+        "J. Capmany",
+        "Dalma Novak"
+      ],
+      "year": 2007,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "microwave photonics",
+        "optoelectronics",
+        "microwave systems",
+        "telecommunications networks",
+        "photonic integration"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2007.89",
+      "cited_by_count": 2977,
+      "importance": 0.5759,
+      "score_basis": {
+        "topic_overlap": 0.169,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2054494769",
+      "doi": "10.1364/oe.19.023153",
+      "title": "All-optical 1st and 2nd order integration on a chip",
+      "authors": [
+        "Marcello Ferrera",
+        "Yongwoo Park",
+        "Luca Razzari",
+        "Brent E. Little",
+        "Sai T. Chu",
+        "Roberto Morandotti",
+        "David Moss",
+        "José Azaña"
+      ],
+      "year": 2011,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "microring resonators",
+        "doped glass",
+        "CMOS-compatible photonics",
+        "pulse shaping",
+        "optical computing"
+      ],
+      "url": "https://doi.org/10.1364/oe.19.023153",
+      "cited_by_count": 171,
+      "importance": 0.5719,
+      "score_basis": {
+        "topic_overlap": 0.138,
+        "shared_references": 6,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2539331899",
+      "doi": "10.1038/srep35621",
+      "title": "Software-defined microwave photonic filter with high reconfigurable resolution",
+      "authors": [
+        "Wei Wei",
+        "Lilin Yi",
+        "Yves Jaouën",
+        "Weisheng Hu"
+      ],
+      "year": 2016,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "microwave photonic filter",
+        "stimulated Brillouin scattering",
+        "optical fibers",
+        "polarization insensitivity",
+        "microwave signal processing",
+        "tunable bandwidth"
+      ],
+      "url": "https://doi.org/10.1038/srep35621",
+      "cited_by_count": 32,
+      "importance": 0.5652,
+      "score_basis": {
+        "topic_overlap": 0.256,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2799284617",
+      "doi": "10.1364/ol.43.002002",
+      "title": "Robust soliton crystals in a thermally controlled microresonator",
+      "authors": [
+        "Weiqiang Wang",
+        "Zhizhou Lu",
+        "Wenfu Zhang",
+        "Sai T. Chu",
+        "Brent E. Little",
+        "Leiran Wang",
+        "Xiaoping Xie",
+        "Mulong Liu",
+        "Qinghua Yang",
+        "Lei Wang",
+        "Jianguo Zhao",
+        "Guoxi Wang",
+        "Qibing Sun",
+        "Yuanshan Liu",
+        "Yishan Wang",
+        "Wei Zhao"
+      ],
+      "year": 2018,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "soliton crystals",
+        "microresonators",
+        "temperature tuning",
+        "thermoelectric cooling",
+        "modulational instability",
+        "optical frequency combs"
+      ],
+      "url": "https://doi.org/10.1364/ol.43.002002",
+      "cited_by_count": 287,
+      "importance": 0.5525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1826402524",
+      "doi": "10.1038/ncomms9236",
+      "title": "Cross-polarized photon-pair generation and bi-chromatically pumped optical parametric oscillation on a chip",
+      "authors": [
+        "Christian Reimer",
+        "Michael Kues",
+        "Lucia Caspani",
+        "Benjamin Wetzel",
+        "Piotr Roztocki",
+        "Matteo Clerici",
+        "Y. Jestin",
+        "Marcello Ferrera",
+        "Marco Peccianti",
+        "Alessia Pasquazi",
+        "Brent E. Little",
+        "Sai T. Chu",
+        "David Moss",
+        "Roberto Morandotti"
+      ],
+      "year": 2015,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical parametric oscillation",
+        "microring resonators",
+        "integrated photonics",
+        "orthogonal polarization modes",
+        "frequency mixing",
+        "frequency conversion",
+        "quantum optics",
+        "optical communication"
+      ],
+      "url": "https://doi.org/10.1038/ncomms9236",
+      "cited_by_count": 404,
+      "importance": 0.55,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3008288796",
+      "doi": "10.1364/aop.378686",
+      "title": "Integrated microwave photonic filters",
+      "authors": [
+        "Yang Liu",
+        "Amol Choudhary",
+        "David A. I. Marpaung",
+        "Benjamin J. Eggleton"
+      ],
+      "year": 2020,
+      "venue": "Advances in Optics and Photonics",
+      "venue_abbr": "Advances in Optics and Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "tunable filters",
+        "on-chip nonlinear optics",
+        "radio frequency interference",
+        "integrated photonics",
+        "filter architecture",
+        "RF performance"
+      ],
+      "url": "https://doi.org/10.1364/aop.378686",
+      "cited_by_count": 238,
+      "importance": 0.5458,
+      "score_basis": {
+        "topic_overlap": 0.213,
+        "shared_references": 24,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2527121768",
+      "doi": "10.1364/ol.41.004609",
+      "title": "Broadband microwave photonic phase shifter based on a feedback-coupled microring resonator with small radio frequency power variations",
+      "authors": [
+        "Jian Tang",
+        "Ming Li",
+        "Shuqian Sun",
+        "Zhiyong Li",
+        "Wei Li",
+        "Ninghua Zhu"
+      ],
+      "year": 2016,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "microwave photonic phase shifter",
+        "bias voltage tuning",
+        "broadband phase shift"
+      ],
+      "url": "https://doi.org/10.1364/ol.41.004609",
+      "cited_by_count": 16,
+      "importance": 0.5308,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2343948806",
+      "doi": "10.1515/nanoph-2016-0029",
+      "title": "Multifrequency sources of quantum correlated photon pairs on‐chip: a path toward integrated Quantum Frequency Combs",
+      "authors": [
+        "Lucia Caspani",
+        "Christian Reimer",
+        "Michael Kues",
+        "Piotr Roztocki",
+        "Matteo Clerici",
+        "Benjamin Wetzel",
+        "Y. Jestin",
+        "Marcello Ferrera",
+        "Marco Peccianti",
+        "Alessia Pasquazi",
+        "Luca Razzari",
+        "Brent E. Little",
+        "Sai T. Chu",
+        "David Moss",
+        "Roberto Morandotti"
+      ],
+      "year": 2016,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "quantum frequency combs",
+        "integrated quantum photonics",
+        "photon pair generation",
+        "optical microcavities",
+        "quantum memory",
+        "polarization entanglement",
+        "quantum computing",
+        "quantum cryptography",
+        "on-chip photon sources"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2016-0029",
+      "cited_by_count": 299,
+      "importance": 0.53,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 5,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2729599614",
+      "doi": "10.1364/ol.43.003622",
+      "title": "On-chip silicon photonic integrated frequency-tunable bandpass microwave photonic filter",
+      "authors": [
+        "Weifeng Zhang",
+        "Jianping Yao"
+      ],
+      "year": 2018,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "microwave photonic filter",
+        "bandpass filter",
+        "frequency tuning",
+        "silicon photonics",
+        "microdisk resonators",
+        "temperature tuning",
+        "phase modulation",
+        "photodetectors",
+        "on-chip integration",
+        "insertion loss"
+      ],
+      "url": "https://doi.org/10.1364/ol.43.003622",
+      "cited_by_count": 94,
+      "importance": 0.5291,
+      "score_basis": {
+        "topic_overlap": 0.198,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3011845528",
+      "doi": "10.1002/lpor.202000070",
+      "title": "Photonic Perceptron Based on a Kerr Microcomb for High‐Speed, Scalable, Optical Neural Networks",
+      "authors": [
+        "Xingyuan Xu",
+        "Mengxi Tan",
+        "Bill Corcoran",
+        "Jiayang Wu",
+        "Thach Giang Nguyen",
+        "Andreas Boes",
+        "Sai T. Chu",
+        "Brent E. Little",
+        "Roberto Morandotti",
+        "Arnan Mitchell",
+        "Damien G. Hicks",
+        "David Moss"
+      ],
+      "year": 2020,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical neural networks",
+        "perceptron",
+        "Kerr microcombs",
+        "wavelength spacing",
+        "optical matrix multiplication",
+        "high-speed processing",
+        "handwritten digit recognition",
+        "cancer cell detection"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202000070",
+      "cited_by_count": 449,
+      "importance": 0.5283,
+      "score_basis": {
+        "topic_overlap": 0.174,
+        "shared_references": 30,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2902498016",
+      "doi": "10.1109/jphot.2018.2881166",
+      "title": "Reconfigurable High-Resolution Microwave Photonic Filter Based on Dual-Ring-Assisted MZIs on the Si3N4 Platform",
+      "authors": [
+        "Qiankun Sun",
+        "Linjie Zhou",
+        "Liangjun Lu",
+        "Gangqiang Zhou",
+        "Jianping Chen"
+      ],
+      "year": 2018,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "microwave photonic filter",
+        "reconfigurable optical filter",
+        "silicon nitride waveguides",
+        "lattice structures",
+        "IIR filters"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2018.2881166",
+      "cited_by_count": 49,
+      "importance": 0.5238,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2901290053",
+      "doi": "10.1109/jlt.2018.2880934",
+      "title": "Complex Quantum State Generation and Coherent Control Based on Integrated Frequency Combs",
+      "authors": [
+        "Piotr Roztocki",
+        "Stefania Sciara",
+        "Christian Reimer",
+        "Luis Romero Cortés",
+        "Yanbing Young Zhang",
+        "Benjamin Wetzel",
+        "Mehedi Islam",
+        "Bennet Fischer",
+        "Alfonso Carmelo Cino",
+        "Sai Tak Chu",
+        "Brent E. Little",
+        "David Moss",
+        "Lucia Caspani",
+        "José Azaña",
+        "Michael Kues",
+        "Roberto Morandotti"
+      ],
+      "year": 2018,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "quantum frequency combs",
+        "coherent control",
+        "multi-photon states",
+        "high-dimensional entanglement",
+        "photon pair entanglement"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2018.2880934",
+      "cited_by_count": 188,
+      "importance": 0.5225,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 9,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2055248285",
+      "doi": "10.1109/tmtt.2005.863060",
+      "title": "Photonic signal processing of microwave signals",
+      "authors": [
+        "Robert A. Minasian"
+      ],
+      "year": 2006,
+      "venue": "IEEE Transactions on Microwave Theory and Techniques",
+      "venue_abbr": "IEEE Transactions on Microwave Theory and Techniques",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical signal processing",
+        "microwave signal processing",
+        "optical delay line",
+        "arbitrary waveform generation",
+        "notch filter",
+        "phase-induced intensity noise",
+        "frequency shift",
+        "free spectral range",
+        "stopband attenuation"
+      ],
+      "url": "https://doi.org/10.1109/tmtt.2005.863060",
+      "cited_by_count": 675,
+      "importance": 0.5165,
+      "score_basis": {
+        "topic_overlap": 0.259,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3037492438",
+      "doi": "10.1103/physrevresearch.2.023395",
+      "title": "Turing patterns in a fiber laser with a nested microresonator: Robust and controllable microcomb generation",
+      "authors": [
+        "Hualong Bao",
+        "Luana Olivieri",
+        "Maxwell Rowley",
+        "Sai Tak Chu",
+        "Brent E. Little",
+        "Roberto Morandotti",
+        "David Moss",
+        "Juan Sebastian Totero Gongora",
+        "Marco Peccianti",
+        "Alessia Pasquazi"
+      ],
+      "year": 2020,
+      "venue": "Physical Review Research",
+      "venue_abbr": "Physical Review Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "microcombs",
+        "Turing patterns",
+        "fiber lasers",
+        "microresonator frequency combs",
+        "repetition rate control"
+      ],
+      "url": "https://doi.org/10.1103/physrevresearch.2.023395",
+      "cited_by_count": 253,
+      "importance": 0.5116,
+      "score_basis": {
+        "topic_overlap": 0.137,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2090125354",
+      "doi": "10.1364/oe.18.003858",
+      "title": "All-optical wavelength conversion in an integrated ring resonator",
+      "authors": [
+        "Alessia Pasquazi",
+        "Raja Ahmad",
+        "Martin Rochette",
+        "Michael R. E. Lamont",
+        "Brent E. Little",
+        "Sai T. Chu",
+        "Roberto Morandotti",
+        "David Moss"
+      ],
+      "year": 2010,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "all-optical wavelength conversion",
+        "ring resonator",
+        "four-wave mixing",
+        "integrated photonics",
+        "C-band",
+        "2.5 Gb/s"
+      ],
+      "url": "https://doi.org/10.1364/oe.18.003858",
+      "cited_by_count": 165,
+      "importance": 0.5112,
+      "score_basis": {
+        "topic_overlap": 0.025,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2977333316",
+      "doi": "10.1109/lpt.2019.2944564",
+      "title": "Generation and Processing of Complex Photon States With Quantum Frequency Combs",
+      "authors": [
+        "Stefania Sciara",
+        "Piotr Roztocki",
+        "Cristina Rimoldi",
+        "Mario Chemnitz",
+        "Bennet Fischer",
+        "Luis Romero Cortés",
+        "William J. Munro",
+        "David Moss",
+        "Lucia Caspani",
+        "Christian Reimer",
+        "José Azaña",
+        "Michael Kues",
+        "Roberto Morandotti"
+      ],
+      "year": 2019,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "quantum frequency combs",
+        "multipartite entanglement",
+        "high-dimensional entanglement",
+        "measurement-based quantum computation",
+        "integrated photonics",
+        "fiber-based quantum communication",
+        "quantum information"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2019.2944564",
+      "cited_by_count": 194,
+      "importance": 0.5111,
+      "score_basis": {
+        "topic_overlap": 0.136,
+        "shared_references": 9,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2129432638",
+      "doi": "10.1038/nphoton.2009.266",
+      "title": "Ultrabroad-bandwidth arbitrary radiofrequency waveform generation with a silicon photonic chip-based spectral shaper",
+      "authors": [
+        "Maroof H. Khan",
+        "Hao Shen",
+        "Yi Xuan",
+        "Lin Zhao",
+        "Shijun Xiao",
+        "Daniel E. Leaird",
+        "Andrew M. Weiner",
+        "Minghao Qi"
+      ],
+      "year": 2010,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "arbitrary waveform generation",
+        "spectral shaping",
+        "silicon photonics",
+        "microring resonators",
+        "cascaded resonators",
+        "programmable photonic circuits",
+        "60 GHz",
+        "wireless communication",
+        "data rate"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2009.266",
+      "cited_by_count": 444,
+      "importance": 0.5102,
+      "score_basis": {
+        "topic_overlap": 0.134,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2008541503",
+      "doi": "10.1038/nphoton.2011.199",
+      "title": "Sub-picosecond phase-sensitive optical pulse characterization on a chip",
+      "authors": [
+        "Alessia Pasquazi",
+        "Marco Peccianti",
+        "Yongwoo Park",
+        "Brent E. Little",
+        "Sai T. Chu",
+        "Roberto Morandotti",
+        "José Azaña",
+        "David Moss"
+      ],
+      "year": 2011,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical pulse characterization",
+        "phase-sensitive measurement",
+        "spiders",
+        "degenerate four-wave mixing",
+        "CMOS-compatible photonics",
+        "integrated photonics",
+        "coherent optical communication",
+        "time-bandwidth product",
+        "high peak power pulses"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2011.199",
+      "cited_by_count": 449,
+      "importance": 0.5096,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1826402524",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1826402524"
+        }
+      ]
+    },
+    {
+      "from": "W1826402524",
+      "to": "W2150142664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1826402524"
+        }
+      ]
+    },
+    {
+      "from": "W1826402524",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1826402524"
+        }
+      ]
+    },
+    {
+      "from": "W1963729996",
+      "to": "W2055248285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1963729996"
+        }
+      ]
+    },
+    {
+      "from": "W1986299972",
+      "to": "W2008541503",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1986299972"
+        }
+      ]
+    },
+    {
+      "from": "W1986299972",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1986299972"
+        }
+      ]
+    },
+    {
+      "from": "W1986299972",
+      "to": "W2150142664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1986299972"
+        }
+      ]
+    },
+    {
+      "from": "W1986299972",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1986299972"
+        }
+      ]
+    },
+    {
+      "from": "W2054494769",
+      "to": "W2090125354",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2054494769"
+        }
+      ]
+    },
+    {
+      "from": "W2055207878",
+      "to": "W2008541503",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2055207878"
+        }
+      ]
+    },
+    {
+      "from": "W2055207878",
+      "to": "W2090125354",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2055207878"
+        }
+      ]
+    },
+    {
+      "from": "W2055207878",
+      "to": "W2150142664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2055207878"
+        }
+      ]
+    },
+    {
+      "from": "W2066872867",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2066872867"
+        }
+      ]
+    },
+    {
+      "from": "W2066872867",
+      "to": "W2055248285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2066872867"
+        }
+      ]
+    },
+    {
+      "from": "W2066872867",
+      "to": "W2129432638",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2066872867"
+        }
+      ]
+    },
+    {
+      "from": "W2066872867",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2066872867"
+        }
+      ]
+    },
+    {
+      "from": "W2066872867",
+      "to": "W2584201205",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2066872867"
+        }
+      ]
+    },
+    {
+      "from": "W2129432638",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2129432638"
+        }
+      ]
+    },
+    {
+      "from": "W2129432638",
+      "to": "W2055248285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2129432638"
+        }
+      ]
+    },
+    {
+      "from": "W2130590343",
+      "to": "W2008541503",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2130590343"
+        }
+      ]
+    },
+    {
+      "from": "W2130590343",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2130590343"
+        }
+      ]
+    },
+    {
+      "from": "W2130590343",
+      "to": "W2090125354",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2130590343"
+        }
+      ]
+    },
+    {
+      "from": "W2130590343",
+      "to": "W2150142664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2130590343"
+        }
+      ]
+    },
+    {
+      "from": "W2150142664",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2150142664"
+        }
+      ]
+    },
+    {
+      "from": "W2150142664",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2150142664"
+        }
+      ]
+    },
+    {
+      "from": "W2156857373",
+      "to": "W2008541503",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2156857373"
+        }
+      ]
+    },
+    {
+      "from": "W2156857373",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2156857373"
+        }
+      ]
+    },
+    {
+      "from": "W2156857373",
+      "to": "W2090125354",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2156857373"
+        }
+      ]
+    },
+    {
+      "from": "W2156857373",
+      "to": "W2129432638",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2156857373"
+        }
+      ]
+    },
+    {
+      "from": "W2293694307",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2293694307"
+        }
+      ]
+    },
+    {
+      "from": "W2293694307",
+      "to": "W2055248285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2293694307"
+        }
+      ]
+    },
+    {
+      "from": "W2293694307",
+      "to": "W2129432638",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2293694307"
+        }
+      ]
+    },
+    {
+      "from": "W2293694307",
+      "to": "W2559874245",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2293694307"
+        }
+      ]
+    },
+    {
+      "from": "W2293694307",
+      "to": "W2584201205",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2293694307"
+        }
+      ]
+    },
+    {
+      "from": "W2293694307",
+      "to": "W2765087426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2293694307"
+        }
+      ]
+    },
+    {
+      "from": "W2293694307",
+      "to": "W2909818755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2293694307"
+        }
+      ]
+    },
+    {
+      "from": "W2343948806",
+      "to": "W1826402524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2343948806"
+        }
+      ]
+    },
+    {
+      "from": "W2343948806",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2343948806"
+        }
+      ]
+    },
+    {
+      "from": "W2343948806",
+      "to": "W2150142664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2343948806"
+        }
+      ]
+    },
+    {
+      "from": "W2343948806",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2343948806"
+        }
+      ]
+    },
+    {
+      "from": "W2527121768",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2527121768"
+        }
+      ]
+    },
+    {
+      "from": "W2527121768",
+      "to": "W2066872867",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2527121768"
+        }
+      ]
+    },
+    {
+      "from": "W2527121768",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2527121768"
+        }
+      ]
+    },
+    {
+      "from": "W2539331899",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2539331899"
+        }
+      ]
+    },
+    {
+      "from": "W2539331899",
+      "to": "W2066872867",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2539331899"
+        }
+      ]
+    },
+    {
+      "from": "W2539331899",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2539331899"
+        }
+      ]
+    },
+    {
+      "from": "W2539331899",
+      "to": "W2584201205",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2539331899"
+        }
+      ]
+    },
+    {
+      "from": "W2559874245",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2559874245"
+        }
+      ]
+    },
+    {
+      "from": "W2559874245",
+      "to": "W2129432638",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2559874245"
+        }
+      ]
+    },
+    {
+      "from": "W2559874245",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2559874245"
+        }
+      ]
+    },
+    {
+      "from": "W2559874245",
+      "to": "W2584201205",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2559874245"
+        }
+      ]
+    },
+    {
+      "from": "W2584201205",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2584201205"
+        }
+      ]
+    },
+    {
+      "from": "W2584201205",
+      "to": "W2054494769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2584201205"
+        }
+      ]
+    },
+    {
+      "from": "W2584201205",
+      "to": "W2055248285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2584201205"
+        }
+      ]
+    },
+    {
+      "from": "W2584201205",
+      "to": "W2129432638",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2584201205"
+        }
+      ]
+    },
+    {
+      "from": "W2584201205",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2584201205"
+        }
+      ]
+    },
+    {
+      "from": "W2729599614",
+      "to": "W2055248285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2729599614"
+        }
+      ]
+    },
+    {
+      "from": "W2729599614",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2729599614"
+        }
+      ]
+    },
+    {
+      "from": "W2729599614",
+      "to": "W2559874245",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2729599614"
+        }
+      ]
+    },
+    {
+      "from": "W2729599614",
+      "to": "W2584201205",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2729599614"
+        }
+      ]
+    },
+    {
+      "from": "W2739704173",
+      "to": "W1826402524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2739704173"
+        }
+      ]
+    },
+    {
+      "from": "W2739704173",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2739704173"
+        }
+      ]
+    },
+    {
+      "from": "W2739704173",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2739704173"
+        }
+      ]
+    },
+    {
+      "from": "W2739704173",
+      "to": "W2150142664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2739704173"
+        }
+      ]
+    },
+    {
+      "from": "W2739704173",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2739704173"
+        }
+      ]
+    },
+    {
+      "from": "W2739704173",
+      "to": "W2343948806",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2739704173"
+        }
+      ]
+    },
+    {
+      "from": "W2760400020",
+      "to": "W1986299972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2760400020"
+        }
+      ]
+    },
+    {
+      "from": "W2760400020",
+      "to": "W2054494769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2760400020"
+        }
+      ]
+    },
+    {
+      "from": "W2760400020",
+      "to": "W2066872867",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2760400020"
+        }
+      ]
+    },
+    {
+      "from": "W2760400020",
+      "to": "W2129432638",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2760400020"
+        }
+      ]
+    },
+    {
+      "from": "W2760400020",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2760400020"
+        }
+      ]
+    },
+    {
+      "from": "W2763363916",
+      "to": "W1826402524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2763363916"
+        }
+      ]
+    },
+    {
+      "from": "W2763363916",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2763363916"
+        }
+      ]
+    },
+    {
+      "from": "W2763363916",
+      "to": "W2066872867",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2763363916"
+        }
+      ]
+    },
+    {
+      "from": "W2763363916",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2763363916"
+        }
+      ]
+    },
+    {
+      "from": "W2763363916",
+      "to": "W2150142664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2763363916"
+        }
+      ]
+    },
+    {
+      "from": "W2763363916",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2763363916"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W1826402524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W1986299972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W2066872867",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W2150142664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W2739704173",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W2760400020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2765087426",
+      "to": "W2797680338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2765087426"
+        }
+      ]
+    },
+    {
+      "from": "W2797680338",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2797680338"
+        }
+      ]
+    },
+    {
+      "from": "W2797680338",
+      "to": "W1986299972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2797680338"
+        }
+      ]
+    },
+    {
+      "from": "W2797680338",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2797680338"
+        }
+      ]
+    },
+    {
+      "from": "W2797680338",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2797680338"
+        }
+      ]
+    },
+    {
+      "from": "W2797680338",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2797680338"
+        }
+      ]
+    },
+    {
+      "from": "W2797680338",
+      "to": "W2760400020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2797680338"
+        }
+      ]
+    },
+    {
+      "from": "W2797680338",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2797680338"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W1986299972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W2090125354",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W2584201205",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W2760400020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W2765087426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2886839355",
+      "to": "W2797680338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2886839355"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W2090125354",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W2584201205",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W2760400020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W2765087426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W2797680338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2892415914",
+      "to": "W2886839355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892415914"
+        }
+      ]
+    },
+    {
+      "from": "W2901290053",
+      "to": "W1826402524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2901290053"
+        }
+      ]
+    },
+    {
+      "from": "W2901290053",
+      "to": "W2150142664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2901290053"
+        }
+      ]
+    },
+    {
+      "from": "W2901290053",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2901290053"
+        }
+      ]
+    },
+    {
+      "from": "W2901290053",
+      "to": "W2343948806",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2901290053"
+        }
+      ]
+    },
+    {
+      "from": "W2901290053",
+      "to": "W2739704173",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2901290053"
+        }
+      ]
+    },
+    {
+      "from": "W2901290053",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2901290053"
+        }
+      ]
+    },
+    {
+      "from": "W2902498016",
+      "to": "W2559874245",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2902498016"
+        }
+      ]
+    },
+    {
+      "from": "W2909818755",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2909818755"
+        }
+      ]
+    },
+    {
+      "from": "W2909818755",
+      "to": "W2055248285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2909818755"
+        }
+      ]
+    },
+    {
+      "from": "W2909818755",
+      "to": "W2129432638",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2909818755"
+        }
+      ]
+    },
+    {
+      "from": "W2909818755",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2909818755"
+        }
+      ]
+    },
+    {
+      "from": "W2909818755",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2909818755"
+        }
+      ]
+    },
+    {
+      "from": "W2909818755",
+      "to": "W2559874245",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2909818755"
+        }
+      ]
+    },
+    {
+      "from": "W2909818755",
+      "to": "W2584201205",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2909818755"
+        }
+      ]
+    },
+    {
+      "from": "W2909818755",
+      "to": "W2729599614",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2909818755"
+        }
+      ]
+    },
+    {
+      "from": "W2909818755",
+      "to": "W2765087426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2909818755"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W1986299972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2090125354",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2760400020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2765087426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2797680338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2799284617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2886839355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2911387168",
+      "to": "W2892415914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2911387168"
+        }
+      ]
+    },
+    {
+      "from": "W2916682550",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2916682550"
+        }
+      ]
+    },
+    {
+      "from": "W2977333316",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2977333316"
+        }
+      ]
+    },
+    {
+      "from": "W2977333316",
+      "to": "W2343948806",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2977333316"
+        }
+      ]
+    },
+    {
+      "from": "W2977333316",
+      "to": "W2739704173",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2977333316"
+        }
+      ]
+    },
+    {
+      "from": "W2977333316",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2977333316"
+        }
+      ]
+    },
+    {
+      "from": "W2977333316",
+      "to": "W2901290053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2977333316"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2055248285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2066872867",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2760400020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2765087426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2797680338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2799284617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2886839355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2892415914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2911387168",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W2979673467",
+      "to": "W2916682550",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979673467"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W1986299972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W2760400020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W2765087426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W2797680338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W2799284617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W2886839355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W2892415914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3002893622",
+      "to": "W2911387168",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3002893622"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W1826402524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W1986299972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2090125354",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2150142664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2343948806",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2739704173",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2760400020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2765087426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2797680338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2799284617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2886839355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2892415914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2909818755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2911387168",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2916682550",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W2979673467",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3007528374",
+      "to": "W3002893622",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3007528374"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2559874245",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2584201205",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2729599614",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2760400020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2765087426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2886839355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2902498016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2909818755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2911387168",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3008288796",
+      "to": "W2979673467",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008288796"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2054494769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2760400020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2765087426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2797680338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2799284617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2886839355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2892415914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2911387168",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W2979673467",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3011845528",
+      "to": "W3002893622",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3011845528"
+        }
+      ]
+    },
+    {
+      "from": "W3037492438",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3037492438"
+        }
+      ]
+    },
+    {
+      "from": "W3037492438",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3037492438"
+        }
+      ]
+    },
+    {
+      "from": "W3037492438",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3037492438"
+        }
+      ]
+    },
+    {
+      "from": "W3037492438",
+      "to": "W2916682550",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3037492438"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W1826402524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W1963729996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W1986299972",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2008541503",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2054494769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2055207878",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2055248285",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2066872867",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2090125354",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2129432638",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2130590343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2150142664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2156857373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2293694307",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2343948806",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2527121768",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2539331899",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2559874245",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2584201205",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2729599614",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2739704173",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2760400020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2763363916",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2765087426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2797680338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2799284617",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2886839355",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2892415914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2901290053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2902498016",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2909818755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2911387168",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2916682550",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2977333316",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W2979673467",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W3002893622",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W3007528374",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W3008288796",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W3011845528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    },
+    {
+      "from": "W7203647968",
+      "to": "W3037492438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203647968"
+        }
+      ]
+    }
+  ]
 }

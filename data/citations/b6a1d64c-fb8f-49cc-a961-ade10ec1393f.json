@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "b6a1d64c-fb8f-49cc-a961-ade10ec1393f",
-  "root": "doi:10.1021/acsnano.6c15970",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7224543266",
+  "status": "ok",
+  "checked_at": "2026-11-07T00:51:01.298472+00:00",
+  "coverage": {
+    "references_found": 60,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 60,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1021/acsnano.6c15970",
+      "id": "W7224543266",
       "doi": "10.1021/acsnano.6c15970",
       "title": "Dopant-Enhanced Polarization in ReS2 Field-Effect Transistor",
       "authors": [
@@ -22,20 +32,2640 @@
         "Evgeny Gennad’evich Zamburg",
         "Aaron Thean"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "ACS Nano",
       "venue_abbr": "ACS Nano",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "ReS2",
+        "transition metal dichalcogenides",
+        "field-effect transistors",
+        "optical polarization",
+        "in-plane anisotropy",
+        "platinum doping",
+        "orbital hybridization",
+        "band reconstruction",
+        "contact resistance",
+        "tunnel barrier",
+        "image decoding",
+        "optoelectronic devices"
+      ],
       "url": "https://doi.org/10.1021/acsnano.6c15970",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/b6a1d64c-fb8f-49cc-a961-ade10ec1393f.html",
       "summary": "该研究结合第一性原理计算、晶体管器件实验与概念验证仿真。计算将Pt筛选为增强ReS₂面内各向异性的候选元素，并在所提出的S位替代模型中预测定向轨道杂化及各向异性能带重构。含0.93 at. % Pt的器件偏振相关电流各向异性比最高为16，原始器件为1.45；接触电阻降至0.85 kΩ·μm。器件校准的图像解码仿真中，每个RGB通道状态数从2增至10时，峰值信噪比从12.2增至37.3 dB。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4405990268",
+      "doi": "10.1063/5.0226193",
+      "title": "Structural and optoelectronic characterization of anisotropic two-dimensional materials and applications in polarization-sensitive photodetectors",
+      "authors": [
+        "Zhitao Lin",
+        "Xianguang Yang",
+        "Jiahuan He",
+        "Ning Dong",
+        "Baojun Li"
+      ],
+      "year": 2025,
+      "venue": "Applied Physics Reviews",
+      "venue_abbr": "Applied Physics Reviews",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-sensitive photodetectors",
+        "crystal anisotropy",
+        "optoelectronic characterization",
+        "crystal structure"
+      ],
+      "url": "https://doi.org/10.1063/5.0226193",
+      "cited_by_count": 60,
+      "importance": 0.5981,
+      "score_basis": {
+        "topic_overlap": 0.285,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413088431",
+      "doi": "10.1002/adom.202501868",
+      "title": "Infrared High Polarization‐Sensitive and High‐Responsivity Photodetector Based on 2D Heterojunction Bipolar Transistor",
+      "authors": [
+        "Hui Fang",
+        "Lidan Lu",
+        "Yuting Pan",
+        "Leidong Shi",
+        "Weiqiang Chen",
+        "Guang Chen",
+        "Jian Zhen Ou",
+        "Lianqing Zhu"
+      ],
+      "year": 2025,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-sensitive photodetectors",
+        "infrared detectors",
+        "heterojunction bipolar transistors",
+        "polarization-dependent photocurrent",
+        "detectivity",
+        "external quantum efficiency",
+        "two-dimensional transition metal dichalcogenides"
+      ],
+      "url": "https://doi.org/10.1002/adom.202501868",
+      "cited_by_count": 1,
+      "importance": 0.5949,
+      "score_basis": {
+        "topic_overlap": 0.322,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400294150",
+      "doi": "10.1002/adfm.202409331",
+      "title": "High‐Performance Self‐Driven Polarization‐Sensitive Imaging Photodetectors based on Fully Depleted T‐MoSe2/GeSe/B‐MoSe2 Van der Waals Dual‐Heterojunction",
+      "authors": [
+        "Kang An",
+        "Yuan Pan",
+        "Ximing Rong",
+        "Tao Zheng",
+        "Ling Li",
+        "Huiru Sun",
+        "Jiang Zeng",
+        "Yuheng Sang",
+        "Feiyong Huang",
+        "Dewu Yue",
+        "Won Jong Yoo",
+        "Hongyu Chen"
+      ],
+      "year": 2024,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-sensitive photodetectors",
+        "van der Waals heterostructures",
+        "in-plane optical anisotropy",
+        "self-powered photodetectors",
+        "two-dimensional materials",
+        "photoresponsivity",
+        "night vision imaging"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202409331",
+      "cited_by_count": 64,
+      "importance": 0.5797,
+      "score_basis": {
+        "topic_overlap": 0.155,
+        "shared_references": 5,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411424099",
+      "doi": "10.1038/s44287-025-00183-5",
+      "title": "Low-dimensional low-symmetric semiconductors for polarization-sensitive photodetection",
+      "authors": [
+        "Kaiyao Xin",
+        "Ziqi Zhou",
+        "Siqi Qiu",
+        "Tingwei Liu",
+        "Yali Yu",
+        "Juehan Yang",
+        "Weida Hu",
+        "Zhongming Wei"
+      ],
+      "year": 2025,
+      "venue": "Nature Reviews Electrical Engineering",
+      "venue_abbr": "Nature Reviews Electrical Engineering",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-sensitive photodetection",
+        "two-dimensional semiconductors",
+        "one-dimensional semiconductors",
+        "focal plane imaging",
+        "optoelectronic circuits",
+        "on-chip integration",
+        "photodetector arrays"
+      ],
+      "url": "https://doi.org/10.1038/s44287-025-00183-5",
+      "cited_by_count": 34,
+      "importance": 0.5759,
+      "score_basis": {
+        "topic_overlap": 0.28,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407156085",
+      "doi": "10.1039/d4nh00624k",
+      "title": "Development and challenges of polarization-sensitive photodetectors based on 2D materials",
+      "authors": [
+        "Yu Liang",
+        "Huafeng Dong",
+        "Wei Zhang",
+        "Zhaoqiang Zheng",
+        "Liang Ying",
+        "Jiandong Yao"
+      ],
+      "year": 2025,
+      "venue": "Nanoscale Horizons",
+      "venue_abbr": "Nanoscale Horizons",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-sensitive photodetectors",
+        "two-dimensional materials",
+        "van der Waals heterostructures",
+        "nanoantennas",
+        "structural strain",
+        "UV detection",
+        "infrared detection",
+        "photodetection mechanism"
+      ],
+      "url": "https://doi.org/10.1039/d4nh00624k",
+      "cited_by_count": 44,
+      "importance": 0.5315,
+      "score_basis": {
+        "topic_overlap": 0.248,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3195412306",
+      "doi": "10.1021/acsphotonics.1c00598",
+      "title": "2D MoTe 2 /ReS 2 van der Waals Heterostructure for High-Performance and Linear Polarization-Sensitive Photodetector",
+      "authors": [
+        "Jongtae Ahn",
+        "Jihoon Kyhm",
+        "Hee Kyoung Kang",
+        "Namhee Kwon",
+        "Hong‐Kyu Kim",
+        "Soohyung Park",
+        "Do Kyung Hwang"
+      ],
+      "year": 2021,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "van der Waals heterostructures",
+        "two-dimensional materials",
+        "photodetectors",
+        "photodiode",
+        "photoresponsivity",
+        "ideality factor",
+        "rectification ratio",
+        "near-infrared photodetection",
+        "photoswitching",
+        "optoelectronic devices"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.1c00598",
+      "cited_by_count": 131,
+      "importance": 0.4716,
+      "score_basis": {
+        "topic_overlap": 0.27,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4206351710",
+      "doi": "10.1002/adom.202102436",
+      "title": "Anisotropic Low‐Dimensional Materials for Polarization‐Sensitive Photodetectors: From Materials to Devices",
+      "authors": [
+        "Jing Wang",
+        "Changzhong Jiang",
+        "Wenqing Li",
+        "Xiangheng Xiao"
+      ],
+      "year": 2022,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-sensitive photodetectors",
+        "anisotropy",
+        "crystallographic anisotropy",
+        "operating mechanism"
+      ],
+      "url": "https://doi.org/10.1002/adom.202102436",
+      "cited_by_count": 162,
+      "importance": 0.4694,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313532651",
+      "doi": "10.1002/adfm.202210268",
+      "title": "Reconfigurable and Broadband Polarimetric Photodetector",
+      "authors": [
+        "Sina Li",
+        "Jielian Zhang",
+        "Lingyu Zhu",
+        "Kai Zhang",
+        "Wei Gao",
+        "Jingbo Li",
+        "Nengjie Huo"
+      ],
+      "year": 2023,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "broadband photodetection",
+        "MoTe2",
+        "van der Waals heterostructures",
+        "linear dichroism",
+        "polarization-sensitive photodetection",
+        "photovoltaic mode",
+        "two-dimensional materials"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202210268",
+      "cited_by_count": 55,
+      "importance": 0.4515,
+      "score_basis": {
+        "topic_overlap": 0.248,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410079592",
+      "doi": "10.1038/s41467-025-59423-9",
+      "title": "Uncovering the doping mechanism of nitric oxide in high-performance P-type WSe2 transistors",
+      "authors": [
+        "Hao-Yu Lan",
+        "Chih‐Pin Lin",
+        "Lina Liu",
+        "Jun Cai",
+        "Zheng Sun",
+        "Peng Wu",
+        "Yuanqiu Tan",
+        "Shao-Heng Yang",
+        "Tuo‐Hung Hou",
+        "Joerg Appenzeller",
+        "Zhihong Chen"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "WSe2",
+        "contact resistance",
+        "Schottky barrier",
+        "bilayer WSe2",
+        "monolayer WSe2",
+        "high-k dielectrics",
+        "two-dimensional semiconductors",
+        "transistor arrays"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-59423-9",
+      "cited_by_count": 52,
+      "importance": 0.4458,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3184160884",
+      "doi": "10.1021/acsnano.1c05316",
+      "title": "Doping-Mediated Lattice Engineering of Monolayer ReS2 for Modulating In-Plane Anisotropy of Optical and Transport Properties",
+      "authors": [
+        "Ganesh Ghimire",
+        "Krishna P. Dhakal",
+        "Wooseon Choi",
+        "Yonas Assefa Eshete",
+        "Seon Je Kim",
+        "Trang Thu Tran",
+        "Hyoyoung Lee",
+        "Heejun Yang",
+        "Dinh Loc Duong⧫",
+        "Young‐Min Kim",
+        "Jeongyong Kim"
+      ],
+      "year": 2021,
+      "venue": "ACS Nano",
+      "venue_abbr": "ACS Nano",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lattice engineering",
+        "lithium therapy",
+        "n-type doping",
+        "in-plane anisotropy",
+        "polarized Raman scattering",
+        "optical absorption anisotropy",
+        "strain",
+        "nanodomains",
+        "two-dimensional transition metal dichalcogenides",
+        "optoelectronic applications",
+        "phase conversion"
+      ],
+      "url": "https://doi.org/10.1021/acsnano.1c05316",
+      "cited_by_count": 34,
+      "importance": 0.4238,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404061245",
+      "doi": "10.1038/s41699-024-00507-3",
+      "title": "Achieving nearly barrier free transport in high mobility ReS2 phototransistors with van der Waals contacts",
+      "authors": [
+        "Shubhrasish Mukherjee",
+        "Gaurab Samanta",
+        "Md. Nur Hasan",
+        "Shubhadip Moulick",
+        "Ruta Kulkarni",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "A. Thamizhavel",
+        "Debjani Karmakar",
+        "Atindra Nath Pal"
+      ],
+      "year": 2024,
+      "venue": "npj 2D Materials and Applications",
+      "venue_abbr": "npj 2D Materials and Applications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "ReS2",
+        "phototransistor",
+        "van der Waals contacts",
+        "contact barrier",
+        "transition metal dichalcogenides",
+        "field-effect transistors",
+        "carrier mobility",
+        "metal-insulator transition",
+        "1/f noise"
+      ],
+      "url": "https://doi.org/10.1038/s41699-024-00507-3",
+      "cited_by_count": 21,
+      "importance": 0.4177,
+      "score_basis": {
+        "topic_overlap": 0.373,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2029281675",
+      "doi": "10.1038/ncomms5475",
+      "title": "High-mobility transport anisotropy and linear dichroism in few-layer black phosphorus",
+      "authors": [
+        "Jingsi Qiao",
+        "Xianghua Kong",
+        "Zhi-Xin Hu",
+        "Feng Yang",
+        "Wei Ji"
+      ],
+      "year": 2014,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "black phosphorus",
+        "few-layer black phosphorus",
+        "carrier mobility",
+        "anisotropic transport",
+        "linear dichroism",
+        "direct band gap",
+        "hole mobility",
+        "elastic anisotropy",
+        "absorption spectra",
+        "crystal orientation",
+        "two-dimensional semiconductors",
+        "nanoelectronics"
+      ],
+      "url": "https://doi.org/10.1038/ncomms5475",
+      "cited_by_count": 4417,
+      "importance": 0.4167,
+      "score_basis": {
+        "topic_overlap": 0.259,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3165092132",
+      "doi": "10.1038/s41928-021-00586-w",
+      "title": "Unipolar barrier photodetectors based on van der Waals heterostructures",
+      "authors": [
+        "Yunfeng Chen",
+        "Yang Wang",
+        "Zhen Wang",
+        "Yue Gu",
+        "Yan Ye",
+        "Xuliang Chai",
+        "Jiafu Ye",
+        "Yan Chen",
+        "Runzhang Xie",
+        "Yi Zhou",
+        "Zhigao Hu",
+        "Qing Li",
+        "Lili Zhang",
+        "Fang Wang",
+        "Peng Wang",
+        "Jinshui Miao",
+        "Jianlu Wang",
+        "Xiaoshuang Chen",
+        "Wei Lü",
+        "Peng Zhou",
+        "Weida Hu"
+      ],
+      "year": 2021,
+      "venue": "Nature Electronics",
+      "venue_abbr": "Nat. Electron.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "van der Waals heterostructures",
+        "dark current reduction",
+        "band structure engineering",
+        "tungsten disulfide",
+        "hexagonal boron nitride",
+        "palladium diselenide",
+        "black phosphorus",
+        "MoS2",
+        "graphene",
+        "visible light detection",
+        "dichroic ratio",
+        "two-dimensional materials"
+      ],
+      "url": "https://doi.org/10.1038/s41928-021-00586-w",
+      "cited_by_count": 611,
+      "importance": 0.4153,
+      "score_basis": {
+        "topic_overlap": 0.256,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2888305081",
+      "doi": "10.1038/s41566-018-0239-8",
+      "title": "Polarization-resolved black phosphorus/molybdenum disulfide mid-wave infrared photodiodes with high detectivity at room temperature",
+      "authors": [
+        "James Bullock",
+        "Matin Amani",
+        "Joy Cho",
+        "Yuze Chen",
+        "Geun Ho Ahn",
+        "Valerio Adinolfi",
+        "Vivek Raj Shrestha",
+        "Yang Gao",
+        "Kenneth B. Crozier",
+        "Yu‐Lun Chueh",
+        "Ali Javey"
+      ],
+      "year": 2018,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "black phosphorus",
+        "MoS2",
+        "mid-wave infrared photodetectors",
+        "room-temperature infrared detection",
+        "detectivity",
+        "external quantum efficiency",
+        "optical anisotropy",
+        "light management"
+      ],
+      "url": "https://doi.org/10.1038/s41566-018-0239-8",
+      "cited_by_count": 580,
+      "importance": 0.4147,
+      "score_basis": {
+        "topic_overlap": 0.144,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4224296438",
+      "doi": "10.1002/admi.202200150",
+      "title": "Near‐Infrared, Self‐Powered and Polarization‐Sensitive Photodetector Based on GeSe–MoTe2 p–n Heterojunction",
+      "authors": [
+        "Nan Zhang",
+        "Liangwei Wu",
+        "Wei Gao",
+        "Qixiao Zhao",
+        "Nengjie Huo",
+        "Jingbo Li"
+      ],
+      "year": 2022,
+      "venue": "Advanced Materials Interfaces",
+      "venue_abbr": "Advanced Materials Interfaces",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-sensitive photodetectors",
+        "near-infrared photodetection",
+        "self-powered photodetectors",
+        "p-n heterojunction",
+        "type-II band alignment",
+        "anisotropic 2D materials",
+        "germanium selenide",
+        "MoTe2",
+        "broadband photodetection",
+        "dark current",
+        "detectivity"
+      ],
+      "url": "https://doi.org/10.1002/admi.202200150",
+      "cited_by_count": 66,
+      "importance": 0.4147,
+      "score_basis": {
+        "topic_overlap": 0.144,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4200137514",
+      "doi": "10.1021/acsami.1c19526",
+      "title": "A Polarization-Sensitive Self-Powered Photodetector Based on a p-WSe2/TaIrTe4/n-MoS2 van der Waals Heterojunction",
+      "authors": [
+        "Xiaoning Han",
+        "Peiting Wen",
+        "Li Zhang",
+        "Wei Gao",
+        "Hongyu Chen",
+        "Feng Gao",
+        "Shihao Zhang",
+        "Nengjie Huo",
+        "Bingsuo Zou",
+        "Jingbo Li"
+      ],
+      "year": 2021,
+      "venue": "ACS Applied Materials & Interfaces",
+      "venue_abbr": "ACS Appl. Mater. Interfaces",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-sensitive photodetection",
+        "self-powered photodetectors",
+        "TaIrTe4",
+        "type-II Weyl semimetal",
+        "van der Waals heterostructures",
+        "broadband photodetection",
+        "built-in electric field"
+      ],
+      "url": "https://doi.org/10.1021/acsami.1c19526",
+      "cited_by_count": 56,
+      "importance": 0.4074,
+      "score_basis": {
+        "topic_overlap": 0.261,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3034327216",
+      "doi": "10.1002/adfm.202003057",
+      "title": "Domain Engineering in ReS2 by Coupling Strain during Electrochemical Exfoliation",
+      "authors": [
+        "Wei Hua Yu",
+        "Zishen Wang",
+        "Xiaoxu Zhao",
+        "Junyong Wang",
+        "Tun Seng Herng",
+        "Teng Ma",
+        "Zhiyu Zhu",
+        "Jun Ding",
+        "Goki Eda",
+        "Stephen John Pennycook",
+        "Yuan Ping Feng",
+        "Kian Ping Loh"
+      ],
+      "year": 2020,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "ReS2",
+        "domain engineering",
+        "electrochemical exfoliation",
+        "electrochemical intercalation",
+        "optical dichroism",
+        "ferromagnetism",
+        "lattice strain",
+        "sulfur vacancies",
+        "transition metal dichalcogenides",
+        "nanosheets"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202003057",
+      "cited_by_count": 40,
+      "importance": 0.4035,
+      "score_basis": {
+        "topic_overlap": 0.297,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4229029600",
+      "doi": "10.1002/adfm.202202658",
+      "title": "Symmetry Engineering Induced In‐Plane Polarization in MoS 2 through Van der Waals Interlayer Coupling",
+      "authors": [
+        "Xiaoming Zheng",
+        "Yuehua Wei",
+        "Xiangzhe Zhang",
+        "Zhenhua Wei",
+        "Wei Luo",
+        "Xiao Dong Guo",
+        "Jinxin Liu",
+        "Gang Peng",
+        "Weiwei Cai",
+        "Han Huang",
+        "Tieyu Lv",
+        "Chuyun Deng",
+        "Xueao Zhang"
+      ],
+      "year": 2022,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "symmetry engineering",
+        "MoS2",
+        "CrOCl",
+        "van der Waals heterostructures",
+        "in-plane polarization",
+        "anisotropy",
+        "uniaxial strain",
+        "lattice mismatch",
+        "interlayer coupling",
+        "second harmonic generation",
+        "polarization-sensitive photodetection",
+        "transition metal dichalcogenides"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202202658",
+      "cited_by_count": 103,
+      "importance": 0.3908,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406770209",
+      "doi": "10.1021/acsnano.4c15341",
+      "title": "Unraveling the Role of Interfacial Interactions in Electrical Contacts of Atomically Thin Transition-Metal Dichalcogenides",
+      "authors": [
+        "Meiying Gong",
+        "Dabao Xie",
+        "Yiqian Tian",
+        "Zeqi Hua",
+        "Congmin Zhang",
+        "Meng Li",
+        "Dan Cao",
+        "Jing Zhou",
+        "Xiaoshuang Chen",
+        "Haibo Shu"
+      ],
+      "year": 2025,
+      "venue": "ACS Nano",
+      "venue_abbr": "ACS Nano",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "transition metal dichalcogenides",
+        "metal-semiconductor contacts",
+        "van der Waals contacts",
+        "interfacial coupling",
+        "Fermi level pinning",
+        "contact resistance",
+        "Schottky barrier",
+        "MXene",
+        "silver electrodes",
+        "MoS2",
+        "WSe2",
+        "1T-phase MoS2"
+      ],
+      "url": "https://doi.org/10.1021/acsnano.4c15341",
+      "cited_by_count": 50,
+      "importance": 0.3901,
+      "score_basis": {
+        "topic_overlap": 0.311,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4213390251",
+      "doi": "10.1016/j.matpr.2022.02.199",
+      "title": "First principle study of Rh/Ru doped pentagonal PdSe2 for detection of SO2 and SO3 gas",
+      "authors": [
+        "Bibek Chettri",
+        "Arman Sharma",
+        "Sanat Kr. Das",
+        "Bikash Sharma"
+      ],
+      "year": 2022,
+      "venue": "Materials Today Proceedings",
+      "venue_abbr": "Materials Today Proceedings",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "Rh doping",
+        "ruthenium doping",
+        "SO2 gas sensing",
+        "gas adsorption",
+        "adsorption energy",
+        "band gap tuning",
+        "density of states",
+        "charge transfer",
+        "two-dimensional transition metal dichalcogenides",
+        "gas sensors"
+      ],
+      "url": "https://doi.org/10.1016/j.matpr.2022.02.199",
+      "cited_by_count": 16,
+      "importance": 0.3843,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410581884",
+      "doi": "10.1021/acsami.5c04007",
+      "title": "Asymmetric Schottky Contacts Enhanced Two-Dimensional Heterojunctions for Self-Powered Broadband and Polarization-Sensitive Photodetection",
+      "authors": [
+        "Danzhi Wang",
+        "Hangyu Li",
+        "J.J. Liu",
+        "Yu Qin",
+        "Jiayi Zhao",
+        "Pengfei Hou"
+      ],
+      "year": 2025,
+      "venue": "ACS Applied Materials & Interfaces",
+      "venue_abbr": "ACS Appl. Mater. Interfaces",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "van der Waals materials",
+        "Fermi level pinning",
+        "polarization-sensitive photodetection",
+        "broadband photodetection",
+        "self-powered photodetection",
+        "rectification ratio",
+        "in-plane anisotropy",
+        "MoTe2"
+      ],
+      "url": "https://doi.org/10.1021/acsami.5c04007",
+      "cited_by_count": 24,
+      "importance": 0.3794,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3199341369",
+      "doi": "10.1039/d1mh01287h",
+      "title": "High performance polarization-sensitive self-powered imaging photodetectors based on a p-Te/n-MoSe 2 van der Waals heterojunction with strong interlayer transition",
+      "authors": [
+        "Qixiao Zhao",
+        "Feng Gao",
+        "Hongyu Chen",
+        "Wei Gao",
+        "Mengjia Xia",
+        "Yuan Pan",
+        "Hongyan Shi",
+        "Shichen Su",
+        "Xiaosheng Fang",
+        "Jingbo Li"
+      ],
+      "year": 2021,
+      "venue": "Materials Horizons",
+      "venue_abbr": "Materials Horizons",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-sensitive photodetectors",
+        "van der Waals heterostructures",
+        "MoSe2",
+        "tellurium",
+        "low energy consumption"
+      ],
+      "url": "https://doi.org/10.1039/d1mh01287h",
+      "cited_by_count": 120,
+      "importance": 0.3774,
+      "score_basis": {
+        "topic_overlap": 0.261,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401389758",
+      "doi": "10.1021/acsnano.4c07267",
+      "title": "Low Contact Resistance on Monolayer MoS 2 Field-Effect Transistors Achieved by CMOS-Compatible Metal Contacts",
+      "authors": [
+        "Zheng Sun",
+        "Seong Yeoul Kim",
+        "Jun Cai",
+        "Jianan Shen",
+        "Hao-Yu Lan",
+        "Yuanqiu Tan",
+        "Xinglu Wang",
+        "Chao Shen",
+        "Haiyan Wang",
+        "Zhihong Chen",
+        "Robert Milo Wallace",
+        "Joerg Appenzeller"
+      ],
+      "year": 2024,
+      "venue": "ACS Nano",
+      "venue_abbr": "ACS Nano",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "monolayer MoS2",
+        "field-effect transistors",
+        "contact resistance",
+        "ultrahigh vacuum deposition",
+        "Fermi level pinning",
+        "Schottky barrier height",
+        "interface chemistry",
+        "Ni contacts",
+        "transition metal dichalcogenides",
+        "thermal stability",
+        "contact reliability"
+      ],
+      "url": "https://doi.org/10.1021/acsnano.4c07267",
+      "cited_by_count": 54,
+      "importance": 0.3773,
+      "score_basis": {
+        "topic_overlap": 0.239,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4225108535",
+      "doi": "10.1021/acsami.2c04204",
+      "title": "Strong In-Plane Optical and Electrical Anisotropies of Multilayered γ-InSe for High-Responsivity Polarization-Sensitive Photodetectors",
+      "authors": [
+        "Yuan Pan",
+        "Qixiao Zhao",
+        "Feng Gao",
+        "Mingjin Dai",
+        "Wei Gao",
+        "Tao Zheng",
+        "Shichen Su",
+        "Jingbo Li",
+        "Hongyu Chen"
+      ],
+      "year": 2022,
+      "venue": "ACS Applied Materials & Interfaces",
+      "venue_abbr": "ACS Appl. Mater. Interfaces",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "indium selenide",
+        "in-plane anisotropy",
+        "polarization-sensitive photodetectors",
+        "responsivity",
+        "carrier mobility",
+        "armchair and zigzag directions",
+        "external quantum efficiency",
+        "optoelectronic properties",
+        "low-symmetry structures"
+      ],
+      "url": "https://doi.org/10.1021/acsami.2c04204",
+      "cited_by_count": 51,
+      "importance": 0.3684,
+      "score_basis": {
+        "topic_overlap": 0.285,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408865433",
+      "doi": "10.1021/acs.nanolett.5c00461",
+      "title": "Rotation-Symmetry Grating Contact Photodetector for Visible Full Linear Polarimetry Detection",
+      "authors": [
+        "Chunhua Wang",
+        "Chenglin He",
+        "Liang Liu",
+        "Zilan Tang",
+        "Yufan Wang",
+        "Honglin Wang",
+        "Wenqi Liu",
+        "Xiao Wang",
+        "Xiaoxia Wang",
+        "Anlian Pan"
+      ],
+      "year": 2025,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "linear polarimetry",
+        "surface plasmon polaritons",
+        "visible light detection"
+      ],
+      "url": "https://doi.org/10.1021/acs.nanolett.5c00461",
+      "cited_by_count": 19,
+      "importance": 0.3623,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4399047949",
+      "doi": "10.1038/s41928-024-01176-2",
+      "title": "Yttrium-doping-induced metallization of molybdenum disulfide for ohmic contacts in two-dimensional transistors",
+      "authors": [
+        "Jianfeng Jiang",
+        "Lin Xu",
+        "Luojun Du",
+        "Lu Li",
+        "Guangyu Zhang",
+        "Chenguang Qiu",
+        "Lian‐Mao Peng"
+      ],
+      "year": 2024,
+      "venue": "Nature Electronics",
+      "venue_abbr": "Nat. Electron.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "MoS2",
+        "yttrium doping",
+        "metallization",
+        "ohmic contacts",
+        "two-dimensional transistors",
+        "field-effect transistors",
+        "Fermi level pinning",
+        "van der Waals heterostructures",
+        "solid-state doping",
+        "contact resistance",
+        "ballistic transport",
+        "wafer-scale integration"
+      ],
+      "url": "https://doi.org/10.1038/s41928-024-01176-2",
+      "cited_by_count": 210,
+      "importance": 0.3469,
+      "score_basis": {
+        "topic_overlap": 0.193,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387697966",
+      "doi": "10.1088/2053-1583/ad0402",
+      "title": "Polarization-tuneable excitonic spectral features in the optoelectronic response of atomically thin ReS2",
+      "authors": [
+        "Daniel Vaquero",
+        "Olga Arroyo-Gascón",
+        "Juan Salvador‐Sánchez",
+        "Pedro L. Alcázar Ruano",
+        "E. Díez",
+        "Ana Pérez‐Rodríguez",
+        "J. D. Correa",
+        "Francisco Domínguez-Adame",
+        "Leonor Chico",
+        "Jorge Quereda"
+      ],
+      "year": 2023,
+      "venue": "2D Materials",
+      "venue_abbr": "2D Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "ReS2",
+        "dichroism",
+        "polarization-dependent photocurrent",
+        "excitons",
+        "photodetectors",
+        "few-layer transition metal dichalcogenides",
+        "Bethe-Salpeter equation",
+        "cryogenic temperatures",
+        "optoelectronic response"
+      ],
+      "url": "https://doi.org/10.1088/2053-1583/ad0402",
+      "cited_by_count": 3,
+      "importance": 0.3432,
+      "score_basis": {
+        "topic_overlap": 0.318,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407374517",
+      "doi": "10.1002/adma.202416041",
+      "title": "2D AgTiPS6: a Cross‐Stacked In‐Plane Anisotropic Semiconductor for Broadband and Polarization‐Sensitive Photodetection",
+      "authors": [
+        "Dong Wu",
+        "Fafa Wu",
+        "Wanfu Shen",
+        "Liujiang Zhou",
+        "Chunguang Hu",
+        "Peng Yu",
+        "Guowei Yang"
+      ],
+      "year": 2025,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "in-plane anisotropy",
+        "photodetectors",
+        "polarization-sensitive photodetection",
+        "broadband photodetection",
+        "photothermoelectric effect",
+        "n-type semiconductors",
+        "environmental stability",
+        "laser-induced damage threshold",
+        "optoelectronic devices"
+      ],
+      "url": "https://doi.org/10.1002/adma.202416041",
+      "cited_by_count": 25,
+      "importance": 0.3415,
+      "score_basis": {
+        "topic_overlap": 0.203,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2346871245",
+      "doi": "10.1063/1.4947195",
+      "title": "Strain-engineering the anisotropic electrical conductance in ReS2 monolayer",
+      "authors": [
+        "Sheng Fu Yu",
+        "Hao Zhu",
+        "Kwesi Eshun",
+        "Chen Shi",
+        "Min Zeng",
+        "Qiliang Li"
+      ],
+      "year": 2016,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "ReS2",
+        "strain engineering",
+        "carrier mobility",
+        "electron mobility",
+        "hole mobility",
+        "elastic modulus",
+        "indirect band gap",
+        "1T phase",
+        "transition metal dichalcogenides",
+        "strain sensors"
+      ],
+      "url": "https://doi.org/10.1063/1.4947195",
+      "cited_by_count": 68,
+      "importance": 0.339,
+      "score_basis": {
+        "topic_overlap": 0.309,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4398250839",
+      "doi": "10.1021/acs.nanolett.4c01543",
+      "title": "Spectrum-Dependent Image Convolutional Processing via a Two-Dimensional Polarization-Sensitive Photodetector",
+      "authors": [
+        "Yali Yu",
+        "Tao Xiong",
+        "Ziqi Zhou",
+        "Duan-Yang Liu",
+        "Yue‐Yang Liu",
+        "Juehan Yang",
+        "Zhongming Wei"
+      ],
+      "year": 2024,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-sensitive photodetectors",
+        "real-time image processing",
+        "p-type semiconductors",
+        "in-sensor computing"
+      ],
+      "url": "https://doi.org/10.1021/acs.nanolett.4c01543",
+      "cited_by_count": 46,
+      "importance": 0.3364,
+      "score_basis": {
+        "topic_overlap": 0.148,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410415316",
+      "doi": "10.1002/aelm.202500001",
+      "title": "Graphene/h‐BN/ReS2 Heterostructure Operating in Fowler−Nordheim Tunneling Regime for Polarization‐Sensitive Fast Photodetector",
+      "authors": [
+        "Tianyi Zhou",
+        "Ming Yang",
+        "Jingyao Wang",
+        "Xiang Chen",
+        "Qingyu Yan",
+        "Kenji Watanabe",
+        "Takashi Taniguchi",
+        "Xue Liu",
+        "Yuqing Huang",
+        "Weigao Xu",
+        "Xinran Wang",
+        "Li Hua Gao",
+        "Zehua Hu"
+      ],
+      "year": 2025,
+      "venue": "Advanced Electronic Materials",
+      "venue_abbr": "Adv. Electron. Mater.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "Fowler-Nordheim tunneling",
+        "transition metal dichalcogenides",
+        "hexagonal boron nitride",
+        "signal-to-noise ratio",
+        "response time (sensor)",
+        "dichroic ratio",
+        "on-chip photodetection",
+        "two-dimensional materials"
+      ],
+      "url": "https://doi.org/10.1002/aelm.202500001",
+      "cited_by_count": 7,
+      "importance": 0.3331,
+      "score_basis": {
+        "topic_overlap": 0.296,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410764854",
+      "doi": "10.1038/s41467-025-60127-3",
+      "title": "Coherently confined single-metal-atom chains in 2D semiconductors",
+      "authors": [
+        "Wen Qin",
+        "Shasha Guo",
+        "Zixi Liu",
+        "Peikun Zhang",
+        "Chao Zhu",
+        "Yao Wu",
+        "Ruixi Qiao",
+        "Zheng Liu",
+        "Wanlin Guo",
+        "Zhuhua Zhang"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "two-dimensional semiconductors",
+        "MoS2",
+        "transition metal atoms",
+        "transition metal dichalcogenides"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-60127-3",
+      "cited_by_count": 17,
+      "importance": 0.3287,
+      "score_basis": {
+        "topic_overlap": 0.286,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387407798",
+      "doi": "10.1016/j.matchemphys.2023.128523",
+      "title": "Modulation of magnetism in transition-metal-doped monolayer MoS2 by strain engineering",
+      "authors": [
+        "Weiwei Liu",
+        "Weijia Zhong",
+        "Guohua Bai",
+        "Sateesh Bandaru",
+        "Pengfei Guan",
+        "Zhenhua Zhang",
+        "Xuefeng Zhang"
+      ],
+      "year": 2023,
+      "venue": "Materials Chemistry and Physics",
+      "venue_abbr": "Materials Chemistry and Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "transition metal doping",
+        "monolayer MoS2",
+        "strain engineering",
+        "spin states",
+        "3d transition metals",
+        "4d transition metals",
+        "Jahn-Teller distortion",
+        "crystal symmetry",
+        "spintronics",
+        "two-dimensional materials"
+      ],
+      "url": "https://doi.org/10.1016/j.matchemphys.2023.128523",
+      "cited_by_count": 13,
+      "importance": 0.3241,
+      "score_basis": {
+        "topic_overlap": 0.276,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412038905",
+      "doi": "10.1002/adma.202509066",
+      "title": "Polarization Signal Amplification of 2D GeSe‐Based Polarization‐Sensitive Photodetectors",
+      "authors": [
+        "Kexin He",
+        "Wenhao Ran",
+        "Shaodi Xu",
+        "Jie Wen",
+        "Siqi Qiu",
+        "Tingwei Liu",
+        "Kaiyao Xin",
+        "Yali Yu",
+        "Duanyang Liu",
+        "Qianqian Huang",
+        "Guozhen Shen",
+        "Zhongming Wei",
+        "Ziqi Zhou"
+      ],
+      "year": 2025,
+      "venue": "Advanced Materials",
+      "venue_abbr": "Adv. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-sensitive photodetectors",
+        "linear dichroism",
+        "polarization imaging",
+        "optoelectronic sensing"
+      ],
+      "url": "https://doi.org/10.1002/adma.202509066",
+      "cited_by_count": 32,
+      "importance": 0.3187,
+      "score_basis": {
+        "topic_overlap": 0.153,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407615202",
+      "doi": "10.1002/adom.202403265",
+      "title": "Stacking and Layer Parity Dependent Photoluminescence in ReS2",
+      "authors": [
+        "Saroj Poudyal",
+        "Prahalad Kanti Barman",
+        "Rabindra Biswas",
+        "Konstantin Kravtsov",
+        "Bubunu Biswal",
+        "Renu Yadav",
+        "Varun Raghunathan",
+        "Ivan A. Kruglov",
+        "Davit Ghazaryan",
+        "Abhishek Misra"
+      ],
+      "year": 2025,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "ReS2",
+        "photoluminescence",
+        "stacking sequence",
+        "second harmonic generation",
+        "excitons",
+        "interlayer coupling",
+        "quantum confinement",
+        "two-dimensional layered materials",
+        "polymorphism",
+        "optical anisotropy",
+        "monolayer stacking"
+      ],
+      "url": "https://doi.org/10.1002/adom.202403265",
+      "cited_by_count": 8,
+      "importance": 0.3174,
+      "score_basis": {
+        "topic_overlap": 0.261,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412862310",
+      "doi": "10.1038/s41467-025-61849-0",
+      "title": "Chirality-transferred epitaxy of circular polarization-sensitive ReS2 monolayer single crystals",
+      "authors": [
+        "Junjie Jiang",
+        "Xiao Wang",
+        "Danyang Wang",
+        "Yue Chai",
+        "Yue Yang",
+        "Lingtong Ding",
+        "Xiao Guo",
+        "Aolin Li",
+        "Tao Xu",
+        "Han Huang",
+        "Shen Lin Zhou",
+        "Zheng Luo",
+        "Jin Zhang",
+        "Fangping Ouyang",
+        "Feng Ding",
+        "Zhu‐Jun Wang",
+        "Shanshan Wang"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chirality transfer",
+        "epitaxial growth",
+        "two-dimensional materials",
+        "single crystals",
+        "circular polarization",
+        "anisotropic growth",
+        "chiral substrates",
+        "MoO2",
+        "polarization-sensitive photodetection",
+        "low-symmetry crystals"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-61849-0",
+      "cited_by_count": 13,
+      "importance": 0.3172,
+      "score_basis": {
+        "topic_overlap": 0.26,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407110469",
+      "doi": "10.1002/adfm.202423280",
+      "title": "Polarimetric Photodetectors with Multi‐Control States for Multi‐Valued Encoding Communication and Polarization Image Applications",
+      "authors": [
+        "Jingxian Xiong",
+        "Qiang Yu",
+        "Bin Liu",
+        "Sina Li",
+        "Yinlong Luo",
+        "Jun Li",
+        "Junrong Zhang",
+        "Jian Wu",
+        "Zixin Yang",
+        "Jinyong Leng",
+        "Yiming Sun",
+        "Zongfu Jiang",
+        "Nengjie Huo",
+        "Pu Zhou"
+      ],
+      "year": 2025,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization imaging",
+        "polarization ratio",
+        "detectivity",
+        "degree of linear polarization"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202423280",
+      "cited_by_count": 20,
+      "importance": 0.3168,
+      "score_basis": {
+        "topic_overlap": 0.148,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2236962144",
+      "doi": "10.1021/acsnano.5b07228",
+      "title": "Production of Highly Monolayer Enriched Dispersions of Liquid-Exfoliated Nanosheets by Liquid Cascade Centrifugation",
+      "authors": [
+        "Claudia Backes",
+        "Beata Maria Szydłowska",
+        "Andrew Harvey",
+        "Shengjun Yuan",
+        "Víctor Vega‐Mayoral",
+        "Ben R. Davies",
+        "Pei-Liang Zhao",
+        "Damien Hanlon",
+        "Elton J. G. Santos",
+        "Mikhail I. Katsnelson",
+        "Werner Josef Blau",
+        "Christoph Gadermaier",
+        "Jonathan N. Coleman"
+      ],
+      "year": 2016,
+      "venue": "ACS Nano",
+      "venue_abbr": "ACS Nano",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "liquid-phase exfoliation",
+        "nanosheets",
+        "tungsten disulfide",
+        "size selection",
+        "photoluminescence",
+        "extinction spectra",
+        "two-dimensional materials"
+      ],
+      "url": "https://doi.org/10.1021/acsnano.5b07228",
+      "cited_by_count": 455,
+      "importance": 0.305,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4393130465",
+      "doi": "10.1002/adfm.202402957",
+      "title": "Nonlinear Photodetector Based on InSe p–n Homojunction for Improving Spatial Imaging Resolution",
+      "authors": [
+        "Yu Xin Zhang",
+        "Xiaoqing Chen",
+        "Mingwen Zhang",
+        "Xianghu Wu",
+        "Jianguo Wang",
+        "Ruijuan Tian",
+        "Liang Fang",
+        "Yanyan Zhang",
+        "Jianlin Zhao",
+        "Xuetao Gan"
+      ],
+      "year": 2024,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "indium selenide",
+        "p-n homojunction",
+        "second harmonic generation",
+        "rectification ratio",
+        "dark current"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202402957",
+      "cited_by_count": 40,
+      "importance": 0.305,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4395662935",
+      "doi": "10.1038/s41467-024-47876-3",
+      "title": "A substitutional quantum defect in WS2 discovered by high-throughput computational screening and fabricated by site-selective STM manipulation",
+      "authors": [
+        "John Christopher Thomas",
+        "Wei Chen",
+        "Yihuang Xiong",
+        "Bradford A. Barker",
+        "Junze Zhou",
+        "Weiru Chen",
+        "Antonio Rossi",
+        "Nolan Kelly",
+        "Zhuohang Yu",
+        "Da Li Zhou",
+        "Shalini Kumari",
+        "Edward S. Barnard",
+        "Joshua A. Robinson",
+        "Mauricio Terrones",
+        "Adam M. Schwartzberg",
+        "D. Frank Ogletree",
+        "Eli Rotenberg",
+        "Marcus Michael Noack",
+        "Sinéad M. Griffin",
+        "Archana Raja",
+        "David A. Strubbe",
+        "Gian‐Marco Rignanese",
+        "Alexander F. Weber‐Bargioni",
+        "Geoffroy Hautier"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum defects",
+        "tungsten disulfide",
+        "point defects",
+        "substitutional defects",
+        "sulfur substitution",
+        "cobalt substitution",
+        "telecom wavelengths",
+        "high-throughput computational screening",
+        "nanoscale synthesis",
+        "two-dimensional materials",
+        "quantum information"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-47876-3",
+      "cited_by_count": 45,
+      "importance": 0.305,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2888305081",
+      "to": "W2029281675",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2888305081"
+        }
+      ]
+    },
+    {
+      "from": "W3034327216",
+      "to": "W2029281675",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3034327216"
+        }
+      ]
+    },
+    {
+      "from": "W3165092132",
+      "to": "W2888305081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3165092132"
+        }
+      ]
+    },
+    {
+      "from": "W3184160884",
+      "to": "W3034327216",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3184160884"
+        }
+      ]
+    },
+    {
+      "from": "W3195412306",
+      "to": "W2888305081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3195412306"
+        }
+      ]
+    },
+    {
+      "from": "W4200137514",
+      "to": "W2888305081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200137514"
+        }
+      ]
+    },
+    {
+      "from": "W4206351710",
+      "to": "W2029281675",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4206351710"
+        }
+      ]
+    },
+    {
+      "from": "W4206351710",
+      "to": "W3195412306",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4206351710"
+        }
+      ]
+    },
+    {
+      "from": "W4224296438",
+      "to": "W2888305081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224296438"
+        }
+      ]
+    },
+    {
+      "from": "W4229029600",
+      "to": "W2888305081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4229029600"
+        }
+      ]
+    },
+    {
+      "from": "W4313532651",
+      "to": "W4200137514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313532651"
+        }
+      ]
+    },
+    {
+      "from": "W4313532651",
+      "to": "W4224296438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313532651"
+        }
+      ]
+    },
+    {
+      "from": "W4398250839",
+      "to": "W2888305081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398250839"
+        }
+      ]
+    },
+    {
+      "from": "W4400294150",
+      "to": "W2029281675",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400294150"
+        }
+      ]
+    },
+    {
+      "from": "W4400294150",
+      "to": "W3199341369",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400294150"
+        }
+      ]
+    },
+    {
+      "from": "W4400294150",
+      "to": "W4224296438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400294150"
+        }
+      ]
+    },
+    {
+      "from": "W4400294150",
+      "to": "W4225108535",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400294150"
+        }
+      ]
+    },
+    {
+      "from": "W4400294150",
+      "to": "W4313532651",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400294150"
+        }
+      ]
+    },
+    {
+      "from": "W4401389758",
+      "to": "W4399047949",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401389758"
+        }
+      ]
+    },
+    {
+      "from": "W4404061245",
+      "to": "W3184160884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404061245"
+        }
+      ]
+    },
+    {
+      "from": "W4405990268",
+      "to": "W2029281675",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405990268"
+        }
+      ]
+    },
+    {
+      "from": "W4405990268",
+      "to": "W2888305081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405990268"
+        }
+      ]
+    },
+    {
+      "from": "W4405990268",
+      "to": "W3195412306",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405990268"
+        }
+      ]
+    },
+    {
+      "from": "W4405990268",
+      "to": "W3199341369",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405990268"
+        }
+      ]
+    },
+    {
+      "from": "W4405990268",
+      "to": "W4225108535",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405990268"
+        }
+      ]
+    },
+    {
+      "from": "W4406770209",
+      "to": "W4399047949",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406770209"
+        }
+      ]
+    },
+    {
+      "from": "W4407110469",
+      "to": "W2888305081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407110469"
+        }
+      ]
+    },
+    {
+      "from": "W4407156085",
+      "to": "W3195412306",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407156085"
+        }
+      ]
+    },
+    {
+      "from": "W4407156085",
+      "to": "W3199341369",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407156085"
+        }
+      ]
+    },
+    {
+      "from": "W4407156085",
+      "to": "W4313532651",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407156085"
+        }
+      ]
+    },
+    {
+      "from": "W4407156085",
+      "to": "W4400294150",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407156085"
+        }
+      ]
+    },
+    {
+      "from": "W4407374517",
+      "to": "W4206351710",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407374517"
+        }
+      ]
+    },
+    {
+      "from": "W4408865433",
+      "to": "W2888305081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408865433"
+        }
+      ]
+    },
+    {
+      "from": "W4410079592",
+      "to": "W4399047949",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410079592"
+        }
+      ]
+    },
+    {
+      "from": "W4410079592",
+      "to": "W4401389758",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410079592"
+        }
+      ]
+    },
+    {
+      "from": "W4410581884",
+      "to": "W4224296438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410581884"
+        }
+      ]
+    },
+    {
+      "from": "W4411424099",
+      "to": "W2888305081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411424099"
+        }
+      ]
+    },
+    {
+      "from": "W4411424099",
+      "to": "W3195412306",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411424099"
+        }
+      ]
+    },
+    {
+      "from": "W4411424099",
+      "to": "W4206351710",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411424099"
+        }
+      ]
+    },
+    {
+      "from": "W4411424099",
+      "to": "W4224296438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411424099"
+        }
+      ]
+    },
+    {
+      "from": "W4411424099",
+      "to": "W4398250839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411424099"
+        }
+      ]
+    },
+    {
+      "from": "W4411424099",
+      "to": "W4405990268",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411424099"
+        }
+      ]
+    },
+    {
+      "from": "W4412038905",
+      "to": "W4400294150",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412038905"
+        }
+      ]
+    },
+    {
+      "from": "W4413088431",
+      "to": "W3195412306",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413088431"
+        }
+      ]
+    },
+    {
+      "from": "W4413088431",
+      "to": "W4200137514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413088431"
+        }
+      ]
+    },
+    {
+      "from": "W4413088431",
+      "to": "W4224296438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413088431"
+        }
+      ]
+    },
+    {
+      "from": "W4413088431",
+      "to": "W4400294150",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413088431"
+        }
+      ]
+    },
+    {
+      "from": "W4413088431",
+      "to": "W4407156085",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413088431"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W2029281675",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W2236962144",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W2346871245",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W2888305081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W3034327216",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W3165092132",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W3184160884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W3195412306",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W3199341369",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4200137514",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4206351710",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4213390251",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4224296438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4225108535",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4229029600",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4313532651",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4387407798",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4387697966",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4393130465",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4395662935",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4398250839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4399047949",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4400294150",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4401389758",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4404061245",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4405990268",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4406770209",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4407110469",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4407156085",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4407374517",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4407615202",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4408865433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4410079592",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4410415316",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4410581884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4410764854",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4411424099",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4412038905",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4412862310",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    },
+    {
+      "from": "W7224543266",
+      "to": "W4413088431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7224543266"
+        }
+      ]
+    }
+  ]
 }

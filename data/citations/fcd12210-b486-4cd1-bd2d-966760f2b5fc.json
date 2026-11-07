@@ -1,40 +1,2517 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "fcd12210-b486-4cd1-bd2d-966760f2b5fc",
-  "root": "doi:10.1364/oe.614386",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7223573889",
+  "status": "ok",
+  "checked_at": "2026-11-07T00:51:01.515286+00:00",
+  "coverage": {
+    "references_found": 41,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 41,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/oe.614386",
+      "id": "W7223573889",
       "doi": "10.1364/oe.614386",
       "title": "Photonically generated simultaneous multi-band terahertz communication system",
       "authors": [
         "Feng Liu",
         "James Seddon",
-        "John E. Wu",
-        "Mohamed Nihal Munshi",
+        "John Wu",
+        "Mohamad Nihal Munshi",
         "Sanchit S. Kondawar",
-        "Martyn Fice",
-        "Alwyn Seeds"
+        "Martyn J. Fice",
+        "Alwyn J. Seeds"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Express",
       "venue_abbr": "OE",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "terahertz communication",
+        "multi-band communication",
+        "terahertz transceivers"
+      ],
       "url": "https://doi.org/10.1364/oe.614386",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/fcd12210-b486-4cd1-bd2d-966760f2b5fc.html",
       "summary": "研究报告了采用单发射机和两个独立接收机的光子产生多频段太赫兹通信实验。集成单行载流子光电二极管的缝隙天线用于宽带发射，两个接收机分别采用光子泵浦和电子泵浦。分开接收时，WR-5.1和WR-3.4频段的最高数据率分别为80 Gbit/s和15 Gbit/s；同时收发时，通过调整载频和发射功率，两个频段均实现10 Gbit/s。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W3026878832",
+      "doi": "10.1109/jlt.2020.2995702",
+      "title": "2 × 300 Gbit/s Line Rate PS-64QAM-OFDM THz Photonic-Wireless Transmission",
+      "authors": [
+        "Shi Jia",
+        "Lu Zhang",
+        "Shiwei Wang",
+        "Wei Li",
+        "Mengyao Qiao",
+        "Zijie Lu",
+        "Nazar Muhammad Idrees",
+        "Xiaodan Pang",
+        "Hao Hu",
+        "Xianmin Zhang",
+        "Leif Katsuo Oxenløwe",
+        "Xianbin Yu"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "terahertz communication",
+        "probabilistic shaping",
+        "orthogonal polarization",
+        "high-speed data transmission",
+        "spectral efficiency",
+        "line rate"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.2995702",
+      "cited_by_count": 111,
+      "importance": 0.6359,
+      "score_basis": {
+        "topic_overlap": 0.28,
+        "shared_references": 5,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402127984",
+      "doi": "10.1109/jlt.2024.3452950",
+      "title": "Fully-Optoelectronic 300 GHz Multi-Channel Wireless Link Using a Photonically-Pumped Low-Barrier Mixer for up to 180 Gbps",
+      "authors": [
+        "Iñigo Belio-Apaolaza",
+        "Javier Martinez-Gil",
+        "Jonas Tebart",
+        "Jose Luis Fernández Estévez",
+        "Marcel Grzeslo",
+        "Diego Moro-Melgar",
+        "Oleg Cojocari",
+        "Andreas Stöhr",
+        "Cyril C. Renaud"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optoelectronic receiver",
+        "Schottky mixer",
+        "uni-traveling-carrier photodiode",
+        "photomixer",
+        "multi-channel transmission",
+        "6G",
+        "16-QAM",
+        "soft-decision forward error correction",
+        "signal-to-noise ratio"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3452950",
+      "cited_by_count": 12,
+      "importance": 0.57,
+      "score_basis": {
+        "topic_overlap": 0.267,
+        "shared_references": 9,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2562766352",
+      "doi": "10.1109/lpt.2016.2647280",
+      "title": "120 Gb/s Multi-Channel THz Wireless Transmission and THz Receiver Performance Analysis",
+      "authors": [
+        "Shi Jia",
+        "Xianbin Yu",
+        "Hao Hu",
+        "Jinlong Yu",
+        "Toshio Morioka",
+        "Peter Uhd Jepsen",
+        "Leif Katsuo Oxenløwe"
+      ],
+      "year": 2017,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical frequency combs",
+        "uni-traveling-carrier photodiode",
+        "bit error rate",
+        "forward error correction",
+        "terahertz receivers"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2016.2647280",
+      "cited_by_count": 63,
+      "importance": 0.5177,
+      "score_basis": {
+        "topic_overlap": 0.395,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2910549652",
+      "doi": "10.1364/optica.6.001063",
+      "title": "Wireless THz link with optoelectronic transmitter and receiver",
+      "authors": [
+        "Tobias Harter",
+        "Sandeep Ummethala",
+        "Matthias Blaicher",
+        "Sascha Muehlbrandt",
+        "Stefan Wolf",
+        "Marco Weber",
+        "Md Mosaddek Hossain Adib",
+        "Juned. N. Kemal",
+        "Marco Merboldt",
+        "Florian Boes",
+        "Simon Nellen",
+        "Axel Tessmann",
+        "Martin Walther",
+        "Björn Globisch",
+        "Thomas Zwick",
+        "Wolfgang Freude",
+        "Sebastian Randel",
+        "Christian G. Koos"
+      ],
+      "year": 2019,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "terahertz communication",
+        "photonic local oscillator",
+        "optoelectronic receiver",
+        "intermediate frequency",
+        "optical mixing",
+        "high-speed photodetectors"
+      ],
+      "url": "https://doi.org/10.1364/optica.6.001063",
+      "cited_by_count": 140,
+      "importance": 0.4894,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2043290021",
+      "doi": "10.1364/oe.22.023465",
+      "title": "Photonic generation for multichannel THz wireless communication",
+      "authors": [
+        "Haymen Shams",
+        "Martyn J. Fice",
+        "Katarzyna Bałakier",
+        "Cyril C. Renaud",
+        "Frederic V. Dijk",
+        "Alwyn J. Seeds"
+      ],
+      "year": 2014,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "terahertz communication",
+        "photonic signal generation",
+        "multi-channel transmission",
+        "optical heterodyne detection",
+        "digital coherent detection",
+        "QPSK modulation",
+        "spectral efficiency",
+        "bit error rate",
+        "optical fiber transmission"
+      ],
+      "url": "https://doi.org/10.1364/oe.22.023465",
+      "cited_by_count": 81,
+      "importance": 0.4878,
+      "score_basis": {
+        "topic_overlap": 0.417,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W569573148",
+      "doi": "10.1109/jphot.2015.2438437",
+      "title": "100 Gb/s Multicarrier THz Wireless Transmission System With High Frequency Stability Based on A Gain-Switched Laser Comb Source",
+      "authors": [
+        "Haymen Shams",
+        "Tong Shao",
+        "Martyn J. Fice",
+        "Prince M. Anandarajah",
+        "Cyril C. Renaud",
+        "Frederic V. Dijk",
+        "Liam P. Barry",
+        "Alwyn J. Seeds"
+      ],
+      "year": 2015,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "terahertz communication",
+        "multicarrier transmission",
+        "gain-switched lasers",
+        "optical frequency combs",
+        "frequency stability",
+        "phase noise",
+        "heterodyne detection",
+        "QPSK",
+        "100 Gb/s transmission",
+        "fiber transmission"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2015.2438437",
+      "cited_by_count": 110,
+      "importance": 0.4843,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4394586155",
+      "doi": "10.1109/comst.2024.3385908",
+      "title": "Terahertz Communications and Sensing for 6G and Beyond: A Comprehensive Review",
+      "authors": [
+        "Wei Jiang",
+        "Wei Jiang",
+        "Q Zhou",
+        "S Melnyk",
+        "S Zhou",
+        "M A Habibi",
+        "Bin Han",
+        "H D Schotten",
+        "Marco Di Renzo",
+        "Fa-Long Luo",
+        "Victor C M Leung",
+        "Merouane Abdelkader Debbah",
+        "Markku J. Juntti",
+        "Tarek S. El-Bawab",
+        "Jiguang He"
+      ],
+      "year": 2024,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz communication",
+        "terahertz sensing",
+        "6G",
+        "radio wave propagation",
+        "channel modeling",
+        "antenna design",
+        "beamforming",
+        "transceiver",
+        "testbed"
+      ],
+      "url": "https://doi.org/10.1109/comst.2024.3385908",
+      "cited_by_count": 599,
+      "importance": 0.4769,
+      "score_basis": {
+        "topic_overlap": 0.171,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2919714015",
+      "doi": "10.1109/jlt.2018.2862356",
+      "title": "120 Gb/s Wireless Terahertz-Wave Signal Delivery by 375 GHz-500 GHz Multi-Carrier in a 2 × 2 MIMO System",
+      "authors": [
+        "Xinying Li",
+        "Jianjun Yu",
+        "Kaihui Wang",
+        "Miao Kong",
+        "Wen Zhou",
+        "Zihang Zhu",
+        "Can Wang",
+        "Mingming Zhao",
+        "Gee‐Kung Chang"
+      ],
+      "year": 2018,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "multicarrier transmission",
+        "polarization multiplexing",
+        "QPSK",
+        "optical fiber links",
+        "point-to-point transmission",
+        "forward error correction",
+        "terahertz photonics"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2018.2862356",
+      "cited_by_count": 78,
+      "importance": 0.4758,
+      "score_basis": {
+        "topic_overlap": 0.413,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285192749",
+      "doi": "10.1109/tcomm.2022.3171800",
+      "title": "Terahertz Band Communication: An Old Problem Revisited and Research Directions for the Next Decade",
+      "authors": [
+        "Ian Fuat Akyildiz",
+        "Chong Zhao Han",
+        "Zhifeng Hu",
+        "Shuai Nie",
+        "Josep Miquel Jornet"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Communications",
+      "venue_abbr": "IEEE Trans. Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "terahertz communication",
+        "6G",
+        "beyond 6G",
+        "terahertz devices",
+        "research challenges"
+      ],
+      "url": "https://doi.org/10.1109/tcomm.2022.3171800",
+      "cited_by_count": 710,
+      "importance": 0.4587,
+      "score_basis": {
+        "topic_overlap": 0.219,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2507680897",
+      "doi": "10.1063/1.4960136",
+      "title": "160 Gbit/s photonics wireless transmission in the 300-500 GHz band",
+      "authors": [
+        "Xianbin Yu",
+        "Shi Jia",
+        "Hao Hu",
+        "Michael Galili",
+        "Toshio Morioka",
+        "Peter Uhd Jepsen",
+        "Leif Katsuo Oxenløwe"
+      ],
+      "year": 2016,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "terahertz communication",
+        "160 Gbit/s transmission",
+        "channel spacing",
+        "access networks"
+      ],
+      "url": "https://doi.org/10.1063/1.4960136",
+      "cited_by_count": 147,
+      "importance": 0.4568,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3168897491",
+      "doi": "10.1364/oe.427575",
+      "title": "Mobile THz communications using photonic assisted beam steering leaky-wave antennas",
+      "authors": [
+        "Peng Lü",
+        "Thomas Haddad",
+        "Jonas Tebart",
+        "Matthias Steeg",
+        "Benedikt Sievert",
+        "Jörg Lackmann",
+        "Andreas Rennings",
+        "Andreas Stöhr"
+      ],
+      "year": 2021,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "terahertz communication",
+        "leaky-wave antenna",
+        "antenna directivity",
+        "multi-user communication"
+      ],
+      "url": "https://doi.org/10.1364/oe.427575",
+      "cited_by_count": 51,
+      "importance": 0.4349,
+      "score_basis": {
+        "topic_overlap": 0.322,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2529557775",
+      "doi": "10.1109/jlt.2016.2558450",
+      "title": "Sub-THz Wireless Over Fiber for Frequency Band 220–280 GHz",
+      "authors": [
+        "Haymen Shams",
+        "Martyn J. Fice",
+        "Luis González-Guerrero",
+        "Cyril C. Renaud",
+        "Frederic V. Dijk",
+        "Alwyn J. Seeds"
+      ],
+      "year": 2016,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical frequency comb generation",
+        "QPSK",
+        "downlink transmission",
+        "digital signal processing",
+        "bit error rate",
+        "link budget",
+        "wireless access networks"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2016.2558450",
+      "cited_by_count": 47,
+      "importance": 0.4339,
+      "score_basis": {
+        "topic_overlap": 0.253,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408324126",
+      "doi": "10.1109/jlt.2025.3549846",
+      "title": "Net 562.5-Gbps/$\\lambda$ 2 × 2 MIMO Optical Wireless Transmission System at 322 GHz With Sampling Frequency Offset Compensation",
+      "authors": [
+        "Jianyu Long",
+        "Wen Zhou",
+        "Jianjun Yu",
+        "Chen Wang",
+        "Long Zhang",
+        "Bohan Sang",
+        "Ying Wu",
+        "Xiongwei Yang",
+        "Yifan Chen",
+        "Yi Wei",
+        "Kaihui Wang",
+        "Junjie Ding",
+        "Jiao Zhang",
+        "Min Zhu"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "terahertz communication",
+        "digital interpolation",
+        "dual polarization",
+        "64-QAM",
+        "digital signal processing",
+        "single-wavelength transmission",
+        "short-range wireless links"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3549846",
+      "cited_by_count": 15,
+      "importance": 0.4308,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410986316",
+      "doi": "10.1109/tmtt.2025.3566200",
+      "title": "Long-Distance 20.1 km THz Wireless Transmission Using CVMSO NN Equalizer by Photonics-Aided Technology",
+      "authors": [
+        "Sicong Xu",
+        "Wen Zhou",
+        "Xianming Zhao",
+        "Qihang Wang",
+        "Yi Wei",
+        "Xiongwei Yang",
+        "Bohan Sang",
+        "Mingxu Wang",
+        "Xin Lü",
+        "Weiping Li",
+        "Jie Zhang",
+        "Jingtao Ge",
+        "Jingwen Lin",
+        "Yuan Ma",
+        "Siqi Wang",
+        "Zhihang Ou",
+        "Jianjun Yu"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Microwave Theory and Techniques",
+      "venue_abbr": "IEEE Transactions on Microwave Theory and Techniques",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz communication",
+        "nonlinear channel equalization",
+        "QPSK modulation",
+        "atmospheric attenuation",
+        "temperature and humidity effects",
+        "6G",
+        "space-air-ground-sea integrated networks"
+      ],
+      "url": "https://doi.org/10.1109/tmtt.2025.3566200",
+      "cited_by_count": 12,
+      "importance": 0.4217,
+      "score_basis": {
+        "topic_overlap": 0.27,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386419183",
+      "doi": "10.1007/s11432-022-3830-9",
+      "title": "Photonics-assisted THz wireless transmission with air interface user rate of 1-Tbps at 330–500 GHz band",
+      "authors": [
+        "Min Zhu",
+        "Jiao Zhang",
+        "Xiang Liu",
+        "Bingchang Hua",
+        "Yuancheng Cai",
+        "Junjie Ding",
+        "Mingzheng Lei",
+        "Yucong Zou",
+        "Liang Tian",
+        "Yunwu Wang",
+        "Weidong Tong",
+        "Jinbiao Xiao",
+        "Yongming Huang",
+        "Jianjun Yu",
+        "Xiaohu You"
+      ],
+      "year": 2023,
+      "venue": "Science China Information Sciences",
+      "venue_abbr": "Sci. China Inf. Sci.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz communication",
+        "air interface",
+        "terabit-per-second transmission"
+      ],
+      "url": "https://doi.org/10.1007/s11432-022-3830-9",
+      "cited_by_count": 26,
+      "importance": 0.4101,
+      "score_basis": {
+        "topic_overlap": 0.311,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2764237378",
+      "doi": "10.1109/irmmw-thz.2017.8066870",
+      "title": "A 21 km 5 Gbps real time wireless communication system at 0.14 THz",
+      "authors": [
+        "Qiuyu Wu",
+        "Changxing Lin",
+        "Bin Lu",
+        "Miao Li",
+        "Xin Hao",
+        "Zhaohui Wang",
+        "Yi Jiang",
+        "Wenqiang Lei",
+        "Xianjing Den",
+        "Hongbin Chen",
+        "Jun Yao",
+        "Jian Zhang"
+      ],
+      "year": 2017,
+      "venue": "International Conference on Infrared, Millimeter, and Terahertz Waves",
+      "venue_abbr": "IRMMW-THz",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "terahertz communication",
+        "solid-state power amplifier",
+        "cascaded amplifiers",
+        "bit error rate",
+        "millimeter wave"
+      ],
+      "url": "https://doi.org/10.1109/irmmw-thz.2017.8066870",
+      "cited_by_count": 55,
+      "importance": 0.4001,
+      "score_basis": {
+        "topic_overlap": 0.311,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4395017562",
+      "doi": "10.1109/jlt.2024.3392282",
+      "title": "Multi-Channel Photonic THz-ISAC System Based on Integrated LFM-QAM Waveform",
+      "authors": [
+        "Zhidong Lyu",
+        "Lu Zhang",
+        "Hongqi Zhang",
+        "Zuomin Yang",
+        "Changming Zhang",
+        "Hang Sheng Yang",
+        "Nan Li",
+        "Vjačeslavs Bobrovs",
+        "Oskars Ozoliņš",
+        "Xiaodan Pang",
+        "Guangyi Liu",
+        "Xianbin Yu"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "terahertz communication",
+        "linear frequency modulation",
+        "quadrature amplitude modulation",
+        "optical wavelength division multiplexing",
+        "range resolution",
+        "high-capacity wireless communication"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3392282",
+      "cited_by_count": 33,
+      "importance": 0.3927,
+      "score_basis": {
+        "topic_overlap": 0.317,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402508235",
+      "doi": "10.1038/s41467-024-52370-x",
+      "title": "High-speed 0.22 THz communication system with 84 Gbps for real-time uncompressed 8K video transmission of live events",
+      "authors": [
+        "Ke Liu",
+        "Yinian Feng",
+        "Chong Zhao Han",
+        "Bo Chang",
+        "Zhi Chen",
+        "Zicheng Xu",
+        "Lingxiang Li",
+        "Bo Zhang",
+        "Yihui Wang",
+        "Qiang Xu"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz communication",
+        "0.22 THz",
+        "live streaming",
+        "long-distance wireless transmission",
+        "baseband processing",
+        "cutoff frequency",
+        "transmission power",
+        "live event broadcasting"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-52370-x",
+      "cited_by_count": 111,
+      "importance": 0.3833,
+      "score_basis": {
+        "topic_overlap": 0.296,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404577039",
+      "doi": "10.1109/tmtt.2024.3496292",
+      "title": "510-Gbps 322-GHz Photonics-Aided Terahertz Wireless Transmission System With MIMO Embedded Adaptive Phase Recovery Equalizer",
+      "authors": [
+        "Jianyu Long",
+        "Jianjun Yu",
+        "Chen Wang",
+        "Long Zhang",
+        "Bohan Sang",
+        "Ying Wu",
+        "Xiongwei Yang",
+        "Yi Wei",
+        "Kaihui Wang",
+        "Wen Zhou",
+        "Junjie Ding",
+        "Jiao Zhang",
+        "Min Zhu"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Microwave Theory and Techniques",
+      "venue_abbr": "IEEE Transactions on Microwave Theory and Techniques",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization multiplexing",
+        "MIMO equalizer"
+      ],
+      "url": "https://doi.org/10.1109/tmtt.2024.3496292",
+      "cited_by_count": 28,
+      "importance": 0.3484,
+      "score_basis": {
+        "topic_overlap": 0.285,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4286433348",
+      "doi": "10.1002/lpor.202200136",
+      "title": "On‐Chip Polarization‐ and Frequency‐Division Demultiplexing for Multidimensional Terahertz Communication",
+      "authors": [
+        "Wentao Deng",
+        "Liao Chen",
+        "Hongqi Zhang",
+        "Shiwei Wang",
+        "Zijie Lu",
+        "Siqi Liu",
+        "Zuoming Yang",
+        "Ziwei Wang",
+        "Shixing Yuan",
+        "Yilun Wang",
+        "Ruolan Wang",
+        "Yu Yu",
+        "Xiaojun Wu",
+        "Xianbin Yu",
+        "Xinliang Zhang"
+      ],
+      "year": 2022,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz communication",
+        "polarization multiplexing",
+        "frequency division multiplexing",
+        "ring resonator",
+        "silicon photonics",
+        "QPSK",
+        "high-capacity data transmission"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202200136",
+      "cited_by_count": 35,
+      "importance": 0.3459,
+      "score_basis": {
+        "topic_overlap": 0.169,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2106171790",
+      "doi": "10.1109/jlt.2009.2021961",
+      "title": "Blind Equalization and Carrier Phase Recovery in a 16-QAM Optical Coherent System",
+      "authors": [
+        "Irshaad Fatadin",
+        "D. Ives",
+        "Seb J. Savory"
+      ],
+      "year": 2009,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "blind equalization",
+        "carrier phase recovery",
+        "chromatic dispersion compensation",
+        "constant modulus algorithm",
+        "decision-directed equalization",
+        "polarization multiplexing",
+        "differential group delay"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2009.2021961",
+      "cited_by_count": 290,
+      "importance": 0.3351,
+      "score_basis": {
+        "topic_overlap": 0.256,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411725679",
+      "doi": "10.1109/jlt.2025.3583949",
+      "title": "Microwave and High-Speed Photonics Applications to 6G Systems",
+      "authors": [
+        "Roberto Sabella",
+        "Alessandra Bigongiari",
+        "Fabio Cavaliere",
+        "A. D’Errico",
+        "Luca Giorgi",
+        "Stefano Stracca"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "6G",
+        "microwave photonics",
+        "integrated photonics",
+        "radio-over-fiber",
+        "co-packaged optics",
+        "millimeter-wave communication",
+        "sub-terahertz frequencies",
+        "massive MIMO",
+        "beamforming",
+        "high-speed optical links"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3583949",
+      "cited_by_count": 4,
+      "importance": 0.3252,
+      "score_basis": {
+        "topic_overlap": 0.278,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2129940694",
+      "doi": "10.1109/jlt.2008.2010511",
+      "title": "Hardware-Efficient Coherent Digital Receiver Concept With Feedforward Carrier Recovery for $M$-QAM Constellations",
+      "authors": [
+        "Timo Pfau",
+        "Sebastian Hoffmann",
+        "R. Noé"
+      ],
+      "year": 2009,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical receivers",
+        "laser phase noise",
+        "linewidth tolerance",
+        "QPSK",
+        "16-QAM",
+        "64-QAM",
+        "256-QAM",
+        "analog-to-digital converter resolution",
+        "amplified spontaneous emission noise",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2008.2010511",
+      "cited_by_count": 1034,
+      "importance": 0.325,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406458574",
+      "doi": "10.1109/tthz.2025.3530757",
+      "title": "Multiuser Long-Distance Sub-THz Wireless Communication",
+      "authors": [
+        "Joel Dittmer",
+        "Akanksha Bhutani",
+        "Felix Beuthan",
+        "Luca Valenziano",
+        "Sandrine Wagner",
+        "A. Tessmann",
+        "Christian G. Koos",
+        "Thomas Zwick",
+        "Sebastian Randel"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Terahertz Science and Technology",
+      "venue_abbr": "IEEE Transactions on Terahertz Science and Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "point-to-multipoint communication",
+        "multi-user communication",
+        "free-running lasers",
+        "leaky-wave antenna",
+        "beam steering",
+        "QPSK",
+        "16-QAM",
+        "high-speed data transmission",
+        "long-distance wireless links"
+      ],
+      "url": "https://doi.org/10.1109/tthz.2025.3530757",
+      "cited_by_count": 14,
+      "importance": 0.3202,
+      "score_basis": {
+        "topic_overlap": 0.156,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3196438081",
+      "doi": "10.1109/jstqe.2021.3108954",
+      "title": "Photodiodes for Terahertz Applications",
+      "authors": [
+        "James Seddon",
+        "Michele Natrella",
+        "Xiaoli Lin",
+        "Chris S. Graham",
+        "Cyril C. Renaud",
+        "Alwyn J. Seeds"
+      ],
+      "year": 2021,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "high-speed photodiodes",
+        "terahertz generation",
+        "uni-traveling-carrier photodiode",
+        "photodiode bandwidth",
+        "output power saturation",
+        "thermal analysis",
+        "numerical modeling"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2021.3108954",
+      "cited_by_count": 48,
+      "importance": 0.3163,
+      "score_basis": {
+        "topic_overlap": 0.258,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4321003518",
+      "doi": "10.1038/s41467-023-36621-x",
+      "title": "Wireless communications sensing and security above 100 GHz",
+      "authors": [
+        "Josep Miquel Jornet",
+        "Edward W. Knightly",
+        "Daniel M. Mittleman"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "wireless sensing",
+        "wireless network security",
+        "beyond 5G"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-36621-x",
+      "cited_by_count": 180,
+      "importance": 0.3025,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3048081097",
+      "doi": "10.1109/jproc.2021.3061701",
+      "title": "6G Wireless Systems: Vision, Requirements, Challenges, Insights, and Opportunities",
+      "authors": [
+        "Harsh Tataria",
+        "Mansoor Shafi",
+        "Andreas F. Molisch",
+        "Mischa Döhler",
+        "Henrik Sjöland",
+        "Fredrik Tufvesson"
+      ],
+      "year": 2021,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "6G",
+        "beyond 5G",
+        "terahertz communication",
+        "millimeter wave",
+        "spectrum utilization",
+        "time-critical applications",
+        "modulation and coding",
+        "multiple access techniques",
+        "antenna arrays",
+        "wave propagation",
+        "real-time signal processing"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2021.3061701",
+      "cited_by_count": 1615,
+      "importance": 0.2867,
+      "score_basis": {
+        "topic_overlap": 0.037,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2118843338",
+      "doi": "10.1016/j.jqsrt.2013.04.022",
+      "title": "Atmospheric absorption of terahertz radiation and water vapor continuum effects",
+      "authors": [
+        "David M. Slocum",
+        "Elizabeth J. Slingerland",
+        "Robert H. Giles",
+        "Thomas M. Goyette"
+      ],
+      "year": 2013,
+      "venue": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+      "venue_abbr": "Journal of Quantitative Spectroscopy and Radiative Transfer",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "water vapor continuum absorption",
+        "terahertz radiation",
+        "atmospheric absorption",
+        "absorption coefficient",
+        "relative humidity",
+        "self-broadening",
+        "foreign gas broadening",
+        "transmission spectra",
+        "atmospheric transmission windows"
+      ],
+      "url": "https://doi.org/10.1016/j.jqsrt.2013.04.022",
+      "cited_by_count": 190,
+      "importance": 0.2838,
+      "score_basis": {
+        "topic_overlap": 0.142,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2115917255",
+      "doi": "10.1109/tthz.2012.2203429",
+      "title": "Understanding THz Pulse Propagation in the Atmosphere",
+      "authors": [
+        "Yihong Yang",
+        "Mahboubeh Mandehgar",
+        "D. Grischkowsky"
+      ],
+      "year": 2012,
+      "venue": "IEEE Transactions on Terahertz Science and Technology",
+      "venue_abbr": "IEEE Transactions on Terahertz Science and Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz pulse propagation",
+        "atmospheric transmission",
+        "terahertz absorption spectra",
+        "transform-limited pulses",
+        "terahertz communication"
+      ],
+      "url": "https://doi.org/10.1109/tthz.2012.2203429",
+      "cited_by_count": 94,
+      "importance": 0.2804,
+      "score_basis": {
+        "topic_overlap": 0.179,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2052465787",
+      "doi": "10.1049/el.2014.4458",
+      "title": "Remote light source for silicon photonic transceivers in mobile fronthaul applications",
+      "authors": [
+        "Luca Giorgi",
+        "A. D’Errico",
+        "M. Presi",
+        "E. Ciaramella",
+        "Francesco Testa"
+      ],
+      "year": 2015,
+      "venue": "Electronics Letters",
+      "venue_abbr": "Electronics Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mobile fronthaul",
+        "distributed feedback lasers",
+        "orthogonal polarization",
+        "TE modes",
+        "polarization rotation",
+        "continuous-wave light",
+        "power system stability"
+      ],
+      "url": "https://doi.org/10.1049/el.2014.4458",
+      "cited_by_count": 7,
+      "importance": 0.2734,
+      "score_basis": {
+        "topic_overlap": 0.163,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408777587",
+      "doi": "10.1002/lpor.202401804",
+      "title": "Ultralow Photon Flux OWC Links Using UV‐C Single‐Photon Detection",
+      "authors": [
+        "Feng Liu",
+        "James Farmer",
+        "Grahame E. Faulkner",
+        "Jonathan J. D. McKendry",
+        "Enyuan Xie",
+        "Qianfang Zheng",
+        "Zhaoming Wang",
+        "Jianming Wang",
+        "Jordan Hill",
+        "Johannes Herrnsdorf",
+        "Martin D. Dawson",
+        "Dominic C. O'Brien"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical wireless communication",
+        "silicon photomultipliers",
+        "pulse position modulation",
+        "quantum key distribution"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202401804",
+      "cited_by_count": 5,
+      "importance": 0.2617,
+      "score_basis": {
+        "topic_overlap": 0.026,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392500162",
+      "doi": "10.1038/s41586-024-07058-z",
+      "title": "Photonic chip-based low-noise microwave oscillator",
+      "authors": [
+        "Igor S. Kudelin",
+        "William D. Groman",
+        "Qing-Xin Ji",
+        "Joel Guo",
+        "Megan Kelleher",
+        "Dahyeon Lee",
+        "Takuma Nakamura",
+        "Charles A. McLemore",
+        "Pedram Shirmohammadi",
+        "Samin Hanifi",
+        "Haotian Cheng",
+        "Naijun Jin",
+        "Lue Wu",
+        "Samuel Halladay",
+        "Yizhi Luo",
+        "Zhaowei Dai",
+        "Warren Jin",
+        "Junwu Bai",
+        "Yifan Liu",
+        "Wei Zhang",
+        "Chao Xiang",
+        "Lin Chang",
+        "Vladimir S. Iltchenko",
+        "Owen Miller",
+        "Andrey B. Matsko",
+        "Steven M. Bowers",
+        "Peter T. Rakich",
+        "Joe Charles Campbell",
+        "John Edward Bowers",
+        "Kerry J. Vahala",
+        "Franklyn Quinlan",
+        "Scott A. Diddams"
+      ],
+      "year": 2024,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated photonics",
+        "microcombs",
+        "self-injection locking",
+        "optical frequency division",
+        "phase noise",
+        "Fabry-Perot cavity",
+        "microwave photonics",
+        "timing stability"
+      ],
+      "url": "https://doi.org/10.1038/s41586-024-07058-z",
+      "cited_by_count": 224,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4322576964",
+      "doi": "10.1109/comst.2023.3249835",
+      "title": "On the Road to 6G: Visions, Requirements, Key Technologies, and Testbeds",
+      "authors": [
+        "Cheng‐Xiang Wang",
+        "Xiaohu You",
+        "Xiqi Gao",
+        "Xiuming Zhu",
+        "Zixin Li",
+        "Chuan Zhang",
+        "Haiming Wang",
+        "Yongming Huang",
+        "Yunfei Chen",
+        "Harald Haas",
+        "John Thompson",
+        "Erik G. Larsson",
+        "Marco Di Renzo",
+        "Wen Tong",
+        "Peiying Zhu",
+        "Xuemin Shen",
+        "H. Vincent Poor",
+        "Lajos Hanzo"
+      ],
+      "year": 2023,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "6G",
+        "6G network architecture"
+      ],
+      "url": "https://doi.org/10.1109/comst.2023.3249835",
+      "cited_by_count": 2411,
+      "importance": 0.25,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2294612870",
+      "doi": "10.1109/jlt.2015.2510021",
+      "title": "What is LiFi?",
+      "authors": [
+        "Harald Haas",
+        "Liang Yin",
+        "Yunlu Wang",
+        "Cheng Chen"
+      ],
+      "year": 2015,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Li-Fi",
+        "visible light communication",
+        "light-emitting diodes",
+        "Internet of Things",
+        "5G",
+        "wireless network capacity",
+        "wireless connectivity"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2015.2510021",
+      "cited_by_count": 1213,
+      "importance": 0.2339,
+      "score_basis": {
+        "topic_overlap": 0.031,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4295949255",
+      "doi": "10.1038/s41467-022-32909-6",
+      "title": "Phototunable chip-scale topological photonics: 160 Gbps waveguide and demultiplexer for THz 6G communication",
+      "authors": [
+        "Abhishek Kumar",
+        "Manoj Gupta",
+        "Prakash Pitchappa",
+        "Nan Wang",
+        "Pascal Szriftgiser",
+        "Guillaume Ducournau",
+        "Ranjan Singh"
+      ],
+      "year": 2022,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "topological photonics",
+        "valley photonic crystals",
+        "6G communication",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41467-022-32909-6",
+      "cited_by_count": 259,
+      "importance": 0.2327,
+      "score_basis": {
+        "topic_overlap": 0.028,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386950879",
+      "doi": "10.1364/ol.503235",
+      "title": "Ultra-sensitive UV solar-blind optical wireless communications with an SiPM",
+      "authors": [
+        "Feng Liu",
+        "James Farmer",
+        "Andy Schreier",
+        "Grahame E. Faulkner",
+        "Hyunchae Chun",
+        "William Matthews",
+        "Zhaoming Wang",
+        "Dominic C. O'Brien"
+      ],
+      "year": 2023,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon photomultipliers",
+        "detector cooling",
+        "on-off keying modulation",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1364/ol.503235",
+      "cited_by_count": 12,
+      "importance": 0.22,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3002159761",
+      "doi": "10.1038/s41928-019-0355-6",
+      "title": "What should 6G be?",
+      "authors": [
+        "Shuping Dang",
+        "Osama Amin",
+        "Basem Shihada",
+        "Mohamed-Slim Alouini"
+      ],
+      "year": 2020,
+      "venue": "Nature Electronics",
+      "venue_abbr": "Nat. Electron.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "6G communication",
+        "5G standardization",
+        "network security",
+        "secrecy",
+        "privacy"
+      ],
+      "url": "https://doi.org/10.1038/s41928-019-0355-6",
+      "cited_by_count": 1808,
+      "importance": 0.2183,
+      "score_basis": {
+        "topic_overlap": 0.041,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3178275447",
+      "doi": "10.1109/twc.2022.3181674",
+      "title": "Feeling of Presence Maximization: mmWave-Enabled Virtual Reality Meets Deep Reinforcement Learning",
+      "authors": [
+        "Peng Yang",
+        "Tony Q. S. Quek",
+        "Jingxuan Chen",
+        "Chaoqun You",
+        "Xianbin Cao"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "venue_abbr": "IEEE Trans. Wireless Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "virtual reality",
+        "millimeter-wave communication",
+        "coordinated multi-point transmission",
+        "power control",
+        "head-mounted displays",
+        "echo state networks",
+        "deep reinforcement learning",
+        "mixed integer programming",
+        "power efficiency"
+      ],
+      "url": "https://doi.org/10.1109/twc.2022.3181674",
+      "cited_by_count": 36,
+      "importance": 0.2158,
+      "score_basis": {
+        "topic_overlap": 0.035,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2537515126",
+      "doi": "10.1109/comst.2016.2618870",
+      "title": "An Overview on Resource Allocation Techniques for Multi-User MIMO Systems",
+      "authors": [
+        "Eduardo Castañeda",
+        "Adão Silva",
+        "Atílio Gameiro",
+        "Marios Kountouris"
+      ],
+      "year": 2016,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multi-user MIMO",
+        "resource allocation",
+        "user selection",
+        "multiuser diversity",
+        "precoding",
+        "interference mitigation",
+        "downlink",
+        "joint optimization",
+        "bit allocation",
+        "power allocation",
+        "spatial multiplexing",
+        "channel state information"
+      ],
+      "url": "https://doi.org/10.1109/comst.2016.2618870",
+      "cited_by_count": 224,
+      "importance": 0.2091,
+      "score_basis": {
+        "topic_overlap": 0.02,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2135846983",
+      "doi": "10.1109/twc.2009.080862",
+      "title": "Error vector magnitude to SNR conversion for nondata-aided receivers",
+      "authors": [
+        "Hisham A. Mahmoud",
+        "Hüseyin Arslan"
+      ],
+      "year": 2009,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "venue_abbr": "IEEE Trans. Wireless Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "error vector magnitude",
+        "signal-to-noise ratio estimation",
+        "low signal-to-noise ratio",
+        "quadrature amplitude modulation",
+        "pulse amplitude modulation",
+        "Rayleigh fading",
+        "additive white Gaussian noise",
+        "I/Q imbalance",
+        "vector signal analyzer",
+        "receiver performance analysis"
+      ],
+      "url": "https://doi.org/10.1109/twc.2009.080862",
+      "cited_by_count": 227,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2507680897",
+      "to": "W569573148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2507680897"
+        }
+      ]
+    },
+    {
+      "from": "W2529557775",
+      "to": "W2043290021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2529557775"
+        }
+      ]
+    },
+    {
+      "from": "W2529557775",
+      "to": "W569573148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2529557775"
+        }
+      ]
+    },
+    {
+      "from": "W2562766352",
+      "to": "W2043290021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2562766352"
+        }
+      ]
+    },
+    {
+      "from": "W2562766352",
+      "to": "W569573148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2562766352"
+        }
+      ]
+    },
+    {
+      "from": "W2910549652",
+      "to": "W2507680897",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2910549652"
+        }
+      ]
+    },
+    {
+      "from": "W2910549652",
+      "to": "W569573148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2910549652"
+        }
+      ]
+    },
+    {
+      "from": "W2919714015",
+      "to": "W2562766352",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2919714015"
+        }
+      ]
+    },
+    {
+      "from": "W3026878832",
+      "to": "W2043290021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3026878832"
+        }
+      ]
+    },
+    {
+      "from": "W3026878832",
+      "to": "W2507680897",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3026878832"
+        }
+      ]
+    },
+    {
+      "from": "W3026878832",
+      "to": "W2529557775",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3026878832"
+        }
+      ]
+    },
+    {
+      "from": "W3026878832",
+      "to": "W2562766352",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3026878832"
+        }
+      ]
+    },
+    {
+      "from": "W3026878832",
+      "to": "W569573148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3026878832"
+        }
+      ]
+    },
+    {
+      "from": "W3048081097",
+      "to": "W2294612870",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3048081097"
+        }
+      ]
+    },
+    {
+      "from": "W3168897491",
+      "to": "W2043290021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3168897491"
+        }
+      ]
+    },
+    {
+      "from": "W4285192749",
+      "to": "W2910549652",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285192749"
+        }
+      ]
+    },
+    {
+      "from": "W4285192749",
+      "to": "W2919714015",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285192749"
+        }
+      ]
+    },
+    {
+      "from": "W4286433348",
+      "to": "W2910549652",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4286433348"
+        }
+      ]
+    },
+    {
+      "from": "W4321003518",
+      "to": "W2764237378",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4321003518"
+        }
+      ]
+    },
+    {
+      "from": "W4322576964",
+      "to": "W3048081097",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322576964"
+        }
+      ]
+    },
+    {
+      "from": "W4386419183",
+      "to": "W3026878832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386419183"
+        }
+      ]
+    },
+    {
+      "from": "W4394586155",
+      "to": "W2118843338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394586155"
+        }
+      ]
+    },
+    {
+      "from": "W4394586155",
+      "to": "W2919714015",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394586155"
+        }
+      ]
+    },
+    {
+      "from": "W4394586155",
+      "to": "W3026878832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394586155"
+        }
+      ]
+    },
+    {
+      "from": "W4394586155",
+      "to": "W4285192749",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4394586155"
+        }
+      ]
+    },
+    {
+      "from": "W4395017562",
+      "to": "W4285192749",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4395017562"
+        }
+      ]
+    },
+    {
+      "from": "W4402127984",
+      "to": "W2106171790",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402127984"
+        }
+      ]
+    },
+    {
+      "from": "W4402127984",
+      "to": "W2129940694",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402127984"
+        }
+      ]
+    },
+    {
+      "from": "W4402127984",
+      "to": "W2507680897",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402127984"
+        }
+      ]
+    },
+    {
+      "from": "W4402127984",
+      "to": "W2910549652",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402127984"
+        }
+      ]
+    },
+    {
+      "from": "W4402127984",
+      "to": "W3026878832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402127984"
+        }
+      ]
+    },
+    {
+      "from": "W4402127984",
+      "to": "W3168897491",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402127984"
+        }
+      ]
+    },
+    {
+      "from": "W4402127984",
+      "to": "W4286433348",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402127984"
+        }
+      ]
+    },
+    {
+      "from": "W4402127984",
+      "to": "W4295949255",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402127984"
+        }
+      ]
+    },
+    {
+      "from": "W4402127984",
+      "to": "W569573148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402127984"
+        }
+      ]
+    },
+    {
+      "from": "W4402508235",
+      "to": "W2764237378",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402508235"
+        }
+      ]
+    },
+    {
+      "from": "W4406458574",
+      "to": "W3168897491",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406458574"
+        }
+      ]
+    },
+    {
+      "from": "W4408324126",
+      "to": "W4386419183",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408324126"
+        }
+      ]
+    },
+    {
+      "from": "W4408324126",
+      "to": "W4404577039",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408324126"
+        }
+      ]
+    },
+    {
+      "from": "W4408777587",
+      "to": "W4386950879",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408777587"
+        }
+      ]
+    },
+    {
+      "from": "W4410986316",
+      "to": "W2764237378",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410986316"
+        }
+      ]
+    },
+    {
+      "from": "W4410986316",
+      "to": "W4285192749",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410986316"
+        }
+      ]
+    },
+    {
+      "from": "W569573148",
+      "to": "W2043290021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W569573148"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2043290021",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2052465787",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2106171790",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2115917255",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2118843338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2129940694",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2135846983",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2294612870",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2507680897",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2529557775",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2537515126",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2562766352",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2764237378",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2910549652",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W2919714015",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W3002159761",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W3026878832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W3048081097",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W3168897491",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W3178275447",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W3196438081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4285192749",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4286433348",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4295949255",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4321003518",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4322576964",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4386419183",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4386950879",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4392500162",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4394586155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4395017562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4402127984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4402508235",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4404577039",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4406458574",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4408324126",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4408777587",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4410986316",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W4411725679",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    },
+    {
+      "from": "W7223573889",
+      "to": "W569573148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223573889"
+        }
+      ]
+    }
+  ]
 }

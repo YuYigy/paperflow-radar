@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "1e7264b0-cb11-4d86-911b-c18952147afb",
-  "root": "doi:10.1063/5.0343190",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7225122153",
+  "status": "ok",
+  "checked_at": "2026-11-08T00:50:32.028958+00:00",
+  "coverage": {
+    "references_found": 38,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 38,
+    "displayed": 38
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1063/5.0343190",
+      "id": "W7225122153",
       "doi": "10.1063/5.0343190",
       "title": "A zero-power biasing approach for Mach–Zehnder modulators using phase-change materials",
       "authors": [
@@ -22,23 +32,3031 @@
         "Yaoxin Bao",
         "Ming Zhang",
         "Chenlei Li",
-        "Huan Li",
-        "Daoxin Dai"
+        "Hui Li",
+        "Daoxin Dai A"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "APL Photonics",
       "venue_abbr": "APL Photonics",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "Mach-Zehnder modulator",
+        "phase change materials",
+        "Sb2Se3",
+        "thin-film lithium niobate",
+        "electro-optic modulator",
+        "laser-induced crystallization",
+        "optical interconnects",
+        "PAM-4"
+      ],
       "url": "https://doi.org/10.1063/5.0343190",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/1e7264b0-cb11-4d86-911b-c18952147afb.html",
       "summary": "该研究将低损耗相变材料 Sb2Se3 集成到薄膜铌酸锂马赫–曾德尔调制器的移相段，通过激光诱导结晶编程材料相态，实现非易失相位校准与无需持续供电维持的偏置。摘要报告了 120 Gbps 开关键控和 160 Gbps 四电平脉冲幅度调制演示。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4410767900",
+      "doi": "10.1002/lpor.202401998",
+      "title": "Ultra‐Low‐Loss Slow‐Light Thin‐Film Lithium Niobate Optical Modulator",
+      "authors": [
+        "Chenlei Li",
+        "Jianghao He",
+        "Ming Zhang",
+        "Yeyu Tong",
+        "Weixi Liu",
+        "Siyuan Wang",
+        "Lijia Song",
+        "Hongxuan Liu",
+        "Hengzhen Cao",
+        "Liu Liu",
+        "Yaocheng Shi",
+        "Daoxin Dai A"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "Mach-Zehnder modulator",
+        "electro-optic modulation",
+        "apodized gratings",
+        "modulation bandwidth",
+        "optical interconnects",
+        "PAM-4",
+        "PAM-8",
+        "on-off keying",
+        "figure of merit",
+        "high-speed optical modulation"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202401998",
+      "cited_by_count": 20,
+      "importance": 0.6922,
+      "score_basis": {
+        "topic_overlap": 0.538,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4307248951",
+      "doi": "10.1186/s43074-022-00070-4",
+      "title": "Ultra-compact nonvolatile phase shifter based on electrically reprogrammable transparent phase change materials",
+      "authors": [
+        "Carlos Rı́os",
+        "Qingyang Du",
+        "Yifei Zhang",
+        "Cosmin‐Constantin Popescu",
+        "Mikhail Y. Shalaginov",
+        "Paul Miller",
+        "Christopher Roberts",
+        "Myungkoo Kang",
+        "Kathleen A. Richardson",
+        "Tian Gu",
+        "Steven A. Vitale",
+        "Juejun Hu"
+      ],
+      "year": 2022,
+      "venue": "Photonix",
+      "venue_abbr": "Photonix",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical phase shifter",
+        "Sb2Se3",
+        "structural phase transition",
+        "refractive index modulation",
+        "silicon-on-insulator",
+        "ring resonator",
+        "in-memory computing",
+        "programmable photonic integrated circuits",
+        "insertion loss"
+      ],
+      "url": "https://doi.org/10.1186/s43074-022-00070-4",
+      "cited_by_count": 279,
+      "importance": 0.6799,
+      "score_basis": {
+        "topic_overlap": 0.289,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4380356030",
+      "doi": "10.1038/s41467-023-39180-3",
+      "title": "Non-volatile electrically programmable integrated photonics with a 5-bit operation",
+      "authors": [
+        "Rui Chen",
+        "Zhuoran Fang",
+        "Christopher Perez",
+        "Forrest Miller",
+        "Khushboo Kumari",
+        "Abhi Saxena",
+        "Jiajiu Zheng",
+        "Sarah Geiger",
+        "Kenneth E. Goodson",
+        "Arka Majumdar"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase change materials",
+        "antimony sulfide",
+        "Sb2S3",
+        "silicon photonics",
+        "low-loss waveguides",
+        "high extinction ratio",
+        "cycling stability",
+        "programmable photonic integrated circuits",
+        "optical information processing"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-39180-3",
+      "cited_by_count": 170,
+      "importance": 0.6337,
+      "score_basis": {
+        "topic_overlap": 0.275,
+        "shared_references": 7,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3094133910",
+      "doi": "10.1364/prj.403167",
+      "title": "Bias-drift-free Mach–Zehnder modulators based on a heterogeneous silicon and lithium niobate platform",
+      "authors": [
+        "Shihao Sun",
+        "Mingbo He",
+        "Mengyue Xu",
+        "Shengqian Gao",
+        "Ziyan Chen",
+        "Xian Zhang",
+        "Ziliang Ruan",
+        "Xiong Wu",
+        "Lidan Zhou",
+        "Lin Liu",
+        "Chao Lü",
+        "Changjian Guo",
+        "Liu Liu",
+        "Siyuan Yu",
+        "Xinlun Cai"
+      ],
+      "year": 2020,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Mach-Zehnder modulator",
+        "bias drift",
+        "heterogeneous integration",
+        "silicon photonics",
+        "lithium niobate",
+        "electro-optic modulation",
+        "insertion loss",
+        "half-wave voltage",
+        "modulation bandwidth",
+        "high-speed optical modulation"
+      ],
+      "url": "https://doi.org/10.1364/prj.403167",
+      "cited_by_count": 90,
+      "importance": 0.6335,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4320734148",
+      "doi": "10.1002/adom.202202748",
+      "title": "Nonvolatile Multilevel Switching of Silicon Photonic Devices with In 2 O 3 /GST Segmented Structures",
+      "authors": [
+        "Changping Zhang",
+        "Maoliang Wei",
+        "Jun Bao Zheng",
+        "Shujun Liu",
+        "Hongyuan Cao",
+        "Yishu Huang",
+        "Ying Tan",
+        "Ming Zhang",
+        "Yiwei Xie",
+        "Zejie Yu",
+        "Junying Li",
+        "Hui Ye",
+        "Lan Li",
+        "Hongtao Lin",
+        "Huan Li",
+        "Yaocheng Shi",
+        "Liu Liu",
+        "Daoxin Dai A"
+      ],
+      "year": 2023,
+      "venue": "Advanced Optical Materials",
+      "venue_abbr": "Adv. Opt. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Ge2Sb2Te5",
+        "silicon waveguides",
+        "Mach-Zehnder interferometer",
+        "refractive index modulation",
+        "phase-change memory"
+      ],
+      "url": "https://doi.org/10.1002/adom.202202748",
+      "cited_by_count": 59,
+      "importance": 0.6325,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4393334155",
+      "doi": "10.1038/s41467-024-47206-7",
+      "title": "Monolithic back-end-of-line integration of phase change materials into foundry-manufactured silicon photonics",
+      "authors": [
+        "Maoliang Wei",
+        "Kai J. Xu",
+        "Bo Tang",
+        "Junying Li",
+        "Yiting Yun",
+        "Peng Zhang",
+        "Yingchun Wu",
+        "Kangjian Bao",
+        "Kunhao Lei",
+        "Zequn Chen",
+        "Hui Ma",
+        "Chunlei Sun",
+        "Ruonan Liu",
+        "Ming Li",
+        "Lan Li",
+        "Hongtao Lin"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase change materials",
+        "silicon photonics",
+        "back-end-of-line integration",
+        "foundry manufacturing",
+        "Ge2Sb2Se4Te1",
+        "heterogeneous integration",
+        "process design kit"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-47206-7",
+      "cited_by_count": 95,
+      "importance": 0.6175,
+      "score_basis": {
+        "topic_overlap": 0.283,
+        "shared_references": 7,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4210547521",
+      "doi": "10.1063/5.0077232",
+      "title": "High performance thin-film lithium niobate modulator on a silicon substrate using periodic capacitively loaded traveling-wave electrode",
+      "authors": [
+        "Gengxin Chen",
+        "Kaixuan Chen",
+        "Ranfeng Gan",
+        "Ziliang Ruan",
+        "Zong Wang",
+        "Pucheng Huang",
+        "Chao Lü",
+        "Alan Pak Tao Lau",
+        "Daoxin Dai A",
+        "Changjian Guo",
+        "Liu Liu"
+      ],
+      "year": 2022,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "silicon substrate",
+        "slow-wave effect",
+        "half-wave voltage",
+        "modulation bandwidth",
+        "optical insertion loss",
+        "PAM-4",
+        "silicon photonics integration",
+        "hybrid integration"
+      ],
+      "url": "https://doi.org/10.1063/5.0077232",
+      "cited_by_count": 153,
+      "importance": 0.5849,
+      "score_basis": {
+        "topic_overlap": 0.322,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409808365",
+      "doi": "10.1038/s42254-025-00825-5",
+      "title": "Integrated electro-optics on thin-film lithium niobate",
+      "authors": [
+        "Yaowen Hu",
+        "Di Zhu",
+        "Shengyuan Lu",
+        "Xinrui Zhu",
+        "Yunxiang Song",
+        "Dylan L. Renaud",
+        "Daniel Assumpção",
+        "Rebecca Cheng",
+        "C. J. Xin",
+        "Matthew Yeh",
+        "Hana Warner",
+        "Xiangwen Guo",
+        "Amirhassan Shams‐Ansari",
+        "David R. Barton",
+        "Neil E. Sinclair",
+        "Marko Lončar"
+      ],
+      "year": 2025,
+      "venue": "Nature Reviews Physics",
+      "venue_abbr": "Nature Reviews Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "integrated photonics",
+        "optical modulators",
+        "microwave photonics",
+        "quantum information",
+        "optical computing",
+        "optical loss"
+      ],
+      "url": "https://doi.org/10.1038/s42254-025-00825-5",
+      "cited_by_count": 186,
+      "importance": 0.5591,
+      "score_basis": {
+        "topic_overlap": 0.242,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390604151",
+      "doi": "10.1126/sciadv.adk1361",
+      "title": "Freeform direct-write and rewritable photonic integrated circuits in phase-change thin films",
+      "authors": [
+        "Changming Wu",
+        "Haoqin Deng",
+        "Yi‐Siou Huang",
+        "Heshan Yu",
+        "Ichiro Takeuchi",
+        "Carlos Rı́os",
+        "Mo Li"
+      ],
+      "year": 2024,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic integrated circuits",
+        "direct laser writing",
+        "optical interconnects",
+        "optical computing",
+        "tunable optical filter",
+        "optical signal processing",
+        "rapid prototyping",
+        "programmable photonics"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.adk1361",
+      "cited_by_count": 89,
+      "importance": 0.5582,
+      "score_basis": {
+        "topic_overlap": 0.196,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410785332",
+      "doi": "10.1186/s43074-025-00174-7",
+      "title": "Field programmable silicon microring WDM transceiver leveraging monolithically integrated phase-change materials",
+      "authors": [
+        "Xing Yang",
+        "Shihuan Ran",
+        "Ziquan Li",
+        "Liangjun Lu",
+        "Yu Li",
+        "Ngon Phu Wai",
+        "Minghua Zhang",
+        "Guo‐Qiang Lo",
+        "Jianping Chen",
+        "Linjie Zhou"
+      ],
+      "year": 2025,
+      "venue": "Photonix",
+      "venue_abbr": "Photonix",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon microring resonator",
+        "Sb2Se3",
+        "phase change materials",
+        "wavelength tuning",
+        "p-n junction",
+        "wavelength division multiplexing",
+        "optical interconnects",
+        "cascaded resonators",
+        "temperature compensation",
+        "optical power monitoring"
+      ],
+      "url": "https://doi.org/10.1186/s43074-025-00174-7",
+      "cited_by_count": 25,
+      "importance": 0.5458,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402596070",
+      "doi": "10.1021/acsphotonics.4c01263",
+      "title": "Six Bit Optical Phase States Realized in Nonvolatile Phase Shifter Based on N-Doped Sb2Se3",
+      "authors": [
+        "Junjie Gong",
+        "Jian Guo Xia",
+        "Tianci Wang",
+        "Zhiyuan Li",
+        "Zixuan Wang",
+        "Yunxiao Dong",
+        "Gongmin Li",
+        "Xiangshui Miao",
+        "Rui Yang"
+      ],
+      "year": 2024,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical phase shifter",
+        "phase change materials",
+        "optical contrast",
+        "refractive index enhancement",
+        "unbalanced Mach-Zehnder interferometer",
+        "optical neural networks",
+        "image recognition",
+        "neuromorphic computing",
+        "optical memory"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.4c01263",
+      "cited_by_count": 13,
+      "importance": 0.5433,
+      "score_basis": {
+        "topic_overlap": 0.207,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3047301857",
+      "doi": "10.1038/s41467-020-17806-0",
+      "title": "High-performance coherent optical modulators based on thin-film lithium niobate platform",
+      "authors": [
+        "Mengyue Xu",
+        "Mingbo He",
+        "Hongguang Zhang",
+        "Jian Jian",
+        "Ying Pan",
+        "Xiaoyue Liu",
+        "Lifeng Chen",
+        "Xiangyu Meng",
+        "Hui Chen",
+        "Zhaohui Li",
+        "Xi Xiao",
+        "Shaohua Yu",
+        "Siyuan Yu",
+        "Xinlun Cai"
+      ],
+      "year": 2020,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "coherent optical transmission",
+        "electro-optic modulator",
+        "thin-film lithium niobate",
+        "integrated photonics",
+        "half-wave voltage",
+        "modulation bandwidth",
+        "optical loss",
+        "chirp",
+        "digital signal processing",
+        "Shannon limit"
+      ],
+      "url": "https://doi.org/10.1038/s41467-020-17806-0",
+      "cited_by_count": 584,
+      "importance": 0.5407,
+      "score_basis": {
+        "topic_overlap": 0.357,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410242546",
+      "doi": "10.1038/s41467-025-59399-6",
+      "title": "Microheater hotspot engineering for spatially resolved and repeatable multi-level switching in foundry-processed phase change silicon photonics",
+      "authors": [
+        "Hongyi Sun",
+        "Chuanyu Lian",
+        "Francis Vásquez",
+        "Sadra Rahimi Kari",
+        "Yi‐Siou Huang",
+        "Alessandro Restelli",
+        "Steven A. Vitale",
+        "Ichiro Takeuchi",
+        "Juejun Hu",
+        "Nathan Youngblood",
+        "Georges Pavlidis",
+        "Carlos Rı́os"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase change materials",
+        "silicon photonics",
+        "microheaters",
+        "stochastic nucleation",
+        "Sb2Se3",
+        "amorphization",
+        "silicon-on-insulator"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-59399-6",
+      "cited_by_count": 23,
+      "importance": 0.531,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 8,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3127881187",
+      "doi": "10.1364/optica.416155",
+      "title": "Breaking voltage–bandwidth limits in integrated lithium niobate modulators using micro-structured electrodes",
+      "authors": [
+        "Prashanta Kharel",
+        "Christian Reimer",
+        "Kevin J. Luke",
+        "Lingyan He",
+        "Mian Zhang"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "lithium niobate modulator",
+        "thin-film lithium niobate",
+        "electro-optic modulator",
+        "half-wave voltage",
+        "microwave loss",
+        "integrated photonics",
+        "high-frequency modulation"
+      ],
+      "url": "https://doi.org/10.1364/optica.416155",
+      "cited_by_count": 448,
+      "importance": 0.5125,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386047990",
+      "doi": "10.1515/nanoph-2023-0306",
+      "title": "Compact slow‐light waveguide and modulator on thin‐film lithium niobate platform",
+      "authors": [
+        "Gengxin Chen",
+        "Haohua Wang",
+        "Bin Chen",
+        "Ziliang Ruan",
+        "Changjian Guo",
+        "Kaixuan Chen",
+        "Liu Liu"
+      ],
+      "year": 2023,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "slow light",
+        "thin-film lithium niobate",
+        "Mach-Zehnder modulator",
+        "optical waveguides",
+        "electro-optic bandwidth",
+        "group index",
+        "optical interconnects",
+        "compact photonic devices"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2023-0306",
+      "cited_by_count": 54,
+      "importance": 0.511,
+      "score_basis": {
+        "topic_overlap": 0.425,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4200305534",
+      "doi": "10.1364/optica.449691",
+      "title": "Dual-polarization thin-film lithium niobate in-phase quadrature modulators for terabit-per-second transmission",
+      "authors": [
+        "Mengyue Xu",
+        "Yuntao Zhu",
+        "Fabio Pittalà",
+        "Jin Tang",
+        "Mingbo He",
+        "Wing Chau Ng",
+        "Jingyi Wang",
+        "Ziliang Ruan",
+        "Xuefeng Tang",
+        "Maxim Kuschnerov",
+        "Liu Liu",
+        "Siyuan Yu",
+        "Bofang Zheng",
+        "Xinlun Cai"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "optical modulators",
+        "high-bandwidth modulation",
+        "energy efficiency",
+        "single-wavelength transmission"
+      ],
+      "url": "https://doi.org/10.1364/optica.449691",
+      "cited_by_count": 365,
+      "importance": 0.4899,
+      "score_basis": {
+        "topic_overlap": 0.222,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4225295082",
+      "doi": "10.1016/j.actamat.2022.117994",
+      "title": "Low power reconfigurable multilevel nanophotonic devices based on Sn-doped Ge2Sb2Te5 thin films",
+      "authors": [
+        "Petr Lazarenko",
+        "Vadim V. Kovalyuk",
+        "Pavel P. An",
+        "S. A. Kozyukhin",
+        "Viktor Takáts",
+        "Alexander D. Golikov",
+        "V. B. Glukhenkaya",
+        "Yu. V. Vorobyov",
+        "Timur V. Kulevoy",
+        "A. I. Prokhodtsov",
+        "Alexey A. Sherchenkov",
+        "Gregory N Gol'tsman"
+      ],
+      "year": 2022,
+      "venue": "Acta Materialia",
+      "venue_abbr": "Acta Materialia",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Ge2Sb2Te5",
+        "tin doping",
+        "amorphous chalcogenide films",
+        "switching energy reduction",
+        "Mach-Zehnder interferometer",
+        "non-volatile memory",
+        "optical absorption coefficient"
+      ],
+      "url": "https://doi.org/10.1016/j.actamat.2022.117994",
+      "cited_by_count": 35,
+      "importance": 0.4791,
+      "score_basis": {
+        "topic_overlap": 0.176,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413795206",
+      "doi": "10.1186/s43074-025-00183-6",
+      "title": "An 8 × 200 Gbps wavelength-division multiplexing transmitter using lithium tantalate",
+      "authors": [
+        "Mingyu Zhu",
+        "Fei Huang",
+        "Dajian Liu",
+        "Weihan Wang",
+        "Aoyun Gao",
+        "Weike Zhao",
+        "Shi Zhao",
+        "Daixin Lian",
+        "Chun Gao",
+        "Zejie Yu",
+        "Daoxin Dai A"
+      ],
+      "year": 2025,
+      "venue": "Photonix",
+      "venue_abbr": "Photonix",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "monolithic integration",
+        "PAM-4",
+        "optical interconnects",
+        "data center interconnects",
+        "artificial intelligence applications"
+      ],
+      "url": "https://doi.org/10.1186/s43074-025-00183-6",
+      "cited_by_count": 13,
+      "importance": 0.4787,
+      "score_basis": {
+        "topic_overlap": 0.286,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3041268832",
+      "doi": "10.1002/adfm.202002447",
+      "title": "A New Family of Ultralow Loss Reversible Phase‐Change Materials for Photonic Integrated Circuits: Sb 2 S 3 and Sb 2 Se 3",
+      "authors": [
+        "Matthew Delaney",
+        "Ioannis Zeimpekis",
+        "Daniel Lawson",
+        "Daniel William Hewak",
+        "Otto L. Muskens"
+      ],
+      "year": 2020,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase change materials",
+        "Sb2S3",
+        "Sb2Se3",
+        "refractive index contrast",
+        "optical switching",
+        "reconfigurable photonic integrated circuits",
+        "figure of merit",
+        "waveguide loss",
+        "C-band",
+        "visible wavelength lasers",
+        "switching endurance",
+        "reconfigurable metasurface"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202002447",
+      "cited_by_count": 700,
+      "importance": 0.4779,
+      "score_basis": {
+        "topic_overlap": 0.173,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2892135951",
+      "doi": "10.1038/s41586-018-0551-y",
+      "title": "Integrated lithium niobate electro-optic modulators operating at CMOS-compatible voltages",
+      "authors": [
+        "Cheng Wang",
+        "Mian Zhang",
+        "Xi Chen",
+        "Maxime Bertrand",
+        "Amirhassan Shams‐Ansari",
+        "S. Chandrasekhar",
+        "Peter J. Winzer",
+        "Marko Lončar"
+      ],
+      "year": 2018,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "lithium niobate",
+        "electro-optic modulator",
+        "monolithic integration",
+        "group velocity matching",
+        "low optical loss",
+        "microwave photonic systems",
+        "optical networks",
+        "reconfigurable photonic circuits"
+      ],
+      "url": "https://doi.org/10.1038/s41586-018-0551-y",
+      "cited_by_count": 2601,
+      "importance": 0.4478,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2134984664",
+      "doi": "10.1109/lpt.2013.2285184",
+      "title": "Any Bias Point Control Technique for Mach–Zehnder Modulator",
+      "authors": [
+        "Yupeng Li",
+        "Yangan Zhang",
+        "Yongqing Huang"
+      ],
+      "year": 2013,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Mach-Zehnder modulator",
+        "bias control",
+        "feedback control",
+        "OSNR penalty",
+        "bit error rate",
+        "modulation schemes"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2013.2285184",
+      "cited_by_count": 53,
+      "importance": 0.4469,
+      "score_basis": {
+        "topic_overlap": 0.171,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4377137954",
+      "doi": "10.1038/s41467-023-38473-x",
+      "title": "In-memory photonic dot-product engine with electrically programmable weight banks",
+      "authors": [
+        "Wen You Zhou",
+        "Bowei Dong",
+        "Nikolaos Farmakidis",
+        "Xuan Li",
+        "Nathan Youngblood",
+        "Kairan Huang",
+        "Yuhan He",
+        "Christopher David Wright",
+        "Wolfram H. P. Pernice",
+        "Harish Bhaskaran"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "in-memory computing",
+        "energy-efficient modulation",
+        "MNIST classification",
+        "von Neumann bottleneck"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-38473-x",
+      "cited_by_count": 180,
+      "importance": 0.44,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2117567360",
+      "doi": "10.1109/jlt.2011.2136322",
+      "title": "Analysis and Control of the DC Drift in LiNbO3Based Mach–Zehnder Modulators",
+      "authors": [
+        "Jean‐Paul Salvestrini",
+        "Laurent Guilbert",
+        "M.D. Fontana",
+        "Mustapha Abarkan",
+        "Stéphane Gille"
+      ],
+      "year": 2011,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Mach-Zehnder modulator",
+        "lithium niobate",
+        "DC drift",
+        "electrical conductivity",
+        "extinction ratio",
+        "phase shift",
+        "analog optical links",
+        "substrate engineering"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2011.2136322",
+      "cited_by_count": 224,
+      "importance": 0.4394,
+      "score_basis": {
+        "topic_overlap": 0.243,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4384697390",
+      "doi": "10.1117/1.ap.5.4.046004",
+      "title": "Electrically programmable phase-change photonic memory for optical neural networks with nanoseconds in situ training capability",
+      "authors": [
+        "Maoliang Wei",
+        "Junying Li",
+        "Zequn Chen",
+        "Bo Tang",
+        "Zhiqi Jia",
+        "Peng Zhang",
+        "Kunhao Lei",
+        "Kai J. Xu",
+        "Jianghong Wu",
+        "Chuyu Zhong",
+        "Hui Ma",
+        "Yuting Ye",
+        "Jialing Jian",
+        "Chunlei Sun",
+        "Ruonan Liu",
+        "Ying Sun",
+        "Wei E. I. Sha",
+        "Xiaoyong Hu",
+        "Jianyi Yang",
+        "Lan Li",
+        "Hongtao Lin"
+      ],
+      "year": 2023,
+      "venue": "Advanced Photonics",
+      "venue_abbr": "Adv. Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical neural networks",
+        "photonic memory",
+        "phase change materials",
+        "in situ training",
+        "microring resonators",
+        "PIN diodes",
+        "energy-efficient computing",
+        "MNIST handwritten digit classification"
+      ],
+      "url": "https://doi.org/10.1117/1.ap.5.4.046004",
+      "cited_by_count": 111,
+      "importance": 0.4299,
+      "score_basis": {
+        "topic_overlap": 0.044,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2740400597",
+      "doi": "10.1038/nphoton.2017.126",
+      "title": "Phase-change materials for non-volatile photonic applications",
+      "authors": [
+        "Matthias Wuttig",
+        "Harish Bhaskaran",
+        "Thomas Taubner"
+      ],
+      "year": 2017,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "phase change materials",
+        "amorphous-to-crystalline transition",
+        "plasmonic nanostructures",
+        "nanophotonics",
+        "optical switching"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2017.126",
+      "cited_by_count": 1434,
+      "importance": 0.4283,
+      "score_basis": {
+        "topic_overlap": 0.174,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2200176946",
+      "doi": "10.1038/nphoton.2015.182",
+      "title": "Integrated all-photonic non-volatile multi-level memory",
+      "authors": [
+        "Carlos Rı́os",
+        "Matthias Stegmaier",
+        "Peiman Hosseini",
+        "Di Wang",
+        "Torsten Scherer",
+        "Christopher David Wright",
+        "Harish Bhaskaran",
+        "Wolfram H. P. Pernice"
+      ],
+      "year": 2015,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "non-volatile memory",
+        "multilevel memory",
+        "phase change materials",
+        "wavelength multiplexing",
+        "switching energy",
+        "von Neumann bottleneck"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2015.182",
+      "cited_by_count": 1334,
+      "importance": 0.4275,
+      "score_basis": {
+        "topic_overlap": 0.283,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2120961719",
+      "doi": "10.1109/jlt.2010.2048553",
+      "title": "A Versatile Bias Control Technique for Any-Point Locking in Lithium Niobate Mach–Zehnder Modulators",
+      "authors": [
+        "Li L. Wang",
+        "Tony Kowalcyzk"
+      ],
+      "year": 2010,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Mach-Zehnder modulator",
+        "lithium niobate",
+        "bias control",
+        "transfer function",
+        "electro-optic modulator"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2010.2048553",
+      "cited_by_count": 86,
+      "importance": 0.4181,
+      "score_basis": {
+        "topic_overlap": 0.396,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2751720879",
+      "doi": "10.1038/s41598-017-19061-8",
+      "title": "Silicon-Organic Hybrid (SOH) Mach-Zehnder Modulators for 100 Gbit/s on-off Keying",
+      "authors": [
+        "S. Wolf",
+        "Heiner Zwickel",
+        "Wladislaw Hartmann",
+        "Matthias Lauermann",
+        "Y. Kutuvantavida",
+        "Clemens Kieninger",
+        "Lars Altenhain",
+        "Rolf Schmid",
+        "Jingdong Luo",
+        "Alex K.‐Y. Jen",
+        "Sebastian Randel",
+        "W. Freude",
+        "Christian G. Koos"
+      ],
+      "year": 2018,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Mach-Zehnder modulator",
+        "on-off keying",
+        "electro-optic modulator",
+        "100 Gb/s transmission",
+        "low driving voltage",
+        "low power consumption",
+        "organic electro-optic materials",
+        "molecular engineering",
+        "nonlinear transfer characteristics",
+        "short-reach optical links",
+        "data center networks",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41598-017-19061-8",
+      "cited_by_count": 112,
+      "importance": 0.4062,
+      "score_basis": {
+        "topic_overlap": 0.458,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2944119451",
+      "doi": "10.1038/s41586-019-1157-8",
+      "title": "All-optical spiking neurosynaptic networks with self-learning capabilities",
+      "authors": [
+        "Johannes Feldmann",
+        "Nathan Youngblood",
+        "Christopher David Wright",
+        "Harish Bhaskaran",
+        "Wolfram H. P. Pernice"
+      ],
+      "year": 2019,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "neuromorphic hardware",
+        "photonic neural networks",
+        "wavelength division multiplexing",
+        "supervised learning",
+        "unsupervised learning",
+        "pattern recognition",
+        "neuromorphic computing",
+        "optical communication",
+        "visual data processing"
+      ],
+      "url": "https://doi.org/10.1038/s41586-019-1157-8",
+      "cited_by_count": 1554,
+      "importance": 0.4025,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3003967059",
+      "doi": "10.1038/s41586-020-03070-1",
+      "title": "Parallel convolutional processing using an integrated photonic tensor core",
+      "authors": [
+        "J. Feldmann",
+        "N. Youngblood",
+        "M. Karpov",
+        "Helge Gehring",
+        "X. Li",
+        "M. Stappers",
+        "M. Le Gallo",
+        "X. Fu",
+        "A. Lukashchuk",
+        "A. S. Raja",
+        "J. Liu",
+        "C. D. Wright",
+        "A. Sebastian",
+        "T. J. Kippenberg",
+        "W. H. P. Pernice",
+        "H. Bhaskaran"
+      ],
+      "year": 2021,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated photonics",
+        "photonic tensor core",
+        "in-memory computing",
+        "soliton microcombs",
+        "optical frequency combs",
+        "parallel computing",
+        "AI accelerators",
+        "silicon nitride waveguides"
+      ],
+      "url": "https://doi.org/10.1038/s41586-020-03070-1",
+      "cited_by_count": 1969,
+      "importance": 0.4025,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2897089376",
+      "doi": "10.1364/optica.5.001354",
+      "title": "Recent advances in optical technologies for data centers: a review",
+      "authors": [
+        "Qixiang Cheng",
+        "Meisam Bahadori",
+        "Madeleine Strom Glick",
+        "Sébastien Rumley",
+        "K. Bergman"
+      ],
+      "year": 2018,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "data center optical interconnects",
+        "optical interconnects",
+        "optical modulators",
+        "photodiode",
+        "optical switches",
+        "optical lasers",
+        "data center networks"
+      ],
+      "url": "https://doi.org/10.1364/optica.5.001354",
+      "cited_by_count": 694,
+      "importance": 0.3822,
+      "score_basis": {
+        "topic_overlap": 0.272,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3198801864",
+      "doi": "10.3788/col202119.060016",
+      "title": "Wideband thin-film lithium niobate modulator with low half-wave-voltage length product",
+      "authors": [
+        "Xuecheng Liu",
+        "Bing Xiong",
+        "Changzheng Sun",
+        "Jian Wang",
+        "Zhibiao Hao",
+        "Lai Wang",
+        "Yanjun Han",
+        "Hongtao Li",
+        "Jiadong Yu",
+        "Yi Luo"
+      ],
+      "year": 2021,
+      "venue": "Chinese Optics Letters",
+      "venue_abbr": "COL",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "thin-film lithium niobate",
+        "electro-optic modulator",
+        "velocity matching",
+        "quartz substrate",
+        "wideband modulation",
+        "roll-off"
+      ],
+      "url": "https://doi.org/10.3788/col202119.060016",
+      "cited_by_count": 75,
+      "importance": 0.3803,
+      "score_basis": {
+        "topic_overlap": 0.356,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2807346345",
+      "doi": "10.1109/comst.2018.2839672",
+      "title": "Survey of Photonic and Plasmonic Interconnect Technologies for Intra-Datacenter and High-Performance Computing Communications",
+      "authors": [
+        "Christos Α. Thraskias",
+        "Eythimios N. Lallas",
+        "Niels Neumann",
+        "Laurent Schares",
+        "Bert Jan Offrein",
+        "Ronny Henker",
+        "Dirk Plettemeier",
+        "Frank Ellinger",
+        "Juerg Leuthold",
+        "Ioannis Tomkos"
+      ],
+      "year": 2018,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical interconnects",
+        "high-performance interconnects",
+        "energy efficiency",
+        "chip-to-chip interconnects",
+        "board-to-board interconnects",
+        "CMOS compatibility",
+        "optical modulators",
+        "photodetectors",
+        "waveguides",
+        "laser diode driver",
+        "transimpedance amplifier",
+        "bandwidth density"
+      ],
+      "url": "https://doi.org/10.1109/comst.2018.2839672",
+      "cited_by_count": 171,
+      "importance": 0.3733,
+      "score_basis": {
+        "topic_overlap": 0.274,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1988173951",
+      "doi": "10.1364/ol.10.000417",
+      "title": "Circuit effect in LiNbO_3 channel-waveguide modulators",
+      "authors": [
+        "R. Becker"
+      ],
+      "year": 1985,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "lithium niobate",
+        "RC circuit model",
+        "transient response",
+        "charge redistribution",
+        "inhomogeneity",
+        "photorefractive effect",
+        "electro-optic modulation"
+      ],
+      "url": "https://doi.org/10.1364/ol.10.000417",
+      "cited_by_count": 48,
+      "importance": 0.3656,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2165625158",
+      "doi": "10.1109/jlt.2012.2184261",
+      "title": "Auto Bias Control Technique Based on Asymmetric Bias Dithering for Optical QPSK Modulation",
+      "authors": [
+        "Hiroto Kawakami",
+        "Eiji Yoshida",
+        "Yutaka Miyamoto"
+      ],
+      "year": 2012,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical modulation",
+        "bias monitoring",
+        "high-speed optical transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2012.2184261",
+      "cited_by_count": 49,
+      "importance": 0.3425,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2055952492",
+      "doi": "10.1109/surv.2011.122111.00069",
+      "title": "A Survey on Optical Interconnects for Data Centers",
+      "authors": [
+        "Christoforos Kachris",
+        "Ioannis Tomkos"
+      ],
+      "year": 2012,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical interconnects",
+        "data center networks",
+        "energy consumption",
+        "power consumption",
+        "scalability",
+        "network connectivity",
+        "cloud computing",
+        "optical packet switching",
+        "cost comparison"
+      ],
+      "url": "https://doi.org/10.1109/surv.2011.122111.00069",
+      "cited_by_count": 604,
+      "importance": 0.2875,
+      "score_basis": {
+        "topic_overlap": 0.15,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2756170754",
+      "doi": "10.1109/ted.2017.2745500",
+      "title": "Modeling of Phase-Change Memory: Nucleation, Growth, and Amorphization Dynamics During Set and Reset: Part II—Discrete Grains",
+      "authors": [
+        "Zachary Woods",
+        "Jake Scoggin",
+        "Adam Cywar",
+        "Lhacene Adnane",
+        "Ali Gokirmak"
+      ],
+      "year": 2017,
+      "venue": "IEEE Transactions on Electron Devices",
+      "venue_abbr": "IEEE Transactions on Electron Devices",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase-change memory",
+        "nucleation",
+        "grain growth",
+        "amorphization",
+        "grain boundaries",
+        "electro-thermal simulation",
+        "heat of crystallization",
+        "thermionic emission",
+        "stochastic nucleation",
+        "percolation paths",
+        "thermal runaway",
+        "long-term annealing"
+      ],
+      "url": "https://doi.org/10.1109/ted.2017.2745500",
+      "cited_by_count": 37,
+      "importance": 0.2239,
+      "score_basis": {
+        "topic_overlap": 0.053,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2751221361",
+      "doi": "10.1109/ted.2017.2745506",
+      "title": "Modeling of Phase-Change Memory: Nucleation, Growth, and Amorphization Dynamics During Set and Reset: Part I—Effective Media Approximation",
+      "authors": [
+        "Zachary Woods",
+        "Ali Gokirmak"
+      ],
+      "year": 2017,
+      "venue": "IEEE Transactions on Electron Devices",
+      "venue_abbr": "IEEE Transactions on Electron Devices",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase-change memory",
+        "nucleation",
+        "crystal growth",
+        "amorphization",
+        "Ge2Sb2Te5",
+        "electro-thermal simulation",
+        "finite element analysis",
+        "rate equations",
+        "crystal density",
+        "current continuity equation"
+      ],
+      "url": "https://doi.org/10.1109/ted.2017.2745506",
+      "cited_by_count": 36,
+      "importance": 0.2179,
+      "score_basis": {
+        "topic_overlap": 0.04,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2117567360",
+      "to": "W1988173951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2117567360"
+        }
+      ]
+    },
+    {
+      "from": "W2134984664",
+      "to": "W2117567360",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2134984664"
+        }
+      ]
+    },
+    {
+      "from": "W2134984664",
+      "to": "W2120961719",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2134984664"
+        }
+      ]
+    },
+    {
+      "from": "W2134984664",
+      "to": "W2165625158",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2134984664"
+        }
+      ]
+    },
+    {
+      "from": "W2165625158",
+      "to": "W2117567360",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2165625158"
+        }
+      ]
+    },
+    {
+      "from": "W2740400597",
+      "to": "W2200176946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2740400597"
+        }
+      ]
+    },
+    {
+      "from": "W2807346345",
+      "to": "W2055952492",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2807346345"
+        }
+      ]
+    },
+    {
+      "from": "W2944119451",
+      "to": "W2200176946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2944119451"
+        }
+      ]
+    },
+    {
+      "from": "W3003967059",
+      "to": "W2200176946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3003967059"
+        }
+      ]
+    },
+    {
+      "from": "W3041268832",
+      "to": "W2740400597",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3041268832"
+        }
+      ]
+    },
+    {
+      "from": "W3041268832",
+      "to": "W2944119451",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3041268832"
+        }
+      ]
+    },
+    {
+      "from": "W3047301857",
+      "to": "W2117567360",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047301857"
+        }
+      ]
+    },
+    {
+      "from": "W3047301857",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047301857"
+        }
+      ]
+    },
+    {
+      "from": "W3094133910",
+      "to": "W2117567360",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094133910"
+        }
+      ]
+    },
+    {
+      "from": "W3094133910",
+      "to": "W2120961719",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094133910"
+        }
+      ]
+    },
+    {
+      "from": "W3094133910",
+      "to": "W2134984664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094133910"
+        }
+      ]
+    },
+    {
+      "from": "W3094133910",
+      "to": "W2165625158",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094133910"
+        }
+      ]
+    },
+    {
+      "from": "W3094133910",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094133910"
+        }
+      ]
+    },
+    {
+      "from": "W3127881187",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127881187"
+        }
+      ]
+    },
+    {
+      "from": "W3127881187",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127881187"
+        }
+      ]
+    },
+    {
+      "from": "W4200305534",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200305534"
+        }
+      ]
+    },
+    {
+      "from": "W4200305534",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200305534"
+        }
+      ]
+    },
+    {
+      "from": "W4200305534",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200305534"
+        }
+      ]
+    },
+    {
+      "from": "W4210547521",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210547521"
+        }
+      ]
+    },
+    {
+      "from": "W4210547521",
+      "to": "W2897089376",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210547521"
+        }
+      ]
+    },
+    {
+      "from": "W4210547521",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210547521"
+        }
+      ]
+    },
+    {
+      "from": "W4210547521",
+      "to": "W3198801864",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210547521"
+        }
+      ]
+    },
+    {
+      "from": "W4225295082",
+      "to": "W2200176946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225295082"
+        }
+      ]
+    },
+    {
+      "from": "W4225295082",
+      "to": "W2740400597",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225295082"
+        }
+      ]
+    },
+    {
+      "from": "W4225295082",
+      "to": "W2944119451",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225295082"
+        }
+      ]
+    },
+    {
+      "from": "W4225295082",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4225295082"
+        }
+      ]
+    },
+    {
+      "from": "W4307248951",
+      "to": "W2200176946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307248951"
+        }
+      ]
+    },
+    {
+      "from": "W4307248951",
+      "to": "W2740400597",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307248951"
+        }
+      ]
+    },
+    {
+      "from": "W4307248951",
+      "to": "W2897089376",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307248951"
+        }
+      ]
+    },
+    {
+      "from": "W4307248951",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307248951"
+        }
+      ]
+    },
+    {
+      "from": "W4307248951",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307248951"
+        }
+      ]
+    },
+    {
+      "from": "W4320734148",
+      "to": "W2200176946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4320734148"
+        }
+      ]
+    },
+    {
+      "from": "W4320734148",
+      "to": "W2740400597",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4320734148"
+        }
+      ]
+    },
+    {
+      "from": "W4320734148",
+      "to": "W2944119451",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4320734148"
+        }
+      ]
+    },
+    {
+      "from": "W4320734148",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4320734148"
+        }
+      ]
+    },
+    {
+      "from": "W4320734148",
+      "to": "W4307248951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4320734148"
+        }
+      ]
+    },
+    {
+      "from": "W4377137954",
+      "to": "W2200176946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377137954"
+        }
+      ]
+    },
+    {
+      "from": "W4377137954",
+      "to": "W2944119451",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377137954"
+        }
+      ]
+    },
+    {
+      "from": "W4377137954",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377137954"
+        }
+      ]
+    },
+    {
+      "from": "W4377137954",
+      "to": "W4307248951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377137954"
+        }
+      ]
+    },
+    {
+      "from": "W4380356030",
+      "to": "W2200176946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4380356030"
+        }
+      ]
+    },
+    {
+      "from": "W4380356030",
+      "to": "W2740400597",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4380356030"
+        }
+      ]
+    },
+    {
+      "from": "W4380356030",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4380356030"
+        }
+      ]
+    },
+    {
+      "from": "W4380356030",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4380356030"
+        }
+      ]
+    },
+    {
+      "from": "W4380356030",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4380356030"
+        }
+      ]
+    },
+    {
+      "from": "W4380356030",
+      "to": "W4307248951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4380356030"
+        }
+      ]
+    },
+    {
+      "from": "W4380356030",
+      "to": "W4320734148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4380356030"
+        }
+      ]
+    },
+    {
+      "from": "W4384697390",
+      "to": "W2944119451",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4384697390"
+        }
+      ]
+    },
+    {
+      "from": "W4384697390",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4384697390"
+        }
+      ]
+    },
+    {
+      "from": "W4384697390",
+      "to": "W4307248951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4384697390"
+        }
+      ]
+    },
+    {
+      "from": "W4386047990",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386047990"
+        }
+      ]
+    },
+    {
+      "from": "W4386047990",
+      "to": "W4210547521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386047990"
+        }
+      ]
+    },
+    {
+      "from": "W4390604151",
+      "to": "W2200176946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390604151"
+        }
+      ]
+    },
+    {
+      "from": "W4390604151",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390604151"
+        }
+      ]
+    },
+    {
+      "from": "W4390604151",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390604151"
+        }
+      ]
+    },
+    {
+      "from": "W4390604151",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390604151"
+        }
+      ]
+    },
+    {
+      "from": "W4390604151",
+      "to": "W4307248951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390604151"
+        }
+      ]
+    },
+    {
+      "from": "W4393334155",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393334155"
+        }
+      ]
+    },
+    {
+      "from": "W4393334155",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393334155"
+        }
+      ]
+    },
+    {
+      "from": "W4393334155",
+      "to": "W4307248951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393334155"
+        }
+      ]
+    },
+    {
+      "from": "W4393334155",
+      "to": "W4320734148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393334155"
+        }
+      ]
+    },
+    {
+      "from": "W4393334155",
+      "to": "W4377137954",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393334155"
+        }
+      ]
+    },
+    {
+      "from": "W4393334155",
+      "to": "W4380356030",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393334155"
+        }
+      ]
+    },
+    {
+      "from": "W4393334155",
+      "to": "W4384697390",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4393334155"
+        }
+      ]
+    },
+    {
+      "from": "W4402596070",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402596070"
+        }
+      ]
+    },
+    {
+      "from": "W4402596070",
+      "to": "W4307248951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402596070"
+        }
+      ]
+    },
+    {
+      "from": "W4402596070",
+      "to": "W4320734148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402596070"
+        }
+      ]
+    },
+    {
+      "from": "W4402596070",
+      "to": "W4380356030",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402596070"
+        }
+      ]
+    },
+    {
+      "from": "W4402596070",
+      "to": "W4384697390",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402596070"
+        }
+      ]
+    },
+    {
+      "from": "W4402596070",
+      "to": "W4393334155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402596070"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W3094133910",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W4200305534",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4409808365",
+      "to": "W4210547521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409808365"
+        }
+      ]
+    },
+    {
+      "from": "W4410242546",
+      "to": "W2200176946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410242546"
+        }
+      ]
+    },
+    {
+      "from": "W4410242546",
+      "to": "W2740400597",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410242546"
+        }
+      ]
+    },
+    {
+      "from": "W4410242546",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410242546"
+        }
+      ]
+    },
+    {
+      "from": "W4410242546",
+      "to": "W4307248951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410242546"
+        }
+      ]
+    },
+    {
+      "from": "W4410242546",
+      "to": "W4320734148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410242546"
+        }
+      ]
+    },
+    {
+      "from": "W4410242546",
+      "to": "W4377137954",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410242546"
+        }
+      ]
+    },
+    {
+      "from": "W4410242546",
+      "to": "W4384697390",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410242546"
+        }
+      ]
+    },
+    {
+      "from": "W4410242546",
+      "to": "W4390604151",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410242546"
+        }
+      ]
+    },
+    {
+      "from": "W4410767900",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410767900"
+        }
+      ]
+    },
+    {
+      "from": "W4410767900",
+      "to": "W2897089376",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410767900"
+        }
+      ]
+    },
+    {
+      "from": "W4410767900",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410767900"
+        }
+      ]
+    },
+    {
+      "from": "W4410767900",
+      "to": "W4200305534",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410767900"
+        }
+      ]
+    },
+    {
+      "from": "W4410767900",
+      "to": "W4386047990",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410767900"
+        }
+      ]
+    },
+    {
+      "from": "W4410785332",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410785332"
+        }
+      ]
+    },
+    {
+      "from": "W4410785332",
+      "to": "W4320734148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410785332"
+        }
+      ]
+    },
+    {
+      "from": "W4410785332",
+      "to": "W4380356030",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410785332"
+        }
+      ]
+    },
+    {
+      "from": "W4410785332",
+      "to": "W4393334155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410785332"
+        }
+      ]
+    },
+    {
+      "from": "W4413795206",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413795206"
+        }
+      ]
+    },
+    {
+      "from": "W4413795206",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413795206"
+        }
+      ]
+    },
+    {
+      "from": "W4413795206",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413795206"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W1988173951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2055952492",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2117567360",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2120961719",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2134984664",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2165625158",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2200176946",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2740400597",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2751221361",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2751720879",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2756170754",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2807346345",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2892135951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2897089376",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W2944119451",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W3003967059",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W3041268832",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W3047301857",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W3094133910",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W3127881187",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W3198801864",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4200305534",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4210547521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4225295082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4307248951",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4320734148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4377137954",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4380356030",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4384697390",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4386047990",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4390604151",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4393334155",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4402596070",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4409808365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4410242546",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4410767900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4410785332",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    },
+    {
+      "from": "W7225122153",
+      "to": "W4413795206",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225122153"
+        }
+      ]
+    }
+  ]
 }

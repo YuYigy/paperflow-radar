@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "f2e73262-7a2a-4afc-81e2-910fe4ec1d8d",
-  "root": "doi:10.1515/joc-2026-0448",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7225018818",
+  "status": "ok",
+  "checked_at": "2026-11-08T00:50:29.051223+00:00",
+  "coverage": {
+    "references_found": 23,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 23,
+    "displayed": 23
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1515/joc-2026-0448",
+      "id": "W7225018818",
       "doi": "10.1515/joc-2026-0448",
       "title": "Adaptive conformal finite-blocklength link adaptation for burst-mode coherent passive optical networks",
       "authors": [
@@ -19,20 +29,1455 @@
         "Vivek Kumar",
         "Gaurav Sahu"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Journal of Optical Communications",
       "venue_abbr": "J. Opt. Commun.",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "coherent passive optical networks",
+        "burst transmission",
+        "link adaptation",
+        "finite blocklength",
+        "modulation format selection",
+        "adaptive modulation and coding",
+        "block error rate",
+        "spectral efficiency",
+        "optical line terminal",
+        "channel estimation"
+      ],
       "url": "https://doi.org/10.1515/joc-2026-0448",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/f2e73262-7a2a-4afc-81e2-910fe4ec1d8d.html",
       "summary": "论文提出AC-FBLA方案：光线路终端根据近期残差估计构建随上下文变化、按时近程度加权的突发信噪比单侧下界，并结合误覆盖反馈和有限码长可行性筛选，选择发射功率、调制格式及编码率。摘要报告，在32个ONU、25 GBd、1024符号载荷等蒙特卡洛仿真条件下，覆盖率为97.67%–97.77%，低于98%的目标；相较点估计自适应，块错误率降低87.3%–97.8%。摘要另报告频谱效率提升45.3%–79.6%，但未明确该指标的比较基线。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4390970608",
+      "doi": "10.1109/jlt.2024.3355443",
+      "title": "Flexible Coherent Optical Access: Architectures, Algorithms, and Demonstrations",
+      "authors": [
+        "Ji Zhou",
+        "Z. Z. Xing",
+        "Haide Wang",
+        "Kuo Zhang",
+        "Xi Chen",
+        "Qiguang Feng",
+        "Keshuang Zheng",
+        "Yijia Zhao",
+        "Zhen Dong",
+        "Tao Gui",
+        "Zhicheng Ye",
+        "Liangchuan Li"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "passive optical networks",
+        "coherent transceivers",
+        "digital signal processing"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3355443",
+      "cited_by_count": 84,
+      "importance": 0.5308,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4319878931",
+      "doi": "10.1109/jlt.2023.3243828",
+      "title": "Fast-Convergence Digital Signal Processing for Coherent PON Using Digital SCM",
+      "authors": [
+        "Haide Wang",
+        "Ji Zhou",
+        "Zhenping Xing",
+        "Qiguang Feng",
+        "Kuo Zhang",
+        "Keshuang Zheng",
+        "Xi Chen",
+        "Tao Gui",
+        "Liangchuan Li",
+        "Jianrui Zeng",
+        "Jinyang Yang",
+        "Weiping Liu",
+        "Changyuan Yu",
+        "Zhaohui Li"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent passive optical networks",
+        "digital subcarrier multiplexing",
+        "training sequence design",
+        "16-QAM",
+        "bandwidth allocation",
+        "handover latency",
+        "receiver sensitivity",
+        "optical power budget"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3243828",
+      "cited_by_count": 76,
+      "importance": 0.5241,
+      "score_basis": {
+        "topic_overlap": 0.276,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409426670",
+      "doi": "10.1109/jlt.2025.3560788",
+      "title": "Robust Synchronization Schemes for Preamble Detection in Burst-Mode Coherent Optical Networks",
+      "authors": [
+        "Syed Muhammad Bilal",
+        "Christopher R.S. Fludger",
+        "Thomas Duthel",
+        "Liu Bo",
+        "Zulfikar Morbi",
+        "Han Sun",
+        "Robert Maher"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent passive optical networks",
+        "frame detection",
+        "preamble detection",
+        "synchronization",
+        "frequency offset tolerance",
+        "DP-QPSK",
+        "DP-16QAM",
+        "digital signal processing"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3560788",
+      "cited_by_count": 5,
+      "importance": 0.4925,
+      "score_basis": {
+        "topic_overlap": 0.317,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4320351903",
+      "doi": "10.1109/lpt.2023.3238666",
+      "title": "A Minimal Coherent Receiver for 200 Gb/s/λ PON Downstream With Measured 29 dB Power Budget",
+      "authors": [
+        "Istvan Bence Kovacs",
+        "Md. Saifuddin Faruk",
+        "Seb J. Savory"
+      ],
+      "year": 2023,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical receivers",
+        "passive optical networks",
+        "heterodyne detection",
+        "power budget",
+        "Alamouti code",
+        "optical line terminal",
+        "optical network unit",
+        "balanced receiver"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2023.3238666",
+      "cited_by_count": 30,
+      "importance": 0.4907,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403063349",
+      "doi": "10.1364/jocn.535200",
+      "title": "Coherent passive optical network: applications, technologies, and specification development [Invited Tutorial]",
+      "authors": [
+        "Zhensheng Jia",
+        "Haipeng Zhang",
+        "Karthik Choutagunta",
+        "Luis Alberto Campos"
+      ],
+      "year": 2024,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent passive optical networks",
+        "coherent detection",
+        "passive optical networks",
+        "forward error correction",
+        "access network architecture",
+        "network scalability"
+      ],
+      "url": "https://doi.org/10.1364/jocn.535200",
+      "cited_by_count": 57,
+      "importance": 0.4858,
+      "score_basis": {
+        "topic_overlap": 0.302,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413308841",
+      "doi": "10.1364/jocn.560191",
+      "title": "Real-time burst-mode digital signal processing for passive optical networks",
+      "authors": [
+        "Ji Zhou",
+        "Kainan Wu",
+        "Haide Wang",
+        "Jinyang Yang",
+        "Weiping Liu",
+        "Junwen Zhang",
+        "Changyuan Yu",
+        "Xiangjun Xin",
+        "Liangchuan Li"
+      ],
+      "year": 2025,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "passive optical networks",
+        "50G-PON",
+        "on-off keying",
+        "frequency-domain equalization",
+        "preamble design",
+        "fast Fourier transform",
+        "minimum mean square error",
+        "FPGA implementation",
+        "application-specific integrated circuits"
+      ],
+      "url": "https://doi.org/10.1364/jocn.560191",
+      "cited_by_count": 13,
+      "importance": 0.4837,
+      "score_basis": {
+        "topic_overlap": 0.297,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417325547",
+      "doi": "10.1364/oe.578683",
+      "title": "Efficient preamble scheme for burst-mode detection in coherent TFDM-PON",
+      "authors": [
+        "Jie Li",
+        "Zebang Pi",
+        "Xiang Li",
+        "Ming Li",
+        "HanYu Gong",
+        "H Z Li",
+        "Ming Luo"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical communication",
+        "passive optical networks",
+        "preamble design",
+        "digital subcarrier multiplexing",
+        "upstream transmission",
+        "frame synchronization",
+        "frequency offset estimation",
+        "polarization compensation",
+        "channel estimation",
+        "spectrum allocation",
+        "200 Gb/s transmission"
+      ],
+      "url": "https://doi.org/10.1364/oe.578683",
+      "cited_by_count": 2,
+      "importance": 0.4559,
+      "score_basis": {
+        "topic_overlap": 0.346,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4205296904",
+      "doi": "10.1109/mcom.010.2100503",
+      "title": "Coherent Passive Optical Networks: Why, When, and How",
+      "authors": [
+        "Md. Saifuddin Faruk",
+        "Xiang Li",
+        "Derek Nesset",
+        "Iván N. Cano",
+        "Albert Rafel",
+        "Seb J. Savory"
+      ],
+      "year": 2021,
+      "venue": "IEEE Communications Magazine",
+      "venue_abbr": "IEEE Communications Magazine",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "coherent optical communication",
+        "passive optical networks",
+        "access networks",
+        "100 Gb/s transmission",
+        "intensity modulation and direct detection",
+        "power budget",
+        "physical layer"
+      ],
+      "url": "https://doi.org/10.1109/mcom.010.2100503",
+      "cited_by_count": 113,
+      "importance": 0.4535,
+      "score_basis": {
+        "topic_overlap": 0.319,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313467286",
+      "doi": "10.1109/jlt.2022.3215193",
+      "title": "Novel Data-Aided Carrier Frequency Offset Compensation Methods Using Asymmetric-Shape Constellations for Burst-Mode Coherent Reception",
+      "authors": [
+        "Ryo Koma",
+        "Masamichi Fujiwara",
+        "Ryo Igarashi",
+        "Kazutaka Hara",
+        "Jun‐ichi Kani",
+        "Tomoaki Yoshida"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "carrier frequency offset estimation",
+        "carrier frequency offset compensation",
+        "differential decoding",
+        "optical access networks",
+        "long-reach optical transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3215193",
+      "cited_by_count": 3,
+      "importance": 0.4468,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408185052",
+      "doi": "10.1364/oe.554552",
+      "title": "200 G bidirectional simplified coherent PON with a single DFB at the ONU side",
+      "authors": [
+        "Kailai Deng",
+        "Xiang Li",
+        "Yuan Li",
+        "Tingyi Zhou",
+        "Jie Li",
+        "Ming Luo"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent passive optical networks",
+        "bidirectional transmission",
+        "digital subcarrier multiplexing",
+        "distributed feedback lasers",
+        "local oscillator",
+        "Alamouti code",
+        "16-QAM",
+        "64-QAM",
+        "single-sideband modulation",
+        "power budget",
+        "fiber access networks"
+      ],
+      "url": "https://doi.org/10.1364/oe.554552",
+      "cited_by_count": 7,
+      "importance": 0.4348,
+      "score_basis": {
+        "topic_overlap": 0.3,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2972193693",
+      "doi": "10.1364/jocn.12.0000a1",
+      "title": "200 Gbit/s/λ PDM-PAM-4 PON system based on intensity modulation and coherent detection",
+      "authors": [
+        "Jiao Zhang",
+        "Jianjun Yu",
+        "Xinying Li",
+        "Kaihui Wang",
+        "Wen Yan Zhou",
+        "Jiangnan Xiao",
+        "Li Zhao",
+        "Xiaolong Pan",
+        "Bo Liu",
+        "Xiangjun Xin"
+      ],
+      "year": 2019,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "passive optical networks",
+        "intensity modulation",
+        "coherent detection",
+        "single-wavelength transmission",
+        "Nyquist pulse shaping",
+        "carrier recovery",
+        "C-band",
+        "power budget",
+        "downstream transmission"
+      ],
+      "url": "https://doi.org/10.1364/jocn.12.0000a1",
+      "cited_by_count": 77,
+      "importance": 0.4282,
+      "score_basis": {
+        "topic_overlap": 0.307,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4221079518",
+      "doi": "10.1109/mcom.001.2100441",
+      "title": "50G-PON: The First ITU-T Higher-Speed PON System",
+      "authors": [
+        "R. Bonk",
+        "Dan Geng",
+        "Denis A. Khotimsky",
+        "Dekun Liu",
+        "Xiang Liu",
+        "Yuanqiu Luo",
+        "Derek Nesset",
+        "Vladimir Oksman",
+        "Rainer Strobel",
+        "Werner Van Hoof",
+        "Jun Shan Wey"
+      ],
+      "year": 2022,
+      "venue": "IEEE Communications Magazine",
+      "venue_abbr": "IEEE Communications Magazine",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "50G-PON",
+        "passive optical networks",
+        "ITU-T standards",
+        "optical transceivers",
+        "error correction coding",
+        "network activation",
+        "fiber access networks"
+      ],
+      "url": "https://doi.org/10.1109/mcom.001.2100441",
+      "cited_by_count": 153,
+      "importance": 0.415,
+      "score_basis": {
+        "topic_overlap": 0.3,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3212004570",
+      "doi": "10.1364/networks.2021.nem1c.3",
+      "title": "Analysis of Burst Mode Reception in 100 Gbit/s Coherent Passive Optical Networks",
+      "authors": [
+        "Md Mosaddek Hossain Adib",
+        "Christoph Füllner",
+        "Adrian Schwarzenberger",
+        "Christian G. Koos",
+        "W. Freude",
+        "Sebastian Randel"
+      ],
+      "year": 2021,
+      "venue": "OSA Advanced Photonics Congress",
+      "venue_abbr": "OSA Advanced Photonics Congress",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "coherent optical receivers",
+        "passive optical networks",
+        "quantization error",
+        "dynamic range",
+        "100 Gb/s",
+        "adaptive gain control",
+        "effective number of bits"
+      ],
+      "url": "https://doi.org/10.1364/networks.2021.nem1c.3",
+      "cited_by_count": 2,
+      "importance": 0.3789,
+      "score_basis": {
+        "topic_overlap": 0.353,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2790080892",
+      "doi": "10.1109/jlt.2017.2785341",
+      "title": "100 Gb/s to 1 Tb/s Based Coherent Passive Optical Network Technology",
+      "authors": [
+        "Naoki Suzuki",
+        "Hiroshi Miura",
+        "Keisuke Matsuda",
+        "Ryosuke Matsumoto",
+        "Kuniaki MOTOSHIMA"
+      ],
+      "year": 2017,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent passive optical networks",
+        "coherent transceivers",
+        "wavelength division multiplexing",
+        "time-division multiplexing",
+        "mobile fronthaul",
+        "fixed-mobile convergence",
+        "access networks",
+        "receiver sensitivity"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2017.2785341",
+      "cited_by_count": 109,
+      "importance": 0.3669,
+      "score_basis": {
+        "topic_overlap": 0.282,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3183712426",
+      "doi": "10.1109/jlt.2021.3097163",
+      "title": "Point-to-Multipoint Optical Networks Using Coherent Digital Subcarriers",
+      "authors": [
+        "Dave Welch",
+        "Antonio Napoli",
+        "Johan Bäck",
+        "Warren Sande",
+        "João Pedro",
+        "Fady Masoud",
+        "Christopher R.S. Fludger",
+        "Thomas Duthel",
+        "Han Sun",
+        "Steven J. Hand",
+        "Ting-Kuang Chiang",
+        "Aaron Chase",
+        "A. Mathur",
+        "Tobias A. Eriksson",
+        "Mats Plantare",
+        "Magnus Olson",
+        "Stefan Voll",
+        "Kuang‐Tsan Wu"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "coherent optical communication",
+        "digital subcarrier multiplexing",
+        "network cost reduction"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3097163",
+      "cited_by_count": 208,
+      "importance": 0.3617,
+      "score_basis": {
+        "topic_overlap": 0.27,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2936485326",
+      "doi": "10.1109/jlt.2019.2943938",
+      "title": "Introducing Enumerative Sphere Shaping for Optical Communication Systems With Short Blocklengths",
+      "authors": [
+        "Abdelkerim Amari",
+        "Sebastiaan Goossens",
+        "Yunus Can Gültekin",
+        "Olga Vassilieva",
+        "Inwoong Kim",
+        "Tadashi Ikeuchi",
+        "Chigo M. Okonkwo",
+        "Frans M. J. Willems",
+        "Alex Alvarado"
+      ],
+      "year": 2019,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "probabilistic shaping",
+        "64-QAM",
+        "WDM transmission",
+        "dual polarization",
+        "bit error rate",
+        "rate loss",
+        "effective signal-to-noise ratio"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2019.2943938",
+      "cited_by_count": 124,
+      "importance": 0.3249,
+      "score_basis": {
+        "topic_overlap": 0.278,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2262889796",
+      "doi": "10.1109/jproc.2016.2537298",
+      "title": "Toward Massive, Ultrareliable, and Low-Latency Wireless Communication With Short Packets",
+      "authors": [
+        "Giuseppe Durisi",
+        "Tobias Koch",
+        "Petar Popovski"
+      ],
+      "year": 2016,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "short packet transmission",
+        "control information",
+        "two-way channel",
+        "5G",
+        "machine-to-machine communication",
+        "information-theoretic analysis",
+        "low latency"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2016.2537298",
+      "cited_by_count": 1212,
+      "importance": 0.3139,
+      "score_basis": {
+        "topic_overlap": 0.031,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2036533317",
+      "doi": "10.1109/tit.2014.2318726",
+      "title": "Quasi-Static Multiple-Antenna Fading Channels at Finite Blocklength",
+      "authors": [
+        "Wei Qing Yang",
+        "Giuseppe Durisi",
+        "Tobias Koch",
+        "Yury Polyanskiy"
+      ],
+      "year": 2014,
+      "venue": "IEEE Transactions on Information Theory",
+      "venue_abbr": "IEEE Transactions on Information Theory",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "finite blocklength",
+        "quasi-static fading",
+        "outage capacity",
+        "channel dispersion",
+        "channel state information at transmitter",
+        "channel state information at receiver",
+        "achievable rate bounds",
+        "LTE-Advanced",
+        "slow fading"
+      ],
+      "url": "https://doi.org/10.1109/tit.2014.2318726",
+      "cited_by_count": 628,
+      "importance": 0.2972,
+      "score_basis": {
+        "topic_overlap": 0.06,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2106864314",
+      "doi": "10.1109/tit.2010.2043769",
+      "title": "Channel Coding Rate in the Finite Blocklength Regime",
+      "authors": [
+        "Yury Polyanskiy",
+        "H. Vincent Poor",
+        "Sergio Verdú"
+      ],
+      "year": 2010,
+      "venue": "IEEE Transactions on Information Theory",
+      "venue_abbr": "IEEE Transactions on Information Theory",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "channel coding rate",
+        "finite blocklength regime",
+        "error probability",
+        "channel dispersion",
+        "achievability bounds",
+        "converse bounds",
+        "capacity",
+        "AWGN channel"
+      ],
+      "url": "https://doi.org/10.1109/tit.2010.2043769",
+      "cited_by_count": 3950,
+      "importance": 0.2932,
+      "score_basis": {
+        "topic_overlap": 0.118,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4380490520",
+      "doi": "10.1214/23-aos2276",
+      "title": "Conformal prediction beyond exchangeability",
+      "authors": [
+        "Rina Foygel Barber",
+        "Emmanuel J. Candès",
+        "Aaditya Ramdas",
+        "Ryan J. Tibshirani"
+      ],
+      "year": 2023,
+      "venue": "The Annals of Statistics",
+      "venue_abbr": "The Annals of Statistics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "conformal prediction",
+        "exchangeability",
+        "distribution shift",
+        "randomization",
+        "coverage guarantees",
+        "predictive inference",
+        "electricity forecasting",
+        "election forecasting"
+      ],
+      "url": "https://doi.org/10.1214/23-aos2276",
+      "cited_by_count": 545,
+      "importance": 0.2777,
+      "score_basis": {
+        "topic_overlap": 0.017,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387010331",
+      "doi": "10.1109/tmlcn.2023.3319282",
+      "title": "Calibrating AI Models for Wireless Communications via Conformal Prediction",
+      "authors": [
+        "Kfir M. Cohen",
+        "Sangwoo Park",
+        "Osvaldo Simeone",
+        "Shlomo Shitz Shamai"
+      ],
+      "year": 2023,
+      "venue": "IEEE Transactions on Machine Learning in Communications and Networking",
+      "venue_abbr": "IEEE Transactions on Machine Learning in Communications and Networking",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "conformal prediction",
+        "uncertainty calibration",
+        "wireless communication",
+        "demodulation",
+        "automatic modulation classification",
+        "channel prediction",
+        "coverage guarantees",
+        "Bayesian learning"
+      ],
+      "url": "https://doi.org/10.1109/tmlcn.2023.3319282",
+      "cited_by_count": 43,
+      "importance": 0.2719,
+      "score_basis": {
+        "topic_overlap": 0.049,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4361012985",
+      "doi": "10.1561/2200000101",
+      "title": "Conformal Prediction: A Gentle Introduction",
+      "authors": [
+        "Anastasios N. Angelopoulos",
+        "Stephen Bates"
+      ],
+      "year": 2023,
+      "venue": "Foundations and Trends® in Machine Learning",
+      "venue_abbr": "Foundations and Trends® in Machine Learning",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "conformal prediction",
+        "conformal inference",
+        "uncertainty quantification",
+        "prediction intervals",
+        "black-box models",
+        "structured output",
+        "distribution shift",
+        "time series",
+        "outlier detection",
+        "abstention"
+      ],
+      "url": "https://doi.org/10.1561/2200000101",
+      "cited_by_count": 2516,
+      "importance": 0.2266,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7163133313",
+      "doi": "10.1364/ofc.2026.m4a.3",
+      "title": "Policy-driven Conformal Prediction for Trustworthy QoT Estimation",
+      "authors": [
+        "Kiarash Rezaei",
+        "Omran Ayoub",
+        "Paolo Monti A",
+        "Carlos Natalino"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "conformal prediction",
+        "domain shift",
+        "statistical guarantees",
+        "network traffic prediction"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.m4a.3",
+      "cited_by_count": 3,
+      "importance": 0.2162,
+      "score_basis": {
+        "topic_overlap": 0.036,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2036533317",
+      "to": "W2106864314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2036533317"
+        }
+      ]
+    },
+    {
+      "from": "W2262889796",
+      "to": "W2036533317",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2262889796"
+        }
+      ]
+    },
+    {
+      "from": "W2262889796",
+      "to": "W2106864314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2262889796"
+        }
+      ]
+    },
+    {
+      "from": "W2972193693",
+      "to": "W2790080892",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2972193693"
+        }
+      ]
+    },
+    {
+      "from": "W4205296904",
+      "to": "W2972193693",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4205296904"
+        }
+      ]
+    },
+    {
+      "from": "W4313467286",
+      "to": "W3212004570",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313467286"
+        }
+      ]
+    },
+    {
+      "from": "W4313467286",
+      "to": "W4205296904",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313467286"
+        }
+      ]
+    },
+    {
+      "from": "W4319878931",
+      "to": "W2790080892",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4319878931"
+        }
+      ]
+    },
+    {
+      "from": "W4319878931",
+      "to": "W3183712426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4319878931"
+        }
+      ]
+    },
+    {
+      "from": "W4320351903",
+      "to": "W2972193693",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4320351903"
+        }
+      ]
+    },
+    {
+      "from": "W4320351903",
+      "to": "W4205296904",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4320351903"
+        }
+      ]
+    },
+    {
+      "from": "W4320351903",
+      "to": "W4221079518",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4320351903"
+        }
+      ]
+    },
+    {
+      "from": "W4380490520",
+      "to": "W4361012985",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4380490520"
+        }
+      ]
+    },
+    {
+      "from": "W4387010331",
+      "to": "W4380490520",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387010331"
+        }
+      ]
+    },
+    {
+      "from": "W4390970608",
+      "to": "W4221079518",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390970608"
+        }
+      ]
+    },
+    {
+      "from": "W4390970608",
+      "to": "W4319878931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390970608"
+        }
+      ]
+    },
+    {
+      "from": "W4403063349",
+      "to": "W3183712426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403063349"
+        }
+      ]
+    },
+    {
+      "from": "W4403063349",
+      "to": "W4205296904",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403063349"
+        }
+      ]
+    },
+    {
+      "from": "W4403063349",
+      "to": "W4390970608",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403063349"
+        }
+      ]
+    },
+    {
+      "from": "W4408185052",
+      "to": "W4319878931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408185052"
+        }
+      ]
+    },
+    {
+      "from": "W4408185052",
+      "to": "W4390970608",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408185052"
+        }
+      ]
+    },
+    {
+      "from": "W4409426670",
+      "to": "W4221079518",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409426670"
+        }
+      ]
+    },
+    {
+      "from": "W4409426670",
+      "to": "W4319878931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409426670"
+        }
+      ]
+    },
+    {
+      "from": "W4409426670",
+      "to": "W4390970608",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409426670"
+        }
+      ]
+    },
+    {
+      "from": "W4413308841",
+      "to": "W4221079518",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413308841"
+        }
+      ]
+    },
+    {
+      "from": "W4413308841",
+      "to": "W4319878931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413308841"
+        }
+      ]
+    },
+    {
+      "from": "W4413308841",
+      "to": "W4390970608",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413308841"
+        }
+      ]
+    },
+    {
+      "from": "W4417325547",
+      "to": "W4319878931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417325547"
+        }
+      ]
+    },
+    {
+      "from": "W4417325547",
+      "to": "W4390970608",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417325547"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W2036533317",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W2106864314",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W2262889796",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W2790080892",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W2936485326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W2972193693",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W3183712426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W3212004570",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4205296904",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4221079518",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4313467286",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4319878931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4320351903",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4361012985",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4380490520",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4387010331",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4390970608",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4403063349",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4408185052",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4409426670",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4413308841",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W4417325547",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    },
+    {
+      "from": "W7225018818",
+      "to": "W7163133313",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225018818"
+        }
+      ]
+    }
+  ]
 }

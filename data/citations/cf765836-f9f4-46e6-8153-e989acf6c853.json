@@ -1,35 +1,934 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "cf765836-f9f4-46e6-8153-e989acf6c853",
-  "root": "doi:10.48550/arxiv.2610.40904",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7225081084",
+  "status": "ok",
+  "checked_at": "2026-11-08T00:50:29.370112+00:00",
+  "coverage": {
+    "references_found": 15,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 15,
+    "displayed": 15
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.48550/arxiv.2610.40904",
+      "id": "W7225081084",
       "doi": "10.48550/arxiv.2610.40904",
       "title": "Optical Quantum Memory Processing for Quantum Hashing",
       "authors": [
         "S. A. Moiseev",
         "M. M. Minnegaliev"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "arXiv",
       "venue_abbr": "arXiv",
       "rank_label": "不适用期刊等级",
-      "keywords": [],
-      "url": "https://arxiv.org/abs/2610.40904v1",
-      "cited_by_count": null,
+      "keywords": [
+        "optical quantum memory",
+        "sender authentication",
+        "time-bin encoding",
+        "photon echo",
+        "phase encoding",
+        "quantum key distribution",
+        "spin coherence",
+        "quantum communication networks"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2610.40904",
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/cf765836-f9f4-46e6-8153-e989acf6c853.html",
       "summary": "该预印本提出利用可编程光子回波量子存储器处理多时间仓光子量子比特的高维推广态（qudit），实现基于量子哈希的发送者验证。发送端将单个已存储光子波包转换为可编程时间仓态；接收端依据相位编码，将各时间仓的相干响应依次累积于自旋相干中，并映射至单一输出模式进行验证。作者的分析认为，已有实验验证的光学量子存储器参数可支持该架构的原理验证实现。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W4388124817",
+      "doi": "10.1038/s41467-023-42741-1",
+      "title": "Quantum storage of entangled photons at telecom wavelengths in a crystal",
+      "authors": [
+        "Ming-Hao Jiang",
+        "Wenyi Xue",
+        "Qian He",
+        "Yu-Yang An",
+        "Xiaodong Zheng",
+        "Wen-Jie Xu",
+        "Yu-Bo Xie",
+        "Yanqing Lu",
+        "Shining N. Zhu",
+        "Xiao‐Song Ma"
+      ],
+      "year": 2023,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum memory",
+        "telecom wavelengths",
+        "erbium-doped crystals",
+        "integrated photonics",
+        "entanglement witnesses",
+        "quantum networks",
+        "solid-state quantum memory",
+        "storage time"
+      ],
+      "url": "https://doi.org/10.1038/s41467-023-42741-1",
+      "cited_by_count": 40,
+      "importance": 0.5605,
+      "score_basis": {
+        "topic_overlap": 0.312,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7214016027",
+      "doi": "10.48550/arxiv.2609.23171",
+      "title": "Deterministic synthesis and processing of frequency-bin qubits in a macroscopically coherent quantum memory",
+      "authors": [
+        "S A Moiseev"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "spin coherence",
+        "all-optical control",
+        "quantum bus",
+        "impedance matching",
+        "time-reversal symmetry",
+        "spectral encoding"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2609.23171",
+      "cited_by_count": 1,
+      "importance": 0.5281,
+      "score_basis": {
+        "topic_overlap": 0.396,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2580887866",
+      "doi": "10.1038/nphys4254",
+      "title": "Coherence time of over a second in a telecom-compatible quantum memory storage material",
+      "authors": [
+        "Miloš Rančić",
+        "Morgan P. Hedges",
+        "Rose L. Ahlefeldt",
+        "Matthew J. Sellars"
+      ],
+      "year": 2017,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum memory",
+        "spin dynamics",
+        "telecom wavelengths",
+        "1550 nm",
+        "quantum communication networks"
+      ],
+      "url": "https://doi.org/10.1038/nphys4254",
+      "cited_by_count": 313,
+      "importance": 0.4608,
+      "score_basis": {
+        "topic_overlap": 0.402,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389990376",
+      "doi": "10.1103/revmodphys.95.045006",
+      "title": "Quantum repeaters: From quantum networks to the quantum internet",
+      "authors": [
+        "Koji Azuma",
+        "Sophia E. Economou",
+        "David Elkouss",
+        "Paul Hilaire",
+        "Liang Jiang",
+        "Hoi‐Kwong Lo",
+        "Ilan Tzitrin"
+      ],
+      "year": 2023,
+      "venue": "Reviews of Modern Physics",
+      "venue_abbr": "Reviews of Modern Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum repeaters",
+        "quantum networks",
+        "quantum internet",
+        "entanglement distribution",
+        "qubit storage",
+        "entangled photons",
+        "quantum memory"
+      ],
+      "url": "https://doi.org/10.1103/revmodphys.95.045006",
+      "cited_by_count": 664,
+      "importance": 0.4518,
+      "score_basis": {
+        "topic_overlap": 0.337,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416156940",
+      "doi": "10.1038/s41566-026-01845-y",
+      "title": "Efficient integrated quantum memory for light",
+      "authors": [
+        "Ruo-Ran Meng",
+        "Pei-Xi Liu",
+        "Xiao Liu",
+        "Tian-Xiang Zhu",
+        "Peng-Jun Liang",
+        "Chao Zhang",
+        "Zhong-Yang Tang",
+        "Hong-Zhe Zhang",
+        "Jin‐Ming Cui",
+        "Ming Jin",
+        "Zong‐Quan Zhou",
+        "Chuan-Feng Li",
+        "Guang-Can Guo"
+      ],
+      "year": 2026,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "rare-earth-doped crystals",
+        "Eu3+:Y2SiO5",
+        "thin film membranes",
+        "femtosecond laser fabrication",
+        "weak coherent pulses",
+        "quantum repeaters",
+        "photonic processors",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1038/s41566-026-01845-y",
+      "cited_by_count": 17,
+      "importance": 0.4475,
+      "score_basis": {
+        "topic_overlap": 0.283,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7214969322",
+      "doi": "10.1103/6rns-8wj3",
+      "title": "On-Demand Millisecond Storage of Spectrotemporal Modes at Telecom Wavelength",
+      "authors": [
+        "Anuj Sethia",
+        "Nasser Gohari Kamel",
+        "Daniel Oblak"
+      ],
+      "year": 2026,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "telecom wavelengths",
+        "optical memory",
+        "time-bin entanglement",
+        "quantum memory"
+      ],
+      "url": "https://doi.org/10.1103/6rns-8wj3",
+      "cited_by_count": 2,
+      "importance": 0.4458,
+      "score_basis": {
+        "topic_overlap": 0.213,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3133662387",
+      "doi": "10.1103/physrevresearch.3.l032054",
+      "title": "Initialization protocol for efficient quantum memories using resolved hyperfine structure",
+      "authors": [
+        "James S. Stuart",
+        "Morgan P. Hedges",
+        "Rose L. Ahlefeldt",
+        "Matthew J. Sellars"
+      ],
+      "year": 2021,
+      "venue": "Physical Review Research",
+      "venue_abbr": "Physical Review Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum memory",
+        "erbium-doped crystals",
+        "atomic frequency comb",
+        "memory bandwidth",
+        "laser instabilities"
+      ],
+      "url": "https://doi.org/10.1103/physrevresearch.3.l032054",
+      "cited_by_count": 37,
+      "importance": 0.4422,
+      "score_basis": {
+        "topic_overlap": 0.272,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3200357195",
+      "doi": "10.1038/s41534-022-00541-3",
+      "title": "Storage of photonic time-bin qubits for up to 20 ms in a rare-earth doped crystal",
+      "authors": [
+        "Antonio Ortu",
+        "Adrian Holzäpfel",
+        "Jean Etesse",
+        "Mikael Afzelius"
+      ],
+      "year": 2022,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum memory",
+        "rare-earth-doped crystals",
+        "dynamical decoupling",
+        "magnetic field",
+        "quantum repeaters",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1038/s41534-022-00541-3",
+      "cited_by_count": 126,
+      "importance": 0.4122,
+      "score_basis": {
+        "topic_overlap": 0.338,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3117812207",
+      "doi": "10.1038/s41467-021-22706-y",
+      "title": "One-hour coherent optical storage in an atomic frequency comb memory",
+      "authors": [
+        "Yu Ma",
+        "You-Zhi Ma",
+        "Zong‐Quan Zhou",
+        "Chuan-Feng Li",
+        "Guang-Can Guo"
+      ],
+      "year": 2021,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical quantum memory",
+        "atomic frequency comb",
+        "solid-state quantum memory",
+        "dynamical decoupling",
+        "Zeeman magnetic field",
+        "quantum repeaters",
+        "quantum communication"
+      ],
+      "url": "https://doi.org/10.1038/s41467-021-22706-y",
+      "cited_by_count": 237,
+      "importance": 0.4116,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3081121886",
+      "doi": "10.1364/optica.412211",
+      "title": "Multifunctional on-chip storage at telecommunication wavelength for quantum networks",
+      "authors": [
+        "Ioana Craiciu",
+        "Mi Lei",
+        "Jake Rochman",
+        "John G. Bartholomew",
+        "Andrei Faraon"
+      ],
+      "year": 2020,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "quantum memory",
+        "Er3+",
+        "Y2SiO5",
+        "atomic frequency comb",
+        "Stark shift",
+        "telecommunication C-band",
+        "frequency shift",
+        "bandwidth enhancement",
+        "quantum networks",
+        "rare-earth ions"
+      ],
+      "url": "https://doi.org/10.1364/optica.412211",
+      "cited_by_count": 69,
+      "importance": 0.3994,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390616887",
+      "doi": "10.1103/physreva.109.012607",
+      "title": "Stark control of solid-state quantum memory with spin-wave storage",
+      "authors": [
+        "Mohammed K. Alqedra",
+        "Sebastian P. Horvath",
+        "Adam Kinos",
+        "Andreas Walther",
+        "Stefan Kröll",
+        "Lars Rippe"
+      ],
+      "year": 2024,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "linear Stark effect",
+        "rare-earth-doped crystals",
+        "coherent noise suppression",
+        "spin-transfer torque",
+        "free induction decay",
+        "single-photon storage",
+        "quantum repeaters",
+        "pulsed electric field"
+      ],
+      "url": "https://doi.org/10.1103/physreva.109.012607",
+      "cited_by_count": 5,
+      "importance": 0.3822,
+      "score_basis": {
+        "topic_overlap": 0.294,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2786019725",
+      "doi": "10.1016/bs.aamop.2018.02.002",
+      "title": "Quantum Optical Memory Protocols in Atomic Ensembles",
+      "authors": [
+        "T. Chanelière",
+        "Gabriel Hetet",
+        "Nicolas Sangouard"
+      ],
+      "year": 2018,
+      "venue": "Advances in atomic, molecular, and optical physics",
+      "venue_abbr": "Advances in atomic, molecular, and optical physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "atomic ensembles",
+        "light storage",
+        "photon echo",
+        "slow light"
+      ],
+      "url": "https://doi.org/10.1016/bs.aamop.2018.02.002",
+      "cited_by_count": 39,
+      "importance": 0.3738,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7164885612",
+      "doi": "10.48550/arxiv.2606.15009",
+      "title": "On-Demand Coherent Mapping of Telecom Optical States onto Erbium Hyperfine Spins",
+      "authors": [
+        "Zongfeng Li",
+        "Mahdi Hosseini"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical quantum memory",
+        "telecom wavelengths",
+        "inhomogeneous broadening",
+        "dynamical decoupling",
+        "solid-state quantum memory"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2606.15009",
+      "cited_by_count": 3,
+      "importance": 0.3422,
+      "score_basis": {
+        "topic_overlap": 0.272,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1637086258",
+      "doi": "10.48550/arxiv.1001.1140",
+      "title": "Quantum computer of wire circuit architecture",
+      "authors": [
+        "Sergey A. Moiseev",
+        "F. F. Gubaidullin",
+        "Andrianov, S. N."
+      ],
+      "year": 2010,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "quantum computing architecture",
+        "atomic ensembles",
+        "molecular ensembles",
+        "lithium phthalocyanine",
+        "two-qubit gates",
+        "scalable quantum computing",
+        "room-temperature quantum computing"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.1001.1140",
+      "cited_by_count": 4,
+      "importance": 0.3336,
+      "score_basis": {
+        "topic_overlap": 0.252,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403814708",
+      "doi": "10.48550/arxiv.2409.19932",
+      "title": "A Quantum-Resistant Photonic Hash Function",
+      "authors": [
+        "Hatanaka, Tomoya",
+        "Rikuto Fushio",
+        "Masataka Watanabe",
+        "William J. Munro",
+        "Tatsuhiko N. Ikeda",
+        "Sho Sugiura"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "Gaussian boson sampling",
+        "photonic quantum computing",
+        "post-quantum cryptography",
+        "collision resistance",
+        "preimage resistance",
+        "second preimage resistance",
+        "birthday attack",
+        "blockchain"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2409.19932",
+      "cited_by_count": 3,
+      "importance": 0.2609,
+      "score_basis": {
+        "topic_overlap": 0.135,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W3081121886",
+      "to": "W2580887866",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3081121886"
+        }
+      ]
+    },
+    {
+      "from": "W3133662387",
+      "to": "W2580887866",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3133662387"
+        }
+      ]
+    },
+    {
+      "from": "W3133662387",
+      "to": "W3117812207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3133662387"
+        }
+      ]
+    },
+    {
+      "from": "W4388124817",
+      "to": "W2580887866",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388124817"
+        }
+      ]
+    },
+    {
+      "from": "W4388124817",
+      "to": "W3081121886",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388124817"
+        }
+      ]
+    },
+    {
+      "from": "W4388124817",
+      "to": "W3117812207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388124817"
+        }
+      ]
+    },
+    {
+      "from": "W4388124817",
+      "to": "W3133662387",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388124817"
+        }
+      ]
+    },
+    {
+      "from": "W4389990376",
+      "to": "W2580887866",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389990376"
+        }
+      ]
+    },
+    {
+      "from": "W4389990376",
+      "to": "W3117812207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389990376"
+        }
+      ]
+    },
+    {
+      "from": "W4390616887",
+      "to": "W3200357195",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390616887"
+        }
+      ]
+    },
+    {
+      "from": "W4416156940",
+      "to": "W3117812207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416156940"
+        }
+      ]
+    },
+    {
+      "from": "W4416156940",
+      "to": "W3200357195",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416156940"
+        }
+      ]
+    },
+    {
+      "from": "W7214016027",
+      "to": "W1637086258",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214016027"
+        }
+      ]
+    },
+    {
+      "from": "W7214016027",
+      "to": "W2786019725",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214016027"
+        }
+      ]
+    },
+    {
+      "from": "W7214016027",
+      "to": "W7164885612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214016027"
+        }
+      ]
+    },
+    {
+      "from": "W7214969322",
+      "to": "W3200357195",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214969322"
+        }
+      ]
+    },
+    {
+      "from": "W7214969322",
+      "to": "W4388124817",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214969322"
+        }
+      ]
+    },
+    {
+      "from": "W7214969322",
+      "to": "W4416156940",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214969322"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W1637086258",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W2580887866",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W2786019725",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W3081121886",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W3117812207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W3133662387",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W3200357195",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W4388124817",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W4389990376",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W4390616887",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W4403814708",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W4416156940",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W7164885612",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W7214016027",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    },
+    {
+      "from": "W7225081084",
+      "to": "W7214969322",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225081084"
+        }
+      ]
+    }
+  ]
 }

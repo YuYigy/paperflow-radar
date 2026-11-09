@@ -1,0 +1,100 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "676e0418-9d37-4476-b6c8-27b072c238c2",
+  "root": "W7221312345",
+  "status": "ok",
+  "checked_at": "2026-11-09T00:51:52.104814+00:00",
+  "coverage": {
+    "references_found": 1,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 1,
+    "displayed": 1
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7221312345",
+      "doi": "10.1038/s41598-026-72492-0",
+      "title": "Entanglement-assisted coherent control for deterministic quantum gate teleportation",
+      "authors": [
+        "Santiago Avila",
+        "Marco Enríquez"
+      ],
+      "year": 2026,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "deterministic quantum computation",
+        "local unitary equivalence",
+        "CNOT gate",
+        "controlled-Z gate",
+        "path encoding",
+        "photonic qubits"
+      ],
+      "url": "https://doi.org/10.1038/s41598-026-72492-0",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/676e0418-9d37-4476-b6c8-27b072c238c2.html",
+      "summary": "该理论工作提出双分支纠缠辅助相干控制架构，用于确定性远程实现非局域双量子比特门。作者在算符层面证明：对于平衡双分支构型，可实现的非局域双量子比特酉门须与 CNOT/CZ 局域酉等价，并构造了这两种门的实现方案。摘要还提出以空间路径承载相干控制自由度、偏振承载计算量子比特的光子编码及破坏性分支读出方案。",
+      "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W4417094338",
+      "doi": "10.1103/h84v-n7xv",
+      "title": "Path superposition activating perfect quantum teleportation ability for separable states",
+      "authors": [
+        "Sayan Mondal",
+        "Priya Ghosh",
+        "Ujjwal Sen"
+      ],
+      "year": 2026,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum teleportation",
+        "separable states",
+        "Werner states",
+        "quantum coherence",
+        "indefinite causal order",
+        "entanglement",
+        "product states",
+        "quantum advantage",
+        "quantum maps"
+      ],
+      "url": "https://doi.org/10.1103/h84v-n7xv",
+      "cited_by_count": 6,
+      "importance": 0.3941,
+      "score_basis": {
+        "topic_overlap": 0.431,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W7221312345",
+      "to": "W4417094338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221312345"
+        }
+      ]
+    }
+  ]
+}

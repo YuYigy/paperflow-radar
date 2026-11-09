@@ -1,35 +1,1179 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "4954c5a0-4400-4cbb-a9c6-253fb6d43b3a",
-  "root": "doi:10.1515/joc-2026-0505",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7225193169",
+  "status": "ok",
+  "checked_at": "2026-11-09T00:51:52.518189+00:00",
+  "coverage": {
+    "references_found": 23,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "partial",
+    "citing_status": "ok",
+    "candidates_resolved": 22,
+    "displayed": 22
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1515/joc-2026-0505",
+      "id": "W7225193169",
       "doi": "10.1515/joc-2026-0505",
       "title": "Performance evaluation of DNN–LSTM–based optical communication monitoring for joint failure diagnosis and physical-layer attack detection",
       "authors": [
         "Shayma Wail Nourildean",
         "Thamer M. Jamel"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Journal of Optical Communications",
       "venue_abbr": "J. Opt. Commun.",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "optical performance monitoring",
+        "bit error rate",
+        "physical layer security"
+      ],
       "url": "https://doi.org/10.1515/joc-2026-0505",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/4954c5a0-4400-4cbb-a9c6-253fb6d43b3a.html",
       "summary": "研究提出按类别优化验证集融合权重的DNN–LSTM框架，识别正常运行、三类光故障及三类物理层攻击。攻击场景依据光学测量并施加物理约束构建，误码率由传输质量模型估算。在包含910,000个样本的平衡数据集上开展评估，其中独立测试集含210,000个样本；准确率为91.190%，宏F1为91.056%。光故障与物理层攻击的宏召回率分别为98.468%和80.553%。相较固定权重融合，宏F1由90.819%提升至91.056%。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W7130956243",
+      "doi": "10.1515/joc-2025-0534",
+      "title": "Optical-layer and control-plane attack detection in SDONs using an ensemble ML-based IDS: evaluation on OSDN and GÉANT telemetry datasets",
+      "authors": [
+        "Shayma Wail Nourildean",
+        "Noor Jamal Jihad"
+      ],
+      "year": 2026,
+      "venue": "Journal of Optical Communications",
+      "venue_abbr": "J. Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "intrusion detection",
+        "software-defined optical networks",
+        "control plane attacks",
+        "optical telemetry",
+        "optical signal-to-noise ratio",
+        "bit error rate",
+        "ensemble learning",
+        "random forest",
+        "XGBoost",
+        "decision tree",
+        "GEANT",
+        "anomaly detection"
+      ],
+      "url": "https://doi.org/10.1515/joc-2025-0534",
+      "cited_by_count": 2,
+      "importance": 0.5062,
+      "score_basis": {
+        "topic_overlap": 0.458,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2890150546",
+      "doi": "10.1109/phosst.2018.8456700",
+      "title": "Machine Learning-Assisted Optical Performance Monitoring in Fiber-Optic Networks",
+      "authors": [
+        "Faisal Nadeem Khan",
+        "Qirui Fan",
+        "Chao Lü",
+        "Alan Pak Tao Lau"
+      ],
+      "year": 2018,
+      "venue": "IEEE/LEOS Summer Topical Meetings",
+      "venue_abbr": "IEEE/LEOS Summer Topical Meetings",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical performance monitoring",
+        "machine learning",
+        "fiber optic networks",
+        "fault detection",
+        "fault management",
+        "equipment failure prediction",
+        "software-defined networking",
+        "network optimization"
+      ],
+      "url": "https://doi.org/10.1109/phosst.2018.8456700",
+      "cited_by_count": 12,
+      "importance": 0.4116,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7130641409",
+      "doi": "10.3390/electronics15040878",
+      "title": "Optical Network Security: Threats, Techniques, and Future Directions",
+      "authors": [
+        "Anna Gazani",
+        "Athanasios Mantzavinos",
+        "Polyxeni Tsompanoglou",
+        "Konstantinos F. Kantelis",
+        "Sophia G. Petridou",
+        "Petros Nicopolitidis",
+        "Georgios Papadimitriou"
+      ],
+      "year": 2026,
+      "venue": "Electronics",
+      "venue_abbr": "Electronics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical network security",
+        "threat taxonomy",
+        "physical layer attacks",
+        "signal injection",
+        "control plane attacks",
+        "device authentication",
+        "network survivability",
+        "quantum key distribution",
+        "IP over WDM",
+        "passive optical networks",
+        "elastic optical networks",
+        "multi-tenant networks"
+      ],
+      "url": "https://doi.org/10.3390/electronics15040878",
+      "cited_by_count": 6,
+      "importance": 0.3759,
+      "score_basis": {
+        "topic_overlap": 0.28,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2738710562",
+      "doi": "10.1364/oe.25.018553",
+      "title": "Failure prediction using machine learning and time series in optical network",
+      "authors": [
+        "Zhilong Wang",
+        "Min Zhang",
+        "Danshi Wang",
+        "Chuang Chen Song",
+        "Min Liu",
+        "Jin Li",
+        "Liqi Lou",
+        "Zhuo Liu"
+      ],
+      "year": 2017,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "equipment failure risk",
+        "support vector machine",
+        "double exponential smoothing",
+        "performance monitoring",
+        "time series forecasting",
+        "network reliability"
+      ],
+      "url": "https://doi.org/10.1364/oe.25.018553",
+      "cited_by_count": 201,
+      "importance": 0.3724,
+      "score_basis": {
+        "topic_overlap": 0.294,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2616005078",
+      "doi": "10.1049/iet-opt.2016.0150",
+      "title": "Security threats and protection procedures for optical networks",
+      "authors": [
+        "David Dahan",
+        "Uri Mahlab"
+      ],
+      "year": 2017,
+      "venue": "IET Optoelectronics",
+      "venue_abbr": "IET Optoelectronics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical network security",
+        "network survivability",
+        "network monitoring"
+      ],
+      "url": "https://doi.org/10.1049/iet-opt.2016.0150",
+      "cited_by_count": 52,
+      "importance": 0.3704,
+      "score_basis": {
+        "topic_overlap": 0.29,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7220676714",
+      "doi": "10.1515/joc-2026-0402",
+      "title": "Explainable SHAP-based feature selection for accurate and computationally efficient network response time prediction in optical communication networks",
+      "authors": [
+        "Shayma Wail Nourildean",
+        "Thamer M. Jamel"
+      ],
+      "year": 2026,
+      "venue": "Journal of Optical Communications",
+      "venue_abbr": "J. Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "SHAP",
+        "explainable machine learning",
+        "feature selection",
+        "optical networks",
+        "network performance management",
+        "model interpretability",
+        "random forest",
+        "gradient boosting",
+        "XGBoost",
+        "stacking ensemble",
+        "computational efficiency"
+      ],
+      "url": "https://doi.org/10.1515/joc-2026-0402",
+      "cited_by_count": 1,
+      "importance": 0.3661,
+      "score_basis": {
+        "topic_overlap": 0.147,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": "items/1f7a96d8-7538-4810-94c0-de7f09339133.html",
+      "summary": "论文提出以SHAP解释模型并筛选关键网络参数的机器学习框架，在相同条件下比较多种回归模型及堆叠集成模型筛选前后的表现。摘要报告，特征筛选效果因模型而异：随机森林在筛选后获得最佳总体预测表现，MAE和RMSE分别改善3.90%和4.85%，训练时间减少12.79%；梯度提升的训练时间减少51.44%。研究还评估了RAM使用、推理延迟和模型大小。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4410358688",
+      "doi": "10.1109/access.2025.3569559",
+      "title": "A Comprehensive Survey on Machine and Deep Learning for Optical Communications",
+      "authors": [
+        "Mohammad Ali Amirabadi",
+        "Seyed Alireza Nezamalhosseini",
+        "Mohammad Hossein Kahaei",
+        "Lawrence R. Chen"
+      ],
+      "year": 2025,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical fiber communication",
+        "optical wireless communication",
+        "coherent transceivers",
+        "digital signal processing",
+        "optical performance monitoring",
+        "nonlinear distortion compensation"
+      ],
+      "url": "https://doi.org/10.1109/access.2025.3569559",
+      "cited_by_count": 57,
+      "importance": 0.3491,
+      "score_basis": {
+        "topic_overlap": 0.176,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7133346119",
+      "doi": "10.1109/imitec67386.2025.11410466",
+      "title": "AI for Fault Detection and Perfomance Optimization in Optical Networks",
+      "authors": [
+        "D.M. Manyange",
+        "Xolani Yokwana",
+        "Mbuyu Sumbwanyambe"
+      ],
+      "year": 2025,
+      "venue": "International Multidisciplinary Information Technology and Engineering Conference (IMITEC)",
+      "venue_abbr": "International Multidisciplinary Information Technology and Engineering Conference (IMITEC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical networks",
+        "fault detection",
+        "fault location",
+        "network performance optimization",
+        "anomaly detection",
+        "predictive maintenance",
+        "resource allocation",
+        "network resilience",
+        "self-optimizing networks",
+        "deep learning",
+        "supervised learning"
+      ],
+      "url": "https://doi.org/10.1109/imitec67386.2025.11410466",
+      "cited_by_count": 1,
+      "importance": 0.3222,
+      "score_basis": {
+        "topic_overlap": 0.272,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4225155418",
+      "doi": "10.3390/photonics9050299",
+      "title": "Machine Learning-Based Optical Performance Monitoring for Super-Channel Optical Networks",
+      "authors": [
+        "Waddah S. Saif",
+        "Amr Mohamed Ragheb",
+        "Bernd Nebendahl",
+        "Tariq A. Alshawi",
+        "Mohamed Marey",
+        "Saleh A. Alshebeili"
+      ],
+      "year": 2022,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical performance monitoring",
+        "support vector regression",
+        "optical signal-to-noise ratio estimation",
+        "chromatic dispersion estimation",
+        "DP-QPSK",
+        "polarization mode dispersion",
+        "frequency offset",
+        "high-order modulation",
+        "feature extraction",
+        "two-dimensional discrete Fourier transform",
+        "two-dimensional discrete cosine transform"
+      ],
+      "url": "https://doi.org/10.3390/photonics9050299",
+      "cited_by_count": 7,
+      "importance": 0.3174,
+      "score_basis": {
+        "topic_overlap": 0.261,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410428413",
+      "doi": "10.1109/jsac.2025.3547164",
+      "title": "Guest Editorial: Next-Generation Optical Communications and Networking",
+      "authors": [
+        "Alex Alvarado",
+        "Konrad Banaszek",
+        "Junho Cho",
+        "Marija Furdek",
+        "Marco Secondini",
+        "Laurent Schmalen",
+        "Elaine Wong"
+      ],
+      "year": 2025,
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "venue_abbr": "JSAC",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical communication",
+        "optical networking",
+        "next generation networks"
+      ],
+      "url": "https://doi.org/10.1109/jsac.2025.3547164",
+      "cited_by_count": 2,
+      "importance": 0.3172,
+      "score_basis": {
+        "topic_overlap": 0.26,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390343962",
+      "doi": "10.26636/jtit.2023.4.1402",
+      "title": "The Threat of Optical Transmission Jamming",
+      "authors": [
+        "Marcin Kowalczyk",
+        "Michał Marzęcki",
+        "Jerzy Siuzdak"
+      ],
+      "year": 2023,
+      "venue": "Journal of Telecommunications and Information Technology",
+      "venue_abbr": "Journal of Telecommunications and Information Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "physical access attacks",
+        "laser interference",
+        "secure data transmission",
+        "countermeasures"
+      ],
+      "url": "https://doi.org/10.26636/jtit.2023.4.1402",
+      "cited_by_count": 9,
+      "importance": 0.3133,
+      "score_basis": {
+        "topic_overlap": 0.141,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406025902",
+      "doi": "10.3390/photonics12010035",
+      "title": "A Deep Learning-Based Approach for the Detection of Various Internet of Things Intrusion Attacks Through Optical Networks",
+      "authors": [
+        "Nouman Imtiaz",
+        "Abdul Wahid",
+        "Syed Zain Ul Abideen",
+        "Mian Muhammad Kamal",
+        "Nabila Sehito",
+        "Salah Ud‐Din Khan",
+        "Bal Singh Virdee",
+        "Lida Kouhalvandi",
+        "Mohammad Alibakhshikenari"
+      ],
+      "year": 2025,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Internet of Things security",
+        "intrusion detection",
+        "optical networks",
+        "convolutional neural networks",
+        "explainable AI",
+        "real-time network traffic analysis"
+      ],
+      "url": "https://doi.org/10.3390/photonics12010035",
+      "cited_by_count": 42,
+      "importance": 0.2892,
+      "score_basis": {
+        "topic_overlap": 0.154,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7154175233",
+      "doi": "10.3390/s26082377",
+      "title": "A Hybrid Deep Learning Approach for Performance Prediction in Optical Communication Systems Based on PON Scenarios",
+      "authors": [
+        "Ali Muslim",
+        "Esra Gündoğan",
+        "Mehmet Kaya",
+        "Reda Alhajj"
+      ],
+      "year": 2026,
+      "venue": "Sensors",
+      "venue_abbr": "Sensors",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "passive optical networks",
+        "TWDM-PON",
+        "bit error rate",
+        "quality factor",
+        "receiver sensitivity",
+        "gradient boosting regression",
+        "multilayer perceptron",
+        "ensemble learning",
+        "synthetic dataset",
+        "optical access networks",
+        "nonlinear optical effects"
+      ],
+      "url": "https://doi.org/10.3390/s26082377",
+      "cited_by_count": 2,
+      "importance": 0.2865,
+      "score_basis": {
+        "topic_overlap": 0.192,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403320001",
+      "doi": "10.1063/5.0228088",
+      "title": "Enhancing fault detection and classification in optical fiber networks with deep learning algorithms",
+      "authors": [
+        "Shubham Kaushik",
+        "Kanwal Garg",
+        "Jyoti Verma",
+        "Isha Kansal",
+        "Preeti Sharma",
+        "Vikas Khullar",
+        "Monika Sethi"
+      ],
+      "year": 2024,
+      "venue": "AIP conference proceedings",
+      "venue_abbr": "AIP conference proceedings",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical fiber communication",
+        "fault detection",
+        "fault classification",
+        "deep learning",
+        "CNN-BiLSTM",
+        "CNN-LSTM",
+        "gradient boosting",
+        "random forest",
+        "extra trees",
+        "model comparison"
+      ],
+      "url": "https://doi.org/10.1063/5.0228088",
+      "cited_by_count": 5,
+      "importance": 0.2776,
+      "score_basis": {
+        "topic_overlap": 0.172,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3129768586",
+      "doi": "10.3390/app11041674",
+      "title": "Intelligent Cyber Attack Detection and Classification for Network-Based Intrusion Detection Systems",
+      "authors": [
+        "Nuno Rafael Barros De Oliveira",
+        "Isabel Praça",
+        "Eva Maia",
+        "Orlando Sousa"
+      ],
+      "year": 2021,
+      "venue": "Applied Sciences",
+      "venue_abbr": "Appl. Sci.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cyberattack detection",
+        "intrusion detection systems",
+        "network traffic classification",
+        "anomaly detection",
+        "sequential data",
+        "long short-term memory",
+        "random forest",
+        "multilayer perceptron",
+        "network security"
+      ],
+      "url": "https://doi.org/10.3390/app11041674",
+      "cited_by_count": 152,
+      "importance": 0.2769,
+      "score_basis": {
+        "topic_overlap": 0.171,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3185184154",
+      "doi": "10.1515/joc-2021-0094",
+      "title": "Artificial intelligence based optical performance monitoring",
+      "authors": [
+        "Palash Rai",
+        "Rahul Kaushik"
+      ],
+      "year": 2021,
+      "venue": "Journal of Optical Communications",
+      "venue_abbr": "J. Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical performance monitoring",
+        "artificial neural networks",
+        "deep learning",
+        "eye diagram",
+        "optical signal-to-noise ratio",
+        "chromatic dispersion",
+        "polarization mode dispersion",
+        "differential group delay",
+        "10 Gb/s optical transmission",
+        "heterogeneous optical networks"
+      ],
+      "url": "https://doi.org/10.1515/joc-2021-0094",
+      "cited_by_count": 5,
+      "importance": 0.2683,
+      "score_basis": {
+        "topic_overlap": 0.152,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4310415697",
+      "doi": "10.1016/j.ijleo.2022.170315",
+      "title": "Effective cyber security system to secure optical data based on deep learning approach for healthcare application",
+      "authors": [
+        "Praneeth Kanagala"
+      ],
+      "year": 2022,
+      "venue": "Optik",
+      "venue_abbr": "Optik",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cybersecurity",
+        "optical data",
+        "Internet of Things",
+        "cyber-physical systems",
+        "deep learning",
+        "data classification",
+        "access control",
+        "denial-of-service attacks",
+        "DDoS attacks",
+        "healthcare data security",
+        "data privacy"
+      ],
+      "url": "https://doi.org/10.1016/j.ijleo.2022.170315",
+      "cited_by_count": 28,
+      "importance": 0.2675,
+      "score_basis": {
+        "topic_overlap": 0.15,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W110670818",
+      "doi": "10.1007/978-94-011-0035-9_30",
+      "title": "Modern Optical Communication Systems",
+      "authors": [
+        "Govind Prasad Agrawal"
+      ],
+      "year": 1995,
+      "venue": "Springer eBooks",
+      "venue_abbr": "Springer eBooks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical communication systems",
+        "optical fiber communication",
+        "optical networks"
+      ],
+      "url": "https://doi.org/10.1007/978-94-011-0035-9_30",
+      "cited_by_count": 2,
+      "importance": 0.2664,
+      "score_basis": {
+        "topic_overlap": 0.148,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411446231",
+      "doi": "10.1109/ojcoms.2025.3581480",
+      "title": "Hybrid CNN-Ensemble Framework for Intelligent Optical Fiber Fault Detection and Diagnosis",
+      "authors": [
+        "Salem Titouni",
+        "Idris Messaoudene",
+        "Yassine Himeur",
+        "Omar Alnaseri",
+        "Farouk Chetouah",
+        "Boualem Hammache",
+        "Massinissa Belazzoug",
+        "Shadi Atalla",
+        "Wathiq Mansoor"
+      ],
+      "year": 2025,
+      "venue": "IEEE Open Journal of the Communications Society",
+      "venue_abbr": "IEEE Open Journal of the Communications Society",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical fiber fault detection",
+        "fault diagnosis",
+        "optical time-domain reflectometry",
+        "convolutional neural networks",
+        "ensemble learning",
+        "XGBoost",
+        "support vector machine",
+        "random forest",
+        "meta-classifier",
+        "fiber cut",
+        "class imbalance"
+      ],
+      "url": "https://doi.org/10.1109/ojcoms.2025.3581480",
+      "cited_by_count": 13,
+      "importance": 0.2664,
+      "score_basis": {
+        "topic_overlap": 0.148,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7117572552",
+      "doi": "10.61132/uranus.v3i4.1267",
+      "title": "High-Accuracy Real-Time Soft Failure Detection in Optical Access Networks Using Hybrid Isolation Forest and One-Class SVM",
+      "authors": [
+        "Egi Rangga Maulana"
+      ],
+      "year": 2025,
+      "venue": "Uranus Jurnal Ilmiah Teknik Elektro Sains dan Informatika",
+      "venue_abbr": "Uranus Jurnal Ilmiah Teknik Elektro Sains dan Informatika",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical access networks",
+        "fiber to the home",
+        "Isolation Forest",
+        "one-class support vector machine",
+        "hybrid ensemble model",
+        "optical line terminal",
+        "optical network terminal",
+        "real-time anomaly detection",
+        "detection delay"
+      ],
+      "url": "https://doi.org/10.61132/uranus.v3i4.1267",
+      "cited_by_count": 1,
+      "importance": 0.2664,
+      "score_basis": {
+        "topic_overlap": 0.148,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7153353054",
+      "doi": "10.1177/18758967261441061",
+      "title": "Intelligent Hybrid Machine Learning and Fuzzy Decision System for Predictive Fiber Monitoring",
+      "authors": [
+        "Hesham Tolba",
+        "abdelhady kasem"
+      ],
+      "year": 2026,
+      "venue": "Journal of Intelligent & Fuzzy Systems",
+      "venue_abbr": "Journal of Intelligent & Fuzzy Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed fiber optic sensing",
+        "environmental sensor networks",
+        "fuzzy inference system",
+        "hybrid machine learning",
+        "fault classification",
+        "fault prediction",
+        "fault location",
+        "principal component analysis",
+        "sensor fusion"
+      ],
+      "url": "https://doi.org/10.1177/18758967261441061",
+      "cited_by_count": 2,
+      "importance": 0.2596,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4318478438",
+      "doi": "10.3390/computers12020028",
+      "title": "Virtual Local Area Network Performance Improvement Using Ad Hoc Routing Protocols in a Wireless Network",
+      "authors": [
+        "Shayma Wail Nourildean",
+        "Yousra Abd Mohammed",
+        "Hussein Ali Attallah"
+      ],
+      "year": 2023,
+      "venue": "Computers",
+      "venue_abbr": "Computers",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "virtual local area network",
+        "VLAN",
+        "wireless ad hoc networks",
+        "ad hoc routing protocols",
+        "AODV",
+        "DSR",
+        "OLSR",
+        "network performance",
+        "delay",
+        "throughput",
+        "network security",
+        "wireless sensor networks"
+      ],
+      "url": "https://doi.org/10.3390/computers12020028",
+      "cited_by_count": 19,
+      "importance": 0.2372,
+      "score_basis": {
+        "topic_overlap": 0.038,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2890150546",
+      "to": "W2738710562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2890150546"
+        }
+      ]
+    },
+    {
+      "from": "W4390343962",
+      "to": "W2616005078",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390343962"
+        }
+      ]
+    },
+    {
+      "from": "W4410358688",
+      "to": "W2738710562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410358688"
+        }
+      ]
+    },
+    {
+      "from": "W7130641409",
+      "to": "W2616005078",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7130641409"
+        }
+      ]
+    },
+    {
+      "from": "W7130956243",
+      "to": "W4406025902",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7130956243"
+        }
+      ]
+    },
+    {
+      "from": "W7130956243",
+      "to": "W4410358688",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7130956243"
+        }
+      ]
+    },
+    {
+      "from": "W7220676714",
+      "to": "W2890150546",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220676714"
+        }
+      ]
+    },
+    {
+      "from": "W7220676714",
+      "to": "W4318478438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220676714"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W110670818",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W2616005078",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W2738710562",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W2890150546",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W3129768586",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W3185184154",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W4225155418",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W4310415697",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W4318478438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W4390343962",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W4403320001",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W4406025902",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W4410358688",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W4410428413",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W4411446231",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W7117572552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W7130641409",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W7130956243",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W7133346119",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W7153353054",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W7154175233",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    },
+    {
+      "from": "W7225193169",
+      "to": "W7220676714",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225193169"
+        }
+      ]
+    }
+  ]
 }

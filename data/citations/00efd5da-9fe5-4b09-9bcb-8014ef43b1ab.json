@@ -1,43 +1,4427 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "00efd5da-9fe5-4b09-9bcb-8014ef43b1ab",
-  "root": "doi:10.1364/oe.616363",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7223697804",
+  "status": "ok",
+  "checked_at": "2026-11-09T00:51:54.565605+00:00",
+  "coverage": {
+    "references_found": 43,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 43,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/oe.616363",
+      "id": "W7223697804",
       "doi": "10.1364/oe.616363",
       "title": "Towards fault-tolerant quantum computing with optically controlled superconducting qubits",
       "authors": [
         "Na Li",
         "Yu-Huai Li",
-        "Daojin Fan",
-        "Lian-Chen Han",
+        "Dao-Jin Fan",
+        "Lianchen Han",
         "Yu Xu",
-        "Jin Lin",
+        "JIN LIN",
         "Cheng Guo",
-        "Sheng-Kai Liao",
-        "Xiaobo Zhu",
-        "Cheng-Zhi Peng"
+        "Sheng‐Kai Liao",
+        "Xiao-Bo Zhu",
+        "Chengzhi Peng"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optics Express",
       "venue_abbr": "OE",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "superconducting qubits",
+        "fault-tolerant quantum computing",
+        "surface code",
+        "qubit coherence",
+        "gate fidelity",
+        "controlled-Z gate",
+        "thermal noise"
+      ],
       "url": "https://doi.org/10.1364/oe.616363",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/00efd5da-9fe5-4b09-9bcb-8014ef43b1ab.html",
       "summary": "研究采用定制光电电路板实现多通道光控制系统，并实验评估控制电子学的等效热噪声、量子比特相干性以及单比特和双比特门保真度。测得双比特受控Z门保真度为99.424±0.083%。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W2173810284",
+      "doi": "10.1038/s41534-016-0004-0",
+      "title": "Building logical qubits in a superconducting quantum computing system",
+      "authors": [
+        "Jay Gambetta",
+        "Jerry M. Chow",
+        "Matthias Steffen"
+      ],
+      "year": 2017,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "logical qubits",
+        "superconducting qubits",
+        "surface code",
+        "rotated surface code",
+        "quantum memory",
+        "fault-tolerant quantum computing",
+        "quantum error correction",
+        "qubit networks",
+        "quantum computing architecture",
+        "scalability"
+      ],
+      "url": "https://doi.org/10.1038/s41534-016-0004-0",
+      "cited_by_count": 669,
+      "importance": 0.765,
+      "score_basis": {
+        "topic_overlap": 0.567,
+        "shared_references": 8,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2950805899",
+      "doi": "10.1063/1.5089550",
+      "title": "A quantum engineer's guide to superconducting qubits",
+      "authors": [
+        "Philip Krantz",
+        "Morten Kjærgaard",
+        "F. Yan",
+        "Terry P. Orlando",
+        "Simon Gustavsson",
+        "William D. Oliver"
+      ],
+      "year": 2019,
+      "venue": "Applied Physics Reviews",
+      "venue_abbr": "Applied Physics Reviews",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "superconducting qubits",
+        "superconducting quantum circuits",
+        "qubit design",
+        "circuit quantum electrodynamics",
+        "noise characteristics",
+        "qubit control",
+        "quantum engineering"
+      ],
+      "url": "https://doi.org/10.1063/1.5089550",
+      "cited_by_count": 2318,
+      "importance": 0.7638,
+      "score_basis": {
+        "topic_overlap": 0.475,
+        "shared_references": 17,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1994956962",
+      "doi": "10.1103/physrevlett.111.080502",
+      "title": "Coherent Josephson Qubit Suitable for Scalable Quantum Integrated Circuits",
+      "authors": [
+        "R. Barends",
+        "J. Kelly",
+        "A. Megrant",
+        "D. Sank",
+        "Evan R. Jeffrey",
+        "Y. Chen",
+        "Yi Yin",
+        "B. Chiaro",
+        "J. Mutus",
+        "C. Neill",
+        "P. J. J. O’Malley",
+        "P. Roushan",
+        "J. Wenner",
+        "T. White",
+        "Andrew N. Cleland",
+        "John M. Martinis"
+      ],
+      "year": 2013,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Josephson qubits",
+        "superconducting qubits",
+        "energy relaxation time",
+        "coherence",
+        "radiative losses",
+        "material defects",
+        "defect population",
+        "scalable quantum computing"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.111.080502",
+      "cited_by_count": 795,
+      "importance": 0.7623,
+      "score_basis": {
+        "topic_overlap": 0.472,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1968850365",
+      "doi": "10.1038/nature13171",
+      "title": "Superconducting quantum circuits at the surface code threshold for fault tolerance",
+      "authors": [
+        "R. Barends",
+        "J. Kelly",
+        "A. Megrant",
+        "Andrzej Veitia",
+        "D. Sank",
+        "Evan R. Jeffrey",
+        "T. White",
+        "J. Mutus",
+        "Austin G. Fowler",
+        "B. Campbell",
+        "Yanbin Chen",
+        "Z. Chen",
+        "B. Chiaro",
+        "A. Dunsworth",
+        "C. Neill",
+        "P. J. J. O’Malley",
+        "P. Roushan",
+        "A. Vainsencher",
+        "J. Wenner",
+        "Alexander N. Korotkov",
+        "Andrew N. Cleland",
+        "John M. Martinis"
+      ],
+      "year": 2014,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "superconducting qubits",
+        "surface code",
+        "fault-tolerant quantum computing",
+        "quantum error correction",
+        "gate fidelity",
+        "universal logic gates",
+        "nearest-neighbor coupling",
+        "GHZ states",
+        "Josephson junctions",
+        "quantum entanglement",
+        "error correction threshold",
+        "qubit scalability"
+      ],
+      "url": "https://doi.org/10.1038/nature13171",
+      "cited_by_count": 1766,
+      "importance": 0.7521,
+      "score_basis": {
+        "topic_overlap": 0.56,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3043514756",
+      "doi": "10.1007/s11432-020-2881-9",
+      "title": "Superconducting quantum computing: a review",
+      "authors": [
+        "He-Liang Huang",
+        "Dachao Wu",
+        "Daojin Fan",
+        "Xiaobo Zhu"
+      ],
+      "year": 2020,
+      "venue": "Science China Information Sciences",
+      "venue_abbr": "Sci. China Inf. Sci.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "superconducting qubits",
+        "superconducting quantum computing",
+        "quantum advantage",
+        "qubit design",
+        "quantum control",
+        "quantum error correction",
+        "quantum algorithms",
+        "scalable quantum processors"
+      ],
+      "url": "https://doi.org/10.1007/s11432-020-2881-9",
+      "cited_by_count": 412,
+      "importance": 0.7438,
+      "score_basis": {
+        "topic_overlap": 0.475,
+        "shared_references": 14,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3082415818",
+      "doi": "10.1038/s41586-021-03268-x",
+      "title": "Control and readout of a superconducting qubit using a photonic link",
+      "authors": [
+        "Florent Lecocq",
+        "Franklyn Quinlan",
+        "Katarina Cicak",
+        "José Aumentado",
+        "Scott A. Diddams",
+        "John D. Teufel"
+      ],
+      "year": 2021,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "superconducting qubits",
+        "photonic links",
+        "optical fibers",
+        "microwave control",
+        "qubit readout",
+        "superconducting quantum processors",
+        "quantum computing"
+      ],
+      "url": "https://doi.org/10.1038/s41586-021-03268-x",
+      "cited_by_count": 223,
+      "importance": 0.7135,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3202785109",
+      "doi": "10.1088/0256-307x/38/10/100301",
+      "title": "Realization of High-Fidelity Controlled-Phase Gates in Extensible Superconducting Qubits Design with a Tunable Coupler",
+      "authors": [
+        "Yangsen Ye",
+        "Sirui Cao",
+        "Yulin Wu",
+        "Xiawei Chen",
+        "Qingling Zhu",
+        "Shaowei Li",
+        "Fusheng Chen",
+        "Ming Gong",
+        "Chen Zha",
+        "He-Liang Huang",
+        "Youwei Zhao",
+        "Shiyu Wang",
+        "Shaojun Guo",
+        "Haoran Qian",
+        "Futian Liang",
+        "Jin Lin",
+        "Yu Xu",
+        "Cheng Guo",
+        "Lihua Sun",
+        "Na Li",
+        "Hui Deng",
+        "Xiaobo Zhu",
+        "Jian-Wei Pan"
+      ],
+      "year": 2021,
+      "venue": "Chinese Physics Letters",
+      "venue_abbr": "Chinese Physics Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "controlled-phase gate",
+        "tunable coupler",
+        "transmon qubits",
+        "capacitive coupler",
+        "two-qubit gate fidelity",
+        "parasitic coupling"
+      ],
+      "url": "https://doi.org/10.1088/0256-307x/38/10/100301",
+      "cited_by_count": 30,
+      "importance": 0.706,
+      "score_basis": {
+        "topic_overlap": 0.48,
+        "shared_references": 6,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2982169647",
+      "doi": "10.1038/s41586-019-1666-5",
+      "title": "Quantum supremacy using a programmable superconducting processor",
+      "authors": [
+        "Frank Arute",
+        "Kunal Arya",
+        "Ryan Babbush",
+        "Dave Bacon",
+        "Joseph C. Bardin",
+        "R. Barends",
+        "Rupak Biswas",
+        "Sergio Boixo",
+        "Fernando G. S. L. Brandão",
+        "David A. Buell",
+        "Brian Burkett",
+        "Yu Chen",
+        "Zijun Chen",
+        "Ben Chiaro",
+        "Roberto Collins",
+        "William Courtney",
+        "Andrew Dunsworth",
+        "Edward Farhi",
+        "Brooks Foxen",
+        "Austin G. Fowler",
+        "Craig Gidney",
+        "Marissa Giustina",
+        "Rob Graff",
+        "Keith Guerin",
+        "Steve Habegger",
+        "Matthew P. Harrigan",
+        "Michael J. Hartmann",
+        "Alan Ho",
+        "Markus Hoffmann",
+        "Trent Huang",
+        "Travis S. Humble",
+        "Sergei V. Isakov",
+        "Evan Jeffrey",
+        "Zhang Jiang",
+        "Dvir Kafri",
+        "Kostyantyn Kechedzhi",
+        "Julian Kelly",
+        "Paul V. Klimov",
+        "Sergey Knysh",
+        "Alexander Korotkov",
+        "Fedor Kostritsa",
+        "David Landhuis",
+        "Mike Lindmark",
+        "Erik Lucero",
+        "Dmitry I. Lyakh",
+        "Salvatore Mandrà",
+        "Jarrod R. McClean",
+        "Matthew McEwen",
+        "Anthony Megrant",
+        "Xiao Mi",
+        "Kristel F. L. Michielsen",
+        "Masoud Mohseni",
+        "Josh Mutus",
+        "Ofer Naaman",
+        "Matthew Neeley",
+        "Charles Neill",
+        "Murphy Yuezhen Niu",
+        "Eric Ostby",
+        "Andre Petukhov",
+        "John C. Platt",
+        "Chris Quintana",
+        "Eleanor Gilbert Rieffel",
+        "Pedram Roushan",
+        "Nicholas C. Rubin",
+        "Daniel Sank",
+        "Kevin J. Satzinger",
+        "Vadim Smelyanskiy",
+        "Kevin J. Sung",
+        "Matthew D. Trevithick",
+        "Amit Vainsencher",
+        "Benjamin Villalonga",
+        "Theodore White",
+        "Z. Jamie Yao",
+        "Ping Yeh",
+        "Adam Zalcman",
+        "Hartmut Neven",
+        "John M. Martinis"
+      ],
+      "year": 2019,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum advantage",
+        "superconducting qubits",
+        "classical simulation of quantum circuits",
+        "programmable quantum processors",
+        "quantum computing"
+      ],
+      "url": "https://doi.org/10.1038/s41586-019-1666-5",
+      "cited_by_count": 8185,
+      "importance": 0.7018,
+      "score_basis": {
+        "topic_overlap": 0.337,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2979779798",
+      "doi": "10.1038/s41534-019-0202-7",
+      "title": "Realisation of high-fidelity nonadiabatic CZ gates with superconducting qubits",
+      "authors": [
+        "Shaowei Li",
+        "Juno Clark",
+        "Shiyu Wang",
+        "Yulin Wu",
+        "Ming Gong",
+        "Zhiguang Yan",
+        "Hao Rong",
+        "Huiqiu Deng",
+        "Chen Zha",
+        "Cheng Guo",
+        "Lihua Sun",
+        "Cheng-Zhi Peng",
+        "Xiaobo Zhu",
+        "Jian-Wei Pan"
+      ],
+      "year": 2019,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "CZ gate",
+        "superconducting qubits",
+        "entangling gates",
+        "gate fidelity",
+        "gate time",
+        "CCZ gate",
+        "quantum error correction threshold"
+      ],
+      "url": "https://doi.org/10.1038/s41534-019-0202-7",
+      "cited_by_count": 42,
+      "importance": 0.7017,
+      "score_basis": {
+        "topic_overlap": 0.47,
+        "shared_references": 6,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4200634137",
+      "doi": "10.1038/s41586-022-04566-8",
+      "title": "Realizing repeated quantum error correction in a distance-three surface code",
+      "authors": [
+        "Sebastian Krinner",
+        "Nathan Lacroix",
+        "Ants Remm",
+        "Agustín Di Paolo",
+        "Élie Genois",
+        "Catherine Leroux",
+        "Christoph Hellings",
+        "Stefania Lazar",
+        "François Swiadek",
+        "J. Herrmann",
+        "Graham J. Norris",
+        "Christian Kraglund Andersen",
+        "Markus Müller",
+        "Alexandre Blais",
+        "Christopher Eichler",
+        "Andreas J. Wallraff"
+      ],
+      "year": 2022,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum error correction",
+        "surface code",
+        "superconducting qubits",
+        "fault-tolerant quantum computing",
+        "minimum-weight perfect matching",
+        "error syndromes"
+      ],
+      "url": "https://doi.org/10.1038/s41586-022-04566-8",
+      "cited_by_count": 774,
+      "importance": 0.6986,
+      "score_basis": {
+        "topic_overlap": 0.419,
+        "shared_references": 5,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285029287",
+      "doi": "10.1103/physrevlett.129.030501",
+      "title": "Realization of an Error-Correcting Surface Code with Superconducting Qubits",
+      "authors": [
+        "Youwei Zhao",
+        "Yangsen Ye",
+        "He-Liang Huang",
+        "Yiming Zhang",
+        "Dachao Wu",
+        "Huijie Guan",
+        "Qingling Zhu",
+        "Zuolin Wei",
+        "Tan He",
+        "Sirui Cao",
+        "Fusheng Chen",
+        "Tung-Hsun Chung",
+        "Huiqiu Deng",
+        "Daojin Fan",
+        "Ming Gong",
+        "Cheng Guo",
+        "Shaojun Guo",
+        "Lianchen Han",
+        "Na Li",
+        "Shaowei Li",
+        "Yuan Li",
+        "Futian Liang",
+        "Jin Lin",
+        "Haoran Qian",
+        "Hao Rong",
+        "Hong Te Su",
+        "Lihua Sun",
+        "Shiyu Wang",
+        "Yulin Wu",
+        "Yu Xu",
+        "Chong Ying",
+        "Jiale Yu",
+        "Chen Zha",
+        "Kaili Zhang",
+        "Yong-Heng Huo",
+        "Chao‐Yang Lu",
+        "Cheng-Zhi Peng",
+        "Xiaobo Zhu",
+        "Jian-Wei Pan"
+      ],
+      "year": 2022,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "surface code",
+        "quantum error correction",
+        "superconducting qubits",
+        "logical error rate",
+        "fault-tolerant quantum computing"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.129.030501",
+      "cited_by_count": 376,
+      "importance": 0.6967,
+      "score_basis": {
+        "topic_overlap": 0.459,
+        "shared_references": 8,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2103912183",
+      "doi": "10.1103/physrevlett.107.240501",
+      "title": "Observation of High Coherence in Josephson Junction Qubits Measured in a Three-Dimensional Circuit QED Architecture",
+      "authors": [
+        "Hanhee Paik",
+        "David Schuster",
+        "Lev S. Bishop",
+        "Gerhard Kirchmair",
+        "Gianluigi Catelani",
+        "Adam Sears",
+        "Blake Johnson",
+        "Matthew J. Reagor",
+        "Luigi Frunzio",
+        "L. I. Glazman",
+        "S. M. Girvin",
+        "Michel Devoret",
+        "Robert J. Schoelkopf"
+      ],
+      "year": 2011,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Josephson junction qubits",
+        "superconducting qubits",
+        "three-dimensional resonators",
+        "qubit decoherence",
+        "coherence time",
+        "qubit stability",
+        "error correction threshold"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.107.240501",
+      "cited_by_count": 1097,
+      "importance": 0.6919,
+      "score_basis": {
+        "topic_overlap": 0.426,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4224284290",
+      "doi": "10.1063/5.0088879",
+      "title": "Low-latency readout electronics for dynamic superconducting quantum computing",
+      "authors": [
+        "Cheng Guo",
+        "Jin Lin",
+        "Lianchen Han",
+        "Na Li",
+        "Li-Hua Sun",
+        "Futian Liang",
+        "Dongdong Li",
+        "Yu-Huai Li",
+        "Ming Gong",
+        "Yu Xu",
+        "Sheng‐Kai Liao",
+        "Cheng-Zhi Peng"
+      ],
+      "year": 2022,
+      "venue": "AIP Advances",
+      "venue_abbr": "AIP Advances",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "FPGA",
+        "analog-to-digital converter",
+        "communication delay",
+        "SIMD",
+        "quantum error correction",
+        "qubit coherence time"
+      ],
+      "url": "https://doi.org/10.1063/5.0088879",
+      "cited_by_count": 11,
+      "importance": 0.6732,
+      "score_basis": {
+        "topic_overlap": 0.452,
+        "shared_references": 7,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3173899054",
+      "doi": "10.1103/physrevlett.127.180501",
+      "title": "Strong Quantum Computational Advantage Using a Superconducting Quantum Processor",
+      "authors": [
+        "Yulin Wu",
+        "Wan‐Su Bao",
+        "Sirui Cao",
+        "Fusheng Chen",
+        "Ming-Cheng Chen",
+        "Xiawei Chen",
+        "Tung-Hsun Chung",
+        "Huiqiu Deng",
+        "Yajie Du",
+        "Daojin Fan",
+        "Ming Gong",
+        "Cheng Guo",
+        "Chu Guo",
+        "Shaojun Guo",
+        "Lianchen Han",
+        "Linyin Hong",
+        "He-Liang Huang",
+        "Yong-Heng Huo",
+        "Liping Li",
+        "Na Li",
+        "Shaowei Li",
+        "Yuan Li",
+        "Futian Liang",
+        "Chun Hao Lin",
+        "Jin Lin",
+        "Haoran Qian",
+        "Dan Qiao",
+        "Hao Rong",
+        "Hong Te Su",
+        "Lihua Sun",
+        "Liangyuan Wang",
+        "Shiyu Wang",
+        "Dachao Wu",
+        "Yu Xu",
+        "Kai Yan",
+        "Weifeng Yang",
+        "Yang Yang",
+        "Yangsen Ye",
+        "Jianghan Yin",
+        "Chong Ying",
+        "Jiale Yu",
+        "Chen Zha",
+        "Cha Zhang",
+        "Haibin Zhang",
+        "Kaili Zhang",
+        "Yiming Zhang",
+        "Han Zhao",
+        "Youwei Zhao",
+        "Liang Yi Zhou",
+        "Qingling Zhu",
+        "Chao‐Yang Lu",
+        "Cheng-Zhi Peng",
+        "Xiaobo Zhu",
+        "Jian-Wei Pan"
+      ],
+      "year": 2021,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum advantage",
+        "superconducting quantum processors",
+        "qubit scaling",
+        "quantum algorithms"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.127.180501",
+      "cited_by_count": 1158,
+      "importance": 0.6716,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 7,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2947682895",
+      "doi": "10.1140/epjqt/s40507-019-0072-0",
+      "title": "Engineering cryogenic setups for 100-qubit scale superconducting circuit systems",
+      "authors": [
+        "Sebastian Krinner",
+        "Simon Storz",
+        "Philipp Kurpiers",
+        "Paul Magnard",
+        "Johannes Heinsoo",
+        "Raphael Keller",
+        "J. Lütolf",
+        "Christopher Eichler",
+        "Andreas J. Wallraff"
+      ],
+      "year": 2019,
+      "venue": "EPJ Quantum Technology",
+      "venue_abbr": "EPJ Quantum Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "dilution refrigerator",
+        "superconducting circuits",
+        "heat load",
+        "flux lines",
+        "coaxial cable",
+        "microwave attenuators",
+        "heat balance"
+      ],
+      "url": "https://doi.org/10.1140/epjqt/s40507-019-0072-0",
+      "cited_by_count": 461,
+      "importance": 0.6713,
+      "score_basis": {
+        "topic_overlap": 0.269,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390755235",
+      "doi": "10.1364/oe.514909",
+      "title": "Optical transmission of microwave control signal towards large-scale superconducting quantum computing",
+      "authors": [
+        "Na Li",
+        "Yu-Huai Li",
+        "Dao-Jin Fan",
+        "Lianchen Han",
+        "Yu Xu",
+        "Jin Lin",
+        "Cheng Guo",
+        "Dongdong Li",
+        "Ming Gong",
+        "Sheng‐Kai Liao",
+        "Xiaobo Zhu",
+        "Cheng-Zhi Peng"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical transmission lines",
+        "superconducting quantum computing",
+        "direct modulation",
+        "surface code",
+        "dilution refrigerator"
+      ],
+      "url": "https://doi.org/10.1364/oe.514909",
+      "cited_by_count": 12,
+      "importance": 0.6702,
+      "score_basis": {
+        "topic_overlap": 0.489,
+        "shared_references": 16,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413305859",
+      "doi": "10.1140/epjqt/s40507-025-00405-7",
+      "title": "Superconducting quantum computers: who is leading the future?",
+      "authors": [
+        "M. AbuGhanem"
+      ],
+      "year": 2025,
+      "venue": "EPJ Quantum Technology",
+      "venue_abbr": "EPJ Quantum Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "superconducting quantum computing",
+        "qubit design",
+        "processor architecture",
+        "quantum hardware scalability",
+        "qubit coherence",
+        "quantum control",
+        "quantum computing software",
+        "quantum advantage",
+        "fault-tolerant quantum computing",
+        "error correction",
+        "system integration",
+        "IBM Quantum"
+      ],
+      "url": "https://doi.org/10.1140/epjqt/s40507-025-00405-7",
+      "cited_by_count": 36,
+      "importance": 0.6677,
+      "score_basis": {
+        "topic_overlap": 0.484,
+        "shared_references": 15,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4213005131",
+      "doi": "10.1088/0256-307x/39/3/030302",
+      "title": "Realization of Fast All-Microwave Controlled-Z Gates with a Tunable Coupler",
+      "authors": [
+        "Shaowei Li",
+        "Daojin Fan",
+        "Ming Gong",
+        "Yangsen Ye",
+        "Xiawei Chen",
+        "Yulin Wu",
+        "Huijie Guan",
+        "Huiqiu Deng",
+        "Hao Rong",
+        "He-Liang Huang",
+        "Chen Zha",
+        "Kai Yan",
+        "Shaojun Guo",
+        "Haoran Qian",
+        "Haibin Zhang",
+        "Fusheng Chen",
+        "Qingling Zhu",
+        "Youwei Zhao",
+        "Shiyu Wang",
+        "Chong Ying",
+        "Sirui Cao",
+        "Jiale Yu",
+        "Futian Liang",
+        "Yu Xu",
+        "Jin Lin",
+        "Cheng Guo",
+        "Lihua Sun",
+        "Na Li",
+        "Lianchen Han",
+        "Cheng-Zhi Peng",
+        "Xiaobo Zhu",
+        "Jian-Wei Pan"
+      ],
+      "year": 2022,
+      "venue": "Chinese Physics Letters",
+      "venue_abbr": "Chinese Physics Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "controlled-Z gate",
+        "tunable coupler",
+        "transmon qubits",
+        "superconducting qubits",
+        "two-qubit gates",
+        "parametric control",
+        "gate fidelity",
+        "frequency multiplexing"
+      ],
+      "url": "https://doi.org/10.1088/0256-307x/39/3/030302",
+      "cited_by_count": 19,
+      "importance": 0.6335,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2030867075",
+      "doi": "10.1103/physreva.86.032324",
+      "title": "Surface codes: Towards practical large-scale quantum computation",
+      "authors": [
+        "Austin G. Fowler",
+        "M. Mariantoni",
+        "John M. Martinis",
+        "Andrew N. Cleland"
+      ],
+      "year": 2012,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "surface code",
+        "quantum error correction",
+        "stabilizer codes",
+        "logical qubits",
+        "fault tolerance",
+        "CNOT gate",
+        "universal quantum computation",
+        "quantum hardware implementation"
+      ],
+      "url": "https://doi.org/10.1103/physreva.86.032324",
+      "cited_by_count": 3412,
+      "importance": 0.621,
+      "score_basis": {
+        "topic_overlap": 0.38,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409162985",
+      "doi": "10.1038/s41567-025-02812-0",
+      "title": "Coherent control of a superconducting qubit using light",
+      "authors": [
+        "Hana Warner",
+        "Jeffrey Holzgrafe",
+        "Beatriz Yankelevich",
+        "David R. Barton",
+        "Stefano Poletto",
+        "C. J. Xin",
+        "Neil E. Sinclair",
+        "Di Zhu",
+        "Eyob Alebachew Sete",
+        "Brandon Langley",
+        "Emma Batson",
+        "Marco Colangelo",
+        "Amirhassan Shams‐Ansari",
+        "Graham Joe",
+        "Karl K. Berggren",
+        "Liang Jiang",
+        "Matthew J. Reagor",
+        "Marko Lončar"
+      ],
+      "year": 2025,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "superconducting qubits",
+        "coherent optical control",
+        "Rabi oscillations",
+        "quantum transduction",
+        "optical interconnects",
+        "entanglement distribution"
+      ],
+      "url": "https://doi.org/10.1038/s41567-025-02812-0",
+      "cited_by_count": 61,
+      "importance": 0.62,
+      "score_basis": {
+        "topic_overlap": 0.333,
+        "shared_references": 7,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1983336715",
+      "doi": "10.1038/nature07128",
+      "title": "Superconducting quantum bits",
+      "authors": [
+        "John L. Clarke",
+        "Frank K. Wilhelm"
+      ],
+      "year": 2008,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "superconducting qubits",
+        "superconducting circuits",
+        "Josephson junctions",
+        "quantum computing",
+        "qubit manipulation",
+        "magnetic flux control",
+        "charge control",
+        "phase control",
+        "entanglement",
+        "superposition"
+      ],
+      "url": "https://doi.org/10.1038/nature07128",
+      "cited_by_count": 2129,
+      "importance": 0.6054,
+      "score_basis": {
+        "topic_overlap": 0.345,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2041497060",
+      "doi": "10.1038/nature08121",
+      "title": "Demonstration of two-qubit algorithms with a superconducting quantum processor",
+      "authors": [
+        "L. DiCarlo",
+        "Jerry M. Chow",
+        "Jay Gambetta",
+        "Lev S. Bishop",
+        "Blake Johnson",
+        "David Schuster",
+        "Johannes Majer",
+        "Alexandre Blais",
+        "Luigi Frunzio",
+        "S. M. Girvin",
+        "Robert J. Schoelkopf"
+      ],
+      "year": 2009,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "superconducting quantum processors",
+        "Grover's algorithm",
+        "Deutsch-Jozsa algorithm",
+        "circuit quantum electrodynamics",
+        "qubit entanglement",
+        "concurrence",
+        "nanofabrication",
+        "qubit coherence",
+        "scalable quantum computing"
+      ],
+      "url": "https://doi.org/10.1038/nature08121",
+      "cited_by_count": 1189,
+      "importance": 0.6032,
+      "score_basis": {
+        "topic_overlap": 0.452,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4282958769",
+      "doi": "10.1038/s41586-022-04720-2",
+      "title": "Superconducting-qubit readout via low-backaction electro-optic transduction",
+      "authors": [
+        "Robert D. Delaney",
+        "Maxwell D. Urmey",
+        "Sarang Mittal",
+        "Benjamin Brubaker",
+        "Jonathan M. Kindem",
+        "Peter S. Burns",
+        "Cindy A. Regal",
+        "Konrad W. Lehnert"
+      ],
+      "year": 2022,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "superconducting qubit readout",
+        "transmon qubits",
+        "back-action",
+        "circuit quantum electrodynamics",
+        "microwave-to-optical transduction",
+        "quantum entanglement"
+      ],
+      "url": "https://doi.org/10.1038/s41586-022-04720-2",
+      "cited_by_count": 130,
+      "importance": 0.6015,
+      "score_basis": {
+        "topic_overlap": 0.203,
+        "shared_references": 5,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405183524",
+      "doi": "10.1038/s41586-024-08449-y",
+      "title": "Quantum error correction below the surface code threshold",
+      "authors": [
+        "Google Quantum AI and Collaborators",
+        "Rajeev Acharya",
+        "Dmitry A. Abanin",
+        "Laleh Aghababaie Beni",
+        "I. L. Aleǐner",
+        "Trond I. Andersen",
+        "M. Ansmann",
+        "Frank Arute",
+        "Kunal Arya",
+        "Abraham T. Asfaw",
+        "Nikita Astrakhantsev",
+        "Juan Atalaya",
+        "Ryan Babbush",
+        "Dave Bacon",
+        "Brian Ballard",
+        "Joseph C. Bardin",
+        "Johannes Bausch",
+        "Andreas Bengtsson",
+        "Alexander Bilmes",
+        "Sam Blackwell",
+        "Sergio Boixo",
+        "Gina Bortoli",
+        "Alexandre Bourassa",
+        "Jenna Bovaird",
+        "Leon Brill",
+        "Michael Broughton",
+        "David A. Browne",
+        "Brett Buchea",
+        "Bob B. Buckley",
+        "David A. Buell",
+        "Tim Burger",
+        "Brian Burkett",
+        "Nicholas Bushnell",
+        "Anthony Cabrera",
+        "Juan Campero",
+        "Hung-Shen Chang",
+        "Yu Chen",
+        "Zijun Chen",
+        "B. Chiaro",
+        "Desmond Chik",
+        "Charina Chou",
+        "Jahan Claes",
+        "Agnetta Y. Cleland",
+        "J. G. Cogan",
+        "Roberto Collins",
+        "Paul W. Conner",
+        "William Courtney",
+        "Alexander L. Crook",
+        "Ben Curtin",
+        "Sayan Das",
+        "Alex Davies",
+        "Laura De Lorenzo",
+        "Dripto M. Debroy",
+        "Sean Demura",
+        "Michel Devoret",
+        "Agustín Di Paolo",
+        "Paul Donohoe",
+        "Ilya Drozdov",
+        "A. Dunsworth",
+        "Clint Earle",
+        "Thomas Edlich",
+        "Alec Eickbusch",
+        "Aviv Moshe Elbag",
+        "Mahmoud Elzouka",
+        "Catherine Erickson",
+        "Lara Faoro",
+        "Edward Farhi",
+        "Vinicius S. Ferreira",
+        "Leslie Flores Burgos",
+        "Ebrahim Forati",
+        "Austin G. Fowler",
+        "Brooks Foxen",
+        "Suhas Ganjam",
+        "Gonzalo Garcia",
+        "Robert Gasca",
+        "Élie Genois",
+        "William Giang",
+        "Craig Gidney",
+        "Dar Gilboa",
+        "Raja Gosula",
+        "Alejandro Grajales Dau",
+        "Dietrich Graumann",
+        "Alex Greene",
+        "Jonathan A. Gross",
+        "Steve Habegger",
+        "John A. Hall",
+        "Michael C. Hamilton",
+        "Monica A. Hansen",
+        "Matthew P. Harrigan",
+        "Sean David Harrington",
+        "Francisco J. H. Heras",
+        "Stephen Heslin",
+        "Paula Heu",
+        "Oscar Higgott",
+        "Gordon Hill",
+        "Jeremy Hilton",
+        "George Holland",
+        "Sabrina Hong",
+        "Hsin-Yuan Huang",
+        "Ashley Huff"
+      ],
+      "year": 2024,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum error correction",
+        "surface code",
+        "superconducting qubits",
+        "logical error rate",
+        "real-time decoding",
+        "repetition codes",
+        "correlated errors",
+        "quantum memory",
+        "fault-tolerant quantum computing"
+      ],
+      "url": "https://doi.org/10.1038/s41586-024-08449-y",
+      "cited_by_count": 1219,
+      "importance": 0.6005,
+      "score_basis": {
+        "topic_overlap": 0.401,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1963734567",
+      "doi": "10.1103/physreva.76.042319",
+      "title": "Charge-insensitive qubit design derived from the Cooper pair box",
+      "authors": [
+        "Jens Koch",
+        "Terri M. Yu",
+        "Jay Gambetta",
+        "Andrew Houck",
+        "David Schuster",
+        "Johannes Majer",
+        "Alexandre Blais",
+        "Michel Devoret",
+        "S. M. Girvin",
+        "Robert J. Schoelkopf"
+      ],
+      "year": 2007,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "transmon qubits",
+        "Cooper-pair box",
+        "superconducting qubits",
+        "charge noise",
+        "dephasing time",
+        "sweet spot",
+        "anharmonicity"
+      ],
+      "url": "https://doi.org/10.1103/physreva.76.042319",
+      "cited_by_count": 3532,
+      "importance": 0.5965,
+      "score_basis": {
+        "topic_overlap": 0.437,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2482126025",
+      "doi": "10.1038/s41567-018-0124-x",
+      "title": "Characterizing quantum supremacy in near-term devices",
+      "authors": [
+        "Sergio Boixo",
+        "Sergei V. Isakov",
+        "Vadim Smelyanskiy",
+        "Ryan Babbush",
+        "Nan Ding",
+        "Jiang Zhang",
+        "Michael J. Bremner",
+        "John M. Martinis",
+        "Hartmut Neven"
+      ],
+      "year": 2018,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum advantage",
+        "random quantum circuits",
+        "exponential time lower bounds",
+        "fault-tolerant quantum computing",
+        "error rate"
+      ],
+      "url": "https://doi.org/10.1038/s41567-018-0124-x",
+      "cited_by_count": 1296,
+      "importance": 0.5927,
+      "score_basis": {
+        "topic_overlap": 0.317,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1992629111",
+      "doi": "10.1038/nphys1994",
+      "title": "Noise spectroscopy through dynamical decoupling with a superconducting flux qubit",
+      "authors": [
+        "Jonas Bylander",
+        "Simon Gustavsson",
+        "Fei Yan",
+        "Fumiki Yoshihara",
+        "K. Harrabi",
+        "George Fitch",
+        "David G. Cory",
+        "Yasunobu Nakamura",
+        "Jaw Shen Tsai",
+        "William D. Oliver"
+      ],
+      "year": 2011,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "noise spectroscopy",
+        "dynamical decoupling",
+        "superconducting flux qubit",
+        "environmental noise",
+        "1/f noise",
+        "dephasing time",
+        "coherence time",
+        "spectral filtering",
+        "spin coherence"
+      ],
+      "url": "https://doi.org/10.1038/nphys1994",
+      "cited_by_count": 888,
+      "importance": 0.5768,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 3,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407377241",
+      "doi": "10.1038/s41567-024-02742-3",
+      "title": "Optical readout of a superconducting qubit using a piezo-optomechanical transducer",
+      "authors": [
+        "Thierry Christiaan van Thiel",
+        "Matthew J. Weaver",
+        "Federico Berto",
+        "Pim Duivestein",
+        "Mathilde Lemang",
+        "Kiki L. Schuurman",
+        "Martin Žemlička",
+        "F. Hijazi",
+        "Alexandra C. Bernasconi",
+        "C. Ferrer",
+        "Enrico Cataldo",
+        "Ella Lachman",
+        "Mark Field",
+        "Yuvraj Mohan",
+        "Fokko K. de Vries",
+        "Cornelis Christiaan Bultink",
+        "J. C. van Oven",
+        "J. Mutus",
+        "Robert Stockill",
+        "Simon Gröblacher"
+      ],
+      "year": 2025,
+      "venue": "Nature Physics",
+      "venue_abbr": "Nature Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "superconducting qubits",
+        "optical readout",
+        "transmon qubits",
+        "optical fibers",
+        "quantum processor scaling"
+      ],
+      "url": "https://doi.org/10.1038/s41567-024-02742-3",
+      "cited_by_count": 50,
+      "importance": 0.5693,
+      "score_basis": {
+        "topic_overlap": 0.221,
+        "shared_references": 5,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3127536809",
+      "doi": "10.1126/science.abg7812",
+      "title": "Quantum walks on a programmable two-dimensional 62-qubit superconducting processor",
+      "authors": [
+        "Ming Gong",
+        "Shiyu Wang",
+        "Chen Zha",
+        "Ming-Cheng Chen",
+        "He-Liang Huang",
+        "Yulin Wu",
+        "Qingling Zhu",
+        "Youwei Zhao",
+        "Shaowei Li",
+        "Shaojun Guo",
+        "Haoran Qian",
+        "Yangsen Ye",
+        "Fusheng Chen",
+        "Chong Ying",
+        "Jiale Yu",
+        "Daojin Fan",
+        "Dachao Wu",
+        "Hong Su",
+        "Hui Deng",
+        "Hao Rong",
+        "Kaili Zhang",
+        "Sirui Cao",
+        "Jin Lin",
+        "Yu Xu",
+        "Lihua Sun",
+        "Cheng Guo",
+        "Na Li",
+        "Futian Liang",
+        "V. M. Bastidas",
+        "Kae Nemoto",
+        "W. J. Munro",
+        "Yong-Heng Huo",
+        "Chao-Yang Lu",
+        "Cheng-Zhi Peng",
+        "Xiaobo Zhu",
+        "Jian-Wei Pan"
+      ],
+      "year": 2021,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum walks",
+        "superconducting qubit arrays",
+        "programmable quantum processors",
+        "Mach-Zehnder interferometer",
+        "two-particle quantum walk",
+        "interference fringes",
+        "disorder tuning",
+        "quantum simulation",
+        "noisy intermediate-scale quantum computing"
+      ],
+      "url": "https://doi.org/10.1126/science.abg7812",
+      "cited_by_count": 341,
+      "importance": 0.5466,
+      "score_basis": {
+        "topic_overlap": 0.304,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3163499261",
+      "doi": "10.1038/s41928-021-00570-4",
+      "title": "A cryogenic electro-optic interconnect for superconducting devices",
+      "authors": [
+        "Amir Youssefi",
+        "Itay Shomroni",
+        "Yash J. Joshi",
+        "Nathan Bernier",
+        "Anton Lukashchuk",
+        "Philipp Uhrich",
+        "Liu Qiu",
+        "Tobias Jan Kippenberg"
+      ],
+      "year": 2021,
+      "venue": "Nature Electronics",
+      "venue_abbr": "Nat. Electron.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical fibers",
+        "optomechanically induced transparency",
+        "Pockels coefficient",
+        "cryogenic computing",
+        "heat load reduction"
+      ],
+      "url": "https://doi.org/10.1038/s41928-021-00570-4",
+      "cited_by_count": 128,
+      "importance": 0.5339,
+      "score_basis": {
+        "topic_overlap": 0.275,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2079099822",
+      "doi": "10.1103/physrevlett.109.080505",
+      "title": "Efficient Measurement of Quantum Gate Error by Interleaved Randomized Benchmarking",
+      "authors": [
+        "Easwar Magesan",
+        "Jay Gambetta",
+        "Blake Johnson",
+        "Colm A. Ryan",
+        "Jerry M. Chow",
+        "Seth Merkel",
+        "Marcus Palmer Da Silva",
+        "George Keefe",
+        "Mary Beth Rothwell",
+        "Thomas Ohki",
+        "M. B. Ketchen",
+        "Matthias Steffen"
+      ],
+      "year": 2012,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum gate errors",
+        "average gate fidelity",
+        "Clifford gates",
+        "superconducting qubits",
+        "single-qubit gates",
+        "state preparation and measurement errors",
+        "error bounds"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.109.080505",
+      "cited_by_count": 456,
+      "importance": 0.5216,
+      "score_basis": {
+        "topic_overlap": 0.359,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7222792064",
+      "doi": "10.5281/zenodo.23434900",
+      "title": "Data for \"Towards fault-tolerant quantum computing with optically controlled superconducting qubits\"",
+      "authors": [
+        "Na Li",
+        "Yu-Huai Li",
+        "Dao-Jin Fan",
+        "Lianchen Han",
+        "Yu Xu",
+        "Jin Lin",
+        "Guo Cheng",
+        "Liao Sheng-kai",
+        "Xiao-Bo Zhu",
+        "Chengzhi Peng"
+      ],
+      "year": 2026,
+      "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+      "venue_abbr": "Zenodo (CERN European Organization for Nuclear Research)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fault-tolerant quantum computing",
+        "superconducting qubits",
+        "optical control",
+        "thermal noise",
+        "energy relaxation time",
+        "dephasing time",
+        "single-qubit gate fidelity",
+        "readout noise"
+      ],
+      "url": "https://doi.org/10.5281/zenodo.23434900",
+      "cited_by_count": 1,
+      "importance": 0.5213,
+      "score_basis": {
+        "topic_overlap": 0.714,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2755418751",
+      "doi": "10.1038/nature23460",
+      "title": "Roads towards fault-tolerant universal quantum computation",
+      "authors": [
+        "Earl T. Campbell",
+        "Barbara M. Terhal",
+        "Christophe Vuillot"
+      ],
+      "year": 2017,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fault-tolerant quantum computing",
+        "universal quantum gates",
+        "logical qubits",
+        "magic state distillation",
+        "color codes",
+        "modular quantum architectures",
+        "quantum error correction",
+        "resource requirements",
+        "quantum processors"
+      ],
+      "url": "https://doi.org/10.1038/nature23460",
+      "cited_by_count": 667,
+      "importance": 0.5166,
+      "score_basis": {
+        "topic_overlap": 0.348,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2060352036",
+      "doi": "10.1103/physrevb.72.134519",
+      "title": "Decoherence in a superconducting quantum bit circuit",
+      "authors": [
+        "Grégoire Ithier",
+        "Eddy Collin",
+        "P. Joyez",
+        "P. J. Meeson",
+        "D. Vion",
+        "D. Esteve",
+        "F. Chiarello",
+        "Alexander Shnirman",
+        "Yuriy Makhlin",
+        "Josef Schriefl",
+        "Gerd Schön"
+      ],
+      "year": 2005,
+      "venue": "Physical Review B",
+      "venue_abbr": "Physical Review B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "decoherence",
+        "superconducting qubits",
+        "power spectrum",
+        "noise sources",
+        "quantum computing",
+        "noise modeling",
+        "decoherence mitigation"
+      ],
+      "url": "https://doi.org/10.1103/physrevb.72.134519",
+      "cited_by_count": 673,
+      "importance": 0.5135,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2020018917",
+      "doi": "10.1126/science.285.5430.1036",
+      "title": "Josephson Persistent-Current Qubit",
+      "authors": [
+        "Johan E. Mooij",
+        "Terry P. Orlando",
+        "Leonid S Levitov",
+        "Lin Tian",
+        "Caspar H. van der Wal",
+        "Seth Lloyd"
+      ],
+      "year": 1999,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "persistent current qubit",
+        "Josephson junctions",
+        "superconducting qubits",
+        "quantum computing",
+        "electron beam lithography",
+        "qubit entanglement",
+        "superconducting loops"
+      ],
+      "url": "https://doi.org/10.1126/science.285.5430.1036",
+      "cited_by_count": 1380,
+      "importance": 0.5112,
+      "score_basis": {
+        "topic_overlap": 0.358,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2758259983",
+      "doi": "10.1126/science.aao4309",
+      "title": "A blueprint for demonstrating quantum supremacy with superconducting qubits",
+      "authors": [
+        "C. Neill",
+        "P. Roushan",
+        "Kostyantyn Kechedzhi",
+        "Sergio Boixo",
+        "Sergei V. Isakov",
+        "Vadim Smelyanskiy",
+        "A. Megrant",
+        "B. Chiaro",
+        "A. Dunsworth",
+        "Kunal Arya",
+        "R. Barends",
+        "Brian Burkett",
+        "Yu Chen",
+        "Z. Chen",
+        "Austin G. Fowler",
+        "Brooks Foxen",
+        "Marissa Giustina",
+        "R. Graff",
+        "Evan R. Jeffrey",
+        "Trent Huang",
+        "J. Kelly",
+        "Paul V. Klimov",
+        "Erik A. Lucero",
+        "J. Mutus",
+        "M. Neeley",
+        "Chris Quintana",
+        "D. Sank",
+        "A. Vainsencher",
+        "J. Wenner",
+        "T. White",
+        "Hartmut Neven",
+        "John M. Martinis"
+      ],
+      "year": 2018,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum advantage",
+        "superconducting qubits",
+        "Hamiltonian evolution",
+        "output probability distribution",
+        "quantum computing"
+      ],
+      "url": "https://doi.org/10.1126/science.aao4309",
+      "cited_by_count": 468,
+      "importance": 0.5,
+      "score_basis": {
+        "topic_overlap": 0.333,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1533625736",
+      "doi": "10.1103/physreva.93.012301",
+      "title": "Characterizing errors on qubit operations via iterative randomized benchmarking",
+      "authors": [
+        "Sarah Sheldon",
+        "Lev S. Bishop",
+        "Easwar Magesan",
+        "Stefan Filipp",
+        "Jerry M. Chow",
+        "Jay Gambetta"
+      ],
+      "year": 2016,
+      "venue": "Physical Review A",
+      "venue_abbr": "Physical Review A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "gate fidelity",
+        "superconducting qubits",
+        "circuit quantum electrodynamics",
+        "coherent errors",
+        "decoherence",
+        "single-qubit gates",
+        "error characterization"
+      ],
+      "url": "https://doi.org/10.1103/physreva.93.012301",
+      "cited_by_count": 161,
+      "importance": 0.4916,
+      "score_basis": {
+        "topic_overlap": 0.359,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2986066265",
+      "doi": "10.1063/1.5120299",
+      "title": "Scalable and customizable arbitrary waveform generator for superconducting quantum computing",
+      "authors": [
+        "Jin Lin",
+        "Futian Liang",
+        "Yu Xu",
+        "Lihua Sun",
+        "Cheng Guo",
+        "Sheng‐Kai Liao",
+        "Cheng-Zhi Peng"
+      ],
+      "year": 2019,
+      "venue": "AIP Advances",
+      "venue_abbr": "AIP Advances",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "arbitrary waveform generator",
+        "superconducting quantum computing",
+        "digital-to-analog converter",
+        "high sampling rate",
+        "integral nonlinearity",
+        "differential nonlinearity",
+        "microwave control",
+        "qubit control"
+      ],
+      "url": "https://doi.org/10.1063/1.5120299",
+      "cited_by_count": 24,
+      "importance": 0.433,
+      "score_basis": {
+        "topic_overlap": 0.429,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1586616006",
+      "doi": "10.1038/19718",
+      "title": "Coherent control of macroscopic quantum states in a single-Cooper-pair box",
+      "authors": [
+        "Yasunobu Nakamura",
+        "Yu. A. Pashkin",
+        "J. S. Tsai"
+      ],
+      "year": 1999,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "coherent control",
+        "quantum oscillations",
+        "qubits",
+        "superconducting qubits",
+        "Josephson junctions",
+        "macroscopic quantum coherence",
+        "quantum computing"
+      ],
+      "url": "https://doi.org/10.1038/19718",
+      "cited_by_count": 2638,
+      "importance": 0.4047,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412570408",
+      "doi": "10.1364/opticaq.554577",
+      "title": "Quantum teleportation of a silicon nanophotonic CNOT gate",
+      "authors": [
+        "Kai-Chi Chang",
+        "Xiang Cheng",
+        "Felix Ribuot-Hirsch",
+        "Murat Can Sarihan",
+        "Yu Jie Chen",
+        "Jaime Gonzalo Flor Flores",
+        "Mingbin Yu",
+        "Patrick Guo-Qiang Lo",
+        "Dim‐Lee Kwong",
+        "Chee Wei Wong"
+      ],
+      "year": 2025,
+      "venue": "Optica Quantum",
+      "venue_abbr": "Optica Quantum",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "CNOT gate",
+        "silicon photonics",
+        "remote entanglement",
+        "Bell states",
+        "quantum fidelity",
+        "distributed quantum computing",
+        "modular quantum architectures"
+      ],
+      "url": "https://doi.org/10.1364/opticaq.554577",
+      "cited_by_count": 16,
+      "importance": 0.3953,
+      "score_basis": {
+        "topic_overlap": 0.323,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1533625736",
+      "to": "W2079099822",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1533625736"
+        }
+      ]
+    },
+    {
+      "from": "W1963734567",
+      "to": "W1586616006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1963734567"
+        }
+      ]
+    },
+    {
+      "from": "W1963734567",
+      "to": "W2060352036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1963734567"
+        }
+      ]
+    },
+    {
+      "from": "W1968850365",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1968850365"
+        }
+      ]
+    },
+    {
+      "from": "W1968850365",
+      "to": "W1994956962",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1968850365"
+        }
+      ]
+    },
+    {
+      "from": "W1968850365",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1968850365"
+        }
+      ]
+    },
+    {
+      "from": "W1968850365",
+      "to": "W2041497060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1968850365"
+        }
+      ]
+    },
+    {
+      "from": "W1983336715",
+      "to": "W1586616006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1983336715"
+        }
+      ]
+    },
+    {
+      "from": "W1983336715",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1983336715"
+        }
+      ]
+    },
+    {
+      "from": "W1983336715",
+      "to": "W2060352036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1983336715"
+        }
+      ]
+    },
+    {
+      "from": "W1992629111",
+      "to": "W1983336715",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1992629111"
+        }
+      ]
+    },
+    {
+      "from": "W1992629111",
+      "to": "W2020018917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1992629111"
+        }
+      ]
+    },
+    {
+      "from": "W1992629111",
+      "to": "W2060352036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1992629111"
+        }
+      ]
+    },
+    {
+      "from": "W1994956962",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1994956962"
+        }
+      ]
+    },
+    {
+      "from": "W1994956962",
+      "to": "W1992629111",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1994956962"
+        }
+      ]
+    },
+    {
+      "from": "W1994956962",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1994956962"
+        }
+      ]
+    },
+    {
+      "from": "W1994956962",
+      "to": "W2041497060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1994956962"
+        }
+      ]
+    },
+    {
+      "from": "W1994956962",
+      "to": "W2103912183",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1994956962"
+        }
+      ]
+    },
+    {
+      "from": "W2020018917",
+      "to": "W1586616006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2020018917"
+        }
+      ]
+    },
+    {
+      "from": "W2030867075",
+      "to": "W1983336715",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2030867075"
+        }
+      ]
+    },
+    {
+      "from": "W2030867075",
+      "to": "W2103912183",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2030867075"
+        }
+      ]
+    },
+    {
+      "from": "W2041497060",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2041497060"
+        }
+      ]
+    },
+    {
+      "from": "W2041497060",
+      "to": "W1983336715",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2041497060"
+        }
+      ]
+    },
+    {
+      "from": "W2060352036",
+      "to": "W1586616006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2060352036"
+        }
+      ]
+    },
+    {
+      "from": "W2079099822",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2079099822"
+        }
+      ]
+    },
+    {
+      "from": "W2079099822",
+      "to": "W2103912183",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2079099822"
+        }
+      ]
+    },
+    {
+      "from": "W2103912183",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2103912183"
+        }
+      ]
+    },
+    {
+      "from": "W2103912183",
+      "to": "W1983336715",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2103912183"
+        }
+      ]
+    },
+    {
+      "from": "W2103912183",
+      "to": "W1992629111",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2103912183"
+        }
+      ]
+    },
+    {
+      "from": "W2103912183",
+      "to": "W2041497060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2103912183"
+        }
+      ]
+    },
+    {
+      "from": "W2173810284",
+      "to": "W1533625736",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2173810284"
+        }
+      ]
+    },
+    {
+      "from": "W2173810284",
+      "to": "W1586616006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2173810284"
+        }
+      ]
+    },
+    {
+      "from": "W2173810284",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2173810284"
+        }
+      ]
+    },
+    {
+      "from": "W2173810284",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2173810284"
+        }
+      ]
+    },
+    {
+      "from": "W2173810284",
+      "to": "W1983336715",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2173810284"
+        }
+      ]
+    },
+    {
+      "from": "W2173810284",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2173810284"
+        }
+      ]
+    },
+    {
+      "from": "W2173810284",
+      "to": "W2041497060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2173810284"
+        }
+      ]
+    },
+    {
+      "from": "W2173810284",
+      "to": "W2079099822",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2173810284"
+        }
+      ]
+    },
+    {
+      "from": "W2482126025",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2482126025"
+        }
+      ]
+    },
+    {
+      "from": "W2482126025",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2482126025"
+        }
+      ]
+    },
+    {
+      "from": "W2482126025",
+      "to": "W2758259983",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2482126025"
+        }
+      ]
+    },
+    {
+      "from": "W2755418751",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2755418751"
+        }
+      ]
+    },
+    {
+      "from": "W2755418751",
+      "to": "W2173810284",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2755418751"
+        }
+      ]
+    },
+    {
+      "from": "W2758259983",
+      "to": "W2482126025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2758259983"
+        }
+      ]
+    },
+    {
+      "from": "W2947682895",
+      "to": "W1533625736",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2947682895"
+        }
+      ]
+    },
+    {
+      "from": "W2947682895",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2947682895"
+        }
+      ]
+    },
+    {
+      "from": "W2947682895",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2947682895"
+        }
+      ]
+    },
+    {
+      "from": "W2947682895",
+      "to": "W2041497060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2947682895"
+        }
+      ]
+    },
+    {
+      "from": "W2947682895",
+      "to": "W2060352036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2947682895"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W1533625736",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W1586616006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W1983336715",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W1992629111",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W1994956962",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W2020018917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W2041497060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W2060352036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W2103912183",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W2173810284",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W2482126025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W2755418751",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W2758259983",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2950805899",
+      "to": "W2947682895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2950805899"
+        }
+      ]
+    },
+    {
+      "from": "W2979779798",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979779798"
+        }
+      ]
+    },
+    {
+      "from": "W2979779798",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979779798"
+        }
+      ]
+    },
+    {
+      "from": "W2979779798",
+      "to": "W1994956962",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979779798"
+        }
+      ]
+    },
+    {
+      "from": "W2979779798",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979779798"
+        }
+      ]
+    },
+    {
+      "from": "W2979779798",
+      "to": "W2041497060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979779798"
+        }
+      ]
+    },
+    {
+      "from": "W2979779798",
+      "to": "W2482126025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2979779798"
+        }
+      ]
+    },
+    {
+      "from": "W2982169647",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2982169647"
+        }
+      ]
+    },
+    {
+      "from": "W2982169647",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2982169647"
+        }
+      ]
+    },
+    {
+      "from": "W2982169647",
+      "to": "W2020018917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2982169647"
+        }
+      ]
+    },
+    {
+      "from": "W2982169647",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2982169647"
+        }
+      ]
+    },
+    {
+      "from": "W2982169647",
+      "to": "W2041497060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2982169647"
+        }
+      ]
+    },
+    {
+      "from": "W2982169647",
+      "to": "W2482126025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2982169647"
+        }
+      ]
+    },
+    {
+      "from": "W2982169647",
+      "to": "W2758259983",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2982169647"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W1586616006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W1992629111",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W1994956962",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W2020018917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W2041497060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W2103912183",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W2482126025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W2758259983",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W2950805899",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W2979779798",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3043514756",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043514756"
+        }
+      ]
+    },
+    {
+      "from": "W3082415818",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3082415818"
+        }
+      ]
+    },
+    {
+      "from": "W3082415818",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3082415818"
+        }
+      ]
+    },
+    {
+      "from": "W3082415818",
+      "to": "W2103912183",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3082415818"
+        }
+      ]
+    },
+    {
+      "from": "W3082415818",
+      "to": "W2947682895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3082415818"
+        }
+      ]
+    },
+    {
+      "from": "W3082415818",
+      "to": "W2950805899",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3082415818"
+        }
+      ]
+    },
+    {
+      "from": "W3082415818",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3082415818"
+        }
+      ]
+    },
+    {
+      "from": "W3082415818",
+      "to": "W3163499261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3082415818"
+        }
+      ]
+    },
+    {
+      "from": "W3127536809",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127536809"
+        }
+      ]
+    },
+    {
+      "from": "W3127536809",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127536809"
+        }
+      ]
+    },
+    {
+      "from": "W3127536809",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3127536809"
+        }
+      ]
+    },
+    {
+      "from": "W3163499261",
+      "to": "W2947682895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3163499261"
+        }
+      ]
+    },
+    {
+      "from": "W3163499261",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3163499261"
+        }
+      ]
+    },
+    {
+      "from": "W3163499261",
+      "to": "W3082415818",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3163499261"
+        }
+      ]
+    },
+    {
+      "from": "W3173899054",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173899054"
+        }
+      ]
+    },
+    {
+      "from": "W3173899054",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173899054"
+        }
+      ]
+    },
+    {
+      "from": "W3173899054",
+      "to": "W2482126025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173899054"
+        }
+      ]
+    },
+    {
+      "from": "W3173899054",
+      "to": "W2758259983",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173899054"
+        }
+      ]
+    },
+    {
+      "from": "W3173899054",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173899054"
+        }
+      ]
+    },
+    {
+      "from": "W3173899054",
+      "to": "W3043514756",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173899054"
+        }
+      ]
+    },
+    {
+      "from": "W3173899054",
+      "to": "W3127536809",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173899054"
+        }
+      ]
+    },
+    {
+      "from": "W3202785109",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202785109"
+        }
+      ]
+    },
+    {
+      "from": "W3202785109",
+      "to": "W1994956962",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202785109"
+        }
+      ]
+    },
+    {
+      "from": "W3202785109",
+      "to": "W2482126025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202785109"
+        }
+      ]
+    },
+    {
+      "from": "W3202785109",
+      "to": "W2755418751",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202785109"
+        }
+      ]
+    },
+    {
+      "from": "W3202785109",
+      "to": "W2950805899",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202785109"
+        }
+      ]
+    },
+    {
+      "from": "W3202785109",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202785109"
+        }
+      ]
+    },
+    {
+      "from": "W4200634137",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200634137"
+        }
+      ]
+    },
+    {
+      "from": "W4200634137",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200634137"
+        }
+      ]
+    },
+    {
+      "from": "W4200634137",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200634137"
+        }
+      ]
+    },
+    {
+      "from": "W4200634137",
+      "to": "W2079099822",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200634137"
+        }
+      ]
+    },
+    {
+      "from": "W4200634137",
+      "to": "W2947682895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200634137"
+        }
+      ]
+    },
+    {
+      "from": "W4213005131",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4213005131"
+        }
+      ]
+    },
+    {
+      "from": "W4213005131",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4213005131"
+        }
+      ]
+    },
+    {
+      "from": "W4213005131",
+      "to": "W2482126025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4213005131"
+        }
+      ]
+    },
+    {
+      "from": "W4213005131",
+      "to": "W2755418751",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4213005131"
+        }
+      ]
+    },
+    {
+      "from": "W4213005131",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4213005131"
+        }
+      ]
+    },
+    {
+      "from": "W4213005131",
+      "to": "W3202785109",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4213005131"
+        }
+      ]
+    },
+    {
+      "from": "W4224284290",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224284290"
+        }
+      ]
+    },
+    {
+      "from": "W4224284290",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224284290"
+        }
+      ]
+    },
+    {
+      "from": "W4224284290",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224284290"
+        }
+      ]
+    },
+    {
+      "from": "W4224284290",
+      "to": "W2482126025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224284290"
+        }
+      ]
+    },
+    {
+      "from": "W4224284290",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224284290"
+        }
+      ]
+    },
+    {
+      "from": "W4224284290",
+      "to": "W2986066265",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224284290"
+        }
+      ]
+    },
+    {
+      "from": "W4224284290",
+      "to": "W3173899054",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224284290"
+        }
+      ]
+    },
+    {
+      "from": "W4282958769",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282958769"
+        }
+      ]
+    },
+    {
+      "from": "W4282958769",
+      "to": "W2950805899",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282958769"
+        }
+      ]
+    },
+    {
+      "from": "W4282958769",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282958769"
+        }
+      ]
+    },
+    {
+      "from": "W4282958769",
+      "to": "W3082415818",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282958769"
+        }
+      ]
+    },
+    {
+      "from": "W4282958769",
+      "to": "W3163499261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282958769"
+        }
+      ]
+    },
+    {
+      "from": "W4285029287",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285029287"
+        }
+      ]
+    },
+    {
+      "from": "W4285029287",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285029287"
+        }
+      ]
+    },
+    {
+      "from": "W4285029287",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285029287"
+        }
+      ]
+    },
+    {
+      "from": "W4285029287",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285029287"
+        }
+      ]
+    },
+    {
+      "from": "W4285029287",
+      "to": "W3043514756",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285029287"
+        }
+      ]
+    },
+    {
+      "from": "W4285029287",
+      "to": "W3173899054",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285029287"
+        }
+      ]
+    },
+    {
+      "from": "W4285029287",
+      "to": "W3202785109",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285029287"
+        }
+      ]
+    },
+    {
+      "from": "W4285029287",
+      "to": "W4200634137",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285029287"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W1533625736",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W2947682895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W2979779798",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W2986066265",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W3043514756",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W3082415818",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W3127536809",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W3163499261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W3173899054",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W4213005131",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W4224284290",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W4282958769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4390755235",
+      "to": "W4285029287",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390755235"
+        }
+      ]
+    },
+    {
+      "from": "W4405183524",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405183524"
+        }
+      ]
+    },
+    {
+      "from": "W4405183524",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405183524"
+        }
+      ]
+    },
+    {
+      "from": "W4405183524",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405183524"
+        }
+      ]
+    },
+    {
+      "from": "W4405183524",
+      "to": "W4200634137",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405183524"
+        }
+      ]
+    },
+    {
+      "from": "W4407377241",
+      "to": "W2947682895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407377241"
+        }
+      ]
+    },
+    {
+      "from": "W4407377241",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407377241"
+        }
+      ]
+    },
+    {
+      "from": "W4407377241",
+      "to": "W3082415818",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407377241"
+        }
+      ]
+    },
+    {
+      "from": "W4407377241",
+      "to": "W4282958769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407377241"
+        }
+      ]
+    },
+    {
+      "from": "W4407377241",
+      "to": "W4409162985",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407377241"
+        }
+      ]
+    },
+    {
+      "from": "W4409162985",
+      "to": "W2173810284",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409162985"
+        }
+      ]
+    },
+    {
+      "from": "W4409162985",
+      "to": "W2947682895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409162985"
+        }
+      ]
+    },
+    {
+      "from": "W4409162985",
+      "to": "W2950805899",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409162985"
+        }
+      ]
+    },
+    {
+      "from": "W4409162985",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409162985"
+        }
+      ]
+    },
+    {
+      "from": "W4409162985",
+      "to": "W3082415818",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409162985"
+        }
+      ]
+    },
+    {
+      "from": "W4409162985",
+      "to": "W4282958769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409162985"
+        }
+      ]
+    },
+    {
+      "from": "W4409162985",
+      "to": "W4407377241",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409162985"
+        }
+      ]
+    },
+    {
+      "from": "W4412570408",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412570408"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W1586616006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W1994956962",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W2020018917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W2482126025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W2758259983",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W3043514756",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W3127536809",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W3173899054",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W4200634137",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W4285029287",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W4413305859",
+      "to": "W4405183524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413305859"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W1533625736",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W1586616006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W1963734567",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W1968850365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W1983336715",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W1992629111",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W1994956962",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2020018917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2030867075",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2041497060",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2060352036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2079099822",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2103912183",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2173810284",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2482126025",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2755418751",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2758259983",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2947682895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2950805899",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2979779798",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2982169647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W2986066265",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W3043514756",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W3082415818",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W3127536809",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W3163499261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W3173899054",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W3202785109",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W4200634137",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W4213005131",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W4224284290",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W4282958769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W4285029287",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W4390755235",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W4405183524",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W4407377241",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W4409162985",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W4412570408",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W4413305859",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    },
+    {
+      "from": "W7223697804",
+      "to": "W7222792064",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223697804"
+        }
+      ]
+    }
+  ]
 }

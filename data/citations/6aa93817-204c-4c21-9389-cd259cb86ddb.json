@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "6aa93817-204c-4c21-9389-cd259cb86ddb",
-  "root": "doi:10.1021/acsphotonics.6c02600",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7225275410",
+  "status": "ok",
+  "checked_at": "2026-11-09T00:51:58.545127+00:00",
+  "coverage": {
+    "references_found": 43,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 43,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1021/acsphotonics.6c02600",
+      "id": "W7225275410",
       "doi": "10.1021/acsphotonics.6c02600",
       "title": "Low-Insertion-Loss and Ultracompact Multicore Fiber Fan-In/Out Device Fabricated by In Situ 3D Nanoprinting",
       "authors": [
@@ -24,20 +34,2799 @@
         "Jiajing Tu",
         "Zhaohui Li"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "ACS Photonics",
       "venue_abbr": "ACS Photonics",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "multicore fiber",
+        "fan-in/fan-out devices",
+        "space-division multiplexing",
+        "two-photon polymerization",
+        "monolithic integration",
+        "insertion loss",
+        "inter-core crosstalk",
+        "4f imaging system",
+        "recirculating fiber loop",
+        "ultra-compact photonic devices"
+      ],
       "url": "https://doi.org/10.1021/acsphotonics.6c02600",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/6aa93817-204c-4c21-9389-cd259cb86ddb.html",
       "summary": "该实验研究利用双光子聚合原位3D纳米打印，在四芯光纤与单模光纤阵列端面集成抛物面全内反射桥结构，实现四通道扇入扇出。摘要报告结构高度为60 μm，插入损耗约0.46 dB，1550 nm处芯间串扰低于−50 dB，并支持S、C、L波段工作。作者通过离线24 GBaud DP-QPSK循环传输实验验证，传输距离为1058.4 km，覆盖186个信道，所有误码率均低于所用FEC门限。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4411360262",
+      "doi": "10.1021/acsphotonics.5c00617",
+      "title": "Ultracompact and Low Crosstalk Multicore Fiber Fan-in/out Device Fabricated via 3D Nanoprinting",
+      "authors": [
+        "LI Jin-pei",
+        "Shecheng Gao",
+        "Jiajing Tu",
+        "Z. H. Chen",
+        "XiFa Liang",
+        "QiSui",
+        "Zhaohui Li"
+      ],
+      "year": 2025,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "multicore fiber",
+        "fan-in/fan-out devices",
+        "3D nanoprinting",
+        "inter-core crosstalk",
+        "insertion loss",
+        "total internal reflection",
+        "high refractive index contrast",
+        "C+L band"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.5c00617",
+      "cited_by_count": 6,
+      "importance": 0.6675,
+      "score_basis": {
+        "topic_overlap": 0.483,
+        "shared_references": 14,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3182421448",
+      "doi": "10.1364/optica.427631",
+      "title": "Space-division multiplexing for optical fiber communications",
+      "authors": [
+        "Benjamin James Puttnam",
+        "Georg Rademacher",
+        "Ruben Soares Luis"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "space-division multiplexing",
+        "optical fiber communication",
+        "multicore fiber",
+        "multimode fiber",
+        "few-mode fiber",
+        "coupled-core fiber",
+        "digital signal processing",
+        "fiber amplifiers",
+        "optical transmission",
+        "optical networking",
+        "information capacity"
+      ],
+      "url": "https://doi.org/10.1364/optica.427631",
+      "cited_by_count": 783,
+      "importance": 0.6415,
+      "score_basis": {
+        "topic_overlap": 0.203,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4365142898",
+      "doi": "10.1117/1.apn.2.3.036002",
+      "title": "Low-insertion-loss femtosecond laser-inscribed three-dimensional high-density mux/demux devices",
+      "authors": [
+        "Yize Liang",
+        "Chengkun Cai",
+        "Kangrui Wang",
+        "Xiaokang Lian",
+        "Jue Wang",
+        "Jinfeng Liu",
+        "Lei Shen",
+        "Jian Wang"
+      ],
+      "year": 2023,
+      "venue": "Advanced Photonics Nexus",
+      "venue_abbr": "Adv. Photonics Nexus",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "femtosecond laser direct writing",
+        "multicore fiber",
+        "multiplexer/demultiplexer",
+        "19-core fiber",
+        "insertion loss",
+        "inter-core crosstalk",
+        "C+L band"
+      ],
+      "url": "https://doi.org/10.1117/1.apn.2.3.036002",
+      "cited_by_count": 31,
+      "importance": 0.601,
+      "score_basis": {
+        "topic_overlap": 0.247,
+        "shared_references": 10,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4290993912",
+      "doi": "10.1109/jphot.2022.3198087",
+      "title": "Low Loss Ultra-Small Core Pitch All-Fiber Fan-In/Fan-Out Device For Coupled-Core Multicore Fibers",
+      "authors": [
+        "Junjie Xiong",
+        "Lin Ma",
+        "Ying Shi",
+        "Linbin Bai",
+        "Zuyuan He"
+      ],
+      "year": 2022,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "fan-in/fan-out devices",
+        "all-fiber devices",
+        "insertion loss",
+        "multiplexing and demultiplexing",
+        "1550 nm"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2022.3198087",
+      "cited_by_count": 11,
+      "importance": 0.5974,
+      "score_basis": {
+        "topic_overlap": 0.439,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2736464583",
+      "doi": "10.1364/oe.25.018817",
+      "title": "Low-loss and reflection-free fused type fan-out device for 7-core fiber based on a bundled structure",
+      "authors": [
+        "Masato Yoshida",
+        "Toshihiko Hirooka",
+        "Masataka Nakazawa"
+      ],
+      "year": 2017,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "seven-core fiber",
+        "fiber fusion splicing",
+        "splice loss",
+        "crosstalk",
+        "Fresnel reflection",
+        "repeatability"
+      ],
+      "url": "https://doi.org/10.1364/oe.25.018817",
+      "cited_by_count": 37,
+      "importance": 0.5794,
+      "score_basis": {
+        "topic_overlap": 0.354,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2980220943",
+      "doi": "10.1109/lpt.2020.2997756",
+      "title": "Multiport Fiber Optic Beam Splitters for Space Division Multiplexed (SDM) Systems",
+      "authors": [
+        "Andrew Wood",
+        "Yongmin Jung",
+        "David John Richardson"
+      ],
+      "year": 2020,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "space-division multiplexing",
+        "few-mode fiber",
+        "multicore fiber",
+        "fiber alignment",
+        "inter-core crosstalk",
+        "excess loss",
+        "integrated optical devices"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2020.2997756",
+      "cited_by_count": 11,
+      "importance": 0.573,
+      "score_basis": {
+        "topic_overlap": 0.384,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2013438099",
+      "doi": "10.1364/oe.23.003292",
+      "title": "On-chip grating coupler array on the SOI platform for fan-in/fan-out of MCFs with low insertion loss and crosstalk",
+      "authors": [
+        "Yunhong Ding",
+        "Feihong Ye",
+        "Christophe Peucheret",
+        "Haiyan Ou",
+        "Yutaka Miyamoto",
+        "Toshio Morioka"
+      ],
+      "year": 2015,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "multicore fiber",
+        "silicon-on-insulator",
+        "coupling efficiency",
+        "crosstalk",
+        "insertion loss",
+        "C-band",
+        "on-chip photonic integration"
+      ],
+      "url": "https://doi.org/10.1364/oe.23.003292",
+      "cited_by_count": 75,
+      "importance": 0.5555,
+      "score_basis": {
+        "topic_overlap": 0.501,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4307884889",
+      "doi": "10.1364/oe.470676",
+      "title": "3D-printed facet-attached optical elements for connecting VCSEL and photodiodes to fiber arrays and multi-core fibers",
+      "authors": [
+        "Pascal Maier",
+        "Yilin Xu",
+        "Mareike Trappen",
+        "Matthias Lauermann",
+        "Alexandra Henniger-Ludwig",
+        "Hermann Kapim",
+        "Torben Kind",
+        "Philipp‐Immanuel Dietrich",
+        "Achim Weber",
+        "Matthias Blaicher",
+        "Clemens Wurster",
+        "Sebastian Randel",
+        "W. Freude",
+        "Christian G. Koos"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "VCSEL arrays",
+        "photodiode array",
+        "multicore fiber",
+        "fiber arrays",
+        "multiphoton lithography",
+        "misalignment tolerance",
+        "transceiver"
+      ],
+      "url": "https://doi.org/10.1364/oe.470676",
+      "cited_by_count": 26,
+      "importance": 0.5458,
+      "score_basis": {
+        "topic_overlap": 0.391,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417425450",
+      "doi": "10.1016/j.optlastec.2025.114521",
+      "title": "Fully-assembled low-loss fan-in/fan-out device by laser direct writing for coupled-core fiber",
+      "authors": [
+        "Fengrui Yu",
+        "Lin Ma",
+        "Linbin Bai",
+        "Junjie Xiong",
+        "Mingjing Xu",
+        "Xiaoke Chen",
+        "Zuyuan He"
+      ],
+      "year": 2025,
+      "venue": "Optics & Laser Technology",
+      "venue_abbr": "Opt. Laser Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fan-in/fan-out devices",
+        "femtosecond laser direct writing",
+        "waveguide coupling loss",
+        "insertion loss",
+        "planar lightwave circuit",
+        "space-division multiplexing",
+        "fiber-to-chip coupling"
+      ],
+      "url": "https://doi.org/10.1016/j.optlastec.2025.114521",
+      "cited_by_count": 7,
+      "importance": 0.5348,
+      "score_basis": {
+        "topic_overlap": 0.411,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4319782076",
+      "doi": "10.1109/icsj55786.2022.10034708",
+      "title": "Design and Fabrication of Three-dimensional Polymer Optical Waveguide-based Fan-in/out Device for Multicore Fibers",
+      "authors": [
+        "Yuto Yamaguchi",
+        "Sho Yakabe",
+        "Takaaki Ishigure"
+      ],
+      "year": 2022,
+      "venue": "IEEE CPMT Symposium Japan (ICSJ)",
+      "venue_abbr": "IEEE CPMT Symposium Japan (ICSJ)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "multicore fiber",
+        "polymer optical waveguides",
+        "Mosquito method",
+        "three-dimensional waveguides",
+        "fiber coupling",
+        "low-loss waveguides",
+        "compact waveguide"
+      ],
+      "url": "https://doi.org/10.1109/icsj55786.2022.10034708",
+      "cited_by_count": 9,
+      "importance": 0.5332,
+      "score_basis": {
+        "topic_overlap": 0.474,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2345369067",
+      "doi": "10.1364/oe.24.010213",
+      "title": "Ultra-dense spatial-division-multiplexed optical fiber transmission over 6-mode 19-core fibers",
+      "authors": [
+        "Koji Igarashi",
+        "Daiki Soma",
+        "Yuta Wakayama",
+        "Koki Takeshima",
+        "Yu Kawaguchi",
+        "Noboru Yoshikane",
+        "Takehiro Tsuritani",
+        "Itsuro Morita",
+        "Masatoshi Suzuki"
+      ],
+      "year": 2016,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "spatial division multiplexing",
+        "wavelength division multiplexing",
+        "spectral efficiency",
+        "optical fiber transmission"
+      ],
+      "url": "https://doi.org/10.1364/oe.24.010213",
+      "cited_by_count": 92,
+      "importance": 0.5182,
+      "score_basis": {
+        "topic_overlap": 0.196,
+        "shared_references": 3,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2111474577",
+      "doi": "10.1109/ipcon.2013.6656427",
+      "title": "19-core fan-in/fan-out waveguide device for dense uncoupled multi-core fiber",
+      "authors": [
+        "T. Watanabe",
+        "Makoto Hikita",
+        "Yasuo Kokubun"
+      ],
+      "year": 2013,
+      "venue": "IEEE Photonics Conference",
+      "venue_abbr": "IPC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "multicore fiber",
+        "coupling loss",
+        "crosstalk",
+        "19-core fiber",
+        "single-core fiber"
+      ],
+      "url": "https://doi.org/10.1109/ipcon.2013.6656427",
+      "cited_by_count": 9,
+      "importance": 0.5107,
+      "score_basis": {
+        "topic_overlap": 0.491,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2045010789",
+      "doi": "10.1364/oe.20.026317",
+      "title": "Laminated polymer waveguide fan-out device for uncoupled multi-core fibers",
+      "authors": [
+        "T. Watanabe",
+        "Makoto Hikita",
+        "Yasuo Kokubun"
+      ],
+      "year": 2012,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "multicore fiber",
+        "spin coating",
+        "coupling loss",
+        "photomask alignment"
+      ],
+      "url": "https://doi.org/10.1364/oe.20.026317",
+      "cited_by_count": 61,
+      "importance": 0.5062,
+      "score_basis": {
+        "topic_overlap": 0.458,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2766251480",
+      "doi": "10.1109/jlt.2017.2765404",
+      "title": "Low-Loss and Low-Mode-Dependent-Loss Fan-In/Fan-Out Device for 6-Mode 19-Core Fiber",
+      "authors": [
+        "Kota Shikama",
+        "Yoshiteru Abe",
+        "Hirotaka Ono",
+        "Atsushi Aratake"
+      ],
+      "year": 2017,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "fan-in/fan-out devices",
+        "few-mode fiber",
+        "mode-dependent loss",
+        "fiber bundles",
+        "butt coupling",
+        "lateral offset",
+        "modal crosstalk",
+        "excess loss",
+        "return loss"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2017.2765404",
+      "cited_by_count": 24,
+      "importance": 0.4877,
+      "score_basis": {
+        "topic_overlap": 0.373,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1963561884",
+      "doi": "10.1038/nphoton.2013.94",
+      "title": "Space-division multiplexing in optical fibres",
+      "authors": [
+        "David John Richardson",
+        "John M. Fini",
+        "Lynn E. Nelson"
+      ],
+      "year": 2013,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "space-division multiplexing",
+        "optical fibers",
+        "multicore fiber",
+        "multimode fiber",
+        "optical communication",
+        "parallel channels",
+        "spatial modes",
+        "wavelength division multiplexing",
+        "time-division multiplexing",
+        "polarization multiplexing"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2013.94",
+      "cited_by_count": 3416,
+      "importance": 0.4873,
+      "score_basis": {
+        "topic_overlap": 0.194,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2892944805",
+      "doi": "10.1109/lpt.2018.2872324",
+      "title": "Multicore Fiber Link With SiN Integrated Fan-Out and InP Photodiode Array",
+      "authors": [
+        "Sarvagya P. Dwivedi",
+        "Sergio Pinna",
+        "Renan L. Moreira",
+        "Yuan Liu",
+        "Bowen Song",
+        "Steven B. Estrella",
+        "Leif A. Johansson",
+        "Jonathan Klamkin"
+      ],
+      "year": 2018,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "multicore fiber",
+        "channel crosstalk",
+        "coupling loss",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2018.2872324",
+      "cited_by_count": 14,
+      "importance": 0.4703,
+      "score_basis": {
+        "topic_overlap": 0.445,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1603850468",
+      "doi": "10.1364/oecc_ps.2013.tus1_4",
+      "title": "Fused Taper Type Fan-in/Fan-out Device for Multicore EDF",
+      "authors": [
+        "Hitoshi Uemura",
+        "Katsushiro Takenaga",
+        "Teijiro Ori",
+        "Shoichiro Matsuo",
+        "Kunimasa Saitoh",
+        "Masanori Koshiba"
+      ],
+      "year": 2013,
+      "venue": "OptoElectronics and Communications Conference and International Conference on Photonics in Switching and Computing (OECC/PSC)",
+      "venue_abbr": "OptoElectronics and Communications Conference and International Conference on Photonics in Switching and Computing (OECC/PSC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fan-in/fan-out devices",
+        "erbium-doped fiber",
+        "mode field diameter",
+        "fiber elongation",
+        "fiber coupler"
+      ],
+      "url": "https://doi.org/10.1364/oecc_ps.2013.tus1_4",
+      "cited_by_count": 20,
+      "importance": 0.4693,
+      "score_basis": {
+        "topic_overlap": 0.443,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2039124721",
+      "doi": "10.1109/lpt.2012.2219305",
+      "title": "Low Loss Optical Connection Module for Seven-Core Multicore Fiber and Seven Single-Mode Fibers",
+      "authors": [
+        "Yusaku Tottori",
+        "T. Kobayashi",
+        "M. Watanabe"
+      ],
+      "year": 2012,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "multicore fiber",
+        "single-mode fiber",
+        "insertion loss",
+        "compact optical module"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2012.2219305",
+      "cited_by_count": 65,
+      "importance": 0.4603,
+      "score_basis": {
+        "topic_overlap": 0.356,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2082254706",
+      "doi": "10.1109/lpt.2012.2217490",
+      "title": "Free-Space Coupling Optics for Multicore Fibers",
+      "authors": [
+        "Werner Klaus",
+        "Jun Sakaguchi",
+        "Benjamin James Puttnam",
+        "Yoshinari Awaji",
+        "Naoya Wada",
+        "T. Kobayashi",
+        "M. Watanabe"
+      ],
+      "year": 2012,
+      "venue": "IEEE Photonics Technology Letters",
+      "venue_abbr": "PTL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "multicore fiber",
+        "free-space coupling",
+        "single-mode fiber coupling",
+        "bulk optics",
+        "seven-core fiber",
+        "19-core fiber",
+        "insertion loss",
+        "crosstalk",
+        "coupling loss"
+      ],
+      "url": "https://doi.org/10.1109/lpt.2012.2217490",
+      "cited_by_count": 109,
+      "importance": 0.4575,
+      "score_basis": {
+        "topic_overlap": 0.35,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3047485124",
+      "doi": "10.1109/jlt.2020.3013966",
+      "title": "High Capacity Transmission in a Coupled-Core Three-Core Multi-Core Fiber",
+      "authors": [
+        "Georg Rademacher",
+        "Ruben Soares Luis",
+        "Benjamin James Puttnam",
+        "Roland R. Ryf",
+        "Sjoerd van der Heide",
+        "Tobias A. Eriksson",
+        "Nicolas K. Fontaine",
+        "Haoshuo Chen",
+        "René-Jean Essiambre",
+        "Yoshinari Awaji",
+        "Hideaki Furukawa",
+        "Naoya Wada"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "three-core fiber",
+        "long-haul optical transmission",
+        "high-capacity transmission",
+        "mode-dependent loss",
+        "wavelength dependence",
+        "C-band and L-band",
+        "terabit-per-second transmission",
+        "recirculating loop"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.3013966",
+      "cited_by_count": 47,
+      "importance": 0.4561,
+      "score_basis": {
+        "topic_overlap": 0.302,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4220941631",
+      "doi": "10.1117/12.2614365",
+      "title": "Single-mode polymer waveguide for fan-in/fan-out of multicore fiber by the mosquito method",
+      "authors": [
+        "Sho Yakabe",
+        "Takaaki Ishigure"
+      ],
+      "year": 2022,
+      "venue": "刊会待核实",
+      "venue_abbr": "待核实",
+      "rank_label": "等级待核实",
+      "keywords": [
+        "polymer optical waveguides",
+        "multicore fiber",
+        "Mosquito method",
+        "single-mode waveguides",
+        "microdispensing",
+        "insertion loss"
+      ],
+      "url": "https://doi.org/10.1117/12.2614365",
+      "cited_by_count": 2,
+      "importance": 0.4525,
+      "score_basis": {
+        "topic_overlap": 0.45,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4377082722",
+      "doi": "10.23919/ofc49934.2023.10116721",
+      "title": "4-Core Fiber Narrow Pitch Fanout Comprised of Tapered High-Δ MCF",
+      "authors": [
+        "Masanori Takahashi",
+        "Tsubasa Sasaki",
+        "Ryuichi Sugizaki",
+        "Yoshihiro Arashitani"
+      ],
+      "year": 2023,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "4-core fiber",
+        "tapered fiber",
+        "multicore fiber",
+        "insertion loss"
+      ],
+      "url": "https://doi.org/10.23919/ofc49934.2023.10116721",
+      "cited_by_count": 1,
+      "importance": 0.4435,
+      "score_basis": {
+        "topic_overlap": 0.319,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4295934936",
+      "doi": "10.1109/jproc.2022.3202812",
+      "title": "Weakly Coupled Multicore Fiber Technology, Deployment, and Systems",
+      "authors": [
+        "Takashi N. Matsui",
+        "Peter L. Pondillo",
+        "Kazuhide Nakajima"
+      ],
+      "year": 2022,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "space-division multiplexing",
+        "optical fiber cable",
+        "optical MIMO",
+        "fiber splicing",
+        "fiber optic connectors",
+        "fiber deployment",
+        "optical communication systems",
+        "standardization",
+        "ITU-T",
+        "IEC"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2022.3202812",
+      "cited_by_count": 82,
+      "importance": 0.4375,
+      "score_basis": {
+        "topic_overlap": 0.306,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2790815819",
+      "doi": "10.1109/jlt.2018.2799380",
+      "title": "10.16-Peta-bit/s Dense SDM/WDM Transmission over 6-Mode 19-Core Fiber across the C+L Band",
+      "authors": [
+        "Daiki Soma",
+        "Yuta Wakayama",
+        "Shohei Beppu",
+        "Seiya Sumita",
+        "Takehiro Tsuritani",
+        "Tetsuya Hayashi",
+        "Takuji Nagashima",
+        "Masato Suzuki",
+        "Masato Yoshida",
+        "Keisuke Kasai",
+        "Masataka Nakazawa",
+        "Hidenori Takahashi",
+        "Koji Igarashi",
+        "Itsuro Morita",
+        "Masatoshi Suzuki"
+      ],
+      "year": 2018,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "space-division multiplexing",
+        "wavelength division multiplexing",
+        "64-QAM",
+        "16-QAM",
+        "dual polarization",
+        "C+L band",
+        "spectral efficiency",
+        "fiber capacity"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2018.2799380",
+      "cited_by_count": 139,
+      "importance": 0.433,
+      "score_basis": {
+        "topic_overlap": 0.184,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410993261",
+      "doi": "10.1364/ofc.2025.m4j.5",
+      "title": "Low-loss Fan-in/Fan-out Device for Coupled four-core Fiber Using a Femtosecond Laser Direct Inscription Technique",
+      "authors": [
+        "Fengrui Yu",
+        "Lin Ma",
+        "Junjie Xiong",
+        "Linbin Bai",
+        "Mingjing Xu",
+        "Zuyuan He"
+      ],
+      "year": 2025,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fan-in/fan-out devices",
+        "four-core fiber",
+        "insertion loss",
+        "fiber coupling",
+        "low-loss coupler"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2025.m4j.5",
+      "cited_by_count": 1,
+      "importance": 0.4208,
+      "score_basis": {
+        "topic_overlap": 0.38,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3215825462",
+      "doi": "10.1109/ecoc52684.2021.9605857",
+      "title": "High Reliability Fan-in / Fan-out Device with Isolator for Multi-core fibre Based on Free Space Optics",
+      "authors": [
+        "Taketoshi Takahata",
+        "Asumi Kaya",
+        "Yuta Ozawa",
+        "Yousuke Minagawa",
+        "T. Kobayashi"
+      ],
+      "year": 2021,
+      "venue": "European Conference on Optical Communication",
+      "venue_abbr": "ECOC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fan-in/fan-out devices",
+        "optical isolator",
+        "multicore fiber",
+        "free-space optical communication",
+        "high reliability",
+        "manufacturing accuracy",
+        "optical interconnects"
+      ],
+      "url": "https://doi.org/10.1109/ecoc52684.2021.9605857",
+      "cited_by_count": 11,
+      "importance": 0.4207,
+      "score_basis": {
+        "topic_overlap": 0.357,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1967101705",
+      "doi": "10.1109/jlt.2014.2373051",
+      "title": "Connecting Silicon Photonic Circuits to Multicore Fibers by Photonic Wire Bonding",
+      "authors": [
+        "N. Lindenmann",
+        "Stephan Dottermusch",
+        "Maria Laura Gödecke",
+        "T. Hoose",
+        "Muhammad Rodlin Billah",
+        "Temitope Onanuga",
+        "Andreas Hofmann",
+        "W. Freude",
+        "Christian G. Koos"
+      ],
+      "year": 2014,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "photonic wire bonding",
+        "multicore fiber",
+        "fiber-to-chip coupling",
+        "silicon-on-insulator waveguides",
+        "tapered waveguide",
+        "three-dimensional interconnects",
+        "coupling loss",
+        "automated fabrication"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2014.2373051",
+      "cited_by_count": 161,
+      "importance": 0.4194,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403522707",
+      "doi": "10.1364/prj.533993",
+      "title": "High spectral-efficiency, ultra-low MIMO SDM transmission over a field-deployed multi-core OAM fiber",
+      "authors": [
+        "Junyi Liu",
+        "Shuqi Mo",
+        "Zengquan Xu",
+        "Yuming Huang",
+        "Yining Huang",
+        "Zhenhua Li",
+        "Yuying Guo",
+        "Lei Shen",
+        "Shuo Xu",
+        "Ran Gao",
+        "Cheng Du",
+        "Qian Feng",
+        "Jie Luo",
+        "Jie Liu",
+        "Siyuan Yu"
+      ],
+      "year": 2024,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "space-division multiplexing",
+        "ring-core fiber",
+        "spectral efficiency",
+        "MIMO transmission",
+        "time-domain equalization",
+        "modal crosstalk",
+        "bidirectional transmission",
+        "optical fiber cabling"
+      ],
+      "url": "https://doi.org/10.1364/prj.533993",
+      "cited_by_count": 12,
+      "importance": 0.4003,
+      "score_basis": {
+        "topic_overlap": 0.223,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2912057849",
+      "doi": "10.1109/jlt.2019.2895205",
+      "title": "228-Spatial-Channel Bi-Directional Data Communication System Enabled by 39-Core 3-Mode Fiber",
+      "authors": [
+        "Jun Sakaguchi",
+        "Werner Klaus",
+        "Yoshinari Awaji",
+        "Naoya Wada",
+        "Tetsuya Hayashi",
+        "Takuji Nagashima",
+        "Tetsuya Nakanishi",
+        "Toshiki Taru",
+        "Taketoshi Takahata",
+        "T. Kobayashi"
+      ],
+      "year": 2019,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "space-division multiplexing",
+        "bidirectional transmission",
+        "inter-core crosstalk",
+        "return loss",
+        "coherent detection",
+        "dual-polarization QPSK",
+        "MIMO equalizer",
+        "C+L band",
+        "100 Gb/s transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2019.2895205",
+      "cited_by_count": 46,
+      "importance": 0.3941,
+      "score_basis": {
+        "topic_overlap": 0.231,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3207527161",
+      "doi": "10.1109/jlt.2021.3118684",
+      "title": "Long-Haul WDM/SDM Transmission Over Coupled 4-Core Fiber With Coupled 4-Core EDFA and Its Mode Dependent Loss Characteristics Estimation",
+      "authors": [
+        "Manabu Arikawa",
+        "Kohei Nakamura",
+        "Kohei Hosokawa",
+        "Kazunori Hayashi"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "mode-dependent loss",
+        "space-division multiplexing",
+        "wavelength division multiplexing",
+        "long-haul optical transmission",
+        "outage probability",
+        "Gaussian noise model",
+        "forward error correction"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3118684",
+      "cited_by_count": 27,
+      "importance": 0.3881,
+      "score_basis": {
+        "topic_overlap": 0.307,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2038016921",
+      "doi": "10.1364/oe.20.017667",
+      "title": "Photonic wire bonding: a novel concept for chip-scale interconnects",
+      "authors": [
+        "N. Lindenmann",
+        "G. Balthasar",
+        "D. Hillerkuss",
+        "R. Schmogrow",
+        "M. Jordan",
+        "Juerg Leuthold",
+        "W. Freude",
+        "Christian G. Koos"
+      ],
+      "year": 2012,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "photonic wire bonding",
+        "polymer waveguides",
+        "two-photon lithography",
+        "broadband coupling",
+        "insertion loss",
+        "wavelength division multiplexing",
+        "photonic packaging"
+      ],
+      "url": "https://doi.org/10.1364/oe.20.017667",
+      "cited_by_count": 432,
+      "importance": 0.3705,
+      "score_basis": {
+        "topic_overlap": 0.334,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2133401839",
+      "doi": "10.1109/jlt.2009.2039464",
+      "title": "Capacity Limits of Optical Fiber Networks",
+      "authors": [
+        "René-Jean Essiambre",
+        "Gerhard G. Kramer",
+        "Peter J. Winzer",
+        "G.J. Foschini",
+        "Bernhard Goebel"
+      ],
+      "year": 2010,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical fiber communication",
+        "Kerr nonlinearity",
+        "coherent detection",
+        "fiber dispersion",
+        "optical filtering",
+        "signal-to-noise ratio",
+        "AWGN channel",
+        "information theory"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2009.2039464",
+      "cited_by_count": 2381,
+      "importance": 0.3586,
+      "score_basis": {
+        "topic_overlap": 0.13,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4360619193",
+      "doi": "10.1002/adfm.202214211",
+      "title": "Two‐Photon Polymerization Lithography for Optics and Photonics: Fundamentals, Materials, Technologies, and Applications",
+      "authors": [
+        "Hao Wang",
+        "Wang Zhang",
+        "Dimitra Ladika",
+        "Haoyi Yu",
+        "Darius Gailevičius",
+        "Hongtao Wang",
+        "Chengfeng Pan",
+        "Parvathi Nair Suseela Nair",
+        "Yujie Ke",
+        "Tomohiro Mori",
+        "John You En Chan",
+        "Qifeng Ruan",
+        "Maria Farsari",
+        "Mangirdas Malinauskas",
+        "Saulius Juodkazis",
+        "Miṅ Gu",
+        "Joel K. W. Yang"
+      ],
+      "year": 2023,
+      "venue": "Advanced Functional Materials",
+      "venue_abbr": "Adv. Funct. Mater.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "3D printing",
+        "additive manufacturing",
+        "optical materials",
+        "diffractive optics",
+        "topological photonics",
+        "quantum optics",
+        "light-matter interaction",
+        "resin formulation"
+      ],
+      "url": "https://doi.org/10.1002/adfm.202214211",
+      "cited_by_count": 420,
+      "importance": 0.3579,
+      "score_basis": {
+        "topic_overlap": 0.04,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392956654",
+      "doi": "10.3390/photonics11030270",
+      "title": "Applications and Development of Multi-Core Optical Fibers",
+      "authors": [
+        "Weiping Chen",
+        "Lei Yuan",
+        "Bo Zhang",
+        "Qianqin Yu",
+        "Zhenggang Lian",
+        "Yabin Pi",
+        "Chongxin Shan",
+        "Perry Ping Shum"
+      ],
+      "year": 2024,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multicore fiber",
+        "core coupling",
+        "crosstalk reduction",
+        "fiber optic sensing",
+        "multi-channel transmission"
+      ],
+      "url": "https://doi.org/10.3390/photonics11030270",
+      "cited_by_count": 37,
+      "importance": 0.351,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2980652891",
+      "doi": "10.1088/2631-7990/ab4d51",
+      "title": "Femtosecond laser additive and subtractive micro-processing: enabling a high-channel-density silica interposer for multicore fibre to silicon-photonic packaging",
+      "authors": [
+        "Gligor Djogo",
+        "Jianzhao Li",
+        "Stephen Ho",
+        "Moez Haque",
+        "Erdem Yigit Ertorer",
+        "Jun Liu",
+        "Xiaolu Song",
+        "Jing Suo",
+        "Peter Robert Herman"
+      ],
+      "year": 2019,
+      "venue": "International Journal of Extreme Manufacturing",
+      "venue_abbr": "International Journal of Extreme Manufacturing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "multicore fiber",
+        "silicon photonics packaging",
+        "fiber-to-chip coupling",
+        "fused silica",
+        "chemical etching",
+        "optical packaging"
+      ],
+      "url": "https://doi.org/10.1088/2631-7990/ab4d51",
+      "cited_by_count": 54,
+      "importance": 0.3419,
+      "score_basis": {
+        "topic_overlap": 0.271,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4366507119",
+      "doi": "10.1126/science.add1874",
+      "title": "Scaling information pathways in optical fibers by topological confinement",
+      "authors": [
+        "Zelin Ma",
+        "Poul Kristensen",
+        "Siddharth Ramachandran"
+      ],
+      "year": 2023,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "orbital angular momentum",
+        "topological confinement",
+        "optical fibers",
+        "mode mixing",
+        "low-loss transmission",
+        "crosstalk",
+        "information capacity",
+        "quantum networks",
+        "mode area"
+      ],
+      "url": "https://doi.org/10.1126/science.add1874",
+      "cited_by_count": 56,
+      "importance": 0.3412,
+      "score_basis": {
+        "topic_overlap": 0.158,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407169318",
+      "doi": "10.1109/jlt.2025.3538922",
+      "title": "Weakly Coupled 19-Core 5-Mode-Group Ring Core Fiber for Dense Space-Division Multiplexing",
+      "authors": [
+        "Kaihui Chen",
+        "Jiajing Tu",
+        "Zhiyuan Xie",
+        "Haiqin Ye",
+        "Yingyu Chen",
+        "Zhibing Liu",
+        "LI Jin-pei",
+        "Yongguan Xiao",
+        "Yuetong Shi",
+        "Lei Shen",
+        "Jie Luo",
+        "Shecheng Gao",
+        "Zhaohui Li"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "ring-core fiber",
+        "orbital angular momentum",
+        "mode groups",
+        "inter-core crosstalk",
+        "effective index difference",
+        "space-division multiplexing",
+        "high-capacity optical transmission",
+        "QPSK",
+        "soft-decision forward error correction"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3538922",
+      "cited_by_count": 6,
+      "importance": 0.3411,
+      "score_basis": {
+        "topic_overlap": 0.203,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2972116564",
+      "doi": "10.1109/access.2019.2939715",
+      "title": "Mode-Division-Multiplexing (MDM) of 9.4-Tbit/s OFDM Signals on Silicon-on-Insulator (SOI) Platform",
+      "authors": [
+        "Guan-Hong Chen",
+        "Chi‐Wai Chow",
+        "Chien-Hung Yeh",
+        "Ching-Wei Peng",
+        "Pin-Cheng Guo",
+        "Jui-Feng Tsai",
+        "Ming-Wei Cheng",
+        "Yeyu Tong",
+        "Hon Ki Tsang"
+      ],
+      "year": 2019,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "mode-division multiplexing",
+        "silicon photonics",
+        "silicon-on-insulator",
+        "OFDM",
+        "multiplexer/demultiplexer",
+        "asymmetric directional coupler",
+        "higher-order modes",
+        "mode conversion",
+        "phase matching",
+        "wavelength division multiplexing"
+      ],
+      "url": "https://doi.org/10.1109/access.2019.2939715",
+      "cited_by_count": 24,
+      "importance": 0.316,
+      "score_basis": {
+        "topic_overlap": 0.258,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400877956",
+      "doi": "10.1109/jlt.2024.3431712",
+      "title": "Effect of Taper Waist Diameter on the Sensitivity of Multicore Fiber Coupler-Based Temperature and Strain Sensors",
+      "authors": [
+        "Valeria Hernández-Ambato",
+        "David Barrera",
+        "Elham S. Nazemosadat",
+        "Hugo Oswaldo Moreno",
+        "Salvador Sales"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "temperature sensing",
+        "strain sensing",
+        "high-temperature sensing",
+        "sensor sensitivity"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3431712",
+      "cited_by_count": 6,
+      "importance": 0.2661,
+      "score_basis": {
+        "topic_overlap": 0.147,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389625805",
+      "doi": "10.1038/s42254-023-00671-3",
+      "title": "The physics of 3D printing with light",
+      "authors": [
+        "Paul Somers",
+        "Alexander Münchinger",
+        "Shoji Maruo",
+        "Christophe Moser",
+        "Xianfan Xu",
+        "Martin Wegener"
+      ],
+      "year": 2023,
+      "venue": "Nature Reviews Physics",
+      "venue_abbr": "Nature Reviews Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "additive manufacturing",
+        "interference lithography",
+        "stereolithography",
+        "continuous liquid interface production",
+        "spatiotemporal focusing",
+        "light-matter interaction",
+        "two-photon absorption",
+        "stimulated emission depletion",
+        "excited-state absorption",
+        "reverse intersystem crossing",
+        "multi-material printing",
+        "spatial resolution"
+      ],
+      "url": "https://doi.org/10.1038/s42254-023-00671-3",
+      "cited_by_count": 116,
+      "importance": 0.2598,
+      "score_basis": {
+        "topic_overlap": 0.022,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1603850468",
+      "to": "W2082254706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1603850468"
+        }
+      ]
+    },
+    {
+      "from": "W1963561884",
+      "to": "W2039124721",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1963561884"
+        }
+      ]
+    },
+    {
+      "from": "W1963561884",
+      "to": "W2082254706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1963561884"
+        }
+      ]
+    },
+    {
+      "from": "W1967101705",
+      "to": "W2038016921",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1967101705"
+        }
+      ]
+    },
+    {
+      "from": "W2013438099",
+      "to": "W2082254706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2013438099"
+        }
+      ]
+    },
+    {
+      "from": "W2111474577",
+      "to": "W2045010789",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2111474577"
+        }
+      ]
+    },
+    {
+      "from": "W2345369067",
+      "to": "W1963561884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2345369067"
+        }
+      ]
+    },
+    {
+      "from": "W2345369067",
+      "to": "W2039124721",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2345369067"
+        }
+      ]
+    },
+    {
+      "from": "W2345369067",
+      "to": "W2133401839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2345369067"
+        }
+      ]
+    },
+    {
+      "from": "W2736464583",
+      "to": "W2013438099",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2736464583"
+        }
+      ]
+    },
+    {
+      "from": "W2736464583",
+      "to": "W2039124721",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2736464583"
+        }
+      ]
+    },
+    {
+      "from": "W2736464583",
+      "to": "W2045010789",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2736464583"
+        }
+      ]
+    },
+    {
+      "from": "W2736464583",
+      "to": "W2082254706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2736464583"
+        }
+      ]
+    },
+    {
+      "from": "W2766251480",
+      "to": "W2082254706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2766251480"
+        }
+      ]
+    },
+    {
+      "from": "W2766251480",
+      "to": "W2345369067",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2766251480"
+        }
+      ]
+    },
+    {
+      "from": "W2790815819",
+      "to": "W2345369067",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2790815819"
+        }
+      ]
+    },
+    {
+      "from": "W2892944805",
+      "to": "W2013438099",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2892944805"
+        }
+      ]
+    },
+    {
+      "from": "W2912057849",
+      "to": "W2790815819",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2912057849"
+        }
+      ]
+    },
+    {
+      "from": "W2980220943",
+      "to": "W1963561884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2980220943"
+        }
+      ]
+    },
+    {
+      "from": "W2980220943",
+      "to": "W2082254706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2980220943"
+        }
+      ]
+    },
+    {
+      "from": "W2980220943",
+      "to": "W2133401839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2980220943"
+        }
+      ]
+    },
+    {
+      "from": "W2980220943",
+      "to": "W2790815819",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2980220943"
+        }
+      ]
+    },
+    {
+      "from": "W3047485124",
+      "to": "W1963561884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047485124"
+        }
+      ]
+    },
+    {
+      "from": "W3047485124",
+      "to": "W2133401839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047485124"
+        }
+      ]
+    },
+    {
+      "from": "W3182421448",
+      "to": "W1963561884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3182421448"
+        }
+      ]
+    },
+    {
+      "from": "W3182421448",
+      "to": "W2082254706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3182421448"
+        }
+      ]
+    },
+    {
+      "from": "W3182421448",
+      "to": "W2133401839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3182421448"
+        }
+      ]
+    },
+    {
+      "from": "W3182421448",
+      "to": "W2345369067",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3182421448"
+        }
+      ]
+    },
+    {
+      "from": "W3182421448",
+      "to": "W2790815819",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3182421448"
+        }
+      ]
+    },
+    {
+      "from": "W3182421448",
+      "to": "W2912057849",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3182421448"
+        }
+      ]
+    },
+    {
+      "from": "W3207527161",
+      "to": "W2790815819",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207527161"
+        }
+      ]
+    },
+    {
+      "from": "W4220941631",
+      "to": "W2045010789",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220941631"
+        }
+      ]
+    },
+    {
+      "from": "W4290993912",
+      "to": "W2039124721",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4290993912"
+        }
+      ]
+    },
+    {
+      "from": "W4290993912",
+      "to": "W3047485124",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4290993912"
+        }
+      ]
+    },
+    {
+      "from": "W4290993912",
+      "to": "W3182421448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4290993912"
+        }
+      ]
+    },
+    {
+      "from": "W4290993912",
+      "to": "W3215825462",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4290993912"
+        }
+      ]
+    },
+    {
+      "from": "W4295934936",
+      "to": "W1603850468",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4295934936"
+        }
+      ]
+    },
+    {
+      "from": "W4295934936",
+      "to": "W2082254706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4295934936"
+        }
+      ]
+    },
+    {
+      "from": "W4307884889",
+      "to": "W1967101705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307884889"
+        }
+      ]
+    },
+    {
+      "from": "W4307884889",
+      "to": "W2133401839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307884889"
+        }
+      ]
+    },
+    {
+      "from": "W4307884889",
+      "to": "W3182421448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307884889"
+        }
+      ]
+    },
+    {
+      "from": "W4319782076",
+      "to": "W2082254706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4319782076"
+        }
+      ]
+    },
+    {
+      "from": "W4319782076",
+      "to": "W2111474577",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4319782076"
+        }
+      ]
+    },
+    {
+      "from": "W4360619193",
+      "to": "W1963561884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360619193"
+        }
+      ]
+    },
+    {
+      "from": "W4360619193",
+      "to": "W4307884889",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360619193"
+        }
+      ]
+    },
+    {
+      "from": "W4365142898",
+      "to": "W1963561884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4365142898"
+        }
+      ]
+    },
+    {
+      "from": "W4365142898",
+      "to": "W2013438099",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4365142898"
+        }
+      ]
+    },
+    {
+      "from": "W4365142898",
+      "to": "W2045010789",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4365142898"
+        }
+      ]
+    },
+    {
+      "from": "W4365142898",
+      "to": "W2082254706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4365142898"
+        }
+      ]
+    },
+    {
+      "from": "W4365142898",
+      "to": "W2133401839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4365142898"
+        }
+      ]
+    },
+    {
+      "from": "W4365142898",
+      "to": "W2345369067",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4365142898"
+        }
+      ]
+    },
+    {
+      "from": "W4365142898",
+      "to": "W2766251480",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4365142898"
+        }
+      ]
+    },
+    {
+      "from": "W4365142898",
+      "to": "W2790815819",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4365142898"
+        }
+      ]
+    },
+    {
+      "from": "W4365142898",
+      "to": "W2892944805",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4365142898"
+        }
+      ]
+    },
+    {
+      "from": "W4365142898",
+      "to": "W2980652891",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4365142898"
+        }
+      ]
+    },
+    {
+      "from": "W4366507119",
+      "to": "W3182421448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4366507119"
+        }
+      ]
+    },
+    {
+      "from": "W4377082722",
+      "to": "W2045010789",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377082722"
+        }
+      ]
+    },
+    {
+      "from": "W4377082722",
+      "to": "W3215825462",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4377082722"
+        }
+      ]
+    },
+    {
+      "from": "W4389625805",
+      "to": "W4360619193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389625805"
+        }
+      ]
+    },
+    {
+      "from": "W4392956654",
+      "to": "W1963561884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392956654"
+        }
+      ]
+    },
+    {
+      "from": "W4403522707",
+      "to": "W1963561884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403522707"
+        }
+      ]
+    },
+    {
+      "from": "W4403522707",
+      "to": "W3182421448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403522707"
+        }
+      ]
+    },
+    {
+      "from": "W4407169318",
+      "to": "W2790815819",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407169318"
+        }
+      ]
+    },
+    {
+      "from": "W4410993261",
+      "to": "W3182421448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410993261"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W1963561884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W1967101705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W2013438099",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W2039124721",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W2111474577",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W2736464583",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W2790815819",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W2912057849",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W3182421448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W4319782076",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W4360619193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W4365142898",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W4366507119",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4411360262",
+      "to": "W4392956654",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411360262"
+        }
+      ]
+    },
+    {
+      "from": "W4417425450",
+      "to": "W1963561884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417425450"
+        }
+      ]
+    },
+    {
+      "from": "W4417425450",
+      "to": "W3215825462",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417425450"
+        }
+      ]
+    },
+    {
+      "from": "W4417425450",
+      "to": "W4365142898",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417425450"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W1603850468",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W1963561884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W1967101705",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2013438099",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2038016921",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2039124721",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2045010789",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2082254706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2111474577",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2133401839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2345369067",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2736464583",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2766251480",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2790815819",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2892944805",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2912057849",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2972116564",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2980220943",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W2980652891",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W3047485124",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W3182421448",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W3207527161",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W3215825462",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4220941631",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4290993912",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4295934936",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4307884889",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4319782076",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4360619193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4365142898",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4366507119",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4377082722",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4389625805",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4392956654",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4400877956",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4403522707",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4407169318",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4410993261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4411360262",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    },
+    {
+      "from": "W7225275410",
+      "to": "W4417425450",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225275410"
+        }
+      ]
+    }
+  ]
 }

@@ -1,44 +1,2483 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "30217dad-3f70-46b4-8e56-55058ab563bb",
-  "root": "doi:10.1002/nap2.70353",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7170889452",
+  "status": "ok",
+  "checked_at": "2026-11-10T00:51:17.984408+00:00",
+  "coverage": {
+    "references_found": 30,
+    "citing_found": 1,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 31,
+    "displayed": 31
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1002/nap2.70353",
+      "id": "W7170889452",
       "doi": "10.1002/nap2.70353",
       "title": "Rack‐Integrated Quantum Dot‐Based Source of Single and Entangled Photons at Telecom C‐Band",
       "authors": [
-        "Michal Vyvlecka",
+        "Michal Vyvlečka",
         "Raphael Joos",
         "Benjamin Breiholz",
         "Emma Marmasse",
         "Anna Friederike Köhler",
         "Ponraj Vijayan",
-        "Tobias Huber‐Loyola",
+        "Tobias Huber",
         "Sven Höfling",
         "Michael Jetter",
         "Simone Luca Portalupi",
         "Peter Michler"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Nanophotonics",
       "venue_abbr": "Nanophotonics",
       "rank_label": "CIE T1 · 2023",
-      "keywords": [],
+      "keywords": [
+        "entangled photons",
+        "single photons",
+        "telecom C-band",
+        "quantum key distribution",
+        "two-photon excitation",
+        "single-mode fiber coupling",
+        "single-photon transmission",
+        "quantum internet"
+      ],
       "url": "https://doi.org/10.1002/nap2.70353",
-      "cited_by_count": null,
+      "cited_by_count": 1,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/30217dad-3f70-46b4-8e56-55058ab563bb.html",
       "summary": "研究实验展示了支持远程控制的机架式电信C波段半导体量子点光源，集成可调脉冲激光激发、全光激发抑制和单模光纤耦合，激子与双激子光子的装置传输率均超过65%。单光子经过36公里已部署光纤链路后，其单光子纯度得到保持。作者依据测得的纠缠光子对速率，估计该光源用于纠缠量子密钥分发时，经过150公里光纤后的秘密密钥率可达3.4次/秒；此项为预测。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4387937443",
+      "doi": "10.1063/5.0166285",
+      "title": "Robust excitation of C-band quantum dots for quantum communication",
+      "authors": [
+        "Michal Vyvlečka",
+        "Lennart Jehle",
+        "Cornelius Nawrath",
+        "Francesco Giorgino",
+        "Mathieu Bozzio",
+        "Robert Sittig",
+        "Michael Jetter",
+        "Simone Luca Portalupi",
+        "Peter Michler",
+        "Philip John Walther"
+      ],
+      "year": 2023,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "quantum dot single-photon sources",
+        "quantum internet",
+        "spectral detuning",
+        "pump power",
+        "quantum repeaters",
+        "telecom wavelengths"
+      ],
+      "url": "https://doi.org/10.1063/5.0166285",
+      "cited_by_count": 17,
+      "importance": 0.7455,
+      "score_basis": {
+        "topic_overlap": 0.523,
+        "shared_references": 11,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4224948020",
+      "doi": "10.1038/s41534-022-00626-z",
+      "title": "Enhancing quantum cryptography with quantum dot single-photon sources",
+      "authors": [
+        "Mathieu Bozzio",
+        "Michal Vyvlečka",
+        "M. Cosacchi",
+        "Cornelius Nawrath",
+        "Tim Seidelmann",
+        "J. C. Loredo",
+        "Simone Luca Portalupi",
+        "V. M. Axt",
+        "Peter Michler",
+        "Philip John Walther"
+      ],
+      "year": 2022,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum cryptography",
+        "quantum key distribution",
+        "quantum dot single-photon sources",
+        "optical pumping",
+        "two-photon excitation",
+        "multiphoton emission",
+        "quantum communication"
+      ],
+      "url": "https://doi.org/10.1038/s41534-022-00626-z",
+      "cited_by_count": 110,
+      "importance": 0.7417,
+      "score_basis": {
+        "topic_overlap": 0.426,
+        "shared_references": 11,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386349319",
+      "doi": "10.1002/qute.202300111",
+      "title": "Bright Source of Purcell‐Enhanced, Triggered, Single Photons in the Telecom C‐Band",
+      "authors": [
+        "Cornelius Nawrath",
+        "Raphael Joos",
+        "Sascha Kolatschek",
+        "Stephanie Bauer",
+        "Pascal Pruy",
+        "Florian Hornung",
+        "Julius Fischer",
+        "Jiasheng Huang",
+        "Ponraj Vijayan",
+        "Robert Sittig",
+        "Michael Jetter",
+        "Simone Luca Portalupi",
+        "Peter Michler"
+      ],
+      "year": 2023,
+      "venue": "Advanced Quantum Technologies",
+      "venue_abbr": "Advanced Quantum Technologies",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "semiconductor quantum dots",
+        "single-photon sources",
+        "Purcell effect",
+        "telecom C-band",
+        "circular Bragg gratings",
+        "source brightness",
+        "fiber coupling",
+        "cryogenic operation",
+        "quantum communication"
+      ],
+      "url": "https://doi.org/10.1002/qute.202300111",
+      "cited_by_count": 78,
+      "importance": 0.6902,
+      "score_basis": {
+        "topic_overlap": 0.4,
+        "shared_references": 6,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400420737",
+      "doi": "10.1021/acs.nanolett.4c01813",
+      "title": "Coherently and Incoherently Pumped Telecom C-Band Single-Photon Source with High Brightness and Indistinguishability",
+      "authors": [
+        "Raphael Joos",
+        "Stephanie Bauer",
+        "Christian Rupp",
+        "Sascha Kolatschek",
+        "Wolfgang Fischer",
+        "Cornelius Nawrath",
+        "Ponraj Vijayan",
+        "Robert Sittig",
+        "Michael Jetter",
+        "Simone Luca Portalupi",
+        "Peter Michler"
+      ],
+      "year": 2024,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-photon sources",
+        "telecom C-band",
+        "coherent pumping",
+        "incoherent pumping",
+        "quantum dots",
+        "photon indistinguishability",
+        "single-photon purity",
+        "end-to-end efficiency",
+        "quantum networks",
+        "quantum cryptography"
+      ],
+      "url": "https://doi.org/10.1021/acs.nanolett.4c01813",
+      "cited_by_count": 39,
+      "importance": 0.6438,
+      "score_basis": {
+        "topic_overlap": 0.342,
+        "shared_references": 6,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2781619148",
+      "doi": "10.1038/s41534-018-0092-0",
+      "title": "Quantum dot single-photon sources with ultra-low multi-photon probability",
+      "authors": [
+        "Lukas Hanschke",
+        "Kevin A. Fischer",
+        "Stefan Appel",
+        "Daniil M. Lukin",
+        "Jakob Wierzbowski",
+        "Shuo Sun",
+        "Rahul Trivedi",
+        "Jelena Vučković",
+        "Jonathan J. Finley",
+        "Kai Müller"
+      ],
+      "year": 2018,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum dot single-photon sources",
+        "biexcitons",
+        "two-photon excitation",
+        "single-photon purity",
+        "pulse duration dependence",
+        "self-assembled quantum dots",
+        "two-level system"
+      ],
+      "url": "https://doi.org/10.1038/s41534-018-0092-0",
+      "cited_by_count": 190,
+      "importance": 0.6076,
+      "score_basis": {
+        "topic_overlap": 0.461,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400876339",
+      "doi": "10.1364/opticaq.530838",
+      "title": "High-fidelity distribution of triggered polarization-entangled telecom photons via a 36 km intra-city fiber network",
+      "authors": [
+        "Tim Strobel",
+        "Stefan Kazmaier",
+        "Tobias Bauer",
+        "Marlon Schäfer",
+        "Ankita Choudhary",
+        "Nand Lal Sharma",
+        "Raphael Joos",
+        "Cornelius Nawrath",
+        "Jonas H. Weber",
+        "Weijie Nie",
+        "Ghata Bhayani",
+        "Lukas Wagner",
+        "André Bisquerra",
+        "Marc Geitz",
+        "Ralf-Peter Braun",
+        "Caspar Hopfmann",
+        "Simone Luca Portalupi",
+        "Christoph Becher",
+        "Peter Michler"
+      ],
+      "year": 2024,
+      "venue": "Optica Quantum",
+      "venue_abbr": "Optica Quantum",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-entangled photon pairs",
+        "quantum frequency conversion",
+        "semiconductor quantum dots",
+        "entanglement fidelity",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1364/opticaq.530838",
+      "cited_by_count": 15,
+      "importance": 0.6052,
+      "score_basis": {
+        "topic_overlap": 0.367,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7162417255",
+      "doi": "10.1002/qute.70317",
+      "title": "Telecom C‐Band Source of Triggered Polarization‐Entangled Photon Pairs Combining High Coincidence Rates, Fidelities and Single‐Photon Purity",
+      "authors": [
+        "Raphael Joos",
+        "Mohamed Helal",
+        "Michal Vyvlečka",
+        "Lena Engel",
+        "Aditi Javali",
+        "Benjamin Breiholz",
+        "Ponraj Vijayan",
+        "Johannes Michl",
+        "Michael Jetter",
+        "Sven Höfling",
+        "Tobias Huber",
+        "Giora Peniakov",
+        "Simone Luca Portalupi",
+        "Peter Michler"
+      ],
+      "year": 2026,
+      "venue": "Advanced Quantum Technologies",
+      "venue_abbr": "Advanced Quantum Technologies",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarization-entangled photon pairs",
+        "telecom C-band",
+        "semiconductor quantum dots",
+        "planar cavity",
+        "triggered emissions",
+        "biexcitons",
+        "excitons",
+        "entanglement fidelity",
+        "Bell states",
+        "quantum state tomography",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1002/qute.70317",
+      "cited_by_count": 4,
+      "importance": 0.6026,
+      "score_basis": {
+        "topic_overlap": 0.339,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416105472",
+      "doi": "10.1038/s41467-026-72706-z",
+      "title": "Asymmetric two-photon response of an incoherently driven quantum emitter",
+      "authors": [
+        "Lennart Jehle",
+        "L. M. Hansen",
+        "Patrik Isene Sund",
+        "Thomas Wilkens Sandø",
+        "Raphael Joos",
+        "Michael Jetter",
+        "Simone Luca Portalupi",
+        "Mathieu Bozzio",
+        "Peter Michler",
+        "Philip John Walther"
+      ],
+      "year": 2026,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum emitters",
+        "two-photon emission",
+        "incoherent excitation",
+        "single-photon purity",
+        "Rabi frequency",
+        "quantum dots",
+        "single-photon sources"
+      ],
+      "url": "https://doi.org/10.1038/s41467-026-72706-z",
+      "cited_by_count": 3,
+      "importance": 0.5993,
+      "score_basis": {
+        "topic_overlap": 0.332,
+        "shared_references": 8,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7165619635",
+      "doi": "10.1063/5.0293657",
+      "title": "Quantum dots for entanglement-based quantum key distribution",
+      "authors": [
+        "Francesco Basso Basset",
+        "Rinaldo Trotta"
+      ],
+      "year": 2026,
+      "venue": "Applied Physics Reviews",
+      "venue_abbr": "Applied Physics Reviews",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "entanglement-based quantum key distribution",
+        "quantum dots",
+        "epitaxial quantum dots",
+        "entanglement distribution",
+        "free-space quantum communication",
+        "device-independent security",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1063/5.0293657",
+      "cited_by_count": 1,
+      "importance": 0.5843,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 10,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3004357554",
+      "doi": "10.1103/revmodphys.92.025002",
+      "title": "Secure quantum key distribution with realistic devices",
+      "authors": [
+        "Feihu Xu",
+        "Xiongfeng Ma",
+        "Qiang Zhang",
+        "Hoi‐Kwong Lo",
+        "Jian-Wei Pan"
+      ],
+      "year": 2020,
+      "venue": "Reviews of Modern Physics",
+      "venue_abbr": "Reviews of Modern Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum key distribution",
+        "quantum hacking",
+        "hardware imperfections",
+        "quantum security",
+        "practical security",
+        "quantum cryptography"
+      ],
+      "url": "https://doi.org/10.1103/revmodphys.92.025002",
+      "cited_by_count": 1649,
+      "importance": 0.5328,
+      "score_basis": {
+        "topic_overlap": 0.184,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2891693315",
+      "doi": "10.1103/physrevb.98.125407",
+      "title": "Structural and optical properties of InAs/(In)GaAs/GaAs quantum dots with single-photon emission in the telecom C-band up to 77 K",
+      "authors": [
+        "Christian Carmesin",
+        "Fabian Olbrich",
+        "Thorsten Mehrtens",
+        "Matthias Florian",
+        "S. Michael",
+        "Susanne Schreier",
+        "Cornelius Nawrath",
+        "M. Paul",
+        "Jonatan Höschele",
+        "Beeke Gerken",
+        "J. Kettler",
+        "Simone Luca Portalupi",
+        "Michael Jetter",
+        "Peter Michler",
+        "Andreas Rosenauer",
+        "F. Jahnke"
+      ],
+      "year": 2018,
+      "venue": "Physical review. B./Physical review. B",
+      "venue_abbr": "Physical review. B./Physical review. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-photon emission",
+        "telecom C-band",
+        "low-temperature photoluminescence",
+        "inhomogeneous broadening",
+        "multiexciton states",
+        "atomistic tight-binding model",
+        "activation energy",
+        "quantum dot morphology"
+      ],
+      "url": "https://doi.org/10.1103/physrevb.98.125407",
+      "cited_by_count": 54,
+      "importance": 0.5089,
+      "score_basis": {
+        "topic_overlap": 0.331,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7223188110",
+      "doi": "10.1002/qute.70510",
+      "title": "A Rack‐Integrated and Modular GaAs Quantum Dot Source of Highly Entangled Photon Pairs",
+      "authors": [
+        "Yared G. Zena",
+        "Moritz Langer",
+        "Ahmad Rahimi",
+        "Sai Abhishikth Dhurjati",
+        "Pavel Ruchka",
+        "Sara Jakovljevic",
+        "Mandira Pal",
+        "Frank H. P. Fitzek",
+        "Harald W. Giessen",
+        "Jürgen W. Czarske",
+        "Riccardo Bassoli",
+        "Caspar Hopfmann"
+      ],
+      "year": 2026,
+      "venue": "Advanced Quantum Technologies",
+      "venue_abbr": "Advanced Quantum Technologies",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "entangled photon pairs",
+        "polarization entanglement",
+        "semiconductor quantum dots",
+        "GaAs quantum dots",
+        "quantum light sources",
+        "biexciton emission",
+        "entanglement negativity",
+        "quantum state verification",
+        "cryogenic operation",
+        "quantum communication"
+      ],
+      "url": "https://doi.org/10.1002/qute.70510",
+      "cited_by_count": 1,
+      "importance": 0.5089,
+      "score_basis": {
+        "topic_overlap": 0.353,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3156818388",
+      "doi": "10.1126/sciadv.abe8905",
+      "title": "Quantum cryptography with highly entangled photons from semiconductor quantum dots",
+      "authors": [
+        "Christian Schimpf",
+        "Marcus Reindl",
+        "Daniel Huber",
+        "Barbara Lehner",
+        "Saimon F. Covre da Silva",
+        "Santanu Manna",
+        "Michal Vyvlečka",
+        "Philip John Walther",
+        "Armando Rastelli"
+      ],
+      "year": 2021,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum cryptography",
+        "quantum key distribution",
+        "polarization-entangled photon pairs",
+        "semiconductor quantum dots",
+        "BBM92 protocol",
+        "entanglement-based quantum key distribution",
+        "quantum networks",
+        "key generation rate",
+        "fiber transmission"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.abe8905",
+      "cited_by_count": 162,
+      "importance": 0.5081,
+      "score_basis": {
+        "topic_overlap": 0.396,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3022166001",
+      "doi": "10.1364/oe.405466",
+      "title": "1GHz clocked distribution of electrically generated entangled photon pairs",
+      "authors": [
+        "Ginny Shooter",
+        "Zi-Heng Xiang",
+        "Jonathan R. A Müller",
+        "J. Skiba-Szymanska",
+        "Jan Huwer",
+        "Jonathan Griffiths",
+        "Thomas A. Mitchell",
+        "Matthew Anderson",
+        "Tina Müller",
+        "Andrey B Krysa",
+        "R. M. Stevenson",
+        "Jon Heffernan",
+        "D. A. Ritchie",
+        "Andrew J. Shields"
+      ],
+      "year": 2020,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "entangled photon pairs",
+        "InAs/InP quantum dots",
+        "quantum key distribution",
+        "quantum networks",
+        "sub-Poissonian statistics",
+        "entanglement fidelity",
+        "telecom window"
+      ],
+      "url": "https://doi.org/10.1364/oe.405466",
+      "cited_by_count": 22,
+      "importance": 0.5051,
+      "score_basis": {
+        "topic_overlap": 0.345,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4210879731",
+      "doi": "10.1515/nanoph-2021-0552",
+      "title": "Thin‐film InGaAs metamorphic buffer for telecom C‐band InAs quantum dots and optical resonators on GaAs platform",
+      "authors": [
+        "Robert Sittig",
+        "Cornelius Nawrath",
+        "Sascha Kolatschek",
+        "Stephanie Bauer",
+        "Richard Schaber",
+        "Jiasheng Huang",
+        "Ponraj Vijayan",
+        "Pascal Pruy",
+        "Simone Luca Portalupi",
+        "Michael Jetter",
+        "Peter Michler"
+      ],
+      "year": 2022,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "metamorphic buffer layers",
+        "InGaAs",
+        "InAs quantum dots",
+        "telecom C-band",
+        "single-photon emission",
+        "nanostructuring",
+        "optical resonators",
+        "non-classical light sources"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2021-0552",
+      "cited_by_count": 54,
+      "importance": 0.492,
+      "score_basis": {
+        "topic_overlap": 0.205,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2088531927",
+      "doi": "10.1038/nphoton.2013.377",
+      "title": "On-demand generation of indistinguishable polarization-entangled photon pairs",
+      "authors": [
+        "Markus A. Müller",
+        "S. Bounouar",
+        "Klaus D. Jöns",
+        "Martin Glässl",
+        "Peter Michler"
+      ],
+      "year": 2014,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "polarization-entangled photon pairs",
+        "on-demand photon generation",
+        "photon indistinguishability",
+        "semiconductor quantum dots",
+        "biexcitons",
+        "two-photon interference visibility",
+        "entanglement fidelity",
+        "InGaAs quantum dots"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2013.377",
+      "cited_by_count": 469,
+      "importance": 0.4894,
+      "score_basis": {
+        "topic_overlap": 0.31,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2954224532",
+      "doi": "10.1103/physrevlett.123.017403",
+      "title": "Emission-Frequency Separated High Quality Single-Photon Sources Enabled by Phonons",
+      "authors": [
+        "M. Cosacchi",
+        "F. Ungar",
+        "Moritz Cygorek",
+        "Alexei Vagov",
+        "V. M. Axt"
+      ],
+      "year": 2019,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-photon sources",
+        "quantum dot excitons",
+        "off-resonant excitation",
+        "single-photon purity",
+        "exciton relaxation"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.123.017403",
+      "cited_by_count": 60,
+      "importance": 0.4755,
+      "score_basis": {
+        "topic_overlap": 0.212,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2582313917",
+      "doi": "10.1021/acs.nanolett.7b00777",
+      "title": "Phonon-Assisted Two-Photon Interference from Remote Quantum Emitters",
+      "authors": [
+        "Marcus Reindl",
+        "Klaus D. Jöns",
+        "Daniel Huber",
+        "Christian Schimpf",
+        "Yong-Heng Huo",
+        "Val Zwiller",
+        "Armando Rastelli",
+        "Rinaldo Trotta"
+      ],
+      "year": 2017,
+      "venue": "Nano Letters",
+      "venue_abbr": "Nano Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "two-photon interference",
+        "GaAs quantum dots",
+        "entangled photon pairs",
+        "photon indistinguishability",
+        "quantum repeaters",
+        "multi-photon entanglement",
+        "decoherence robustness",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1021/acs.nanolett.7b00777",
+      "cited_by_count": 120,
+      "importance": 0.4684,
+      "score_basis": {
+        "topic_overlap": 0.308,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3087265500",
+      "doi": "10.1103/physrevlett.126.233601",
+      "title": "Bright Polarized Single-Photon Source Based on a Linear Dipole",
+      "authors": [
+        "Sarah E. Thomas",
+        "Marie Billard",
+        "Nathan Coste",
+        "Stephen C. Wein",
+        "Priya Priya",
+        "H. Ollivier",
+        "O. Krebs",
+        "L. Tazaïrt",
+        "Abdelmounaïm Harouri",
+        "Aristide Lemaître",
+        "Isabelle Sagnes",
+        "C. Antón",
+        "L. Lanco",
+        "Niccolò Somaschi",
+        "J. C. Loredo",
+        "P. Senellart"
+      ],
+      "year": 2021,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-photon sources",
+        "semiconductor quantum dots",
+        "quantum dot-cavity coupling",
+        "linear polarization",
+        "population inversion",
+        "single-photon purity",
+        "indistinguishability"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.126.233601",
+      "cited_by_count": 153,
+      "importance": 0.4482,
+      "score_basis": {
+        "topic_overlap": 0.352,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7133185486",
+      "doi": "10.1021/acsphotonics.5c02178",
+      "title": "Approaching Transform-Limited Line Widths in Telecom-Wavelength Transitions of Ungated Quantum Dots",
+      "authors": [
+        "Andrew N. Wakileh",
+        "Dan Dalacu",
+        "Philip J. Poole",
+        "B. Lamontagne",
+        "S. Moisa",
+        "Robin L. Williams",
+        "Nir Rotenberg"
+      ],
+      "year": 2026,
+      "venue": "ACS Photonics",
+      "venue_abbr": "ACS Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "quantum dots",
+        "InAs/InP",
+        "C-band",
+        "Stranski-Krastanov growth",
+        "chemical beam epitaxy",
+        "fine structure splitting",
+        "single-photon purity",
+        "quantum light sources",
+        "quantum networks"
+      ],
+      "url": "https://doi.org/10.1021/acsphotonics.5c02178",
+      "cited_by_count": 6,
+      "importance": 0.4382,
+      "score_basis": {
+        "topic_overlap": 0.307,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2604546062",
+      "doi": "10.1038/s41598-017-19049-4",
+      "title": "A stand-alone fiber-coupled single-photon source",
+      "authors": [
+        "Alexander Schlehahn",
+        "Sarah Fischbach",
+        "Ronny Schmidt",
+        "Arsenty Kaganskiy",
+        "André Strittmatter",
+        "Sven Rodt",
+        "Tobias Heindel",
+        "Stephan Reitzenstein"
+      ],
+      "year": 2018,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "single-photon sources",
+        "Stirling cryocooler",
+        "photon pair correlations",
+        "nonclassical light",
+        "emission stability",
+        "quantum light sources"
+      ],
+      "url": "https://doi.org/10.1038/s41598-017-19049-4",
+      "cited_by_count": 99,
+      "importance": 0.4107,
+      "score_basis": {
+        "topic_overlap": 0.335,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1662653646",
+      "doi": "10.48550/arxiv.0808.1385",
+      "title": "Quantum cryptography: theory and practice",
+      "authors": [
+        "Xiongfeng Ma"
+      ],
+      "year": 2008,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "quantum key distribution",
+        "decoy-state method",
+        "weak coherent states",
+        "photon number splitting attack",
+        "entanglement-based QKD",
+        "parametric down-conversion",
+        "single-photon sources",
+        "entanglement distillation",
+        "eavesdropping"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.0808.1385",
+      "cited_by_count": 20,
+      "importance": 0.4016,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4408034515",
+      "doi": "10.1038/s41566-025-01639-8",
+      "title": "High-efficiency single-photon source above the loss-tolerant threshold for efficient linear optical quantum computing",
+      "authors": [
+        "Xing Ding",
+        "Yong-Peng Guo",
+        "Mo-Chi Xu",
+        "Runze Liu",
+        "Geng-Yan Zou",
+        "Jun-Yi Zhao",
+        "Zhen-Xuan Ge",
+        "Qi-Hang Zhang",
+        "Hua-Liang Liu",
+        "Lin-Jun Wang",
+        "Ming-Cheng Chen",
+        "Hui Wang",
+        "Yuming He",
+        "Yong-Heng Huo",
+        "Chao‐Yang Lu",
+        "Jian-Wei Pan"
+      ],
+      "year": 2025,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "single-photon sources",
+        "quantum dots",
+        "microcavities",
+        "photon indistinguishability",
+        "multiphoton interference",
+        "intensity squeezing",
+        "InAs quantum dots",
+        "linear optical quantum computing",
+        "quantum error correction",
+        "high quantum efficiency"
+      ],
+      "url": "https://doi.org/10.1038/s41566-025-01639-8",
+      "cited_by_count": 170,
+      "importance": 0.3743,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1997124098",
+      "doi": "10.1103/physrevlett.68.557",
+      "title": "Quantum cryptography without Bell’s theorem",
+      "authors": [
+        "Charles H. Bennett",
+        "Gilles Brassard",
+        "N. David Mermin"
+      ],
+      "year": 1992,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum cryptography",
+        "EPR pairs",
+        "Ekert protocol",
+        "Bell's theorem",
+        "key distribution",
+        "eavesdropping detection",
+        "BB84 protocol",
+        "randomness generation"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.68.557",
+      "cited_by_count": 2525,
+      "importance": 0.3591,
+      "score_basis": {
+        "topic_overlap": 0.176,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2897264299",
+      "doi": "10.1126/science.aam9288",
+      "title": "Quantum internet: A vision for the road ahead",
+      "authors": [
+        "Stephanie Wehner",
+        "David Elkouss",
+        "Ronald Hanson"
+      ],
+      "year": 2018,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum internet",
+        "quantum communication",
+        "qubits",
+        "quantum networks",
+        "quantum cryptography",
+        "quantum computing",
+        "information security"
+      ],
+      "url": "https://doi.org/10.1126/science.aam9288",
+      "cited_by_count": 2644,
+      "importance": 0.352,
+      "score_basis": {
+        "topic_overlap": 0.16,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2620765442",
+      "doi": "10.1007/978-3-319-56378-7",
+      "title": "Quantum Dots for Quantum Information Technologies",
+      "authors": [
+        "Peter Michler"
+      ],
+      "year": 2017,
+      "venue": "Nano-optics and nanophotonics",
+      "venue_abbr": "Nano-optics and nanophotonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum dots",
+        "entangled photon pairs",
+        "spin-photon entanglement",
+        "semiconductor microcavities",
+        "quantum photonic integrated circuits",
+        "resonance fluorescence",
+        "nonclassical light"
+      ],
+      "url": "https://doi.org/10.1007/978-3-319-56378-7",
+      "cited_by_count": 224,
+      "importance": 0.3469,
+      "score_basis": {
+        "topic_overlap": 0.193,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2913150919",
+      "doi": "10.1063/1.5091751",
+      "title": "Single-photon light-emitting diodes based on preselected quantum dots using a deterministic lithography technique",
+      "authors": [
+        "Marc Sartison",
+        "Simon Seyfferle",
+        "Sascha Kolatschek",
+        "Stefan Hepp",
+        "Michael Jetter",
+        "Peter Michler",
+        "Simone Luca Portalupi"
+      ],
+      "year": 2019,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "InP quantum dots",
+        "second-order intensity correlation",
+        "pulsed excitation"
+      ],
+      "url": "https://doi.org/10.1063/1.5091751",
+      "cited_by_count": 11,
+      "importance": 0.3394,
+      "score_basis": {
+        "topic_overlap": 0.31,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7214898236",
+      "doi": "10.48550/arxiv.2609.36658",
+      "title": "Single-Photon Nonlinearity from a Nanobeam with a Quantum Dot",
+      "authors": [
+        "Abhijit Biswas",
+        "Neelesh Kumar Vij",
+        "Allan S. Bracker",
+        "Margaret Stevens",
+        "Joel Q. Grim",
+        "Edo Waks"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "single-photon nonlinearity",
+        "nanobeam cavity",
+        "quantum dots",
+        "fiber coupling",
+        "strong coupling",
+        "cooperativity",
+        "on-chip integration",
+        "photonic quantum technologies",
+        "picosecond pulses"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2609.36658",
+      "cited_by_count": 1,
+      "importance": 0.3073,
+      "score_basis": {
+        "topic_overlap": 0.239,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "citing",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2029436193",
+      "doi": "10.1103/physrevlett.108.057401",
+      "title": "Optically Gated Resonant Emission of Single Quantum Dots",
+      "authors": [
+        "Hai Son Nguyen",
+        "Gregory C. Sallen",
+        "Christophe Voisin",
+        "Philippe Roussignol",
+        "Carole Diederichs",
+        "Guillaume Cassabois"
+      ],
+      "year": 2012,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "semiconductor quantum dots",
+        "resonant emission",
+        "optical gating",
+        "Coulomb blockade",
+        "two-level system",
+        "coherent driving",
+        "emission quenching",
+        "single quantum dots"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.108.057401",
+      "cited_by_count": 98,
+      "importance": 0.2983,
+      "score_basis": {
+        "topic_overlap": 0.174,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2001421504",
+      "doi": "10.1063/1.2890166",
+      "title": "Electrically driven high-Q quantum dot-micropillar cavities",
+      "authors": [
+        "C. Böckler",
+        "Stephan Reitzenstein",
+        "C. Kistner",
+        "R. Debusmann",
+        "A. Löffler",
+        "Tetsuya Kida",
+        "Sven Höfling",
+        "A. Forchel",
+        "L. Grenouillet",
+        "Julien Claudon",
+        "Jean‐Michel Gérard"
+      ],
+      "year": 2008,
+      "venue": "Applied Physics Letters",
+      "venue_abbr": "Appl. Phys. Lett.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "high quality factor",
+        "electrically pumped lasers",
+        "cavity quantum electrodynamics",
+        "Purcell effect",
+        "light extraction",
+        "single quantum dot emission",
+        "semiconductor microcavities"
+      ],
+      "url": "https://doi.org/10.1063/1.2890166",
+      "cited_by_count": 158,
+      "importance": 0.2956,
+      "score_basis": {
+        "topic_overlap": 0.168,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390922426",
+      "doi": "10.1515/9783110703412",
+      "title": "Semiconductor Quantum Light Sources",
+      "authors": [
+        "Peter Michler",
+        "Simone Luca Portalupi"
+      ],
+      "year": 2023,
+      "venue": "De Gruyter eBooks",
+      "venue_abbr": "De Gruyter eBooks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "nonclassical light",
+        "quantum optics",
+        "photonic quantum technologies",
+        "semiconductor nanostructures",
+        "quantum technologies"
+      ],
+      "url": "https://doi.org/10.1515/9783110703412",
+      "cited_by_count": 10,
+      "importance": 0.2629,
+      "score_basis": {
+        "topic_overlap": 0.14,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2088531927",
+      "to": "W2029436193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2088531927"
+        }
+      ]
+    },
+    {
+      "from": "W2582313917",
+      "to": "W2088531927",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2582313917"
+        }
+      ]
+    },
+    {
+      "from": "W2781619148",
+      "to": "W2088531927",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2781619148"
+        }
+      ]
+    },
+    {
+      "from": "W2781619148",
+      "to": "W2620765442",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2781619148"
+        }
+      ]
+    },
+    {
+      "from": "W2891693315",
+      "to": "W2088531927",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2891693315"
+        }
+      ]
+    },
+    {
+      "from": "W2891693315",
+      "to": "W2604546062",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2891693315"
+        }
+      ]
+    },
+    {
+      "from": "W2954224532",
+      "to": "W2582313917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2954224532"
+        }
+      ]
+    },
+    {
+      "from": "W2954224532",
+      "to": "W2781619148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2954224532"
+        }
+      ]
+    },
+    {
+      "from": "W3004357554",
+      "to": "W1662653646",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3004357554"
+        }
+      ]
+    },
+    {
+      "from": "W3004357554",
+      "to": "W1997124098",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3004357554"
+        }
+      ]
+    },
+    {
+      "from": "W3004357554",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3004357554"
+        }
+      ]
+    },
+    {
+      "from": "W3022166001",
+      "to": "W2001421504",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3022166001"
+        }
+      ]
+    },
+    {
+      "from": "W3087265500",
+      "to": "W2954224532",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3087265500"
+        }
+      ]
+    },
+    {
+      "from": "W3156818388",
+      "to": "W1997124098",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3156818388"
+        }
+      ]
+    },
+    {
+      "from": "W4210879731",
+      "to": "W2620765442",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210879731"
+        }
+      ]
+    },
+    {
+      "from": "W4210879731",
+      "to": "W2891693315",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4210879731"
+        }
+      ]
+    },
+    {
+      "from": "W4224948020",
+      "to": "W1662653646",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224948020"
+        }
+      ]
+    },
+    {
+      "from": "W4224948020",
+      "to": "W2088531927",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224948020"
+        }
+      ]
+    },
+    {
+      "from": "W4224948020",
+      "to": "W2582313917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224948020"
+        }
+      ]
+    },
+    {
+      "from": "W4224948020",
+      "to": "W2620765442",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224948020"
+        }
+      ]
+    },
+    {
+      "from": "W4224948020",
+      "to": "W2781619148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224948020"
+        }
+      ]
+    },
+    {
+      "from": "W4224948020",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224948020"
+        }
+      ]
+    },
+    {
+      "from": "W4224948020",
+      "to": "W2954224532",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224948020"
+        }
+      ]
+    },
+    {
+      "from": "W4224948020",
+      "to": "W3004357554",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224948020"
+        }
+      ]
+    },
+    {
+      "from": "W4224948020",
+      "to": "W3087265500",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224948020"
+        }
+      ]
+    },
+    {
+      "from": "W4224948020",
+      "to": "W3156818388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224948020"
+        }
+      ]
+    },
+    {
+      "from": "W4224948020",
+      "to": "W4210879731",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4224948020"
+        }
+      ]
+    },
+    {
+      "from": "W4386349319",
+      "to": "W2604546062",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386349319"
+        }
+      ]
+    },
+    {
+      "from": "W4386349319",
+      "to": "W2891693315",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386349319"
+        }
+      ]
+    },
+    {
+      "from": "W4386349319",
+      "to": "W3004357554",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386349319"
+        }
+      ]
+    },
+    {
+      "from": "W4386349319",
+      "to": "W3022166001",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386349319"
+        }
+      ]
+    },
+    {
+      "from": "W4386349319",
+      "to": "W4210879731",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386349319"
+        }
+      ]
+    },
+    {
+      "from": "W4386349319",
+      "to": "W4224948020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386349319"
+        }
+      ]
+    },
+    {
+      "from": "W4387937443",
+      "to": "W1662653646",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387937443"
+        }
+      ]
+    },
+    {
+      "from": "W4387937443",
+      "to": "W2582313917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387937443"
+        }
+      ]
+    },
+    {
+      "from": "W4387937443",
+      "to": "W2781619148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387937443"
+        }
+      ]
+    },
+    {
+      "from": "W4387937443",
+      "to": "W2891693315",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387937443"
+        }
+      ]
+    },
+    {
+      "from": "W4387937443",
+      "to": "W2954224532",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387937443"
+        }
+      ]
+    },
+    {
+      "from": "W4387937443",
+      "to": "W3004357554",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387937443"
+        }
+      ]
+    },
+    {
+      "from": "W4387937443",
+      "to": "W3022166001",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387937443"
+        }
+      ]
+    },
+    {
+      "from": "W4387937443",
+      "to": "W3087265500",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387937443"
+        }
+      ]
+    },
+    {
+      "from": "W4387937443",
+      "to": "W4210879731",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387937443"
+        }
+      ]
+    },
+    {
+      "from": "W4387937443",
+      "to": "W4224948020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387937443"
+        }
+      ]
+    },
+    {
+      "from": "W4387937443",
+      "to": "W4386349319",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387937443"
+        }
+      ]
+    },
+    {
+      "from": "W4400420737",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400420737"
+        }
+      ]
+    },
+    {
+      "from": "W4400420737",
+      "to": "W3004357554",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400420737"
+        }
+      ]
+    },
+    {
+      "from": "W4400420737",
+      "to": "W4224948020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400420737"
+        }
+      ]
+    },
+    {
+      "from": "W4400420737",
+      "to": "W4386349319",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400420737"
+        }
+      ]
+    },
+    {
+      "from": "W4400420737",
+      "to": "W4387937443",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400420737"
+        }
+      ]
+    },
+    {
+      "from": "W4400420737",
+      "to": "W4408034515",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400420737"
+        }
+      ]
+    },
+    {
+      "from": "W4400876339",
+      "to": "W2088531927",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400876339"
+        }
+      ]
+    },
+    {
+      "from": "W4400876339",
+      "to": "W3156818388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400876339"
+        }
+      ]
+    },
+    {
+      "from": "W4400876339",
+      "to": "W4224948020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400876339"
+        }
+      ]
+    },
+    {
+      "from": "W4400876339",
+      "to": "W4387937443",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400876339"
+        }
+      ]
+    },
+    {
+      "from": "W4416105472",
+      "to": "W2781619148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416105472"
+        }
+      ]
+    },
+    {
+      "from": "W4416105472",
+      "to": "W2954224532",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416105472"
+        }
+      ]
+    },
+    {
+      "from": "W4416105472",
+      "to": "W4210879731",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416105472"
+        }
+      ]
+    },
+    {
+      "from": "W4416105472",
+      "to": "W4224948020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416105472"
+        }
+      ]
+    },
+    {
+      "from": "W4416105472",
+      "to": "W4386349319",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416105472"
+        }
+      ]
+    },
+    {
+      "from": "W4416105472",
+      "to": "W4387937443",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416105472"
+        }
+      ]
+    },
+    {
+      "from": "W4416105472",
+      "to": "W4400420737",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416105472"
+        }
+      ]
+    },
+    {
+      "from": "W4416105472",
+      "to": "W4408034515",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416105472"
+        }
+      ]
+    },
+    {
+      "from": "W7133185486",
+      "to": "W4210879731",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133185486"
+        }
+      ]
+    },
+    {
+      "from": "W7133185486",
+      "to": "W4400420737",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133185486"
+        }
+      ]
+    },
+    {
+      "from": "W7162417255",
+      "to": "W1997124098",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7162417255"
+        }
+      ]
+    },
+    {
+      "from": "W7162417255",
+      "to": "W2088531927",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7162417255"
+        }
+      ]
+    },
+    {
+      "from": "W7162417255",
+      "to": "W3004357554",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7162417255"
+        }
+      ]
+    },
+    {
+      "from": "W7162417255",
+      "to": "W3022166001",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7162417255"
+        }
+      ]
+    },
+    {
+      "from": "W7162417255",
+      "to": "W3156818388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7162417255"
+        }
+      ]
+    },
+    {
+      "from": "W7162417255",
+      "to": "W4210879731",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7162417255"
+        }
+      ]
+    },
+    {
+      "from": "W7165619635",
+      "to": "W1997124098",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165619635"
+        }
+      ]
+    },
+    {
+      "from": "W7165619635",
+      "to": "W2088531927",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165619635"
+        }
+      ]
+    },
+    {
+      "from": "W7165619635",
+      "to": "W2604546062",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165619635"
+        }
+      ]
+    },
+    {
+      "from": "W7165619635",
+      "to": "W2781619148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165619635"
+        }
+      ]
+    },
+    {
+      "from": "W7165619635",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165619635"
+        }
+      ]
+    },
+    {
+      "from": "W7165619635",
+      "to": "W3004357554",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165619635"
+        }
+      ]
+    },
+    {
+      "from": "W7165619635",
+      "to": "W3022166001",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165619635"
+        }
+      ]
+    },
+    {
+      "from": "W7165619635",
+      "to": "W3156818388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165619635"
+        }
+      ]
+    },
+    {
+      "from": "W7165619635",
+      "to": "W4224948020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165619635"
+        }
+      ]
+    },
+    {
+      "from": "W7165619635",
+      "to": "W4400876339",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7165619635"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W1662653646",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W1997124098",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W2001421504",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W2029436193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W2088531927",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W2582313917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W2604546062",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W2620765442",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W2781619148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W2891693315",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W2897264299",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W2913150919",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W2954224532",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W3004357554",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W3022166001",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W3087265500",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W3156818388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W4210879731",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W4224948020",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W4386349319",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W4387937443",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W4390922426",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W4400420737",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W4400876339",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W4408034515",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W4416105472",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W7133185486",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W7162417255",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W7165619635",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7170889452",
+      "to": "W7223188110",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170889452"
+        }
+      ]
+    },
+    {
+      "from": "W7214898236",
+      "to": "W7170889452",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7214898236"
+        }
+      ]
+    },
+    {
+      "from": "W7223188110",
+      "to": "W2582313917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223188110"
+        }
+      ]
+    },
+    {
+      "from": "W7223188110",
+      "to": "W3022166001",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223188110"
+        }
+      ]
+    },
+    {
+      "from": "W7223188110",
+      "to": "W4400876339",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7223188110"
+        }
+      ]
+    }
+  ]
 }

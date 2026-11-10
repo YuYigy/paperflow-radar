@@ -1,35 +1,1292 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "242a3e15-1010-4044-b5a3-1e5218fce835",
-  "root": "doi:10.1016/j.rinp.2026.108775",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7225116058",
+  "status": "ok",
+  "checked_at": "2026-11-10T00:51:17.985419+00:00",
+  "coverage": {
+    "references_found": 24,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 24,
+    "displayed": 24
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1016/j.rinp.2026.108775",
+      "id": "W7225116058",
       "doi": "10.1016/j.rinp.2026.108775",
       "title": "Design and fabrication of an optical modulator based on current feedback controller and optimization of integrated fiber optic booster characteristics for implementation in time-delay system of phased array antennas",
       "authors": [
         "Esmail Zarezadeh",
         "Ali shirpay"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Results in Physics",
       "venue_abbr": "Results in Physics",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "optical modulators",
+        "true-time delay",
+        "beam squint",
+        "thermal stability",
+        "modulation bandwidth"
+      ],
       "url": "https://doi.org/10.1016/j.rinp.2026.108775",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/242a3e15-1010-4044-b5a3-1e5218fce835.html",
       "summary": "论文报告设计并制作了激光电流调制器，其长期热稳定性为1.6 ppm/°C、重复性为31.7 nA、调制响应大于10 MHz、负载阻抗变化响应时间为67 ns。作者将阻抗响应时间相关数据建模为频域高斯函数，并结合真时延系统其他组件模型进行仿真，以确定调制频谱整形器的特性，进而提出具有特定色散与非线性系数的光纤增效器。摘要称，调制器与增效器集成结果显示失真和功耗降低。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W2792497689",
+      "doi": "10.1109/jlt.2018.2803743",
+      "title": "Microcomb-Based True-Time-Delay Network for Microwave Beamforming With Arbitrary Beam Pattern Control",
+      "authors": [
+        "Xiaoxiao Xue",
+        "Yi Xuan",
+        "Chengying Bao",
+        "Shangyuan Li",
+        "Xiaoping Zheng",
+        "Bingkun Zhou",
+        "Minghao Qi",
+        "Andrew M. Weiner"
+      ],
+      "year": 2018,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "microresonator frequency combs",
+        "optical delay line",
+        "optical phase modulation",
+        "beam squint",
+        "beam pattern control",
+        "beam steering"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2018.2803743",
+      "cited_by_count": 219,
+      "importance": 0.4864,
+      "score_basis": {
+        "topic_overlap": 0.214,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4282945503",
+      "doi": "10.1016/j.asej.2022.101850",
+      "title": "Design of a novel optical delay line based on ring resonators and microcomb for beamforming in a phased array radar",
+      "authors": [
+        "Esmail Zarezadeh",
+        "Ayaz Ghorbani"
+      ],
+      "year": 2022,
+      "venue": "Ain Shams Engineering Journal",
+      "venue_abbr": "Ain Shams Engineering Journal",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical delay line",
+        "ring resonator",
+        "true-time delay",
+        "phased array radar",
+        "beam squint",
+        "beamforming",
+        "optical phased array"
+      ],
+      "url": "https://doi.org/10.1016/j.asej.2022.101850",
+      "cited_by_count": 2,
+      "importance": 0.4719,
+      "score_basis": {
+        "topic_overlap": 0.382,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2277196941",
+      "doi": "10.1109/jproc.2016.2515122",
+      "title": "True Time Delay in Phased Arrays",
+      "authors": [
+        "Ruth Rotman",
+        "Moshe Tur",
+        "Lior Yaron"
+      ],
+      "year": 2016,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "true-time delay",
+        "phased arrays",
+        "Rotman lens",
+        "array calibration"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2016.2515122",
+      "cited_by_count": 259,
+      "importance": 0.4597,
+      "score_basis": {
+        "topic_overlap": 0.222,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3207156775",
+      "doi": "10.1088/2040-8986/ac2fd0",
+      "title": "Enhancing the directivity of a radiating array element for an optical true-time-delay network",
+      "authors": [
+        "Esmail Zarezadeh",
+        "Ayaz Ghorbani"
+      ],
+      "year": 2021,
+      "venue": "Journal of Optics",
+      "venue_abbr": "J. Opt.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "true-time delay",
+        "optical beamforming",
+        "horn antenna",
+        "gradient-index lens",
+        "refractive index distribution",
+        "directivity enhancement",
+        "phase error",
+        "half-power beamwidth",
+        "ray tracing optimization"
+      ],
+      "url": "https://doi.org/10.1088/2040-8986/ac2fd0",
+      "cited_by_count": 1,
+      "importance": 0.433,
+      "score_basis": {
+        "topic_overlap": 0.184,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2138547616",
+      "doi": "10.1109/50.85809",
+      "title": "The first demonstration of an optically steered microwave phased array antenna using true-time-delay",
+      "authors": [
+        "W.W. Ng",
+        "Andrew A. Walston",
+        "Gregory L. Tangonan",
+        "Jar J. Lee",
+        "Irwin L. Newberg",
+        "Norman P. Bernstein"
+      ],
+      "year": 1991,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "fiber delay lines",
+        "beam squint",
+        "L-band",
+        "X-band",
+        "radiation pattern"
+      ],
+      "url": "https://doi.org/10.1109/50.85809",
+      "cited_by_count": 386,
+      "importance": 0.3757,
+      "score_basis": {
+        "topic_overlap": 0.257,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400181837",
+      "doi": "10.1007/s42452-024-06041-7",
+      "title": "Enhancing optical modulator and link performance through modulation instability: design, simulation and implementation",
+      "authors": [
+        "Ali shirpay",
+        "Esmail Zarezadeh"
+      ],
+      "year": 2024,
+      "venue": "Discover Applied Sciences",
+      "venue_abbr": "Discover Applied Sciences",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "modulational instability",
+        "optical modulators",
+        "photonic microwave generation",
+        "optical fiber links",
+        "low-voltage modulation",
+        "microwave-to-optical conversion"
+      ],
+      "url": "https://doi.org/10.1007/s42452-024-06041-7",
+      "cited_by_count": 3,
+      "importance": 0.3478,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2895807866",
+      "doi": "10.1063/1.5044230",
+      "title": "A portable low-power integrated current and temperature laser controller for high-sensitivity gas sensor applications",
+      "authors": [
+        "Ning Li",
+        "Xuanbing Qiu",
+        "Yongbo Wei",
+        "Enhua Zhang",
+        "Jianshuai Wang",
+        "Chuanliang Li",
+        "Ying Peng",
+        "Jilin Wei",
+        "Huiyan Meng",
+        "Wang Gao",
+        "Zhenzhong Zang"
+      ],
+      "year": 2018,
+      "venue": "Review of Scientific Instruments",
+      "venue_abbr": "Review of Scientific Instruments",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed feedback lasers",
+        "low-power integrated circuits",
+        "carbon dioxide detection",
+        "acetylene detection",
+        "laser absorption spectroscopy",
+        "portable gas sensor",
+        "detection limit"
+      ],
+      "url": "https://doi.org/10.1063/1.5044230",
+      "cited_by_count": 15,
+      "importance": 0.3249,
+      "score_basis": {
+        "topic_overlap": 0.055,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409992092",
+      "doi": "10.1109/oecc54135.2024.10975313",
+      "title": "Joint Equalization of Dynamic PMD and PDL Using Digital Subcarrier Multiplexing in Ultra-Wideband Optical Fiber Communication Systems",
+      "authors": [
+        "Junying Huang",
+        "Nan Cui",
+        "Yan Zhang",
+        "Jiarun Zhao",
+        "Xiaoguang Zhang",
+        "Lixia Xi"
+      ],
+      "year": 2024,
+      "venue": "OptoElectronics and Communications Conference",
+      "venue_abbr": "OECC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "polarization mode dispersion",
+        "polarization-dependent loss",
+        "digital subcarrier multiplexing",
+        "joint equalization",
+        "bit error rate reduction",
+        "chromatic dispersion"
+      ],
+      "url": "https://doi.org/10.1109/oecc54135.2024.10975313",
+      "cited_by_count": 1,
+      "importance": 0.311,
+      "score_basis": {
+        "topic_overlap": 0.247,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2066847991",
+      "doi": "10.1063/1.3600602",
+      "title": "Low-noise high-performance current controllers for quantum cascade lasers",
+      "authors": [
+        "Matthew S. Taubman"
+      ],
+      "year": 2011,
+      "venue": "Review of Scientific Instruments",
+      "venue_abbr": "Review of Scientific Instruments",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum cascade lasers",
+        "current controller",
+        "drive electronics",
+        "thermal noise",
+        "current modulation",
+        "high-frequency response",
+        "chemical sensing"
+      ],
+      "url": "https://doi.org/10.1063/1.3600602",
+      "cited_by_count": 25,
+      "importance": 0.2885,
+      "score_basis": {
+        "topic_overlap": 0.063,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1969714816",
+      "doi": "10.1063/1.4861200",
+      "title": "Precision control of multiple quantum cascade lasers for calibration systems",
+      "authors": [
+        "Matthew S. Taubman",
+        "Tanya L. Myers",
+        "Richard M. Pratt",
+        "Robert D. Stahl",
+        "Bret D. Cannon"
+      ],
+      "year": 2014,
+      "venue": "Review of Scientific Instruments",
+      "venue_abbr": "Review of Scientific Instruments",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum cascade lasers",
+        "current control",
+        "laser calibration",
+        "temperature coefficient",
+        "digital-to-analog converter",
+        "voltage reference",
+        "laser switching"
+      ],
+      "url": "https://doi.org/10.1063/1.4861200",
+      "cited_by_count": 9,
+      "importance": 0.2766,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2726636552",
+      "doi": "10.1049/iet-cds.2016.0489",
+      "title": "Ultra‐stable, low‐noise two‐stage current source concept for electronics and laser applications",
+      "authors": [
+        "Grzegorz Dudzik"
+      ],
+      "year": 2017,
+      "venue": "IET Circuits Devices & Systems",
+      "venue_abbr": "IET Circuits Devices & Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "current fluctuations",
+        "current stability",
+        "drift",
+        "current driver",
+        "diode-pumped solid-state laser",
+        "laser current control",
+        "noise sources",
+        "temperature coefficient",
+        "integrated circuits"
+      ],
+      "url": "https://doi.org/10.1049/iet-cds.2016.0489",
+      "cited_by_count": 13,
+      "importance": 0.2676,
+      "score_basis": {
+        "topic_overlap": 0.039,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1521564387",
+      "doi": "10.1002/9780470529188",
+      "title": "Phased Array Antennas",
+      "authors": [
+        "Robert C. Hansen"
+      ],
+      "year": 1998,
+      "venue": "Wiley eBooks",
+      "venue_abbr": "Wiley eBooks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phased array antenna",
+        "antenna array synthesis",
+        "Dolph-Chebyshev array",
+        "Taylor distribution",
+        "beam steering",
+        "mutual coupling",
+        "finite arrays",
+        "superdirective arrays",
+        "beamforming",
+        "multibeam antenna",
+        "array feeds",
+        "microstrip patch antenna"
+      ],
+      "url": "https://doi.org/10.1002/9780470529188",
+      "cited_by_count": 1745,
+      "importance": 0.2666,
+      "score_basis": {
+        "topic_overlap": 0.059,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3206064731",
+      "doi": "10.1016/j.ohx.2021.e00240",
+      "title": "Open-source lab hardware: Driver and temperature controller for high compliance voltage, fiber-coupled butterfly lasers",
+      "authors": [
+        "Florian Kehl",
+        "Vlad F. Cretu",
+        "Peter A. Willis"
+      ],
+      "year": 2021,
+      "venue": "HardwareX",
+      "venue_abbr": "HardwareX",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "laser diode driver",
+        "fiber-coupled laser",
+        "temperature controller",
+        "thermoelectric cooler",
+        "open-source hardware",
+        "microcontroller control",
+        "overcurrent protection"
+      ],
+      "url": "https://doi.org/10.1016/j.ohx.2021.e00240",
+      "cited_by_count": 8,
+      "importance": 0.2649,
+      "score_basis": {
+        "topic_overlap": 0.144,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413344117",
+      "doi": "10.1109/access.2025.3599680",
+      "title": "Possibilities and Challenges for a Phased Array Antenna System in ISAC: A Hardware Perspective",
+      "authors": [
+        "Muhammad Umar",
+        "Mehrab Ramzan",
+        "Shahanawaz Kamal",
+        "Muhammad Sajjad Ahmad",
+        "Padmanava Sen"
+      ],
+      "year": 2025,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phased array antenna",
+        "integrated sensing and communication",
+        "passive beamforming",
+        "reciprocity",
+        "multibeam antenna",
+        "electromagnetic band gap"
+      ],
+      "url": "https://doi.org/10.1109/access.2025.3599680",
+      "cited_by_count": 16,
+      "importance": 0.2279,
+      "score_basis": {
+        "topic_overlap": 0.062,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2779723053",
+      "doi": "10.1364/acpc.2017.su2a.115",
+      "title": "A Fully Digital Low-noise and High-stability Diode Laser Current and Temperature Controller",
+      "authors": [
+        "Wei Quan",
+        "Zhenyu Henry Huang"
+      ],
+      "year": 2017,
+      "venue": "Asia Communications and Photonics Conference",
+      "venue_abbr": "ACP",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "diode laser",
+        "laser current control",
+        "laser temperature control",
+        "digital control",
+        "long-term stability"
+      ],
+      "url": "https://doi.org/10.1364/acpc.2017.su2a.115",
+      "cited_by_count": 1,
+      "importance": 0.2231,
+      "score_basis": {
+        "topic_overlap": 0.051,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2975398641",
+      "doi": "10.1063/1.5128935",
+      "title": "A digital feedback controller for stabilizing large electric currents to the ppm level for Feshbach resonance studies",
+      "authors": [
+        "Ryan Thomas",
+        "Niels Kjærgaard"
+      ],
+      "year": 2020,
+      "venue": "Review of Scientific Instruments",
+      "venue_abbr": "Review of Scientific Instruments",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Feshbach resonance",
+        "ultracold gases",
+        "electromagnet",
+        "current stabilization",
+        "FPGA",
+        "gain scheduling",
+        "magnetic field generation"
+      ],
+      "url": "https://doi.org/10.1063/1.5128935",
+      "cited_by_count": 17,
+      "importance": 0.2187,
+      "score_basis": {
+        "topic_overlap": 0.041,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2889213568",
+      "doi": "10.1063/1.5046852",
+      "title": "Power stabilization of a diode laser with an acousto-optic modulator",
+      "authors": [
+        "François Tricot",
+        "Duy‐Hà Phung",
+        "M. Lours",
+        "Stéphane Guérandel",
+        "Emeric de Clercq"
+      ],
+      "year": 2018,
+      "venue": "Review of Scientific Instruments",
+      "venue_abbr": "Review of Scientific Instruments",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "diode laser",
+        "laser power stabilization",
+        "acousto-optic modulator",
+        "power fluctuation",
+        "power supply noise",
+        "Allan deviation",
+        "frequency domain analysis"
+      ],
+      "url": "https://doi.org/10.1063/1.5046852",
+      "cited_by_count": 101,
+      "importance": 0.2146,
+      "score_basis": {
+        "topic_overlap": 0.033,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2980242734",
+      "doi": "10.1109/rusautocon.2019.8867605",
+      "title": "Precision Medium-Power Laser Diode Drivers: Design Principles and Functional Features",
+      "authors": [
+        "Ruslan V. Chkalov",
+        "Dmitriy A. Kochuev",
+        "Dar'ya Gennad'evna Vasil'chenkova"
+      ],
+      "year": 2019,
+      "venue": "International Russian Automation Conference (RusAutoCon)",
+      "venue_abbr": "International Russian Automation Conference (RusAutoCon)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "laser diode driver",
+        "thermal stabilization",
+        "butterfly package",
+        "microprocessor control",
+        "optoelectronic devices"
+      ],
+      "url": "https://doi.org/10.1109/rusautocon.2019.8867605",
+      "cited_by_count": 4,
+      "importance": 0.2133,
+      "score_basis": {
+        "topic_overlap": 0.03,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2166266796",
+      "doi": "10.1007/s00340-012-4999-4",
+      "title": "Control and active stabilization of the linewidth of an ECDL",
+      "authors": [
+        "T. Führer",
+        "Thomas Walther"
+      ],
+      "year": 2012,
+      "venue": "Applied Physics B",
+      "venue_abbr": "Appl. Phys. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "external cavity diode laser",
+        "linewidth control",
+        "active stabilization",
+        "polarization locking",
+        "heterodyne detection",
+        "white noise",
+        "1/f noise",
+        "red noise",
+        "closed-loop feedback",
+        "pump current"
+      ],
+      "url": "https://doi.org/10.1007/s00340-012-4999-4",
+      "cited_by_count": 11,
+      "importance": 0.2127,
+      "score_basis": {
+        "topic_overlap": 0.028,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3014896521",
+      "doi": "10.1364/ol.388677",
+      "title": "Modulation instability in waveguides with an arbitrary frequency-dependent nonlinear coefficient",
+      "authors": [
+        "N. Linale",
+        "J. Bonetti",
+        "Alfredo Daniel Sanchez",
+        "S. M. Hernández",
+        "P. I. Fierens",
+        "D. F. Grosz"
+      ],
+      "year": 2020,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "modulational instability",
+        "frequency-dependent nonlinearity",
+        "nonlinear Schrödinger equation",
+        "photon number conservation",
+        "energy conservation (physics)",
+        "waveguides",
+        "linear stability analysis"
+      ],
+      "url": "https://doi.org/10.1364/ol.388677",
+      "cited_by_count": 17,
+      "importance": 0.2127,
+      "score_basis": {
+        "topic_overlap": 0.028,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2735202050",
+      "doi": "10.1063/1.4985544",
+      "title": "High-precision, accurate optical frequency reference using a Fabry–Perót diode laser",
+      "authors": [
+        "Hongrok Chang",
+        "Krishna Myneni",
+        "David D. Smith",
+        "Hassan R. Liaghati-Mobarhan"
+      ],
+      "year": 2017,
+      "venue": "Review of Scientific Instruments",
+      "venue_abbr": "Review of Scientific Instruments",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical frequency standard",
+        "frequency locking",
+        "frequency stability",
+        "frequency accuracy",
+        "Allan deviation",
+        "spectral linewidth"
+      ],
+      "url": "https://doi.org/10.1063/1.4985544",
+      "cited_by_count": 7,
+      "importance": 0.2068,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1981847472",
+      "doi": "10.1364/oe.20.014234",
+      "title": "Precision and fast wavelength tuning of a dynamically phase-locked widely-tunable laser",
+      "authors": [
+        "Kenji Numata",
+        "Jeffrey Y. Chen",
+        "Stewart T. Wu"
+      ],
+      "year": 2012,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "widely tunable lasers",
+        "wavelength tuning",
+        "optical phase-locked loop",
+        "distributed Bragg reflector lasers",
+        "frequency noise suppression",
+        "frequency stability"
+      ],
+      "url": "https://doi.org/10.1364/oe.20.014234",
+      "cited_by_count": 67,
+      "importance": 0.2065,
+      "score_basis": {
+        "topic_overlap": 0.014,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415367763",
+      "doi": "10.1109/icimia67127.2025.11200524",
+      "title": "Beamforming Strategies in Massive MIMO: Evolution and Optimization Techniques",
+      "authors": [
+        "A. Vijay",
+        "Subramanian Lakshmi Narayanan",
+        "N. Khadar Basha",
+        "K. Vijayakumar",
+        "K Anusulatha",
+        "Satheesh Kumar S"
+      ],
+      "year": 2025,
+      "venue": "International Conference on Innovative Mechanisms for Industry Applications",
+      "venue_abbr": "International Conference on Innovative Mechanisms for Industry Applications",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "massive MIMO",
+        "beamforming",
+        "linear precoding",
+        "maximum ratio transmission",
+        "zero-forcing",
+        "hybrid beamforming",
+        "analog beamforming",
+        "digital beamforming",
+        "inter-user interference",
+        "spectral efficiency",
+        "5G",
+        "beamforming optimization"
+      ],
+      "url": "https://doi.org/10.1109/icimia67127.2025.11200524",
+      "cited_by_count": 4,
+      "importance": 0.2061,
+      "score_basis": {
+        "topic_overlap": 0.014,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2775927996",
+      "doi": "10.1063/1.5009643",
+      "title": "Simple, low-noise piezo driver with feed-forward for broad tuning of external cavity diode lasers",
+      "authors": [
+        "S. Charles Doret"
+      ],
+      "year": 2018,
+      "venue": "Review of Scientific Instruments",
+      "venue_abbr": "Review of Scientific Instruments",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "external cavity diode laser",
+        "feedforward control",
+        "laser frequency tuning",
+        "mode-hop-free tuning",
+        "laser current control",
+        "rubidium D1 line",
+        "absorption spectroscopy"
+      ],
+      "url": "https://doi.org/10.1063/1.5009643",
+      "cited_by_count": 17,
+      "importance": 0.2057,
+      "score_basis": {
+        "topic_overlap": 0.013,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1969714816",
+      "to": "W2066847991",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1969714816"
+        }
+      ]
+    },
+    {
+      "from": "W2277196941",
+      "to": "W1521564387",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2277196941"
+        }
+      ]
+    },
+    {
+      "from": "W2277196941",
+      "to": "W2138547616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2277196941"
+        }
+      ]
+    },
+    {
+      "from": "W2726636552",
+      "to": "W2066847991",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2726636552"
+        }
+      ]
+    },
+    {
+      "from": "W2792497689",
+      "to": "W1521564387",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2792497689"
+        }
+      ]
+    },
+    {
+      "from": "W2792497689",
+      "to": "W2138547616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2792497689"
+        }
+      ]
+    },
+    {
+      "from": "W2792497689",
+      "to": "W2277196941",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2792497689"
+        }
+      ]
+    },
+    {
+      "from": "W2895807866",
+      "to": "W1969714816",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2895807866"
+        }
+      ]
+    },
+    {
+      "from": "W2895807866",
+      "to": "W2066847991",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2895807866"
+        }
+      ]
+    },
+    {
+      "from": "W3207156775",
+      "to": "W2138547616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207156775"
+        }
+      ]
+    },
+    {
+      "from": "W3207156775",
+      "to": "W2277196941",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207156775"
+        }
+      ]
+    },
+    {
+      "from": "W3207156775",
+      "to": "W2792497689",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207156775"
+        }
+      ]
+    },
+    {
+      "from": "W4282945503",
+      "to": "W2277196941",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282945503"
+        }
+      ]
+    },
+    {
+      "from": "W4282945503",
+      "to": "W2792497689",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4282945503"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W1521564387",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W1969714816",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W1981847472",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2066847991",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2138547616",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2166266796",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2277196941",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2726636552",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2735202050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2775927996",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2779723053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2792497689",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2889213568",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2895807866",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2975398641",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W2980242734",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W3014896521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W3206064731",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W3207156775",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W4282945503",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W4400181837",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W4409992092",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W4413344117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    },
+    {
+      "from": "W7225116058",
+      "to": "W4415367763",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225116058"
+        }
+      ]
+    }
+  ]
 }

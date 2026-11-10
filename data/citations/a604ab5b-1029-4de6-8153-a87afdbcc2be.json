@@ -1,37 +1,845 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "a604ab5b-1029-4de6-8153-a87afdbcc2be",
-  "root": "doi:10.3390/photonics13111048",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7225310909",
+  "status": "ok",
+  "checked_at": "2026-11-10T00:51:20.421784+00:00",
+  "coverage": {
+    "references_found": 15,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 15,
+    "displayed": 15
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.3390/photonics13111048",
+      "id": "W7225310909",
       "doi": "10.3390/photonics13111048",
       "title": "High-Precision Lumped-Parameter Thermal Modeling and CNN-LSTM-Based Temperature Prediction for Optical Interconnect Modules",
       "authors": [
         "Tianxiang Lan",
-        "Chuanchuan Yang",
+        "Feng Yang",
         "Hao Qin",
         "Zhangyuan Chen"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Photonics",
       "venue_abbr": "Photonics",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "transient temperature prediction",
+        "CNN-LSTM",
+        "thermal management",
+        "high-speed optical links",
+        "thermal coupling",
+        "real-time temperature prediction"
+      ],
       "url": "https://doi.org/10.3390/photonics13111048",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/a604ab5b-1029-4de6-8153-a87afdbcc2be.html",
       "summary": "该研究提出面向光互连模块的集总参数热模型（LPTM），并以其生成的数据训练CNN-LSTM进行瞬态温度预测。对照COMSOL仿真，LPTM对关键部件瞬态温度的平均MAE为0.52 °C、平均RMSE为0.69 °C；CNN-LSTM在COMSOL生成的独立测试集上取得MAE 0.34 °C、RMSE 0.78 °C。上述结果属于仿真验证。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4327898871",
+      "doi": "10.1007/s12200-022-00055-y",
+      "title": "Co-packaged optics (CPO): status, challenges, and solutions",
+      "authors": [
+        "Min Tan",
+        "Jiang Xu",
+        "Siyang Liu",
+        "Junbo Feng",
+        "Hua Zhang",
+        "Chaonan Yao",
+        "Shixi Chen",
+        "Hangyu Guo",
+        "Gengshi Han",
+        "Zhanhao Wen",
+        "Bao Chen",
+        "Yu He",
+        "Xuqiang Zheng",
+        "Da Ming",
+        "Yaowen Tu",
+        "Qiang Fu",
+        "Nan Qi",
+        "Dan Li",
+        "Li Geng",
+        "Song Wen",
+        "Fenghe Yang",
+        "Huimin He",
+        "Fengman Liu",
+        "Haiyun Xue",
+        "Yuhang Wang",
+        "Ciyuan Qiu",
+        "Guangcan Mi",
+        "Yanbo Li",
+        "Tianhai Chang",
+        "Mingche Lai",
+        "Zhang Luo",
+        "Qinfen Hao",
+        "Mengyuan Qin"
+      ],
+      "year": 2023,
+      "venue": "Frontiers of Optoelectronics",
+      "venue_abbr": "FOE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "co-packaged optics",
+        "data center interconnects",
+        "silicon photonics",
+        "photonic packaging",
+        "bandwidth density",
+        "energy efficiency",
+        "standardization"
+      ],
+      "url": "https://doi.org/10.1007/s12200-022-00055-y",
+      "cited_by_count": 200,
+      "importance": 0.3525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4384158621",
+      "doi": "10.1109/itherm55368.2023.10177553",
+      "title": "Thermal solution study of 51.2T Near-packaged optics switch",
+      "authors": [
+        "Yaoyin Fan",
+        "Mingqing Luo",
+        "Chengzhi Liu",
+        "Sheng Zhang"
+      ],
+      "year": 2023,
+      "venue": "I-THERM :/I-THERM - Intersociety Conference on Thermal Phenomena in Electronic Systems",
+      "venue_abbr": "I-THERM :/I-THERM - Intersociety Conference on Thermal Phenomena in Electronic Systems",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical switches",
+        "thermal management",
+        "thermal interface materials",
+        "thermal analysis",
+        "thermal simulation"
+      ],
+      "url": "https://doi.org/10.1109/itherm55368.2023.10177553",
+      "cited_by_count": 5,
+      "importance": 0.3245,
+      "score_basis": {
+        "topic_overlap": 0.277,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285288639",
+      "doi": "10.1109/jlt.2022.3175518",
+      "title": "Design and Realization of Multi-Channel and High-Bandwidth 2.5D Transmitter Integrated With Silicon Photonic MZM",
+      "authors": [
+        "Huimin He",
+        "Haiyun Xue",
+        "Yu Sun",
+        "Fengman Liu",
+        "Liqiang Cao"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Mach-Zehnder modulator",
+        "silicon interposer",
+        "low temperature co-fired ceramic",
+        "PAM-4",
+        "data center interconnects",
+        "thermal management",
+        "heat dissipation",
+        "edge coupling",
+        "high-speed optical links"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3175518",
+      "cited_by_count": 16,
+      "importance": 0.3201,
+      "score_basis": {
+        "topic_overlap": 0.222,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389395282",
+      "doi": "10.1117/1.jom.4.1.011004",
+      "title": "Thermal modeling of hybrid three-dimensional integrated, ring-based silicon photonic–electronic transceivers",
+      "authors": [
+        "David Coenen",
+        "Minkyu Kim",
+        "Herman Oprins",
+        "Yoojin Ban",
+        "Dimitrios Velenis",
+        "Joris Van Campenhout",
+        "Ingrid De Wolf"
+      ],
+      "year": 2023,
+      "venue": "Journal of Optical Microsystems",
+      "venue_abbr": "Journal of Optical Microsystems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "thermal modeling",
+        "silicon photonics",
+        "ring resonator",
+        "wavelength division multiplexing",
+        "co-packaged optics",
+        "thermal crosstalk",
+        "heater efficiency",
+        "heat spreading",
+        "data center interconnects"
+      ],
+      "url": "https://doi.org/10.1117/1.jom.4.1.011004",
+      "cited_by_count": 10,
+      "importance": 0.3161,
+      "score_basis": {
+        "topic_overlap": 0.147,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4293766981",
+      "doi": "10.1016/j.applthermaleng.2022.119207",
+      "title": "Thermal prediction for Air-cooled data center using data Driven-based model",
+      "authors": [
+        "Jianpeng Lin",
+        "Weiwei Lin",
+        "Wenjun Lin",
+        "Jiangtao Wang",
+        "Hongliang Jiang"
+      ],
+      "year": 2022,
+      "venue": "Applied Thermal Engineering",
+      "venue_abbr": "Applied Thermal Engineering",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "data center thermal management",
+        "air-cooled data centers",
+        "temperature prediction",
+        "transient thermal behavior",
+        "airflow patterns",
+        "XGBoost",
+        "LightGBM",
+        "support vector regression",
+        "Gaussian process regression",
+        "LSTM",
+        "artificial neural networks",
+        "steady-state thermal simulation"
+      ],
+      "url": "https://doi.org/10.1016/j.applthermaleng.2022.119207",
+      "cited_by_count": 75,
+      "importance": 0.3143,
+      "score_basis": {
+        "topic_overlap": 0.21,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3046241414",
+      "doi": "10.1109/eurosime48426.2020.9152630",
+      "title": "Thermal Aspects of Silicon Photonic Interposer Packages",
+      "authors": [
+        "Herman Oprins",
+        "Yoojin Ban",
+        "Vladimir O. Cherman",
+        "Joris Van Campenhout"
+      ],
+      "year": 2020,
+      "venue": "International Conference on Thermal, Mechanical and Multi-Physics Simulation and Experiments in Microelectronics and Microsystems (EuroSimE)",
+      "venue_abbr": "International Conference on Thermal, Mechanical and Multi-Physics Simulation and Experiments in Microelectronics and Microsystems (EuroSimE)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "silicon photonics",
+        "thermal coupling",
+        "thermal modeling",
+        "cointegration",
+        "BGA package",
+        "optical I/O",
+        "temperature sensitivity"
+      ],
+      "url": "https://doi.org/10.1109/eurosime48426.2020.9152630",
+      "cited_by_count": 6,
+      "importance": 0.3128,
+      "score_basis": {
+        "topic_overlap": 0.206,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7123359976",
+      "doi": "10.3390/asi9010021",
+      "title": "Proactive Cooling Control Algorithm for Data Centers Based on LSTM-Driven Predictive Thermal Analysis",
+      "authors": [
+        "Jieying Liu",
+        "Rui Fan",
+        "Zonglin Li",
+        "Napat Harnpornchai",
+        "Jianlei Qian"
+      ],
+      "year": 2026,
+      "venue": "Applied System Innovation",
+      "venue_abbr": "Applied System Innovation",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "data center cooling",
+        "thermal prediction",
+        "LSTM",
+        "digital twin",
+        "temperature and humidity sensors",
+        "fan speed control",
+        "power usage effectiveness",
+        "hot spot suppression",
+        "cooling energy efficiency",
+        "computer room air conditioning"
+      ],
+      "url": "https://doi.org/10.3390/asi9010021",
+      "cited_by_count": 4,
+      "importance": 0.2818,
+      "score_basis": {
+        "topic_overlap": 0.071,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285277581",
+      "doi": "10.1109/jlt.2022.3188362",
+      "title": "Research on 3D Optical Module Integrating Edge Coupler and TSV",
+      "authors": [
+        "Qi Zheng",
+        "Peng Yang",
+        "Haiyun Xue",
+        "Huimin He",
+        "Rui Cao",
+        "Fengwei Dai",
+        "Siwei Sun",
+        "Fengman Liu",
+        "Qidong Wang",
+        "Liqiang Cao",
+        "Lijun Chen",
+        "Xuyan Sun",
+        "Peng Sun"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "edge coupler",
+        "through-silicon vias",
+        "redistribution layer",
+        "high-frequency transmission lines",
+        "insertion loss",
+        "silicon photonics packaging"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3188362",
+      "cited_by_count": 16,
+      "importance": 0.2804,
+      "score_basis": {
+        "topic_overlap": 0.134,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416350758",
+      "doi": "10.3390/ma18225210",
+      "title": "Fast Thermal Resistance Distribution Analysis in High-Power VCSEL Array Module",
+      "authors": [
+        "Dezhen Li",
+        "Tian Lan",
+        "Zhiyong Wang",
+        "Zhengyu Ye"
+      ],
+      "year": 2025,
+      "venue": "Materials",
+      "venue_abbr": "Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "thermal resistance",
+        "submount",
+        "water-cooled heat sink"
+      ],
+      "url": "https://doi.org/10.3390/ma18225210",
+      "cited_by_count": 1,
+      "importance": 0.2708,
+      "score_basis": {
+        "topic_overlap": 0.157,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7165061516",
+      "doi": "10.1109/ectc51846.2026.00019",
+      "title": "High-Density Integration of III-V Devices and EICs using Vertical-Coupled Photonic Packages with Glass-IP and Redistribution Layers",
+      "authors": [
+        "Kei Masuyama",
+        "Mizuki Shirao",
+        "Shinji Araki",
+        "Kiyotomo Hasegawa",
+        "Shinya Okuda",
+        "Seiu Higashide",
+        "Nobuo Ohata"
+      ],
+      "year": 2026,
+      "venue": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "venue_abbr": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "glass interposer",
+        "redistribution layer",
+        "electro-absorption modulated laser",
+        "through glass via",
+        "flip-chip bonding",
+        "microlens array",
+        "optical interconnects",
+        "optical coupling"
+      ],
+      "url": "https://doi.org/10.1109/ectc51846.2026.00019",
+      "cited_by_count": 1,
+      "importance": 0.2658,
+      "score_basis": {
+        "topic_overlap": 0.146,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385517082",
+      "doi": "10.1109/ectc51909.2023.00044",
+      "title": "High Density Integration Technologies for SiPh Based Optical I/Os",
+      "authors": [
+        "Karl Muth",
+        "Vivek Raghuraman",
+        "Sukeshwar Kannan",
+        "Hari Potluri"
+      ],
+      "year": 2023,
+      "venue": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "venue_abbr": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "silicon photonics",
+        "optical I/O",
+        "co-packaged optics",
+        "chiplet packaging",
+        "fiber connectivity",
+        "high-density integration",
+        "I/O efficiency",
+        "power consumption",
+        "cost reduction"
+      ],
+      "url": "https://doi.org/10.1109/ectc51909.2023.00044",
+      "cited_by_count": 18,
+      "importance": 0.2606,
+      "score_basis": {
+        "topic_overlap": 0.135,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390347173",
+      "doi": "10.3390/mi15010063",
+      "title": "Real-Time Temperature Prediction of Power Devices Using an Improved Thermal Equivalent Circuit Model and Application in Power Electronics",
+      "authors": [
+        "Zhen Hu",
+        "Man Cui",
+        "Xiaohua Wu"
+      ],
+      "year": 2023,
+      "venue": "Micromachines",
+      "venue_abbr": "Micromachines",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "junction temperature prediction",
+        "IGBT modules",
+        "solder aging",
+        "thermal impedance",
+        "model parameter correction",
+        "case temperature",
+        "photovoltaic power generation",
+        "fatigue failure"
+      ],
+      "url": "https://doi.org/10.3390/mi15010063",
+      "cited_by_count": 14,
+      "importance": 0.2539,
+      "score_basis": {
+        "topic_overlap": 0.12,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7163153798",
+      "doi": "10.1364/ofc.2026.th4a.7",
+      "title": "1.6T (8×200Gb/s) 2×FR4 Silicon Photonic IMDD Transceiver with Monolithically Integrated Ultra-Low Crosstalk and Wideband Multiplexer",
+      "authors": [
+        "Haijiang Yu",
+        "Gao Xudong",
+        "Ming Su",
+        "Jun Li",
+        "Jian Chen",
+        "Ruizhi Zhang",
+        "Peng Gao",
+        "Mengxue Tao",
+        "Yang Wu",
+        "Qin Li",
+        "Yuan Yao",
+        "Qiuhong Hu",
+        "Qijian Xu",
+        "Madhav Bhatta",
+        "胡长飞"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "silicon photonics",
+        "PAM-4",
+        "monolithic integration",
+        "crosstalk reduction"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.th4a.7",
+      "cited_by_count": 1,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": "items/9874a153-791f-4136-beb0-ad34d75d4492.html",
+      "summary": "该研究报告了单片集成的1.6T（8×200 Gb/s）2×FR4硅光收发器，采用布拉格光栅复用器。摘要称，相较传统MZI复用器，其占地缩小15倍、串扰降低10 dB、带宽拓宽5 nm。在搭配3 nm DSP的OSFP模块中完成验证，106.25 GBaud PAM4链路的TDECQ为2–2.5 dB，BER最低达到1×10⁻¹³；作者称其满足IEEE 802.3dj要求。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W2585270607",
+      "doi": "10.1109/tcad.2017.2661808",
+      "title": "Kalman Predictor-Based Proactive Dynamic Thermal Management for 3-D NoC Systems With Noisy Thermal Sensors",
+      "authors": [
+        "Yuxiang Fu",
+        "Li Li",
+        "Kun Wang",
+        "Chuan Zhang"
+      ],
+      "year": 2017,
+      "venue": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "venue_abbr": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "dynamic thermal management",
+        "Kalman filter",
+        "temperature prediction",
+        "thermal-aware routing",
+        "congestion-aware routing"
+      ],
+      "url": "https://doi.org/10.1109/tcad.2017.2661808",
+      "cited_by_count": 21,
+      "importance": 0.2377,
+      "score_basis": {
+        "topic_overlap": 0.084,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2017047035",
+      "doi": "10.1109/hipc.2012.6507478",
+      "title": "VMAP: Proactive thermal-aware virtual machine allocation in HPC cloud datacenters",
+      "authors": [
+        "Eun Kyung Lee",
+        "Hariharasudhan Viswanathan",
+        "Dario Pompili"
+      ],
+      "year": 2012,
+      "venue": "IEEE International Conference on High Performance Computing, Data, and Analytics",
+      "venue_abbr": "IEEE International Conference on High Performance Computing, Data, and Analytics",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "thermal hotspots",
+        "temperature prediction",
+        "virtual machine consolidation",
+        "energy efficiency",
+        "heat removal",
+        "resource utilization",
+        "quality of service"
+      ],
+      "url": "https://doi.org/10.1109/hipc.2012.6507478",
+      "cited_by_count": 44,
+      "importance": 0.2231,
+      "score_basis": {
+        "topic_overlap": 0.051,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W4327898871",
+      "to": "W4285277581",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327898871"
+        }
+      ]
+    },
+    {
+      "from": "W4327898871",
+      "to": "W4285288639",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327898871"
+        }
+      ]
+    },
+    {
+      "from": "W4389395282",
+      "to": "W3046241414",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389395282"
+        }
+      ]
+    },
+    {
+      "from": "W7123359976",
+      "to": "W4293766981",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7123359976"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W2017047035",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W2585270607",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W3046241414",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W4285277581",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W4285288639",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W4293766981",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W4327898871",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W4384158621",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W4385517082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W4389395282",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W4390347173",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W4416350758",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W7123359976",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W7163153798",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    },
+    {
+      "from": "W7225310909",
+      "to": "W7165061516",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225310909"
+        }
+      ]
+    }
+  ]
 }

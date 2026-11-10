@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "41fb251e-0d19-494c-82e5-8ec7c8769215",
-  "root": "doi:10.48550/arxiv.2611.08217",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7225387611",
+  "status": "ok",
+  "checked_at": "2026-11-10T00:51:23.438916+00:00",
+  "coverage": {
+    "references_found": 3,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 3,
+    "displayed": 3
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.48550/arxiv.2611.08217",
+      "id": "W7225387611",
       "doi": "10.48550/arxiv.2611.08217",
       "title": "Optical Network Digital Twin: From Digital Coherent Transmission to Intelligent Network Operations",
       "authors": [
@@ -20,9 +30,9 @@
         "Zehao Wang",
         "Mingzhe Han",
         "Hiroyuki Ishihara",
-        "Andrea D'Amico",
+        "Andrea D’Amico",
         "Agastya Raj",
-        "Rocco D'Ingillo",
+        "Rocco D’Ingillo",
         "Takeo Sasai",
         "Giacomo Borraccini",
         "Toru Mano",
@@ -34,23 +44,179 @@
         "Manabu Yoshimoto",
         "Tingjun Chen",
         "Marco Ruffini",
-        "Daniel Kilper",
+        "Daniel C. Kilper",
         "Vittorio Curri"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "arXiv",
       "venue_abbr": "arXiv",
       "rank_label": "不适用期刊等级",
-      "keywords": [],
-      "url": "https://arxiv.org/abs/2611.08217v1",
-      "cited_by_count": null,
+      "keywords": [
+        "digital coherent transmission",
+        "quality of transmission estimation",
+        "model fidelity",
+        "service delivery",
+        "AI agents",
+        "model refinement"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2611.08217",
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/41fb251e-0d19-494c-82e5-8ec7c8769215.html",
       "summary": "该预印本综述光网络数字孪生在传输质量估计、优化和智能运维中的技术体系，覆盖数字相干传输、物理层可观测性及网络运行。作者从生态、功能、控制和实现架构角度组织相关技术，并提出保真度、动态性和可部署性（FDD）分类框架，强调按用途选择建模保真度。综述还考察实验与现场验证，并讨论数字孪生与AI智能体在自主光网络中的互补作用。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W7104950176",
+      "doi": "10.48550/arxiv.2511.06368",
+      "title": "Optical Network Digital Twin -- Practical Use Cases and Architecture",
+      "authors": [
+        "Nishizawa, Hideki",
+        "Mano, Toru",
+        "Anazawa, Kazuya",
+        "Matsumura, Tatsuya",
+        "Sasai, Takeo",
+        "Namiki, Masatoshi",
+        "Briantcev, Dmitrii",
+        "Ambrosone, Renato",
+        "Rouzic, Esther Le",
+        "Melin, Stefan",
+        "Gonzalez-de-Dios, Oscar",
+        "Fernandez-Palacios, Juan Pedro",
+        "Zhang, Xiaocheng",
+        "Akahoshi, Keigo",
+        "Grammel, Gert",
+        "D'Amico, Andrea",
+        "Borraccini, Giacomo",
+        "Ruffini, Marco",
+        "Daniel C. Kilper",
+        "Curri, Vittorio"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical networks",
+        "machine-to-machine communication",
+        "AI-driven network management",
+        "coherent optical transmission",
+        "transmission quality",
+        "network optimization",
+        "digital twin architecture"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2511.06368",
+      "cited_by_count": 5,
+      "importance": 0.4277,
+      "score_basis": {
+        "topic_overlap": 0.506,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1604059807",
+      "doi": "10.48550/arxiv.1209.0394",
+      "title": "A Detailed Analytical Derivation of the GN Model of Non-Linear Interference in Coherent Optical Transmission Systems",
+      "authors": [
+        "Pierluigi T. Poggiolini",
+        "Gabriella Bosco",
+        "Andrea Carena",
+        "Vittorio Curri",
+        "Yanchao Jiang",
+        "F. Forghieri"
+      ],
+      "year": 2012,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "coherent optical transmission",
+        "perturbative model",
+        "fiber nonlinearity"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.1209.0394",
+      "cited_by_count": 91,
+      "importance": 0.2876,
+      "score_basis": {
+        "topic_overlap": 0.195,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4366999886",
+      "doi": "10.48550/arxiv.2304.11756",
+      "title": "Introducing the Perturbative Solution of the Inter-Channel Stimulated Raman Scattering in Single-Mode Optical Fibers",
+      "authors": [
+        "Andrea D’Amico",
+        "Giacomo Borraccini",
+        "Vittorio Curri"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "perturbation solution",
+        "single-mode fiber",
+        "wavelength division multiplexing",
+        "ordinary differential equations"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2304.11756",
+      "cited_by_count": 7,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W7225387611",
+      "to": "W1604059807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225387611"
+        }
+      ]
+    },
+    {
+      "from": "W7225387611",
+      "to": "W4366999886",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225387611"
+        }
+      ]
+    },
+    {
+      "from": "W7225387611",
+      "to": "W7104950176",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225387611"
+        }
+      ]
+    }
+  ]
 }

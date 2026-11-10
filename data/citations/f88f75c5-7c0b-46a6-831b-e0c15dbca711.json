@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "f88f75c5-7c0b-46a6-831b-e0c15dbca711",
-  "root": "doi:10.1038/s41598-026-76850-w",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7204796565",
+  "status": "ok",
+  "checked_at": "2026-11-10T00:51:20.156947+00:00",
+  "coverage": {
+    "references_found": 14,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 14,
+    "displayed": 14
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1038/s41598-026-76850-w",
+      "id": "W7204796565",
       "doi": "10.1038/s41598-026-76850-w",
       "title": "Performance analysis of dual-IRS-assisted NOMA for underwater visible light communication in turbulent channels",
       "authors": [
@@ -18,20 +28,907 @@
         "Goutham Veerapu",
         "Vinod Kiran Kappala"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Scientific Reports",
       "venue_abbr": "Sci. Rep.",
       "rank_label": "未匹配 CIE 2023",
-      "keywords": [],
+      "keywords": [
+        "underwater visible light communication",
+        "reconfigurable intelligent surface",
+        "non-orthogonal multiple access",
+        "atmospheric turbulence",
+        "outage probability",
+        "average bit error rate",
+        "Meijer G-function",
+        "underwater wireless communication"
+      ],
       "url": "https://doi.org/10.1038/s41598-026-76850-w",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/f88f75c5-7c0b-46a6-831b-e0c15dbca711.html",
       "summary": "该研究提出双智能反射面（IRS）辅助的水下可见光非正交多址（NOMA）通信架构，建立包含直达路径、反射辅助路径及吸收、散射和湍流影响的信道模型，以指数广义伽马分布描述湍流。作者推导信道分布、中断概率和平均误码率的解析表达式，评估遍历容量，并开展高信噪比渐近中断分析。摘要报告解析结果与蒙特卡洛仿真吻合，并显示所提架构的性能收益。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W3020573511",
+      "doi": "10.1109/lwc.2020.2988887",
+      "title": "Performance Analysis of NOMA Assisted Underwater Visible Light Communication System",
+      "authors": [
+        "Monika Jain",
+        "Nikhil Sharma",
+        "Akash Kumar Gupta",
+        "Divyang Rawal",
+        "Parul Garg"
+      ],
+      "year": 2020,
+      "venue": "IEEE Wireless Communications Letters",
+      "venue_abbr": "IEEE Wireless Communications Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "non-orthogonal multiple access",
+        "underwater visible light communication",
+        "bit error rate",
+        "ergodic capacity",
+        "air bubbles",
+        "temperature gradient",
+        "salinity",
+        "underwater wireless sensor networks"
+      ],
+      "url": "https://doi.org/10.1109/lwc.2020.2988887",
+      "cited_by_count": 66,
+      "importance": 0.6245,
+      "score_basis": {
+        "topic_overlap": 0.61,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3161441039",
+      "doi": "10.1016/j.vehcom.2021.100359",
+      "title": "NOMA assisted underwater visible light communication system with full-duplex cooperative relaying",
+      "authors": [
+        "Monika Jain",
+        "Nikhil Sharma",
+        "Akash Kumar Gupta",
+        "Divyang Rawal",
+        "Parul Garg"
+      ],
+      "year": 2021,
+      "venue": "Vehicular Communications",
+      "venue_abbr": "Vehicular Communications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "non-orthogonal multiple access",
+        "underwater visible light communication",
+        "outage probability",
+        "coverage probability",
+        "imperfect successive interference cancellation",
+        "residual self-interference",
+        "water salinity",
+        "temperature gradient"
+      ],
+      "url": "https://doi.org/10.1016/j.vehcom.2021.100359",
+      "cited_by_count": 25,
+      "importance": 0.5938,
+      "score_basis": {
+        "topic_overlap": 0.52,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404102097",
+      "doi": "10.1109/tvt.2024.3492284",
+      "title": "Smart Element Allocation Strategies for Dynamic Optical IRS in Underwater Wireless Communication",
+      "authors": [
+        "Rehana Salam",
+        "Vivek Ashok Bohara",
+        "Anand Kumar Srivastava"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Vehicular Technology",
+      "venue_abbr": "IEEE Transactions on Vehicular Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical intelligent reflecting surface",
+        "underwater optical communication",
+        "non-line-of-sight propagation",
+        "user fairness",
+        "non-orthogonal multiple access",
+        "ocean depth",
+        "pointing errors",
+        "SNR probability density function",
+        "asymptotic analysis"
+      ],
+      "url": "https://doi.org/10.1109/tvt.2024.3492284",
+      "cited_by_count": 14,
+      "importance": 0.5842,
+      "score_basis": {
+        "topic_overlap": 0.409,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415593884",
+      "doi": "10.1109/access.2025.3626018",
+      "title": "Emerging Concepts for Revolutionizing Underwater Visible Light Communication: A Review",
+      "authors": [
+        "S Prathibha Praharsha",
+        "Miriyala Mahesh"
+      ],
+      "year": 2025,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater visible light communication",
+        "underwater wireless communication",
+        "non-orthogonal multiple access",
+        "reconfigurable intelligent surface",
+        "cognitive radio",
+        "space-time block coding",
+        "machine learning for communications",
+        "spectral efficiency",
+        "link reliability",
+        "dynamic spectrum access",
+        "diversity gain"
+      ],
+      "url": "https://doi.org/10.1109/access.2025.3626018",
+      "cited_by_count": 6,
+      "importance": 0.5738,
+      "score_basis": {
+        "topic_overlap": 0.386,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3202219797",
+      "doi": "10.1109/ojcoms.2021.3116146",
+      "title": "Average Rate Analysis of Cooperative NOMA Aided Underwater Optical Wireless Systems",
+      "authors": [
+        "Kapila W. S. Palitharathna",
+        "Himal A. Suraweera",
+        "Roshan Indika Godaliyadda",
+        "Vijitha Rohana Herath",
+        "John Thompson"
+      ],
+      "year": 2021,
+      "venue": "IEEE Open Journal of the Communications Society",
+      "venue_abbr": "IEEE Open Journal of the Communications Society",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "non-orthogonal multiple access",
+        "underwater optical communication",
+        "cooperative relaying",
+        "power allocation",
+        "transmission power",
+        "node placement",
+        "throughput maximization"
+      ],
+      "url": "https://doi.org/10.1109/ojcoms.2021.3116146",
+      "cited_by_count": 23,
+      "importance": 0.556,
+      "score_basis": {
+        "topic_overlap": 0.524,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3208816471",
+      "doi": "10.1109/access.2021.3122399",
+      "title": "Capacity Analysis of NOMA-Enabled Underwater VLC Networks",
+      "authors": [
+        "Mohammed Elamassie",
+        "Lina Bariah",
+        "Murat Uysal",
+        "Sami Muhaidat",
+        "Paschalis C. Sofotasios"
+      ],
+      "year": 2021,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "non-orthogonal multiple access",
+        "visible light communication",
+        "underwater wireless sensor networks",
+        "sum capacity",
+        "OFDMA comparison",
+        "propagation distance",
+        "spectral efficiency"
+      ],
+      "url": "https://doi.org/10.1109/access.2021.3122399",
+      "cited_by_count": 34,
+      "importance": 0.5216,
+      "score_basis": {
+        "topic_overlap": 0.404,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2897734900",
+      "doi": "10.1109/tcomm.2019.2891542",
+      "title": "Unified Statistical Channel Model for Turbulence-Induced Fading in Underwater Wireless Optical Communication Systems",
+      "authors": [
+        "Emna Zedini",
+        "Hassan M. Oubei",
+        "Abla Kammoun",
+        "Mounir Hamdi",
+        "Boon Siew Ooi",
+        "Mohamed‐Slim Alouini"
+      ],
+      "year": 2019,
+      "venue": "IEEE Transactions on Communications",
+      "venue_abbr": "IEEE Trans. Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "underwater optical communication",
+        "turbulence-induced fading",
+        "statistical channel model",
+        "air bubbles",
+        "temperature gradient",
+        "irradiance fluctuations",
+        "expectation-maximization estimation",
+        "outage probability",
+        "bit error rate",
+        "ergodic capacity"
+      ],
+      "url": "https://doi.org/10.1109/tcomm.2019.2891542",
+      "cited_by_count": 329,
+      "importance": 0.4398,
+      "score_basis": {
+        "topic_overlap": 0.355,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402731658",
+      "doi": "10.1007/s11082-024-07426-z",
+      "title": "Underwater visible light communication: recent advancements and channel modeling",
+      "authors": [
+        "Abdelrahman Elfikky",
+        "Ayman I. Boghdady",
+        "Sajid Mumtaz",
+        "Ebrahim E. Elsayed",
+        "Mehtab Singh",
+        "Somia A. Abd El-Mottaleb",
+        "Syed Agha Hassnain Mohsan",
+        "Moustafa H. Aly"
+      ],
+      "year": 2024,
+      "venue": "Optical and Quantum Electronics",
+      "venue_abbr": "Optical and Quantum Electronics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater visible light communication",
+        "modulation schemes",
+        "single-carrier modulation",
+        "multicarrier modulation",
+        "pulse position modulation",
+        "OFDM",
+        "channel modeling",
+        "absorption and scattering",
+        "ocean turbulence",
+        "bit error rate",
+        "channel estimation",
+        "spectral efficiency"
+      ],
+      "url": "https://doi.org/10.1007/s11082-024-07426-z",
+      "cited_by_count": 54,
+      "importance": 0.4213,
+      "score_basis": {
+        "topic_overlap": 0.225,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4315474196",
+      "doi": "10.1109/jphot.2023.3235916",
+      "title": "Intelligent Reflecting Surfaces for Underwater Visible Light Communications",
+      "authors": [
+        "Yalçın Ata",
+        "Hanaa Abumarshoud",
+        "Lina Bariah",
+        "Sami Muhaidat",
+        "Muhammad Ali Imran"
+      ],
+      "year": 2023,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "reconfigurable intelligent surface",
+        "underwater visible light communication",
+        "underwater optical communication",
+        "outage probability",
+        "pointing errors",
+        "ocean turbulence",
+        "beam displacement"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2023.3235916",
+      "cited_by_count": 65,
+      "importance": 0.402,
+      "score_basis": {
+        "topic_overlap": 0.404,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411187761",
+      "doi": "10.3390/photonics12060593",
+      "title": "Visible Light Communication for Underwater Applications: Principles, Challenges, and Future Prospects",
+      "authors": [
+        "Vindula L. Jayaweera",
+        "Chamodi Peiris",
+        "Dhanushika Darshani",
+        "Sampath Edirisinghe",
+        "Nishan Dharmaweera",
+        "Uditha Wijewardhana"
+      ],
+      "year": 2025,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "visible light communication",
+        "underwater wireless communication",
+        "underwater optical communication",
+        "QAM-OFDM",
+        "PAM4 modulation",
+        "underwater exploration",
+        "autonomous underwater vehicles",
+        "underwater monitoring",
+        "security challenges",
+        "quantum communication",
+        "reconfigurable intelligent surface",
+        "spectral efficiency"
+      ],
+      "url": "https://doi.org/10.3390/photonics12060593",
+      "cited_by_count": 26,
+      "importance": 0.3723,
+      "score_basis": {
+        "topic_overlap": 0.227,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404548220",
+      "doi": "10.1016/j.vehcom.2024.100859",
+      "title": "A survey of intelligent reflecting surfaces: Performance analysis, extensions, potential challenges, and open research issues",
+      "authors": [
+        "Adil Khan",
+        "Syed Agha Hassnain Mohsan",
+        "Abdelrahman Elfikky",
+        "Ayman I. Boghdady",
+        "Shabeer Ahmad",
+        "Nisreen Innab"
+      ],
+      "year": 2024,
+      "venue": "Vehicular Communications",
+      "venue_abbr": "Vehicular Communications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reconfigurable intelligent surface",
+        "passive beamforming",
+        "spectral efficiency",
+        "energy efficiency",
+        "coverage enhancement",
+        "non-orthogonal multiple access",
+        "terahertz communication",
+        "6G",
+        "channel estimation",
+        "interference management",
+        "wireless network deployment"
+      ],
+      "url": "https://doi.org/10.1016/j.vehcom.2024.100859",
+      "cited_by_count": 17,
+      "importance": 0.3632,
+      "score_basis": {
+        "topic_overlap": 0.252,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3129486236",
+      "doi": "10.1109/tcomm.2021.3051897",
+      "title": "Intelligent Reflecting Surface-Aided Wireless Communications: A Tutorial",
+      "authors": [
+        "Qingqing Wu",
+        "Shuowen Zhang",
+        "Beixiong Zheng",
+        "Changsheng You",
+        "Rui Zhang"
+      ],
+      "year": 2021,
+      "venue": "IEEE Transactions on Communications",
+      "venue_abbr": "IEEE Trans. Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "reconfigurable intelligent surface",
+        "channel estimation",
+        "channel models",
+        "hardware architecture",
+        "wireless network capacity"
+      ],
+      "url": "https://doi.org/10.1109/tcomm.2021.3051897",
+      "cited_by_count": 3158,
+      "importance": 0.301,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2802495557",
+      "doi": "10.1109/comst.2018.2835558",
+      "title": "A Survey of Non-Orthogonal Multiple Access for 5G",
+      "authors": [
+        "Linglong Dai",
+        "Bichai Wang",
+        "Zhiguo Ding",
+        "Zhaocheng Wang",
+        "Sheng Chen",
+        "Lajos Hanzo"
+      ],
+      "year": 2018,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "non-orthogonal multiple access",
+        "5G",
+        "orthogonal multiple access",
+        "power-domain NOMA",
+        "code-domain NOMA",
+        "inter-user interference cancellation",
+        "spectral efficiency",
+        "receiver complexity",
+        "information-theoretic analysis",
+        "resource allocation"
+      ],
+      "url": "https://doi.org/10.1109/comst.2018.2835558",
+      "cited_by_count": 1353,
+      "importance": 0.2907,
+      "score_basis": {
+        "topic_overlap": 0.201,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2782870384",
+      "doi": "10.1109/mwc.2018.1700070",
+      "title": "Non-Orthogonal Multiple Access: A Unified Perspective",
+      "authors": [
+        "Qi Wang",
+        "Rong Zhang",
+        "Lie‐Liang Yang",
+        "Lajos Hanzo"
+      ],
+      "year": 2018,
+      "venue": "IEEE Wireless Communications",
+      "venue_abbr": "IEEE Wireless Communications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "non-orthogonal multiple access",
+        "unified framework",
+        "peak-to-average power ratio",
+        "grant-free access",
+        "user load",
+        "hybrid NOMA",
+        "resource allocation",
+        "channel estimation",
+        "cellular networks"
+      ],
+      "url": "https://doi.org/10.1109/mwc.2018.1700070",
+      "cited_by_count": 119,
+      "importance": 0.2898,
+      "score_basis": {
+        "topic_overlap": 0.2,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W3020573511",
+      "to": "W2897734900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3020573511"
+        }
+      ]
+    },
+    {
+      "from": "W3161441039",
+      "to": "W2897734900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3161441039"
+        }
+      ]
+    },
+    {
+      "from": "W3161441039",
+      "to": "W3020573511",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3161441039"
+        }
+      ]
+    },
+    {
+      "from": "W3202219797",
+      "to": "W3020573511",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202219797"
+        }
+      ]
+    },
+    {
+      "from": "W3202219797",
+      "to": "W3161441039",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3202219797"
+        }
+      ]
+    },
+    {
+      "from": "W3208816471",
+      "to": "W3020573511",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3208816471"
+        }
+      ]
+    },
+    {
+      "from": "W3208816471",
+      "to": "W3161441039",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3208816471"
+        }
+      ]
+    },
+    {
+      "from": "W4402731658",
+      "to": "W2897734900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402731658"
+        }
+      ]
+    },
+    {
+      "from": "W4402731658",
+      "to": "W3202219797",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402731658"
+        }
+      ]
+    },
+    {
+      "from": "W4404102097",
+      "to": "W2897734900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404102097"
+        }
+      ]
+    },
+    {
+      "from": "W4404102097",
+      "to": "W3020573511",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404102097"
+        }
+      ]
+    },
+    {
+      "from": "W4404102097",
+      "to": "W3208816471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404102097"
+        }
+      ]
+    },
+    {
+      "from": "W4404102097",
+      "to": "W4315474196",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404102097"
+        }
+      ]
+    },
+    {
+      "from": "W4404548220",
+      "to": "W3129486236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404548220"
+        }
+      ]
+    },
+    {
+      "from": "W4411187761",
+      "to": "W4402731658",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411187761"
+        }
+      ]
+    },
+    {
+      "from": "W4415593884",
+      "to": "W3020573511",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415593884"
+        }
+      ]
+    },
+    {
+      "from": "W4415593884",
+      "to": "W3161441039",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415593884"
+        }
+      ]
+    },
+    {
+      "from": "W4415593884",
+      "to": "W3208816471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415593884"
+        }
+      ]
+    },
+    {
+      "from": "W4415593884",
+      "to": "W4411187761",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415593884"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W2782870384",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W2802495557",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W2897734900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W3020573511",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W3129486236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W3161441039",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W3202219797",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W3208816471",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W4315474196",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W4402731658",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W4404102097",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W4404548220",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W4411187761",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    },
+    {
+      "from": "W7204796565",
+      "to": "W4415593884",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7204796565"
+        }
+      ]
+    }
+  ]
 }

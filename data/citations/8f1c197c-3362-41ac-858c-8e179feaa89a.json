@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "8f1c197c-3362-41ac-858c-8e179feaa89a",
-  "root": "doi:10.1364/ofc.2026.tu3h.5",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7163187217",
+  "status": "ok",
+  "checked_at": "2026-11-11T00:50:45.094550+00:00",
+  "coverage": {
+    "references_found": 6,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 6,
+    "displayed": 6
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ofc.2026.tu3h.5",
+      "id": "W7163187217",
       "doi": "10.1364/ofc.2026.tu3h.5",
       "title": "Continuously Tunable, Low Phase Noise Photonic Frequency Synthesizer over 3–170 GHz for High Performance mm-wave Communications",
       "authors": [
@@ -18,20 +28,376 @@
         "Izzat Darwazeh",
         "Zhixin Liu"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optical Fiber Communication Conference",
       "venue_abbr": "OFC",
       "rank_label": "不适用期刊等级",
-      "keywords": [],
+      "keywords": [
+        "low phase noise",
+        "phase-locked lasers",
+        "frequency divider",
+        "jitter",
+        "millimeter-wave communication",
+        "D-band",
+        "QPSK",
+        "16-QAM",
+        "high-speed optical transmission"
+      ],
       "url": "https://doi.org/10.1364/ofc.2026.tu3h.5",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/8f1c197c-3362-41ac-858c-8e179feaa89a.html",
       "summary": "摘要报告实验演示：采用锁相窄线宽激光器与分频辅助架构，实现3–170 GHz可调频率合成；24 GHz以下抖动为39 fs，170 GHz时为12 fs，并演示D波段1 GBd QPSK/16-QAM传输。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4401726349",
+      "doi": "10.1109/jlt.2024.3446827",
+      "title": "938 Gb/s, 5–150 GHz Ultra-Wideband Transmission Over the Air Using Combined Electronic and Photonic-Assisted Signal Generation",
+      "authors": [
+        "Zichuan Zhou",
+        "Amany Kassem",
+        "James Seddon",
+        "Eric Sillekens",
+        "Izzat Darwazeh",
+        "Polina Bayvel",
+        "Zhixin Liu"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "millimeter-wave communication",
+        "microwave photonics",
+        "OFDM",
+        "digital-to-analog converter",
+        "W-band",
+        "D-band",
+        "radio access network",
+        "carrier frequency synchronization",
+        "phase noise reduction",
+        "crystal oscillator",
+        "bit loading"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3446827",
+      "cited_by_count": 17,
+      "importance": 0.4669,
+      "score_basis": {
+        "topic_overlap": 0.371,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3184775613",
+      "doi": "10.1038/s41467-021-24637-0",
+      "title": "A low-noise photonic heterodyne synthesizer and its application to millimeter-wave radar",
+      "authors": [
+        "Eric A. Kittlaus",
+        "Danny Eliyahu",
+        "Setareh Ganji",
+        "Skip Williams",
+        "Andrey B. Matsko",
+        "Ken B. Cooper",
+        "Siamak Forouhar"
+      ],
+      "year": 2021,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "microwave photonics",
+        "millimeter-wave generation",
+        "phase noise",
+        "FMCW radar",
+        "ranging accuracy",
+        "tunable semiconductor laser",
+        "coherent heterodyne detection"
+      ],
+      "url": "https://doi.org/10.1038/s41467-021-24637-0",
+      "cited_by_count": 143,
+      "importance": 0.466,
+      "score_basis": {
+        "topic_overlap": 0.48,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2802777054",
+      "doi": "10.1038/s41586-018-0065-7",
+      "title": "An optical-frequency synthesizer using integrated photonics",
+      "authors": [
+        "Daryl T. Spencer",
+        "Tara E. Drake",
+        "Travis C. Briles",
+        "Jordan R. Stone",
+        "Laura C. Sinclair",
+        "Connor D. Fredrick",
+        "Qing Li",
+        "Daron Westly",
+        "B. Ilic",
+        "Aaron Bluestone",
+        "Nicolas Volet",
+        "Tin Komljenović",
+        "Lin Chang",
+        "Seung Hoon Lee",
+        "Dong Yoon Oh",
+        "Myoung‐Gyun Suh",
+        "Ki Youl Yang",
+        "Martin H. P. Pfeiffer",
+        "Tobias Jan Kippenberg",
+        "Erik J. Norberg",
+        "Luke S. Theogarajan",
+        "Kerry J. Vahala",
+        "Nathan R. Newbury",
+        "Kartik A. Srinivasan",
+        "John Edward Bowers",
+        "Scott A. Diddams",
+        "Scott B. Papp"
+      ],
+      "year": 2018,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical frequency synthesizer",
+        "integrated photonics",
+        "tunable lasers",
+        "frequency stability",
+        "C-band"
+      ],
+      "url": "https://doi.org/10.1038/s41586-018-0065-7",
+      "cited_by_count": 963,
+      "importance": 0.3029,
+      "score_basis": {
+        "topic_overlap": 0.229,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2157693819",
+      "doi": "10.1038/nphoton.2011.121",
+      "title": "Generation of ultrastable microwaves via optical frequency division",
+      "authors": [
+        "Tara M. Fortier",
+        "Matthew S. Kirchner",
+        "Franklyn Quinlan",
+        "Jennifer A. Taylor",
+        "Jonas Bergquist",
+        "Till Rosenband",
+        "N. Lemke",
+        "Andrew D. Ludlow",
+        "Yina Jiang",
+        "Chris W. Oates",
+        "Scott A. Diddams"
+      ],
+      "year": 2011,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical frequency division",
+        "microwave generation",
+        "frequency combs",
+        "high-Q optical resonators",
+        "fractional frequency instability",
+        "coherent optical systems",
+        "atomic time",
+        "precision spectroscopy"
+      ],
+      "url": "https://doi.org/10.1038/nphoton.2011.121",
+      "cited_by_count": 912,
+      "importance": 0.2868,
+      "score_basis": {
+        "topic_overlap": 0.148,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2030022336",
+      "doi": "10.1364/oe.18.008621",
+      "title": "Phase-locking of the beat signal of two distributed-feedback diode lasers to oscillators working in the MHz to THz range",
+      "authors": [
+        "Fabian Friederich",
+        "Gunter Schuricht",
+        "Anselm J. Deninger",
+        "Frank Lison",
+        "Gunnar Spickermann",
+        "P. Haring Bolívar",
+        "Hartmut G. Roskos"
+      ],
+      "year": 2010,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "distributed feedback lasers",
+        "phase locking",
+        "local oscillator",
+        "terahertz sources",
+        "electro-optic detection"
+      ],
+      "url": "https://doi.org/10.1364/oe.18.008621",
+      "cited_by_count": 65,
+      "importance": 0.233,
+      "score_basis": {
+        "topic_overlap": 0.029,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4295872755",
+      "doi": "10.1109/comst.2022.3205505",
+      "title": "Terahertz Channel Propagation Phenomena, Measurement Techniques and Modeling for 6G Wireless Communication Applications: A Survey, Open Challenges and Future Research Directions",
+      "authors": [
+        "Demos Serghiou",
+        "Mohsen Khalily",
+        "Tim Brown",
+        "Rahim Tafazolli"
+      ],
+      "year": 2022,
+      "venue": "IEEE Communications Surveys & Tutorials",
+      "venue_abbr": "IEEE Communications Surveys & Tutorials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "terahertz communication",
+        "channel propagation",
+        "6G",
+        "channel measurement",
+        "channel modeling",
+        "open problems"
+      ],
+      "url": "https://doi.org/10.1109/comst.2022.3205505",
+      "cited_by_count": 338,
+      "importance": 0.227,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W3184775613",
+      "to": "W2157693819",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3184775613"
+        }
+      ]
+    },
+    {
+      "from": "W4401726349",
+      "to": "W2030022336",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401726349"
+        }
+      ]
+    },
+    {
+      "from": "W4401726349",
+      "to": "W4295872755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401726349"
+        }
+      ]
+    },
+    {
+      "from": "W7163187217",
+      "to": "W2030022336",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163187217"
+        }
+      ]
+    },
+    {
+      "from": "W7163187217",
+      "to": "W2157693819",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163187217"
+        }
+      ]
+    },
+    {
+      "from": "W7163187217",
+      "to": "W2802777054",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163187217"
+        }
+      ]
+    },
+    {
+      "from": "W7163187217",
+      "to": "W3184775613",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163187217"
+        }
+      ]
+    },
+    {
+      "from": "W7163187217",
+      "to": "W4295872755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163187217"
+        }
+      ]
+    },
+    {
+      "from": "W7163187217",
+      "to": "W4401726349",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163187217"
+        }
+      ]
+    }
+  ]
 }

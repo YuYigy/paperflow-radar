@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "e5ff6040-6102-4c02-a81c-75158c8649de",
-  "root": "doi:10.1364/ofc.2026.tu2d.3",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7163169734",
+  "status": "ok",
+  "checked_at": "2026-11-11T00:50:45.186048+00:00",
+  "coverage": {
+    "references_found": 3,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 3,
+    "displayed": 3
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ofc.2026.tu2d.3",
+      "id": "W7163169734",
       "doi": "10.1364/ofc.2026.tu2d.3",
       "title": "Samsung Foundry 300-mm Silicon Photonics Platform for HPC/AI Applications",
       "authors": [
@@ -25,7 +35,7 @@
         "Dongheon Kim",
         "Seyoon Kim",
         "Sihan Kim",
-        "Young Chul Kim",
+        "Young Kwan Kim",
         "Yunji Kim",
         "Junyeong Kim",
         "Taehong Min",
@@ -33,32 +43,220 @@
         "Raeyoung Park",
         "Yeonjae Park",
         "Jin-Yeong Park",
-        "Chan-Wook Baik",
+        "Chan‐Wook Baik",
         "Dongjun Seo",
         "Seungkyun Song",
         "Hyeonseok Sim",
         "Doojun Eom",
         "Byungeun Yun",
         "Duhyun Lee",
-        "Woo-Bin Lee",
+        "Woo‐Bin Lee",
         "Eunhyup Lee",
         "Jihyung Lee",
-        "et al."
+        "Chanyang Lee",
+        "Changbum Lee",
+        "Woongbae Jeon",
+        "Kwangho Jeong",
+        "Min Suk Jeong",
+        "Kyung‐Sang Cho",
+        "Kwansik Cho",
+        "Hyoungrae Cho",
+        "Sein Choi",
+        "최재원",
+        "Jaeho Choi",
+        "Junghoon Chey",
+        "최준익",
+        "Soonchoel Her",
+        "Seungjun Kim",
+        "Hyochul Kim",
+        "Hyundai Park",
+        "Kangho Lee"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optical Fiber Communication Conference",
       "venue_abbr": "OFC",
       "rank_label": "不适用期刊等级",
-      "keywords": [],
+      "keywords": [
+        "silicon photonics",
+        "300 mm wafers",
+        "optical interconnects",
+        "photonic devices",
+        "high-performance computing",
+        "artificial intelligence"
+      ],
       "url": "https://doi.org/10.1364/ofc.2026.tu2d.3",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/e5ff6040-6102-4c02-a81c-75158c8649de.html",
       "summary": "该文介绍三星晶圆代工面向下一代光互连的300毫米硅光平台近期进展，回顾平台概况、光子器件性能及工艺设计套件（PDK）。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W3188674373",
+      "doi": "10.1109/jlt.2021.3066203",
+      "title": "Review of Silicon Photonics Technology and Platform Development",
+      "authors": [
+        "Shawn Yohanes Siew",
+        "B. Li",
+        "Feng Gao",
+        "Han Yue Zheng",
+        "W. Zhang",
+        "P. Guo",
+        "Shangran Xie",
+        "A. Song",
+        "Bin Dong",
+        "L. W. Luo",
+        "C. Li",
+        "Xianshu Luo",
+        "G. Q. Lo"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon photonics",
+        "photonic integrated circuits",
+        "process design kit",
+        "device library",
+        "commercialization",
+        "photonic integration"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3066203",
+      "cited_by_count": 1012,
+      "importance": 0.3453,
+      "score_basis": {
+        "topic_overlap": 0.323,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2038163262",
+      "doi": "10.1038/srep06310",
+      "title": "Optical Peaking Enhancement in High-Speed Ring Modulators",
+      "authors": [
+        "Juliana Müller",
+        "Florian Merget",
+        "Saeed Sharif Azadeh",
+        "Johannes Hauck",
+        "Sebastián Romero-García",
+        "B. Shen",
+        "Jeremy Witzens"
+      ],
+      "year": 2014,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "electro-optic response",
+        "transient dynamics",
+        "peaking amplifier",
+        "electro-optic bandwidth",
+        "intersymbol interference",
+        "eye diagram",
+        "wavelength division multiplexing",
+        "high-speed optical links",
+        "equivalent circuit model"
+      ],
+      "url": "https://doi.org/10.1038/srep06310",
+      "cited_by_count": 132,
+      "importance": 0.3323,
+      "score_basis": {
+        "topic_overlap": 0.25,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2344703042",
+      "doi": "10.1109/jstqe.2016.2560149",
+      "title": "Parametric Characterization of Self-Heating in Depletion-Type Si Micro-Ring Modulators",
+      "authors": [
+        "Myung Jin Shin",
+        "Yoojin Ban",
+        "Byung-Min Yu",
+        "Jinsoo Rhim",
+        "Lars Zimmermann",
+        "Woo‐Young Choi"
+      ],
+      "year": 2016,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "self-heating",
+        "silicon microring resonator",
+        "free carrier absorption",
+        "effective refractive index",
+        "coupled mode theory",
+        "doping concentration",
+        "device size dependence"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2016.2560149",
+      "cited_by_count": 32,
+      "importance": 0.3095,
+      "score_basis": {
+        "topic_overlap": 0.132,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2344703042",
+      "to": "W2038163262",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2344703042"
+        }
+      ]
+    },
+    {
+      "from": "W7163169734",
+      "to": "W2038163262",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163169734"
+        }
+      ]
+    },
+    {
+      "from": "W7163169734",
+      "to": "W2344703042",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163169734"
+        }
+      ]
+    },
+    {
+      "from": "W7163169734",
+      "to": "W3188674373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163169734"
+        }
+      ]
+    }
+  ]
 }

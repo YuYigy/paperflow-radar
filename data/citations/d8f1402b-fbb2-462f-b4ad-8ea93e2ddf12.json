@@ -1,19 +1,29 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "d8f1402b-fbb2-462f-b4ad-8ea93e2ddf12",
-  "root": "doi:10.1364/ofc.2026.th2a.72",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7163175731",
+  "status": "ok",
+  "checked_at": "2026-11-11T00:50:42.541906+00:00",
+  "coverage": {
+    "references_found": 10,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 10,
+    "displayed": 10
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ofc.2026.th2a.72",
+      "id": "W7163175731",
       "doi": "10.1364/ofc.2026.th2a.72",
       "title": "Impact of Antenna Misalignment on a 30-km D-Band Photonics-Assisted Wireless Link",
       "authors": [
-        "Xin Lu",
+        "Xin Lü",
         "Jianjun Yu",
         "Ye Zhou",
         "Hansong Ma",
@@ -27,20 +37,579 @@
         "Feng Zhao",
         "Jianguo Yu"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optical Fiber Communication Conference",
       "venue_abbr": "OFC",
       "rank_label": "不适用期刊等级",
-      "keywords": [],
+      "keywords": [
+        "antenna misalignment",
+        "D-band",
+        "terahertz communication",
+        "long-range wireless links",
+        "10 Gb/s transmission",
+        "misalignment tolerance"
+      ],
       "url": "https://doi.org/10.1364/ofc.2026.th2a.72",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/d8f1402b-fbb2-462f-b4ad-8ea93e2ddf12.html",
       "summary": "摘要报告，在30公里D波段光子辅助无线系统中实现了10 Gbps信号传输，天线失准容限为0.65°，并据此验证了长距离太赫兹系统的理论模型，为天线对准提供定量指导。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4408840933",
+      "doi": "10.1109/jlt.2025.3553834",
+      "title": "Realizing 10 Gbps Frequency Continuously Tunable D-Band Signal Transmission With 20 Kilometers Wireless Distance Based on Photon Assistance",
+      "authors": [
+        "Xin Lü",
+        "Jianjun Yu",
+        "Weiping Li",
+        "Xianming Zhao",
+        "Min Zhu",
+        "Jiao Zhang",
+        "Xiongwei Yang",
+        "Mingxu Wang",
+        "Yi Wei",
+        "Qinyi Zhang",
+        "Jiali Chen",
+        "Luhan Jiang",
+        "Sicong Xu",
+        "Qiutong Zhang",
+        "Chengzhen Bian",
+        "Jianguo Yu",
+        "Feng Zhao",
+        "Wen Yan Zhou",
+        "Kaihui Wang"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "bit error rate",
+        "hard-decision forward error correction",
+        "millimeter-wave communication"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3553834",
+      "cited_by_count": 11,
+      "importance": 0.5394,
+      "score_basis": {
+        "topic_overlap": 0.31,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285192749",
+      "doi": "10.1109/tcomm.2022.3171800",
+      "title": "Terahertz Band Communication: An Old Problem Revisited and Research Directions for the Next Decade",
+      "authors": [
+        "Ian Fuat Akyildiz",
+        "Chong Zhao Han",
+        "Zhifeng Hu",
+        "Shuai Nie",
+        "Josep Miquel Jornet"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Communications",
+      "venue_abbr": "IEEE Trans. Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "terahertz communication",
+        "6G",
+        "beyond 6G",
+        "terahertz devices",
+        "research challenges"
+      ],
+      "url": "https://doi.org/10.1109/tcomm.2022.3171800",
+      "cited_by_count": 742,
+      "importance": 0.3776,
+      "score_basis": {
+        "topic_overlap": 0.195,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388398575",
+      "doi": "10.1007/s11432-023-3834-5",
+      "title": "Over 100 Gb/s mm-wave delivery with 4600 m wireless distance based on dual polarization multiplexing",
+      "authors": [
+        "Weiping Li",
+        "Jianjun Yu",
+        "Xiaoxue Ji",
+        "Jiaxuan Liu",
+        "Feng Wang",
+        "Bowen Zhu",
+        "Wen Yan Zhou",
+        "Feng Zhao",
+        "Jianguo Yu"
+      ],
+      "year": 2023,
+      "venue": "Science China Information Sciences",
+      "venue_abbr": "Sci. China Inf. Sci.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "W-band",
+        "radio-over-fiber",
+        "6G",
+        "beyond 5G",
+        "millimeter-wave links"
+      ],
+      "url": "https://doi.org/10.1007/s11432-023-3834-5",
+      "cited_by_count": 24,
+      "importance": 0.3563,
+      "score_basis": {
+        "topic_overlap": 0.303,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2057518223",
+      "doi": "10.1109/map.2015.2401796",
+      "title": "Atmospheric Attenuation in Wireless Communication Systems at Millimeter and THz Frequencies [Wireless Corner]",
+      "authors": [
+        "Gustavo A. Siles",
+        "José Manuel Riera",
+        "Pedro García-del-Pino"
+      ],
+      "year": 2015,
+      "venue": "IEEE Antennas and Propagation Magazine",
+      "venue_abbr": "IEEE Antennas and Propagation Magazine",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "atmospheric attenuation",
+        "millimeter-wave communication",
+        "terahertz communication",
+        "rain attenuation",
+        "atmospheric gases",
+        "water droplets",
+        "clouds",
+        "precipitation particles",
+        "suspended particulate matter",
+        "attenuation statistics",
+        "meteorological observations"
+      ],
+      "url": "https://doi.org/10.1109/map.2015.2401796",
+      "cited_by_count": 170,
+      "importance": 0.3494,
+      "score_basis": {
+        "topic_overlap": 0.287,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4313366949",
+      "doi": "10.1038/s41928-022-00897-6",
+      "title": "Multi-kilometre and multi-gigabit-per-second sub-terahertz communications for wireless backhaul applications",
+      "authors": [
+        "Priyangshu Sen",
+        "José V. Siles",
+        "Ngwe Thawdar",
+        "Josep Miquel Jornet"
+      ],
+      "year": 2022,
+      "venue": "Nature Electronics",
+      "venue_abbr": "Nat. Electron.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "sub-terahertz communication",
+        "long-distance wireless links",
+        "wireless backhaul",
+        "6G",
+        "frequency multiplier",
+        "Schottky diodes",
+        "high-power terahertz sources"
+      ],
+      "url": "https://doi.org/10.1038/s41928-022-00897-6",
+      "cited_by_count": 161,
+      "importance": 0.3482,
+      "score_basis": {
+        "topic_overlap": 0.218,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2533121438",
+      "doi": "10.1117/12.2247054",
+      "title": "Optimum design of Cassegrain antenna for space laser communication",
+      "authors": [
+        "Yuan Z. Hu",
+        "Lun Jiang",
+        "Chao Wang",
+        "Yingchao Li"
+      ],
+      "year": 2016,
+      "venue": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "venue_abbr": "Proceedings of SPIE, the International Society for Optical Engineering/Proceedings of SPIE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "Cassegrain antenna",
+        "space laser communication",
+        "beam divergence",
+        "diffraction limit",
+        "energy loss",
+        "optical antennas",
+        "atmospheric channel"
+      ],
+      "url": "https://doi.org/10.1117/12.2247054",
+      "cited_by_count": 4,
+      "importance": 0.2927,
+      "score_basis": {
+        "topic_overlap": 0.161,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3156622738",
+      "doi": "10.1109/jsac.2021.3071834",
+      "title": "Terahertz Ultra-Massive MIMO-Based Aeronautical Communications in Space-Air-Ground Integrated Networks",
+      "authors": [
+        "Anwen Liao",
+        "Zhen Gao",
+        "Dongming Wang",
+        "Hua Wang",
+        "Hao Yin",
+        "Derrick Wing Kwan Ng",
+        "Mohamed‐Slim Alouini"
+      ],
+      "year": 2021,
+      "venue": "IEEE Journal on Selected Areas in Communications",
+      "venue_abbr": "JSAC",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "terahertz communication",
+        "ultra-massive MIMO",
+        "aviation communication",
+        "space-air-ground integrated networks",
+        "channel estimation",
+        "channel tracking",
+        "Rotman lens",
+        "angle estimation",
+        "Doppler frequency estimation",
+        "beam alignment",
+        "Cramer-Rao lower bound"
+      ],
+      "url": "https://doi.org/10.1109/jsac.2021.3071834",
+      "cited_by_count": 105,
+      "importance": 0.2871,
+      "score_basis": {
+        "topic_overlap": 0.149,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3011055215",
+      "doi": "10.1109/lcomm.2020.2981336",
+      "title": "Performance Analysis of THz Wireless Systems in the Presence of Antenna Misalignment and Phase Noise",
+      "authors": [
+        "Evangelos N. Papasotiriou",
+        "Alexandros–Apostolos A. Boulogeorgos",
+        "Angeliki Alexiou"
+      ],
+      "year": 2020,
+      "venue": "IEEE Communications Letters",
+      "venue_abbr": "IEEE Communications Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "antenna misalignment",
+        "local oscillator phase noise",
+        "hardware impairments",
+        "outage probability",
+        "high SNR approximation",
+        "closed-form outage analysis"
+      ],
+      "url": "https://doi.org/10.1109/lcomm.2020.2981336",
+      "cited_by_count": 63,
+      "importance": 0.2791,
+      "score_basis": {
+        "topic_overlap": 0.176,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4297860450",
+      "doi": "10.3390/su141811744",
+      "title": "A Review on Rain Signal Attenuation Modeling, Analysis and Validation Techniques: Advances, Challenges and Future Direction",
+      "authors": [
+        "Emmanuel Alozie",
+        "Abubakar Abdulkarim",
+        "Ibrahim Abdullahi",
+        "Aliyu D. Usman",
+        "Nasir Faruk",
+        "Yusuf Olayinka Imam-Fulani",
+        "Kayode S. Adewole",
+        "Abdulkarim Ayopo Oloyede",
+        "Haruna Chiroma",
+        "Olugbenga Akinkunmi Sowande",
+        "Lukman Abiodun Olawoyin",
+        "Salisu Garba",
+        "Agbotiname Lucky Imoize",
+        "Abdulwaheed Musa",
+        "Yinusa A. Adediran",
+        "Lawan Sani Taura"
+      ],
+      "year": 2022,
+      "venue": "Sustainability",
+      "venue_abbr": "Sustainability",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "rain attenuation",
+        "model validation",
+        "extremely high frequency",
+        "millimeter-wave propagation",
+        "atmospheric attenuation"
+      ],
+      "url": "https://doi.org/10.3390/su141811744",
+      "cited_by_count": 78,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2805625015",
+      "doi": "10.1109/tap.2018.2841414",
+      "title": "Design of a Wideband Circularly Polarized Millimeter-Wave Antenna With an Extended Hemispherical Lens",
+      "authors": [
+        "Kai Xu Wang",
+        "Hang Wong"
+      ],
+      "year": 2018,
+      "venue": "IEEE Transactions on Antennas and Propagation",
+      "venue_abbr": "IEEE Transactions on Antennas and Propagation",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "circularly polarized antenna",
+        "millimeter-wave antennas",
+        "wideband antenna",
+        "high-gain antenna",
+        "3D-printed antenna",
+        "axial ratio bandwidth",
+        "impedance bandwidth",
+        "Snell's law",
+        "antenna miniaturization"
+      ],
+      "url": "https://doi.org/10.1109/tap.2018.2841414",
+      "cited_by_count": 111,
+      "importance": 0.2084,
+      "score_basis": {
+        "topic_overlap": 0.019,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W4285192749",
+      "to": "W3156622738",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285192749"
+        }
+      ]
+    },
+    {
+      "from": "W4313366949",
+      "to": "W4285192749",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4313366949"
+        }
+      ]
+    },
+    {
+      "from": "W4408840933",
+      "to": "W2057518223",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408840933"
+        }
+      ]
+    },
+    {
+      "from": "W4408840933",
+      "to": "W2533121438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408840933"
+        }
+      ]
+    },
+    {
+      "from": "W4408840933",
+      "to": "W4285192749",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408840933"
+        }
+      ]
+    },
+    {
+      "from": "W4408840933",
+      "to": "W4388398575",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4408840933"
+        }
+      ]
+    },
+    {
+      "from": "W7163175731",
+      "to": "W2057518223",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163175731"
+        }
+      ]
+    },
+    {
+      "from": "W7163175731",
+      "to": "W2533121438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163175731"
+        }
+      ]
+    },
+    {
+      "from": "W7163175731",
+      "to": "W2805625015",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163175731"
+        }
+      ]
+    },
+    {
+      "from": "W7163175731",
+      "to": "W3011055215",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163175731"
+        }
+      ]
+    },
+    {
+      "from": "W7163175731",
+      "to": "W3156622738",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163175731"
+        }
+      ]
+    },
+    {
+      "from": "W7163175731",
+      "to": "W4285192749",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163175731"
+        }
+      ]
+    },
+    {
+      "from": "W7163175731",
+      "to": "W4297860450",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163175731"
+        }
+      ]
+    },
+    {
+      "from": "W7163175731",
+      "to": "W4313366949",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163175731"
+        }
+      ]
+    },
+    {
+      "from": "W7163175731",
+      "to": "W4388398575",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163175731"
+        }
+      ]
+    },
+    {
+      "from": "W7163175731",
+      "to": "W4408840933",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163175731"
+        }
+      ]
+    }
+  ]
 }

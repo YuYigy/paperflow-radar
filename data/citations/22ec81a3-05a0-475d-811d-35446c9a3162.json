@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "22ec81a3-05a0-475d-811d-35446c9a3162",
-  "root": "doi:10.1364/ofc.2026.m3f.5",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7163160952",
+  "status": "ok",
+  "checked_at": "2026-11-11T00:50:42.541906+00:00",
+  "coverage": {
+    "references_found": 4,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 4,
+    "displayed": 4
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ofc.2026.m3f.5",
+      "id": "W7163160952",
       "doi": "10.1364/ofc.2026.m3f.5",
       "title": "Training-Phase-Aware Optical Circuit Switching Reconfiguration for Large Language Model",
       "authors": [
@@ -21,20 +31,226 @@
         "Richard Penty",
         "Qixiang Cheng"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optical Fiber Communication Conference",
       "venue_abbr": "OFC",
       "rank_label": "不适用期刊等级",
-      "keywords": [],
+      "keywords": [
+        "optical circuit switching",
+        "optical network reconfiguration",
+        "large language model training",
+        "dynamic topology",
+        "optical interconnects"
+      ],
       "url": "https://doi.org/10.1364/ofc.2026.m3f.5",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/22ec81a3-05a0-475d-811d-35446c9a3162.html",
       "summary": "论文提出训练阶段感知的光网络，利用光电路交换器动态重配置阶段最优拓扑，并结合 Rabenseifner/Bruck 映射与时隙摊销。摘要报告，在所采用的大模型训练配置下，相较静态光网络，通信加快37.5%。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W3153986782",
+      "doi": "10.1109/jlt.2021.3073277",
+      "title": "X-NEST: A Scalable, Flexible, and High-Performance Network Architecture for Distributed Machine Learning",
+      "authors": [
+        "Yunfeng Lu",
+        "Huaxi Gu",
+        "Xiaoshan Yu",
+        "Peng Li"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical interconnection networks",
+        "distributed learning",
+        "neural network training",
+        "network reconfiguration",
+        "optical switching",
+        "dynamic topology",
+        "synchronization algorithms",
+        "communication topology",
+        "control plane",
+        "network scalability",
+        "traffic patterns"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3073277",
+      "cited_by_count": 21,
+      "importance": 0.3582,
+      "score_basis": {
+        "topic_overlap": 0.352,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403248362",
+      "doi": "10.1364/jocn.534317",
+      "title": "Optical switching for data centers and advanced computing systems [Invited]",
+      "authors": [
+        "Giannis Patronas",
+        "Nikos Terzenidis",
+        "Prethvi Kashinkunti",
+        "Eitan Zahavi",
+        "Dimitris Syrivelis",
+        "Louis Capps",
+        "Zsolt-Alon Wertheimer",
+        "N. Argyris",
+        "Athanasios Fevgas",
+        "Craig Thompson",
+        "Avraham Ganor",
+        "Julie Bernauer",
+        "Elad Mentovich",
+        "Paraskevas Bakopoulos"
+      ],
+      "year": 2024,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical switching",
+        "optical circuit switches",
+        "software-defined networking",
+        "data centers",
+        "HPC clusters",
+        "failure resilience",
+        "deep learning training",
+        "network programmability",
+        "physical layer"
+      ],
+      "url": "https://doi.org/10.1364/jocn.534317",
+      "cited_by_count": 38,
+      "importance": 0.3416,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390051523",
+      "doi": "10.1145/3635867",
+      "title": "DeepFlow: A Cross-Stack Pathfinding Framework for Distributed AI Systems",
+      "authors": [
+        "Newsha Ardalani",
+        "Saptadeep Pal",
+        "Puneet Gupta"
+      ],
+      "year": 2023,
+      "venue": "ACM Transactions on Design Automation of Electronic Systems",
+      "venue_abbr": "ACM Transactions on Design Automation of Electronic Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "hardware resource utilization",
+        "performance modeling",
+        "design space exploration",
+        "cross-layer analysis",
+        "co-optimization",
+        "crossflow"
+      ],
+      "url": "https://doi.org/10.1145/3635867",
+      "cited_by_count": 21,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2897089376",
+      "doi": "10.1364/optica.5.001354",
+      "title": "Recent advances in optical technologies for data centers: a review",
+      "authors": [
+        "Qixiang Cheng",
+        "Meisam Bahadori",
+        "Madeleine Strom Glick",
+        "Sébastien Rumley",
+        "K. Bergman"
+      ],
+      "year": 2018,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "data center optical interconnects",
+        "optical interconnects",
+        "optical modulators",
+        "photodiode",
+        "optical switches",
+        "optical lasers",
+        "data center networks"
+      ],
+      "url": "https://doi.org/10.1364/optica.5.001354",
+      "cited_by_count": 696,
+      "importance": 0.2117,
+      "score_basis": {
+        "topic_overlap": 0.026,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W7163160952",
+      "to": "W2897089376",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163160952"
+        }
+      ]
+    },
+    {
+      "from": "W7163160952",
+      "to": "W3153986782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163160952"
+        }
+      ]
+    },
+    {
+      "from": "W7163160952",
+      "to": "W4390051523",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163160952"
+        }
+      ]
+    },
+    {
+      "from": "W7163160952",
+      "to": "W4403248362",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163160952"
+        }
+      ]
+    }
+  ]
 }

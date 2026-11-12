@@ -1,40 +1,209 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "ff25ab12-1dce-411c-8fbb-f37ac3388621",
-  "root": "doi:10.1364/ofc.2026.th3j.3",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7163194196",
+  "status": "ok",
+  "checked_at": "2026-11-11T00:50:44.837901+00:00",
+  "coverage": {
+    "references_found": 3,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 3,
+    "displayed": 3
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ofc.2026.th3j.3",
+      "id": "W7163194196",
       "doi": "10.1364/ofc.2026.th3j.3",
       "title": "Practical Considerations for Laser Selection in DSP-free Coherent Systems Employing a Pilot-Tone-Assisted Optical Phase-Locked Loop",
       "authors": [
         "Jingchuan Wang",
-        "Mohamad Idjadi",
+        "Mohamad Hossein Idjadi",
         "Xi Chen",
-        "Gregory Raybon",
+        "G. Raybon",
         "Callum Deakin",
         "Brian Stern",
         "Di Che"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optical Fiber Communication Conference",
       "venue_abbr": "OFC",
       "rank_label": "不适用期刊等级",
-      "keywords": [],
+      "keywords": [
+        "laser phase noise",
+        "coherent optical communication",
+        "pilot tones",
+        "optical phase-locked loop",
+        "16-QAM",
+        "hollow-core fiber",
+        "laser selection",
+        "high-speed optical transmission"
+      ],
       "url": "https://doi.org/10.1364/ofc.2026.th3j.3",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/ff25ab12-1dce-411c-8fbb-f37ac3388621.html",
       "summary": "研究实现了评估激光相位噪声所致性能代价的框架，并在经10公里空芯光纤传输、最高支持130 GBaud 16-QAM的无DSP系统中验证。该框架连接激光器与系统建模，旨在提供实用的激光器选型指导。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W2163113439",
+      "doi": "10.1109/50.202807",
+      "title": "Carrier synchronization for homodyne and heterodyne detection of optical quadriphase-shift keying",
+      "authors": [
+        "John R. Barry",
+        "Joseph M. Kahn"
+      ],
+      "year": 1992,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "carrier synchronization",
+        "homodyne detection",
+        "heterodyne detection",
+        "Costas loop",
+        "laser phase noise",
+        "shot noise",
+        "feedback delay"
+      ],
+      "url": "https://doi.org/10.1109/50.202807",
+      "cited_by_count": 69,
+      "importance": 0.3366,
+      "score_basis": {
+        "topic_overlap": 0.304,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3126476031",
+      "doi": "10.1038/s41566-021-00831-w",
+      "title": "Optically synchronized fibre links using spectrally pure chip-scale lasers",
+      "authors": [
+        "Grant M. Brodnik",
+        "Mark W. Harrington",
+        "John H. Dallyn",
+        "Debapam Bose",
+        "Wei Zhang",
+        "Liron Stern",
+        "Paul A. Morton",
+        "Ryan O. Behunin",
+        "Scott B. Papp",
+        "Daniel J. Blumenthal"
+      ],
+      "year": 2021,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical synchronization",
+        "chip-scale lasers",
+        "stimulated Brillouin scattering",
+        "cavity stabilization",
+        "optical frequency stabilization",
+        "phase-locked loop",
+        "phase error variance",
+        "narrow-linewidth laser",
+        "quantum links"
+      ],
+      "url": "https://doi.org/10.1038/s41566-021-00831-w",
+      "cited_by_count": 52,
+      "importance": 0.2779,
+      "score_basis": {
+        "topic_overlap": 0.173,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4382359869",
+      "doi": "10.1038/s41377-023-01172-9",
+      "title": "Linewidth narrowing in self-injection-locked on-chip lasers",
+      "authors": [
+        "E. Alkhazraji",
+        "Weng W. Chow",
+        "Frédéric Grillot",
+        "John Edward Bowers",
+        "Yating Wan"
+      ],
+      "year": 2023,
+      "venue": "Light: Science & Applications",
+      "venue_abbr": "LSA",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "self-injection locking",
+        "on-chip lasers",
+        "linewidth narrowing",
+        "composite cavity",
+        "quantum dot lasers",
+        "quantum well lasers",
+        "gain saturation",
+        "density of states",
+        "threshold current",
+        "output power",
+        "multi-objective optimization"
+      ],
+      "url": "https://doi.org/10.1038/s41377-023-01172-9",
+      "cited_by_count": 69,
+      "importance": 0.2586,
+      "score_basis": {
+        "topic_overlap": 0.13,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W7163194196",
+      "to": "W2163113439",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163194196"
+        }
+      ]
+    },
+    {
+      "from": "W7163194196",
+      "to": "W3126476031",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163194196"
+        }
+      ]
+    },
+    {
+      "from": "W7163194196",
+      "to": "W4382359869",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163194196"
+        }
+      ]
+    }
+  ]
 }

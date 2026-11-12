@@ -1,0 +1,3781 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "3074d95c-c27a-437a-8ef9-241e48207e43",
+  "root": "W7154037420",
+  "status": "ok",
+  "checked_at": "2026-11-12T00:54:57.538307+00:00",
+  "coverage": {
+    "references_found": 51,
+    "citing_found": 1,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 52,
+    "displayed": 40
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7154037420",
+      "doi": "10.1145/3806395",
+      "title": "OptoLink: Breaking Memory Bandwidth Bottlenecks in FHE Accelerators with Photonic Interconnects",
+      "authors": [
+        "Dewan Saiham",
+        "Di Wu",
+        "Sazadur Rahman"
+      ],
+      "year": 2026,
+      "venue": "ACM Transactions on Design Automation of Electronic Systems",
+      "venue_abbr": "ACM Transactions on Design Automation of Electronic Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fully homomorphic encryption",
+        "optical interconnects",
+        "memory bandwidth bottleneck",
+        "chiplets",
+        "wavelength division multiplexing",
+        "space-division multiplexing",
+        "number theoretic transform",
+        "broadcast and multicast",
+        "F1",
+        "ark"
+      ],
+      "url": "https://doi.org/10.1145/3806395",
+      "cited_by_count": 1,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/3074d95c-c27a-437a-8ef9-241e48207e43.html",
+      "summary": "论文提出芯粒级光互连架构 OptoLink，利用波分复用和空分复用缓解全同态加密加速器的存储带宽与片外通信瓶颈，并支持广播和组播。摘要报告设计带宽最高为1.6 TB/s，覆盖128个光通道。基于扩展的FHE仿真框架，CKKS自举吞吐量在HEAX上最高提升11倍，在F1和ARK上最高提升1.6倍。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4416963451",
+      "doi": "10.1109/islped65674.2025.11261747",
+      "title": "Can Photonic Interconnects be used for High-Throughput Memory Access in FHE Accelerators?",
+      "authors": [
+        "Dewan Saiham",
+        "Mariam Rabadi",
+        "Di Wu",
+        "Sazadur Rahman"
+      ],
+      "year": 2025,
+      "venue": "International Symposium on Low Power Electronics and Design (ISLPED)",
+      "venue_abbr": "International Symposium on Low Power Electronics and Design (ISLPED)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fully homomorphic encryption",
+        "optical interconnects",
+        "wavelength division multiplexing",
+        "space-division multiplexing",
+        "memory bandwidth",
+        "memory access",
+        "data broadcasting",
+        "parallel computing",
+        "energy efficiency",
+        "encrypted data processing"
+      ],
+      "url": "https://doi.org/10.1109/islped65674.2025.11261747",
+      "cited_by_count": 3,
+      "importance": 0.7103,
+      "score_basis": {
+        "topic_overlap": 0.578,
+        "shared_references": 23,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4307925365",
+      "doi": "10.1109/micro56248.2022.00086",
+      "title": "ARK: Fully Homomorphic Encryption Accelerator with Runtime Data Generation and Inter-Operation Key Reuse",
+      "authors": [
+        "Jongmin Kim",
+        "Gwangho Lee",
+        "Sangpyo Kim",
+        "Gina Sohn",
+        "Minsoo Rhu",
+        "John Kim",
+        "Jung Ho Ahn"
+      ],
+      "year": 2022,
+      "venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "venue_abbr": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fully homomorphic encryption",
+        "bootstrapping",
+        "key reuse",
+        "algorithm-architecture co-design",
+        "on-chip memory",
+        "number theoretic transform",
+        "base conversion",
+        "post-quantum cryptography",
+        "privacy-preserving computation"
+      ],
+      "url": "https://doi.org/10.1109/micro56248.2022.00086",
+      "cited_by_count": 182,
+      "importance": 0.602,
+      "score_basis": {
+        "topic_overlap": 0.116,
+        "shared_references": 24,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4281609193",
+      "doi": "10.1145/3470496.3527415",
+      "title": "BTS",
+      "authors": [
+        "Sangpyo Kim",
+        "Jongmin Kim",
+        "Michael Jaemin Kim",
+        "Wonkyung Jung",
+        "John Kim",
+        "Minsoo Rhu",
+        "Jung Ho Ahn"
+      ],
+      "year": 2022,
+      "venue": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+      "venue_abbr": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fully homomorphic encryption",
+        "bootstrapping",
+        "hardware accelerators",
+        "encrypted data processing"
+      ],
+      "url": "https://doi.org/10.1145/3470496.3527415",
+      "cited_by_count": 235,
+      "importance": 0.589,
+      "score_basis": {
+        "topic_overlap": 0.087,
+        "shared_references": 18,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3207326900",
+      "doi": "10.1145/3466752.3480070",
+      "title": "F1: A Fast and Programmable Accelerator for Fully Homomorphic Encryption",
+      "authors": [
+        "Nikola Samardzic",
+        "Axel Feldmann",
+        "Aleksandar Krastev",
+        "Srinivas Devadas",
+        "Ronald Dreslinski",
+        "Christopher Peikert",
+        "Daniel Sánchez"
+      ],
+      "year": 2021,
+      "venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "venue_abbr": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fully homomorphic encryption",
+        "hardware accelerators",
+        "encrypted data processing",
+        "untrusted server",
+        "performance overhead",
+        "programmable hardware"
+      ],
+      "url": "https://doi.org/10.1145/3466752.3480070",
+      "cited_by_count": 352,
+      "importance": 0.5834,
+      "score_basis": {
+        "topic_overlap": 0.074,
+        "shared_references": 9,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4281792301",
+      "doi": "10.1145/3470496.3527393",
+      "title": "CraterLake",
+      "authors": [
+        "Nikola Samardzic",
+        "Axel Feldmann",
+        "Aleksandar Krastev",
+        "Nathan Manohar",
+        "Nicholas Genise",
+        "Srinivas Devadas",
+        "Karim Eldefrawy",
+        "Chris Peikert",
+        "Daniel Sánchez"
+      ],
+      "year": 2022,
+      "venue": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+      "venue_abbr": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fully homomorphic encryption",
+        "computation offloading",
+        "untrusted server",
+        "cryptographic privacy",
+        "performance overhead",
+        "complex programs"
+      ],
+      "url": "https://doi.org/10.1145/3470496.3527393",
+      "cited_by_count": 234,
+      "importance": 0.5751,
+      "score_basis": {
+        "topic_overlap": 0.056,
+        "shared_references": 9,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3173128495",
+      "doi": "10.1109/access.2022.3159694",
+      "title": "Privacy-Preserving Machine Learning With Fully Homomorphic Encryption for Deep Neural Network",
+      "authors": [
+        "Joon-Woo Lee",
+        "HyungChul Kang",
+        "Yongwoo Lee",
+        "Woosuk Choi",
+        "Jieun Eom",
+        "Maxim Anatolievich Deryabin",
+        "Eunsang Lee",
+        "Junghyun Lee",
+        "Donghoon Yoo",
+        "Young-Sik Kim",
+        "Jong‐Seon No"
+      ],
+      "year": 2022,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "privacy-preserving machine learning",
+        "fully homomorphic encryption",
+        "deep neural network",
+        "bootstrapping",
+        "ResNet-20",
+        "CIFAR-10",
+        "softmax approximation",
+        "classification accuracy"
+      ],
+      "url": "https://doi.org/10.1109/access.2022.3159694",
+      "cited_by_count": 491,
+      "importance": 0.5731,
+      "score_basis": {
+        "topic_overlap": 0.051,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3094696138",
+      "doi": "10.1007/978-3-030-77870-5_21",
+      "title": "Efficient Bootstrapping for Approximate Homomorphic Encryption with Non-sparse Keys",
+      "authors": [
+        "Jean-Philippe Bossuat",
+        "Christian Mouchet",
+        "Juan Ramón Troncoso-Pastoriza",
+        "Jean‐Pierre Hubaux"
+      ],
+      "year": 2021,
+      "venue": "Lecture notes in computer science",
+      "venue_abbr": "Lecture notes in computer science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "bootstrapping",
+        "CKKS scheme",
+        "key switching",
+        "failure probability"
+      ],
+      "url": "https://doi.org/10.1007/978-3-030-77870-5_21",
+      "cited_by_count": 194,
+      "importance": 0.5663,
+      "score_basis": {
+        "topic_overlap": 0.036,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285259478",
+      "doi": "10.1109/tcsi.2022.3169953",
+      "title": "Ascend: A Scalable and Energy-Efficient Deep Neural Network Accelerator With Photonic Interconnects",
+      "authors": [
+        "Yuan Li",
+        "Ke Wang",
+        "Hao Zheng",
+        "Ahmed Louri",
+        "Avinash Karanth"
+      ],
+      "year": 2022,
+      "venue": "IEEE Transactions on Circuits and Systems I Regular Papers",
+      "venue_abbr": "IEEE Transactions on Circuits and Systems I Regular Papers",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "deep neural network accelerators",
+        "optical interconnects",
+        "broadcast communication",
+        "energy efficiency",
+        "deep neural network inference",
+        "inter-chip communication"
+      ],
+      "url": "https://doi.org/10.1109/tcsi.2022.3169953",
+      "cited_by_count": 30,
+      "importance": 0.5541,
+      "score_basis": {
+        "topic_overlap": 0.187,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3012235108",
+      "doi": "10.1145/3373376.3378523",
+      "title": "HEAX",
+      "authors": [
+        "M. Sadegh Riazi",
+        "Kim Laine",
+        "Blake Pelton",
+        "Wei Dai"
+      ],
+      "year": 2020,
+      "venue": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+      "venue_abbr": "International Conference on Architectural Support for Programming Languages and Operating Systems (ASPLOS)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fully homomorphic encryption",
+        "hardware architecture",
+        "number theoretic transform",
+        "modular arithmetic",
+        "reconfigurable hardware",
+        "lattice-based cryptography",
+        "encrypted data processing"
+      ],
+      "url": "https://doi.org/10.1145/3373376.3378523",
+      "cited_by_count": 262,
+      "importance": 0.5501,
+      "score_basis": {
+        "topic_overlap": 0.111,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4360831809",
+      "doi": "10.1109/hpca56546.2023.10070953",
+      "title": "FAB: An FPGA-based Accelerator for Bootstrappable Fully Homomorphic Encryption",
+      "authors": [
+        "Rashmi Agrawal",
+        "Leo de Castro",
+        "Guowei Yang",
+        "Chiraag Juvekar",
+        "Rabia Tugce Yazicigil",
+        "Anantha P. Chandrakasan",
+        "Vinod Vaikuntanathan",
+        "Ajay Joshi"
+      ],
+      "year": 2023,
+      "venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "venue_abbr": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fully homomorphic encryption",
+        "bootstrapping",
+        "FPGA accelerator",
+        "hardware acceleration",
+        "multi-FPGA systems",
+        "cloud data privacy",
+        "memory bandwidth",
+        "operation scheduling"
+      ],
+      "url": "https://doi.org/10.1109/hpca56546.2023.10070953",
+      "cited_by_count": 161,
+      "importance": 0.5485,
+      "score_basis": {
+        "topic_overlap": 0.086,
+        "shared_references": 15,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3012457899",
+      "doi": "10.1109/access.2021.3096189",
+      "title": "Accelerating Fully Homomorphic Encryption Through Architecture-Centric Analysis and Optimization",
+      "authors": [
+        "Wonkyung Jung",
+        "Eojin Lee",
+        "Sangpyo Kim",
+        "Jongmin Kim",
+        "Nam Hoon Kim",
+        "Keewoo Lee",
+        "Chohong Min",
+        "Jung Hee Cheon",
+        "Jung Ho Ahn"
+      ],
+      "year": 2021,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fully homomorphic encryption",
+        "homomorphic multiplication",
+        "GPU acceleration",
+        "matrix transposition",
+        "memory access patterns",
+        "privacy-preserving cloud computing"
+      ],
+      "url": "https://doi.org/10.1109/access.2021.3096189",
+      "cited_by_count": 82,
+      "importance": 0.5385,
+      "score_basis": {
+        "topic_overlap": 0.063,
+        "shared_references": 10,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406521457",
+      "doi": "10.1109/tetc.2025.3528862",
+      "title": "FHEmem: A Processing In-Memory Accelerator for Fully Homomorphic Encryption",
+      "authors": [
+        "Minxuan Zhou",
+        "Yujin Nam",
+        "Pranav Gangwar",
+        "Weihong Xu",
+        "Arpan Dutta",
+        "Chris B. Wilkerson",
+        "Rosario Cammarota",
+        "Saransh Gupta",
+        "Tajana Rosing"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Emerging Topics in Computing",
+      "venue_abbr": "IEEE Transactions on Emerging Topics in Computing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fully homomorphic encryption",
+        "in-memory computing",
+        "hardware accelerators",
+        "memory bandwidth bottleneck",
+        "encrypted data processing"
+      ],
+      "url": "https://doi.org/10.1109/tetc.2025.3528862",
+      "cited_by_count": 14,
+      "importance": 0.536,
+      "score_basis": {
+        "topic_overlap": 0.147,
+        "shared_references": 11,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3092440493",
+      "doi": "10.1109/hpca51647.2021.00013",
+      "title": "Cheetah: Optimizing and Accelerating Homomorphic Encryption for Private Inference",
+      "authors": [
+        "Brandon Reagen",
+        "Woo-Seok Choi",
+        "Yeongil Ko",
+        "Vincent T. Lee",
+        "Hsien-Hsin S. Lee",
+        "Gu-Yeon Wei",
+        "David M. Brooks"
+      ],
+      "year": 2021,
+      "venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "venue_abbr": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "homomorphic encryption",
+        "private inference",
+        "deep neural network inference",
+        "privacy-preserving machine learning",
+        "operator scheduling",
+        "hardware accelerators",
+        "real-time inference",
+        "encrypted data processing",
+        "cheetah"
+      ],
+      "url": "https://doi.org/10.1109/hpca51647.2021.00013",
+      "cited_by_count": 169,
+      "importance": 0.5199,
+      "score_basis": {
+        "topic_overlap": 0.044,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4360831824",
+      "doi": "10.1109/hpca56546.2023.10071017",
+      "title": "TensorFHE: Achieving Practical Computation on Encrypted Data Using GPGPU",
+      "authors": [
+        "Shengyu Fan",
+        "Zhiwei Wang",
+        "Weizhi Xu",
+        "Rui Hou",
+        "Dan Meng",
+        "Mingzhe Zhang"
+      ],
+      "year": 2023,
+      "venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "venue_abbr": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fully homomorphic encryption",
+        "GPGPU",
+        "encrypted data processing",
+        "number theoretic transform",
+        "data parallelism",
+        "privacy-preserving computation",
+        "NVIDIA A100",
+        "ASIC comparison"
+      ],
+      "url": "https://doi.org/10.1109/hpca56546.2023.10071017",
+      "cited_by_count": 111,
+      "importance": 0.515,
+      "score_basis": {
+        "topic_overlap": 0.1,
+        "shared_references": 14,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4360831815",
+      "doi": "10.1109/hpca56546.2023.10070984",
+      "title": "Poseidon: Practical Homomorphic Encryption Accelerator",
+      "authors": [
+        "Yinghao Yang",
+        "Huaizhi Zhang",
+        "Shengyu Fan",
+        "Hang Lu",
+        "Mingzhe Zhang",
+        "Xiaowei Li"
+      ],
+      "year": 2023,
+      "venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "venue_abbr": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fully homomorphic encryption",
+        "FPGA implementation",
+        "bootstrapping",
+        "key switching",
+        "rotation",
+        "number theoretic transform",
+        "automorphisms",
+        "modular addition",
+        "modular multiplication",
+        "privacy-preserving computation",
+        "Poseidon"
+      ],
+      "url": "https://doi.org/10.1109/hpca56546.2023.10070984",
+      "cited_by_count": 126,
+      "importance": 0.5139,
+      "score_basis": {
+        "topic_overlap": 0.098,
+        "shared_references": 14,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2309997581",
+      "doi": "10.1007/978-3-319-29172-7_11",
+      "title": "cuHE: A Homomorphic Encryption Accelerator Library",
+      "authors": [
+        "Wei Dai",
+        "Berk Sunar"
+      ],
+      "year": 2016,
+      "venue": "Lecture notes in computer science",
+      "venue_abbr": "Lecture notes in computer science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "homomorphic encryption",
+        "GPU acceleration",
+        "polynomial rings",
+        "number theoretic transform",
+        "Chinese remainder theorem",
+        "PRINCE block cipher",
+        "multiple GPUs",
+        "memory minimization",
+        "thread scheduling"
+      ],
+      "url": "https://doi.org/10.1007/978-3-319-29172-7_11",
+      "cited_by_count": 150,
+      "importance": 0.4918,
+      "score_basis": {
+        "topic_overlap": 0.093,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389491906",
+      "doi": "10.1145/3613424.3614302",
+      "title": "MAD: Memory-Aware Design Techniques for Accelerating Fully Homomorphic Encryption",
+      "authors": [
+        "Rashmi Agrawal",
+        "Leo de Castro",
+        "Chiraag Juvekar",
+        "Anantha P. Chandrakasan",
+        "Vinod Vaikuntanathan",
+        "Ajay Joshi"
+      ],
+      "year": 2023,
+      "venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "venue_abbr": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fully homomorphic encryption",
+        "bootstrapping",
+        "noise reduction",
+        "encrypted data processing",
+        "cloud privacy",
+        "performance acceleration"
+      ],
+      "url": "https://doi.org/10.1145/3613424.3614302",
+      "cited_by_count": 45,
+      "importance": 0.48,
+      "score_basis": {
+        "topic_overlap": 0.067,
+        "shared_references": 14,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2903536544",
+      "doi": "10.1007/978-3-030-17656-3_2",
+      "title": "Improved Bootstrapping for Approximate Homomorphic Encryption",
+      "authors": [
+        "Hao Chen",
+        "Ilaria Chillotti",
+        "Yongsoo Song"
+      ],
+      "year": 2019,
+      "venue": "Lecture notes in computer science",
+      "venue_abbr": "Lecture notes in computer science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "bootstrapping",
+        "approximate arithmetic",
+        "discrete Fourier transform",
+        "uniform approximation",
+        "sine function",
+        "Chebyshev polynomials"
+      ],
+      "url": "https://doi.org/10.1007/978-3-030-17656-3_2",
+      "cited_by_count": 183,
+      "importance": 0.4744,
+      "score_basis": {
+        "topic_overlap": 0.054,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2955685807",
+      "doi": "10.1007/978-3-030-40186-3_16",
+      "title": "Better Bootstrapping for Approximate Homomorphic Encryption",
+      "authors": [
+        "Kyoohyung Han",
+        "Dohyeong Ki"
+      ],
+      "year": 2020,
+      "venue": "Lecture notes in computer science",
+      "venue_abbr": "Lecture notes in computer science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "bootstrapping",
+        "modulus reduction",
+        "polynomial approximation",
+        "key switching",
+        "privacy-preserving data analysis"
+      ],
+      "url": "https://doi.org/10.1007/978-3-030-40186-3_16",
+      "cited_by_count": 213,
+      "importance": 0.4658,
+      "score_basis": {
+        "topic_overlap": 0.035,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2725254221",
+      "doi": "10.1145/3060517",
+      "title": "SWIFTNoC",
+      "authors": [
+        "Sai Vineel Reddy Chittamuru",
+        "Srinivas Desai",
+        "Sudeep Pasricha"
+      ],
+      "year": 2017,
+      "venue": "ACM Journal on Emerging Technologies in Computing Systems",
+      "venue_abbr": "ACM Journal on Emerging Technologies in Computing Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "network-on-chip",
+        "silicon photonics",
+        "multi-core processors",
+        "dynamic bandwidth allocation",
+        "on-chip interconnects",
+        "energy per bit",
+        "latency reduction",
+        "throughput"
+      ],
+      "url": "https://doi.org/10.1145/3060517",
+      "cited_by_count": 36,
+      "importance": 0.4196,
+      "score_basis": {
+        "topic_overlap": 0.266,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1577196785",
+      "doi": "10.1007/978-1-4419-9335-9",
+      "title": "Photonic Network-on-Chip Design",
+      "authors": [
+        "K. Bergman",
+        "Luca P. Carloni",
+        "Aleksandr Biberman",
+        "Johnnie Chan",
+        "Gilbert Hendry"
+      ],
+      "year": 2013,
+      "venue": "Integrated circuits and systems",
+      "venue_abbr": "Integrated circuits and systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical network-on-chip",
+        "silicon photonics",
+        "optical interconnects",
+        "photonic links",
+        "photonic integration"
+      ],
+      "url": "https://doi.org/10.1007/978-1-4419-9335-9",
+      "cited_by_count": 112,
+      "importance": 0.4164,
+      "score_basis": {
+        "topic_overlap": 0.392,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2116036846",
+      "doi": "10.1109/micro.2012.34",
+      "title": "Dynamic Reconfiguration of 3D Photonic Networks-on-Chip for Maximizing Performance and Improving Fault Tolerance",
+      "authors": [
+        "Randy Morris",
+        "Avinash Karanth",
+        "Ahmed Louri"
+      ],
+      "year": 2012,
+      "venue": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "venue_abbr": "IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical network-on-chip",
+        "3D stacking",
+        "dynamic reconfiguration",
+        "fault tolerance",
+        "power dissipation",
+        "channel bandwidth allocation",
+        "many-core architectures",
+        "energy efficiency",
+        "reconfigurable interconnects"
+      ],
+      "url": "https://doi.org/10.1109/micro.2012.34",
+      "cited_by_count": 51,
+      "importance": 0.4145,
+      "score_basis": {
+        "topic_overlap": 0.277,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2146274038",
+      "doi": "10.1109/jproc.2009.2014298",
+      "title": "Device Requirements for Optical Interconnects to Silicon Chips",
+      "authors": [
+        "David A. B. Miller"
+      ],
+      "year": 2009,
+      "venue": "Proceedings of the IEEE",
+      "venue_abbr": "Proceedings of the IEEE",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical interconnects",
+        "silicon chip",
+        "optoelectronic devices",
+        "optical modulators",
+        "on-chip waveguides",
+        "free-space optical communication",
+        "dense wavelength division multiplexing",
+        "interconnect density",
+        "high-performance computing",
+        "device scaling"
+      ],
+      "url": "https://doi.org/10.1109/jproc.2009.2014298",
+      "cited_by_count": 2004,
+      "importance": 0.3798,
+      "score_basis": {
+        "topic_overlap": 0.311,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2794974431",
+      "doi": "10.1007/978-3-319-78381-9_14",
+      "title": "Bootstrapping for Approximate Homomorphic Encryption",
+      "authors": [
+        "Jung Hee Cheon",
+        "Kyoohyung Han",
+        "Andrey Kim",
+        "Miran Kim",
+        "Yongsoo Song"
+      ],
+      "year": 2018,
+      "venue": "Lecture notes in computer science",
+      "venue_abbr": "Lecture notes in computer science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fully homomorphic encryption",
+        "bootstrapping",
+        "ring learning with errors",
+        "approximate arithmetic"
+      ],
+      "url": "https://doi.org/10.1007/978-3-319-78381-9_14",
+      "cited_by_count": 411,
+      "importance": 0.3792,
+      "score_basis": {
+        "topic_overlap": 0.065,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2942255051",
+      "doi": "10.1007/s00145-019-09319-x",
+      "title": "TFHE: Fast Fully Homomorphic Encryption Over the Torus",
+      "authors": [
+        "Ilaria Chillotti",
+        "Nicolas Gama",
+        "Mariya Georgieva",
+        "Malika Izabachène"
+      ],
+      "year": 2019,
+      "venue": "Journal of Cryptology",
+      "venue_abbr": "Journal of Cryptology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fully homomorphic encryption",
+        "bootstrapping",
+        "look-up table",
+        "weighted automata",
+        "ciphertext expansion",
+        "noise growth",
+        "parameter selection"
+      ],
+      "url": "https://doi.org/10.1007/s00145-019-09319-x",
+      "cited_by_count": 1096,
+      "importance": 0.3725,
+      "score_basis": {
+        "topic_overlap": 0.05,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2768174108",
+      "doi": "10.1007/978-3-319-70694-8_15",
+      "title": "Homomorphic Encryption for Arithmetic of Approximate Numbers",
+      "authors": [
+        "Jung Hee Cheon",
+        "Andrey Kim",
+        "Miran Kim",
+        "Yongsoo Song"
+      ],
+      "year": 2017,
+      "venue": "Lecture notes in computer science",
+      "venue_abbr": "Lecture notes in computer science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "homomorphic encryption",
+        "approximate arithmetic",
+        "rescaling",
+        "ring learning with errors",
+        "precision loss",
+        "cyclotomic rings",
+        "batching",
+        "floating-point operations",
+        "multiplicative inverse",
+        "discrete Fourier transform"
+      ],
+      "url": "https://doi.org/10.1007/978-3-319-70694-8_15",
+      "cited_by_count": 2667,
+      "importance": 0.3704,
+      "score_basis": {
+        "topic_overlap": 0.045,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2966536036",
+      "doi": "10.1609/aaai.v33i01.33019466",
+      "title": "Logistic Regression on Homomorphic Encrypted Data at Scale",
+      "authors": [
+        "Kyoohyung Han",
+        "Seungwan Hong",
+        "Jung Hee Cheon",
+        "Daejun Park"
+      ],
+      "year": 2019,
+      "venue": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "venue_abbr": "Proceedings of the AAAI Conference on Artificial Intelligence",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "homomorphic encryption",
+        "logistic regression",
+        "encrypted data",
+        "privacy-preserving machine learning",
+        "large-scale data",
+        "financial data",
+        "MNIST",
+        "Kolmogorov-Smirnov test"
+      ],
+      "url": "https://doi.org/10.1609/aaai.v33i01.33019466",
+      "cited_by_count": 146,
+      "importance": 0.365,
+      "score_basis": {
+        "topic_overlap": 0.033,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3130554079",
+      "doi": "10.1109/mm.2021.3061394",
+      "title": "NVIDIA A100 Tensor Core GPU: Performance and Innovation",
+      "authors": [
+        "Jack Choquette",
+        "Wish Gandhi",
+        "Olivier Giroux",
+        "Nick Stam",
+        "Ronny Krashinsky"
+      ],
+      "year": 2021,
+      "venue": "IEEE Micro",
+      "venue_abbr": "IEEE Micro",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "NVIDIA A100",
+        "tensor cores",
+        "GPU architecture",
+        "HPC workloads",
+        "AI workloads",
+        "data analytics",
+        "L2 cache",
+        "NVLink",
+        "GPU interconnects"
+      ],
+      "url": "https://doi.org/10.1109/mm.2021.3061394",
+      "cited_by_count": 461,
+      "importance": 0.36,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4214912425",
+      "doi": "10.1109/paap54281.2021.9720307",
+      "title": "Comparative Analysis of Simulators for Optical Network-on-Chip (ONoC)",
+      "authors": [
+        "Hao Zhang",
+        "Yawen Chen",
+        "Zhiyi Huang",
+        "Chengpeng Xia",
+        "Jianguo Liang",
+        "Huaxi Gu"
+      ],
+      "year": 2021,
+      "venue": "International Symposium on Parallel Architectures, Algorithms and Programming",
+      "venue_abbr": "International Symposium on Parallel Architectures, Algorithms and Programming",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical network-on-chip",
+        "on-chip optical interconnection",
+        "gem5",
+        "torus topology",
+        "insertion loss",
+        "network topology comparison",
+        "system simulation"
+      ],
+      "url": "https://doi.org/10.1109/paap54281.2021.9720307",
+      "cited_by_count": 5,
+      "importance": 0.3575,
+      "score_basis": {
+        "topic_overlap": 0.35,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2080106381",
+      "doi": "10.1109/hpca.2010.5416626",
+      "title": "FlexiShare: Channel sharing for an energy-efficient nanophotonic crossbar",
+      "authors": [
+        "Yan Pan",
+        "John Kim",
+        "Gokhan Memik"
+      ],
+      "year": 2010,
+      "venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "venue_abbr": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "network-on-chip",
+        "channel sharing",
+        "static power reduction",
+        "energy efficiency",
+        "credit distribution",
+        "buffer allocation",
+        "many-core architectures",
+        "optical interconnects",
+        "network throughput"
+      ],
+      "url": "https://doi.org/10.1109/hpca.2010.5416626",
+      "cited_by_count": 196,
+      "importance": 0.3515,
+      "score_basis": {
+        "topic_overlap": 0.248,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2794634409",
+      "doi": "10.1007/978-3-319-78381-9_12",
+      "title": "Homomorphic Lower Digits Removal and Improved FHE Bootstrapping",
+      "authors": [
+        "Hao Chen",
+        "Kyoohyung Han"
+      ],
+      "year": 2018,
+      "venue": "Lecture notes in computer science",
+      "venue_abbr": "Lecture notes in computer science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fully homomorphic encryption",
+        "bootstrapping",
+        "BGV scheme",
+        "HElib"
+      ],
+      "url": "https://doi.org/10.1007/978-3-319-78381-9_12",
+      "cited_by_count": 120,
+      "importance": 0.3466,
+      "score_basis": {
+        "topic_overlap": 0.081,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2913848248",
+      "doi": "10.1364/prj.7.000201",
+      "title": "Coupling strategies for silicon photonics integrated chips [Invited]",
+      "authors": [
+        "Riccardo Marchetti",
+        "Cosimo Lacava",
+        "Lee Carroll",
+        "Kamil Gradkowski",
+        "P. Minzioni"
+      ],
+      "year": 2019,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "fiber-to-chip coupling",
+        "optical coupler",
+        "photonic integrated circuits",
+        "optical packaging",
+        "fiber assemblies",
+        "coupling efficiency",
+        "polarization dependence",
+        "coupling bandwidth"
+      ],
+      "url": "https://doi.org/10.1364/prj.7.000201",
+      "cited_by_count": 659,
+      "importance": 0.3371,
+      "score_basis": {
+        "topic_overlap": 0.149,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4200628863",
+      "doi": "10.48550/arxiv.2112.06396",
+      "title": "Does Fully Homomorphic Encryption Need Compute Acceleration?",
+      "authors": [
+        "Leo de Castro",
+        "Rashmi Agrawal",
+        "Rabia Tugce Yazicigil",
+        "Anantha P. Chandrakasan",
+        "Vinod Vaikuntanathan",
+        "Chiraag Juvekar",
+        "Ajay Joshi"
+      ],
+      "year": 2021,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "fully homomorphic encryption",
+        "bootstrapping",
+        "noise reduction",
+        "arithmetic intensity",
+        "memory bandwidth bottleneck",
+        "private machine learning",
+        "hardware architecture"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2112.06396",
+      "cited_by_count": 54,
+      "importance": 0.3362,
+      "score_basis": {
+        "topic_overlap": 0.103,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4205474236",
+      "doi": "10.46586/tches.v2021.i4.114-148",
+      "title": "Over 100x Faster Bootstrapping in Fully Homomorphic Encryption through Memory-centric Optimization with GPUs",
+      "authors": [
+        "Wonkyung Jung",
+        "Sangpyo Kim",
+        "Jung Ho Ahn",
+        "Jung Hee Cheon",
+        "Younho Lee"
+      ],
+      "year": 2021,
+      "venue": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "venue_abbr": "IACR Transactions on Cryptographic Hardware and Embedded Systems",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fully homomorphic encryption",
+        "bootstrapping",
+        "CKKS scheme",
+        "GPU acceleration",
+        "kernel fusion",
+        "approximate arithmetic",
+        "performance bottlenecks"
+      ],
+      "url": "https://doi.org/10.46586/tches.v2021.i4.114-148",
+      "cited_by_count": 182,
+      "importance": 0.3357,
+      "score_basis": {
+        "topic_overlap": 0.079,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2177209050",
+      "doi": "10.1145/2633600",
+      "title": "(Leveled) Fully Homomorphic Encryption without Bootstrapping",
+      "authors": [
+        "Zvika Brakerski",
+        "Craig Gentry",
+        "Vinod Vaikuntanathan"
+      ],
+      "year": 2014,
+      "venue": "ACM Transactions on Computation Theory",
+      "venue_abbr": "ACM Transactions on Computation Theory",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "fully homomorphic encryption",
+        "bootstrapping",
+        "ring learning with errors",
+        "learning with errors",
+        "lattice-based cryptography",
+        "arithmetic circuits"
+      ],
+      "url": "https://doi.org/10.1145/2633600",
+      "cited_by_count": 1528,
+      "importance": 0.3258,
+      "score_basis": {
+        "topic_overlap": 0.057,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2048994663",
+      "doi": "10.1145/2213977.2214086",
+      "title": "On-the-fly multiparty computation on the cloud via multikey fully homomorphic encryption",
+      "authors": [
+        "Adriana López-Alt",
+        "Eran Tromer",
+        "Vinod Vaikuntanathan"
+      ],
+      "year": 2012,
+      "venue": "ACM Symposium on Theory of Computing (STOC)",
+      "venue_abbr": "ACM Symposium on Theory of Computing (STOC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "cloud security",
+        "untrusted cloud servers",
+        "privacy-preserving computation",
+        "data protection"
+      ],
+      "url": "https://doi.org/10.1145/2213977.2214086",
+      "cited_by_count": 939,
+      "importance": 0.3244,
+      "score_basis": {
+        "topic_overlap": 0.054,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3180709266",
+      "doi": "10.1093/nsr/nwab115",
+      "title": "Privacy-preserving computation in the post-quantum era",
+      "authors": [
+        "Yu Yu",
+        "Xiang Xie"
+      ],
+      "year": 2021,
+      "venue": "National Science Review",
+      "venue_abbr": "National Science Review",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "privacy-preserving computation",
+        "post-quantum cryptography",
+        "secure multi-party computation",
+        "zero-knowledge proofs",
+        "fully homomorphic encryption",
+        "cryptographic applications"
+      ],
+      "url": "https://doi.org/10.1093/nsr/nwab115",
+      "cited_by_count": 10,
+      "importance": 0.3225,
+      "score_basis": {
+        "topic_overlap": 0.05,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2945447474",
+      "doi": "10.1109/ises.2018.00060",
+      "title": "A Power Efficient Crossbar Arbitration in Multi-NoC for Multicast and Broadcast Traffic",
+      "authors": [
+        "Sonal Yadav",
+        "Vijay Laxmi",
+        "Hemangee K. Kapoor",
+        "Manoj Singh Gaur",
+        "Mark Zwoliński"
+      ],
+      "year": 2018,
+      "venue": "IEEE International Symposium on Smart Electronic Systems (iSES)",
+      "venue_abbr": "IEEE International Symposium on Smart Electronic Systems (iSES)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "multicast traffic",
+        "broadcast traffic",
+        "multi-core processors",
+        "inter-core communication",
+        "power consumption",
+        "critical path delay",
+        "timing closure"
+      ],
+      "url": "https://doi.org/10.1109/ises.2018.00060",
+      "cited_by_count": 4,
+      "importance": 0.3193,
+      "score_basis": {
+        "topic_overlap": 0.265,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2934510082",
+      "doi": "10.1109/hpca.2019.00052",
+      "title": "FPGA-Based High-Performance Parallel Architecture for Homomorphic Computing on Encrypted Data",
+      "authors": [
+        "Sujoy Sinha Roy",
+        "Furkan Turan",
+        "Kimmo U. Jarvinen",
+        "Fréderik Vercauteren",
+        "Ingrid M.R. Verbauwhede"
+      ],
+      "year": 2019,
+      "venue": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "venue_abbr": "IEEE International Symposium on High-Performance Computer Architecture (HPCA)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "homomorphic encryption",
+        "FPGA coprocessor",
+        "domain-specific architectures",
+        "privacy-preserving cloud computing",
+        "Xilinx Zynq UltraScale+ MPSoC",
+        "pipeline optimization",
+        "design space exploration",
+        "encrypted data processing"
+      ],
+      "url": "https://doi.org/10.1109/hpca.2019.00052",
+      "cited_by_count": 205,
+      "importance": 0.3183,
+      "score_basis": {
+        "topic_overlap": 0.041,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7117545607",
+      "doi": "10.1109/iccd65941.2025.00080",
+      "title": "ECOLogic: Enabling Circular, Obfuscated, and Adaptive Logic via eFPGA-Augmented SoCs",
+      "authors": [
+        "Ishraq Tashdid",
+        "Dewan Saiham",
+        "Nafisa Anjum",
+        "Tasnuva Farheen",
+        "Sazadur Rahman"
+      ],
+      "year": 2025,
+      "venue": "IEEE International Conference on Computer Design: VLSI in Computers and Processors (ICCD)",
+      "venue_abbr": "IEEE International Conference on Computer Design: VLSI in Computers and Processors (ICCD)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "reconfigurable system-on-chip",
+        "intellectual property piracy",
+        "hardware obfuscation",
+        "carbon footprint reduction",
+        "power efficiency"
+      ],
+      "url": "https://doi.org/10.1109/iccd65941.2025.00080",
+      "cited_by_count": 7,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "citing",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W2116036846",
+      "to": "W2080106381",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2116036846"
+        }
+      ]
+    },
+    {
+      "from": "W2309997581",
+      "to": "W2048994663",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2309997581"
+        }
+      ]
+    },
+    {
+      "from": "W2725254221",
+      "to": "W2080106381",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2725254221"
+        }
+      ]
+    },
+    {
+      "from": "W2725254221",
+      "to": "W2146274038",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2725254221"
+        }
+      ]
+    },
+    {
+      "from": "W2768174108",
+      "to": "W2048994663",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2768174108"
+        }
+      ]
+    },
+    {
+      "from": "W2794974431",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2794974431"
+        }
+      ]
+    },
+    {
+      "from": "W2903536544",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2903536544"
+        }
+      ]
+    },
+    {
+      "from": "W2903536544",
+      "to": "W2794634409",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2903536544"
+        }
+      ]
+    },
+    {
+      "from": "W2903536544",
+      "to": "W2794974431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2903536544"
+        }
+      ]
+    },
+    {
+      "from": "W2942255051",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2942255051"
+        }
+      ]
+    },
+    {
+      "from": "W2955685807",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2955685807"
+        }
+      ]
+    },
+    {
+      "from": "W2955685807",
+      "to": "W2794974431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2955685807"
+        }
+      ]
+    },
+    {
+      "from": "W2955685807",
+      "to": "W2903536544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2955685807"
+        }
+      ]
+    },
+    {
+      "from": "W2966536036",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2966536036"
+        }
+      ]
+    },
+    {
+      "from": "W3012235108",
+      "to": "W2048994663",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012235108"
+        }
+      ]
+    },
+    {
+      "from": "W3012235108",
+      "to": "W2309997581",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012235108"
+        }
+      ]
+    },
+    {
+      "from": "W3012235108",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012235108"
+        }
+      ]
+    },
+    {
+      "from": "W3012235108",
+      "to": "W2934510082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012235108"
+        }
+      ]
+    },
+    {
+      "from": "W3012457899",
+      "to": "W2048994663",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012457899"
+        }
+      ]
+    },
+    {
+      "from": "W3012457899",
+      "to": "W2177209050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012457899"
+        }
+      ]
+    },
+    {
+      "from": "W3012457899",
+      "to": "W2309997581",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012457899"
+        }
+      ]
+    },
+    {
+      "from": "W3012457899",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012457899"
+        }
+      ]
+    },
+    {
+      "from": "W3012457899",
+      "to": "W2794974431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012457899"
+        }
+      ]
+    },
+    {
+      "from": "W3012457899",
+      "to": "W2934510082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012457899"
+        }
+      ]
+    },
+    {
+      "from": "W3012457899",
+      "to": "W2942255051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012457899"
+        }
+      ]
+    },
+    {
+      "from": "W3012457899",
+      "to": "W2966536036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012457899"
+        }
+      ]
+    },
+    {
+      "from": "W3012457899",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012457899"
+        }
+      ]
+    },
+    {
+      "from": "W3092440493",
+      "to": "W2177209050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3092440493"
+        }
+      ]
+    },
+    {
+      "from": "W3092440493",
+      "to": "W2309997581",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3092440493"
+        }
+      ]
+    },
+    {
+      "from": "W3092440493",
+      "to": "W2934510082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3092440493"
+        }
+      ]
+    },
+    {
+      "from": "W3092440493",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3092440493"
+        }
+      ]
+    },
+    {
+      "from": "W3094696138",
+      "to": "W2177209050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094696138"
+        }
+      ]
+    },
+    {
+      "from": "W3094696138",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094696138"
+        }
+      ]
+    },
+    {
+      "from": "W3094696138",
+      "to": "W2794974431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094696138"
+        }
+      ]
+    },
+    {
+      "from": "W3094696138",
+      "to": "W2903536544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094696138"
+        }
+      ]
+    },
+    {
+      "from": "W3094696138",
+      "to": "W2955685807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094696138"
+        }
+      ]
+    },
+    {
+      "from": "W3173128495",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173128495"
+        }
+      ]
+    },
+    {
+      "from": "W3173128495",
+      "to": "W2794974431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173128495"
+        }
+      ]
+    },
+    {
+      "from": "W3173128495",
+      "to": "W2903536544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173128495"
+        }
+      ]
+    },
+    {
+      "from": "W3173128495",
+      "to": "W2955685807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173128495"
+        }
+      ]
+    },
+    {
+      "from": "W3173128495",
+      "to": "W3092440493",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173128495"
+        }
+      ]
+    },
+    {
+      "from": "W3173128495",
+      "to": "W3094696138",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173128495"
+        }
+      ]
+    },
+    {
+      "from": "W3173128495",
+      "to": "W4205474236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173128495"
+        }
+      ]
+    },
+    {
+      "from": "W3180709266",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3180709266"
+        }
+      ]
+    },
+    {
+      "from": "W3180709266",
+      "to": "W2942255051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3180709266"
+        }
+      ]
+    },
+    {
+      "from": "W3207326900",
+      "to": "W2177209050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207326900"
+        }
+      ]
+    },
+    {
+      "from": "W3207326900",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207326900"
+        }
+      ]
+    },
+    {
+      "from": "W3207326900",
+      "to": "W2794974431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207326900"
+        }
+      ]
+    },
+    {
+      "from": "W3207326900",
+      "to": "W2934510082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207326900"
+        }
+      ]
+    },
+    {
+      "from": "W3207326900",
+      "to": "W2966536036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207326900"
+        }
+      ]
+    },
+    {
+      "from": "W3207326900",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207326900"
+        }
+      ]
+    },
+    {
+      "from": "W3207326900",
+      "to": "W3092440493",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207326900"
+        }
+      ]
+    },
+    {
+      "from": "W3207326900",
+      "to": "W3130554079",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3207326900"
+        }
+      ]
+    },
+    {
+      "from": "W4200628863",
+      "to": "W3207326900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4200628863"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W2177209050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W2794974431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W2903536544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W2934510082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W2942255051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W2955685807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W2966536036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W3012457899",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W3092440493",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W3094696138",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W3130554079",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W3173128495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W3207326900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281609193",
+      "to": "W4205474236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281609193"
+        }
+      ]
+    },
+    {
+      "from": "W4281792301",
+      "to": "W2177209050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281792301"
+        }
+      ]
+    },
+    {
+      "from": "W4281792301",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281792301"
+        }
+      ]
+    },
+    {
+      "from": "W4281792301",
+      "to": "W2903536544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281792301"
+        }
+      ]
+    },
+    {
+      "from": "W4281792301",
+      "to": "W2966536036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281792301"
+        }
+      ]
+    },
+    {
+      "from": "W4281792301",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281792301"
+        }
+      ]
+    },
+    {
+      "from": "W4281792301",
+      "to": "W3092440493",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281792301"
+        }
+      ]
+    },
+    {
+      "from": "W4281792301",
+      "to": "W3094696138",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281792301"
+        }
+      ]
+    },
+    {
+      "from": "W4281792301",
+      "to": "W3130554079",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281792301"
+        }
+      ]
+    },
+    {
+      "from": "W4281792301",
+      "to": "W3173128495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281792301"
+        }
+      ]
+    },
+    {
+      "from": "W4285259478",
+      "to": "W1577196785",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285259478"
+        }
+      ]
+    },
+    {
+      "from": "W4285259478",
+      "to": "W2116036846",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285259478"
+        }
+      ]
+    },
+    {
+      "from": "W4285259478",
+      "to": "W2146274038",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285259478"
+        }
+      ]
+    },
+    {
+      "from": "W4285259478",
+      "to": "W2913848248",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285259478"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W2177209050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W2794634409",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W2794974431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W2934510082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W2942255051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W2955685807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W2966536036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W3012457899",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W3092440493",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W3094696138",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W3130554079",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W3173128495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W3207326900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W4200628863",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W4205474236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W4281609193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W4281792301",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4307925365",
+      "to": "W4360831809",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307925365"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W2309997581",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W2794974431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W2903536544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W2934510082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W2942255051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W2955685807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W3094696138",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W3207326900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W4200628863",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W4205474236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W4281609193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W4281792301",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831809",
+      "to": "W4307925365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831809"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W2177209050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W2309997581",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W2934510082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W2966536036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W3173128495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W3207326900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W4205474236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W4281609193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W4281792301",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831815",
+      "to": "W4307925365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831815"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W2177209050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W2309997581",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W2794634409",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W2955685807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W2966536036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W3173128495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W3207326900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W4205474236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W4281609193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W4281792301",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4360831824",
+      "to": "W4307925365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4360831824"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W2794974431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W2903536544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W2955685807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W2966536036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W3012457899",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W3094696138",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W3173128495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W3207326900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W4205474236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W4281609193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W4281792301",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W4307925365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4389491906",
+      "to": "W4360831809",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389491906"
+        }
+      ]
+    },
+    {
+      "from": "W4406521457",
+      "to": "W2177209050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406521457"
+        }
+      ]
+    },
+    {
+      "from": "W4406521457",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406521457"
+        }
+      ]
+    },
+    {
+      "from": "W4406521457",
+      "to": "W2942255051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406521457"
+        }
+      ]
+    },
+    {
+      "from": "W4406521457",
+      "to": "W2955685807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406521457"
+        }
+      ]
+    },
+    {
+      "from": "W4406521457",
+      "to": "W2966536036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406521457"
+        }
+      ]
+    },
+    {
+      "from": "W4406521457",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406521457"
+        }
+      ]
+    },
+    {
+      "from": "W4406521457",
+      "to": "W3092440493",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406521457"
+        }
+      ]
+    },
+    {
+      "from": "W4406521457",
+      "to": "W3207326900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406521457"
+        }
+      ]
+    },
+    {
+      "from": "W4406521457",
+      "to": "W4281609193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406521457"
+        }
+      ]
+    },
+    {
+      "from": "W4406521457",
+      "to": "W4281792301",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406521457"
+        }
+      ]
+    },
+    {
+      "from": "W4406521457",
+      "to": "W4307925365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406521457"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W1577196785",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W2048994663",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W2116036846",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W2934510082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W3092440493",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W3130554079",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W3207326900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W4205474236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W4281792301",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W4285259478",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W4307925365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W4360831809",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W4360831815",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W4360831824",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W4416963451",
+      "to": "W4406521457",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416963451"
+        }
+      ]
+    },
+    {
+      "from": "W7117545607",
+      "to": "W7154037420",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7117545607"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W1577196785",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2048994663",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2080106381",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2116036846",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2146274038",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2177209050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2309997581",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2725254221",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2768174108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2794634409",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2794974431",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2903536544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2913848248",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2934510082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2942255051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2945447474",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2955685807",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W2966536036",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W3012235108",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W3012457899",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W3092440493",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W3094696138",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W3130554079",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W3173128495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W3180709266",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W3207326900",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4200628863",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4205474236",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4214912425",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4281609193",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4281792301",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4285259478",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4307925365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4360831809",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4360831815",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4360831824",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4389491906",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4406521457",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    },
+    {
+      "from": "W7154037420",
+      "to": "W4416963451",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154037420"
+        }
+      ]
+    }
+  ]
+}

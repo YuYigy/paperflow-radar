@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "e9c62ea2-d306-4185-9048-b90c1b190790",
-  "root": "doi:10.1063/5.0355707",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7203775659",
+  "status": "ok",
+  "checked_at": "2026-11-11T00:50:51.237047+00:00",
+  "coverage": {
+    "references_found": 49,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 49,
+    "displayed": 40
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1063/5.0355707",
+      "id": "W7203775659",
       "doi": "10.1063/5.0355707",
       "title": "Optical decoherence in Er3+-doped CeO2 spin qubit platforms",
       "authors": [
@@ -19,25 +29,3046 @@
         "Weiguo Jing",
         "Matteo Giantomassi",
         "Supratik Guha",
-        "Gian-Marco Rignanese",
+        "Gian‐Marco Rignanese",
         "F. Joseph Heremans",
         "Jiefei Zhang",
         "Giulia Galli"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Applied Physics Letters",
       "venue_abbr": "Appl. Phys. Lett.",
       "rank_label": "CIE T2 · 2023",
-      "keywords": [],
+      "keywords": [
+        "spin qubits",
+        "spin-photon interface",
+        "oxygen vacancies",
+        "photoionization cross sections",
+        "photoluminescence quenching",
+        "excited state lifetime",
+        "charge noise",
+        "defect engineering",
+        "quantum communication"
+      ],
       "url": "https://doi.org/10.1063/5.0355707",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/e9c62ea2-d306-4185-9048-b90c1b190790.html",
       "summary": "该研究结合含有限尺寸修正的周期性杂化密度泛函理论计算与光电流实验，研究铒掺杂氧化铈自旋—光子界面的光学退相干。计算指出，Ce3+极化子及其与氧空位、铒掺杂原子形成的复合缺陷可能是退相干来源；这些缺陷在0.8 eV处具有非零光电离截面。作者将其光电离与铒发光淬灭、光学线宽展宽、激发态寿命缩短及电荷噪声联系起来，并报告不同浓度薄膜在0.8 eV照射下的光电流测量支持所预测的路径。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4391973343",
+      "doi": "10.1063/5.0181717",
+      "title": "Optical and microstructural characterization of Er3+ doped epitaxial cerium oxide on silicon",
+      "authors": [
+        "Gregory D. Grant",
+        "Jiefei Zhang",
+        "Ignas Masiulionis",
+        "Swarnabha Chattaraj",
+        "Kathryn E. Sautter",
+        "Sean E. Sullivan",
+        "Rishi Chebrolu",
+        "Yuzi Liu",
+        "Jessica B. Martins",
+        "Jens Niklas",
+        "Alan Dibos",
+        "Sumit Kewalramani",
+        "J. W. Freeland",
+        "Jianguo Wen",
+        "Oleg G. Poluektov",
+        "F. Joseph Heremans",
+        "D. D. Awschalom",
+        "Supratik Guha"
+      ],
+      "year": 2024,
+      "venue": "APL Materials",
+      "venue_abbr": "APL Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum memory",
+        "spin-photon interface",
+        "rare-earth doping",
+        "EPR linewidth",
+        "optical linewidth",
+        "spectral diffusion",
+        "excited state lifetime",
+        "annealing",
+        "erbium concentration dependence",
+        "electron spin coherence"
+      ],
+      "url": "https://doi.org/10.1063/5.0181717",
+      "cited_by_count": 28,
+      "importance": 0.6647,
+      "score_basis": {
+        "topic_overlap": 0.477,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404546747",
+      "doi": "10.1038/s41534-024-00903-z",
+      "title": "Optical and spin coherence of Er spin qubits in epitaxial cerium dioxide on silicon",
+      "authors": [
+        "Jiefei Zhang",
+        "Gregory D. Grant",
+        "Ignas Masiulionis",
+        "Michael T. Solomon",
+        "Jonathan C. Marcks",
+        "Jasleen K. Bindra",
+        "Jens Niklas",
+        "Alan Dibos",
+        "Oleg G. Poluektov",
+        "F. Joseph Heremans",
+        "Supratik Guha",
+        "D. D. Awschalom"
+      ],
+      "year": 2024,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Er3+",
+        "cerium oxide",
+        "spin qubits",
+        "spin-lattice relaxation",
+        "optical coherence time",
+        "electron spin coherence",
+        "spin-photon interface",
+        "quantum networking",
+        "telecom C-band",
+        "homogeneous linewidth"
+      ],
+      "url": "https://doi.org/10.1038/s41534-024-00903-z",
+      "cited_by_count": 26,
+      "importance": 0.5778,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 3,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417268535",
+      "doi": "10.1103/17xy-gns1",
+      "title": "Spin Decoherence Dynamics of Er 3 + in CeO 2 Films",
+      "authors": [
+        "Sagar Kumar Seth",
+        "Jonah Nagura",
+        "Vrindaa Somjit",
+        "Aneesh Bapat",
+        "Xinhao Li",
+        "Gregory D. Grant",
+        "Ignas Masiulionis",
+        "Xu Han",
+        "F. Joseph Heremans",
+        "Giulia Galli",
+        "David D. Awschalom",
+        "Supratik Guha",
+        "Jiefei Zhang"
+      ],
+      "year": 2025,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Er3+",
+        "spin coherence",
+        "spin decoherence",
+        "spin-photon interface",
+        "dynamical decoupling",
+        "spectral diffusion",
+        "on-chip integration"
+      ],
+      "url": "https://doi.org/10.1103/17xy-gns1",
+      "cited_by_count": 10,
+      "importance": 0.5656,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402824931",
+      "doi": "10.1103/physrevlett.133.130802",
+      "title": "Quantum Spin Probe of Single Charge Dynamics",
+      "authors": [
+        "Jonathan C. Marcks",
+        "Mykyta Onizhuk",
+        "Yuxin Wang",
+        "Yizhi Zhu",
+        "Yu Jin",
+        "Benjamin S. Soloway",
+        "Masaya Fukami",
+        "Nazar Delegan",
+        "F. Joseph Heremans",
+        "Aashish A. Clerk",
+        "Giulia Galli",
+        "D. D. Awschalom"
+      ],
+      "year": 2024,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "diamond",
+        "nitrogen-vacancy centers",
+        "spin defects",
+        "charge dynamics",
+        "spin-charge coupling",
+        "quantum sensing",
+        "semiconductor defects"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.133.130802",
+      "cited_by_count": 7,
+      "importance": 0.5462,
+      "score_basis": {
+        "topic_overlap": 0.169,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7154841847",
+      "doi": "10.1557/s43577-026-01069-z",
+      "title": "Optimizing spin qubit coherence through materials codesign",
+      "authors": [
+        "Vrindaa Somjit",
+        "Gregory D. Grant",
+        "Swarnabha Chattaraj",
+        "Supratik Guha",
+        "D. D. Awschalom",
+        "Giulia Galli",
+        "Jiefei Zhang",
+        "F. Joseph Heremans"
+      ],
+      "year": 2026,
+      "venue": "MRS Bulletin",
+      "venue_abbr": "MRS Bulletin",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "spin qubits",
+        "spin coherence",
+        "decoherence",
+        "materials by design",
+        "nuclear spin interactions",
+        "point defects",
+        "extended defects",
+        "strain",
+        "phonons",
+        "first-principles modeling",
+        "materials synthesis",
+        "quantum computing hardware"
+      ],
+      "url": "https://doi.org/10.1557/s43577-026-01069-z",
+      "cited_by_count": 3,
+      "importance": 0.535,
+      "score_basis": {
+        "topic_overlap": 0.189,
+        "shared_references": 12,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400447207",
+      "doi": "10.1021/acsnano.4c04083",
+      "title": "Coherent Erbium Spin Defects in Colloidal Nanocrystal Hosts",
+      "authors": [
+        "Joeson Wong",
+        "Mykyta Onizhuk",
+        "Jonah Nagura",
+        "Arashdeep Singh Thind",
+        "Jasleen K. Bindra",
+        "Christina Wicker",
+        "Gregory D. Grant",
+        "Yuxuan Zhang",
+        "Jens Niklas",
+        "Oleg G. Poluektov",
+        "Robert F. Klie",
+        "Jiefei Zhang",
+        "Giulia Galli",
+        "F. Joseph Heremans",
+        "D. D. Awschalom",
+        "A. Paul Alivisatos"
+      ],
+      "year": 2024,
+      "venue": "ACS Nano",
+      "venue_abbr": "ACS Nano",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Er3+",
+        "spin coherence",
+        "quantum memory",
+        "dopant diffusion",
+        "quantum sensing",
+        "quantum communication",
+        "core-shell nanocrystals",
+        "oxygen vacancies",
+        "surfactant modification"
+      ],
+      "url": "https://doi.org/10.1021/acsnano.4c04083",
+      "cited_by_count": 10,
+      "importance": 0.5168,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415958338",
+      "doi": "10.1038/s41467-025-64780-6",
+      "title": "Dual epitaxial telecom spin-photon interfaces with long-lived coherence",
+      "authors": [
+        "Shobhit Gupta",
+        "Yizhong Huang",
+        "Shihan Liu",
+        "Yuxiang Pei",
+        "Qiang Gao",
+        "Shuolong Yang",
+        "Natasha Tomm",
+        "Richard John Warburton",
+        "Tian Zhong"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "spin-photon interface",
+        "telecom C-band",
+        "optical coherence",
+        "spin coherence",
+        "lattice symmetry",
+        "single-shot measurement",
+        "quantum networks",
+        "quantum memory",
+        "bottom-up fabrication"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-64780-6",
+      "cited_by_count": 15,
+      "importance": 0.5047,
+      "score_basis": {
+        "topic_overlap": 0.41,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4221150164",
+      "doi": "10.1021/acs.jctc.2c00241",
+      "title": "GPU Acceleration of Large-Scale Full-Frequency GW Calculations",
+      "authors": [
+        "Victor Wen-zhe Yu",
+        "Marco Govoni"
+      ],
+      "year": 2022,
+      "venue": "Journal of Chemical Theory and Computation",
+      "venue_abbr": "Journal of Chemical Theory and Computation",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "GPU acceleration",
+        "many-body perturbation theory",
+        "electronic excitation",
+        "parallelization strategies",
+        "mixed precision",
+        "strong and weak scaling",
+        "nanostructures",
+        "interfaces",
+        "defects"
+      ],
+      "url": "https://doi.org/10.1021/acs.jctc.2c00241",
+      "cited_by_count": 68,
+      "importance": 0.49,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 5,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2099363120",
+      "doi": "10.1039/c2ee22310d",
+      "title": "Nanostructured ceria-based materials: synthesis, properties, and applications",
+      "authors": [
+        "Chunwen Sun",
+        "Hong Li",
+        "Liquan Chen"
+      ],
+      "year": 2012,
+      "venue": "Energy & Environmental Science",
+      "venue_abbr": "Energy & Environmental Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cerium oxide",
+        "mesoporous ceria",
+        "defect chemistry",
+        "oxygen vacancies",
+        "crystal facets",
+        "catalyst design",
+        "density functional theory",
+        "oxygen vacancy clusters"
+      ],
+      "url": "https://doi.org/10.1039/c2ee22310d",
+      "cited_by_count": 1192,
+      "importance": 0.4895,
+      "score_basis": {
+        "topic_overlap": 0.043,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3154877400",
+      "doi": "10.1103/physrevb.104.235301",
+      "title": "Photoionization of negatively charged NV centers in diamond: Theory and ab initio calculations",
+      "authors": [
+        "Lukas Razinkovas",
+        "M. Maciaszek",
+        "Friedemann Reinhard",
+        "Marcus W. Doherty",
+        "Audrius Alkauskas"
+      ],
+      "year": 2021,
+      "venue": "Physical review. B./Physical review. B",
+      "venue_abbr": "Physical review. B./Physical review. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "nitrogen-vacancy centers",
+        "diamond",
+        "photoionization",
+        "negative charge state",
+        "photoionization cross sections",
+        "photoionization threshold",
+        "charge state transitions",
+        "photoexcitation",
+        "quantum technologies"
+      ],
+      "url": "https://doi.org/10.1103/physrevb.104.235301",
+      "cited_by_count": 65,
+      "importance": 0.4689,
+      "score_basis": {
+        "topic_overlap": 0.331,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2620844933",
+      "doi": "10.1103/physrevb.95.245101",
+      "title": "Disentangling the role of small polarons and oxygen vacancies in Ce O 2",
+      "authors": [
+        "Lu Sun",
+        "Xiaowei Huang",
+        "Ligen Wang",
+        "Anderson Janotti"
+      ],
+      "year": 2017,
+      "venue": "Physical review. B./Physical review. B",
+      "venue_abbr": "Physical review. B./Physical review. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cerium oxide",
+        "small polarons",
+        "oxygen vacancies",
+        "Ce3+",
+        "vacancy formation energy",
+        "vacancy migration energy",
+        "electron self-trapping",
+        "hopping conduction",
+        "Ce3+/Ce4+ redox",
+        "HSE06 hybrid functional"
+      ],
+      "url": "https://doi.org/10.1103/physrevb.95.245101",
+      "cited_by_count": 119,
+      "importance": 0.4524,
+      "score_basis": {
+        "topic_overlap": 0.028,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409572709",
+      "doi": "10.1038/s41534-025-01008-x",
+      "title": "Long optical and electron spin coherence times for erbium ions in silicon",
+      "authors": [
+        "Ian R. Berkman",
+        "Alexey Lyasota",
+        "Gabriele G. de Boo",
+        "John G. Bartholomew",
+        "Shao Qi Lim",
+        "Brett C. Johnson",
+        "Jeffrey Colin McCallum",
+        "Bin-Bin Xu",
+        "Shouyi Xie",
+        "Nikolay V. Abrosimov",
+        "Hans-Joachim Pohl",
+        "Rose L. Ahlefeldt",
+        "Matthew J. Sellars",
+        "Chunming Yin",
+        "Sven M. J. Rogge"
+      ],
+      "year": 2025,
+      "venue": "npj Quantum Information",
+      "venue_abbr": "npj Quantum Information",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Er3+",
+        "optical coherence time",
+        "optically detected magnetic resonance",
+        "Hahn echo",
+        "inhomogeneous linewidth",
+        "homogeneous linewidth",
+        "spin qubits",
+        "quantum information processing"
+      ],
+      "url": "https://doi.org/10.1038/s41534-025-01008-x",
+      "cited_by_count": 35,
+      "importance": 0.451,
+      "score_basis": {
+        "topic_overlap": 0.291,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7157306449",
+      "doi": "10.48550/arxiv.2604.24582",
+      "title": "Isotopically enriched epitaxial CaWO$_{4}$ thin films for Er$^{3+}$ spin-photon quantum interfaces",
+      "authors": [
+        "Hanlin Tang",
+        "Kidae Shin",
+        "Ashwin K. Boddeti",
+        "Sebastian P. Horvath",
+        "Adam T. Turflinger",
+        "Joseph Alexander",
+        "Jeffrey A. Dhas",
+        "Zihua Zhu",
+        "Shuhang Pan",
+        "Jeff D. Thompson",
+        "Yingge Du",
+        "F. J. Walker",
+        "Charles Ahn"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "nuclear spin decoherence",
+        "electron spin coherence",
+        "photoluminescence linewidth",
+        "epitaxial thin films"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2604.24582",
+      "cited_by_count": 1,
+      "importance": 0.447,
+      "score_basis": {
+        "topic_overlap": 0.438,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2912053879",
+      "doi": "10.1021/acs.jpcc.8b09134",
+      "title": "Benchmarking Density Functional Theory Functionals for Polarons in Oxides: Properties of CeO2",
+      "authors": [
+        "C. W. M. Castleton",
+        "Amy Lee",
+        "Jolla Kullgren"
+      ],
+      "year": 2019,
+      "venue": "The Journal of Physical Chemistry C",
+      "venue_abbr": "The Journal of Physical Chemistry C",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarons",
+        "cerium oxide",
+        "metal oxides",
+        "LDA+U",
+        "GGA+U",
+        "hybrid functionals",
+        "B3LYP",
+        "PBE0",
+        "Holstein polaron",
+        "band gap"
+      ],
+      "url": "https://doi.org/10.1021/acs.jpcc.8b09134",
+      "cited_by_count": 55,
+      "importance": 0.4264,
+      "score_basis": {
+        "topic_overlap": 0.014,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3038090765",
+      "doi": "10.1021/acs.jpclett.0c01590",
+      "title": "Ultrafast Formation of Small Polarons and the Optical Gap in CeO2",
+      "authors": [
+        "Jacopo Stefano Pelli Cresi",
+        "Lorenzo Di Mario",
+        "Daniele Catone",
+        "F. Martelli",
+        "Alessandra Paladini",
+        "Stefano Turchini",
+        "Sergio D’Addato",
+        "P. Luches",
+        "Patrick O’Keeffe"
+      ],
+      "year": 2020,
+      "venue": "The Journal of Physical Chemistry Letters",
+      "venue_abbr": "The Journal of Physical Chemistry Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cerium oxide",
+        "small polarons",
+        "polaron formation",
+        "optical band gap",
+        "excited-state dynamics",
+        "transient absorption spectroscopy",
+        "photoinduced absorption",
+        "photocatalysis"
+      ],
+      "url": "https://doi.org/10.1021/acs.jpclett.0c01590",
+      "cited_by_count": 64,
+      "importance": 0.4214,
+      "score_basis": {
+        "topic_overlap": 0.048,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405109409",
+      "doi": "10.1063/5.0241141",
+      "title": "The role of the dopant in the electronic structure of erbium-doped TiO2 for quantum emitters",
+      "authors": [
+        "Jessica B. Martins",
+        "Gregory D. Grant",
+        "D. Haskel",
+        "George E. Sterbinsky",
+        "Ignas Masiulionis",
+        "Kathryn E. Sautter",
+        "Evguenia Karapetrova",
+        "Supratik Guha",
+        "J. W. Freeland"
+      ],
+      "year": 2024,
+      "venue": "APL Materials",
+      "venue_abbr": "APL Materials",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum emitters",
+        "photoluminescence lifetime",
+        "optical coherence time",
+        "dopant site occupancy",
+        "oxygen vacancies",
+        "lattice distortion",
+        "r-sapphire substrate",
+        "photoluminescence excitation"
+      ],
+      "url": "https://doi.org/10.1063/5.0241141",
+      "cited_by_count": 9,
+      "importance": 0.4168,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3173938326",
+      "doi": "10.1126/sciadv.abj9786",
+      "title": "Twenty-three–millisecond electron spin coherence of erbium ions in a natural-abundance crystal",
+      "authors": [
+        "Marianne Le Dantec",
+        "Miloš Rančić",
+        "Sen Lin",
+        "Eric Billaud",
+        "V. Ranjan",
+        "D. Flanigan",
+        "Sylvain Bertaina",
+        "T. Chanelière",
+        "Philippe Goldner",
+        "Andreas Erb",
+        "Ren‐Bao Liu",
+        "Daniel Estève",
+        "D. Vion",
+        "Emmanuel Flurin",
+        "Patrice Bertet"
+      ],
+      "year": 2021,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "electron spin coherence",
+        "Er3+",
+        "scheelite",
+        "spin coherence time",
+        "rare-earth impurities",
+        "low-temperature spin dynamics"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.abj9786",
+      "cited_by_count": 121,
+      "importance": 0.4158,
+      "score_basis": {
+        "topic_overlap": 0.146,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2141360791",
+      "doi": "10.1021/ct500958p",
+      "title": "Large Scale GW Calculations",
+      "authors": [
+        "Marco Govoni",
+        "Giulia Galli"
+      ],
+      "year": 2015,
+      "venue": "Journal of Chemical Theory and Computation",
+      "venue_abbr": "Journal of Chemical Theory and Computation",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "GW approximation",
+        "contour deformation",
+        "Green's function",
+        "screened Coulomb interaction",
+        "parallel implementation",
+        "disordered solids",
+        "large-scale electronic structure calculations",
+        "hybrid functionals",
+        "dielectric matrix"
+      ],
+      "url": "https://doi.org/10.1021/ct500958p",
+      "cited_by_count": 354,
+      "importance": 0.4,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3016932526",
+      "doi": "10.1063/5.0005082",
+      "title": "Q uantum ESPRESSO toward the exascale",
+      "authors": [
+        "Paolo Giannozzi",
+        "Oscar Baseggio",
+        "Pietro Bonfà",
+        "Davide Brunato",
+        "Roberto Car",
+        "Ivan Carnimeo",
+        "Carlo Cavazzoni",
+        "Stefano de Gironcoli",
+        "Pietro Delugas",
+        "Fabrizio Ferrari Ruffino",
+        "Andrea Ferretti",
+        "Nicola Marzari",
+        "Iurii Timrov",
+        "Andrea Urru",
+        "Stefano Baroni"
+      ],
+      "year": 2020,
+      "venue": "The Journal of Chemical Physics",
+      "venue_abbr": "The Journal of Chemical Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Quantum ESPRESSO",
+        "exascale computing",
+        "heterogeneous computing",
+        "hardware accelerators",
+        "density functional theory",
+        "pseudopotentials",
+        "plane waves",
+        "parallel computing",
+        "open source software",
+        "material modeling"
+      ],
+      "url": "https://doi.org/10.1063/5.0005082",
+      "cited_by_count": 2197,
+      "importance": 0.3964,
+      "score_basis": {
+        "topic_overlap": 0.014,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3126603911",
+      "doi": "10.1073/pnas.2121808119",
+      "title": "Generalized scaling of spin qubit coherence in over 12,000 host materials",
+      "authors": [
+        "Shun Kanai",
+        "F. Joseph Heremans",
+        "Hosung Seo",
+        "Gary Wolfowicz",
+        "Christopher P. Anderson",
+        "Sean E. Sullivan",
+        "Mykyta Onizhuk",
+        "Giulia Galli",
+        "D. D. Awschalom",
+        "Hideo Ohno"
+      ],
+      "year": 2022,
+      "venue": "Proceedings of the National Academy of Sciences",
+      "venue_abbr": "Proceedings of the National Academy of Sciences",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "spin qubits",
+        "quantum memory",
+        "scaling laws",
+        "host materials"
+      ],
+      "url": "https://doi.org/10.1073/pnas.2121808119",
+      "cited_by_count": 129,
+      "importance": 0.3859,
+      "score_basis": {
+        "topic_overlap": 0.191,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2757803490",
+      "doi": "10.1088/1361-648x/aa8f79",
+      "title": "Advanced capabilities for materials modelling with Q uantum ESPRESSO",
+      "authors": [
+        "P Giannozzi",
+        "O Andreussi",
+        "Thomas Brumme",
+        "O. Bunău",
+        "Marco Buongiorno Nardelli",
+        "Matteo Calandra",
+        "Roberto Car",
+        "C Cavazzoni",
+        "Davide Ceresoli",
+        "Matteo Cococcioni",
+        "N Colonna",
+        "I Carnimeo",
+        "A Dal Corso",
+        "S de Gironcoli",
+        "P Delugas",
+        "R A DiStasio",
+        "A Ferretti",
+        "A Floris",
+        "G Fratesi",
+        "Giorgia Fugallo",
+        "R Gebauer",
+        "U. Gerstmann",
+        "F Giustino",
+        "Tommaso Gorni",
+        "J Jia",
+        "M Kawamura",
+        "H-Y Ko",
+        "A Kokalj",
+        "E Küçükbenli",
+        "Michele Lazzeri",
+        "M Marsili",
+        "Nicola Marzari",
+        "Francesco Mauri",
+        "N L Nguyen",
+        "H-V Nguyen",
+        "A Otero-de-la-Roza",
+        "L Paulatto",
+        "Samuel Poncé",
+        "Dario Rocca",
+        "R Sabatini",
+        "B Santra",
+        "M Schlipf",
+        "Ari Paavo Seitsonen",
+        "Alexander Smogunov",
+        "Iurii Timrov",
+        "Timo Thonhauser",
+        "P Umari",
+        "Nathalie Vast",
+        "X Wu",
+        "Stefano Baroni"
+      ],
+      "year": 2017,
+      "venue": "Journal of Physics Condensed Matter",
+      "venue_abbr": "Journal of Physics Condensed Matter",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Quantum ESPRESSO",
+        "material modeling",
+        "density functional theory",
+        "density functional perturbation theory",
+        "many-body perturbation theory",
+        "plane-wave pseudopotential",
+        "projector augmented wave method",
+        "electronic structure simulation",
+        "parallelization",
+        "interoperability",
+        "open source software"
+      ],
+      "url": "https://doi.org/10.1088/1361-648x/aa8f79",
+      "cited_by_count": 9468,
+      "importance": 0.3654,
+      "score_basis": {
+        "topic_overlap": 0.012,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3042825537",
+      "doi": "10.1103/physrevb.102.041115",
+      "title": "Finite-size corrections of defect energy levels involving ionic polarization",
+      "authors": [
+        "Stefano Falletta",
+        "Julia Wiktor",
+        "Alfredo Pasquarello"
+      ],
+      "year": 2020,
+      "venue": "Physical review. B./Physical review. B",
+      "venue_abbr": "Physical review. B./Physical review. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "finite-size corrections",
+        "defect states",
+        "ionic polarization",
+        "supercell calculations",
+        "vertical transition energies",
+        "single-particle levels",
+        "lattice distortion",
+        "electron screening",
+        "polarization charge",
+        "MgO",
+        "water",
+        "formation energy"
+      ],
+      "url": "https://doi.org/10.1103/physrevb.102.041115",
+      "cited_by_count": 69,
+      "importance": 0.3619,
+      "score_basis": {
+        "topic_overlap": 0.027,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1963934009",
+      "doi": "10.1103/revmodphys.86.253",
+      "title": "First-principles calculations for point defects in solids",
+      "authors": [
+        "Christoph Freysoldt",
+        "Blazej Grabowski",
+        "Tilmann Hickel",
+        "Jörg Neugebauer",
+        "Georg Kresse",
+        "Anderson Janotti",
+        "Chris G. Van de Walle"
+      ],
+      "year": 2014,
+      "venue": "Reviews of Modern Physics",
+      "venue_abbr": "Reviews of Modern Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "point defects",
+        "impurities",
+        "defect formation energy",
+        "defect thermodynamics",
+        "excess volume",
+        "supercell approach",
+        "DFT+U",
+        "hybrid functionals",
+        "band gap correction",
+        "semiconductors",
+        "insulators",
+        "metals"
+      ],
+      "url": "https://doi.org/10.1103/revmodphys.86.253",
+      "cited_by_count": 3131,
+      "importance": 0.356,
+      "score_basis": {
+        "topic_overlap": 0.013,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4388654465",
+      "doi": "10.1038/s42254-023-00655-3",
+      "title": "How to verify the precision of density-functional-theory implementations via reproducible and universal workflows",
+      "authors": [
+        "Emanuele Bosoni",
+        "Louis Beal",
+        "Marnik Bercx",
+        "Peter Blaha",
+        "Stefan Blügel",
+        "Jens Bröder",
+        "Martin Callsen",
+        "Stefaan Cottenier",
+        "Augustin Degomme",
+        "Vladimir Dikan",
+        "Kristjan Eimre",
+        "Espen Flage−Larsen",
+        "Marco Fornari",
+        "Alberto García",
+        "Luigi Genovese",
+        "Matteo Giantomassi",
+        "Sebastiaan P. Huber",
+        "Henning Janssen",
+        "Georg Kastlunger",
+        "Matthias Krack",
+        "Georg Kresse",
+        "Thomas D. Kühne",
+        "Kurt Lejaeghere",
+        "Georg K. H. Madsen",
+        "Martijn Marsman",
+        "Nicola Marzari",
+        "Gregor Michalicek",
+        "Hossein Mirhosseini",
+        "Tiziano Müller",
+        "Guido Petretto",
+        "Chris J. Pickard",
+        "Samuel Poncé",
+        "Gian‐Marco Rignanese",
+        "Oleg Rubel",
+        "Thomas Ruh",
+        "Michael Sluydts",
+        "Danny E. P. Vanpoucke",
+        "Sudarshan Vijay",
+        "Michael Wolloch",
+        "Daniel Wortmann",
+        "Aliaksandr V. Yakutovich",
+        "Ju‐Song Yu",
+        "Austin Zadoks",
+        "Bonan Zhu",
+        "Giovanni Pizzi"
+      ],
+      "year": 2023,
+      "venue": "Nature Reviews Physics",
+      "venue_abbr": "Nature Reviews Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "periodic boundary conditions",
+        "equation of state",
+        "elemental crystals",
+        "pseudopotential method",
+        "total energy",
+        "transferability",
+        "cubic oxides",
+        "verification metrics",
+        "reproducible workflows"
+      ],
+      "url": "https://doi.org/10.1038/s42254-023-00655-3",
+      "cited_by_count": 104,
+      "importance": 0.3557,
+      "score_basis": {
+        "topic_overlap": 0.013,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2342691188",
+      "doi": "10.1021/acs.chemrev.5b00603",
+      "title": "Fundamentals and Catalytic Applications of CeO 2 -Based Materials",
+      "authors": [
+        "Tiziano Montini",
+        "Michele Melchionna",
+        "Matteo Monai",
+        "Paolo Fornasiero"
+      ],
+      "year": 2016,
+      "venue": "Chemical Reviews",
+      "venue_abbr": "Chemical Reviews",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cerium oxide",
+        "three-way catalyst",
+        "oxygen storage",
+        "automotive exhaust aftertreatment",
+        "fuel cells",
+        "reforming",
+        "photocatalysis",
+        "water-gas shift reaction",
+        "thermochemical water splitting",
+        "organic reactions",
+        "catalytic materials",
+        "characterization techniques"
+      ],
+      "url": "https://doi.org/10.1021/acs.chemrev.5b00603",
+      "cited_by_count": 2805,
+      "importance": 0.3554,
+      "score_basis": {
+        "topic_overlap": 0.012,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1989976921",
+      "doi": "10.1038/ncomms7294",
+      "title": "Edge dislocation slows down oxide ion diffusion in doped CeO2 by segregation of charged defects",
+      "authors": [
+        "Lixin Sun",
+        "Dario Marrocchelli",
+        "Bilge Yildiz"
+      ],
+      "year": 2015,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "edge dislocations",
+        "oxygen ion diffusion",
+        "doped ceria",
+        "cerium oxide",
+        "oxygen vacancies",
+        "trivalent cations",
+        "elastic strain",
+        "fast ion conductors",
+        "ionic conductivity"
+      ],
+      "url": "https://doi.org/10.1038/ncomms7294",
+      "cited_by_count": 187,
+      "importance": 0.3449,
+      "score_basis": {
+        "topic_overlap": 0.055,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416175967",
+      "doi": "10.1103/xj8y-b6sl",
+      "title": "Erbium quantum memory platform with long optical coherence via back-end-of-line deposition on foundry-fabricated photonics",
+      "authors": [
+        "Shobhit Gupta",
+        "Robert M. Pettit",
+        "Ananthesh Sundaresh",
+        "Vasileios Niaouris",
+        "Skylar Deckoff–Jones",
+        "Daniel P. Crowley",
+        "Lewis G. Carpenter",
+        "Alan Dibos",
+        "Manish Kumar Singh",
+        "Sean E. Sullivan"
+      ],
+      "year": 2025,
+      "venue": "Physical Review Applied",
+      "venue_abbr": "Phys. Rev. Applied",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum memory",
+        "optical coherence",
+        "photon echo",
+        "oxygen annealing",
+        "spectral diffusion",
+        "electron spin lifetime",
+        "monolithic integration",
+        "quantum interconnects"
+      ],
+      "url": "https://doi.org/10.1103/xj8y-b6sl",
+      "cited_by_count": 6,
+      "importance": 0.3343,
+      "score_basis": {
+        "topic_overlap": 0.187,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3012073836",
+      "doi": "10.1038/s41467-020-15153-8",
+      "title": "Colossal oxygen vacancy formation at a fluorite-bixbyite interface",
+      "authors": [
+        "Dongkyu Lee",
+        "Xiang Gao",
+        "Lixin Sun",
+        "Youngseok Jee",
+        "Jonathan D. Poplawsky",
+        "Thomas O. Farmer",
+        "Lisha Fan",
+        "Er‐Jia Guo",
+        "Qiyang Lu",
+        "William T. Heller",
+        "Yongseong Choi",
+        "D. Haskel",
+        "M. R. Fitzsimmons",
+        "Matthew F. Chisholm",
+        "Kevin Huang",
+        "Bilge Yildiz",
+        "Ho Nyung Lee"
+      ],
+      "year": 2020,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "oxygen vacancies",
+        "cerium oxide",
+        "yttrium oxide",
+        "heterointerface",
+        "charge modulation",
+        "complex oxides",
+        "memristors",
+        "neuromorphic computing"
+      ],
+      "url": "https://doi.org/10.1038/s41467-020-15153-8",
+      "cited_by_count": 121,
+      "importance": 0.3285,
+      "score_basis": {
+        "topic_overlap": 0.063,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2953943766",
+      "doi": "10.1103/physrevb.101.020102",
+      "title": "Finite-size corrections for defect-involving vertical transitions in supercell calculations",
+      "authors": [
+        "Tomoya Gake",
+        "Yu Kumagai",
+        "Christoph Freysoldt",
+        "Fumiyasu Oba"
+      ],
+      "year": 2020,
+      "venue": "Physical review. B./Physical review. B",
+      "venue_abbr": "Physical review. B./Physical review. B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "finite-size corrections",
+        "defect states",
+        "supercell calculations",
+        "band alignment",
+        "boron nitride",
+        "GaN",
+        "MgO",
+        "3C-SiC",
+        "electronic band structure"
+      ],
+      "url": "https://doi.org/10.1103/physrevb.101.020102",
+      "cited_by_count": 65,
+      "importance": 0.3266,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2043711375",
+      "doi": "10.1103/physrevlett.102.016402",
+      "title": "Fully Ab Initio Finite-Size Corrections for Charged-Defect Supercell Calculations",
+      "authors": [
+        "Christoph Freysoldt",
+        "Jörg Neugebauer",
+        "Chris G. Van de Walle"
+      ],
+      "year": 2009,
+      "venue": "Physical Review Letters",
+      "venue_abbr": "Physical Review Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "finite-size corrections",
+        "charged defects",
+        "charged vacancies",
+        "diamond",
+        "GaAs",
+        "periodic boundary conditions"
+      ],
+      "url": "https://doi.org/10.1103/physrevlett.102.016402",
+      "cited_by_count": 1651,
+      "importance": 0.3146,
+      "score_basis": {
+        "topic_overlap": 0.033,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2092363334",
+      "doi": "10.1073/pnas.0509537103",
+      "title": "Optimization of ionic conductivity in doped ceria",
+      "authors": [
+        "David A. Andersson",
+        "Sergei I. Simak",
+        "Natalia V. Skorodumova",
+        "Igor A. Abrikosov",
+        "Börje Johansson"
+      ],
+      "year": 2006,
+      "venue": "Proceedings of the National Academy of Sciences",
+      "venue_abbr": "Proceedings of the National Academy of Sciences",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "doped ceria",
+        "ionic conductivity",
+        "solid oxide fuel cells",
+        "oxygen vacancies",
+        "oxygen ion migration",
+        "trivalent dopants",
+        "dopant selection"
+      ],
+      "url": "https://doi.org/10.1073/pnas.0509537103",
+      "cited_by_count": 552,
+      "importance": 0.3119,
+      "score_basis": {
+        "topic_overlap": 0.049,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2135521457",
+      "doi": "10.1016/0022-3697(77)90124-x",
+      "title": "Small polaron electron transport in reduced CeO2 single crystals",
+      "authors": [
+        "Harry Louis Tuller",
+        "A. S. Nowick"
+      ],
+      "year": 1977,
+      "venue": "Journal of Physics and Chemistry of Solids",
+      "venue_abbr": "Journal of Physics and Chemistry of Solids",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "small polarons",
+        "electron transport",
+        "reduced ceria",
+        "CeO2-x",
+        "hopping conduction",
+        "Seebeck coefficient",
+        "carrier mobility",
+        "activation energy",
+        "single crystals",
+        "electrical conductivity"
+      ],
+      "url": "https://doi.org/10.1016/0022-3697(77)90124-x",
+      "cited_by_count": 646,
+      "importance": 0.3065,
+      "score_basis": {
+        "topic_overlap": 0.014,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2120145199",
+      "doi": "10.1088/0953-8984/21/39/395502",
+      "title": "QUANTUM ESPRESSO: a modular and open-source software project for quantum simulations of materials",
+      "authors": [
+        "Paolo Giannozzi",
+        "Stefano Baroni",
+        "Nicola Bonini",
+        "Matteo Calandra",
+        "Roberto Car",
+        "Carlo Cavazzoni",
+        "Davide Ceresoli",
+        "G. Chiarotti",
+        "Matteo Cococcioni",
+        "Ismaïla Dabo",
+        "Andrea Dal Corso",
+        "Stefano de Gironcoli",
+        "Stefano Fabris",
+        "Guido Fratesi",
+        "Ralph Gebauer",
+        "U. Gerstmann",
+        "Christos Gougoussis",
+        "Anton Kokalj",
+        "Michele Lazzeri",
+        "Layla Martin‐Samos",
+        "Nicola Marzari",
+        "Francesco Mauri",
+        "Riccardo Mazzarello",
+        "Stefano Paolini",
+        "Alfredo Pasquarello",
+        "Lorenzo Paulatto",
+        "Carlo Sbraccia",
+        "Sandro Scandolo",
+        "Gabriele Sclauzero",
+        "Ari Paavo Seitsonen",
+        "Alexander Smogunov",
+        "Paolo Umari",
+        "Renata M. M. Wentzcovitch"
+      ],
+      "year": 2009,
+      "venue": "Journal of Physics Condensed Matter",
+      "venue_abbr": "Journal of Physics Condensed Matter",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Quantum ESPRESSO",
+        "electronic structure calculations",
+        "material modeling",
+        "density functional theory",
+        "plane waves",
+        "pseudopotentials",
+        "norm-conserving pseudopotentials",
+        "ultrasoft pseudopotentials",
+        "projector augmented wave",
+        "open source software",
+        "massively parallel computing"
+      ],
+      "url": "https://doi.org/10.1088/0953-8984/21/39/395502",
+      "cited_by_count": 30273,
+      "importance": 0.3054,
+      "score_basis": {
+        "topic_overlap": 0.012,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2774878547",
+      "doi": "10.22331/q-2018-09-13-93",
+      "title": "Quantum repeaters with individual rare-earth ions at telecommunication wavelengths",
+      "authors": [
+        "F. Kimiaee Asadi",
+        "Nikolai Lauk",
+        "Stephen C. Wein",
+        "N. Sinclair",
+        "C. O'Brien",
+        "Christoph Simon"
+      ],
+      "year": 2018,
+      "venue": "Quantum",
+      "venue_abbr": "Quantum",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum repeaters",
+        "rare-earth ions",
+        "Er3+",
+        "europium ions",
+        "telecom wavelengths",
+        "entanglement distribution",
+        "entanglement swapping",
+        "Purcell effect",
+        "microcavities",
+        "spin coherence",
+        "electric dipole coupling",
+        "quantum gates"
+      ],
+      "url": "https://doi.org/10.22331/q-2018-09-13-93",
+      "cited_by_count": 57,
+      "importance": 0.2916,
+      "score_basis": {
+        "topic_overlap": 0.159,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1964912153",
+      "doi": "10.1080/01614949608006464",
+      "title": "Catalytic Properties of Ceria and CeO 2 -Containing Materials",
+      "authors": [
+        "Alessandro Trovarelli"
+      ],
+      "year": 1996,
+      "venue": "Catalysis Reviews",
+      "venue_abbr": "Catalysis Reviews",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cerium oxide",
+        "heterogeneous catalysis",
+        "catalyst promoters",
+        "hydrogen adsorption",
+        "CO adsorption",
+        "oxygen adsorption",
+        "NO adsorption",
+        "oxidation catalysts"
+      ],
+      "url": "https://doi.org/10.1080/01614949608006464",
+      "cited_by_count": 3554,
+      "importance": 0.287,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2035777378",
+      "doi": "10.1016/j.pmatsci.2005.07.001",
+      "title": "Electrical properties of the grain boundaries of oxygen ion conductors: Acceptor-doped zirconia and ceria",
+      "authors": [
+        "Xin Guo",
+        "Rainer M. Waser"
+      ],
+      "year": 2005,
+      "venue": "Progress in Materials Science",
+      "venue_abbr": "Progress in Materials Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "grain boundaries",
+        "oxygen ion conductors",
+        "grain boundary core",
+        "depletion region",
+        "grain boundary conductivity",
+        "Schottky barrier model",
+        "alumina addition",
+        "grain size effects",
+        "nanocrystalline materials",
+        "ion transport"
+      ],
+      "url": "https://doi.org/10.1016/j.pmatsci.2005.07.001",
+      "cited_by_count": 762,
+      "importance": 0.2817,
+      "score_basis": {
+        "topic_overlap": 0.026,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2030330123",
+      "doi": "10.1103/physrevb.88.085117",
+      "title": "Optimized norm-conserving Vanderbilt pseudopotentials",
+      "authors": [
+        "Donald R. Hamann"
+      ],
+      "year": 2013,
+      "venue": "Physical Review B",
+      "venue_abbr": "Physical Review B",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "norm-conserving pseudopotentials",
+        "multiple projectors",
+        "lattice parameters",
+        "bulk modulus",
+        "all-electron calculations",
+        "solid-state bonding"
+      ],
+      "url": "https://doi.org/10.1103/physrevb.88.085117",
+      "cited_by_count": 3484,
+      "importance": 0.267,
+      "score_basis": {
+        "topic_overlap": 0.015,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1984020769",
+      "doi": "10.1126/science.1197834",
+      "title": "High-Flux Solar-Driven Thermochemical Dissociation of CO 2 and H 2 O Using Nonstoichiometric Ceria",
+      "authors": [
+        "William C. Chueh",
+        "Christoph P. Falter",
+        "Mandy Abbott",
+        "Danien Scipio",
+        "Philipp Furler",
+        "Sossina Mariam Haile",
+        "Aldo Steinfeld"
+      ],
+      "year": 2010,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "solar water splitting",
+        "cerium oxide",
+        "solar fuels",
+        "solar cavity receiver",
+        "CO2 dissociation",
+        "water dissociation",
+        "solar-to-fuel efficiency",
+        "high-temperature catalysis"
+      ],
+      "url": "https://doi.org/10.1126/science.1197834",
+      "cited_by_count": 1529,
+      "importance": 0.26,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2040134105",
+      "doi": "10.1002/cphc.200600388",
+      "title": "Optical and Electrochemical Properties of CeO2 Spindles",
+      "authors": [
+        "Dongen Zhang",
+        "Xiaojun Zhang",
+        "Xiaomin Ni",
+        "Jimei Song",
+        "Huagui Zheng"
+      ],
+      "year": 2006,
+      "venue": "ChemPhysChem",
+      "venue_abbr": "ChemPhysChem",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cerium oxide",
+        "cerium oxide nanoparticles",
+        "optical properties",
+        "electrochemical properties",
+        "electrode materials"
+      ],
+      "url": "https://doi.org/10.1002/cphc.200600388",
+      "cited_by_count": 37,
+      "importance": 0.2586,
+      "score_basis": {
+        "topic_overlap": 0.019,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2035265717",
+      "doi": "10.1002/pssb.2221140122",
+      "title": "Infrared optical properties of cerium dioxide",
+      "authors": [
+        "S. Mochizuki"
+      ],
+      "year": 1982,
+      "venue": "physica status solidi (b)",
+      "venue_abbr": "physica status solidi (b)",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "cerium oxide",
+        "infrared optical properties",
+        "reststrahlen",
+        "thin films",
+        "dielectric properties",
+        "lattice vibrations",
+        "dispersion model",
+        "thermal radiation"
+      ],
+      "url": "https://doi.org/10.1002/pssb.2221140122",
+      "cited_by_count": 82,
+      "importance": 0.25,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W1963934009",
+      "to": "W2043711375",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1963934009"
+        }
+      ]
+    },
+    {
+      "from": "W1989976921",
+      "to": "W1984020769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1989976921"
+        }
+      ]
+    },
+    {
+      "from": "W2035265717",
+      "to": "W2135521457",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2035265717"
+        }
+      ]
+    },
+    {
+      "from": "W2035777378",
+      "to": "W2135521457",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2035777378"
+        }
+      ]
+    },
+    {
+      "from": "W2040134105",
+      "to": "W1964912153",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2040134105"
+        }
+      ]
+    },
+    {
+      "from": "W2099363120",
+      "to": "W1964912153",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2099363120"
+        }
+      ]
+    },
+    {
+      "from": "W2099363120",
+      "to": "W1984020769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2099363120"
+        }
+      ]
+    },
+    {
+      "from": "W2099363120",
+      "to": "W2035777378",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2099363120"
+        }
+      ]
+    },
+    {
+      "from": "W2099363120",
+      "to": "W2092363334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2099363120"
+        }
+      ]
+    },
+    {
+      "from": "W2099363120",
+      "to": "W2135521457",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2099363120"
+        }
+      ]
+    },
+    {
+      "from": "W2141360791",
+      "to": "W1963934009",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2141360791"
+        }
+      ]
+    },
+    {
+      "from": "W2141360791",
+      "to": "W2120145199",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2141360791"
+        }
+      ]
+    },
+    {
+      "from": "W2342691188",
+      "to": "W1964912153",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2342691188"
+        }
+      ]
+    },
+    {
+      "from": "W2342691188",
+      "to": "W1984020769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2342691188"
+        }
+      ]
+    },
+    {
+      "from": "W2342691188",
+      "to": "W2099363120",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2342691188"
+        }
+      ]
+    },
+    {
+      "from": "W2620844933",
+      "to": "W2043711375",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2620844933"
+        }
+      ]
+    },
+    {
+      "from": "W2620844933",
+      "to": "W2092363334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2620844933"
+        }
+      ]
+    },
+    {
+      "from": "W2620844933",
+      "to": "W2135521457",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2620844933"
+        }
+      ]
+    },
+    {
+      "from": "W2757803490",
+      "to": "W2120145199",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2757803490"
+        }
+      ]
+    },
+    {
+      "from": "W2757803490",
+      "to": "W2141360791",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2757803490"
+        }
+      ]
+    },
+    {
+      "from": "W2912053879",
+      "to": "W1963934009",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2912053879"
+        }
+      ]
+    },
+    {
+      "from": "W2912053879",
+      "to": "W2043711375",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2912053879"
+        }
+      ]
+    },
+    {
+      "from": "W2912053879",
+      "to": "W2135521457",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2912053879"
+        }
+      ]
+    },
+    {
+      "from": "W2912053879",
+      "to": "W2620844933",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2912053879"
+        }
+      ]
+    },
+    {
+      "from": "W2953943766",
+      "to": "W1963934009",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2953943766"
+        }
+      ]
+    },
+    {
+      "from": "W2953943766",
+      "to": "W2043711375",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2953943766"
+        }
+      ]
+    },
+    {
+      "from": "W3012073836",
+      "to": "W1964912153",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012073836"
+        }
+      ]
+    },
+    {
+      "from": "W3012073836",
+      "to": "W1989976921",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012073836"
+        }
+      ]
+    },
+    {
+      "from": "W3016932526",
+      "to": "W2120145199",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3016932526"
+        }
+      ]
+    },
+    {
+      "from": "W3016932526",
+      "to": "W2141360791",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3016932526"
+        }
+      ]
+    },
+    {
+      "from": "W3016932526",
+      "to": "W2757803490",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3016932526"
+        }
+      ]
+    },
+    {
+      "from": "W3038090765",
+      "to": "W2135521457",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3038090765"
+        }
+      ]
+    },
+    {
+      "from": "W3038090765",
+      "to": "W2620844933",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3038090765"
+        }
+      ]
+    },
+    {
+      "from": "W3038090765",
+      "to": "W2912053879",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3038090765"
+        }
+      ]
+    },
+    {
+      "from": "W3042825537",
+      "to": "W1963934009",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3042825537"
+        }
+      ]
+    },
+    {
+      "from": "W3042825537",
+      "to": "W2043711375",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3042825537"
+        }
+      ]
+    },
+    {
+      "from": "W3042825537",
+      "to": "W2953943766",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3042825537"
+        }
+      ]
+    },
+    {
+      "from": "W3154877400",
+      "to": "W1963934009",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154877400"
+        }
+      ]
+    },
+    {
+      "from": "W3154877400",
+      "to": "W2043711375",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3154877400"
+        }
+      ]
+    },
+    {
+      "from": "W3173938326",
+      "to": "W3126603911",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3173938326"
+        }
+      ]
+    },
+    {
+      "from": "W4221150164",
+      "to": "W2030330123",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221150164"
+        }
+      ]
+    },
+    {
+      "from": "W4221150164",
+      "to": "W2120145199",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221150164"
+        }
+      ]
+    },
+    {
+      "from": "W4221150164",
+      "to": "W2141360791",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221150164"
+        }
+      ]
+    },
+    {
+      "from": "W4221150164",
+      "to": "W2757803490",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221150164"
+        }
+      ]
+    },
+    {
+      "from": "W4221150164",
+      "to": "W3016932526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221150164"
+        }
+      ]
+    },
+    {
+      "from": "W4388654465",
+      "to": "W2030330123",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388654465"
+        }
+      ]
+    },
+    {
+      "from": "W4388654465",
+      "to": "W2120145199",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388654465"
+        }
+      ]
+    },
+    {
+      "from": "W4388654465",
+      "to": "W2757803490",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4388654465"
+        }
+      ]
+    },
+    {
+      "from": "W4391973343",
+      "to": "W3126603911",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391973343"
+        }
+      ]
+    },
+    {
+      "from": "W4391973343",
+      "to": "W3173938326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391973343"
+        }
+      ]
+    },
+    {
+      "from": "W4391973343",
+      "to": "W4404546747",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391973343"
+        }
+      ]
+    },
+    {
+      "from": "W4400447207",
+      "to": "W3126603911",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400447207"
+        }
+      ]
+    },
+    {
+      "from": "W4400447207",
+      "to": "W4391973343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400447207"
+        }
+      ]
+    },
+    {
+      "from": "W4400447207",
+      "to": "W4404546747",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400447207"
+        }
+      ]
+    },
+    {
+      "from": "W4402824931",
+      "to": "W2030330123",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402824931"
+        }
+      ]
+    },
+    {
+      "from": "W4402824931",
+      "to": "W2043711375",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402824931"
+        }
+      ]
+    },
+    {
+      "from": "W4402824931",
+      "to": "W2141360791",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402824931"
+        }
+      ]
+    },
+    {
+      "from": "W4402824931",
+      "to": "W3016932526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402824931"
+        }
+      ]
+    },
+    {
+      "from": "W4402824931",
+      "to": "W3154877400",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402824931"
+        }
+      ]
+    },
+    {
+      "from": "W4402824931",
+      "to": "W4221150164",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402824931"
+        }
+      ]
+    },
+    {
+      "from": "W4404546747",
+      "to": "W3126603911",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404546747"
+        }
+      ]
+    },
+    {
+      "from": "W4404546747",
+      "to": "W3173938326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404546747"
+        }
+      ]
+    },
+    {
+      "from": "W4404546747",
+      "to": "W4391973343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404546747"
+        }
+      ]
+    },
+    {
+      "from": "W4405109409",
+      "to": "W4391973343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405109409"
+        }
+      ]
+    },
+    {
+      "from": "W4409572709",
+      "to": "W3173938326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409572709"
+        }
+      ]
+    },
+    {
+      "from": "W4409572709",
+      "to": "W4415958338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409572709"
+        }
+      ]
+    },
+    {
+      "from": "W4415958338",
+      "to": "W2774878547",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415958338"
+        }
+      ]
+    },
+    {
+      "from": "W4415958338",
+      "to": "W3173938326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4415958338"
+        }
+      ]
+    },
+    {
+      "from": "W4416175967",
+      "to": "W3173938326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416175967"
+        }
+      ]
+    },
+    {
+      "from": "W4417268535",
+      "to": "W3126603911",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417268535"
+        }
+      ]
+    },
+    {
+      "from": "W4417268535",
+      "to": "W3173938326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417268535"
+        }
+      ]
+    },
+    {
+      "from": "W4417268535",
+      "to": "W4391973343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417268535"
+        }
+      ]
+    },
+    {
+      "from": "W4417268535",
+      "to": "W4404546747",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417268535"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W1963934009",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W2141360791",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W3126603911",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W3173938326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W4221150164",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W4391973343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W4400447207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W4402824931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W4404546747",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W4405109409",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W4409572709",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7154841847",
+      "to": "W4417268535",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7154841847"
+        }
+      ]
+    },
+    {
+      "from": "W7157306449",
+      "to": "W4391973343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7157306449"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W1963934009",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W1964912153",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W1984020769",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W1989976921",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2030330123",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2035265717",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2035777378",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2040134105",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2043711375",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2092363334",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2099363120",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2120145199",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2135521457",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2141360791",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2342691188",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2620844933",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2757803490",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2774878547",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2912053879",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W2953943766",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W3012073836",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W3016932526",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W3038090765",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W3042825537",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W3126603911",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W3154877400",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W3173938326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W4221150164",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W4388654465",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W4391973343",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W4400447207",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W4402824931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W4404546747",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W4405109409",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W4409572709",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W4415958338",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W4416175967",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W4417268535",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W7154841847",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    },
+    {
+      "from": "W7203775659",
+      "to": "W7157306449",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203775659"
+        }
+      ]
+    }
+  ]
 }

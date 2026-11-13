@@ -1,15 +1,25 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "6d52269b-ffd3-4f3b-a6b7-0b01dd2552ab",
-  "root": "doi:10.1364/ofc.2026.m4d.5",
-  "status": "pending",
-  "checked_at": null,
-  "coverage": {},
+  "root": "W7163197055",
+  "status": "ok",
+  "checked_at": "2026-11-13T00:50:08.164270+00:00",
+  "coverage": {
+    "references_found": 6,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 6,
+    "displayed": 6
+  },
   "issues": [],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "doi:10.1364/ofc.2026.m4d.5",
+      "id": "W7163197055",
       "doi": "10.1364/ofc.2026.m4d.5",
       "title": "82-mm-long Optical Link using Micro-transfer-printed Directly Modulated Membrane Laser and Photodetector on SiN Waveguide: Toward Wafer-scale Optical Interconnects",
       "authors": [
@@ -20,20 +30,396 @@
         "Tomonari Sato",
         "Shinji Matsuo"
       ],
-      "year": "2026",
+      "year": 2026,
       "venue": "Optical Fiber Communication Conference",
       "venue_abbr": "OFC",
       "rank_label": "不适用期刊等级",
-      "keywords": [],
+      "keywords": [
+        "micro-transfer printing",
+        "directly modulated lasers",
+        "membrane lasers",
+        "photodetectors",
+        "silicon nitride waveguides",
+        "III-V on silicon",
+        "energy efficiency"
+      ],
       "url": "https://doi.org/10.1364/ofc.2026.m4d.5",
-      "cited_by_count": null,
+      "cited_by_count": 0,
       "importance": 1,
       "score_basis": {},
       "role": "root",
       "reading_url": "items/6d52269b-ffd3-4f3b-a6b7-0b01dd2552ab.html",
       "summary": "摘要报告了实验演示：将III-V直接调制膜激光器和光探测器微转印至82毫米长的SiN波导，实现50°C下48 Gbps NRZ传输，报告能耗为0.24 pJ/bit。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4364322765",
+      "doi": "10.1109/jlt.2023.3265973",
+      "title": "Micro-Transfer-Printed Membrane Distributed Reflector Lasers on Si Waveguide Modulated With 50-Gbit/s NRZ Signal",
+      "authors": [
+        "Yoshiho Maeda",
+        "Takuma Aihara",
+        "Takuro Fujii",
+        "Tatsurou Hiraki",
+        "Koji Takeda",
+        "Tai Tsuchizawa",
+        "Hiroki Sugiyama",
+        "Tomonari Sato",
+        "Toru Segawa",
+        "Yasutomo Ota",
+        "Satoshi Iwamoto",
+        "Yasuhiko Arakawa",
+        "Shinji Matsuo"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-transfer printing",
+        "silicon waveguides",
+        "directly modulated lasers",
+        "electro-optic bandwidth",
+        "side-mode suppression ratio",
+        "single-mode operation",
+        "low threshold current",
+        "silicon photonics integration"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3265973",
+      "cited_by_count": 24,
+      "importance": 0.4981,
+      "score_basis": {
+        "topic_overlap": 0.396,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2773775271",
+      "doi": "10.1109/jstqe.2017.2778510",
+      "title": "Heterogeneously Integrated Membrane Lasers on Si Substrate for Low Operating Energy Optical Links",
+      "authors": [
+        "Takuro Fujii",
+        "Koji Takeda",
+        "Nikolaos-Panteleimon Pandelis Diamantopoulos",
+        "Erina Kanno",
+        "Koichi Hasebe",
+        "Hidetaka Nishi",
+        "Ryo Nakao",
+        "Takaaki Kakitsuka",
+        "Shinji Matsuo"
+      ],
+      "year": 2017,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "InP membrane",
+        "critical thickness",
+        "series resistance",
+        "wavelength division multiplexing",
+        "data center networks",
+        "direct modulation",
+        "multiple quantum wells",
+        "thermal resistance"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2017.2778510",
+      "cited_by_count": 55,
+      "importance": 0.3933,
+      "score_basis": {
+        "topic_overlap": 0.274,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406038112",
+      "doi": "10.1364/oe.546687",
+      "title": "O-band membrane photodetector with InGaAsP-bulk absorption core using Franz–Keldysh effect",
+      "authors": [
+        "Takuma Aihara",
+        "Tatsurou Hiraki",
+        "Yoshiho Maeda",
+        "Koji Takeda",
+        "Takuro Fujii",
+        "Shigeru Kanazawa",
+        "Toru Segawa",
+        "Shinji Matsuo"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Franz-Keldysh effect",
+        "O-band",
+        "Si photonics",
+        "waveguide-integrated photodetectors",
+        "wavelength detuning",
+        "optical transceivers",
+        "heterogeneous integration"
+      ],
+      "url": "https://doi.org/10.1364/oe.546687",
+      "cited_by_count": 5,
+      "importance": 0.3868,
+      "score_basis": {
+        "topic_overlap": 0.415,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2009851753",
+      "doi": "10.1364/oe.22.012139",
+      "title": "Directly modulated buried heterostructure DFB laser on SiO_2/Si substrate fabricated by regrowth of InP using bonded active layer",
+      "authors": [
+        "Shinji Matsuo",
+        "Takuro Fujii",
+        "Koichi Hasebe",
+        "Koji Takeda",
+        "Tomonari Sato",
+        "Takaaki Kakitsuka"
+      ],
+      "year": 2014,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "buried heterostructure lasers",
+        "distributed feedback lasers",
+        "indium phosphide",
+        "SiO2/Si substrate",
+        "lateral current injection",
+        "p-i-n junction",
+        "direct modulation",
+        "low-temperature operation"
+      ],
+      "url": "https://doi.org/10.1364/oe.22.012139",
+      "cited_by_count": 154,
+      "importance": 0.3684,
+      "score_basis": {
+        "topic_overlap": 0.285,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390547179",
+      "doi": "10.1063/5.0181099",
+      "title": "Present and future of micro-transfer printing for heterogeneous photonic integrated circuits",
+      "authors": [
+        "Günther Roelkens",
+        "Jing Zhang",
+        "Laurens Bogaert",
+        "Emadreza Soltanian",
+        "Maximilien Billet",
+        "Ali Uzun",
+        "Biwei Pan",
+        "Yang Liu",
+        "Evangelia Delli",
+        "Dongbo Wang",
+        "Valeria Bonito Oliva",
+        "L.T. Tran",
+        "Xin Guo",
+        "He Li",
+        "Senbiao Qin",
+        "Konstantinos Akritidis",
+        "Ye Chen",
+        "Yu Xue",
+        "Margot Niels",
+        "Dennis Maes",
+        "Max Kiewiet",
+        "Tom Reep",
+        "Tom Vanackere",
+        "Tom Vandekerckhove",
+        "Isaac Luntadila Lufungula",
+        "Jasper De Witte",
+        "Luis Reis",
+        "Stijn Poelman",
+        "Ying Tan",
+        "Hong Deng",
+        "Wim Bogaerts",
+        "Geert I. Morthier",
+        "Dries Van Thourhout",
+        "Bart Kuyken"
+      ],
+      "year": 2024,
+      "venue": "APL Photonics",
+      "venue_abbr": "APL Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "micro-transfer printing",
+        "heterogeneous integration",
+        "silicon photonics",
+        "photonic integrated circuits",
+        "wafer-level integration"
+      ],
+      "url": "https://doi.org/10.1063/5.0181099",
+      "cited_by_count": 146,
+      "importance": 0.3455,
+      "score_basis": {
+        "topic_overlap": 0.212,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2969987856",
+      "doi": "10.1109/jstqe.2019.2935698",
+      "title": "The AIM Photonics MPW: A Highly Accessible Cutting Edge Technology for Rapid Prototyping of Photonic Integrated Circuits",
+      "authors": [
+        "Nicholas M. Fahrenkopf",
+        "Colin McDonough",
+        "Gerald Leake",
+        "Zhan Su",
+        "Erman Timurdogan",
+        "Douglas D. Coolbaugh"
+      ],
+      "year": 2019,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "multi-project wafer",
+        "photonic integrated circuits",
+        "process design kit",
+        "rapid prototyping"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2019.2935698",
+      "cited_by_count": 203,
+      "importance": 0.3186,
+      "score_basis": {
+        "topic_overlap": 0.264,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2773775271",
+      "to": "W2009851753",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2773775271"
+        }
+      ]
+    },
+    {
+      "from": "W4364322765",
+      "to": "W2009851753",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4364322765"
+        }
+      ]
+    },
+    {
+      "from": "W4364322765",
+      "to": "W2773775271",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4364322765"
+        }
+      ]
+    },
+    {
+      "from": "W4390547179",
+      "to": "W4364322765",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390547179"
+        }
+      ]
+    },
+    {
+      "from": "W7163197055",
+      "to": "W2009851753",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163197055"
+        }
+      ]
+    },
+    {
+      "from": "W7163197055",
+      "to": "W2773775271",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163197055"
+        }
+      ]
+    },
+    {
+      "from": "W7163197055",
+      "to": "W2969987856",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163197055"
+        }
+      ]
+    },
+    {
+      "from": "W7163197055",
+      "to": "W4364322765",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163197055"
+        }
+      ]
+    },
+    {
+      "from": "W7163197055",
+      "to": "W4390547179",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163197055"
+        }
+      ]
+    },
+    {
+      "from": "W7163197055",
+      "to": "W4406038112",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163197055"
+        }
+      ]
+    }
+  ]
 }

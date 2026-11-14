@@ -3,17 +3,17 @@
   "record_id": "39c68ffc-3e4b-4184-8546-6885d7e07e39",
   "root": "W7143365899",
   "status": "ok",
-  "checked_at": "2026-10-18T12:27:19.402439+00:00",
+  "checked_at": "2026-11-14T00:52:20.593079+00:00",
   "coverage": {
-    "references_found": 28,
+    "references_found": 39,
     "citing_found": 0,
     "reference_limit": 100,
     "citing_limit": 30,
     "display_limit": 41,
     "references_status": "ok",
     "citing_status": "ok",
-    "candidates_resolved": 28,
-    "displayed": 28
+    "candidates_resolved": 39,
+    "displayed": 39
   },
   "issues": [],
   "refresh_failed": false,
@@ -39,14 +39,12 @@
       "venue_abbr": "Nanophotonics",
       "rank_label": "CIE T1 · 2023",
       "keywords": [
-        "silicon photonics",
-        "beam steering",
-        "metalenses",
-        "focal plane arrays",
+        "continuous beam steering",
         "LiDAR",
         "free-space optical communication",
         "sidelobe suppression",
-        "monolithic integration"
+        "monolithic integration",
+        "blind spot elimination"
       ],
       "url": "https://doi.org/10.1002/nap2.70274",
       "cited_by_count": 0,
@@ -83,12 +81,55 @@
         "field of view"
       ],
       "url": "https://doi.org/10.1364/oe.409711",
-      "cited_by_count": 66,
-      "importance": 0.7787,
+      "cited_by_count": 68,
+      "importance": 0.7458,
       "score_basis": {
-        "topic_overlap": 0.508,
+        "topic_overlap": 0.435,
         "shared_references": 7,
         "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4281484130",
+      "doi": "10.1515/nanoph-2022-0344",
+      "title": "Integrated metasurfaces on silicon photonics for emission shaping and holographic projection",
+      "authors": [
+        "Ping‐Yen Hsieh",
+        "Shun-Lin Fang",
+        "Yu-Siang Lin",
+        "Wen-Hsien Huang",
+        "Jia‐Min Shieh",
+        "Peichen Yu",
+        "You-Chia Chang"
+      ],
+      "year": 2022,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "metasurfaces",
+        "silicon photonics",
+        "holographic projection",
+        "evanescent coupling",
+        "silicon waveguides",
+        "beam focusing",
+        "meta-hologram",
+        "monolithic integration",
+        "LiDAR",
+        "free-space optical communication",
+        "orbital angular momentum"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2022-0344",
+      "cited_by_count": 49,
+      "importance": 0.6907,
+      "score_basis": {
+        "topic_overlap": 0.491,
+        "shared_references": 6,
+        "local_citations": 1
       },
       "role": "reference",
       "reading_url": null,
@@ -122,12 +163,12 @@
         "CMOS photonics"
       ],
       "url": "https://doi.org/10.3390/mi13070990",
-      "cited_by_count": 47,
-      "importance": 0.6557,
+      "cited_by_count": 51,
+      "importance": 0.6485,
       "score_basis": {
-        "topic_overlap": 0.368,
-        "shared_references": 8,
-        "local_citations": 2
+        "topic_overlap": 0.308,
+        "shared_references": 9,
+        "local_citations": 3
       },
       "role": "reference",
       "reading_url": null,
@@ -164,11 +205,45 @@
       ],
       "url": "https://doi.org/10.1364/oe.487589",
       "cited_by_count": 21,
-      "importance": 0.62,
+      "importance": 0.6089,
       "score_basis": {
-        "topic_overlap": 0.378,
-        "shared_references": 7,
+        "topic_overlap": 0.353,
+        "shared_references": 8,
         "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4286489544",
+      "doi": "10.1364/optica.458642",
+      "title": "Silicon optical phased array with a 180-degree field of view for 2D optical beam steering",
+      "authors": [
+        "Yong Liu",
+        "Hao Hu"
+      ],
+      "year": 2022,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical phased array",
+        "silicon photonics",
+        "two-dimensional beam steering",
+        "crosstalk reduction",
+        "sidelobe level",
+        "light detection and ranging",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/optica.458642",
+      "cited_by_count": 161,
+      "importance": 0.5931,
+      "score_basis": {
+        "topic_overlap": 0.207,
+        "shared_references": 4,
+        "local_citations": 5
       },
       "role": "reference",
       "reading_url": null,
@@ -203,11 +278,11 @@
         "background suppression"
       ],
       "url": "https://doi.org/10.1364/oe.480280",
-      "cited_by_count": 28,
-      "importance": 0.6133,
+      "cited_by_count": 30,
+      "importance": 0.5865,
       "score_basis": {
-        "topic_overlap": 0.318,
-        "shared_references": 7,
+        "topic_overlap": 0.259,
+        "shared_references": 9,
         "local_citations": 1
       },
       "role": "reference",
@@ -216,33 +291,34 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W4286489544",
-      "doi": "10.1364/optica.458642",
-      "title": "Silicon optical phased array with a 180-degree field of view for 2D optical beam steering",
+      "id": "W4220706180",
+      "doi": "10.1038/s41586-022-04415-8",
+      "title": "A large-scale microelectromechanical-systems-based silicon photonics LiDAR",
       "authors": [
-        "Yong Liu",
-        "Hao Hu"
+        "Xiaosheng Zhang",
+        "Kyungmok Kwon",
+        "Johannes Henriksson",
+        "Jianheng Luo",
+        "Ming C. Wu"
       ],
       "year": 2022,
-      "venue": "Optica",
-      "venue_abbr": "Optica",
-      "rank_label": "CIE T1 · 2023",
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "optical phased array",
-        "silicon photonics",
-        "two-dimensional beam steering",
-        "crosstalk reduction",
-        "sidelobe level",
-        "light detection and ranging",
-        "integrated photonics"
+        "MEMS optical switch",
+        "solid-state LiDAR",
+        "monolithic integration",
+        "CMOS foundry fabrication",
+        "autonomous vehicles"
       ],
-      "url": "https://doi.org/10.1364/optica.458642",
-      "cited_by_count": 151,
-      "importance": 0.5841,
+      "url": "https://doi.org/10.1038/s41586-022-04415-8",
+      "cited_by_count": 467,
+      "importance": 0.5859,
       "score_basis": {
-        "topic_overlap": 0.231,
+        "topic_overlap": 0.191,
         "shared_references": 4,
-        "local_citations": 4
+        "local_citations": 5
       },
       "role": "reference",
       "reading_url": null,
@@ -275,206 +351,11 @@
         "optical antennas"
       ],
       "url": "https://doi.org/10.1364/optica.381484",
-      "cited_by_count": 132,
-      "importance": 0.5739,
+      "cited_by_count": 131,
+      "importance": 0.5733,
       "score_basis": {
-        "topic_overlap": 0.275,
+        "topic_overlap": 0.274,
         "shared_references": 3,
-        "local_citations": 5
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4220832498",
-      "doi": "10.1109/jstqe.2022.3157824",
-      "title": "Silicon Photonics FMCW LiDAR Chip With a Slow-Light Grating Beam Scanner",
-      "authors": [
-        "Toshihiko Baba",
-        "Takemasa Tamanuki",
-        "Hiroyuki Ito",
-        "Mikiya Kamata",
-        "Ryo Tetsuya",
-        "Saneyuki Suyama",
-        "Hiroshi Abe",
-        "Ryo Kurahashi"
-      ],
-      "year": 2022,
-      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
-      "venue_abbr": "JSTQE",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "silicon photonics",
-        "FMCW LiDAR",
-        "beam steering",
-        "thermo-optic effect",
-        "coherent detection",
-        "velocity imaging",
-        "long-range sensing"
-      ],
-      "url": "https://doi.org/10.1109/jstqe.2022.3157824",
-      "cited_by_count": 62,
-      "importance": 0.5631,
-      "score_basis": {
-        "topic_overlap": 0.207,
-        "shared_references": 5,
-        "local_citations": 1
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W3207131272",
-      "doi": "10.1364/optica.437453",
-      "title": "Non-redundant optical phased array",
-      "authors": [
-        "Taichiro Fukui",
-        "Ryota Tanomura",
-        "Kento Komatsu",
-        "Daiji Yamashita",
-        "Shun Takahashi",
-        "Yoshiaki Nakano",
-        "Takuo Tanemura"
-      ],
-      "year": 2021,
-      "venue": "Optica",
-      "venue_abbr": "Optica",
-      "rank_label": "CIE T1 · 2023",
-      "keywords": [
-        "optical phased array",
-        "beam steering",
-        "phase shifters",
-        "Costas arrays",
-        "silicon photonics",
-        "two-dimensional beam steering",
-        "autocorrelation function",
-        "array layout"
-      ],
-      "url": "https://doi.org/10.1364/optica.437453",
-      "cited_by_count": 81,
-      "importance": 0.5491,
-      "score_basis": {
-        "topic_overlap": 0.242,
-        "shared_references": 4,
-        "local_citations": 2
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4403067180",
-      "doi": "10.1364/optica.537785",
-      "title": "Half-wavelength-pitch silicon optical phased array with a 180° field of view, high sidelobe suppression ratio, and complex-pattern beamforming",
-      "authors": [
-        "Cheng Chen",
-        "Degangao Kong",
-        "Yifei Tao",
-        "sujun yuan",
-        "jiahao wu",
-        "Qi Qin",
-        "Xiaoping Liu"
-      ],
-      "year": 2024,
-      "venue": "Optica",
-      "venue_abbr": "Optica",
-      "rank_label": "CIE T1 · 2023",
-      "keywords": [
-        "optical phased array",
-        "crosstalk compensation",
-        "amplitude and phase modulation",
-        "silicon photonics"
-      ],
-      "url": "https://doi.org/10.1364/optica.537785",
-      "cited_by_count": 26,
-      "importance": 0.542,
-      "score_basis": {
-        "topic_overlap": 0.205,
-        "shared_references": 6,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4402313694",
-      "doi": "10.1364/ol.533704",
-      "title": "Unidirectional and highly dispersive grating emitters for silicon photonic beam steerers",
-      "authors": [
-        "Fa-Lun Chen",
-        "Gow-Zin Yiu",
-        "You-Chia Chang"
-      ],
-      "year": 2024,
-      "venue": "Optics Letters",
-      "venue_abbr": "OL",
-      "rank_label": "CIE T2 · 2023",
-      "keywords": [
-        "unidirectional emission",
-        "angular dispersion",
-        "refractive index difference",
-        "phase matching",
-        "diffraction",
-        "silicon photonics"
-      ],
-      "url": "https://doi.org/10.1364/ol.533704",
-      "cited_by_count": 4,
-      "importance": 0.5359,
-      "score_basis": {
-        "topic_overlap": 0.191,
-        "shared_references": 8,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W2996793380",
-      "doi": "10.1364/optica.7.000003",
-      "title": "Large-scale optical phased array using a low-power multi-pass silicon photonic platform",
-      "authors": [
-        "Steven A. Miller",
-        "You-Chia Chang",
-        "Christopher T. Phare",
-        "Min Chul Shin",
-        "Moshe Zadka",
-        "Samantha Pamela Roberts",
-        "Brian Stern",
-        "Xingchen Ji",
-        "Aseema Mohanty",
-        "Oscar A. Jimenez Gordillo",
-        "Utsav D. Dave",
-        "Michal F. Lipson"
-      ],
-      "year": 2019,
-      "venue": "Optica",
-      "venue_abbr": "Optica",
-      "rank_label": "CIE T1 · 2023",
-      "keywords": [
-        "optical phased array",
-        "beam steering",
-        "silicon photonics",
-        "thermo-optic phase shifters",
-        "low power consumption",
-        "solid-state LiDAR",
-        "free-space optical communication",
-        "two-dimensional beam steering"
-      ],
-      "url": "https://doi.org/10.1364/optica.7.000003",
-      "cited_by_count": 354,
-      "importance": 0.5316,
-      "score_basis": {
-        "topic_overlap": 0.292,
-        "shared_references": 2,
         "local_citations": 5
       },
       "role": "reference",
@@ -512,10 +393,10 @@
       ],
       "url": "https://doi.org/10.1364/ol.461697",
       "cited_by_count": 5,
-      "importance": 0.5233,
+      "importance": 0.5725,
       "score_basis": {
-        "topic_overlap": 0.185,
-        "shared_references": 4,
+        "topic_overlap": 0.183,
+        "shared_references": 5,
         "local_citations": 2
       },
       "role": "reference",
@@ -553,10 +434,10 @@
       ],
       "url": "https://doi.org/10.1364/oe.533958",
       "cited_by_count": 6,
-      "importance": 0.5141,
+      "importance": 0.5625,
       "score_basis": {
-        "topic_overlap": 0.254,
-        "shared_references": 4,
+        "topic_overlap": 0.25,
+        "shared_references": 6,
         "local_citations": 0
       },
       "role": "reference",
@@ -565,106 +446,39 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
-      "id": "W4412788518",
-      "doi": "10.1364/oe.569162",
-      "title": "On-chip metalens-based beamformer enabling in-situ beamforming in a silicon optical phased array",
+      "id": "W4220832498",
+      "doi": "10.1109/jstqe.2022.3157824",
+      "title": "Silicon Photonics FMCW LiDAR Chip With a Slow-Light Grating Beam Scanner",
       "authors": [
-        "Yun-Jae Kwon",
-        "Yoon-Ho Sunwoo",
-        "Ji-Yeong Gwon",
-        "Chul-Soon Im",
-        "Sang‐Shin Lee"
+        "Toshihiko Baba",
+        "Takemasa Tamanuki",
+        "Hiroyuki Ito",
+        "Mikiya Kamata",
+        "Ryo Tetsuya",
+        "Saneyuki Suyama",
+        "Hiroshi Abe",
+        "Ryo Kurahashi"
       ],
-      "year": 2025,
-      "venue": "Optics Express",
-      "venue_abbr": "OE",
-      "rank_label": "CIE T2 · 2023",
-      "keywords": [
-        "optical phased array",
-        "silicon photonics",
-        "photonic integrated circuits"
-      ],
-      "url": "https://doi.org/10.1364/oe.569162",
-      "cited_by_count": 2,
-      "importance": 0.5097,
-      "score_basis": {
-        "topic_overlap": 0.466,
-        "shared_references": 2,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W2925745050",
-      "doi": "10.1109/jstqe.2019.2908555",
-      "title": "Long-Range LiDAR and Free-Space Data Communication With High-Performance Optical Phased Arrays",
-      "authors": [
-        "Christopher Vincent Poulton",
-        "Matthew J. Byrd",
-        "Peter Russo",
-        "Erman Timurdogan",
-        "Murshed Khandaker",
-        "Diedrik Vermeulen",
-        "Michael Robert Watts"
-      ],
-      "year": 2019,
+      "year": 2022,
       "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
       "venue_abbr": "JSTQE",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
-        "optical phased array",
-        "LiDAR",
-        "free-space optical communication",
         "silicon photonics",
-        "phase shifters",
-        "coherent lidar"
+        "FMCW LiDAR",
+        "beam steering",
+        "thermo-optic effect",
+        "coherent detection",
+        "velocity imaging",
+        "long-range sensing"
       ],
-      "url": "https://doi.org/10.1109/jstqe.2019.2908555",
-      "cited_by_count": 581,
-      "importance": 0.4832,
+      "url": "https://doi.org/10.1109/jstqe.2022.3157824",
+      "cited_by_count": 63,
+      "importance": 0.5533,
       "score_basis": {
-        "topic_overlap": 0.296,
-        "shared_references": 1,
-        "local_citations": 5
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W2914472749",
-      "doi": "10.1364/oe.27.002499",
-      "title": "Demonstration of a new optical scanner using silicon photonics integrated circuit",
-      "authors": [
-        "Daisuke Inoue",
-        "Tadashi Ichikawa",
-        "Akari Kawasaki",
-        "Tatsuya Yamashita"
-      ],
-      "year": 2019,
-      "venue": "Optics Express",
-      "venue_abbr": "OE",
-      "rank_label": "CIE T2 · 2023",
-      "keywords": [
-        "optical scanner",
-        "silicon photonics integrated circuits",
-        "grating arrays",
-        "beam switching",
-        "LiDAR",
-        "automotive LiDAR",
-        "autonomous driving"
-      ],
-      "url": "https://doi.org/10.1364/oe.27.002499",
-      "cited_by_count": 74,
-      "importance": 0.4497,
-      "score_basis": {
-        "topic_overlap": 0.222,
-        "shared_references": 1,
-        "local_citations": 5
+        "topic_overlap": 0.185,
+        "shared_references": 6,
+        "local_citations": 1
       },
       "role": "reference",
       "reading_url": null,
@@ -707,12 +521,495 @@
         "autonomous vehicles"
       ],
       "url": "https://doi.org/10.1002/lpor.202301360",
-      "cited_by_count": 100,
-      "importance": 0.4399,
+      "cited_by_count": 103,
+      "importance": 0.5478,
       "score_basis": {
-        "topic_overlap": 0.222,
-        "shared_references": 2,
+        "topic_overlap": 0.24,
+        "shared_references": 4,
         "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3207131272",
+      "doi": "10.1364/optica.437453",
+      "title": "Non-redundant optical phased array",
+      "authors": [
+        "Taichiro Fukui",
+        "Ryota Tanomura",
+        "Kento Komatsu",
+        "Daiji Yamashita",
+        "Shun Takahashi",
+        "Yoshiaki Nakano",
+        "Takuo Tanemura"
+      ],
+      "year": 2021,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical phased array",
+        "beam steering",
+        "phase shifters",
+        "Costas arrays",
+        "silicon photonics",
+        "two-dimensional beam steering",
+        "autocorrelation function",
+        "array layout"
+      ],
+      "url": "https://doi.org/10.1364/optica.437453",
+      "cited_by_count": 85,
+      "importance": 0.5469,
+      "score_basis": {
+        "topic_overlap": 0.193,
+        "shared_references": 4,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412788518",
+      "doi": "10.1364/oe.569162",
+      "title": "On-chip metalens-based beamformer enabling in-situ beamforming in a silicon optical phased array",
+      "authors": [
+        "Yun-Jae Kwon",
+        "Yoon-Ho Sunwoo",
+        "Ji-Yeong Gwon",
+        "Chul-Soon Im",
+        "Sang‐Shin Lee"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical phased array",
+        "silicon photonics",
+        "photonic integrated circuits"
+      ],
+      "url": "https://doi.org/10.1364/oe.569162",
+      "cited_by_count": 2,
+      "importance": 0.5465,
+      "score_basis": {
+        "topic_overlap": 0.437,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402265139",
+      "doi": "10.1364/cleo_si.2024.sw4o.5",
+      "title": "Silicon Photonic Beam Steerer Based on Metalens Focal Plane Array with Direction Fine-tuning",
+      "authors": [
+        "Ping‐Yen Hsieh",
+        "You-Chia Chang"
+      ],
+      "year": 2024,
+      "venue": "Conference on Lasers and Electro-Optics",
+      "venue_abbr": "CLEO",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "metalenses",
+        "focal plane arrays",
+        "fine-tuning",
+        "resolution enhancement",
+        "beam steering",
+        "waveguide arrays"
+      ],
+      "url": "https://doi.org/10.1364/cleo_si.2024.sw4o.5",
+      "cited_by_count": 4,
+      "importance": 0.5458,
+      "score_basis": {
+        "topic_overlap": 0.435,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403067180",
+      "doi": "10.1364/optica.537785",
+      "title": "Half-wavelength-pitch silicon optical phased array with a 180° field of view, high sidelobe suppression ratio, and complex-pattern beamforming",
+      "authors": [
+        "Cheng Chen",
+        "Degangao Kong",
+        "Yifei Tao",
+        "sujun yuan",
+        "jiahao wu",
+        "Qi Qin",
+        "Xiaoping Liu"
+      ],
+      "year": 2024,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical phased array",
+        "crosstalk compensation",
+        "amplitude and phase modulation",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1364/optica.537785",
+      "cited_by_count": 26,
+      "importance": 0.5325,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 9,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402313694",
+      "doi": "10.1364/ol.533704",
+      "title": "Unidirectional and highly dispersive grating emitters for silicon photonic beam steerers",
+      "authors": [
+        "Fa-Lun Chen",
+        "Gow-Zin Yiu",
+        "You-Chia Chang"
+      ],
+      "year": 2024,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "unidirectional emission",
+        "angular dispersion",
+        "refractive index difference",
+        "phase matching",
+        "diffraction",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1364/ol.533704",
+      "cited_by_count": 4,
+      "importance": 0.5262,
+      "score_basis": {
+        "topic_overlap": 0.169,
+        "shared_references": 9,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2996793380",
+      "doi": "10.1364/optica.7.000003",
+      "title": "Large-scale optical phased array using a low-power multi-pass silicon photonic platform",
+      "authors": [
+        "Steven A. Miller",
+        "You-Chia Chang",
+        "Christopher T. Phare",
+        "Min Chul Shin",
+        "Moshe Zadka",
+        "Samantha Pamela Roberts",
+        "Brian Stern",
+        "Xingchen Ji",
+        "Aseema Mohanty",
+        "Oscar A. Jimenez Gordillo",
+        "Utsav D. Dave",
+        "Michal F. Lipson"
+      ],
+      "year": 2019,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "optical phased array",
+        "beam steering",
+        "silicon photonics",
+        "thermo-optic phase shifters",
+        "low power consumption",
+        "solid-state LiDAR",
+        "free-space optical communication",
+        "two-dimensional beam steering"
+      ],
+      "url": "https://doi.org/10.1364/optica.7.000003",
+      "cited_by_count": 361,
+      "importance": 0.52,
+      "score_basis": {
+        "topic_overlap": 0.267,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4398140654",
+      "doi": "10.1364/oe.524890",
+      "title": "Silicon FMCW LiDAR chip integrated with SLG beam scanner and k-clock interferometer for operation with wavelength-swept laser source",
+      "authors": [
+        "Shumpei Yamazaki",
+        "Takemasa Tamanuki",
+        "Hiroyuki Ito",
+        "Riku Kubota",
+        "Toshihiko Baba"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "FMCW LiDAR",
+        "silicon photonics",
+        "beam steering",
+        "wavelength-swept laser"
+      ],
+      "url": "https://doi.org/10.1364/oe.524890",
+      "cited_by_count": 9,
+      "importance": 0.4869,
+      "score_basis": {
+        "topic_overlap": 0.193,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3047030034",
+      "doi": "10.1038/s41586-021-03259-y",
+      "title": "A universal 3D imaging sensor on a silicon photonics platform",
+      "authors": [
+        "Christopher M. Rogers",
+        "Alexander Y. Piggott",
+        "David J. Thomson",
+        "Robert F. Wiser",
+        "I.E. Opris",
+        "Steven A. Fortune",
+        "Andrew J. Compston",
+        "Alexander Gondarenko",
+        "Fanfan Meng",
+        "Xia Chen",
+        "Graham T. Reed",
+        "Remus Nicolaescu"
+      ],
+      "year": 2021,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "3D imaging",
+        "light detection and ranging",
+        "silicon photonics",
+        "heterodyne detection",
+        "monolithic integration",
+        "depth sensing",
+        "quantum noise limit",
+        "electronic readout",
+        "autonomous navigation"
+      ],
+      "url": "https://doi.org/10.1038/s41586-021-03259-y",
+      "cited_by_count": 437,
+      "importance": 0.4725,
+      "score_basis": {
+        "topic_overlap": 0.05,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4382394421",
+      "doi": "10.1038/s41586-023-06201-6",
+      "title": "Frequency–angular resolving LiDAR using chip-scale acousto-optic beam steering",
+      "authors": [
+        "Bingzhao Li",
+        "Qixuan Lin",
+        "Mo Li"
+      ],
+      "year": 2023,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "LiDAR",
+        "Brillouin scattering",
+        "non-mechanical beam steering",
+        "3D imaging",
+        "autonomous vehicles",
+        "robotics"
+      ],
+      "url": "https://doi.org/10.1038/s41586-023-06201-6",
+      "cited_by_count": 161,
+      "importance": 0.4644,
+      "score_basis": {
+        "topic_overlap": 0.054,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406151057",
+      "doi": "10.1016/j.optlastec.2025.112425",
+      "title": "360° beam steerer by thermo-optic waveguide lens and facet refraction",
+      "authors": [
+        "Tao Chen",
+        "Zhenming Ding",
+        "Zhangqi Dang",
+        "Ziyang Zhang"
+      ],
+      "year": 2025,
+      "venue": "Optics & Laser Technology",
+      "venue_abbr": "Opt. Laser Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical beam steering",
+        "multimode waveguides",
+        "sidelobe suppression",
+        "insertion loss",
+        "LiDAR",
+        "optical phased array",
+        "robot sensing"
+      ],
+      "url": "https://doi.org/10.1016/j.optlastec.2025.112425",
+      "cited_by_count": 4,
+      "importance": 0.461,
+      "score_basis": {
+        "topic_overlap": 0.247,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2925745050",
+      "doi": "10.1109/jstqe.2019.2908555",
+      "title": "Long-Range LiDAR and Free-Space Data Communication With High-Performance Optical Phased Arrays",
+      "authors": [
+        "Christopher Vincent Poulton",
+        "Matthew J. Byrd",
+        "Peter Russo",
+        "Erman Timurdogan",
+        "Murshed Khandaker",
+        "Diedrik Vermeulen",
+        "Michael R. Watts"
+      ],
+      "year": 2019,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical phased array",
+        "LiDAR",
+        "free-space optical communication",
+        "silicon photonics",
+        "phase shifters",
+        "coherent lidar"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2019.2908555",
+      "cited_by_count": 587,
+      "importance": 0.4573,
+      "score_basis": {
+        "topic_overlap": 0.239,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410350748",
+      "doi": "10.1038/s41467-025-59831-x",
+      "title": "Optical multi-beam steering and communication using integrated acousto-optics arrays",
+      "authors": [
+        "Qixuan Lin",
+        "Shucheng Fang",
+        "Yue Yu",
+        "Zichen Xi",
+        "Linbo Shao",
+        "Bingzhao Li",
+        "Mo Li"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical beam steering",
+        "lithium niobate",
+        "thin-film lithium niobate",
+        "free-space optical communication",
+        "MIMO transmission",
+        "acoustic wave generation"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-59831-x",
+      "cited_by_count": 35,
+      "importance": 0.4418,
+      "score_basis": {
+        "topic_overlap": 0.093,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2914472749",
+      "doi": "10.1364/oe.27.002499",
+      "title": "Demonstration of a new optical scanner using silicon photonics integrated circuit",
+      "authors": [
+        "Daisuke Inoue",
+        "Tadashi Ichikawa",
+        "Akari Kawasaki",
+        "Tatsuya Yamashita"
+      ],
+      "year": 2019,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical scanner",
+        "silicon photonics integrated circuits",
+        "grating arrays",
+        "beam switching",
+        "LiDAR",
+        "automotive LiDAR",
+        "autonomous driving"
+      ],
+      "url": "https://doi.org/10.1364/oe.27.002499",
+      "cited_by_count": 75,
+      "importance": 0.4283,
+      "score_basis": {
+        "topic_overlap": 0.174,
+        "shared_references": 1,
+        "local_citations": 5
       },
       "role": "reference",
       "reading_url": null,
@@ -747,12 +1044,64 @@
         "optical sensing"
       ],
       "url": "https://doi.org/10.1364/oe.27.003642",
-      "cited_by_count": 198,
-      "importance": 0.4369,
+      "cited_by_count": 201,
+      "importance": 0.4269,
       "score_basis": {
-        "topic_overlap": 0.193,
+        "topic_overlap": 0.171,
         "shared_references": 1,
         "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285891789",
+      "doi": "10.1515/nanoph-2022-0294",
+      "title": "Metasurface on integrated photonic platform: from mode converters to machine learning",
+      "authors": [
+        "Zi Wang",
+        "Yahui Xiao",
+        "Kun Liao",
+        "Tiantian Li",
+        "Hao Ran Song",
+        "Haoshuo Chen",
+        "S. M. Zia Uddin",
+        "Dun Mao",
+        "Feifan Wang",
+        "Zhiping Zhou",
+        "Bo Yuan",
+        "Wei Jiang",
+        "Nicolas K. Fontaine",
+        "Amit Kumar Agrawal",
+        "Alan Eli Willner",
+        "Xiaoyong Hu",
+        "Tingyi Gu"
+      ],
+      "year": 2022,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "silicon photonics",
+        "mode conversion",
+        "mode-division multiplexing",
+        "wavefront shaping",
+        "spatial light modulator",
+        "hyperspectral imaging",
+        "reconfigurable metasurface",
+        "optical neural networks",
+        "optical signal processing",
+        "machine learning"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2022-0294",
+      "cited_by_count": 53,
+      "importance": 0.4208,
+      "score_basis": {
+        "topic_overlap": 0.38,
+        "shared_references": 1,
+        "local_citations": 0
       },
       "role": "reference",
       "reading_url": null,
@@ -770,7 +1119,7 @@
         "Matthew J. Byrd",
         "Manan Raval",
         "Diedrik Vermeulen",
-        "Michael Robert Watts"
+        "Michael R. Watts"
       ],
       "year": 2017,
       "venue": "Optics Letters",
@@ -785,117 +1134,12 @@
         "CMOS-compatible photonics"
       ],
       "url": "https://doi.org/10.1364/ol.42.004091",
-      "cited_by_count": 720,
-      "importance": 0.4185,
+      "cited_by_count": 724,
+      "importance": 0.4057,
       "score_basis": {
-        "topic_overlap": 0.263,
+        "topic_overlap": 0.235,
         "shared_references": 0,
         "local_citations": 5
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4406151057",
-      "doi": "10.1016/j.optlastec.2025.112425",
-      "title": "360° beam steerer by thermo-optic waveguide lens and facet refraction",
-      "authors": [
-        "Tao Chen",
-        "Zhenming Ding",
-        "Zhangqi Dang",
-        "Ziyang Zhang"
-      ],
-      "year": 2025,
-      "venue": "Optics & Laser Technology",
-      "venue_abbr": "Opt. Laser Technol.",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "optical beam steering",
-        "multimode waveguides",
-        "sidelobe suppression",
-        "insertion loss",
-        "LiDAR",
-        "optical phased array",
-        "robot sensing"
-      ],
-      "url": "https://doi.org/10.1016/j.optlastec.2025.112425",
-      "cited_by_count": 4,
-      "importance": 0.4127,
-      "score_basis": {
-        "topic_overlap": 0.25,
-        "shared_references": 2,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4395674386",
-      "doi": "10.1364/oe.516722",
-      "title": "Adaptive beam forming across temperature variation in optical phased array enabled with deep neural network",
-      "authors": [
-        "Makoto Nakai",
-        "Isamu Takai",
-        "SungWon Chung",
-        "Hossein Hashemi"
-      ],
-      "year": 2024,
-      "venue": "Optics Express",
-      "venue_abbr": "OE",
-      "rank_label": "CIE T2 · 2023",
-      "keywords": [
-        "optical phased array",
-        "temperature compensation",
-        "deep neural network",
-        "silicon photonics",
-        "integrated photonics",
-        "beam steering"
-      ],
-      "url": "https://doi.org/10.1364/oe.516722",
-      "cited_by_count": 12,
-      "importance": 0.3982,
-      "score_basis": {
-        "topic_overlap": 0.218,
-        "shared_references": 2,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4398140654",
-      "doi": "10.1364/oe.524890",
-      "title": "Silicon FMCW LiDAR chip integrated with SLG beam scanner and k-clock interferometer for operation with wavelength-swept laser source",
-      "authors": [
-        "Shumpei Yamazaki",
-        "Takemasa Tamanuki",
-        "Hiroyuki Ito",
-        "Riku Kubota",
-        "Toshihiko Baba"
-      ],
-      "year": 2024,
-      "venue": "Optics Express",
-      "venue_abbr": "OE",
-      "rank_label": "CIE T2 · 2023",
-      "keywords": [
-        "FMCW LiDAR",
-        "silicon photonics",
-        "beam steering",
-        "wavelength-swept laser"
-      ],
-      "url": "https://doi.org/10.1364/oe.524890",
-      "cited_by_count": 9,
-      "importance": 0.3982,
-      "score_basis": {
-        "topic_overlap": 0.218,
-        "shared_references": 2,
-        "local_citations": 0
       },
       "role": "reference",
       "reading_url": null,
@@ -941,12 +1185,47 @@
         "10 Gb/s"
       ],
       "url": "https://doi.org/10.1109/jlt.2022.3206843",
-      "cited_by_count": 95,
-      "importance": 0.3973,
+      "cited_by_count": 104,
+      "importance": 0.3891,
       "score_basis": {
-        "topic_overlap": 0.194,
+        "topic_overlap": 0.176,
         "shared_references": 1,
         "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4395674386",
+      "doi": "10.1364/oe.516722",
+      "title": "Adaptive beam forming across temperature variation in optical phased array enabled with deep neural network",
+      "authors": [
+        "Makoto Nakai",
+        "Isamu Takai",
+        "SungWon Chung",
+        "Hossein Hashemi"
+      ],
+      "year": 2024,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical phased array",
+        "temperature compensation",
+        "deep neural network",
+        "silicon photonics",
+        "integrated photonics",
+        "beam steering"
+      ],
+      "url": "https://doi.org/10.1364/oe.516722",
+      "cited_by_count": 12,
+      "importance": 0.3869,
+      "score_basis": {
+        "topic_overlap": 0.193,
+        "shared_references": 2,
+        "local_citations": 0
       },
       "role": "reference",
       "reading_url": null,
@@ -980,12 +1259,50 @@
         "on-chip loss"
       ],
       "url": "https://doi.org/10.1002/lpor.202300330",
-      "cited_by_count": 16,
-      "importance": 0.39,
+      "cited_by_count": 17,
+      "importance": 0.3806,
       "score_basis": {
-        "topic_overlap": 0.422,
+        "topic_overlap": 0.401,
         "shared_references": 0,
         "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2966722031",
+      "doi": "10.1038/s41467-019-11578-y",
+      "title": "On-chip wavefront shaping with dielectric metasurface",
+      "authors": [
+        "Zi Wang",
+        "Tiantian Li",
+        "Anishkumar Soman",
+        "Dun Mao",
+        "Thomas Kananen",
+        "Tingyi Gu"
+      ],
+      "year": 2019,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "dielectric metasurfaces",
+        "silicon-on-insulator",
+        "cascaded metasurfaces",
+        "Fourier transform",
+        "metasystem",
+        "transformation optics",
+        "optical signal processing"
+      ],
+      "url": "https://doi.org/10.1038/s41467-019-11578-y",
+      "cited_by_count": 296,
+      "importance": 0.3731,
+      "score_basis": {
+        "topic_overlap": 0.251,
+        "shared_references": 0,
+        "local_citations": 3
       },
       "role": "reference",
       "reading_url": null,
@@ -1026,10 +1343,10 @@
         "achromatic lens"
       ],
       "url": "https://doi.org/10.1021/acs.nanolett.8b01570",
-      "cited_by_count": 318,
-      "importance": 0.3759,
+      "cited_by_count": 326,
+      "importance": 0.3683,
       "score_basis": {
-        "topic_overlap": 0.28,
+        "topic_overlap": 0.263,
         "shared_references": 1,
         "local_citations": 0
       },
@@ -1064,12 +1381,90 @@
         "focusing efficiency"
       ],
       "url": "https://doi.org/10.1038/ncomms13682",
-      "cited_by_count": 670,
-      "importance": 0.2998,
+      "cited_by_count": 682,
+      "importance": 0.3196,
       "score_basis": {
         "topic_overlap": 0.133,
         "shared_references": 0,
-        "local_citations": 2
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2785491396",
+      "doi": "10.48550/arxiv.1802.04624",
+      "title": "Silicon Optical Phased Array with High-Efficiency Beam Formation over 180 Degree Field of View",
+      "authors": [
+        "Christopher T. Phare",
+        "Shin, Min Chul",
+        "Steven A. Miller",
+        "Brian Stern",
+        "Michal F. Lipson"
+      ],
+      "year": 2018,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "beam steering",
+        "wide field of view",
+        "crosstalk",
+        "high refractive index contrast",
+        "diffraction-limited beam",
+        "LiDAR",
+        "free-space optical communication"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.1802.04624",
+      "cited_by_count": 34,
+      "importance": 0.3157,
+      "score_basis": {
+        "topic_overlap": 0.257,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385192516",
+      "doi": "10.23919/vlsitechnologyandcir57934.2023.10185161",
+      "title": "A 2048-channel, 125μW/ch DAC Controlling a 9,216-element Optical Phased Array Coherent Solid-State LiDAR",
+      "authors": [
+        "Benjamin R. Moss",
+        "Christopher Vincent Poulton",
+        "Matthew J. Byrd",
+        "Peter Russo",
+        "Oleg Shatrovoy",
+        "David Paquette",
+        "A.C. Reardon",
+        "Michael R. Watts"
+      ],
+      "year": 2023,
+      "venue": "IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)",
+      "venue_abbr": "IEEE Symposium on VLSI Technology and Circuits (VLSI Technology and Circuits)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical phased array",
+        "coherent lidar",
+        "digital-to-analog converter",
+        "electro-optic phase shifters",
+        "silicon photonics",
+        "beam steering",
+        "low-power electronics",
+        "solid-state LiDAR"
+      ],
+      "url": "https://doi.org/10.23919/vlsitechnologyandcir57934.2023.10185161",
+      "cited_by_count": 21,
+      "importance": 0.2865,
+      "score_basis": {
+        "topic_overlap": 0.192,
+        "shared_references": 0,
+        "local_citations": 0
       },
       "role": "reference",
       "reading_url": null,
@@ -1102,10 +1497,10 @@
         "hard-decision forward error correction"
       ],
       "url": "https://doi.org/10.1364/oe.574859",
-      "cited_by_count": 4,
-      "importance": 0.284,
+      "cited_by_count": 5,
+      "importance": 0.2832,
       "score_basis": {
-        "topic_overlap": 0.076,
+        "topic_overlap": 0.074,
         "shared_references": 1,
         "local_citations": 0
       },
@@ -1141,10 +1536,61 @@
         "temperature tuning"
       ],
       "url": "https://doi.org/10.1364/ol.476873",
-      "cited_by_count": 33,
-      "importance": 0.2769,
+      "cited_by_count": 35,
+      "importance": 0.2679,
       "score_basis": {
-        "topic_overlap": 0.171,
+        "topic_overlap": 0.151,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2773487722",
+      "doi": "10.1038/s41598-017-17580-y",
+      "title": "High-Capacity Free-Space Optical Communications Between a Ground Transmitter and a Ground Receiver via a UAV Using Multiplexing of Multiple Orbital-Angular-Momentum Beams",
+      "authors": [
+        "Long Li",
+        "Runzhou Zhang",
+        "Zhe Zhao",
+        "Guodong Xie",
+        "Peicheng Liao",
+        "Kai Pang",
+        "Haoqian Song",
+        "Cong Liu",
+        "Yongxiong Ren",
+        "Guillaume Labroille",
+        "Pu Jian",
+        "Dmitry S. Starodubov",
+        "Brittany Lynn",
+        "Robert D. Bock",
+        "Moshe Tur",
+        "Alan Eli Willner"
+      ],
+      "year": 2017,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "orbital angular momentum multiplexing",
+        "free-space optical communication",
+        "unmanned aerial vehicles",
+        "UAV-assisted communication",
+        "intermodal crosstalk",
+        "channel impairments",
+        "bit error rate",
+        "QPSK",
+        "high-capacity optical links",
+        "moving platform"
+      ],
+      "url": "https://doi.org/10.1038/s41598-017-17580-y",
+      "cited_by_count": 145,
+      "importance": 0.2176,
+      "score_basis": {
+        "topic_overlap": 0.039,
         "shared_references": 0,
         "local_citations": 0
       },
@@ -1246,6 +1692,36 @@
       ]
     },
     {
+      "from": "W3047030034",
+      "to": "W2761155850",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047030034"
+        }
+      ]
+    },
+    {
+      "from": "W3047030034",
+      "to": "W2914472749",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047030034"
+        }
+      ]
+    },
+    {
+      "from": "W3047030034",
+      "to": "W2925745050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3047030034"
+        }
+      ]
+    },
+    {
       "from": "W3105221677",
       "to": "W2544397556",
       "sources": [
@@ -1356,6 +1832,46 @@
       ]
     },
     {
+      "from": "W4220706180",
+      "to": "W2914472749",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220706180"
+        }
+      ]
+    },
+    {
+      "from": "W4220706180",
+      "to": "W2992730919",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220706180"
+        }
+      ]
+    },
+    {
+      "from": "W4220706180",
+      "to": "W2996793380",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220706180"
+        }
+      ]
+    },
+    {
+      "from": "W4220706180",
+      "to": "W3047030034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220706180"
+        }
+      ]
+    },
+    {
       "from": "W4220832498",
       "to": "W2914472749",
       "sources": [
@@ -1397,11 +1913,81 @@
     },
     {
       "from": "W4220832498",
+      "to": "W3047030034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4220832498"
+        }
+      ]
+    },
+    {
+      "from": "W4220832498",
       "to": "W3105221677",
       "sources": [
         {
           "provider": "OpenAlex",
           "url": "https://api.openalex.org/works/W4220832498"
+        }
+      ]
+    },
+    {
+      "from": "W4281484130",
+      "to": "W2544397556",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281484130"
+        }
+      ]
+    },
+    {
+      "from": "W4281484130",
+      "to": "W2913305571",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281484130"
+        }
+      ]
+    },
+    {
+      "from": "W4281484130",
+      "to": "W2925745050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281484130"
+        }
+      ]
+    },
+    {
+      "from": "W4281484130",
+      "to": "W2996793380",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281484130"
+        }
+      ]
+    },
+    {
+      "from": "W4281484130",
+      "to": "W3047030034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281484130"
+        }
+      ]
+    },
+    {
+      "from": "W4281484130",
+      "to": "W3105221677",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4281484130"
         }
       ]
     },
@@ -1458,6 +2044,16 @@
     {
       "from": "W4283592563",
       "to": "W2996793380",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4283592563"
+        }
+      ]
+    },
+    {
+      "from": "W4283592563",
+      "to": "W3047030034",
       "sources": [
         {
           "provider": "OpenAlex",
@@ -1486,6 +2082,16 @@
       ]
     },
     {
+      "from": "W4285891789",
+      "to": "W2966722031",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285891789"
+        }
+      ]
+    },
+    {
       "from": "W4286221665",
       "to": "W2761155850",
       "sources": [
@@ -1518,6 +2124,16 @@
     {
       "from": "W4286221665",
       "to": "W2996793380",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4286221665"
+        }
+      ]
+    },
+    {
+      "from": "W4286221665",
+      "to": "W3047030034",
       "sources": [
         {
           "provider": "OpenAlex",
@@ -1627,7 +2243,27 @@
     },
     {
       "from": "W4312190580",
+      "to": "W3047030034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312190580"
+        }
+      ]
+    },
+    {
+      "from": "W4312190580",
       "to": "W3105221677",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312190580"
+        }
+      ]
+    },
+    {
+      "from": "W4312190580",
+      "to": "W4220706180",
       "sources": [
         {
           "provider": "OpenAlex",
@@ -1687,6 +2323,16 @@
     },
     {
       "from": "W4353083646",
+      "to": "W4281484130",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4353083646"
+        }
+      ]
+    },
+    {
+      "from": "W4353083646",
       "to": "W4283592563",
       "sources": [
         {
@@ -1712,6 +2358,46 @@
         {
           "provider": "OpenAlex",
           "url": "https://api.openalex.org/works/W4353083646"
+        }
+      ]
+    },
+    {
+      "from": "W4382394421",
+      "to": "W2761155850",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4382394421"
+        }
+      ]
+    },
+    {
+      "from": "W4382394421",
+      "to": "W3047030034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4382394421"
+        }
+      ]
+    },
+    {
+      "from": "W4382394421",
+      "to": "W4220706180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4382394421"
+        }
+      ]
+    },
+    {
+      "from": "W4382394421",
+      "to": "W4286489544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4382394421"
         }
       ]
     },
@@ -1747,6 +2433,26 @@
     },
     {
       "from": "W4396762032",
+      "to": "W3047030034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396762032"
+        }
+      ]
+    },
+    {
+      "from": "W4396762032",
+      "to": "W4220706180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396762032"
+        }
+      ]
+    },
+    {
+      "from": "W4396762032",
       "to": "W4286489544",
       "sources": [
         {
@@ -1758,6 +2464,26 @@
     {
       "from": "W4398140654",
       "to": "W2992730919",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398140654"
+        }
+      ]
+    },
+    {
+      "from": "W4398140654",
+      "to": "W3047030034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398140654"
+        }
+      ]
+    },
+    {
+      "from": "W4398140654",
+      "to": "W4220706180",
       "sources": [
         {
           "provider": "OpenAlex",
@@ -1797,7 +2523,27 @@
     },
     {
       "from": "W4402172014",
+      "to": "W3047030034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402172014"
+        }
+      ]
+    },
+    {
+      "from": "W4402172014",
       "to": "W3105221677",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402172014"
+        }
+      ]
+    },
+    {
+      "from": "W4402172014",
+      "to": "W4220706180",
       "sources": [
         {
           "provider": "OpenAlex",
@@ -1812,6 +2558,36 @@
         {
           "provider": "OpenAlex",
           "url": "https://api.openalex.org/works/W4402172014"
+        }
+      ]
+    },
+    {
+      "from": "W4402265139",
+      "to": "W2966722031",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402265139"
+        }
+      ]
+    },
+    {
+      "from": "W4402265139",
+      "to": "W3207131272",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402265139"
+        }
+      ]
+    },
+    {
+      "from": "W4402265139",
+      "to": "W4283592563",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402265139"
         }
       ]
     },
@@ -1848,6 +2624,16 @@
     {
       "from": "W4402313694",
       "to": "W2996793380",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402313694"
+        }
+      ]
+    },
+    {
+      "from": "W4402313694",
+      "to": "W3047030034",
       "sources": [
         {
           "provider": "OpenAlex",
@@ -1927,6 +2713,16 @@
     },
     {
       "from": "W4403067180",
+      "to": "W3047030034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403067180"
+        }
+      ]
+    },
+    {
+      "from": "W4403067180",
       "to": "W3207131272",
       "sources": [
         {
@@ -1937,7 +2733,27 @@
     },
     {
       "from": "W4403067180",
+      "to": "W4220706180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403067180"
+        }
+      ]
+    },
+    {
+      "from": "W4403067180",
       "to": "W4286489544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403067180"
+        }
+      ]
+    },
+    {
+      "from": "W4403067180",
+      "to": "W4382394421",
       "sources": [
         {
           "provider": "OpenAlex",
@@ -1967,6 +2783,16 @@
     },
     {
       "from": "W4406151057",
+      "to": "W4220706180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406151057"
+        }
+      ]
+    },
+    {
+      "from": "W4406151057",
       "to": "W4286489544",
       "sources": [
         {
@@ -1976,8 +2802,58 @@
       ]
     },
     {
+      "from": "W4410350748",
+      "to": "W3047030034",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410350748"
+        }
+      ]
+    },
+    {
+      "from": "W4410350748",
+      "to": "W4220706180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410350748"
+        }
+      ]
+    },
+    {
+      "from": "W4410350748",
+      "to": "W4286489544",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410350748"
+        }
+      ]
+    },
+    {
+      "from": "W4410350748",
+      "to": "W4382394421",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410350748"
+        }
+      ]
+    },
+    {
       "from": "W4412788518",
       "to": "W2925745050",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412788518"
+        }
+      ]
+    },
+    {
+      "from": "W4412788518",
+      "to": "W2966722031",
       "sources": [
         {
           "provider": "OpenAlex",
@@ -2027,6 +2903,26 @@
     },
     {
       "from": "W7143365899",
+      "to": "W2773487722",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7143365899"
+        }
+      ]
+    },
+    {
+      "from": "W7143365899",
+      "to": "W2785491396",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7143365899"
+        }
+      ]
+    },
+    {
+      "from": "W7143365899",
       "to": "W2798847468",
       "sources": [
         {
@@ -2067,6 +2963,16 @@
     },
     {
       "from": "W7143365899",
+      "to": "W2966722031",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7143365899"
+        }
+      ]
+    },
+    {
+      "from": "W7143365899",
       "to": "W2992730919",
       "sources": [
         {
@@ -2078,6 +2984,16 @@
     {
       "from": "W7143365899",
       "to": "W2996793380",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7143365899"
+        }
+      ]
+    },
+    {
+      "from": "W7143365899",
+      "to": "W3047030034",
       "sources": [
         {
           "provider": "OpenAlex",
@@ -2107,6 +3023,16 @@
     },
     {
       "from": "W7143365899",
+      "to": "W4220706180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7143365899"
+        }
+      ]
+    },
+    {
+      "from": "W7143365899",
       "to": "W4220832498",
       "sources": [
         {
@@ -2117,7 +3043,27 @@
     },
     {
       "from": "W7143365899",
+      "to": "W4281484130",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7143365899"
+        }
+      ]
+    },
+    {
+      "from": "W7143365899",
       "to": "W4283592563",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7143365899"
+        }
+      ]
+    },
+    {
+      "from": "W7143365899",
+      "to": "W4285891789",
       "sources": [
         {
           "provider": "OpenAlex",
@@ -2197,6 +3143,26 @@
     },
     {
       "from": "W7143365899",
+      "to": "W4382394421",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7143365899"
+        }
+      ]
+    },
+    {
+      "from": "W7143365899",
+      "to": "W4385192516",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7143365899"
+        }
+      ]
+    },
+    {
+      "from": "W7143365899",
       "to": "W4395674386",
       "sources": [
         {
@@ -2237,6 +3203,16 @@
     },
     {
       "from": "W7143365899",
+      "to": "W4402265139",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7143365899"
+        }
+      ]
+    },
+    {
+      "from": "W7143365899",
       "to": "W4402313694",
       "sources": [
         {
@@ -2258,6 +3234,16 @@
     {
       "from": "W7143365899",
       "to": "W4406151057",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7143365899"
+        }
+      ]
+    },
+    {
+      "from": "W7143365899",
+      "to": "W4410350748",
       "sources": [
         {
           "provider": "OpenAlex",

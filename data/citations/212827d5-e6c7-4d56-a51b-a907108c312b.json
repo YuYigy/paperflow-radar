@@ -2,18 +2,18 @@
   "schema": "paperflow.citation-graph/v1",
   "record_id": "212827d5-e6c7-4d56-a51b-a907108c312b",
   "root": "W7203793366",
-  "status": "empty",
-  "checked_at": "2026-10-18T12:27:18.717681+00:00",
+  "status": "ok",
+  "checked_at": "2026-11-14T00:52:17.224805+00:00",
   "coverage": {
-    "references_found": 0,
+    "references_found": 1,
     "citing_found": 0,
     "reference_limit": 100,
     "citing_limit": 30,
     "display_limit": 41,
     "references_status": "ok",
     "citing_status": "ok",
-    "candidates_resolved": 0,
-    "displayed": 0
+    "candidates_resolved": 1,
+    "displayed": 1
   },
   "issues": [],
   "refresh_failed": false,
@@ -50,7 +50,55 @@
       "reading_url": "items/212827d5-e6c7-4d56-a51b-a907108c312b.html",
       "summary": "预印本摘要通过递归优化实时估计大气信道传输矩阵，并以数值与实验结果讨论湍流下的光纤耦合。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W4410485202",
+      "doi": "10.1117/1.oe.64.5.058102",
+      "title": "Accurate Zernike-corrected phase screens for arbitrary power spectra",
+      "authors": [
+        "David Bachmann",
+        "Mathieu Isoard",
+        "Vyacheslav Shatokhin",
+        "Giacomo Sorelli",
+        "Andreas Buchleitner"
+      ],
+      "year": 2025,
+      "venue": "Optical Engineering",
+      "venue_abbr": "Opt. Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phase screens",
+        "refractive index fluctuations",
+        "parabolic stochastic partial differential equations",
+        "split-step method",
+        "wave propagation in random media",
+        "power spectrum",
+        "atmospheric turbulence"
+      ],
+      "url": "https://doi.org/10.1117/1.oe.64.5.058102",
+      "cited_by_count": 14,
+      "importance": 0.3779,
+      "score_basis": {
+        "topic_overlap": 0.395,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W7203793366",
+      "to": "W4410485202",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7203793366"
+        }
+      ]
+    }
+  ]
 }

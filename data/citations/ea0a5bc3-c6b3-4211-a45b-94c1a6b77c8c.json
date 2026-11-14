@@ -1,0 +1,3363 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "ea0a5bc3-c6b3-4211-a45b-94c1a6b77c8c",
+  "root": "W7155414674",
+  "status": "ok",
+  "checked_at": "2026-11-14T00:52:09.283918+00:00",
+  "coverage": {
+    "references_found": 41,
+    "citing_found": 2,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "references_without_doi": 5,
+    "candidates_resolved": 43,
+    "displayed": 40
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7155414674",
+      "doi": "10.1364/prj.603644",
+      "title": "Baudrate- and Reach-Flexible All-Optical Equalization with a Co-Packaged Photonic Reservoir and Receiver",
+      "authors": [
+        "Sarah Masaad",
+        "Jakob Declercq",
+        "Stijn Sackesyn",
+        "Ruben van Assche",
+        "Hasan Salmanian",
+        "Andrzej Połatyński",
+        "Dimitrios Chatzitheocharis",
+        "Konstantinos Vyrsokinos",
+        "Tatiana Buriakova",
+        "Christophe Caillaud",
+        "Stylianos Sygletos",
+        "Xin Yin",
+        "Peter Bienstman"
+      ],
+      "year": 2026,
+      "venue": "Photonics Research",
+      "venue_abbr": "PR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "chromatic dispersion",
+        "intersymbol interference",
+        "frequency-selective fading",
+        "integrated photonics",
+        "C-band",
+        "single-mode fiber"
+      ],
+      "url": "https://doi.org/10.1364/prj.603644",
+      "cited_by_count": 2,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/ea0a5bc3-c6b3-4211-a45b-94c1a6b77c8c.html",
+      "summary": "该实验研究面向强度调制直接检测光纤链路，采用16节点空间复用光子储备池、片上可编程读出及共封装接收前端。摘要报告，在C波段标准单模光纤上，仅通过重新训练读出层，即可适配覆盖10–46 Gbaud和10–250 km的实验工况；相较所用数字信号处理均衡基线，误码率最高改善4个数量级。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W2883238013",
+      "doi": "10.1109/access.2019.2905422",
+      "title": "PAM-4 Transmission at 1550 nm Using Photonic Reservoir Computing Post-Processing",
+      "authors": [
+        "Apostolos Argyris",
+        "Julián Bueno",
+        "Ingo Fischer"
+      ],
+      "year": 2019,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic reservoir computing",
+        "PAM-4",
+        "post-processing",
+        "multilevel modulation",
+        "nonlinear fiber transmission",
+        "direct detection",
+        "56 Gb/s",
+        "112 Gb/s",
+        "hard-decision forward error correction",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1109/access.2019.2905422",
+      "cited_by_count": 54,
+      "importance": 0.7293,
+      "score_basis": {
+        "topic_overlap": 0.443,
+        "shared_references": 5,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2917396710",
+      "doi": "10.1109/jlt.2019.2900568",
+      "title": "A Neuromorphic Silicon Photonics Nonlinear Equalizer For Optical Communications With Intensity Modulation and Direct Detection",
+      "authors": [
+        "Andrew Katumba",
+        "Xin Liang Yin",
+        "Joni Dambre",
+        "Peter Bienstman"
+      ],
+      "year": 2019,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "nonlinear equalizer",
+        "reservoir computing",
+        "intensity modulation and direct detection",
+        "optical information processing",
+        "short-reach optical links",
+        "distributed feedback lasers",
+        "forward error correction",
+        "40 Gb/s optical communication"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2019.2900568",
+      "cited_by_count": 64,
+      "importance": 0.7026,
+      "score_basis": {
+        "topic_overlap": 0.339,
+        "shared_references": 5,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3162037354",
+      "doi": "10.1109/jlt.2021.3117921",
+      "title": "56 GBaud PAM-4 100 Km Transmission System With Photonic Processing Schemes",
+      "authors": [
+        "Irene Estébanez",
+        "Shi Li",
+        "Janek Schwind",
+        "Ingo Fischer",
+        "Stephan M. Pachnicke",
+        "Apostolos Argyris"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "PAM-4",
+        "photonic reservoir computing",
+        "fading memory",
+        "chromatic dispersion",
+        "data recovery",
+        "extreme learning machine",
+        "optical fiber transmission",
+        "direct detection",
+        "optical signal-to-noise ratio",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3117921",
+      "cited_by_count": 23,
+      "importance": 0.6984,
+      "score_basis": {
+        "topic_overlap": 0.463,
+        "shared_references": 8,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3008471707",
+      "doi": "10.1109/jstqe.2020.2975607",
+      "title": "Reservoir-Computing Based Equalization With Optical Pre-Processing for Short-Reach Optical Transmission",
+      "authors": [
+        "Francesco Da Ros",
+        "Stenio M. Ranzini",
+        "H. Bülow",
+        "Darko Zibar"
+      ],
+      "year": 2020,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reservoir computing",
+        "chromatic dispersion compensation",
+        "equalization",
+        "short-reach optical transmission",
+        "arrayed waveguide grating",
+        "intensity modulation and direct detection",
+        "on-off keying",
+        "reach extension"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2020.2975607",
+      "cited_by_count": 55,
+      "importance": 0.6968,
+      "score_basis": {
+        "topic_overlap": 0.504,
+        "shared_references": 8,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2761550419",
+      "doi": "10.1038/s41598-018-26927-y",
+      "title": "Photonic machine learning implementation for signal recovery in optical communications",
+      "authors": [
+        "Apostolos Argyris",
+        "Julián Bueno",
+        "Ingo Fischer"
+      ],
+      "year": 2018,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic reservoir computing",
+        "nonlinear transient response",
+        "optical communication",
+        "bit error rate reduction",
+        "pattern recognition"
+      ],
+      "url": "https://doi.org/10.1038/s41598-018-26927-y",
+      "cited_by_count": 195,
+      "importance": 0.6711,
+      "score_basis": {
+        "topic_overlap": 0.38,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389298180",
+      "doi": "10.1038/s41598-023-48816-9",
+      "title": "Experimental results on nonlinear distortion compensation using photonic reservoir computing with a single set of weights for different wavelengths",
+      "authors": [
+        "Emmanuel Gooskens",
+        "Stijn Sackesyn",
+        "Joni Dambre",
+        "Peter Bienstman"
+      ],
+      "year": 2023,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic reservoir computing",
+        "wavelength division multiplexing",
+        "nonlinear distortion compensation",
+        "on-off keying",
+        "tapped delay line filter",
+        "optical transmission"
+      ],
+      "url": "https://doi.org/10.1038/s41598-023-48816-9",
+      "cited_by_count": 18,
+      "importance": 0.6666,
+      "score_basis": {
+        "topic_overlap": 0.392,
+        "shared_references": 7,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401608189",
+      "doi": "10.1109/jlt.2024.3444480",
+      "title": "Experimental Demonstration of 4-Port Photonic Reservoir Computing for Equalization of 4 and 16 QAM Signals",
+      "authors": [
+        "Sarah Masaad",
+        "Stijn Sackesyn",
+        "Stylianos Sygletos",
+        "Peter Bienstman"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "photonic reservoir computing",
+        "coherent optical transmission",
+        "16-QAM",
+        "4-QAM",
+        "chromatic dispersion compensation",
+        "frequency offset compensation",
+        "blind phase search",
+        "nonlinear transmission",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3444480",
+      "cited_by_count": 22,
+      "importance": 0.666,
+      "score_basis": {
+        "topic_overlap": 0.48,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7164862810",
+      "doi": "10.1364/oe.608534",
+      "title": "Nonlinear pluggable optics: digital signal processing-free intensity modulated direct detection links using analog photonic next generation reservoir computing",
+      "authors": [
+        "Nicholas Cox",
+        "Joseph Murray",
+        "Ross T. Schermer",
+        "Shuo S. Pang",
+        "Christopher Long",
+        "Gajadhar Joshi",
+        "Nicholas A. Nobile",
+        "Raktim Sarma",
+        "Brandon Redding"
+      ],
+      "year": 2026,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "optical transceivers",
+        "chromatic dispersion",
+        "Kerr nonlinearity",
+        "PAM-4",
+        "optical sampling",
+        "photonic integrated circuits"
+      ],
+      "url": "https://doi.org/10.1364/oe.608534",
+      "cited_by_count": 1,
+      "importance": 0.666,
+      "score_basis": {
+        "topic_overlap": 0.48,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "citing",
+      "reading_url": "items/fd4cb024-46a1-40e3-9a39-b0fcc394b2f7.html",
+      "summary": "该研究提出非线性可插拔光收发器，采用面向光子集成电路的模拟光子下一代储备池计算架构，补偿电域失真、色散及克尔非线性。在50 GBd PAM-4链路仿真中，该方案扩展了线性可插拔光学方案的传输距离，并优于所比较的DSP方案。摘要指出，该架构可在无需本振的条件下利用光相位信息，并在无需高带宽电子器件的条件下实现高于符号率的光学采样。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4402743006",
+      "doi": "10.1109/jlt.2024.3466293",
+      "title": "A Silicon Photonic Neural Network for Chromatic Dispersion Compensation in 20 Gbps PAM4 Signal at 125 km and its Scalability up to 100 Gbps",
+      "authors": [
+        "Emiliano Staffoli",
+        "Gianpietro Maddinelli",
+        "Lorenzo Pavesi"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "photonic neural networks",
+        "chromatic dispersion compensation",
+        "PAM-4",
+        "intensity modulation and direct detection",
+        "silicon photonics",
+        "tunable optical filter",
+        "equalization",
+        "eye diagram",
+        "gradient-based learning",
+        "long-haul optical links"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3466293",
+      "cited_by_count": 8,
+      "importance": 0.6323,
+      "score_basis": {
+        "topic_overlap": 0.472,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2613833839",
+      "doi": "10.1515/nanoph-2016-0132",
+      "title": "Advances in photonic reservoir computing",
+      "authors": [
+        "Guy Van der Sande",
+        "Daniel Brunner",
+        "Miguel C. Soriano"
+      ],
+      "year": 2017,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "photonic reservoir computing",
+        "optical reservoir computing",
+        "nonlinear optical devices",
+        "delayed feedback"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2016-0132",
+      "cited_by_count": 611,
+      "importance": 0.6208,
+      "score_basis": {
+        "topic_overlap": 0.157,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412413086",
+      "doi": "10.1002/lpor.202500855",
+      "title": "Nonlinear Distortion Equalization in Multi‐Span Optical Links Via a Feed‐Forward Photonic Neural Network",
+      "authors": [
+        "Emiliano Staffoli",
+        "Elisabetta Ferri",
+        "Stefano Gretter",
+        "Lorenzo Pavesi"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic neural networks",
+        "chromatic dispersion compensation",
+        "self-phase modulation",
+        "cross-phase modulation",
+        "intensity modulation and direct detection",
+        "FIR filters",
+        "silicon-on-insulator photonics",
+        "tunable dispersion compensator",
+        "optical signal processing"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202500855",
+      "cited_by_count": 3,
+      "importance": 0.6123,
+      "score_basis": {
+        "topic_overlap": 0.472,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2887258823",
+      "doi": "10.1016/j.neunet.2019.03.005",
+      "title": "Recent advances in physical reservoir computing: A review",
+      "authors": [
+        "Gouhei Tanaka",
+        "Toshiyuki Yamane",
+        "J. B. Héroux",
+        "Ryosho Nakane",
+        "Naoki Kanazawa",
+        "Seiji Takeda",
+        "Hidetoshi Numata",
+        "Daiju Nakano",
+        "Akira Hirose"
+      ],
+      "year": 2019,
+      "venue": "Neural Networks",
+      "venue_abbr": "Neural Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "physical reservoir computing",
+        "reservoir computing",
+        "echo state networks",
+        "liquid state machines",
+        "recurrent neural networks",
+        "temporal data processing"
+      ],
+      "url": "https://doi.org/10.1016/j.neunet.2019.03.005",
+      "cited_by_count": 2292,
+      "importance": 0.6096,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 7,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389083581",
+      "doi": "10.1364/optica.506635",
+      "title": "Deep photonic reservoir computing recurrent network",
+      "authors": [
+        "Yi-Wei Shen",
+        "Ruiqian Li",
+        "Guanting Liu",
+        "Jingyi Yu A",
+        "Xuming He",
+        "Lilin Yi",
+        "Cheng Wang"
+      ],
+      "year": 2023,
+      "venue": "Optica",
+      "venue_abbr": "Optica",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "photonic reservoir computing",
+        "deep reservoir computing",
+        "optical fiber communication"
+      ],
+      "url": "https://doi.org/10.1364/optica.506635",
+      "cited_by_count": 109,
+      "importance": 0.6033,
+      "score_basis": {
+        "topic_overlap": 0.296,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2029939668",
+      "doi": "10.1038/ncomms4541",
+      "title": "Experimental demonstration of reservoir computing on a silicon photonics chip",
+      "authors": [
+        "Kristof Vandoorne",
+        "Pauline Mechet",
+        "Thomas Van Vaerenbergh",
+        "Martin Fiers",
+        "Geert I. Morthier",
+        "David Verstraeten",
+        "Benjamin Schrauwen",
+        "Joni Dambre",
+        "Peter Bienstman"
+      ],
+      "year": 2014,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reservoir computing",
+        "silicon photonics",
+        "integrated photonics",
+        "Boolean operations",
+        "spoken digit recognition",
+        "optical neural networks"
+      ],
+      "url": "https://doi.org/10.1038/ncomms4541",
+      "cited_by_count": 924,
+      "importance": 0.5756,
+      "score_basis": {
+        "topic_overlap": 0.168,
+        "shared_references": 4,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400771914",
+      "doi": "10.1109/jlt.2024.3430489",
+      "title": "Experimental Investigation of a Recurrent Optical Spectrum Slicing Receiver for Intensity Modulation/Direct Detection Systems Using Programmable Photonics",
+      "authors": [
+        "Kostas Sozos",
+        "Francesco Da Ros",
+        "Metodi P. Yankov",
+        "George Sarantoglou",
+        "Stavros Deligiannidis",
+        "Charis Mesaritakis",
+        "Adonis Bogris"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "chromatic dispersion compensation",
+        "programmable photonics",
+        "PAM-4",
+        "feed-forward equalizer",
+        "power fading",
+        "optical signal processing",
+        "bit error rate reduction"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3430489",
+      "cited_by_count": 7,
+      "importance": 0.566,
+      "score_basis": {
+        "topic_overlap": 0.48,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410614301",
+      "doi": "10.1109/jlt.2025.3572354",
+      "title": "Cascaded Micro-Ring Resonator Based Reservoir Computing for Optical Equalization of PAM-4 Short Reach Signals",
+      "authors": [
+        "Sebastian Kühl",
+        "Mohammad Seifi Laleh",
+        "Amideddin Mataji‐Kojouri",
+        "Silas Oettinghaus",
+        "Kambiz Jamshidi",
+        "Stephan M. Pachnicke"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "photonic reservoir computing",
+        "PAM-4",
+        "short-reach optical transmission",
+        "wavelength division multiplexing",
+        "O-band",
+        "photonic integrated circuits",
+        "manufacturing tolerances"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3572354",
+      "cited_by_count": 6,
+      "importance": 0.5503,
+      "score_basis": {
+        "topic_overlap": 0.445,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385322239",
+      "doi": "10.1109/access.2023.3299296",
+      "title": "A Survey on Reservoir Computing and its Interdisciplinary Applications Beyond Traditional Machine Learning",
+      "authors": [
+        "Heng Zhang",
+        "Danilo Vasconcellos Vargas"
+      ],
+      "year": 2023,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reservoir computing",
+        "recurrent neural networks",
+        "random connectivity",
+        "nonlinear dynamical systems",
+        "memory capacity",
+        "linear readout",
+        "physical reservoir computing",
+        "neural mechanisms",
+        "reservoir design",
+        "coding framework",
+        "temporal signal processing",
+        "cognitive neuroscience"
+      ],
+      "url": "https://doi.org/10.1109/access.2023.3299296",
+      "cited_by_count": 86,
+      "importance": 0.5276,
+      "score_basis": {
+        "topic_overlap": 0.128,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2021890002",
+      "doi": "10.1364/oe.20.022783",
+      "title": "All-optical reservoir computing",
+      "authors": [
+        "François Duport",
+        "Bendix Schneider",
+        "Anteo Smerieri",
+        "Marc Haelterman",
+        "Serge Massar"
+      ],
+      "year": 2012,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "reservoir computing",
+        "all-optical computing",
+        "semiconductor optical amplifier",
+        "nonlinear optical properties",
+        "delay loop",
+        "optical information processing"
+      ],
+      "url": "https://doi.org/10.1364/oe.20.022783",
+      "cited_by_count": 548,
+      "importance": 0.5192,
+      "score_basis": {
+        "topic_overlap": 0.154,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4392498941",
+      "doi": "10.1038/s41467-024-45187-1",
+      "title": "Emerging opportunities and challenges for the future of reservoir computing",
+      "authors": [
+        "Min Yan",
+        "Can Huang",
+        "Peter Bienstman",
+        "Peter Tiňo B",
+        "Wei Jen Lin",
+        "Jie Sun"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reservoir computing",
+        "spatiotemporal feature learning",
+        "time series forecasting",
+        "chaotic systems",
+        "nonlinear dynamics",
+        "interpretability",
+        "industrial adoption"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-45187-1",
+      "cited_by_count": 445,
+      "importance": 0.5091,
+      "score_basis": {
+        "topic_overlap": 0.131,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405092782",
+      "doi": "10.1109/jlt.2024.3511993",
+      "title": "Chromatic Distortion Precompensation in OFDM-Based Optical Systems Through an Integrated Silicon Photonic Neural Network",
+      "authors": [
+        "Pablo Rafael Neves Marciano",
+        "Emiliano Staffoli",
+        "Gianpietro Maddinelli",
+        "Mateus Souza Coelho",
+        "Luís C. B. Silva",
+        "Jair A. L. Silva",
+        "Maria José Pontes",
+        "Marcelo E. V. Segatto",
+        "Lorenzo Pavesi"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "OFDM",
+        "optical neural networks",
+        "standard single-mode fiber",
+        "intensity modulation",
+        "photonic integrated circuits",
+        "spectral efficiency",
+        "power efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3511993",
+      "cited_by_count": 11,
+      "importance": 0.506,
+      "score_basis": {
+        "topic_overlap": 0.48,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3096230432",
+      "doi": "10.1038/s41566-020-00754-y",
+      "title": "Photonics for artificial intelligence and neuromorphic computing",
+      "authors": [
+        "Bhavin J. Shastri",
+        "Alexander N. Tait",
+        "T. Ferreira de Lima",
+        "Wolfram H. P. Pernice",
+        "Harish Bhaskaran",
+        "C. D. Wright",
+        "Paul R. Prucnal"
+      ],
+      "year": 2021,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "neuromorphic photonics",
+        "photonic integrated circuits",
+        "artificial neural networks",
+        "neuromorphic computing",
+        "artificial intelligence",
+        "optoelectronic components",
+        "on-chip integration",
+        "machine learning hardware"
+      ],
+      "url": "https://doi.org/10.1038/s41566-020-00754-y",
+      "cited_by_count": 1930,
+      "importance": 0.5044,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 3,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2998015506",
+      "doi": "10.1109/jlt.2019.2962322",
+      "title": "200 Gbps/Lane IM/DD Technologies for Short Reach Optical Interconnects",
+      "authors": [
+        "Xiaodan Pang",
+        "Oskars Ozoliņš",
+        "Rui Lin",
+        "Lu Zhang",
+        "Aleksejs Udaļcovs",
+        "Lei Xue",
+        "Richard Schatz",
+        "Urban Westergren",
+        "Shilin Xiao",
+        "Weisheng Hu",
+        "Gunnar Jacobsen",
+        "Sergei Popov",
+        "Jiajia Chen"
+      ],
+      "year": 2019,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "short-reach optical links",
+        "digital signal processing",
+        "optical modulation formats",
+        "optical encoding",
+        "broadband optical devices"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2019.2962322",
+      "cited_by_count": 220,
+      "importance": 0.4916,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406449471",
+      "doi": "10.48550/arxiv.2501.07917",
+      "title": "Roadmap on Neuromorphic Photonics",
+      "authors": [
+        "Daniel Brunner",
+        "Bhavin J. Shastri",
+        "Mohammed Al-Qadasi",
+        "Hitesh Ballani",
+        "Sylvain Barbay",
+        "Stefano Biasi",
+        "Peter Bienstman",
+        "Simon Bilodeau",
+        "Wim Bogaerts",
+        "Fabian Böhm",
+        "Brennan, G.",
+        "Sonia Mary Buckley",
+        "Xinlun Cai",
+        "Marcello Calvanese Strinati",
+        "Burcu Canakci",
+        "Benoît Charbonnier",
+        "Mario Chemnitz",
+        "Yitong Chen",
+        "Stanley S. Cheung",
+        "Jeff Chiles",
+        "Suyeon Choi",
+        "Demetrios Christodoulides",
+        "Lukas Chrostowski",
+        "Jiaqi Chu",
+        "Clegg, J. H.",
+        "Daniel Cletheroe",
+        "Claudio Conti",
+        "Qionghai Dai",
+        "Luigi Di Lauro",
+        "Nikolaos-Panteleimon Pandelis Diamantopoulos",
+        "Niyazi Ulaş Dinç",
+        "Jacob Ewaniuk",
+        "Shanhui Fan",
+        "Lu Fang",
+        "Riccardo Franchi",
+        "Pedro J. Freire",
+        "Silvia Gentilini",
+        "Sylvain Gigan",
+        "Gian Luca Giorgi",
+        "Christos Gkantsidis",
+        "Jannes Gladrow",
+        "Elena Goi",
+        "Goldmann, M.",
+        "Adrià Grabulosa",
+        "Gu, Min",
+        "Xianxin Guo",
+        "Matéj Hejda",
+        "Folkert Horst",
+        "Hsieh, Jih Liang",
+        "Jianqi Hu",
+        "Juejun Hu",
+        "Chaoran Huang",
+        "Antonio Hurtado",
+        "Lina Jaurigue",
+        "Kirill P. Kalinin",
+        "Morteza Kamalian-Kopae",
+        "Douglas J. Kelly",
+        "Mercedeh Khajavikhan",
+        "H. Kremer",
+        "Jérémie Laydevant",
+        "Joshua C. Lederman",
+        "Jongheon Lee",
+        "Daan Lenstra",
+        "Li, Gordon H. Y.",
+        "Mo Li",
+        "Yuhang Li",
+        "Xing Lin",
+        "Zhongjin Lin",
+        "Mieszko Lis",
+        "Kathy Lüdge",
+        "Alessio Lugnan",
+        "Alessandro Lupo",
+        "Alexander I. Lvovsky",
+        "Egor S. Manuylovich",
+        "Alireza Marandi",
+        "Federico Marchesin",
+        "Serge Massar",
+        "Adam N. McCaughan",
+        "Peter L. McMahon",
+        "Miltiadis Moralis Pegios",
+        "Roberto Morandotti",
+        "Christophe Moser",
+        "David J. Moss",
+        "Avilash Mukherjee",
+        "Mahdi Nikdast",
+        "Bert Jan Offrein",
+        "İlker Oğuz",
+        "Bakhrom Oripov",
+        "Greg O’Shea",
+        "Aydogan Özcan",
+        "Francesca R. Parmigiani",
+        "Sudeep Pasricha",
+        "Fabio Pavanello",
+        "Lorenzo Pavesi",
+        "Nicola Peserico",
+        "L. Pickup",
+        "Davide Pierangeli",
+        "Nikos Pleros",
+        "Xavier Porté",
+        "Bryce A. Primavera"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "neuromorphic photonics",
+        "neuromorphic hardware",
+        "photonic neural networks",
+        "hardware platform",
+        "interdisciplinary collaboration"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2501.07917",
+      "cited_by_count": 59,
+      "importance": 0.4697,
+      "score_basis": {
+        "topic_overlap": 0.155,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1965702053",
+      "doi": "10.1038/ncomms2368",
+      "title": "Parallel photonic information processing at gigabyte per second data rates using transient states",
+      "authors": [
+        "Daniel Brunner",
+        "Miguel C. Soriano",
+        "Cláudio R. Mirasso",
+        "Ingo Fischer"
+      ],
+      "year": 2013,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical information processing",
+        "reservoir computing",
+        "transient states",
+        "semiconductor lasers",
+        "spoken digit recognition",
+        "speaker recognition",
+        "chaotic time series prediction",
+        "parallel computing",
+        "neuromorphic computing"
+      ],
+      "url": "https://doi.org/10.1038/ncomms2368",
+      "cited_by_count": 967,
+      "importance": 0.4647,
+      "score_basis": {
+        "topic_overlap": 0.144,
+        "shared_references": 2,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4379620172",
+      "doi": "10.1109/siphotonics55903.2023.10141932",
+      "title": "Recovery of 40 Gbps PAM4 in a 50 km optical link through a delayed complex perceptron",
+      "authors": [
+        "Emiliano Staffoli",
+        "Mattia Mancinelli",
+        "Paolo Bettotti",
+        "Lorenzo Pavesi"
+      ],
+      "year": 2023,
+      "venue": "IEEE Silicon Photonics Conference",
+      "venue_abbr": "SiPhotonics",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "PAM-4",
+        "chromatic dispersion compensation",
+        "photonic neural networks",
+        "signal equalization",
+        "40 Gbps optical transmission",
+        "single-mode fiber",
+        "feedforward neural networks",
+        "optical fiber links"
+      ],
+      "url": "https://doi.org/10.1109/siphotonics55903.2023.10141932",
+      "cited_by_count": 3,
+      "importance": 0.4263,
+      "score_basis": {
+        "topic_overlap": 0.458,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1977664984",
+      "doi": "10.1038/ncomms1476",
+      "title": "Information processing using a single dynamical node as complex system",
+      "authors": [
+        "Lennert Appeltant",
+        "Miguel C. Soriano",
+        "Guy Van der Sande",
+        "Jan Danckaert",
+        "Serge Massar",
+        "Joni Dambre",
+        "Benjamin Schrauwen",
+        "Cláudio R. Mirasso",
+        "Ingo Fischer"
+      ],
+      "year": 2011,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reservoir computing",
+        "information processing",
+        "speech recognition",
+        "time series forecasting",
+        "electronic implementation",
+        "neuromorphic computing"
+      ],
+      "url": "https://doi.org/10.1038/ncomms1476",
+      "cited_by_count": 1797,
+      "importance": 0.4168,
+      "score_basis": {
+        "topic_overlap": 0.148,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4387451994",
+      "doi": "10.1038/s42254-023-00645-5",
+      "title": "The physics of optical computing",
+      "authors": [
+        "Peter L. McMahon"
+      ],
+      "year": 2023,
+      "venue": "Nature Reviews Physics",
+      "venue_abbr": "Nature Reviews Physics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical computing",
+        "optical processors",
+        "energy efficiency",
+        "computational speed",
+        "photonic integrated circuits",
+        "optical signal processing"
+      ],
+      "url": "https://doi.org/10.1038/s42254-023-00645-5",
+      "cited_by_count": 486,
+      "importance": 0.4088,
+      "score_basis": {
+        "topic_overlap": 0.153,
+        "shared_references": 2,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391232091",
+      "doi": "10.1038/s41467-024-44750-0",
+      "title": "Roadmapping the next generation of silicon photonics",
+      "authors": [
+        "Sudip Shekhar",
+        "Wim Bogaerts",
+        "Lukas Chrostowski",
+        "John Edward Bowers",
+        "Michael Hochberg",
+        "Richard A. Soref",
+        "Bhavin J. Shastri"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "silicon photonics",
+        "photonic integration",
+        "photonic packaging",
+        "data center interconnects",
+        "optical signal processing",
+        "photonic sensing",
+        "photonic circuits",
+        "technology roadmap"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-44750-0",
+      "cited_by_count": 1004,
+      "importance": 0.3768,
+      "score_basis": {
+        "topic_overlap": 0.148,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2916274980",
+      "doi": "10.1109/jlt.2019.2901201",
+      "title": "Optical Communications for Short Reach",
+      "authors": [
+        "Mathieu Chagnon"
+      ],
+      "year": 2019,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "short-reach optical transmission",
+        "fiber optic transceivers",
+        "intensity modulation and direct detection",
+        "coherent optical transceivers",
+        "digital signal processing"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2019.2901201",
+      "cited_by_count": 188,
+      "importance": 0.3751,
+      "score_basis": {
+        "topic_overlap": 0.345,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2126273023",
+      "doi": "10.1109/tnn.2011.2161771",
+      "title": "Parallel Reservoir Computing Using Optical Amplifiers",
+      "authors": [
+        "Kristof Vandoorne",
+        "Joni Dambre",
+        "D. Verstraeten",
+        "Benjamin Schrauwen",
+        "Peter Bienstman"
+      ],
+      "year": 2011,
+      "venue": "IEEE Transactions on Neural Networks",
+      "venue_abbr": "IEEE Transactions on Neural Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reservoir computing",
+        "semiconductor optical amplifier",
+        "integrated photonics",
+        "parallel hardware implementation",
+        "isolated word recognition",
+        "babble noise",
+        "coherent light",
+        "process variation",
+        "amplifier noise"
+      ],
+      "url": "https://doi.org/10.1109/tnn.2011.2161771",
+      "cited_by_count": 238,
+      "importance": 0.3734,
+      "score_basis": {
+        "topic_overlap": 0.163,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4253258318",
+      "doi": "10.1364/aop.11.000480",
+      "title": "Kramers–Kronig receivers",
+      "authors": [
+        "Antonio Mecozzi",
+        "Cristian Antonelli",
+        "Mark Shtaif"
+      ],
+      "year": 2019,
+      "venue": "Advances in Optics and Photonics",
+      "venue_abbr": "Advances in Optics and Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Kramers-Kronig receiver",
+        "intensity measurement",
+        "optical fiber communication",
+        "chromatic dispersion",
+        "optical filtering",
+        "polarization multiplexing"
+      ],
+      "url": "https://doi.org/10.1364/aop.11.000480",
+      "cited_by_count": 116,
+      "importance": 0.368,
+      "score_basis": {
+        "topic_overlap": 0.329,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7221756394",
+      "doi": "10.1002/lpor.72045",
+      "title": "Programmable Temporal Dynamics in a Laser Neuron for High‐Speed Photonic Reservoir Computing",
+      "authors": [
+        "Yikun Nie",
+        "Dongliang Wang",
+        "Bo Yang",
+        "Jiayong Peng",
+        "Zihao Wang",
+        "Chaoran Huang"
+      ],
+      "year": 2026,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reservoir computing",
+        "photonic reservoir computing",
+        "bias tuning",
+        "sequence prediction",
+        "image generation"
+      ],
+      "url": "https://doi.org/10.1002/lpor.72045",
+      "cited_by_count": 0,
+      "importance": 0.3671,
+      "score_basis": {
+        "topic_overlap": 0.149,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "citing",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2171865010",
+      "doi": "10.1016/j.cosrev.2009.03.005",
+      "title": "Reservoir computing approaches to recurrent neural network training",
+      "authors": [
+        "Mantas Lukoševičius",
+        "Herbert Jaeger"
+      ],
+      "year": 2009,
+      "venue": "Computer Science Review",
+      "venue_abbr": "Computer Science Review",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reservoir computing",
+        "recurrent neural networks",
+        "echo state networks",
+        "liquid state machines"
+      ],
+      "url": "https://doi.org/10.1016/j.cosrev.2009.03.005",
+      "cited_by_count": 3083,
+      "importance": 0.3604,
+      "score_basis": {
+        "topic_overlap": 0.134,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4206477614",
+      "doi": "10.1038/s41467-021-27715-5",
+      "title": "Connecting reservoir computing with statistical forecasting and deep neural networks",
+      "authors": [
+        "Lina Jaurigue",
+        "Kathy Lüdge"
+      ],
+      "year": 2022,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reservoir computing",
+        "statistical forecasting",
+        "deep neural network",
+        "optical computing",
+        "electronic hardware",
+        "accelerated learning",
+        "physical systems"
+      ],
+      "url": "https://doi.org/10.1038/s41467-021-27715-5",
+      "cited_by_count": 38,
+      "importance": 0.3598,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2910499464",
+      "doi": "10.1088/2040-8986/ad261f",
+      "title": "Roadmap on optical communications",
+      "authors": [
+        "Erik Agrell",
+        "Magnus Karlsson",
+        "Francesco Poletti",
+        "Shu Namiki",
+        "Xi Chen",
+        "Leslie Ann Rusch",
+        "Benjamin James Puttnam",
+        "Polina Bayvel",
+        "Laurent Schmalen",
+        "Zhenning Tao",
+        "Frank R. Kschischang",
+        "Alex Alvarado",
+        "Biswanath Mukherjee",
+        "Ramon Casellas",
+        "Xiang Zhou",
+        "Dora van Veen",
+        "G. Mohs",
+        "Elaine Wong",
+        "Antonio Mecozzi",
+        "Mohamed‐Slim Alouini",
+        "Eleni Diamanti",
+        "Murat Uysal"
+      ],
+      "year": 2024,
+      "venue": "Journal of Optics",
+      "venue_abbr": "J. Opt.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical communication",
+        "internet infrastructure",
+        "optical signal processing",
+        "optical encoding",
+        "optical networks",
+        "future research challenges"
+      ],
+      "url": "https://doi.org/10.1088/2040-8986/ad261f",
+      "cited_by_count": 141,
+      "importance": 0.355,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413946588",
+      "doi": "10.1038/s41586-025-09384-2",
+      "title": "Training of physical neural networks",
+      "authors": [
+        "Ali Momeni",
+        "Babak Rahmani",
+        "Benjamin Scellier",
+        "Logan G. Wright",
+        "Peter L. McMahon",
+        "Clara C. Wanjura",
+        "Yuhang Li",
+        "Anas Skalli",
+        "Natalia G. Berloff",
+        "Tatsuhiro Onodera",
+        "İlker Oğuz",
+        "Francesco Morichetti",
+        "Philipp del Hougne",
+        "Manuel Le Gallo",
+        "Abu Sebastian",
+        "Azalia Mirhoseini",
+        "Cheng Zhang",
+        "Danijela Marković",
+        "Daniel Brunner",
+        "Christophe Moser",
+        "Sylvain Gigan",
+        "Florian Marquardt",
+        "Aydogan Özcan",
+        "Julie Grollier",
+        "Andrea J. Liu",
+        "Demetri Psaltis",
+        "Andrea Alù",
+        "Romain Fleury"
+      ],
+      "year": 2025,
+      "venue": "Nature",
+      "venue_abbr": "Nature",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "physical neural networks",
+        "neural network training",
+        "backpropagation",
+        "backpropagation-free training",
+        "edge inference",
+        "neuromorphic computing",
+        "training efficiency"
+      ],
+      "url": "https://doi.org/10.1038/s41586-025-09384-2",
+      "cited_by_count": 176,
+      "importance": 0.3525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2320648850",
+      "doi": "10.1109/jlt.2015.2510624",
+      "title": "Linearization of Direct Detection Optical Channels Using Self-Coherent Subsystems",
+      "authors": [
+        "Di Che",
+        "Qian Yu Hu",
+        "William Shieh"
+      ],
+      "year": 2015,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "self-coherent detection",
+        "direct detection",
+        "intensity modulation",
+        "linearization",
+        "chromatic dispersion",
+        "coherent detection",
+        "local oscillator",
+        "short-reach optical transmission",
+        "high-speed optical transmission",
+        "data center interconnects",
+        "passive optical access networks",
+        "metropolitan area networks"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2015.2510624",
+      "cited_by_count": 104,
+      "importance": 0.3505,
+      "score_basis": {
+        "topic_overlap": 0.334,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2755167349",
+      "doi": "10.1109/jlt.2017.2752363",
+      "title": "Volterra and Wiener Equalizers for Short-Reach 100G PAM-4 Applications",
+      "authors": [
+        "Nebojša Stojanović",
+        "Fotini Karinou",
+        "Zhang Qiang",
+        "Cristian Prodaniuc"
+      ],
+      "year": 2017,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Volterra equalizer",
+        "PAM-4",
+        "short-reach optical links",
+        "data center interconnects",
+        "Volterra series",
+        "filter design",
+        "filter complexity reduction",
+        "channel acquisition"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2017.2752363",
+      "cited_by_count": 157,
+      "importance": 0.3315,
+      "score_basis": {
+        "topic_overlap": 0.248,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412075737",
+      "doi": "10.1038/s41467-025-61408-7",
+      "title": "A 4×256 Gbps silicon transmitter with on-chip adaptive dispersion compensation",
+      "authors": [
+        "Shihuan Ran",
+        "Guo Yu",
+        "Yuanbin Liu",
+        "Ting Miao",
+        "Yangbo Wu",
+        "Yang Qin",
+        "Yuyao Guo",
+        "Liangjun Lu",
+        "Yixiao Zhu",
+        "Yu Li",
+        "Qunbi Zhuge",
+        "Jianping Chen",
+        "Linjie Zhou"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chromatic dispersion",
+        "Mach-Zehnder modulator",
+        "wavelength division multiplexing",
+        "forward error correction",
+        "feed-forward equalization",
+        "maximum likelihood sequence estimation",
+        "optical interconnects",
+        "silicon photonics"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-61408-7",
+      "cited_by_count": 22,
+      "importance": 0.3269,
+      "score_basis": {
+        "topic_overlap": 0.171,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2783323148",
+      "doi": "10.1109/jlt.2018.2793881",
+      "title": "Digital Signal Processing for Short-Reach Optical Communications: A Review of Current Technologies and Future Trends",
+      "authors": [
+        "Kangping Zhong",
+        "Xian Zhou",
+        "Jiahao Huo",
+        "Changyuan Yu",
+        "Chao Lü",
+        "Alan Pak Tao Lau"
+      ],
+      "year": 2018,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "short-reach optical transmission",
+        "digital signal processing",
+        "direct detection receiver",
+        "transmission impairments",
+        "data center interconnects",
+        "cloud services",
+        "low-cost optical components",
+        "signaling schemes",
+        "optical fiber links"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2018.2793881",
+      "cited_by_count": 566,
+      "importance": 0.3223,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W1965702053",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1965702053"
+        }
+      ]
+    },
+    {
+      "from": "W1965702053",
+      "to": "W2021890002",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1965702053"
+        }
+      ]
+    },
+    {
+      "from": "W1977664984",
+      "to": "W2171865010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1977664984"
+        }
+      ]
+    },
+    {
+      "from": "W2021890002",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2021890002"
+        }
+      ]
+    },
+    {
+      "from": "W2021890002",
+      "to": "W2126273023",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2021890002"
+        }
+      ]
+    },
+    {
+      "from": "W2021890002",
+      "to": "W2171865010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2021890002"
+        }
+      ]
+    },
+    {
+      "from": "W2029939668",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2029939668"
+        }
+      ]
+    },
+    {
+      "from": "W2029939668",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2029939668"
+        }
+      ]
+    },
+    {
+      "from": "W2029939668",
+      "to": "W2021890002",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2029939668"
+        }
+      ]
+    },
+    {
+      "from": "W2029939668",
+      "to": "W2126273023",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2029939668"
+        }
+      ]
+    },
+    {
+      "from": "W2613833839",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2613833839"
+        }
+      ]
+    },
+    {
+      "from": "W2613833839",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2613833839"
+        }
+      ]
+    },
+    {
+      "from": "W2613833839",
+      "to": "W2021890002",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2613833839"
+        }
+      ]
+    },
+    {
+      "from": "W2613833839",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2613833839"
+        }
+      ]
+    },
+    {
+      "from": "W2613833839",
+      "to": "W2126273023",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2613833839"
+        }
+      ]
+    },
+    {
+      "from": "W2613833839",
+      "to": "W2171865010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2613833839"
+        }
+      ]
+    },
+    {
+      "from": "W2761550419",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2761550419"
+        }
+      ]
+    },
+    {
+      "from": "W2761550419",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2761550419"
+        }
+      ]
+    },
+    {
+      "from": "W2761550419",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2761550419"
+        }
+      ]
+    },
+    {
+      "from": "W2761550419",
+      "to": "W2126273023",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2761550419"
+        }
+      ]
+    },
+    {
+      "from": "W2883238013",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2883238013"
+        }
+      ]
+    },
+    {
+      "from": "W2883238013",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2883238013"
+        }
+      ]
+    },
+    {
+      "from": "W2883238013",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2883238013"
+        }
+      ]
+    },
+    {
+      "from": "W2883238013",
+      "to": "W2126273023",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2883238013"
+        }
+      ]
+    },
+    {
+      "from": "W2883238013",
+      "to": "W2761550419",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2883238013"
+        }
+      ]
+    },
+    {
+      "from": "W2887258823",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2887258823"
+        }
+      ]
+    },
+    {
+      "from": "W2887258823",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2887258823"
+        }
+      ]
+    },
+    {
+      "from": "W2887258823",
+      "to": "W2021890002",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2887258823"
+        }
+      ]
+    },
+    {
+      "from": "W2887258823",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2887258823"
+        }
+      ]
+    },
+    {
+      "from": "W2887258823",
+      "to": "W2126273023",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2887258823"
+        }
+      ]
+    },
+    {
+      "from": "W2887258823",
+      "to": "W2171865010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2887258823"
+        }
+      ]
+    },
+    {
+      "from": "W2887258823",
+      "to": "W2613833839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2887258823"
+        }
+      ]
+    },
+    {
+      "from": "W2910499464",
+      "to": "W3096230432",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2910499464"
+        }
+      ]
+    },
+    {
+      "from": "W2917396710",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2917396710"
+        }
+      ]
+    },
+    {
+      "from": "W2917396710",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2917396710"
+        }
+      ]
+    },
+    {
+      "from": "W2917396710",
+      "to": "W2021890002",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2917396710"
+        }
+      ]
+    },
+    {
+      "from": "W2917396710",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2917396710"
+        }
+      ]
+    },
+    {
+      "from": "W2917396710",
+      "to": "W2761550419",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2917396710"
+        }
+      ]
+    },
+    {
+      "from": "W2998015506",
+      "to": "W2755167349",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2998015506"
+        }
+      ]
+    },
+    {
+      "from": "W2998015506",
+      "to": "W2783323148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2998015506"
+        }
+      ]
+    },
+    {
+      "from": "W2998015506",
+      "to": "W2916274980",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2998015506"
+        }
+      ]
+    },
+    {
+      "from": "W3008471707",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008471707"
+        }
+      ]
+    },
+    {
+      "from": "W3008471707",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008471707"
+        }
+      ]
+    },
+    {
+      "from": "W3008471707",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008471707"
+        }
+      ]
+    },
+    {
+      "from": "W3008471707",
+      "to": "W2171865010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008471707"
+        }
+      ]
+    },
+    {
+      "from": "W3008471707",
+      "to": "W2761550419",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008471707"
+        }
+      ]
+    },
+    {
+      "from": "W3008471707",
+      "to": "W2883238013",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008471707"
+        }
+      ]
+    },
+    {
+      "from": "W3008471707",
+      "to": "W2887258823",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008471707"
+        }
+      ]
+    },
+    {
+      "from": "W3008471707",
+      "to": "W2917396710",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3008471707"
+        }
+      ]
+    },
+    {
+      "from": "W3096230432",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3096230432"
+        }
+      ]
+    },
+    {
+      "from": "W3096230432",
+      "to": "W2021890002",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3096230432"
+        }
+      ]
+    },
+    {
+      "from": "W3096230432",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3096230432"
+        }
+      ]
+    },
+    {
+      "from": "W3162037354",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162037354"
+        }
+      ]
+    },
+    {
+      "from": "W3162037354",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162037354"
+        }
+      ]
+    },
+    {
+      "from": "W3162037354",
+      "to": "W2613833839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162037354"
+        }
+      ]
+    },
+    {
+      "from": "W3162037354",
+      "to": "W2761550419",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162037354"
+        }
+      ]
+    },
+    {
+      "from": "W3162037354",
+      "to": "W2883238013",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162037354"
+        }
+      ]
+    },
+    {
+      "from": "W3162037354",
+      "to": "W2887258823",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162037354"
+        }
+      ]
+    },
+    {
+      "from": "W3162037354",
+      "to": "W2917396710",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162037354"
+        }
+      ]
+    },
+    {
+      "from": "W3162037354",
+      "to": "W3008471707",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3162037354"
+        }
+      ]
+    },
+    {
+      "from": "W4206477614",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4206477614"
+        }
+      ]
+    },
+    {
+      "from": "W4206477614",
+      "to": "W2761550419",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4206477614"
+        }
+      ]
+    },
+    {
+      "from": "W4385322239",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385322239"
+        }
+      ]
+    },
+    {
+      "from": "W4385322239",
+      "to": "W2021890002",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385322239"
+        }
+      ]
+    },
+    {
+      "from": "W4385322239",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385322239"
+        }
+      ]
+    },
+    {
+      "from": "W4385322239",
+      "to": "W2171865010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385322239"
+        }
+      ]
+    },
+    {
+      "from": "W4385322239",
+      "to": "W2613833839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385322239"
+        }
+      ]
+    },
+    {
+      "from": "W4385322239",
+      "to": "W2887258823",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385322239"
+        }
+      ]
+    },
+    {
+      "from": "W4387451994",
+      "to": "W2613833839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387451994"
+        }
+      ]
+    },
+    {
+      "from": "W4387451994",
+      "to": "W3096230432",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4387451994"
+        }
+      ]
+    },
+    {
+      "from": "W4389083581",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389083581"
+        }
+      ]
+    },
+    {
+      "from": "W4389083581",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389083581"
+        }
+      ]
+    },
+    {
+      "from": "W4389083581",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389083581"
+        }
+      ]
+    },
+    {
+      "from": "W4389083581",
+      "to": "W2761550419",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389083581"
+        }
+      ]
+    },
+    {
+      "from": "W4389083581",
+      "to": "W2887258823",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389083581"
+        }
+      ]
+    },
+    {
+      "from": "W4389083581",
+      "to": "W3162037354",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389083581"
+        }
+      ]
+    },
+    {
+      "from": "W4389298180",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389298180"
+        }
+      ]
+    },
+    {
+      "from": "W4389298180",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389298180"
+        }
+      ]
+    },
+    {
+      "from": "W4389298180",
+      "to": "W2021890002",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389298180"
+        }
+      ]
+    },
+    {
+      "from": "W4389298180",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389298180"
+        }
+      ]
+    },
+    {
+      "from": "W4389298180",
+      "to": "W2126273023",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389298180"
+        }
+      ]
+    },
+    {
+      "from": "W4389298180",
+      "to": "W2171865010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389298180"
+        }
+      ]
+    },
+    {
+      "from": "W4389298180",
+      "to": "W2761550419",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389298180"
+        }
+      ]
+    },
+    {
+      "from": "W4391232091",
+      "to": "W3096230432",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4391232091"
+        }
+      ]
+    },
+    {
+      "from": "W4392498941",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392498941"
+        }
+      ]
+    },
+    {
+      "from": "W4392498941",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392498941"
+        }
+      ]
+    },
+    {
+      "from": "W4392498941",
+      "to": "W2021890002",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392498941"
+        }
+      ]
+    },
+    {
+      "from": "W4392498941",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392498941"
+        }
+      ]
+    },
+    {
+      "from": "W4392498941",
+      "to": "W2613833839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392498941"
+        }
+      ]
+    },
+    {
+      "from": "W4392498941",
+      "to": "W2761550419",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392498941"
+        }
+      ]
+    },
+    {
+      "from": "W4392498941",
+      "to": "W2887258823",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4392498941"
+        }
+      ]
+    },
+    {
+      "from": "W4400771914",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400771914"
+        }
+      ]
+    },
+    {
+      "from": "W4400771914",
+      "to": "W2883238013",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400771914"
+        }
+      ]
+    },
+    {
+      "from": "W4400771914",
+      "to": "W2917396710",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400771914"
+        }
+      ]
+    },
+    {
+      "from": "W4401608189",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608189"
+        }
+      ]
+    },
+    {
+      "from": "W4401608189",
+      "to": "W2613833839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608189"
+        }
+      ]
+    },
+    {
+      "from": "W4401608189",
+      "to": "W4253258318",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608189"
+        }
+      ]
+    },
+    {
+      "from": "W4401608189",
+      "to": "W4389298180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608189"
+        }
+      ]
+    },
+    {
+      "from": "W4401608189",
+      "to": "W4391232091",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401608189"
+        }
+      ]
+    },
+    {
+      "from": "W4402743006",
+      "to": "W2613833839",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402743006"
+        }
+      ]
+    },
+    {
+      "from": "W4402743006",
+      "to": "W2761550419",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402743006"
+        }
+      ]
+    },
+    {
+      "from": "W4402743006",
+      "to": "W4391232091",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402743006"
+        }
+      ]
+    },
+    {
+      "from": "W4402743006",
+      "to": "W4405092782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402743006"
+        }
+      ]
+    },
+    {
+      "from": "W4405092782",
+      "to": "W4379620172",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4405092782"
+        }
+      ]
+    },
+    {
+      "from": "W4406449471",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406449471"
+        }
+      ]
+    },
+    {
+      "from": "W4406449471",
+      "to": "W2887258823",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406449471"
+        }
+      ]
+    },
+    {
+      "from": "W4406449471",
+      "to": "W3096230432",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406449471"
+        }
+      ]
+    },
+    {
+      "from": "W4406449471",
+      "to": "W4387451994",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406449471"
+        }
+      ]
+    },
+    {
+      "from": "W4410614301",
+      "to": "W2917396710",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410614301"
+        }
+      ]
+    },
+    {
+      "from": "W4410614301",
+      "to": "W4385322239",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410614301"
+        }
+      ]
+    },
+    {
+      "from": "W4410614301",
+      "to": "W4389298180",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410614301"
+        }
+      ]
+    },
+    {
+      "from": "W4412075737",
+      "to": "W4391232091",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412075737"
+        }
+      ]
+    },
+    {
+      "from": "W4412413086",
+      "to": "W2783323148",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412413086"
+        }
+      ]
+    },
+    {
+      "from": "W4412413086",
+      "to": "W3162037354",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412413086"
+        }
+      ]
+    },
+    {
+      "from": "W4412413086",
+      "to": "W4402743006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412413086"
+        }
+      ]
+    },
+    {
+      "from": "W4412413086",
+      "to": "W4405092782",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412413086"
+        }
+      ]
+    },
+    {
+      "from": "W4413946588",
+      "to": "W2887258823",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413946588"
+        }
+      ]
+    },
+    {
+      "from": "W4413946588",
+      "to": "W4387451994",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413946588"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W1965702053",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2021890002",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2126273023",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2171865010",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2320648850",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2613833839",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2755167349",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2761550419",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2783323148",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2883238013",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2887258823",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2910499464",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2916274980",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2917396710",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W2998015506",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W3008471707",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W3096230432",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W3162037354",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4206477614",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4253258318",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4379620172",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4385322239",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4387451994",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4389083581",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4389298180",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4391232091",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4392498941",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4400771914",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4401608189",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4402743006",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4405092782",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4406449471",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4410614301",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4412075737",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4412413086",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7155414674",
+      "to": "W4413946588",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fprj.603644"
+        }
+      ]
+    },
+    {
+      "from": "W7164862810",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164862810"
+        }
+      ]
+    },
+    {
+      "from": "W7164862810",
+      "to": "W2021890002",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164862810"
+        }
+      ]
+    },
+    {
+      "from": "W7164862810",
+      "to": "W2029939668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164862810"
+        }
+      ]
+    },
+    {
+      "from": "W7164862810",
+      "to": "W2761550419",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164862810"
+        }
+      ]
+    },
+    {
+      "from": "W7164862810",
+      "to": "W2883238013",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164862810"
+        }
+      ]
+    },
+    {
+      "from": "W7164862810",
+      "to": "W2917396710",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164862810"
+        }
+      ]
+    },
+    {
+      "from": "W7164862810",
+      "to": "W7155414674",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164862810"
+        }
+      ]
+    },
+    {
+      "from": "W7221756394",
+      "to": "W1977664984",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221756394"
+        }
+      ]
+    },
+    {
+      "from": "W7221756394",
+      "to": "W4389083581",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221756394"
+        }
+      ]
+    },
+    {
+      "from": "W7221756394",
+      "to": "W7155414674",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7221756394"
+        }
+      ]
+    }
+  ]
+}

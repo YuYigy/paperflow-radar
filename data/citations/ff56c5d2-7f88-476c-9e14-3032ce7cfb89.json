@@ -1,0 +1,748 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "ff56c5d2-7f88-476c-9e14-3032ce7cfb89",
+  "root": "W7170092619",
+  "status": "ok",
+  "checked_at": "2026-11-16T00:45:11.671019+00:00",
+  "coverage": {
+    "references_found": 13,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 13,
+    "displayed": 13
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7170092619",
+      "doi": "10.1364/jocn.605854",
+      "title": "Unified control of multiband over SDM optical networks based on OpenROADM device models",
+      "authors": [
+        "Ramon Casellas",
+        "Roberto Morro",
+        "Laia Nadal",
+        "Francisco Javier Vilchez",
+        "Varsha Lohani",
+        "Luca Vettori",
+        "Ricardo Martínez",
+        "R Vilalta",
+        "Raül Muñoz"
+      ],
+      "year": 2026,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "spatial division multiplexing",
+        "optical network control",
+        "disaggregated optical networks",
+        "path computation",
+        "resource allocation",
+        "dense wavelength division multiplexing",
+        "OTS"
+      ],
+      "url": "https://doi.org/10.1364/jocn.605854",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/ff56c5d2-7f88-476c-9e14-3032ce7cfb89.html",
+      "summary": "该论文报告了面向多波段与空分复用光网络的软件定义控制框架概念验证。作者采用 OpenROADM 设备数据模型，为收发器、ROADM及支持波长、波段和空间交换的混合多粒度节点开发 SDN 代理，并通过 NETCONF/YANG 接口和 NMDA 扩展实现控制。摘要称，实验验证了跨 C、L、S 波段及空分复用域的协调业务开通。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4404633428",
+      "doi": "10.1364/jocn.536816",
+      "title": "Overview of SDN control of multiband over SDM optical networks with physical layer impairments [Invited Tutorial]",
+      "authors": [
+        "Ramon Casellas",
+        "Ricardo Martínez",
+        "Ricard Vilalta",
+        "Raül Muñoz"
+      ],
+      "year": 2024,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "software-defined networking",
+        "spatial division multiplexing",
+        "SDN control plane",
+        "physical layer impairments",
+        "model-driven engineering",
+        "network disaggregation",
+        "path computation",
+        "path validation",
+        "multi-level control"
+      ],
+      "url": "https://doi.org/10.1364/jocn.536816",
+      "cited_by_count": 14,
+      "importance": 0.54,
+      "score_basis": {
+        "topic_overlap": 0.533,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7133305051",
+      "doi": "10.1364/jocn.588602",
+      "title": "Dynamic routing and resource assignment for multi-granular optical node architectures with optical grooming",
+      "authors": [
+        "Varsha Lohani",
+        "Raül Muñoz",
+        "Ramon Casellas",
+        "Ioannis Tomkos",
+        "Dan M. Marom"
+      ],
+      "year": 2026,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "dynamic routing",
+        "resource allocation",
+        "wavelength division multiplexing",
+        "connection blocking"
+      ],
+      "url": "https://doi.org/10.1364/jocn.588602",
+      "cited_by_count": 1,
+      "importance": 0.4522,
+      "score_basis": {
+        "topic_overlap": 0.338,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3094143099",
+      "doi": "10.1109/access.2020.3031988",
+      "title": "OpenConfig and OpenROADM Automation of Operational Modes in Disaggregated Optical Networks",
+      "authors": [
+        "Andrea Sgambelluri",
+        "Alessio Giorgetti",
+        "Davide Scano",
+        "Filippo Cugini",
+        "Francesco Paolucci"
+      ],
+      "year": 2020,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "operating modes",
+        "Yang model",
+        "vendor lock-in",
+        "SDN controller",
+        "ONOS",
+        "software agents"
+      ],
+      "url": "https://doi.org/10.1109/access.2020.3031988",
+      "cited_by_count": 57,
+      "importance": 0.4326,
+      "score_basis": {
+        "topic_overlap": 0.406,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3000963382",
+      "doi": "10.1109/jlt.2020.2969248",
+      "title": "Abstraction and Control of Multi-Domain Disaggregated Optical Networks With OpenROADM Device Models",
+      "authors": [
+        "Ramon Casellas",
+        "Ricardo Martínez",
+        "Ricard Vilalta",
+        "Raül Muñoz"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical transport networks",
+        "network disaggregation",
+        "multi-domain networks",
+        "network abstraction",
+        "control plane architecture",
+        "software-defined networking",
+        "network virtualization",
+        "network slicing",
+        "multi-tenancy",
+        "vendor interoperability",
+        "traffic engineering"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.2969248",
+      "cited_by_count": 36,
+      "importance": 0.4314,
+      "score_basis": {
+        "topic_overlap": 0.47,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4212855469",
+      "doi": "10.1364/jocn.451516",
+      "title": "Advances in SDN control and telemetry for beyond 100G disaggregated optical networks [Invited]",
+      "authors": [
+        "Ramon Casellas",
+        "Ricardo Martínez",
+        "Ricard Vilalta",
+        "Raül Muñoz",
+        "Alfredo González-Muñiz",
+        "Óscar González de Dios",
+        "J.P. Fernández-Palacios"
+      ],
+      "year": 2022,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "software-defined networking",
+        "optical transport networks",
+        "disaggregated optical networks",
+        "optical telemetry",
+        "physical impairment",
+        "space-division multiplexing",
+        "network sharing"
+      ],
+      "url": "https://doi.org/10.1364/jocn.451516",
+      "cited_by_count": 37,
+      "importance": 0.4276,
+      "score_basis": {
+        "topic_overlap": 0.461,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403063229",
+      "doi": "10.1364/jocn.534789",
+      "title": "Dynamic control, routing, and resource assignment in multi-granular optical node topologies combining wavelength, waveband, and spatial switching for 6G transport networks [Invited]",
+      "authors": [
+        "Varsha Lohani",
+        "Raül Muñoz",
+        "Ramon Casellas",
+        "Lluís Gifre",
+        "Carlos Manso",
+        "Ricard Vilalta",
+        "Ricardo Martínez"
+      ],
+      "year": 2024,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "wavelength-selective switching",
+        "waveband switching",
+        "dynamic control",
+        "high-capacity optical networks",
+        "wavelength division multiplexing"
+      ],
+      "url": "https://doi.org/10.1364/jocn.534789",
+      "cited_by_count": 10,
+      "importance": 0.3819,
+      "score_basis": {
+        "topic_overlap": 0.36,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2901718930",
+      "doi": "10.1109/ecoc.2018.8535561",
+      "title": "OpenROADM Compliant SDN Controller for a Full Interoperability of the Optical Transport Network",
+      "authors": [
+        "Ahmed Triki",
+        "Christophe Betoule",
+        "Gilles Thouénon",
+        "Olivier Henais",
+        "Nicolas Pelloquin",
+        "Guillaume Lambert",
+        "Malick Sylla",
+        "Shweta Vachhani",
+        "Dhruv Ishan Bhardwaj",
+        "Masha Dorfman",
+        "Archana Soundararajan",
+        "Martin Birk"
+      ],
+      "year": 2018,
+      "venue": "European Conference on Optical Communication",
+      "venue_abbr": "ECOC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "software-defined networking",
+        "SDN controller",
+        "optical transport networks",
+        "OpenDaylight",
+        "multi-vendor interoperability",
+        "service delivery",
+        "network data model"
+      ],
+      "url": "https://doi.org/10.1109/ecoc.2018.8535561",
+      "cited_by_count": 13,
+      "importance": 0.3812,
+      "score_basis": {
+        "topic_overlap": 0.403,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415013863",
+      "doi": "10.1016/j.comnet.2025.111731",
+      "title": "Dynamic routing, waveband, and spectrum assignment for optical superchannels in IP over multi-granular optical nodes",
+      "authors": [
+        "Varsha Lohani",
+        "Ramon Casellas",
+        "Raül Muñoz"
+      ],
+      "year": 2025,
+      "venue": "Computer Networks",
+      "venue_abbr": "Computer Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "spectral assignment",
+        "dynamic routing",
+        "wavelength selective switch",
+        "IP over optical networks",
+        "wavelength division multiplexing",
+        "optical network capacity"
+      ],
+      "url": "https://doi.org/10.1016/j.comnet.2025.111731",
+      "cited_by_count": 5,
+      "importance": 0.3766,
+      "score_basis": {
+        "topic_overlap": 0.348,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3005867571",
+      "doi": "10.1364/jocn.380723",
+      "title": "The OpenROADM initiative [Invited]",
+      "authors": [
+        "Martin Birk",
+        "Olivier Renais",
+        "Guillaume Lambert",
+        "Christophe Betoule",
+        "Gilles Thouénon",
+        "Ahmed Triki",
+        "Dhruv Ishan Bhardwaj",
+        "Shweta Vachhani",
+        "Narayan Padi",
+        "Simon Tse"
+      ],
+      "year": 2020,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "ROADM",
+        "YANG data model",
+        "OpenDaylight",
+        "software-defined networking",
+        "optical transport networks"
+      ],
+      "url": "https://doi.org/10.1364/jocn.380723",
+      "cited_by_count": 50,
+      "importance": 0.3758,
+      "score_basis": {
+        "topic_overlap": 0.391,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413559179",
+      "doi": "10.1109/icton67126.2025.11125289",
+      "title": "Introducing L-band Spectral Switching Granularity in Programmable MBoSDM Node Prototype",
+      "authors": [
+        "Francisco Javier Vilchez",
+        "Laia Nadal",
+        "Ramon Casellas",
+        "Josep M. Fàbrega",
+        "Michela Svaluto Moreolo",
+        "Raúl Muñoz"
+      ],
+      "year": 2025,
+      "venue": "International Conference on Transparent Optical Networks",
+      "venue_abbr": "ICTON",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "L-band",
+        "wavelength selective switch",
+        "optical access networks",
+        "optical transport networks",
+        "software-defined networking"
+      ],
+      "url": "https://doi.org/10.1109/icton67126.2025.11125289",
+      "cited_by_count": 3,
+      "importance": 0.3708,
+      "score_basis": {
+        "topic_overlap": 0.268,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4399394489",
+      "doi": "10.1364/jocn.522102",
+      "title": "Advanced optical transceiver and switching solutions for next-generation optical networks",
+      "authors": [
+        "Laia Nadal",
+        "Ricardo Martínez",
+        "Mohamed Ali",
+        "Francisco Javier Vilchez",
+        "Josep M. Fàbrega",
+        "Michela Svaluto Moreolo",
+        "Ramon Casellas"
+      ],
+      "year": 2024,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical transceivers",
+        "optical switching",
+        "multicore fiber",
+        "energy efficiency",
+        "power efficiency",
+        "software-defined networking",
+        "network capacity scaling",
+        "interoperability"
+      ],
+      "url": "https://doi.org/10.1364/jocn.522102",
+      "cited_by_count": 21,
+      "importance": 0.36,
+      "score_basis": {
+        "topic_overlap": 0.267,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2985326423",
+      "doi": "10.1364/jocn.12.00a144",
+      "title": "Virtualization of disaggregated optical networks with open data models in support of network slicing",
+      "authors": [
+        "Ramon Casellas",
+        "Alessio Giorgetti",
+        "Roberto Morro",
+        "Ricardo Martínez",
+        "Ricard Vilalta",
+        "Raül Muñoz"
+      ],
+      "year": 2019,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "network slicing",
+        "optical network virtualization",
+        "5G",
+        "network function virtualization",
+        "open data model"
+      ],
+      "url": "https://doi.org/10.1364/jocn.12.00a144",
+      "cited_by_count": 23,
+      "importance": 0.3468,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3184535468",
+      "doi": "10.1109/access.2021.3099370",
+      "title": "Live Migration of Virtual Machine and Container Based Mobile Core Network Components: A Comprehensive Study",
+      "authors": [
+        "Shunmugapriya Ramanathan",
+        "Koteswararao Kondepu",
+        "Miguel Razo",
+        "Marco Tacca",
+        "Luca Valcarenghi",
+        "Andrea Fumagalli"
+      ],
+      "year": 2021,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "live migration",
+        "network function virtualization",
+        "virtual machines",
+        "containers",
+        "evolved packet core",
+        "mobile core network",
+        "4G LTE",
+        "non-standalone 5G",
+        "container migration",
+        "load balancing",
+        "fault tolerance",
+        "power management"
+      ],
+      "url": "https://doi.org/10.1109/access.2021.3099370",
+      "cited_by_count": 50,
+      "importance": 0.2589,
+      "score_basis": {
+        "topic_overlap": 0.131,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W3094143099",
+      "to": "W3000963382",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3094143099"
+        }
+      ]
+    },
+    {
+      "from": "W4404633428",
+      "to": "W4212855469",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404633428"
+        }
+      ]
+    },
+    {
+      "from": "W4404633428",
+      "to": "W4399394489",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404633428"
+        }
+      ]
+    },
+    {
+      "from": "W4413559179",
+      "to": "W4399394489",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413559179"
+        }
+      ]
+    },
+    {
+      "from": "W7133305051",
+      "to": "W4403063229",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133305051"
+        }
+      ]
+    },
+    {
+      "from": "W7133305051",
+      "to": "W4415013863",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133305051"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W2901718930",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W2985326423",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W3000963382",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W3005867571",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W3094143099",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W3184535468",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W4212855469",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W4399394489",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W4403063229",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W4404633428",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W4413559179",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W4415013863",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    },
+    {
+      "from": "W7170092619",
+      "to": "W7133305051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7170092619"
+        }
+      ]
+    }
+  ]
+}

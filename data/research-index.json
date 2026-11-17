@@ -6,7 +6,7 @@
       "title": "从链路到算力互连",
       "description": "关注传输容量、链路预算与互连代价。",
       "question": "容量与距离是否在相同功率和带宽条件下比较？",
-      "count": 57,
+      "count": 58,
       "latest": "2026-11-13",
       "items": [
         {
@@ -630,9 +630,195 @@
       "title": "从器件到系统可用性",
       "description": "关注硅光、调制器、微环与集成平台。",
       "question": "器件性能能否在损耗、驱动和制造约束下转化为系统收益？",
-      "count": 100,
-      "latest": "2026-11-13",
+      "count": 102,
+      "latest": "2026-11-16",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "c4cc8cbd-99a5-4792-82ee-04cb553a0626",
+          "revision": 5,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Twin-field quantum key distribution with dual-band integrated photonic chips",
+          "authors": [
+            "Huihong Yuan",
+            "Jinping Lin",
+            "Wenda Shi",
+            "Lai Zhou",
+            "Zhichuan Liao",
+            "Zhengyu Yan",
+            "Tingting Shi",
+            "Yuanbin Fan",
+            "Hai Xu",
+            "Zhiliang Yuan"
+          ],
+          "doi": "10.1364/optica.606247",
+          "venue": "Optica",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "847254fcf9a46c99",
+            "name": "Optica",
+            "original_name": "Optica",
+            "abbr": "Optica",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Optica"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T1",
+            "rank_label": "CIE T1 · 2023",
+            "rank_order": 1,
+            "focus_tier": "P1",
+            "focus_label": "知流 P1 · 前沿重点",
+            "focus_order": 1,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-11-16",
+          "topics": [
+            "通信光子器件与集成"
+          ],
+          "summary_zh": "该实验研究利用薄膜铌酸锂平台，将电光频梳生成与量子信号编码集成于双波段相干发射芯片，并以片上互相干梳齿作为信道参考进行相位稳定。摘要报告，在两个用户节点各使用一枚芯片，实现508公里光纤链路上的双场量子密钥分发，量子比特误码率低于0.5%，安全密钥率达到所述基本速率—距离极限的2.67倍。",
+          "title_zh": "薄膜铌酸锂双波段集成芯片实现508公里双场量子密钥分发",
+          "missing_evidence": [
+            "未提供全文，无法核对安全密钥率计算采用的安全假设、有限码长处理及对应极限的定义。",
+            "缺少链路损耗、光纤部署条件、稳定运行时长及外部辅助设备配置，无法评估系统级复杂度和部署适用性。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1364/optica.606247",
+              "text": "该实验研究利用薄膜铌酸锂平台，将电光频梳生成与量子信号编码集成于双波段相干发射芯片，并以片上互相干梳齿作为信道参考进行相位稳定。摘要报告，在两个用户节点各使用一枚芯片，实现508公里光纤链路上的双场量子密钥分发，量子比特误码率低于0.5%，安全密钥率达到所述基本速率—距离极限的2.67倍。"
+            }
+          ],
+          "ai_inference": [
+            "将相干参考生成与量子编码集成于同一平台，可为长距离量子通信发射端的小型化及相位稳定架构提供参考。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/optica.606247",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-17T00:33:53.435522+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "c4cc8cbd-99a5-4792-82ee-04cb553a0626",
+            "work_key": "doi:10.1364/optica.606247",
+            "identifiers": {
+              "doi": "10.1364/optica.606247",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "2334-2536"
+              ]
+            },
+            "bibliography": {
+              "title": "Twin-field quantum key distribution with dual-band integrated photonic chips",
+              "type": "journal-article",
+              "venue_id": "847254fcf9a46c99",
+              "venue_name": "Optica",
+              "venue_abbr": "Optica",
+              "date": "2026-11-16",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": "13",
+              "issue": "12",
+              "pages": "2430",
+              "article_number": null,
+              "publisher": "Optica Publishing Group",
+              "language": "en",
+              "published_online": "2026-10-19",
+              "published_print": null
+            },
+            "authors": [
+              "Huihong Yuan",
+              "Jinping Lin",
+              "Wenda Shi",
+              "Lai Zhou",
+              "Zhichuan Liao",
+              "Zhengyu Yan",
+              "Tingting Shi",
+              "Yuanbin Fan",
+              "Hai Xu",
+              "Zhiliang Yuan"
+            ],
+            "first_author": "Huihong Yuan",
+            "author_count": 10,
+            "contributors": [],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [],
+              "topic_tags": [
+                "光子集成",
+                "量子通信"
+              ],
+              "directions": [
+                "通信光子器件与集成"
+              ],
+              "direction_basis": "source-classification",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": "T1",
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": "P1"
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "enabling",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": []
+            },
+            "citation_counts": {
+              "references": 0,
+              "cited_by": 0,
+              "source": "Crossref",
+              "observed_at": "2026-10-23T00:18:41.923706+00:00"
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1364/optica.606247",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": "https://api.crossref.org/works/10.1364/optica.606247",
+              "metadata_observed_at": "2026-10-23T00:18:41.923706+00:00",
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
         {
           "schema_version": 1,
           "record_id": "6e216f8e-3fef-45bb-8ec1-494fe2935a99",
@@ -1016,243 +1202,6 @@
               "normalizer": "paper-attributes-v1",
               "metadata_source": null,
               "metadata_observed_at": null,
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "9334b150-c31a-4cf3-ae53-9cc3c3ed6792",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Thin-film lithium niobate waveguide-integrated p-i-n Tungsten selenide photodiodes with 10Gbit/s data reception",
-          "authors": [
-            "Weijia Tang",
-            "Zixian Wei",
-            "Ting He",
-            "Haoyu Huang",
-            "Xin He",
-            "Su Wu",
-            "Jun Liu",
-            "Changyuan Yu",
-            "Hongyan Fu",
-            "Weida Hu",
-            "Shun Wang",
-            "Youwei Zhang"
-          ],
-          "doi": "10.1038/s41467-026-79595-2",
-          "venue": "Nature Communications",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "91444c745ca4ec26",
-            "name": "Nature Communications",
-            "original_name": "Nature Communications",
-            "abbr": "Nat. Commun.",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Nature Communications",
-              "Nat. Commun."
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": "P1",
-            "focus_label": "知流 P1 · 前沿重点",
-            "focus_order": 1,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-11-12",
-          "topics": [
-            "通信光子器件与集成"
-          ],
-          "summary_zh": "该实验研究在薄膜铌酸锂波导上集成横向WSe₂ p-i-n光电探测器，通过局域自对准掺杂、硒空位缺陷工程及氧化钼缓冲层改善载流子输运与接触。摘要报告实测带宽为1.12 GHz，可见光数据速率最高达10 Gbit/s；另报告在638 nm下响应度约492 mA/W、外量子效率95.6%。",
-          "title_zh": "薄膜铌酸锂集成WSe₂光电二极管实现10 Gbit/s可见光接收",
-          "missing_evidence": [
-            "仅提供摘要，缺少全文中的测试条件、频率响应曲线、接收眼图及误码率，尚不能判断10 Gbit/s接收质量。",
-            "缺少各性能指标是否在相同工作条件下取得的证据，以及通信波段响应、器件稳定性与集成一致性数据。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1038/s41467-026-79595-2",
-              "text": "该实验研究在薄膜铌酸锂波导上集成横向WSe₂ p-i-n光电探测器，通过局域自对准掺杂、硒空位缺陷工程及氧化钼缓冲层改善载流子输运与接触。摘要报告实测带宽为1.12 GHz，可见光数据速率最高达10 Gbit/s；另报告在638 nm下响应度约492 mA/W、外量子效率95.6%。"
-            }
-          ],
-          "ai_inference": [
-            "该集成方案可为薄膜铌酸锂平台的可见光片上互连与光输入输出接收端提供研究参考；向通信波段迁移仍需另行验证。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1038/s41467-026-79595-2",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-13T00:32:44.861778+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "9334b150-c31a-4cf3-ae53-9cc3c3ed6792",
-            "work_key": "doi:10.1038/s41467-026-79595-2",
-            "identifiers": {
-              "doi": "10.1038/s41467-026-79595-2",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "2041-1723"
-              ]
-            },
-            "bibliography": {
-              "title": "Thin-film lithium niobate waveguide-integrated p-i-n Tungsten selenide photodiodes with 10Gbit/s data reception",
-              "type": "journal-article",
-              "venue_id": "91444c745ca4ec26",
-              "venue_name": "Nature Communications",
-              "venue_abbr": "Nat. Commun.",
-              "date": "2026-11-12",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": null,
-              "issue": null,
-              "pages": null,
-              "article_number": null,
-              "publisher": "Springer Science and Business Media LLC",
-              "language": "en",
-              "published_online": "2026-11-12",
-              "published_print": null
-            },
-            "authors": [
-              "Weijia Tang",
-              "Zixian Wei",
-              "Ting He",
-              "Haoyu Huang",
-              "Xin He",
-              "Su Wu",
-              "Jun Liu",
-              "Changyuan Yu",
-              "Hongyan Fu",
-              "Weida Hu",
-              "Shun Wang",
-              "Youwei Zhang"
-            ],
-            "first_author": "Weijia Tang",
-            "author_count": 12,
-            "contributors": [
-              {
-                "name": "Ting He",
-                "orcid": "https://orcid.org/0009-0003-9047-1593",
-                "affiliations": []
-              },
-              {
-                "name": "Haoyu Huang",
-                "orcid": "https://orcid.org/0000-0003-2001-5405",
-                "affiliations": []
-              },
-              {
-                "name": "Changyuan Yu",
-                "orcid": "https://orcid.org/0000-0002-3185-0441",
-                "affiliations": []
-              },
-              {
-                "name": "Hongyan Fu",
-                "orcid": "https://orcid.org/0000-0002-4276-0011",
-                "affiliations": []
-              },
-              {
-                "name": "Weida Hu",
-                "orcid": "https://orcid.org/0000-0001-5278-8969",
-                "affiliations": []
-              },
-              {
-                "name": "Shun Wang",
-                "orcid": "https://orcid.org/0000-0001-6890-8371",
-                "affiliations": []
-              },
-              {
-                "name": "Youwei Zhang",
-                "orcid": "https://orcid.org/0000-0001-6640-9317",
-                "affiliations": []
-              }
-            ],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "铌酸锂"
-              ],
-              "directions": [
-                "通信光子器件与集成"
-              ],
-              "direction_basis": "source-classification",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": null,
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": "P1"
-            },
-            "reading": {
-              "priority": "B",
-              "relevance": "enabling",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": [
-                {
-                  "start": "2026-11-12",
-                  "url": "https://creativecommons.org/licenses/by/4.0",
-                  "version": "tdm"
-                },
-                {
-                  "start": "2026-11-12",
-                  "url": "https://creativecommons.org/licenses/by/4.0",
-                  "version": "am"
-                }
-              ]
-            },
-            "citation_counts": {
-              "references": 0,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-11-13T00:18:57.204489+00:00"
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1038/s41467-026-79595-2",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1038/s41467-026-79595-2",
-              "metadata_observed_at": "2026-11-13T00:18:57.204489+00:00",
               "missing": [
                 "author_keywords",
                 "open_access"
@@ -2385,9 +2334,378 @@
       "title": "连接光域与射频域",
       "description": "关注宽带处理、波束赋形与光生毫米波。",
       "question": "带宽、噪声和动态范围能否同时满足目标场景？",
-      "count": 28,
-      "latest": "2026-11-06",
+      "count": 30,
+      "latest": "2026-11-16",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "cb76efc6-4c1e-45a3-8260-1a634c811a03",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Coverage-adaptive photonics-aided terahertz wireless communication using lens position control",
+          "authors": [
+            "Siyao Mark Yu",
+            "Jingyi Li",
+            "Huayu Liu",
+            "Yifan Chen"
+          ],
+          "doi": "10.1364/ol.618862",
+          "venue": "Optics Letters",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "f01bbddcb7738bfc",
+            "name": "Optics Letters",
+            "original_name": "Optics Letters",
+            "abbr": "OL",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Optics Letters",
+              "OL",
+              "Opt. Lett."
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-11-16",
+          "topics": [
+            "微波与太赫兹光子学"
+          ],
+          "summary_zh": "论文提出通过调整外置太赫兹透镜的轴向位置，改变波束发散与会聚，在不增加发射机输出功率的条件下调节照射区域。摘要报告利用单行载流子光电二极管中的光外差，同时产生中心频率为231和289 GHz的两路调制信号，总符号率为112 Gbaud；两个频带选择性接收机分别恢复信号，模拟双用户同时通信。",
+          "title_zh": "透镜位置调控的光子辅助太赫兹覆盖自适应通信",
+          "missing_evidence": [
+            "仅提供摘要，缺少全文中的实验配置、覆盖范围、传输距离与接收性能数据，无法评估覆盖自适应的实际收益。",
+            "摘要中的最高总符号率声明缺少对比文献支持，尚未核实。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1364/ol.618862",
+              "text": "论文提出通过调整外置太赫兹透镜的轴向位置，改变波束发散与会聚，在不增加发射机输出功率的条件下调节照射区域。摘要报告利用单行载流子光电二极管中的光外差，同时产生中心频率为231和289 GHz的两路调制信号，总符号率为112 Gbaud；两个频带选择性接收机分别恢复信号，模拟双用户同时通信。"
+            }
+          ],
+          "ai_inference": [
+            "透镜轴向位置可作为光子辅助太赫兹链路的覆盖调节自由度，值得进一步研究覆盖范围与接收性能之间的权衡。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/ol.618862",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-17T00:40:23.045531+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "cb76efc6-4c1e-45a3-8260-1a634c811a03",
+            "work_key": "doi:10.1364/ol.618862",
+            "identifiers": {
+              "doi": "10.1364/ol.618862",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "0146-9592",
+                "1539-4794"
+              ]
+            },
+            "bibliography": {
+              "title": "Coverage-adaptive photonics-aided terahertz wireless communication using lens position control",
+              "type": "journal-article",
+              "venue_id": "f01bbddcb7738bfc",
+              "venue_name": "Optics Letters",
+              "venue_abbr": "OL",
+              "date": "2026-11-16",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": "51",
+              "issue": "23",
+              "pages": "6427",
+              "article_number": null,
+              "publisher": "Optica Publishing Group",
+              "language": "en",
+              "published_online": "2026-11-16",
+              "published_print": "2026-12-01"
+            },
+            "authors": [
+              "Siyao Mark Yu",
+              "Jingyi Li",
+              "Huayu Liu",
+              "Yifan Chen"
+            ],
+            "first_author": "Siyao Mark Yu",
+            "author_count": 4,
+            "contributors": [
+              {
+                "name": "Siyao Mark Yu",
+                "orcid": null,
+                "affiliations": [
+                  "Rutgers University"
+                ]
+              },
+              {
+                "name": "Yifan Chen",
+                "orcid": "https://orcid.org/0000-0001-7690-8590",
+                "affiliations": []
+              }
+            ],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [],
+              "topic_tags": [
+                "太赫兹"
+              ],
+              "directions": [
+                "微波与太赫兹光子学"
+              ],
+              "direction_basis": "source-classification",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": "T2",
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": "P2"
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "enabling",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": [
+                {
+                  "start": "2026-11-16",
+                  "url": "https://doi.org/10.1364/OA_License_v2#VOR",
+                  "version": "vor"
+                },
+                {
+                  "start": "2026-11-16",
+                  "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
+                  "version": "tdm"
+                }
+              ]
+            },
+            "citation_counts": {
+              "references": 16,
+              "cited_by": 0,
+              "source": "Crossref",
+              "observed_at": "2026-11-17T00:21:36.791495+00:00"
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1364/ol.618862",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": "https://api.crossref.org/works/10.1364/ol.618862",
+              "metadata_observed_at": "2026-11-17T00:21:36.791495+00:00",
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
+        {
+          "schema_version": 1,
+          "record_id": "9e6f4f77-ead1-4c86-accf-46cdec235095",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Robust terahertz valley Hall topological router based on a trefoil-lattice valley photonic crystal",
+          "authors": [
+            "Jianquan Yao"
+          ],
+          "doi": "10.1117/1.apn.6.1.016009",
+          "venue": "Advanced Photonics Nexus",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "2669d25c7319eb77",
+            "name": "Advanced Photonics Nexus",
+            "original_name": "Advanced Photonics Nexus",
+            "abbr": "Adv. Photonics Nexus",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Advanced Photonics Nexus",
+              "Adv. Photonics Nexus",
+              "APN"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "未匹配 CIE 2023",
+            "rank_order": 99,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-11-16",
+          "topics": [
+            "微波与太赫兹光子学"
+          ],
+          "summary_zh": "该研究提出二维三叶晶格太赫兹谷光子晶体，分析四类边界的拓扑边界态，并设计偏振相关的单输入四输出路由器。摘要报告，右旋圆偏振输入时能量向右传播，通道消光比在指定频率处分别达到18.59 dB和43.67 dB；左旋输入时能量向左传播，功率分配比为5:2，按−3 dB传输判据定义的工作带宽为7.4 GHz。研究还分析了两类缺陷下消光比及功分带宽的变化。",
+          "title_zh": "三叶晶格太赫兹谷霍尔拓扑路由器",
+          "missing_evidence": [
+            "全文及研究方法，尤其是结果来自数值仿真还是实物实验。",
+            "缺陷的具体类型、幅度及测试范围，以及器件插入损耗和制造验证。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1117/1.apn.6.1.016009",
+              "text": "该研究提出二维三叶晶格太赫兹谷光子晶体，分析四类边界的拓扑边界态，并设计偏振相关的单输入四输出路由器。摘要报告，右旋圆偏振输入时能量向右传播，通道消光比在指定频率处分别达到18.59 dB和43.67 dB；左旋输入时能量向左传播，功率分配比为5:2，按−3 dB传输判据定义的工作带宽为7.4 GHz。研究还分析了两类缺陷下消光比及功分带宽的变化。"
+            }
+          ],
+          "ai_inference": [
+            "偏振选择路由与功率分配的结合，可为太赫兹通信片上互连提供设计思路；迁移至其他频段仍需验证材料、损耗和制造条件。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1117/1.apn.6.1.016009",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-17T00:42:37.252561+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "9e6f4f77-ead1-4c86-accf-46cdec235095",
+            "work_key": "doi:10.1117/1.apn.6.1.016009",
+            "identifiers": {
+              "doi": "10.1117/1.apn.6.1.016009",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "2791-1519"
+              ]
+            },
+            "bibliography": {
+              "title": "Robust terahertz valley Hall topological router based on a trefoil-lattice valley photonic crystal",
+              "type": "journal-article",
+              "venue_id": "2669d25c7319eb77",
+              "venue_name": "Advanced Photonics Nexus",
+              "venue_abbr": "Adv. Photonics Nexus",
+              "date": "2026-11-16",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": "6",
+              "issue": "01",
+              "pages": "1-12",
+              "article_number": null,
+              "publisher": "SPIE-Intl Soc Optical Eng",
+              "language": null,
+              "published_online": null,
+              "published_print": null
+            },
+            "authors": [
+              "Jianquan Yao"
+            ],
+            "first_author": "Jianquan Yao",
+            "author_count": 1,
+            "contributors": [],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [],
+              "topic_tags": [
+                "太赫兹"
+              ],
+              "directions": [
+                "微波与太赫兹光子学"
+              ],
+              "direction_basis": "source-classification",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": null,
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": "P2"
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "enabling",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": []
+            },
+            "citation_counts": {
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1117/1.apn.6.1.016009",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": null,
+              "metadata_observed_at": null,
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
         {
           "schema_version": 1,
           "record_id": "fad47438-b526-4473-9477-11d9de2f5aba",
@@ -2656,401 +2974,6 @@
               "normalizer": "paper-attributes-v1",
               "metadata_source": "https://api.crossref.org/works/10.1364/ol.613515",
               "metadata_observed_at": "2026-11-07T00:19:41.134295+00:00",
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "0be0b895-c5b0-4920-9ff1-52ad79681785",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "preprint",
-          "title": "Reconfigurable multi-tone mmWave/THz generation powered by high-efficiency Kerr parametric oscillation",
-          "authors": [
-            "Dong IL Lee",
-            "Fanqi Shen",
-            "Wenzheng Liu",
-            "Xinghe Jiang",
-            "Anika Tabassum",
-            "Alwaleed Aldhafeeri",
-            "Manas Choure",
-            "Jasmine Lu",
-            "Mona Jarrahi",
-            "Chee Wei Wong"
-          ],
-          "doi": null,
-          "venue": "arXiv",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "43ef3159143b717e",
-            "name": "arXiv",
-            "original_name": "arXiv",
-            "abbr": "arXiv",
-            "kind": "preprint",
-            "match_status": "platform",
-            "aliases": [
-              "arXiv",
-              "arXiv"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "不适用期刊等级",
-            "rank_order": 99,
-            "focus_tier": null,
-            "focus_label": "知流关注级未定",
-            "focus_order": 99,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "not-applicable",
-            "hust_label": "不适用院规等级",
-            "hust_note": "",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-11-02",
-          "topics": [
-            "微波与太赫兹光子学"
-          ],
-          "summary_zh": "该预印本摘要报告实验演示：利用强非对称双环氮化硅微谐振器与宽带螺旋等离激元光混频器，实现梳齿间隔为100、200、300和400 GHz的可重构光子信号生成。泵浦至生成谱线的最高转换效率为67.3%，直接光混频无需中间光放大即可同时产生覆盖100至900 GHz的多频信号。在1%占空比下，100 GHz辐射功率超过2 mW。",
-          "title_zh": "高效克尔参量振荡驱动可重构多频毫米波与太赫兹源",
-          "missing_evidence": [
-            "未提供正文，无法核查实验配置、效率计算口径、功率测量及不确定度。",
-            "摘要未提供通信传输实验或误码率等链路指标。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://arxiv.org/abs/2611.03997v1",
-              "text": "该预印本摘要报告实验演示：利用强非对称双环氮化硅微谐振器与宽带螺旋等离激元光混频器，实现梳齿间隔为100、200、300和400 GHz的可重构光子信号生成。泵浦至生成谱线的最高转换效率为67.3%，直接光混频无需中间光放大即可同时产生覆盖100至900 GHz的多频信号。在1%占空比下，100 GHz辐射功率超过2 mW。"
-            }
-          ],
-          "ai_inference": [
-            "该方案对光子辅助多频段无线通信具有明确迁移意义，可为可重构毫米波与太赫兹载波源设计提供参考；通信链路性能仍需单独验证。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract+pdf-link",
-          "source_url": "https://arxiv.org/abs/2611.03997v1",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "C",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-05T00:36:28.661652+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "0be0b895-c5b0-4920-9ff1-52ad79681785",
-            "work_key": "arxiv:2611.03997",
-            "identifiers": {
-              "doi": null,
-              "arxiv": "2611.03997",
-              "paper_code": null,
-              "issn": []
-            },
-            "bibliography": {
-              "title": "Reconfigurable multi-tone mmWave/THz generation powered by high-efficiency Kerr parametric oscillation",
-              "type": "preprint",
-              "venue_id": "43ef3159143b717e",
-              "venue_name": "arXiv",
-              "venue_abbr": "arXiv",
-              "date": "2026-11-02",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": null,
-              "issue": null,
-              "pages": null,
-              "article_number": null,
-              "publisher": null,
-              "language": null,
-              "published_online": null,
-              "published_print": null
-            },
-            "authors": [
-              "Dong IL Lee",
-              "Fanqi Shen",
-              "Wenzheng Liu",
-              "Xinghe Jiang",
-              "Anika Tabassum",
-              "Alwaleed Aldhafeeri",
-              "Manas Choure",
-              "Jasmine Lu",
-              "Mona Jarrahi",
-              "Chee Wei Wong"
-            ],
-            "first_author": "Dong IL Lee",
-            "author_count": 10,
-            "contributors": [],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [
-                "physics.optics"
-              ],
-              "topic_tags": [
-                "太赫兹"
-              ],
-              "directions": [
-                "微波与太赫兹光子学"
-              ],
-              "direction_basis": "source-classification",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": null,
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "not-applicable",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": null
-            },
-            "reading": {
-              "priority": "C",
-              "relevance": "enabling",
-              "evidence": "abstract+pdf-link"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": []
-            },
-            "citation_counts": {
-              "references": null,
-              "cited_by": null,
-              "source": null,
-              "observed_at": null
-            },
-            "provenance": {
-              "source_url": "https://arxiv.org/abs/2611.03997v1",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": null,
-              "metadata_observed_at": null,
-              "missing": [
-                "author_keywords",
-                "doi",
-                "open_access"
-              ]
-            }
-          }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "fcd12210-b486-4cd1-bd2d-966760f2b5fc",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Photonically generated simultaneous multi-band terahertz communication system",
-          "authors": [
-            "Feng Liu",
-            "James Seddon",
-            "John E. Wu",
-            "Mohamed Nihal Munshi",
-            "Sanchit S. Kondawar",
-            "Martyn Fice",
-            "Alwyn Seeds"
-          ],
-          "doi": "10.1364/oe.614386",
-          "venue": "Optics Express",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "20fe917b3f1c57bc",
-            "name": "Optics Express",
-            "original_name": "Optics Express",
-            "abbr": "OE",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Optics Express",
-              "OE",
-              "Opt. Express"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": "T2",
-            "rank_label": "CIE T2 · 2023",
-            "rank_order": 2,
-            "focus_tier": "P2",
-            "focus_label": "知流 P2 · 领域核心",
-            "focus_order": 2,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-10-30",
-          "topics": [
-            "微波与太赫兹光子学"
-          ],
-          "summary_zh": "研究报告了采用单发射机和两个独立接收机的光子产生多频段太赫兹通信实验。集成单行载流子光电二极管的缝隙天线用于宽带发射，两个接收机分别采用光子泵浦和电子泵浦。分开接收时，WR-5.1和WR-3.4频段的最高数据率分别为80 Gbit/s和15 Gbit/s；同时收发时，通过调整载频和发射功率，两个频段均实现10 Gbit/s。",
-          "title_zh": "光子产生的双频段太赫兹通信实验",
-          "missing_evidence": [
-            "仅提供摘要，缺少全文及实验细节，无法核查传输距离、误码表现、调制格式和各速率对应的测试条件。",
-            "摘要所称首次演示及面向多用户接入的实际能力，仍需全文与相关工作对比支持。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/oe.614386",
-              "text": "研究报告了采用单发射机和两个独立接收机的光子产生多频段太赫兹通信实验。集成单行载流子光电二极管的缝隙天线用于宽带发射，两个接收机分别采用光子泵浦和电子泵浦。分开接收时，WR-5.1和WR-3.4频段的最高数据率分别为80 Gbit/s和15 Gbit/s；同时收发时，通过调整载频和发射功率，两个频段均实现10 Gbit/s。"
-            }
-          ],
-          "ai_inference": [
-            "该实验可为光子太赫兹多频段接入研究提供参考，尤其值得研究载频与功率配置对不同频段性能均衡的影响。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1364/oe.614386",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "C",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-10-31T00:29:57.080714+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "fcd12210-b486-4cd1-bd2d-966760f2b5fc",
-            "work_key": "doi:10.1364/oe.614386",
-            "identifiers": {
-              "doi": "10.1364/oe.614386",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "1094-4087"
-              ]
-            },
-            "bibliography": {
-              "title": "Photonically generated simultaneous multi-band terahertz communication system",
-              "type": "journal-article",
-              "venue_id": "20fe917b3f1c57bc",
-              "venue_name": "Optics Express",
-              "venue_abbr": "OE",
-              "date": "2026-10-30",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": "34",
-              "issue": "22",
-              "pages": "42941",
-              "article_number": null,
-              "publisher": "Optica Publishing Group",
-              "language": "en",
-              "published_online": "2026-10-30",
-              "published_print": "2026-11-02"
-            },
-            "authors": [
-              "Feng Liu",
-              "James Seddon",
-              "John E. Wu",
-              "Mohamed Nihal Munshi",
-              "Sanchit S. Kondawar",
-              "Martyn Fice",
-              "Alwyn Seeds"
-            ],
-            "first_author": "Feng Liu",
-            "author_count": 7,
-            "contributors": [
-              {
-                "name": "Feng Liu",
-                "orcid": "https://orcid.org/0009-0006-0973-7959",
-                "affiliations": []
-              },
-              {
-                "name": "James Seddon",
-                "orcid": "https://orcid.org/0000-0002-4651-1960",
-                "affiliations": []
-              },
-              {
-                "name": "Martyn Fice",
-                "orcid": "https://orcid.org/0000-0002-8814-2315",
-                "affiliations": []
-              }
-            ],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "太赫兹"
-              ],
-              "directions": [
-                "微波与太赫兹光子学"
-              ],
-              "direction_basis": "source-classification",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": "T2",
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": "P2"
-            },
-            "reading": {
-              "priority": "C",
-              "relevance": "enabling",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": [
-                {
-                  "start": "2026-10-30",
-                  "url": "https://creativecommons.org/licenses/by/4.0/",
-                  "version": "vor"
-                },
-                {
-                  "start": "2026-10-30",
-                  "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
-                  "version": "tdm"
-                }
-              ]
-            },
-            "citation_counts": {
-              "references": 42,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-10-31T00:19:21.257670+00:00"
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1364/oe.614386",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1364/oe.614386",
-              "metadata_observed_at": "2026-10-31T00:19:21.257670+00:00",
               "missing": [
                 "author_keywords",
                 "open_access"
@@ -6303,9 +6226,465 @@
       "title": "从光源能力寻找迁移机会",
       "description": "关注激光、频率梳与通用光子器件；不预设通信适用性。",
       "question": "这项能力迁移到通信系统还缺哪些稳定性、集成和成本证据？",
-      "count": 62,
-      "latest": "2026-11-13",
+      "count": 64,
+      "latest": "2026-11-16",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "5b4f56e0-8cdd-49e1-8c26-28c936d61c3a",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "On-chip high-repetition-rate passively mode-locked frequency comb source based on a microring composite cavity",
+          "authors": [
+            "Mengmeng Chai",
+            "Ao Wang",
+            "Yuxiang Ji",
+            "Xing Li",
+            "Weiwen Zou"
+          ],
+          "doi": "10.1364/oe.618071",
+          "venue": "Optics Express",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "20fe917b3f1c57bc",
+            "name": "Optics Express",
+            "original_name": "Optics Express",
+            "abbr": "OE",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Optics Express",
+              "OE",
+              "Opt. Express"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-11-16",
+          "topics": [
+            "光源与通用光子器件"
+          ],
+          "summary_zh": "研究提出基于微环复合腔的片上被动锁模激光器，通过法布里–珀罗腔与微环耦合实现选模，并利用半导体可饱和吸收体实现相位匹配。仿真得到重复频率为200 GHz的光脉冲，相对强度噪声低至−130 dBc/Hz，并研究了微环耦合比及吸收体调制深度对脉冲特性的影响。",
+          "title_zh": "微环复合腔片上锁模光梳：200 GHz重复频率仿真",
+          "missing_evidence": [
+            "未提供全文，无法核查仿真模型、参数及噪声计算条件。",
+            "摘要未提供器件实验、相对强度噪声对应的偏移频率或通信链路测试结果。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1364/oe.618071",
+              "text": "研究提出基于微环复合腔的片上被动锁模激光器，通过法布里–珀罗腔与微环耦合实现选模，并利用半导体可饱和吸收体实现相位匹配。仿真得到重复频率为200 GHz的光脉冲，相对强度噪声低至−130 dBc/Hz，并研究了微环耦合比及吸收体调制深度对脉冲特性的影响。"
+            }
+          ],
+          "ai_inference": [
+            "该架构可为高速光通信多载波光源提供设计参考；其通信适用性仍需器件实验及链路验证。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/oe.618071",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-17T00:36:01.043580+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "5b4f56e0-8cdd-49e1-8c26-28c936d61c3a",
+            "work_key": "doi:10.1364/oe.618071",
+            "identifiers": {
+              "doi": "10.1364/oe.618071",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "1094-4087"
+              ]
+            },
+            "bibliography": {
+              "title": "On-chip high-repetition-rate passively mode-locked frequency comb source based on a microring composite cavity",
+              "type": "journal-article",
+              "venue_id": "20fe917b3f1c57bc",
+              "venue_name": "Optics Express",
+              "venue_abbr": "OE",
+              "date": "2026-11-16",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": "34",
+              "issue": "24",
+              "pages": "45427",
+              "article_number": null,
+              "publisher": "Optica Publishing Group",
+              "language": "en",
+              "published_online": "2026-11-16",
+              "published_print": "2026-11-30"
+            },
+            "authors": [
+              "Mengmeng Chai",
+              "Ao Wang",
+              "Yuxiang Ji",
+              "Xing Li",
+              "Weiwen Zou"
+            ],
+            "first_author": "Mengmeng Chai",
+            "author_count": 5,
+            "contributors": [
+              {
+                "name": "Xing Li",
+                "orcid": "https://orcid.org/0000-0002-4977-7203",
+                "affiliations": []
+              }
+            ],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [],
+              "topic_tags": [
+                "光频梳"
+              ],
+              "directions": [
+                "光源与通用光子器件"
+              ],
+              "direction_basis": "title-session-rule",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": "T2",
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": "P2"
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "direct",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": [
+                {
+                  "start": "2026-11-16",
+                  "url": "https://doi.org/10.1364/OA_License_v2#VOR-OA",
+                  "version": "vor"
+                },
+                {
+                  "start": "2026-11-16",
+                  "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
+                  "version": "tdm"
+                }
+              ]
+            },
+            "citation_counts": {
+              "references": 23,
+              "cited_by": 0,
+              "source": "Crossref",
+              "observed_at": "2026-11-17T00:21:33.761964+00:00"
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1364/oe.618071",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": "https://api.crossref.org/works/10.1364/oe.618071",
+              "metadata_observed_at": "2026-11-17T00:21:33.761964+00:00",
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
+        {
+          "schema_version": 1,
+          "record_id": "188b353e-1d44-4c7d-bb74-ad4a464d51be",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "O-band quantum well mode-locked laser with per-comb-line power exceeding 0.5 mW",
+          "authors": [
+            "Chao Ma",
+            "Yonggang Zou",
+            "Bisheng Qin",
+            "Yujun Guo",
+            "Guannan Lv",
+            "Zhuoer Huang",
+            "Zheng Xing",
+            "Zhongming Zeng",
+            "Baoshun Zhang",
+            "Tianyu Sun"
+          ],
+          "doi": "10.1364/oe.614939",
+          "venue": "Optics Express",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "20fe917b3f1c57bc",
+            "name": "Optics Express",
+            "original_name": "Optics Express",
+            "abbr": "OE",
+            "kind": "journal",
+            "match_status": "matched",
+            "aliases": [
+              "Optics Express",
+              "OE",
+              "Opt. Express"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": "T2",
+            "rank_label": "CIE T2 · 2023",
+            "rank_order": 2,
+            "focus_tier": "P2",
+            "focus_label": "知流 P2 · 领域核心",
+            "focus_order": 2,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-11-16",
+          "topics": [
+            "光源与通用光子器件"
+          ],
+          "summary_zh": "该实验研究采用两段式InAlGaAs/InP量子阱被动锁模半导体激光器，产生−3 dB带宽为7.43 nm的平坦O波段光频梳，带宽内12条梳齿的光功率均超过0.5 mW。摘要报告，通过优化量子阱材料设计及有源区量子阱数量提高单梳齿功率。稳定锁模时，总输出功率为28.46 mW，sech²拟合脉宽为2.74 ps，重复频率约100 GHz，光信噪比超过35 dB。作者提出其可用于光I/O及共封装光学系统的多波长光源。",
+          "title_zh": "O波段量子阱锁模激光器实现高单梳齿功率",
+          "missing_evidence": [
+            "仅提供摘要，缺少全文中的实验装置、功率测量位置与校准方法。",
+            "未提供实际通信链路、封装集成及长期稳定性验证。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1364/oe.614939",
+              "text": "该实验研究采用两段式InAlGaAs/InP量子阱被动锁模半导体激光器，产生−3 dB带宽为7.43 nm的平坦O波段光频梳，带宽内12条梳齿的光功率均超过0.5 mW。摘要报告，通过优化量子阱材料设计及有源区量子阱数量提高单梳齿功率。稳定锁模时，总输出功率为28.46 mW，sech²拟合脉宽为2.74 ps，重复频率约100 GHz，光信噪比超过35 dB。作者提出其可用于光I/O及共封装光学系统的多波长光源。"
+            }
+          ],
+          "ai_inference": [
+            "可进一步研究该光源与光I/O或共封装光学链路的集成，并验证各梳齿调制传输后的性能。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1364/oe.614939",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-17T00:38:10.777696+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "188b353e-1d44-4c7d-bb74-ad4a464d51be",
+            "work_key": "doi:10.1364/oe.614939",
+            "identifiers": {
+              "doi": "10.1364/oe.614939",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "1094-4087"
+              ]
+            },
+            "bibliography": {
+              "title": "O-band quantum well mode-locked laser with per-comb-line power exceeding 0.5 mW",
+              "type": "journal-article",
+              "venue_id": "20fe917b3f1c57bc",
+              "venue_name": "Optics Express",
+              "venue_abbr": "OE",
+              "date": "2026-11-16",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": "34",
+              "issue": "24",
+              "pages": "45340",
+              "article_number": null,
+              "publisher": "Optica Publishing Group",
+              "language": "en",
+              "published_online": "2026-11-16",
+              "published_print": "2026-11-30"
+            },
+            "authors": [
+              "Chao Ma",
+              "Yonggang Zou",
+              "Bisheng Qin",
+              "Yujun Guo",
+              "Guannan Lv",
+              "Zhuoer Huang",
+              "Zheng Xing",
+              "Zhongming Zeng",
+              "Baoshun Zhang",
+              "Tianyu Sun"
+            ],
+            "first_author": "Chao Ma",
+            "author_count": 10,
+            "contributors": [
+              {
+                "name": "Chao Ma",
+                "orcid": "https://orcid.org/0009-0000-2818-7186",
+                "affiliations": [
+                  "Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences"
+                ]
+              },
+              {
+                "name": "Bisheng Qin",
+                "orcid": "https://orcid.org/0009-0000-3665-0193",
+                "affiliations": [
+                  "Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences"
+                ]
+              },
+              {
+                "name": "Yujun Guo",
+                "orcid": "https://orcid.org/0009-0009-3725-5801",
+                "affiliations": [
+                  "Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences"
+                ]
+              },
+              {
+                "name": "Guannan Lv",
+                "orcid": "https://orcid.org/0009-0007-9524-3476",
+                "affiliations": [
+                  "Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences"
+                ]
+              },
+              {
+                "name": "Zhuoer Huang",
+                "orcid": null,
+                "affiliations": [
+                  "Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences"
+                ]
+              },
+              {
+                "name": "Zheng Xing",
+                "orcid": null,
+                "affiliations": [
+                  "Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences"
+                ]
+              },
+              {
+                "name": "Zhongming Zeng",
+                "orcid": null,
+                "affiliations": [
+                  "Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences"
+                ]
+              },
+              {
+                "name": "Baoshun Zhang",
+                "orcid": null,
+                "affiliations": [
+                  "Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences"
+                ]
+              },
+              {
+                "name": "Tianyu Sun",
+                "orcid": "https://orcid.org/0000-0002-2202-4375",
+                "affiliations": [
+                  "Suzhou Institute of Nano-Tech and Nano-Bionics, Chinese Academy of Sciences"
+                ]
+              }
+            ],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [],
+              "topic_tags": [
+                "激光器"
+              ],
+              "directions": [
+                "光源与通用光子器件"
+              ],
+              "direction_basis": "title-session-rule",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": "T2",
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": "P2"
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "enabling",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": [
+                {
+                  "start": "2026-11-16",
+                  "url": "https://doi.org/10.1364/OA_License_v2#VOR-OA",
+                  "version": "vor"
+                },
+                {
+                  "start": "2026-11-16",
+                  "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
+                  "version": "tdm"
+                }
+              ]
+            },
+            "citation_counts": {
+              "references": 32,
+              "cited_by": 0,
+              "source": "Crossref",
+              "observed_at": "2026-11-17T00:21:33.758963+00:00"
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1364/oe.614939",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": "https://api.crossref.org/works/10.1364/oe.614939",
+              "metadata_observed_at": "2026-11-17T00:21:33.758963+00:00",
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
         {
           "schema_version": 1,
           "record_id": "6e216f8e-3fef-45bb-8ec1-494fe2935a99",
@@ -6503,485 +6882,14 @@
               ]
             }
           }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "5ea05343-7b5e-40e0-9e6c-b1f4cfe9016d",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Hollow‐Core Anti‐Resonant Fibers for Lasers and Communications",
-          "authors": [
-            "Wei Zhu",
-            "Yifei Zhao",
-            "Sibghat Ullah",
-            "Chuhui Zhang",
-            "Yuanfei Zhang",
-            "Pengfei Wang",
-            "Xueming Liu"
-          ],
-          "doi": "10.1002/lpor.72134",
-          "venue": "Laser & Photonics Reviews",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "4d348a50e2c95ba5",
-            "name": "Laser & Photonics Reviews",
-            "original_name": "Laser & Photonics Reviews",
-            "abbr": "LPR",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Laser & Photonics Reviews",
-              "LPR",
-              "Laser & Photonics Review",
-              "Laser Photonics Rev."
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": "P1",
-            "focus_label": "知流 P1 · 前沿重点",
-            "focus_order": 1,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-11-13",
-          "topics": [
-            "光源与通用光子器件",
-            "光纤与传输介质"
-          ],
-          "summary_zh": "该综述梳理空芯反谐振光纤的结构演进、导光机理、主要损耗机制及机器学习辅助设计，覆盖高容量、超宽带、长距离、量子及先进光通信应用，并讨论制造公差、可重复性、弯曲敏感性、互连、环境稳定性、规模化、成本与系统集成问题。",
-          "title_zh": "空芯反谐振光纤：激光与光通信进展综述",
-          "missing_evidence": [
-            "仅提供摘要，缺少全文，无法核查具体性能数据、应用案例及其证据强度。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1002/lpor.72134",
-              "text": "该综述梳理空芯反谐振光纤的结构演进、导光机理、主要损耗机制及机器学习辅助设计，覆盖高容量、超宽带、长距离、量子及先进光通信应用，并讨论制造公差、可重复性、弯曲敏感性、互连、环境稳定性、规模化、成本与系统集成问题。"
-            }
-          ],
-          "ai_inference": [
-            "可将互连、弯曲敏感性及制造一致性作为评估空芯反谐振光纤通信系统落地条件的切入点。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1002/lpor.72134",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-15T00:41:10.099365+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "5ea05343-7b5e-40e0-9e6c-b1f4cfe9016d",
-            "work_key": "doi:10.1002/lpor.72134",
-            "identifiers": {
-              "doi": "10.1002/lpor.72134",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "1863-8880",
-                "1863-8899"
-              ]
-            },
-            "bibliography": {
-              "title": "Hollow‐Core Anti‐Resonant Fibers for Lasers and Communications",
-              "type": "journal-article",
-              "venue_id": "4d348a50e2c95ba5",
-              "venue_name": "Laser & Photonics Reviews",
-              "venue_abbr": "LPR",
-              "date": "2026-11-13",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": null,
-              "issue": null,
-              "pages": null,
-              "article_number": "e72134",
-              "publisher": "Wiley",
-              "language": "en",
-              "published_online": "2026-11-13",
-              "published_print": null
-            },
-            "authors": [
-              "Wei Zhu",
-              "Yifei Zhao",
-              "Sibghat Ullah",
-              "Chuhui Zhang",
-              "Yuanfei Zhang",
-              "Pengfei Wang",
-              "Xueming Liu"
-            ],
-            "first_author": "Wei Zhu",
-            "author_count": 7,
-            "contributors": [
-              {
-                "name": "Wei Zhu",
-                "orcid": null,
-                "affiliations": [
-                  "School of Electronic Science and Engineering Southeast University Nanjing China"
-                ]
-              },
-              {
-                "name": "Yifei Zhao",
-                "orcid": "https://orcid.org/0000-0003-0264-1517",
-                "affiliations": [
-                  "School of Electronic Science and Engineering Southeast University Nanjing China"
-                ]
-              },
-              {
-                "name": "Sibghat Ullah",
-                "orcid": null,
-                "affiliations": [
-                  "School of Electronic Science and Engineering Southeast University Nanjing China"
-                ]
-              },
-              {
-                "name": "Chuhui Zhang",
-                "orcid": null,
-                "affiliations": [
-                  "School of Electronic Science and Engineering Southeast University Nanjing China"
-                ]
-              },
-              {
-                "name": "Yuanfei Zhang",
-                "orcid": null,
-                "affiliations": [
-                  "School of Electronic Science and Engineering Southeast University Nanjing China"
-                ]
-              },
-              {
-                "name": "Pengfei Wang",
-                "orcid": "https://orcid.org/0009-0002-0802-195X",
-                "affiliations": [
-                  "School of Electronic Science and Engineering Southeast University Nanjing China"
-                ]
-              },
-              {
-                "name": "Xueming Liu",
-                "orcid": "https://orcid.org/0009-0008-6620-6905",
-                "affiliations": [
-                  "School of Electronic Science and Engineering Southeast University Nanjing China"
-                ]
-              }
-            ],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "激光器",
-                "空芯光纤"
-              ],
-              "directions": [
-                "光源与通用光子器件",
-                "光纤与传输介质"
-              ],
-              "direction_basis": "title-session-rule",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": null,
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": "P1"
-            },
-            "reading": {
-              "priority": "B",
-              "relevance": "enabling",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": [
-                {
-                  "start": "2026-11-13",
-                  "url": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
-                  "version": "vor"
-                },
-                {
-                  "start": "2026-11-13",
-                  "url": "http://doi.wiley.com/10.1002/tdm_license_1.1",
-                  "version": "tdm"
-                }
-              ]
-            },
-            "citation_counts": {
-              "references": 466,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-11-15T00:18:27.431044+00:00"
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1002/lpor.72134",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1002/lpor.72134",
-              "metadata_observed_at": "2026-11-15T00:18:27.431044+00:00",
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "23f09fba-c5dc-4301-b932-f401c5e2a299",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Direct generation of a watt-level single-frequency vortex laser beam via annular pumping in a compact standing-wave cavity",
-          "authors": [
-            "Zixuan Zhao",
-            "Minghao Guo",
-            "Xin Yan",
-            "Junhe Han",
-            "Peng Li",
-            "Xiaomin Guo",
-            "Yanqiang Guo",
-            "Zhansheng Gao"
-          ],
-          "doi": "10.1364/oe.616034",
-          "venue": "Optics Express",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "20fe917b3f1c57bc",
-            "name": "Optics Express",
-            "original_name": "Optics Express",
-            "abbr": "OE",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Optics Express",
-              "OE",
-              "Opt. Express"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": "T2",
-            "rank_label": "CIE T2 · 2023",
-            "rank_order": 2,
-            "focus_tier": "P2",
-            "focus_label": "知流 P2 · 领域核心",
-            "focus_order": 2,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-11-12",
-          "topics": [
-            "光源与通用光子器件"
-          ],
-          "summary_zh": "该实验在紧凑驻波Nd:YVO₄谐振腔中加入双折射滤波器和标准具，通过环形光束泵浦获得连续波单纵模LG₀,₁涡旋激光，最高输出功率为1.84 W，光束质量因子M²接近理论值2.0。作者利用扫描共焦法布里–珀罗干涉仪验证单纵模运行，并测得平均透射峰半高全宽为371.2 kHz。",
-          "title_zh": "环形泵浦实现瓦级单频涡旋激光输出",
-          "missing_evidence": [
-            "仅提供摘要，缺少全文中的稳定性、频谱及测量方法细节。",
-            "未提供光通信链路、调制传输或接收性能验证。",
-            "未提供足以将干涉仪透射峰宽度解释为激光本征线宽的测量与校正依据。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1364/oe.616034",
-              "text": "该实验在紧凑驻波Nd:YVO₄谐振腔中加入双折射滤波器和标准具，通过环形光束泵浦获得连续波单纵模LG₀,₁涡旋激光，最高输出功率为1.84 W，光束质量因子M²接近理论值2.0。作者利用扫描共焦法布里–珀罗干涉仪验证单纵模运行，并测得平均透射峰半高全宽为371.2 kHz。"
-            }
-          ],
-          "ai_inference": [
-            "单频涡旋光源对相干轨道角动量光通信具有潜在迁移意义，可进一步研究其模式耦合、调制与相干接收表现。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1364/oe.616034",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "C",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-13T00:36:56.922112+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "23f09fba-c5dc-4301-b932-f401c5e2a299",
-            "work_key": "doi:10.1364/oe.616034",
-            "identifiers": {
-              "doi": "10.1364/oe.616034",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "1094-4087"
-              ]
-            },
-            "bibliography": {
-              "title": "Direct generation of a watt-level single-frequency vortex laser beam via annular pumping in a compact standing-wave cavity",
-              "type": "journal-article",
-              "venue_id": "20fe917b3f1c57bc",
-              "venue_name": "Optics Express",
-              "venue_abbr": "OE",
-              "date": "2026-11-12",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": "34",
-              "issue": "23",
-              "pages": "45004",
-              "article_number": null,
-              "publisher": "Optica Publishing Group",
-              "language": "en",
-              "published_online": "2026-11-12",
-              "published_print": "2026-11-16"
-            },
-            "authors": [
-              "Zixuan Zhao",
-              "Minghao Guo",
-              "Xin Yan",
-              "Junhe Han",
-              "Peng Li",
-              "Xiaomin Guo",
-              "Yanqiang Guo",
-              "Zhansheng Gao"
-            ],
-            "first_author": "Zixuan Zhao",
-            "author_count": 8,
-            "contributors": [
-              {
-                "name": "Minghao Guo",
-                "orcid": "https://orcid.org/0009-0000-4533-9444",
-                "affiliations": []
-              },
-              {
-                "name": "Xin Yan",
-                "orcid": "https://orcid.org/0009-0008-4557-7125",
-                "affiliations": []
-              },
-              {
-                "name": "Peng Li",
-                "orcid": "https://orcid.org/0000-0003-2169-8455",
-                "affiliations": []
-              },
-              {
-                "name": "Xiaomin Guo",
-                "orcid": "https://orcid.org/0000-0002-3559-0579",
-                "affiliations": [
-                  "Taiyuan University of Technology, West Yingze Avenue"
-                ]
-              },
-              {
-                "name": "Yanqiang Guo",
-                "orcid": "https://orcid.org/0000-0002-7283-5571",
-                "affiliations": [
-                  "Taiyuan University of Technology, West Yingze Avenue"
-                ]
-              }
-            ],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "激光器"
-              ],
-              "directions": [
-                "光源与通用光子器件"
-              ],
-              "direction_basis": "title-session-rule",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": "T2",
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": "P2"
-            },
-            "reading": {
-              "priority": "C",
-              "relevance": "enabling",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": [
-                {
-                  "start": "2026-11-12",
-                  "url": "https://doi.org/10.1364/OA_License_v2#VOR-OA",
-                  "version": "vor"
-                },
-                {
-                  "start": "2026-11-12",
-                  "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
-                  "version": "tdm"
-                }
-              ]
-            },
-            "citation_counts": {
-              "references": 59,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-11-13T00:18:34.604243+00:00"
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1364/oe.616034",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1364/oe.616034",
-              "metadata_observed_at": "2026-11-13T00:18:34.604243+00:00",
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
         }
       ]
     }
   ],
-  "unclassified": 104,
+  "unclassified": 106,
   "evidence_counts": {
     "abstract+pdf-link": 120,
-    "abstract-only": 299,
+    "abstract-only": 308,
     "official-announcement": 1
   }
 }

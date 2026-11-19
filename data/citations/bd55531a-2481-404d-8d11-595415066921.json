@@ -1,0 +1,750 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "bd55531a-2481-404d-8d11-595415066921",
+  "root": "W7225182422",
+  "status": "ok",
+  "checked_at": "2026-11-19T00:44:41.615798+00:00",
+  "coverage": {
+    "references_found": 9,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "references_without_doi": 3,
+    "candidates_resolved": 9,
+    "displayed": 9
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7225182422",
+      "doi": "10.1364/ol.620725",
+      "title": "Laplacian-Regularized Sphere Shaping for Temporal Energy Smoothing and Nonlinear Interference Mitigation",
+      "authors": [
+        "Honglei Yang",
+        "Chenglin Bai",
+        "Lishan Yang",
+        "Hengying Xu",
+        "Yining Zhang",
+        "Xinkuo Yu",
+        "Tongxin Yang",
+        "Xusheng Li",
+        "Xiaozheng Li",
+        "Zening Zhang"
+      ],
+      "year": 2026,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Laplacian regularization",
+        "optical pulse shaping"
+      ],
+      "url": "https://doi.org/10.1364/ol.620725",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/bd55531a-2481-404d-8d11-595415066921.html",
+      "summary": "论文提出一种用于短块长概率整形光传输的拉普拉斯正则化球形整形方案。该方案将前一符号的幅度作为一阶记忆状态，在枚举球形整形（ESS）的网格中约束相邻符号的能量变化。摘要报告，该方案在保持整形效率的同时降低了整形序列的时域能量波动和高阶矩。在 60 Gbaud、405.2 km 标准单模光纤传输实验中，摘要报告其有效信噪比较 ESS 提高 0.59 dB，并在目标归一化广义互信息（NGMI）门限下较 Band-ESS 获得 1.18 dB 的入纤功率优势。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4221010158",
+      "doi": "10.1038/s41467-022-28349-x",
+      "title": "Shaping lightwaves in time and frequency for optical fiber communication",
+      "authors": [
+        "Junho Cho",
+        "Xi Chen",
+        "G. Raybon",
+        "Di Che",
+        "Ellsworth Burrows",
+        "Samuel L. I. Olsson",
+        "ROBERT W. TKACH"
+      ],
+      "year": 2022,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical pulse shaping",
+        "Kerr nonlinearity",
+        "chromatic dispersion",
+        "nonlinear interference",
+        "optical fiber communication",
+        "dispersion management",
+        "wavelength division multiplexing",
+        "information rate",
+        "symbol rate"
+      ],
+      "url": "https://doi.org/10.1038/s41467-022-28349-x",
+      "cited_by_count": 58,
+      "importance": 0.6168,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3172839973",
+      "doi": "10.1109/jlt.2021.3120915",
+      "title": "Kurtosis-Limited Sphere Shaping for Nonlinear Interference Noise Reduction in Optical Channels",
+      "authors": [
+        "Yunus Can Gültekin",
+        "Alex Alvarado",
+        "Olga Vassilieva",
+        "Inwoong Kim",
+        "Paparao Palacharla",
+        "Chigo M. Okonkwo",
+        "F.M.J. Willems"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "nonlinear interference",
+        "kurtosis",
+        "probabilistic shaping",
+        "optical fiber transmission",
+        "effective SNR",
+        "frame error rate",
+        "nonlinear noise reduction"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3120915",
+      "cited_by_count": 58,
+      "importance": 0.5893,
+      "score_basis": {
+        "topic_overlap": 0.221,
+        "shared_references": 5,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4293371142",
+      "doi": "10.1109/jlt.2022.3201901",
+      "title": "On Optimization and Analysis of Enumerative Sphere Shaping for Short Blocklengths",
+      "authors": [
+        "Yizhao Chen",
+        "Junda Chen",
+        "Weihao Li",
+        "Mingming Zhang",
+        "Deming Liu",
+        "Ming Tang"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "probabilistic shaping",
+        "energy efficiency",
+        "rate loss",
+        "binary transmission",
+        "Maxwell-Boltzmann distribution",
+        "DFT-spread OFDM"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3201901",
+      "cited_by_count": 18,
+      "importance": 0.5528,
+      "score_basis": {
+        "topic_overlap": 0.184,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3132323087",
+      "doi": "10.1109/jlt.2021.3092176",
+      "title": "Temporal Energy Analysis of Symbol Sequences for Fiber Nonlinear Interference Modelling via Energy Dispersion Index",
+      "authors": [
+        "Kaiquan Wu",
+        "Gabriele Liga",
+        "Alireza Sheikh",
+        "F.M.J. Willems",
+        "Alex Alvarado"
+      ],
+      "year": 2021,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "nonlinear interference",
+        "fiber optic transmission",
+        "probabilistic amplitude shaping",
+        "effective signal-to-noise ratio",
+        "kurtosis",
+        "modulation schemes",
+        "dispersion compensation"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2021.3092176",
+      "cited_by_count": 45,
+      "importance": 0.5097,
+      "score_basis": {
+        "topic_overlap": 0.222,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7162999551",
+      "doi": "10.1364/ol.600584",
+      "title": "Hierarchical mapping distribution matching for probabilistic shaping in coherent optical communication systems",
+      "authors": [
+        "Xuezhen Wang",
+        "Jiwei Xu",
+        "Yi Lei",
+        "Zhiwei Liang",
+        "Honglei Yang",
+        "Bin Chen"
+      ],
+      "year": 2026,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "probabilistic shaping",
+        "distribution matching",
+        "hierarchical mapping",
+        "coherent optical communication",
+        "energy efficiency",
+        "Maxwell-Boltzmann distribution",
+        "nonlinear channels",
+        "achievable rate"
+      ],
+      "url": "https://doi.org/10.1364/ol.600584",
+      "cited_by_count": 0,
+      "importance": 0.4863,
+      "score_basis": {
+        "topic_overlap": 0.192,
+        "shared_references": 4,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2428252953",
+      "doi": "10.1109/jlt.2016.2594271",
+      "title": "On Probabilistic Shaping of Quadrature Amplitude Modulation for the Nonlinear Fiber Channel",
+      "authors": [
+        "Tobias Fehenberger",
+        "Alex Alvarado",
+        "Georg Böcherer",
+        "Norbert Hanik"
+      ],
+      "year": 2016,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "probabilistic shaping",
+        "quadrature amplitude modulation",
+        "wavelength division multiplexing",
+        "shaping gain",
+        "nonlinear interference",
+        "fiber amplifiers",
+        "64-QAM"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2016.2594271",
+      "cited_by_count": 399,
+      "importance": 0.4691,
+      "score_basis": {
+        "topic_overlap": 0.198,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2412035898",
+      "doi": "10.1109/jlt.2016.2575400",
+      "title": "A Shaping Algorithm for Mitigating Inter-Channel Nonlinear Phase-Noise in Nonlinear Fiber Systems",
+      "authors": [
+        "Omri Geller",
+        "Ronen Dar",
+        "Meir Feder",
+        "Mark Shtaif"
+      ],
+      "year": 2016,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "nonlinear phase noise",
+        "signal shaping",
+        "fiber optic transmission",
+        "shaping gain"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2016.2575400",
+      "cited_by_count": 90,
+      "importance": 0.3769,
+      "score_basis": {
+        "topic_overlap": 0.171,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2984693532",
+      "doi": "10.1109/twc.2019.2951139",
+      "title": "Enumerative Sphere Shaping for Wireless Communications With Short Packets",
+      "authors": [
+        "Yunus Can Gültekin",
+        "Wim J. van Houtum",
+        "Arie G. C. Koppelaar",
+        "Frans M. J. Willems"
+      ],
+      "year": 2019,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "venue_abbr": "IEEE Trans. Wireless Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "probabilistic amplitude shaping",
+        "short packet transmission",
+        "rate loss",
+        "forward error correction",
+        "Maxwell-Boltzmann distribution",
+        "gap to capacity",
+        "IEEE 802.11",
+        "LDPC codes",
+        "frequency-selective channels",
+        "energy efficiency"
+      ],
+      "url": "https://doi.org/10.1109/twc.2019.2951139",
+      "cited_by_count": 124,
+      "importance": 0.3525,
+      "score_basis": {
+        "topic_overlap": 0.05,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1749807555",
+      "doi": "10.1109/tit.2015.2499181",
+      "title": "Constant Composition Distribution Matching",
+      "authors": [
+        "Patrick Schulte",
+        "Georg Böcherer"
+      ],
+      "year": 2015,
+      "venue": "IEEE Transactions on Information Theory",
+      "venue_abbr": "IEEE Transactions on Information Theory",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distribution matching",
+        "arithmetic coding",
+        "maximum rate",
+        "entropy (information theory)"
+      ],
+      "url": "https://doi.org/10.1109/tit.2015.2499181",
+      "cited_by_count": 781,
+      "importance": 0.3,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W2428252953",
+      "to": "W1749807555",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2428252953"
+        }
+      ]
+    },
+    {
+      "from": "W2428252953",
+      "to": "W2412035898",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2428252953"
+        }
+      ]
+    },
+    {
+      "from": "W2984693532",
+      "to": "W1749807555",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2984693532"
+        }
+      ]
+    },
+    {
+      "from": "W3132323087",
+      "to": "W1749807555",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3132323087"
+        }
+      ]
+    },
+    {
+      "from": "W3132323087",
+      "to": "W2412035898",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3132323087"
+        }
+      ]
+    },
+    {
+      "from": "W3132323087",
+      "to": "W2428252953",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3132323087"
+        }
+      ]
+    },
+    {
+      "from": "W3172839973",
+      "to": "W1749807555",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3172839973"
+        }
+      ]
+    },
+    {
+      "from": "W3172839973",
+      "to": "W2412035898",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3172839973"
+        }
+      ]
+    },
+    {
+      "from": "W3172839973",
+      "to": "W2428252953",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3172839973"
+        }
+      ]
+    },
+    {
+      "from": "W3172839973",
+      "to": "W2984693532",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3172839973"
+        }
+      ]
+    },
+    {
+      "from": "W3172839973",
+      "to": "W3132323087",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3172839973"
+        }
+      ]
+    },
+    {
+      "from": "W4221010158",
+      "to": "W1749807555",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221010158"
+        }
+      ]
+    },
+    {
+      "from": "W4221010158",
+      "to": "W2412035898",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221010158"
+        }
+      ]
+    },
+    {
+      "from": "W4221010158",
+      "to": "W2428252953",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221010158"
+        }
+      ]
+    },
+    {
+      "from": "W4221010158",
+      "to": "W2984693532",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221010158"
+        }
+      ]
+    },
+    {
+      "from": "W4221010158",
+      "to": "W3132323087",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221010158"
+        }
+      ]
+    },
+    {
+      "from": "W4221010158",
+      "to": "W3172839973",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4221010158"
+        }
+      ]
+    },
+    {
+      "from": "W4293371142",
+      "to": "W1749807555",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4293371142"
+        }
+      ]
+    },
+    {
+      "from": "W4293371142",
+      "to": "W2412035898",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4293371142"
+        }
+      ]
+    },
+    {
+      "from": "W4293371142",
+      "to": "W2428252953",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4293371142"
+        }
+      ]
+    },
+    {
+      "from": "W4293371142",
+      "to": "W2984693532",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4293371142"
+        }
+      ]
+    },
+    {
+      "from": "W4293371142",
+      "to": "W3132323087",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4293371142"
+        }
+      ]
+    },
+    {
+      "from": "W4293371142",
+      "to": "W4221010158",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4293371142"
+        }
+      ]
+    },
+    {
+      "from": "W7162999551",
+      "to": "W1749807555",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7162999551"
+        }
+      ]
+    },
+    {
+      "from": "W7162999551",
+      "to": "W2984693532",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7162999551"
+        }
+      ]
+    },
+    {
+      "from": "W7162999551",
+      "to": "W3172839973",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7162999551"
+        }
+      ]
+    },
+    {
+      "from": "W7162999551",
+      "to": "W4293371142",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7162999551"
+        }
+      ]
+    },
+    {
+      "from": "W7225182422",
+      "to": "W1749807555",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.620725"
+        }
+      ]
+    },
+    {
+      "from": "W7225182422",
+      "to": "W2412035898",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.620725"
+        }
+      ]
+    },
+    {
+      "from": "W7225182422",
+      "to": "W2428252953",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.620725"
+        }
+      ]
+    },
+    {
+      "from": "W7225182422",
+      "to": "W2984693532",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.620725"
+        }
+      ]
+    },
+    {
+      "from": "W7225182422",
+      "to": "W3132323087",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.620725"
+        }
+      ]
+    },
+    {
+      "from": "W7225182422",
+      "to": "W3172839973",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.620725"
+        }
+      ]
+    },
+    {
+      "from": "W7225182422",
+      "to": "W4221010158",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.620725"
+        }
+      ]
+    },
+    {
+      "from": "W7225182422",
+      "to": "W4293371142",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.620725"
+        }
+      ]
+    },
+    {
+      "from": "W7225182422",
+      "to": "W7162999551",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.620725"
+        }
+      ]
+    }
+  ]
+}

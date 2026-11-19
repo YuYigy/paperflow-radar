@@ -180,6 +180,1263 @@
   },
   {
     "schema_version": 1,
+    "record_id": "bd55531a-2481-404d-8d11-595415066921",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Laplacian-regularized sphere shaping for temporal energy smoothing and nonlinear interference mitigation",
+    "authors": [
+      "Honglei Yang",
+      "Chenglin Bai",
+      "Lishan Yang",
+      "Hengying Xu",
+      "Yining Zhang",
+      "Xinkuo Yu",
+      "Tongxin Yang",
+      "Xusheng Li",
+      "Xiaozheng Li",
+      "Zening Zhang"
+    ],
+    "doi": "10.1364/ol.620725",
+    "venue": "Optics Letters",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "f01bbddcb7738bfc",
+      "name": "Optics Letters",
+      "original_name": "Optics Letters",
+      "abbr": "OL",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Optics Letters",
+        "OL",
+        "Opt. Lett."
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": "T2",
+      "rank_label": "CIE T2 · 2023",
+      "rank_order": 2,
+      "focus_tier": "P2",
+      "focus_label": "知流 P2 · 领域核心",
+      "focus_order": 2,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "院规待核 · 2020",
+      "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-18",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "论文提出一种用于短块长概率整形光传输的拉普拉斯正则化球形整形方案。该方案将前一符号的幅度作为一阶记忆状态，在枚举球形整形（ESS）的网格中约束相邻符号的能量变化。摘要报告，该方案在保持整形效率的同时降低了整形序列的时域能量波动和高阶矩。在 60 Gbaud、405.2 km 标准单模光纤传输实验中，摘要报告其有效信噪比较 ESS 提高 0.59 dB，并在目标归一化广义互信息（NGMI）门限下较 Band-ESS 获得 1.18 dB 的入纤功率优势。",
+    "title_zh": "面向光纤非线性干扰抑制的拉普拉斯正则化球形整形",
+    "missing_evidence": [
+      "现有材料仅含摘要，缺少实验配置、块长、目标 NGMI 门限数值和基线对比条件，无法据此评估复现性及结果对其他链路的适用性。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/ol.620725",
+        "text": "论文提出一种用于短块长概率整形光传输的拉普拉斯正则化球形整形方案。该方案将前一符号的幅度作为一阶记忆状态，在枚举球形整形（ESS）的网格中约束相邻符号的能量变化。摘要报告，该方案在保持整形效率的同时降低了整形序列的时域能量波动和高阶矩。在 60 Gbaud、405.2 km 标准单模光纤传输实验中，摘要报告其有效信噪比较 ESS 提高 0.59 dB，并在目标归一化广义互信息（NGMI）门限下较 Band-ESS 获得 1.18 dB 的入纤功率优势。"
+      }
+    ],
+    "ai_inference": [
+      "可将相邻符号的能量变化作为短块长整形的设计变量，在相同整形效率下比较不同约束强度对链路性能的影响。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/ol.620725",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-19T00:35:27.446833+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "bd55531a-2481-404d-8d11-595415066921",
+      "work_key": "doi:10.1364/ol.620725",
+      "identifiers": {
+        "doi": "10.1364/ol.620725",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": [
+          "0146-9592",
+          "1539-4794"
+        ]
+      },
+      "bibliography": {
+        "title": "Laplacian-regularized sphere shaping for temporal energy smoothing and nonlinear interference mitigation",
+        "type": "journal-article",
+        "venue_id": "f01bbddcb7738bfc",
+        "venue_name": "Optics Letters",
+        "venue_abbr": "OL",
+        "date": "2026-11-18",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": "51",
+        "issue": "23",
+        "pages": "6499",
+        "article_number": null,
+        "publisher": "Optica Publishing Group",
+        "language": "en",
+        "published_online": "2026-11-18",
+        "published_print": "2026-12-01"
+      },
+      "authors": [
+        "Honglei Yang",
+        "Chenglin Bai",
+        "Lishan Yang",
+        "Hengying Xu",
+        "Yining Zhang",
+        "Xinkuo Yu",
+        "Tongxin Yang",
+        "Xusheng Li",
+        "Xiaozheng Li",
+        "Zening Zhang"
+      ],
+      "first_author": "Honglei Yang",
+      "author_count": 10,
+      "contributors": [
+        {
+          "name": "Honglei Yang",
+          "orcid": "https://orcid.org/0009-0001-1835-9201",
+          "affiliations": []
+        },
+        {
+          "name": "Chenglin Bai",
+          "orcid": "https://orcid.org/0000-0002-3790-2652",
+          "affiliations": [
+            "Liaocheng Key Laboratory of Industrial-Internet Research and Application"
+          ]
+        },
+        {
+          "name": "Lishan Yang",
+          "orcid": "https://orcid.org/0000-0001-5732-7213",
+          "affiliations": [
+            "Liaocheng Key Laboratory of Industrial-Internet Research and Application"
+          ]
+        },
+        {
+          "name": "Hengying Xu",
+          "orcid": "https://orcid.org/0000-0001-6978-717X",
+          "affiliations": [
+            "Liaocheng Key Laboratory of Industrial-Internet Research and Application"
+          ]
+        },
+        {
+          "name": "Xinkuo Yu",
+          "orcid": "https://orcid.org/0000-0002-8188-456X",
+          "affiliations": []
+        },
+        {
+          "name": "Tongxin Yang",
+          "orcid": "https://orcid.org/0009-0009-9757-3799",
+          "affiliations": []
+        }
+      ],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [],
+        "directions": [
+          "待分类"
+        ],
+        "direction_basis": "unclassified",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": "T2",
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "unverified",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": "P2"
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "direct",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": [
+          {
+            "start": "2026-11-18",
+            "url": "https://doi.org/10.1364/OA_License_v2#VOR",
+            "version": "vor"
+          },
+          {
+            "start": "2026-11-18",
+            "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
+            "version": "tdm"
+          }
+        ]
+      },
+      "citation_counts": {
+        "references": 12,
+        "cited_by": 0,
+        "source": "Crossref",
+        "observed_at": "2026-11-19T00:19:04.072551+00:00"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1364/ol.620725",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": "https://api.crossref.org/works/10.1364/ol.620725",
+        "metadata_observed_at": "2026-11-19T00:19:04.072551+00:00",
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "7405c499-7726-4377-8974-052a0df2f61b",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Robust parameter estimation against local-oscillator intensity fluctuations in continuous-variable quantum key distribution",
+    "authors": [
+      "Yun Shao",
+      "Jin Zhang",
+      "Yan Pan",
+      "Heng Wang",
+      "Mingli Zhu",
+      "Yaodi Pi",
+      "Ting Ye",
+      "Yazhuo Jiang",
+      "Li Ma",
+      "Yang Li",
+      "Wei Huang",
+      "Bingjie Xu"
+    ],
+    "doi": "10.1364/oe.618196",
+    "venue": "Optics Express",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "20fe917b3f1c57bc",
+      "name": "Optics Express",
+      "original_name": "Optics Express",
+      "abbr": "OE",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Optics Express",
+        "OE",
+        "Opt. Express"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": "T2",
+      "rank_label": "CIE T2 · 2023",
+      "rank_order": 2,
+      "focus_tier": "P2",
+      "focus_label": "知流 P2 · 领域核心",
+      "focus_order": 2,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "院规待核 · 2020",
+      "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-18",
+    "topics": [
+      "量子通信与网络"
+    ],
+    "summary_zh": "论文针对高斯调制相干态连续变量量子密钥分发，提出将一次散粒噪声单位预校准与实时本振监测结合的方法。该方法在密钥分发期间被动分出少量本振光，估计其强度波动方差，以校正参数估计偏差。渐近和有限样本条件下的数值仿真均显示，该方法可减轻波动引起的偏差，使预测密钥率接近采用理想本振归一化时的基准。",
+    "title_zh": "被动监测本振强度波动以校正 CV-QKD 参数估计",
+    "missing_evidence": [
+      "当前材料仅有摘要，缺少用于核查仿真参数、波动模型和校正适用范围的全文细节。",
+      "摘要未报告实物链路实验，实际接收机上的校正效果仍需验证。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/oe.618196",
+        "text": "论文针对高斯调制相干态连续变量量子密钥分发，提出将一次散粒噪声单位预校准与实时本振监测结合的方法。该方法在密钥分发期间被动分出少量本振光，估计其强度波动方差，以校正参数估计偏差。渐近和有限样本条件下的数值仿真均显示，该方法可减轻波动引起的偏差，使预测密钥率接近采用理想本振归一化时的基准。"
+      }
+    ],
+    "ai_inference": [
+      "可将被动本振监测作为相干接收端校准的候选方案，研究监测精度与密钥率估计误差之间的关系。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/oe.618196",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-19T00:31:16.868815+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "7405c499-7726-4377-8974-052a0df2f61b",
+      "work_key": "doi:10.1364/oe.618196",
+      "identifiers": {
+        "doi": "10.1364/oe.618196",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": [
+          "1094-4087"
+        ]
+      },
+      "bibliography": {
+        "title": "Robust parameter estimation against local-oscillator intensity fluctuations in continuous-variable quantum key distribution",
+        "type": "journal-article",
+        "venue_id": "20fe917b3f1c57bc",
+        "venue_name": "Optics Express",
+        "venue_abbr": "OE",
+        "date": "2026-11-18",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": "34",
+        "issue": "24",
+        "pages": "45745",
+        "article_number": null,
+        "publisher": "Optica Publishing Group",
+        "language": "en",
+        "published_online": "2026-11-18",
+        "published_print": "2026-11-30"
+      },
+      "authors": [
+        "Yun Shao",
+        "Jin Zhang",
+        "Yan Pan",
+        "Heng Wang",
+        "Mingli Zhu",
+        "Yaodi Pi",
+        "Ting Ye",
+        "Yazhuo Jiang",
+        "Li Ma",
+        "Yang Li",
+        "Wei Huang",
+        "Bingjie Xu"
+      ],
+      "first_author": "Yun Shao",
+      "author_count": 12,
+      "contributors": [
+        {
+          "name": "Yun Shao",
+          "orcid": null,
+          "affiliations": [
+            "Institute of Southwestern Communication"
+          ]
+        },
+        {
+          "name": "Jin Zhang",
+          "orcid": null,
+          "affiliations": [
+            "Sichuan University"
+          ]
+        },
+        {
+          "name": "Yan Pan",
+          "orcid": "https://orcid.org/0000-0003-2756-9291",
+          "affiliations": [
+            "Institute of Southwestern Communication"
+          ]
+        },
+        {
+          "name": "Heng Wang",
+          "orcid": "https://orcid.org/0000-0002-1928-3069",
+          "affiliations": [
+            "Institute of Southwestern Communication"
+          ]
+        },
+        {
+          "name": "Mingli Zhu",
+          "orcid": null,
+          "affiliations": [
+            "CETC Cyberspace Security Technology Co., Ltd."
+          ]
+        },
+        {
+          "name": "Yaodi Pi",
+          "orcid": null,
+          "affiliations": [
+            "Institute of Southwestern Communication"
+          ]
+        },
+        {
+          "name": "Ting Ye",
+          "orcid": null,
+          "affiliations": [
+            "Institute of Southwestern Communication"
+          ]
+        },
+        {
+          "name": "Yazhuo Jiang",
+          "orcid": null,
+          "affiliations": [
+            "Institute of Southwestern Communication"
+          ]
+        },
+        {
+          "name": "Li Ma",
+          "orcid": null,
+          "affiliations": [
+            "Institute of Southwestern Communication"
+          ]
+        },
+        {
+          "name": "Yang Li",
+          "orcid": "https://orcid.org/0000-0003-1812-3829",
+          "affiliations": [
+            "Institute of Southwestern Communication"
+          ]
+        },
+        {
+          "name": "Wei Huang",
+          "orcid": null,
+          "affiliations": [
+            "Institute of Southwestern Communication",
+            "Hefei National Laboratory"
+          ]
+        },
+        {
+          "name": "Bingjie Xu",
+          "orcid": null,
+          "affiliations": [
+            "Institute of Southwestern Communication"
+          ]
+        }
+      ],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [
+          "量子通信"
+        ],
+        "directions": [
+          "量子通信与网络"
+        ],
+        "direction_basis": "title-session-rule",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": "T2",
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "unverified",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": "P2"
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "enabling",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": [
+          {
+            "start": "2026-11-18",
+            "url": "https://doi.org/10.1364/OA_License_v2#VOR-OA",
+            "version": "vor"
+          },
+          {
+            "start": "2026-11-18",
+            "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
+            "version": "tdm"
+          }
+        ]
+      },
+      "citation_counts": {
+        "references": 36,
+        "cited_by": 0,
+        "source": "Crossref",
+        "observed_at": "2026-11-19T00:19:01.539164+00:00"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1364/oe.618196",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": "https://api.crossref.org/works/10.1364/oe.618196",
+        "metadata_observed_at": "2026-11-19T00:19:01.539164+00:00",
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "6e6040b9-7821-4bed-97d0-8e9ade0ce51b",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "news",
+    "title": "Imec Finland, Espoo R&D center, opens to accelerate integrated photonics and optical-system innovation for future AI and computing systems",
+    "authors": [],
+    "doi": null,
+    "venue": "imec",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "e15a643f5576b15f",
+      "name": "imec",
+      "original_name": "imec",
+      "abbr": "imec",
+      "kind": "source",
+      "match_status": "platform",
+      "aliases": [
+        "imec",
+        "imec"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "not-applicable",
+      "hust_label": "不适用院规等级",
+      "hust_note": "",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-18",
+    "topics": [
+      "通信光子器件与集成"
+    ],
+    "summary_zh": "据 imec 官方公告，其位于芬兰埃斯波的新研发中心已启用，设有光学实验室。当地团队开展光学器件与系统的设计、仿真和测试，并开发面向具体应用的演示原型。公告将面向计算系统的光互连和高速通信列为应用方向。",
+    "title_zh": "imec 在芬兰启用集成光子系统研发中心",
+    "missing_evidence": [
+      "公告未披露具体光互连原型、链路测试条件或实测结果，无法据此量化速率或能耗收益。"
+    ],
+    "facts": [
+      {
+        "locator": "body",
+        "source_url": "https://www.imec-int.com/en/press/imec-finland-espoo-rd-center-opens-accelerate-integrated-photonics-and-optical-system",
+        "text": "据 imec 官方公告，其位于芬兰埃斯波的新研发中心已启用，设有光学实验室。当地团队开展光学器件与系统的设计、仿真和测试，并开发面向具体应用的演示原型。公告将面向计算系统的光互连和高速通信列为应用方向。"
+      }
+    ],
+    "ai_inference": [
+      "可关注该中心后续的光互连演示原型，尤其是光子芯片与其他光学组件集成后，在实际应用条件下的链路表现。"
+    ],
+    "metrics": [],
+    "evidence_status": "official-announcement",
+    "source_url": "https://www.imec-int.com/en/press/imec-finland-espoo-rd-center-opens-accelerate-integrated-photonics-and-optical-system",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": null,
+    "news_priority": 85,
+    "review_note": "AI 审核通过 · 来源正文范围 · 2026-11-19T00:37:32.662039+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "6e6040b9-7821-4bed-97d0-8e9ade0ce51b",
+      "work_key": "local:6e6040b9-7821-4bed-97d0-8e9ade0ce51b",
+      "identifiers": {
+        "doi": null,
+        "arxiv": null,
+        "paper_code": null,
+        "issn": []
+      },
+      "bibliography": {
+        "title": "Imec Finland, Espoo R&D center, opens to accelerate integrated photonics and optical-system innovation for future AI and computing systems",
+        "type": "news",
+        "venue_id": "e15a643f5576b15f",
+        "venue_name": "imec",
+        "venue_abbr": "imec",
+        "date": "2026-11-18",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": null,
+        "publisher": null,
+        "language": null,
+        "published_online": null,
+        "published_print": null
+      },
+      "authors": [],
+      "first_author": null,
+      "author_count": 0,
+      "contributors": [],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [
+          "光子集成"
+        ],
+        "directions": [
+          "通信光子器件与集成"
+        ],
+        "direction_basis": "source-classification",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "not-applicable",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": null
+      },
+      "reading": {
+        "priority": null,
+        "relevance": "enabling",
+        "evidence": "official-announcement"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": null,
+        "cited_by": null,
+        "source": null,
+        "observed_at": null
+      },
+      "provenance": {
+        "source_url": "https://www.imec-int.com/en/press/imec-finland-espoo-rd-center-opens-accelerate-integrated-photonics-and-optical-system",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": null,
+        "metadata_observed_at": null,
+        "missing": [
+          "authors",
+          "author_keywords",
+          "doi",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "3b61c53e-eaa5-4238-b6e5-3ce29081a1da",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Emitter-side preparation tolerance of optical concurrence in vectorial structured light",
+    "authors": [
+      "Sitao Qin",
+      "Yize Liang",
+      "Shuqi Ma",
+      "Shuai Cao",
+      "Xukun Yin",
+      "Lixian Liu",
+      "Huailiang Xu"
+    ],
+    "doi": "10.1364/oe.613636",
+    "venue": "Optics Express",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "20fe917b3f1c57bc",
+      "name": "Optics Express",
+      "original_name": "Optics Express",
+      "abbr": "OE",
+      "kind": "journal",
+      "match_status": "matched",
+      "aliases": [
+        "Optics Express",
+        "OE",
+        "Opt. Express"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": "T2",
+      "rank_label": "CIE T2 · 2023",
+      "rank_order": 2,
+      "focus_tier": "P2",
+      "focus_label": "知流 P2 · 领域核心",
+      "focus_order": 2,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "unverified",
+      "hust_label": "院规待核 · 2020",
+      "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-18",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "论文考察了横向位移、离轴叠加和两个自旋–轨道分量束腰不匹配这三种发射端偏差。摘要报告，基于斯托克斯参数和基态关联的表征显示，这些偏差改变了生成的光场，但在所考察范围内，并发度几乎不变。",
+    "title_zh": "矢量结构光并发度对发射端制备偏差的容忍性",
+    "missing_evidence": [
+      "仅有摘要，无法确认结果来自实验、仿真还是两者结合。",
+      "摘要未给出偏差的取值范围、并发度变化量或端到端通信性能。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/oe.613636",
+        "text": "论文考察了横向位移、离轴叠加和两个自旋–轨道分量束腰不匹配这三种发射端偏差。摘要报告，基于斯托克斯参数和基态关联的表征显示，这些偏差改变了生成的光场，但在所考察范围内，并发度几乎不变。"
+      }
+    ],
+    "ai_inference": [
+      "评估基于并发度的高维光通信编码时，可分别检验发射端的模式保真度和并发度稳定性。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/oe.613636",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-19T00:29:11.009818+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "3b61c53e-eaa5-4238-b6e5-3ce29081a1da",
+      "work_key": "doi:10.1364/oe.613636",
+      "identifiers": {
+        "doi": "10.1364/oe.613636",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": [
+          "1094-4087"
+        ]
+      },
+      "bibliography": {
+        "title": "Emitter-side preparation tolerance of optical concurrence in vectorial structured light",
+        "type": "journal-article",
+        "venue_id": "20fe917b3f1c57bc",
+        "venue_name": "Optics Express",
+        "venue_abbr": "OE",
+        "date": "2026-11-18",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": "34",
+        "issue": "24",
+        "pages": "45689",
+        "article_number": null,
+        "publisher": "Optica Publishing Group",
+        "language": "en",
+        "published_online": "2026-11-18",
+        "published_print": "2026-11-30"
+      },
+      "authors": [
+        "Sitao Qin",
+        "Yize Liang",
+        "Shuqi Ma",
+        "Shuai Cao",
+        "Xukun Yin",
+        "Lixian Liu",
+        "Huailiang Xu"
+      ],
+      "first_author": "Sitao Qin",
+      "author_count": 7,
+      "contributors": [
+        {
+          "name": "Yize Liang",
+          "orcid": "https://orcid.org/0000-0002-1462-3175",
+          "affiliations": [
+            "Shaanxi Laboratory of Photonic Science and Technology"
+          ]
+        },
+        {
+          "name": "Shuqi Ma",
+          "orcid": "https://orcid.org/0000-0002-3978-8240",
+          "affiliations": [
+            "Zhejiang University"
+          ]
+        },
+        {
+          "name": "Xukun Yin",
+          "orcid": "https://orcid.org/0000-0003-4840-9529",
+          "affiliations": []
+        },
+        {
+          "name": "Huailiang Xu",
+          "orcid": null,
+          "affiliations": [
+            "Shaanxi Laboratory of Photonic Science and Technology",
+            "Jilin University"
+          ]
+        }
+      ],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [],
+        "directions": [
+          "待分类"
+        ],
+        "direction_basis": "unclassified",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": "T2",
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "unverified",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": "P2"
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "direct",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": [
+          {
+            "start": "2026-11-18",
+            "url": "https://doi.org/10.1364/OA_License_v2#VOR-OA",
+            "version": "vor"
+          },
+          {
+            "start": "2026-11-18",
+            "url": "https://opg.optica.org/policies/opg-tdm-policy.json",
+            "version": "tdm"
+          }
+        ]
+      },
+      "citation_counts": {
+        "references": 38,
+        "cited_by": 0,
+        "source": "Crossref",
+        "observed_at": "2026-11-19T00:19:01.533645+00:00"
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1364/oe.613636",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": "https://api.crossref.org/works/10.1364/oe.613636",
+        "metadata_observed_at": "2026-11-19T00:19:01.533645+00:00",
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "cc859ddd-3b71-423f-90b5-7314f6980d11",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "preprint",
+    "title": "Generating Circularly Polarized and Chiral Cathodoluminescence from a Single Plasmonic Nanoantenna",
+    "authors": [
+      "Stan de Peinder",
+      "Hollie Marks",
+      "Quynh Nguyen",
+      "Álvaro Rodríguez Echarri",
+      "Albert Polman"
+    ],
+    "doi": null,
+    "venue": "arXiv",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "43ef3159143b717e",
+      "name": "arXiv",
+      "original_name": "arXiv",
+      "abbr": "arXiv",
+      "kind": "preprint",
+      "match_status": "platform",
+      "aliases": [
+        "arXiv",
+        "arXiv"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "not-applicable",
+      "hust_label": "不适用院规等级",
+      "hust_note": "",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-17",
+    "topics": [
+      "待分类"
+    ],
+    "summary_zh": "这项预印本报道了一项纳米天线实验。研究者利用 30 keV 电子所携电场的横向与纵向分量之间的 π/2 相位差，相干激发单个非手性等离激元纳米天线的简并偶极模式。两个正交模式的远场辐射发生干涉。角分辨阴极发光偏振测量表明，改变电子束在纳米颗粒附近的位置可调控圆偏振和手性电场分量。",
+    "title_zh": "单个等离激元纳米天线的圆偏振阴极发光",
+    "missing_evidence": [
+      "当前材料仅有摘要和链接，缺少用于核查圆偏振度、发光效率及测量不确定度的全文数据。",
+      "摘要未报告与光通信链路或集成光子平台的耦合验证。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://arxiv.org/abs/2611.22667v1",
+        "text": "这项预印本报道了一项纳米天线实验。研究者利用 30 keV 电子所携电场的横向与纵向分量之间的 π/2 相位差，相干激发单个非手性等离激元纳米天线的简并偶极模式。两个正交模式的远场辐射发生干涉。角分辨阴极发光偏振测量表明，改变电子束在纳米颗粒附近的位置可调控圆偏振和手性电场分量。"
+      }
+    ],
+    "ai_inference": [
+      "通过控制正交偶极模式的相对相位来合成圆偏振，可为光通信中的紧凑型偏振发生器提供设计思路。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract+pdf-link",
+    "source_url": "https://arxiv.org/abs/2611.22667v1",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-19T00:43:49.139387+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "cc859ddd-3b71-423f-90b5-7314f6980d11",
+      "work_key": "arxiv:2611.22667",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "2611.22667",
+        "paper_code": null,
+        "issn": []
+      },
+      "bibliography": {
+        "title": "Generating Circularly Polarized and Chiral Cathodoluminescence from a Single Plasmonic Nanoantenna",
+        "type": "preprint",
+        "venue_id": "43ef3159143b717e",
+        "venue_name": "arXiv",
+        "venue_abbr": "arXiv",
+        "date": "2026-11-17",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": null,
+        "publisher": null,
+        "language": null,
+        "published_online": null,
+        "published_print": null
+      },
+      "authors": [
+        "Stan de Peinder",
+        "Hollie Marks",
+        "Quynh Nguyen",
+        "Álvaro Rodríguez Echarri",
+        "Albert Polman"
+      ],
+      "first_author": "Stan de Peinder",
+      "author_count": 5,
+      "contributors": [],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [
+          "physics.optics"
+        ],
+        "topic_tags": [],
+        "directions": [
+          "待分类"
+        ],
+        "direction_basis": "unclassified",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "not-applicable",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": null
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "direct",
+        "evidence": "abstract+pdf-link"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": null,
+        "cited_by": null,
+        "source": null,
+        "observed_at": null
+      },
+      "provenance": {
+        "source_url": "https://arxiv.org/abs/2611.22667v1",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": null,
+        "metadata_observed_at": null,
+        "missing": [
+          "author_keywords",
+          "doi",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "a9206ace-e854-410e-a768-30ba84ca77dd",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "preprint",
+    "title": "Reconfigurable 2D Lateral Heterostructure Platform for Unified Detection, Emission, and Logic",
+    "authors": [
+      "Purbasha Ray",
+      "Rupali Verma",
+      "Biswajeet Nayak",
+      "Suman Kumar Chakraborty",
+      "Shailendra K Varshney",
+      "Mayank Shrivastava",
+      "Prasana Kumar Sahoo"
+    ],
+    "doi": null,
+    "venue": "arXiv",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "43ef3159143b717e",
+      "name": "arXiv",
+      "original_name": "arXiv",
+      "abbr": "arXiv",
+      "kind": "preprint",
+      "match_status": "platform",
+      "aliases": [
+        "arXiv",
+        "arXiv"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": null,
+      "focus_label": "知流关注级未定",
+      "focus_order": 99,
+      "hust_grade": null,
+      "hust_rule_grade": null,
+      "hust_status": "not-applicable",
+      "hust_label": "不适用院规等级",
+      "hust_note": "",
+      "hust_source": "",
+      "hust_page": null,
+      "hust_year": 2020,
+      "hust_order": 99,
+      "exchange_grade": null,
+      "exchange_year": null,
+      "exchange_code": "",
+      "exchange_page": null,
+      "exchange_label": "",
+      "exchange_source": ""
+    },
+    "published_at": "2026-11-17",
+    "topics": [
+      "通信光子器件与集成"
+    ],
+    "summary_zh": "预印本摘要报告了双层 MoSe₂–WSe₂ 横向异质结的器件实验，在同一平台实现光探测、可重构电致发光和 CMOS 逻辑。电注入下，栅压可将辐射复合区在 MoSe₂ 区、横向异质界面和 WSe₂ 区之间切换，实现空间可编程发光、光复用和三值光逻辑。摘要报告的光探测响应度为 35 A/W，CMOS 反相器工作频率为 0.25 kHz。",
+    "title_zh": "二维横向异质结集成光探测、可重构发光与逻辑",
+    "missing_evidence": [
+      "所给材料仅含摘要和链接，缺少正文中的器件结构、测量方法及探测指标提取细节。",
+      "摘要未提供发光切换速度、光探测带宽、复用通道串扰或端到端链路测试结果。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://arxiv.org/abs/2611.22170v1",
+        "text": "预印本摘要报告了双层 MoSe₂–WSe₂ 横向异质结的器件实验，在同一平台实现光探测、可重构电致发光和 CMOS 逻辑。电注入下，栅压可将辐射复合区在 MoSe₂ 区、横向异质界面和 WSe₂ 区之间切换，实现空间可编程发光、光复用和三值光逻辑。摘要报告的光探测响应度为 35 A/W，CMOS 反相器工作频率为 0.25 kHz。"
+      }
+    ],
+    "ai_inference": [
+      "栅控复合区切换可为片上空间可重构光源及复用器件提供设计思路。同一平台兼具发光和探测功能，也为探索片上光互连的收发器件集成提供了候选方案。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract+pdf-link",
+    "source_url": "https://arxiv.org/abs/2611.22170v1",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": "B",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-19T00:41:42.181398+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "a9206ace-e854-410e-a768-30ba84ca77dd",
+      "work_key": "arxiv:2611.22170",
+      "identifiers": {
+        "doi": null,
+        "arxiv": "2611.22170",
+        "paper_code": null,
+        "issn": []
+      },
+      "bibliography": {
+        "title": "Reconfigurable 2D Lateral Heterostructure Platform for Unified Detection, Emission, and Logic",
+        "type": "preprint",
+        "venue_id": "43ef3159143b717e",
+        "venue_name": "arXiv",
+        "venue_abbr": "arXiv",
+        "date": "2026-11-17",
+        "date_precision": "day",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": null,
+        "publisher": null,
+        "language": null,
+        "published_online": null,
+        "published_print": null
+      },
+      "authors": [
+        "Purbasha Ray",
+        "Rupali Verma",
+        "Biswajeet Nayak",
+        "Suman Kumar Chakraborty",
+        "Shailendra K Varshney",
+        "Mayank Shrivastava",
+        "Prasana Kumar Sahoo"
+      ],
+      "first_author": "Purbasha Ray",
+      "author_count": 7,
+      "contributors": [],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [
+          "cond-mat.mes-hall",
+          "cond-mat.mtrl-sci"
+        ],
+        "topic_tags": [],
+        "directions": [
+          "通信光子器件与集成"
+        ],
+        "direction_basis": "source-classification",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": null,
+        "hust_confirmed": null,
+        "hust_status": "not-applicable",
+        "hust_year": 2020,
+        "exchange": null,
+        "exchange_year": null,
+        "focus": null
+      },
+      "reading": {
+        "priority": "B",
+        "relevance": "enabling",
+        "evidence": "abstract+pdf-link"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": null,
+        "cited_by": null,
+        "source": null,
+        "observed_at": null
+      },
+      "provenance": {
+        "source_url": "https://arxiv.org/abs/2611.22170v1",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": null,
+        "metadata_observed_at": null,
+        "missing": [
+          "author_keywords",
+          "doi",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
     "record_id": "092b5762-3de2-4672-94f7-95b01d81de28",
     "revision": 2,
     "is_demo": false,
@@ -85902,6 +87159,175 @@
   },
   {
     "schema_version": 1,
+    "record_id": "cdacb773-9437-4271-86e4-b90dc35d3820",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Cloud-Native Optical Network in the Era of AI: Requirement and Architecture",
+    "authors": [
+      "Hideki Nishizawa"
+    ],
+    "doi": "10.1364/ofc.2026.th3i.3",
+    "venue": "Optical Fiber Communication Conference",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "edbc4e8daf0dc2fc",
+      "name": "Optical Fiber Communication Conference",
+      "original_name": "Optical Fiber Communication Conference",
+      "abbr": "OFC",
+      "kind": "conference",
+      "match_status": "matched",
+      "aliases": [
+        "Optical Fiber Communication Conference",
+        "OFC",
+        "Optical Fiber Communications Conference and Exhibition",
+        "Optical Fiber Communication Conference and Exhibition",
+        "Optical Fiber Communications Conference"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": "P1",
+      "focus_label": "知流 P1 · 前沿重点",
+      "focus_order": 1,
+      "hust_grade": null,
+      "hust_rule_grade": "A",
+      "hust_status": "conditional",
+      "hust_label": "院规 A · 口头待核",
+      "hust_note": "仅口头报告论文，海报不适用；报告形式未知时不认定单篇等级。",
+      "hust_source": "院字[2020]10号文-光学与电子信息学院期刊与会议分类列表（研究生）.pdf",
+      "hust_page": 3,
+      "hust_year": 2020,
+      "hust_order": 3,
+      "exchange_grade": "A",
+      "exchange_year": 2025,
+      "exchange_code": "A1820002",
+      "exchange_page": 1,
+      "exchange_label": "交流目录 A · 2025",
+      "exchange_source": "2025年度研究生重要国际学术会议目录.pdf"
+    },
+    "published_at": "2026",
+    "topics": [
+      "光网络与控制"
+    ],
+    "summary_zh": "这场报告讨论云原生光网络的需求与架构，将数字孪生视为关键支撑，并强调电信运营商向数据中心运营商和系统集成商转型，以支持 AI 驱动的运维。",
+    "title_zh": "AI 时代云原生光网络的需求与架构",
+    "missing_evidence": [
+      "现有材料仅含报告摘要，未提供全文或演讲视频内容。",
+      "摘要未交代架构实现细节，也未报告仿真、实验或部署结果。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/ofc.2026.th3i.3",
+        "text": "这场报告讨论云原生光网络的需求与架构，将数字孪生视为关键支撑，并强调电信运营商向数据中心运营商和系统集成商转型，以支持 AI 驱动的运维。"
+      }
+    ],
+    "ai_inference": [
+      "可进一步研究数字孪生在云原生光网络运维中应承担哪些功能，以及如何验证这些功能的实际价值。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/ofc.2026.th3i.3",
+    "related_ids": [],
+    "relevance_class": "direct",
+    "reading_level": "C",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-19T00:25:01.586187+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "cdacb773-9437-4271-86e4-b90dc35d3820",
+      "work_key": "doi:10.1364/ofc.2026.th3i.3",
+      "identifiers": {
+        "doi": "10.1364/ofc.2026.th3i.3",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": []
+      },
+      "bibliography": {
+        "title": "Cloud-Native Optical Network in the Era of AI: Requirement and Architecture",
+        "type": "conference-paper",
+        "venue_id": "edbc4e8daf0dc2fc",
+        "venue_name": "Optical Fiber Communication Conference",
+        "venue_abbr": "OFC",
+        "date": "2026",
+        "date_precision": "year",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": null,
+        "publisher": null,
+        "language": null,
+        "published_online": null,
+        "published_print": null
+      },
+      "authors": [
+        "Hideki Nishizawa"
+      ],
+      "first_author": "Hideki Nishizawa",
+      "author_count": 1,
+      "contributors": [],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [
+          "光网络"
+        ],
+        "directions": [
+          "光网络与控制"
+        ],
+        "direction_basis": "source-classification",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": "A",
+        "hust_confirmed": null,
+        "hust_status": "conditional",
+        "hust_year": 2020,
+        "exchange": "A",
+        "exchange_year": 2025,
+        "focus": "P1"
+      },
+      "reading": {
+        "priority": "C",
+        "relevance": "direct",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": null,
+        "cited_by": null,
+        "source": null,
+        "observed_at": null
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1364/ofc.2026.th3i.3",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": null,
+        "metadata_observed_at": null,
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
     "record_id": "c849d5cc-707a-4dbf-8789-1b81242ed294",
     "revision": 2,
     "is_demo": false,
@@ -87926,6 +89352,175 @@
         "normalizer": "paper-attributes-v1",
         "metadata_source": "https://api.crossref.org/works/10.1364/ofc.2026.th4b.6",
         "metadata_observed_at": "2026-10-15T00:19:27.873559+00:00",
+        "missing": [
+          "author_keywords",
+          "open_access"
+        ]
+      }
+    }
+  },
+  {
+    "schema_version": 1,
+    "record_id": "806126e4-5c9b-4b88-8129-72d5acdee803",
+    "revision": 2,
+    "is_demo": false,
+    "kind": "paper",
+    "title": "Integrated THz Platforms: From Generation to Transmission and Detection",
+    "authors": [
+      "Tadao Nagatsuma"
+    ],
+    "doi": "10.1364/ofc.2026.tu3b.4",
+    "venue": "Optical Fiber Communication Conference",
+    "venue_info": {
+      "catalog_version": "optical-venues-2026-10-22-v2",
+      "id": "edbc4e8daf0dc2fc",
+      "name": "Optical Fiber Communication Conference",
+      "original_name": "Optical Fiber Communication Conference",
+      "abbr": "OFC",
+      "kind": "conference",
+      "match_status": "matched",
+      "aliases": [
+        "Optical Fiber Communication Conference",
+        "OFC",
+        "Optical Fiber Communications Conference and Exhibition",
+        "Optical Fiber Communication Conference and Exhibition",
+        "Optical Fiber Communications Conference"
+      ],
+      "rank_scheme": "cie-electronics-communications-2023",
+      "rank_source": "中国电子学会 2023",
+      "rank_version": "2023",
+      "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+      "rank_grade": null,
+      "rank_label": "不适用期刊等级",
+      "rank_order": 99,
+      "focus_tier": "P1",
+      "focus_label": "知流 P1 · 前沿重点",
+      "focus_order": 1,
+      "hust_grade": null,
+      "hust_rule_grade": "A",
+      "hust_status": "conditional",
+      "hust_label": "院规 A · 口头待核",
+      "hust_note": "仅口头报告论文，海报不适用；报告形式未知时不认定单篇等级。",
+      "hust_source": "院字[2020]10号文-光学与电子信息学院期刊与会议分类列表（研究生）.pdf",
+      "hust_page": 3,
+      "hust_year": 2020,
+      "hust_order": 3,
+      "exchange_grade": "A",
+      "exchange_year": 2025,
+      "exchange_code": "A1820002",
+      "exchange_page": 1,
+      "exchange_label": "交流目录 A · 2025",
+      "exchange_source": "2025年度研究生重要国际学术会议目录.pdf"
+    },
+    "published_at": "2026",
+    "topics": [
+      "微波与太赫兹光子学"
+    ],
+    "summary_zh": "这场综述性报告回顾了利用外延层转移技术将 III–V 族太赫兹光子与电子器件集成到碳化硅和硅衬底平台上的进展，并介绍了有线和无线太赫兹通信系统中的应用。",
+    "title_zh": "面向有线与无线太赫兹通信的集成光子与电子平台",
+    "missing_evidence": [
+      "所给材料仅含报告摘要，摘要注明无全文。",
+      "摘要未披露系统实现细节、链路测试条件或性能指标，无法判断所述应用的验证方式和效果。"
+    ],
+    "facts": [
+      {
+        "locator": "abstract",
+        "source_url": "https://doi.org/10.1364/ofc.2026.tu3b.4",
+        "text": "这场综述性报告回顾了利用外延层转移技术将 III–V 族太赫兹光子与电子器件集成到碳化硅和硅衬底平台上的进展，并介绍了有线和无线太赫兹通信系统中的应用。"
+      }
+    ],
+    "ai_inference": [
+      "外延层转移可作为研究太赫兹通信前端中光子与电子器件异质集成的候选工艺。"
+    ],
+    "metrics": [],
+    "evidence_status": "abstract-only",
+    "source_url": "https://doi.org/10.1364/ofc.2026.tu3b.4",
+    "related_ids": [],
+    "relevance_class": "enabling",
+    "reading_level": "D",
+    "news_priority": null,
+    "review_note": "AI 审核通过 · 摘要范围 · 2026-11-19T00:27:05.929446+00:00",
+    "attributes": {
+      "schema": "paperflow.paper-attributes/v1",
+      "id": "806126e4-5c9b-4b88-8129-72d5acdee803",
+      "work_key": "doi:10.1364/ofc.2026.tu3b.4",
+      "identifiers": {
+        "doi": "10.1364/ofc.2026.tu3b.4",
+        "arxiv": null,
+        "paper_code": null,
+        "issn": []
+      },
+      "bibliography": {
+        "title": "Integrated THz Platforms: From Generation to Transmission and Detection",
+        "type": "conference-paper",
+        "venue_id": "edbc4e8daf0dc2fc",
+        "venue_name": "Optical Fiber Communication Conference",
+        "venue_abbr": "OFC",
+        "date": "2026",
+        "date_precision": "year",
+        "year": 2026,
+        "volume": null,
+        "issue": null,
+        "pages": null,
+        "article_number": null,
+        "publisher": null,
+        "language": null,
+        "published_online": null,
+        "published_print": null
+      },
+      "authors": [
+        "Tadao Nagatsuma"
+      ],
+      "first_author": "Tadao Nagatsuma",
+      "author_count": 1,
+      "contributors": [],
+      "content": {
+        "author_keywords": [],
+        "source_subjects": [],
+        "topic_tags": [
+          "太赫兹"
+        ],
+        "directions": [
+          "微波与太赫兹光子学"
+        ],
+        "direction_basis": "source-classification",
+        "tag_basis": "title-session-rule"
+      },
+      "conference": {
+        "session": null,
+        "presentation_type": null
+      },
+      "ratings": {
+        "cie": null,
+        "cie_year": 2023,
+        "hust_reference": "A",
+        "hust_confirmed": null,
+        "hust_status": "conditional",
+        "hust_year": 2020,
+        "exchange": "A",
+        "exchange_year": 2025,
+        "focus": "P1"
+      },
+      "reading": {
+        "priority": "D",
+        "relevance": "enabling",
+        "evidence": "abstract-only"
+      },
+      "access": {
+        "oa_status": "unknown",
+        "licenses": []
+      },
+      "citation_counts": {
+        "references": null,
+        "cited_by": null,
+        "source": null,
+        "observed_at": null
+      },
+      "provenance": {
+        "source_url": "https://doi.org/10.1364/ofc.2026.tu3b.4",
+        "normalizer": "paper-attributes-v1",
+        "metadata_source": null,
+        "metadata_observed_at": null,
         "missing": [
           "author_keywords",
           "open_access"

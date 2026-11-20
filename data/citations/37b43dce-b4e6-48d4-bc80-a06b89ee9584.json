@@ -1,0 +1,942 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "37b43dce-b4e6-48d4-bc80-a06b89ee9584",
+  "root": "W7220956207",
+  "status": "ok",
+  "checked_at": "2026-11-20T00:44:10.941323+00:00",
+  "coverage": {
+    "references_found": 19,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "references_without_doi": 2,
+    "candidates_resolved": 19,
+    "displayed": 19
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7220956207",
+      "doi": "10.1364/jocn.609223",
+      "title": "Improved Alarm Severity Prediction in Optical Networks with Topology-Aware Machine Learning",
+      "authors": [
+        "Maryam Hedayatnejad",
+        "David W. Boertjes",
+        "Dacian Demeter",
+        "Christian Desrosiers",
+        "Christine L. Tremblay"
+      ],
+      "year": 2026,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical networks",
+        "network fault management",
+        "network topology"
+      ],
+      "url": "https://doi.org/10.1364/jocn.609223",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/37b43dce-b4e6-48d4-bc80-a06b89ee9584.html",
+      "summary": "论文在光通道（OCh）范围内对线路板告警与转发器告警进行时间关联，生成严重度参考标签，并使用大规模在运光网络的告警数据评估 LightGBM、XGBoost 和随机森林。以这些参考标签为基准，网元原始标签的平衡准确率为 53%，宏平均 F1 为 34%。三个模型均优于该基线，两项指标最高分别达到 76% 和 66%，LightGBM 的整体表现最好且最稳定。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4283207270",
+      "doi": "10.1364/jocn.457687",
+      "title": "Machine learning models for alarm classification and failure localization in optical transport networks",
+      "authors": [
+        "Jatin Babbar",
+        "Ahmed Triki",
+        "Reda Ayassi",
+        "Maxime Laye"
+      ],
+      "year": 2022,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical transport networks",
+        "alarm classification",
+        "failure localization",
+        "failure management",
+        "network management system",
+        "power attenuation",
+        "LightGBM",
+        "machine learning classifiers",
+        "network fault diagnosis"
+      ],
+      "url": "https://doi.org/10.1364/jocn.457687",
+      "cited_by_count": 31,
+      "importance": 0.394,
+      "score_basis": {
+        "topic_overlap": 0.431,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416873101",
+      "doi": "10.1364/jocn.576774",
+      "title": "From data to decision: a multi-stage framework for class imbalance mitigation in optical network failure analysis",
+      "authors": [
+        "Yousuf Moiz Ali",
+        "Jaroslaw E. Prilepsky",
+        "Nicola Sambo",
+        "João Pedro",
+        "Mohammad M. Hosseini",
+        "Antonio Napoli",
+        "Sergei K. Turitsyn",
+        "Pedro J. Freire"
+      ],
+      "year": 2025,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "class imbalance",
+        "fault detection",
+        "failure identification",
+        "post-processing",
+        "threshold adjustment",
+        "random undersampling",
+        "SMOTE",
+        "generative AI",
+        "meta-learning",
+        "inference latency"
+      ],
+      "url": "https://doi.org/10.1364/jocn.576774",
+      "cited_by_count": 6,
+      "importance": 0.3301,
+      "score_basis": {
+        "topic_overlap": 0.289,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4322580598",
+      "doi": "10.4236/jcc.2023.112009",
+      "title": "Machine Learning-Based Alarms Classification and Correlation in an SDH/WDM Optical Network to Improve Network Maintenance",
+      "authors": [
+        "Éric Michel Deussom Djomadji",
+        "Clovis Ntahkie Takembo",
+        "Christian Tchito Tchapga",
+        "Arabo Mamadou",
+        "Michael Ekonde Sone"
+      ],
+      "year": 2023,
+      "venue": "Journal of Computer and Communications",
+      "venue_abbr": "Journal of Computer and Communications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "alarm classification",
+        "alarm correlation",
+        "root cause identification",
+        "log analysis",
+        "K-means clustering",
+        "DBSCAN",
+        "unsupervised learning",
+        "network operation and maintenance"
+      ],
+      "url": "https://doi.org/10.4236/jcc.2023.112009",
+      "cited_by_count": 9,
+      "importance": 0.2928,
+      "score_basis": {
+        "topic_overlap": 0.206,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3143002795",
+      "doi": "10.1016/j.comnet.2021.108037",
+      "title": "Roots-tracing of communication network alarm: A real-time processing framework",
+      "authors": [
+        "Meili Liu",
+        "Xiaogang Qi",
+        "Lifang Liu",
+        "Hao Pan"
+      ],
+      "year": 2021,
+      "venue": "Computer Networks",
+      "venue_abbr": "Computer Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "root cause analysis",
+        "communication networks",
+        "Bayesian networks",
+        "silent gaps",
+        "Bayesian inference",
+        "real-time processing",
+        "operations support systems",
+        "cellular networks"
+      ],
+      "url": "https://doi.org/10.1016/j.comnet.2021.108037",
+      "cited_by_count": 10,
+      "importance": 0.2792,
+      "score_basis": {
+        "topic_overlap": 0.065,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2962986572",
+      "doi": "10.1109/access.2019.2929872",
+      "title": "Dealing With Alarms in Optical Networks Using an Intelligent System",
+      "authors": [
+        "Danshi Wang",
+        "Liqi Lou",
+        "Min Zhang",
+        "Anthony Christos Boucouvalas",
+        "Chunyu Zhang",
+        "Xuetian Huang"
+      ],
+      "year": 2019,
+      "venue": "IEEE Access",
+      "venue_abbr": "IEEE Access",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "K-means clustering",
+        "BP neural network",
+        "time series segmentation",
+        "sliding window"
+      ],
+      "url": "https://doi.org/10.1109/access.2019.2929872",
+      "cited_by_count": 27,
+      "importance": 0.2769,
+      "score_basis": {
+        "topic_overlap": 0.171,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416714127",
+      "doi": "10.1007/s12036-025-10113-4",
+      "title": "Optimizing supernova classification with interpretable machine learning models",
+      "authors": [
+        "Anurag Garg"
+      ],
+      "year": 2025,
+      "venue": "Journal of Astrophysics and Astronomy",
+      "venue_abbr": "Journal of Astrophysics and Astronomy",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "Type Ia supernovae",
+        "light curves",
+        "class imbalance",
+        "model interpretability",
+        "XGBoost",
+        "Bayesian hyperparameter optimization",
+        "PR-AUC",
+        "spectroscopic follow-up",
+        "LSST"
+      ],
+      "url": "https://doi.org/10.1007/s12036-025-10113-4",
+      "cited_by_count": 3,
+      "importance": 0.2677,
+      "score_basis": {
+        "topic_overlap": 0.039,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2809712173",
+      "doi": "10.26636/jtit.2018.124518",
+      "title": "Alarm Correlation in Mobile Telecommunications Networks based on k-means Cluster Analysis Method",
+      "authors": [
+        "Artur Maździarz"
+      ],
+      "year": 2018,
+      "venue": "Journal of Telecommunications and Information Technology",
+      "venue_abbr": "Journal of Telecommunications and Information Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "alarm correlation",
+        "mobile telecommunications networks",
+        "K-means clustering",
+        "root cause analysis",
+        "network troubleshooting",
+        "network maintenance",
+        "network management system",
+        "fault identification"
+      ],
+      "url": "https://doi.org/10.26636/jtit.2018.124518",
+      "cited_by_count": 9,
+      "importance": 0.2563,
+      "score_basis": {
+        "topic_overlap": 0.125,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2598948541",
+      "doi": "10.1016/j.ins.2017.03.020",
+      "title": "Efficient alarm behavior analytics for telecom networks",
+      "authors": [
+        "Jiantao Wang",
+        "Caifeng He",
+        "Yijun Liu",
+        "Guangjian Tian",
+        "Ivy Peng",
+        "Jia Xing",
+        "Xiangbing Ruan",
+        "Haoran Xie",
+        "Fu Lee Wang"
+      ],
+      "year": 2017,
+      "venue": "Information Sciences",
+      "venue_abbr": "Information Sciences",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "network operations center",
+        "alarm filtering",
+        "rule discovery",
+        "radio access network",
+        "internet service providers"
+      ],
+      "url": "https://doi.org/10.1016/j.ins.2017.03.020",
+      "cited_by_count": 41,
+      "importance": 0.2538,
+      "score_basis": {
+        "topic_overlap": 0.075,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4366850565",
+      "doi": "10.48550/arxiv.2304.11127",
+      "title": "Tree-Structured Parzen Estimator: Understanding Its Algorithm Components and Their Roles for Better Empirical Performance",
+      "authors": [
+        "Shuhei Watanabe"
+      ],
+      "year": 2023,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "tree-structured Parzen estimator",
+        "Bayesian optimization",
+        "hyperparameter optimization",
+        "ablation study",
+        "Optuna"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2304.11127",
+      "cited_by_count": 789,
+      "importance": 0.25,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2949676527",
+      "doi": "10.1145/3292500.3330701",
+      "title": "Optuna: A Next-generation Hyperparameter Optimization Framework",
+      "authors": [
+        "Takuya Akiba",
+        "Shotaro Sano",
+        "Toshihiko Yanase",
+        "Takeru Ohta",
+        "Masanori Koyama"
+      ],
+      "year": 2019,
+      "venue": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "venue_abbr": "ACM SIGKDD Conference on Knowledge Discovery and Data Mining (KDD)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "hyperparameter optimization",
+        "Optuna",
+        "pruning techniques",
+        "distributed computing"
+      ],
+      "url": "https://doi.org/10.1145/3292500.3330701",
+      "cited_by_count": 13473,
+      "importance": 0.24,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4383374078",
+      "doi": "10.3389/fcomp.2023.1211739",
+      "title": "Alarm reduction and root cause inference based on association mining in communication network",
+      "authors": [
+        "Min Li",
+        "Mengyuan Yang",
+        "Pengfei Chen"
+      ],
+      "year": 2023,
+      "venue": "Frontiers in Computer Science",
+      "venue_abbr": "Frontiers in Computer Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "alarm reduction",
+        "root cause localization",
+        "association rule mining",
+        "communication networks",
+        "network operation and maintenance"
+      ],
+      "url": "https://doi.org/10.3389/fcomp.2023.1211739",
+      "cited_by_count": 15,
+      "importance": 0.2382,
+      "score_basis": {
+        "topic_overlap": 0.085,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413950081",
+      "doi": "10.1016/j.neucom.2025.131337",
+      "title": "A comprehensive benchmark of machine and deep learning models on structured data for regression and classification",
+      "authors": [
+        "Assaf Shmuel",
+        "Oren Glickman",
+        "Teddy Lazebnik"
+      ],
+      "year": 2025,
+      "venue": "Neurocomputing",
+      "venue_abbr": "Neurocomputing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "tabular data",
+        "structured data",
+        "benchmark",
+        "regression analysis",
+        "classification",
+        "gradient boosting",
+        "categorical variables",
+        "performance prediction",
+        "model comparison"
+      ],
+      "url": "https://doi.org/10.1016/j.neucom.2025.131337",
+      "cited_by_count": 101,
+      "importance": 0.2303,
+      "score_basis": {
+        "topic_overlap": 0.067,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4415111034",
+      "doi": "10.48550/arxiv.2506.12183",
+      "title": "Temporal cross-validation impacts multivariate time series subsequence anomaly detection evaluation",
+      "authors": [
+        "Steven C. Hespeler",
+        "Pablo Moriano",
+        "Mingyan Li",
+        "Samuel C. Hollifield"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "multivariate time series",
+        "time series cross-validation",
+        "walk-forward validation",
+        "fault detection",
+        "precision and recall",
+        "classifier generalization",
+        "deep learning classifier",
+        "random forest",
+        "streaming time series",
+        "temporal dependencies"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2506.12183",
+      "cited_by_count": 8,
+      "importance": 0.2172,
+      "score_basis": {
+        "topic_overlap": 0.038,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4379878829",
+      "doi": "10.1016/j.eswa.2023.120715",
+      "title": "An empirical study of pattern leakage impact during data preprocessing on machine learning-based intrusion detection models reliability",
+      "authors": [
+        "Mohamed Aly Bouke",
+        "Azizol Abdullah"
+      ],
+      "year": 2023,
+      "venue": "Expert Systems with Applications",
+      "venue_abbr": "Expert Systems with Applications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "data leakage",
+        "data preprocessing",
+        "intrusion detection systems",
+        "overfitting",
+        "NSL-KDD dataset",
+        "UNSW-NB15",
+        "KDD Cup 1999 dataset",
+        "model accuracy"
+      ],
+      "url": "https://doi.org/10.1016/j.eswa.2023.120715",
+      "cited_by_count": 132,
+      "importance": 0.2167,
+      "score_basis": {
+        "topic_overlap": 0.037,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406408204",
+      "doi": "10.1613/jair.1.16062",
+      "title": "A Selective Under-Sampling (SUS) Method for Imbalanced Regression",
+      "authors": [
+        "Jovana Aleksic",
+        "Miguel García-Remesal"
+      ],
+      "year": 2025,
+      "venue": "Journal of Artificial Intelligence Research",
+      "venue_abbr": "Journal of Artificial Intelligence Research",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "imbalanced regression",
+        "class imbalance",
+        "high-dimensional regression",
+        "age estimation",
+        "neural network regression",
+        "random undersampling"
+      ],
+      "url": "https://doi.org/10.1613/jair.1.16062",
+      "cited_by_count": 8,
+      "importance": 0.2104,
+      "score_basis": {
+        "topic_overlap": 0.023,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2903942159",
+      "doi": "10.1111/2041-210x.13140",
+      "title": "The area under the precision‐recall curve as a performance metric for rare binary events",
+      "authors": [
+        "Helen R. Sofaer",
+        "Jennifer A. Hoeting",
+        "Catherine S. Jarnevich"
+      ],
+      "year": 2018,
+      "venue": "Methods in Ecology and Evolution",
+      "venue_abbr": "Methods in Ecology and Evolution",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "species distribution modeling",
+        "rare species",
+        "binary classification",
+        "class imbalance",
+        "prevalence",
+        "receiver operating characteristic",
+        "model evaluation",
+        "precision",
+        "survey planning",
+        "absence data"
+      ],
+      "url": "https://doi.org/10.1111/2041-210x.13140",
+      "cited_by_count": 486,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4394781922",
+      "doi": "10.48550/arxiv.2404.07661",
+      "title": "Robust performance metrics for imbalanced classification problems",
+      "authors": [
+        "Hajo Holzmann",
+        "Bernhard Klar"
+      ],
+      "year": 2024,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "imbalanced classification",
+        "performance indicators",
+        "Matthews correlation coefficient",
+        "Cohen's kappa",
+        "F-score",
+        "Jaccard similarity",
+        "Bayes optimal classifier",
+        "diagnostic sensitivity",
+        "density ratio",
+        "receiver operating characteristic",
+        "precision-recall curve",
+        "credit default"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2404.07661",
+      "cited_by_count": 17,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "doi:10.48550/arxiv.2208.10677",
+      "doi": "10.48550/arxiv.2208.10677",
+      "title": "10.48550/arxiv.2208.10677",
+      "authors": [
+        "Wang"
+      ],
+      "year": "2023",
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [],
+      "url": "https://doi.org/10.48550/arxiv.2208.10677",
+      "cited_by_count": null,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "doi:10.48550/arxiv.2507.16289",
+      "doi": "10.48550/arxiv.2507.16289",
+      "title": "10.48550/arxiv.2507.16289",
+      "authors": [
+        "Gusak"
+      ],
+      "year": "2025",
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [],
+      "url": "https://doi.org/10.48550/arxiv.2507.16289",
+      "cited_by_count": null,
+      "importance": 0.2,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W3143002795",
+      "to": "W2598948541",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3143002795"
+        }
+      ]
+    },
+    {
+      "from": "W4366850565",
+      "to": "W2949676527",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4366850565"
+        }
+      ]
+    },
+    {
+      "from": "W4416714127",
+      "to": "W2949676527",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416714127"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W2598948541",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W2809712173",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W2903942159",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W2949676527",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W2962986572",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W3143002795",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W4283207270",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W4322580598",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W4366850565",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W4379878829",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W4383374078",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W4394781922",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W4406408204",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W4413950081",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W4415111034",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W4416714127",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "W4416873101",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "doi:10.48550/arxiv.2208.10677",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    },
+    {
+      "from": "W7220956207",
+      "to": "doi:10.48550/arxiv.2507.16289",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fjocn.609223"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "c7a0d51e-1cdb-48cb-9bec-20747a10910d",
+  "root": "W7235714401",
+  "status": "ok",
+  "checked_at": "2026-11-21T00:44:06.777592+00:00",
+  "coverage": {
+    "references_found": 1,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 1,
+    "displayed": 1
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7235714401",
+      "doi": "10.48550/arxiv.2611.19851",
+      "title": "Record-proof optical communication enabled by a quantum receiver with lossless optical decryption",
+      "authors": [
+        "Ken Tanizawa",
+        "隆行 黒須",
+        "Fumio Futami",
+        "Kenji Nakahira",
+        "Kentaro Kato"
+      ],
+      "year": 2026,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "quantum receiver",
+        "non-commutativity",
+        "secure optical communication",
+        "channel loss"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2611.19851",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/c7a0d51e-1cdb-48cb-9bec-20747a10910d.html",
+      "summary": "预印本提出一种光通信物理层加密方案，利用共轭光学正交分量的非对易性，为合法接收机提供灵敏度优势。相位控制的 Kennedy 接收机执行无损光学解密和近最优二元态判别。作者在摘要中报告，该方案在 3.0 dB 的信道损耗预算下展示了抗录存解密能力，即传输后公开密钥，先前录存的信号仍无法解密。",
+      "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W4367673326",
+      "doi": "10.1088/2058-9565/acd1a8",
+      "title": "Paving the way toward 800 Gbps quantum-secured optical channel deployment in mission-critical environments",
+      "authors": [
+        "Marco Pistoia",
+        "Omar Amer",
+        "Monik Raj Behera",
+        "Joseph A. Dolphin",
+        "J. F. Dynes",
+        "Benny John",
+        "Paul Anthony Haigh",
+        "Yasushi Kawakura",
+        "David H Kramer",
+        "Jeffrey Lyon",
+        "Navid Moazzami",
+        "Tulasi D. Movva",
+        "Antigoni Polychroniadou",
+        "Suresh Shetty",
+        "Greg Sysak",
+        "Farzam Toudeh-Fallah",
+        "Sudhir Upadhyay",
+        "Robert I. Woodward",
+        "A. J. Shields"
+      ],
+      "year": 2023,
+      "venue": "Quantum Science and Technology",
+      "venue_abbr": "Quantum Sci. Technol.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "quantum key distribution",
+        "dense wavelength division multiplexing",
+        "secret key rate",
+        "financial transaction security"
+      ],
+      "url": "https://doi.org/10.1088/2058-9565/acd1a8",
+      "cited_by_count": 27,
+      "importance": 0.2697,
+      "score_basis": {
+        "topic_overlap": 0.155,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W7235714401",
+      "to": "W4367673326",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7235714401"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,103 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "71fc4b05-aae2-4893-b3d4-1079682b9a5c",
+  "root": "W7235444667",
+  "status": "ok",
+  "checked_at": "2026-11-21T00:44:09.392699+00:00",
+  "coverage": {
+    "references_found": 1,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 1,
+    "displayed": 1
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7235444667",
+      "doi": "10.31224/8830",
+      "title": "Reconfigurable Microwave Photonic All-Pass Filters using Optical Kerr Microcombs",
+      "authors": [
+        "David Moss"
+      ],
+      "year": 2026,
+      "venue": "Engineering Archive (engrXiv)",
+      "venue_abbr": "Engineering Archive (engrXiv)",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "reconfigurable filter",
+        "transversal filters",
+        "phase engineering",
+        "group delay",
+        "microwave signal processing"
+      ],
+      "url": "https://doi.org/10.31224/8830",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/71fc4b05-aae2-4893-b3d4-1079682b9a5c.html",
+      "summary": "作者使用光学克尔微梳驱动的横向滤波系统，实验演示了一阶和二阶微波光子全通滤波器。一阶滤波器的最大幅度变化约为 1.95 dB，最大群时延约为 580 ps。二阶滤波器对应约为 2.01 dB 和 1740 ps。作者还演示了在硬件配置固定的情况下，通过编程抽头系数独立或联合调节滤波器特征参数。",
+      "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W4414265883",
+      "doi": "10.1109/jstqe.2025.3610438",
+      "title": "Silicon Photonic Waveguide Polarizers Integrated With 2D MoS 2 Films",
+      "authors": [
+        "Junkai Hu",
+        "Jiayang Wu",
+        "Irfan Haider Abidi",
+        "Di Jin",
+        "Yuning Zhang",
+        "Jianfeng Mao",
+        "Anchal Pandey",
+        "Yijun Wang",
+        "Sumeet Walia",
+        "David Moss"
+      ],
+      "year": 2025,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "polarizers",
+        "silicon waveguides",
+        "MoS2",
+        "two-dimensional transition metal dichalcogenides",
+        "polarization-dependent loss",
+        "polarization selectivity",
+        "polarization control"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2025.3610438",
+      "cited_by_count": 20,
+      "importance": 0.2086,
+      "score_basis": {
+        "topic_overlap": 0.019,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W7235444667",
+      "to": "W4414265883",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7235444667"
+        }
+      ]
+    }
+  ]
+}

@@ -2,6 +2,42 @@
   "schema": "paperflow.reading-dashboard/v1",
   "ranked": [
     {
+      "record_id": "57e16054-e777-4537-bac1-7d6b3ff30be2",
+      "revision": 2,
+      "reviewed_at": "2026-11-22T00:39:11.091009+00:00",
+      "reason": "与你的光通信研究直接相关",
+      "reading_level": "B",
+      "relevance": "direct",
+      "kind": "journal"
+    },
+    {
+      "record_id": "ad28bbc4-7056-4b8f-824b-649fa7f3a0c8",
+      "revision": 2,
+      "reviewed_at": "2026-11-22T00:32:56.080647+00:00",
+      "reason": "与你的光通信研究直接相关",
+      "reading_level": "B",
+      "relevance": "direct",
+      "kind": "journal"
+    },
+    {
+      "record_id": "86c291db-67c1-4f1d-b0ed-e069bdf5ba53",
+      "revision": 2,
+      "reviewed_at": "2026-11-22T00:26:39.820780+00:00",
+      "reason": "与你的光通信研究直接相关",
+      "reading_level": "B",
+      "relevance": "direct",
+      "kind": "conference"
+    },
+    {
+      "record_id": "4a84adb5-8f78-43c5-9093-184942c7c4c2",
+      "revision": 2,
+      "reviewed_at": "2026-11-22T00:24:34.987274+00:00",
+      "reason": "与你的光通信研究直接相关",
+      "reading_level": "B",
+      "relevance": "direct",
+      "kind": "conference"
+    },
+    {
       "record_id": "c7a0d51e-1cdb-48cb-9bec-20747a10910d",
       "revision": 2,
       "reviewed_at": "2026-11-21T00:43:15.137337+00:00",
@@ -1892,6 +1928,15 @@
       "kind": "preprint"
     },
     {
+      "record_id": "68bec1df-e0f5-461b-abcb-69b26cdeaaf3",
+      "revision": 4,
+      "reviewed_at": "2026-11-22T00:30:50.753466+00:00",
+      "reason": "可迁移到光通信的使能技术",
+      "reading_level": "B",
+      "relevance": "enabling",
+      "kind": "journal"
+    },
+    {
       "record_id": "71fc4b05-aae2-4893-b3d4-1079682b9a5c",
       "revision": 2,
       "reviewed_at": "2026-11-21T00:36:54.815796+00:00",
@@ -2300,15 +2345,6 @@
       "record_id": "510cd418-4818-41bc-acef-91c04724ce78",
       "revision": 2,
       "reviewed_at": "2026-10-30T00:38:01.335896+00:00",
-      "reason": "可迁移到光通信的使能技术",
-      "reading_level": "B",
-      "relevance": "enabling",
-      "kind": "journal"
-    },
-    {
-      "record_id": "68bec1df-e0f5-461b-abcb-69b26cdeaaf3",
-      "revision": 2,
-      "reviewed_at": "2026-10-29T00:34:58.669078+00:00",
       "reason": "可迁移到光通信的使能技术",
       "reading_level": "B",
       "relevance": "enabling",
@@ -3792,14 +3828,83 @@
     }
   ],
   "recommended": [
+    "57e16054-e777-4537-bac1-7d6b3ff30be2",
+    "ad28bbc4-7056-4b8f-824b-649fa7f3a0c8",
+    "86c291db-67c1-4f1d-b0ed-e069bdf5ba53",
+    "4a84adb5-8f78-43c5-9093-184942c7c4c2",
     "c7a0d51e-1cdb-48cb-9bec-20747a10910d",
-    "81fb0a0d-e118-42c2-a083-b0ed5ed31903",
-    "a63b8ac1-a8cd-4acb-96a0-f3ac1569e9e4",
-    "6db63717-c94c-4ba1-bdca-62649f0bd1db",
-    "ccb0e81d-288a-498f-a607-9fab0abf705d",
-    "4a461aa7-0f25-4232-b578-d9d328f8fadc"
+    "81fb0a0d-e118-42c2-a083-b0ed5ed31903"
   ],
   "briefs": {
+    "86c291db-67c1-4f1d-b0ed-e069bdf5ba53": {
+      "record_id": "86c291db-67c1-4f1d-b0ed-e069bdf5ba53",
+      "revision": 2,
+      "summary": "论文提出 Bridge 重配置策略，利用 Bruck 通信模式按需直连当前通信伙伴，并通过连通子环保持后续伙伴可达，使光链路可跨多个通信步骤复用。策略面向 All-to-All、AllReduce、Reduce-Scatter 和 AllGather。摘要报告，评估中 All-to-All 完成时间通常为静态基线的约三分之一至十分之一，且在毫秒级重配置延迟下仍有效。AllReduce 相比已有重配置策略的加速最高达 1.5 倍，在低至中等规模的工作负载下相比 Ring 算法加速 1.5 至 6.6 倍。",
+      "title_zh": "利用可复用子环优化光电路交换网络的集合通信",
+      "evidence_status": "abstract-only",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://doi.org/10.1145/3842721.3849673",
+          "text": "论文提出 Bridge 重配置策略，利用 Bruck 通信模式按需直连当前通信伙伴，并通过连通子环保持后续伙伴可达，使光链路可跨多个通信步骤复用。策略面向 All-to-All、AllReduce、Reduce-Scatter 和 AllGather。摘要报告，评估中 All-to-All 完成时间通常为静态基线的约三分之一至十分之一，且在毫秒级重配置延迟下仍有效。AllReduce 相比已有重配置策略的加速最高达 1.5 倍，在低至中等规模的工作负载下相比 Ring 算法加速 1.5 至 6.6 倍。"
+        }
+      ],
+      "limits": [
+        "材料仅提供摘要，无法确认评估采用仿真、硬件实验还是其他方法，也无法核对网络规模、基线配置和各结果对应的测试条件。",
+        "摘要列出 Reduce-Scatter 和 AllGather，但未报告这两项的量化结果。"
+      ],
+      "inference": [
+        "评估光交换拓扑是否值得重配置时，可按连续多个通信步骤估算链路复用带来的累计收益，再与重配置开销比较。"
+      ],
+      "source_url": "https://doi.org/10.1145/3842721.3849673",
+      "sections": []
+    },
+    "4a84adb5-8f78-43c5-9093-184942c7c4c2": {
+      "record_id": "4a84adb5-8f78-43c5-9093-184942c7c4c2",
+      "revision": 2,
+      "summary": "ECO-COMM 利用事件相机的异步感知接收光信号，并针对时间戳不一致、读出争用、拖尾效应和不应期提出缓解方法。摘要报告，采用 8 个 LED 和商用事件相机的单发单收原型在 15 微秒内完成设备关联，最低符号时延为 100 微秒。在比特误码率为 0.1% 时，32 字节有效载荷的端到端时延低于 8 毫秒。",
+      "title_zh": "基于事件相机的低时延光通信",
+      "evidence_status": "abstract-only",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://doi.org/10.1145/3842721.3849678",
+          "text": "ECO-COMM 利用事件相机的异步感知接收光信号，并针对时间戳不一致、读出争用、拖尾效应和不应期提出缓解方法。摘要报告，采用 8 个 LED 和商用事件相机的单发单收原型在 15 微秒内完成设备关联，最低符号时延为 100 微秒。在比特误码率为 0.1% 时，32 字节有效载荷的端到端时延低于 8 毫秒。"
+        }
+      ],
+      "limits": [
+        "仅提供摘要，缺少链路距离、环境光条件、时延测量口径及误码率统计方法。",
+        "摘要中的实验范围限于单发单收链路，多设备并发时的性能有待验证。"
+      ],
+      "inference": [
+        "可在短消息光链路设计中评估事件相机作为接收端的可行性，并分别测量设备关联、符号接收和端到端传输时延。"
+      ],
+      "source_url": "https://doi.org/10.1145/3842721.3849678",
+      "sections": []
+    },
+    "ad28bbc4-7056-4b8f-824b-649fa7f3a0c8": {
+      "record_id": "ad28bbc4-7056-4b8f-824b-649fa7f3a0c8",
+      "revision": 2,
+      "summary": "论文研究由天花板多盏 LED 同时提供照明和通信、并服务多个移动用户的室内可见光通信系统。作者采用速率分割多址（RSMA），联合优化预编码矩阵与公共数据流的速率分配，以最大化能效。所提改进 DDPG 算法引入生成对抗网络训练价值评估网络，并采用优先经验回放。摘要报告，在仿真中，该算法的能效优于两种传统策略和三种深度强化学习算法。",
+      "title_zh": "动态室内可见光通信的 RSMA 能效优化",
+      "evidence_status": "abstract-only",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://doi.org/10.1186/s13634-026-01379-z",
+          "text": "论文研究由天花板多盏 LED 同时提供照明和通信、并服务多个移动用户的室内可见光通信系统。作者采用速率分割多址（RSMA），联合优化预编码矩阵与公共数据流的速率分配，以最大化能效。所提改进 DDPG 算法引入生成对抗网络训练价值评估网络，并采用优先经验回放。摘要报告，在仿真中，该算法的能效优于两种传统策略和三种深度强化学习算法。"
+        }
+      ],
+      "limits": [
+        "现有材料仅为摘要，缺少能效提升幅度、仿真场景与基线配置细节。",
+        "现有材料未提供实物链路验证结果。"
+      ],
+      "inference": [
+        "可通过消融仿真分别评估生成对抗网络训练和优先经验回放对能效与收敛表现的贡献。"
+      ],
+      "source_url": "https://doi.org/10.1186/s13634-026-01379-z",
+      "sections": []
+    },
     "a63b8ac1-a8cd-4acb-96a0-f3ac1569e9e4": {
       "record_id": "a63b8ac1-a8cd-4acb-96a0-f3ac1569e9e4",
       "revision": 2,
@@ -3843,6 +3948,29 @@
         "可沿用可调间距的设计，研究低发散角波束转向与连续空间覆盖之间的权衡。"
       ],
       "source_url": "https://doi.org/10.1364/ol.613085",
+      "sections": []
+    },
+    "68bec1df-e0f5-461b-abcb-69b26cdeaaf3": {
+      "record_id": "68bec1df-e0f5-461b-abcb-69b26cdeaaf3",
+      "revision": 4,
+      "summary": "论文提出一种无需光学干涉的直接探测连续变量量子密钥分发（CV-QKD）协议，通过克拉默斯–克勒尼希关系恢复正交分量，并将协议扩展至量子接入网络。摘要报告，实验中接入网覆盖范围内的每位用户仅用一个光电探测器即可达到 50 kbit/s 的渐近安全密钥率。",
+      "title_zh": "基于克拉默斯–克勒尼希接收机的量子接入网络",
+      "evidence_status": "abstract-only",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://doi.org/10.1103/6lqb-4j6k",
+          "text": "论文提出一种无需光学干涉的直接探测连续变量量子密钥分发（CV-QKD）协议，通过克拉默斯–克勒尼希关系恢复正交分量，并将协议扩展至量子接入网络。摘要报告，实验中接入网覆盖范围内的每位用户仅用一个光电探测器即可达到 50 kbit/s 的渐近安全密钥率。"
+        }
+      ],
+      "limits": [
+        "摘要未给出具体传输距离、链路损耗或用户规模。",
+        "有限密钥条件下的密钥率，以及相对既有接收方案的稳定性和成本对比，仍需查阅全文核实。"
+      ],
+      "inference": [
+        "无光学干涉的单探测器架构可作为简化多用户 CV-QKD 接收端的候选方案。"
+      ],
+      "source_url": "https://doi.org/10.1103/6lqb-4j6k",
       "sections": []
     },
     "4c08d97f-23f7-4189-8043-372e1be21cc2": {
@@ -4119,22 +4247,22 @@
     },
     "6e6040b9-7821-4bed-97d0-8e9ade0ce51b": {
       "record_id": "6e6040b9-7821-4bed-97d0-8e9ade0ce51b",
-      "revision": 6,
-      "summary": "imec宣布在芬兰埃斯波启用设有光学实验室的研发中心。当地团队负责光学元件与系统的设计、仿真和测试，并开发面向具体应用的验证样机。公告列出的应用方向包括AI基础设施的光互连和高速通信。",
-      "title_zh": "imec在埃斯波启用光子研发中心",
+      "revision": 8,
+      "summary": "imec 在芬兰埃斯波启用了设有光学实验室的研发中心。当地团队负责光学器件和系统的设计、仿真与测试，并开发面向特定应用的演示系统。研发方向包括将光子芯片与其他光学器件集成，并在贴近实际应用的条件下验证系统性能，应用场景涵盖 AI 基础设施和高速通信。",
+      "title_zh": "imec 在芬兰启用集成光子与光系统研发中心",
       "evidence_status": "official-announcement",
       "facts": [
         {
           "locator": "body",
           "source_url": "https://www.imec-int.com/en/press/imec-finland-espoo-rd-center-opens-accelerate-integrated-photonics-and-optical-system",
-          "text": "imec宣布在芬兰埃斯波启用设有光学实验室的研发中心。当地团队负责光学元件与系统的设计、仿真和测试，并开发面向具体应用的验证样机。公告列出的应用方向包括AI基础设施的光互连和高速通信。"
+          "text": "imec 在芬兰埃斯波启用了设有光学实验室的研发中心。当地团队负责光学器件和系统的设计、仿真与测试，并开发面向特定应用的演示系统。研发方向包括将光子芯片与其他光学器件集成，并在贴近实际应用的条件下验证系统性能，应用场景涵盖 AI 基础设施和高速通信。"
         }
       ],
       "limits": [
-        "公告未提供具体光互连样机的实验数据、测试条件或与电互连的量化对比。"
+        "公告未披露具体光互连演示系统的架构、测试条件或实测性能。"
       ],
       "inference": [
-        "对光互连研究的启发是，在系统设计阶段将光子芯片与周边光学元件联合设计，并在贴近实际应用的条件下验证系统性能。"
+        "对 AI 光互连研究而言，可将芯片、外围光学器件和系统验证纳入同一研发流程，及早评估器件在实际应用条件下的表现。"
       ],
       "source_url": "https://www.imec-int.com/en/press/imec-finland-espoo-rd-center-opens-accelerate-integrated-photonics-and-optical-system",
       "sections": []
@@ -4502,6 +4630,29 @@
         "这种亚波长激光腔可为片上通信光源的小型化提供研究思路；其通信适用性仍需通过调制、耦合及系统实验验证。"
       ],
       "source_url": "https://doi.org/10.1364/optica.612635",
+      "sections": []
+    },
+    "57e16054-e777-4537-bac1-7d6b3ff30be2": {
+      "record_id": "57e16054-e777-4537-bac1-7d6b3ff30be2",
+      "revision": 2,
+      "summary": "作者设计、仿真并制备了单片集成固体浸没超透镜的背照式 InGaAs/InAlAs 雪崩光电二极管。摘要报告器件在 1550 nm 下的响应度为 40.3 A/W，在击穿电压的 90% 处的暗电流为 24.3 nA，在 −28 V 下的带宽为 12.96 GHz。作者报告，集成超透镜后，响应度达到原来的五倍，同时保持了探测器的本征性能。",
+      "title_zh": "单片集成超透镜提升雪崩光电二极管响应度",
+      "evidence_status": "abstract-only",
+      "facts": [
+        {
+          "locator": "abstract",
+          "source_url": "https://doi.org/10.1063/5.0356369",
+          "text": "作者设计、仿真并制备了单片集成固体浸没超透镜的背照式 InGaAs/InAlAs 雪崩光电二极管。摘要报告器件在 1550 nm 下的响应度为 40.3 A/W，在击穿电压的 90% 处的暗电流为 24.3 nA，在 −28 V 下的带宽为 12.96 GHz。作者报告，集成超透镜后，响应度达到原来的五倍，同时保持了探测器的本征性能。"
+        }
+      ],
+      "limits": [
+        "现有材料仅含摘要，缺少五倍响应度对比所用的参照器件及测试条件。",
+        "摘要未给出 40.3 A/W 对应的偏压，无法确认该响应度与所报带宽是否在同一工作点获得。"
+      ],
+      "inference": [
+        "可将固体浸没超透镜作为高速光接收器的光耦合设计方案，评估其在吸收层厚度固定时改善响应度与带宽折中的能力。"
+      ],
+      "source_url": "https://doi.org/10.1063/5.0356369",
       "sections": []
     },
     "188b353e-1d44-4c7d-bb74-ad4a464d51be": {
@@ -6745,29 +6896,6 @@
         "该方法可能为自由空间光通信的预测式光束跟踪与指向补偿提供思路，但实际链路收益仍需实验验证。"
       ],
       "source_url": "https://doi.org/10.1364/oe.609847",
-      "sections": []
-    },
-    "68bec1df-e0f5-461b-abcb-69b26cdeaaf3": {
-      "record_id": "68bec1df-e0f5-461b-abcb-69b26cdeaaf3",
-      "revision": 2,
-      "summary": "该研究提出无干涉直接检测的连续变量量子密钥分发协议，通过Kramers–Kronig关系恢复正交分量，并将协议扩展至连续变量量子接入网络。摘要报告实验结果：在所述接入网络覆盖范围内，每位用户仅使用一个光电探测器、无需干涉结构，即可实现50 kbit/s的秘密密钥率。",
-      "title_zh": "基于Kramers–Kronig接收机的连续变量量子接入网络",
-      "evidence_status": "abstract-only",
-      "facts": [
-        {
-          "locator": "abstract",
-          "source_url": "https://doi.org/10.1103/6lqb-4j6k",
-          "text": "该研究提出无干涉直接检测的连续变量量子密钥分发协议，通过Kramers–Kronig关系恢复正交分量，并将协议扩展至连续变量量子接入网络。摘要报告实验结果：在所述接入网络覆盖范围内，每位用户仅使用一个光电探测器、无需干涉结构，即可实现50 kbit/s的秘密密钥率。"
-        }
-      ],
-      "limits": [
-        "未提供全文，无法核查实验距离、用户规模、信道损耗及秘密密钥率的安全性计算条件。",
-        "摘要未给出鲁棒性与成本优势的定量对照证据。"
-      ],
-      "inference": [
-        "可关注Kramers–Kronig场恢复方法在简化连续变量量子接入接收端方面的应用，并进一步评估其安全性条件与网络扩展约束。"
-      ],
-      "source_url": "https://doi.org/10.1103/6lqb-4j6k",
       "sections": []
     },
     "66d6897c-cfd6-4383-8aa2-f7e41213cc7d": {

@@ -6,9 +6,181 @@
       "title": "从链路到算力互连",
       "description": "关注传输容量、链路预算与互连代价。",
       "question": "容量与距离是否在相同功率和带宽条件下比较？",
-      "count": 61,
-      "latest": "2026-11-20",
+      "count": 62,
+      "latest": "2026-11-22",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "4a84adb5-8f78-43c5-9093-184942c7c4c2",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "ECO-COMM: An Ultra Low-Latency Event Camera based Optical Communication System",
+          "authors": [
+            "Chengling Xu",
+            "Keigo Hirakawa",
+            "Feng Ye"
+          ],
+          "doi": "10.1145/3842721.3849678",
+          "venue": "Proceedings of the Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "f2aed455d09ea15a",
+            "name": "Proceedings of the Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+            "original_name": "Proceedings of the Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+            "abbr": "Proceedings of the Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+            "kind": "conference",
+            "match_status": "unmatched",
+            "aliases": [
+              "Proceedings of the Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+              "Proceedings of the Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "不适用期刊等级",
+            "rank_order": 99,
+            "focus_tier": null,
+            "focus_label": "知流关注级未定",
+            "focus_order": 99,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "未匹配2020院规会议名单。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-11-22",
+          "topics": [
+            "光通信与光互连"
+          ],
+          "summary_zh": "ECO-COMM 利用事件相机的异步感知接收光信号，并针对时间戳不一致、读出争用、拖尾效应和不应期提出缓解方法。摘要报告，采用 8 个 LED 和商用事件相机的单发单收原型在 15 微秒内完成设备关联，最低符号时延为 100 微秒。在比特误码率为 0.1% 时，32 字节有效载荷的端到端时延低于 8 毫秒。",
+          "title_zh": "基于事件相机的低时延光通信",
+          "missing_evidence": [
+            "仅提供摘要，缺少链路距离、环境光条件、时延测量口径及误码率统计方法。",
+            "摘要中的实验范围限于单发单收链路，多设备并发时的性能有待验证。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1145/3842721.3849678",
+              "text": "ECO-COMM 利用事件相机的异步感知接收光信号，并针对时间戳不一致、读出争用、拖尾效应和不应期提出缓解方法。摘要报告，采用 8 个 LED 和商用事件相机的单发单收原型在 15 微秒内完成设备关联，最低符号时延为 100 微秒。在比特误码率为 0.1% 时，32 字节有效载荷的端到端时延低于 8 毫秒。"
+            }
+          ],
+          "ai_inference": [
+            "可在短消息光链路设计中评估事件相机作为接收端的可行性，并分别测量设备关联、符号接收和端到端传输时延。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1145/3842721.3849678",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-22T00:24:34.987274+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "4a84adb5-8f78-43c5-9093-184942c7c4c2",
+            "work_key": "doi:10.1145/3842721.3849678",
+            "identifiers": {
+              "doi": "10.1145/3842721.3849678",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": []
+            },
+            "bibliography": {
+              "title": "ECO-COMM: An Ultra Low-Latency Event Camera based Optical Communication System",
+              "type": "conference-paper",
+              "venue_id": "f2aed455d09ea15a",
+              "venue_name": "Proceedings of the Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+              "venue_abbr": "Proceedings of the Twenty-seventh International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing",
+              "date": "2026-11-22",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": null,
+              "issue": null,
+              "pages": "161-170",
+              "article_number": null,
+              "publisher": "ACM",
+              "language": null,
+              "published_online": null,
+              "published_print": null
+            },
+            "authors": [
+              "Chengling Xu",
+              "Keigo Hirakawa",
+              "Feng Ye"
+            ],
+            "first_author": "Chengling Xu",
+            "author_count": 3,
+            "contributors": [],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [
+                "Optical Wireless Communication Technologies",
+                "Advanced Optical Sensing Technologies",
+                "Semiconductor Lasers and Optical Devices"
+              ],
+              "topic_tags": [],
+              "directions": [
+                "光通信与光互连"
+              ],
+              "direction_basis": "source-classification",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": null,
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": null
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "direct",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": []
+            },
+            "citation_counts": {
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1145/3842721.3849678",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": null,
+              "metadata_observed_at": null,
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
         {
           "schema_version": 1,
           "record_id": "4c08d97f-23f7-4189-8043-372e1be21cc2",
@@ -388,278 +560,6 @@
               ]
             }
           }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "a977476e-0a1e-4bed-b47f-8517d5e1b18f",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "An 8 × 224 Gbps Thermally Stabilized Quantum‐Dot Mode‐Locked Laser Driven DWDM Microring Transmitter for Co‐Packaged Optics and Optical I/O Applications",
-          "authors": [
-            "Xianglin Bu",
-            "Shujie Pan",
-            "Jintao Xue",
-            "Shenlei Bao",
-            "Chao Cheng",
-            "Junjie Yang",
-            "Wenfu Zhang",
-            "Siming Chen",
-            "Binhao Wang"
-          ],
-          "doi": "10.1002/lpor.72243",
-          "venue": "Laser & Photonics Reviews",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "4d348a50e2c95ba5",
-            "name": "Laser & Photonics Reviews",
-            "original_name": "Laser & Photonics Reviews",
-            "abbr": "LPR",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Laser & Photonics Reviews",
-              "LPR",
-              "Laser & Photonics Review",
-              "Laser Photonics Rev."
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": "P1",
-            "focus_label": "知流 P1 · 前沿重点",
-            "focus_order": 1,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-11-16",
-          "topics": [
-            "光通信与光互连"
-          ],
-          "summary_zh": "研究将梳齿间隔为 200 GHz 的量子点锁模激光器光频梳与硅微环调制器阵列结合，构建 O 波段密集波分复用发射机。摘要报道，实验在单根光纤上实现 8 × 224 Gbps PAM4 传输。并行热控制用于同时锁定多个波长并抑制通道间串扰，摘要报告锁定时间缩短至对照方案的十分之一。",
-          "title_zh": "量子点光频梳驱动的 8 × 224 Gbps O 波段硅光发射机",
-          "missing_evidence": [
-            "现有材料仅含摘要，未给出传输距离、误码率和测试条件。",
-            "摘要未说明锁定时间的对照方案，也未量化残余串扰、能耗或长期热稳定性。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1002/lpor.72243",
-              "text": "研究将梳齿间隔为 200 GHz 的量子点锁模激光器光频梳与硅微环调制器阵列结合，构建 O 波段密集波分复用发射机。摘要报道，实验在单根光纤上实现 8 × 224 Gbps PAM4 传输。并行热控制用于同时锁定多个波长并抑制通道间串扰，摘要报告锁定时间缩短至对照方案的十分之一。"
-            }
-          ],
-          "ai_inference": [
-            "将多波长光源与微环阵列的并行热锁定联合设计，可作为共封装光学和光 I/O 发射端扩展波长通道的研究路径。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1002/lpor.72243",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-18T00:39:33.571196+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "a977476e-0a1e-4bed-b47f-8517d5e1b18f",
-            "work_key": "doi:10.1002/lpor.72243",
-            "identifiers": {
-              "doi": "10.1002/lpor.72243",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "1863-8880",
-                "1863-8899"
-              ]
-            },
-            "bibliography": {
-              "title": "An 8 × 224 Gbps Thermally Stabilized Quantum‐Dot Mode‐Locked Laser Driven DWDM Microring Transmitter for Co‐Packaged Optics and Optical I/O Applications",
-              "type": "journal-article",
-              "venue_id": "4d348a50e2c95ba5",
-              "venue_name": "Laser & Photonics Reviews",
-              "venue_abbr": "LPR",
-              "date": "2026-11-16",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": null,
-              "issue": null,
-              "pages": null,
-              "article_number": "e72243",
-              "publisher": "Wiley",
-              "language": "en",
-              "published_online": "2026-11-16",
-              "published_print": null
-            },
-            "authors": [
-              "Xianglin Bu",
-              "Shujie Pan",
-              "Jintao Xue",
-              "Shenlei Bao",
-              "Chao Cheng",
-              "Junjie Yang",
-              "Wenfu Zhang",
-              "Siming Chen",
-              "Binhao Wang"
-            ],
-            "first_author": "Xianglin Bu",
-            "author_count": 9,
-            "contributors": [
-              {
-                "name": "Xianglin Bu",
-                "orcid": "https://orcid.org/0009-0004-0386-3087",
-                "affiliations": [
-                  "State Key Laboratory of Ultrafast Optical Science and Technology, Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences Xi'an Shaanxi China",
-                  "School of Future Technology University of Chinese Academy of Sciences Beijing China"
-                ]
-              },
-              {
-                "name": "Shujie Pan",
-                "orcid": null,
-                "affiliations": [
-                  "Laboratory of Solid State Optoelectronics Information Technology, Institute of Semiconductors Chinese Academy of Sciences Beijing China",
-                  "HS Photonics Co., Ltd. Xiangjiang Science &amp; Technology Innovation Base, Changsha Hunan China"
-                ]
-              },
-              {
-                "name": "Jintao Xue",
-                "orcid": null,
-                "affiliations": [
-                  "State Key Laboratory of Ultrafast Optical Science and Technology, Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences Xi'an Shaanxi China",
-                  "School of Future Technology University of Chinese Academy of Sciences Beijing China"
-                ]
-              },
-              {
-                "name": "Shenlei Bao",
-                "orcid": null,
-                "affiliations": [
-                  "State Key Laboratory of Ultrafast Optical Science and Technology, Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences Xi'an Shaanxi China",
-                  "School of Future Technology University of Chinese Academy of Sciences Beijing China"
-                ]
-              },
-              {
-                "name": "Chao Cheng",
-                "orcid": "https://orcid.org/0009-0003-2121-6994",
-                "affiliations": [
-                  "State Key Laboratory of Ultrafast Optical Science and Technology, Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences Xi'an Shaanxi China",
-                  "School of Future Technology University of Chinese Academy of Sciences Beijing China"
-                ]
-              },
-              {
-                "name": "Junjie Yang",
-                "orcid": null,
-                "affiliations": [
-                  "HS Photonics Co., Ltd. Xiangjiang Science &amp; Technology Innovation Base, Changsha Hunan China"
-                ]
-              },
-              {
-                "name": "Wenfu Zhang",
-                "orcid": "https://orcid.org/0000-0003-3208-1039",
-                "affiliations": [
-                  "State Key Laboratory of Ultrafast Optical Science and Technology, Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences Xi'an Shaanxi China",
-                  "School of Future Technology University of Chinese Academy of Sciences Beijing China"
-                ]
-              },
-              {
-                "name": "Siming Chen",
-                "orcid": null,
-                "affiliations": [
-                  "Laboratory of Solid State Optoelectronics Information Technology, Institute of Semiconductors Chinese Academy of Sciences Beijing China",
-                  "College of Materials Science and Opto‐Electronic Technology University of Chinese Academy of Sciences Beijing China"
-                ]
-              },
-              {
-                "name": "Binhao Wang",
-                "orcid": "https://orcid.org/0000-0002-4040-8444",
-                "affiliations": [
-                  "State Key Laboratory of Ultrafast Optical Science and Technology, Xi'an Institute of Optics and Precision Mechanics Chinese Academy of Sciences Xi'an Shaanxi China",
-                  "School of Future Technology University of Chinese Academy of Sciences Beijing China"
-                ]
-              }
-            ],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "CPO",
-                "WDM",
-                "激光器"
-              ],
-              "directions": [
-                "光通信与光互连"
-              ],
-              "direction_basis": "source-classification",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": null,
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": "P1"
-            },
-            "reading": {
-              "priority": "B",
-              "relevance": "enabling",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": [
-                {
-                  "start": "2026-11-16",
-                  "url": "http://onlinelibrary.wiley.com/termsAndConditions#vor",
-                  "version": "vor"
-                },
-                {
-                  "start": "2026-11-16",
-                  "url": "http://doi.wiley.com/10.1002/tdm_license_1.1",
-                  "version": "tdm"
-                }
-              ]
-            },
-            "citation_counts": {
-              "references": 57,
-              "cited_by": 0,
-              "source": "Crossref",
-              "observed_at": "2026-11-18T00:19:04.878323+00:00"
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1002/lpor.72243",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": "https://api.crossref.org/works/10.1002/lpor.72243",
-              "metadata_observed_at": "2026-11-18T00:19:04.878323+00:00",
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
         }
       ]
     },
@@ -674,7 +574,7 @@
         {
           "schema_version": 1,
           "record_id": "6e6040b9-7821-4bed-97d0-8e9ade0ce51b",
-          "revision": 6,
+          "revision": 8,
           "is_demo": false,
           "kind": "news",
           "title": "Imec Finland, Espoo R&D center, opens to accelerate integrated photonics and optical-system innovation for future AI and computing systems",
@@ -723,20 +623,20 @@
           "topics": [
             "通信光子器件与集成"
           ],
-          "summary_zh": "imec宣布在芬兰埃斯波启用设有光学实验室的研发中心。当地团队负责光学元件与系统的设计、仿真和测试，并开发面向具体应用的验证样机。公告列出的应用方向包括AI基础设施的光互连和高速通信。",
-          "title_zh": "imec在埃斯波启用光子研发中心",
+          "summary_zh": "imec 在芬兰埃斯波启用了设有光学实验室的研发中心。当地团队负责光学器件和系统的设计、仿真与测试，并开发面向特定应用的演示系统。研发方向包括将光子芯片与其他光学器件集成，并在贴近实际应用的条件下验证系统性能，应用场景涵盖 AI 基础设施和高速通信。",
+          "title_zh": "imec 在芬兰启用集成光子与光系统研发中心",
           "missing_evidence": [
-            "公告未提供具体光互连样机的实验数据、测试条件或与电互连的量化对比。"
+            "公告未披露具体光互连演示系统的架构、测试条件或实测性能。"
           ],
           "facts": [
             {
               "locator": "body",
               "source_url": "https://www.imec-int.com/en/press/imec-finland-espoo-rd-center-opens-accelerate-integrated-photonics-and-optical-system",
-              "text": "imec宣布在芬兰埃斯波启用设有光学实验室的研发中心。当地团队负责光学元件与系统的设计、仿真和测试，并开发面向具体应用的验证样机。公告列出的应用方向包括AI基础设施的光互连和高速通信。"
+              "text": "imec 在芬兰埃斯波启用了设有光学实验室的研发中心。当地团队负责光学器件和系统的设计、仿真与测试，并开发面向特定应用的演示系统。研发方向包括将光子芯片与其他光学器件集成，并在贴近实际应用的条件下验证系统性能，应用场景涵盖 AI 基础设施和高速通信。"
             }
           ],
           "ai_inference": [
-            "对光互连研究的启发是，在系统设计阶段将光子芯片与周边光学元件联合设计，并在贴近实际应用的条件下验证系统性能。"
+            "对 AI 光互连研究而言，可将芯片、外围光学器件和系统验证纳入同一研发流程，及早评估器件在实际应用条件下的表现。"
           ],
           "metrics": [],
           "evidence_status": "official-announcement",
@@ -745,7 +645,7 @@
           "relevance_class": "enabling",
           "reading_level": null,
           "news_priority": 85,
-          "review_note": "AI 审核通过 · 来源正文范围 · 2026-11-21T00:34:50.142171+00:00",
+          "review_note": "AI 审核通过 · 来源正文范围 · 2026-11-22T00:37:04.956236+00:00",
           "attributes": {
             "schema": "paperflow.paper-attributes/v1",
             "id": "6e6040b9-7821-4bed-97d0-8e9ade0ce51b",
@@ -1812,9 +1712,187 @@
       "title": "跨越自由空间的光链路",
       "description": "关注湍流、波束、捕获跟踪与空间传输。",
       "question": "结论在什么天气、距离与指向误差条件下成立？",
-      "count": 56,
+      "count": 57,
       "latest": "2026-11-20",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "ad28bbc4-7056-4b8f-824b-649fa7f3a0c8",
+          "revision": 2,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Energy efficiency optimization for dynamic indoor VLC with RSMA via GenAI-based DRL",
+          "authors": [
+            "B Tang",
+            "Yi Yu",
+            "Wenwen Xie",
+            "Weicheng Chu"
+          ],
+          "doi": "10.1186/s13634-026-01379-z",
+          "venue": "Journal on Advances in Signal Processing",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "e0528140159a5d76",
+            "name": "Journal on Advances in Signal Processing",
+            "original_name": "Journal on Advances in Signal Processing",
+            "abbr": "Journal on Advances in Signal Processing",
+            "kind": "journal",
+            "match_status": "unmatched",
+            "aliases": [
+              "Journal on Advances in Signal Processing",
+              "Journal on Advances in Signal Processing"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "未匹配 CIE 2023",
+            "rank_order": 99,
+            "focus_tier": null,
+            "focus_label": "知流关注级未定",
+            "focus_order": 99,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-11-20",
+          "topics": [
+            "自由空间、可见光与空间光通信"
+          ],
+          "summary_zh": "论文研究由天花板多盏 LED 同时提供照明和通信、并服务多个移动用户的室内可见光通信系统。作者采用速率分割多址（RSMA），联合优化预编码矩阵与公共数据流的速率分配，以最大化能效。所提改进 DDPG 算法引入生成对抗网络训练价值评估网络，并采用优先经验回放。摘要报告，在仿真中，该算法的能效优于两种传统策略和三种深度强化学习算法。",
+          "title_zh": "动态室内可见光通信的 RSMA 能效优化",
+          "missing_evidence": [
+            "现有材料仅为摘要，缺少能效提升幅度、仿真场景与基线配置细节。",
+            "现有材料未提供实物链路验证结果。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1186/s13634-026-01379-z",
+              "text": "论文研究由天花板多盏 LED 同时提供照明和通信、并服务多个移动用户的室内可见光通信系统。作者采用速率分割多址（RSMA），联合优化预编码矩阵与公共数据流的速率分配，以最大化能效。所提改进 DDPG 算法引入生成对抗网络训练价值评估网络，并采用优先经验回放。摘要报告，在仿真中，该算法的能效优于两种传统策略和三种深度强化学习算法。"
+            }
+          ],
+          "ai_inference": [
+            "可通过消融仿真分别评估生成对抗网络训练和优先经验回放对能效与收敛表现的贡献。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1186/s13634-026-01379-z",
+          "related_ids": [],
+          "relevance_class": "direct",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-22T00:32:56.080647+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "ad28bbc4-7056-4b8f-824b-649fa7f3a0c8",
+            "work_key": "doi:10.1186/s13634-026-01379-z",
+            "identifiers": {
+              "doi": "10.1186/s13634-026-01379-z",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "3091-4507"
+              ]
+            },
+            "bibliography": {
+              "title": "Energy efficiency optimization for dynamic indoor VLC with RSMA via GenAI-based DRL",
+              "type": "journal-article",
+              "venue_id": "e0528140159a5d76",
+              "venue_name": "Journal on Advances in Signal Processing",
+              "venue_abbr": "Journal on Advances in Signal Processing",
+              "date": "2026-11-20",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": null,
+              "issue": null,
+              "pages": null,
+              "article_number": null,
+              "publisher": null,
+              "language": null,
+              "published_online": null,
+              "published_print": null
+            },
+            "authors": [
+              "B Tang",
+              "Yi Yu",
+              "Wenwen Xie",
+              "Weicheng Chu"
+            ],
+            "first_author": "B Tang",
+            "author_count": 4,
+            "contributors": [],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [
+                "Optical Wireless Communication Technologies",
+                "Advanced Wireless Communication Technologies",
+                "Power Line Communications and Noise"
+              ],
+              "topic_tags": [
+                "可见光通信"
+              ],
+              "directions": [
+                "自由空间、可见光与空间光通信"
+              ],
+              "direction_basis": "source-classification",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": null,
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": null
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "direct",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": []
+            },
+            "citation_counts": {
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1186/s13634-026-01379-z",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": null,
+              "metadata_observed_at": null,
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
         {
           "schema_version": 1,
           "record_id": "9a2f8bfe-5b61-4f97-b9ca-a16f7b946230",
@@ -2223,185 +2301,6 @@
               "normalizer": "paper-attributes-v1",
               "metadata_source": "https://api.crossref.org/works/10.1186/s43593-026-00146-9",
               "metadata_observed_at": "2026-11-20T00:20:26.910199+00:00",
-              "missing": [
-                "author_keywords",
-                "open_access"
-              ]
-            }
-          }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "f1ef5dc3-3563-4209-bb6a-e845f9fbd1f5",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Receiver-aperture optimization for pointing-error mitigation in free-space optical communication",
-          "authors": [
-            "Shippu Sachdeva",
-            "Vivek Gupta",
-            "Bijal Jigar Talati",
-            "Gazal Sharma",
-            "Sachin Chawla",
-            "Manoj Sindhwani"
-          ],
-          "doi": "10.1515/joc-2026-0493",
-          "venue": "Journal of Optical Communications",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "a11a7eb93fc7eae5",
-            "name": "Journal of Optical Communications",
-            "original_name": "Journal of Optical Communications",
-            "abbr": "J. Opt. Commun.",
-            "kind": "journal",
-            "match_status": "matched",
-            "aliases": [
-              "Journal of Optical Communications",
-              "J. Opt. Commun."
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": "P3",
-            "focus_label": "知流 P3 · 扩展关注",
-            "focus_order": 3,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-11-18",
-          "topics": [
-            "自由空间、可见光与空间光通信"
-          ],
-          "summary_zh": "研究使用 OptiSystem 仿真了 10 km 单通道自由空间光链路，光载波波长为 1550 nm，发射口径为 15 cm，接收口径在 5–30 cm 范围内选取。接收口径为 15 cm 时，发射端指向误差从 0 增至 5 μrad，接收光功率由 −2.150 dBm 降至 −12.186 dBm，功率惩罚为 10.036 dB。摘要报告在所设条件下得到 20 cm 的优化接收口径，并评估了 5–20 km 的传播距离。",
-          "title_zh": "自由空间光链路的指向误差与接收口径优化",
-          "missing_evidence": [
-            "仅有摘要，缺少全文中的口径优化判据、仿真参数和各传播距离的详细结果。",
-            "摘要未报告实验验证，也未量化采用 20 cm 接收口径后的改善幅度。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1515/joc-2026-0493",
-              "text": "研究使用 OptiSystem 仿真了 10 km 单通道自由空间光链路，光载波波长为 1550 nm，发射口径为 15 cm，接收口径在 5–30 cm 范围内选取。接收口径为 15 cm 时，发射端指向误差从 0 增至 5 μrad，接收光功率由 −2.150 dBm 降至 −12.186 dBm，功率惩罚为 10.036 dB。摘要报告在所设条件下得到 20 cm 的优化接收口径，并评估了 5–20 km 的传播距离。"
-            }
-          ],
-          "ai_inference": [
-            "可将接收口径和指向误差容限纳入同一链路预算，并按传播距离比较候选口径下的接收功率。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1515/joc-2026-0493",
-          "related_ids": [],
-          "relevance_class": "direct",
-          "reading_level": "B",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-18T00:26:57.267033+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "f1ef5dc3-3563-4209-bb6a-e845f9fbd1f5",
-            "work_key": "doi:10.1515/joc-2026-0493",
-            "identifiers": {
-              "doi": "10.1515/joc-2026-0493",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "0173-4911",
-                "2191-6322"
-              ]
-            },
-            "bibliography": {
-              "title": "Receiver-aperture optimization for pointing-error mitigation in free-space optical communication",
-              "type": "journal-article",
-              "venue_id": "a11a7eb93fc7eae5",
-              "venue_name": "Journal of Optical Communications",
-              "venue_abbr": "J. Opt. Commun.",
-              "date": "2026-11-18",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": null,
-              "issue": null,
-              "pages": null,
-              "article_number": null,
-              "publisher": "Walter de Gruyter GmbH",
-              "language": null,
-              "published_online": null,
-              "published_print": null
-            },
-            "authors": [
-              "Shippu Sachdeva",
-              "Vivek Gupta",
-              "Bijal Jigar Talati",
-              "Gazal Sharma",
-              "Sachin Chawla",
-              "Manoj Sindhwani"
-            ],
-            "first_author": "Shippu Sachdeva",
-            "author_count": 6,
-            "contributors": [],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "自由空间光通信"
-              ],
-              "directions": [
-                "自由空间、可见光与空间光通信"
-              ],
-              "direction_basis": "source-classification",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": null,
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": "P3"
-            },
-            "reading": {
-              "priority": "B",
-              "relevance": "direct",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": []
-            },
-            "citation_counts": {
-              "references": null,
-              "cited_by": null,
-              "source": null,
-              "observed_at": null
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1515/joc-2026-0493",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": null,
-              "metadata_observed_at": null,
               "missing": [
                 "author_keywords",
                 "open_access"
@@ -4296,8 +4195,194 @@
       "description": "关注量子链路、纠缠分发与经典网络共存。",
       "question": "速率、保真度与距离是否在可比条件下报告？",
       "count": 25,
-      "latest": "2026-11-18",
+      "latest": "2026-11-20",
       "items": [
+        {
+          "schema_version": 1,
+          "record_id": "68bec1df-e0f5-461b-abcb-69b26cdeaaf3",
+          "revision": 4,
+          "is_demo": false,
+          "kind": "paper",
+          "title": "Robust and cost-effective quantum network using Kramers-Kronig receiver",
+          "authors": [
+            "Xu Liu",
+            "Tao Wang",
+            "Junpeng Zhang",
+            "Yankai Xu",
+            "Yuehan Xu",
+            "Lang Li",
+            "Peng Huang",
+            "Guihua Zeng"
+          ],
+          "doi": "10.1103/6lqb-4j6k",
+          "venue": "Physical Review Research",
+          "venue_info": {
+            "catalog_version": "optical-venues-2026-10-22-v2",
+            "id": "b54645eef46d42c1",
+            "name": "Physical Review Research",
+            "original_name": "Physical Review Research",
+            "abbr": "Physical Review Research",
+            "kind": "journal",
+            "match_status": "unmatched",
+            "aliases": [
+              "Physical Review Research",
+              "Physical Review Research"
+            ],
+            "rank_scheme": "cie-electronics-communications-2023",
+            "rank_source": "中国电子学会 2023",
+            "rank_version": "2023",
+            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
+            "rank_grade": null,
+            "rank_label": "未匹配 CIE 2023",
+            "rank_order": 99,
+            "focus_tier": null,
+            "focus_label": "知流关注级未定",
+            "focus_order": 99,
+            "hust_grade": null,
+            "hust_rule_grade": null,
+            "hust_status": "unverified",
+            "hust_label": "院规待核 · 2020",
+            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
+            "hust_source": "",
+            "hust_page": null,
+            "hust_year": 2020,
+            "hust_order": 99,
+            "exchange_grade": null,
+            "exchange_year": null,
+            "exchange_code": "",
+            "exchange_page": null,
+            "exchange_label": "",
+            "exchange_source": ""
+          },
+          "published_at": "2026-11-20",
+          "topics": [
+            "量子通信与网络"
+          ],
+          "summary_zh": "论文提出一种无需光学干涉的直接探测连续变量量子密钥分发（CV-QKD）协议，通过克拉默斯–克勒尼希关系恢复正交分量，并将协议扩展至量子接入网络。摘要报告，实验中接入网覆盖范围内的每位用户仅用一个光电探测器即可达到 50 kbit/s 的渐近安全密钥率。",
+          "title_zh": "基于克拉默斯–克勒尼希接收机的量子接入网络",
+          "missing_evidence": [
+            "摘要未给出具体传输距离、链路损耗或用户规模。",
+            "有限密钥条件下的密钥率，以及相对既有接收方案的稳定性和成本对比，仍需查阅全文核实。"
+          ],
+          "facts": [
+            {
+              "locator": "abstract",
+              "source_url": "https://doi.org/10.1103/6lqb-4j6k",
+              "text": "论文提出一种无需光学干涉的直接探测连续变量量子密钥分发（CV-QKD）协议，通过克拉默斯–克勒尼希关系恢复正交分量，并将协议扩展至量子接入网络。摘要报告，实验中接入网覆盖范围内的每位用户仅用一个光电探测器即可达到 50 kbit/s 的渐近安全密钥率。"
+            }
+          ],
+          "ai_inference": [
+            "无光学干涉的单探测器架构可作为简化多用户 CV-QKD 接收端的候选方案。"
+          ],
+          "metrics": [],
+          "evidence_status": "abstract-only",
+          "source_url": "https://doi.org/10.1103/6lqb-4j6k",
+          "related_ids": [],
+          "relevance_class": "enabling",
+          "reading_level": "B",
+          "news_priority": null,
+          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-22T00:30:50.753466+00:00",
+          "attributes": {
+            "schema": "paperflow.paper-attributes/v1",
+            "id": "68bec1df-e0f5-461b-abcb-69b26cdeaaf3",
+            "work_key": "doi:10.1103/6lqb-4j6k",
+            "identifiers": {
+              "doi": "10.1103/6lqb-4j6k",
+              "arxiv": null,
+              "paper_code": null,
+              "issn": [
+                "2643-1564"
+              ]
+            },
+            "bibliography": {
+              "title": "Robust and cost-effective quantum network using Kramers-Kronig receiver",
+              "type": "journal-article",
+              "venue_id": "b54645eef46d42c1",
+              "venue_name": "Physical Review Research",
+              "venue_abbr": "Physical Review Research",
+              "date": "2026-11-20",
+              "date_precision": "day",
+              "year": 2026,
+              "volume": "8",
+              "issue": "4",
+              "pages": "043183",
+              "article_number": null,
+              "publisher": null,
+              "language": null,
+              "published_online": null,
+              "published_print": null
+            },
+            "authors": [
+              "Xu Liu",
+              "Tao Wang",
+              "Junpeng Zhang",
+              "Yankai Xu",
+              "Yuehan Xu",
+              "Lang Li",
+              "Peng Huang",
+              "Guihua Zeng"
+            ],
+            "first_author": "Xu Liu",
+            "author_count": 8,
+            "contributors": [],
+            "content": {
+              "author_keywords": [],
+              "source_subjects": [
+                "Quantum Information and Cryptography",
+                "Quantum Computing Algorithms and Architecture",
+                "Wireless Communication Security Techniques"
+              ],
+              "topic_tags": [
+                "量子通信"
+              ],
+              "directions": [
+                "量子通信与网络"
+              ],
+              "direction_basis": "title-session-rule",
+              "tag_basis": "title-session-rule"
+            },
+            "conference": {
+              "session": null,
+              "presentation_type": null
+            },
+            "ratings": {
+              "cie": null,
+              "cie_year": 2023,
+              "hust_reference": null,
+              "hust_confirmed": null,
+              "hust_status": "unverified",
+              "hust_year": 2020,
+              "exchange": null,
+              "exchange_year": null,
+              "focus": null
+            },
+            "reading": {
+              "priority": "B",
+              "relevance": "enabling",
+              "evidence": "abstract-only"
+            },
+            "access": {
+              "oa_status": "unknown",
+              "licenses": []
+            },
+            "citation_counts": {
+              "references": null,
+              "cited_by": null,
+              "source": null,
+              "observed_at": null
+            },
+            "provenance": {
+              "source_url": "https://doi.org/10.1103/6lqb-4j6k",
+              "normalizer": "paper-attributes-v1",
+              "metadata_source": null,
+              "metadata_observed_at": null,
+              "missing": [
+                "author_keywords",
+                "open_access"
+              ]
+            }
+          }
+        },
         {
           "schema_version": 1,
           "record_id": "7405c499-7726-4377-8974-052a0df2f61b",
@@ -4752,183 +4837,6 @@
               "missing": [
                 "author_keywords",
                 "doi",
-                "open_access"
-              ]
-            }
-          }
-        },
-        {
-          "schema_version": 1,
-          "record_id": "d83fdcc7-b37a-482e-ab5e-dab26a126635",
-          "revision": 2,
-          "is_demo": false,
-          "kind": "paper",
-          "title": "Fully integrated entangled photon-pair source on a photonic chip for a wavelength-multiplexed multiparty quantum key distribution network",
-          "authors": [
-            "Maximilian Mengler",
-            "Jakob Kaltwasser",
-            "Erik Fitzke",
-            "Thomas Hoffmann",
-            "Thomas Walther"
-          ],
-          "doi": "10.1103/n4rw-wgx1",
-          "venue": "Physical Review A",
-          "venue_info": {
-            "catalog_version": "optical-venues-2026-10-22-v2",
-            "id": "487ef5107373d131",
-            "name": "Physical Review A",
-            "original_name": "Physical Review A",
-            "abbr": "Physical Review A",
-            "kind": "journal",
-            "match_status": "unmatched",
-            "aliases": [
-              "Physical Review A",
-              "Physical Review A"
-            ],
-            "rank_scheme": "cie-electronics-communications-2023",
-            "rank_source": "中国电子学会 2023",
-            "rank_version": "2023",
-            "rank_source_url": "https://www.cie.org.cn/list_42/11930.html",
-            "rank_grade": null,
-            "rank_label": "未匹配 CIE 2023",
-            "rank_order": 99,
-            "focus_tier": null,
-            "focus_label": "知流关注级未定",
-            "focus_order": 99,
-            "hust_grade": null,
-            "hust_rule_grade": null,
-            "hust_status": "unverified",
-            "hust_label": "院规待核 · 2020",
-            "hust_note": "需补近三年中科院大类分区证据，按最高等级匹配。",
-            "hust_source": "",
-            "hust_page": null,
-            "hust_year": 2020,
-            "hust_order": 99,
-            "exchange_grade": null,
-            "exchange_year": null,
-            "exchange_code": "",
-            "exchange_page": null,
-            "exchange_label": "",
-            "exchange_source": ""
-          },
-          "published_at": "2026-11-13",
-          "topics": [
-            "量子通信与网络"
-          ],
-          "summary_zh": "论文报告一种面向纠缠型量子密钥分发网络的光子芯片概念与表征：利用微环谐振器中的自发四波混频产生光子对，并在芯片上执行必要的滤波任务；采用 Pound–Drever–Hall 锁定方法，可在较长时间内维持恒定的光子对产生率。",
-          "title_zh": "面向波分多方量子密钥分发的集成纠缠光子对源",
-          "missing_evidence": [
-            "仅有摘要，缺少全文、实验装置与定量表征，无法核实纠缠质量、滤波性能、稳定运行时长及误差。",
-            "标题提出波分复用多方网络用途，但摘要未提供多方网络运行或密钥分发性能证据。"
-          ],
-          "facts": [
-            {
-              "locator": "abstract",
-              "source_url": "https://doi.org/10.1103/n4rw-wgx1",
-              "text": "论文报告一种面向纠缠型量子密钥分发网络的光子芯片概念与表征：利用微环谐振器中的自发四波混频产生光子对，并在芯片上执行必要的滤波任务；采用 Pound–Drever–Hall 锁定方法，可在较长时间内维持恒定的光子对产生率。"
-            }
-          ],
-          "ai_inference": [
-            "集成光子对产生与滤波，并结合锁定控制，可为波分复用量子通信光源的集成与稳定运行提供研究参考。"
-          ],
-          "metrics": [],
-          "evidence_status": "abstract-only",
-          "source_url": "https://doi.org/10.1103/n4rw-wgx1",
-          "related_ids": [],
-          "relevance_class": "enabling",
-          "reading_level": "C",
-          "news_priority": null,
-          "review_note": "AI 审核通过 · 摘要范围 · 2026-11-14T00:32:16.806790+00:00",
-          "attributes": {
-            "schema": "paperflow.paper-attributes/v1",
-            "id": "d83fdcc7-b37a-482e-ab5e-dab26a126635",
-            "work_key": "doi:10.1103/n4rw-wgx1",
-            "identifiers": {
-              "doi": "10.1103/n4rw-wgx1",
-              "arxiv": null,
-              "paper_code": null,
-              "issn": [
-                "2469-9926",
-                "2469-9934"
-              ]
-            },
-            "bibliography": {
-              "title": "Fully integrated entangled photon-pair source on a photonic chip for a wavelength-multiplexed multiparty quantum key distribution network",
-              "type": "journal-article",
-              "venue_id": "487ef5107373d131",
-              "venue_name": "Physical Review A",
-              "venue_abbr": "Physical Review A",
-              "date": "2026-11-13",
-              "date_precision": "day",
-              "year": 2026,
-              "volume": "114",
-              "issue": "5",
-              "pages": null,
-              "article_number": null,
-              "publisher": "American Physical Society (APS)",
-              "language": null,
-              "published_online": null,
-              "published_print": null
-            },
-            "authors": [
-              "Maximilian Mengler",
-              "Jakob Kaltwasser",
-              "Erik Fitzke",
-              "Thomas Hoffmann",
-              "Thomas Walther"
-            ],
-            "first_author": "Maximilian Mengler",
-            "author_count": 5,
-            "contributors": [],
-            "content": {
-              "author_keywords": [],
-              "source_subjects": [],
-              "topic_tags": [
-                "量子通信"
-              ],
-              "directions": [
-                "量子通信与网络"
-              ],
-              "direction_basis": "title-session-rule",
-              "tag_basis": "title-session-rule"
-            },
-            "conference": {
-              "session": null,
-              "presentation_type": null
-            },
-            "ratings": {
-              "cie": null,
-              "cie_year": 2023,
-              "hust_reference": null,
-              "hust_confirmed": null,
-              "hust_status": "unverified",
-              "hust_year": 2020,
-              "exchange": null,
-              "exchange_year": null,
-              "focus": null
-            },
-            "reading": {
-              "priority": "C",
-              "relevance": "enabling",
-              "evidence": "abstract-only"
-            },
-            "access": {
-              "oa_status": "unknown",
-              "licenses": []
-            },
-            "citation_counts": {
-              "references": null,
-              "cited_by": null,
-              "source": null,
-              "observed_at": null
-            },
-            "provenance": {
-              "source_url": "https://doi.org/10.1103/n4rw-wgx1",
-              "normalizer": "paper-attributes-v1",
-              "metadata_source": null,
-              "metadata_observed_at": null,
-              "missing": [
-                "author_keywords",
                 "open_access"
               ]
             }
@@ -7047,10 +6955,10 @@
       ]
     }
   ],
-  "unclassified": 116,
+  "unclassified": 118,
   "evidence_counts": {
     "abstract+pdf-link": 127,
-    "abstract-only": 328,
+    "abstract-only": 332,
     "official-announcement": 2
   }
 }

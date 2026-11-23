@@ -3,17 +3,17 @@
   "record_id": "db75be97-b482-42ef-b9b0-d64d627065f4",
   "root": "W7163188260",
   "status": "ok",
-  "checked_at": "2026-10-18T12:27:55.841653+00:00",
+  "checked_at": "2026-11-23T00:50:29.558512+00:00",
   "coverage": {
-    "references_found": 3,
-    "citing_found": 1,
+    "references_found": 4,
+    "citing_found": 2,
     "reference_limit": 100,
     "citing_limit": 30,
     "display_limit": 41,
     "references_status": "ok",
     "citing_status": "ok",
-    "candidates_resolved": 4,
-    "displayed": 4
+    "candidates_resolved": 6,
+    "displayed": 6
   },
   "issues": [],
   "refresh_failed": false,
@@ -46,7 +46,7 @@
         "modulators"
       ],
       "url": "https://doi.org/10.1364/ofc.2026.th4a.1",
-      "cited_by_count": 1,
+      "cited_by_count": 2,
       "importance": 1,
       "score_basis": {},
       "role": "root",
@@ -85,7 +85,7 @@
         "PIN diodes"
       ],
       "url": "https://doi.org/10.1109/jlt.2022.3221814",
-      "cited_by_count": 32,
+      "cited_by_count": 35,
       "importance": 0.4169,
       "score_basis": {
         "topic_overlap": 0.438,
@@ -129,6 +129,50 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
+      "id": "W7235970258",
+      "doi": "10.1364/eceoc.2026.tu3_d4",
+      "title": "Energy-Efficient Optical Chiplet Link with Heterogeneously Integrated Membrane EA-DFB Laser Achieving 1.55 pJ/bit at 64-Gbit/s PAM-4",
+      "authors": [
+        "Suguru Yamaoka",
+        "Tatsurou Hiraki",
+        "Tadashi Minotani",
+        "Yoshiya Shikama",
+        "Tomomasa Kiyozawa",
+        "Tomoya Taguchi",
+        "Takuma Aihara",
+        "Yoshiho Maeda",
+        "Takuro Fujii",
+        "Yuichi Tsujita",
+        "Tomonari Sato",
+        "Shinji Matsuo"
+      ],
+      "year": 2026,
+      "venue": "European Conference on Optical Communication",
+      "venue_abbr": "ECOC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "electroabsorption modulator",
+        "membrane lasers",
+        "InGaAsP lasers",
+        "flip-chip bonding",
+        "silicon photonics",
+        "PAM-4",
+        "1550 nm"
+      ],
+      "url": "https://doi.org/10.1364/eceoc.2026.tu3_d4",
+      "cited_by_count": 0,
+      "importance": 0.3652,
+      "score_basis": {
+        "topic_overlap": 0.367,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "citing",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
       "id": "W4391876766",
       "doi": "10.1109/jlt.2024.3366579",
       "title": "Micro-Transfer-Printed InP-Based Membrane Photonic Devices on Thin-Film Lithium Niobate Platform",
@@ -163,7 +207,7 @@
         "optical communication"
       ],
       "url": "https://doi.org/10.1109/jlt.2024.3366579",
-      "cited_by_count": 19,
+      "cited_by_count": 21,
       "importance": 0.3407,
       "score_basis": {
         "topic_overlap": 0.313,
@@ -217,7 +261,7 @@
         "forward error correction"
       ],
       "url": "https://doi.org/10.1109/jlt.2025.3526822",
-      "cited_by_count": 16,
+      "cited_by_count": 19,
       "importance": 0.3358,
       "score_basis": {
         "topic_overlap": 0.302,
@@ -228,9 +272,61 @@
       "reading_url": null,
       "summary": "",
       "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1968580371",
+      "doi": "10.1364/oe.23.009533",
+      "title": "Novel approach for chirp and output power compensation applied to a 40-Gbit/s EADFB laser integrated with a short SOA",
+      "authors": [
+        "Wataru Kobayashi",
+        "Masakazu Arai",
+        "Takeshi Fujisawa",
+        "Tomonari Sato",
+        "Toshio Ito",
+        "Koichi Hasebe",
+        "Shigeru Kanazawa",
+        "Yuta Ueda",
+        "Takayuki Yamanaka",
+        "Hiroaki Sanjoh"
+      ],
+      "year": 2015,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "semiconductor optical amplifier",
+        "chirp compensation",
+        "monolithic integration",
+        "40 Gb/s transmission",
+        "single-mode fiber transmission",
+        "1550 nm",
+        "energy consumption reduction"
+      ],
+      "url": "https://doi.org/10.1364/oe.23.009533",
+      "cited_by_count": 44,
+      "importance": 0.3193,
+      "score_basis": {
+        "topic_overlap": 0.265,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
   "edges": [
+    {
+      "from": "W7163188260",
+      "to": "W1968580371",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163188260"
+        }
+      ]
+    },
     {
       "from": "W7163188260",
       "to": "W4312477439",
@@ -278,6 +374,16 @@
         {
           "provider": "OpenAlex",
           "url": "https://api.openalex.org/works/W7170074571"
+        }
+      ]
+    },
+    {
+      "from": "W7235970258",
+      "to": "W7163188260",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7235970258"
         }
       ]
     }

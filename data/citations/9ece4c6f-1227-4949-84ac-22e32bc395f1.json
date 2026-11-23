@@ -1,0 +1,174 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "9ece4c6f-1227-4949-84ac-22e32bc395f1",
+  "root": "W7225833896",
+  "status": "ok",
+  "checked_at": "2026-11-16T00:45:11.672018+00:00",
+  "coverage": {
+    "references_found": 2,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "candidates_resolved": 2,
+    "displayed": 2
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7225833896",
+      "doi": "10.1109/jlt.2026.3752946",
+      "title": "Conformal Risk Control for QoT-Aware Lightpath Feasibility Under Technology-Driven Domain Shift",
+      "authors": [
+        "Kiarash Rezaei",
+        "Omran Ayoub",
+        "Paolo Monti A",
+        "Carlos Natalino"
+      ],
+      "year": 2026,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "conformal risk control",
+        "uncertainty quantification",
+        "transmission quality",
+        "optical networks",
+        "domain shift",
+        "space-division multiplexing",
+        "quantile regression",
+        "transfer learning"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2026.3752946",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/9ece4c6f-1227-4949-84ac-22e32bc395f1.html",
+      "summary": "该预印本提出一种事后保形风险控制方法，固定预训练的光信噪比（OSNR）回归模型，用不确定性区间评估技术升级引起分布偏移时的光路可行性。有限样本保证针对区间未覆盖风险，可行性决策的错误率通过数据集实验评估。在 CONUS 拓扑的开放空分复用传输质量数据集上，覆盖目标为 90% 时，该方法在 170 次试验中均达到目标，仅用源域数据的分位数回归基线均未达到。在严重偏移条件下，效率导向策略将零样本可行性判定准确率从约 85% 提高到 99% 以上，无需重新训练回归模型。",
+      "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W4361012985",
+      "doi": "10.1561/2200000101",
+      "title": "Conformal Prediction: A Gentle Introduction",
+      "authors": [
+        "Anastasios N. Angelopoulos",
+        "Stephen Bates"
+      ],
+      "year": 2023,
+      "venue": "Foundations and Trends® in Machine Learning",
+      "venue_abbr": "Foundations and Trends® in Machine Learning",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "conformal prediction",
+        "conformal inference",
+        "uncertainty quantification",
+        "prediction intervals",
+        "black-box models",
+        "structured output",
+        "distribution shift",
+        "time series",
+        "outlier detection",
+        "abstention"
+      ],
+      "url": "https://doi.org/10.1561/2200000101",
+      "cited_by_count": 2703,
+      "importance": 0.2993,
+      "score_basis": {
+        "topic_overlap": 0.065,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410803261",
+      "doi": "10.1214/24-aoas1998",
+      "title": "Learn then test: Calibrating predictive algorithms to achieve risk control",
+      "authors": [
+        "Anastasios N. Angelopoulos",
+        "Stephen Bates",
+        "Emmanuel J. Candès",
+        "Michael I. Jordan",
+        "Lihua Lei"
+      ],
+      "year": 2025,
+      "venue": "The Annals of Applied Statistics",
+      "venue_abbr": "The Annals of Applied Statistics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "model calibration",
+        "risk control",
+        "finite-sample guarantees",
+        "false discovery rate control",
+        "multi-label classification",
+        "intersection over union",
+        "instance segmentation",
+        "multiple comparisons",
+        "object detection",
+        "Detectron2"
+      ],
+      "url": "https://doi.org/10.1214/24-aoas1998",
+      "cited_by_count": 340,
+      "importance": 0.2813,
+      "score_basis": {
+        "topic_overlap": 0.025,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W4361012985",
+      "to": "W4410803261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4361012985"
+        }
+      ]
+    },
+    {
+      "from": "W4410803261",
+      "to": "W4361012985",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410803261"
+        }
+      ]
+    },
+    {
+      "from": "W7225833896",
+      "to": "W4361012985",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225833896"
+        }
+      ]
+    },
+    {
+      "from": "W7225833896",
+      "to": "W4410803261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7225833896"
+        }
+      ]
+    }
+  ]
+}

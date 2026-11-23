@@ -3,7 +3,7 @@
   "record_id": "4b24d006-0462-4b22-be5d-dc9809de13a7",
   "root": "W7213537236",
   "status": "ok",
-  "checked_at": "2026-10-18T12:27:53.667488+00:00",
+  "checked_at": "2026-11-23T00:50:25.808262+00:00",
   "coverage": {
     "references_found": 22,
     "citing_found": 0,
@@ -36,9 +36,12 @@
       "keywords": [
         "silicon microring resonator",
         "bistability",
-        "continuous-wave pumping",
-        "optical bistability",
-        "nonlinear optics"
+        "thermal nonlinearity",
+        "self-heating",
+        "thermal hysteresis",
+        "resonance width",
+        "low-Q resonators",
+        "nonlinear optical processes"
       ],
       "url": "https://doi.org/10.1364/oe.612005",
       "cited_by_count": 0,
@@ -59,7 +62,7 @@
       ],
       "year": 2021,
       "venue": "Optics Communications",
-      "venue_abbr": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
         "silicon microring resonator",
@@ -72,58 +75,11 @@
       ],
       "url": "https://doi.org/10.1016/j.optcom.2021.127021",
       "cited_by_count": 6,
-      "importance": 0.6168,
+      "importance": 0.6125,
       "score_basis": {
-        "topic_overlap": 0.326,
+        "topic_overlap": 0.317,
         "shared_references": 6,
         "local_citations": 1
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W3084467643",
-      "doi": "10.1016/j.optcom.2020.126456",
-      "title": "Carrier-induced optical bistability in the silicon micro-ring resonators under continuous wave pumping",
-      "authors": [
-        "Andrey A. Nikitin",
-        "А. В. Кондрашов",
-        "Vitalii V. Vitko",
-        "Ilya A. Ryabcev",
-        "Galina A. Zaretskaya",
-        "Nikolay A. Cheplagin",
-        "Конкин Дмитрий Анатольевич",
-        "A. A. Kokolov",
-        "Л. И. Бабак",
-        "Alexey B. Ustinov",
-        "B. A. Kalinikos"
-      ],
-      "year": 2020,
-      "venue": "Optics Communications",
-      "venue_abbr": "Optics Communications",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "optical bistability",
-        "silicon microring resonator",
-        "continuous-wave pumping",
-        "nonlinear frequency response",
-        "free carrier absorption",
-        "free-carrier dispersion",
-        "Kerr nonlinearity",
-        "two-photon absorption",
-        "thermo-optic effect",
-        "silicon-on-insulator",
-        "resonant frequency shift"
-      ],
-      "url": "https://doi.org/10.1016/j.optcom.2020.126456",
-      "cited_by_count": 26,
-      "importance": 0.5643,
-      "score_basis": {
-        "topic_overlap": 0.387,
-        "shared_references": 3,
-        "local_citations": 2
       },
       "role": "reference",
       "reading_url": null,
@@ -155,10 +111,93 @@
         "silicon photonics"
       ],
       "url": "https://doi.org/10.1364/oe.27.024274",
-      "cited_by_count": 70,
-      "importance": 0.5497,
+      "cited_by_count": 79,
+      "importance": 0.5541,
       "score_basis": {
-        "topic_overlap": 0.222,
+        "topic_overlap": 0.231,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3084467643",
+      "doi": "10.1016/j.optcom.2020.126456",
+      "title": "Carrier-induced optical bistability in the silicon micro-ring resonators under continuous wave pumping",
+      "authors": [
+        "Andrey A. Nikitin",
+        "А. В. Кондрашов",
+        "Vitalii V. Vitko",
+        "Ilya A. Ryabcev",
+        "Galina A. Zaretskaya",
+        "Nikolay A. Cheplagin",
+        "Конкин Дмитрий Анатольевич",
+        "A. A. Kokolov",
+        "Л. И. Бабак",
+        "Alexey B. Ustinov",
+        "B. A. Kalinikos"
+      ],
+      "year": 2020,
+      "venue": "Optics Communications",
+      "venue_abbr": "Opt. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical bistability",
+        "silicon microring resonator",
+        "continuous-wave pumping",
+        "nonlinear frequency response",
+        "free carrier absorption",
+        "free-carrier dispersion",
+        "Kerr nonlinearity",
+        "two-photon absorption",
+        "thermo-optic effect",
+        "silicon-on-insulator",
+        "resonant frequency shift"
+      ],
+      "url": "https://doi.org/10.1016/j.optcom.2020.126456",
+      "cited_by_count": 30,
+      "importance": 0.5415,
+      "score_basis": {
+        "topic_overlap": 0.337,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4389618927",
+      "doi": "10.1364/oe.499055",
+      "title": "Measurement accuracy in silicon photonic ring resonator thermometers: identifying and mitigating intrinsic impairments",
+      "authors": [
+        "Siegfried Janz",
+        "Sergey N. Dedyulin",
+        "Dan‐Xia Xu",
+        "M. Jonathan Vachon",
+        "Shurui Wang",
+        "Ross Cheriton",
+        "John Weber"
+      ],
+      "year": 2023,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical temperature sensor",
+        "measurement accuracy",
+        "self-heating",
+        "back reflection"
+      ],
+      "url": "https://doi.org/10.1364/oe.499055",
+      "cited_by_count": 24,
+      "importance": 0.5359,
+      "score_basis": {
+        "topic_overlap": 0.191,
         "shared_references": 5,
         "local_citations": 0
       },
@@ -199,10 +238,10 @@
         "silicon light sources"
       ],
       "url": "https://doi.org/10.1002/lpor.201100017",
-      "cited_by_count": 2641,
-      "importance": 0.538,
+      "cited_by_count": 3037,
+      "importance": 0.5341,
       "score_basis": {
-        "topic_overlap": 0.195,
+        "topic_overlap": 0.187,
         "shared_references": 3,
         "local_citations": 5
       },
@@ -217,7 +256,7 @@
       "title": "Study of nonlinear effects and self-heating in a silicon microring resonator including a Shockley-Read-Hall model for carrier recombination",
       "authors": [
         "Marco Novarese",
-        "Sebastian Romero Garcia",
+        "Sebastián Romero-García",
         "Stefania Cucco",
         "Don Adams",
         "Jock Bovington",
@@ -242,86 +281,12 @@
         "refractive index modulation"
       ],
       "url": "https://doi.org/10.1364/oe.446739",
-      "cited_by_count": 40,
-      "importance": 0.5061,
+      "cited_by_count": 47,
+      "importance": 0.5101,
       "score_basis": {
-        "topic_overlap": 0.302,
+        "topic_overlap": 0.311,
         "shared_references": 3,
         "local_citations": 1
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W2344703042",
-      "doi": "10.1109/jstqe.2016.2560149",
-      "title": "Parametric Characterization of Self-Heating in Depletion-Type Si Micro-Ring Modulators",
-      "authors": [
-        "Myung Jin Shin",
-        "Yoojin Ban",
-        "Byung-Min Yu",
-        "Jinsoo Rhim",
-        "Lars Zimmermann",
-        "Woo‐Young Choi"
-      ],
-      "year": 2016,
-      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
-      "venue_abbr": "JSTQE",
-      "rank_label": "未匹配 CIE 2023",
-      "keywords": [
-        "self-heating",
-        "silicon microring resonator",
-        "free carrier absorption",
-        "effective refractive index",
-        "coupled mode theory",
-        "doping concentration",
-        "device size dependence"
-      ],
-      "url": "https://doi.org/10.1109/jstqe.2016.2560149",
-      "cited_by_count": 30,
-      "importance": 0.4789,
-      "score_basis": {
-        "topic_overlap": 0.398,
-        "shared_references": 2,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W4389618927",
-      "doi": "10.1364/oe.499055",
-      "title": "Measurement accuracy in silicon photonic ring resonator thermometers: identifying and mitigating intrinsic impairments",
-      "authors": [
-        "Siegfried Janz",
-        "Sergey N. Dedyulin",
-        "Dan‐Xia Xu",
-        "M. Jonathan Vachon",
-        "Shurui Wang",
-        "Ross Cheriton",
-        "John Weber"
-      ],
-      "year": 2023,
-      "venue": "Optics Express",
-      "venue_abbr": "OE",
-      "rank_label": "CIE T2 · 2023",
-      "keywords": [
-        "optical temperature sensor",
-        "measurement accuracy",
-        "self-heating",
-        "back reflection"
-      ],
-      "url": "https://doi.org/10.1364/oe.499055",
-      "cited_by_count": 19,
-      "importance": 0.4702,
-      "score_basis": {
-        "topic_overlap": 0.156,
-        "shared_references": 4,
-        "local_citations": 0
       },
       "role": "reference",
       "reading_url": null,
@@ -355,10 +320,84 @@
         "optical memory"
       ],
       "url": "https://doi.org/10.1364/opex.13.009623",
-      "cited_by_count": 202,
-      "importance": 0.4453,
+      "cited_by_count": 232,
+      "importance": 0.5007,
       "score_basis": {
-        "topic_overlap": 0.323,
+        "topic_overlap": 0.335,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2344703042",
+      "doi": "10.1109/jstqe.2016.2560149",
+      "title": "Parametric Characterization of Self-Heating in Depletion-Type Si Micro-Ring Modulators",
+      "authors": [
+        "Myung Jin Shin",
+        "Yoojin Ban",
+        "Byung-Min Yu",
+        "Jinsoo Rhim",
+        "Lars Zimmermann",
+        "Woo‐Young Choi"
+      ],
+      "year": 2016,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "self-heating",
+        "silicon microring resonator",
+        "free carrier absorption",
+        "effective refractive index",
+        "coupled mode theory",
+        "doping concentration",
+        "device size dependence"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2016.2560149",
+      "cited_by_count": 34,
+      "importance": 0.4915,
+      "score_basis": {
+        "topic_overlap": 0.426,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2152966766",
+      "doi": "10.1364/ol.29.002387",
+      "title": "Optical bistability on a silicon chip",
+      "authors": [
+        "Vilson R. Almeida",
+        "Michal F. Lipson"
+      ],
+      "year": 2004,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical bistability",
+        "silicon photonics",
+        "ring resonator",
+        "thermal nonlinearity",
+        "all-optical switching",
+        "optical memory",
+        "light confinement",
+        "low pump power",
+        "modulation bandwidth"
+      ],
+      "url": "https://doi.org/10.1364/ol.29.002387",
+      "cited_by_count": 469,
+      "importance": 0.467,
+      "score_basis": {
+        "topic_overlap": 0.371,
         "shared_references": 0,
         "local_citations": 5
       },
@@ -389,10 +428,10 @@
         "nanosecond pulses"
       ],
       "url": "https://doi.org/10.1364/ol.31.000341",
-      "cited_by_count": 244,
-      "importance": 0.444,
+      "cited_by_count": 266,
+      "importance": 0.4493,
       "score_basis": {
-        "topic_overlap": 0.32,
+        "topic_overlap": 0.332,
         "shared_references": 0,
         "local_citations": 5
       },
@@ -433,48 +472,12 @@
         "optical receiver"
       ],
       "url": "https://doi.org/10.1109/jssc.2016.2519390",
-      "cited_by_count": 153,
-      "importance": 0.4402,
+      "cited_by_count": 176,
+      "importance": 0.4469,
       "score_basis": {
-        "topic_overlap": 0.156,
+        "topic_overlap": 0.171,
         "shared_references": 3,
         "local_citations": 1
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W2152966766",
-      "doi": "10.1364/ol.29.002387",
-      "title": "Optical bistability on a silicon chip",
-      "authors": [
-        "Vilson R. Almeida",
-        "Michal F. Lipson"
-      ],
-      "year": 2004,
-      "venue": "Optics Letters",
-      "venue_abbr": "OL",
-      "rank_label": "CIE T2 · 2023",
-      "keywords": [
-        "optical bistability",
-        "silicon photonics",
-        "ring resonator",
-        "thermal nonlinearity",
-        "all-optical switching",
-        "optical memory",
-        "light confinement",
-        "low pump power",
-        "modulation bandwidth"
-      ],
-      "url": "https://doi.org/10.1364/ol.29.002387",
-      "cited_by_count": 421,
-      "importance": 0.4216,
-      "score_basis": {
-        "topic_overlap": 0.315,
-        "shared_references": 0,
-        "local_citations": 4
       },
       "role": "reference",
       "reading_url": null,
@@ -506,10 +509,10 @@
         "high-speed optical modulation"
       ],
       "url": "https://doi.org/10.1109/jstqe.2013.2278885",
-      "cited_by_count": 186,
-      "importance": 0.4183,
+      "cited_by_count": 222,
+      "importance": 0.4127,
       "score_basis": {
-        "topic_overlap": 0.33,
+        "topic_overlap": 0.317,
         "shared_references": 1,
         "local_citations": 1
       },
@@ -542,10 +545,10 @@
         "high-speed modulation"
       ],
       "url": "https://doi.org/10.1038/nature03569",
-      "cited_by_count": 2383,
-      "importance": 0.4136,
+      "cited_by_count": 2642,
+      "importance": 0.4127,
       "score_basis": {
-        "topic_overlap": 0.252,
+        "topic_overlap": 0.25,
         "shared_references": 0,
         "local_citations": 5
       },
@@ -585,12 +588,55 @@
         "bandwidth density"
       ],
       "url": "https://doi.org/10.1109/tcpmt.2024.3492189",
-      "cited_by_count": 17,
-      "importance": 0.4109,
+      "cited_by_count": 24,
+      "importance": 0.41,
       "score_basis": {
-        "topic_overlap": 0.135,
+        "topic_overlap": 0.133,
         "shared_references": 3,
         "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3170473712",
+      "doi": "10.1117/12.2592552",
+      "title": "Heat dynamics in optical ring resonators",
+      "authors": [
+        "Walter Dickmann",
+        "Lukas Weituschat",
+        "René Eisermann",
+        "Stephan Krenek",
+        "Pablo Aitor Postigo",
+        "Stefanie Kroker"
+      ],
+      "year": 2021,
+      "venue": "Modeling Aspects in Optical Metrology",
+      "venue_abbr": "Modeling Aspects in Optical Metrology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "ring resonator",
+        "self-heating",
+        "thermal effects",
+        "two-photon absorption",
+        "heat equation",
+        "analytical model",
+        "temperature distribution",
+        "response time",
+        "defect states",
+        "high-Q resonators",
+        "Neumann boundary conditions",
+        "Green's function"
+      ],
+      "url": "https://doi.org/10.1117/12.2592552",
+      "cited_by_count": 13,
+      "importance": 0.4082,
+      "score_basis": {
+        "topic_overlap": 0.307,
+        "shared_references": 1,
+        "local_citations": 1
       },
       "role": "reference",
       "reading_url": null,
@@ -604,7 +650,7 @@
       "authors": [
         "Surasak Chiangga",
         "Santhad Pitakwongsaporn",
-        "T.D. Frank",
+        "Till Daniel Frank",
         "Preecha P. Yupapin"
       ],
       "year": 2013,
@@ -626,53 +672,10 @@
         "tunable optical filter"
       ],
       "url": "https://doi.org/10.1109/jlt.2013.2243819",
-      "cited_by_count": 13,
-      "importance": 0.3898,
+      "cited_by_count": 15,
+      "importance": 0.394,
       "score_basis": {
-        "topic_overlap": 0.311,
-        "shared_references": 1,
-        "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W3170473712",
-      "doi": "10.1117/12.2592552",
-      "title": "Heat dynamics in optical ring resonators",
-      "authors": [
-        "Walter Dickmann",
-        "Lukas Weituschat",
-        "René Eisermann",
-        "Stephan Krenek",
-        "Pablo Aitor Postigo",
-        "Stefanie Kroker"
-      ],
-      "year": 2021,
-      "venue": "刊会待核实",
-      "venue_abbr": "待核实",
-      "rank_label": "等级待核实",
-      "keywords": [
-        "ring resonator",
-        "self-heating",
-        "thermal effects",
-        "two-photon absorption",
-        "heat equation",
-        "analytical model",
-        "temperature distribution",
-        "response time",
-        "defect states",
-        "high-Q resonators",
-        "Neumann boundary conditions",
-        "Green's function"
-      ],
-      "url": "https://doi.org/10.1117/12.2592552",
-      "cited_by_count": 11,
-      "importance": 0.3686,
-      "score_basis": {
-        "topic_overlap": 0.264,
+        "topic_overlap": 0.32,
         "shared_references": 1,
         "local_citations": 0
       },
@@ -706,10 +709,10 @@
         "microwave waveguides"
       ],
       "url": "https://doi.org/10.1109/jstqe.2002.1016347",
-      "cited_by_count": 111,
-      "importance": 0.3287,
+      "cited_by_count": 126,
+      "importance": 0.3189,
       "score_basis": {
-        "topic_overlap": 0.286,
+        "topic_overlap": 0.264,
         "shared_references": 0,
         "local_citations": 0
       },
@@ -753,12 +756,44 @@
         "photonic integrated circuits"
       ],
       "url": "https://doi.org/10.1109/jstqe.2019.2908790",
-      "cited_by_count": 262,
-      "importance": 0.3134,
+      "cited_by_count": 277,
+      "importance": 0.3125,
       "score_basis": {
-        "topic_overlap": 0.252,
+        "topic_overlap": 0.25,
         "shared_references": 0,
         "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2044845559",
+      "doi": "10.1364/opex.12.004742",
+      "title": "Dynamical thermal behavior and thermal self-stability of microcavities",
+      "authors": [
+        "Tal Carmon",
+        "Lan Yang",
+        "Kerry J. Vahala"
+      ],
+      "year": 2004,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "microcavities",
+        "thermal stability",
+        "self-stability",
+        "intensity perturbation"
+      ],
+      "url": "https://doi.org/10.1364/opex.12.004742",
+      "cited_by_count": 1047,
+      "importance": 0.2934,
+      "score_basis": {
+        "topic_overlap": 0.163,
+        "shared_references": 0,
+        "local_citations": 1
       },
       "role": "reference",
       "reading_url": null,
@@ -791,10 +826,10 @@
         "high-speed interconnects"
       ],
       "url": "https://doi.org/10.1063/5.0050117",
-      "cited_by_count": 640,
-      "importance": 0.2819,
+      "cited_by_count": 712,
+      "importance": 0.2809,
       "score_basis": {
-        "topic_overlap": 0.138,
+        "topic_overlap": 0.135,
         "shared_references": 0,
         "local_citations": 1
       },
@@ -813,7 +848,7 @@
         "Darko Zibar",
         "Francesco Da Ros"
       ],
-      "year": 2023,
+      "year": 2024,
       "venue": "Optics Express",
       "venue_abbr": "OE",
       "rank_label": "CIE T2 · 2023",
@@ -826,44 +861,12 @@
         "silicon photonics"
       ],
       "url": "https://doi.org/10.1364/oe.509437",
-      "cited_by_count": 25,
-      "importance": 0.2791,
+      "cited_by_count": 34,
+      "importance": 0.2762,
       "score_basis": {
-        "topic_overlap": 0.176,
+        "topic_overlap": 0.169,
         "shared_references": 0,
         "local_citations": 0
-      },
-      "role": "reference",
-      "reading_url": null,
-      "summary": "",
-      "summary_basis": "仅题录；摘要尚未核对"
-    },
-    {
-      "id": "W2044845559",
-      "doi": "10.1364/opex.12.004742",
-      "title": "Dynamical thermal behavior and thermal self-stability of microcavities",
-      "authors": [
-        "Tal Carmon",
-        "Lan Yang",
-        "Kerry J. Vahala"
-      ],
-      "year": 2004,
-      "venue": "Optics Express",
-      "venue_abbr": "OE",
-      "rank_label": "CIE T2 · 2023",
-      "keywords": [
-        "microcavities",
-        "thermal stability",
-        "self-stability",
-        "intensity perturbation"
-      ],
-      "url": "https://doi.org/10.1364/opex.12.004742",
-      "cited_by_count": 932,
-      "importance": 0.2725,
-      "score_basis": {
-        "topic_overlap": 0.117,
-        "shared_references": 0,
-        "local_citations": 1
       },
       "role": "reference",
       "reading_url": null,
@@ -877,7 +880,7 @@
       "authors": [
         "C Hermannstädter",
         "N A Jahan",
-        "J-H Huh",
+        "J.-H. Huh",
         "H Sasakura",
         "K Akahane",
         "M Sasaki",
@@ -913,6 +916,16 @@
     }
   ],
   "edges": [
+    {
+      "from": "W1991751268",
+      "to": "W2152966766",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W1991751268"
+        }
+      ]
+    },
     {
       "from": "W2049197674",
       "to": "W2091382331",
@@ -1216,6 +1229,16 @@
     {
       "from": "W4389618927",
       "to": "W3084467643",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4389618927"
+        }
+      ]
+    },
+    {
+      "from": "W4389618927",
+      "to": "W3170473712",
       "sources": [
         {
           "provider": "OpenAlex",

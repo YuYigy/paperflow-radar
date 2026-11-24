@@ -1,0 +1,2532 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "ce10587c-3b3e-4802-acf5-8ee3f4240d64",
+  "root": "doi:10.3390/photonics13121103",
+  "status": "partial",
+  "checked_at": "2026-11-24T00:43:56.488159+00:00",
+  "coverage": {
+    "references_found": 75,
+    "citing_found": null,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "unavailable",
+    "references_without_doi": 40,
+    "candidates_resolved": 75,
+    "displayed": 40
+  },
+  "issues": [
+    "openalex_not_indexed"
+  ],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "doi:10.3390/photonics13121103",
+      "doi": "10.3390/photonics13121103",
+      "title": "Optical Scale-Up Networks for AI Clusters: A Review of Co-Packaged Optics and Emerging Light Sources",
+      "authors": [
+        "Jen-Shuo Liao",
+        "Yu-Lin Teng",
+        "Yu-Chun Hsueh",
+        "Ying-Chih Chen",
+        "Sheng-Yow Chen",
+        "Chin-Wei Sher",
+        "Yu-Heng Hong",
+        "Chao-Hsin Wu",
+        "Hao-Chung Kuo"
+      ],
+      "year": "2026",
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [],
+      "url": "https://doi.org/10.3390/photonics13121103",
+      "cited_by_count": null,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/ce10587c-3b3e-4802-acf5-8ee3f4240d64.html",
+      "summary": "这篇综述聚焦 AI 集群中同一机架或紧耦合机架组内的芯片间与加速器间互连。摘要指出三项瓶颈，即 224 Gbps SerDes 速率下的铜互连衰减、交换芯片容量与可插拔收发器单通道速率的增长差距，以及前面板密度饱和。文章梳理线性驱动可插拔光学（LPO）、超高密度可插拔光学（XPO）和近封装光学（NPO）架构，讨论共封装光学（CPO）的光源要求，并从波长扩展性、热稳定性、相对强度噪声、功率效率和制造良率五方面比较连续波分布反馈激光器、量子点梳状激光器、垂直腔面发射激光器阵列和微型发光二极管阵列。作者认为，光源选型取决于传输距离、共封装环境的热约束和波分复用需求。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4212915958",
+      "doi": "10.3390/photonics9020107",
+      "title": "Recent Advances in 850 nm VCSELs for High-Speed Interconnects",
+      "authors": [
+        "Hao-Tien Cheng",
+        "Yun-Cheng Yang",
+        "Te‐Hua Liu",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2022,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "vertical-cavity surface-emitting lasers",
+        "850 nm VCSEL",
+        "high-speed optical links",
+        "modulation schemes"
+      ],
+      "url": "https://doi.org/10.3390/photonics9020107",
+      "cited_by_count": 94,
+      "importance": 0.45,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4362714959",
+      "doi": "10.1109/jlt.2023.3263040",
+      "title": "Temperature-Insensitive 850-nm Dual-Mode-VCSEL With 25.1-GHz Bandwidth at 85 °C",
+      "authors": [
+        "Hao-Tien Cheng",
+        "Yun-Cheng Yang",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "vertical-cavity surface-emitting lasers",
+        "850 nm VCSEL",
+        "high-temperature operation",
+        "3-dB bandwidth",
+        "junction temperature",
+        "cavity lifetime"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3263040",
+      "cited_by_count": 18,
+      "importance": 0.45,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 5,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4322753410",
+      "doi": "10.1364/oe.486480",
+      "title": "40.1-GHz sub-freezing 850-nm VCSEL: microwave extraction of cavity lifetimes and small-signal equivalent circuit modeling",
+      "authors": [
+        "Hao-Tien Cheng",
+        "Cheng‐Han Wu",
+        "Milton Feng",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2023,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "vertical-cavity surface-emitting lasers",
+        "850 nm VCSEL",
+        "microwave-assisted extraction",
+        "cavity lifetime",
+        "photon lifetime",
+        "optical loss reduction",
+        "junction temperature"
+      ],
+      "url": "https://doi.org/10.1364/oe.486480",
+      "cited_by_count": 9,
+      "importance": 0.42,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 4,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417053841",
+      "doi": "10.1109/ecoc66593.2025.11263202",
+      "title": "Co-Packaged Optics Technology Evaluation for Hyperscale Data Center Fabric Switches",
+      "authors": [
+        "Siamak Amiralizadeh",
+        "Drew Alduino",
+        "Wayne Zhang",
+        "Viral Lowalekar",
+        "Greg Wang",
+        "Nan Ge",
+        "Rongchun Zhu",
+        "Nhan Hoang",
+        "Jonny Stever",
+        "Jiu Xu",
+        "Jason Pruitt",
+        "Anju John",
+        "Saurabh Agrawal",
+        "Freddy Mercado",
+        "Olaf Moeller",
+        "Darron Young"
+      ],
+      "year": 2025,
+      "venue": "European Conference on Optical Communication",
+      "venue_abbr": "ECOC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "co-packaged optics",
+        "hyperscale data centers",
+        "power consumption",
+        "link reliability",
+        "high-temperature operation"
+      ],
+      "url": "https://doi.org/10.1109/ecoc66593.2025.11263202",
+      "cited_by_count": 6,
+      "importance": 0.3944,
+      "score_basis": {
+        "topic_overlap": 0.054,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4311802558",
+      "doi": "10.1364/oe.474930",
+      "title": "29 GHz single-mode vertical-cavity surface-emitting lasers passivated by atomic layer deposition",
+      "authors": [
+        "Hao-Tien Cheng",
+        "Junyi Qiu",
+        "Chun‐Yen Peng",
+        "Hao‐Chung Kuo",
+        "Milton Feng",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "single-mode VCSEL",
+        "vertical-cavity surface-emitting lasers",
+        "atomic layer deposition",
+        "Al2O3 passivation",
+        "sidewall passivation",
+        "charge trapping",
+        "modulation bandwidth",
+        "850 nm VCSEL",
+        "small-signal equivalent circuit",
+        "optical interconnects",
+        "high-speed optical transceivers"
+      ],
+      "url": "https://doi.org/10.1364/oe.474930",
+      "cited_by_count": 12,
+      "importance": 0.39,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3093695583",
+      "doi": "10.1109/jlt.2020.3028972",
+      "title": "Single-Mode VCSEL Transmission for Short Reach Communications",
+      "authors": [
+        "Ming-Jun Li",
+        "Kangmei Li",
+        "Xin Chen",
+        "Snigdharaj K. Mishra",
+        "Adrian A. Juarez",
+        "Jason E. Hurley",
+        "Jeffery S. Stone",
+        "Chia-Hsuan Wang",
+        "Hao-Tien Cheng",
+        "Chao-Hsin Wayne Wu",
+        "Hao‐Chung Kuo",
+        "C.S. Tsai",
+        "Gong‐Ru Lin"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "single-mode VCSEL",
+        "vertical-cavity surface-emitting lasers",
+        "short-reach optical transmission",
+        "multimode fiber transmission",
+        "chromatic dispersion",
+        "line width",
+        "numerical aperture",
+        "850 nm VCSEL",
+        "980 nm VCSELs",
+        "1060 nm VCSEL",
+        "laser modeling"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.3028972",
+      "cited_by_count": 53,
+      "importance": 0.38,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4327898871",
+      "doi": "10.1007/s12200-022-00055-y",
+      "title": "Co-packaged optics (CPO): status, challenges, and solutions",
+      "authors": [
+        "Min Tan",
+        "Jiang Xu",
+        "Siyang Liu",
+        "Junbo Feng",
+        "Hua Zhang",
+        "Chaonan Yao",
+        "Shixi Chen",
+        "Hangyu Guo",
+        "Gengshi Han",
+        "Zhanhao Wen",
+        "Bao Chen",
+        "Yu He",
+        "Xuqiang Zheng",
+        "Da Ming",
+        "Yaowen Tu",
+        "Qiang Fu",
+        "Nan Qi",
+        "Dan Li",
+        "Li Geng",
+        "Song Wen",
+        "Fenghe Yang",
+        "Huimin He",
+        "Fengman Liu",
+        "Haiyun Xue",
+        "Yuhang Wang",
+        "Ciyuan Qiu",
+        "Guangcan Mi",
+        "Yanbo Li",
+        "Tianhai Chang",
+        "Mingche Lai",
+        "Zhang Luo",
+        "Qinfen Hao",
+        "Mengyuan Qin"
+      ],
+      "year": 2023,
+      "venue": "Frontiers of Optoelectronics",
+      "venue_abbr": "FOE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "co-packaged optics",
+        "data center interconnects",
+        "silicon photonics",
+        "photonic packaging",
+        "bandwidth density",
+        "energy efficiency",
+        "standardization"
+      ],
+      "url": "https://doi.org/10.1007/s12200-022-00055-y",
+      "cited_by_count": 231,
+      "importance": 0.3734,
+      "score_basis": {
+        "topic_overlap": 0.052,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7140292098",
+      "doi": "10.1109/tcpmt.2026.3677487",
+      "title": "Mechanical–Optical Co-Design for Structural Integrity Optimization in Heterogeneous VCSEL Array Packaging",
+      "authors": [
+        "Kung-An Lin",
+        "Thu Bui",
+        "T. C. Liu",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2026,
+      "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+      "venue_abbr": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "VCSEL arrays",
+        "co-packaged optics",
+        "von Mises stress",
+        "luminance",
+        "high-speed optical links"
+      ],
+      "url": "https://doi.org/10.1109/tcpmt.2026.3677487",
+      "cited_by_count": 0,
+      "importance": 0.3725,
+      "score_basis": {
+        "topic_overlap": 0.05,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7116743017",
+      "doi": "10.4071/001c.154275",
+      "title": "Co-Packaged Optics - Heterogeneous Integration of Chiplets (Switch, Photonic IC, and Electronic IC)",
+      "authors": [
+        "John Hon-Shing Lau"
+      ],
+      "year": 2025,
+      "venue": "Journal of Microelectronics and Electronic Packaging",
+      "venue_abbr": "Journal of Microelectronics and Electronic Packaging",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "co-packaged optics",
+        "heterogeneous integration",
+        "chiplets",
+        "photonic integrated circuits",
+        "optical switches",
+        "3D integration",
+        "data center interconnects",
+        "artificial intelligence",
+        "high-bandwidth communication",
+        "organic substrates",
+        "silicon substrate",
+        "glass substrates"
+      ],
+      "url": "https://doi.org/10.4071/001c.154275",
+      "cited_by_count": 3,
+      "importance": 0.3689,
+      "score_basis": {
+        "topic_overlap": 0.042,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4403919485",
+      "doi": "10.1109/tcpmt.2024.3488003",
+      "title": "Thermomechanical and Compression Analyses for Large-Scale Co-Packaged Optics (CPO) Assembly",
+      "authors": [
+        "Rui Cao",
+        "Huimin He",
+        "Fengze Hou",
+        "Rui Ma",
+        "Fengman Liu",
+        "Qidong Wang",
+        "Liqiang Cao"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+      "venue_abbr": "IEEE Transactions on Components Packaging and Manufacturing Technology",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "co-packaged optics",
+        "package warpage",
+        "ball grid array",
+        "SAC305 solder"
+      ],
+      "url": "https://doi.org/10.1109/tcpmt.2024.3488003",
+      "cited_by_count": 3,
+      "importance": 0.3399,
+      "score_basis": {
+        "topic_overlap": 0.089,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7162671850",
+      "doi": "10.1109/jlt.2026.3697988",
+      "title": "Data Center Switch Power Consumption Comparison Between Co-Packaged Optics and Pluggable Transceivers",
+      "authors": [
+        "Alan Evans"
+      ],
+      "year": 2026,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "co-packaged optics",
+        "data center switches",
+        "power consumption",
+        "energy efficiency",
+        "heat dissipation",
+        "SerDes",
+        "digital signal processing",
+        "optical transceivers"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2026.3697988",
+      "cited_by_count": 4,
+      "importance": 0.3217,
+      "score_basis": {
+        "topic_overlap": 0.048,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3004529642",
+      "doi": "10.1109/ted.2020.2966364",
+      "title": "Design and Optimization of VCSELs for up to 40-Gb/s Error-Free Transmission Through Impurity-Induced Disordering",
+      "authors": [
+        "Chun‐Yen Peng",
+        "Hao-Tien Cheng",
+        "Hao‐Chung Kuo",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2020,
+      "venue": "IEEE Transactions on Electron Devices",
+      "venue_abbr": "IEEE Transactions on Electron Devices",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "vertical-cavity surface-emitting lasers",
+        "impurity-induced disordering",
+        "threshold current reduction",
+        "current injection efficiency",
+        "optical bandwidth",
+        "RF characteristics",
+        "characteristic temperature",
+        "defect centers",
+        "oxidation",
+        "40 Gb/s optical transmission",
+        "on-off keying modulation",
+        "error-free transmission"
+      ],
+      "url": "https://doi.org/10.1109/ted.2020.2966364",
+      "cited_by_count": 12,
+      "importance": 0.3,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4385945248",
+      "doi": "10.1109/jlt.2023.3306077",
+      "title": "Single-Channel 106.25 Gb/s PAM-4 and 64 Gb/s NRZ Transmission With a 33.4-GHz 850-nm VCSEL With low-RIN Characteristics",
+      "authors": [
+        "Yun-Cheng Yang",
+        "Hao-Tien Cheng",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "vertical-cavity surface-emitting lasers",
+        "850 nm VCSEL",
+        "oxide aperture",
+        "relative intensity noise",
+        "modulation bandwidth",
+        "PAM-4",
+        "multimode fiber",
+        "short-reach optical transmission",
+        "low bias current",
+        "small-signal response",
+        "large-signal performance"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3306077",
+      "cited_by_count": 34,
+      "importance": 0.3,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7118206949",
+      "doi": "10.1109/jstqe.2025.3650463",
+      "title": "3D Heterogeneous Integration of Back-Emitting VCSEL Arrays via Flip-Chip Bonding for Co-Packaged Optics Systems",
+      "authors": [
+        "Kung-An Lin",
+        "Thu Bui",
+        "Lucas Yang",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2026,
+      "venue": "IEEE Journal of Selected Topics in Quantum Electronics",
+      "venue_abbr": "JSTQE",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "vertical-cavity surface-emitting lasers",
+        "VCSEL arrays",
+        "flip-chip bonding",
+        "co-packaged optics",
+        "gold bumps",
+        "silicon interposer",
+        "heterogeneous integration",
+        "optical interconnects",
+        "thermal management",
+        "optical coupling",
+        "stress distribution",
+        "mechanical reliability"
+      ],
+      "url": "https://doi.org/10.1109/jstqe.2025.3650463",
+      "cited_by_count": 5,
+      "importance": 0.2867,
+      "score_basis": {
+        "topic_overlap": 0.037,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7125046436",
+      "doi": "10.3390/photonics13010090",
+      "title": "200G VCSEL Development and Proposal of Using VCSELs for Near-Package-Optics Scale-Up Application",
+      "authors": [
+        "Tzu Hao Chow",
+        "Jingyi Wang",
+        "Sizhu Jiang",
+        "M. V. Ramana Murty",
+        "Laura M. Giovane",
+        "Chee-Parng Chua",
+        "Lip Min Chong",
+        "Lowell Bacus",
+        "Xiaoyong Shan",
+        "Salvatore Sabbatino",
+        "Zixing Xue",
+        "I-Hsing Tan"
+      ],
+      "year": 2026,
+      "venue": "Photonics",
+      "venue_abbr": "Photonics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "vertical-cavity surface-emitting lasers",
+        "PAM4 modulation",
+        "laser bandwidth",
+        "relative intensity noise",
+        "device reliability",
+        "energy efficiency",
+        "network disaggregation"
+      ],
+      "url": "https://doi.org/10.3390/photonics13010090",
+      "cited_by_count": 8,
+      "importance": 0.2867,
+      "score_basis": {
+        "topic_overlap": 0.037,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3187255235",
+      "doi": "10.1145/3458817.3476209",
+      "title": "Efficient large-scale language model training on GPU clusters using megatron-LM",
+      "authors": [
+        "Deepak Narayanan",
+        "Mohammad Shoeybi",
+        "Jared Casper",
+        "Patrick LeGresley",
+        "Mostofa Ali Patwary",
+        "Vijay Anand Korthikanti",
+        "Dmitri Vainbrand",
+        "Prethvi Kashinkunti",
+        "Julie Bernauer",
+        "Bryan Catanzaro",
+        "Amar Phanishayee",
+        "Matei Zaharia"
+      ],
+      "year": 2021,
+      "venue": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+      "venue_abbr": "International Conference for High Performance Computing, Networking, Storage and Analysis (SC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "large language model training",
+        "GPU clusters",
+        "tensor parallelism",
+        "pipeline parallelism",
+        "data parallelism",
+        "memory efficiency",
+        "training throughput"
+      ],
+      "url": "https://doi.org/10.1145/3458817.3476209",
+      "cited_by_count": 1789,
+      "importance": 0.2754,
+      "score_basis": {
+        "topic_overlap": 0.057,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413757313",
+      "doi": "10.1145/3718958.3750510",
+      "title": "Mosaic: Breaking the Optics versus Copper Trade-off with a Wide-and-Slow Architecture and MicroLEDs",
+      "authors": [
+        "Kaoutar Benyahya",
+        "Ariel Gomez Diaz",
+        "Junyi Liu",
+        "Vassily Lyutsarev",
+        "Marianna Pantouvaki",
+        "Kai Shi",
+        "Shawn Yohanes Siew",
+        "Hitesh Ballani",
+        "Thomas Burridge",
+        "Daniel Cletheroe",
+        "Thomas Karagiannis",
+        "Brian Robertson",
+        "Antony I.T. Rowstron",
+        "Mengyang Yang",
+        "Paolo Costa"
+      ],
+      "year": 2025,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical interconnects",
+        "micro-LEDs",
+        "data center networks",
+        "power consumption",
+        "link reliability"
+      ],
+      "url": "https://doi.org/10.1145/3718958.3750510",
+      "cited_by_count": 36,
+      "importance": 0.2709,
+      "score_basis": {
+        "topic_overlap": 0.046,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2800858137",
+      "doi": "10.29026/oea.2018.180005",
+      "title": "850/940-nm VCSEL for optical communication and 3D sensing",
+      "authors": [
+        "Chih‐Hsien Cheng",
+        "Shen Chih-Chiang",
+        "Hsuan-Yun Kao",
+        "Dan‐Hua Hsieh",
+        "Huai‐Yung Wang",
+        "Yen-Wei Yeh",
+        "Lu Yun-Ting",
+        "Sung-Wen Huang Chen",
+        "Tsai Cheng-Ting",
+        "Chi Yu-Chieh",
+        "Tsung Sheng Kao",
+        "Wu Chao-Hsin",
+        "Kuo Hao-Chung",
+        "Lee Po-Tsung",
+        "Gong‐Ru Lin"
+      ],
+      "year": 2018,
+      "venue": "Opto-Electronic Advances",
+      "venue_abbr": "OEA",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "vertical-cavity surface-emitting lasers",
+        "optical communication",
+        "3D sensing",
+        "differential gain",
+        "parasitic capacitance reduction",
+        "single-mode VCSEL",
+        "modulation bandwidth",
+        "mode control"
+      ],
+      "url": "https://doi.org/10.29026/oea.2018.180005",
+      "cited_by_count": 75,
+      "importance": 0.27,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386365418",
+      "doi": "10.1145/3603269.3604836",
+      "title": "Lightwave Fabrics: At-Scale Optical Circuit Switching for Datacenter and Machine Learning Systems",
+      "authors": [
+        "Hong Liu",
+        "Ryohei Urata",
+        "Kevin Y. Yasumura",
+        "Xiang Zhou",
+        "Roy Bannon",
+        "Jill Berger",
+        "Pedram Zare Dashti",
+        "Norman Paul Jouppi",
+        "Cedric Fung Lam",
+        "Sheng Li",
+        "Erji Mao",
+        "Daniel Nelson",
+        "George C. Papen",
+        "Mukarram Tariq",
+        "Amin M. Vahdat"
+      ],
+      "year": 2023,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical circuit switching",
+        "data center networking",
+        "wavelength division multiplexing",
+        "optical circulator",
+        "optical transceivers",
+        "reconfigurable optical networks",
+        "tensor processing units",
+        "system availability"
+      ],
+      "url": "https://doi.org/10.1145/3603269.3604836",
+      "cited_by_count": 112,
+      "importance": 0.2689,
+      "score_basis": {
+        "topic_overlap": 0.042,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7163147641",
+      "doi": "10.1364/ofc.2026.m4b.6",
+      "title": "Technology for AI Interconnect Scale-Up Solutions",
+      "authors": [
+        "Drew Alduino",
+        "Siamak Amiralizadeh",
+        "Afshin Shamsshooli",
+        "Yiwei Peng",
+        "Viral Lowalekar",
+        "Rob Stone",
+        "Pengyue Wen",
+        "Qing Wang",
+        "Nan Ge",
+        "Greg Wang",
+        "Rongchun Zhu",
+        "Nhan Hoang",
+        "Jonny Stever",
+        "Jiu Xu",
+        "Jason Pruitt",
+        "Anju John",
+        "Saurabh Agrawal",
+        "Freddy Mercado",
+        "Olaf Moeller",
+        "Darron Young"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical interconnects",
+        "CPO",
+        "link reliability",
+        "link performance",
+        "cluster performance"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.m4b.6",
+      "cited_by_count": 0,
+      "importance": 0.2662,
+      "score_basis": {
+        "topic_overlap": 0.036,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7163171255",
+      "doi": "10.1364/ofc.2026.m3f.6",
+      "title": "Optical Switching for AI Factories",
+      "authors": [
+        "Giannis Patronas",
+        "Nikos Terzenidis",
+        "Petr Lapukhov",
+        "Dimitris Syrivelis",
+        "Eitan Zahavi",
+        "Craig Thompson",
+        "Athanasios Fevgas",
+        "David King",
+        "Julie Bernauer",
+        "Elad Mentovich",
+        "Paraskevas Bakopoulos"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical switching",
+        "GPU clusters",
+        "AI data centers",
+        "network bandwidth",
+        "energy efficiency",
+        "network fabric",
+        "data center design"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.m3f.6",
+      "cited_by_count": 1,
+      "importance": 0.2639,
+      "score_basis": {
+        "topic_overlap": 0.031,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7126218566",
+      "doi": "10.1109/iedm50572.2025.11353715",
+      "title": "Photonic Interconnect for Next-Generation AI Systems",
+      "authors": [
+        "Benjamin G. Lee"
+      ],
+      "year": 2025,
+      "venue": "Technical digest - International Electron Devices Meeting/Technical digest",
+      "venue_abbr": "Technical digest - International Electron Devices Meeting/Technical digest",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical interconnects",
+        "GPU clusters",
+        "off-chip communication",
+        "artificial intelligence systems",
+        "cluster size scaling",
+        "packaging"
+      ],
+      "url": "https://doi.org/10.1109/iedm50572.2025.11353715",
+      "cited_by_count": 6,
+      "importance": 0.2617,
+      "score_basis": {
+        "topic_overlap": 0.026,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3012137182",
+      "doi": "10.1364/ol.391566",
+      "title": "High-speed integrated micro-LED array for visible light communication",
+      "authors": [
+        "Hao-Yu Lan",
+        "I-Chen Tseng",
+        "Yung‐Hsiang Lin",
+        "Gong‐Ru Lin",
+        "Ding‐Wei Huang",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2020,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "micro-LED arrays",
+        "visible light communication",
+        "modulation bandwidth",
+        "parallel configuration",
+        "injection current density",
+        "eye diagram",
+        "high-speed transmitter",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1364/ol.391566",
+      "cited_by_count": 80,
+      "importance": 0.2601,
+      "score_basis": {
+        "topic_overlap": 0.022,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3106811883",
+      "doi": "10.1109/jlt.2020.3039218",
+      "title": "1.6 Tbps Silicon Photonics Integrated Circuit and 800 Gbps Photonic Engine for Switch Co-Packaging Demonstration",
+      "authors": [
+        "Saeed Fathololoumi",
+        "David Hui",
+        "Susheel Jadhav",
+        "Jian Chen",
+        "Kimchau N. Nguyen",
+        "Meer Sakib",
+        "Z. Li",
+        "Hari Mahalingam",
+        "Siamak Amiralizadeh",
+        "Nelson N. Tang",
+        "Hari Potluri",
+        "Mohammad Montazeri",
+        "Harel Frish",
+        "Reece A. Defrees",
+        "Christopher S. Seibert",
+        "A. Krichevsky",
+        "J. K. Doylend",
+        "John M. Heck",
+        "Ranju Venables",
+        "Aditya Dahal",
+        "A. Awujoola",
+        "Armen Vardapetyan",
+        "Guneet Kaur",
+        "Min Cen",
+        "Vishnu Kulkarni",
+        "Syed S. Islam",
+        "R.L. Spreitzer",
+        "S. Garag",
+        "Andrew C. Alduino",
+        "RK Chiou",
+        "Lobna Kamyab",
+        "Sanjeev Kumar Gupta",
+        "Boping Xie",
+        "Randal S. Appleton",
+        "Summer R. Hollingsworth",
+        "Sean McCargar",
+        "Yuliya A. Akulova",
+        "K. M. Brown",
+        "Richard Jones",
+        "Daniel X. Zhu",
+        "Thomas Liljeberg",
+        "Ling Liao"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "silicon photonics integrated circuits",
+        "PAM-4",
+        "on-chip lasers",
+        "micro-ring modulator",
+        "spot-size converter",
+        "optical transmitter",
+        "optical receiver",
+        "DR4",
+        "high-speed optical links",
+        "temperature stability"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.3039218",
+      "cited_by_count": 160,
+      "importance": 0.26,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2888918761",
+      "doi": "10.1364/oe.26.024190",
+      "title": "Fiber-optic transmission and networking: the previous 20 and the next 20 years [Invited]",
+      "authors": [
+        "Peter J. Winzer",
+        "David T. Neilson",
+        "ANDREW R. CHRAPLYVY"
+      ],
+      "year": 2018,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "optical fiber communication",
+        "optical transport networks",
+        "optical switching",
+        "spatial multiplexing",
+        "integrated photonics",
+        "digital signal processing",
+        "optical node architecture",
+        "device scaling"
+      ],
+      "url": "https://doi.org/10.1364/oe.26.024190",
+      "cited_by_count": 1137,
+      "importance": 0.2594,
+      "score_basis": {
+        "topic_overlap": 0.021,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3035736925",
+      "doi": "10.1515/nanoph-2019-0570",
+      "title": "Physics and applications of quantum dot lasers for silicon photonics",
+      "authors": [
+        "Frédéric Grillot",
+        "Justin Norman",
+        "Jianan Duan",
+        "Zeyu Zhang",
+        "Bozhang Dong",
+        "Heming Huang",
+        "Weng W. Chow",
+        "John Edward Bowers"
+      ],
+      "year": 2020,
+      "venue": "Nanophotonics",
+      "venue_abbr": "Nanophotonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "quantum dot lasers",
+        "silicon photonics",
+        "photonic integrated circuits",
+        "parasitic reflections",
+        "optical isolator",
+        "linewidth enhancement factor",
+        "damping factor",
+        "laser stability",
+        "on-chip integration"
+      ],
+      "url": "https://doi.org/10.1515/nanoph-2019-0570",
+      "cited_by_count": 80,
+      "importance": 0.25,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4390357343",
+      "doi": "10.1109/led.2023.3347755",
+      "title": "High-Power and Low RIN Performance of a 1.55 μm DFB Laser for 10 Gb/s Satellite Optical Links",
+      "authors": [
+        "Te‐Hua Liu",
+        "Sung-Pu Yang",
+        "Yun-Cheng Yang",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2023,
+      "venue": "IEEE Electron Device Letters",
+      "venue_abbr": "IEEE Electron Device Letters",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "distributed feedback lasers",
+        "1.55 μm lasers",
+        "high optical power",
+        "10 Gb/s transmission",
+        "satellite optical links",
+        "direct modulation",
+        "high-speed modulation",
+        "wide temperature range"
+      ],
+      "url": "https://doi.org/10.1109/led.2023.3347755",
+      "cited_by_count": 6,
+      "importance": 0.25,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7163130522",
+      "doi": "10.1364/ofc.2026.th3c.2",
+      "title": "Integrated Glass Waveguide Substrate with Surface Coupled Photonic Chips for Massive Scaling of CPO",
+      "authors": [
+        "Lars Brusberg",
+        "Seong-Ho Seok",
+        "Tim Grygiel",
+        "Bokyung Kong",
+        "Aramais R. Zakharian",
+        "Betsy J. Johnson",
+        "Janderson R. Rodrigues",
+        "Chad C. Terwilliger",
+        "Lucas W. Yeary",
+        "Jesus A. Cumana Morales",
+        "Marisol M. Gonzalez"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "evanescent coupling",
+        "gold bumps",
+        "electrical interconnects",
+        "photonic packaging"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.th3c.2",
+      "cited_by_count": 0,
+      "importance": 0.25,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7163230946",
+      "doi": "10.1364/ofc.2026.th4a.3",
+      "title": "High Temperature >35GHz Bandwidth Oxide-Confined VCSELs for 200G-PAM4 Links",
+      "authors": [
+        "Yoshiaki Watanabe",
+        "Terukazu Naruse",
+        "Kota Tokuda",
+        "Takahiro Koyama",
+        "Masaki Shiozaki",
+        "Naoki Jogan",
+        "Toshiharu Kiuchi",
+        "Hidekazu Kawanishi",
+        "Osamu Maeda"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "oxide-confined VCSELs",
+        "vertical-cavity surface-emitting lasers",
+        "high-temperature operation",
+        "laser noise",
+        "eye opening",
+        "device lifetime",
+        "optical interconnects"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.th4a.3",
+      "cited_by_count": 2,
+      "importance": 0.25,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2493691256",
+      "doi": "10.1002/9781118148167",
+      "title": "Diode Lasers and Photonic Integrated Circuits",
+      "authors": [
+        "L.A. Coldren",
+        "Scott W. Corzine",
+        "Milan L. Mašanović"
+      ],
+      "year": 2012,
+      "venue": "Wiley eBooks",
+      "venue_abbr": "Wiley eBooks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "diode laser",
+        "photonic integrated circuits",
+        "semiconductor lasers",
+        "integrated photonics"
+      ],
+      "url": "https://doi.org/10.1002/9781118148167",
+      "cited_by_count": 2271,
+      "importance": 0.24,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4290990894",
+      "doi": "10.1145/3544216.3544265",
+      "title": "Jupiter evolving: transforming google's datacenter network via optical circuit switches and software-defined networking",
+      "authors": [
+        "Leon Poutievski",
+        "Omid Mashayekhi",
+        "Joon Suan Ong",
+        "Arjun Singh",
+        "Mukarram Tariq",
+        "Rui Wang",
+        "Jianan Zhang",
+        "Virginia Beauregard",
+        "P. Conner",
+        "Steve Gribble",
+        "Rishi Kapoor",
+        "Stephen Kratzer",
+        "Nanfang Li",
+        "Hong Liu",
+        "Karthik Nagaraj",
+        "Jason Ornstein",
+        "Samir Sawhney",
+        "Ryohei Urata",
+        "Lorenzo Vicisano",
+        "Kevin Y. Yasumura",
+        "Shidong Zhang",
+        "Junlan Zhou",
+        "Amin M. Vahdat"
+      ],
+      "year": 2022,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical circuit switches",
+        "MEMS switches",
+        "software-defined networking",
+        "traffic engineering",
+        "topology reconfiguration",
+        "path length optimization"
+      ],
+      "url": "https://doi.org/10.1145/3544216.3544265",
+      "cited_by_count": 367,
+      "importance": 0.24,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411688730",
+      "doi": "10.1109/ectc51687.2025.00015",
+      "title": "Optical and Electrical Characterization of a Compact Universal Photonic Engine",
+      "authors": [
+        "M. F. Chen",
+        "Hank Cheng",
+        "C. H. Tsou",
+        "S. Y. Hou",
+        "Tianjun Yu",
+        "S. D. Liu",
+        "Ryan P. Lu",
+        "Kuang-Yuan Hsu"
+      ],
+      "year": 2025,
+      "venue": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "venue_abbr": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "grating couplers",
+        "wafer-level characterization",
+        "insertion loss",
+        "wavelength shift",
+        "microlens array",
+        "antireflection coatings",
+        "photonic integrated circuits",
+        "TSMC"
+      ],
+      "url": "https://doi.org/10.1109/ectc51687.2025.00015",
+      "cited_by_count": 29,
+      "importance": 0.24,
+      "score_basis": {
+        "topic_overlap": 0.0,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7163166631",
+      "doi": "10.1364/ofc.2026.w3e.1",
+      "title": "Ultra-High Optical Output Power External Laser Sources for Co-Packaged Optics",
+      "authors": [
+        "Taketsugu Sawamura",
+        "Kohei Umeta",
+        "Takuma Yoshida",
+        "Akihiro Imamura",
+        "Hiroyuki Ishii",
+        "Hideyuki Nasu"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "co-packaged optics",
+        "semiconductor optical amplifier",
+        "distributed feedback laser diode",
+        "Tosa",
+        "high-power laser diodes"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.w3e.1",
+      "cited_by_count": 0,
+      "importance": 0.2399,
+      "score_basis": {
+        "topic_overlap": 0.089,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411689030",
+      "doi": "10.1109/ectc51687.2025.00052",
+      "title": "Co-Packaged Optics (CPO) Technology Full Module Test Vehicle Demonstrations",
+      "authors": [
+        "John U. Knickerbocker",
+        "J. B. Héroux",
+        "Adrian Paz Ramos",
+        "Hsiang-Han Hsu",
+        "Neng Liu",
+        "Yoichi Taira",
+        "Chinami Marushima",
+        "Sayuri Kohara",
+        "Hiroki Mori",
+        "Mark Schultz",
+        "Akihiro Horibe",
+        "Hidetoshi Numata"
+      ],
+      "year": 2025,
+      "venue": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "venue_abbr": "IEEE Electronic Components and Technology Conference (ECTC)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "co-packaged optics",
+        "polymer optical waveguides",
+        "photonic integrated circuits",
+        "flip-chip packaging",
+        "optical interconnects",
+        "reliability testing",
+        "thermal cycling",
+        "bandwidth density"
+      ],
+      "url": "https://doi.org/10.1109/ectc51687.2025.00052",
+      "cited_by_count": 12,
+      "importance": 0.2389,
+      "score_basis": {
+        "topic_overlap": 0.042,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400494447",
+      "doi": "10.1364/ofc.2024.w4f.1",
+      "title": "Optical Architecture and Interconnection for Datacenter Networking and Machine Learning",
+      "authors": [
+        "Hong Liu"
+      ],
+      "year": 2024,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical interconnects",
+        "optical architecture",
+        "data center networks",
+        "optical computing"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2024.w4f.1",
+      "cited_by_count": 4,
+      "importance": 0.2354,
+      "score_basis": {
+        "topic_overlap": 0.034,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396891574",
+      "doi": "10.1364/ofc.2024.w4h.3",
+      "title": "100G and 200G per Lane Linear Drive Optics for Data Center Applications",
+      "authors": [
+        "Elaine S. Chou",
+        "Yishen Huang",
+        "Siamak Amiralizadeh",
+        "Jeffrey T. Rahn",
+        "J. K. Doylend",
+        "Qing Wang",
+        "Janet Chen",
+        "Darron Young"
+      ],
+      "year": 2024,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "data center interconnects",
+        "link margin",
+        "optical interconnects"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2024.w4h.3",
+      "cited_by_count": 27,
+      "importance": 0.2339,
+      "score_basis": {
+        "topic_overlap": 0.031,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402475795",
+      "doi": "10.1109/hcs61935.2024.10664787",
+      "title": "An AI Compute ASIC with Optical Attach to Enable Next Generation Scale-Up Architectures",
+      "authors": [
+        "Manish Mehta"
+      ],
+      "year": 2024,
+      "venue": "IEEE Hot Chips Symposium",
+      "venue_abbr": "IEEE Hot Chips Symposium",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical interconnects",
+        "optical module",
+        "power consumption",
+        "latency"
+      ],
+      "url": "https://doi.org/10.1109/hcs61935.2024.10664787",
+      "cited_by_count": 15,
+      "importance": 0.2339,
+      "score_basis": {
+        "topic_overlap": 0.031,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2345562294",
+      "doi": "10.1088/2040-8978/18/6/063002",
+      "title": "Roadmap of optical communications",
+      "authors": [
+        "Erik Agrell",
+        "Magnus Karlsson",
+        "ANDREW R. CHRAPLYVY",
+        "David John Richardson",
+        "Peter M. Krummrich",
+        "Peter J. Winzer",
+        "Kim Roberts",
+        "Johannes Fischer",
+        "Seb J. Savory",
+        "Benjamin J. Eggleton",
+        "Marco Secondini",
+        "Frank R. Kschischang",
+        "Andrew Lord",
+        "Josep Prat",
+        "Ioannis Tomkos",
+        "John Edward Bowers",
+        "Sudha Srinivasan",
+        "Maïté Brandt-Pearce",
+        "Nicolas Gisin"
+      ],
+      "year": 2016,
+      "venue": "Journal of Optics",
+      "venue_abbr": "J. Opt.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical communication",
+        "lightwave communications",
+        "optical fibers",
+        "optical interconnects",
+        "high-capacity networks",
+        "data center interconnects",
+        "supercomputer interconnects",
+        "energy-efficient communication",
+        "future research directions"
+      ],
+      "url": "https://doi.org/10.1088/2040-8978/18/6/063002",
+      "cited_by_count": 723,
+      "importance": 0.2317,
+      "score_basis": {
+        "topic_overlap": 0.026,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2888677169",
+      "doi": "10.1109/jqe.2018.2867087",
+      "title": "752-MHz Modulation Bandwidth of High-Speed Blue Micro Light-Emitting Diodes",
+      "authors": [
+        "Hao-Yu Lan",
+        "I-Chen Tseng",
+        "Hsuan-Yun Kao",
+        "Yung‐Hsiang Lin",
+        "Gong‐Ru Lin",
+        "Chao-Hsin Wayne Wu"
+      ],
+      "year": 2018,
+      "venue": "IEEE Journal of Quantum Electronics",
+      "venue_abbr": "JQE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "modulation bandwidth",
+        "gallium nitride",
+        "number of quantum wells",
+        "single quantum well",
+        "triple quantum well",
+        "carrier storage",
+        "recombination rate",
+        "carrier lifetime",
+        "visible light communication"
+      ],
+      "url": "https://doi.org/10.1109/jqe.2018.2867087",
+      "cited_by_count": 49,
+      "importance": 0.2286,
+      "score_basis": {
+        "topic_overlap": 0.019,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7163163158",
+      "doi": "10.1364/ofc.2026.w1d.7",
+      "title": "Co-Design of Electronic and Photonic Systems for Future LPO, NPO, and CPO",
+      "authors": [
+        "G. de Valicourt",
+        "D. Assumpcao",
+        "S. Abbaslou",
+        "L. Elsinger",
+        "A. Adibi",
+        "S.T. Le",
+        "Peter J. Winzer"
+      ],
+      "year": 2026,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "co-packaged optics",
+        "photonic packaging",
+        "data center interconnects"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2026.w1d.7",
+      "cited_by_count": 1,
+      "importance": 0.2279,
+      "score_basis": {
+        "topic_overlap": 0.062,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W2888918761",
+      "to": "W2345562294",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2888918761"
+        }
+      ]
+    },
+    {
+      "from": "W3012137182",
+      "to": "W2888677169",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3012137182"
+        }
+      ]
+    },
+    {
+      "from": "W3093695583",
+      "to": "W2800858137",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3093695583"
+        }
+      ]
+    },
+    {
+      "from": "W3093695583",
+      "to": "W3004529642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3093695583"
+        }
+      ]
+    },
+    {
+      "from": "W4212915958",
+      "to": "W3004529642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4212915958"
+        }
+      ]
+    },
+    {
+      "from": "W4212915958",
+      "to": "W3093695583",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4212915958"
+        }
+      ]
+    },
+    {
+      "from": "W4311802558",
+      "to": "W3004529642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4311802558"
+        }
+      ]
+    },
+    {
+      "from": "W4311802558",
+      "to": "W3093695583",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4311802558"
+        }
+      ]
+    },
+    {
+      "from": "W4311802558",
+      "to": "W4212915958",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4311802558"
+        }
+      ]
+    },
+    {
+      "from": "W4322753410",
+      "to": "W3004529642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322753410"
+        }
+      ]
+    },
+    {
+      "from": "W4322753410",
+      "to": "W3093695583",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322753410"
+        }
+      ]
+    },
+    {
+      "from": "W4322753410",
+      "to": "W4212915958",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322753410"
+        }
+      ]
+    },
+    {
+      "from": "W4322753410",
+      "to": "W4311802558",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322753410"
+        }
+      ]
+    },
+    {
+      "from": "W4327898871",
+      "to": "W3106811883",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4327898871"
+        }
+      ]
+    },
+    {
+      "from": "W4362714959",
+      "to": "W3004529642",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362714959"
+        }
+      ]
+    },
+    {
+      "from": "W4362714959",
+      "to": "W3093695583",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362714959"
+        }
+      ]
+    },
+    {
+      "from": "W4362714959",
+      "to": "W4212915958",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362714959"
+        }
+      ]
+    },
+    {
+      "from": "W4362714959",
+      "to": "W4311802558",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362714959"
+        }
+      ]
+    },
+    {
+      "from": "W4362714959",
+      "to": "W4322753410",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4362714959"
+        }
+      ]
+    },
+    {
+      "from": "W4385945248",
+      "to": "W2493691256",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385945248"
+        }
+      ]
+    },
+    {
+      "from": "W4385945248",
+      "to": "W4212915958",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4385945248"
+        }
+      ]
+    },
+    {
+      "from": "W4386365418",
+      "to": "W4290990894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386365418"
+        }
+      ]
+    },
+    {
+      "from": "W4390357343",
+      "to": "W2493691256",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4390357343"
+        }
+      ]
+    },
+    {
+      "from": "W4403919485",
+      "to": "W3106811883",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403919485"
+        }
+      ]
+    },
+    {
+      "from": "W4403919485",
+      "to": "W4327898871",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4403919485"
+        }
+      ]
+    },
+    {
+      "from": "W4417053841",
+      "to": "W3106811883",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417053841"
+        }
+      ]
+    },
+    {
+      "from": "W4417053841",
+      "to": "W4396891574",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417053841"
+        }
+      ]
+    },
+    {
+      "from": "W4417053841",
+      "to": "W4402475795",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417053841"
+        }
+      ]
+    },
+    {
+      "from": "W7116743017",
+      "to": "W4327898871",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7116743017"
+        }
+      ]
+    },
+    {
+      "from": "W7116743017",
+      "to": "W4411688730",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7116743017"
+        }
+      ]
+    },
+    {
+      "from": "W7116743017",
+      "to": "W4411689030",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7116743017"
+        }
+      ]
+    },
+    {
+      "from": "W7118206949",
+      "to": "W4327898871",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7118206949"
+        }
+      ]
+    },
+    {
+      "from": "W7126218566",
+      "to": "W4411688730",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7126218566"
+        }
+      ]
+    },
+    {
+      "from": "W7140292098",
+      "to": "W4212915958",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7140292098"
+        }
+      ]
+    },
+    {
+      "from": "W7140292098",
+      "to": "W4327898871",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7140292098"
+        }
+      ]
+    },
+    {
+      "from": "W7140292098",
+      "to": "W7118206949",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7140292098"
+        }
+      ]
+    },
+    {
+      "from": "W7162671850",
+      "to": "W4400494447",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7162671850"
+        }
+      ]
+    },
+    {
+      "from": "W7163130522",
+      "to": "W4327898871",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163130522"
+        }
+      ]
+    },
+    {
+      "from": "W7163147641",
+      "to": "W4417053841",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163147641"
+        }
+      ]
+    },
+    {
+      "from": "W7163171255",
+      "to": "W4290990894",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163171255"
+        }
+      ]
+    },
+    {
+      "from": "W7163230946",
+      "to": "W7125046436",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7163230946"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W2345562294",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W2493691256",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W2800858137",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W2888677169",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W2888918761",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W3004529642",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W3012137182",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W3035736925",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W3093695583",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W3106811883",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W3187255235",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4212915958",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4290990894",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4311802558",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4322753410",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4327898871",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4362714959",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4385945248",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4386365418",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4390357343",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4396891574",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4400494447",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4402475795",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4403919485",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4411688730",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4411689030",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4413757313",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W4417053841",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7116743017",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7118206949",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7125046436",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7126218566",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7140292098",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7162671850",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7163130522",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7163147641",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7163163158",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7163166631",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7163171255",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    },
+    {
+      "from": "doi:10.3390/photonics13121103",
+      "to": "W7163230946",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.3390%2Fphotonics13121103"
+        }
+      ]
+    }
+  ]
+}

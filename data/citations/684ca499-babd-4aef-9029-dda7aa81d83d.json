@@ -1,0 +1,965 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "684ca499-babd-4aef-9029-dda7aa81d83d",
+  "root": "W7225249742",
+  "status": "ok",
+  "checked_at": "2026-11-26T00:43:44.787851+00:00",
+  "coverage": {
+    "references_found": 13,
+    "citing_found": 0,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "ok",
+    "citing_status": "ok",
+    "references_without_doi": 0,
+    "candidates_resolved": 13,
+    "displayed": 13
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7225249742",
+      "doi": "10.1364/ol.621943",
+      "title": "Joint subcarrier-domain allocation and BWDM-based probabilistic shaping for photonics-assisted millimeter-wave ISAC systems",
+      "authors": [
+        "Zhiguo Wang",
+        "Wei Ji",
+        "Liu Peng",
+        "Runlai Wang",
+        "Jiao Zhang",
+        "Min Zhu",
+        "Xinkuo Yu",
+        "Hengying Xu",
+        "Chenglin Bai",
+        "Ju Liu"
+      ],
+      "year": 2026,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "subcarrier allocation",
+        "probabilistic shaping",
+        "integrated sensing and communication",
+        "optical wireless communication",
+        "joint resource allocation"
+      ],
+      "url": "https://doi.org/10.1364/ol.621943",
+      "cited_by_count": 0,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/684ca499-babd-4aef-9029-dda7aa81d83d.html",
+      "summary": "论文针对光子辅助毫米波 OFDM 通感一体化系统，将有效子载波分组，按可配置比例分配均匀分布的 64QAM 符号或基于比特加权分布匹配（BWDM）的概率整形 64QAM 符号。该方案沿用原有 BWDM 和 OFDM 帧结构。摘要报告，仿真和实验均表明，该方案在净比特率、平均旁瓣电平和误码率所表征的通信与感知权衡中增加了离散工作点。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W7160380775",
+      "doi": "10.1109/jlt.2026.3690699",
+      "title": "Probabilistic Shaping With Bit-Weighted Distribution Matching for Photonics-Assisted mmWave Dual-Functional OFDM ISAC Systems",
+      "authors": [
+        "Zhiguo Wang",
+        "Wei Ji",
+        "R C Liu",
+        "Hengtai Chang",
+        "Jiao Zhang",
+        "Mingzheng Lei",
+        "Min Zhu",
+        "Xinkuo Yu",
+        "Hengying Xu",
+        "Chenglin Bai",
+        "Ju Liu"
+      ],
+      "year": 2026,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "probabilistic shaping",
+        "integrated sensing and communication",
+        "OFDM",
+        "64-QAM",
+        "sidelobe level reduction",
+        "ranging error",
+        "peak-to-sidelobe ratio"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2026.3690699",
+      "cited_by_count": 0,
+      "importance": 0.6324,
+      "score_basis": {
+        "topic_overlap": 0.405,
+        "shared_references": 10,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417470759",
+      "doi": "10.1109/tmtt.2025.3643433",
+      "title": "Bit Inversion Probabilistic Shaping Enabling Performance Tradeoff in Photonics-Aided Millimeter-Wave OFDM Integrated Sensing and Communication Systems",
+      "authors": [
+        "Zhiguo Wang",
+        "Wei Ji",
+        "Hengtai Chang",
+        "Yunxiao Li",
+        "Jiao Zhang",
+        "Mingzheng Lei",
+        "Min Zhu",
+        "Ju Liu"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Microwave Theory and Techniques",
+      "venue_abbr": "IEEE Transactions on Microwave Theory and Techniques",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "OFDM",
+        "generalized mutual information",
+        "sensing-communication trade-off",
+        "6G"
+      ],
+      "url": "https://doi.org/10.1109/tmtt.2025.3643433",
+      "cited_by_count": 1,
+      "importance": 0.5902,
+      "score_basis": {
+        "topic_overlap": 0.312,
+        "shared_references": 7,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4407129365",
+      "doi": "10.1109/tmtt.2025.3532810",
+      "title": "Microwave Photonics Empowered Integrated Sensing and Communication for 6G",
+      "authors": [
+        "Lihan Wang",
+        "Xiangchuan Wang",
+        "Shilong Pan"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Microwave Theory and Techniques",
+      "venue_abbr": "IEEE Transactions on Microwave Theory and Techniques",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "microwave photonics",
+        "6G",
+        "photonic transceivers",
+        "parameter adaptation",
+        "resource reuse"
+      ],
+      "url": "https://doi.org/10.1109/tmtt.2025.3532810",
+      "cited_by_count": 79,
+      "importance": 0.521,
+      "score_basis": {
+        "topic_overlap": 0.247,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417051940",
+      "doi": "10.1109/tmtt.2025.3638469",
+      "title": "Signal-Signal Beating Interference: From Destructive to Constructive for Photonic THz Integrated Sensing and Communication System Using Self-Coherent OFDM",
+      "authors": [
+        "Fengwei Liu",
+        "Xihua Zou",
+        "Ningyuan Zhong",
+        "Xiong Deng",
+        "Lianshan Yan",
+        "Wei Pan"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Microwave Theory and Techniques",
+      "venue_abbr": "IEEE Transactions on Microwave Theory and Techniques",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "6G",
+        "range resolution",
+        "peak-to-sidelobe ratio",
+        "peak-to-average power ratio reduction",
+        "photonic integrated circuits",
+        "fiber optic sensing"
+      ],
+      "url": "https://doi.org/10.1109/tmtt.2025.3638469",
+      "cited_by_count": 2,
+      "importance": 0.4444,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285117033",
+      "doi": "10.1109/jlt.2022.3181608",
+      "title": "A Spectrum-Efficient MoF Architecture for Joint Sensing and Communication in B5G Based on Polarization Interleaving and Polarization-Insensitive Filtering",
+      "authors": [
+        "Mingzheng Lei",
+        "Min Zhu",
+        "Bingchang Hua",
+        "Jiao Zhang",
+        "Yuancheng Cai",
+        "Yucong Zou",
+        "Xiang Liu",
+        "Jianjun Yu"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "millimeter-wave over fiber",
+        "chromatic dispersion",
+        "frequency offset estimation",
+        "ranging accuracy",
+        "dual-target detection",
+        "spectral efficiency"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3181608",
+      "cited_by_count": 29,
+      "importance": 0.4078,
+      "score_basis": {
+        "topic_overlap": 0.328,
+        "shared_references": 0,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4280515117",
+      "doi": "10.1364/ol.460188",
+      "title": "OFDM-NOMA combined with LFM signal for W-band communication and radar detection simultaneously",
+      "authors": [
+        "Ran Song",
+        "Jing He"
+      ],
+      "year": 2022,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "non-orthogonal multiple access",
+        "linear frequency modulation",
+        "W-band",
+        "DFT precoding",
+        "distance estimation",
+        "free-space transmission"
+      ],
+      "url": "https://doi.org/10.1364/ol.460188",
+      "cited_by_count": 57,
+      "importance": 0.3896,
+      "score_basis": {
+        "topic_overlap": 0.133,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402401433",
+      "doi": "10.1109/jlt.2024.3458029",
+      "title": "Probabilistic Shaping Encryption Scheme Based on Dual-Parameter Bit-Weighted Distribution Matching in MMW-RoF System",
+      "authors": [
+        "Yaoqiang Xiao",
+        "Zhaoyu An",
+        "Linrong Jiang",
+        "Chunxi Zhou",
+        "Yuqing Li",
+        "Sitao Wang"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "probabilistic shaping",
+        "physical layer security",
+        "radio-over-fiber",
+        "millimeter-wave communication",
+        "hyperchaotic systems",
+        "diffusion",
+        "quadrature amplitude modulation",
+        "key space",
+        "chosen-plaintext attack resistance",
+        "optical fiber transmission",
+        "OFDM signals"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3458029",
+      "cited_by_count": 29,
+      "importance": 0.3808,
+      "score_basis": {
+        "topic_overlap": 0.313,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4409326087",
+      "doi": "10.1109/tmtt.2025.3549729",
+      "title": "THz Integrated Sensing and Communication With Full-Photonic Direct LFM Reception and De-Chirping for D-Band Fiber-Wireless Network",
+      "authors": [
+        "Boyu Dong",
+        "Zhongya Li",
+        "Sizhe Xing",
+        "Yinjun Liu",
+        "Junhao Zhao",
+        "Ouhan Huang",
+        "Junlian Jia",
+        "Jianyang Shi",
+        "Yingjun Zhou",
+        "Haipeng Wang",
+        "Nan Chi",
+        "Junwen Zhang"
+      ],
+      "year": 2025,
+      "venue": "IEEE Transactions on Microwave Theory and Techniques",
+      "venue_abbr": "IEEE Transactions on Microwave Theory and Techniques",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "dechirping",
+        "D-band",
+        "fiber-wireless networks",
+        "linear frequency modulation"
+      ],
+      "url": "https://doi.org/10.1109/tmtt.2025.3549729",
+      "cited_by_count": 16,
+      "importance": 0.378,
+      "score_basis": {
+        "topic_overlap": 0.195,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7169850882",
+      "doi": "10.1364/ol.606158",
+      "title": "AFDM-enabled, photonics-aided fiber-wireless fronthaul system for integrated sensing and communication",
+      "authors": [
+        "Hengxin Yan",
+        "Xinying Li",
+        "Liye Fang",
+        "Jiahao Bi",
+        "Chengang Fu",
+        "Yujie Zhang",
+        "Yukai Fu",
+        "Xianshuang Li",
+        "Tangyao Xie",
+        "Xiaolong Pan",
+        "Qi Zhang",
+        "Xiangjun Xin"
+      ],
+      "year": 2026,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "affine frequency division multiplexing",
+        "doubly dispersive channels",
+        "6G",
+        "OFDM comparison",
+        "target localization",
+        "range resolution",
+        "carrier frequency offset",
+        "multi-target sensing"
+      ],
+      "url": "https://doi.org/10.1364/ol.606158",
+      "cited_by_count": 1,
+      "importance": 0.3416,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4200016438",
+      "doi": "10.1364/ol.447876",
+      "title": "W-band simultaneous vector signal generation and radar detection based on photonic frequency quadrupling",
+      "authors": [
+        "Yanyi Wang",
+        "Junjie Ding",
+        "Mingxu Wang",
+        "Ze Dong",
+        "Feng Zhao",
+        "Jianjun Yu"
+      ],
+      "year": 2022,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "W-band",
+        "radar target detection",
+        "QPSK",
+        "wireless transmission",
+        "range resolution",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1364/ol.447876",
+      "cited_by_count": 53,
+      "importance": 0.3406,
+      "score_basis": {
+        "topic_overlap": 0.135,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7133204668",
+      "doi": "10.1109/tcomm.2026.3669491",
+      "title": "Constellation Shaping for OFDM-ISAC Systems: From Theoretical Bounds to Practical Implementation",
+      "authors": [
+        "Benedikt Geiger",
+        "Fan Liu",
+        "Shihang Lu",
+        "Andrej Rode",
+        "Daniel Gil Gaviria",
+        "Charlotte Muth",
+        "Laurent Schmalen"
+      ],
+      "year": 2026,
+      "venue": "IEEE Transactions on Communications",
+      "venue_abbr": "IEEE Trans. Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "constellation shaping",
+        "OFDM",
+        "probabilistic amplitude shaping",
+        "sensing-communication trade-off",
+        "maximum a posteriori decoding"
+      ],
+      "url": "https://doi.org/10.1109/tcomm.2026.3669491",
+      "cited_by_count": 21,
+      "importance": 0.3382,
+      "score_basis": {
+        "topic_overlap": 0.152,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402742423",
+      "doi": "10.1109/tsp.2024.3465499",
+      "title": "Reshaping the ISAC Tradeoff Under OFDM Signaling: A Probabilistic Constellation Shaping Approach",
+      "authors": [
+        "Zhen Du",
+        "Fan Liu",
+        "Yifeng Xiong",
+        "Tony Xiao Han",
+        "Yonina C. Eldar",
+        "Shi Jin"
+      ],
+      "year": 2024,
+      "venue": "IEEE Transactions on Signal Processing",
+      "venue_abbr": "IEEE Transactions on Signal Processing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "OFDM",
+        "probabilistic shaping",
+        "ambiguity function",
+        "achievable rate",
+        "Blahut-Arimoto algorithm",
+        "sensing-communication trade-off",
+        "weak target detection"
+      ],
+      "url": "https://doi.org/10.1109/tsp.2024.3465499",
+      "cited_by_count": 141,
+      "importance": 0.3274,
+      "score_basis": {
+        "topic_overlap": 0.105,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4391454495",
+      "doi": "10.1109/jiot.2024.3361173",
+      "title": "Integrated Sensing and Communications: Recent Advances and Ten Open Challenges",
+      "authors": [
+        "Shihang Lu",
+        "Fan Liu",
+        "Yunxin Li",
+        "Kecheng Zhang",
+        "Hongjia Huang",
+        "Jiaqi Zou",
+        "Xinyu Li",
+        "Yuxiang Dong",
+        "Fuwang Dong",
+        "Jia Zhu",
+        "Yifeng Xiong",
+        "Weijie Yuan",
+        "Yuanhao Cui",
+        "Lajos Hanzo"
+      ],
+      "year": 2024,
+      "venue": "IEEE Internet of Things Journal",
+      "venue_abbr": "IEEE Internet of Things Journal",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "integrated sensing and communication",
+        "clock synchronization",
+        "phase offset",
+        "network sensing",
+        "cellular networks",
+        "beyond 5G",
+        "6G"
+      ],
+      "url": "https://doi.org/10.1109/jiot.2024.3361173",
+      "cited_by_count": 744,
+      "importance": 0.2674,
+      "score_basis": {
+        "topic_overlap": 0.061,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W4280515117",
+      "to": "W4200016438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4280515117"
+        }
+      ]
+    },
+    {
+      "from": "W4407129365",
+      "to": "W4200016438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407129365"
+        }
+      ]
+    },
+    {
+      "from": "W4407129365",
+      "to": "W4280515117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407129365"
+        }
+      ]
+    },
+    {
+      "from": "W4407129365",
+      "to": "W4285117033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4407129365"
+        }
+      ]
+    },
+    {
+      "from": "W4409326087",
+      "to": "W4280515117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4409326087"
+        }
+      ]
+    },
+    {
+      "from": "W4417051940",
+      "to": "W4402742423",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417051940"
+        }
+      ]
+    },
+    {
+      "from": "W4417051940",
+      "to": "W4407129365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417051940"
+        }
+      ]
+    },
+    {
+      "from": "W4417051940",
+      "to": "W4409326087",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417051940"
+        }
+      ]
+    },
+    {
+      "from": "W4417470759",
+      "to": "W4200016438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417470759"
+        }
+      ]
+    },
+    {
+      "from": "W4417470759",
+      "to": "W4280515117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417470759"
+        }
+      ]
+    },
+    {
+      "from": "W4417470759",
+      "to": "W4285117033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417470759"
+        }
+      ]
+    },
+    {
+      "from": "W4417470759",
+      "to": "W4391454495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417470759"
+        }
+      ]
+    },
+    {
+      "from": "W4417470759",
+      "to": "W4402401433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417470759"
+        }
+      ]
+    },
+    {
+      "from": "W4417470759",
+      "to": "W4402742423",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417470759"
+        }
+      ]
+    },
+    {
+      "from": "W4417470759",
+      "to": "W4407129365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417470759"
+        }
+      ]
+    },
+    {
+      "from": "W7133204668",
+      "to": "W4402742423",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7133204668"
+        }
+      ]
+    },
+    {
+      "from": "W7160380775",
+      "to": "W4200016438",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160380775"
+        }
+      ]
+    },
+    {
+      "from": "W7160380775",
+      "to": "W4280515117",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160380775"
+        }
+      ]
+    },
+    {
+      "from": "W7160380775",
+      "to": "W4285117033",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160380775"
+        }
+      ]
+    },
+    {
+      "from": "W7160380775",
+      "to": "W4391454495",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160380775"
+        }
+      ]
+    },
+    {
+      "from": "W7160380775",
+      "to": "W4402401433",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160380775"
+        }
+      ]
+    },
+    {
+      "from": "W7160380775",
+      "to": "W4402742423",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160380775"
+        }
+      ]
+    },
+    {
+      "from": "W7160380775",
+      "to": "W4407129365",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160380775"
+        }
+      ]
+    },
+    {
+      "from": "W7160380775",
+      "to": "W4409326087",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160380775"
+        }
+      ]
+    },
+    {
+      "from": "W7160380775",
+      "to": "W4417051940",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160380775"
+        }
+      ]
+    },
+    {
+      "from": "W7160380775",
+      "to": "W7133204668",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7160380775"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W4200016438",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W4280515117",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W4285117033",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W4391454495",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W4402401433",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W4402742423",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W4407129365",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W4409326087",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W4417051940",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W4417470759",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W7133204668",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W7160380775",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    },
+    {
+      "from": "W7225249742",
+      "to": "W7169850882",
+      "sources": [
+        {
+          "provider": "Crossref",
+          "url": "https://api.crossref.org/works/10.1364%2Fol.621943"
+        }
+      ]
+    }
+  ]
+}

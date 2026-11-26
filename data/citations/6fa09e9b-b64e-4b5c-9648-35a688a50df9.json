@@ -3,17 +3,17 @@
   "record_id": "6fa09e9b-b64e-4b5c-9648-35a688a50df9",
   "root": "W7163194082",
   "status": "ok",
-  "checked_at": "2026-10-18T12:28:01.409398+00:00",
+  "checked_at": "2026-11-26T00:43:49.037971+00:00",
   "coverage": {
     "references_found": 2,
-    "citing_found": 0,
+    "citing_found": 1,
     "reference_limit": 100,
     "citing_limit": 30,
     "display_limit": 41,
     "references_status": "ok",
     "citing_status": "ok",
-    "candidates_resolved": 2,
-    "displayed": 2
+    "candidates_resolved": 3,
+    "displayed": 3
   },
   "issues": [],
   "refresh_failed": false,
@@ -40,7 +40,7 @@
         "machine learning training"
       ],
       "url": "https://doi.org/10.1364/ofc.2026.th3h.3",
-      "cited_by_count": 0,
+      "cited_by_count": 1,
       "importance": 1,
       "score_basis": {},
       "role": "root",
@@ -59,7 +59,7 @@
         "Aitor López Hernández",
         "Mikel Gutierrez",
         "Erica Sánchez",
-        "Juan Fernández",
+        "J. M. Fernández",
         "Alejandro Cruz",
         "Alberto Quirós",
         "Zhenyun Xie",
@@ -84,7 +84,7 @@
         "photonic-electronic integration"
       ],
       "url": "https://doi.org/10.1038/s41467-024-45888-7",
-      "cited_by_count": 106,
+      "cited_by_count": 140,
       "importance": 0.3343,
       "score_basis": {
         "topic_overlap": 0.298,
@@ -97,8 +97,46 @@
       "summary_basis": "仅题录；摘要尚未核对"
     },
     {
+      "id": "W7202216837",
+      "doi": "10.1145/3789240.3829151",
+      "title": "λ λ: A Programming Language for Silicon Photonics",
+      "authors": [
+        "Vaibhav Mehta",
+        "Arjun Devraj",
+        "Bill Owens",
+        "Justin Hsu",
+        "Rachee Singh"
+      ],
+      "year": 2026,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "silicon photonics",
+        "photonic switches",
+        "programming languages",
+        "linear type systems",
+        "compile-time verification",
+        "circuit switching",
+        "hardware synthesis",
+        "automatic code generation"
+      ],
+      "url": "https://doi.org/10.1145/3789240.3829151",
+      "cited_by_count": 0,
+      "importance": 0.2808,
+      "score_basis": {
+        "topic_overlap": 0.18,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "citing",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
       "id": "W2059300917",
-      "doi": "10.1016/0167-8191(94)90095-7",
+      "doi": "10.1016/s0167-8191(06)80021-9",
       "title": "The communication challenge for MPP: Intel Paragon and Meiko CS-2",
       "authors": [
         "Roger W. Hockney"
@@ -115,8 +153,8 @@
         "communication bandwidth",
         "vector processing"
       ],
-      "url": "https://doi.org/10.1016/0167-8191(94)90095-7",
-      "cited_by_count": 294,
+      "url": "https://doi.org/10.1016/s0167-8191(06)80021-9",
+      "cited_by_count": 401,
       "importance": 0.2629,
       "score_basis": {
         "topic_overlap": 0.14,
@@ -147,6 +185,16 @@
         {
           "provider": "OpenAlex",
           "url": "https://api.openalex.org/works/W7163194082"
+        }
+      ]
+    },
+    {
+      "from": "W7202216837",
+      "to": "W7163194082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202216837"
         }
       ]
     }

@@ -1,25 +1,28 @@
 {
   "schema": "paperflow.citation-graph/v1",
   "record_id": "d132ada2-116f-4a1b-95f5-8af888873d3e",
-  "root": "W7220740409",
-  "status": "empty",
-  "checked_at": "2026-10-18T12:28:09.475344+00:00",
+  "root": "doi:10.48550/arxiv.2610.06599",
+  "status": "unavailable",
+  "checked_at": "2026-11-27T00:45:03.580717+00:00",
   "coverage": {
     "references_found": 0,
-    "citing_found": 0,
+    "citing_found": null,
     "reference_limit": 100,
     "citing_limit": 30,
     "display_limit": 41,
-    "references_status": "ok",
-    "citing_status": "ok",
+    "references_status": "unavailable",
+    "citing_status": "unavailable",
     "candidates_resolved": 0,
     "displayed": 0
   },
-  "issues": [],
+  "issues": [
+    "openalex_unavailable",
+    "crossref_unavailable"
+  ],
   "refresh_failed": false,
   "nodes": [
     {
-      "id": "W7220740409",
+      "id": "doi:10.48550/arxiv.2610.06599",
       "doi": "10.48550/arxiv.2610.06599",
       "title": "Experimental Demonstration of Autonomous Class Aware Optimization via Digital Twin Aided Optical Network Agent",
       "authors": [
@@ -30,20 +33,13 @@
         "Nicola Sambo",
         "Patricia Layec"
       ],
-      "year": 2026,
+      "year": "2026",
       "venue": "arXiv",
       "venue_abbr": "arXiv",
       "rank_label": "不适用期刊等级",
-      "keywords": [
-        "digital twin",
-        "optical network management",
-        "multi-agent LLM systems",
-        "autonomous network management",
-        "channel quality",
-        "network testbed"
-      ],
-      "url": "https://doi.org/10.48550/arxiv.2610.06599",
-      "cited_by_count": 0,
+      "keywords": [],
+      "url": "https://arxiv.org/abs/2610.06599v1",
+      "cited_by_count": null,
       "importance": 1,
       "score_basis": {},
       "role": "root",

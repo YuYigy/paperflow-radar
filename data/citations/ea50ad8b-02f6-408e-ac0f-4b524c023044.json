@@ -2,19 +2,18 @@
   "schema": "paperflow.citation-graph/v1",
   "record_id": "ea50ad8b-02f6-408e-ac0f-4b524c023044",
   "root": "W7220671941",
-  "status": "empty",
-  "checked_at": "2026-10-18T12:28:11.061223+00:00",
+  "status": "ok",
+  "checked_at": "2026-11-28T00:44:43.440354+00:00",
   "coverage": {
-    "references_found": 0,
+    "references_found": 51,
     "citing_found": 0,
     "reference_limit": 100,
     "citing_limit": 30,
     "display_limit": 41,
-    "references_status": "ok",
+    "references_status": "partial",
     "citing_status": "ok",
-    "references_without_doi": 0,
-    "candidates_resolved": 0,
-    "displayed": 0
+    "candidates_resolved": 50,
+    "displayed": 40
   },
   "issues": [],
   "refresh_failed": false,
@@ -30,10 +29,10 @@
         "Suttikarn Wantee",
         "Kyle R. H. Bottrill",
         "Stéphane Malhouitre",
-        "S. Garcia",
-        "G. Sarantoglou",
+        "Stephanie Garcia",
+        "George Sarantoglou",
         "Peter Bienstman",
-        "Benoı̂t Charbonnier",
+        "Benoît Charbonnier",
         "Charis Mesaritakis",
         "Caterina Vigliar",
         "Francesco Da Ros",
@@ -42,7 +41,7 @@
       ],
       "year": 2026,
       "venue": "Communications Engineering",
-      "venue_abbr": "Communications Engineering",
+      "venue_abbr": "Commun. Eng.",
       "rank_label": "未匹配 CIE 2023",
       "keywords": [
         "intensity modulation and direct detection",
@@ -62,7 +61,2627 @@
       "reading_url": "items/ea50ad8b-02f6-408e-ac0f-4b524c023044.html",
       "summary": "论文报告循环光谱切片（ROSS）架构的集成光子接收机，通过光学预处理与频率分集检测提供互补的强度域观测，缓解色散引起的功率衰落。摘要报告实验实现：160 GBaud PAM-4传输50 km、175 GBaud PAM-4传输25 km，以及200 GBaud OOK传输75 km，均使用未补偿的标准单模光纤，并采用低带宽电光器件和简单前馈均衡。报告的色散容限最高为2.4×10^5 GBd·ps/nm。",
       "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W4386412373",
+      "doi": "10.1109/jlt.2023.3311716",
+      "title": "Modulation Format and Digital Signal Processing for IM-DD Optics at Post-200G Era",
+      "authors": [
+        "Di Che",
+        "Xi Chen"
+      ],
+      "year": 2023,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "modulation schemes",
+        "digital signal processing",
+        "probabilistic shaping",
+        "PAM",
+        "faster-than-Nyquist signaling",
+        "nonlinear equalization",
+        "multicarrier modulation",
+        "fiber dispersion",
+        "peak power constraint",
+        "bandwidth constraints",
+        "data center interconnects"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2023.3311716",
+      "cited_by_count": 163,
+      "importance": 0.7597,
+      "score_basis": {
+        "topic_overlap": 0.466,
+        "shared_references": 6,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4400771914",
+      "doi": "10.1109/jlt.2024.3430489",
+      "title": "Experimental Investigation of a Recurrent Optical Spectrum Slicing Receiver for Intensity Modulation/Direct Detection Systems Using Programmable Photonics",
+      "authors": [
+        "Kostas Sozos",
+        "Francesco Da Ros",
+        "Metodi P. Yankov",
+        "George Sarantoglou",
+        "Stavros Deligiannidis",
+        "Charis Mesaritakis",
+        "Adonis Bogris"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "chromatic dispersion compensation",
+        "programmable photonics",
+        "PAM-4",
+        "feed-forward equalizer",
+        "power fading",
+        "optical signal processing",
+        "bit error rate reduction"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3430489",
+      "cited_by_count": 12,
+      "importance": 0.6794,
+      "score_basis": {
+        "topic_overlap": 0.376,
+        "shared_references": 6,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4312525442",
+      "doi": "10.1109/jlt.2022.3217287",
+      "title": "Analysis and Demonstration of Low-Complexity Joint Optical-Electrical Feedforward Equalization (OE-FFE) For Dispersion-Limited High-Speed IM/DD Transmission",
+      "authors": [
+        "Paikun Zhu",
+        "Yuki Yoshida",
+        "Atsushi Kanno",
+        "Ken-ichi Kitayama"
+      ],
+      "year": 2022,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "chromatic dispersion",
+        "long-haul optical transmission",
+        "PAM-4",
+        "optical delay line",
+        "digital equalizer",
+        "data center interconnects"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2022.3217287",
+      "cited_by_count": 43,
+      "importance": 0.6309,
+      "score_basis": {
+        "topic_overlap": 0.557,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7164324895",
+      "doi": "10.1126/science.ady5344",
+      "title": "An all-optical signal processor enabling terabit-per-second real-time equalization",
+      "authors": [
+        "Benshan Wang",
+        "Qiarong Xiao",
+        "Tengji Xu",
+        "F Li",
+        "Shaojie Liu",
+        "Qiuqiang Kong",
+        "Jianji Dong",
+        "Junwen Zhang",
+        "Chaoran Huang"
+      ],
+      "year": 2026,
+      "venue": "Science",
+      "venue_abbr": "Science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "all-optical signal processing",
+        "optical equalization",
+        "deep reservoirs",
+        "wavelength division multiplexing",
+        "chromatic dispersion compensation",
+        "fiber nonlinearity"
+      ],
+      "url": "https://doi.org/10.1126/science.ady5344",
+      "cited_by_count": 15,
+      "importance": 0.5984,
+      "score_basis": {
+        "topic_overlap": 0.285,
+        "shared_references": 6,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412075737",
+      "doi": "10.1038/s41467-025-61408-7",
+      "title": "A 4×256 Gbps silicon transmitter with on-chip adaptive dispersion compensation",
+      "authors": [
+        "Shihuan Ran",
+        "Guo Yu",
+        "Yuanbin Liu",
+        "Ting Miao",
+        "Yangbo Wu",
+        "Yang Qin",
+        "Yuyao Guo",
+        "Liangjun Lu",
+        "Yixiao Zhu",
+        "Yu Li",
+        "Qunbi Zhuge",
+        "Jianping Chen",
+        "Linjie Zhou"
+      ],
+      "year": 2025,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chromatic dispersion",
+        "Mach-Zehnder modulator",
+        "chirp control",
+        "wavelength division multiplexing",
+        "forward error correction",
+        "feed-forward equalization",
+        "maximum likelihood sequence estimation",
+        "optical interconnects",
+        "local area networks"
+      ],
+      "url": "https://doi.org/10.1038/s41467-025-61408-7",
+      "cited_by_count": 31,
+      "importance": 0.5916,
+      "score_basis": {
+        "topic_overlap": 0.315,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7169918361",
+      "doi": "10.1038/s41566-026-01968-2",
+      "title": "Real-time optical signal equalization with a silicon photonic spatially distributed reservoir computer",
+      "authors": [
+        "Ruben van Assche",
+        "Sarah Masaad",
+        "Emmanuel Gooskens",
+        "Stijn Sackesyn",
+        "Joris Van Kerrebrouck",
+        "Xin Liang Yin",
+        "Peter Bienstman"
+      ],
+      "year": 2026,
+      "venue": "Nature Photonics",
+      "venue_abbr": "Nat. Photonics",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "reservoir computing",
+        "silicon photonics",
+        "chromatic dispersion",
+        "Kerr nonlinearity",
+        "on-off keying",
+        "real-time signal processing",
+        "highly nonlinear fiber",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1038/s41566-026-01968-2",
+      "cited_by_count": 9,
+      "importance": 0.5887,
+      "score_basis": {
+        "topic_overlap": 0.308,
+        "shared_references": 6,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4381986051",
+      "doi": "10.1364/oe.490050",
+      "title": "C-band 100-GBaud PS-PAM-4 transmission over 50-km SSMF enabled by FIR-filter-based pre-electronic dispersion compensation",
+      "authors": [
+        "Xiong Wu",
+        "Junwei Zhang",
+        "Alan Pak Tao Lau",
+        "Chao Lü"
+      ],
+      "year": 2023,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "probabilistically shaped modulation",
+        "PAM-4",
+        "chromatic dispersion",
+        "FIR filters",
+        "intensity modulation and direct detection",
+        "C-band transmission",
+        "standard single-mode fiber",
+        "feed-forward equalization",
+        "data center interconnects",
+        "high-speed optical transmission"
+      ],
+      "url": "https://doi.org/10.1364/oe.490050",
+      "cited_by_count": 13,
+      "importance": 0.577,
+      "score_basis": {
+        "topic_overlap": 0.571,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396214006",
+      "doi": "10.1038/s41467-024-47904-2",
+      "title": "Parallel wavelength-division-multiplexed signal transmission and dispersion compensation enabled by soliton microcombs and microrings",
+      "authors": [
+        "Yuanbin Liu",
+        "Hongyi Zhang",
+        "Jiacheng Liu",
+        "Liangjun Lu",
+        "Jiangbing Du",
+        "Yu Li",
+        "Zuyuan He",
+        "Jianping Chen",
+        "Linjie Zhou",
+        "Andrew W. O. Poon"
+      ],
+      "year": 2024,
+      "venue": "Nature Communications",
+      "venue_abbr": "Nat. Commun.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "wavelength division multiplexing",
+        "chromatic dispersion compensation",
+        "Kerr microcombs",
+        "soliton microcombs",
+        "microring resonators",
+        "intensity modulation and direct detection",
+        "data center interconnects",
+        "terabit optical communication"
+      ],
+      "url": "https://doi.org/10.1038/s41467-024-47904-2",
+      "cited_by_count": 82,
+      "importance": 0.5477,
+      "score_basis": {
+        "topic_overlap": 0.35,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4386224121",
+      "doi": "10.1364/jocn.499108",
+      "title": "High-speed reach-extended IM-DD system with low-complexity DSP for 6G fronthaul [Invited]",
+      "authors": [
+        "Paikun Zhu",
+        "Yuki Yoshida",
+        "Kouichi Akahane",
+        "Ken-ichi Kitayama"
+      ],
+      "year": 2023,
+      "venue": "Journal of Optical Communications and Networking",
+      "venue_abbr": "JOCN",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "PAM-4",
+        "reach extension",
+        "dense WDM",
+        "hard-decision forward error correction",
+        "radio-over-fiber",
+        "sigma-delta modulator",
+        "C-band",
+        "O-band",
+        "cloud radio access network"
+      ],
+      "url": "https://doi.org/10.1364/jocn.499108",
+      "cited_by_count": 40,
+      "importance": 0.5335,
+      "score_basis": {
+        "topic_overlap": 0.363,
+        "shared_references": 3,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3034361925",
+      "doi": "10.1109/jlt.2020.2998636",
+      "title": "Adaptive Channel-Matched Detection for C-Band 64-Gbit/s Optical OOK System Over 100-km Dispersion-Uncompensated Link",
+      "authors": [
+        "Haide Wang",
+        "Ji Zhou",
+        "Dong Guo",
+        "Yuanhua Feng",
+        "Weiping Liu",
+        "Changyuan Yu",
+        "Zhaohui Li"
+      ],
+      "year": 2020,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "C-band",
+        "chromatic dispersion",
+        "nonlinear equalization",
+        "decision feedback equalizer",
+        "maximum likelihood sequence estimation",
+        "noise whitening",
+        "forward error correction",
+        "long-haul optical transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2020.2998636",
+      "cited_by_count": 69,
+      "importance": 0.5329,
+      "score_basis": {
+        "topic_overlap": 0.451,
+        "shared_references": 1,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4214881497",
+      "doi": "10.1364/oe.446676",
+      "title": "Direct detection transmission of a PAM signal with power fading mitigation based on Alamouti coding and dual-drive MZM",
+      "authors": [
+        "Yixiao Zhu",
+        "Xiansong Fang",
+        "Fan Zhang",
+        "Weisheng Hu"
+      ],
+      "year": 2022,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "pulse amplitude modulation",
+        "Alamouti code",
+        "dual-drive Mach-Zehnder modulator",
+        "fiber dispersion",
+        "PAM-4",
+        "PAM-8",
+        "wavelength division multiplexing",
+        "single sideband"
+      ],
+      "url": "https://doi.org/10.1364/oe.446676",
+      "cited_by_count": 11,
+      "importance": 0.5094,
+      "score_basis": {
+        "topic_overlap": 0.421,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4307358041",
+      "doi": "10.1038/s44172-022-00024-5",
+      "title": "High-speed photonic neuromorphic computing using recurrent optical spectrum slicing neural networks",
+      "authors": [
+        "Kostas Sozos",
+        "Adonis Bogris",
+        "Peter Bienstman",
+        "George Sarantoglou",
+        "Stavros Deligiannidis",
+        "Charis Mesaritakis"
+      ],
+      "year": 2022,
+      "venue": "Communications Engineering",
+      "venue_abbr": "Commun. Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic neuromorphic computing",
+        "recurrent neural networks",
+        "reservoir computing",
+        "optical filters",
+        "energy consumption reduction",
+        "hardware accelerators",
+        "high-speed imaging"
+      ],
+      "url": "https://doi.org/10.1038/s44172-022-00024-5",
+      "cited_by_count": 73,
+      "importance": 0.504,
+      "score_basis": {
+        "topic_overlap": 0.32,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4294997309",
+      "doi": "10.1364/ol.473091",
+      "title": "C-band 120-Gb/s PAM-4 transmissions over a 100-km dispersion-uncompensated SSMF using joint combined pulse shaping and low-complexity nonlinear equalization",
+      "authors": [
+        "Xiong Wu",
+        "Junwei Zhang",
+        "Alan Pak Tao Lau",
+        "Chao Lü"
+      ],
+      "year": 2022,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "PAM-4",
+        "intensity modulation and direct detection",
+        "chromatic dispersion",
+        "nonlinear equalization",
+        "parameter sharing",
+        "standard single-mode fiber",
+        "C-band",
+        "intersymbol interference",
+        "power fading"
+      ],
+      "url": "https://doi.org/10.1364/ol.473091",
+      "cited_by_count": 14,
+      "importance": 0.4971,
+      "score_basis": {
+        "topic_overlap": 0.482,
+        "shared_references": 0,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410993082",
+      "doi": "10.1364/ofc.2025.th1k.4",
+      "title": "Pairwise Transmission Enabling Dispersion-unconstrained Multilane IM-DD Systems Beyond 100G-per-lane",
+      "authors": [
+        "Paikun Zhu",
+        "Yuki Yoshida",
+        "Kouichi Akahane",
+        "Ken‐ichi Kitayama",
+        "Bahram Jalali"
+      ],
+      "year": 2025,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "fiber dispersion",
+        "C-band",
+        "long-haul optical transmission"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2025.th1k.4",
+      "cited_by_count": 8,
+      "importance": 0.4957,
+      "score_basis": {
+        "topic_overlap": 0.435,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7108718457",
+      "doi": "10.1109/ecoc66593.2025.11263068",
+      "title": "Integrated Recurrent Optical Spectral Slicer for Equalization of 100-km C-band IM/DD Transmission",
+      "authors": [
+        "I. Teofilovic",
+        "K. SOZOS",
+        "H. Liu",
+        "Stéphane Malhouitre",
+        "Stephanie Garcia",
+        "G. Sarantoglou",
+        "Peter Bienstman",
+        "Benoît Charbonnier",
+        "C. Mesaritakis",
+        "Caterina Vigliar",
+        "P. Petropoulos",
+        "A. Bogris",
+        "Francesco Da Ros"
+      ],
+      "year": 2025,
+      "venue": "European Conference on Optical Communication",
+      "venue_abbr": "ECOC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "recurrent neural networks",
+        "silicon photonics",
+        "PAM-4",
+        "C-band",
+        "coherent optical transmission",
+        "equalization",
+        "long-haul optical fiber"
+      ],
+      "url": "https://doi.org/10.1109/ecoc66593.2025.11263068",
+      "cited_by_count": 4,
+      "importance": 0.4949,
+      "score_basis": {
+        "topic_overlap": 0.322,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410995597",
+      "doi": "10.1364/ofc.2025.th4b.1",
+      "title": "Net 3.2 Tbps 225 Gbaud PAM4 O-Band IM/DD 2 km Transmission Using FR8 and DR8 with a CMOS 3 nm SerDes and TFLN Modulators",
+      "authors": [
+        "Charles St-Arnault",
+        "Santiago Bernal",
+        "Derek Kita",
+        "Ross Dickson",
+        "Mariam Yehia Abdelaziz",
+        "Aleksandar Nikic",
+        "Benton Qiu",
+        "Benjamin W. Krueger",
+        "Fabio Pittalà",
+        "Christian Reimer",
+        "Bruce Beggs",
+        "N.B. Hamida",
+        "David V. Plant"
+      ],
+      "year": 2025,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "PAM-4",
+        "intensity modulation and direct detection",
+        "optical interconnects"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2025.th4b.1",
+      "cited_by_count": 43,
+      "importance": 0.493,
+      "score_basis": {
+        "topic_overlap": 0.451,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2724246308",
+      "doi": "10.1109/jlt.2017.2724032",
+      "title": "Tomlinson–Harashima Precoding For Dispersion Uncompensated PAM-4 Transmission With Direct-Detection",
+      "authors": [
+        "Roi Rath",
+        "Dennis Clausen",
+        "Simon Ohlendorf",
+        "Stephan M. Pachnicke",
+        "Werner Rosenkranz"
+      ],
+      "year": 2017,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "Tomlinson-Harashima precoding",
+        "PAM-4",
+        "direct detection",
+        "chromatic dispersion",
+        "decision feedback equalization",
+        "spectral zeros",
+        "single-mode fiber transmission",
+        "digital signal processing",
+        "long-haul optical communication"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2017.2724032",
+      "cited_by_count": 141,
+      "importance": 0.4919,
+      "score_basis": {
+        "topic_overlap": 0.426,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2789582462",
+      "doi": "10.1364/ofc.2018.w2a.30",
+      "title": "Extended Reach 40km Transmission of C-Band Real-Time 53.125 Gbps PAM-4 Enabled with a Photonic Integrated Tunable Lattice Filter Dispersion Compensator",
+      "authors": [
+        "Grant M. Brodnik",
+        "Cátia Pinho",
+        "Frank Chang",
+        "Daniel J. Blumenthal"
+      ],
+      "year": 2018,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "PAM-4",
+        "dispersion compensation",
+        "photonic integrated circuits",
+        "C-band transmission",
+        "reach extension",
+        "100 GHz channel spacing",
+        "real-time data transmission",
+        "single-mode fiber"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2018.w2a.30",
+      "cited_by_count": 20,
+      "importance": 0.4832,
+      "score_basis": {
+        "topic_overlap": 0.407,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4413319046",
+      "doi": "10.1109/jlt.2025.3599665",
+      "title": "256 GBaud RRM-Based OOK Link in C-Band Enabled by Neural Network Equalization",
+      "authors": [
+        "Dan Li",
+        "Yevhenii Osadchuk",
+        "Armands Ostrovskis",
+        "Toms Salgals",
+        "Francesco Da Ros",
+        "Carlos Natalino",
+        "Darko Zibar",
+        "Lu Zhang",
+        "Xianbin Yu",
+        "Vjačeslavs Bobrovs",
+        "Xiaodan Pang",
+        "Oskars Ozoliņš"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "on-off keying",
+        "neural network equalization",
+        "C-band",
+        "nonlinear impairments",
+        "data center interconnects",
+        "short-reach optical links",
+        "single-mode fiber transmission"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3599665",
+      "cited_by_count": 7,
+      "importance": 0.4791,
+      "score_basis": {
+        "topic_overlap": 0.509,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4402743006",
+      "doi": "10.1109/jlt.2024.3466293",
+      "title": "A Silicon Photonic Neural Network for Chromatic Dispersion Compensation in 20 Gbps PAM4 Signal at 125 km and its Scalability up to 100 Gbps",
+      "authors": [
+        "Emiliano Staffoli",
+        "Gianpietro Maddinelli",
+        "Lorenzo Pavesi"
+      ],
+      "year": 2024,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "photonic neural networks",
+        "chromatic dispersion compensation",
+        "PAM-4",
+        "intensity modulation and direct detection",
+        "silicon photonics",
+        "tunable optical filter",
+        "equalization",
+        "eye diagram",
+        "gradient-based learning",
+        "long-haul optical links"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2024.3466293",
+      "cited_by_count": 14,
+      "importance": 0.4757,
+      "score_basis": {
+        "topic_overlap": 0.368,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412413086",
+      "doi": "10.1002/lpor.202500855",
+      "title": "Nonlinear Distortion Equalization in Multi‐Span Optical Links Via a Feed‐Forward Photonic Neural Network",
+      "authors": [
+        "Emiliano Staffoli",
+        "Elisabetta Ferri",
+        "Stefano Gretter",
+        "Lorenzo Pavesi"
+      ],
+      "year": 2025,
+      "venue": "Laser & Photonics Reviews",
+      "venue_abbr": "LPR",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "photonic neural networks",
+        "chromatic dispersion compensation",
+        "self-phase modulation",
+        "cross-phase modulation",
+        "intensity modulation and direct detection",
+        "FIR filters",
+        "silicon-on-insulator photonics",
+        "optical signal processing",
+        "tunable dispersion compensator"
+      ],
+      "url": "https://doi.org/10.1002/lpor.202500855",
+      "cited_by_count": 7,
+      "importance": 0.4725,
+      "score_basis": {
+        "topic_overlap": 0.383,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3158559560",
+      "doi": "10.1364/ao.424962",
+      "title": "Numerical and experimental study on the impact of chromatic dispersion on O-band direct-detection transmission",
+      "authors": [
+        "Yang Hong",
+        "Kyle R. H. Bottrill",
+        "Natsupa Taengnoi",
+        "Naresh Kumar Thipparapu",
+        "Yu Wang",
+        "Jayanta Kumar Sahu",
+        "David John Richardson",
+        "Periklis Petropoulos"
+      ],
+      "year": 2021,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "chromatic dispersion",
+        "O-band",
+        "single-mode fiber",
+        "3-dB bandwidth",
+        "intensity modulation",
+        "bismuth-doped fiber amplifier",
+        "PAM-4",
+        "bit error rate"
+      ],
+      "url": "https://doi.org/10.1364/ao.424962",
+      "cited_by_count": 19,
+      "importance": 0.4693,
+      "score_basis": {
+        "topic_overlap": 0.443,
+        "shared_references": 1,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406385160",
+      "doi": "10.1364/ol.551003",
+      "title": "Low-complexity cluster-assisting look-up-table-based Volterra decision-feedback equalizer for IM/DD systems",
+      "authors": [
+        "Junwei Zhang",
+        "Heyun Tan",
+        "Alan Pak Tao Lau",
+        "Zhaohui Li",
+        "Chao Lü"
+      ],
+      "year": 2025,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "look-up table",
+        "intensity modulation and direct detection",
+        "chromatic dispersion",
+        "nonlinear signal distortion",
+        "power fading",
+        "PAM-4",
+        "100 Gb/s transmission",
+        "standard single-mode fiber",
+        "low-complexity equalization"
+      ],
+      "url": "https://doi.org/10.1364/ol.551003",
+      "cited_by_count": 9,
+      "importance": 0.4602,
+      "score_basis": {
+        "topic_overlap": 0.356,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3107662238",
+      "doi": "10.1364/oe.410674",
+      "title": "Reduced-state MLSE for an IM/DD system using PAM modulation",
+      "authors": [
+        "Yukui Yu",
+        "Yi Che",
+        "Tianwai Bo",
+        "Daeho Kim",
+        "Hoon Kim"
+      ],
+      "year": 2020,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "PAM modulation",
+        "Viterbi algorithm",
+        "feed-forward equalizer",
+        "directly modulated lasers",
+        "PAM-4",
+        "PAM-8"
+      ],
+      "url": "https://doi.org/10.1364/oe.410674",
+      "cited_by_count": 69,
+      "importance": 0.4526,
+      "score_basis": {
+        "topic_overlap": 0.339,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416222349",
+      "doi": "10.1126/sciadv.adx1657",
+      "title": "Digital and plasmonic artificial neural networks—Improved nonlinear signal processing at high speed and low complexity",
+      "authors": [
+        "Tobias Blatter",
+        "Amane Zürrer",
+        "Yannik Horst",
+        "Christos Pappas",
+        "George Giamougiannis",
+        "Apostolos Tsakyridis",
+        "Wolfgang Heni",
+        "Manuel Kohli",
+        "Ueli Koch",
+        "Miltiadis Moralis‐Pegios",
+        "Nikos Pleros",
+        "Juerg Leuthold"
+      ],
+      "year": 2025,
+      "venue": "Science Advances",
+      "venue_abbr": "Sci. Adv.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "plasmonic modulators",
+        "Volterra series",
+        "feed-forward equalizer",
+        "low-latency signal processing",
+        "digital neural networks"
+      ],
+      "url": "https://doi.org/10.1126/sciadv.adx1657",
+      "cited_by_count": 4,
+      "importance": 0.4495,
+      "score_basis": {
+        "topic_overlap": 0.332,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4396892830",
+      "doi": "10.1364/ofc.2024.m2h.5",
+      "title": "Reach Extension of Net-200G/λ IM-DD PAM4 Links to Beyond-100km with Low-complexity Using OE-EQ",
+      "authors": [
+        "Paikun Zhu",
+        "Yuki Yoshida",
+        "Kouichi Akahane",
+        "Ken‐ichi Kitayama"
+      ],
+      "year": 2024,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "light intensity modulation",
+        "reach extension",
+        "C-band transmission",
+        "forward error correction"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2024.m2h.5",
+      "cited_by_count": 6,
+      "importance": 0.4465,
+      "score_basis": {
+        "topic_overlap": 0.437,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4411929648",
+      "doi": "10.1364/oe.565790",
+      "title": "Decoupled digital filtering-enabled simplification and fast convergence of IM/DD system linearization algorithms for strong band-limited power fading channels",
+      "authors": [
+        "Shaohua Hu",
+        "Shen Wang",
+        "Jianming Tang",
+        "Jing Zhang",
+        "Zhaopeng Xu",
+        "Wei Jin",
+        "Lulu Liu",
+        "Jiahao Zhou",
+        "Xingwen Yi",
+        "Bo Xu",
+        "Kun Liang Qiu"
+      ],
+      "year": 2025,
+      "venue": "Optics Express",
+      "venue_abbr": "OE",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "chromatic dispersion",
+        "system linearization",
+        "adaptive digital filtering",
+        "PAM-4",
+        "standard single-mode fiber",
+        "bit error rate reduction"
+      ],
+      "url": "https://doi.org/10.1364/oe.565790",
+      "cited_by_count": 3,
+      "importance": 0.4428,
+      "score_basis": {
+        "topic_overlap": 0.428,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405936001",
+      "doi": "10.1109/acp/ipoc63121.2024.10809964",
+      "title": "A Novel Three-Layer GRU Equalizer for High-Speed PAM-4 Transmission Beyond 300Gbps",
+      "authors": [
+        "Sun Yu",
+        "Junde Lu",
+        "Jun Qin",
+        "Junxiong Tan",
+        "Qian Wang",
+        "Jie Shi",
+        "L. F. Chen",
+        "Yueqin Li",
+        "Jian Sun"
+      ],
+      "year": 2024,
+      "venue": "Asia Communications and Photonics Conference",
+      "venue_abbr": "ACP",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "PAM-4",
+        "neural network equalizer",
+        "gated recurrent unit",
+        "intensity modulation and direct detection",
+        "high-speed optical transmission",
+        "short-reach optical links",
+        "forward error correction threshold",
+        "signal equalization"
+      ],
+      "url": "https://doi.org/10.1109/acp/ipoc63121.2024.10809964",
+      "cited_by_count": 4,
+      "importance": 0.4206,
+      "score_basis": {
+        "topic_overlap": 0.49,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2345562294",
+      "doi": "10.1088/2040-8978/18/6/063002",
+      "title": "Roadmap of optical communications",
+      "authors": [
+        "Erik Agrell",
+        "Magnus Karlsson",
+        "Andrew R. Chraplyvy",
+        "David John Richardson",
+        "Peter M. Krummrich",
+        "Peter J. Winzer",
+        "Kim Roberts",
+        "Johannes Fischer",
+        "Seb J. Savory",
+        "Benjamin J. Eggleton",
+        "Marco Secondini",
+        "Frank R. Kschischang",
+        "Andrew Lord",
+        "Josep Prat",
+        "Ioannis Tomkos",
+        "John Edward Bowers",
+        "Sudha Srinivasan",
+        "Maïté Brandt-Pearce",
+        "Nicolas Gisin"
+      ],
+      "year": 2016,
+      "venue": "Journal of Optics",
+      "venue_abbr": "J. Opt.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical communication",
+        "lightwave communications",
+        "optical fibers",
+        "optical interconnects",
+        "high-capacity networks",
+        "data center interconnects",
+        "supercomputer interconnects",
+        "energy-efficient communication",
+        "future research directions"
+      ],
+      "url": "https://doi.org/10.1088/2040-8978/18/6/063002",
+      "cited_by_count": 728,
+      "importance": 0.41,
+      "score_basis": {
+        "topic_overlap": 0.422,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417052253",
+      "doi": "10.1109/ecoc66593.2025.11263236",
+      "title": "Recurrent Optical Spectrum Slicers as Multi- $\\lambda$ Processors for WDM Optical Equalization of IM/DD Channels",
+      "authors": [
+        "Kostas Sozos",
+        "Francesco Da Ros",
+        "George Sarantoglou",
+        "Charis Mesaritakis",
+        "Adonis Bogris"
+      ],
+      "year": 2025,
+      "venue": "European Conference on Optical Communication",
+      "venue_abbr": "ECOC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "intensity modulation and direct detection",
+        "PAM-4",
+        "programmable photonics",
+        "C-band transmission"
+      ],
+      "url": "https://doi.org/10.1109/ecoc66593.2025.11263236",
+      "cited_by_count": 1,
+      "importance": 0.4094,
+      "score_basis": {
+        "topic_overlap": 0.354,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3208091056",
+      "doi": "10.1038/s41928-021-00661-2",
+      "title": "A silicon photonic–electronic neural network for fibre nonlinearity compensation",
+      "authors": [
+        "Chaoran Huang",
+        "Shinsuke Fujisawa",
+        "Thomas Ferreira de Lima",
+        "Alexander N. Tait",
+        "Eric C. Blow",
+        "Yue Tian",
+        "Simon Bilodeau",
+        "Aashu Jha",
+        "Fatih Yaman",
+        "Hsuan-Tung Peng",
+        "Hussam G. Batshon",
+        "Bhavin J. Shastri",
+        "Yoshihisa Inada",
+        "Ting Wang",
+        "Paul R. Prucnal"
+      ],
+      "year": 2021,
+      "venue": "Nature Electronics",
+      "venue_abbr": "Nat. Electron.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "photonic neural networks",
+        "silicon photonics",
+        "photonic-electronic integration",
+        "wavelength division multiplexing",
+        "CMOS-compatible silicon photonics",
+        "optical communication"
+      ],
+      "url": "https://doi.org/10.1038/s41928-021-00661-2",
+      "cited_by_count": 362,
+      "importance": 0.4072,
+      "score_basis": {
+        "topic_overlap": 0.26,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4377082755",
+      "doi": "10.1364/ofc.2023.th4b.2",
+      "title": "Optical Amplification-Free 310/256 Gbaud OOK, 197/145 Gbaud PAM4, and 160/116 Gbaud PAM6 EML/DML-based Data Center Links",
+      "authors": [
+        "Oskars Ozoliņš",
+        "Armands Ostrovskis",
+        "Toms Salgals",
+        "Benjamin Krüger",
+        "Fabio Pittalà",
+        "Mahdieh Joharifar",
+        "Richard Schatz",
+        "Di Che",
+        "Y. Matsui",
+        "Thomas Dippon",
+        "Michael Koenigsmann",
+        "Yuchuan Fan",
+        "Marek Chaciński",
+        "Urban Westergren",
+        "Lu Zhang",
+        "H. Mardoyan",
+        "Sandis Spolītis",
+        "Sergei Popov",
+        "Xianbin Yu",
+        "Markus Gruen",
+        "Vjačeslavs Bobrovs",
+        "Hadrien Louchet",
+        "Xiaodan Pang"
+      ],
+      "year": 2023,
+      "venue": "Optical Fiber Communication Conference",
+      "venue_abbr": "OFC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "electro-optic modulator",
+        "directly modulated lasers",
+        "PAM-4",
+        "on-off keying",
+        "high-order modulation",
+        "single-mode fiber transmission"
+      ],
+      "url": "https://doi.org/10.1364/ofc.2023.th4b.2",
+      "cited_by_count": 21,
+      "importance": 0.4037,
+      "score_basis": {
+        "topic_overlap": 0.453,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4406958388",
+      "doi": "10.1364/ol.551697",
+      "title": "Beyond 300-Gb/s optical interconnect over 10-km SSMF at C band enabled by optical vestigial sideband signal",
+      "authors": [
+        "Qibing Wang",
+        "Chao Li",
+        "Chao Yang",
+        "Hui Chen",
+        "Xumeng Liu",
+        "Xu Zhang",
+        "Xi Xiao",
+        "Lei Wang",
+        "Zhixue He",
+        "Shaohua Yu"
+      ],
+      "year": 2025,
+      "venue": "Optics Letters",
+      "venue_abbr": "OL",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "PAM-4",
+        "PAM-8",
+        "probabilistic shaping",
+        "optical interconnects",
+        "C-band",
+        "standard single-mode fiber",
+        "long-haul optical transmission",
+        "linear equalization",
+        "nonlinear equalization",
+        "forward error correction",
+        "optical filtering"
+      ],
+      "url": "https://doi.org/10.1364/ol.551697",
+      "cited_by_count": 5,
+      "importance": 0.3836,
+      "score_basis": {
+        "topic_overlap": 0.408,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1972239521",
+      "doi": "10.1109/jlt.2012.2227946",
+      "title": "ElectroAbsorption Modulated Laser Integrated with a Semiconductor Optical Amplifier for 100-km 10.3 Gb/s Dispersion-Penalty-Free Transmission",
+      "authors": [
+        "Minh Nguyêt Ngô",
+        "Francis Poingt",
+        "R. Brenot",
+        "H. T. Nguyen",
+        "Christophe Gosset",
+        "Didier Erasme",
+        "Qian Deniel",
+        "N. Genay",
+        "Ronan Guillamet",
+        "Nadine Lagay",
+        "J. Décobert"
+      ],
+      "year": 2012,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "electro-absorption modulated laser",
+        "semiconductor optical amplifier",
+        "negative chirp",
+        "dispersion penalty",
+        "integrated optical transmitter",
+        "1550 nm"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2012.2227946",
+      "cited_by_count": 25,
+      "importance": 0.3697,
+      "score_basis": {
+        "topic_overlap": 0.377,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412404434",
+      "doi": "10.1109/jlt.2025.3588689",
+      "title": "High-Speed 340 Gbps PAM4 and 450 Gbps PAM6 Operations of Narrow High-Mesa EML",
+      "authors": [
+        "Shinya Okuda",
+        "Asami Uchiyama",
+        "Toshiya Tsuji",
+        "Yohei Hokama",
+        "Koki Kihara",
+        "Mizuki Shirao",
+        "Takeshi Yamatoya",
+        "Yasuhiro Yamauchi"
+      ],
+      "year": 2025,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "PAM-4",
+        "intensity modulation and direct detection",
+        "spot-size converter",
+        "InP substrate",
+        "3-dB bandwidth",
+        "monolithic integration"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2025.3588689",
+      "cited_by_count": 12,
+      "importance": 0.3459,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417053566",
+      "doi": "10.1109/ecoc66593.2025.11263246",
+      "title": "Net 282 Gb/S IM/DD Transmission in C-Band Over 3.1 Km Long NANF Using Silicon Photonics TW-MZM",
+      "authors": [
+        "Darja Cirjulina",
+        "Suttikarn Wantee",
+        "Armands Ostrovskis",
+        "Hao Liu",
+        "Kyle R. H. Bottrill",
+        "Gregory T. Jasion",
+        "Hesham Sakr",
+        "J. R. Hayes",
+        "Vjačeslavs Bobrovs",
+        "Francesco Poletti",
+        "Xiaodan Pang",
+        "Periklis Petropoulos",
+        "Oskars Ozoliņš"
+      ],
+      "year": 2025,
+      "venue": "European Conference on Optical Communication",
+      "venue_abbr": "ECOC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "silicon photonics",
+        "C-band transmission",
+        "PAM-4",
+        "on-off keying",
+        "high-order modulation",
+        "long-haul optical transmission"
+      ],
+      "url": "https://doi.org/10.1109/ecoc66593.2025.11263246",
+      "cited_by_count": 2,
+      "importance": 0.3449,
+      "score_basis": {
+        "topic_overlap": 0.322,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3035860717",
+      "doi": "10.1049/cp.2019.0834",
+      "title": "Beyond 200 Gb/s PAM4 Transmission using Tomlinson-Harashima Precoding",
+      "authors": [
+        "Tom Jonas Wettlin",
+        "Simon Ohlendorf",
+        "Talha Rahman",
+        "Jinlong Wei",
+        "Stefano Calabrò",
+        "Nebojša Stojanović",
+        "Stephan M. Pachnicke"
+      ],
+      "year": 2019,
+      "venue": "European Conference on Optical Communication",
+      "venue_abbr": "ECOC",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "PAM-4",
+        "Tomlinson-Harashima precoding",
+        "optical transmission",
+        "high-speed optical transmission",
+        "precoding"
+      ],
+      "url": "https://doi.org/10.1049/cp.2019.0834",
+      "cited_by_count": 20,
+      "importance": 0.335,
+      "score_basis": {
+        "topic_overlap": 0.3,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404469528",
+      "doi": "10.1109/ojsscs.2024.3501975",
+      "title": "Beyond 200-Gb/s PAM4 ADC and DAC-Based Transceiver for Wireline and Linear Optics Applications",
+      "authors": [
+        "Ahmad Khairi",
+        "Amir Laufer",
+        "Ilia Radashkevich",
+        "Yoel Krupnik",
+        "Jihwan Kim",
+        "Tali Warshavsky",
+        "Ajay Balankutty",
+        "Yaniv Sabag",
+        "Yoav Segal",
+        "Udi Virobnik",
+        "Mike Peng Li",
+        "Itamar Levin",
+        "Yosef Ben Ezra",
+        "Ariel Cohen"
+      ],
+      "year": 2024,
+      "venue": "IEEE Open Journal of the Solid-State Circuits Society",
+      "venue_abbr": "IEEE Open Journal of the Solid-State Circuits Society",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "PAM-4",
+        "optical transceivers",
+        "linear optics",
+        "continuous-time linear equalizer",
+        "power efficiency",
+        "high-speed optical links",
+        "FPGA interconnect"
+      ],
+      "url": "https://doi.org/10.1109/ojsscs.2024.3501975",
+      "cited_by_count": 9,
+      "importance": 0.3343,
+      "score_basis": {
+        "topic_overlap": 0.298,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2023227687",
+      "doi": "10.1109/jlt.2004.838870",
+      "title": "Maximum-likelihood sequence estimation in dispersive optical channels",
+      "authors": [
+        "Oscar E. Agazzi",
+        "Mario R. Hueda",
+        "Hugo S. Carrer",
+        "Diego E. Crivelli"
+      ],
+      "year": 2005,
+      "venue": "Journal of Lightwave Technology",
+      "venue_abbr": "JLT",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "maximum likelihood sequence estimation",
+        "optical receiver",
+        "intensity modulation",
+        "direct detection",
+        "chromatic dispersion",
+        "polarization mode dispersion",
+        "amplified spontaneous emission noise",
+        "shot noise",
+        "thermal noise",
+        "error rate analysis",
+        "single-mode fiber links",
+        "optical amplifiers"
+      ],
+      "url": "https://doi.org/10.1109/jlt.2004.838870",
+      "cited_by_count": 189,
+      "importance": 0.3167,
+      "score_basis": {
+        "topic_overlap": 0.215,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3186786094",
+      "doi": "10.1109/rfic51843.2021.9490496",
+      "title": "A 128 Gb/s PAM4 Linear TIA with $12.6\\ \\text{pA}/\\sqrt{\\text{Hz}}$ Noise Density in 22nm FinFET CMOS",
+      "authors": [
+        "Saeid Daneshgar",
+        "Hao Li",
+        "Taehwan Kim",
+        "Ganesh Balamurugan"
+      ],
+      "year": 2021,
+      "venue": "Digest of papers - IEEE Radio Frequency Integrated Circuits Symposium",
+      "venue_abbr": "Digest of papers - IEEE Radio Frequency Integrated Circuits Symposium",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "transimpedance amplifier",
+        "PAM-4",
+        "optical receiver",
+        "inductive peaking",
+        "input-referred noise",
+        "co-packaged optics"
+      ],
+      "url": "https://doi.org/10.1109/rfic51843.2021.9490496",
+      "cited_by_count": 15,
+      "importance": 0.3105,
+      "score_basis": {
+        "topic_overlap": 0.246,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W3034361925",
+      "to": "W2724246308",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3034361925"
+        }
+      ]
+    },
+    {
+      "from": "W3158559560",
+      "to": "W2345562294",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3158559560"
+        }
+      ]
+    },
+    {
+      "from": "W4214881497",
+      "to": "W2724246308",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4214881497"
+        }
+      ]
+    },
+    {
+      "from": "W4214881497",
+      "to": "W3034361925",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4214881497"
+        }
+      ]
+    },
+    {
+      "from": "W4307358041",
+      "to": "W2724246308",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307358041"
+        }
+      ]
+    },
+    {
+      "from": "W4307358041",
+      "to": "W3107662238",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4307358041"
+        }
+      ]
+    },
+    {
+      "from": "W4312525442",
+      "to": "W2724246308",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312525442"
+        }
+      ]
+    },
+    {
+      "from": "W4312525442",
+      "to": "W3034361925",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4312525442"
+        }
+      ]
+    },
+    {
+      "from": "W4381986051",
+      "to": "W2724246308",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381986051"
+        }
+      ]
+    },
+    {
+      "from": "W4381986051",
+      "to": "W4312525442",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381986051"
+        }
+      ]
+    },
+    {
+      "from": "W4386224121",
+      "to": "W3107662238",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386224121"
+        }
+      ]
+    },
+    {
+      "from": "W4386224121",
+      "to": "W4294997309",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386224121"
+        }
+      ]
+    },
+    {
+      "from": "W4386224121",
+      "to": "W4312525442",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386224121"
+        }
+      ]
+    },
+    {
+      "from": "W4386412373",
+      "to": "W2023227687",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386412373"
+        }
+      ]
+    },
+    {
+      "from": "W4386412373",
+      "to": "W2724246308",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386412373"
+        }
+      ]
+    },
+    {
+      "from": "W4386412373",
+      "to": "W3034361925",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386412373"
+        }
+      ]
+    },
+    {
+      "from": "W4386412373",
+      "to": "W3107662238",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386412373"
+        }
+      ]
+    },
+    {
+      "from": "W4386412373",
+      "to": "W4294997309",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4386412373"
+        }
+      ]
+    },
+    {
+      "from": "W4396214006",
+      "to": "W2789582462",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396214006"
+        }
+      ]
+    },
+    {
+      "from": "W4396214006",
+      "to": "W4381986051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396214006"
+        }
+      ]
+    },
+    {
+      "from": "W4396892830",
+      "to": "W4312525442",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4396892830"
+        }
+      ]
+    },
+    {
+      "from": "W4400771914",
+      "to": "W2724246308",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400771914"
+        }
+      ]
+    },
+    {
+      "from": "W4400771914",
+      "to": "W3107662238",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400771914"
+        }
+      ]
+    },
+    {
+      "from": "W4400771914",
+      "to": "W4294997309",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400771914"
+        }
+      ]
+    },
+    {
+      "from": "W4400771914",
+      "to": "W4307358041",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400771914"
+        }
+      ]
+    },
+    {
+      "from": "W4400771914",
+      "to": "W4312525442",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400771914"
+        }
+      ]
+    },
+    {
+      "from": "W4400771914",
+      "to": "W4386412373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4400771914"
+        }
+      ]
+    },
+    {
+      "from": "W4402743006",
+      "to": "W2789582462",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4402743006"
+        }
+      ]
+    },
+    {
+      "from": "W4406385160",
+      "to": "W2724246308",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406385160"
+        }
+      ]
+    },
+    {
+      "from": "W4406385160",
+      "to": "W4294997309",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4406385160"
+        }
+      ]
+    },
+    {
+      "from": "W4410993082",
+      "to": "W4214881497",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410993082"
+        }
+      ]
+    },
+    {
+      "from": "W4410993082",
+      "to": "W4386412373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410993082"
+        }
+      ]
+    },
+    {
+      "from": "W4410995597",
+      "to": "W4386412373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410995597"
+        }
+      ]
+    },
+    {
+      "from": "W4411929648",
+      "to": "W4386224121",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4411929648"
+        }
+      ]
+    },
+    {
+      "from": "W4412075737",
+      "to": "W2789582462",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412075737"
+        }
+      ]
+    },
+    {
+      "from": "W4412075737",
+      "to": "W3107662238",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412075737"
+        }
+      ]
+    },
+    {
+      "from": "W4412075737",
+      "to": "W3158559560",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412075737"
+        }
+      ]
+    },
+    {
+      "from": "W4412075737",
+      "to": "W4386412373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412075737"
+        }
+      ]
+    },
+    {
+      "from": "W4412075737",
+      "to": "W4396214006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412075737"
+        }
+      ]
+    },
+    {
+      "from": "W4412413086",
+      "to": "W2789582462",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412413086"
+        }
+      ]
+    },
+    {
+      "from": "W4412413086",
+      "to": "W4402743006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412413086"
+        }
+      ]
+    },
+    {
+      "from": "W4413319046",
+      "to": "W4410995597",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4413319046"
+        }
+      ]
+    },
+    {
+      "from": "W4416222349",
+      "to": "W3208091056",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416222349"
+        }
+      ]
+    },
+    {
+      "from": "W4417052253",
+      "to": "W4307358041",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417052253"
+        }
+      ]
+    },
+    {
+      "from": "W7108718457",
+      "to": "W4307358041",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7108718457"
+        }
+      ]
+    },
+    {
+      "from": "W7108718457",
+      "to": "W4386412373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7108718457"
+        }
+      ]
+    },
+    {
+      "from": "W7108718457",
+      "to": "W4400771914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7108718457"
+        }
+      ]
+    },
+    {
+      "from": "W7164324895",
+      "to": "W2789582462",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164324895"
+        }
+      ]
+    },
+    {
+      "from": "W7164324895",
+      "to": "W4386412373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164324895"
+        }
+      ]
+    },
+    {
+      "from": "W7164324895",
+      "to": "W4396214006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164324895"
+        }
+      ]
+    },
+    {
+      "from": "W7164324895",
+      "to": "W4400771914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164324895"
+        }
+      ]
+    },
+    {
+      "from": "W7164324895",
+      "to": "W4402743006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164324895"
+        }
+      ]
+    },
+    {
+      "from": "W7164324895",
+      "to": "W4410995597",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7164324895"
+        }
+      ]
+    },
+    {
+      "from": "W7169918361",
+      "to": "W3034361925",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7169918361"
+        }
+      ]
+    },
+    {
+      "from": "W7169918361",
+      "to": "W3208091056",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7169918361"
+        }
+      ]
+    },
+    {
+      "from": "W7169918361",
+      "to": "W4386412373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7169918361"
+        }
+      ]
+    },
+    {
+      "from": "W7169918361",
+      "to": "W4400771914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7169918361"
+        }
+      ]
+    },
+    {
+      "from": "W7169918361",
+      "to": "W4402743006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7169918361"
+        }
+      ]
+    },
+    {
+      "from": "W7169918361",
+      "to": "W7164324895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7169918361"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W1972239521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W2023227687",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W2345562294",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W2724246308",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W2789582462",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W3034361925",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W3035860717",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W3107662238",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W3158559560",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W3186786094",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W3208091056",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4214881497",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4294997309",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4307358041",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4312525442",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4377082755",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4381986051",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4386224121",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4386412373",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4396214006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4396892830",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4400771914",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4402743006",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4404469528",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4405936001",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4406385160",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4406958388",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4410993082",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4410995597",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4411929648",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4412075737",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4412404434",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4412413086",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4413319046",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4416222349",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4417052253",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W4417053566",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W7108718457",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W7164324895",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    },
+    {
+      "from": "W7220671941",
+      "to": "W7169918361",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220671941"
+        }
+      ]
+    }
+  ]
 }

@@ -2,18 +2,18 @@
   "schema": "paperflow.citation-graph/v1",
   "record_id": "9e76f926-76e6-4f88-9bca-6e2c72711035",
   "root": "W7220698232",
-  "status": "empty",
-  "checked_at": "2026-10-18T12:28:11.347437+00:00",
+  "status": "ok",
+  "checked_at": "2026-11-28T00:44:45.472557+00:00",
   "coverage": {
-    "references_found": 0,
+    "references_found": 17,
     "citing_found": 0,
     "reference_limit": 100,
     "citing_limit": 30,
     "display_limit": 41,
-    "references_status": "ok",
+    "references_status": "partial",
     "citing_status": "ok",
-    "candidates_resolved": 0,
-    "displayed": 0
+    "candidates_resolved": 16,
+    "displayed": 16
   },
   "issues": [],
   "refresh_failed": false,
@@ -54,7 +54,845 @@
       "reading_url": "items/9e76f926-76e6-4f88-9bca-6e2c72711035.html",
       "summary": "该预印本针对洋流影响下移动自主水下航行器的光通信对准问题，建立包含深度相关衰减、湍流及离散光线方法的三维信道模型，通过深度强化学习联合优化波束指向和发散角。摘要报告使用真实海洋学数据进行评估，以额外中断指标衡量仅由指向误差造成的中断；相对于节点完美对准，无洋流跟踪和洋流漂移条件下，该指标分别被限制在8.5%和16.2%。",
       "summary_basis": "本站解读 · abstract+pdf-link"
+    },
+    {
+      "id": "W4398249876",
+      "doi": "10.1109/jiot.2024.3404476",
+      "title": "Multidimensional Beam Optimization in Underwater Optical Wireless Communication Based on Deep Reinforcement Learning",
+      "authors": [
+        "Huicheol Shin",
+        "Seungjae Baek",
+        "Yujae Song"
+      ],
+      "year": 2024,
+      "venue": "IEEE Internet of Things Journal",
+      "venue_abbr": "IEEE Internet of Things Journal",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "beam alignment",
+        "beam orientation",
+        "beam divergence",
+        "deep reinforcement learning",
+        "unmanned surface vehicles",
+        "underwater sensors",
+        "point-to-point communication",
+        "signal-to-noise ratio maximization",
+        "link stability"
+      ],
+      "url": "https://doi.org/10.1109/jiot.2024.3404476",
+      "cited_by_count": 22,
+      "importance": 0.5632,
+      "score_basis": {
+        "topic_overlap": 0.474,
+        "shared_references": 3,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2789554261",
+      "doi": "10.1016/j.adhoc.2019.101935",
+      "title": "Underwater optical wireless communications, networking, and localization: A survey",
+      "authors": [
+        "Nasir Saeed",
+        "Abdulkadir Celik",
+        "Tareq Y. Al-Naffouri",
+        "Mohamed‐Slim Alouini"
+      ],
+      "year": 2019,
+      "venue": "Ad Hoc Networks",
+      "venue_abbr": "Ad Hoc Networks",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "underwater wireless networks",
+        "underwater localization",
+        "underwater acoustic communication",
+        "channel modeling",
+        "underwater propagation",
+        "modulation schemes",
+        "link budget",
+        "multiple access schemes",
+        "relaying",
+        "routing algorithms",
+        "connectivity"
+      ],
+      "url": "https://doi.org/10.1016/j.adhoc.2019.101935",
+      "cited_by_count": 617,
+      "importance": 0.5058,
+      "score_basis": {
+        "topic_overlap": 0.324,
+        "shared_references": 2,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3043432765",
+      "doi": "10.1109/twc.2020.3007343",
+      "title": "Vertical Underwater Visible Light Communication Links: Channel Modeling and Performance Analysis",
+      "authors": [
+        "Mohammed Elamassie",
+        "Murat Uysal"
+      ],
+      "year": 2020,
+      "venue": "IEEE Transactions on Wireless Communications",
+      "venue_abbr": "IEEE Trans. Wireless Commun.",
+      "rank_label": "CIE T1 · 2023",
+      "keywords": [
+        "underwater visible light communication",
+        "ocean stratification",
+        "log-normal fading",
+        "Gamma-Gamma fading",
+        "bit error rate",
+        "diversity gain",
+        "ergodic capacity",
+        "underwater turbulence"
+      ],
+      "url": "https://doi.org/10.1109/twc.2020.3007343",
+      "cited_by_count": 134,
+      "importance": 0.4865,
+      "score_basis": {
+        "topic_overlap": 0.437,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4285286189",
+      "doi": "10.1109/jiot.2022.3173211",
+      "title": "A Reinforcement-Learning-Based Beam Adaptation for Underwater Optical Wireless Communications",
+      "authors": [
+        "Imene Romdhane",
+        "Georges Kaddoum"
+      ],
+      "year": 2022,
+      "venue": "IEEE Internet of Things Journal",
+      "venue_abbr": "IEEE Internet of Things Journal",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "reinforcement learning",
+        "beamwidth optimization",
+        "beam orientation",
+        "pointing, acquisition, and tracking",
+        "light source positioning",
+        "packet loss",
+        "signal-to-noise ratio",
+        "water turbidity"
+      ],
+      "url": "https://doi.org/10.1109/jiot.2022.3173211",
+      "cited_by_count": 55,
+      "importance": 0.4494,
+      "score_basis": {
+        "topic_overlap": 0.354,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7202177491",
+      "doi": "10.23919/eucap68105.2026.11611998",
+      "title": "Performance Analysis of Underwater Optical Wireless Communications Under the Joint Impact of Disorientation and Misalignment",
+      "authors": [
+        "Evangelos Koutsonas",
+        "Alexandros Pitilakis",
+        "Odysseas Tsilipakos",
+        "Theodoros A. Tsiftsis",
+        "Alexandros–Apostolos A. Boulogeorgos"
+      ],
+      "year": 2026,
+      "venue": "European Conference on Antennas and Propagation",
+      "venue_abbr": "EuCAP",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "underwater optical communication",
+        "disorientation",
+        "misalignment",
+        "performance evaluation",
+        "underwater optical links"
+      ],
+      "url": "https://doi.org/10.23919/eucap68105.2026.11611998",
+      "cited_by_count": 1,
+      "importance": 0.4375,
+      "score_basis": {
+        "topic_overlap": 0.306,
+        "shared_references": 2,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410342176",
+      "doi": "10.1109/jphot.2025.3569824",
+      "title": "Adaptive Beam Steering and Divergence Control for Underwater Optical Wireless Communication Using Reinforcement Learning",
+      "authors": [
+        "Takumi Ishida",
+        "Chedlia Ben Naila",
+        "Hiraku Okada"
+      ],
+      "year": 2025,
+      "venue": "IEEE Photonics Journal",
+      "venue_abbr": "IEEE Photon. J.",
+      "rank_label": "CIE T2 · 2023",
+      "keywords": [
+        "underwater optical communication",
+        "beam steering",
+        "beam divergence control",
+        "deep Q-network",
+        "long short-term memory",
+        "reinforcement learning",
+        "underwater turbulence",
+        "intensity fluctuations"
+      ],
+      "url": "https://doi.org/10.1109/jphot.2025.3569824",
+      "cited_by_count": 8,
+      "importance": 0.4166,
+      "score_basis": {
+        "topic_overlap": 0.37,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4412937484",
+      "doi": "10.1038/s41598-025-10935-w",
+      "title": "Modeling and simulation of optical wireless communication channels in IoUT considering water types turbulence and transmitter selection",
+      "authors": [
+        "M. Mokhtar Zayed",
+        "Mona Shokair"
+      ],
+      "year": 2025,
+      "venue": "Scientific Reports",
+      "venue_abbr": "Sci. Rep.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical wireless communication",
+        "Internet of Underwater Things",
+        "atmospheric turbulence",
+        "laser diode transmitter",
+        "LED transmitter",
+        "turbulence intensity",
+        "lognormal distribution",
+        "generalized gamma distribution",
+        "Weibull distribution",
+        "bit error rate",
+        "signal-to-noise ratio",
+        "received optical power"
+      ],
+      "url": "https://doi.org/10.1038/s41598-025-10935-w",
+      "cited_by_count": 31,
+      "importance": 0.3875,
+      "score_basis": {
+        "topic_overlap": 0.306,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2727434010",
+      "doi": "10.1049/iet-opt.2016.0132",
+      "title": "Use of Gaussian beam divergence to compensate for misalignment of underwater wireless optical communication links",
+      "authors": [
+        "Zahra Vali",
+        "Asghar Gholami",
+        "David G. Michelson",
+        "Zabih F. Ghassemlooy",
+        "Masood Omoomi",
+        "Hamed Noori"
+      ],
+      "year": 2017,
+      "venue": "IET Optoelectronics",
+      "venue_abbr": "IET Optoelectronics",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "transmitter-receiver misalignment",
+        "collimated laser beam",
+        "receiver sensitivity",
+        "power losses",
+        "channel bandwidth"
+      ],
+      "url": "https://doi.org/10.1049/iet-opt.2016.0132",
+      "cited_by_count": 31,
+      "importance": 0.3666,
+      "score_basis": {
+        "topic_overlap": 0.37,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2295285337",
+      "doi": "10.82444/warw.33712984",
+      "title": "Optical property variability in the underwater optical wireless channel",
+      "authors": [
+        "Laura J. Johnson"
+      ],
+      "year": 2026,
+      "venue": "Warwick Research Archive Portal (University of Warwick)",
+      "venue_abbr": "Warwick Research Archive Portal (University of Warwick)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "underwater optical communication",
+        "turbidity",
+        "Monte Carlo ray tracing",
+        "refractive index change",
+        "beam refraction"
+      ],
+      "url": "https://doi.org/10.82444/warw.33712984",
+      "cited_by_count": 11,
+      "importance": 0.3435,
+      "score_basis": {
+        "topic_overlap": 0.319,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3116765066",
+      "doi": "10.17350/hjse19030000197",
+      "title": "Investigation of Underwater Wireless Optical Communication Channel Capacity for Different Environment and System Parameters",
+      "authors": [
+        "Yiğit Mahmutoğlu",
+        "Kadir Türk",
+        "Cenk Albayrak"
+      ],
+      "year": 2020,
+      "venue": "Hittite Journal of Science & Engineering",
+      "venue_abbr": "Hittite Journal of Science & Engineering",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "channel capacity",
+        "signal-to-noise ratio",
+        "beam divergence",
+        "optical absorption and scattering",
+        "seawater",
+        "harbor water"
+      ],
+      "url": "https://doi.org/10.17350/hjse19030000197",
+      "cited_by_count": 8,
+      "importance": 0.3398,
+      "score_basis": {
+        "topic_overlap": 0.311,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2043832411",
+      "doi": "10.1364/josaa.31.000920",
+      "title": "Simulating channel losses in an underwater optical communication system",
+      "authors": [
+        "William C. Cox",
+        "John F. Muth"
+      ],
+      "year": 2014,
+      "venue": "Journal of the Optical Society of America A",
+      "venue_abbr": "Journal of the Optical Society of America A",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "underwater optical communication",
+        "received power",
+        "receiver aperture size",
+        "field of view",
+        "tracking loss",
+        "Monte Carlo simulation"
+      ],
+      "url": "https://doi.org/10.1364/josaa.31.000920",
+      "cited_by_count": 154,
+      "importance": 0.3335,
+      "score_basis": {
+        "topic_overlap": 0.297,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410227698",
+      "doi": "10.1109/wcnc61545.2025.10978778",
+      "title": "UniSDM Proof of Concept: A Multimode Software Defined Modem for Underwater Communications",
+      "authors": [
+        "Artem Gorodilov",
+        "Igor V. Zhilin",
+        "Adham Sakhnini",
+        "Jennifer Simonjan",
+        "Ian Fuat Akyildiz"
+      ],
+      "year": 2025,
+      "venue": "IEEE Wireless Communications and Networking Conference",
+      "venue_abbr": "IEEE Wireless Communications and Networking Conference",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "underwater acoustic communication",
+        "underwater optical communication",
+        "magnetic induction communication",
+        "radio frequency communication",
+        "firmware architecture",
+        "OFDM",
+        "cooperative MIMO"
+      ],
+      "url": "https://doi.org/10.1109/wcnc61545.2025.10978778",
+      "cited_by_count": 4,
+      "importance": 0.318,
+      "score_basis": {
+        "topic_overlap": 0.262,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4382562417",
+      "doi": "10.1109/esdc56251.2023.10149859",
+      "title": "ML-based techniques for prediction of Ocean currents for underwater vehicles",
+      "authors": [
+        "Shaik Shakeera",
+        "V. Bala Naga Jyothi",
+        "Hrishikesh Venkataraman"
+      ],
+      "year": 2023,
+      "venue": "刊会待核实",
+      "venue_abbr": "待核实",
+      "rank_label": "等级待核实",
+      "keywords": [
+        "ocean current prediction",
+        "underwater vehicles",
+        "underwater vehicle navigation",
+        "regression trees",
+        "regression model comparison",
+        "ocean current estimation",
+        "real-time navigation"
+      ],
+      "url": "https://doi.org/10.1109/esdc56251.2023.10149859",
+      "cited_by_count": 3,
+      "importance": 0.2825,
+      "score_basis": {
+        "topic_overlap": 0.183,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4405703065",
+      "doi": "10.1117/1.oe.63.12.128105",
+      "title": "Scintillation index analysis for multi-wavelength Gaussian beams in turbulent underwater channels",
+      "authors": [
+        "Shideh Tayebnaimi",
+        "Kamran Kıasaleh"
+      ],
+      "year": 2024,
+      "venue": "Optical Engineering",
+      "venue_abbr": "Opt. Eng.",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "scintillation index",
+        "underwater optical communication",
+        "weak turbulence",
+        "absorption",
+        "scattering",
+        "underwater optical links"
+      ],
+      "url": "https://doi.org/10.1117/1.oe.63.12.128105",
+      "cited_by_count": 10,
+      "importance": 0.2744,
+      "score_basis": {
+        "topic_overlap": 0.165,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1979254282",
+      "doi": "10.1364/ao.38.006826",
+      "title": "Chlorophyll-based model of seawater optical properties",
+      "authors": [
+        "Vladimir I. Haltrin"
+      ],
+      "year": 1999,
+      "venue": "Applied Optics",
+      "venue_abbr": "AO",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "seawater optical properties",
+        "inherent optical properties",
+        "chlorophyll content",
+        "colored dissolved organic matter",
+        "humic acid",
+        "fulvic acid",
+        "suspended particulate matter",
+        "biogenic particles",
+        "color indices",
+        "one-parameter model",
+        "ocean color"
+      ],
+      "url": "https://doi.org/10.1364/ao.38.006826",
+      "cited_by_count": 264,
+      "importance": 0.2461,
+      "score_basis": {
+        "topic_overlap": 0.014,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2038720636",
+      "doi": "10.1029/2005jc003207",
+      "title": "Vertical distribution of phytoplankton communities in open ocean: An assessment based on surface chlorophyll",
+      "authors": [
+        "Julia Uitz",
+        "Hervé Claustre",
+        "André Morel",
+        "Stanford B. Hooker"
+      ],
+      "year": 2006,
+      "venue": "Journal of Geophysical Research Atmospheres",
+      "venue_abbr": "Journal of Geophysical Research Atmospheres",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "phytoplankton vertical distribution",
+        "surface chlorophyll-a",
+        "phytoplankton community structure",
+        "phytoplankton size classes",
+        "microplankton",
+        "nanoplankton",
+        "picoplankton",
+        "HPLC pigment analysis",
+        "ocean color",
+        "Case 1 waters"
+      ],
+      "url": "https://doi.org/10.1029/2005jc003207",
+      "cited_by_count": 1109,
+      "importance": 0.2261,
+      "score_basis": {
+        "topic_overlap": 0.014,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
     }
   ],
-  "edges": []
+  "edges": [
+    {
+      "from": "W2789554261",
+      "to": "W1979254282",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2789554261"
+        }
+      ]
+    },
+    {
+      "from": "W3043432765",
+      "to": "W2789554261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3043432765"
+        }
+      ]
+    },
+    {
+      "from": "W4285286189",
+      "to": "W2789554261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4285286189"
+        }
+      ]
+    },
+    {
+      "from": "W4398249876",
+      "to": "W2789554261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398249876"
+        }
+      ]
+    },
+    {
+      "from": "W4398249876",
+      "to": "W3043432765",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398249876"
+        }
+      ]
+    },
+    {
+      "from": "W4398249876",
+      "to": "W4285286189",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4398249876"
+        }
+      ]
+    },
+    {
+      "from": "W4410342176",
+      "to": "W4285286189",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410342176"
+        }
+      ]
+    },
+    {
+      "from": "W4412937484",
+      "to": "W3043432765",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4412937484"
+        }
+      ]
+    },
+    {
+      "from": "W7202177491",
+      "to": "W1979254282",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202177491"
+        }
+      ]
+    },
+    {
+      "from": "W7202177491",
+      "to": "W2038720636",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202177491"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W1979254282",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W2038720636",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W2043832411",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W2295285337",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W2727434010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W2789554261",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W3043432765",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W3116765066",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W4285286189",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W4382562417",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W4398249876",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W4405703065",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W4410227698",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W4410342176",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W4412937484",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    },
+    {
+      "from": "W7220698232",
+      "to": "W7202177491",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7220698232"
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,2450 @@
+{
+  "schema": "paperflow.citation-graph/v1",
+  "record_id": "86c291db-67c1-4f1d-b0ed-e069bdf5ba53",
+  "root": "W7161181706",
+  "status": "ok",
+  "checked_at": "2026-11-22T00:44:10.615987+00:00",
+  "coverage": {
+    "references_found": 32,
+    "citing_found": 1,
+    "reference_limit": 100,
+    "citing_limit": 30,
+    "display_limit": 41,
+    "references_status": "partial",
+    "citing_status": "ok",
+    "candidates_resolved": 31,
+    "displayed": 31
+  },
+  "issues": [],
+  "refresh_failed": false,
+  "nodes": [
+    {
+      "id": "W7161181706",
+      "doi": "10.1145/3842721.3849673",
+      "title": "B ridge : Optimizing Collective Communication Schedules in Reconfigurable Networks with Reusable Subrings",
+      "authors": [
+        "Anton Juerss",
+        "Stefan Schmid"
+      ],
+      "year": 2026,
+      "venue": "ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)",
+      "venue_abbr": "ACM International Symposium on Theory, Algorithmic Foundations, and Protocol Design for Mobile Networks and Mobile Computing (MobiHoc)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "collective communication",
+        "network reconfiguration",
+        "AllReduce",
+        "reconfiguration delay",
+        "propagation delay"
+      ],
+      "url": "https://doi.org/10.1145/3842721.3849673",
+      "cited_by_count": 1,
+      "importance": 1,
+      "score_basis": {},
+      "role": "root",
+      "reading_url": "items/86c291db-67c1-4f1d-b0ed-e069bdf5ba53.html",
+      "summary": "论文提出 Bridge，利用 Bruck 通信模式进行稀疏拓扑重配置，直连当前通信伙伴，并通过相互连通的子环保留到后续通信伙伴的可达性，使光链路可跨多个通信步骤复用。摘要报告，在所评估的条件下，All-to-All 的完成时间通常为静态基线的十分之一至三分之一，且该策略在毫秒级重配置延迟下仍然有效。",
+      "summary_basis": "本站解读 · abstract-only"
+    },
+    {
+      "id": "W7202178888",
+      "doi": "10.1145/3789240.3829166",
+      "title": "Harvest: Adaptive Photonic Switching Schedules for Collective Communication in Scale-up Domains",
+      "authors": [
+        "Mostafijur Rahman",
+        "Samuel Joseph",
+        "Nihar Kodkani",
+        "Behnaz Arzani",
+        "Vamsi Addanki"
+      ],
+      "year": 2026,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "adaptive reconfiguration",
+        "collective communication",
+        "silicon photonics",
+        "chip-to-chip interconnects",
+        "circuit-switched networks",
+        "reconfiguration overhead",
+        "congestion reduction",
+        "propagation delay"
+      ],
+      "url": "https://doi.org/10.1145/3789240.3829166",
+      "cited_by_count": 6,
+      "importance": 0.7181,
+      "score_basis": {
+        "topic_overlap": 0.507,
+        "shared_references": 15,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416276828",
+      "doi": "10.1145/3772356.3772395",
+      "title": "When Light Bends to the Collective Will: A Theory and Vision for Adaptive Photonic Scale-up Domains",
+      "authors": [
+        "Vamsi Addanki"
+      ],
+      "year": 2025,
+      "venue": "ACM Workshop on Hot Topics in Networks (HotNets)",
+      "venue_abbr": "ACM Workshop on Hot Topics in Networks (HotNets)",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "collective communication",
+        "silicon photonics",
+        "adaptive topology",
+        "reconfiguration delay",
+        "AllReduce",
+        "chip-to-chip interconnects",
+        "optical interconnects"
+      ],
+      "url": "https://doi.org/10.1145/3772356.3772395",
+      "cited_by_count": 9,
+      "importance": 0.6654,
+      "score_basis": {
+        "topic_overlap": 0.345,
+        "shared_references": 9,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7202191289",
+      "doi": "10.1145/3789240.3822611",
+      "title": "Revisiting Bruck: Phase-Efficient All-to-All Collective Communication in Reconfigurable Networks",
+      "authors": [
+        "Anton Juerss",
+        "Stefan Schmid"
+      ],
+      "year": 2026,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "reconfigurable networks",
+        "network reconfiguration",
+        "distributed learning",
+        "high-performance computing",
+        "interconnect scalability"
+      ],
+      "url": "https://doi.org/10.1145/3789240.3822611",
+      "cited_by_count": 3,
+      "importance": 0.6625,
+      "score_basis": {
+        "topic_overlap": 0.383,
+        "shared_references": 16,
+        "local_citations": 2
+      },
+      "role": "both",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4410343081",
+      "doi": "10.1145/3708980",
+      "title": "Revolutionizing Datacenter Networks via Reconfigurable Topologies",
+      "authors": [
+        "Chen Avin",
+        "Stefan Schmid"
+      ],
+      "year": 2025,
+      "venue": "Communications of the ACM",
+      "venue_abbr": "Communications of the ACM",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "data center networks",
+        "optical switching",
+        "dynamic network reconfiguration",
+        "network topology"
+      ],
+      "url": "https://doi.org/10.1145/3708980",
+      "cited_by_count": 19,
+      "importance": 0.6482,
+      "score_basis": {
+        "topic_overlap": 0.352,
+        "shared_references": 5,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414969189",
+      "doi": "10.48550/arxiv.2510.03491",
+      "title": "SHORTCUT: In-Collective Topology Reconfiguration for Low-Latency AllReduce",
+      "authors": [
+        "Sarah-Michelle Hammer",
+        "Anton Juerss",
+        "Stefan Schmid"
+      ],
+      "year": 2025,
+      "venue": "arXiv",
+      "venue_abbr": "arXiv",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "AllReduce",
+        "recursive doubling",
+        "topology reconfiguration",
+        "reconfigurable optical interconnects",
+        "ring topology",
+        "multi-hop communication",
+        "reconfiguration delay"
+      ],
+      "url": "https://doi.org/10.48550/arxiv.2510.03491",
+      "cited_by_count": 4,
+      "importance": 0.6481,
+      "score_basis": {
+        "topic_overlap": 0.396,
+        "shared_references": 10,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416298042",
+      "doi": "10.1145/3772356.3772414",
+      "title": "Photonic Rails in ML Datacenters",
+      "authors": [
+        "Eric Ding",
+        "Chuhan Ouyang",
+        "Rachee Singh"
+      ],
+      "year": 2025,
+      "venue": "ACM Workshop on Hot Topics in Networks (HotNets)",
+      "venue_abbr": "ACM Workshop on Hot Topics in Networks (HotNets)",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical circuit switches",
+        "model parallelism",
+        "hybrid parallelism",
+        "all-to-all connectivity"
+      ],
+      "url": "https://doi.org/10.1145/3772356.3772414",
+      "cited_by_count": 13,
+      "importance": 0.595,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 6,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W7202167969",
+      "doi": "10.1145/3789240.3829181",
+      "title": "Trivance: Latency-Optimal AllReduce by Shortcutting Multiport Networks",
+      "authors": [
+        "Anton Juerss",
+        "Vamsi Addanki",
+        "Stefan Schmid"
+      ],
+      "year": 2026,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "AllReduce",
+        "collective communication",
+        "latency optimization",
+        "multiport networks",
+        "shortcutting",
+        "communication distance",
+        "bisection bandwidth",
+        "large-scale training",
+        "distributed computing"
+      ],
+      "url": "https://doi.org/10.1145/3789240.3829181",
+      "cited_by_count": 4,
+      "importance": 0.5868,
+      "score_basis": {
+        "topic_overlap": 0.326,
+        "shared_references": 4,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3188706325",
+      "doi": "10.1145/3452296.3472900",
+      "title": "SiP-ML: high-bandwidth optical network interconnects for machine learning training",
+      "authors": [
+        "Mehrdad Khani",
+        "Manya Ghobadi",
+        "Mohammad Alizadeh",
+        "Ziyi Zhu",
+        "Madeleine Strom Glick",
+        "K. Bergman",
+        "Amin M. Vahdat",
+        "Benjamin Klenk",
+        "Eiman Ebrahimi"
+      ],
+      "year": 2021,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "silicon photonics",
+        "machine learning training",
+        "deep neural network training",
+        "GPU interconnects",
+        "high-bandwidth communication",
+        "task decomposition",
+        "device placement",
+        "reconfiguration latency",
+        "strong scaling"
+      ],
+      "url": "https://doi.org/10.1145/3452296.3472900",
+      "cited_by_count": 172,
+      "importance": 0.5816,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4404240684",
+      "doi": "10.1145/3696348.3696856",
+      "title": "A case for server-scale photonic connectivity",
+      "authors": [
+        "Abhishek Vijaya Kumar",
+        "Arjun Devraj",
+        "Darius Bunandar",
+        "Rachee Singh"
+      ],
+      "year": 2024,
+      "venue": "ACM Workshop on Hot Topics in Networks (HotNets)",
+      "venue_abbr": "ACM Workshop on Hot Topics in Networks (HotNets)",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical interconnects",
+        "bandwidth allocation",
+        "large language model inference"
+      ],
+      "url": "https://doi.org/10.1145/3696348.3696856",
+      "cited_by_count": 23,
+      "importance": 0.555,
+      "score_basis": {
+        "topic_overlap": 0.233,
+        "shared_references": 3,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401176536",
+      "doi": "10.1145/3651890.3672248",
+      "title": "Shale: A Practical, Scalable Oblivious Reconfigurable Network",
+      "authors": [
+        "Daniel Amir",
+        "Nitika Saran",
+        "Tegan Wilson",
+        "Robert Kleinberg",
+        "Vishal Shrivastav",
+        "Hakim Weatherspoon"
+      ],
+      "year": 2024,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "reconfigurable optical networks",
+        "data center networks",
+        "circuit switching",
+        "throughput",
+        "Pareto optimality"
+      ],
+      "url": "https://doi.org/10.1145/3651890.3672248",
+      "cited_by_count": 38,
+      "importance": 0.5301,
+      "score_basis": {
+        "topic_overlap": 0.311,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4322756647",
+      "doi": "10.1145/3579312",
+      "title": "Mars: Near-Optimal Throughput with Shallow Buffers in Reconfigurable Datacenter Networks",
+      "authors": [
+        "Vamsi Addanki",
+        "Chen Avin",
+        "Stefan Schmid"
+      ],
+      "year": 2023,
+      "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+      "venue_abbr": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical circuit switches",
+        "buffer constraints",
+        "throughput",
+        "delay tolerance",
+        "Mars",
+        "opera",
+        "Sirius"
+      ],
+      "url": "https://doi.org/10.1145/3579312",
+      "cited_by_count": 41,
+      "importance": 0.5163,
+      "score_basis": {
+        "topic_overlap": 0.303,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4322762499",
+      "doi": "10.1145/3579449",
+      "title": "Duo: A High-Throughput Reconfigurable Datacenter Network Using Local Routing and Control",
+      "authors": [
+        "Johannes Zerwas",
+        "Csaba Györgyi",
+        "Andreas Blenk",
+        "Stefan Schmid",
+        "Chen Avin"
+      ],
+      "year": 2023,
+      "venue": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+      "venue_abbr": "Proceedings of the ACM on Measurement and Analysis of Computing Systems",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical circuit switches",
+        "multi-hop routing",
+        "greedy routing",
+        "longest prefix matching",
+        "control plane"
+      ],
+      "url": "https://doi.org/10.1145/3579449",
+      "cited_by_count": 40,
+      "importance": 0.5145,
+      "score_basis": {
+        "topic_overlap": 0.277,
+        "shared_references": 3,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401176521",
+      "doi": "10.1145/3651890.3672233",
+      "title": "RDMA over Ethernet for Distributed Training at Meta Scale",
+      "authors": [
+        "Adithya Gangidi",
+        "Rui Miao",
+        "Shengbao Zheng",
+        "Sai Jayesh Bondu",
+        "Guilherme Goes",
+        "Hany Morsy",
+        "Rohit Puri",
+        "Mohammad Riftadi",
+        "Ashmitha Jeevaraj Shetty",
+        "Jingyi Yang",
+        "Shuqiang Zhang",
+        "Mikel Jimenez Fernandez",
+        "Shashidhar Gandham",
+        "Hongyi Zeng"
+      ],
+      "year": 2024,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "RDMA over Converged Ethernet",
+        "RoCE",
+        "network infrastructure",
+        "high-performance computing networks",
+        "Meta",
+        "large-scale machine learning"
+      ],
+      "url": "https://doi.org/10.1145/3651890.3672233",
+      "cited_by_count": 324,
+      "importance": 0.5045,
+      "score_basis": {
+        "topic_overlap": 0.277,
+        "shared_references": 2,
+        "local_citations": 4
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2131613942",
+      "doi": "10.1177/1094342005051521",
+      "title": "Optimization of Collective Communication Operations in MPICH",
+      "authors": [
+        "Rajeev Thakur",
+        "Rolf Rabenseifner",
+        "William Gropp"
+      ],
+      "year": 2005,
+      "venue": "The International Journal of High Performance Computing Applications",
+      "venue_abbr": "The International Journal of High Performance Computing Applications",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "collective communication",
+        "MPICH",
+        "Message Passing Interface",
+        "switched networks",
+        "AllReduce",
+        "REDUCE",
+        "broadcasting",
+        "algorithm selection",
+        "message size",
+        "latency",
+        "bandwidth",
+        "Myrinet"
+      ],
+      "url": "https://doi.org/10.1177/1094342005051521",
+      "cited_by_count": 1168,
+      "importance": 0.4953,
+      "score_basis": {
+        "topic_overlap": 0.323,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2819181356",
+      "doi": "10.1145/3310165.3310170",
+      "title": "Toward demand-aware networking: a theory for self-adjusting networks",
+      "authors": [
+        "Chen Avin",
+        "Stefan Schmid"
+      ],
+      "year": 2019,
+      "venue": "ACM SIGCOMM Computer Communication Review",
+      "venue_abbr": "ACM SIGCOMM Computer Communication Review",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "self-adjusting data structures",
+        "reconfigurable networks",
+        "network topology",
+        "network design",
+        "expander",
+        "algorithmic models"
+      ],
+      "url": "https://doi.org/10.1145/3310165.3310170",
+      "cited_by_count": 89,
+      "importance": 0.4938,
+      "score_basis": {
+        "topic_overlap": 0.186,
+        "shared_references": 3,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2743429249",
+      "doi": "10.1145/3098822.3098838",
+      "title": "RotorNet: A Scalable, Low-complexity, Optical Datacenter Network",
+      "authors": [
+        "William Maxwell Mellette",
+        "Rob McGuinness",
+        "Arjun Roy",
+        "Alex Forencich",
+        "George C. Papen",
+        "Alex C. Snoeren",
+        "George Porter"
+      ],
+      "year": 2017,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical circuit switches",
+        "demand estimation",
+        "centralized control plane",
+        "clock synchronization",
+        "network scalability",
+        "optical reconfiguration"
+      ],
+      "url": "https://doi.org/10.1145/3098822.3098838",
+      "cited_by_count": 327,
+      "importance": 0.4752,
+      "score_basis": {
+        "topic_overlap": 0.278,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4380874786",
+      "doi": "10.1145/3579371.3589350",
+      "title": "TPU v4: An Optically Reconfigurable Supercomputer for Machine Learning with Hardware Support for Embeddings",
+      "authors": [
+        "Norman Paul Jouppi",
+        "George Thomas Kurian",
+        "Sheng Li",
+        "Peter Ma",
+        "Rahul Nagarajan",
+        "Lifeng Nai",
+        "Nishant P. Patil",
+        "Suvinay Subramanian",
+        "Andy Swing",
+        "Brian Towles",
+        "Cliff Young",
+        "Xiang Zhou",
+        "Zongwei Zhou",
+        "David A. Patterson"
+      ],
+      "year": 2023,
+      "venue": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+      "venue_abbr": "Proceedings - International Symposium on Computer Architecture/Proceedings",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical circuit switches",
+        "reconfigurable interconnects",
+        "domain-specific architectures",
+        "machine learning accelerators",
+        "embeddings",
+        "warehouse-scale computers",
+        "energy efficiency",
+        "large language model training",
+        "Google Cloud Platform"
+      ],
+      "url": "https://doi.org/10.1145/3579371.3589350",
+      "cited_by_count": 913,
+      "importance": 0.4621,
+      "score_basis": {
+        "topic_overlap": 0.249,
+        "shared_references": 1,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4416429858",
+      "doi": "10.1109/hoti66940.2025.00024",
+      "title": "Demystifying NCCL: An In-Depth Analysis of GPU Communication Protocols and Algorithms",
+      "authors": [
+        "Zhiyi Hu",
+        "Siyuan Shen",
+        "Tommaso Bonato",
+        "Sylvain Jeaugey",
+        "Cedell A. Alexander",
+        "Eric Spada",
+        "James Dinan",
+        "Jeff R. Hammond",
+        "Torsten Hoefler"
+      ],
+      "year": 2025,
+      "venue": "IEEE Symposium on High-Performance Interconnects (HOTI)",
+      "venue_abbr": "IEEE Symposium on High-Performance Interconnects (HOTI)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "NCCL",
+        "collective communication",
+        "tree-based algorithms",
+        "memory movements",
+        "network simulation",
+        "GPU clusters",
+        "performance bottlenecks"
+      ],
+      "url": "https://doi.org/10.1109/hoti66940.2025.00024",
+      "cited_by_count": 127,
+      "importance": 0.4563,
+      "score_basis": {
+        "topic_overlap": 0.303,
+        "shared_references": 2,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4380669401",
+      "doi": "10.1145/3578338.3593551",
+      "title": "Mars: Near-Optimal Throughput with Shallow Buffers in Reconfigurable Datacenter Networks",
+      "authors": [
+        "Vamsi Addanki",
+        "Chen Avin",
+        "Stefan Schmid"
+      ],
+      "year": 2023,
+      "venue": "ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)",
+      "venue_abbr": "ACM SIGMETRICS International Conference on Measurement and Modeling of Computer Systems (SIGMETRICS)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical circuit switches",
+        "network throughput"
+      ],
+      "url": "https://doi.org/10.1145/3578338.3593551",
+      "cited_by_count": 11,
+      "importance": 0.4332,
+      "score_basis": {
+        "topic_overlap": 0.318,
+        "shared_references": 1,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4381886086",
+      "doi": "10.1109/ispass57527.2023.00035",
+      "title": "ASTRA-sim2.0: Modeling Hierarchical Networks and Disaggregated Systems for Large-model Training at Scale",
+      "authors": [
+        "William Won",
+        "Taekyung Heo",
+        "Saeed Rashidi",
+        "Srinivas Sridharan",
+        "Sudarshan Srinivasan",
+        "Tushar Krishna"
+      ],
+      "year": 2023,
+      "venue": "IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+      "venue_abbr": "IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "distributed deep learning training",
+        "model parallelization",
+        "hardware-software co-design",
+        "design space exploration",
+        "training throughput"
+      ],
+      "url": "https://doi.org/10.1109/ispass57527.2023.00035",
+      "cited_by_count": 213,
+      "importance": 0.4236,
+      "score_basis": {
+        "topic_overlap": 0.252,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4417291153",
+      "doi": "10.1145/3760789",
+      "title": "Optimal, Non-pipelined Reduce-scatter and Allreduce Algorithms with an Application to All-to-all Communication",
+      "authors": [
+        "Jesper Larsson Träff"
+      ],
+      "year": 2025,
+      "venue": "ACM Transactions on Parallel Computing",
+      "venue_abbr": "ACM Transactions on Parallel Computing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "AllReduce",
+        "all-to-all communication",
+        "collective communication",
+        "circulant graphs",
+        "communication volume"
+      ],
+      "url": "https://doi.org/10.1145/3760789",
+      "cited_by_count": 8,
+      "importance": 0.3901,
+      "score_basis": {
+        "topic_overlap": 0.311,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2151668565",
+      "doi": "10.1145/2486001.2486007",
+      "title": "Integrating microsecond circuit switching into the data center",
+      "authors": [
+        "George Porter",
+        "Richard D. Strong",
+        "Nathan Farrington",
+        "Alex Forencich",
+        "Pang Chen-Sun",
+        "Tajana Rosing",
+        "Yeshaiahu Fainman",
+        "George C. Papen",
+        "Amin M. Vahdat"
+      ],
+      "year": 2013,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "optical circuit switching",
+        "data center networks",
+        "control plane latency",
+        "network cost reduction"
+      ],
+      "url": "https://doi.org/10.1145/2486001.2486007",
+      "cited_by_count": 343,
+      "importance": 0.375,
+      "score_basis": {
+        "topic_overlap": 0.167,
+        "shared_references": 0,
+        "local_citations": 5
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2895885627",
+      "doi": "10.1145/2964791.2901479",
+      "title": "Costly Circuits, Submodular Schedules and Approximate Carathéodory Theorems",
+      "authors": [
+        "Shaileshh Bojja Venkatakrishnan",
+        "Mohammad Alizadeh",
+        "Pramod Viswanath"
+      ],
+      "year": 2016,
+      "venue": "ACM SIGMETRICS Performance Evaluation Review",
+      "venue_abbr": "ACM SIGMETRICS Performance Evaluation Review",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "hybrid switching",
+        "packet switches",
+        "reconfiguration cost",
+        "submodular optimization",
+        "Carathéodory's theorem",
+        "Birkhoff polytope",
+        "data center interconnects",
+        "multi-hop routing"
+      ],
+      "url": "https://doi.org/10.1145/2964791.2901479",
+      "cited_by_count": 19,
+      "importance": 0.3713,
+      "score_basis": {
+        "topic_overlap": 0.269,
+        "shared_references": 1,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4401176799",
+      "doi": "10.1145/3651890.3672265",
+      "title": "Alibaba HPN: A Data Center Network for Large Language Model Training",
+      "authors": [
+        "Kun Qian",
+        "Yongqing Xi",
+        "Jiamin Cao",
+        "Jiaqi Gao",
+        "Yichi Xu",
+        "Yu Guan",
+        "Binzhang Fu",
+        "Xuemei Shi",
+        "Fangbo Zhu",
+        "Rui Miao",
+        "Chao Wang",
+        "Peng Wang",
+        "Pengcheng Zhang",
+        "Xianlong Zeng",
+        "Eddie Ruan",
+        "Zhiping Yao",
+        "Ennan Zhai",
+        "Dennis Cai"
+      ],
+      "year": 2024,
+      "venue": "ACM SIGCOMM Conference (SIGCOMM)",
+      "venue_abbr": "ACM SIGCOMM Conference (SIGCOMM)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "large language model training",
+        "two-tier network architecture",
+        "single point of failure",
+        "traffic patterns",
+        "fault tolerance",
+        "path selection"
+      ],
+      "url": "https://doi.org/10.1145/3651890.3672265",
+      "cited_by_count": 315,
+      "importance": 0.3711,
+      "score_basis": {
+        "topic_overlap": 0.136,
+        "shared_references": 1,
+        "local_citations": 3
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2018346931",
+      "doi": "10.1145/181014.181756",
+      "title": "Efficient algorithms for all-to-all communications in multi-port message-passing systems",
+      "authors": [
+        "Jehoshua Bruck",
+        "Ching‐Tien Ho",
+        "Shlomo Kipnis",
+        "Derrick Weathersby"
+      ],
+      "year": 1994,
+      "venue": "ACM Symposium on Parallelism in Algorithms and Architectures (SPAA)",
+      "venue_abbr": "ACM Symposium on Parallelism in Algorithms and Architectures (SPAA)",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "all-to-all communication",
+        "all-to-all broadcast",
+        "concatenation",
+        "fully connected networks",
+        "communication bandwidth",
+        "parallel algorithms",
+        "time complexity"
+      ],
+      "url": "https://doi.org/10.1145/181014.181756",
+      "cited_by_count": 103,
+      "importance": 0.3639,
+      "score_basis": {
+        "topic_overlap": 0.275,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2059300917",
+      "doi": "10.1016/s0167-8191(06)80021-9",
+      "title": "The communication challenge for MPP: Intel Paragon and Meiko CS-2",
+      "authors": [
+        "Roger W. Hockney"
+      ],
+      "year": 1994,
+      "venue": "Parallel Computing",
+      "venue_abbr": "Parallel Computing",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "interprocessor communication",
+        "massively parallel computers",
+        "Intel Paragon",
+        "Cray C90",
+        "communication bandwidth",
+        "vector processing"
+      ],
+      "url": "https://doi.org/10.1016/s0167-8191(06)80021-9",
+      "cited_by_count": 388,
+      "importance": 0.3554,
+      "score_basis": {
+        "topic_overlap": 0.257,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W1512808804",
+      "doi": "10.1007/978-3-642-15646-5_3",
+      "title": "Toward Performance Models of MPI Implementations for Understanding Application Scaling Issues",
+      "authors": [
+        "Torsten Hoefler",
+        "William Gropp",
+        "Rajeev Thakur",
+        "Jesper Larsson Träff"
+      ],
+      "year": 2010,
+      "venue": "Lecture notes in computer science",
+      "venue_abbr": "Lecture notes in computer science",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "MPI implementation",
+        "performance models",
+        "scalability",
+        "collective communication",
+        "broadcasting",
+        "AllReduce",
+        "bisection bandwidth",
+        "analytical performance model",
+        "IBM Blue Gene/P"
+      ],
+      "url": "https://doi.org/10.1007/978-3-642-15646-5_3",
+      "cited_by_count": 53,
+      "importance": 0.3316,
+      "score_basis": {
+        "topic_overlap": 0.292,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W3008830959",
+      "doi": "10.1145/2534169.2486007",
+      "title": "Integrating microsecond circuit switching into the data center",
+      "authors": [
+        "George Porter",
+        "Richard D. Strong",
+        "Nathan Farrington",
+        "Alex Forencich",
+        "Pang Chen-Sun",
+        "Tajana Rosing",
+        "Yeshaiahu Fainman",
+        "George C. Papen",
+        "Amin M. Vahdat"
+      ],
+      "year": 2013,
+      "venue": "ACM SIGCOMM Computer Communication Review",
+      "venue_abbr": "ACM SIGCOMM Computer Communication Review",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "optical circuit switching",
+        "data center networks",
+        "control plane latency",
+        "spectral efficiency"
+      ],
+      "url": "https://doi.org/10.1145/2534169.2486007",
+      "cited_by_count": 143,
+      "importance": 0.3038,
+      "score_basis": {
+        "topic_overlap": 0.142,
+        "shared_references": 0,
+        "local_citations": 2
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4235732943",
+      "doi": "10.1145/2829988.2787484",
+      "title": "Congestion Control for Large-Scale RDMA Deployments",
+      "authors": [
+        "Yibo Zhu",
+        "Haggai Eran",
+        "Daniel Firestone",
+        "Chuanxiong Guo",
+        "Marina Lipshteyn",
+        "Yehonatan Liron",
+        "Jitendra D. Padhye",
+        "Shachar Raindel",
+        "Mohamad Haj Yahia",
+        "Ming Zhang"
+      ],
+      "year": 2015,
+      "venue": "ACM SIGCOMM Computer Communication Review",
+      "venue_abbr": "ACM SIGCOMM Computer Communication Review",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "congestion control",
+        "RDMA",
+        "RoCEv2",
+        "DCQCN",
+        "head-of-line blocking",
+        "fairness",
+        "fluid model",
+        "data center networks",
+        "Clos network"
+      ],
+      "url": "https://doi.org/10.1145/2829988.2787484",
+      "cited_by_count": 522,
+      "importance": 0.2914,
+      "score_basis": {
+        "topic_overlap": 0.159,
+        "shared_references": 0,
+        "local_citations": 1
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W2036003010",
+      "doi": "10.1145/2785956.2787484",
+      "title": "Congestion Control for Large-Scale RDMA Deployments",
+      "authors": [
+        "Yibo Zhu",
+        "Haggai Eran",
+        "Daniel Firestone",
+        "Chuanxiong Guo",
+        "Marina Lipshteyn",
+        "Yehonatan Liron",
+        "Jitendra D. Padhye",
+        "Shachar Raindel",
+        "Mohamad Haj Yahia",
+        "Ming Zhang"
+      ],
+      "year": 2015,
+      "venue": "ACM Special Interest Group on Data Communication",
+      "venue_abbr": "ACM Special Interest Group on Data Communication",
+      "rank_label": "未匹配 CIE 2023",
+      "keywords": [
+        "congestion control",
+        "RDMA",
+        "RoCEv2",
+        "head-of-line blocking",
+        "fairness",
+        "DCQCN",
+        "fluid model",
+        "data center networks",
+        "Clos network"
+      ],
+      "url": "https://doi.org/10.1145/2785956.2787484",
+      "cited_by_count": 591,
+      "importance": 0.2714,
+      "score_basis": {
+        "topic_overlap": 0.159,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    },
+    {
+      "id": "W4414273169",
+      "doi": "10.1109/hcs66204.2025.11154400",
+      "title": "Ironwood: Delivering Best in Class perf, perf/TCO and perf/Watt for Reasoning Model Training and Serving",
+      "authors": [
+        "Norman Paul Jouppi",
+        "Sridhar Lakshmanamurthy"
+      ],
+      "year": 2025,
+      "venue": "IEEE Hot Chips Symposium",
+      "venue_abbr": "IEEE Hot Chips Symposium",
+      "rank_label": "不适用期刊等级",
+      "keywords": [
+        "ironwood",
+        "performance per watt",
+        "total cost of ownership",
+        "large language models",
+        "inference efficiency"
+      ],
+      "url": "https://doi.org/10.1109/hcs66204.2025.11154400",
+      "cited_by_count": 6,
+      "importance": 0.2525,
+      "score_basis": {
+        "topic_overlap": 0.117,
+        "shared_references": 0,
+        "local_citations": 0
+      },
+      "role": "reference",
+      "reading_url": null,
+      "summary": "",
+      "summary_basis": "仅题录；摘要尚未核对"
+    }
+  ],
+  "edges": [
+    {
+      "from": "W2131613942",
+      "to": "W2059300917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2131613942"
+        }
+      ]
+    },
+    {
+      "from": "W2743429249",
+      "to": "W2151668565",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2743429249"
+        }
+      ]
+    },
+    {
+      "from": "W2819181356",
+      "to": "W2151668565",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2819181356"
+        }
+      ]
+    },
+    {
+      "from": "W2819181356",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2819181356"
+        }
+      ]
+    },
+    {
+      "from": "W2819181356",
+      "to": "W3008830959",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2819181356"
+        }
+      ]
+    },
+    {
+      "from": "W2895885627",
+      "to": "W2151668565",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W2895885627"
+        }
+      ]
+    },
+    {
+      "from": "W3188706325",
+      "to": "W2131613942",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3188706325"
+        }
+      ]
+    },
+    {
+      "from": "W3188706325",
+      "to": "W2151668565",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3188706325"
+        }
+      ]
+    },
+    {
+      "from": "W3188706325",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W3188706325"
+        }
+      ]
+    },
+    {
+      "from": "W4322756647",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322756647"
+        }
+      ]
+    },
+    {
+      "from": "W4322756647",
+      "to": "W4322762499",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322756647"
+        }
+      ]
+    },
+    {
+      "from": "W4322762499",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322762499"
+        }
+      ]
+    },
+    {
+      "from": "W4322762499",
+      "to": "W2819181356",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322762499"
+        }
+      ]
+    },
+    {
+      "from": "W4322762499",
+      "to": "W4380669401",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4322762499"
+        }
+      ]
+    },
+    {
+      "from": "W4380669401",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4380669401"
+        }
+      ]
+    },
+    {
+      "from": "W4380874786",
+      "to": "W3188706325",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4380874786"
+        }
+      ]
+    },
+    {
+      "from": "W4381886086",
+      "to": "W2131613942",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4381886086"
+        }
+      ]
+    },
+    {
+      "from": "W4401176521",
+      "to": "W4235732943",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401176521"
+        }
+      ]
+    },
+    {
+      "from": "W4401176521",
+      "to": "W4380874786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401176521"
+        }
+      ]
+    },
+    {
+      "from": "W4401176536",
+      "to": "W2151668565",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401176536"
+        }
+      ]
+    },
+    {
+      "from": "W4401176536",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401176536"
+        }
+      ]
+    },
+    {
+      "from": "W4401176536",
+      "to": "W4322756647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401176536"
+        }
+      ]
+    },
+    {
+      "from": "W4401176799",
+      "to": "W4380874786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4401176799"
+        }
+      ]
+    },
+    {
+      "from": "W4404240684",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404240684"
+        }
+      ]
+    },
+    {
+      "from": "W4404240684",
+      "to": "W3188706325",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404240684"
+        }
+      ]
+    },
+    {
+      "from": "W4404240684",
+      "to": "W4380874786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4404240684"
+        }
+      ]
+    },
+    {
+      "from": "W4410343081",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410343081"
+        }
+      ]
+    },
+    {
+      "from": "W4410343081",
+      "to": "W2819181356",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410343081"
+        }
+      ]
+    },
+    {
+      "from": "W4410343081",
+      "to": "W3188706325",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410343081"
+        }
+      ]
+    },
+    {
+      "from": "W4410343081",
+      "to": "W4322756647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410343081"
+        }
+      ]
+    },
+    {
+      "from": "W4410343081",
+      "to": "W4322762499",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4410343081"
+        }
+      ]
+    },
+    {
+      "from": "W4414969189",
+      "to": "W2131613942",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414969189"
+        }
+      ]
+    },
+    {
+      "from": "W4414969189",
+      "to": "W3188706325",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414969189"
+        }
+      ]
+    },
+    {
+      "from": "W4414969189",
+      "to": "W4380874786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414969189"
+        }
+      ]
+    },
+    {
+      "from": "W4414969189",
+      "to": "W4401176521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414969189"
+        }
+      ]
+    },
+    {
+      "from": "W4414969189",
+      "to": "W4404240684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414969189"
+        }
+      ]
+    },
+    {
+      "from": "W4414969189",
+      "to": "W4416276828",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414969189"
+        }
+      ]
+    },
+    {
+      "from": "W4414969189",
+      "to": "W4416298042",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414969189"
+        }
+      ]
+    },
+    {
+      "from": "W4414969189",
+      "to": "W4416429858",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414969189"
+        }
+      ]
+    },
+    {
+      "from": "W4414969189",
+      "to": "W7202167969",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414969189"
+        }
+      ]
+    },
+    {
+      "from": "W4414969189",
+      "to": "W7202178888",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4414969189"
+        }
+      ]
+    },
+    {
+      "from": "W4416276828",
+      "to": "W2131613942",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416276828"
+        }
+      ]
+    },
+    {
+      "from": "W4416276828",
+      "to": "W2151668565",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416276828"
+        }
+      ]
+    },
+    {
+      "from": "W4416276828",
+      "to": "W3188706325",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416276828"
+        }
+      ]
+    },
+    {
+      "from": "W4416276828",
+      "to": "W4322756647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416276828"
+        }
+      ]
+    },
+    {
+      "from": "W4416276828",
+      "to": "W4380669401",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416276828"
+        }
+      ]
+    },
+    {
+      "from": "W4416276828",
+      "to": "W4380874786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416276828"
+        }
+      ]
+    },
+    {
+      "from": "W4416276828",
+      "to": "W4401176521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416276828"
+        }
+      ]
+    },
+    {
+      "from": "W4416276828",
+      "to": "W4401176799",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416276828"
+        }
+      ]
+    },
+    {
+      "from": "W4416276828",
+      "to": "W4404240684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416276828"
+        }
+      ]
+    },
+    {
+      "from": "W4416298042",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416298042"
+        }
+      ]
+    },
+    {
+      "from": "W4416298042",
+      "to": "W3188706325",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416298042"
+        }
+      ]
+    },
+    {
+      "from": "W4416298042",
+      "to": "W4380874786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416298042"
+        }
+      ]
+    },
+    {
+      "from": "W4416298042",
+      "to": "W4401176521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416298042"
+        }
+      ]
+    },
+    {
+      "from": "W4416298042",
+      "to": "W4401176536",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416298042"
+        }
+      ]
+    },
+    {
+      "from": "W4416298042",
+      "to": "W4404240684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416298042"
+        }
+      ]
+    },
+    {
+      "from": "W4416429858",
+      "to": "W2131613942",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416429858"
+        }
+      ]
+    },
+    {
+      "from": "W4416429858",
+      "to": "W4381886086",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4416429858"
+        }
+      ]
+    },
+    {
+      "from": "W4417291153",
+      "to": "W2131613942",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W4417291153"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W1512808804",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W2018346931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W2036003010",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W2059300917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W2131613942",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W2151668565",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W2819181356",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W2895885627",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W3008830959",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W3188706325",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4235732943",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4322756647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4322762499",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4380669401",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4380874786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4381886086",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4401176521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4401176536",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4401176799",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4404240684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4410343081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4414273169",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4414969189",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4416276828",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4416298042",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4416429858",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W4417291153",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W7202167969",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W7202178888",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7161181706",
+      "to": "W7202191289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7161181706"
+        }
+      ]
+    },
+    {
+      "from": "W7202167969",
+      "to": "W2018346931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202167969"
+        }
+      ]
+    },
+    {
+      "from": "W7202167969",
+      "to": "W2059300917",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202167969"
+        }
+      ]
+    },
+    {
+      "from": "W7202167969",
+      "to": "W4380874786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202167969"
+        }
+      ]
+    },
+    {
+      "from": "W7202167969",
+      "to": "W7202191289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202167969"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W2131613942",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W2151668565",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W3188706325",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W4322756647",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W4380874786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W4381886086",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W4401176521",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W4401176536",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W4401176799",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W4404240684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W4410343081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W4414969189",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W4416276828",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202178888",
+      "to": "W7202191289",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202178888"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W2018346931",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W2131613942",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W2743429249",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W2819181356",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W3008830959",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W3188706325",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W4380874786",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W4381886086",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W4401176799",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W4404240684",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W4410343081",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W4416276828",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W4416298042",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W7161181706",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W7202167969",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    },
+    {
+      "from": "W7202191289",
+      "to": "W7202178888",
+      "sources": [
+        {
+          "provider": "OpenAlex",
+          "url": "https://api.openalex.org/works/W7202191289"
+        }
+      ]
+    }
+  ]
+}
